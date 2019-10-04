@@ -9,15 +9,15 @@ if (require("electron-squirrel-startup")) { // eslint-disable-line global-requir
   app.quit();
 }
 
-import { AppMenu } from "./background/build-menu";
-import { AppTray } from "./background/build-tray";
-import { Settings } from "./background/settings";
-import { Entities } from "./background/entities";
-import { TrainingData } from "./background/training-data";
-import { AppWindow } from "./background/window";
-import { NLP } from "./background/nlp.js";
+import { AppMenu } from "./build-menu";
+import { AppTray } from "./build-tray";
+import { Settings } from "./settings";
+import { Entities } from "./entities";
+import { TrainingData } from "./training-data";
+import { AppWindow } from "./window";
+import { NLP } from "./nlp.js";
 import fs from "fs";
-import config from "./background/views";
+import config from "./views";
 
 class Main {
   public app: App;

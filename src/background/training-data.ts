@@ -1,6 +1,7 @@
 import { ipcMain as ipc } from "electron";
 import uuidv1 from "uuid/v1";
 import { FileManager } from "./filemanager";
+import stringify from "json-stringify-pretty-compact";
 
 export class TrainingData {
   public activeFile: string = "";
@@ -12,7 +13,7 @@ export class TrainingData {
     ipc.on("save-training-file", async (e, file, data) => {
       await this.fm.saveFile(
         this.fm.normalizePath(file),
-        JSON.stringify(data)
+        stringify(data)
       ).then(success => {
         if (success) {
           e.reply("training-file-saved");

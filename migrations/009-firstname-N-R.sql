@@ -28287,7 +28287,6 @@ VALUES
 ('Parkasha'),
 ('Parkaypuek'),
 ('Parke'),
-('Parker'),
 ('Parkerson'),
 ('Parkes'),
 ('Parkesh'),
