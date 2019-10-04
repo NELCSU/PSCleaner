@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" 
+    content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src-elem 'self' 'unsafe-inline' es6: blob:;">
+  <title>PSCleaner</title>
+  <link rel="stylesheet" href="./css/shared.css">
+  <link rel="stylesheet" href="./css/preferences.css">
+  <script type="module" src="es6://lib/web-components/dist/web-components/web-components.esm.js"></script>
+</head>
+<body>
+  <nel-network-connection>
+    <div class="network"><span class="message">Application is offline</span></div>
+  </nel-network-connection>
+  <h2><a href="./index.html">Home</a> &gt; Preferences</h2>
+  
+  <div class="panel border pad">
+    <h3>Folder locations</h3>
+    <p>NLP model: <span class="file-path" id="lblModelFilePath"></span></p>
+    <div class="inline-panel flex-vcenter">
+      <a href="#" id="btnModelSelection" class="btn-link">Change</a>
+      <a href="#" id="btnClearModelSelection" class="btn-link warn">Clear</a>
+    </div>
+    <p>Training data files: <span class="file-path" id="lblTrainingFilePath"></span></p>
+    <div class="inline-panel flex-vcenter">
+      <a href="#" id="btnTrainingDataSelection" class="btn-link">Change</a>
+      <a href="#" id="btnClearTrainingDataSelection" class="btn-link warn">Clear</a>
+    </div>
+  </div>
+  <script src="./scripts/preferences.js"></script>
+</body>
+</html>

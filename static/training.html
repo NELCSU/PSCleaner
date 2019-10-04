@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" 
+    content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src-elem 'self' 'unsafe-inline' es6: blob:;">
+  <title>PSCleaner</title>
+  <link rel="stylesheet" href="./css/shared.css">
+  <link rel="stylesheet" href="./css/training.css">
+  <script type="module" src="es6://lib/web-components/dist/web-components/web-components.esm.js"></script>
+</head>
+<body>
+  <nel-network-connection>
+    <div class="network"><span class="message">Application is offline</span></div>
+  </nel-network-connection>
+  <h2><a href="./index.html">Home</a> &gt; Manage training data</h2>
+
+  <nel-modal-view id="mvEntityTagger">
+    <div class="modal-message">
+      <h3>Select an entity</h3>
+      <div class="modal-list">
+        <item-collection id="lstEntityTagger"></item-collection>
+      </div>
+      <div class="panel">
+        <a href="#" id="btnEntityTagger" class="btn-link">Cancel</a>
+      </div>
+    </div>
+  </nel-modal-view>
+
+  <div class="panel border pad">  
+    <div class="flex-vcenter flex-hright"><span id="hintTrainingDataCount"></span></div>
+    <div id="txtAddText" contentEditable aria-describedby="hintAddText"></div>
+      
+    <div class="flex-vcenter pad">
+      <a href="#" id="btnOpenText" class="btn-link" title="Open file">Open</a>
+      <a href="#" id="btnAddText" class="btn-link disabled" title="Save file">Save</a>
+      <a href="#" id="btnCloseFile" class="btn-link disabled" title="Close file">Close</a>
+      <a href="#" id="btnAutodiscover" class="btn-link disabled" title="Runs entity recognition process">Autodiscover</a>
+      <a href="#" id="btnClearTags" class="btn-link disabled" title="Remove any existing entity tags">Clear</a>
+      <div class="flex-vcenter flex-hright" id="pnlDelete">
+        <a href="#" id="btnDeleteTextFile" class="btn-link disabled warn" title="Delete file">Delete file</a>
+      </div>
+    </div>
+
+    <div id="pnlFileName" hidden>
+      <hr>
+      File name: <span id="lblFilename" class="file-path"></span>        
+      <div class="panel flex-vcenter">
+        <input id="chkFileRename" type="checkbox" />
+        <label for="chkFileRename">Rename</label>
+        <input class="disabled" placeholder="Enter a new filename" type="text" id="lblRenameFile" />
+        <a href="#" id="btnFileRename" class="btn-link disabled">Save</a>
+      </div>
+    </div>
+  </div>
+  <nel-expand-item>
+    <h4 slot="title">Help</h4>
+    <div slot="content">
+      For best results, enter text samples that are representative of what is typically seen.<br>
+      Highlight words in the text field above and use the context menu (right-click on selected text) to define entities.<br>
+      Entities allow the software to identify concepts that can be matched in similiar text.    
+    </div>
+  </nel-expand-item>
+  <script src="./scripts/training.js"></script>
+</body>
+</html>

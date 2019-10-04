@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "composite": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "lib": [ "dom", "es2015", "es2016", "es2017", "es2018.promise" ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "removeComments": true,
+    "rootDir": "src",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2015",
+    "tsBuildInfoFile": ".buildcache/default",
+    "typeRoots": ["./node_modules/@types", "./src/typings"],
+    "watch": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

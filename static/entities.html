@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src-elem 'self' 'unsafe-inline' es6: blob:;">
+  <title>PSCleaner</title>
+  <link rel="stylesheet" href="./css/shared.css">
+  <link rel="stylesheet" href="./css/entities.css">
+  <script type="module" src="es6://lib/web-components/dist/web-components/web-components.esm.js"></script>
+</head>
+<body>
+  <nel-network-connection>
+    <div class="network"><span class="message">Application is offline</span></div>
+  </nel-network-connection>
+  <h2><a href="./index.html">Home</a> &gt; Manage entities</h2>
+  
+  <div class="panel"></div>
+    <div class="flex-vcenter flex-hright"><span id="hintEntityCount"></span></div>
+    <div class="border item-collection">
+      <nel-item-collection id="lstManageEntities">
+      </nel-item-collection>
+    </div>
+  </div>
+  <div id="pnlAddEntity" class="border panel pad">
+    <h4 id="title">Add an entity</h4>
+    <div class="flex-vcenter panel">
+      <input id="txtEntityColor" type="color" value="#cccccc" title="Select a color for this entity">
+      <nel-text-input id="txtEntityLabel" mask="[a-zA-Z]+" maxlength="30" placeholder="Entity label (max. 30 char)" pattern=".*"></nel-text-input>
+      <input type="hidden" id="txtEntityId" value="">
+      <nel-text-input id="txtEntityDomain" mask="[a-zA-Z]+" maxlength="30" placeholder="Entity domain (max. 30 char)" pattern=".*"></nel-text-input>
+      <select id="lblEntityType">
+        <option value="No type defined" selected disabled>Please select a type</option>
+        <option value="Word list">Word list</option>
+        <option value="Regular expression">Regular expression</option>
+      </select>
+      <nel-text-input id="txtEntityRegex" hidden pattern=".*" placeholder="Regular expression"></nel-text-input>
+      <a href="#" id="btnEntityCancel" class="btn-link">Clear</a>
+    </div>
+    <div class="flex-vcenter">
+      <a href="#" id="btnEntitySave" class="btn-link disabled">Save</a>
+      <a href="#" id="btnEntityDelete" class="btn-link disabled warn">Delete</a>
+    </div>
+  </div>
+  <nel-expand-item>
+    <h4 slot="title">Help</h4>
+    <dl slot="content">
+      <dt>Add an entity</dt>
+      <dd>Clear the view. Pick a color, enter a label name and then select an available type.
+        If selecting "regular expression", use a service such as https://regex101.com/ to thoroughly test it.
+        Remember to save your changes.</dd>
+      <dt>Edit an entity</dt>
+      <dd>Choose an existing entity from the list. The color, name and type can be changed.
+        Remember to save your changes. </dd>
+      <dt>Delete an entity</dt>
+      <dd>Highlight it in the lsit and choose Delete.
+        Deleted items sent to your system's Trash/Recycle bin.</dd>
+    </dl>
+  </nel-expand-item>
+  <script src="./scripts/entities.js"></script>
+</body>
+</html>

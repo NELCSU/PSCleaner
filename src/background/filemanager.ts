@@ -1,0 +1,75 @@
+import chok from "chokidar";
+import { FSWatcher } from "chokidar";
+import EventEmitter from "events";
+import fs from "fs-extra";
+import path from "path";
+import trash from "trash";
+
+export class FileManager {
+  public events = new EventEmitter();
+  public fileCount = 0;
+  public folder: string;
+  public watcher: FSWatcher;
+
+  constructor(folder: string) {
+    this.folder = folder;
+    this.watcher = chok.watch(this.folder, { ignored: /^\./, persistent: true });
+    this.watcher
+      .on("add", () => {
+        this.events.emit("file-count-change", ++this.fileCount);
+      })
+      .on("unlink", () => {
+        this.events.emit("file-count-change", --this.fileCount);
+      });
+  }
+
+  public async copyFiles(srcFolder: string, destFolder: string): Promise<boolean> {
+    const files: string[] = await this.listFiles(srcFolder);
+    return Promise.all(files.map(f => fs.copyFile(path.join(srcFolder, f), path.join(destFolder, f))))
+      .then(() => {
+        return true;
+      });      
+  }
+
+  public async deleteFile(file: string): Promise<boolean> {
+    return await trash([file])
+      .then(() => true)
+      .catch(() => false);
+  }
+
+  public exists(file: string): boolean { return fs.existsSync(file); }
+
+  public fileName(file: string): string { return path.basename(file); }
+
+  public async listFiles(folder?: string | undefined): Promise<string[]> {
+    if (folder === undefined) {
+      return await fs.readdir(this.folder);
+    } else {
+      return await fs.readdir(folder);
+    }
+  }
+
+  public normalizePath(file: string): string { return path.join(this.folder, file); }
+
+  public async saveFile(file: string, data: any): Promise<boolean> {
+    return await fs.writeFile(file, data)
+      .then(() => true)
+      .catch(() => false);
+  }
+
+  public async readFile(file: string): Promise<any> {
+    return await fs.readFile(file, "utf8");
+  }
+
+  public * readFiles(files: string[]): any {
+    for (let file of files) {
+      yield fs.readFileSync(this.normalizePath(file), "utf8");
+    }
+  }
+
+  public async rename(oldFile: string, newFile: string): Promise<boolean> {
+    return await fs.rename(oldFile, newFile)
+      .then(() => true)
+      .catch(() => false);
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "menu": [
+    {
+      "label": "File",
+      "submenu": [
+        {
+          "click": "showPreferences",
+          "label": "Preferences"
+        },
+        {
+          "type": "separator"
+        },           
+        {
+          "accelerator": "Command+Q",
+          "click": "close",
+          "label": "Quit"
+        } 
+      ]
+    },
+    {
+      "label": "Developer",
+      "submenu": [
+        {
+          "label": "Show/hide DevTools",
+          "accelerator": "Shift+Ctrl+I",
+          "click": "showDevTools"
+        }
+      ]
+    },
+    {
+      "label": "About",
+      "submenu": [
+        {
+          "label": "version"
+        }
+      ]
+    }
+  ]
+}

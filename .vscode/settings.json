@@ -1,0 +1,17 @@
+{
+ "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/out": true,
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/node_modules": false,
+  },
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "tslint.ignoreDefinitionFiles": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib"
+}

@@ -1,0 +1,24 @@
+-- Up
+
+CREATE TABLE "Entity" (
+  "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  "name" TEXT NOT NULL, 
+  "color" TEXT NOT NULL, 
+  "domain" TEXT NOT NULL,
+  "type" TEXT NOT NULL,
+  "reg_ex" TEXT NULL
+);
+CREATE INDEX Entity_ix_type ON Entity (type);
+
+CREATE TABLE "Firstname" ( "name" TEXT NOT NULL COLLATE NOCASE PRIMARY KEY );
+CREATE TABLE "Placename" ( "name" TEXT NOT NULL COLLATE NOCASE PRIMARY KEY );
+CREATE TABLE "Surname" ( "name" TEXT NOT NULL COLLATE NOCASE PRIMARY KEY );
+
+-- Down
+
+DROP INDEX Entity_ix_type;
+DROP TABLE IF EXISTS "Entity";
+
+DROP TABLE IF EXISTS "Firstname";
+DROP TABLE IF EXISTS "Placename";
+DROP TABLE IF EXISTS "Surname";

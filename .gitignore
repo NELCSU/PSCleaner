@@ -1,0 +1,16 @@
+build
+data
+dist
+out
+node_modules
+static/lib
+coverage
+npm-debug.log
+.DS_Store
+.vs
+*.iml
+.buildcache
+.envrc
+.env
+.rpt2_cache
+private
