@@ -222,7 +222,7 @@ ipc.on("NLP-response", (e, response) => {
   console.table(response);
   dataEntry.innerHTML = dataEntry.textContent;
   if (response.length > 0) {
-    clearTags.classList.remove("disabled");
+    window.dispatchEvent(new CustomEvent("NewTrainingData"));
   }
   while (response.length > 0) {
     var item = response.pop();
@@ -246,9 +246,14 @@ ipc.on("training-file", (e, file, dt) => {
   const data = JSON.parse(dt);
   dataEntry.textContent = data.text;
   let entity;
-  while (entity = data.entities.pop()) {
-    const sel = createSelection(dataEntry.childNodes[0], entity.start, entity.length);
-    addTag(sel, entity.label, entity.color);
+  try {
+    while (entity = data.entities.pop()) {
+      const sel = createSelection(dataEntry.childNodes[0], entity.start, entity.length);
+      addTag(sel, entity.label, entity.color);
+    }
+  } catch (e) {
+    dataEntry.textContent = data.text;
+    console.log("Error found. Entities could not be loaded. Please refresh document via Autodiscover");
   }
   window.dispatchEvent(new CustomEvent("NewTrainingData"));
 });
@@ -326,9 +331,8 @@ save.addEventListener("click", () => {
   };
   let markUp = he.decode(dataEntry.innerHTML);
   const tags = Array.from(dataEntry.children);
-  let start = 0;
   while (tags.length > 0) {
-    let i = markUp.indexOf("<nel-text-tag", start);
+    let i = markUp.indexOf("<nel-text-tag");
     data.entities.push({
       start: i,
       length: tags[0].textContent.length,
@@ -337,7 +341,6 @@ save.addEventListener("click", () => {
     });
     markUp = markUp.replace(/<nel-text-tag.+?<\/nel-text-tag>/m, tags[0].textContent);
     tags.splice(0, 1);
-    start = i + 5;
   }
   ipc.send("save-training-file", filename.textContent, data);
 });

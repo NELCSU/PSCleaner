@@ -17,7 +17,7 @@ VALUES
 ('Time24hr', '#00ff80', 'Time', 'Regular expression', '\b(?:[01]\d|2[0123]|\d):[0-5]\d\b'),
 ('TimeAMPM', '#00ff80', 'Time', 'Regular expression', '\b(?:[12]?\d[\.:][0-5]\d|[1-9]|1[0-2])\s?(?:am|pm)\b'),
 ('TimeClock', '#00ff80', 'Time', 'Regular expression', '\b(?:[1-9]|1[0-2])\s?o[''\s]{1,2}clock\b'),
-('TitleName', '#3380ff', 'Person', 'Regular expression', '\b(?:Doc|Dr|Mr|Mrs|Prof|Rev)\.?\s[\w\-]+\b'),
+('TitleName', '#3380ff', 'Person', 'Regular expression', '\b(?:Doc|Dr|Mr|Mrs|Prof|Rev|St)\.?\s[\w\-]+\b'),
 ('Uri', '#998000', 'Contact', 'Regular expression', '\b(?:https?:\/\/)?www.[\w\/\-\._\d]+\b');
 
 -- Down

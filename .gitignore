@@ -3,7 +3,7 @@ data
 dist
 out
 node_modules
-static/lib
+static/lib/web-components
 coverage
 npm-debug.log
 .DS_Store
