@@ -1,36 +1,27 @@
 import { app, ipcMain as ipc } from "electron";
 import Store from "electron-store";
-import path from "path";
+import { join } from "path";
 import makeDir from "make-dir";
-import fs from "fs";
+import fs from "fs-extra";
 
 export class Settings {
   public data: any;
-  public defaultFolder: string = path.join(app.getPath("home"), "Documents", app.getName());
+  public defaultFolder: string = join(app.getPath("home"), "Documents", app.getName());
 
   constructor() {
     this.data = new Store({ name: "appSettings" });
 
-    if (!fs.existsSync(this.defaultFolder)) {
-      makeDir.sync(this.defaultFolder);
-    }
-
-    const d: string = path.join(this.defaultFolder, "data");
-    if (!fs.existsSync(d)) {
-      makeDir.sync(d);
-    }
-    if (!this.data.has("data")) {
-      this.data.set("data", d);
-    }
-
-    const m: string = path.join(this.defaultFolder, "model");
-    if (!fs.existsSync(m)) {
-      makeDir.sync(m);
-    }
-    if (!this.data.has("model")) {
-      this.data.set("model", m);
-    }
-
+    fs.exists(this.defaultFolder, found => {
+      if (!found) {
+        makeDir.sync(this.defaultFolder);
+      }
+      (async(folder: string): Promise<void> => {
+        await this.initFolder("training", folder);
+        await this.initFolder("import", folder);
+        await this.initFolder("export", folder);
+      })(this.defaultFolder);
+    });
+    
     ipc.on("save-folder", (e, data) => this.data.set(data.key, data.value));
 
     ipc.on("delete-folder", (e, key) => this.data.delete(key));
@@ -39,9 +30,20 @@ export class Settings {
       const result: any = {
         default: this.defaultFolder
       };
-      result.data = this.data.get("data");
-      result.model = this.data.get("model");
+      result.data = this.data.get("import");
+      result.data = this.data.get("export");
+      result.data = this.data.get("training");
       e.reply("response-folders", result);
+    });
+  }
+
+  private async initFolder(folder: string, parent: string): Promise<void> {
+    const path: string = join(parent, folder);
+    await fs.exists(path, found => {
+      if (!found) {
+        makeDir(path);
+        this.data.set(folder, path);
+      } 
     });
   }
 }

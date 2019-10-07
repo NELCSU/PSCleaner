@@ -18,11 +18,20 @@ export class AppMenu {
           }
           switch (s.click) {
             case "showDevTools":
-              s.click = () => this.showDevTools(); break;
+              s.click = () => this.showDevTools();
+              break;
+            case "showEntities":
+              s.click = () => this.showEntities();
+              break;
+            case "showTrainingData":
+              s.click = () => this.showTrainingData();
+              break;
             case "showPreferences":
-              s.click = () => this.showPreferences(); break;
+              s.click = () => this.showPreferences();
+              break;
             case "close":
-              s.click = () => this.close(); break;
+              s.click = () => this.close(); 
+              break;
           }
         });
       }
@@ -39,8 +48,16 @@ export class AppMenu {
     this._parent.mainWindow.webContents.toggleDevTools();
   }
 
+  public showEntities(): void {
+    this._parent.mainWindow.loadURL(config.pages.get("entities"));
+  }
+
   public showPreferences(): void {
     this._parent.mainWindow.loadURL(config.pages.get("preferences"));
+  }
+
+  public showTrainingData(): void {
+    this._parent.mainWindow.loadURL(config.pages.get("training"));
   }
 
   public showVersion(): string {

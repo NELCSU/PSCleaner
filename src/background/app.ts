@@ -14,6 +14,8 @@ import { AppTray } from "./build-tray";
 import { Settings } from "./settings";
 import { Entities } from "./entities";
 import { TrainingData } from "./training-data";
+import { ImportFiles } from "./import-files";
+import { ExportFiles } from "./export-files";
 import { AppWindow } from "./window";
 import { NLP } from "./nlp.js";
 import fs from "fs";
@@ -26,6 +28,8 @@ class Main {
   public mainWindow: any;
   public menu: any;
   public samples: TrainingData;
+  public importFiles: ImportFiles;
+  public exportFiles: ExportFiles;
   public settings: Settings;
   public tray: any;
 
@@ -65,11 +69,14 @@ class Main {
     }
     
     this.settings = new Settings();
-    this.samples = new TrainingData(this.settings.data.get("data"), this);
+    this.samples = new TrainingData(this.settings.data.get("training"), this);
 
     const nlp: NLP = new NLP();
 
     this.entities = new Entities();
+    
+    this.importFiles = new ImportFiles(this.settings.data.get("import"), this);
+    this.exportFiles = new ExportFiles(this.settings.data.get("export"), this);
     
     ipc.on("NLP-request", async (e: IpcMainEvent, text: string) => {
       (async (t) => await nlp.evaluate(t))(text)

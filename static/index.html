@@ -15,12 +15,10 @@
   <nel-network-connection>
     <div class="network"><span class="message">Application is offline</span></div>
   </nel-network-connection>
-  <h2>Home</h2>
-  
-  <ul class="border pad panel">
-    <li><a href="./entities.html">Noun entities</a></li>
-    <li><a href="./training.html">Training data samples</a></li>
-    <li><a href="./preferences.html">Preferences</a></li>
-  </ul>
+  <nel-item-collection align="horizontal">
+    <nel-status-badge id="statPending" label="queued files" title="View import folder">0</nel-status-badge>
+    <nel-status-badge id="statComplete" label="completed" title="View export folder">0</nel-status-badge>
+  </nel-item-collection>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

@@ -18,6 +18,19 @@
       ]
     },
     {
+      "label": "View",
+      "submenu": [
+        {
+          "label": "Entities",
+          "click": "showEntities"
+        },
+        {
+          "label": "Training data",
+          "click": "showTrainingData"
+        }
+      ]
+    },
+    {
       "label": "Developer",
       "submenu": [
         {

@@ -1,4 +1,7 @@
-h2 { margin-bottom: 1rem }
-ul { list-style-type: none }
-li { color: transparent; list-style: disc inside; padding: 0.5rem 0 0.5rem 0 }
-li:hover { color: #005eb8; list-style: disc inside }
+nel-status-badge { 
+  --bg-color: #ffffff; 
+  --fg-color: #000099;
+  --height: 7.5rem; 
+  --width: 7.55rem;
+  cursor: pointer
+}

@@ -3,7 +3,7 @@
   "dependencies": {
     "@buckneri/js-lib-dom-selection": "0.0.3",
     "@buckneri/js-lib-selection": "0.0.4",
-    "@buckneri/web-components": "^0.1.6",
+    "@buckneri/web-components": "^0.1.8",
     "chokidar": "^3.2.1",
     "debounce": "^1.2.0",
     "dotenv": "^8.1.0",
