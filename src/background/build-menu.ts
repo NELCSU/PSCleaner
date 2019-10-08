@@ -6,6 +6,10 @@ export class AppMenu {
   
   public menu: Menu;
 
+  /**
+   * @constructor
+   * @param parent - reference to main process
+   */
   constructor(parent: any) {
     this._parent = parent;
     const def: any = require(config.menu);

@@ -4,12 +4,16 @@ import config from "./views";
 export class AppTray {
   public tray: Tray;
 
+  /**
+   * @constructor
+   * @param parent - reference to main process
+   */
   constructor(parent: any) {
     const menu: Menu = Menu.buildFromTemplate([
       { click: () => parent.show(), label: `Open ${app.getName()}` },
       {
-        checked: parent.hideWhenMinimised(),
-        click: item => parent.hideWhenMinimised(item.checked),
+        checked: parent.mainWindow.hideWhenMinimised,
+        click: item => parent.mainWindow.hideWhenMinimised = item.checked,
         label: "Hide When Minimized",
         type: "checkbox"
       },

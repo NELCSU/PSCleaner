@@ -1,7 +1,6 @@
 import {
   App, app, ipcMain as ipc, IpcMainEvent, protocol
 } from "electron";
-
 import DB from "sqlite3-helper";
 
 require("dotenv").config();
@@ -11,9 +10,8 @@ if (require("electron-squirrel-startup")) { // eslint-disable-line global-requir
 
 import { AppMenu } from "./build-menu";
 import { AppTray } from "./build-tray";
-import { Settings } from "./settings";
 import { Entities } from "./entities";
-import { TrainingData } from "./training-data";
+import { TrainingFiles } from "./training-files";
 import { ImportFiles } from "./import-files";
 import { ExportFiles } from "./export-files";
 import { AppWindow } from "./window";
@@ -22,17 +20,18 @@ import fs from "fs";
 import config from "./views";
 
 class Main {
+  private _initDB: boolean = false;
+
   public app: App;
-  public entities: Entities;
   public isQuitting = false;
   public mainWindow: any;
   public menu: any;
-  public samples: TrainingData;
-  public importFiles: ImportFiles;
-  public exportFiles: ExportFiles;
-  public settings: Settings;
+  public entities!: Entities;
+  public importFiles!: ImportFiles;
+  public exportFiles!: ExportFiles;
+  public trainingFiles!: TrainingFiles;
   public tray: any;
-
+  
   constructor() {
     this.app = app;
     const lock: boolean = this.app.requestSingleInstanceLock();
@@ -42,11 +41,31 @@ class Main {
       privileges: { standard: true, secure: true }
     }]);
 
-    this.initDB();
+    this.app.on("window-all-closed", () => {
+      if (process.platform !== "darwin") {
+        this.app.quit();
+      }
+    });
       
     if (!lock) {
       this.app.quit();
     } else {
+      this.initDB()
+        .then(async () => {
+          const nlp: NLP = new NLP();
+          this.entities = new Entities();
+          this.trainingFiles = new TrainingFiles(this);
+          this.importFiles = new ImportFiles(this);
+          this.exportFiles = new ExportFiles(this);
+
+          ipc.on("NLP-request", async (e: IpcMainEvent, text: string) => {
+            (async (t) => await nlp.evaluate(t))(text)
+              .then(result => {
+                this.mainWindow.webContents.send("NLP-response", result);
+              });
+          }); 
+        })
+
       this.app.on("second-instance", () => {
         if (this.mainWindow) {
           if (this.mainWindow.isMinimized()) {
@@ -55,35 +74,15 @@ class Main {
           this.mainWindow.focus();
         }
       });
+
       this.app.once("ready", this.run);
-      this.app.on("window-all-closed", () => {
-        if (process.platform !== "darwin") {
-          this.app.quit();
-        }
-      });
+
       this.app.on("activate", () => {
         if (this.mainWindow === null) {
           this.run();
         }
       });
-    }
-    
-    this.settings = new Settings();
-    this.samples = new TrainingData(this.settings.data.get("training"), this);
-
-    const nlp: NLP = new NLP();
-
-    this.entities = new Entities();
-    
-    this.importFiles = new ImportFiles(this.settings.data.get("import"), this);
-    this.exportFiles = new ExportFiles(this.settings.data.get("export"), this);
-    
-    ipc.on("NLP-request", async (e: IpcMainEvent, text: string) => {
-      (async (t) => await nlp.evaluate(t))(text)
-        .then(result => {
-          this.mainWindow.webContents.send("NLP-response", result);
-        });
-    });   
+    }  
   }
 
   public hardClose = () => {
@@ -91,17 +90,11 @@ class Main {
     this.app.quit();
   }
 
-  public hideWhenMinimised = (hide?: boolean | undefined) => {
-    if (hide === undefined) {
-      const state: boolean = this.settings.data.get("hideWhenMinimised") || false;
-      return state;
-    }
-    this.mainWindow.hideWhenMinimised = hide;
-    this.settings.data.set("hideWhenMinimised", hide);
-  }
-
-  public async initDB(): Promise<any> {
-    return await DB().connection();
+  public initDB(): Promise<void> {
+    return (async () => {
+      await DB().connection();
+      this._initDB = true;
+    })();
   }
 
   public show = () => this.mainWindow.show();
@@ -114,6 +107,14 @@ class Main {
   }
 
   public run = () => {
+    if (!this._initDB || !this.trainingFiles.ready ||
+        !this.importFiles.ready || !this.exportFiles.ready) {
+      setTimeout(() => this.run(), 1000);
+      return;
+    }
+
+    this.importFiles.exportTo = this.exportFiles.fm.folder;
+
     protocol.registerBufferProtocol("es6", (req, cb) => {
       fs.readFile(
         config.join(config.view, req.url.replace("es6://", "")),
@@ -135,8 +136,6 @@ class Main {
         this.mainWindow.webContents.openDevTools();
       });
     }
-
-    this.mainWindow.hideWhenMinimised = this.hideWhenMinimised();
 
     this.menu = new AppMenu(this);
     this.tray = new AppTray(this);

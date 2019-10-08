@@ -1,5 +1,10 @@
 -- Up
 
+CREATE TABLE "AppSettings" (
+  "field" TEXT NOT NULL PRIMARY KEY,
+  "value" TEXT NOT NULL
+);
+
 CREATE TABLE "Entity" (
   "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
   "name" TEXT NOT NULL, 
@@ -8,6 +13,7 @@ CREATE TABLE "Entity" (
   "type" TEXT NOT NULL,
   "reg_ex" TEXT NULL
 );
+
 CREATE INDEX Entity_ix_type ON Entity (type);
 
 CREATE TABLE "Firstname" ( "name" TEXT NOT NULL COLLATE NOCASE PRIMARY KEY );
@@ -15,6 +21,8 @@ CREATE TABLE "Placename" ( "name" TEXT NOT NULL COLLATE NOCASE PRIMARY KEY );
 CREATE TABLE "Surname" ( "name" TEXT NOT NULL COLLATE NOCASE PRIMARY KEY );
 
 -- Down
+
+DROP TABLE IF EXISTS "AppSettings";
 
 DROP INDEX Entity_ix_type;
 DROP TABLE IF EXISTS "Entity";

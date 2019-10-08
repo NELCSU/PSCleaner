@@ -1,6 +1,6 @@
 -- Up
 
-INSERT INTO "entity" 
+INSERT INTO "Entity" 
 ( "name", "color", "domain", "type", "reg_ex" ) 
 VALUES 
 ('AddressLine', '#008040', 'Location', 'Regular expression', '\b(?:\d+[a-z]*)\s(?:[''\.\-\w]*)\s(?:approach|avenue|bank|close|cl|crescent|croft|court|drive|east|end|field|heights|ga?r?de?ns|gate|grange|green|grove|hill|lane|ln|meadow|mews|north|parade|park|path|place|pl|rise|road|rd|row|square|south|street|st|terrace|view|walk|way|west|wood|yard)\b'),
@@ -22,4 +22,4 @@ VALUES
 
 -- Down
 
-DELETE FROM "entity";
+DELETE FROM "Entity";

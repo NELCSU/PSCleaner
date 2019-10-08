@@ -4,23 +4,30 @@ import EventEmitter from "events";
 import fs from "fs-extra";
 import path from "path";
 import trash from "trash";
+import makeDir from "make-dir";
 
 export class FileManager {
   public events = new EventEmitter();
   public fileCount = 0;
   public folder: string;
-  public watcher: FSWatcher;
+  public fs: any;
+  public watcher!: FSWatcher;
 
+  /**
+   * @constructor
+   * @param folder - Base folder to reference. Creates path to folder if missing
+   */
   constructor(folder: string) {
     this.folder = folder;
-    this.watcher = chok.watch(this.folder, { ignored: /^\./, persistent: true });
-    this.watcher
-      .on("add", () => {
-        this.events.emit("file-count-change", ++this.fileCount);
-      })
-      .on("unlink", () => {
-        this.events.emit("file-count-change", --this.fileCount);
-      });
+    this.fs = fs;
+    fs.exists(folder, async found => {
+      if (found) {
+        this.init();
+      } else {        
+        await makeDir(folder)
+          .then(() => this.init())
+      }
+    });
   }
 
   public async copyFiles(srcFolder: string, destFolder: string): Promise<boolean> {
@@ -40,6 +47,17 @@ export class FileManager {
   public exists(file: string): boolean { return fs.existsSync(file); }
 
   public fileName(file: string): string { return path.basename(file); }
+
+  public init(): void {
+    this.watcher = chok.watch(this.folder, { ignored: /^\./, persistent: true });
+    this.watcher
+      .on("add", () => {
+        this.events.emit("file-count-change", ++this.fileCount);
+      })
+      .on("unlink", () => {
+        this.events.emit("file-count-change", --this.fileCount);
+      });
+  }
 
   public async listFiles(folder?: string | undefined): Promise<string[]> {
     if (folder === undefined) {
