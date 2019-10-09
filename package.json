@@ -43,7 +43,7 @@
     "@types/uuid": "^3.4.5",
     "electron": "^6.0.12",
     "electron-rebuild": "^1.8.6",
-    "typescript": "^3.6.3"
+    "typescript": "^3.6.4"
   },
   "keywords": [
     "nodejs",

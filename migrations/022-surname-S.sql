@@ -17710,7 +17710,6 @@ VALUES
 ('Seoudi'),
 ('Seow'),
 ('Seoyum'),
-('Sep'),
 ('Sepahi'),
 ('Sepahpour'),
 ('Sepahsalari'),
