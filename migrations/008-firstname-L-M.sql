@@ -2064,7 +2064,6 @@ VALUES
 ('Larysa'),
 ('Laryssa'),
 ('Larzul'),
-('Las'),
 ('Lasa'),
 ('Lasai'),
 ('Lasainea'),

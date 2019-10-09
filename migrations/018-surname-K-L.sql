@@ -42326,7 +42326,6 @@ VALUES
 ('Larzazs'),
 ('Larzelere'),
 ('Larzilliere'),
-('Las'),
 ('Lasa'),
 ('Lasac'),
 ('Lasage'),
