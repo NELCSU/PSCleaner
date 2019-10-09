@@ -5,3 +5,5 @@ nel-status-badge {
   --width: 7.55rem;
   cursor: pointer
 }
+
+button { cursor: pointer }

@@ -16,11 +16,11 @@
     <div class="network"><span class="message">Application is offline</span></div>
   </nel-network-connection>
   <nel-item-collection align="horizontal">
-    <nel-status-badge id="statPending" label="queued files" title="View import folder">0</nel-status-badge>
-    <nel-status-badge id="statProcessing" label="processing" title="View processing folder">0</nel-status-badge>
-    <nel-status-badge id="statComplete" label="completed" title="View export folder">0</nel-status-badge>
+    <nel-status-badge id="statPending" data-count="0" label="queued files" title="View import folder">0</nel-status-badge>
+    <nel-status-badge id="statProcessing" data-count="0" label="processing" title="View processing folder">0</nel-status-badge>
+    <nel-status-badge id="statComplete" data-count="0" label="completed" title="View export folder">0</nel-status-badge>
   </nel-item-collection>
-  <button id="btnProcessFiles">Process files</button>
+  <button id="btnProcessFiles" data-status="inactive">Start processing</button>
   <script src="./scripts/index.js"></script>
 </body>
 </html>

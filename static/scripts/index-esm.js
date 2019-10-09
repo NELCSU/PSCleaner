@@ -1,52 +1,59 @@
 import { ipcRenderer as ipc, shell } from "electron";
 import { one } from "@buckneri/js-lib-dom-selection";
 
-const pending = one("#statPending");
+const importing = one("#statPending");
 const processing = one("#statProcessing");
-const complete = one("#statComplete");
-const processFiles = one("#btnProcessFiles")
+const exporting = one("#statComplete");
+const btnProcessing = one("#btnProcessFiles")
 
-function updateCount(process, n) {
-  if (process === "import") {
-    pending.textContent = n;
-  } else {
-    complete.textContent = n;
-  }
+function updateCounts(data) {
+  importing.textContent = data.import;
+  importing.dataset.count = data.import;
+  processing.textContent = data.processing;
+  processing.dataset.count = data.processing;
+  exporting.textContent = data.export;
+  exporting.dataset.count = data.export;  
 }
 
-ipc.on("import-file-count", (e, count) => updateCount("import", count));
-ipc.on("processing-file-count", (e, count) => updateCount("processing", count));
-ipc.on("export-file-count", (e, count) => updateCount("export", count));
+function setProcessingButtonLabel() {
+  btnProcessing.disabled = importing.dataset.count === "0"
+    ? true
+    : btnProcessing.dataset.status === "cancelling"
+      ? true
+      : false; 
+  btnProcessing.textContent = btnProcessing.dataset.status === "active"
+    ? "Cancel"
+    : "Start processing";
+}
 
-ipc.send("get-import-file-count");
-ipc.send("get-processing-file-count");
-ipc.send("get-export-file-count");
-
-pending.addEventListener("click", () => {
-  ipc.send("get-import-folder");
-  ipc.on("import-folder", (e, path) => {
-    shell.openItem(path);
-  });
+ipc.on("file-counts", (e, data) => {
+  updateCounts(data);
+  if (data.processing === 0 && data.import === 0 ) {
+    btnProcessing.dataset.status = "inactive";
+  } else if (btnProcessing.dataset.status === "active" && data.import > 0) {
+    ipc.send("get-import-file");
+  }   
+  setProcessingButtonLabel();
 });
 
-complete.addEventListener("click", () => {
-  ipc.send("get-export-folder");
-  ipc.on("export-folder", (e, path) => {
-    shell.openItem(path);
-  });
+ipc.send("get-file-counts");
+
+importing.addEventListener("click", () => ipc.send("get-import-folder"));
+processing.addEventListener("click", () => ipc.send("get-processing-folder"));
+exporting.addEventListener("click", () => ipc.send("get-export-folder"));
+
+btnProcessing.addEventListener("click", () => {
+  if (btnProcessing.dataset.status === "active") {
+    btnProcessing.dataset.status = "cancelling";
+  } else if (btnProcessing.dataset.status === "inactive") {
+    btnProcessing.dataset.status = "active";
+  }
+  setProcessingButtonLabel();
+  if (btnProcessing.dataset.status === "active") {
+    ipc.send("get-import-file");
+  }
 });
 
-processing.addEventListener("click", () => {
-  ipc.send("get-processing-folder");
-  ipc.on("processing-folder", (e, path) => {
-    shell.openItem(path);
-  });
-});
-
-processFiles.addEventListener("click", () => {
-  ipc.send("start-import");
-  processFiles.disabled = true;
-  ipc.on("end-import", () => {
-    processFiles.disabled = false;
-  });
-});
+ipc.on("import-folder", (e, path) => shell.openItem(path));
+ipc.on("processing-folder", (e, path) => shell.openItem(path));
+ipc.on("export-folder", (e, path) => shell.openItem(path));

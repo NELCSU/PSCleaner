@@ -9,6 +9,7 @@ import makeDir from "make-dir";
 export class FileManager {
   public events = new EventEmitter();
   public fileCount = 0;
+  public filter!: string;
   public folder: string;
   public fs: any;
   public watcher!: FSWatcher;
@@ -49,7 +50,11 @@ export class FileManager {
   public fileName(file: string): string { return path.basename(file); }
 
   public init(): void {
-    this.watcher = chok.watch(this.folder, { ignored: /^\./, persistent: true });
+    let path: string = this.folder;
+    if (this.filter) {
+      path += `/**/*.${this.filter}`;
+    }
+    this.watcher = chok.watch(path, { ignored: /^\./, persistent: true });
     this.watcher
       .on("add", () => {
         this.events.emit("file-count-change", ++this.fileCount);
@@ -60,10 +65,12 @@ export class FileManager {
   }
 
   public async listFiles(folder?: string | undefined): Promise<string[]> {
-    if (folder === undefined) {
-      return await fs.readdir(this.folder);
+    if (this.filter) {
+      const re = new RegExp(`\.${this.filter}$`);
+      return await fs.readdir(folder || this.folder)
+        .then(files => files.filter(f => re.test(f)));
     } else {
-      return await fs.readdir(folder);
+      return await fs.readdir(folder || this.folder);
     }
   }
 

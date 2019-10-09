@@ -30852,7 +30852,6 @@ VALUES
 ('Peterne'),
 ('Peterpaul'),
 ('Peterrin'),
-('Peters'),
 ('Peterson'),
 ('Petersons'),
 ('Petersson'),

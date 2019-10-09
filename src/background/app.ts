@@ -14,6 +14,7 @@ import { Entities } from "./entities";
 import { TrainingFiles } from "./training-files";
 import { ImportFiles } from "./import-files";
 import { ExportFiles } from "./export-files";
+import { ProcessFiles } from "./process-files";
 import { AppWindow } from "./window";
 import { NLP } from "./nlp.js";
 import fs from "fs";
@@ -29,6 +30,7 @@ class Main {
   public entities!: Entities;
   public importFiles!: ImportFiles;
   public exportFiles!: ExportFiles;
+  public processFiles!: ProcessFiles;
   public trainingFiles!: TrainingFiles;
   public tray: any;
   
@@ -57,6 +59,7 @@ class Main {
           this.trainingFiles = new TrainingFiles(this);
           this.importFiles = new ImportFiles(this);
           this.exportFiles = new ExportFiles(this);
+          this.processFiles = new ProcessFiles(this);
 
           ipc.on("NLP-request", async (e: IpcMainEvent, text: string) => {
             (async (t) => await nlp.evaluate(t))(text)
@@ -108,12 +111,46 @@ class Main {
 
   public run = () => {
     if (!this._initDB || !this.trainingFiles.ready ||
-        !this.importFiles.ready || !this.exportFiles.ready) {
+        !this.importFiles.ready || !this.exportFiles.ready ||
+        !this.processFiles.ready) {
       setTimeout(() => this.run(), 1000);
       return;
     }
 
-    this.importFiles.exportTo = this.exportFiles.fm.folder;
+    this.importFiles.sendTo = this.processFiles.fm.folder;
+    this.processFiles.sendTo = this.exportFiles.fm.folder;
+
+    this.importFiles.fm.events.on("file-count-change", n => {
+      this.mainWindow.webContents.send("file-counts" , {
+        import: this.importFiles.fm.fileCount,
+        processing: this.processFiles.fm.fileCount,
+        export: this.exportFiles.fm.fileCount
+      });
+    });
+
+    this.processFiles.fm.events.on("file-count-change", n => {
+      this.mainWindow.webContents.send("file-counts" , {
+        import: this.importFiles.fm.fileCount,
+        processing: this.processFiles.fm.fileCount,
+        export: this.exportFiles.fm.fileCount
+      });
+    });
+
+    this.exportFiles.fm.events.on("file-count-change", n => {
+      this.mainWindow.webContents.send("file-counts" , {
+        import: this.importFiles.fm.fileCount,
+        processing: this.processFiles.fm.fileCount,
+        export: this.exportFiles.fm.fileCount
+      });
+    });
+
+    ipc.on("get-file-counts", (e: IpcMainEvent) => {
+      e.reply("file-counts", {
+        import: this.importFiles.fm.fileCount,
+        processing: this.processFiles.fm.fileCount,
+        export: this.exportFiles.fm.fileCount
+      });
+    });
 
     protocol.registerBufferProtocol("es6", (req, cb) => {
       fs.readFile(

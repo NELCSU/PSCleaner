@@ -58,6 +58,23 @@ export class NLP {
     return words;
   }
 
+  public replace(data: string, matches: MatchedEntity[]): Promise<string> {
+    return new Promise((resolve, reject) => {
+      try {
+        for (let i = matches.length - 1; i > -1; --i) {
+          let m = matches[i];
+          data = data.substring(0, m.start) + 
+            `[${m.entity}]` + 
+            data.substring(m.end + 1, data.length);
+        }
+        resolve(data);
+      }
+      catch (err) {
+        reject(err);
+      }
+    })
+  }
+
   private async _runRegExpressions(data: string, entities: Entity[]): Promise<MatchedEntity[]> {
     const r: any[] = [];
     await entities.forEach(async (ent: Entity) => {

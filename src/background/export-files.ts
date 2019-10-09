@@ -36,6 +36,7 @@ export class ExportFiles {
       })
       .then((location: string) => {
         this.fm = new FileManager(location);
+        this.fm.filter = "csv";
 
         this.fm.events.on("file-count-change", n => {
           parent.mainWindow.webContents.send("export-file-count" , n);

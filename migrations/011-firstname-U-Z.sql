@@ -1492,7 +1492,6 @@ VALUES
 ('Unkasa'),
 ('Unkeyru'),
 ('Unknow'),
-('Unknown'),
 ('Unmanti'),
 ('Unmesh'),
 ('Unmi'),
