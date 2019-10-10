@@ -22984,7 +22984,6 @@ VALUES
 ('Tyoden'),
 ('Tyoko'),
 ('Tyon'),
-('Type'),
 ('Typhair'),
 ('Typiak'),
 ('Typl'),

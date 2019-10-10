@@ -22809,7 +22809,6 @@ VALUES
 ('Geswein'),
 ('Gesztesi'),
 ('Geszti'),
-('Get'),
 ('Geta'),
 ('Getachaw'),
 ('Getachew'),

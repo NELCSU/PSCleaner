@@ -5,6 +5,7 @@ INSERT INTO "Entity"
 VALUES 
 ('AddressLine', '#008040', 'Location', 'Regular expression', '\b(?:\d+[a-z]*)\s(?:[''\.\-\w]*)\s(?:approach|avenue|bank|close|cl|crescent|croft|court|drive|east|end|field|heights|ga?r?de?ns|gate|grange|green|grove|hill|lane|ln|meadow|mews|north|parade|park|path|place|pl|rise|road|rd|row|square|south|street|st|terrace|view|walk|way|west|wood|yard)\b'),
 ('DateLong', '#00ff80', 'Time', 'Regular expression', '\b(?:[0123]?\d(?:st|nd|rd|th)?)(?:[\s\-\.]{0,3}|\sof\s)?(?:jan|janu?a?ry|feb|febr?ua?ry|mar|march|apr|april|may|jun|june|jul|july|aug|august|sept?|september|oct|october|nov|november|dec|december)(?:(?:[\s\-\.]{0,3})(?:\d\d|\d\d\d\d))\b'),
+('MonthYear', '#00ff80', 'Time', 'Regular expression', '\b(?:jan|janu?a?ry|feb|febr?ua?ry|mar|march|apr|april|may|jun|june|jul|july|aug|august|sept?|september|oct|october|nov|november|dec|december)(?:(?:[\s\-\.]{0,3})(?:\d\d|\d\d\d\d))\b'),
 ('DayMonth', '#00ff80', 'Time', 'Regular expression', '\b(?:[0123]?\d(?:st|nd|rd|th)?)(?:[\s\-\.]{0,3}|\sof\s)(?:jan|janu?a?ry|feb|febr?ua?ry|mar|march|apr|april|may|jun|june|jul|july|aug|august|sept?|september|oct|october|nov|november|dec|december)\b'),
 ('DateShort1', '#00ff90', 'Time', 'Regular expression', '\b[0123]?\d[\s\/]{1,3}[0123]?\d[\s\/]{1,3}\d{2,4}|\d{2,4}[\s\/]{1,3}[0123]?\d[\s\/]{1,3}[0123]?\d\b'),
 ('DateShort2', '#00ff90', 'Time', 'Regular expression', '\b[0123]?\d[\s\-]{1,3}[0123]?\d[\s\-]{1,3}\d{2,4}|\d{2,4}[\s\-]{1,3}[0123]?\d[\s\-]{1,3}[0123]?\d\b'),

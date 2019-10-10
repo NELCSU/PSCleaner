@@ -9690,7 +9690,6 @@ VALUES
 ('Deput'),
 ('Deputat'),
 ('Deputowski'),
-('Deputy'),
 ('Depuy'),
 ('Depuydt'),
 ('Deqani'),

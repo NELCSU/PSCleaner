@@ -4543,7 +4543,6 @@ VALUES
 ('Havanur'),
 ('Havard'),
 ('Havares'),
-('Have'),
 ('Haveendra'),
 ('Havehope'),
 ('Havela'),
