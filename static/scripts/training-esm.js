@@ -220,7 +220,7 @@ ipc.on("NLP-response", (e, response) => {
   auto.classList.remove("wait");
   console.clear();
   console.table(response);
-  dataEntry.innerHTML = dataEntry.textContent;
+  dataEntry.innerHTML = he.encode(dataEntry.textContent);
   if (response.length > 0) {
     window.dispatchEvent(new CustomEvent("NewTrainingData"));
   }

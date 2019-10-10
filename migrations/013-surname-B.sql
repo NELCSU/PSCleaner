@@ -6178,7 +6178,6 @@ VALUES
 ('Baquillon'),
 ('Baquilod'),
 ('Baquiran'),
-('Bar'),
 ('Bara'),
 ('Baraami'),
 ('Baraas'),

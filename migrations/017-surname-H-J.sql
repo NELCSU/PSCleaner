@@ -3655,7 +3655,6 @@ VALUES
 ('Handrick'),
 ('Handrij'),
 ('Handru'),
-('Hands'),
 ('Handsaker'),
 ('Handschin'),
 ('Handschke'),

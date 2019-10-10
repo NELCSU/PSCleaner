@@ -2086,7 +2086,6 @@ VALUES
 ('Handrick'),
 ('Handrien'),
 ('Handryziak'),
-('Hands'),
 ('Handsford'),
 ('Handsley'),
 ('Handsome'),
