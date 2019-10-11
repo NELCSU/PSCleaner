@@ -11,19 +11,22 @@ export class ProcessFiles {
   public ready: boolean = false;
   public sendTo: string = "";
 
-  /**
-   * @constructor
-   * @param parent - reference to main process
-   */
-  constructor(parent: any) {
-    this.init(parent);
+  constructor() {
+    this.init();
     this.nlp = new NLP();
-
     ipc.on("get-processing-folder", e => e.reply("processing-folder", this.fm.folder));
-    ipc.on("get-processing-file-count", e => e.reply("processing-file-count", this.fm.fileCount));
+    ipc.on("processing-file-count", e => e.reply("processing-file-count", this.fm.fileCount));
+
+    ipc.on("start-processing", e => {
+      this.moveOne()
+        .then(
+          success => e.reply("processed"),
+          fail => e.reply("stop-processing")
+        );
+    });
   }
 
-  public async init(parent: any): Promise<void> {
+  public async init(): Promise<void> {
     await DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field='PROCESSING_FOLDER'`)
       .then(async row => {
         if (row) {
@@ -37,23 +40,30 @@ export class ProcessFiles {
       .then((location: string) => {
         this.fm = new FileManager(location);
         this.fm.filter = "csv";
-
-        this.fm.events.on("file-count-change", n => {
-          parent.mainWindow.webContents.send("processing-file-count", n);
-          if (n > 0) {
-            this.run();
-          }
-        });
-
         this.ready = true;
       });
   }
 
+  public async moveOne(): Promise<boolean> {
+    return await this.fm.listFiles()
+      .then(async files => {
+        if (files.length > 0) {
+          const from: string = join(this.fm.folder, files[0]);
+          const to: string = join(this.sendTo, files[0]);
+          return await this.fm.fs.rename(from, to)
+            .then(() => Promise.resolve(true));
+        } else {
+          return Promise.reject();
+        }
+      })
+  }
+
   public async process(file: string): Promise<void> {
     const from: string = join(this.fm.folder, file);
+    const temp: string = join(this.fm.folder, "temp.tmp");
     const to: string = join(this.sendTo, file);
     const stream = csv.format({ headers: true });
-    const writeStream = this.fm.fs.createWriteStream(to);
+    const writeStream = this.fm.fs.createWriteStream(temp);
     stream.pipe(writeStream);
     let rq: number = -1;
     let total: number = -1;
@@ -77,11 +87,11 @@ export class ProcessFiles {
           }
         }
         Promise.all(queue)
-          .then(() => {
+          .then(async () => {
             stream.write(row);
             if (--rq === 0) {
               stream.end();
-              this.fm.deleteFile(from);
+              this.fm.fs.rename(temp, to);
             }
           });
       })
@@ -90,10 +100,12 @@ export class ProcessFiles {
       });
   }
 
-  public async run(): Promise<void> {
+  public async start(): Promise<void> {
     await this.fm.listFiles()
-      .then(files => {
-        files.map(async (file: any) => await this.process(file));
+      .then(async files => {
+        if (files.length > 0) {
+          await this.process(files[0])
+        }
       });    
   }
 }

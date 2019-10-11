@@ -19,7 +19,7 @@ export class TrainingFiles {
 
     ipc.on("save-training-file", async (e, file, data) => {
       await this.fm.saveFile(
-        this.fm.normalizePath(file),
+        this.fm.join(file),
         stringify(data)
       ).then(success => {
         if (success) {
@@ -29,20 +29,16 @@ export class TrainingFiles {
     });
 
     ipc.on("training-file-rename", async(e, file, force = false) => {
-      const oldFilePath: string = this.fm.normalizePath(this.activeFile);
-      let newFilePath: string = this.fm.normalizePath(file);
+      const oldFilePath: string = this.fm.join(this.activeFile);
+      let newFilePath: string = this.fm.join(file);
       if (!this.fm.exists(oldFilePath)) {
         this.activeFile = file;
         e.reply("training-file-rename-complete", file);
       } else if (!force && this.fm.exists(newFilePath)) {
         e.reply("training-file-rename-warning", file);
       } else {
-        await this.fm.rename(oldFilePath, newFilePath)
-          .then(success => {
-            if (success) {
-              e.reply("training-file-rename-complete", file);
-            }
-          });
+        this.fm.fs.rename(oldFilePath, newFilePath)
+          .then(() => e.reply("training-file-rename-complete", file));
       }
     });
 
@@ -52,7 +48,7 @@ export class TrainingFiles {
 
     ipc.on("delete-training-file", async (e, file) => {
       await this.fm.deleteFile(
-        this.fm.normalizePath(file)
+        this.fm.join(file)
       ).then(success => {
         if (success) {
           e.reply("training-file-deleted");
@@ -60,9 +56,9 @@ export class TrainingFiles {
       });
     });
 
-    ipc.on("get-training-file", async (e, file) => {
-      await this.fm.readFile(file)
-        .then(data => {
+    ipc.on("get-training-file", (e, file) => {
+      this.fm.fs.readFile(file, "utf8")
+        .then((data: string) => {
           this.activeFile = this.fm.fileName(file);
           e.reply("training-file", this.activeFile, data);
         });

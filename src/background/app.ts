@@ -57,9 +57,9 @@ class Main {
           const nlp: NLP = new NLP();
           this.entities = new Entities();
           this.trainingFiles = new TrainingFiles(this);
-          this.importFiles = new ImportFiles(this);
-          this.exportFiles = new ExportFiles(this);
-          this.processFiles = new ProcessFiles(this);
+          this.importFiles = new ImportFiles();
+          this.exportFiles = new ExportFiles();
+          this.processFiles = new ProcessFiles();
 
           ipc.on("NLP-request", async (e: IpcMainEvent, text: string) => {
             (async (t) => await nlp.evaluate(t))(text)
@@ -120,37 +120,11 @@ class Main {
     this.importFiles.sendTo = this.processFiles.fm.folder;
     this.processFiles.sendTo = this.exportFiles.fm.folder;
 
-    this.importFiles.fm.events.on("file-count-change", n => {
-      this.mainWindow.webContents.send("file-counts" , {
-        import: this.importFiles.fm.fileCount,
-        processing: this.processFiles.fm.fileCount,
-        export: this.exportFiles.fm.fileCount
-      });
-    });
+    this.importFiles.fm.events.on("file-count-change", n => this.mainWindow.webContents.send("import-file-count", n));
 
-    this.processFiles.fm.events.on("file-count-change", n => {
-      this.mainWindow.webContents.send("file-counts" , {
-        import: this.importFiles.fm.fileCount,
-        processing: this.processFiles.fm.fileCount,
-        export: this.exportFiles.fm.fileCount
-      });
-    });
+    this.processFiles.fm.events.on("file-count-change", n => this.mainWindow.webContents.send("processing-file-count", n));
 
-    this.exportFiles.fm.events.on("file-count-change", n => {
-      this.mainWindow.webContents.send("file-counts" , {
-        import: this.importFiles.fm.fileCount,
-        processing: this.processFiles.fm.fileCount,
-        export: this.exportFiles.fm.fileCount
-      });
-    });
-
-    ipc.on("get-file-counts", (e: IpcMainEvent) => {
-      e.reply("file-counts", {
-        import: this.importFiles.fm.fileCount,
-        processing: this.processFiles.fm.fileCount,
-        export: this.exportFiles.fm.fileCount
-      });
-    });
+    this.exportFiles.fm.events.on("file-count-change", n => this.mainWindow.webContents.send("export-file-count", n));
 
     protocol.registerBufferProtocol("es6", (req, cb) => {
       fs.readFile(

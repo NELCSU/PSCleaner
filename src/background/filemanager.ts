@@ -31,39 +31,71 @@ export class FileManager {
     });
   }
 
-  public async copyFiles(srcFolder: string, destFolder: string): Promise<boolean> {
-    const files: string[] = await this.listFiles(srcFolder);
-    return Promise.all(files.map(f => fs.copyFile(path.join(srcFolder, f), path.join(destFolder, f))))
-      .then(() => {
-        return true;
-      });      
+  /**
+   * Copies files between from and to folders
+   * @param from - folder to copy files from
+   * @param to - folder to copy files to
+   */
+  public async copyFiles(from: string, to: string): Promise<boolean> {
+    const files: string[] = await this.listFiles(from);
+    return Promise.all(files.map(f => fs.copyFile(path.join(from, f), path.join(to, f)))).then(() => true);      
   }
 
+  /**
+   * Recycles file (soft delete)
+   * @param file - file to send to recycle bin
+   */
   public async deleteFile(file: string): Promise<boolean> {
     return await trash([file])
       .then(() => true)
       .catch(() => false);
   }
 
+  /**
+   * Performs synchronous file existence check
+   * @param file - file path to check
+   */
   public exists(file: string): boolean { return fs.existsSync(file); }
 
+  /**
+   * Returns file name from file path
+   * @param file - file path to check
+   */
   public fileName(file: string): string { return path.basename(file); }
 
+  /**
+   * Initialises the class
+   */
   public init(): void {
     let path: string = this.folder;
     if (this.filter) {
       path += `/**/*.${this.filter}`;
     }
-    this.watcher = chok.watch(path, { ignored: /^\./, persistent: true });
+    this.watcher = chok.watch(path, {
+      ignored: /^\./,
+      persistent: true
+    });
     this.watcher
       .on("add", () => {
-        this.events.emit("file-count-change", ++this.fileCount);
+        fs.readdir(this.folder)
+          .then(files => {
+            this.fileCount = files.length;
+            this.events.emit("file-count-change", this.fileCount);
+          });
       })
       .on("unlink", () => {
-        this.events.emit("file-count-change", --this.fileCount);
+        fs.readdir(this.folder)
+          .then(files => {
+            this.fileCount = files.length;
+            this.events.emit("file-count-change", this.fileCount);
+          });
       });
   }
 
+  /**
+   * 
+   * @param folder - folder to list files from. Defaults to class folder is missing
+   */
   public async listFiles(folder?: string | undefined): Promise<string[]> {
     if (this.filter) {
       const re = new RegExp(`\.${this.filter}$`);
@@ -74,27 +106,30 @@ export class FileManager {
     }
   }
 
-  public normalizePath(file: string): string { return path.join(this.folder, file); }
+  /**
+   * Returns file under path
+   * @param file - file to link into path
+   */
+  public join(file: string): string { return path.join(this.folder, file); }
 
+  /**
+   * Saves files
+   * @param file - file path to save to
+   * @param data - data to save to file
+   */
   public async saveFile(file: string, data: any): Promise<boolean> {
     return await fs.writeFile(file, data)
       .then(() => true)
       .catch(() => false);
   }
-
-  public async readFile(file: string): Promise<any> {
-    return await fs.readFile(file, "utf8");
-  }
-
-  public * readFiles(files: string[]): any {
+  
+  /**
+   * Returns iterator over file list
+   * @param files - list of files to read
+   */
+  public * readFiles(files: string[]): Generator<string, any, undefined> {
     for (let file of files) {
-      yield fs.readFileSync(this.normalizePath(file), "utf8");
+      yield fs.readFileSync(this.join(file), "utf8");
     }
-  }
-
-  public async rename(oldFile: string, newFile: string): Promise<boolean> {
-    return await fs.rename(oldFile, newFile)
-      .then(() => true)
-      .catch(() => false);
   }
 }

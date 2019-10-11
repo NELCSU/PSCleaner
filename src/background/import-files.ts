@@ -8,30 +8,21 @@ export class ImportFiles {
   public fm!: FileManager;
   public ready: boolean = false;
 
-  /**
-   * @constructor
-   * @param parent - reference to main process
-   */
-  constructor(parent: any) {
-    this.init(parent);
-
+  constructor() {
+    this.init();
     ipc.on("get-import-folder", e => e.reply("import-folder", this.fm.folder));
+    ipc.on("import-file-count", e => e.reply("import-file-count", this.fm.fileCount));
 
-    ipc.on("get-import-file-count", e => e.reply("import-file-count", this.fm.fileCount));
-
-    ipc.on("get-import-file", async e => {
-      await this.fm.listFiles()
-        .then(async files => {
-          if (files.length > 0) {
-            const from: string = join(this.fm.folder, files[0]);
-            const to: string = join(this.sendTo, files[0]);
-            this.fm.fs.move(from, to);
-          }
-        })
+    ipc.on("start-import", e => {
+      this.moveOne()
+        .then(
+          success => e.reply("imported"),
+          fail => e.reply("stop-import")
+        );
     });
   }
 
-  public async init(parent: any): Promise<void> {
+  public async init(): Promise<void> {
     await DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field='IMPORT_FOLDER'`)
       .then(async row => {
         if (row) {
@@ -47,5 +38,19 @@ export class ImportFiles {
         this.fm.filter = "csv";
         this.ready = true;
       });
+  }
+
+  public async moveOne(): Promise<boolean> {
+    return await this.fm.listFiles()
+      .then(async files => {
+        if (files.length > 0) {
+          const from: string = join(this.fm.folder, files[0]);
+          const to: string = join(this.sendTo, files[0]);
+          return await this.fm.fs.rename(from, to)
+            .then(() => Promise.resolve(true));
+        } else {
+          return Promise.reject();
+        }
+      })
   }
 }

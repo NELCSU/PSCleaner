@@ -18755,7 +18755,6 @@ VALUES
 ('Garzotti'),
 ('Garzotto'),
 ('Garzouzie'),
-('Gas'),
 ('Gasa'),
 ('Gasaa'),
 ('Gasaali'),

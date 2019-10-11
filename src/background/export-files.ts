@@ -7,23 +7,13 @@ export class ExportFiles {
   public fm!: FileManager;
   public ready: boolean = false;
 
-  /**
-   * @constructor
-   * @param parent - reference to main process
-   */
-  constructor(parent: any) {
-    this.init(parent);
-
-    ipc.on("get-export-folder", async e => {
-      e.reply("export-folder", this.fm.folder);
-    });
-
-    ipc.on("get-export-file-count", async e => {
-      e.reply("export-file-count", this.fm.fileCount);
-    });
+  constructor() {
+    this.init();
+    ipc.on("get-export-folder", async e => e.reply("export-folder", this.fm.folder));
+    ipc.on("export-file-count", e => e.reply("export-file-count", this.fm.fileCount));
   }
 
-  public async init(parent: any): Promise<void> {    
+  public async init(): Promise<void> {    
     await DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field='EXPORT_FOLDER'`)
       .then(async row => {
         if (row) {
@@ -37,11 +27,6 @@ export class ExportFiles {
       .then((location: string) => {
         this.fm = new FileManager(location);
         this.fm.filter = "csv";
-
-        this.fm.events.on("file-count-change", n => {
-          parent.mainWindow.webContents.send("export-file-count" , n);
-        });
-
         this.ready = true;
       });
   }

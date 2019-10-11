@@ -46,7 +46,6 @@ export class NLP {
           case "NNS":
           case "NNP":
           case "NNPS":
-          case "VB":
             words.push({
               start: start,
               end: end,

@@ -1,4 +1,4 @@
-import debounce from "lodash-es/debounce";
+import db from "debounce";
 import he from "he";
 import validFilename from "valid-filename";
 import { ipcRenderer as ipc, remote } from "electron";
@@ -163,7 +163,7 @@ dataEntry.addEventListener("click", () => {
   }
 });
 
-dataEntry.addEventListener("input", debounce(checkInput, 700));
+dataEntry.addEventListener("input", db(checkInput, 700));
 
 dataEntry.addEventListener("paste", e => {
   e.preventDefault();
@@ -302,7 +302,7 @@ open.addEventListener("click", () => {
   open.classList.add("disabled");
 });
 
-renameFile.addEventListener("input", debounce(checkInputFileRename, 500));
+renameFile.addEventListener("input", db(checkInputFileRename, 500));
 
 renameFileCheck.addEventListener("change", e => {
   e.target.checked
