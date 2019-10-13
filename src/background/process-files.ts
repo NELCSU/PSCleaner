@@ -4,8 +4,11 @@ import { join } from "path";
 import DB from "sqlite3-helper";
 import { FileManager } from "./filemanager";
 import { NLP } from "./nlp.js";
+import EventEmitter from "events";
 
 export class ProcessFiles {
+  private _events = new EventEmitter();
+
   public fm!: FileManager;
   public nlp: NLP;
   public ready: boolean = false;
@@ -18,11 +21,17 @@ export class ProcessFiles {
     ipc.on("processing-file-count", e => e.reply("processing-file-count", this.fm.fileCount));
 
     ipc.on("start-processing", e => {
-      this.moveOne()
-        .then(
-          success => e.reply("processed"),
-          fail => e.reply("stop-processing")
-        );
+      this.fm.listFiles()
+        .then(files => {
+          if (files.length > 0) {
+            this.processFile(files[0]);
+            this._events.on("file-processed", () => {
+              e.reply("processed");
+            });
+          } else {
+            e.reply("stop-processing")
+          }
+        });
     });
   }
 
@@ -44,68 +53,52 @@ export class ProcessFiles {
       });
   }
 
-  public async moveOne(): Promise<boolean> {
-    return await this.fm.listFiles()
-      .then(async files => {
-        if (files.length > 0) {
-          const from: string = join(this.fm.folder, files[0]);
-          const to: string = join(this.sendTo, files[0]);
-          return await this.fm.fs.rename(from, to)
-            .then(() => Promise.resolve(true));
-        } else {
-          return Promise.reject();
-        }
-      })
-  }
-
-  public async process(file: string): Promise<void> {
+  public processFile(file: string): void {
     const from: string = join(this.fm.folder, file);
     const temp: string = join(this.fm.folder, "temp.tmp");
     const to: string = join(this.sendTo, file);
     const stream = csv.format({ headers: true });
     const writeStream = this.fm.fs.createWriteStream(temp);
     stream.pipe(writeStream);
-    let rq: number = -1;
-    let total: number = -1;
+    const rows: Promise<any>[] = [];
 
     csv.parseFile(from, { headers: true })
-      .on("error", error => {
-        console.error(error);
-      })
-      .on("data", async row => {
-        const queue: any[] = [];
-        rq = rq + (rq === -1 ? 2 : 1);
-        
-        for (let r in row) {
-          if (/.*freetext.*/i.test(r)) {
-            queue.push(
-              await this.nlp.evaluate(row[r])
-                .then(async matches => {
-                  row[r] = await this.nlp.replace(row[r], matches);
-                })
-            );
-          }
-        }
-        Promise.all(queue)
-          .then(async () => {
-            stream.write(row);
-            if (--rq === 0) {
-              stream.end();
-              this.fm.fs.rename(temp, to);
-            }
+      .on("data", async (row: any) => await rows.push(this._processRow(row, stream)))
+      .on("end", () => {
+        Promise.all(rows)
+          .then(() => {
+            stream.end();
+            Promise.all([this.fm.fs.rename(temp, to), this.fm.deleteFile(from)])
+              .then(() => {
+                this._events.emit("file-processed");
+              })
           });
-      })
-      .on("end", (rowCount: number) => {
-        total = rowCount;
       });
   }
 
-  public async start(): Promise<void> {
-    await this.fm.listFiles()
-      .then(async files => {
-        if (files.length > 0) {
-          await this.process(files[0])
-        }
-      });    
+  private _processRow(row: any, stream: any): Promise<any> {
+    const cellQ: any[] = [];
+    
+    for (let cell in row) {
+      cellQ.push(this._processCell(cell, row));
+    }
+
+    return Promise.all(cellQ)
+      .then(() => {
+        stream.write(row);
+        return Promise.resolve(row);
+      });
+  }
+
+  private async _processCell(cell: any, row: any[]): Promise<any> {
+    return /.*freetext.*/i.test(cell)
+      ? await this.nlp.evaluate(row[cell])
+          .then(async matches => {
+            await this.nlp.replace(row[cell], matches)
+              .then(r => {
+                return new Promise(resolve => resolve(row[cell] = r));
+              });
+          })
+      : Promise.resolve(cell);
   }
 }

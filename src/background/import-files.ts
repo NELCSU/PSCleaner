@@ -13,8 +13,8 @@ export class ImportFiles {
     ipc.on("get-import-folder", e => e.reply("import-folder", this.fm.folder));
     ipc.on("import-file-count", e => e.reply("import-file-count", this.fm.fileCount));
 
-    ipc.on("start-import", e => {
-      this.moveOne()
+    ipc.on("start-import", async e => {
+      await this.moveOne()
         .then(
           success => e.reply("imported"),
           fail => e.reply("stop-import")

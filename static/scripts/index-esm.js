@@ -9,7 +9,8 @@ const progressBar = one("#stProcessFiles");
 let importFiles = 0;
 let processingFiles = 0;
 let exportFiles = 0;
-let running = false;
+let started = false;
+let processing = false;
 
 /**
  * Update the file counts in each badge
@@ -18,24 +19,31 @@ async function updateUI() {
   importBadge.textContent = importFiles;
   processingBadge.textContent = processingFiles;
   exportBadge.textContent = exportFiles;
-  runButton.disabled = !running && importFiles > 0 ? false : !running; 
-  runButton.textContent = running ? "Cancel" : "Start processing";
-  progressBar.hidden = !running;
+  runButton.hidden = started || (!started && processing) ? true : importFiles === 0; 
+  runButton.textContent = started ? "Cancel" : "Start processing";
+  progressBar.hidden = !started && !processing;
   progressBar.max = importFiles + processingFiles + exportFiles;
   progressBar.value = processingFiles + exportFiles;
 }
 
 ipc.on("stop-import", () => {
-  running = false;
+  started = false;
   ipc.send("get-file-counts");
 });
 
+ipc.on("stop-processing", () => {
+  processing = false;
+  updateUI();
+})
+
 ipc.on("imported", () => {
   updateUI();
+  processing = true;
   ipc.send("start-processing");  
 });
 
 ipc.on("processed", () => {
+  processing = false;
   updateUI();
   ipc.send("start-import");
 });
@@ -56,9 +64,9 @@ ipc.on("import-file-count", (e, data) => {
 });
 
 runButton.addEventListener("click", () => {
-  running = !running;
+  started = true;
   updateUI();
-  if (running) {
+  if (started) {
     ipc.send("start-import");
   }
 });
