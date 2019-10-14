@@ -11,10 +11,25 @@ import trash from "trash";
  * Wrapper for Node's FileSystem library
  */
 export class FileManager {
+  private _folder!: string;
+
   public events = new EventEmitter();
   public fileCount = 0;
   public filter!: string;
-  public folder: string;
+  public get folder(): string {
+    return this._folder;
+  }
+  public set folder(value: string) {
+    this._folder = value;
+    fs.exists(this._folder, async found => {
+      if (found) {
+        this.init();
+      } else {        
+        await makeDir(this._folder)
+          .then(() => this.init())
+      }
+    });
+  }
   public fs: any;
   public watcher!: FSWatcher;
 
@@ -22,16 +37,8 @@ export class FileManager {
    * @param {string} folder - Base folder to reference. Creates path to folder if missing
    */
   constructor(folder: string) {
-    this.folder = folder;
     this.fs = fs;
-    fs.exists(folder, async found => {
-      if (found) {
-        this.init();
-      } else {        
-        await makeDir(folder)
-          .then(() => this.init())
-      }
-    });
+    this.folder = folder;
   }
 
   /**
@@ -66,12 +73,20 @@ export class FileManager {
   public fileName(file: string): string { return path.basename(file); }
 
   /**
-   * Class initialiser
+   * Folder initialiser
    */
   public init(): void {
+    this.listFiles()
+      .then(files => {
+        this.fileCount = files.length;
+      });
+
     let path: string = this.folder;
     if (this.filter) {
       path += `/**/*.${this.filter}`;
+    }
+    if (this.watcher) {
+      this.watcher.close();
     }
     this.watcher = chok.watch(path, {
       ignored: /^\./,

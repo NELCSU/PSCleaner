@@ -1,155 +1,122 @@
-import fs from "fs-extra";
 import { ipcRenderer as ipc, remote } from "electron";
 import { one } from "@buckneri/js-lib-dom-selection";
 
 (function ChooseImportFolder() {
   const browse = one("#btnImportSelection");
-  const clear = one("#btnClearImportSelection");
   const label = one("#lblImportFilePath");
-  let folder, base;
+  let folder;
 
   browse.addEventListener("click", () => {
     remote.dialog.showOpenDialog(null, {
       title: "Select a folder",
       buttonLabel: "Select folder",
-      defaultPath: folder || base,
+      defaultPath: folder,
       properties: ["createDirectory", "openDirectory", "promptToCreate"],
     }, paths => {
       folder = (paths === undefined || paths[0] === undefined) 
         ? folder
         : paths[0];
-      updatePathLabel();  
-      saveSelection();
+      label.textContent = folder ? folder : "Not specified";
+      if (folder) {
+        ipc.send("set-import-folder", folder);
+      }
     });
   });
-  
-  clear.addEventListener("click", () => {
-    folder = null;
-    ipc.send("delete-folder", "import");
-    updatePathLabel();
-  });
-  
-  function saveSelection() {
-    if (folder) {
-      ipc.send("save-folder", { key: "import", value: folder });
-    }
-  }
 
-  function updatePathLabel() {
-    if (folder) {
-      label.textContent = folder;
-      clear.classList.remove("disabled");
-    } else {
-      label.textContent = "Not specified";
-      clear.classList.add("disabled");
-    }
-  }
-
-  ipc.on("response-folders", (e, resp) => {
-    folder = fs.pathExistsSync(resp["import"]) ? resp["import"] : null;
-    base = resp.default;
-    updatePathLabel();
+  ipc.on("import-folder", (e, path) => {
+    folder = path;
+    label.textContent = folder ? folder : "Not specified";
   });
+
+  ipc.send("get-import-folder");
+})();
+
+(function ChooseProcessingFolder() {
+  const browse = one("#btnProcessingSelection");
+  const label = one("#lblProcessingFilePath");
+  let folder;
+
+  browse.addEventListener("click", () => {
+    remote.dialog.showOpenDialog(null, {
+      title: "Select a folder",
+      buttonLabel: "Select folder",
+      defaultPath: folder,
+      properties: ["createDirectory", "openDirectory", "promptToCreate"],
+    }, paths => {
+      folder = (paths === undefined || paths[0] === undefined) 
+        ? folder
+        : paths[0];
+      label.textContent = folder ? folder : "Not specified";
+      if (folder) {
+        ipc.send("set-processing-folder", folder);
+      }
+    });
+  });
+
+  ipc.on("processing-folder", (e, path) => {
+    folder = path;
+    label.textContent = folder ? folder : "Not specified";
+  });
+
+  ipc.send("get-processing-folder");
 })();
 
 (function ChooseExportFolder() {
   const browse = one("#btnExportSelection");
-  const clear = one("#btnClearExportSelection");
   const label = one("#lblExportFilePath");
-  let folder, base;
+  let folder;
 
   browse.addEventListener("click", () => {
     remote.dialog.showOpenDialog(null, {
       title: "Select a folder",
       buttonLabel: "Select folder",
-      defaultPath: folder || base,
+      defaultPath: folder,
       properties: ["createDirectory", "openDirectory", "promptToCreate"],
     }, paths => {
       folder = (paths === undefined || paths[0] === undefined) 
         ? folder
         : paths[0];
-      updatePathLabel();  
-      saveSelection();
+      label.textContent = folder ? folder : "Not specified";
+      if (folder) {
+        ipc.send("set-export-folder", folder);
+      }
     });
   });
-  
-  clear.addEventListener("click", () => {
-    folder = null;
-    ipc.send("delete-folder", "export");
-    updatePathLabel();
-  });
-  
-  function saveSelection() {
-    if (folder) {
-      ipc.send("save-folder", { key: "export", value: folder });
-    }
-  }
 
-  function updatePathLabel() {
-    if (folder) {
-      label.textContent = folder;
-      clear.classList.remove("disabled");
-    } else {
-      label.textContent = "Not specified";
-      clear.classList.add("disabled");
-    }
-  }
-
-  ipc.on("response-folders", (e, resp) => {
-    folder = fs.pathExistsSync(resp["export"]) ? resp["export"] : null;
-    base = resp.default;
-    updatePathLabel();
+  ipc.on("export-folder", (e, path) => {
+    folder = path;
+    label.textContent = folder ? folder : "Not specified";
   });
+
+  ipc.send("get-export-folder");
 })();
 
 (function ChooseTrainingDataFolder() {
   const browse = one("#btnTrainingDataSelection");
-  const clear = one("#btnClearTrainingDataSelection");
   const label = one("#lblTrainingFilePath");
-  let folder, base;
+  let folder;
   
   browse.addEventListener("click", () => {
     remote.dialog.showOpenDialog(null, {
       title: "Select a folder",
       buttonLabel: "Select folder",
-      defaultPath: folder || base,
+      defaultPath: folder,
       properties: ["createDirectory", "openDirectory", "promptToCreate"],
     }, paths => {
       folder = (paths === undefined || paths[0] === undefined) 
         ? folder
         : paths[0];
-      updatePathLabel();      
-      saveSelection();
+      label.textContent = folder ? folder : "Not specified";
+      if (folder) {
+        ipc.send("set-training-folder", folder);
+      }
     });
-  });  
-
-  clear.addEventListener("click", () => {
-    folder = null;
-    ipc.send("delete-folder", "data");
-    updatePathLabel();
   });
 
-  function saveSelection() {
-    if (folder) {
-      ipc.send("save-folder", { key: "data", value: folder });
-    }
-  }
-
-  function updatePathLabel() {
-    if (folder) {
-      label.textContent = folder;
-      clear.classList.remove("disabled");
-    } else {
-      label.textContent = "Not specified";
-      clear.classList.add("disabled");
-    }
-  }
-
-  ipc.on("response-folders", (e, resp) => {
-    folder = fs.pathExistsSync(resp["data"]) ? resp["data"] : null;
-    base = resp.default;
-    updatePathLabel();
+  ipc.on("training-folder", (e, path) => {
+    folder = path;
+    label.textContent = folder ? folder : "Not specified";
   });
+
+  ipc.send("get-training-folder");
 })();
-
-ipc.send("get-folders");

@@ -4,7 +4,7 @@ import { join } from "path";
 import DB from "sqlite3-helper";
 import uuidv1 from "uuid/v1";
 import { FileManager } from "./filemanager";
-import { TrainingFileResponse } from "../typings/PSCleaner";
+import { TrainingFileAction } from "../typings/PSCleaner";
 
 /**
  * Manages files stored in watched folder.
@@ -16,13 +16,16 @@ import { TrainingFileResponse } from "../typings/PSCleaner";
  * get-temp-training-file  -> temp-training-filename
  * get-training-file       -> training-file
  * get-training-file       -> training-file-error
- * get-training-file-count -> training-file-count
- * get-training-folder     -> training-folder - returns training folder path
  * rename-training-file    -> training-file-rename-error
  * rename-training-file    -> training-file-rename-warning
  * rename-training-file    -> training-file-renamed
  * save-training-file      -> training-file-save-error
  * save-training-file      -> training-file-saved
+ * 
+ * get-training-file-count -> training-file-count
+ * get-training-folder     -> training-folder
+ * set-training-folder     -> training-folder
+ * set-training-folder     -> training-folder-error
  */
 export class TrainingFiles {
   public fm!: FileManager;
@@ -34,43 +37,50 @@ export class TrainingFiles {
   constructor(parent: any) {
     this.init(parent);
 
-    ipc.on("save-training-file", async (e, file, data) => {
-      await this.fm.saveFile(this.fm.join(file), stringify(data))
+    ipc.on("save-training-file", (e, file, data) => {
+      this.save(file, data)
         .then(
-          () => e.reply("training-file-saved"),
-          () => e.reply("training-file-save-error")
+          success => e.reply(success.status),
+          failure => e.reply(failure.status)
         );
     });
 
-    ipc.on("rename-training-file", async (e, srcFile, destFile, force = false) => {
-      const oldFilePath: string = this.fm.join(srcFile);
-      let newFilePath: string = this.fm.join(destFile);
-      if (!this.fm.fs.existsSync(oldFilePath)) {
-        e.reply("training-file-renamed", destFile);
-      } else if (!force && this.fm.fs.existsSync(newFilePath)) {
-        e.reply("training-file-rename-warning", destFile);
-      } else {
-        this.fm.fs.rename(oldFilePath, newFilePath)
-          .then(
-            () => e.reply("training-file-renamed", destFile),
-            () => e.reply("training-file-rename-error")
-          );
-      }
+    ipc.on("rename-training-file", (e, srcFile, destFile, force = false) => {
+      this.rename(srcFile, destFile, force)
+        .then(
+          success => e.reply(success.status, success.fn),
+          failure => e.reply(failure.status)
+        );
     });
 
-    ipc.on("get-training-folder", async e => e.reply("training-folder", this.fm.folder));
+    ipc.on("get-training-folder", e => e.reply("training-folder", this.fm.folder));
+
+    ipc.on("set-training-folder", (e, path) => {
+      DB().update("AppSettings", { field: "TRAINING_FOLDER", value: path }, { field: "TRAINING_FOLDER" })
+        .then(
+          () => {
+            this.fm.folder = path;
+            e.reply("training-folder", this.fm.folder)
+          },
+          () => e.reply("training-folder-error", this.fm.folder)
+        );
+    });
+    
 
     ipc.on("delete-training-file", (e, file) => {
       this.delete(this.fm.join(file))
-        .then(success => e.reply(success), failure => e.reply(failure));
+        .then(
+          success => e.reply(success.status),
+          failure => e.reply(failure.status)
+        );
     });
 
     ipc.on("get-training-file", (e, file) => {
-      this.fm.fs.readFile(file, "utf8")
-        .then((data: string) => {
-          e.reply("training-file", this.fm.fileName(file), data);
-        })
-        .catch(() => e.reply("training-file-error", file));
+      this.open(file)
+        .then(
+          success => e.reply(success.status, success.fn, success.data),
+          failure => e.reply(failure.status)
+        );
     });
 
     ipc.on("get-training-file-count", e => e.reply("training-file-count", this.fm.fileCount));
@@ -81,13 +91,86 @@ export class TrainingFiles {
   /**
    * Deletes a file
    * @param {string} file - file to delete
-   * @return {Promise<TrainingFileResponse}
+   * @return {Promise<any}
    */
-  public delete(file: string): Promise<TrainingFileResponse> {
+  public delete(file: string): Promise<TrainingFileAction> {
     return this.fm.deleteFile(file)
+      .then(() => Promise.resolve({
+          fn: file,
+          status: "training-file-deleted"
+        }),
+        () => Promise.reject({ status: "training-file-deletion-error" })
+      );
+  }
+
+  /**
+   * Opens a file
+   * @param {string} file - path to file
+   * @return {Promise<any>}
+   */
+  public open(file: string): Promise<TrainingFileAction> {
+    return this.fm.fs.readFile(file, "utf8")
+      .then((data: string) => Promise.resolve({
+          data: data,
+          fn: this.fm.fileName(file),
+          status: "training-file"
+        }),
+        () => Promise.reject({ status: "training-file-error" })
+      );
+  }
+
+  /**
+   * Renames a file
+   * @param {string} srcFile - source file to rename
+   * @param {string} destFile - destination file name
+   * @param {boolean} force - overwrite destination if true
+   * @return {Promise<any>}
+   */
+  public rename(srcFile: string, destFile: string, force: boolean = false): Promise<TrainingFileAction> {
+    let oldFilePath: string = this.fm.join(srcFile);
+    let newFilePath: string = this.fm.join(destFile);
+
+    return Promise.all([
+      this.fm.fs.pathExists(oldFilePath), 
+      this.fm.fs.pathExists(newFilePath)
+    ])
       .then(
-        () => Promise.resolve("training-file-deleted"),
-        () => Promise.resolve("training-file-deletion-error")
+        exists => {
+          if (!exists[0]) {
+            return Promise.resolve({
+              fn: destFile,
+              status: "training-file-renamed"
+            })
+          } else if (force === false && exists[1]) {
+            return Promise.resolve({
+              fn: destFile,
+              status: "training-file-rename-warning"
+            })
+          } else {
+            return this.fm.fs.rename(oldFilePath, newFilePath)
+              .then(
+                () => Promise.resolve({
+                  fn: destFile,
+                  status: "training-file-renamed"
+                }),
+                () => Promise.reject({ status: "training-file-rename-error" })
+              );
+          }
+        }
+      );
+  }
+
+  /**
+   * Save a file
+   * @param {string} file - path to file
+   * @param {any} data - data to save to file
+   * @return {Promise<any>}
+   */
+  public save(file: string, data: any): Promise<TrainingFileAction> {
+    return this.fm.saveFile(this.fm.join(file), stringify(data))
+      .then(
+        () => Promise.resolve({ status: "training-file-saved" }),
+        () => Promise.reject({ status: "training-file-save-error" })
       );
   }
 

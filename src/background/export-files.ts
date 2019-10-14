@@ -8,8 +8,10 @@ import DB from "sqlite3-helper";
  * ----------------------------------
  * API  (ipc request -> response)
  * ----------------------------------
- * get-export-folder -> export-folder - returns export folder path
- * export-file-count -> export-file-count - returns file count
+ * export-file-count -> export-file-count
+ * get-export-folder -> export-folder
+ * set-export-folder -> export-folder
+ * set-export-folder -> export-folder-error
  */
 export class ExportFiles {
   public fm!: FileManager;
@@ -17,7 +19,20 @@ export class ExportFiles {
 
   constructor() {
     this.init();
-    ipc.on("get-export-folder", async e => e.reply("export-folder", this.fm.folder));
+    
+    ipc.on("get-export-folder", e => e.reply("export-folder", this.fm.folder));
+
+    ipc.on("set-export-folder", (e, path) => {
+      DB().update("AppSettings", { field: "EXPORT_FOLDER", value: path }, { field: "EXPORT_FOLDER" })
+        .then(
+          () => {
+            this.fm.folder = path;
+            e.reply("export-folder", this.fm.folder)
+          },
+          () => e.reply("export-folder-error", this.fm.folder)
+        );
+    });
+
     ipc.on("export-file-count", e => e.reply("export-file-count", this.fm.fileCount));
   }
 

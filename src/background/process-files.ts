@@ -11,10 +11,13 @@ import DB from "sqlite3-helper";
  * ----------------------------------
  * API  (ipc request     -> response)
  * ----------------------------------
- * get-processing-folder -> processing-folder - returns processing folder path
- * processing-file-count -> processing-file-count - returns file count
- * start-processing      -> processed - moves one file to sendTo folder
- * start-processing      -> stop-processing - no further files found
+ * start-processing      -> processed
+ * start-processing      -> stop-processing
+ * 
+ * processing-file-count -> processing-file-count
+ * get-processing-folder -> processing-folder
+ * set-processing-folder -> processing-folder
+ * set-processing-folder -> processing-folder-error
  */
 export class ProcessFiles {
   private _events = new EventEmitter();
@@ -26,8 +29,22 @@ export class ProcessFiles {
 
   constructor() {
     this.init();
+    
     this.nlp = new NLP();
+
     ipc.on("get-processing-folder", e => e.reply("processing-folder", this.fm.folder));
+
+    ipc.on("set-processing-folder", (e, path) => {
+      DB().update("AppSettings", { field: "PROCESSING_FOLDER", value: path }, { field: "PROCESSING_FOLDER" })
+        .then(
+          () => {
+            this.fm.folder = path;
+            e.reply("processing-folder", this.fm.folder)
+          },
+          () => e.reply("processing-folder-error", this.fm.folder)
+        );
+    });
+
     ipc.on("processing-file-count", e => e.reply("processing-file-count", this.fm.fileCount));
 
     ipc.on("start-processing", e => {

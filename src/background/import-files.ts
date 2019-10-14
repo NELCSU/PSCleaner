@@ -9,10 +9,13 @@ import { ImportResponse } from "../typings/PSCleaner";
  * ----------------------------------
  * API  (ipc request -> response)
  * ----------------------------------
- * get-import-folder -> import-folder - returns import folder path
- * import-file-count -> import-file-count - returns file count
- * start-import      -> imported - moves one file to sendTo folder
- * start-import      -> stop-import - no further files found
+ * start-import      -> imported
+ * start-import      -> stop-import
+ * 
+ * import-file-count -> import-file-count
+ * get-import-folder -> import-folder
+ * set-import-folder -> import-folder
+ * set-import-folder -> import-folder-error
  */
 export class ImportFiles {
   public sendTo: string = "";
@@ -22,6 +25,18 @@ export class ImportFiles {
   constructor() {
     this.init();
     ipc.on("get-import-folder", e => e.reply("import-folder", this.fm.folder));
+
+    ipc.on("set-import-folder", (e, path) => {
+      DB().update("AppSettings", { field: "IMPORT_FOLDER", value: path }, { field: "IMPORT_FOLDER" })
+        .then(
+          () => {
+            this.fm.folder = path;
+            e.reply("import-folder", this.fm.folder)
+          },
+          () => e.reply("import-folder-error", this.fm.folder)
+        );
+    });
+    
     ipc.on("import-file-count", e => e.reply("import-file-count", this.fm.fileCount));
 
     ipc.on("start-import", e => {
