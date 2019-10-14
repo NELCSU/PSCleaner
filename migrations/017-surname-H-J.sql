@@ -7688,7 +7688,6 @@ VALUES
 ('Heare'),
 ('Hearfield'),
 ('Hearin'),
-('Hearing'),
 ('Hearl'),
 ('Hearld'),
 ('Hearle'),

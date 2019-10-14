@@ -11926,7 +11926,6 @@ VALUES
 ('Wessie'),
 ('Wessley'),
 ('Wesson'),
-('West'),
 ('Westaly'),
 ('Westan'),
 ('Westbo'),
