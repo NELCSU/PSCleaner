@@ -10,6 +10,9 @@ const windowDefault: any = {
   }
 };
 
+/**
+ * Manages creation of browser window
+ */
 export class AppWindow extends BrowserWindow {
   private _wsk: any;
 

@@ -1,11 +1,21 @@
 import { app, ipcMain as ipc } from "electron";
+import EventEmitter from "events";
 import csv from "fast-csv";
-import { join } from "path";
-import DB from "sqlite3-helper";
 import { FileManager } from "./filemanager";
 import { NLP } from "./nlp.js";
-import EventEmitter from "events";
+import { join } from "path";
+import DB from "sqlite3-helper";
 
+/**
+ * Manages files stored in watched folder. Runs NLP services on files.
+ * ----------------------------------
+ * API  (ipc request     -> response)
+ * ----------------------------------
+ * get-processing-folder -> processing-folder - returns processing folder path
+ * processing-file-count -> processing-file-count - returns file count
+ * start-processing      -> processed - moves one file to sendTo folder
+ * start-processing      -> stop-processing - no further files found
+ */
 export class ProcessFiles {
   private _events = new EventEmitter();
 
@@ -25,16 +35,18 @@ export class ProcessFiles {
         .then(files => {
           if (files.length > 0) {
             this.processFile(files[0]);
-            this._events.on("file-processed", () => {
-              e.reply("processed");
-            });
+            this._events.on("file-processed", () => e.reply("processed"));
           } else {
-            e.reply("stop-processing")
+            this._events.on("file-processing-error", () => e.reply("stop-processing"));
+            e.reply("stop-processing");
           }
         });
     });
   }
 
+  /**
+   * Class initialiser and creates the folder path setting if missing
+   */
   public async init(): Promise<void> {
     await DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field='PROCESSING_FOLDER'`)
       .then(async row => {
@@ -53,6 +65,10 @@ export class ProcessFiles {
       });
   }
 
+  /**
+   * Processes file. Applies NLP service on free text
+   * @param {string} file
+   */
   public processFile(file: string): void {
     const from: string = join(this.fm.folder, file);
     const temp: string = join(this.fm.folder, "temp.tmp");
@@ -72,6 +88,9 @@ export class ProcessFiles {
               .then(() => {
                 this._events.emit("file-processed");
               })
+              .catch(() => {
+                this._events.emit("file-processing-error");
+              });
           });
       });
   }

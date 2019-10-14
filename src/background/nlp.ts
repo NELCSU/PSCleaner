@@ -1,9 +1,12 @@
-import { Entity, MatchedEntity, WordPosition } from "../typings/PSCleaner";
+import { Entities } from "./entities";
 import DB from "sqlite3-helper";
 import { DataObject } from "sqlite3-helper";
-import { Entities } from "./entities";
+import { Entity, MatchedEntity, WordPosition } from "../typings/PSCleaner";
 import posTagger from "wink-pos-tagger";
 
+/**
+ * Natural language processing services
+ */
 export class NLP {
   public pos: any;
 
@@ -11,6 +14,11 @@ export class NLP {
     this.pos = posTagger();
   }
 
+  /**
+   * Returns list of matched entities
+   * @param {string} data - body of text to evaluate
+   * @return {Promise<MatchedEntity[]>}
+   */
   public async evaluate(data: string): Promise<MatchedEntity[]> {
     const ent_re = await Entities.getList("Regular expression");
     const ent_wl = await Entities.getList("Word list");
@@ -28,12 +36,17 @@ export class NLP {
       });
   }
 
-  public async getWordPositions(str: string): Promise<WordPosition[]> {
+  /**
+   * Returns list of word positions
+   * @param {string} data - body of text to evaluate
+   * @return {Promise<WordPosition[]>}
+   */
+  public async getWordPositions(data: string): Promise<WordPosition[]> {
     const words: WordPosition[] = [];
-    const tags: any[] = this.pos.tagSentence(str);
+    const tags: any[] = this.pos.tagSentence(data);
     let cursor: number = 0;
     tags.forEach((tag: any) => {
-      const start: number = str.indexOf(tag.value, cursor);
+      const start: number = data.indexOf(tag.value, cursor);
       const len: number = tag.value.length;
       const end: number = start + len - 1;
       cursor = end;
@@ -58,6 +71,11 @@ export class NLP {
     return words;
   }
 
+  /**
+   * Returns text with sensitive values removed
+   * @param {string} data - body of text to match and replace 
+   * @param {MatchedEntites[]} matches - list of matches found
+   */
   public replace(data: string, matches: MatchedEntity[]): Promise<string> {
     return new Promise((resolve, reject) => {
       try {

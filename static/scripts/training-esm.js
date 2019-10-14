@@ -24,6 +24,7 @@ const renameFileSave = one("#btnFileRename");
 const save = one("#btnAddText");
 const auto = one("#btnAutodiscover");
 
+let activeFile = null;
 let tag = null;
 let entityMap = new Map();
 
@@ -97,11 +98,6 @@ function fileRenameClear() {
   renameFileSave.classList.add("disabled");
 }
 
-function fileRenameSuccess(file) {
-  filename.textContent = file;
-  fileRenameClear();
-}
-
 function insertionPoint() {
   let sel = window.getSelection();
   const node = sel.focusNode;
@@ -147,7 +143,7 @@ closeFile.addEventListener("click", () => {
   fileRenameClear();
   filename.textContent = "";
   files.hidden = true;
-  ipc.send("clear-training-file");
+  activeFile = null;
 });
 
 dataEntry.addEventListener("click", () => {
@@ -236,11 +232,13 @@ ipc.on("NLP-response", (e, response) => {
 });
 
 ipc.on("temp-training-filename", (e, response) => {
+  activeFile = response;
   filename.textContent = response;
   files.hidden = false;
 });
 
 ipc.on("training-file", (e, file, dt) => {
+  activeFile = file;
   filename.textContent = file;
   files.hidden = false;
   const data = JSON.parse(dt);
@@ -273,11 +271,15 @@ ipc.on("training-file-rename-warning", (e, response) => {
     defaultId: 1
   });
   if (choice !== 1) {
-    ipc.send("training-file-rename", response, true);
+    ipc.send("rename-training-file", activeFile, response, true);
   }
 });
 
-ipc.on("training-file-rename-complete", (e, resp) => fileRenameSuccess(resp));
+ipc.on("training-file-renamed", (e, file) => {
+  activeFile = file;
+  filename.textContent = file;
+  fileRenameClear();
+});
 
 ipc.on("training-folder", (e, folder) => {
   remote.dialog.showOpenDialog(null, {
@@ -288,7 +290,7 @@ ipc.on("training-folder", (e, folder) => {
   }, file => {
     if (file === undefined || file[0] === undefined) {
       open.classList.remove("disabled");
-      return; 
+      return;
     }
     ipc.send("get-training-file", file[0]);
   });
@@ -320,7 +322,7 @@ renameFileSave.addEventListener("click", e => {
   let newFilename = renameFile.value.trim();
   newFilename = newFilename.replace(/\.json/, "");
   newFilename = `${newFilename}.json`;
-  ipc.send("training-file-rename", newFilename);
+  ipc.send("rename-training-file", activeFile, newFilename);
 });
 
 save.addEventListener("click", () => {
@@ -392,7 +394,7 @@ window.addEventListener("NewTrainingData", () => {
   deleteFile.classList.remove("disabled");
   save.classList.remove("disabled");
   if (filename.textContent === "") {
-    ipc.send("get-temp-training-filename");
+    ipc.send("get-temp-training-file");
   }
 });
 

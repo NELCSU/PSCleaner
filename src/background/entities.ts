@@ -1,55 +1,84 @@
 import { ipcMain as ipc } from "electron";
 import DB from "sqlite3-helper";
 import { DataObject } from "sqlite3-helper";
-import { Entity, EntityType } from "../typings/PSCleaner";
+import { Entity, EntityResponse, EntityType } from "../typings/PSCleaner";
 
+/**
+ * Manages entities
+ * ----------------------------------
+ * API  (ipc request -> response)
+ * ----------------------------------
+ * delete-entity -> entity-deleted - deletes entity
+ * delete-entity -> entity-deletion-error
+ * get-entities  -> entity-list - returns list of entities
+ * get-entities  -> entity-list-error
+ * save-entity   -> entity-saved - saves changes to entity
+ * save-entity   -> entity-save-error
+ */
 export class Entities {
   constructor() {
-    ipc.on("save-entity", async (e, data) => {
-     await Entities.save(data)
-      .then(ent => e.reply("entity-saved", ent));
+    ipc.on("save-entity", (e, data) => {
+      Entities.save(data)
+        .then(
+          success => e.reply("entity-saved", success),
+          failure => e.reply(failure, null)
+        );
     });
 
-    ipc.on("delete-entity", async (e, key: number) => {
-      await Entities.delete(key)
-        .then(n => {
-          if (n !== 0) {
-            e.reply("entity-deleted", key);
-          }
-        });      
+    ipc.on("delete-entity", (e, key: number) => {
+      Entities.delete(key)
+        .then(
+          success => e.reply(success, key),
+          failure => e.reply(failure, key)
+        );      
     });
 
-    ipc.on("get-entities", async e => {
-      await Entities.getList()
-        .then(result => e.reply("entity-list", result));  
+    ipc.on("get-entities", e => {
+      Entities.getList()
+        .then(
+          success => e.reply("entity-list", success),
+          failure => e.reply(failure, [])
+        );  
     });
   }
 
   /**
    * deletes entity from data store
    * @param {number} id - entity id to delete
+   * @return {Promise<EntityResponse>}
    */
-  public static async delete(id: number): Promise<number> {
-    const result: any = await DB().run("DELETE FROM Entity WHERE id = ?", id);
-    return result.changes;
+  public static delete(id: number): Promise<EntityResponse> {
+    return DB().run("DELETE FROM Entity WHERE id = ?", id)
+      .then(
+        success => success.changes !== 0 ? "entity-deleted" : "entity-deletion-error"
+      )
+      .catch(() => "entity-deletion-error");
   }
 
   /**
    * returns list of entities
    * @param {EntityType} filterByType - (optional) filters list by entity type
+   * @return {Promise<Entity[]>}
    */
-  public static async getList(filterByType?: EntityType): Promise<Entity[]> {
+  public static getList(filterByType?: EntityType): Promise<Entity[]> {
     const qry: string = "SELECT id, name, color, domain, type, reg_ex FROM Entity";
     return filterByType
-      ? await DB().query(`${qry} WHERE type = ?`, filterByType)
-          .then(entities => Entities.toList(entities))
-      : await DB().query(qry)
-          .then(entities => Entities.toList(entities));
+      ? DB().query(`${qry} WHERE type = ?`, filterByType)
+          .then(
+            entities => Promise.resolve(Entities.toList(entities)), 
+            () => Promise.reject("entity-list-error")
+          )
+      : DB().query(qry)
+          .then(
+            entities => Promise.resolve(Entities.toList(entities)),
+            () => Promise.reject("entity-list-error")
+          );
   }
 
   /**
    * Saves new/existing entity changes
    * @param {Entity} data - entity to upsert into data store
+   * @return {Promise<Entity>}
    */
   public static async save(data: Entity): Promise<Entity> {
     const item: any = {
@@ -64,17 +93,23 @@ export class Entities {
       .then(async row => {
         if (row) {
           return await DB().update("entity", item, { id: data.id })
-            .then(() => Promise.resolve(data));
+            .then(
+              () => Promise.resolve(data),
+              () => Promise.reject("entity-save-error")
+            );
         } else {
           return await DB()
             .insert("entity", item)
             .then(async id => 
               await DB()
                 .queryFirstRow("SELECT * FROM Entity WHERE id = ?", id)
-                .then((row: any) => {
-                  data.id = row.id;
-                  return Promise.resolve(data);
-                })
+                .then(
+                  (row: any) => {
+                    data.id = row.id;
+                    return Promise.resolve(data);
+                  },
+                  () => Promise.reject("entity-save-error")
+                )
             );
         }
       });
@@ -83,6 +118,7 @@ export class Entities {
   /**
    * Converts list of DataObjects to sorted (by name) list of Entities
    * @param {DataObject[]} entities - list of objects returned from data store
+   * @return {Entity[]}
    */
   public static toList(entities: DataObject[]): Entity[] {
     const r: Entity[] = [];
