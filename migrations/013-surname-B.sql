@@ -1,7 +1,7 @@
 -- Up
 
 INSERT INTO "surname"
-("name")
+("keyword")
 VALUES
 ('Baab'),
 ('Baaba'),
@@ -43011,4 +43011,4 @@ VALUES
 
 -- Down
 
-DELETE FROM "Surname" WHERE "name" BETWEEN 'Baab' AND 'Bzymek';
+DELETE FROM "Surname" WHERE "keyword" BETWEEN 'Baab' AND 'Bzymek';

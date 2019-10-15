@@ -1,7 +1,7 @@
 -- Up
 
 INSERT INTO "Placename"
-("name")
+("keyword")
 VALUES
 ('Na Buirgh'),
 ('Na Druimeanan'),
@@ -23816,4 +23816,4 @@ VALUES
 
 -- Down
 
-DELETE FROM "Placename" WHERE "name" BETWEEN 'Na Buirgh' AND 'Zouch';
+DELETE FROM "Placename" WHERE "keyword" BETWEEN 'Na Buirgh' AND 'Zouch';

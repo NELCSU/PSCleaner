@@ -1,7 +1,7 @@
 -- Up
 
 INSERT INTO "Firstname"
-("name")
+("keyword")
 VALUES
 ('Uada'),
 ('Uaenice'),
@@ -12956,7 +12956,6 @@ VALUES
 ('Wint'),
 ('Winta'),
 ('Wintana'),
-('Winter'),
 ('Winterbourne'),
 ('Winters'),
 ('Winterton'),
@@ -27251,4 +27250,4 @@ VALUES
 
 -- Down
 
-DELETE FROM "Firstname" WHERE "name" BETWEEN 'Uada' AND 'Zyzana';
+DELETE FROM "Firstname" WHERE "keyword" BETWEEN 'Uada' AND 'Zyzana';

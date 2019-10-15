@@ -21,12 +21,12 @@ export class NLP {
    */
   public async evaluate(data: string): Promise<MatchedEntity[]> {
     const ent_re = await Entities.getList("Regular expression");
-    const ent_wl = await Entities.getList("Word list");
+    const ent_st = await Entities.getList("Single term");
 
-    return Promise.all([ent_re, ent_wl])
+    return Promise.all([ent_re, ent_st])
       .then(async entities => {
         const match_re = await this._runRegExpressions(data, entities[0]);
-        const match_wl = await this._runWordLists(data, entities[1]);
+        const match_wl = await this._runSingleTerms(data, entities[1]);
         return Promise.all([match_re, match_wl])
           .then(matches => {
             const mt: MatchedEntity[] = [];
@@ -100,7 +100,7 @@ export class NLP {
       let m: RegExpExecArray | null;
       while ((m = re.exec(data)) !== null) {
         r.push({
-          entity: ent.name,
+          entity: ent.label,
           entityId: ent.id,
           entityDomain: ent.domain,
           value: m[0],
@@ -113,7 +113,7 @@ export class NLP {
     return Promise.resolve(r);
   }
 
-  private async _runWordLists(data: string, entities: Entity[]): Promise<MatchedEntity[]> {
+  private async _runSingleTerms(data: string, entities: Entity[]): Promise<MatchedEntity[]> {
     const queue: Promise<MatchedEntity[]>[] = [];
     const words: WordPosition[] = await this.getWordPositions(data);    
     entities.forEach(async (ent: Entity) => {
@@ -132,7 +132,7 @@ export class NLP {
     words.forEach(async word => {
       let searchTerm = data.substr(word.start, word.length);
       searchTerm = searchTerm.replace(/\'/g, "''");
-      const qry: string = `SELECT '${searchTerm}' AS "search", ${word.start} AS "start", ${word.end} AS "end", ${word.length} AS "length" FROM "${entity.name}" WHERE "name" = ?`;
+      const qry: string = `SELECT '${searchTerm}' AS "search", ${word.start} AS "start", ${word.end} AS "end", ${word.length} AS "length" FROM "${entity.label}" WHERE "keyword" = ?`;
       queue.push(DB().queryFirstRow(qry, searchTerm));
     });
     const r: MatchedEntity[] = [];
@@ -141,7 +141,7 @@ export class NLP {
         values.map((row: any) => {
           if (row) {
             r.push({
-              entity: entity.name,
+              entity: entity.label,
               entityId: entity.id,
               entityDomain: entity.domain,
               value: row.search,

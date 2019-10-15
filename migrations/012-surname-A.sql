@@ -1,7 +1,7 @@
 -- Up
 
 INSERT INTO "surname"
-("name")
+("keyword")
 VALUES
 ('Aaban'),
 ('Aabbad'),
@@ -29091,7 +29091,6 @@ VALUES
 ('Aufrant'),
 ('Aufray'),
 ('Aufricht'),
-('Aug'),
 ('Auga'),
 ('Augaityte'),
 ('Augambay'),
@@ -31847,4 +31846,4 @@ VALUES
 
 -- Down
 
-DELETE FROM "Surname" WHERE "name" BETWEEN 'Aaban' AND 'Azzurro';
+DELETE FROM "Surname" WHERE "keyword" BETWEEN 'Aaban' AND 'Azzurro';

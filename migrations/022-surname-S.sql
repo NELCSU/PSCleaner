@@ -1,7 +1,7 @@
 -- up
 
 INSERT INTO "Surname"
-("name")
+("keyword")
 VALUES
 ('Saab'),
 ('Saabatmand'),
@@ -39230,7 +39230,6 @@ VALUES
 ('Sprincean'),
 ('Sprinceana'),
 ('Sprincova'),
-('Spring'),
 ('Springall'),
 ('Springate'),
 ('Springbett'),
@@ -48762,7 +48761,6 @@ VALUES
 ('Summars'),
 ('Summayah'),
 ('Summe'),
-('Summer'),
 ('Summerall'),
 ('Summerbell'),
 ('Summerbridge'),
@@ -53612,4 +53610,4 @@ VALUES
 
 -- Down
 
-DELETE FROM "Surname" WHERE "name" BETWEEN 'Saab' AND 'Szyzmn';
+DELETE FROM "Surname" WHERE "keyword" BETWEEN 'Saab' AND 'Szyzmn';

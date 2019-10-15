@@ -4,7 +4,7 @@ import { one } from "@buckneri/js-lib-dom-selection";
 import uuidv1 from "uuid/v1";
 
 const entityList = one("#lstManageEntities");
-const entityName = one("#txtEntityLabel");
+const entityLabel = one("#txtEntityLabel");
 const entityId = one("#txtEntityId");
 const entityDomain = one("#txtEntityDomain");
 const title = one("#title");
@@ -27,7 +27,7 @@ function addEntity(list, data) {
   item.dataset.domain = data.domain;
   item.dataset.type = data.type;
   item.dataset.reg_ex = data.reg_ex;
-  item.textContent = data.name;
+  item.textContent = data.label;
   list.appendChild(item);
   return item;
 }
@@ -42,7 +42,7 @@ function deleteSelection() {
 }
 
 function toggleSaveEntity() {
-  if (entityName.value === "" || 
+  if (entityLabel.value === "" || 
       entityDomain.value === "" ||
       entityType.selectedIndex === 0 ||
      (!regExpression.hidden && regExpression.value === "")) {
@@ -64,10 +64,10 @@ async function updateCount() {
 clearUI.addEventListener("click", () => {
   title.textContent = "Add an entity";
   colorSelector.value = "#cccccc";
-  entityName.value = "";
+  entityLabel.value = "";
   entityDomain.value = "";
   entityId.value = "";
-  entityName.disabled = false;
+  entityLabel.disabled = false;
   entityDomain.disabled = false;
   deleteEntity.classList.add("disabled");
   deleteEntity.dataset.id = null;
@@ -75,7 +75,7 @@ clearUI.addEventListener("click", () => {
   entityType.dispatchEvent(new Event("change"));
   entityType.disabled = false;
   toggleSaveEntity();
-  entityName.focus();
+  entityLabel.focus();
 });
 
 colorSelector.addEventListener("change", toggleSaveEntity);
@@ -90,13 +90,13 @@ entityList.addEventListener("selected", e => {
     const regex = e.detail.dataset.reg_ex;
     colorSelector.value = e.detail.color;
     title.textContent = `Editing ${e.detail.textContent}`;
-    entityName.value = e.detail.textContent;
+    entityLabel.value = e.detail.textContent;
     entityDomain.value = e.detail.dataset.domain;
     entityId.value = e.detail.dataset.id;
     entityType.value = e.detail.dataset.type;
     entityType.dispatchEvent(new Event("change"));
     regExpression.value = regex ? regex : "";
-    entityName.disabled = false;
+    entityLabel.disabled = false;
     entityDomain.disabled = false;
     entityType.disabled = false;
     deleteEntity.classList.remove("disabled");    
@@ -105,7 +105,7 @@ entityList.addEventListener("selected", e => {
   }, 50);
 });
 
-entityName.addEventListener("input", db(() => toggleSaveEntity(), 500));
+entityLabel.addEventListener("input", db(() => toggleSaveEntity(), 500));
 
 entityDomain.addEventListener("input", db(() => toggleSaveEntity(), 500));
 
@@ -146,7 +146,7 @@ regExpression.addEventListener("input", db(() => toggleSaveEntity(), 500));
 saveEntity.addEventListener("click", () => {   
   dataset = {
     id: entityId.value ? entityId.value : -1,
-    name: entityName.value,    
+    label: entityLabel.value,    
     color: colorSelector.value,
     domain: entityDomain.value,
     type: entityType.options[entityType.selectedIndex].value,

@@ -1,8 +1,8 @@
-export type EntityType = "Regular expression" | "Word list";
+export type EntityType = "Regular expression" | "Single term" | "Multiple term";
 
 export type Entity = {
   id: number,
-  name: string,
+  label: string,
   color: string,
   domain: string,
   type: EntityType,

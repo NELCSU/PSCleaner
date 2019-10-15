@@ -1,7 +1,7 @@
 -- Up
 
 INSERT INTO "Firstname"
-("name")
+("keyword")
 VALUES
 ('Saab'),
 ('Saaba'),
@@ -29683,7 +29683,6 @@ VALUES
 ('Spriglio'),
 ('Spriha'),
 ('Sprinc'),
-('Spring'),
 ('Springall'),
 ('Sprinivas'),
 ('Sprintse'),
@@ -53334,4 +53333,4 @@ VALUES
 
 -- Down
 
-DELETE FROM "Firstname" WHERE "name" BETWEEN 'Saab' AND 'Tzwi';
+DELETE FROM "Firstname" WHERE "keyword" BETWEEN 'Saab' AND 'Tzwi';

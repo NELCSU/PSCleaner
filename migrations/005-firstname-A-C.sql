@@ -1,7 +1,7 @@
 -- Up
 
 INSERT INTO "Firstname"
-("name")
+("keyword")
 VALUES
 ('Aaabo'),
 ('Aaaoa'),
@@ -573,7 +573,6 @@ VALUES
 ('Aaronn'),
 ('Aaronne'),
 ('Aarons'),
-('Aaronson'),
 ('Aaronveer'),
 ('Aaroob'),
 ('Aaroon'),
@@ -1171,7 +1170,6 @@ VALUES
 ('Abbood'),
 ('Abbos'),
 ('Abbosbek'),
-('Abbotson'),
 ('Abbott'),
 ('Abbotts'),
 ('Abboud'),
@@ -29131,8 +29129,6 @@ VALUES
 ('Atkin'),
 ('Atkinakas'),
 ('Atkinlose'),
-('Atkins'),
-('Atkinson'),
 ('Atkyia'),
 ('Atla'),
 ('Atlaf'),
@@ -60922,4 +60918,4 @@ VALUES
 
 -- Down
 
-DELETE FROM "Firstname" WHERE "name" BETWEEN 'Aaabo' AND 'Czyzak';
+DELETE FROM "Firstname" WHERE "keyword" BETWEEN 'Aaabo' AND 'Czyzak';

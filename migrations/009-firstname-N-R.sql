@@ -1,7 +1,7 @@
 -- Up
 
 INSERT INTO "Firstname"
-("name")
+("keyword")
 VALUES
 ('Naa'),
 ('Naaak'),
@@ -54875,4 +54875,4 @@ VALUES
 
 -- Down
 
-DELETE FROM "Firstname" WHERE "name" BETWEEN 'Naa' AND 'Rzgar';
+DELETE FROM "Firstname" WHERE "keyword" BETWEEN 'Naa' AND 'Rzgar';

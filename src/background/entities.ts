@@ -61,7 +61,7 @@ export class Entities {
    * @return {Promise<Entity[]>}
    */
   public static getList(filterByType?: EntityType): Promise<Entity[]> {
-    const qry: string = "SELECT id, name, color, domain, type, reg_ex FROM Entity";
+    const qry: string = "SELECT id, label, color, domain, type, reg_ex FROM Entity";
     return filterByType
       ? DB().query(`${qry} WHERE type = ?`, filterByType)
           .then(
@@ -82,7 +82,7 @@ export class Entities {
    */
   public static async save(data: Entity): Promise<Entity> {
     const item: any = {
-      name: data.name,
+      label: data.label,
       color: data.color,
       domain: data.domain,
       type: data.type,
@@ -116,7 +116,7 @@ export class Entities {
   }
 
   /**
-   * Converts list of DataObjects to sorted (by name) list of Entities
+   * Converts list of DataObjects to sorted (by label) list of Entities
    * @param {DataObject[]} entities - list of objects returned from data store
    * @return {Entity[]}
    */
@@ -125,13 +125,13 @@ export class Entities {
     entities.forEach(ent => {
       r.push({
         id: ent.id,
-        name: ent.name,
+        label: ent.label,
         color: ent.color,
         domain: ent.domain,
         type: ent.type,
         reg_ex: ent.reg_ex
       });
     });
-    return r.sort((a, b) => a.name > b.name ? 1 : -1);
+    return r.sort((a, b) => a.label > b.label ? 1 : -1);
   }
 }

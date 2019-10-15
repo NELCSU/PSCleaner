@@ -193,7 +193,7 @@ ipc.on("entity-list", (e, response) => {
   entityMap.clear();
   response.forEach(d => {
     entityMap.set(d.id, d);
-    const el = addEntity(list, d.name, d.color, {
+    const el = addEntity(list, d.label, d.color, {
       deletable: false,
       selectable: true
     });
@@ -226,7 +226,7 @@ ipc.on("NLP-response", (e, response) => {
     var entity = entityMap.get(item.entityId);
     if (entity) {
       const sel = createSelection(dataEntry.childNodes[0], item.start, item.length);
-      addTag(sel, entity.name, entity.color);
+      addTag(sel, entity.label, entity.color);
     }
   }
 });
