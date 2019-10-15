@@ -4,14 +4,12 @@ import { join } from "path";
 import DB from "sqlite3-helper";
 
 /**
- * Manages files stored in watched folder.
- * ----------------------------------
- * API  (ipc request -> response)
- * ----------------------------------
- * export-file-count -> export-file-count
- * get-export-folder -> export-folder
- * set-export-folder -> export-folder
- * set-export-folder -> export-folder-error
+ * ### Manages files stored in watched folder.
+ * #### API  (ipc request -> response)
+ * 1. export-file-count -> export-file-count
+ * 2. get-export-folder -> export-folder
+ * 3. set-export-folder -> export-folder
+ * 4. set-export-folder -> export-folder-error
  */
 export class ExportFiles {
   public fm!: FileManager;

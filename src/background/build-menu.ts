@@ -7,7 +7,6 @@ export class AppMenu {
   public menu: Menu;
 
   /**
-   * @constructor
    * @param parent - reference to main process
    */
   constructor(parent: any) {

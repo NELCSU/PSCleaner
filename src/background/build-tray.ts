@@ -5,7 +5,6 @@ export class AppTray {
   public tray: Tray;
 
   /**
-   * @constructor
    * @param parent - reference to main process
    */
   constructor(parent: any) {

@@ -8,7 +8,7 @@ import path from "path";
 import trash from "trash";
 
 /**
- * Wrapper for Node's FileSystem library
+ * ### Wrapper for Node's FileSystem library
  */
 export class FileManager {
   private _folder!: string;

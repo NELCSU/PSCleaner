@@ -7,17 +7,14 @@ import { join } from "path";
 import DB from "sqlite3-helper";
 
 /**
- * Manages files stored in watched folder. Runs NLP services on files.
- * ----------------------------------
- * API  (ipc request     -> response)
- * ----------------------------------
- * start-processing      -> processed
- * start-processing      -> stop-processing
- * 
- * processing-file-count -> processing-file-count
- * get-processing-folder -> processing-folder
- * set-processing-folder -> processing-folder
- * set-processing-folder -> processing-folder-error
+ * ### Manages files stored in watched folder. Runs NLP services on files.
+ * #### API  (ipc request     -> response)
+ * 1. start-processing      -> processed
+ * 2. start-processing      -> stop-processing
+ * 3. processing-file-count -> processing-file-count
+ * 4. get-processing-folder -> processing-folder
+ * 5. set-processing-folder -> processing-folder
+ * 6. set-processing-folder -> processing-folder-error
  */
 export class ProcessFiles {
   private _events = new EventEmitter();

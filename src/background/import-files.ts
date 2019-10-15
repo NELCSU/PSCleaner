@@ -5,17 +5,14 @@ import { join } from "path";
 import { ImportResponse } from "../typings/PSCleaner";
 
 /**
- * Manages files stored in watched folder.
- * ----------------------------------
- * API  (ipc request -> response)
- * ----------------------------------
- * start-import      -> imported
- * start-import      -> stop-import
- * 
- * import-file-count -> import-file-count
- * get-import-folder -> import-folder
- * set-import-folder -> import-folder
- * set-import-folder -> import-folder-error
+ * ### Manages files stored in watched folder.
+ * #### API  (ipc request -> response)
+ * 1. start-import      -> imported
+ * 2. start-import      -> stop-import
+ * 3. import-file-count -> import-file-count
+ * 4. get-import-folder -> import-folder
+ * 5. set-import-folder -> import-folder
+ * 6. set-import-folder -> import-folder-error
  */
 export class ImportFiles {
   public sendTo: string = "";

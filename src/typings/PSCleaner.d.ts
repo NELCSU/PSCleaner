@@ -38,6 +38,11 @@ export type TrainingFileAction = {
 export type TrainingFolderRequest = "get-training-folder" | "get-training-file-count" | "set-training-folder";
 export type TrainingFolderResponse = "training-folder" | "training-file-count" | "training-folder-error";
 
+export type SearchTermResult = {
+  keyword: string,
+  start: number
+}
+
 export type MatchedEntity = {
   entity: string,
   entityId: number,

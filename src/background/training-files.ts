@@ -7,25 +7,22 @@ import { FileManager } from "./filemanager";
 import { TrainingFileAction } from "../typings/PSCleaner";
 
 /**
- * Manages files stored in watched folder.
- * ----------------------------------
- * API  (ipc request     -> response)
- * ----------------------------------
- * delete-training-file    -> training-file-deleted
- * delete-training-file    -> training-file-deletion-error
- * get-temp-training-file  -> temp-training-filename
- * get-training-file       -> training-file
- * get-training-file       -> training-file-error
- * rename-training-file    -> training-file-rename-error
- * rename-training-file    -> training-file-rename-warning
- * rename-training-file    -> training-file-renamed
- * save-training-file      -> training-file-save-error
- * save-training-file      -> training-file-saved
- * 
- * get-training-file-count -> training-file-count
- * get-training-folder     -> training-folder
- * set-training-folder     -> training-folder
- * set-training-folder     -> training-folder-error
+ * ### Manages files stored in watched folder.
+ * #### API  (ipc request     -> response)
+ * 1. delete-training-file    -> training-file-deleted
+ * 2. delete-training-file    -> training-file-deletion-error
+ * 3. get-temp-training-file  -> temp-training-filename
+ * 4. get-training-file       -> training-file
+ * 5. get-training-file       -> training-file-error
+ * 6. rename-training-file    -> training-file-rename-error
+ * 7. rename-training-file    -> training-file-rename-warning
+ * 8. rename-training-file    -> training-file-renamed
+ * 9. save-training-file      -> training-file-save-error
+ * 10. save-training-file      -> training-file-saved
+ * 11. get-training-file-count -> training-file-count
+ * 12. get-training-folder     -> training-folder
+ * 13. set-training-folder     -> training-folder
+ * 14. set-training-folder     -> training-folder-error
  */
 export class TrainingFiles {
   public fm!: FileManager;

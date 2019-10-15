@@ -4,16 +4,14 @@ import { DataObject } from "sqlite3-helper";
 import { Entity, EntityResponse, EntityType } from "../typings/PSCleaner";
 
 /**
- * Manages entities
- * ----------------------------------
- * API  (ipc request -> response)
- * ----------------------------------
- * delete-entity -> entity-deleted - deletes entity
- * delete-entity -> entity-deletion-error
- * get-entities  -> entity-list - returns list of entities
- * get-entities  -> entity-list-error
- * save-entity   -> entity-saved - saves changes to entity
- * save-entity   -> entity-save-error
+ * ### Manages entities
+ * #### API  (ipc request -> response)
+ * 1. delete-entity -> entity-deleted - deletes entity
+ * 2. delete-entity -> entity-deletion-error
+ * 3. get-entities  -> entity-list - returns list of entities
+ * 4. get-entities  -> entity-list-error
+ * 5. save-entity   -> entity-saved - saves changes to entity
+ * 6. save-entity   -> entity-save-error
  */
 export class Entities {
   constructor() {

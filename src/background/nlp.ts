@@ -1,17 +1,17 @@
 import { Entities } from "./entities";
 import DB from "sqlite3-helper";
 import { DataObject } from "sqlite3-helper";
-import { Entity, MatchedEntity, WordPosition } from "../typings/PSCleaner";
+import { Entity, MatchedEntity, SearchTermResult, WordPosition } from "../typings/PSCleaner";
 import posTagger from "wink-pos-tagger";
 
 /**
- * Natural language processing services
+ * ### Natural language processing services
  */
 export class NLP {
-  public pos: any;
+  private _pos: any;
 
   constructor() {
-    this.pos = posTagger();
+    this._pos = posTagger();
   }
 
   /**
@@ -22,15 +22,19 @@ export class NLP {
   public async evaluate(data: string): Promise<MatchedEntity[]> {
     const ent_re = await Entities.getList("Regular expression");
     const ent_st = await Entities.getList("Single term");
+    const ent_mt = await Entities.getList("Multiple term");
 
-    return Promise.all([ent_re, ent_st])
+    return Promise.all([ent_re, ent_st, ent_mt])
       .then(async entities => {
         const match_re = await this._runRegExpressions(data, entities[0]);
-        const match_wl = await this._runSingleTerms(data, entities[1]);
-        return Promise.all([match_re, match_wl])
+        const match_st = await this._runTerms(data, entities[1]);
+        const match_mt = await this._runTerms(data, entities[2]);
+        return Promise.all([match_re, match_st, match_mt])
           .then(matches => {
             const mt: MatchedEntity[] = [];
-            matches.map(match => match.map(m => mt.push(m)));
+            matches.map(match => {
+              match.map((m: MatchedEntity) => mt.push(m));
+            });
             return this._sortAndClean(mt);
           });
       });
@@ -43,7 +47,7 @@ export class NLP {
    */
   public async getWordPositions(data: string): Promise<WordPosition[]> {
     const words: WordPosition[] = [];
-    const tags: any[] = this.pos.tagSentence(data);
+    const tags: any[] = this._pos.tagSentence(data);
     let cursor: number = 0;
     tags.forEach((tag: any) => {
       const start: number = data.indexOf(tag.value, cursor);
@@ -93,6 +97,49 @@ export class NLP {
     })
   }
 
+  private _queryMultipleTerms(data: string, words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
+    const queue: Promise<DataObject[] | null>[] = [];
+    words.forEach(word => {
+      let searchTerm = data.substr(word.start, word.length);
+      searchTerm = searchTerm.replace(/\'/g, "''");
+      let predicate = searchTerm + "%";
+      const qry: string = `SELECT keyword, ${word.start} AS start FROM "${entity.label}" WHERE keyword LIKE ?`;
+      queue.push(DB().query(qry, predicate));
+    });
+    const result: SearchTermResult[] = [];
+    return Promise.all(queue)
+      .then(values => {
+        values.map((value: any) => {          
+          value.map((v: SearchTermResult) => {
+            if (v !== undefined) {
+              result.push(v);
+            }
+          });
+        });
+        return result;
+      });
+  }
+
+  private _querySingleTerms(data: string, words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
+    const queue: Promise<DataObject[] | null>[] = [];
+    words.forEach(word => {
+      let searchTerm = data.substr(word.start, word.length);
+      searchTerm = searchTerm.replace(/\'/g, "''");
+      const qry: string = `SELECT keyword, ${word.start} AS start FROM "${entity.label}" WHERE keyword = ?`;
+      queue.push(DB().queryFirstRow(qry, searchTerm));
+    });
+    const result: SearchTermResult[] = [];
+    return Promise.all(queue)
+      .then((values: any[]) => {
+        values.map((value: any) => {
+          if (value !== undefined) {
+            result.push(value);
+          }
+        });
+        return result;
+      });
+  }
+
   private async _runRegExpressions(data: string, entities: Entity[]): Promise<MatchedEntity[]> {
     const r: any[] = [];
     await entities.forEach(async (ent: Entity) => {
@@ -113,11 +160,11 @@ export class NLP {
     return Promise.resolve(r);
   }
 
-  private async _runSingleTerms(data: string, entities: Entity[]): Promise<MatchedEntity[]> {
+  private async _runTerms(data: string, entities: Entity[]): Promise<MatchedEntity[]> {
     const queue: Promise<MatchedEntity[]>[] = [];
     const words: WordPosition[] = await this.getWordPositions(data);    
     entities.forEach(async (ent: Entity) => {
-      queue.push(this._searchWords(data, words, ent))
+      queue.push(this._searchTerms(data, words, ent))
     });
     return Promise.all(queue)
       .then(matches => {
@@ -127,32 +174,28 @@ export class NLP {
       });
   }
 
-  private async _searchWords(data: string, words: WordPosition[], entity: Entity): Promise<any> {
-    const queue: Promise<DataObject[] | null>[] = [];
-    words.forEach(async word => {
-      let searchTerm = data.substr(word.start, word.length);
-      searchTerm = searchTerm.replace(/\'/g, "''");
-      const qry: string = `SELECT '${searchTerm}' AS "search", ${word.start} AS "start", ${word.end} AS "end", ${word.length} AS "length" FROM "${entity.label}" WHERE "keyword" = ?`;
-      queue.push(DB().queryFirstRow(qry, searchTerm));
-    });
+  private async _searchTerms(data: string, words: WordPosition[], entity: Entity): Promise<any> {
+    let searchTerms: SearchTermResult[];
+    if (entity.type === "Single term") {
+      searchTerms = await this._querySingleTerms(data, words, entity);
+    } else {
+      searchTerms = await this._queryMultipleTerms(data, words, entity);
+    }
     const r: MatchedEntity[] = [];
-    return Promise.all(queue)
-      .then(values => {
-        values.map((row: any) => {
-          if (row) {
-            r.push({
-              entity: entity.label,
-              entityId: entity.id,
-              entityDomain: entity.domain,
-              value: row.search,
-              start: row.start,
-              end: row.end,
-              length: row.length
-            });
-          }
+    searchTerms.forEach((term: SearchTermResult) => {
+      if (data.indexOf(term.keyword, term.start) > -1) {
+        r.push({
+          entity: entity.label,
+          entityId: entity.id,
+          entityDomain: entity.domain,
+          value: term.keyword,
+          start: term.start,
+          end: term.start + term.keyword.length - 1,
+          length: term.keyword.length
         });
-        return Promise.resolve(r);
-      });
+      }
+    });
+    return Promise.resolve(r);
   }
 
   private _sortAndClean(values: MatchedEntity[]): MatchedEntity[] {
