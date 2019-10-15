@@ -8,7 +8,7 @@ import posTagger from "wink-pos-tagger";
  * ### Natural language processing services
  */
 export class NLP {
-  private _pos: any;
+  private _pos: posTagger;
 
   constructor() {
     this._pos = posTagger();
@@ -30,9 +30,9 @@ export class NLP {
         const match_st = await this._runTerms(data, entities[1]);
         const match_mt = await this._runTerms(data, entities[2]);
         return Promise.all([match_re, match_st, match_mt])
-          .then(matches => {
+          .then((matches: MatchedEntity[][]) => {
             const mt: MatchedEntity[] = [];
-            matches.map(match => {
+            matches.map((match: MatchedEntity[]) => {
               match.map((m: MatchedEntity) => mt.push(m));
             });
             return this._sortAndClean(mt);
@@ -47,9 +47,9 @@ export class NLP {
    */
   public async getWordPositions(data: string): Promise<WordPosition[]> {
     const words: WordPosition[] = [];
-    const tags: any[] = this._pos.tagSentence(data);
+    const tags: Tag[] = this._pos.tagSentence(data);
     let cursor: number = 0;
-    tags.forEach((tag: any) => {
+    tags.forEach((tag: Tag) => {
       const start: number = data.indexOf(tag.value, cursor);
       const len: number = tag.value.length;
       const end: number = start + len - 1;
@@ -108,9 +108,9 @@ export class NLP {
     });
     const result: SearchTermResult[] = [];
     return Promise.all(queue)
-      .then(values => {
-        values.map((value: any) => {          
-          value.map((v: SearchTermResult) => {
+      .then((values: any) => {
+        values.map((value: SearchTermResult[]) => {          
+          value.map((v: SearchTermResult | undefined) => {
             if (v !== undefined) {
               result.push(v);
             }
@@ -130,8 +130,8 @@ export class NLP {
     });
     const result: SearchTermResult[] = [];
     return Promise.all(queue)
-      .then((values: any[]) => {
-        values.map((value: any) => {
+      .then((values: any) => {
+        values.map((value: SearchTermResult | undefined) => {
           if (value !== undefined) {
             result.push(value);
           }
@@ -141,7 +141,7 @@ export class NLP {
   }
 
   private async _runRegExpressions(data: string, entities: Entity[]): Promise<MatchedEntity[]> {
-    const r: any[] = [];
+    const r: MatchedEntity[] = [];
     await entities.forEach(async (ent: Entity) => {
       let re = new RegExp(ent.reg_ex, "gi");
       let m: RegExpExecArray | null;
@@ -163,7 +163,7 @@ export class NLP {
   private async _runTerms(data: string, entities: Entity[]): Promise<MatchedEntity[]> {
     const queue: Promise<MatchedEntity[]>[] = [];
     const words: WordPosition[] = await this.getWordPositions(data);    
-    entities.forEach(async (ent: Entity) => {
+    entities.forEach((ent: Entity) => {
       queue.push(this._searchTerms(data, words, ent))
     });
     return Promise.all(queue)

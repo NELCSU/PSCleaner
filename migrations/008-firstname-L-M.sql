@@ -8708,7 +8708,6 @@ VALUES
 ('Londrita'),
 ('Londy'),
 ('Londyn'),
-('Lone'),
 ('Loneia'),
 ('Loneita'),
 ('Lonel'),
