@@ -102,8 +102,10 @@ export class NLP {
     words.forEach(word => {
       let searchTerm = data.substr(word.start, word.length);
       searchTerm = searchTerm.replace(/\'/g, "''");
-      let predicate = searchTerm + "%";
-      const qry: string = `SELECT keyword, ${word.start} AS start FROM "${entity.label}" WHERE keyword LIKE ?`;
+      let predicate = searchTerm
+        .replace(/_/g, "~_")
+        .replace(/%/g, "~%") + "%";
+      const qry: string = `SELECT keyword, ${word.start} AS start FROM "${entity.label}" WHERE keyword LIKE ? ESCAPE '~'`;
       queue.push(DB().query(qry, predicate));
     });
     const result: SearchTermResult[] = [];

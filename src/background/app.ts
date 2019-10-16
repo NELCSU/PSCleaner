@@ -95,8 +95,12 @@ class Main {
 
   public initDB(): Promise<void> {
     return (async () => {
-      await DB().connection();
-      this._initDB = true;
+      try {
+        await DB().connection();
+        this._initDB = true;
+      } catch (err) {
+        console.log(err);
+      }
     })();
   }
 
