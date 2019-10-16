@@ -64,6 +64,7 @@ export class NLP {
           case "NNP":
           case "NNPS":
             words.push({
+              value: tag.value,
               start: start,
               end: end,
               length: len
@@ -203,7 +204,7 @@ export class NLP {
   private _sortAndClean(values: MatchedEntity[]): MatchedEntity[] {
     const result: MatchedEntity[] = [];
     values.sort((a, b) => a.start < b.start ? -1 : a.start > b.start ? 1 : 0);
-    let current: any, peek: any, cursor: number = 0;
+    let current: any, peek: MatchedEntity, cursor: number = 0;
     while (values.length > 0) {
       current = values.shift();
       let skip: boolean = cursor >= current.end;
@@ -221,7 +222,7 @@ export class NLP {
             values.shift();
             lookAhead = values.length > 0;
           }
-        } else if (peek.start === current.end + 2 && peek.entityDomain === current.entityDomain) {
+        } else if (peek.start === current.end + 2 && peek.entity === current.entity) {
           current.end = peek.end;
           current.value += " " + peek.value;
           current.length = current.value.length;

@@ -24583,6 +24583,7 @@ VALUES
 ('Lovchaliev'),
 ('Lovdahl'),
 ('Lovdal'),
+('Love'),
 ('Loveall'),
 ('Loveamt'),
 ('Loveaya'),

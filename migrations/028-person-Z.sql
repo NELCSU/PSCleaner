@@ -12055,6 +12055,7 @@ VALUES
 ('Zuffa'),
 ('Zuffante'),
 ('Zufferey'),
+('Zufferli'),
 ('Zuffolini'),
 ('Zuffova'),
 ('Zuffranieri'),

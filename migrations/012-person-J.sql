@@ -19293,7 +19293,6 @@ VALUES
 ('Jumur'),
 ('Jumy'),
 ('Jumzada'),
-('Jun'),
 ('Juna'),
 ('Junaad'),
 ('Junab'),

@@ -7,22 +7,22 @@ import {
 } from "@buckneri/js-lib-selection";
 import { one } from "@buckneri/js-lib-dom-selection";
 
-const cancel = one("#btnEntityTagger");
-const closeFile = one("#btnCloseFile");
-const clearTags = one("#btnClearTags");
+const cancelEntityButton = one("#btnEntityTagger");
+const closeButton = one("#btnCloseFile");
+const clearButton = one("#btnClearTags");
 const count = one("#hintTrainingDataCount");
-const dataEntry = one("#txtAddText");
-const deleteFile = one("#btnDeleteTextFile");
+const dataEntryText = one("#txtAddText");
+const deleteButton = one("#btnDeleteTextFile");
 const files = one("#pnlFileName");
 const filename = one("#lblFilename");
 const list = one("#lstEntityTagger");
 const modal = one("#mvEntityTagger");
-const open = one("#btnOpenText");
-const renameFile = one("#lblRenameFile");
-const renameFileCheck = one("#chkFileRename");
+const openButton = one("#btnOpenText");
+const renameFileText = one("#lblRenameFile");
+const renameFileTickbox = one("#chkFileRename");
 const renameFileSave = one("#btnFileRename");
-const save = one("#btnAddText");
-const auto = one("#btnAutodiscover");
+const saveButton = one("#btnAddText");
+const autodiscoverButton = one("#btnAutodiscover");
 
 let activeFile = null;
 let tag = null;
@@ -58,16 +58,28 @@ function addTag(selection, label, color) {
   return mark;
 }
 
+function autoDiscover() {
+  ipc.send("NLP-request", dataEntryText.textContent);
+  autodiscoverButton.classList.add("disabled");
+  autodiscoverButton.textContent = "Searching"
+  autodiscoverButton.classList.add("wait");
+}
+
+function cancelEntityChoice() {
+  window.dispatchEvent(new CustomEvent("CancelNewEntityCreation"));
+  modal.removeAttribute("open");
+}
+
 function checkInput() {
-  if (dataEntry.textContent.length > 0) {
+  if (dataEntryText.textContent.length > 0) {
     window.dispatchEvent(new CustomEvent("NewTrainingData"));
     const restore = insertionPoint();
-    if (dataEntry.childNodes.length > 1) {
-      Array.from(dataEntry.childNodes)
+    if (dataEntryText.childNodes.length > 1) {
+      Array.from(dataEntryText.childNodes)
         .forEach(n => {
           n.textContent = n.textContent.replace(/&nbsp;/gm, " ");
         });
-      dataEntry.normalize();
+      dataEntryText.normalize();
       restore();
     }
   }
@@ -81,6 +93,25 @@ function checkInputFileRename(e) {
   }
 }
 
+function clearTags() {
+  dataEntryText.innerHTML = dataEntryText.textContent;
+  clearButton.classList.add("disabled");
+}
+
+function closeFile() {
+  openButton.classList.remove("disabled");
+  autodiscoverButton.classList.add("disabled");
+  closeButton.classList.add("disabled");
+  clearButton.classList.add("disabled");
+  deleteButton.classList.add("disabled");
+  saveButton.classList.add("disabled");
+  dataEntryText.textContent = ""
+  fileRenameClear();
+  filename.textContent = "";
+  files.hidden = true;
+  activeFile = null;
+}
+
 function createSelection(node, start, length) {
   const range = document.createRange();
   range.setStart(node, start);
@@ -91,10 +122,23 @@ function createSelection(node, start, length) {
   return sel;
 }
 
+function deleteFile() {
+  const choice = remote.dialog.showMessageBoxSync(null, {
+    type: "warning",
+    buttons: ["Delete", "Cancel"],
+    title: "Warning, delete file operation detected",
+    message: "Are you sure you wish to delete this file?",
+    defaultId: 1
+  });
+  if (choice === 0) {
+    ipc.send("delete-training-file", filename.textContent);
+  }
+}
+
 function fileRenameClear() {
-  renameFileCheck.checked = false;
-  renameFile.classList.add("disabled");
-  renameFile.value = "";
+  renameFileTickbox.checked = false;
+  renameFileText.classList.add("disabled");
+  renameFileText.value = "";
   renameFileSave.classList.add("disabled");
 }
 
@@ -107,6 +151,80 @@ function insertionPoint() {
   };
 }
 
+function openFile() {
+  ipc.send("get-training-folder");
+  openButton.classList.add("disabled");
+}
+
+function pasteText(e) {
+  e.preventDefault();
+  let paste = e.clipboardData.getData("text/plain");
+  const sel = window.getSelection();
+  if (!sel.rangeCount) {
+    dataEntryText.normalize();
+    return false;
+  }
+  sel.deleteFromDocument();
+  sel.getRangeAt(0).insertNode(document.createTextNode(paste));
+  e.stopPropagation();
+  clearTags();
+  checkInput();
+}
+
+function resetTextSelection() {
+  const re = />$/;
+  const match = dataEntryText.innerHTML.match(re);
+  if (match) {
+    const sel = window.getSelection();
+    const nbsp = document.createTextNode("\u00A0");
+    dataEntryText.appendChild(nbsp);
+    if (sel.focusNode === null) {
+      sel.collapse(nbsp, 0);
+    }
+  }
+}
+
+function saveFile() {
+  dataEntryText.normalize();
+  const data = {
+    text: dataEntryText.textContent,
+    entities: []
+  };
+  let markUp = he.decode(dataEntryText.innerHTML);
+  const tags = Array.from(dataEntryText.children);
+  while (tags.length > 0) {
+    let i = markUp.indexOf("<nel-text-tag");
+    data.entities.push({
+      start: i,
+      length: tags[0].textContent.length,
+      label: tags[0].label,
+      color: tags[0].color
+    });
+    markUp = markUp.replace(/<nel-text-tag.+?<\/nel-text-tag>/m, tags[0].textContent);
+    tags.splice(0, 1);
+  }
+  ipc.send("save-training-file", filename.textContent, data);
+}
+
+function saveNewFileName(e) {
+  let newFilename = renameFileText.value.trim();
+  newFilename = newFilename.replace(/\.json/, "");
+  newFilename = `${newFilename}.json`;
+  ipc.send("rename-training-file", activeFile, newFilename);
+}
+
+function toggleRenameFile(e) {
+  e.target.checked
+    ? renameFileText.classList.remove("disabled")
+    : renameFileText.classList.add("disabled");
+  if (!e.target.checked) {
+    renameFileText.value = "";
+    renameFileSave.classList.add("disabled");
+  } else {
+    renameFileText.focus();
+  }
+}
+
 function updateCount(n) {
   count.textContent = (n === 0
     ? "No files"
@@ -115,78 +233,19 @@ function updateCount(n) {
       : `${n} files`) + " found";
 }
 
-auto.addEventListener("click", () => {
-  ipc.send("NLP-request", dataEntry.textContent);
-  auto.classList.add("disabled");
-  auto.textContent = "Searching"
-  auto.classList.add("wait");
-});
-
-cancel.addEventListener("click", () => {
-  window.dispatchEvent(new CustomEvent("CancelNewEntityCreation"));
-  modal.removeAttribute("open");
-});
-
-clearTags.addEventListener("click", () => {
-  dataEntry.innerHTML = dataEntry.textContent;
-  clearTags.classList.add("disabled");
-});
-
-closeFile.addEventListener("click", () => {
-  open.classList.remove("disabled");
-  auto.classList.add("disabled");
-  closeFile.classList.add("disabled");
-  clearTags.classList.add("disabled");
-  deleteFile.classList.add("disabled");
-  save.classList.add("disabled");
-  dataEntry.textContent = ""
-  fileRenameClear();
-  filename.textContent = "";
-  files.hidden = true;
-  activeFile = null;
-});
-
-dataEntry.addEventListener("click", () => {
-  const re = />$/;
-  const match = dataEntry.innerHTML.match(re);
-  if (match) {
-    const sel = window.getSelection();
-    const nbsp = document.createTextNode("\u00A0");
-    dataEntry.appendChild(nbsp);
-    if (sel.focusNode === null) {
-      sel.collapse(nbsp, 0);
-    }
-  }
-});
-
-dataEntry.addEventListener("input", db(checkInput, 700));
-
-dataEntry.addEventListener("paste", e => {
-  e.preventDefault();
-  let paste = e.clipboardData.getData("text/plain");
-  const sel = window.getSelection();
-  if (!sel.rangeCount) {
-    dataEntry.normalize();
-    return false;
-  }
-  sel.deleteFromDocument();
-  sel.getRangeAt(0).insertNode(document.createTextNode(paste));
-  e.stopPropagation();
-  checkInput();
-});
-
-deleteFile.addEventListener("click", () => {
-  const choice = remote.dialog.showMessageBoxSync(null, {
-    type: "warning",
-    buttons: ["Delete", "Cancel"],
-    title: "Warning, delete file operation detected",
-    message: "Are you sure you wish to delete this file?",
-    defaultId: 1
-  });
-  if (choice === 0) {
-    ipc.send("delete-training-file", filename.textContent);
-  }
-});
+autodiscoverButton.addEventListener("click", autoDiscover);
+cancelEntityButton.addEventListener("click", cancelEntityChoice);
+clearButton.addEventListener("click", clearTags);
+closeButton.addEventListener("click", closeFile);
+dataEntryText.addEventListener("click", resetTextSelection);
+dataEntryText.addEventListener("input", db(checkInput, 700));
+dataEntryText.addEventListener("paste", pasteText);
+deleteButton.addEventListener("click", deleteFile);
+openButton.addEventListener("click", openFile);
+renameFileText.addEventListener("input", db(checkInputFileRename, 500));
+renameFileTickbox.addEventListener("change", toggleRenameFile);
+renameFileSave.addEventListener("click", saveNewFileName);
+saveButton.addEventListener("click", saveFile);
 
 ipc.on("entity-list", (e, response) => {
   list.innerHTML = "";
@@ -211,12 +270,12 @@ ipc.on("entity-list", (e, response) => {
 });
 
 ipc.on("NLP-response", (e, response) => {
-  auto.textContent = "Autodiscover";
-  auto.classList.remove("disabled");
-  auto.classList.remove("wait");
+  autodiscoverButton.textContent = "Autodiscover";
+  autodiscoverButton.classList.remove("disabled");
+  autodiscoverButton.classList.remove("wait");
   console.clear();
   console.table(response);
-  dataEntry.innerHTML = he.encode(dataEntry.textContent);
+  dataEntryText.innerHTML = he.encode(dataEntryText.textContent);
   if (response.length > 0) {
     window.dispatchEvent(new CustomEvent("NewTrainingData"));
   }
@@ -225,7 +284,7 @@ ipc.on("NLP-response", (e, response) => {
     item.len = item.len ? item.len : item.end - item.start;
     var entity = entityMap.get(item.entityId);
     if (entity) {
-      const sel = createSelection(dataEntry.childNodes[0], item.start, item.length);
+      const sel = createSelection(dataEntryText.childNodes[0], item.start, item.length);
       addTag(sel, entity.label, entity.color);
     }
   }
@@ -242,25 +301,23 @@ ipc.on("training-file", (e, file, dt) => {
   filename.textContent = file;
   files.hidden = false;
   const data = JSON.parse(dt);
-  dataEntry.textContent = data.text;
+  dataEntryText.textContent = data.text;
   let entity;
   try {
     while (entity = data.entities.pop()) {
-      const sel = createSelection(dataEntry.childNodes[0], entity.start, entity.length);
+      const sel = createSelection(dataEntryText.childNodes[0], entity.start, entity.length);
       addTag(sel, entity.label, entity.color);
     }
   } catch (e) {
-    dataEntry.textContent = data.text;
+    dataEntryText.textContent = data.text;
     console.log("Error found. Entities could not be loaded. Please refresh document via Autodiscover");
   }
   window.dispatchEvent(new CustomEvent("NewTrainingData"));
 });
 
 ipc.on("training-file-count", (e, count) => updateCount(count));
-
-ipc.on("training-file-deleted", () => closeFile.click());
-
-ipc.on("training-file-saved", () => save.classList.add("disabled"));
+ipc.on("training-file-deleted", () => closeButton.click());
+ipc.on("training-file-saved", () => saveButton.classList.add("disabled"));
 
 ipc.on("training-file-rename-warning", (e, response) => {
   const choice = remote.dialog.showMessageBoxSync(null, {
@@ -289,7 +346,7 @@ ipc.on("training-folder", (e, folder) => {
     properties: ["openFile"],
   }, file => {
     if (file === undefined || file[0] === undefined) {
-      open.classList.remove("disabled");
+      openButton.classList.remove("disabled");
       return;
     }
     ipc.send("get-training-file", file[0]);
@@ -298,54 +355,6 @@ ipc.on("training-folder", (e, folder) => {
 
 ipc.send("get-entities");
 ipc.send("get-training-file-count");
-
-open.addEventListener("click", () => {
-  ipc.send("get-training-folder");
-  open.classList.add("disabled");
-});
-
-renameFile.addEventListener("input", db(checkInputFileRename, 500));
-
-renameFileCheck.addEventListener("change", e => {
-  e.target.checked
-    ? renameFile.classList.remove("disabled")
-    : renameFile.classList.add("disabled");
-  if (!e.target.checked) {
-    renameFile.value = "";
-    renameFileSave.classList.add("disabled");
-  } else {
-    renameFile.focus();
-  }
-});
-
-renameFileSave.addEventListener("click", e => {
-  let newFilename = renameFile.value.trim();
-  newFilename = newFilename.replace(/\.json/, "");
-  newFilename = `${newFilename}.json`;
-  ipc.send("rename-training-file", activeFile, newFilename);
-});
-
-save.addEventListener("click", () => {
-  dataEntry.normalize();
-  const data = {
-    text: dataEntry.textContent,
-    entities: []
-  };
-  let markUp = he.decode(dataEntry.innerHTML);
-  const tags = Array.from(dataEntry.children);
-  while (tags.length > 0) {
-    let i = markUp.indexOf("<nel-text-tag");
-    data.entities.push({
-      start: i,
-      length: tags[0].textContent.length,
-      label: tags[0].label,
-      color: tags[0].color
-    });
-    markUp = markUp.replace(/<nel-text-tag.+?<\/nel-text-tag>/m, tags[0].textContent);
-    tags.splice(0, 1);
-  }
-  ipc.send("save-training-file", filename.textContent, data);
-});
 
 window.addEventListener("CancelNewEntityCreation", () => {
   tag.delete();
@@ -387,12 +396,12 @@ window.addEventListener("contextmenu", e => {
 }, false);
 
 window.addEventListener("NewTrainingData", () => {
-  open.classList.add("disabled");
-  auto.classList.remove("disabled");
-  closeFile.classList.remove("disabled");
-  clearTags.classList.remove("disabled");
-  deleteFile.classList.remove("disabled");
-  save.classList.remove("disabled");
+  openButton.classList.add("disabled");
+  autodiscoverButton.classList.remove("disabled");
+  closeButton.classList.remove("disabled");
+  clearButton.classList.remove("disabled");
+  deleteButton.classList.remove("disabled");
+  saveButton.classList.remove("disabled");
   if (filename.textContent === "") {
     ipc.send("get-temp-training-file");
   }

@@ -51988,7 +51988,6 @@ VALUES
 ('Aufrere'),
 ('Aufricht'),
 ('Aufzaul'),
-('Aug'),
 ('Auga'),
 ('Augadh'),
 ('Augaityte'),

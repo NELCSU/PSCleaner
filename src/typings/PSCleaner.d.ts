@@ -54,6 +54,7 @@ export type MatchedEntity = {
 }
 
 export type WordPosition = {
+  value: string,
   start: number,
   end: number,
   length: number

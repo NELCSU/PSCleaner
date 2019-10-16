@@ -3,7 +3,6 @@
 INSERT INTO "Person"
 ("keyword")
 VALUES
-('Na'),
 ('Naa'),
 ('Naaak'),
 ('Naaayeley'),
@@ -23881,7 +23880,6 @@ VALUES
 ('Nouysedlak'),
 ('Nouzat'),
 ('Nouzha'),
-('Nov'),
 ('Nova'),
 ('Novac'),
 ('Novacek'),
