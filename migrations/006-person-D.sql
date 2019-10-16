@@ -7465,8 +7465,6 @@ VALUES
 ('Dduma'),
 ('Ddumba'),
 ('Ddungu'),
-('De'),
-('De'''),
 ('Dea'),
 ('Deabenderfer'),
 ('Deabill'),

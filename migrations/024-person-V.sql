@@ -10502,7 +10502,6 @@ VALUES
 ('Vhunmioangho'),
 ('Vhutto'),
 ('Vhytie'),
-('Vi'),
 ('Viaan'),
 ('Viaana'),
 ('Viabitskaya'),

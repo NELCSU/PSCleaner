@@ -7,7 +7,7 @@ VALUES
 ('DateLong', '#ffb3ff', 'Time', 'Regular expression', '\b(?:[0123]?\d(?:st|nd|rd|th)?)(?:[\s\-\.]{0,3}|\sof\s)?(?:jan|janu?a?ry|feb|febr?ua?ry|mar|march|apr|april|may|jun|june|jul|july|aug|august|sept?|september|oct|october|nov|november|dec|december)(?:(?:[\s\-\.]{0,3})(?:\d\d|\d\d\d\d))\b'),
 ('MonthYear', '#d9006c', 'Time', 'Regular expression', '\b(?:jan|janu?a?ry|feb|febr?ua?ry|mar|march|apr|april|may|jun|june|jul|july|aug|august|sept?|september|oct|october|nov|november|dec|december)(?:(?:[\s\-\.]{0,3})(?:\d\d|\d\d\d\d))\b'),
 ('DayMonth', '#ff0080', 'Time', 'Regular expression', '\b(?:[0123]?\d(?:st|nd|rd|th)?)(?:[\s\-\.]{0,3}|\sof\s)(?:jan|janu?a?ry|feb|febr?ua?ry|mar|march|apr|april|may|jun|june|jul|july|aug|august|sept?|september|oct|october|nov|november|dec|december)\b'),
-('WkDay', '#ff0099', 'Time', 'Regular expression', '\b(?:mon|monday|tues?|tuesday|wed|wednesday|thurs?|thursday|fri|friday|sat|saturday|sun|sunday)\s(?:the )?(?:[0123]?\d(?:st|nd|rd|th)?)\b'),
+('WkDayDate', '#ff0099', 'Time', 'Regular expression', '\b(?:mon|monday|tues?|tuesday|wed|wednesday|thurs?|thursday|fri|friday|sat|saturday|sun|sunday)\s(?:the )?(?:[0123]?\d(?:st|nd|rd|th))\b'),
 ('DateShort1', '#ff75ff', 'Time', 'Regular expression', '\b[0123]?\d[\s\/]{1,3}[0123]?\d[\s\/]{1,3}\d{2,4}|\d{2,4}[\s\/]{1,3}[0123]?\d[\s\/]{1,3}[0123]?\d\b'),
 ('DateShort2', '#ff3eff', 'Time', 'Regular expression', '\b[0123]?\d[\s\-]{1,3}[0123]?\d[\s\-]{1,3}\d{2,4}|\d{2,4}[\s\-]{1,3}[0123]?\d[\s\-]{1,3}[0123]?\d\b'),
 ('DateShort3', '#e800e8', 'Time', 'Regular expression', '\b[0123]?\d[\s\.]{1,3}[0123]?\d[\s\.]{1,3}\d{2,4}|\d{2,4}[\s\.]{1,3}[0123]?\d[\s\.]{1,3}[0123]?\d\b'),

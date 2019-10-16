@@ -38482,7 +38482,6 @@ VALUES
 ('Bowyett'),
 ('Bowzell Road'),
 ('Bowzell Wood'),
-('Box'),
 ('Box and Colerne'),
 ('Box Belt'),
 ('Box Berry Hill'),

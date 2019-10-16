@@ -221,6 +221,11 @@ export class NLP {
             values.shift();
             lookAhead = values.length > 0;
           }
+        } else if (peek.start === current.end + 2 && peek.entityDomain === current.entityDomain) {
+          current.end = peek.end;
+          current.value += " " + peek.value;
+          current.length = current.value.length;
+          values.shift();
         }
       }
       if (!skip) {
