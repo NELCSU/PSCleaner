@@ -7,6 +7,7 @@ const entityList = one("#lstManageEntities");
 const entityLabel = one("#txtEntityLabel");
 const entityId = one("#txtEntityId");
 const entityDomain = one("#txtEntityDomain");
+const entityChainable = one("#txtEntityChainable");
 const title = one("#title");
 const colorSelector = one("#txtEntityColor");
 const saveEntity = one("#btnEntitySave");
@@ -25,6 +26,7 @@ function addEntity(list, data) {
   item.id = "id_" + uuidv1();
   item.dataset.id = data.id;
   item.dataset.domain = data.domain;
+  item.dataset.chainable = data.chainable;
   item.dataset.type = data.type;
   item.dataset.reg_ex = data.reg_ex;
   item.textContent = data.label;
@@ -43,7 +45,7 @@ function deleteSelection() {
 
 function toggleSaveEntity() {
   if (entityLabel.value === "" || 
-      entityDomain.value === "" ||
+      entityChainable.value === "" ||
       entityType.selectedIndex === 0 ||
      (!regExpression.hidden && regExpression.value === "")) {
     saveEntity.classList.add("disabled");
@@ -65,10 +67,10 @@ clearUI.addEventListener("click", () => {
   title.textContent = "Add an entity";
   colorSelector.value = "#cccccc";
   entityLabel.value = "";
-  entityDomain.value = "";
+  entityChainable.value = 0;
   entityId.value = "";
   entityLabel.disabled = false;
-  entityDomain.disabled = false;
+  entityChainable.disabled = false;
   deleteEntity.classList.add("disabled");
   deleteEntity.dataset.id = null;
   entityType.selectedIndex = 0;
@@ -92,12 +94,13 @@ entityList.addEventListener("selected", e => {
     title.textContent = `Editing ${e.detail.textContent}`;
     entityLabel.value = e.detail.textContent;
     entityDomain.value = e.detail.dataset.domain;
+    entityChainable.value = e.detail.dataset.chainable;
     entityId.value = e.detail.dataset.id;
     entityType.value = e.detail.dataset.type;
     entityType.dispatchEvent(new Event("change"));
     regExpression.value = regex ? regex : "";
     entityLabel.disabled = false;
-    entityDomain.disabled = false;
+    entityChainable.disabled = false;
     entityType.disabled = false;
     deleteEntity.classList.remove("disabled");    
     deleteEntity.dataset.id = e.detail.id;
@@ -107,7 +110,7 @@ entityList.addEventListener("selected", e => {
 
 entityLabel.addEventListener("input", db(() => toggleSaveEntity(), 500));
 
-entityDomain.addEventListener("input", db(() => toggleSaveEntity(), 500));
+entityChainable.addEventListener("input", db(() => toggleSaveEntity(), 500));
 
 entityType.addEventListener("change", () => {
   regExpression.hidden = entityType.options[entityType.selectedIndex].value === "Regular expression"
@@ -149,6 +152,7 @@ saveEntity.addEventListener("click", () => {
     label: entityLabel.value,    
     color: colorSelector.value,
     domain: entityDomain.value,
+    chainable: entityChainable.value,
     type: entityType.options[entityType.selectedIndex].value,
     reg_ex: regExpression.value === "null" ? null : regExpression.value
   };

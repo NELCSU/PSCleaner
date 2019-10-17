@@ -1010,6 +1010,7 @@ VALUES
 ('Janus Drive'),
 ('Janus Road'),
 ('Jap Lane'),
+('Japan'),
 ('Japan Crescent'),
 ('Japan Road'),
 ('Japan Street'),

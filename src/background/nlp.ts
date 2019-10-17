@@ -24,6 +24,7 @@ export class NLP {
     const ent_st = await Entities.getList("Single term");
     const ent_mt = await Entities.getList("Multiple term");
 
+    data = data.toLowerCase();
     return Promise.all([ent_re, ent_st, ent_mt])
       .then(async entities => {
         const match_re = await this._runRegExpressions(data, entities[0]);
@@ -59,16 +60,23 @@ export class NLP {
       // NNP	Proper noun, singular | NNPS	Proper noun, plural
       if (len > 1) {
         switch (tag.pos) {
+          case "JJ":
           case "NN":
           case "NNS":
           case "NNP":
           case "NNPS":
-            words.push({
-              value: tag.value,
-              start: start,
-              end: end,
-              length: len
-            });
+          case "VB":
+          //case "VBD":
+          //case "VBG":
+          case "VBP":
+            if (tag.tag === "word") {
+              words.push({
+                value: tag.value,
+                start: start,
+                end: end,
+                length: len
+              });
+            }
             break;      
         }
       }
@@ -101,13 +109,13 @@ export class NLP {
   private _queryMultipleTerms(data: string, words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
-      let searchTerm = data.substr(word.start, word.length);
-      searchTerm = searchTerm.replace(/\'/g, "''");
-      let predicate = searchTerm
+      word.value = word.value.replace(/\'/g, "''");
+      let predicate = word.value
         .replace(/_/g, "~_")
-        .replace(/%/g, "~%") + "%";
-      const qry: string = `SELECT keyword, ${word.start} AS start FROM "${entity.label}" WHERE keyword LIKE ? ESCAPE '~'`;
-      queue.push(DB().query(qry, predicate));
+        .replace(/%/g, "~%") + " %";
+      const qry: string = `SELECT keyword, ${word.start} AS start FROM "${entity.label}" 
+        WHERE keyword LIKE ? ESCAPE '~' OR keyword = ?`;
+      queue.push(DB().query(qry, [predicate, word.value]));
     });
     const result: SearchTermResult[] = [];
     return Promise.all(queue)
@@ -126,10 +134,9 @@ export class NLP {
   private _querySingleTerms(data: string, words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
-      let searchTerm = data.substr(word.start, word.length);
-      searchTerm = searchTerm.replace(/\'/g, "''");
+      word.value = word.value.replace(/\'/g, "''");
       const qry: string = `SELECT keyword, ${word.start} AS start FROM "${entity.label}" WHERE keyword = ?`;
-      queue.push(DB().queryFirstRow(qry, searchTerm));
+      queue.push(DB().queryFirstRow(qry, word.value));
     });
     const result: SearchTermResult[] = [];
     return Promise.all(queue)
@@ -146,13 +153,14 @@ export class NLP {
   private async _runRegExpressions(data: string, entities: Entity[]): Promise<MatchedEntity[]> {
     const r: MatchedEntity[] = [];
     await entities.forEach(async (ent: Entity) => {
-      let re = new RegExp(ent.reg_ex, "gi");
+      let re = new RegExp(ent.reg_ex, "gmi");
       let m: RegExpExecArray | null;
       while ((m = re.exec(data)) !== null) {
         r.push({
           entity: ent.label,
           entityId: ent.id,
           entityDomain: ent.domain,
+          entityChainable: ent.chainable,
           value: m[0],
           start: m.index,
           end: m.index + m[0].length,
@@ -186,11 +194,12 @@ export class NLP {
     }
     const r: MatchedEntity[] = [];
     searchTerms.forEach((term: SearchTermResult) => {
-      if (data.indexOf(term.keyword, term.start) > -1) {
+      if (data.indexOf(term.keyword.toLowerCase(), term.start) > -1) {
         r.push({
           entity: entity.label,
           entityId: entity.id,
           entityDomain: entity.domain,
+          entityChainable: entity.chainable,
           value: term.keyword,
           start: term.start,
           end: term.start + term.keyword.length - 1,
@@ -218,11 +227,13 @@ export class NLP {
         } else if (peek.start === current.start || peek.end === current.end) {
           if (peek.length > current.length) {
             skip = true;
-          } else if (peek.entityDomain === current.entityDomain) {
+          } else if (peek.entity === current.entity) {
             values.shift();
             lookAhead = values.length > 0;
           }
-        } else if (peek.start === current.end + 2 && peek.entity === current.entity) {
+        } else if (peek.start === current.end + 2 
+            && peek.entityDomain === current.entityDomain 
+            && current.entityChainable) {
           current.end = peek.end;
           current.value += " " + peek.value;
           current.length = current.value.length;

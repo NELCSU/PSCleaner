@@ -6632,7 +6632,6 @@ VALUES
 ('Yorisola'),
 ('Yorita'),
 ('Yorizzo'),
-('York'),
 ('Yorkabel'),
 ('Yorke'),
 ('Yorker'),

@@ -10340,7 +10340,6 @@ VALUES
 ('Isnina'),
 ('Isnino'),
 ('Isnshah'),
-('Iso'),
 ('Isoaho'),
 ('Isob'),
 ('Isobal'),

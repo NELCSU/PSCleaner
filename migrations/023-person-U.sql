@@ -3622,7 +3622,6 @@ VALUES
 ('Upupa'),
 ('Upveja'),
 ('Upwall'),
-('Upward'),
 ('Uqba'),
 ('Uqbah'),
 ('Uqbu'),

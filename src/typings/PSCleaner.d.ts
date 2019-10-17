@@ -5,6 +5,7 @@ export type Entity = {
   label: string,
   color: string,
   domain: string,
+  chainable: number,
   type: EntityType,
   reg_ex: string
 }
@@ -47,6 +48,7 @@ export type MatchedEntity = {
   entity: string,
   entityId: number,
   entityDomain: string,
+  entityChainable: number,
   value: string,
   start: number,
   end: number,

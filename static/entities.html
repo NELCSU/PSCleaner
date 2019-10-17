@@ -30,7 +30,10 @@
       <input id="txtEntityColor" type="color" value="#cccccc" title="Select a color for this entity">
       <nel-text-input id="txtEntityLabel" mask="[a-zA-Z]+" maxlength="30" placeholder="Entity label (max. 30 char)" pattern=".*"></nel-text-input>
       <input type="hidden" id="txtEntityId" value="">
-      <nel-text-input id="txtEntityDomain" mask="[a-zA-Z]+" maxlength="30" placeholder="Entity domain (max. 30 char)" pattern=".*"></nel-text-input>
+      <nel-text-input id="txtEntityDomain" mask="[a-zA-Z]+" maxlength="30" placeholder="Common identifier" pattern=".*"></nel-text-input>
+      <nel-text-input id="txtEntityChainable" mask="[01]+" maxlength="1" placeholder="Can chain entities together" pattern="\d*"></nel-text-input>
+    </div>
+    <div class="flex-vcenter panel">
       <select id="lblEntityType">
         <option value="No type defined" selected disabled>Please select a type</option>
         <option value="Single term">Single term</option>

@@ -5047,7 +5047,6 @@ VALUES
 ('Zebley'),
 ('Zebo'),
 ('Zebouni'),
-('Zebra'),
 ('Zebracka'),
 ('Zebracki'),
 ('Zebrak'),

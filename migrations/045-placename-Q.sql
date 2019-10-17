@@ -1526,7 +1526,6 @@ VALUES
 ('Quibell''s Lane'),
 ('Quibo Lane'),
 ('Quibury Close'),
-('Quick'),
 ('Quick Cleugh'),
 ('Quick Close'),
 ('Quick Edge'),
