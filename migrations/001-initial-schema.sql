@@ -10,7 +10,7 @@ CREATE TABLE Entity (
   "label"     TEXT NOT NULL, 
   "color"     TEXT NOT NULL, 
   "domain"    TEXT NOT NULL,
-  "chainable" INTEGER NOT NULL,
+  "joinable"  INTEGER NOT NULL,
   "type"      TEXT NOT NULL,
   "reg_ex"    TEXT NULL
 );

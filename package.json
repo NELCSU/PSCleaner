@@ -70,7 +70,7 @@
     "wipe": "npm run wipe.webc",
     "wipe.webc": "rimraf static/lib/web-components"
   },
-  "version": "0.2.3",
+  "version": "0.2.5",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }

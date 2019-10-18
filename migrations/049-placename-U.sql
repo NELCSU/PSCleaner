@@ -870,7 +870,7 @@ VALUES
 ('Universal Close'),
 ('Universal Road'),
 ('Universal Street'),
-('University'),
+('University of'),
 ('University & Scotforth Rural'),
 ('University Academy'),
 ('University Academy Holbeach'),

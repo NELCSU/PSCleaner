@@ -2,12 +2,12 @@ export type EntityType = "Regular expression" | "Single term" | "Multiple term";
 
 export type Entity = {
   id: number,
-  label: string,
   color: string,
   domain: string,
-  chainable: number,
-  type: EntityType,
-  reg_ex: string
+  joinable: number,
+  label: string,
+  reg_ex: string,
+  type: EntityType
 }
 
 export type EntityRequest = "delete-entity" | "get-entities" | "save-entity";  
@@ -48,7 +48,7 @@ export type MatchedEntity = {
   entity: string,
   entityId: number,
   entityDomain: string,
-  entityChainable: number,
+  entityJoinable: number,
   value: string,
   start: number,
   end: number,

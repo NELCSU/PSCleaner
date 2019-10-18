@@ -5398,7 +5398,6 @@ VALUES
 ('Patwell Lane'),
 ('Patwell Street'),
 ('Paudy Lane'),
-('Paul'),
 ('Paul Avenue'),
 ('Paul Byrne Court'),
 ('Paul Close'),

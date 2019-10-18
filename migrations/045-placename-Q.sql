@@ -509,7 +509,6 @@ VALUES
 ('Quarrywood Road'),
 ('Quart Lane'),
 ('Quartains Moss'),
-('Quarter'),
 ('Quarter Bach'),
 ('Quarter Fell'),
 ('Quarter Gate'),

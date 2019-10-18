@@ -18360,6 +18360,7 @@ VALUES
 ('Ashydoo Church'),
 ('Ashydoo Craig'),
 ('Ashygeo Hillock'),
+('Asia'),
 ('Asia Street'),
 ('Askam'),
 ('Askam and Ireleth'),

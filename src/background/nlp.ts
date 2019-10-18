@@ -24,7 +24,6 @@ export class NLP {
     const ent_st = await Entities.getList("Single term");
     const ent_mt = await Entities.getList("Multiple term");
 
-    data = data.toLowerCase();
     return Promise.all([ent_re, ent_st, ent_mt])
       .then(async entities => {
         const match_re = await this._runRegExpressions(data, entities[0]);
@@ -36,7 +35,7 @@ export class NLP {
             matches.map((match: MatchedEntity[]) => {
               match.map((m: MatchedEntity) => mt.push(m));
             });
-            return this._sortAndClean(mt);
+            return this._sortAndClean(mt, data);
           });
       });
   }
@@ -67,7 +66,7 @@ export class NLP {
           case "NNPS":
           case "VB":
           //case "VBD":
-          //case "VBG":
+          case "VBG":
           case "VBP":
             if (tag.tag === "word") {
               words.push({
@@ -106,7 +105,23 @@ export class NLP {
     })
   }
 
-  private _queryMultipleTerms(data: string, words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
+  private _join(curr: MatchedEntity, next: MatchedEntity, originalText: string): MatchedEntity {
+    const c: MatchedEntity = curr;
+    let conjunction: string = originalText.substr(c.end + 1, next.start - c.end - 1);
+    if (conjunction === "") {
+      conjunction = " ";
+    }
+    c.value += conjunction + next.value;
+    c.length = c.value.length;
+    c.end = next.end;
+    return c;
+  }
+
+  private _joinable(curr: MatchedEntity, next: MatchedEntity): boolean {
+    return (next.start > curr.end && next.start <= curr.end + 3 && next.entityDomain === curr.entityDomain && curr.entityJoinable === 1);
+  }
+
+  private _queryMultipleTerms(words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
       word.value = word.value.replace(/\'/g, "''");
@@ -131,7 +146,7 @@ export class NLP {
       });
   }
 
-  private _querySingleTerms(data: string, words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
+  private _querySingleTerms(words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
       word.value = word.value.replace(/\'/g, "''");
@@ -160,7 +175,7 @@ export class NLP {
           entity: ent.label,
           entityId: ent.id,
           entityDomain: ent.domain,
-          entityChainable: ent.chainable,
+          entityJoinable: ent.joinable,
           value: m[0],
           start: m.index,
           end: m.index + m[0].length,
@@ -187,57 +202,58 @@ export class NLP {
 
   private async _searchTerms(data: string, words: WordPosition[], entity: Entity): Promise<any> {
     let searchTerms: SearchTermResult[];
-    if (entity.type === "Single term") {
-      searchTerms = await this._querySingleTerms(data, words, entity);
-    } else {
-      searchTerms = await this._queryMultipleTerms(data, words, entity);
-    }
+    searchTerms = (entity.type === "Single term") 
+      ? await this._querySingleTerms(words, entity)
+      : await this._queryMultipleTerms(words, entity);
     const r: MatchedEntity[] = [];
+    let test: string = data.toLowerCase();
     searchTerms.forEach((term: SearchTermResult) => {
-      if (data.indexOf(term.keyword.toLowerCase(), term.start) > -1) {
-        r.push({
-          entity: entity.label,
-          entityId: entity.id,
-          entityDomain: entity.domain,
-          entityChainable: entity.chainable,
-          value: term.keyword,
-          start: term.start,
-          end: term.start + term.keyword.length - 1,
-          length: term.keyword.length
-        });
+      const srch: string = term.keyword.toLowerCase();
+      if (test.indexOf(srch) > -1) {
+        if (test.substr(term.start, srch.length) === srch) {
+          r.push({
+            entity: entity.label,
+            entityId: entity.id,
+            entityDomain: entity.domain,
+            entityJoinable: entity.joinable,
+            value: term.keyword,
+            start: term.start,
+            end: term.start + term.keyword.length - 1,
+            length: term.keyword.length
+          });
+        }
       }
     });
     return Promise.resolve(r);
   }
 
-  private _sortAndClean(values: MatchedEntity[]): MatchedEntity[] {
+  private _sortAndClean(values: MatchedEntity[], data: string): MatchedEntity[] {
     const result: MatchedEntity[] = [];
     values.sort((a, b) => a.start < b.start ? -1 : a.start > b.start ? 1 : 0);
-    let current: any, peek: MatchedEntity, cursor: number = 0;
+    let current: MatchedEntity, peek: MatchedEntity, cursor: number = 0;
     while (values.length > 0) {
-      current = values.shift();
+      current = values.shift() as MatchedEntity;
       let skip: boolean = cursor >= current.end;
       let lookAhead: boolean = values.length > 0 && !skip;
       while (lookAhead) {
         lookAhead = false;
         peek = values[0];
         if (cursor > current.start) {
-          // ignore current if falls within last known entity
+          // is cursor beyond start of current entity? Yes => skip
           skip = true;
-        } else if (peek.start === current.start || peek.end === current.end) {
+        } else if (peek.start >= current.start && peek.start <= current.end) {
+          // two adjacent entities have some overlap ...
           if (peek.length > current.length) {
+            // the next entity selects more than the current, so drop the current
             skip = true;
-          } else if (peek.entity === current.entity) {
+          } else { // drop the next entity, we can't have overlaps
             values.shift();
             lookAhead = values.length > 0;
           }
-        } else if (peek.start === current.end + 2 
-            && peek.entityDomain === current.entityDomain 
-            && current.entityChainable) {
-          current.end = peek.end;
-          current.value += " " + peek.value;
-          current.length = current.value.length;
+        } else if (this._joinable(current, peek)) {
+          current = this._join(current, peek, data);
           values.shift();
+          lookAhead = values.length > 0;
         }
       }
       if (!skip) {

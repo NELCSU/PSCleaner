@@ -1,11 +1,8 @@
 nel-list-item { margin: 0.3rem 0 0 0.3rem }
-
 input[type="color"] { cursor: pointer }
 div.item-collection { background-color: #fff; height: 15rem; margin-bottom: 1rem }
-
 #lblEntityType { margin: 1rem }
 #btnEntityDelete { margin-left: 3rem }
 #btnEntityCancel { margin-left: 0.5rem }
-
 h4[slot=title] { margin: 0 0 0 0.75rem }
 dl { margin-top: 0 }

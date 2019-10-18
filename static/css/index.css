@@ -1,9 +1,2 @@
-nel-status-badge { 
-  --bg-color: #ffffff; 
-  --fg-color: #000099;
-  --height: 7.5rem; 
-  --width: 7.55rem;
-  cursor: pointer
-}
-
+nel-status-badge { --bg-color: #ffffff; --fg-color: #000099; --height: 7.5rem; --width: 7.55rem; cursor: pointer }
 button { cursor: pointer }

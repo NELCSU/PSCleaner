@@ -4058,7 +4058,6 @@ VALUES
 ('Yeowell'),
 ('Yeowhun'),
 ('Yeowon'),
-('Yep'),
 ('Yepa'),
 ('Yepeng'),
 ('Yepery'),

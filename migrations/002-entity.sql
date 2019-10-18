@@ -1,14 +1,14 @@
 -- Up
 
 INSERT INTO "Entity" 
-( "label",    "color",   "domain",  "chainable", "type",      "reg_ex" ) 
+( "label",    "color",   "domain",  "joinable", "type",      "reg_ex" ) 
 VALUES 
-('Address1',  '#80ff80', 'Location', 1, 'Regular expression', '\b(?:\d{1,4}[a-z]{0,3}\s)(?:[''\.\-\w]*\s)?(?:approach|avenue|bank|close|cl|crescent|croft|court|drive|east|end|flats|field|heights|ga?r?de?ns|gate|grange|green|grove|hill|lane|ln|meadow|mews|north|parade|park|path|place|pl|rise|road|rd|row|square|south|street|st|terrace|view|walk|way|west|wood|yard)\b'),
-('DateLong',  '#ffb3ff', 'DateTime', 0, 'Regular expression', '\b(?:[0123]?\d(?:st|nd|rd|th)?)(?:[\s\-\.]{0,3}|\sof\s)?(?:jan|janu?a?ry|feb|febr?ua?ry|mar|march|apr|april|may|jun|june|jul|july|aug|august|sept?|september|oct|october|nov|november|dec|december)(?:(?:[\s\-\.]{0,3})(?:\d\d|\d\d\d\d))\b'),
-('MonthYear', '#d9006c', 'DateTime', 0, 'Regular expression', '\b(?:jan|janu?a?ry|feb|febr?ua?ry|mar|march|apr|april|may|jun|june|jul|july|aug|august|sept?|september|oct|october|nov|november|dec|december)(?:(?:[\s\-\.]{0,3})(?:\d\d|\d\d\d\d))\b'),
-('DayMonth',  '#ff0080', 'DateTime', 0, 'Regular expression', '\b(?:[0123]?\d(?:st|nd|rd|th)?)(?:[\s\-\.]{0,3}|\sof\s)(?:jan|janu?a?ry|feb|febr?ua?ry|mar|march|apr|april|may|jun|june|jul|july|aug|august|sept?|september|oct|october|nov|november|dec|december)\b'),
-('WDayMonth', '#ff0099', 'DateTime', 0, 'Regular expression', '\b(?:(?:mon|monday|tues?|tuesday|wed|wednesday|thurs?|thursday|fri|friday|sat|saturday|sun|sunday)\,?[\s\n]{1,3})?(?:jan|janu?a?ry|feb|febr?ua?ry|mar|march|apr|april|may|jun|june|jul|july|aug|august|sept?|september|oct|october|nov|november|dec\.?|december)\s(?:[0123]{1,2}\d(?:st|nd|rd|th)?)\b'),
-('WDayDate',  '#ff0099', 'DateTime', 0, 'Regular expression', '\b(?:mon|monday|tues?|tuesday|wed|wednesday|thurs?|thursday|fri|friday|sat|saturday|sun|sunday)\s(?:the )?(?:[0123]?\d(?:st|nd|rd|th))\b'),
+('Address1',  '#80ff80', 'Location', 1, 'Regular expression', '\b(?:\d{1,4}[a-z]{0,3}\s)(?:[''\.\-\w]*\s)?(?:approach|avenue|bank|close|cl|crescent|croft|court|drive|east|end|flats|field|heights|ga?r?de?ns|gate|grange|green|grove|hill|lane|ln|meadow|mews|north|parade|park|path|place|pl|rise|road|rd|row|square|south|street|st|terrace|towers|view|walk|way|west|wood|yard)\b'),
+('DateLong',  '#ffb3ff', 'DateTime', 0, 'Regular expression', '\b(?:[0123]?\d(?:st|nd|rd|th)?)(?:[\s\-\.]{0,3}|\sof\s)?(?:jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)(?:(?:[\s\-\.]{0,3})(?:\d\d|\d\d\d\d))\b'),
+('MonthYear', '#d9006c', 'DateTime', 0, 'Regular expression', '\b(?:jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)(?:(?:[\s\-\.]{0,3})(?:\d\d|\d\d\d\d))\b'),
+('DayMonth',  '#ff0080', 'DateTime', 0, 'Regular expression', '\b(?:[0123]?\d(?:st|nd|rd|th)?)(?:[\s\-\.]{0,3}|\sof\s)(?:jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)\b'),
+('WDayMonth', '#ff0099', 'DateTime', 0, 'Regular expression', '\b(?:(?:mon\.?|monday|tues?\.?|tuesday|wed\.?|wednesday|thurs?\.?|thursday|fri\.?|friday|sat\.?|saturday|sun\.?|sunday)\,?[\s\n]{1,3})?(?:jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)\s(?:[0123]?\d(?:st|nd|rd|th)?)\b'),
+('WDayDate',  '#ff0099', 'DateTime', 0, 'Regular expression', '\b(?:mon\.?|monday|tues?\.?|tuesday|wed\.?|wednesday|thurs?\.?|thursday|fri\.?|friday|sat\.?|saturday|sun\.?|sunday)\s(?:the )?(?:[0123]?\d(?:st|nd|rd|th))\b'),
 ('DateShort1','#ff75ff', 'DateTime', 0, 'Regular expression', '\b[0123]?\d[\s\/]{1,3}[0123]?\d[\s\/]{1,3}\d{2,4}|\d{2,4}[\s\/]{1,3}[0123]?\d[\s\/]{1,3}[0123]?\d\b'),
 ('DateShort2','#ff3eff', 'DateTime', 0, 'Regular expression', '\b[0123]?\d[\s\-]{1,3}[0123]?\d[\s\-]{1,3}\d{2,4}|\d{2,4}[\s\-]{1,3}[0123]?\d[\s\-]{1,3}[0123]?\d\b'),
 ('DateShort3','#e800e8', 'DateTime', 0, 'Regular expression', '\b[0123]?\d[\s\.]{1,3}[0123]?\d[\s\.]{1,3}\d{2,4}|\d{2,4}[\s\.]{1,3}[0123]?\d[\s\.]{1,3}[0123]?\d\b'),
@@ -22,8 +22,8 @@ VALUES
 ('Time24hr',  '#dfbfff', 'DateTime', 0, 'Regular expression', '\b(?:[01]\d|2[0123]|\d):[0-5]\d\b'),
 ('TimeAMPM',  '#be7dff', 'DateTime', 0, 'Regular expression', '\b(?:[12]?\d[\.:][0-5]\d|[1-9]|1[0-2])\s?(?:a\.?m\.?|p\.?m\.?)\b'),
 ('TimeClock', '#8f20ff', 'DateTime', 0, 'Regular expression', '\b(?:[1-9]|1[0-2])\s?o[''\s]{1,2}clock\b'),
-('TitleName', '#3380ff', 'Person',   0, 'Regular expression', '\b(?:Dr|Mr|Mrs|Prof|Rev|St)\.?\s[\w\-]+\b'),
-('Uri',       '#ffc58a', 'Reference',0, 'Regular expression', '\b(?:(?:https?:\/\/)?www.[\w\/~\-\._\d]+|https?:\/\/[\w\/~\-\._\d]+)\b');
+('TitleName', '#3380ff', 'Person',   1, 'Regular expression', '\b(?:Dr|Mr|Mrs|Prof|Rev|Sr|St)\.?\s[\w\-]+\b'),
+('Uri',       '#ffc58a', 'Reference',0, 'Regular expression', '\b(?:(?:https?:\/\/)?www.[\w\/\?~&=%\+\-\._\d]+|https?:\/\/[\w\/\?~&=%\+\-\._\d]+)\b');
 
 -- Down
 

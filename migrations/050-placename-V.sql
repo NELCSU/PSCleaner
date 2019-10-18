@@ -566,7 +566,6 @@ VALUES
 ('Vamp Plantation'),
 ('Vampire Road'),
 ('Vampire Way'),
-('Van'),
 ('Van Alen Mews'),
 ('Van Common'),
 ('Van Der Bilt Court'),

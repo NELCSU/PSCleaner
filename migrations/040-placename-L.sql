@@ -3439,7 +3439,6 @@ VALUES
 ('Landywood Green'),
 ('Landywood Lane'),
 ('Landywood Primary School'),
-('Lane'),
 ('Lane Acre'),
 ('Lane And Dowry Road'),
 ('Lane Arms Way'),

@@ -16262,7 +16262,6 @@ VALUES
 ('Esosasere'),
 ('Esova'),
 ('Esowe'),
-('Esp'),
 ('Espa'),
 ('Espach'),
 ('Espacia'),

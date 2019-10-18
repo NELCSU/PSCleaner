@@ -57596,7 +57596,6 @@ VALUES
 ('Crosley Wood'),
 ('Crosley Wood Road'),
 ('Crosne Street'),
-('Cross'),
 ('Cross Acres Street'),
 ('Cross Alcester Road'),
 ('Cross Allen Road'),

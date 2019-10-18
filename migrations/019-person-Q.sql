@@ -1253,7 +1253,6 @@ VALUES
 ('Quarterman'),
 ('Quarteromi'),
 ('Quarteroni'),
-('Quarters'),
 ('Quartey'),
 ('Quarteyson'),
 ('Quarticelli'),
