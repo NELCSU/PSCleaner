@@ -10823,7 +10823,6 @@ VALUES
 ('Olympios'),
 ('Olympiou'),
 ('Olympious'),
-('Olympus'),
 ('Olyn'),
 ('Olynadurotimi'),
 ('Olynger'),

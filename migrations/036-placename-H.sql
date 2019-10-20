@@ -13578,7 +13578,6 @@ VALUES
 ('Headrigg Stane'),
 ('Headrileog'),
 ('Headroomgate Road'),
-('Heads'),
 ('Heads Bank'),
 ('Heads Copse'),
 ('Head''s Copse'),

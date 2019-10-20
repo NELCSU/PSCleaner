@@ -16701,7 +16701,6 @@ VALUES
 ('Bee-Orchid Way'),
 ('Beepark Copse'),
 ('Beepark Plantation'),
-('Beer'),
 ('Beer and Branscombe'),
 ('Beer Cart Lane'),
 ('Beer Chapel'),

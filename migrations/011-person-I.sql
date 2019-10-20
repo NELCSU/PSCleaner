@@ -8364,7 +8364,6 @@ VALUES
 ('Irekpitan'),
 ('Irel'),
 ('Irelan'),
-('Ireland'),
 ('Irele'),
 ('Irelia'),
 ('Irelin'),

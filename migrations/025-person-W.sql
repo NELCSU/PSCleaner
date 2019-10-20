@@ -1499,7 +1499,6 @@ VALUES
 ('Walerski'),
 ('Walerysiak'),
 ('Walerzak'),
-('Wales'),
 ('Walesa'),
 ('Walesby'),
 ('Walesewicz'),

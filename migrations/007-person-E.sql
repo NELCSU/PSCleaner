@@ -12188,7 +12188,6 @@ VALUES
 ('Engl'),
 ('Englad'),
 ('Englade'),
-('England'),
 ('Englander'),
 ('Englandtina'),
 ('Englantina'),
