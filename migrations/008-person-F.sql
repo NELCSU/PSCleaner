@@ -14559,7 +14559,6 @@ VALUES
 ('Foredul'),
 ('Foree'),
 ('Foreeza'),
-('Forehand'),
 ('Foreit'),
 ('Foreja'),
 ('Forejt'),

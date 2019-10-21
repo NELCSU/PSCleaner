@@ -31117,7 +31117,6 @@ VALUES
 ('Shakwan'),
 ('Shakwat'),
 ('Shakwath'),
-('Shaky'),
 ('Shakya'),
 ('Shakye'),
 ('Shakyi'),

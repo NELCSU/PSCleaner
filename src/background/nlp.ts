@@ -124,13 +124,17 @@ export class NLP {
   private _queryMultipleTerms(words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
-      word.value = word.value.replace(/\'/g, "''");
-      let predicate = word.value
+      let p1 = word.value
+        .replace(/\'/g, "''")
         .replace(/_/g, "~_")
         .replace(/%/g, "~%") + " %";
-      const qry: string = `SELECT keyword, ${word.start} AS start FROM "${entity.label}" 
+      let p2 = word.value.replace(/\'/g, "''");
+      const qry: string = `SELECT 
+          keyword, 
+          ${word.start} AS start 
+        FROM "${entity.label}" 
         WHERE keyword LIKE ? ESCAPE '~' OR keyword = ?`;
-      queue.push(DB().query(qry, [predicate, word.value]));
+      queue.push(DB().query(qry, [p1, p2]));
     });
     const result: SearchTermResult[] = [];
     return Promise.all(queue)
@@ -150,7 +154,10 @@ export class NLP {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
       const predicate: string = word.value.replace(/\'/g, "");
-      const qry: string = `SELECT keyword, ${word.start} AS start FROM "${entity.label}" WHERE keyword = ?`;
+      const qry: string = `SELECT 
+          '${word.value.replace(/\'/g, "''")}' AS keyword, 
+          ${word.start} AS start 
+        FROM "${entity.label}" WHERE keyword = ?`;
       queue.push(DB().queryFirstRow(qry, predicate));
     });
     const result: SearchTermResult[] = [];

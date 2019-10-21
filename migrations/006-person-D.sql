@@ -2965,7 +2965,6 @@ VALUES
 ('Damoussi'),
 ('Damoutzidou'),
 ('Damoye'),
-('Damp'),
 ('Dampa'),
 ('Dampare'),
 ('Dampc'),

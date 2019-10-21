@@ -18,7 +18,7 @@ CREATE TABLE Entity (
 CREATE INDEX Entity_ix_type ON Entity (type);
 
 CREATE TABLE Person (
-  keyword TEXT NOT NULL COLLATE NOCASE
+  keyword TEXT NOT NULL COLLATE NOCASE PRIMARY KEY
 );
 
 CREATE TABLE Placename (
