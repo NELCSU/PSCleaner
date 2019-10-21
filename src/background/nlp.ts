@@ -149,9 +149,9 @@ export class NLP {
   private _querySingleTerms(words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
-      word.value = word.value.replace(/\'/g, "''");
+      const predicate: string = word.value.replace(/\'/g, "");
       const qry: string = `SELECT keyword, ${word.start} AS start FROM "${entity.label}" WHERE keyword = ?`;
-      queue.push(DB().queryFirstRow(qry, word.value));
+      queue.push(DB().queryFirstRow(qry, predicate));
     });
     const result: SearchTermResult[] = [];
     return Promise.all(queue)

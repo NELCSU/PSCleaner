@@ -2156,7 +2156,6 @@ VALUES
 ('Quituqua'),
 ('Quiuengo'),
 ('Quium'),
-('Quiver'),
 ('Quivers'),
 ('Quivey'),
 ('Quiviger'),

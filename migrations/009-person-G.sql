@@ -26140,7 +26140,6 @@ VALUES
 ('Grion'),
 ('Griot'),
 ('Grioua'),
-('Gripe'),
 ('Gripenberg'),
 ('Gripentrog'),
 ('Gripinska'),

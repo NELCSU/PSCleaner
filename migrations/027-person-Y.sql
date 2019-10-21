@@ -1875,7 +1875,6 @@ VALUES
 ('Yaqov'),
 ('Yaquab'),
 ('Yaqub'),
-('Ya''Qub'),
 ('Yaqubbh'),
 ('Yaqubi'),
 ('Yaqubie'),
