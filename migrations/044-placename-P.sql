@@ -16808,6 +16808,7 @@ VALUES
 ('Pitts Wood'),
 ('Pitt''s Wood'),
 ('Pitts Wood Inclosure'),
+('Pittsburgh'),
 ('Pittsburgh Court'),
 ('Pittsburgh Road'),
 ('Pittsdale Avenue'),

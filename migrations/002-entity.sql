@@ -17,12 +17,14 @@ VALUES
 ('Person',    '#0080ff', 'Person',   1, 'Single term',        NULL),
 ('PlaceName', '#80ff00', 'Location', 1, 'Multiple term',      NULL),
 ('Postcode',  '#00ff00', 'Location', 1, 'Regular expression', '\b(?:GIR|[a-zA-Z][a-zA-Z]?(?:[0-9][a-zA-Z]|[0-9]{1,2}))(?:[ ]{0,3})(?:[0-9][a-zA-Z]{2})\b'),
+('School',    '#80ff80', 'Location', 1, 'Regular expression', '\bschool of [\w\-]+\b'),
 ('TelUK',     '#ff80ff', 'Reference',0, 'Regular expression', '\(?0\d\d(?:\)?[\s\-]?\d\d\d|\d\)?[\s\-]?\d\d|\d\d\)?[\s\-]?\d|\d\s?\d\d\)?)[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d\d'),
 ('TelUKInt',  '#ff80ff', 'Reference',0, 'Regular expression', '(?:\+\(?44\)?|0044)\s?\(?0?\d\d(?:\)?[\s\-]?\d\d\d|\d\)?[\s\-]?\d\d|\d\d\)?[\s\-]?\d|\d\s?\d\d\)?)[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d\d'),
 ('Time24hr',  '#dfbfff', 'DateTime', 0, 'Regular expression', '\b(?:[01]\d|2[0123]|\d):[0-5]\d\b'),
 ('TimeAMPM',  '#be7dff', 'DateTime', 0, 'Regular expression', '\b(?:[12]?\d[\.:][0-5]\d|[1-9]|1[0-2])\s?(?:a\.?m\.?|p\.?m\.?)\b'),
 ('TimeClock', '#8f20ff', 'DateTime', 0, 'Regular expression', '\b(?:[1-9]|1[0-2])\s?o[''\s]{1,2}clock\b'),
 ('TitleName', '#3380ff', 'Person',   1, 'Regular expression', '\b(?:Dr|Mr|Mrs|Prof|Rev|Sr|St)\.?\s[\w\-]+\b'),
+('University','#80ff80', 'Location', 1, 'Regular expression', '\buniversity of (?:east|north|south|west)?\s?[\w\-]+\b'),
 ('Uri',       '#ffc58a', 'Reference',0, 'Regular expression', '\b(?:(?:https?:\/\/)?www.[\w\/\?~&=%\+\-\._\d]+|https?:\/\/[\w\/\?~&=%\+\-\._\d]+)\b');
 
 -- Down

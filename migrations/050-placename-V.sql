@@ -380,7 +380,6 @@ VALUES
 ('Valletta Street'),
 ('Valletta Way'),
 ('Valletts Lane'),
-('Valley'),
 ('Valley Airfield'),
 ('Valley Approach'),
 ('Valley Avenue'),

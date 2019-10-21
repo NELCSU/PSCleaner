@@ -1683,7 +1683,6 @@ VALUES
 ('Quertermous'),
 ('Querton'),
 ('Querubin'),
-('Query'),
 ('Querzola'),
 ('Querzoli'),
 ('Quesada'),

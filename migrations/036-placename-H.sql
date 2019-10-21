@@ -4673,7 +4673,6 @@ VALUES
 ('Hanford Road'),
 ('Hanford School'),
 ('Hanford Way'),
-('Hang'),
 ('Hang Bank'),
 ('Hang Bank Plantation'),
 ('Hang Copse'),

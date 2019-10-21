@@ -26670,7 +26670,6 @@ VALUES
 ('Gumstool Hill'),
 ('Gumtree Close'),
 ('Gumwells Wold'),
-('Gun'),
 ('Gun Avenue'),
 ('Gun Back Lane'),
 ('Gun Battery Lane'),

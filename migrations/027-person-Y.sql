@@ -3,7 +3,6 @@
 INSERT INTO "Person"
 ("keyword")
 VALUES
-('Ya'),
 ('Yaa'),
 ('Yaaasantewaa'),
 ('Yaaba'),
@@ -3429,6 +3428,7 @@ VALUES
 ('Yegor'),
 ('Yegorov'),
 ('Yegorova'),
+('Yegorychev'),
 ('Yegote'),
 ('Yegra'),
 ('Yegry'),
@@ -8892,6 +8892,7 @@ VALUES
 ('Yuun'),
 ('Yuuni'),
 ('Yuunis'),
+('Yuunusu'),
 ('Yuuraj'),
 ('Yuuri'),
 ('Yuusrin'),

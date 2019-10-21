@@ -6206,7 +6206,6 @@ VALUES
 ('Indhuja'),
 ('Indhumathy'),
 ('Indi'),
-('India'),
 ('Indiah'),
 ('Indiahh'),
 ('Indiamara'),

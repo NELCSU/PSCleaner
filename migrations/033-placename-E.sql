@@ -5559,7 +5559,6 @@ VALUES
 ('Edrom Street'),
 ('Edroyd Place'),
 ('Edroyd Street'),
-('EDS'),
 ('Edsell Crescent'),
 ('Edsome Way'),
 ('Edson Close'),

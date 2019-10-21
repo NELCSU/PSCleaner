@@ -8855,6 +8855,7 @@ VALUES
 ('Detling Road'),
 ('Detmold Road'),
 ('Detmore Close'),
+('Detroit'),
 ('Detroit Avenue'),
 ('Detroit Close'),
 ('Detroit Drive'),
