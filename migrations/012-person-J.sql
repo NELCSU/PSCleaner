@@ -8441,7 +8441,6 @@ VALUES
 ('Jeakins'),
 ('Jeakle'),
 ('Jeal'),
-('Jealous'),
 ('Jeam'),
 ('Jeamar'),
 ('Jeambrun'),

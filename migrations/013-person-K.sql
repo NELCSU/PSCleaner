@@ -21672,7 +21672,6 @@ VALUES
 ('Khakhkhar'),
 ('Khakhria'),
 ('Khakhriya'),
-('Khaki'),
 ('Khakikazazi'),
 ('Khakil'),
 ('Khakimov'),

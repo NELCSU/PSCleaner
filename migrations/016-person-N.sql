@@ -8489,7 +8489,6 @@ VALUES
 ('Navved'),
 ('Navvubya'),
 ('Navwinder'),
-('Navy'),
 ('Navya'),
 ('Navyaa'),
 ('Navyan'),

@@ -12013,7 +12013,6 @@ VALUES
 ('Enfrain'),
 ('Enfrun'),
 ('Enfys'),
-('Eng'),
 ('Enga'),
 ('Engadi'),
 ('Engaeika'),

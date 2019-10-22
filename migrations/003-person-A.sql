@@ -4240,7 +4240,6 @@ VALUES
 ('Abidde'),
 ('Abiddin'),
 ('Abiddun'),
-('Abide'),
 ('Abideen'),
 ('Abidemi'),
 ('Abiden'),

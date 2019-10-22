@@ -3211,7 +3211,6 @@ VALUES
 ('Canario'),
 ('Canaris'),
 ('Canarte'),
-('Canary'),
 ('Canas'),
 ('Canasta'),
 ('Canastra'),

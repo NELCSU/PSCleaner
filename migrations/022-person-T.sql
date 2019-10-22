@@ -26455,7 +26455,6 @@ VALUES
 ('Towelah'),
 ('Towell'),
 ('Towells'),
-('Towels'),
 ('Towera'),
 ('Towerse'),
 ('Towerton'),

@@ -22110,7 +22110,6 @@ VALUES
 ('Gosztola'),
 ('Gosztonyi'),
 ('Gosztyla'),
-('Got'),
 ('Gota'),
 ('Gotam'),
 ('Gotame'),

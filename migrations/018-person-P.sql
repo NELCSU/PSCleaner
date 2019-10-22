@@ -24640,7 +24640,6 @@ VALUES
 ('Polnow'),
 ('Polny'),
 ('Polnyj'),
-('Polo'),
 ('Poloboc'),
 ('Poloca'),
 ('Polocenkaite'),
