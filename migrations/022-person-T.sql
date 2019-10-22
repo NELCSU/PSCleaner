@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -24184,7 +24183,6 @@ VALUES
 ('Tomza'),
 ('Tomzak'),
 ('Tomzida'),
-('Ton'),
 ('Tona'),
 ('Tonaas'),
 ('Tonade'),
@@ -35968,7 +35966,5 @@ VALUES
 ('Tzvy'),
 ('Tzvye'),
 ('Tzwi');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 't%';

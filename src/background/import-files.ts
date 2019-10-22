@@ -34,7 +34,10 @@ export class ImportFiles {
         );
     });
     
-    ipc.on("import-file-count", e => e.reply("import-file-count", this.fm.fileCount));
+    ipc.on("import-file-count", e => {
+      this.fm.fileCount
+        .then(n => e.reply("import-file-count", n));
+    });
 
     ipc.on("start-import", e => {
       this.moveOne()
@@ -81,7 +84,7 @@ export class ImportFiles {
           ? this.fm.fs.rename(join(this.fm.folder, files[0]), join(this.sendTo, files[0]))
               .then(() => Promise.resolve("imported"))
               .catch(() => Promise.reject("stop-import"))
-         : Promise.reject("stop-import")
+          : Promise.reject("stop-import")
       )
   }
 }

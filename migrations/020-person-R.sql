@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -564,7 +563,6 @@ VALUES
 ('Rabyatou'),
 ('Rabyea'),
 ('Rabyie'),
-('Rac'),
 ('Raca'),
 ('Racadio'),
 ('Racaite'),
@@ -11862,7 +11860,6 @@ VALUES
 ('Redner'),
 ('Rednic'),
 ('Rednour'),
-('Redo'),
 ('Redoan'),
 ('Redoanul'),
 ('Redoble'),
@@ -20741,7 +20738,6 @@ VALUES
 ('Rizzotto'),
 ('Rizzuti'),
 ('Rizzuto'),
-('Rj'),
 ('Rjabinina'),
 ('Rjabinkina'),
 ('Rjabko'),
@@ -24909,6 +24905,7 @@ VALUES
 ('Rosagas'),
 ('Rosagro'),
 ('Rosai'),
+('Rosaine'),
 ('Rosair'),
 ('Rosaire'),
 ('Rosairia'),
@@ -32995,7 +32992,5 @@ VALUES
 ('Rzymska'),
 ('Rzymski'),
 ('Rzyp');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'r%';

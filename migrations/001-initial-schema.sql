@@ -12,6 +12,7 @@ CREATE TABLE Entity (
   "domain"    TEXT NOT NULL,
   "joinable"  INTEGER NOT NULL,
   "type"      TEXT NOT NULL,
+  "redact"    TEXT NOT NULL,
   "reg_ex"    TEXT NULL
 );
 
@@ -25,6 +26,10 @@ CREATE TABLE Placename (
   keyword TEXT NOT NULL COLLATE NOCASE PRIMARY KEY
 );
 
+CREATE TABLE Nationality (
+  keyword TEXT NOT NULL COLLATE NOCASE PRIMARY KEY
+);
+
 -- Down
 
 DROP TABLE IF EXISTS AppSettings;
@@ -34,3 +39,4 @@ DROP TABLE IF EXISTS Entity;
 
 DROP TABLE IF EXISTS Person;
 DROP TABLE IF EXISTS Placename;
+DROP TABLE IF EXISTS Nationality;

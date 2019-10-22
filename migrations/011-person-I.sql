@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -6607,7 +6606,6 @@ VALUES
 ('Infurna'),
 ('Infusino'),
 ('Infuso'),
-('Ing'),
 ('Inga'),
 ('Ingabire'),
 ('Ingala'),
@@ -9461,7 +9459,6 @@ VALUES
 ('Isgro'),
 ('Isgrove'),
 ('Isgur'),
-('Ish'),
 ('Isha'),
 ('Ishaa'),
 ('Ishaabhya'),
@@ -10059,6 +10056,7 @@ VALUES
 ('Islahi'),
 ('Islahiner'),
 ('Islaine'),
+('Islam'),
 ('Islama'),
 ('Islamaj'),
 ('Islamay'),
@@ -12883,7 +12881,5 @@ VALUES
 ('Izzuddin'),
 ('Izzudhin'),
 ('Izzy');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'i%';

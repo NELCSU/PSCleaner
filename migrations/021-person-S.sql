@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -3867,7 +3866,6 @@ VALUES
 ('Saichon'),
 ('Saichuea'),
 ('Saico'),
-('Said'),
 ('Saida'),
 ('Saidaal'),
 ('Saidabanu'),
@@ -5574,6 +5572,7 @@ VALUES
 ('Salamah'),
 ('Salaman'),
 ('Salamanca'),
+('Salamandick'),
 ('Salamanna'),
 ('Salamanta'),
 ('Salamantu'),
@@ -19147,7 +19146,6 @@ VALUES
 ('Schooling'),
 ('Schoolland'),
 ('Schoolman'),
-('Schools'),
 ('Schoombee'),
 ('Schoombie'),
 ('Schoon'),
@@ -27773,9 +27771,7 @@ VALUES
 ('Sevenstar'),
 ('Sevenster'),
 ('Sevenundhan'),
-('Sever'),
 ('Severa'),
-('Severance'),
 ('Severdak'),
 ('Severeen'),
 ('Severeid'),
@@ -41304,6 +41300,7 @@ VALUES
 ('Shprung'),
 ('Shpu'),
 ('Shpuza'),
+('Shpytkovsky'),
 ('Shqau'),
 ('Shqeela'),
 ('Shqipdon'),
@@ -41348,7 +41345,6 @@ VALUES
 ('Shramiak'),
 ('Shran'),
 ('Shranjot'),
-('Shrank'),
 ('Shranthini'),
 ('Shrapnel'),
 ('Shrapnell'),
@@ -41973,6 +41969,7 @@ VALUES
 ('Shudan'),
 ('Shuddal'),
 ('Shudeepto'),
+('Shudeish'),
 ('Shudell'),
 ('Shudesna'),
 ('Shudha'),
@@ -45189,7 +45186,6 @@ VALUES
 ('Signorino'),
 ('Signorita'),
 ('Signoritti'),
-('Signs'),
 ('Signy'),
 ('Sigo'),
 ('Sigobodhla'),
@@ -50739,6 +50735,7 @@ VALUES
 ('Skarra'),
 ('Skarsholt'),
 ('Skarsten'),
+('Skarstol'),
 ('Skartsila'),
 ('Skartsolia'),
 ('Skartsolias'),
@@ -60539,6 +60536,7 @@ VALUES
 ('Spagnulo'),
 ('Spagnuolo'),
 ('Spagocci'),
+('Spagrud'),
 ('Spah'),
 ('Spahaj'),
 ('Spahia'),
@@ -62302,7 +62300,6 @@ VALUES
 ('Squire'),
 ('Squires'),
 ('Squirewell'),
-('Squirrel'),
 ('Squirrell'),
 ('Squitieri'),
 ('Squizani'),
@@ -64912,9 +64909,7 @@ VALUES
 ('Startek'),
 ('Startiene'),
 ('Startin'),
-('Starts'),
 ('Startt'),
-('Startup'),
 ('Startz'),
 ('Startzel'),
 ('Startzman'),
@@ -67948,6 +67943,7 @@ VALUES
 ('Stoczko'),
 ('Stoczkowska'),
 ('Stoda'),
+('Stodalka'),
 ('Stodart'),
 ('Stoddard'),
 ('Stoddart'),
@@ -68629,6 +68625,7 @@ VALUES
 ('Storonskiy'),
 ('Storonsky'),
 ('Storoz'),
+('Storoshenko'),
 ('Storozenko'),
 ('Storozhuk'),
 ('Storozkenko'),
@@ -81880,7 +81877,5 @@ VALUES
 ('Szytniewski'),
 ('Szytula'),
 ('Szyzmn');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 's%';

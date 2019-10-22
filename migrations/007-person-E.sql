@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -11021,7 +11020,6 @@ VALUES
 ('Emison'),
 ('Emissa'),
 ('Emissah'),
-('Emit'),
 ('Emita'),
 ('Emitam'),
 ('Emitan'),
@@ -16732,6 +16730,7 @@ VALUES
 ('Estal'),
 ('Estala'),
 ('Estalayo'),
+('Estalee'),
 ('Estalianon'),
 ('Estalin'),
 ('Estall'),
@@ -20396,7 +20395,5 @@ VALUES
 ('Ezzouek'),
 ('Ezzouyar'),
 ('Ezzy');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'e%';

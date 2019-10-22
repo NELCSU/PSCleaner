@@ -42,7 +42,10 @@ export class ProcessFiles {
         );
     });
 
-    ipc.on("processing-file-count", e => e.reply("processing-file-count", this.fm.fileCount));
+    ipc.on("processing-file-count", e => {
+      this.fm.fileCount
+        .then(n => e.reply("processing-file-count", n));
+    });
 
     ipc.on("start-processing", e => {
       this.fm.listFiles()

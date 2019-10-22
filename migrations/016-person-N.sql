@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -12782,7 +12781,6 @@ VALUES
 ('Neozi'),
 ('Nepa'),
 ('Nepaa'),
-('Nepal'),
 ('Nepale'),
 ('Nepali'),
 ('Nepalia'),
@@ -16102,6 +16100,7 @@ VALUES
 ('Nicody'),
 ('Nicoe'),
 ('Nicoela'),
+('Nicoforuk'),
 ('Nicohlas'),
 ('Nicohle'),
 ('Nicoholas'),
@@ -16808,6 +16807,7 @@ VALUES
 ('Nieuwenhuis'),
 ('Nieuwenhuys'),
 ('Nieuwenhuysen'),
+('Nieuwesteeg'),
 ('Nieuwerf'),
 ('Nieuwersteeg'),
 ('Nieuwhof'),
@@ -24245,7 +24245,6 @@ VALUES
 ('Nowzari'),
 ('Nowzed'),
 ('Nowzer'),
-('Nox'),
 ('Noxoio'),
 ('Noxolo'),
 ('Noxon'),
@@ -26207,7 +26206,6 @@ VALUES
 ('Nursen'),
 ('Nursena'),
 ('Nursenem'),
-('Nurses'),
 ('Nurseven'),
 ('Nursey'),
 ('Nurshafika'),
@@ -26229,7 +26227,6 @@ VALUES
 ('Nursimmuloo'),
 ('Nursimooloo'),
 ('Nursin'),
-('Nursing'),
 ('Nursinghdass'),
 ('Nursiniloo'),
 ('Nursipatov'),
@@ -28488,7 +28485,5 @@ VALUES
 ('Nzuza'),
 ('Nzuzi'),
 ('Nzwe');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'n%';

@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -175,7 +174,6 @@ VALUES
 ('Pabular'),
 ('Pabustan'),
 ('Pabys'),
-('Pac'),
 ('Paca'),
 ('Pacaccio'),
 ('Pacaci'),
@@ -9431,6 +9429,7 @@ VALUES
 ('Pauletti'),
 ('Pauletto'),
 ('Pauley'),
+('Paulgaard'),
 ('Paulger'),
 ('Paulgnanaiah'),
 ('Paulgriffiths'),
@@ -11230,6 +11229,7 @@ VALUES
 ('Peerzada'),
 ('Peerzadah'),
 ('Pees'),
+('Peesker'),
 ('Peeshane'),
 ('Peeso'),
 ('Peet'),
@@ -13727,7 +13727,6 @@ VALUES
 ('Perkovich'),
 ('Perkowska'),
 ('Perkowski'),
-('Perks'),
 ('Perksoy'),
 ('Perkumas'),
 ('Perkumiene'),
@@ -26411,7 +26410,6 @@ VALUES
 ('Portadibasso'),
 ('Portaga'),
 ('Portais'),
-('Portal'),
 ('Portalatin'),
 ('Portale'),
 ('Portalegre'),
@@ -29376,7 +29374,6 @@ VALUES
 ('Prayatphon'),
 ('Prayeen'),
 ('Prayel'),
-('Prayers'),
 ('Prayga'),
 ('Praylow'),
 ('Prayong'),
@@ -35500,7 +35497,5 @@ VALUES
 ('Pzintars'),
 ('Pzngpzng'),
 ('Pzoana');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'p%';

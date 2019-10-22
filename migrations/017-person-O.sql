@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -2786,6 +2785,7 @@ VALUES
 ('Oedit'),
 ('Oedrick'),
 ('Oefelein'),
+('Oeffner'),
 ('Oefinger'),
 ('Oeftger'),
 ('Oegaard'),
@@ -21780,7 +21780,5 @@ VALUES
 ('Ozzi'),
 ('Ozzie'),
 ('Ozzy');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'o%';

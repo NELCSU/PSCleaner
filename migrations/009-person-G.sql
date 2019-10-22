@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -6161,7 +6160,6 @@ VALUES
 ('Gavazzoni'),
 ('Gavdaeva'),
 ('Gavde'),
-('Gave'),
 ('Gaved'),
 ('Gaveeka'),
 ('Gaveenash'),
@@ -10801,6 +10799,7 @@ VALUES
 ('Getka'),
 ('Getler'),
 ('Getley'),
+('Getliff'),
 ('Getman'),
 ('Getmanska'),
 ('Getmanskaya'),
@@ -22224,12 +22223,12 @@ VALUES
 ('Gotse'),
 ('Gotsev'),
 ('Gotseva'),
+('Gotshal'),
 ('Gotshall'),
 ('Gotsi'),
 ('Gotsis'),
 ('Gotskova'),
 ('Gott'),
-('Gotta'),
 ('Gottaidi'),
 ('Gottam'),
 ('Gottard'),
@@ -24265,7 +24264,6 @@ VALUES
 ('Gration'),
 ('Gratiot'),
 ('Gratiozi'),
-('Gratitude'),
 ('Grativ'),
 ('Gratizella'),
 ('Gratkowski'),
@@ -24448,6 +24446,7 @@ VALUES
 ('Grawe'),
 ('Grawert'),
 ('Grawey'),
+('Gray'),
 ('Graya'),
 ('Grayaa'),
 ('Graybeal'),
@@ -32536,6 +32535,7 @@ VALUES
 ('Gutoaia'),
 ('Gutoiu'),
 ('Gutol'),
+('Gutor'),
 ('Gutorova'),
 ('Gutoski'),
 ('Gutov'),
@@ -33831,7 +33831,5 @@ VALUES
 ('Gzowski'),
 ('Gzyl'),
 ('Gzym');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'g%';

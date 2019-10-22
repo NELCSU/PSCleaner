@@ -66,7 +66,15 @@ class Main {
               .then(result => {
                 this.mainWindow.webContents.send("NLP-response", result);
               });
-          }); 
+          });
+
+          ipc.on("NLP-sensitivity", (e: IpcMainEvent, n: string) => {
+            if (n === "0" || n === "1" || n === "2") {
+              nlp.sensitivity = parseInt(n);
+            } else {
+              this.mainWindow.webContents.send("NLP-sensitivity", nlp.sensitivity);
+            }
+          });
         })
 
       this.app.on("second-instance", () => {
@@ -124,11 +132,17 @@ class Main {
     this.importFiles.sendTo = this.processFiles.fm.folder;
     this.processFiles.sendTo = this.exportFiles.fm.folder;
 
-    this.importFiles.fm.events.on("file-count-change", n => this.mainWindow.webContents.send("import-file-count", n));
+    this.importFiles.fm.events.on("file-count-change", count => {
+      count.then((n: number) => this.mainWindow.webContents.send("import-file-count", n));
+    });
 
-    this.processFiles.fm.events.on("file-count-change", n => this.mainWindow.webContents.send("processing-file-count", n));
+    this.processFiles.fm.events.on("file-count-change", count => {
+      count.then((n: number) => this.mainWindow.webContents.send("processing-file-count", n));
+    });
 
-    this.exportFiles.fm.events.on("file-count-change", n => this.mainWindow.webContents.send("export-file-count", n));
+    this.exportFiles.fm.events.on("file-count-change", count => {
+      count.then((n: number) => this.mainWindow.webContents.send("export-file-count", n));
+    });
 
     protocol.registerBufferProtocol("es6", (req, cb) => {
       fs.readFile(

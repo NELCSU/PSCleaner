@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -2797,6 +2796,7 @@ VALUES
 ('Vanavery'),
 ('Vanavi'),
 ('Vanaya'),
+('Vanb'),
 ('Vanba'),
 ('Vanbaalen'),
 ('Vanbaelen'),
@@ -4541,7 +4541,6 @@ VALUES
 ('Vaquette'),
 ('Vaquez'),
 ('Vaquiz'),
-('Var'),
 ('Vara'),
 ('Varaali'),
 ('Varabauskas'),
@@ -7609,6 +7608,7 @@ VALUES
 ('Velgs'),
 ('Velgy'),
 ('Velhas'),
+('Velhat'),
 ('Velhinho'),
 ('Velho'),
 ('Velhosh'),
@@ -8784,7 +8784,6 @@ VALUES
 ('Ventzislavov'),
 ('Venu'),
 ('Venuat'),
-('Venue'),
 ('Venuela'),
 ('Venuga'),
 ('Venuganan'),
@@ -16035,7 +16034,6 @@ VALUES
 ('Voiculesou'),
 ('Voiculet'),
 ('Voicuta'),
-('Void'),
 ('Voidanidi'),
 ('Voidarou'),
 ('Voidenko'),
@@ -18322,7 +18320,5 @@ VALUES
 ('Vzrupaksha'),
 ('Vzunov'),
 ('Vzzaman');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'v%';

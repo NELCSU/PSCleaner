@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -6240,7 +6239,6 @@ VALUES
 ('Wenstrom'),
 ('Wenstrup'),
 ('Wensum'),
-('Went'),
 ('Wenta'),
 ('Wentana'),
 ('Wentanee'),
@@ -6834,6 +6832,7 @@ VALUES
 ('Westerstahl'),
 ('Westerstroem'),
 ('Westerstrom'),
+('Westersund'),
 ('Westerveld'),
 ('Westervelt'),
 ('Westervoorde'),
@@ -10754,7 +10753,6 @@ VALUES
 ('Wiremu'),
 ('Wiren'),
 ('Wirepa'),
-('Wires'),
 ('Wirey'),
 ('Wirf'),
 ('Wirfel'),
@@ -14455,7 +14453,5 @@ VALUES
 ('Wziatek'),
 ('Wziech'),
 ('Wzorek');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'w%';

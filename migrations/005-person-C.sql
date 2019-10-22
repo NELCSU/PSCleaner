@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -5220,7 +5219,6 @@ VALUES
 ('Cariati'),
 ('Cariazo'),
 ('Cariba'),
-('Caribbean'),
 ('Caricari'),
 ('Caricasole'),
 ('Caricasolo'),
@@ -8026,7 +8024,6 @@ VALUES
 ('Catruna'),
 ('Catruta'),
 ('Catryn'),
-('Cats'),
 ('Catsambas'),
 ('Catsambis'),
 ('Catsaras'),
@@ -11598,7 +11595,6 @@ VALUES
 ('Chairmaine'),
 ('Chairmin'),
 ('Chairounisa'),
-('Chairs'),
 ('Chairunnisa'),
 ('Chairutdinov'),
 ('Chais'),
@@ -22256,6 +22252,7 @@ VALUES
 ('Christhopher'),
 ('Christi'),
 ('Christia'),
+('Christian'),
 ('Christiaan'),
 ('Christiaanse'),
 ('Christiaens'),
@@ -31191,7 +31188,6 @@ VALUES
 ('Coppenhall'),
 ('Coppenrath'),
 ('Coppens'),
-('Copper'),
 ('Coppere'),
 ('Copperfield'),
 ('Copperi'),
@@ -32404,6 +32400,7 @@ VALUES
 ('Corvaglia'),
 ('Corvalan'),
 ('Corvan'),
+('Corvari'),
 ('Corvaro'),
 ('Corvasce'),
 ('Corvatta'),
@@ -38751,7 +38748,5 @@ VALUES
 ('Czyzyk'),
 ('Czyzykowska'),
 ('Czyzykowski');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'c%';

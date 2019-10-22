@@ -1,9 +1,7 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
-('Da'),
 ('Daa'),
 ('Daab'),
 ('Daaba'),
@@ -14959,6 +14957,7 @@ VALUES
 ('Despotas'),
 ('Despotidis'),
 ('Despotidou'),
+('Despotopoulos'),
 ('Despotova'),
 ('Despoulla'),
 ('Despouy'),
@@ -31104,7 +31103,6 @@ VALUES
 ('Duerson'),
 ('Duerst'),
 ('Duersteler'),
-('Dues'),
 ('Duesbury'),
 ('Duescher'),
 ('Duesenberg'),
@@ -33515,6 +33513,7 @@ VALUES
 ('Dusus'),
 ('Dusyant'),
 ('Dusyanth'),
+('Dusyk'),
 ('Dusza'),
 ('Duszak'),
 ('Duszanskyj'),
@@ -35411,7 +35410,5 @@ VALUES
 ('Dzyriene'),
 ('Dzyrk'),
 ('Dzyuba');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'd%';

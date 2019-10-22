@@ -31,7 +31,10 @@ export class ExportFiles {
         );
     });
 
-    ipc.on("export-file-count", e => e.reply("export-file-count", this.fm.fileCount));
+    ipc.on("export-file-count", e => {
+      this.fm.fileCount
+        .then(n => e.reply("export-file-count", n));
+    });
   }
 
   /**

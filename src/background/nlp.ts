@@ -1,19 +1,21 @@
-import { Entities } from "./entities";
-import DB from "sqlite3-helper";
-import { DataObject } from "sqlite3-helper";
-import { Entity, MatchedEntity, SearchTermResult, WordPosition } from "../typings/PSCleaner";
+import DB, { DataObject } from "sqlite3-helper";
 import posTagger from "wink-pos-tagger";
-
+import { Entity, MatchedEntity, SearchTermResult, WordPosition } from "../typings/PSCleaner";
+import { Entities } from "./entities";
 /**
  * ### Natural language processing services
  */
 export class NLP {
+  public sensitivity: number = 1;
   private _pos: posTagger;
-
+  private _sensitivity: string[] = [
+    "|NN|NNS|NNP|NNPS|",
+    "|NN|NNS|NNP|NNPS|JJ|VBP|",
+    "|NN|NNS|NNP|NNPS|JJ|VBP|VBD|VBG|VB|"
+  ];
   constructor() {
     this._pos = posTagger();
   }
-
   /**
    * Returns list of matched entities
    * @param {string} data - body of text to evaluate
@@ -23,7 +25,6 @@ export class NLP {
     const ent_re = await Entities.getList("Regular expression");
     const ent_st = await Entities.getList("Single term");
     const ent_mt = await Entities.getList("Multiple term");
-
     return Promise.all([ent_re, ent_st, ent_mt])
       .then(async entities => {
         const match_re = await this._runRegExpressions(data, entities[0]);
@@ -39,7 +40,6 @@ export class NLP {
           });
       });
   }
-
   /**
    * Returns list of word positions
    * @param {string} data - body of text to evaluate
@@ -54,34 +54,21 @@ export class NLP {
       const len: number = tag.value.length;
       const end: number = start + len - 1;
       cursor = end;
-      // https://cs.nyu.edu/grishman/jet/guide/PennPOS.html
-      // NN	Noun, singular or mass | NNS	Noun, plural
-      // NNP	Proper noun, singular | NNPS	Proper noun, plural
       if (len > 1) {
-        switch (tag.pos) {
-          case "JJ":
-          case "NN":
-          case "NNS":
-          case "NNP":
-          case "NNPS":
-          case "VB":
-          case "VBG":
-          case "VBP":
-            if (tag.tag === "word") {
-              words.push({
-                value: tag.value,
-                start: start,
-                end: end,
-                length: len
-              });
-            }
-            break;      
+        if (this._sensitivity[this.sensitivity].indexOf(`|${tag.pos}|`) > -1) {
+          if (tag.tag === "word") {
+            words.push({
+              value: tag.value,
+              start: start,
+              end: end,
+              length: len
+            });
+          }
         }
       }
     });
     return words;
   }
-
   /**
    * Returns text with sensitive values removed
    * @param {string} data - body of text to match and replace 
@@ -92,8 +79,8 @@ export class NLP {
       try {
         for (let i = matches.length - 1; i > -1; --i) {
           let m = matches[i];
-          data = data.substring(0, m.start) + 
-            `[${m.entity}]` + 
+          data = data.substring(0, m.start) +
+            `[${m.entity}]` +
             data.substring(m.end + 1, data.length);
         }
         resolve(data);
@@ -103,7 +90,6 @@ export class NLP {
       }
     })
   }
-
   private _join(curr: MatchedEntity, next: MatchedEntity, originalText: string): MatchedEntity {
     const c: MatchedEntity = curr;
     let conjunction: string = originalText.substr(c.end + 1, next.start - c.end - 1);
@@ -115,11 +101,9 @@ export class NLP {
     c.end = next.end;
     return c;
   }
-
   private _joinable(curr: MatchedEntity, next: MatchedEntity): boolean {
     return (next.start > curr.end && next.start <= curr.end + 3 && next.entityDomain === curr.entityDomain && curr.entityJoinable === 1);
   }
-
   private _queryMultipleTerms(words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
@@ -139,7 +123,7 @@ export class NLP {
     const result: SearchTermResult[] = [];
     return Promise.all(queue)
       .then((values: any) => {
-        values.map((value: SearchTermResult[]) => {          
+        values.map((value: SearchTermResult[]) => {
           value.map((v: SearchTermResult | undefined) => {
             if (v !== undefined) {
               result.push(v);
@@ -149,7 +133,6 @@ export class NLP {
         return result;
       });
   }
-
   private _querySingleTerms(words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
@@ -171,7 +154,6 @@ export class NLP {
         return result;
       });
   }
-
   private async _runRegExpressions(data: string, entities: Entity[]): Promise<MatchedEntity[]> {
     const r: MatchedEntity[] = [];
     await entities.forEach(async (ent: Entity) => {
@@ -192,10 +174,9 @@ export class NLP {
     })
     return Promise.resolve(r);
   }
-
   private async _runTerms(data: string, entities: Entity[]): Promise<MatchedEntity[]> {
     const queue: Promise<MatchedEntity[]>[] = [];
-    const words: WordPosition[] = await this.getWordPositions(data);    
+    const words: WordPosition[] = await this.getWordPositions(data);
     entities.forEach((ent: Entity) => {
       queue.push(this._searchTerms(data, words, ent))
     });
@@ -206,37 +187,47 @@ export class NLP {
         return Promise.resolve(list);
       });
   }
-
   private async _searchTerms(data: string, words: WordPosition[], entity: Entity): Promise<any> {
     let searchTerms: SearchTermResult[];
-    searchTerms = (entity.type === "Single term") 
+    searchTerms = (entity.type === "Single term")
       ? await this._querySingleTerms(words, entity)
       : await this._queryMultipleTerms(words, entity);
     const r: MatchedEntity[] = [];
     let test: string = data.toLowerCase();
     searchTerms.forEach((term: SearchTermResult) => {
-      const value: string = term.original_term === undefined
-        ? term.keyword
-        : term.original_term + term.keyword.substr(term.keyword.indexOf(" "), term.keyword.length);
-      const srch: string = value.toLowerCase();
+      let value: string, added_check: boolean = false;
+      if (term.original_term === undefined) {
+        value = term.keyword;
+      } else {
+        value = term.keyword.indexOf(" ") > -1
+          ? term.original_term + term.keyword.substr(term.keyword.indexOf(" "), term.keyword.length)
+          : term.original_term;
+        added_check = true;
+      }
+      let srch = value.toLowerCase();
       if (test.indexOf(srch) > -1) {
         if (test.substr(term.start, srch.length) === srch) {
-          r.push({
-            entity: entity.label,
-            entityId: entity.id,
-            entityDomain: entity.domain,
-            entityJoinable: entity.joinable,
-            value: value,
-            start: term.start,
-            end: term.start + value.length - 1,
-            length: value.length
-          });
+          if (added_check) {
+            const re = new RegExp("\\b" + srch + "\\b", "gmi");
+            added_check = !re.test(test);
+          }
+          if (!added_check) {
+            r.push({
+              entity: entity.label,
+              entityId: entity.id,
+              entityDomain: entity.domain,
+              entityJoinable: entity.joinable,
+              value: value,
+              start: term.start,
+              end: term.start + value.length - 1,
+              length: value.length
+            });
+          }
         }
       }
     });
     return Promise.resolve(r);
   }
-
   private _sortAndClean(values: MatchedEntity[], data: string): MatchedEntity[] {
     const result: MatchedEntity[] = [];
     values.sort((a, b) => a.start < b.start ? -1 : a.start > b.start ? 1 : 0);

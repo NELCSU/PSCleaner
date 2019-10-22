@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -2945,7 +2944,6 @@ VALUES
 ('Unat'),
 ('Unathi'),
 ('Unaureanu'),
-('Unavailable'),
 ('Unawane'),
 ('Unax'),
 ('Unay'),
@@ -5803,7 +5801,5 @@ VALUES
 ('Uzzle'),
 ('Uzzo'),
 ('Uzzol');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'u%';

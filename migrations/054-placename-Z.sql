@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Placename"
 ("keyword")
 VALUES
@@ -8,7 +7,6 @@ VALUES
 ('Zacharys Copse'),
 ('Zacrys Islands'),
 ('Zaggy Lane'),
-('Zakaria Muslim Girls High School'),
 ('Zakopane Road'),
 ('Zama Street'),
 ('Zambesi Drive'),
@@ -73,7 +71,6 @@ VALUES
 ('Zeal House Copse'),
 ('Zeal Monachorum'),
 ('Zeal Plains'),
-('Zeal Plantation'),
 ('Zeal Road'),
 ('Zeal Wood'),
 ('Zealand Avenue'),
@@ -137,7 +134,6 @@ VALUES
 ('Zetland Drive'),
 ('Zetland Hunt'),
 ('Zetland Place'),
-('Zetland Primary School'),
 ('Zetland Road'),
 ('Zetland Row'),
 ('Zetland Square'),
@@ -152,7 +148,6 @@ VALUES
 ('Zig-Zag Lane'),
 ('Ziggarson Wood'),
 ('Zigzag Covert'),
-('Zigzag Plantation'),
 ('Zigzag Wood'),
 ('Zillah Gardens'),
 ('Zinc Road'),
@@ -199,7 +194,6 @@ VALUES
 ('Zouch Avenue'),
 ('Zouch Close'),
 ('Zouch Farm Road'),
-('Zouch Primary School'),
 ('Zouch Road'),
 ('Zouch Street'),
 ('Zouche Close'),
@@ -215,7 +209,5 @@ VALUES
 ('Zurich Avenue'),
 ('Zurich Close'),
 ('Zurich Gardens');
-
 -- Down
-
 DELETE FROM "Placename" WHERE "keyword" LIKE 'z%';

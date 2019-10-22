@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -4569,7 +4568,6 @@ VALUES
 ('Fassouli'),
 ('Fassy'),
 ('Fastborg'),
-('Fasten'),
 ('Fastenaekels'),
 ('Fastenau'),
 ('Fastenrath'),
@@ -11610,6 +11608,7 @@ VALUES
 ('Fiseha'),
 ('Fisehaye'),
 ('Fisek'),
+('Fisekci'),
 ('Fisentzos'),
 ('Fisentzou'),
 ('Fiser'),
@@ -12633,7 +12632,6 @@ VALUES
 ('Flewin'),
 ('Flewitt'),
 ('Flewwellin'),
-('Flex'),
 ('Flexen'),
 ('Flexer'),
 ('Flexman'),
@@ -12663,6 +12661,7 @@ VALUES
 ('Flierenbaum'),
 ('Flierl'),
 ('Fliess'),
+('Flieshman'),
 ('Fliflet'),
 ('Fligelstone'),
 ('Fligencia'),
@@ -14359,7 +14358,6 @@ VALUES
 ('Fonzerelli'),
 ('Fonzi'),
 ('Fonzo'),
-('Foo'),
 ('Fooad'),
 ('Fooce'),
 ('Foody'),
@@ -15014,7 +15012,6 @@ VALUES
 ('Forsy'),
 ('Forsyth'),
 ('Forsythe'),
-('Fort'),
 ('Forta'),
 ('Fortab'),
 ('Fortado'),
@@ -20455,7 +20452,5 @@ VALUES
 ('Fzeel'),
 ('Fzng'),
 ('Fzorin');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'f%';

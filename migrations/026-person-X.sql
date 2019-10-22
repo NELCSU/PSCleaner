@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -1500,7 +1499,5 @@ VALUES
 ('Xzenecia'),
 ('Xzetenia'),
 ('Xzinmzao');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'x%';

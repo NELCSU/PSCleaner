@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -795,7 +794,6 @@ VALUES
 ('Haczyk'),
 ('Haczykowska'),
 ('Haczynski'),
-('Had'),
 ('Hada'),
 ('Hadac'),
 ('Hadad'),
@@ -9974,7 +9972,6 @@ VALUES
 ('Haulcy'),
 ('Hauldren'),
 ('Haule'),
-('Hauler'),
 ('Hauley'),
 ('Haulica'),
 ('Haulik'),
@@ -10083,6 +10080,7 @@ VALUES
 ('Hausrath'),
 ('Hausruckinger'),
 ('Hauss'),
+('Haussecker'),
 ('Hausser'),
 ('Haussler'),
 ('Haussman'),
@@ -18954,6 +18952,7 @@ VALUES
 ('Hjelmstad'),
 ('Hjelmtvedt'),
 ('Hjelmvik'),
+('Hjelsvold'),
 ('Hjelt'),
 ('Hjeltnes'),
 ('Hjerling'),
@@ -23779,6 +23778,7 @@ VALUES
 ('Howmaera'),
 ('Howman'),
 ('Howo'),
+('Howorko'),
 ('Howorata'),
 ('Howorth'),
 ('Howorus'),
@@ -27140,6 +27140,7 @@ VALUES
 ('Hutyra'),
 ('Hutyrova'),
 ('Hutz'),
+('Hutzal'),
 ('Hutzel'),
 ('Hutzell'),
 ('Hutzelman'),
@@ -27859,7 +27860,5 @@ VALUES
 ('Hzra'),
 ('Hzui'),
 ('Hzuk');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'h%';

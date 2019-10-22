@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -6784,6 +6783,7 @@ VALUES
 ('Yoshiyuki'),
 ('Yoshizaki'),
 ('Yoshizawa'),
+('Yoshizuma'),
 ('Yoshizumi'),
 ('Yoshkova'),
 ('Yoshma'),
@@ -9131,7 +9131,5 @@ VALUES
 ('Yzobelle'),
 ('Yzquierdo'),
 ('Yzsheng');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'y%';

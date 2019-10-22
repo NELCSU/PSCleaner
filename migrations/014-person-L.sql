@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -8625,6 +8624,7 @@ VALUES
 ('Laxson'),
 ('Laxton'),
 ('Laxvin'),
+('Lay'),
 ('Laya'),
 ('Layaal'),
 ('Layaan'),
@@ -16862,7 +16862,6 @@ VALUES
 ('Likengoesi'),
 ('Likens'),
 ('Liker'),
-('Likes'),
 ('Likeshia'),
 ('Liket'),
 ('Likeviciute'),
@@ -29945,7 +29944,5 @@ VALUES
 ('Lzeblan'),
 ('Lzndquzst'),
 ('Lzu');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'l%';

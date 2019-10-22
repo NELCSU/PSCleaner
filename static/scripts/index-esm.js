@@ -15,15 +15,18 @@ let processing = false;
 /**
  * Update the file counts in each badge
  */
-async function updateUI() {
+function updateUI() {
   importBadge.textContent = importFiles;
   processingBadge.textContent = processingFiles;
   exportBadge.textContent = exportFiles;
   runButton.hidden = started || (!started && processing) ? true : importFiles === 0; 
   runButton.textContent = started ? "Cancel" : "Start processing";
-  progressBar.hidden = !started && !processing;
+  progressBar.hidden = !started && !processing;  
+  progressBar.value = exportFiles;
+}
+
+function setUpProgressBar() {
   progressBar.max = importFiles + processingFiles + exportFiles;
-  progressBar.value = processingFiles + exportFiles;
 }
 
 ipc.on("stop-import", () => {
@@ -64,6 +67,7 @@ ipc.on("import-file-count", (e, data) => {
 });
 
 runButton.addEventListener("click", () => {
+  setUpProgressBar();
   started = true;
   updateUI();
   if (started) {

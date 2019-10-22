@@ -1,6 +1,5 @@
 import chok from "chokidar";
 import { FSWatcher } from "chokidar";
-import db from "debounce";
 import EventEmitter from "events";
 import fs from "fs-extra";
 import makeDir from "make-dir";
@@ -14,7 +13,9 @@ export class FileManager {
   private _folder!: string;
 
   public events = new EventEmitter();
-  public fileCount = 0;
+  public get fileCount(): Promise<number> {
+    return this.listFiles().then(files => files.length);
+  }
   public filter!: string;
   public get folder(): string {
     return this._folder;
@@ -31,6 +32,7 @@ export class FileManager {
     });
   }
   public fs: any;
+  public mkdir: Function = makeDir;
   public watcher!: FSWatcher;
 
   /**
@@ -76,11 +78,6 @@ export class FileManager {
    * Folder initialiser
    */
   public init(): void {
-    this.listFiles()
-      .then(files => {
-        this.fileCount = files.length;
-      });
-
     let path: string = this.folder;
     if (this.filter) {
       path += `/**/*.${this.filter}`;
@@ -93,23 +90,19 @@ export class FileManager {
       persistent: true
     });
     this.watcher
-      .on("add", db(() => {
-        fs.readdir(this.folder)
-          .then(files => {
-            this.fileCount = files.length;
-            this.events.emit("file-count-change", this.fileCount);
-          })
-        }, 500)
-      )
-      .on("unlink", db(() => {
-        fs.readdir(this.folder)
-          .then(files => {
-            this.fileCount = files.length;
-            this.events.emit("file-count-change", this.fileCount);
-          })
-        }, 500)
-      );
+      .on("add", () => {
+        this.events.emit("file-count-change", this.fileCount);
+      })
+      .on("unlink", () => {
+        this.events.emit("file-count-change", this.fileCount);
+      });
   }
+
+  /**
+   * Returns file under path
+   * @param {string} file - file to link into path
+   */
+  public join(file: string): string { return path.join(this.folder, file); }
 
   /**
    * Returns file list from folder
@@ -127,12 +120,6 @@ export class FileManager {
         .catch((err: string) => Promise.reject(err));
     }
   }
-
-  /**
-   * Returns file under path
-   * @param {string} file - file to link into path
-   */
-  public join(file: string): string { return path.join(this.folder, file); }
 
   /**
    * Saves files

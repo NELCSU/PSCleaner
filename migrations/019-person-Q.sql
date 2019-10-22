@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -2429,7 +2428,5 @@ VALUES
 ('Qzlem'),
 ('Qzong'),
 ('Qzulun');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'q%';

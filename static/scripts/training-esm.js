@@ -22,6 +22,7 @@ const renameFileText = one("#lblRenameFile");
 const renameFileTickbox = one("#chkFileRename");
 const renameFileSave = one("#btnFileRename");
 const saveButton = one("#btnAddText");
+const sensitivityButton = one("#btnSensitivity");
 const autodiscoverButton = one("#btnAutodiscover");
 
 let activeFile = null;
@@ -56,6 +57,10 @@ function addTag(selection, label, color) {
   rng.surroundContents(mark);
   selection.removeAllRanges();
   return mark;
+}
+
+function adjustSensitivity() {
+  ipc.send("NLP-sensitivity", sensitivityButton.value);
 }
 
 function autoDiscover() {
@@ -246,6 +251,7 @@ renameFileText.addEventListener("input", db(checkInputFileRename, 500));
 renameFileTickbox.addEventListener("change", toggleRenameFile);
 renameFileSave.addEventListener("click", saveNewFileName);
 saveButton.addEventListener("click", saveFile);
+sensitivityButton.addEventListener("change", adjustSensitivity);
 
 ipc.on("entity-list", (e, response) => {
   list.innerHTML = "";
@@ -353,8 +359,13 @@ ipc.on("training-folder", (e, folder) => {
   });
 });
 
+ipc.on("NLP-sensitivity", (e, n) => {
+  sensitivityButton.value = n;
+});
+
 ipc.send("get-entities");
 ipc.send("get-training-file-count");
+ipc.send("NLP-sensitivity");
 
 window.addEventListener("CancelNewEntityCreation", () => {
   tag.delete();

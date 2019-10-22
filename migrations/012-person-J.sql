@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -20957,7 +20956,5 @@ VALUES
 ('Jzulia'),
 ('Jzulianne'),
 ('Jzulio');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'j%';

@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -723,6 +722,7 @@ VALUES
 ('Macarovska'),
 ('Macarro'),
 ('Macarte'),
+('Macathur'),
 ('Macarther'),
 ('Macarthur'),
 ('Macarthy'),
@@ -37498,7 +37498,6 @@ VALUES
 ('Metrikis'),
 ('Metrikyte'),
 ('Metrina'),
-('Metro'),
 ('Metroiu'),
 ('Metroka'),
 ('Metropoulos'),
@@ -42814,7 +42813,6 @@ VALUES
 ('Minervini'),
 ('Minervino'),
 ('Minery'),
-('Mines'),
 ('Minesh'),
 ('Minesha'),
 ('Mineshkumar'),
@@ -66965,7 +66963,5 @@ VALUES
 ('Mzwandile'),
 ('Mzwethu'),
 ('Mzyk');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'm%';

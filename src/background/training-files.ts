@@ -80,7 +80,10 @@ export class TrainingFiles {
         );
     });
 
-    ipc.on("get-training-file-count", e => e.reply("training-file-count", this.fm.fileCount));
+    ipc.on("get-training-file-count", e => {
+      this.fm.fileCount
+        .then(n => e.reply("training-file-count", n));
+    });
 
     ipc.on("get-temp-training-file", e => e.reply("temp-training-filename", uuidv1() + ".json"));
   }
@@ -188,8 +191,8 @@ export class TrainingFiles {
       .then((location: string) => {
         this.fm = new FileManager(location);
 
-        this.fm.events.on("file-count-change", n => {
-          parent.mainWindow.webContents.send("training-file-count", n);
+        this.fm.events.on("file-count-change", count => {
+          count.then((n: number) => parent.mainWindow.webContents.send("training-file-count", n));
         });
 
         this.ready = true;

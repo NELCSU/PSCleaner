@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO "Person"
 ("keyword")
 VALUES
@@ -16179,7 +16178,6 @@ VALUES
 ('Kbreab'),
 ('Kbrom'),
 ('Kbrreab'),
-('Kc'),
 ('Kcasey'),
 ('Kchannel'),
 ('Kchaputi'),
@@ -16198,7 +16196,6 @@ VALUES
 ('Kdkshardva'),
 ('Kdsti'),
 ('Kdzyarchuk'),
-('Ke'),
 ('Kea'),
 ('Keabe'),
 ('Keabetswe'),
@@ -27080,7 +27077,6 @@ VALUES
 ('Kincy'),
 ('Kincze'),
 ('Kinczyk'),
-('Kinda'),
 ('Kindah'),
 ('Kindall'),
 ('Kindaraviciute'),
@@ -27125,6 +27121,7 @@ VALUES
 ('Kindillon'),
 ('Kindinger'),
 ('Kindja'),
+('Kindjerski'),
 ('Kindl'),
 ('Kindla'),
 ('Kindlaysides'),
@@ -35018,6 +35015,7 @@ VALUES
 ('Kolomeiceva'),
 ('Kolomiets'),
 ('Kolomiichenko'),
+('Kolomijchuk'),
 ('Kolomiiets'),
 ('Kolomijec'),
 ('Kolominskas'),
@@ -51718,7 +51716,5 @@ VALUES
 ('Kziuk'),
 ('Kzjukuos'),
 ('Kzung');
-
 -- Down
-
 DELETE FROM "Person" WHERE "keyword" LIKE 'k%';
