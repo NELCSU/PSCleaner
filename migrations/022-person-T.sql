@@ -21968,7 +21968,6 @@ VALUES
 ('Tizzi'),
 ('Tizzo'),
 ('Tizzone'),
-('Tj'),
 ('Tja'),
 ('Tjaard'),
 ('Tjaart'),

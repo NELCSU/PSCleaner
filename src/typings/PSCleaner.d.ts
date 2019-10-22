@@ -41,6 +41,7 @@ export type TrainingFolderResponse = "training-folder" | "training-file-count" |
 
 export type SearchTermResult = {
   keyword: string,
+  original_term?: string,
   start: number
 }
 

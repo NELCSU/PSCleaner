@@ -65,7 +65,6 @@ export class NLP {
           case "NNP":
           case "NNPS":
           case "VB":
-          //case "VBD":
           case "VBG":
           case "VBP":
             if (tag.tag === "word") {
@@ -125,12 +124,13 @@ export class NLP {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
       let p1 = word.value
-        .replace(/\'/g, "''")
+        .replace(/\'/g, "")
         .replace(/_/g, "~_")
         .replace(/%/g, "~%") + " %";
-      let p2 = word.value.replace(/\'/g, "''");
-      const qry: string = `SELECT 
-          keyword, 
+      let p2 = word.value.replace(/\'/g, "");
+      const qry: string = `SELECT
+          '${word.value.replace(/\'/g, "''")}' AS original_term,
+          keyword,
           ${word.start} AS start 
         FROM "${entity.label}" 
         WHERE keyword LIKE ? ESCAPE '~' OR keyword = ?`;
@@ -215,7 +215,10 @@ export class NLP {
     const r: MatchedEntity[] = [];
     let test: string = data.toLowerCase();
     searchTerms.forEach((term: SearchTermResult) => {
-      const srch: string = term.keyword.toLowerCase();
+      const value: string = term.original_term === undefined
+        ? term.keyword
+        : term.original_term + term.keyword.substr(term.keyword.indexOf(" "), term.keyword.length);
+      const srch: string = value.toLowerCase();
       if (test.indexOf(srch) > -1) {
         if (test.substr(term.start, srch.length) === srch) {
           r.push({
@@ -223,10 +226,10 @@ export class NLP {
             entityId: entity.id,
             entityDomain: entity.domain,
             entityJoinable: entity.joinable,
-            value: term.keyword,
+            value: value,
             start: term.start,
-            end: term.start + term.keyword.length - 1,
-            length: term.keyword.length
+            end: term.start + value.length - 1,
+            length: value.length
           });
         }
       }

@@ -20,7 +20,7 @@ VALUES
 ('School',    '#80ff80', 'Location', 1, 'Regular expression', '\bschool of [\w\-]+\b'),
 ('TelUK',     '#ff80ff', 'Reference',0, 'Regular expression', '\(?0\d\d(?:\)?[\s\-]?\d\d\d|\d\)?[\s\-]?\d\d|\d\d\)?[\s\-]?\d|\d\s?\d\d\)?)[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d\d'),
 ('TelUKInt',  '#ff80ff', 'Reference',0, 'Regular expression', '(?:\+\(?44\)?|0044)\s?\(?0?\d\d(?:\)?[\s\-]?\d\d\d|\d\)?[\s\-]?\d\d|\d\d\)?[\s\-]?\d|\d\s?\d\d\)?)[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d\d'),
-('Time24hr',  '#dfbfff', 'DateTime', 0, 'Regular expression', '\b(?:[01]\d|2[0123]|\d):[0-5]\d\b'),
+('Time24hr',  '#dfbfff', 'DateTime', 0, 'Regular expression', '\b(?:[01]\d|2[0123]|\d):[0-5]\d(?:[:.]\d{1,4})?\b'),
 ('TimeAMPM',  '#be7dff', 'DateTime', 0, 'Regular expression', '\b(?:[12]?\d[\.:][0-5]\d|[1-9]|1[0-2])\s?(?:a\.?m\.?|p\.?m\.?)\b'),
 ('TimeClock', '#8f20ff', 'DateTime', 0, 'Regular expression', '\b(?:[1-9]|1[0-2])\s?o[''\s]{1,2}clock\b'),
 ('TitleName', '#3380ff', 'Person',   1, 'Regular expression', '\b(?:Dr|Mr|Mrs|Prof|Rev|Sr|St)\.?\s[\w\-]+\b'),
