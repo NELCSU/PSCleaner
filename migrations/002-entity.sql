@@ -2,7 +2,7 @@
 
 INSERT INTO "Entity" 
 (
-  "label", "color", "domain", "joinable", "redact",
+  "label", "color", "domain", "joinable", "mask",
   "type", "reg_ex"
 ) 
 VALUES 
@@ -48,7 +48,7 @@ VALUES
 ),
 (
   'Nationality','#0050ff', 'Reference', 0, '**ATTRIBUTE**',
-  'Multiple term', NULL
+  'Multiple term', ''
 ),
 (
   'NHSNumber', '#0040cc', 'RecordID', 0, '**RECORDID**',
@@ -56,11 +56,11 @@ VALUES
 ),
 (
   'Person',    '#0080ff', 'Person',   1, '**PERSON**',
-  'Single term', NULL
+  'Single term', ''
 ),
 (
   'PlaceName', '#80ff00', 'Location', 1, '**LOCATION**',
-  'Multiple term', NULL
+  'Multiple term', ''
 ),
 (
   'Postcode',  '#00ff00', 'Location', 1, '**LOCATION**',

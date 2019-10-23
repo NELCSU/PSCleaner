@@ -59,7 +59,7 @@ export class Entities {
    * @return {Promise<Entity[]>}
    */
   public static getList(filterByType?: EntityType): Promise<Entity[]> {
-    const qry: string = "SELECT id, label, color, domain, joinable, type, reg_ex FROM Entity";
+    const qry: string = `SELECT id, label, color, domain, joinable, type, reg_ex, mask FROM Entity`;
     return filterByType
       ? DB().query(`${qry} WHERE type = ?`, filterByType)
           .then(
@@ -84,6 +84,7 @@ export class Entities {
       color: data.color,
       domain: data.domain,
       joinable: data.joinable,
+      mask: data.mask,
       type: data.type,
       reg_ex: data.reg_ex
     };
@@ -128,6 +129,7 @@ export class Entities {
         color: ent.color,
         domain: ent.domain,
         joinable: ent.joinable,
+        mask: ent.mask,
         type: ent.type,
         reg_ex: ent.reg_ex
       });

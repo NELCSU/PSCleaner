@@ -25,31 +25,32 @@
     </div>
   </div>
   <div id="pnlAddEntity" class="border panel pad">
-    <h4 id="title">Add an entity</h4>
-    <div class="flex-vcenter panel">
-      <input id="txtEntityColor" type="color" value="#cccccc" title="Select a color for this entity">
-      <nel-text-input id="txtEntityLabel" mask="[a-zA-Z]+" maxlength="30" placeholder="Entity label (max. 30 char)" pattern=".*"></nel-text-input>
+    <fieldset>
+      <legend><h3 id="title">Add an entity</h3></legend>
       <input type="hidden" id="txtEntityId" value="">
-      <nel-text-input id="txtEntityDomain" mask="[a-zA-Z]+" maxlength="30" placeholder="Common identifier" pattern=".*"></nel-text-input>
-      <nel-text-input id="txtEntityJoinable" mask="[01]+" maxlength="1" placeholder="Can join entities together" pattern="\d*"></nel-text-input>
-    </div>
-    <div class="flex-vcenter panel">
-      <select id="lblEntityType">
-        <option value="No type defined" selected disabled>Please select a type</option>
-        <option value="Single term">Single term</option>
-        <option value="Multiple term">Multiple term</option>
-        <option value="Regular expression">Regular expression</option>
-      </select>
-      <nel-text-input id="txtEntityRegex" hidden pattern=".*" placeholder="Regular expression"></nel-text-input>
-      <a href="#" id="btnEntityCancel" class="btn-link">Clear</a>
-    </div>
-    <div class="flex-vcenter">
-      <a href="#" id="btnEntitySave" class="btn-link disabled">Save</a>
-      <a href="#" id="btnEntityDelete" class="btn-link disabled warn">Delete</a>
-    </div>
+
+      <label>Color <input id="txtEntityColor" type="color" value="#cccccc" title="Select a color for this entity"></label>
+      <label>Label <nel-text-input id="txtEntityLabel" class="flex-form-item" mask="[a-zA-Z]+" maxlength="30" placeholder="Entity label (max. 30 char)" pattern=".*"></nel-text-input></label>
+      <label title="Category under which entities can be grouped">Domain <nel-text-input id="txtEntityDomain" class="flex-form-item" mask="[a-zA-Z]+" maxlength="30" placeholder="Common identifier" pattern=".*"></nel-text-input></label>
+      <label title="Defines the replacement text when an entity is removed">Mask <nel-text-input id="txtEntityMask" class="flex-form-item" mask="[a-zA-Z]+" maxlength="30" placeholder="Text mask" pattern=".*"></nel-text-input></label>
+      <label title="Entities will be joined together if adjacent">Joinable <nel-on-off id="txtEntityJoinable" size="3"></nel-on-off></label>
+      <label>Type <select id="lblEntityType">
+          <option value="No type defined" selected disabled>Please select a type</option>
+          <option value="Single term">Single term</option>
+          <option value="Multiple term">Multiple term</option>
+          <option value="Regular expression">Regular expression</option>
+        </select>
+      </label>
+      <label title="Regular expressions define processing instructions for matching text patterns">Reg exp <nel-text-input id="txtEntityRegex" class="flex-form-item" pattern=".*" placeholder="Regular expression" disabled></nel-text-input></label>
+      <div>
+        <a href="#" id="btnEntitySave" class="btn-link disabled">Save</a>
+        <a href="#" id="btnEntityCancel" class="btn-link">Clear</a>
+        <a href="#" id="btnEntityDelete" class="btn-link disabled warn">Delete</a>
+      </div>
+    </fieldset>
   </div>
   <nel-expand-item>
-    <h4 slot="title">Help</h4>
+    <h4 slot="title">Help</h3>
     <dl slot="content">
       <dt>Add an entity</dt>
       <dd>Clear the view. Pick a color, enter a label name and then select an available type.

@@ -12,8 +12,8 @@ CREATE TABLE Entity (
   "domain"    TEXT NOT NULL,
   "joinable"  INTEGER NOT NULL,
   "type"      TEXT NOT NULL,
-  "redact"    TEXT NOT NULL,
-  "reg_ex"    TEXT NULL
+  "mask"      TEXT NOT NULL,
+  "reg_ex"    TEXT NOT NULL
 );
 
 CREATE INDEX Entity_ix_type ON Entity (type);

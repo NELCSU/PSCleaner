@@ -6,6 +6,7 @@ export type Entity = {
   domain: string,
   joinable: number,
   label: string,
+  mask: string,
   reg_ex: string,
   type: EntityType
 }
@@ -46,10 +47,7 @@ export type SearchTermResult = {
 }
 
 export type MatchedEntity = {
-  entity: string,
-  entityId: number,
-  entityDomain: string,
-  entityJoinable: number,
+  entity: Entity,
   value: string,
   start: number,
   end: number,

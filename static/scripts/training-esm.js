@@ -288,7 +288,7 @@ ipc.on("NLP-response", (e, response) => {
   while (response.length > 0) {
     var item = response.pop();
     item.len = item.len ? item.len : item.end - item.start;
-    var entity = entityMap.get(item.entityId);
+    var entity = entityMap.get(item.entity.id);
     if (entity) {
       const sel = createSelection(dataEntryText.childNodes[0], item.start, item.length);
       addTag(sel, entity.label, entity.color);
