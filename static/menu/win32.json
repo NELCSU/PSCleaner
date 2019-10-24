@@ -4,8 +4,8 @@
       "label": "File",
       "submenu": [
         {
-          "click": "showPreferences",
-          "label": "Preferences"
+          "click": "showSettings",
+          "label": "Settings"
         },
         {
           "type": "separator"

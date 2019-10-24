@@ -29,8 +29,8 @@ export class AppMenu {
             case "showTrainingData":
               s.click = () => this.showTrainingData();
               break;
-            case "showPreferences":
-              s.click = () => this.showPreferences();
+            case "showSettings":
+              s.click = () => this.showSettings();
               break;
             case "close":
               s.click = () => this.close(); 
@@ -55,8 +55,8 @@ export class AppMenu {
     this._parent.mainWindow.loadURL(config.pages.get("entities"));
   }
 
-  public showPreferences(): void {
-    this._parent.mainWindow.loadURL(config.pages.get("preferences"));
+  public showSettings(): void {
+    this._parent.mainWindow.loadURL(config.pages.get("settings"));
   }
 
   public showTrainingData(): void {
