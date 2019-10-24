@@ -19134,7 +19134,6 @@ VALUES
 ('Pooksdown Wood'),
 ('Pooksgreen'),
 ('Pookwell Wood'),
-('Pool'),
 ('Pool Anchor'),
 ('Pool and Tehidy'),
 ('Pool Anthony Drive'),

@@ -15661,7 +15661,6 @@ VALUES
 ('Framwellgate and Newton Hall'),
 ('Framwellgate Moor'),
 ('Fran Terrace'),
-('France'),
 ('France Bottom'),
 ('France Down'),
 ('France Firs'),

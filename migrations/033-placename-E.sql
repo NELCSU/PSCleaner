@@ -5782,7 +5782,6 @@ VALUES
 ('Egton Street'),
 ('Egton Way'),
 ('Egton with Newland'),
-('Egypt'),
 ('Egypt Bay'),
 ('Egypt Clump'),
 ('Egypt Copse'),

@@ -17503,7 +17503,6 @@ VALUES
 ('Tong Street'),
 ('Tong Way'),
 ('Tong Wood'),
-('Tonga'),
 ('Tonga Brae'),
 ('Tonga Geo'),
 ('Tonga Lees'),

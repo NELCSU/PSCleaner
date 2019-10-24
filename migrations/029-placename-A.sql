@@ -13831,6 +13831,7 @@ VALUES
 ('Arkaig Place'),
 ('Arkaig Street'),
 ('Arkall Close'),
+('Arkansas'),
 ('Arkel Close'),
 ('Arkell Avenue'),
 ('Arkell Court'),

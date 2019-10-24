@@ -79,6 +79,10 @@ VALUES
   'Regular expression', '(?:\+\(?44\)?|0044)\s?\(?0?\d\d(?:\)?[\s\-]?\d\d\d|\d\)?[\s\-]?\d\d|\d\d\)?[\s\-]?\d|\d\s?\d\d\)?)[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d\d'
 ),
 (
+  'Territory','#80ff80', 'Location', 1, '**LOCATION**',
+  'Multiple term', ''
+),
+(
   'Time24hr',  '#dfbfff', 'DateTime', 0, '**DATETIME**',
   'Regular expression', '\b(?:[01]\d|2[0123]|\d):[0-5]\d(?:[:.]\d{1,4})?\b'
 ),

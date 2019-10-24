@@ -2,20 +2,24 @@ import DB, { DataObject } from "sqlite3-helper";
 import posTagger from "wink-pos-tagger";
 import { Entity, MatchedEntity, SearchTermResult, WordPosition } from "../typings/PSCleaner";
 import { Entities } from "./entities";
+
 /**
  * ### Natural language processing services
  */
 export class NLP {
   public sensitivity: number = 1;
+  
   private _pos: posTagger;
   private _sensitivity: string[] = [
     "|NN|NNS|NNP|NNPS|",
-    "|NN|NNS|NNP|NNPS|JJ|VBP|",
-    "|NN|NNS|NNP|NNPS|JJ|VBP|VBD|VBG|VB|"
+    "|NN|NNS|NNP|NNPS|JJ|VBP|RB|",
+    "|NN|NNS|NNP|NNPS|JJ|VBP|VBD|VBG|VB|RB|"
   ];
+
   constructor() {
     this._pos = posTagger();
   }
+
   /**
    * Returns list of matched entities
    * @param {string} data - body of text to evaluate
@@ -40,6 +44,7 @@ export class NLP {
           });
       });
   }
+
   /**
    * Returns list of word positions
    * @param {string} data - body of text to evaluate

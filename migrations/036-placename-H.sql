@@ -26928,7 +26928,6 @@ VALUES
 ('Holdernesse'),
 ('Holdernesse Close'),
 ('Holdernesse Road'),
-('Holders'),
 ('Holders Close'),
 ('Holders Gardens'),
 ('Holders Green'),

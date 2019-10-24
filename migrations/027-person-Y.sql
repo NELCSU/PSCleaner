@@ -3782,7 +3782,6 @@ VALUES
 ('Yemeli'),
 ('Yemelyaneko'),
 ('Yemelyanenko'),
-('Yemen'),
 ('Yemeng'),
 ('Yemenici'),
 ('Yemeniciler'),
