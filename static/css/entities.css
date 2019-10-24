@@ -1,56 +1,46 @@
+#pnlAddEntity {
+  max-width: 400px;
+  min-width: 320px;
+  width: 100%
+}
+
 nel-list-item { margin: 0.3rem 0 0 0.3rem }
+
 nel-on-off {
   --color: #666;
   --color-on: #009; 
   --bg-color: #ccc;
   --bg-color-on: #ccf;
 }
-input[type="color"] {
-  cursor: pointer;
-  height: 1rem;
-  margin-left: 10px;
-  min-height: 30px;
-  width: 50px
-}
-select {   
-  height: 1rem;
-  flex: 0 0 11.5rem;
-  margin-left: 10px;
-  min-height: 30px;
-  min-width: 150px;
-  width: 11rem 
-}
+
 div.item-collection {
   background-color: #fff;
   height: 15rem;
   margin-bottom: 1rem
 }
-dl { margin-top: 0 }
-h4[slot=title] { margin: 0 0 0 0.75rem }
-fieldset { 
-  border: none;
-  width: 30%
-}
-label {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  text-align: right;
-  width: 100%;
-  line-height: 26px;
-  margin-bottom: 10px;
-}
 
-.flex-form-item {
+dl { margin-top: 0 }
+
+h4[slot=title] { margin: 0 0 0 0.75rem }
+
+input[type="color"] {
+  cursor: pointer;
   height: 1rem;
-  flex: 0 0 200px;
   margin-left: 10px;
   min-height: 30px;
-  min-width: 150px;
-  width: 11rem
 }
 
-#btnEntityDelete { margin-left: 6rem }
-#btnEntityCancel { margin-left: 0.5rem }
+label { width: 100% }
 
-select { width: 11rem }
+select {   
+  height: 1rem;
+  flex: 0 0 11.5rem;
+  margin-left: 10px;
+  min-height: 30px;
+  min-width: 150px
+}
+
+.grow {
+  flex-grow: 1;
+  justify-content: flex-end
+}

@@ -44,6 +44,14 @@
       "label": "About",
       "submenu": [
         {
+          "label": "Help",
+          "click": "showHelp",
+          "url": "https://github.com/NELCSU/PSCleaner/wiki"
+        },
+        {
+          "type": "separator"
+        },
+        {
           "label": "version"
         }
       ]

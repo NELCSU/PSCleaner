@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -11,59 +12,84 @@
   <link rel="stylesheet" href="./css/entities.css">
   <script type="module" src="es6://lib/web-components/dist/web-components/web-components.esm.js"></script>
 </head>
+
 <body>
   <nel-network-connection>
-    <div class="network"><span class="message">Application is offline</span></div>
+    <div class="network flex-r vcenter hleft"><span class="message">Application is offline</span></div>
   </nel-network-connection>
   <h2><a href="./index.html">Home</a> &gt; Manage entities</h2>
-  
-  <div class="panel"></div>
-    <div class="flex-vcenter flex-hright"><span id="hintEntityCount"></span></div>
-    <div class="border item-collection">
-      <nel-item-collection id="lstManageEntities">
-      </nel-item-collection>
-    </div>
-  </div>
-  <div id="pnlAddEntity" class="border panel pad">
-    <fieldset>
-      <legend><h3 id="title">Add an entity</h3></legend>
-      <input type="hidden" id="txtEntityId" value="">
 
-      <label>Color <input id="txtEntityColor" type="color" value="#cccccc" title="Select a color for this entity"></label>
-      <label>Label <nel-text-input id="txtEntityLabel" class="flex-form-item" mask="[a-zA-Z]+" maxlength="30" placeholder="Entity label (max. 30 char)" pattern=".*"></nel-text-input></label>
-      <label title="Category under which entities can be grouped">Domain <nel-text-input id="txtEntityDomain" class="flex-form-item" mask="[a-zA-Z]+" maxlength="30" placeholder="Common identifier" pattern=".*"></nel-text-input></label>
-      <label title="Defines the replacement text when an entity is removed">Mask <nel-text-input id="txtEntityMask" class="flex-form-item" mask="[a-zA-Z]+" maxlength="30" placeholder="Text mask" pattern=".*"></nel-text-input></label>
-      <label title="Entities will be joined together if adjacent">Joinable <nel-on-off id="txtEntityJoinable" size="3"></nel-on-off></label>
-      <label>Type <select id="lblEntityType">
+  <div class="panel"></div>
+  <div class="flex-r vcenter hright"><span id="hintEntityCount"></span></div>
+  <div class="border item-collection">
+    <nel-item-collection id="lstManageEntities">
+    </nel-item-collection>
+  </div>
+  </div>
+  <div id="pnlAddEntity" class="flex-c border panel pad">
+
+    <h3 id="title">Add an entity</h3>
+    <input type="hidden" id="txtEntityId" value="">
+
+    <div class="flex-r vcenter pad3">
+      <label for="txtEntityColor">Color</label>
+      <div class="grow"><input id="txtEntityColor" type="color" value="#cccccc" title="Select a color for this entity">
+      </div>
+    </div>
+    <div class="flex-r vcenter pad3">
+      <label for="txtEntityLabel">Label</label>
+      <div class="grow">
+        <nel-text-input id="txtEntityLabel" class="flex-form-item" mask="[a-zA-Z]+" maxlength="30"
+          placeholder="Entity label (max. 30 char)" pattern=".*"></nel-text-input>
+      </div>
+    </div>
+    <div class="flex-r vcenter pad3">
+      <label for="txtEntityDomain" title="Category under which entities can be grouped">Domain</label>
+      <div class="grow">
+        <nel-text-input id="txtEntityDomain" class="flex-form-item" mask="[a-zA-Z]+" maxlength="30"
+          placeholder="Common identifier" pattern=".*"></nel-text-input>
+      </div>
+    </div>
+    <div class="flex-r vcenter pad3">
+      <label for="txtEntityMask" title="Defines the replacement text when an entity is removed">Mask</label>
+      <div class="grow">
+        <nel-text-input id="txtEntityMask" class="flex-form-item" mask="[a-zA-Z]+" maxlength="30"
+          placeholder="Text mask" pattern=".*"></nel-text-input>
+      </div>
+    </div>
+    <div class="flex-r vcenter pad3">
+      <label for="txtEntityJoinable" title="Entities will be joined together if adjacent">Joinable</label>
+      <div class="grow">
+        <nel-on-off id="txtEntityJoinable" size="3"></nel-on-off>
+      </div>
+    </div>
+    <div class="flex-r vcenter pad3">
+      <label for="lblEntityType">Type</label>
+      <div class="grow">
+        <select id="lblEntityType">
           <option value="No type defined" selected disabled>Please select a type</option>
           <option value="Single term">Single term</option>
           <option value="Multiple term">Multiple term</option>
           <option value="Regular expression">Regular expression</option>
         </select>
-      </label>
-      <label title="Regular expressions define processing instructions for matching text patterns">Reg exp <nel-text-input id="txtEntityRegex" class="flex-form-item" pattern=".*" placeholder="Regular expression" disabled></nel-text-input></label>
-      <div>
-        <a href="#" id="btnEntitySave" class="btn-link disabled">Save</a>
-        <a href="#" id="btnEntityCancel" class="btn-link">Clear</a>
-        <a href="#" id="btnEntityDelete" class="btn-link disabled warn">Delete</a>
       </div>
-    </fieldset>
+    </div>
+    <div class="flex-r vcenter pad3">
+      <label for="txtEntityRegex"
+        title="Regular expressions define processing instructions for matching text patterns">Reg exp</label>
+      <div class="grow">
+        <nel-text-input id="txtEntityRegex" class="flex-form-item" pattern=".*" placeholder="Regular expression"
+          disabled></nel-text-input>
+      </div>
+    </div>
+    <div class="flex-r pad3">
+      <div class="flex-r vcenter"><a href="#" id="btnEntitySave" class="btn-link disabled">Save</a></div>
+      <div class="flex-r vcenter"><a href="#" id="btnEntityCancel" class="btn-link">Clear</a></div>
+      <div class="flex-r vcenter grow"><a href="#" id="btnEntityDelete" class="btn-link disabled warn">Delete</a></div>
+    </div>
+
   </div>
-  <nel-expand-item>
-    <h4 slot="title">Help</h3>
-    <dl slot="content">
-      <dt>Add an entity</dt>
-      <dd>Clear the view. Pick a color, enter a label name and then select an available type.
-        If selecting "regular expression", use a service such as https://regex101.com/ to thoroughly test it.
-        Remember to save your changes.</dd>
-      <dt>Edit an entity</dt>
-      <dd>Choose an existing entity from the list. The color, name and type can be changed.
-        Remember to save your changes. </dd>
-      <dt>Delete an entity</dt>
-      <dd>Highlight it in the lsit and choose Delete.
-        Deleted items sent to your system's Trash/Recycle bin.</dd>
-    </dl>
-  </nel-expand-item>
   <script src="./scripts/entities.js"></script>
 </body>
+
 </html>

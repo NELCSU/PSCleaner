@@ -1,4 +1,4 @@
-import { app, Menu } from "electron";
+import { app, Menu, shell } from "electron";
 import config from "./views";
 
 export class AppMenu {
@@ -25,6 +25,9 @@ export class AppMenu {
               break;
             case "showEntities":
               s.click = () => this.showEntities();
+              break;
+            case "showHelp":
+              s.click = () => this.showHelp(s.url);
               break;
             case "showTrainingData":
               s.click = () => this.showTrainingData();
@@ -53,6 +56,10 @@ export class AppMenu {
 
   public showEntities(): void {
     this._parent.mainWindow.loadURL(config.pages.get("entities"));
+  }
+
+  public showHelp(url: string): void {
+    shell.openExternal(url);
   }
 
   public showSettings(): void {
