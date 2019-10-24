@@ -8,7 +8,7 @@ import { Entities } from "./entities";
  */
 export class NLP {
   public sensitivity: number = 1;
-  
+
   private _pos: posTagger;
   private _sensitivity: string[] = [
     "|NN|NNS|NNP|NNPS|",
@@ -214,7 +214,8 @@ export class NLP {
       }
       let srch = value.toLowerCase();
       if (test.indexOf(srch) > -1) {
-        if (test.substr(term.start, srch.length) === srch) {
+        const inspect: string = test.substr(term.start, srch.length);
+        if (inspect === srch) {
           if (added_check) {
             const re = new RegExp("\\b" + srch + "\\b", "gmi");
             added_check = !re.test(test);
@@ -233,7 +234,7 @@ export class NLP {
     });
     return Promise.resolve(r);
   }
-  
+
   private _sortAndClean(values: MatchedEntity[], data: string): MatchedEntity[] {
     const result: MatchedEntity[] = [];
     values.sort((a, b) => a.start < b.start ? -1 : a.start > b.start ? 1 : 0);

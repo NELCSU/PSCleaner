@@ -127,10 +127,12 @@ export class ProcessFiles {
   }
 
   private async _processCell(cell: any, row: any[]): Promise<any> {
+    let normalised: string = row[cell].replace(/(?:\r\n|\r|\n)/g, " ");
+    normalised = normalised.replace(/\s+/g, " ");
     return /.*freetext.*/i.test(cell)
-      ? await this.nlp.evaluate(row[cell])
+      ? await this.nlp.evaluate(normalised)
           .then(async matches => {
-            await this.nlp.replace(row[cell], matches)
+            await this.nlp.replace(normalised, matches)
               .then(r => {
                 return new Promise(resolve => resolve(row[cell] = r));
               });

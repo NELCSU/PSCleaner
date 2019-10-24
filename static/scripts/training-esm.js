@@ -164,6 +164,8 @@ function openFile() {
 function pasteText(e) {
   e.preventDefault();
   let paste = e.clipboardData.getData("text/plain");
+  paste = paste.replace(/(?:\r\n|\r|\n)/g, " ");
+  paste = paste.replace(/\s+/g, " ");
   const sel = window.getSelection();
   if (!sel.rangeCount) {
     dataEntryText.normalize();
