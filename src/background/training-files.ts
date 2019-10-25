@@ -55,14 +55,14 @@ export class TrainingFiles {
     ipc.on("set-training-folder", (e, path) => {
       DB().update("AppSettings", { field: "TRAINING_FOLDER", value: path }, { field: "TRAINING_FOLDER" })
         .then(
-          () => {
+          _ => {
             this.fm.folder = path;
             e.reply("training-folder", this.fm.folder)
           },
-          () => e.reply("training-folder-error", this.fm.folder)
+          _ => e.reply("training-folder-error", this.fm.folder)
         );
     });
-    
+
 
     ipc.on("delete-training-file", (e, file) => {
       this.delete(this.fm.join(file))
@@ -95,11 +95,11 @@ export class TrainingFiles {
    */
   public delete(file: string): Promise<TrainingFileAction> {
     return this.fm.deleteFile(file)
-      .then(() => Promise.resolve({
-          fn: file,
-          status: "training-file-deleted"
-        }),
-        () => Promise.reject({ status: "training-file-deletion-error" })
+      .then(_ => Promise.resolve({
+        fn: file,
+        status: "training-file-deleted"
+      }),
+        _ => Promise.reject({ status: "training-file-deletion-error" })
       );
   }
 
@@ -111,10 +111,10 @@ export class TrainingFiles {
   public open(file: string): Promise<TrainingFileAction> {
     return this.fm.fs.readFile(file, "utf8")
       .then((data: string) => Promise.resolve({
-          data: data,
-          fn: this.fm.fileName(file),
-          status: "training-file"
-        }),
+        data: data,
+        fn: this.fm.fileName(file),
+        status: "training-file"
+      }),
         () => Promise.reject({ status: "training-file-error" })
       );
   }
@@ -131,7 +131,7 @@ export class TrainingFiles {
     let newFilePath: string = this.fm.join(destFile);
 
     return Promise.all([
-      this.fm.fs.pathExists(oldFilePath), 
+      this.fm.fs.pathExists(oldFilePath),
       this.fm.fs.pathExists(newFilePath)
     ])
       .then(
@@ -169,8 +169,8 @@ export class TrainingFiles {
   public save(file: string, data: any): Promise<TrainingFileAction> {
     return this.fm.saveFile(this.fm.join(file), stringify(data))
       .then(
-        () => Promise.resolve({ status: "training-file-saved" }),
-        () => Promise.reject({ status: "training-file-save-error" })
+        _ => Promise.resolve({ status: "training-file-saved" }),
+        _ => Promise.reject({ status: "training-file-save-error" })
       );
   }
 

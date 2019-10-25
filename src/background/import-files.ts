@@ -26,14 +26,14 @@ export class ImportFiles {
     ipc.on("set-import-folder", (e, path) => {
       DB().update("AppSettings", { field: "IMPORT_FOLDER", value: path }, { field: "IMPORT_FOLDER" })
         .then(
-          () => {
+          _ => {
             this.fm.folder = path;
             e.reply("import-folder", this.fm.folder)
           },
-          () => e.reply("import-folder-error", this.fm.folder)
+          _ => e.reply("import-folder-error", this.fm.folder)
         );
     });
-    
+
     ipc.on("import-file-count", e => {
       this.fm.fileCount
         .then(n => e.reply("import-file-count", n));
@@ -79,11 +79,11 @@ export class ImportFiles {
       this.sendTo = folder;
     }
     return this.fm.listFiles()
-      .then(files => 
+      .then(files =>
         files.length > 0
           ? this.fm.fs.rename(join(this.fm.folder, files[0]), join(this.sendTo, files[0]))
-              .then(() => Promise.resolve("imported"))
-              .catch(() => Promise.reject("stop-import"))
+            .then(() => Promise.resolve("imported"))
+            .catch(() => Promise.reject("stop-import"))
           : Promise.reject("stop-import")
       )
   }

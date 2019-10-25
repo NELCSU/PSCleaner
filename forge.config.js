@@ -2,7 +2,7 @@ const { utils: { fromBuildIdentifier } } = require("@electron-forge/core");
 
 module.exports = {
   packagerConfig: {
-    appBundleId: fromBuildIdentifier({ beta: "beta.app", prod: ".app" })
+    appBundleId: fromBuildIdentifier({ beta: "nel.beta.app", prod: "nel.app" })
   },
   electronRebuildConfig: {},
   makers: [
@@ -10,7 +10,9 @@ module.exports = {
       name: "@electron-forge/maker-squirrel",
       config: {
         name: "PSCleaner",
-        iconUrl: "https://github.com/NELCSU/PSCleaner/blob/master/static/favicon.ico?raw=true"
+        iconUrl: "https://github.com/NELCSU/PSCleaner/blob/master/static/favicon.ico?raw=true",
+        loadingGif: "./static/images/loading.gif",
+        setupIcon: "./static/favicon.ico"
       }
     },
     {

@@ -17,17 +17,17 @@ export class ExportFiles {
 
   constructor() {
     this.init();
-    
+
     ipc.on("get-export-folder", e => e.reply("export-folder", this.fm.folder));
 
     ipc.on("set-export-folder", (e, path) => {
       DB().update("AppSettings", { field: "EXPORT_FOLDER", value: path }, { field: "EXPORT_FOLDER" })
         .then(
-          () => {
+          _ => {
             this.fm.folder = path;
             e.reply("export-folder", this.fm.folder)
           },
-          () => e.reply("export-folder-error", this.fm.folder)
+          _ => e.reply("export-folder-error", this.fm.folder)
         );
     });
 
@@ -40,7 +40,7 @@ export class ExportFiles {
   /**
    * Class initialiser and creates the folder path setting if missing
    */
-  public async init(): Promise<void> {    
+  public async init(): Promise<void> {
     await DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field='EXPORT_FOLDER'`)
       .then(async row => {
         if (row) {

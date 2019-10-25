@@ -37,10 +37,10 @@
     "@types/chokidar": "^2.1.3",
     "@types/debounce": "^1.2.0",
     "@types/fs-extra": "^8.0.1",
-    "@types/node": "^12.11.6",
+    "@types/node": "^12.11.7",
     "@types/sqlite3": "^3.1.5",
     "@types/uuid": "^3.4.5",
-    "electron": "^6.1.1",
+    "electron": "^7.0.0",
     "electron-rebuild": "^1.8.6",
     "typescript": "^3.6.4"
   },
@@ -60,18 +60,22 @@
   "scripts": {
     "build": "tsc",
     "dev.listglobals": "npm list -g --depth 0",
-    "make": "electron-forge make",
-    "package": "electron-forge package",
+    "make": "npm run make-w32 && npm run make-w64",
+    "make-w32": "electron-forge make --platform=win32 --arch=ia32",
+    "make-w64": "electron-forge make",
+    "package": "npm run package-w64 && npm run package-w32",
+    "package-w64": "electron-forge package",
+    "package-w32": "electron-forge package --platform=win32 --arch=ia32",
     "publish": "electron-forge publish",
     "start": "electron-forge start",
-    "update-all": "npm run update.elec && npm run wipe && npm run update.webc",
-    "update.elec": ".\\node_modules\\.bin\\electron-rebuild.cmd && npm rebuild",
-    "update.webc": "ncp node_modules/@buckneri/web-components static/lib/web-components",
+    "update-all": "npm run update-elec && npm run wipe && npm run update-webc",
+    "update-elec": ".\\node_modules\\.bin\\electron-rebuild.cmd && npm rebuild",
+    "update-webc": "ncp node_modules/@buckneri/web-components static/lib/web-components",
     "watch": "tsc -w",
-    "wipe": "npm run wipe.webc",
-    "wipe.webc": "rimraf static/lib/web-components"
+    "wipe": "npm run wipe-webc",
+    "wipe-webc": "rimraf static/lib/web-components"
   },
-  "version": "0.2.9",
+  "version": "0.3.0",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }

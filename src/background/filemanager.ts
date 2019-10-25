@@ -25,9 +25,9 @@ export class FileManager {
     fs.exists(this._folder, async found => {
       if (found) {
         this.init();
-      } else {        
+      } else {
         await makeDir(this._folder)
-          .then(() => this.init())
+          .then(_ => this.init())
       }
     });
   }
@@ -52,7 +52,7 @@ export class FileManager {
   public async copyFiles(from: string, to: string): Promise<boolean> {
     const files: string[] = await this.listFiles(from);
     return Promise.all(files.map(f => fs.copyFile(path.join(from, f), path.join(to, f))))
-      .then(() => Promise.resolve(true))
+      .then(_ => Promise.resolve(true))
       .catch((err: string) => Promise.reject(err));
   }
 
@@ -63,7 +63,7 @@ export class FileManager {
    */
   public async deleteFile(file: string): Promise<boolean> {
     return await trash([file])
-      .then(() => Promise.resolve(true))
+      .then(_ => Promise.resolve(true))
       .catch((err: string) => Promise.reject(err));
   }
 
@@ -90,10 +90,10 @@ export class FileManager {
       persistent: true
     });
     this.watcher
-      .on("add", () => {
+      .on("add", _ => {
         this.events.emit("file-count-change", this.fileCount);
       })
-      .on("unlink", () => {
+      .on("unlink", _ => {
         this.events.emit("file-count-change", this.fileCount);
       });
   }
@@ -129,10 +129,10 @@ export class FileManager {
    */
   public async saveFile(file: string, data: any): Promise<boolean> {
     return await fs.writeFile(file, data)
-      .then(() => Promise.resolve(true))
+      .then(_ => Promise.resolve(true))
       .catch((err: string) => Promise.reject(err));
   }
-  
+
   /**
    * Returns iterator over file list
    * @param {string[]} files - list of files to read

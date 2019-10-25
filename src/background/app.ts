@@ -33,7 +33,7 @@ class Main {
   public processFiles!: ProcessFiles;
   public trainingFiles!: TrainingFiles;
   public tray: any;
-  
+
   constructor() {
     this.app = app;
     const lock: boolean = this.app.requestSingleInstanceLock();
@@ -48,12 +48,12 @@ class Main {
         this.app.quit();
       }
     });
-      
+
     if (!lock) {
       this.app.quit();
     } else {
       this.initDB()
-        .then(async () => {
+        .then(async _ => {
           const nlp: NLP = new NLP();
           this.entities = new Entities();
           this.trainingFiles = new TrainingFiles(this);
@@ -77,7 +77,7 @@ class Main {
           });
         })
 
-      this.app.on("second-instance", () => {
+      this.app.on("second-instance", _ => {
         if (this.mainWindow) {
           if (this.mainWindow.isMinimized()) {
             this.mainWindow.restore();
@@ -88,12 +88,12 @@ class Main {
 
       this.app.once("ready", this.run);
 
-      this.app.on("activate", () => {
+      this.app.on("activate", _ => {
         if (this.mainWindow === null) {
           this.run();
         }
       });
-    }  
+    }
   }
 
   public hardClose = () => {
@@ -102,7 +102,7 @@ class Main {
   }
 
   public initDB(): Promise<void> {
-    return (async () => {
+    return (async _ => {
       try {
         await DB().connection();
         this._initDB = true;
@@ -115,7 +115,7 @@ class Main {
   public show = () => this.mainWindow.show();
 
   public softClose = (event: Event) => {
-    if(!this.isQuitting && this.mainWindow.hideWhenMinimised) {
+    if (!this.isQuitting && this.mainWindow.hideWhenMinimised) {
       event.preventDefault();
       this.mainWindow.hide();
     }
@@ -123,9 +123,9 @@ class Main {
 
   public run = () => {
     if (!this._initDB || !this.trainingFiles.ready ||
-        !this.importFiles.ready || !this.exportFiles.ready ||
-        !this.processFiles.ready) {
-      setTimeout(() => this.run(), 1000);
+      !this.importFiles.ready || !this.exportFiles.ready ||
+      !this.processFiles.ready) {
+      setTimeout(_ => this.run(), 1000);
       return;
     }
 
@@ -147,7 +147,7 @@ class Main {
     protocol.registerBufferProtocol("es6", (req, cb) => {
       fs.readFile(
         config.join(config.view, req.url.replace("es6://", "")),
-        (e, b) => { cb({ mimeType: "text/javascript", data: b }); }
+        (_, b) => { cb({ mimeType: "text/javascript", data: b }); }
       );
     });
 
@@ -159,9 +159,7 @@ class Main {
 
     if (process.env.NODE_ENV === "Development") {
       this.mainWindow.webContents.on("did-frame-finish-load", () => {
-        this.mainWindow.webContents.once("devtools-opened", () => {
-          this.mainWindow.focus();
-        });
+        this.mainWindow.webContents.once("devtools-opened", () => this.mainWindow.focus());
         this.mainWindow.webContents.openDevTools();
       });
     }

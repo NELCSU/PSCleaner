@@ -298,13 +298,13 @@ ipc.on("NLP-response", (e, response) => {
   }
 });
 
-ipc.on("temp-training-filename", (e, response) => {
+ipc.on("temp-training-filename", (_, response) => {
   activeFile = response;
   filename.textContent = response;
   files.hidden = false;
 });
 
-ipc.on("training-file", (e, file, dt) => {
+ipc.on("training-file", (_, file, dt) => {
   activeFile = file;
   filename.textContent = file;
   files.hidden = false;
@@ -316,18 +316,18 @@ ipc.on("training-file", (e, file, dt) => {
       const sel = createSelection(dataEntryText.childNodes[0], entity.start, entity.length);
       addTag(sel, entity.label, entity.color);
     }
-  } catch (e) {
+  } catch (err) {
     dataEntryText.textContent = data.text;
     console.log("Error found. Entities could not be loaded. Please refresh document via Autodiscover");
   }
   window.dispatchEvent(new CustomEvent("NewTrainingData"));
 });
 
-ipc.on("training-file-count", (e, count) => updateCount(count));
-ipc.on("training-file-deleted", () => closeButton.click());
-ipc.on("training-file-saved", () => saveButton.classList.add("disabled"));
+ipc.on("training-file-count", (_, count) => updateCount(count));
+ipc.on("training-file-deleted", _ => closeButton.click());
+ipc.on("training-file-saved", _ => saveButton.classList.add("disabled"));
 
-ipc.on("training-file-rename-warning", (e, response) => {
+ipc.on("training-file-rename-warning", (_, response) => {
   const choice = remote.dialog.showMessageBoxSync(null, {
     type: "warning",
     buttons: ["Overwrite", "Cancel"],
@@ -340,38 +340,34 @@ ipc.on("training-file-rename-warning", (e, response) => {
   }
 });
 
-ipc.on("training-file-renamed", (e, file) => {
+ipc.on("training-file-renamed", (_, file) => {
   activeFile = file;
   filename.textContent = file;
   fileRenameClear();
 });
 
-ipc.on("training-folder", (e, folder) => {
+ipc.on("training-folder", (_, folder) => {
   remote.dialog.showOpenDialog(null, {
     title: "Select a file",
     buttonLabel: "Select training data",
     defaultPath: folder,
     properties: ["openFile"],
-  }, file => {
-    if (file === undefined || file[0] === undefined) {
+  }).then(f => {
+    if (f.filePaths === undefined || f.filePaths[0] === undefined) {
       openButton.classList.remove("disabled");
       return;
     }
-    ipc.send("get-training-file", file[0]);
-  });
+    ipc.send("get-training-file", f.filePaths[0]);
+  }).catch(err => console.log(err));
 });
 
-ipc.on("NLP-sensitivity", (e, n) => {
-  sensitivityButton.value = n;
-});
+ipc.on("NLP-sensitivity", (_, n) => sensitivityButton.value = n);
 
 ipc.send("get-entities");
 ipc.send("get-training-file-count");
 ipc.send("NLP-sensitivity");
 
-window.addEventListener("CancelNewEntityCreation", () => {
-  tag.delete();
-});
+window.addEventListener("CancelNewEntityCreation", _ => tag.delete());
 
 window.addEventListener("contextmenu", e => {
   const contextMenu = new remote.Menu();
@@ -408,7 +404,7 @@ window.addEventListener("contextmenu", e => {
   }
 }, false);
 
-window.addEventListener("NewTrainingData", () => {
+window.addEventListener("NewTrainingData", _ => {
   openButton.classList.add("disabled");
   autodiscoverButton.classList.remove("disabled");
   closeButton.classList.remove("disabled");
@@ -420,7 +416,7 @@ window.addEventListener("NewTrainingData", () => {
   }
 });
 
-window.addEventListener("ShowModalEntityPicker", () => {
+window.addEventListener("ShowModalEntityPicker", _ => {
   modal.setAttribute("open", "open");
 });
 

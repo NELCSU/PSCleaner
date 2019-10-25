@@ -28,7 +28,7 @@ export class Entities {
         .then(
           success => e.reply(success, key),
           failure => e.reply(failure, key)
-        );      
+        );
     });
 
     ipc.on("get-entities", e => {
@@ -36,7 +36,7 @@ export class Entities {
         .then(
           success => e.reply("entity-list", success),
           failure => e.reply(failure, [])
-        );  
+        );
     });
   }
 
@@ -50,7 +50,7 @@ export class Entities {
       .then(
         success => success.changes !== 0 ? "entity-deleted" : "entity-deletion-error"
       )
-      .catch(() => "entity-deletion-error");
+      .catch(_ => "entity-deletion-error");
   }
 
   /**
@@ -62,15 +62,15 @@ export class Entities {
     const qry: string = `SELECT id, label, color, domain, joinable, type, reg_ex, mask FROM Entity`;
     return filterByType
       ? DB().query(`${qry} WHERE type = ?`, filterByType)
-          .then(
-            entities => Promise.resolve(Entities.toList(entities)), 
-            () => Promise.reject("entity-list-error")
-          )
+        .then(
+          entities => Promise.resolve(Entities.toList(entities)),
+          _ => Promise.reject("entity-list-error")
+        )
       : DB().query(qry)
-          .then(
-            entities => Promise.resolve(Entities.toList(entities)),
-            () => Promise.reject("entity-list-error")
-          );
+        .then(
+          entities => Promise.resolve(Entities.toList(entities)),
+          _ => Promise.reject("entity-list-error")
+        );
   }
 
   /**
@@ -94,13 +94,13 @@ export class Entities {
         if (row) {
           return await DB().update("entity", item, { id: data.id })
             .then(
-              () => Promise.resolve(data),
-              () => Promise.reject("entity-save-error")
+              _ => Promise.resolve(data),
+              _ => Promise.reject("entity-save-error")
             );
         } else {
           return await DB()
             .insert("entity", item)
-            .then(async id => 
+            .then(async id =>
               await DB()
                 .queryFirstRow("SELECT * FROM Entity WHERE id = ?", id)
                 .then(
@@ -108,7 +108,7 @@ export class Entities {
                     data.id = row.id;
                     return Promise.resolve(data);
                   },
-                  () => Promise.reject("entity-save-error")
+                  _ => Promise.reject("entity-save-error")
                 )
             );
         }

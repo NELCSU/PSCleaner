@@ -55,9 +55,9 @@ function startImport() {
 runButton.addEventListener("click", toggleRun);
 
 //*** opens explorer view for each folder via badge click
-importBadge.addEventListener("click", () => ipc.send("get-import-folder"));
-processingBadge.addEventListener("click", () => ipc.send("get-processing-folder"));
-exportBadge.addEventListener("click", () => ipc.send("get-export-folder"));
+importBadge.addEventListener("click", _ => ipc.send("get-import-folder"));
+processingBadge.addEventListener("click", _ => ipc.send("get-processing-folder"));
+exportBadge.addEventListener("click", _ => ipc.send("get-export-folder"));
 ipc.on("import-folder", (_, path) => shell.openItem(path));
 ipc.on("processing-folder", (_, path) => shell.openItem(path));
 ipc.on("export-folder", (_, path) => shell.openItem(path));

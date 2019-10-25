@@ -18,12 +18,12 @@ export class AppWindow extends BrowserWindow {
 
   public data: any;
   public get hideWhenMinimised(): boolean {
-     let state: boolean = this.data.get("hideWhenMinimised");
-     if (state === undefined) {
+    let state: boolean = this.data.get("hideWhenMinimised");
+    if (state === undefined) {
       this.data.set("hideWhenMinimised", false);
       state = false;
-     }
-     return state;
+    }
+    return state;
   }
   public set hideWhenMinimised(value: boolean) {
     this.data.set("hideWhenMinimised", value);

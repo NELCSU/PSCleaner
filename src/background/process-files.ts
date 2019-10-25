@@ -26,7 +26,7 @@ export class ProcessFiles {
 
   constructor() {
     this.init();
-    
+
     this.nlp = new NLP();
 
     ipc.on("get-processing-folder", e => e.reply("processing-folder", this.fm.folder));
@@ -34,11 +34,11 @@ export class ProcessFiles {
     ipc.on("set-processing-folder", (e, path) => {
       DB().update("AppSettings", { field: "PROCESSING_FOLDER", value: path }, { field: "PROCESSING_FOLDER" })
         .then(
-          () => {
+          _ => {
             this.fm.folder = path;
             e.reply("processing-folder", this.fm.folder)
           },
-          () => e.reply("processing-folder-error", this.fm.folder)
+          _ => e.reply("processing-folder-error", this.fm.folder)
         );
     });
 
@@ -52,9 +52,9 @@ export class ProcessFiles {
         .then(files => {
           if (files.length > 0) {
             this.processFile(files[0]);
-            this._events.on("file-processed", () => e.reply("processed"));
+            this._events.on("file-processed", _ => e.reply("processed"));
           } else {
-            this._events.on("file-processing-error", () => e.reply("stop-processing"));
+            this._events.on("file-processing-error", _ => e.reply("stop-processing"));
             e.reply("stop-processing");
           }
         });
@@ -99,13 +99,13 @@ export class ProcessFiles {
       .on("data", async (row: any) => await rows.push(this._processRow(row, stream)))
       .on("end", () => {
         Promise.all(rows)
-          .then(() => {
+          .then(_ => {
             stream.end();
             Promise.all([this.fm.fs.rename(temp, to), this.fm.deleteFile(from)])
-              .then(() => {
+              .then(_ => {
                 this._events.emit("file-processed");
               })
-              .catch(() => {
+              .catch(_ => {
                 this._events.emit("file-processing-error");
               });
           });
@@ -114,13 +114,13 @@ export class ProcessFiles {
 
   private _processRow(row: any, stream: any): Promise<any> {
     const cellQ: any[] = [];
-    
+
     for (let cell in row) {
       cellQ.push(this._processCell(cell, row));
     }
 
     return Promise.all(cellQ)
-      .then(() => {
+      .then(_ => {
         stream.write(row);
         return Promise.resolve(row);
       });
@@ -131,12 +131,12 @@ export class ProcessFiles {
     normalised = normalised.replace(/\s+/g, " ");
     return /.*freetext.*/i.test(cell)
       ? await this.nlp.evaluate(normalised)
-          .then(async matches => {
-            await this.nlp.replace(normalised, matches)
-              .then(r => {
-                return new Promise(resolve => resolve(row[cell] = r));
-              });
-          })
+        .then(async matches => {
+          await this.nlp.replace(normalised, matches)
+            .then(r => {
+              return new Promise(resolve => resolve(row[cell] = r));
+            });
+        })
       : Promise.resolve(cell);
   }
 }
