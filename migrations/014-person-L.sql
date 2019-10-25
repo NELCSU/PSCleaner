@@ -22465,7 +22465,6 @@ VALUES
 ('Longenberger'),
 ('Longendyke'),
 ('Longenecker'),
-('Longer'),
 ('Longerbeam'),
 ('Longerbone'),
 ('Longeso'),

@@ -10332,6 +10332,7 @@ VALUES
 ('Cerisha'),
 ('Cerisier'),
 ('Cerisola'),
+('Cerisoli'),
 ('Cerissa'),
 ('Cerit'),
 ('Cerita'),

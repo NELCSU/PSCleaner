@@ -7,10 +7,17 @@ import { Entities } from "./entities";
  * ### Natural language processing services
  */
 export class NLP {
-  public sensitivity: number = 1;
+  public get sensitivity(): number {
+    return this._sensitivity;
+  };
+  public set sensitivity(n: number) {
+    this._sensitivity = n;
+    DB().run("UPDATE AppSettings SET value = ? WHERE field = 'NLP_SENSITIVITY'", this._sensitivity);
+  }
 
   private _pos: posTagger;
-  private _sensitivity: string[] = [
+  private _sensitivity: number = 1;
+  private _sensitivityLevels: string[] = [
     "|NN|NNS|NNP|NNPS|",
     "|NN|NNS|NNP|NNPS|JJ|VBP|RB|",
     "|NN|NNS|NNP|NNPS|JJ|VBP|VBD|VBG|VB|RB|"
@@ -18,6 +25,14 @@ export class NLP {
 
   constructor() {
     this._pos = posTagger();
+    DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field = 'NLP_SENSITIVITY'`)
+      .then(async row => {
+        if (row) {
+          this._sensitivity = row.value;
+        } else {
+          DB().insert("AppSettings", { field: "NLP_SENSITIVITY", value: this._sensitivity });
+        }
+      });
   }
 
   /**
@@ -60,7 +75,7 @@ export class NLP {
       const end: number = start + len - 1;
       cursor = end;
       if (len > 1) {
-        if (this._sensitivity[this.sensitivity].indexOf(`|${tag.pos}|`) > -1) {
+        if (this._sensitivityLevels[this.sensitivity].indexOf(`|${tag.pos}|`) > -1) {
           if (tag.tag === "word") {
             words.push({
               value: tag.value,

@@ -13531,7 +13531,6 @@ VALUES
 ('Fortfield Road'),
 ('Fortfield Terrace'),
 ('Fortfields'),
-('Forth'),
 ('Forth An Cos'),
 ('Forth An Hellier'),
 ('Forth An Streth'),

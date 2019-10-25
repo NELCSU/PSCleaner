@@ -8226,6 +8226,7 @@ VALUES
 ('Paszukiewicz'),
 ('Paszyn'),
 ('Paszynski'),
+('Pat'),
 ('Pata'),
 ('Patabadige'),
 ('Patabe'),
