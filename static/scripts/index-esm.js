@@ -4,8 +4,12 @@ import { one } from "@buckneri/js-lib-dom-selection";
 const importBadge = one("#statPending");
 const processingBadge = one("#statProcessing");
 const exportBadge = one("#statComplete");
+const modalView = one("#modalView");
+const modalMessage = one(".modal-message");
 const runButton = one("#btnProcessFiles");
 const progressBar = one("#stProcessFiles");
+const messageDelay = 3000;
+const FILES_REQUIRED = "Click on QUEUED to view the import folder. CSV files are required.";
 let importFiles = 0;
 let processingFiles = 0;
 let exportFiles = 0;
@@ -17,6 +21,13 @@ function setUpProgressBar() {
   progressBar.hidden = false;
 }
 
+function showError(msg) {
+  console.log(msg);
+  modalMessage.innerHTML = msg;
+  modalView.open = true;
+  setTimeout(() => modalView.open = false, messageDelay);
+}
+
 function teardownProgressBar() {
   progressBar.max = 0;
   progressBar.hidden = true;
@@ -24,13 +35,19 @@ function teardownProgressBar() {
 
 function toggleRun() {
   running = !running;
-  if (running && (importFiles > 0 || processingFiles > 0)) {
-    runButton.textContent = "Stop";
-    setUpProgressBar();
-    if (processingFiles > 0) {
-      ipc.send("start-processing");
+  if (running) {
+    if (importFiles > 0 || processingFiles > 0) {
+      runButton.textContent = "Stop";
+      setUpProgressBar();
+      if (processingFiles > 0) {
+        ipc.send("start-processing");
+      } else {
+        ipc.send("start-import");
+      }
     } else {
-      ipc.send("start-import");
+      runButton.textContent = "Start";
+      teardownProgressBar();
+      showError(FILES_REQUIRED);
     }
   } else {
     runButton.textContent = "Start";
@@ -87,12 +104,6 @@ ipc.on("export-file-count", (_, data) => {
 });
 
 //*** Error handling
-ipc.on("import-folder-error", (_, err) => {
-  console.log(`An error occurred with the import folder ${err}`);
-});
-ipc.on("processing-folder-error", (_, err) => {
-  console.log(`An error occurred with the processing folder ${err}`);
-});
-ipc.on("export-folder-error", (_, err) => {
-  console.log(`An error occurred with the export folder ${err}`);
-});
+ipc.on("import-folder-error", (_, err) => showError(`An error occurred with the import folder ${err}`));
+ipc.on("processing-folder-error", (_, err) => showError(`An error occurred with the processing folder ${err}`));
+ipc.on("export-folder-error", (_, err) => showError(`An error occurred with the export folder ${err}`));

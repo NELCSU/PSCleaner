@@ -1265,7 +1265,6 @@ VALUES
 ('Pams Lane'),
 ('Pams Way'),
 ('Pams Wood'),
-('Pan'),
 ('Pan Braes'),
 ('Pan Close'),
 ('Pan Croft'),

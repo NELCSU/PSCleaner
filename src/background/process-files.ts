@@ -101,7 +101,7 @@ export class ProcessFiles {
         Promise.all(rows)
           .then(_ => {
             stream.end();
-            Promise.all([this.fm.fs.rename(temp, to), this.fm.deleteFile(from)])
+            Promise.all([this.fm.fs.move(temp, to), this.fm.deleteFile(from)])
               .then(_ => {
                 this._events.emit("file-processed");
               })

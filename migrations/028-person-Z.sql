@@ -9604,6 +9604,7 @@ VALUES
 ('Zippay'),
 ('Zippe'),
 ('Zippel'),
+('Zipper'),
 ('Zipperer'),
 ('Zipperian'),
 ('Zipphora'),

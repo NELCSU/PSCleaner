@@ -1,31 +1,51 @@
 import { ipcRenderer as ipc, remote } from "electron";
 import { one } from "@buckneri/js-lib-dom-selection";
 
+let importFolder = "", processingFolder = "", exportFolder = "", trainingFolder = "";
+const modalView = one("#modalView");
+const modalMessage = one(".modal-message");
+const dialogOptions = {
+  title: "Select a folder",
+  buttonLabel: "Select folder",
+  defaultPath: null,
+  properties: ["createDirectory", "openDirectory", "promptToCreate"],
+}
+const messageDelay = 3000;
+const PATH_COLLISION = "Error changing folders. Please check that each folder has a unique name.";
+
+function showError(msg) {
+  console.log(msg);
+  modalMessage.innerHTML = msg;
+  modalView.open = true;
+  setTimeout(() => modalView.open = false, messageDelay);
+}
+
 (function ChooseImportFolder() {
   const browse = one("#btnImportSelection");
   const label = one("#lblImportFilePath");
-  let folder;
 
   browse.addEventListener("click", _ => {
-    remote.dialog.showOpenDialog(null, {
-      title: "Select a folder",
-      buttonLabel: "Select folder",
-      defaultPath: folder,
-      properties: ["createDirectory", "openDirectory", "promptToCreate"],
-    }).then(f => {
-      folder = (f.filePaths === undefined || f.filePaths[0] === undefined)
-        ? folder
-        : f.filePaths[0];
-      label.textContent = folder ? folder : "Not specified";
-      if (folder) {
-        ipc.send("set-import-folder", folder);
-      }
-    }).catch(err => console.log(err));;
+    dialogOptions.defaultPath = importFolder;
+    remote.dialog.showOpenDialog(null, dialogOptions)
+      .then(f => {
+        if (f.filePaths.length > 0) {
+          if (f.filePaths[0] !== processingFolder && f.filePaths[0] !== exportFolder && f.filePaths[0] !== trainingFolder) {
+            importFolder = f.filePaths[0];
+            label.textContent = importFolder ? importFolder : "Not specified";
+            if (importFolder) {
+              ipc.send("set-import-folder", importFolder);
+            }
+          } else {
+            showError(PATH_COLLISION);
+          }
+        }
+      })
+      .catch(err => showError(err));
   });
 
   ipc.on("import-folder", (_, path) => {
-    folder = path;
-    label.textContent = folder ? folder : "Not specified";
+    importFolder = path;
+    label.textContent = importFolder ? importFolder : "Not specified";
   });
 
   ipc.send("get-import-folder");
@@ -34,28 +54,29 @@ import { one } from "@buckneri/js-lib-dom-selection";
 (function ChooseProcessingFolder() {
   const browse = one("#btnProcessingSelection");
   const label = one("#lblProcessingFilePath");
-  let folder;
 
   browse.addEventListener("click", _ => {
-    remote.dialog.showOpenDialog(null, {
-      title: "Select a folder",
-      buttonLabel: "Select folder",
-      defaultPath: folder,
-      properties: ["createDirectory", "openDirectory", "promptToCreate"],
-    }).then(f => {
-      folder = (f.filePaths === undefined || f.filePaths[0] === undefined)
-        ? folder
-        : f.filePaths[0];
-      label.textContent = folder ? folder : "Not specified";
-      if (folder) {
-        ipc.send("set-processing-folder", folder);
-      }
-    }).catch(err => console.log(err));
+    dialogOptions.defaultPath = processingFolder;
+    remote.dialog.showOpenDialog(null, dialogOptions)
+      .then(f => {
+        if (f.filePaths.length > 0) {
+          if (f.filePaths[0] !== importFolder && f.filePaths[0] !== exportFolder && f.filePaths[0] !== trainingFolder) {
+            processingFolder = f.filePaths[0];
+            label.textContent = processingFolder ? processingFolder : "Not specified";
+            if (processingFolder) {
+              ipc.send("set-processing-folder", processingFolder);
+            }
+          } else {
+            showError(PATH_COLLISION);
+          }
+        }
+      })
+      .catch(err => showError(err));
   });
 
   ipc.on("processing-folder", (_, path) => {
-    folder = path;
-    label.textContent = folder ? folder : "Not specified";
+    processingFolder = path;
+    label.textContent = processingFolder ? processingFolder : "Not specified";
   });
 
   ipc.send("get-processing-folder");
@@ -64,28 +85,29 @@ import { one } from "@buckneri/js-lib-dom-selection";
 (function ChooseExportFolder() {
   const browse = one("#btnExportSelection");
   const label = one("#lblExportFilePath");
-  let folder;
 
   browse.addEventListener("click", _ => {
-    remote.dialog.showOpenDialog(null, {
-      title: "Select a folder",
-      buttonLabel: "Select folder",
-      defaultPath: folder,
-      properties: ["createDirectory", "openDirectory", "promptToCreate"],
-    }).then(f => {
-      folder = (f.filePaths === undefined || f.filePaths[0] === undefined)
-        ? folder
-        : f.filePaths[0];
-      label.textContent = folder ? folder : "Not specified";
-      if (folder) {
-        ipc.send("set-export-folder", folder);
-      }
-    }).catch(err => console.log(err));
+    dialogOptions.defaultPath = exportFolder;
+    remote.dialog.showOpenDialog(null, dialogOptions)
+      .then(f => {
+        if (f.filePaths.length > 0) {
+          if (f.filePaths[0] !== importFolder && f.filePaths[0] !== processingFolder && f.filePaths[0] !== trainingFolder) {
+            exportFolder = f.filePaths[0];
+            label.textContent = exportFolder ? exportFolder : "Not specified";
+            if (exportFolder) {
+              ipc.send("set-export-folder", exportFolder);
+            }
+          } else {
+            showError(PATH_COLLISION);
+          }
+        }
+      })
+      .catch(err => showError(err));
   });
 
   ipc.on("export-folder", (_, path) => {
-    folder = path;
-    label.textContent = folder ? folder : "Not specified";
+    exportFolder = path;
+    label.textContent = exportFolder ? exportFolder : "Not specified";
   });
 
   ipc.send("get-export-folder");
@@ -94,28 +116,29 @@ import { one } from "@buckneri/js-lib-dom-selection";
 (function ChooseTrainingDataFolder() {
   const browse = one("#btnTrainingDataSelection");
   const label = one("#lblTrainingFilePath");
-  let folder;
 
   browse.addEventListener("click", _ => {
-    remote.dialog.showOpenDialog(null, {
-      title: "Select a folder",
-      buttonLabel: "Select folder",
-      defaultPath: folder,
-      properties: ["createDirectory", "openDirectory", "promptToCreate"],
-    }).then(f => {
-      folder = (f.filePaths === undefined || f.filePaths[0] === undefined)
-        ? folder
-        : f.filePaths[0];
-      label.textContent = folder ? folder : "Not specified";
-      if (folder) {
-        ipc.send("set-training-folder", folder);
-      }
-    }).catch(err => console.log(err));
+    dialogOptions.defaultPath = trainingFolder;
+    remote.dialog.showOpenDialog(null, dialogOptions)
+      .then(f => {
+        if (f.filePaths.length > 0) {
+          if (f.filePaths[0] !== importFolder && f.filePaths[0] !== processingFolder && f.filePaths[0] !== exportFolder) {
+            trainingFolder = f.filePaths[0];
+            label.textContent = trainingFolder ? trainingFolder : "Not specified";
+            if (trainingFolder) {
+              ipc.send("set-training-folder", trainingFolder);
+            }
+          } else {
+            showError(PATH_COLLISION);
+          }
+        }
+      })
+      .catch(err => showError(err));
   });
 
   ipc.on("training-folder", (_, path) => {
-    folder = path;
-    label.textContent = folder ? folder : "Not specified";
+    trainingFolder = path;
+    label.textContent = trainingFolder ? trainingFolder : "Not specified";
   });
 
   ipc.send("get-training-folder");

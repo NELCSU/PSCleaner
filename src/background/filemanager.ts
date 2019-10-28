@@ -77,7 +77,7 @@ export class FileManager {
   /**
    * Folder initialiser
    */
-  public init(): void {
+  public init(previousFailure: boolean = false): void {
     let path: string = this.folder;
     if (this.filter) {
       path += `/**/*.${this.filter}`;
@@ -87,7 +87,8 @@ export class FileManager {
     }
     this.watcher = chok.watch(path, {
       ignored: /^\./,
-      persistent: true
+      persistent: true,
+      usePolling: previousFailure
     });
     this.watcher
       .on("add", _ => {
@@ -95,6 +96,12 @@ export class FileManager {
       })
       .on("unlink", _ => {
         this.events.emit("file-count-change", this.fileCount);
+      })
+      .on("error", err => {
+        console.log(err);
+        if (!previousFailure) {
+          this.init(true);
+        }
       });
   }
 

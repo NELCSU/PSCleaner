@@ -8903,7 +8903,6 @@ VALUES
 ('Dialstone Lane'),
 ('Diamedes Avenue'),
 ('Diameter Road'),
-('Diamond'),
 ('Diamond Avenue'),
 ('Diamond Batch'),
 ('Diamond Close'),

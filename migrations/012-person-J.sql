@@ -15062,7 +15062,6 @@ VALUES
 ('Jofura'),
 ('Jofwi'),
 ('Jofy'),
-('Jog'),
 ('Joga'),
 ('Jogachchandran'),
 ('Jogaila'),

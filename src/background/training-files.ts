@@ -147,7 +147,7 @@ export class TrainingFiles {
               status: "training-file-rename-warning"
             })
           } else {
-            return this.fm.fs.rename(oldFilePath, newFilePath)
+            return this.fm.fs.move(oldFilePath, newFilePath)
               .then(
                 () => Promise.resolve({
                   fn: destFile,

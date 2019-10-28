@@ -9170,7 +9170,6 @@ VALUES
 ('Ambarrow Crescent'),
 ('Ambarrow Hill'),
 ('Ambarrow Lane'),
-('Ambassador'),
 ('Ambassador Avenue'),
 ('Ambassador Close'),
 ('Ambassador Court'),

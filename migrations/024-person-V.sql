@@ -14119,7 +14119,6 @@ VALUES
 ('Virzhinia'),
 ('Virzhiniya'),
 ('Virzi'),
-('Vis'),
 ('Visaal'),
 ('Visaaly'),
 ('Visad'),

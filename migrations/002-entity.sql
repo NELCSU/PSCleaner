@@ -96,7 +96,7 @@ VALUES
 ),
 (
   'TitleName', '#3380ff', 'Person',   1, '**PERSON**',
-  'Regular expression', '\b(?:Dr|Mr|Mrs|Prof|Rev|Sr|St)\.?\s[\w\-]+\b'
+  'Regular expression', '\b(?:Dr|Judge|Mr|Mrs|Prof|Professor|Rev|St)\.?\s[\w\-]+\b'
 ),
 (
   'University','#80ff80', 'Location', 1, '**LOCATION**',

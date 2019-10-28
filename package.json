@@ -3,8 +3,8 @@
   "dependencies": {
     "@buckneri/js-lib-dom-selection": "0.0.3",
     "@buckneri/js-lib-selection": "0.0.4",
-    "@buckneri/web-components": "^0.1.8",
-    "chokidar": "^3.2.2",
+    "@buckneri/web-components": "^0.1.9",
+    "chokidar": "^3.2.3",
     "debounce": "^1.2.0",
     "dotenv": "^8.2.0",
     "electron-squirrel-startup": "^1.0.0",
@@ -18,7 +18,7 @@
     "json-stringify-pretty-compact": "^2.0.0",
     "make-dir": "^3.0.0",
     "node-abi": "^2.12.0",
-    "node-pre-gyp": "^0.13.0",
+    "node-pre-gyp": "^0.14.0",
     "sqlite3": "^4.1.0",
     "sqlite3-helper": "^1.3.1",
     "trash": "^6.0.0",
@@ -76,7 +76,7 @@
     "wipe-db": "node ./build/clean.js",
     "wipe-webc": "rimraf static/lib/web-components"
   },
-  "version": "0.3.1",
+  "version": "0.3.2",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }

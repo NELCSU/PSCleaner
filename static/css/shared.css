@@ -90,6 +90,14 @@ hr { color: #aaa }
   width: 1rem
 }
 
+.modal-message { 
+  background-color: white;
+  color: #800;
+  padding: 25px 10px 25px 10px;
+  text-align: center;
+  width: 100vw
+}
+
 .network {
   background-color: rgba(255, 0, 0, 0.1);
   bottom: 0;
