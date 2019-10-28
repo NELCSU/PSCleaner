@@ -10319,7 +10319,6 @@ VALUES
 ('Payravi'),
 ('Payre'),
 ('Payroz'),
-('Pays'),
 ('Paysach'),
 ('Paysal'),
 ('Paysant'),

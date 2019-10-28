@@ -8050,7 +8050,6 @@ VALUES
 ('Iponmwdsa'),
 ('Ipoola'),
 ('Iporac'),
-('Ipp'),
 ('Ippaolito'),
 ('Ippei'),
 ('Ippek'),

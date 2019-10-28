@@ -8720,6 +8720,7 @@ VALUES
 ('Wietske'),
 ('Wietsma'),
 ('Wiettchen'),
+('Wietze'),
 ('Wietzel'),
 ('Wietzke'),
 ('Wiewatenon'),

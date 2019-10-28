@@ -14246,7 +14246,6 @@ VALUES
 ('Newnum'),
 ('Newoor'),
 ('Newpher'),
-('Newport'),
 ('Newquist'),
 ('Newran'),
 ('Newraz'),

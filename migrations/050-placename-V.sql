@@ -2171,7 +2171,6 @@ VALUES
 ('Victors Crescent'),
 ('Victors Drive'),
 ('Victors Way'),
-('Victory'),
 ('Victory Avenue'),
 ('Victory Belt'),
 ('Victory Boulevard'),

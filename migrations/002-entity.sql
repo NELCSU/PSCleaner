@@ -7,7 +7,7 @@ INSERT INTO "Entity"
 ) 
 VALUES 
 (
-  'Address1',  '#80ff80', 'Location', 1, '**LOCATION**',
+  'Address1',  '#80ff80', 'Location', 0, '**LOCATION**',
   'Regular expression', '\b(?:\d{1,4}[a-z]{0,3}\s)(?:[''\.\-\w]*\s)?(?:approach|avenue|bank|close|cl|crescent|croft|court|drive|east|end|flats|field|heights|ga?r?de?ns|gate|grange|green|grove|hill|lane|ln|meadow|mews|north|parade|park|path|place|pl|rise|road|rd|row|square|south|street|st|terrace|towers|view|walk|way|west|wood|yard)\b'
 ),
 (
@@ -63,12 +63,16 @@ VALUES
   'Multiple term', ''
 ),
 (
-  'Postcode',  '#00ff00', 'Location', 1, '**LOCATION**',
+  'PO Box',  '#00ee00', 'Location', 0, '**LOCATION**',
+  'Regular expression', '\bP\.?O\.?\sBox\s\d+\b'
+),
+(
+  'Postcode',  '#00ff00', 'Location', 0, '**LOCATION**',
   'Regular expression', '\b(?:GIR|[a-zA-Z][a-zA-Z]?(?:[0-9][a-zA-Z]|[0-9]{1,2}))(?:[ ]{0,3})(?:[0-9][a-zA-Z]{2})\b'
 ),
 (
-  'School',    '#80ff80', 'Location', 1, '**LOCATION**',
-  'Regular expression', '\bschool of [\w\-]+\b'
+  'School',    '#80ff80', 'Location', 0, '**LOCATION**',
+  'Regular expression', '\bschool\sof\s[a-z\-]+\b'
 ),
 (
   'TelUK',     '#ff80ff', 'Reference',0, '**CONTACT**',
@@ -96,11 +100,11 @@ VALUES
 ),
 (
   'TitleName', '#3380ff', 'Person',   1, '**PERSON**',
-  'Regular expression', '\b(?:Dr|Judge|Mr|Mrs|Prof|Professor|Rev|St)\.?\s[\w\-]+\b'
+  'Regular expression', '\b(?:Dr|Judge|Mr|Mrs|Prof|Professor|Rev|St)\.?\s[a-z\-]+\b'
 ),
 (
-  'University','#80ff80', 'Location', 1, '**LOCATION**',
-  'Regular expression', '\buniversity of (?:east|north|south|west)?\s?[\w\-]+\b'
+  'University','#80ff80', 'Location', 0, '**LOCATION**',
+  'Regular expression', '\buniversity\sof\s(?:east|eastern|north|northern|south|southern|west|western)?\s?[a-z\-]+\b'
 ),
 (
   'Uri',       '#ffc58a', 'Reference',0, '**URL**',
