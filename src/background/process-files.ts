@@ -3,7 +3,7 @@ import EventEmitter from "events";
 import csv from "fast-csv";
 import { FileManager } from "./filemanager";
 import { NLP } from "./nlp.js";
-import { join } from "path";
+import { join, parse } from "path";
 import DB from "sqlite3-helper";
 
 /**
@@ -89,7 +89,15 @@ export class ProcessFiles {
   public processFile(file: string): void {
     const from: string = join(this.fm.folder, file);
     const temp: string = join(this.fm.folder, "temp.tmp");
-    const to: string = join(this.sendTo, file);
+    let to: string = join(this.sendTo, file);
+    this.fm.fs.pathExists(to)
+      .then((exists: boolean) => {
+        if (exists) {
+          const fpath: any = parse(file);
+          to = join(this.sendTo, fpath.name + "_" + Date.now() + fpath.ext);
+        }
+      });
+
     const stream = csv.format({ headers: true });
     const writeStream = this.fm.fs.createWriteStream(temp);
     stream.pipe(writeStream);
@@ -101,13 +109,11 @@ export class ProcessFiles {
         Promise.all(rows)
           .then(_ => {
             stream.end();
-            Promise.all([this.fm.fs.move(temp, to), this.fm.deleteFile(from)])
-              .then(_ => {
-                this._events.emit("file-processed");
-              })
-              .catch(_ => {
-                this._events.emit("file-processing-error");
-              });
+            Promise.all([
+              this.fm.fs.move(temp, to), 
+              this.fm.deleteFile(from)
+            ]).then(_ => this._events.emit("file-processed"))
+              .catch(_ => this._events.emit("file-processing-error"));
           });
       });
   }

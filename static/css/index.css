@@ -1,3 +1,5 @@
+button { cursor: pointer }
+
 nel-status-badge {
   --bg-color: #ffffff;
   --fg-color: #000099;
@@ -6,4 +8,6 @@ nel-status-badge {
   cursor: pointer
 }
 
-button { cursor: pointer }
+progress { margin-left: 10px }
+
+#lblTime { margin-left: 10px }

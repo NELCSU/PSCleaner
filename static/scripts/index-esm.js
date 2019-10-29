@@ -8,17 +8,39 @@ const modalView = one("#modalView");
 const modalMessage = one(".modal-message");
 const runButton = one("#btnProcessFiles");
 const progressBar = one("#stProcessFiles");
+const timeLabel = one("#lblTime");
 const messageDelay = 3000;
 const FILES_REQUIRED = "Click on QUEUED to view the import folder. CSV files are required.";
 let importFiles = 0;
 let processingFiles = 0;
 let exportFiles = 0;
 let running = false;
+let timeStart, timeEnd = new Date(null), timer;
+
+function formatTime(start, end) {
+  if (start === null) {
+    start = Date.now();
+  }
+  if (end === null) {
+    end = Date.now();
+  }
+  timeEnd.setSeconds((end - start) / 1000);
+  return timeEnd.toISOString().substr(11, 8);
+}
 
 function setUpProgressBar() {
   progressBar.value = 0;
   progressBar.max = importFiles + processingFiles + exportFiles;
   progressBar.hidden = false;
+}
+
+function setUpTimer() {
+  runButton.textContent = "Stop";
+  timeStart = Date.now();
+  timeLabel.innerHTML = "starting " + formatTime(timeStart, Date.now());
+  timer = setInterval(() => {
+    timeLabel.innerHTML = "in progress " + formatTime(timeStart, Date.now());
+  }, 1000);
 }
 
 function showError(msg) {
@@ -33,11 +55,27 @@ function teardownProgressBar() {
   progressBar.hidden = true;
 }
 
+function teardownTimer() {
+  clearInterval(timer);
+  if (processingFiles > 0) {
+    runButton.disabled = true;
+    runButton.textContent = "Stopping";
+    timer = setInterval(() => {
+      timeLabel.innerHTML = "Stopping " + formatTime(timeStart, Date.now());
+      teardownTimer();
+    }, 1000);
+  } else {
+    runButton.disabled = false;
+    runButton.textContent = "Start";
+    timeLabel.innerHTML = "Run completed " + formatTime(timeStart, Date.now());
+  }
+}
+
 function toggleRun() {
   running = !running;
+  running ? setUpTimer() : teardownTimer();
   if (running) {
     if (importFiles > 0 || processingFiles > 0) {
-      runButton.textContent = "Stop";
       setUpProgressBar();
       if (processingFiles > 0) {
         ipc.send("start-processing");
@@ -45,13 +83,14 @@ function toggleRun() {
         ipc.send("start-import");
       }
     } else {
-      runButton.textContent = "Start";
+      running = false;
       teardownProgressBar();
+      teardownTimer();
       showError(FILES_REQUIRED);
     }
   } else {
-    runButton.textContent = "Start";
     teardownProgressBar();
+    teardownTimer();
   }
 }
 

@@ -81,9 +81,11 @@ export class ImportFiles {
     return this.fm.listFiles()
       .then(files =>
         files.length > 0
-          ? this.fm.fs.move(join(this.fm.folder, files[0]), join(this.sendTo, files[0]))
-            .then(() => Promise.resolve("imported"))
-            .catch(() => Promise.reject("stop-import"))
+          ? this.fm.fs.move(
+              join(this.fm.folder, files[0]),
+              join(this.sendTo, files[0])
+            ).then(() => Promise.resolve("imported"))
+             .catch(() => Promise.reject("stop-import"))
           : Promise.reject("stop-import")
       )
   }

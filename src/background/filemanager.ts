@@ -22,14 +22,15 @@ export class FileManager {
   }
   public set folder(value: string) {
     this._folder = value;
-    fs.exists(this._folder, async found => {
-      if (found) {
-        this.init();
-      } else {
-        await makeDir(this._folder)
-          .then(_ => this.init())
-      }
-    });
+    fs.pathExists(this._folder)
+      .then(found => {
+        if (found) {
+          this.init();
+        } else {
+          makeDir(this._folder)
+            .then(_ => this.init())
+        }
+      });
   }
   public fs: any;
   public mkdir: Function = makeDir;
