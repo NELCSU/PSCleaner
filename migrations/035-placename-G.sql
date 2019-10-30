@@ -12707,7 +12707,6 @@ VALUES
 ('Goanah Row'),
 ('Goar Knap'),
 ('Goarn Spinney'),
-('Goat'),
 ('Goat Brae'),
 ('Goat Brow'),
 ('Goat Cleuch'),

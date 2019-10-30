@@ -6,6 +6,7 @@ VALUES
 ('Kaber'),
 ('Kaber Fell'),
 ('Kabin Road'),
+('Kabul'),
 ('Kader'),
 ('Kader Avenue'),
 ('Kader Farm Road'),

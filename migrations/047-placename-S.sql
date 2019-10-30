@@ -1068,7 +1068,6 @@ VALUES
 ('Salsbury Avenue'),
 ('Salstar Close'),
 ('Salston Ride'),
-('Salt'),
 ('Salt and Enson'),
 ('Salt Avenue'),
 ('Salt Ayre Lane'),

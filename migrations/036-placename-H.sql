@@ -14245,7 +14245,6 @@ VALUES
 ('Heighton Road'),
 ('Heighton Street'),
 ('Heighton View'),
-('Heights'),
 ('Heights Approach'),
 ('Heights Avenue'),
 ('Heights Bank'),

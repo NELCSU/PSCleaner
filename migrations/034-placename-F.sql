@@ -17070,7 +17070,6 @@ VALUES
 ('Frienden Wood'),
 ('Friendless Lane'),
 ('Friendless Wood'),
-('Friendly'),
 ('Friendly Avenue'),
 ('Friendly Close'),
 ('Friendly Fold Road'),

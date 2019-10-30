@@ -202,6 +202,7 @@ VALUES
 ('Venezuela'),
 ('Vietnam'),
 ('Yemen'),
+('Yugoslavia'),
 ('Zambia'),
 ('Zimbabwe');
 
