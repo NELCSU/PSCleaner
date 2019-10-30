@@ -10,9 +10,19 @@ export class NLP {
   public get sensitivity(): number {
     return this._sensitivity;
   };
+
   public set sensitivity(n: number) {
     this._sensitivity = n;
     DB().run("UPDATE AppSettings SET value = ? WHERE field = 'NLP_SENSITIVITY'", this._sensitivity);
+  }
+
+  public get trace(): boolean {
+    return this._trace;
+  };
+
+  public set trace(n: boolean) {
+    this._trace = n;
+    DB().run("UPDATE AppSettings SET value = ? WHERE field = 'NLP_TRACE'", this._trace);
   }
 
   private _pos: posTagger;
@@ -22,15 +32,26 @@ export class NLP {
     "|NN|NNS|NNP|NNPS|JJ|VB|VBP|RB|",
     "|NN|NNS|NNP|NNPS|JJ|VB|VBD|VBG|VBN|VBP|VBZ|RB|"
   ];
+  private _trace: boolean = true;
 
   constructor() {
     this._pos = posTagger();
+
     DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field = 'NLP_SENSITIVITY'`)
       .then(async row => {
         if (row) {
           this._sensitivity = row.value;
         } else {
           DB().insert("AppSettings", { field: "NLP_SENSITIVITY", value: this._sensitivity });
+        }
+      });
+
+    DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field = 'NLP_TRACE'`)
+      .then(async row => {
+        if (row) {
+          this._trace = row.value === "1" ? true : false;
+        } else {
+          DB().insert("AppSettings", { field: "NLP_TRACE", value: this._trace });
         }
       });
   }
@@ -99,8 +120,9 @@ export class NLP {
       try {
         for (let i = matches.length - 1; i > -1; --i) {
           let m = matches[i];
-          data = data.substring(0, m.start) +
-            m.entity.mask + data.substring(m.end + 1, data.length);
+          const mask: string = `**${m.entity.mask}` + (this.trace ? ` [${m.id}]` : ``) + `**`;
+          data = data.substring(0, m.start) + mask + 
+            data.substring(m.end + 1, data.length);
         }
         resolve(data);
       }
@@ -135,6 +157,7 @@ export class NLP {
         .replace(/%/g, "~%") + " %";
       let p2 = word.value.replace(/\'/g, "");
       const qry: string = `SELECT
+          id,
           '${word.value.replace(/\'/g, "''")}' AS original_term,
           keyword,
           ${word.start} AS start 
@@ -161,6 +184,7 @@ export class NLP {
     words.forEach(word => {
       const predicate: string = word.value.replace(/\'/g, "");
       const qry: string = `SELECT 
+          id,
           '${word.value.replace(/\'/g, "''")}' AS keyword, 
           ${word.start} AS start 
         FROM "${entity.label}" WHERE keyword = ?`;
@@ -186,6 +210,7 @@ export class NLP {
       while ((m = re.exec(data)) !== null) {
         r.push({
           entity: ent,
+          id: 0,
           value: m[0],
           start: m.index,
           end: m.index + m[0].length,
@@ -238,6 +263,7 @@ export class NLP {
           if (!added_check) {
             r.push({
               entity: entity,
+              id: term.id,
               value: value,
               start: term.start,
               end: term.start + value.length - 1,

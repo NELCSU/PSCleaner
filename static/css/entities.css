@@ -6,13 +6,6 @@
 
 nel-list-item { margin: 0.3rem 0 0 0.3rem }
 
-nel-on-off {
-  --color: #666;
-  --color-on: #009; 
-  --bg-color: #ccc;
-  --bg-color-on: #ccf;
-}
-
 div.item-collection {
   background-color: #fff;
   height: 15rem;

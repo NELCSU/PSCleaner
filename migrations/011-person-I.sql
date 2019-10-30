@@ -10504,7 +10504,6 @@ VALUES
 ('Isruat'),
 ('Isrugi'),
 ('Isrvan'),
-('Iss'),
 ('Issa'),
 ('Issaac'),
 ('Issaad'),

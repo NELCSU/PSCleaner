@@ -16592,6 +16592,7 @@ VALUES
 ('Tokyes Close'),
 ('Tokyngton'),
 ('Tokyngton Avenue'),
+('Tokyo'),
 ('Tol Plous'),
 ('Tol Toft'),
 ('Tol Tuppens'),

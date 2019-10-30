@@ -75,6 +75,14 @@ class Main {
               this.mainWindow.webContents.send("NLP-sensitivity", nlp.sensitivity);
             }
           });
+
+          ipc.on("NLP-trace", (e: IpcMainEvent, n?: boolean) => {
+            if (n === undefined) {
+              this.mainWindow.webContents.send("NLP-trace", nlp.trace);
+            } else {
+              nlp.trace = n;
+            }
+          });
         })
 
       this.app.on("second-instance", _ => {

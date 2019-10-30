@@ -6,33 +6,45 @@ CREATE TABLE AppSettings (
 );
 
 CREATE TABLE Entity (
-  "id"        INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-  "label"     TEXT NOT NULL, 
-  "color"     TEXT NOT NULL, 
-  "domain"    TEXT NOT NULL,
-  "joinable"  INTEGER NOT NULL,
-  "type"      TEXT NOT NULL,
-  "mask"      TEXT NOT NULL,
-  "reg_ex"    TEXT NOT NULL
+  id        INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  label     TEXT    NOT NULL, 
+  color     TEXT    NOT NULL, 
+  domain    TEXT    NOT NULL,
+  joinable  INTEGER NOT NULL,
+  type      TEXT    NOT NULL,
+  mask      TEXT    NOT NULL,
+  reg_ex    TEXT    NOT NULL
 );
 
 CREATE INDEX Entity_ix_type ON Entity (type);
 
 CREATE TABLE Person (
-  keyword TEXT NOT NULL COLLATE NOCASE PRIMARY KEY
+  id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  keyword TEXT    NOT NULL COLLATE NOCASE
 );
+
+CREATE INDEX Person_ix_keyword ON Person (keyword);
 
 CREATE TABLE Placename (
-  keyword TEXT NOT NULL COLLATE NOCASE PRIMARY KEY
+  id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  keyword TEXT    NOT NULL COLLATE NOCASE
 );
+
+CREATE INDEX Placename_ix_keyword ON Placename (keyword);
 
 CREATE TABLE Nationality (
-  keyword TEXT NOT NULL COLLATE NOCASE PRIMARY KEY
+  id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  keyword TEXT    NOT NULL COLLATE NOCASE
 );
 
+CREATE INDEX Nationality_ix_keyword ON Nationality (keyword);
+
 CREATE TABLE Territory (
-  keyword TEXT NOT NULL COLLATE NOCASE PRIMARY KEY
+  id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  keyword TEXT    NOT NULL COLLATE NOCASE
 );
+
+CREATE INDEX Territory_ix_keyword ON Territory (keyword);
 
 -- Down
 
@@ -41,7 +53,14 @@ DROP TABLE IF EXISTS AppSettings;
 DROP INDEX Entity_ix_type;
 DROP TABLE IF EXISTS Entity;
 
+DROP INDEX Person_ix_keyword;
 DROP TABLE IF EXISTS Person;
+
+DROP INDEX Placename_ix_keyword;
 DROP TABLE IF EXISTS Placename;
+
+DROP INDEX Nationality_ix_keyword;
 DROP TABLE IF EXISTS Nationality;
+
+DROP INDEX Territory_ix_keyword;
 DROP TABLE IF EXISTS Territory;

@@ -7047,6 +7047,7 @@ VALUES
 ('Younesse'),
 ('Younesstnasab'),
 ('Youney'),
+('Young'),
 ('Youngae'),
 ('Youngah'),
 ('Youngang'),

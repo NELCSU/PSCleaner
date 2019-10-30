@@ -25,6 +25,13 @@ h1, h2, h3, h4 {
 
 hr { color: #aaa }
 
+nel-on-off {
+  --color: #666;
+  --color-on: #009; 
+  --bg-color: #ccc;
+  --bg-color-on: #ccf;
+}
+
 .border { border: 1px solid #aaa }
 
 .btn-link {

@@ -41,6 +41,7 @@ export type TrainingFolderRequest = "get-training-folder" | "get-training-file-c
 export type TrainingFolderResponse = "training-folder" | "training-file-count" | "training-folder-error";
 
 export type SearchTermResult = {
+  id: number,
   keyword: string,
   original_term?: string,
   start: number
@@ -48,6 +49,7 @@ export type SearchTermResult = {
 
 export type MatchedEntity = {
   entity: Entity,
+  id: number,
   value: string,
   start: number,
   end: number,

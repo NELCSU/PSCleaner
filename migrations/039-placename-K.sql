@@ -11548,6 +11548,7 @@ VALUES
 ('Kyo Lane'),
 ('Kyo Road'),
 ('Kyo Wood'),
+('Kyoto'),
 ('Kyoto Close'),
 ('Kyoto Court'),
 ('Kyoto Walk'),
