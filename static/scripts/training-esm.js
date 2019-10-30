@@ -127,7 +127,7 @@ function createSelection(node, start, length) {
   return sel;
 }
 
-function deleteFile() {
+function delete() {
   const choice = remote.dialog.showMessageBoxSync(null, {
     type: "warning",
     buttons: ["Delete", "Cancel"],

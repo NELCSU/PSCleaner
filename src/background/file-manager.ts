@@ -1,17 +1,19 @@
-import chok from "chokidar";
+import * as chok from "chokidar";
+import * as os from "os";
 import { FSWatcher } from "chokidar";
 import EventEmitter from "events";
 import fs from "fs-extra";
+import uuidv1 from "uuid/v1";
 import makeDir from "make-dir";
-import path from "path";
-import trash from "trash";
+import { basename, join } from "path";
+import { isRootOrDriveLetter } from "./util/path";
 
 /**
  * ### Wrapper for Node's FileSystem library
  */
 export class FileManager {
   private _folder!: string;
-
+  
   public events = new EventEmitter();
   public get fileCount(): Promise<number> {
     return this.listFiles().then(files => files.length);
@@ -52,20 +54,36 @@ export class FileManager {
    */
   public async copyFiles(from: string, to: string): Promise<boolean> {
     const files: string[] = await this.listFiles(from);
-    return Promise.all(files.map(f => fs.copyFile(path.join(from, f), path.join(to, f))))
+    return Promise.all(files.map(f => fs.copyFile(join(from, f), join(to, f))))
       .then(_ => Promise.resolve(true))
       .catch((err: string) => Promise.reject(err));
   }
 
   /**
-   * Recycles file (soft delete)
-   * @param {string} file - file to send to recycle bin
+   * Deletes a folder of file
+   * @param {string} path - return true if successful
    * @return {Promise<boolean>} - returns true if file deleted
    */
-  public async deleteFile(file: string): Promise<boolean> {
-    return await trash([file])
-      .then(_ => Promise.resolve(true))
-      .catch((err: string) => Promise.reject(err));
+  public async delete(path: string): Promise<boolean> {
+    if (isRootOrDriveLetter(path)) {
+      throw new Error("Cannot to recursively delete root");
+    }
+    try {
+      const pathInTemp = join(os.tmpdir(), uuidv1());
+      try {
+        await fs.rename(path, pathInTemp);
+      } catch {
+        this._delete(path);
+        return Promise.resolve(true);
+      }
+      this._delete(pathInTemp)
+      return Promise.resolve(true);
+    } catch (err) {
+      if (err.code !== "ENOENT") {
+        throw err;
+      }
+      return Promise.reject(false);
+    }
   }
 
   /**
@@ -73,10 +91,11 @@ export class FileManager {
    * @param {string} file - file path to check
    * @return {string}
    */
-  public fileName(file: string): string { return path.basename(file); }
+  public fileName(file: string): string { return basename(file); }
 
   /**
    * Folder initialiser
+   * @param {boolean} previousFailure - default = false, updates file watcher on error
    */
   public init(previousFailure: boolean = false): void {
     let path: string = this.folder;
@@ -110,7 +129,7 @@ export class FileManager {
    * Returns file under path
    * @param {string} file - file to link into path
    */
-  public join(file: string): string { return path.join(this.folder, file); }
+  public join(file: string): string { return join(this.folder, file); }
 
   /**
    * Returns file list from folder
@@ -149,6 +168,31 @@ export class FileManager {
   public * readFiles(files: string[]): Generator<string, any, undefined> {
     for (let file of files) {
       yield fs.readFileSync(this.join(file), "utf8");
+    }
+  }
+
+  /**
+   * See https://github.com/microsoft/vscode/blob/master/src/vs/base/node/pfs.ts
+   * @param {string} path - directory or folder
+   */
+  private async _delete(path: string): Promise<void> {
+    try {
+      const stat = await fs.lstat(path);  
+      if (stat.isDirectory() && !stat.isSymbolicLink()) {
+        const children = await fs.readdir(path);
+        await Promise.all(children.map(child => this._delete(join(path, child))));
+        await fs.rmdir(path);
+      } else {
+        const mode = stat.mode;
+        if (!(mode & 128)) {
+          await fs.chmod(path, mode | 128);
+        }
+        return fs.unlink(path);
+      }
+    } catch (err) {
+      if (err.code !== "ENOENT") {
+        throw err;
+      }
     }
   }
 }

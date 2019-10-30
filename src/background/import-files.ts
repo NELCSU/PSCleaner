@@ -1,5 +1,5 @@
 import { app, ipcMain as ipc } from "electron";
-import { FileManager } from "./filemanager";
+import { FileManager } from "./file-manager";
 import DB from "sqlite3-helper";
 import { join } from "path";
 import { ImportResponse } from "../typings/PSCleaner";

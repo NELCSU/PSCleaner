@@ -1,7 +1,7 @@
 import { app, ipcMain as ipc } from "electron";
 import EventEmitter from "events";
 import csv from "fast-csv";
-import { FileManager } from "./filemanager";
+import { FileManager } from "./file-manager";
 import { NLP } from "./nlp.js";
 import { join, parse } from "path";
 import DB from "sqlite3-helper";
@@ -111,7 +111,7 @@ export class ProcessFiles {
             stream.end();
             Promise.all([
               this.fm.fs.move(temp, to), 
-              this.fm.deleteFile(from)
+              this.fm.delete(from)
             ]).then(_ => this._events.emit("file-processed"))
               .catch(_ => this._events.emit("file-processing-error"));
           });

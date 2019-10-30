@@ -3,7 +3,7 @@ import stringify from "json-stringify-pretty-compact";
 import { join } from "path";
 import DB from "sqlite3-helper";
 import uuidv1 from "uuid/v1";
-import { FileManager } from "./filemanager";
+import { FileManager } from "./file-manager";
 import { TrainingFileAction } from "../typings/PSCleaner";
 
 /**
@@ -94,7 +94,7 @@ export class TrainingFiles {
    * @return {Promise<any}
    */
   public delete(file: string): Promise<TrainingFileAction> {
-    return this.fm.deleteFile(file)
+    return this.fm.delete(file)
       .then(_ => Promise.resolve({
         fn: file,
         status: "training-file-deleted"
