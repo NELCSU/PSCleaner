@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src-elem 'self' 'unsafe-inline' es6: blob:;">
+  <title>PSCleaner</title>
+  <link rel="stylesheet" href="./css/shared.css">
+  <link rel="stylesheet" href="./css/templates.css">
+  <script type="module" src="es6://lib/web-components/dist/web-components/web-components.esm.js"></script>
+</head>
+
+<body>
+  <nel-network-connection>
+    <div class="network flex-r vcenter hleft"><span class="message">Application is offline</span></div>
+  </nel-network-connection>
+  
+  <nel-modal-view id="modalView" align="bottom">
+    <div class="modal-message"></div>
+  </nel-modal-view>
+
+  <h2><a href="./index.html">Home</a> &gt; Manage templates</h2>
+
+  <div id="pnlAddTemplate" class="flex-c border panel pad">
+    <div class="flex-r vcenter">
+      <select class="wide" id="listTemplates">
+        <option value="New" selected>Create a new template</option>
+      </select>
+    </div>
+    <hr>
+
+    <div class="flex-r vcenter pad3">
+      <label class="wide" for="txtHeader">CSV file has a header row</label>
+      <div class="grow"><nel-on-off id="btnHeader" size="3" on></nel-on-off></div>
+    </div>
+
+    <hr>
+    <div class="flex-r vcenter pad3">
+      <div class="wide"><a href="#" id="btnAddField" class="btn-link" title="Add field">Add a column</a></div>
+      <div class="grow">Sensitive</div>
+    </div>
+
+    <div id="clone" class="flex-r vcenter pad3 hidden clone">
+      <nel-text-input class="flex-form-item wide" placeholder="Column name"></nel-text-input>
+      <div class="grow"><nel-on-off size="3"></nel-on-off></div>
+    </div>
+    
+    <hr>
+    <div class="flex-r vcenter pad3">
+      <div class="wide">
+        <a href="#" id="btnAddText" class="btn-link disabled" title="Save file">Save</a>
+        <a href="#" id="btnCloseFile" class="btn-link disabled" title="Close file">Close</a>
+      </div>
+      <div class="grow"><a href="#" id="btnDeleteTextFile" class="btn-link disabled warn" title="Delete file">Delete</a></div>
+    </div>
+
+    <div class="flex-r vcenter">
+      <nel-text-input id="txtFilename" class="flex-form-item wide" placeholder="File name" maxlength="64"></nel-text-input>
+    </div>
+  </div>
+  <script src="./scripts/templates.js"></script>
+</body>
+
+</html>

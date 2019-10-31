@@ -1,7 +1,8 @@
 import { ipcRenderer as ipc, remote } from "electron";
 import { one } from "@buckneri/js-lib-dom-selection";
 
-let importFolder = "", processingFolder = "", exportFolder = "", trainingFolder = "";
+let importFolder = "", processingFolder = "";
+let exportFolder = "", templateFolder = "", trainingFolder = "";
 const modalView = one("#modalView");
 const modalMessage = one(".modal-message");
 const dialogOptions = {
@@ -111,6 +112,37 @@ function showError(msg) {
   });
 
   ipc.send("get-export-folder");
+})();
+
+(function ChooseTemplateFolder() {
+  const browse = one("#btnTemplateSelection");
+  const label = one("#lblTemplateFilePath");
+
+  browse.addEventListener("click", _ => {
+    dialogOptions.defaultPath = templateFolder;
+    remote.dialog.showOpenDialog(null, dialogOptions)
+      .then(f => {
+        if (f.filePaths.length > 0) {
+          if (f.filePaths[0] !== importFolder && f.filePaths[0] !== processingFolder && f.filePaths[0] !== exportFolder) {
+            templateFolder = f.filePaths[0];
+            label.textContent = templateFolder ? templateFolder : "Not specified";
+            if (templateFolder) {
+              ipc.send("set-template-folder", templateFolder);
+            }
+          } else {
+            showError(PATH_COLLISION);
+          }
+        }
+      })
+      .catch(err => showError(err));
+  });
+
+  ipc.on("template-folder", (_, path) => {
+    templateFolder = path;
+    label.textContent = templateFolder ? templateFolder : "Not specified";
+  });
+
+  ipc.send("get-template-folder");
 })();
 
 (function ChooseTrainingDataFolder() {

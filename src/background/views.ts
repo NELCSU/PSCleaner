@@ -12,6 +12,7 @@ pages.set("entities", fileUrl(j(view, "entities.html")));
 pages.set("index", fileUrl(j(view, "index.html")));
 pages.set("settings", fileUrl(j(view, "settings.html")));
 pages.set("training", fileUrl(j(view, "training.html")));
+pages.set("templates", fileUrl(j(view, "templates.html")));
 
 export default {
   images: images,

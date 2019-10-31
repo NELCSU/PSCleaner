@@ -29,6 +29,9 @@ export class AppMenu {
             case "showHelp":
               s.click = () => this.showHelp(s.url);
               break;
+            case "showTemplates":
+              s.click = () => this.showTemplates();
+              break;
             case "showTrainingData":
               s.click = () => this.showTrainingData();
               break;
@@ -64,6 +67,10 @@ export class AppMenu {
 
   public showSettings(): void {
     this._parent.mainWindow.loadURL(config.pages.get("settings"));
+  }
+
+  public showTemplates(): void {
+    this._parent.mainWindow.loadURL(config.pages.get("templates"));
   }
 
   public showTrainingData(): void {

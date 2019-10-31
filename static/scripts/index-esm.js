@@ -17,6 +17,11 @@ let exportFiles = 0;
 let running = false;
 let timeStart, timeEnd = new Date(null), timer;
 
+/**
+ * Displays timestamp as hh:mm:ss
+ * @param {number?} start - milliseconds
+ * @param {number?} end - milliseconds
+ */
 function formatTime(start, end) {
   if (start === null) {
     start = Date.now();
@@ -28,21 +33,32 @@ function formatTime(start, end) {
   return timeEnd.toISOString().substr(11, 8);
 }
 
+/**
+ * Starts progress bar
+ */
 function setUpProgressBar() {
   progressBar.value = 0;
   progressBar.max = importFiles + processingFiles + exportFiles;
   progressBar.hidden = false;
 }
 
+/**
+ * Starts timer
+ */
 function setUpTimer() {
   runButton.textContent = "Stop";
   timeStart = Date.now();
+  timeEnd = new Date(null);
   timeLabel.innerHTML = "starting " + formatTime(timeStart, Date.now());
   timer = setInterval(() => {
     timeLabel.innerHTML = "in progress " + formatTime(timeStart, Date.now());
   }, 1000);
 }
 
+/**
+ * Displays error message to user
+ * @param {string} msg - message to display
+ */
 function showError(msg) {
   console.log(msg);
   modalMessage.innerHTML = msg;
@@ -50,19 +66,26 @@ function showError(msg) {
   setTimeout(() => modalView.open = false, messageDelay);
 }
 
+/**
+ * Shuts down progress bar
+ */
 function teardownProgressBar() {
   progressBar.max = 0;
   progressBar.hidden = true;
 }
 
-function teardownTimer() {
+/**
+ * Shuts down timer
+ * @param {boolean} halt - stop timer immediately if true
+ */
+function teardownTimer(halt) {
   clearInterval(timer);
-  if (processingFiles > 0) {
+  if (processingFiles > 0 && !halt) {
     runButton.disabled = true;
     runButton.textContent = "Stopping";
     timer = setInterval(() => {
       timeLabel.innerHTML = "Stopping " + formatTime(timeStart, Date.now());
-      teardownTimer();
+      teardownTimer(halt);
     }, 1000);
   } else {
     runButton.disabled = false;
@@ -71,9 +94,13 @@ function teardownTimer() {
   }
 }
 
-function toggleRun() {
+/**
+ * Starts/stops processing
+ * @param {boolean} halt - stop timer and processing immediately if true
+ */
+function toggleRun(halt = false) {
   running = !running;
-  running ? setUpTimer() : teardownTimer();
+  running ? setUpTimer() : teardownTimer(halt);
   if (running) {
     if (importFiles > 0 || processingFiles > 0) {
       setUpProgressBar();
@@ -85,15 +112,18 @@ function toggleRun() {
     } else {
       running = false;
       teardownProgressBar();
-      teardownTimer();
+      teardownTimer(halt);
       showError(FILES_REQUIRED);
     }
   } else {
     teardownProgressBar();
-    teardownTimer();
+    teardownTimer(halt);
   }
 }
 
+/**
+ * Checks file counts and resumes import
+ */
 function startImport() {
   if (processingFiles === 0) {
     if (importFiles === 0) {
@@ -108,7 +138,7 @@ function startImport() {
   }
 }
 
-runButton.addEventListener("click", toggleRun);
+runButton.addEventListener("click", _ => toggleRun());
 
 //*** opens explorer view for each folder via badge click
 importBadge.addEventListener("click", _ => ipc.send("get-import-folder"));
@@ -144,5 +174,10 @@ ipc.on("export-file-count", (_, data) => {
 
 //*** Error handling
 ipc.on("import-folder-error", (_, err) => showError(`An error occurred with the import folder ${err}`));
-ipc.on("processing-folder-error", (_, err) => showError(`An error occurred with the processing folder ${err}`));
-ipc.on("export-folder-error", (_, err) => showError(`An error occurred with the export folder ${err}`));
+ipc.on("processing-folder-error", (_, err) => {
+  showError(err);
+  if (running) {
+    toggleRun(true);
+  }
+});
+ipc.on("export-folder-error", (_, err) => showError(`An error occurred with the export folder: ${err}`));

@@ -15,6 +15,7 @@ import { TrainingFiles } from "./training-files";
 import { ImportFiles } from "./import-files";
 import { ExportFiles } from "./export-files";
 import { ProcessFiles } from "./process-files";
+import { TemplateFiles } from "./template-files";
 import { AppWindow } from "./window";
 import { NLP } from "./nlp.js";
 import fs from "fs";
@@ -31,6 +32,7 @@ class Main {
   public importFiles!: ImportFiles;
   public exportFiles!: ExportFiles;
   public processFiles!: ProcessFiles;
+  public templateFiles!: TemplateFiles;
   public trainingFiles!: TrainingFiles;
   public tray: any;
 
@@ -56,7 +58,8 @@ class Main {
         .then(async _ => {
           const nlp: NLP = new NLP();
           this.entities = new Entities();
-          this.trainingFiles = new TrainingFiles(this);
+          this.trainingFiles = new TrainingFiles();
+          this.templateFiles = new TemplateFiles();
           this.importFiles = new ImportFiles();
           this.exportFiles = new ExportFiles();
           this.processFiles = new ProcessFiles();
@@ -81,6 +84,26 @@ class Main {
               this.mainWindow.webContents.send("NLP-trace", nlp.trace);
             } else {
               nlp.trace = n;
+            }
+          });
+
+          ipc.on("start-processing", async e => {
+            try {
+              if (!this.templateFiles.ready) {
+                throw new Error(this.templateFiles.error);
+              }
+              this.processFiles.fm.listFiles()
+                .then(files => {
+                  if (files.length > 0) {
+                    this.processFiles.processFile(files[0], this.templateFiles);
+                    this.processFiles.events.on("file-processed", _ => e.reply("processed"));
+                  } else {
+                    this.processFiles.events.on("file-processing-error", _ => e.reply("stop-processing"));
+                    e.reply("stop-processing");
+                  }
+                });
+            } catch (err) {
+              e.reply("processing-folder-error", err.message);
             }
           });
         })

@@ -19,20 +19,16 @@ import { TrainingFileAction } from "../typings/PSCleaner";
  * 8. rename-training-file    -> training-file-renamed
  * 9. save-training-file      -> training-file-save-error
  * 10. save-training-file      -> training-file-saved
- * 11. get-training-file-count -> training-file-count
- * 12. get-training-folder     -> training-folder
- * 13. set-training-folder     -> training-folder
- * 14. set-training-folder     -> training-folder-error
+ * 11. get-training-folder     -> training-folder
+ * 12. set-training-folder     -> training-folder
+ * 13. set-training-folder     -> training-folder-error
  */
 export class TrainingFiles {
   public fm!: FileManager;
   public ready: boolean = false;
 
-  /**
-   * @param parent - reference to main process
-   */
-  constructor(parent: any) {
-    this.init(parent);
+  constructor() {
+    this.init();
 
     ipc.on("save-training-file", (e, file, data) => {
       this.save(file, data)
@@ -63,7 +59,6 @@ export class TrainingFiles {
         );
     });
 
-
     ipc.on("delete-training-file", (e, file) => {
       this.delete(this.fm.join(file))
         .then(
@@ -78,11 +73,6 @@ export class TrainingFiles {
           success => e.reply(success.status, success.fn, success.data),
           failure => e.reply(failure.status)
         );
-    });
-
-    ipc.on("get-training-file-count", e => {
-      this.fm.fileCount
-        .then(n => e.reply("training-file-count", n));
     });
 
     ipc.on("get-temp-training-file", e => e.reply("temp-training-filename", uuidv1() + ".json"));
@@ -177,7 +167,7 @@ export class TrainingFiles {
   /**
    * Class initialiser and creates the folder path setting if missing
    */
-  public async init(parent: any): Promise<void> {
+  public async init(): Promise<void> {
     await DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field='TRAINING_FOLDER'`)
       .then(async row => {
         if (row) {
@@ -190,11 +180,6 @@ export class TrainingFiles {
       })
       .then((location: string) => {
         this.fm = new FileManager(location);
-
-        this.fm.events.on("file-count-change", count => {
-          count.then((n: number) => parent.mainWindow.webContents.send("training-file-count", n));
-        });
-
         this.ready = true;
       });
   }

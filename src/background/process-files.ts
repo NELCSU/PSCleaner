@@ -5,25 +5,27 @@ import { FileManager } from "./file-manager";
 import { NLP } from "./nlp.js";
 import { join, parse } from "path";
 import DB from "sqlite3-helper";
+import { cleanText } from "./util/text";
+import { TemplateFiles } from "./template-files";
 
 /**
  * ### Manages files stored in watched folder. Runs NLP services on files.
- * #### API  (ipc request     -> response)
+ * #### API  (ipc request   -> response)
  * 1. start-processing      -> processed
  * 2. start-processing      -> stop-processing
- * 3. processing-file-count -> processing-file-count
- * 4. get-processing-folder -> processing-folder
- * 5. set-processing-folder -> processing-folder
- * 6. set-processing-folder -> processing-folder-error
+ * 3. start-processing      -> processing-folder-error
+ * 4. processing-file-count -> processing-file-count
+ * 5. get-processing-folder -> processing-folder
+ * 6. set-processing-folder -> processing-folder
+ * 7. set-processing-folder -> processing-folder-error
  */
 export class ProcessFiles {
-  private _events = new EventEmitter();
-
-  public fm!: FileManager;
+  public events = new EventEmitter();
+  public fm!: FileManager;  
   public nlp: NLP;
   public ready: boolean = false;
   public sendTo: string = "";
-
+  
   constructor() {
     this.init();
 
@@ -38,26 +40,13 @@ export class ProcessFiles {
             this.fm.folder = path;
             e.reply("processing-folder", this.fm.folder)
           },
-          _ => e.reply("processing-folder-error", this.fm.folder)
+          _ => e.reply("processing-folder-error", `${this.fm.folder} cannot be opened`)
         );
     });
 
     ipc.on("processing-file-count", e => {
       this.fm.fileCount
         .then(n => e.reply("processing-file-count", n));
-    });
-
-    ipc.on("start-processing", e => {
-      this.fm.listFiles()
-        .then(files => {
-          if (files.length > 0) {
-            this.processFile(files[0]);
-            this._events.on("file-processed", _ => e.reply("processed"));
-          } else {
-            this._events.on("file-processing-error", _ => e.reply("stop-processing"));
-            e.reply("stop-processing");
-          }
-        });
     });
   }
 
@@ -85,8 +74,9 @@ export class ProcessFiles {
   /**
    * Processes file. Applies NLP service on free text
    * @param {string} file
+   * @param {ImportTemplate} - template to validate CSV file
    */
-  public processFile(file: string): void {
+  public processFile(file: string, templates: TemplateFiles): void {
     const from: string = join(this.fm.folder, file);
     const temp: string = join(this.fm.folder, "temp.tmp");
     let to: string = join(this.sendTo, file);
@@ -98,13 +88,15 @@ export class ProcessFiles {
         }
       });
 
-    const stream = csv.format({ headers: true });
+    const stream = csv.format({ headers: templates.header });
     const writeStream = this.fm.fs.createWriteStream(temp);
     stream.pipe(writeStream);
     const rows: Promise<any>[] = [];
 
-    csv.parseFile(from, { headers: true })
-      .on("data", async (row: any) => await rows.push(this._processRow(row, stream)))
+    csv.parseFile(from, { headers: templates.header })
+      .on("data", async (row: any) => {
+        await rows.push(this._processRow(row, stream, templates.fields));
+      })
       .on("end", () => {
         Promise.all(rows)
           .then(_ => {
@@ -112,17 +104,17 @@ export class ProcessFiles {
             Promise.all([
               this.fm.fs.move(temp, to), 
               this.fm.delete(from)
-            ]).then(_ => this._events.emit("file-processed"))
-              .catch(_ => this._events.emit("file-processing-error"));
+            ]).then(_ => this.events.emit("file-processed"))
+              .catch(_ => this.events.emit("file-processing-error"));
           });
       });
   }
 
-  private _processRow(row: any, stream: any): Promise<any> {
+  private _processRow(row: any, stream: any, fields: Map<string, boolean>): Promise<any> {
     const cellQ: any[] = [];
 
     for (let cell in row) {
-      cellQ.push(this._processCell(cell, row));
+      cellQ.push(this._processCell(cell, row, fields));
     }
 
     return Promise.all(cellQ)
@@ -132,10 +124,10 @@ export class ProcessFiles {
       });
   }
 
-  private async _processCell(cell: any, row: any[]): Promise<any> {
-    let normalised: string = row[cell].replace(/(?:\r\n|\r|\n)/g, " ");
-    normalised = normalised.replace(/\s+/g, " ");
-    return /.*freetext.*/i.test(cell)
+  private async _processCell(cell: any, row: any[], fields: Map<string, boolean>): Promise<any> {
+    let normalised: string = cleanText(row[cell]);
+    let canProcess: boolean = fields.get(cell) || false;
+    return canProcess
       ? await this.nlp.evaluate(normalised)
         .then(async matches => {
           await this.nlp.replace(normalised, matches)

@@ -25,6 +25,10 @@
           "click": "showEntities"
         },
         {
+          "label": "Templates",
+          "click": "showTemplates"
+        },
+        {
           "label": "Training data",
           "click": "showTrainingData"
         }

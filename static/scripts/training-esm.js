@@ -10,7 +10,6 @@ import { one } from "@buckneri/js-lib-dom-selection";
 const cancelEntityButton = one("#btnEntityTagger");
 const closeButton = one("#btnCloseFile");
 const clearButton = one("#btnClearTags");
-const count = one("#hintTrainingDataCount");
 const dataEntryText = one("#txtAddText");
 const deleteButton = one("#btnDeleteTextFile");
 const files = one("#pnlFileName");
@@ -237,14 +236,6 @@ function toggleRenameFile(e) {
   }
 }
 
-function updateCount(n) {
-  count.textContent = (n === 0
-    ? "No files"
-    : n === 1
-      ? `${n} file`
-      : `${n} files`) + " found";
-}
-
 autodiscoverButton.addEventListener("click", autoDiscover);
 cancelEntityButton.addEventListener("click", cancelEntityChoice);
 clearButton.addEventListener("click", clearTags);
@@ -329,7 +320,6 @@ ipc.on("training-file", (_, file, dt) => {
   window.dispatchEvent(new CustomEvent("NewTrainingData"));
 });
 
-ipc.on("training-file-count", (_, count) => updateCount(count));
 ipc.on("training-file-deleted", _ => closeButton.click());
 ipc.on("training-file-saved", _ => saveButton.classList.add("disabled"));
 
@@ -371,7 +361,6 @@ ipc.on("NLP-sensitivity", (_, n) => sensitivityButton.value = n);
 ipc.on("NLP-trace", (_, n) => traceButton.on = n);
 
 ipc.send("get-entities");
-ipc.send("get-training-file-count");
 ipc.send("NLP-sensitivity");
 ipc.send("NLP-trace");
 
