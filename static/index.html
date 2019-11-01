@@ -27,10 +27,14 @@
   </nel-item-collection>
 
   <div class="flex-r vcenter">
-    <a href="#" id="btnProcessFiles" data-status="inactive" class="btn-link">Start</a>
+    <a href="#" id="btnProcessFiles" data-status="inactive" class="btn-link disabled">Start</a>
     <progress id="stProcessFiles" max="100" value="0" hidden></progress>
     <div id="lblTime"></div>
   </div>
+
+  <select id="listTemplate">
+    <option value="Select a template" selected>Select a template</option>
+  </select>
   
   <script src="./scripts/index.js"></script>
 </body>

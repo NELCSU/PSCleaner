@@ -24,9 +24,15 @@
 
   <h2><a href="./index.html">Home</a> &gt; Manage templates</h2>
 
+  <div id="clone" class="flex-r vcenter pad3 hidden clone">
+    <img id="btnDelField" src="./images/delete.svg" class="action" alt="Click to delete" />
+    <nel-text-input class="flex-form-item wide clone" placeholder="Column name" pattern=".*" width="35"></nel-text-input>
+    <div class="grow"><nel-on-off size="3"></nel-on-off></div>
+  </div>
+
   <div id="pnlAddTemplate" class="flex-c border panel pad">
     <div class="flex-r vcenter">
-      <select class="wide" id="listTemplates">
+      <select class="wide" id="listTemplate">
         <option value="New" selected>Create a new template</option>
       </select>
     </div>
@@ -34,7 +40,7 @@
 
     <div class="flex-r vcenter pad3">
       <label class="wide" for="txtHeader">CSV file has a header row</label>
-      <div class="grow"><nel-on-off id="btnHeader" size="3" on></nel-on-off></div>
+      <div class="grow"><nel-on-off id="btnHeader" size="3" disabled on></nel-on-off></div>
     </div>
 
     <hr>
@@ -42,19 +48,14 @@
       <div class="wide"><a href="#" id="btnAddField" class="btn-link" title="Add field">Add a column</a></div>
       <div class="grow">Sensitive</div>
     </div>
-
-    <div id="clone" class="flex-r vcenter pad3 hidden clone">
-      <nel-text-input class="flex-form-item wide" placeholder="Column name"></nel-text-input>
-      <div class="grow"><nel-on-off size="3"></nel-on-off></div>
-    </div>
     
-    <hr>
+    <hr id="insertionPoint">
     <div class="flex-r vcenter pad3">
       <div class="wide">
-        <a href="#" id="btnAddText" class="btn-link disabled" title="Save file">Save</a>
-        <a href="#" id="btnCloseFile" class="btn-link disabled" title="Close file">Close</a>
+        <a href="#" id="btnSave" class="btn-link disabled" title="Save">Save</a>
+        <a href="#" id="btnClear" class="btn-link" title="Clear form">Clear</a>
       </div>
-      <div class="grow"><a href="#" id="btnDeleteTextFile" class="btn-link disabled warn" title="Delete file">Delete</a></div>
+      <div class="grow"><a href="#" id="btnDelete" class="btn-link disabled warn" title="Delete entry">Delete</a></div>
     </div>
 
     <div class="flex-r vcenter">

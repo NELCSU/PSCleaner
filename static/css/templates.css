@@ -1,15 +1,12 @@
 #pnlAddTemplate {
-  max-width: 400px;
-  min-width: 320px;
+  max-width: 500px;
+  min-width: 420px;
   width: 100%
 }
 
 h2 { margin-bottom: 30px }
 
-nel-text-input, select {
-  font-size: 1rem;
-  padding: 5px
-}
+.action { cursor: pointer }
 
 .grow {
   flex-grow: 1;

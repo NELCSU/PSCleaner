@@ -3,53 +3,88 @@ import { ipcRenderer as ipc, remote } from "electron";
 import { one } from "@buckneri/js-lib-dom-selection";
 import db from "debounce";
 
-const closeButton = one("#btnCloseFile");
-const deleteButton = one("#btnDeleteTextFile");
-const saveButton = one("#btnAddText");
+const clearButton = one("#btnClear");
+const deleteButton = one("#btnDelete");
+const saveButton = one("#btnSave");
 const addFieldButton = one("#btnAddField");
 const fileName = one("#txtFilename");
 const templateList = one("#listTemplate");
+const headerButton = one("#btnHeader");
+const panel = one("#pnlAddTemplate");
+const insertHere = one("#insertionPoint");
+const modalView = one("#modalView");
+const modalMessage = one(".modal-message");
 
 /**
  * Adds another column to the document
  */
-function addField() {
+function addField(fieldName, selected) {
   const count = document.querySelectorAll("div.clone").length;
   const clone = document.getElementById("clone");
   const newField = clone.cloneNode(true);
-  newField.id = `field_${count}`;
-  clone.insertAdjacentElement("afterend", newField);
-  newField.classList.remove("hidden");
   const txt = newField.querySelector("nel-text-input");
+  const btn = newField.querySelector("nel-on-off");
+  const del = newField.querySelector("#btnDelField");
+  newField.id = `field_${count}`;
+  txt.value = fieldName || "";
+  btn.on = selected;
+  insertHere.insertAdjacentElement("beforebegin", newField);
+  newField.classList.remove("hidden");
   txt.addEventListener("input", db(checkForm, 750));
+  del.addEventListener("click", deleteField);
+  btn.addEventListener("click", checkForm);
+  return newField;
 }
 
 /***
  * Checks all form elements to ensure fields conform
  */
 function checkForm() {
-  saveButton.disabled = true;
-  if (!validFilename(fileName.textContent)) {
+  saveButton.classList.add("disabled");
+  if (!validFilename(fileName.value)) {
     return;
   }
-  Array.from(document.querySelectorAll(".clone"))
-    .forEach((el) => {
-      if (el.textContent === "") {
-        return;
-      }
-    });
-  saveButton.disabled = false;
+  const fields = Array.from(panel.querySelectorAll("nel-text-input.clone"));
+  if (fields.length === 0) {
+    return;
+  }
+  let valid = true;
+  fields.forEach((el) => {
+    if (el.value === "") {
+      valid = false;
+    }
+  });
+  if (valid) {
+    saveButton.classList.remove("disabled");
+  }
 }
 
 /***
  * Clear the form
  */
-function closeFile() {
-  closeButton.classList.add("disabled");
+function clear() {
   deleteButton.classList.add("disabled");
-  saveButton.classList.add("disabled");  
-  fileName.textContent = "";
+  saveButton.classList.add("disabled");
+  fileName.value = "";
   templateList.selectedIndex = 0;
+  clearFields();
+}
+
+function clearFields() {
+  headerButton.on = true;
+  const remove = Array.from(panel.querySelectorAll("div.clone"));
+  for (let i = remove.length - 1; i > -1; i--) {
+    panel.removeChild(remove[i]);
+  }
+}
+
+/***
+ * Deletes row in form
+ */
+function deleteField(e) {
+  const row = event.target.parentNode;
+  row.parentNode.removeChild(row);
+  checkForm();
 }
 
 /***
@@ -64,20 +99,51 @@ function deleteFile() {
     defaultId: 1
   });
   if (choice === 0) {
-    ipc.send("delete-template-file", filename.textContent);
+    ipc.send("delete-template-file", templateList.options[templateList.selectedIndex].value);
   }
+}
+
+/***
+ * Load form from template data
+ */
+function loadForm(file, data) {
+  deleteButton.classList.remove("disabled");
+  fileName.value = file;
+  headerButton.on = data.header;
+  data.fields.forEach(field => {
+    addField(field[0], field[1]);
+  });
 }
 
 /***
  * Saves template
  */
 function saveFile() {
-  if (!validFilename(fileName.textContent)) {
-    showError("Please enter a valid file name");
-    fileName.focus();
-    return;
+  const data = {
+    header: headerButton.on ? true : false,
+    fields: []
   }
-  ipc.send("save-template-file", fileName.textContent, data);
+  const rows = Array.from(panel.querySelectorAll("div.clone"));
+  rows.forEach((r) => {
+    const txt = r.querySelector("nel-text-input");
+    const sen = r.querySelector("nel-on-off");
+    data.fields.push([ txt.value, sen.on ? true : false ]);
+  });
+  let newFilename = fileName.value.trim();
+  newFilename = newFilename.replace(/\.json/, "");
+  newFilename = `${newFilename}.json`;
+  ipc.send("save-template-file", fileName.value, data);
+}
+
+/***
+ * Send request for file to be loaded
+ */
+function selectFile() {
+  if (templateList.selectedIndex > 0) {
+    ipc.send("get-template-file", templateList.options[templateList.selectedIndex].value);
+  } else {
+    clear();
+  }
 }
 
 /**
@@ -91,12 +157,48 @@ function showError(msg) {
   setTimeout(() => modalView.open = false, messageDelay);
 }
 
-addFieldButton.addEventListener("click", addField);
-closeButton.addEventListener("click", closeFile);
+addFieldButton.addEventListener("click", () => addField());
+clearButton.addEventListener("click", clear);
 deleteButton.addEventListener("click", deleteFile);
-openButton.addEventListener("click", openFile);
-fileName.addEventListener("input", db(checkForm, 500));
+fileName.addEventListener("input", db(checkForm, 750));
 saveButton.addEventListener("click", saveFile);
+templateList.addEventListener("change", selectFile);
 
-ipc.on("template-file-deleted", _ => closeButton.click());
-ipc.on("template-file-saved", _ => saveButton.classList.add("disabled"));
+ipc.on("template-file", (e, file, data) => {
+  clearFields();
+  loadForm(file, JSON.parse(data));
+});
+
+ipc.on("template-files", (e, files) => {
+  Array.from(templateList.options)
+    .forEach((option, i) => {
+      if (i > 0){
+        templateList.removeChild(option);
+      }
+    });
+  let value = "";
+  files.forEach((file, i) => {
+    const option = document.createElement("option");
+    option.value = file;
+    option.text = file.replace(/\.json/, "");
+    if (option.text === fileName.value) {
+      value = option.text;
+    }
+    templateList.appendChild(option);
+  });
+  if (value) {
+    templateList.value = value;
+  }
+});
+
+ipc.on("template-file-deleted", _ => {
+  clear();
+  ipc.send("get-template-files");
+});
+
+ipc.on("template-file-saved", _ => {
+  saveButton.classList.add("disabled");
+  ipc.send("get-template-files");
+});
+
+ipc.send("get-template-files");

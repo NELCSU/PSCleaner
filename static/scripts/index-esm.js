@@ -9,6 +9,7 @@ const modalMessage = one(".modal-message");
 const runButton = one("#btnProcessFiles");
 const progressBar = one("#stProcessFiles");
 const timeLabel = one("#lblTime");
+const templateList = one("#listTemplate");
 const messageDelay = 3000;
 const FILES_REQUIRED = "Click on QUEUED to view the import folder. CSV files are required.";
 let importFiles = 0;
@@ -81,14 +82,14 @@ function teardownProgressBar() {
 function teardownTimer(halt) {
   clearInterval(timer);
   if (processingFiles > 0 && !halt) {
-    runButton.disabled = true;
+    runButton.classList.add("disabled");
     runButton.textContent = "Stopping";
     timer = setInterval(() => {
       timeLabel.innerHTML = "Stopping " + formatTime(timeStart, Date.now());
       teardownTimer(halt);
     }, 1000);
   } else {
-    runButton.disabled = false;
+    runButton.classList.remove("disabled");
     runButton.textContent = "Start";
     timeLabel.innerHTML = "Run completed " + formatTime(timeStart, Date.now());
   }
@@ -138,7 +139,16 @@ function startImport() {
   }
 }
 
+function selectTemplate() {
+  if (templateList.selectedIndex > 0) {
+    runButton.classList.remove("disabled");
+  } else {
+    runButton.classList.add("disabled");
+  }
+}
+
 runButton.addEventListener("click", _ => toggleRun());
+templateList.addEventListener("change", selectTemplate);
 
 //*** opens explorer view for each folder via badge click
 importBadge.addEventListener("click", _ => ipc.send("get-import-folder"));
@@ -170,6 +180,22 @@ ipc.on("export-file-count", (_, data) => {
     progressBar.value = exportFiles;
     startImport();
   }
+});
+
+ipc.send("get-template-files");
+ipc.on("template-files", (e, files) => {
+  Array.from(templateList.options)
+    .forEach((option, i) => {
+      if (i > 0){
+        templateList.removeChild(option);
+      }
+    });
+  files.forEach((file, i) => {
+    const option = document.createElement("option");
+    option.value = file;
+    option.text = file.replace(/\.json/, "");
+    templateList.appendChild(option);
+  });
 });
 
 //*** Error handling

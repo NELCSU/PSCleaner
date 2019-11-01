@@ -11,13 +11,11 @@ export type Entity = {
   type: EntityType
 }
 
-export type CSVField = {
-  [key:string]: boolean
-}
+export type CSVField = [string, boolean];
 
 export type CSVTemplate = {
   header: boolean;
-  fields: CSVField
+  fields: CSVField[]
 }
 
 export type EntityRequest = "delete-entity" | "get-entities" | "save-entity";  
@@ -37,8 +35,8 @@ export type ProcessingResponse = "processed" | "stop-processing";
 export type ProcessingFolderRequest = "get-processing-folder" | "processing-file-count" | "set-processing-folder";
 export type ProcessingFolderResponse = "processing-folder" | "processing-folder-error" | "processing-file-count";
 
-export type TemplateFileRequest = "delete-template-file" | "get-template-file" | "save-template-file";
-export type TemplateFileResponse = "template-file-deleted" | "template-file-deletion-error" | "template-file" | "template-file-error" | "template-file-save-error" | "template-file-saved";
+export type TemplateFileRequest = "delete-template-file" | "get-template-file" | "get-template-files" | "save-template-file";
+export type TemplateFileResponse = "template-file-deleted" | "template-file-deletion-error" | "template-file" | "template-files" | "template-file-error" | "template-file-save-error" | "template-file-saved";
 
 export type TemplateFileAction = {
   data?: string,

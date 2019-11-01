@@ -7,19 +7,20 @@ import { CSVTemplate, TemplateFileAction } from "../typings/PSCleaner";
 
 /**
  * ### Manages files stored in watched folder.
- * #### API  (ipc request     -> response)
- * 1. delete-templete-file    -> template-file-deleted
- * 2. delete-template-file    -> template-file-deletion-error
- * 3. get-template-file       -> template-file
- * 4. get-template-file       -> template-file-error
- * 5. rename-template-file    -> template-file-rename-error
- * 6. rename-template-file    -> template-file-rename-warning
- * 7. rename-template-file    -> template-file-renamed
- * 8. save-template-file      -> template-file-save-error
- * 9. save-template-file      -> template-file-saved
- * 10. get-template-folder     -> template-folder
- * 11. set-template-folder     -> template-folder
- * 12. set-template-folder     -> template-folder-error
+ * #### API  (ipc request  -> response)
+ * delete-templete-file    -> template-file-deleted
+ * delete-template-file    -> template-file-deletion-error
+ * get-template-file       -> template-file
+ * get-template-file       -> template-file-error
+ * get-template-files      -> template-files
+ * rename-template-file    -> template-file-rename-error
+ * rename-template-file    -> template-file-rename-warning
+ * rename-template-file    -> template-file-renamed
+ * save-template-file      -> template-file-save-error
+ * save-template-file      -> template-file-saved
+ * get-template-folder     -> template-folder
+ * set-template-folder     -> template-folder
+ * set-template-folder     -> template-folder-error
  */
 export class TemplateFiles {
   public error: string = "";
@@ -53,10 +54,10 @@ export class TemplateFiles {
     });
 
     ipc.on("delete-template-file", (e, file) => {
-      this.delete(this.fm.join(file))
+      this.delete(file)
         .then(
-          success => e.reply(success.status),
-          failure => e.reply(failure.status)
+          success => e.reply(success),
+          failure => e.reply(failure)
         );
     });
 
@@ -65,6 +66,16 @@ export class TemplateFiles {
         .then(
           success => e.reply(success.status, success.fn, success.data),
           failure => e.reply(failure.status)
+        );
+    });
+
+    ipc.on("get-template-files", (e) => {
+      this.fm.listFiles()
+        .then(
+          success => {
+            success = success.map(f => f.replace(/\.json/, ""))
+            e.reply("template-files", success);
+          }
         );
     });
   }
@@ -77,7 +88,8 @@ export class TemplateFiles {
     if (template.header === undefined || typeof template.header !== "boolean") {
       throw new Error("Processing template is missing header specification");
     }
-    if (template.fields === undefined || (Object.keys(template.fields).length === 0 && template.fields.constructor === Object)) {
+    if (template.fields === undefined || !Array.isArray(template.fields) ||
+      (template.fields.length > 0 && !Array.isArray(template.fields[0]))) {
       throw new Error("Processing template is missing fields specification");
     }
   }
@@ -87,13 +99,12 @@ export class TemplateFiles {
    * @param {string} file - file to delete
    * @return {Promise<any}
    */
-  public delete(file: string): Promise<TemplateFileAction> {
-    return this.fm.delete(file)
-      .then(_ => Promise.resolve({
-        fn: file,
-        status: "template-file-deleted"
-      }),
-        _ => Promise.reject({ status: "template-file-deletion-error" })
+  public delete(file: string): Promise<string> {
+    const fullPath: string = this.fm.join(file.replace(/\.json/, "") + ".json");
+    return this.fm.delete(fullPath)
+      .then(
+        _ => Promise.resolve("template-file-deleted"),
+        _ => Promise.reject("template-file-deletion-error")
       );
   }
 
@@ -103,10 +114,11 @@ export class TemplateFiles {
    * @return {Promise<any>}
    */
   public open(file: string): Promise<TemplateFileAction> {
-    return this.fm.fs.readFile(file, "utf8")
+    const fullPath: string = this.fm.join(file.replace(/\.json/, "") + ".json");
+    return this.fm.fs.readFile(fullPath, "utf8")
       .then((data: string) => Promise.resolve({
         data: data,
-        fn: this.fm.fileName(file),
+        fn: file.replace(/\.json/, ""),
         status: "template-file"
       }),
         () => Promise.reject({ status: "template-file-error" })
@@ -120,7 +132,8 @@ export class TemplateFiles {
    * @return {Promise<any>}
    */
   public save(file: string, data: any): Promise<TemplateFileAction> {
-    return this.fm.saveFile(this.fm.join(file), stringify(data))
+    const fullPath: string = this.fm.join(file.replace(/\.json/, "") + ".json");
+    return this.fm.saveFile(fullPath, stringify(data))
       .then(
         _ => Promise.resolve({ status: "template-file-saved" }),
         _ => Promise.reject({ status: "template-file-save-error" })
