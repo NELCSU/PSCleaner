@@ -14571,7 +14571,6 @@ VALUES
 ('Gimtare'),
 ('Gimtili'),
 ('Gimy'),
-('Gin'),
 ('Gina'),
 ('Ginadel'),
 ('Ginadell'),

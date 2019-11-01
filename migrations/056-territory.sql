@@ -26,6 +26,7 @@ VALUES
 ('Bolivia'),
 ('Bosnia and Herzegovina'),
 ('Botswana'),
+('Brasil'),
 ('Brazil'),
 ('Brunei'),
 ('Bulgaria'),

@@ -4166,7 +4166,6 @@ VALUES
 ('Tamoya'),
 ('Tamoyev'),
 ('Tamoyewa'),
-('Tampa'),
 ('Tampakaki'),
 ('Tampaki'),
 ('Tampakis'),

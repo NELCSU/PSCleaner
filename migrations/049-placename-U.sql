@@ -3248,6 +3248,7 @@ VALUES
 ('UTC@harbourside'),
 ('UTC@MediaCityUK'),
 ('Utgard Way'),
+('Utica'),
 ('Utile Gardens'),
 ('Utkinton'),
 ('Utkinton and Cotebrook'),

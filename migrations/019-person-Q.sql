@@ -2231,7 +2231,6 @@ VALUES
 ('Qunwei'),
 ('Qunxiong'),
 ('Qunzhi'),
-('Quo'),
 ('Quoang'),
 ('Quoay'),
 ('Quoc'),

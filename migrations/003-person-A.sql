@@ -40383,7 +40383,6 @@ VALUES
 ('Apsorn'),
 ('Apsqualino'),
 ('Apstathios'),
-('Apt'),
 ('Aptab'),
 ('Aptabon'),
 ('Aptaker'),

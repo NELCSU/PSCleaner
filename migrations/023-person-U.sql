@@ -5047,7 +5047,6 @@ VALUES
 ('Utiashvili'),
 ('Utibe'),
 ('Utibirgenovas'),
-('Utica'),
 ('Utichi'),
 ('Utidjian'),
 ('Utieyi'),

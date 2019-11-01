@@ -248,7 +248,6 @@ VALUES
 ('Rabbets'),
 ('Rabbevaag'),
 ('Rabbhi'),
-('Rabbi'),
 ('Rabbia'),
 ('Rabbich'),
 ('Rabbie'),
