@@ -47284,7 +47284,6 @@ VALUES
 ('Summerwood Road'),
 ('Summerwood Top'),
 ('Summeryards Wood'),
-('Summit'),
 ('Summit Avenue'),
 ('Summit Close'),
 ('Summit Clump'),

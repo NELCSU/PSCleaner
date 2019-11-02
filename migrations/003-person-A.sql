@@ -52660,6 +52660,7 @@ VALUES
 ('Ausenbaugh'),
 ('Ausencia'),
 ('Ausenda'),
+('Ausenhus'),
 ('Ausere'),
 ('Auseren'),
 ('Auset'),

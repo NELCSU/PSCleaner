@@ -12254,7 +12254,6 @@ VALUES
 ('Demonick'),
 ('Demonico'),
 ('Demonpion'),
-('Demons'),
 ('Demont'),
 ('Demontagnac'),
 ('Demonte'),

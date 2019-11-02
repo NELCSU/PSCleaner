@@ -14212,7 +14212,6 @@ VALUES
 ('Heigholm Lane'),
 ('Heigholme'),
 ('Heigholme Lane'),
-('Height'),
 ('Height Barn Lane'),
 ('Height Barn Moss'),
 ('Height Clough'),

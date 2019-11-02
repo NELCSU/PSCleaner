@@ -6419,7 +6419,6 @@ VALUES
 ('Market Oak Lane'),
 ('Market Overton'),
 ('Market Parade'),
-('Market Place'),
 ('Market Place Approach'),
 ('Market Place Mews'),
 ('Market Place South'),

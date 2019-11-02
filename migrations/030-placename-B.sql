@@ -48342,6 +48342,7 @@ VALUES
 ('Brushy Bush Lane'),
 ('Brussells Road'),
 ('Brussells Terrace'),
+('Brussels'),
 ('Brussels Close'),
 ('Brussels Road'),
 ('Brussels Street'),

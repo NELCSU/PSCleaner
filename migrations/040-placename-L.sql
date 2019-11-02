@@ -26885,7 +26885,6 @@ VALUES
 ('Lockhursthatch Lane'),
 ('Lockies Wood'),
 ('Lockiesedge'),
-('Locking'),
 ('Locking Castle'),
 ('Locking Close'),
 ('Locking Croft'),

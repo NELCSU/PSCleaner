@@ -26110,6 +26110,7 @@ VALUES
 ('Kikuma'),
 ('Kikumba'),
 ('Kikumbi'),
+('Kikumi'),
 ('Kikumoto'),
 ('Kikumu'),
 ('Kikunuru'),
