@@ -3,11 +3,12 @@ import stringify from "json-stringify-pretty-compact";
 import { join } from "path";
 import DB from "sqlite3-helper";
 import { FileManager } from "./file-manager";
-import { CSVTemplate, TemplateFileAction } from "../typings/PSCleaner";
+import { CSVTemplate, ReadFileAction } from "../typings/PSCleaner";
 
 /**
  * ### Manages files stored in watched folder.
  * #### API  (ipc request  -> response)
+ * clear-templete-file
  * delete-templete-file    -> template-file-deleted
  * delete-template-file    -> template-file-deletion-error
  * get-template-file       -> template-file
@@ -23,7 +24,17 @@ import { CSVTemplate, TemplateFileAction } from "../typings/PSCleaner";
  * set-template-folder     -> template-folder-error
  */
 export class TemplateFiles {
-  public error: string = "";
+  private _error?: string;
+
+  public get error(): string | undefined {
+    return this._error;
+  }
+  public set error(message: string | undefined) {
+    this._error = message;
+    if (this._error) {
+      console.log(this._error);
+    }
+  }
   public fields: Map<string, boolean> = new Map<string, boolean>();
   public fm!: FileManager;
   public header: boolean = false;
@@ -32,8 +43,10 @@ export class TemplateFiles {
   constructor() {
     this.init();
 
+    ipc.on("clear-template-file", () => this.clear());
+
     ipc.on("save-template-file", (e, file, data) => {
-      this.save(file, data)
+      this.saveFile(file, data)
         .then(
           success => e.reply(success.status),
           failure => e.reply(failure.status)
@@ -54,7 +67,7 @@ export class TemplateFiles {
     });
 
     ipc.on("delete-template-file", (e, file) => {
-      this.delete(file)
+      this.deleteFile(file)
         .then(
           success => e.reply(success),
           failure => e.reply(failure)
@@ -62,10 +75,25 @@ export class TemplateFiles {
     });
 
     ipc.on("get-template-file", (e, file) => {
-      this.open(file)
+      this.openFile(file)
         .then(
-          success => e.reply(success.status, success.fn, success.data),
-          failure => e.reply(failure.status)
+          success => {
+            const data: CSVTemplate = JSON.parse(success.data as any);
+            if (this.check(data)) {
+              this.error = undefined;
+              this.clear();
+              this.header = data.header;
+              data.fields.forEach((field: [string, boolean]) => {
+                this.fields.set(field[0], field[1]);
+              });
+              e.reply(success.status, success.fn, data);
+            } else {
+              e.reply(this.error);
+            }
+          },
+          failure => {
+            e.reply(failure.status);
+          }
         );
     });
 
@@ -81,17 +109,28 @@ export class TemplateFiles {
   }
 
   /**
-   * Raises error if check on parameter fails
+   * Returns false if check on parameter fails. Stores error.
    * @param {CSVTemplate} template
    */
-  public check(template: CSVTemplate): void {
+  public check(template: CSVTemplate): boolean {
     if (template.header === undefined || typeof template.header !== "boolean") {
-      throw new Error("Processing template is missing header specification");
+      this.error = "Processing template is missing header specification";
+      return false;
     }
     if (template.fields === undefined || !Array.isArray(template.fields) ||
       (template.fields.length > 0 && !Array.isArray(template.fields[0]))) {
-      throw new Error("Processing template is missing fields specification");
+      this.error = "Processing template is missing fields specification";
+      return false;
     }
+    return true;
+  }
+
+  /***
+   * Clears out current selected template
+   */
+  public clear(): void {
+    this.header = false;
+    this.fields.clear();
   }
 
   /**
@@ -99,7 +138,7 @@ export class TemplateFiles {
    * @param {string} file - file to delete
    * @return {Promise<any}
    */
-  public delete(file: string): Promise<string> {
+  public deleteFile(file: string): Promise<string> {
     const fullPath: string = this.fm.join(file.replace(/\.json/, "") + ".json");
     return this.fm.delete(fullPath)
       .then(
@@ -113,7 +152,7 @@ export class TemplateFiles {
    * @param {string} file - path to file
    * @return {Promise<any>}
    */
-  public open(file: string): Promise<TemplateFileAction> {
+  public openFile(file: string): Promise<ReadFileAction> {
     const fullPath: string = this.fm.join(file.replace(/\.json/, "") + ".json");
     return this.fm.fs.readFile(fullPath, "utf8")
       .then((data: string) => Promise.resolve({
@@ -129,9 +168,9 @@ export class TemplateFiles {
    * Save a file
    * @param {string} file - path to file
    * @param {any} data - data to save to file
-   * @return {Promise<any>}
+   * @return {Promise<ReadFileAction>}
    */
-  public save(file: string, data: any): Promise<TemplateFileAction> {
+  public saveFile(file: string, data: any): Promise<ReadFileAction> {
     const fullPath: string = this.fm.join(file.replace(/\.json/, "") + ".json");
     return this.fm.saveFile(fullPath, stringify(data))
       .then(

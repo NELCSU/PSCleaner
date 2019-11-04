@@ -4,7 +4,7 @@ import { join } from "path";
 import DB from "sqlite3-helper";
 import uuidv1 from "uuid/v1";
 import { FileManager } from "./file-manager";
-import { TrainingFileAction } from "../typings/PSCleaner";
+import { ReadFileAction } from "../typings/PSCleaner";
 
 /**
  * ### Manages files stored in watched folder.
@@ -83,7 +83,7 @@ export class TrainingFiles {
    * @param {string} file - file to delete
    * @return {Promise<any}
    */
-  public delete(file: string): Promise<TrainingFileAction> {
+  public delete(file: string): Promise<ReadFileAction> {
     return this.fm.delete(file)
       .then(_ => Promise.resolve({
         fn: file,
@@ -98,7 +98,7 @@ export class TrainingFiles {
    * @param {string} file - path to file
    * @return {Promise<any>}
    */
-  public open(file: string): Promise<TrainingFileAction> {
+  public open(file: string): Promise<ReadFileAction> {
     return this.fm.fs.readFile(file, "utf8")
       .then((data: string) => Promise.resolve({
         data: data,
@@ -116,7 +116,7 @@ export class TrainingFiles {
    * @param {boolean} force - overwrite destination if true
    * @return {Promise<any>}
    */
-  public rename(srcFile: string, destFile: string, force: boolean = false): Promise<TrainingFileAction> {
+  public rename(srcFile: string, destFile: string, force: boolean = false): Promise<ReadFileAction> {
     let oldFilePath: string = this.fm.join(srcFile);
     let newFilePath: string = this.fm.join(destFile);
 
@@ -156,7 +156,7 @@ export class TrainingFiles {
    * @param {any} data - data to save to file
    * @return {Promise<any>}
    */
-  public save(file: string, data: any): Promise<TrainingFileAction> {
+  public save(file: string, data: any): Promise<ReadFileAction> {
     return this.fm.saveFile(this.fm.join(file), stringify(data))
       .then(
         _ => Promise.resolve({ status: "training-file-saved" }),

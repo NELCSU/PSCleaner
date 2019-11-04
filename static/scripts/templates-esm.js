@@ -67,10 +67,13 @@ function clear() {
   saveButton.classList.add("disabled");
   fileName.value = "";
   templateList.selectedIndex = 0;
-  clearFields();
+  removeFields();
 }
 
-function clearFields() {
+/***
+ * Removes columns from form
+ */
+function removeFields() {
   headerButton.on = true;
   const remove = Array.from(panel.querySelectorAll("div.clone"));
   for (let i = remove.length - 1; i > -1; i--) {
@@ -165,8 +168,8 @@ saveButton.addEventListener("click", saveFile);
 templateList.addEventListener("change", selectFile);
 
 ipc.on("template-file", (e, file, data) => {
-  clearFields();
-  loadForm(file, JSON.parse(data));
+  removeFields();
+  loadForm(file, data);
 });
 
 ipc.on("template-files", (e, files) => {

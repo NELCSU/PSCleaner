@@ -18,6 +18,12 @@ export type CSVTemplate = {
   fields: CSVField[]
 }
 
+export type ReadFileAction = {
+  data?: string,
+  fn?: string,
+  status: TrainingFileResponse | TemplateFileResponse
+}
+
 export type EntityRequest = "delete-entity" | "get-entities" | "save-entity";  
 export type EntityResponse = "entity-deleted" | "entity-deletion-error" | "entity-list" | "entity-list-error" | "entity-saved" | "entity-save-error";
 
@@ -35,26 +41,14 @@ export type ProcessingResponse = "processed" | "stop-processing";
 export type ProcessingFolderRequest = "get-processing-folder" | "processing-file-count" | "set-processing-folder";
 export type ProcessingFolderResponse = "processing-folder" | "processing-folder-error" | "processing-file-count";
 
-export type TemplateFileRequest = "delete-template-file" | "get-template-file" | "get-template-files" | "save-template-file";
+export type TemplateFileRequest = "clear-templete-file | delete-template-file" | "get-template-file" | "get-template-files" | "save-template-file";
 export type TemplateFileResponse = "template-file-deleted" | "template-file-deletion-error" | "template-file" | "template-files" | "template-file-error" | "template-file-save-error" | "template-file-saved";
-
-export type TemplateFileAction = {
-  data?: string,
-  fn?: string,
-  status: TemplateFileResponse
-}
 
 export type TemplateFolderRequest = "get-template-folder" | "set-template-folder";
 export type TemplateFolderResponse = "template-folder" | "template-file-count" | "template-folder-error";
 
 export type TrainingFileRequest = "delete-training-file" | "get-temp-training-file" | "get-training-file" | "rename-training-file" | "save-training-file";
 export type TrainingFileResponse = "training-file-deleted" | "training-file-deletion-error" | "temp-training-filename" | "training-file" | "training-file-error" | "training-file-rename-error" | "training-file-rename-warning" | "training-file-renamed" | "training-file-save-error" | "training-file-saved";
-
-export type TrainingFileAction = {
-  data?: string,
-  fn?: string,
-  status: TrainingFileResponse
-}
 
 export type TrainingFolderRequest = "get-training-folder" | "set-training-folder";
 export type TrainingFolderResponse = "training-folder" | "training-file-count" | "training-folder-error";

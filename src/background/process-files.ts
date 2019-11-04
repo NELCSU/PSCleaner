@@ -102,7 +102,7 @@ export class ProcessFiles {
           .then(_ => {
             stream.end();
             Promise.all([
-              this.fm.fs.move(temp, to), 
+              this.fm.fs.move(temp, to),
               this.fm.delete(from)
             ]).then(_ => this.events.emit("file-processed"))
               .catch(_ => this.events.emit("file-processing-error"));

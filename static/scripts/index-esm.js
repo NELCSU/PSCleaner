@@ -48,6 +48,7 @@ function setUpProgressBar() {
  */
 function setUpTimer() {
   runButton.textContent = "Stop";
+  templateList.classList.add("disabled");
   timeStart = Date.now();
   timeEnd = new Date(null);
   timeLabel.innerHTML = "starting " + formatTime(timeStart, Date.now());
@@ -90,6 +91,7 @@ function teardownTimer(halt) {
     }, 1000);
   } else {
     runButton.classList.remove("disabled");
+    templateList.classList.remove("disabled");
     runButton.textContent = "Start";
     timeLabel.innerHTML = "Run completed " + formatTime(timeStart, Date.now());
   }
@@ -141,8 +143,10 @@ function startImport() {
 
 function selectTemplate() {
   if (templateList.selectedIndex > 0) {
+    ipc.send("get-template-file", templateList.options[templateList.selectedIndex].text);
     runButton.classList.remove("disabled");
   } else {
+    ipc.send("clear-template-file");
     runButton.classList.add("disabled");
   }
 }

@@ -100,10 +100,6 @@ VALUES
   'Regular expression', '\b(?:[1-9]|1[0-2])\s?o[''\s]{1,2}clock\b'
 ),
 (
-  'TitleName', '#3380ff', 'Person',   0, 'PERSON',
-  'Regular expression', '\b(?:Dr|Mr|Mrs|Prof|Professor|Rev|St)\.?\s[a-z\-]+\b'
-),
-(
   'University','#80ff80', 'Location', 0, 'LOCATION',
   'Regular expression', '\buniversity\sof\s(?:east|eastern|north|northern|south|southern|west|western)?\s?[a-z\-]+\b'
 ),

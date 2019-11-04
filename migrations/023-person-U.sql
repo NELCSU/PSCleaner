@@ -853,6 +853,7 @@ VALUES
 ('Uehling'),
 ('Ueisi'),
 ('Ueith'),
+('Uejbe'),
 ('Uejs'),
 ('Ueki'),
 ('Ueklys'),
