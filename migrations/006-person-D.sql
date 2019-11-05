@@ -20396,7 +20396,6 @@ VALUES
 ('Dimchova'),
 ('Dimcovic'),
 ('Dimdore'),
-('Dime'),
 ('Dimeari'),
 ('Dimech'),
 ('Dimechkie'),

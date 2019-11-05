@@ -15921,7 +15921,6 @@ VALUES
 ('Nickeeta'),
 ('Nickeisha'),
 ('Nickeitha'),
-('Nickel'),
 ('Nickelberry'),
 ('Nickelia'),
 ('Nickeliah'),

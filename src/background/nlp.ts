@@ -95,16 +95,14 @@ export class NLP {
       const len: number = tag.value.length;
       const end: number = start + len - 1;
       cursor = end;
-      if (len > 1) {
-        if (this._sensitivityLevels[this.sensitivity].indexOf(`|${tag.pos}|`) > -1) {
-          if (tag.tag === "word") {
-            words.push({
-              value: tag.value,
-              start: start,
-              end: end,
-              length: len
-            });
-          }
+      if (this._sensitivityLevels[this.sensitivity].indexOf(`|${tag.pos}|`) > -1) {
+        if (tag.tag === "word") {
+          words.push({
+            value: tag.value,
+            start: start,
+            end: end,
+            length: len
+          });
         }
       }
     });

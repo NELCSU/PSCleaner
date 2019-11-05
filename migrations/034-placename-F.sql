@@ -15870,6 +15870,7 @@ VALUES
 ('Frankford Square'),
 ('Frankfort'),
 ('Frankfort Street'),
+('Frankfurt'),
 ('Frankfurt Road'),
 ('Frankham Close'),
 ('Frankham Street'),

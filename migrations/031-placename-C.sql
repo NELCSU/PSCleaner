@@ -60546,7 +60546,6 @@ VALUES
 ('Cebu City'),
 ('Cedar Rapids'),
 ('Celaya'),
-('Centennial'),
 ('Central Coast'),
 ('Champdani'),
 ('Chandannagar'),

@@ -1409,6 +1409,7 @@ VALUES
 ('Gaishu'),
 ('Gaisie'),
 ('Gaislova'),
+('Gaisman'),
 ('Gaisnon'),
 ('Gaisser'),
 ('Gaissert'),

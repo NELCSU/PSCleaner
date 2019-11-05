@@ -20023,7 +20023,6 @@ VALUES
 ('High Cote Moor'),
 ('High Coul Wood'),
 ('High Countam'),
-('High Court'),
 ('High Court Drive'),
 ('High Court Green Wood'),
 ('High Court Lane'),

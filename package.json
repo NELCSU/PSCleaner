@@ -39,7 +39,7 @@
     "@types/node": "^12.12.5",
     "@types/sqlite3": "^3.1.5",
     "@types/uuid": "^3.4.6",
-    "electron": "^7.0.1",
+    "electron": "^7.1.0",
     "electron-rebuild": "^1.8.6",
     "typescript": "^3.6.4"
   },
