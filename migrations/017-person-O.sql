@@ -20466,8 +20466,6 @@ VALUES
 ('Oxenreider'),
 ('Oxenrider'),
 ('Oxer'),
-('Oxford'),
-('Oxide'),
 ('Oxier'),
 ('Oxiga'),
 ('Oxinoha'),

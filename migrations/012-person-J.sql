@@ -3968,7 +3968,6 @@ VALUES
 ('Jamrozinska'),
 ('Jamrozy'),
 ('Jamrus'),
-('Jams'),
 ('Jamsa'),
 ('Jamsandekar'),
 ('Jamsari'),

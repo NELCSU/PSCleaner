@@ -793,6 +793,7 @@ VALUES
 ('Nadasen'),
 ('Nadasi'),
 ('Nadaska'),
+('Nadasky'),
 ('Nadaskay'),
 ('Nadason'),
 ('Nadat'),

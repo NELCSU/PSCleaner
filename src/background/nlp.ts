@@ -29,8 +29,8 @@ export class NLP {
   private _sensitivity: number = 1;
   private _sensitivityLevels: string[] = [
     "|NN|NNS|NNP|NNPS|",
-    "|NN|NNS|NNP|NNPS|JJ|VB|VBP|RB|",
-    "|NN|NNS|NNP|NNPS|JJ|VB|VBD|VBG|VBN|VBP|VBZ|RB|"
+    "|NN|NNS|NNP|NNPS|JJ|VB|VBD|VBG|VBP|",
+    "|NN|NNS|NNP|NNPS|JJ|VB|VBD|VBG|VBN|VBP|VBZ|RB|MD|"
   ];
   private _trace: boolean = true;
 
