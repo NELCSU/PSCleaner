@@ -25403,6 +25403,7 @@ VALUES
 ('Allegaert'),
 ('Allegar'),
 ('Alleger'),
+('Allegheny'),
 ('Allegonda'),
 ('Allegood'),
 ('Allegr'),

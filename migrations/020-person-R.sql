@@ -22655,6 +22655,7 @@ VALUES
 ('Rohat'),
 ('Rohatgi'),
 ('Rohatsch'),
+('Rohauer'),
 ('Rohayah'),
 ('Rohayati'),
 ('Rohazad'),

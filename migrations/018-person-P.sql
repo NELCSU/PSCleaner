@@ -17559,7 +17559,6 @@ VALUES
 ('Phvong'),
 ('Phway'),
 ('Phwel'),
-('Phy'),
 ('Phya'),
 ('Phyall'),
 ('Phyarjan'),

@@ -38019,6 +38019,7 @@ VALUES
 ('Cymrank'),
 ('Cymthia'),
 ('Cymuta'),
+('Cyn'),
 ('Cyna'),
 ('Cynajek'),
 ('Cynamon'),
