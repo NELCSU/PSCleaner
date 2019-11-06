@@ -15584,7 +15584,6 @@ VALUES
 ('Reuteler'),
 ('Reuter'),
 ('Reuterfel'),
-('Reuters'),
 ('Reuterskiold'),
 ('Reutersward'),
 ('Reuther'),

@@ -3541,7 +3541,6 @@ VALUES
 ('Halleen'),
 ('Hallehn'),
 ('Hallel'),
-('Hallelujah'),
 ('Hallelujha'),
 ('Halleluya'),
 ('Halleluyah'),

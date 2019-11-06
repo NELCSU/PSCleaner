@@ -28,9 +28,9 @@ export class NLP {
   private _pos: posTagger;
   private _sensitivity: number = 1;
   private _sensitivityLevels: string[] = [
-    "|NN|NNS|NNP|NNPS|",
-    "|NN|NNS|NNP|NNPS|JJ|VB|VBD|VBG|VBP|",
-    "|NN|NNS|NNP|NNPS|JJ|VB|VBD|VBG|VBN|VBP|VBZ|RB|MD|"
+    "|NNS|NNP|NNPS|RB|",
+    "|NNS|NNP|NNPS|NN|RB|VBG|VBP|",
+    "|NNS|NNP|NNPS|NN|RB|VBG|VBP|VB|VBD|VBN|VBZ|JJ|MD|"
   ];
   private _trace: boolean = true;
 
@@ -95,8 +95,8 @@ export class NLP {
       const len: number = tag.value.length;
       const end: number = start + len - 1;
       cursor = end;
-      if (this._sensitivityLevels[this.sensitivity].indexOf(`|${tag.pos}|`) > -1) {
-        if (tag.tag === "word") {
+      if (tag.tag === "word") {
+        if (this._sensitivityLevels[this.sensitivity].indexOf(`|${tag.pos}|`) > -1) {
           words.push({
             value: tag.value,
             start: start,

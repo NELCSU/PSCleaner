@@ -26706,7 +26706,6 @@ VALUES
 ('Sermoah'),
 ('Sermol'),
 ('Sermola'),
-('Sermon'),
 ('Sermonia'),
 ('Sermons'),
 ('Sermontyte'),

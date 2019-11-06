@@ -25211,7 +25211,6 @@ VALUES
 ('Witpit Copse'),
 ('Witpit Lane'),
 ('Witroyd Head Lane'),
-('Wits End'),
 ('Witsun Drive'),
 ('Witt Road'),
 ('Wittebergen Wood'),

@@ -96,6 +96,10 @@ VALUES
   'Regular expression', '\b(?:[12]?\d[\.:][0-5]\d|[1-9]|1[0-2])\s?(?:a\.?m\.?|p\.?m\.?)\b'
 ),
 (
+  'TitleName', '#0080ff', 'Person', 0, 'PERSON',
+  'Regular expression', '\b(?:Mr|Mrs|Professor)\.?\s(?:\w\.?\s)?[\w\-]+\b'
+),
+(
   'TimeClock', '#8f20ff', 'DateTime', 0, 'DATETIME',
   'Regular expression', '\b(?:[1-9]|1[0-2])\s?o[''\s]{1,2}clock\b'
 ),
