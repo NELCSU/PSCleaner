@@ -13667,7 +13667,6 @@ VALUES
 ('Beanmhi'),
 ('Beanna'),
 ('Beanowyn'),
-('Beans'),
 ('Beanse'),
 ('Beant'),
 ('Beanz'),

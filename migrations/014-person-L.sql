@@ -15853,6 +15853,7 @@ VALUES
 ('Liccardo'),
 ('Licci'),
 ('Licciardello'),
+('Licciardo'),
 ('Licciardi'),
 ('Liccione'),
 ('Liccketto'),

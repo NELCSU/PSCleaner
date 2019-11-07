@@ -31,7 +31,7 @@ VALUES
 ('Xochimilco'),
 ('Xuancheng'),
 ('Xuchang'),
-('XII Apostles Roman Catholic Primary School');
+('XII Apostles');
 
 -- Down
 DELETE FROM "Placename" WHERE "keyword" LIKE 'x%';
