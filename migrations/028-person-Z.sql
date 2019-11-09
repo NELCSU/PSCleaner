@@ -9279,7 +9279,6 @@ VALUES
 ('Zinayida'),
 ('Zinba'),
 ('Zinbi'),
-('Zinc'),
 ('Zinca'),
 ('Zincenko'),
 ('Zinchenko'),

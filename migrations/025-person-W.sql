@@ -2184,7 +2184,6 @@ VALUES
 ('Wandelice'),
 ('Wandell'),
 ('Wandera'),
-('Wanderer'),
 ('Wanderle'),
 ('Wanderlea'),
 ('Wanderlei'),

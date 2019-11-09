@@ -1521,7 +1521,6 @@ VALUES
 ('Queentine'),
 ('Queeny'),
 ('Queenzel'),
-('Queer'),
 ('Queffelec'),
 ('Queffurus'),
 ('Quefsere'),

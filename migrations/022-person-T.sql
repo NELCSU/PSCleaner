@@ -32861,7 +32861,6 @@ VALUES
 ('Tulpatowicz'),
 ('Tulpatowiiz'),
 ('Tulqadr'),
-('Tulsa'),
 ('Tulsan'),
 ('Tulse'),
 ('Tulsedai'),
