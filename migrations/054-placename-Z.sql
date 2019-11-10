@@ -270,8 +270,7 @@ VALUES
 ('Zürich'),
 ('Zuwarah'),
 ('Zwolle'),
-('Zawn'),
-('Zig Zag');
+('Zawn');
 
 -- Down
 DELETE FROM "Placename" WHERE "keyword" LIKE 'z%';

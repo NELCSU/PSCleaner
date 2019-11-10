@@ -28,9 +28,9 @@ export class NLP {
   private _pos: posTagger;
   private _sensitivity: number = 1;
   private _sensitivityLevels: string[] = [
-    "|NNS|NNP|NNPS|RB|FW|",
-    "|NNS|NNP|NNPS|RB|FW|NN|VBG|VBP|",
-    "|NNS|NNP|NNPS|RB|FW|NN|VBG|VBP|VB|VBD|VBN|VBZ|JJ|MD|"
+    "|NNS|NNP|NNPS|RB|FW|PRP|",
+    "|NNS|NNP|NNPS|RB|FW|PRP|NN|VBG|VBP|",
+    "|NNS|NNP|NNPS|RB|FW|PRP|NN|VBG|VBP|VB|VBD|VBN|VBZ|JJ|MD|"
   ];
   private _trace: boolean = true;
 

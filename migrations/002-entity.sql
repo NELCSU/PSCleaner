@@ -73,10 +73,6 @@ VALUES
   'Regular expression', '\b(?:GIR|[a-zA-Z][a-zA-Z]?(?:[0-9][a-zA-Z]|[0-9]{1,2}))(?:[ ]{0,3})(?:[0-9][a-zA-Z]{2})\b'
 ),
 (
-  'School',    '#80ff80', 'Location', 0, 'LOCATION',
-  'Regular expression', '\bschool\sof\s[a-z\-]+\b'
-),
-(
   'TelUK',     '#ff80ff', 'Reference',0, 'CONTACT',
   'Regular expression', '\(?0\d\d(?:\)?[\s\-]?\d\d\d|\d\)?[\s\-]?\d\d|\d\d\)?[\s\-]?\d|\d\s?\d\d\)?)[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d\d'
 ),
@@ -102,10 +98,6 @@ VALUES
 (
   'TimeClock', '#8f20ff', 'DateTime', 0, 'DATETIME',
   'Regular expression', '\b(?:[1-9]|1[0-2])\s?o[''\s]{1,2}clock\b'
-),
-(
-  'University','#80ff80', 'Location', 0, 'LOCATION',
-  'Regular expression', '\buniversity\sof\s(?:east|eastern|north|northern|south|southern|west|western)?\s?[a-z\-]+\b'
 ),
 (
   'Uri',       '#ffc58a', 'Reference',0, 'URL',
