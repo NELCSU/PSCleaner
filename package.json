@@ -39,7 +39,7 @@
     "@types/node": "^12.12.7",
     "@types/sqlite3": "^3.1.5",
     "@types/uuid": "^3.4.6",
-    "electron": "^7.1.0",
+    "electron": "^7.1.1",
     "electron-rebuild": "^1.8.6",
     "typescript": "^3.7.2"
   },
@@ -76,7 +76,7 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf static/lib/web-components"
   },
-  "version": "0.3.8",
+  "version": "0.3.9",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }

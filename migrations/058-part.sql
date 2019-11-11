@@ -2,9 +2,6 @@
 INSERT INTO Part (keyword)
 VALUES
 ('By price'),
-('I hope'),
-('I may'),
-('I will'),
 ('East of'),
 ('Have snow'),
 ('He may'),
@@ -12,6 +9,13 @@ VALUES
 ('His hope'),
 ('His price'),
 ('His will'),
+('I hope'),
+('I may'),
+('I will'),
+('In April'),
+('In June'),
+('In May'),
+('May concern'),
 ('My hope'),
 ('My price'),
 ('My will'),
