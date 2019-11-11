@@ -9444,6 +9444,7 @@ VALUES
 ('Teayef'),
 ('Teayqua'),
 ('Teazaz'),
+('Teb'),
 ('Teba'),
 ('Tebagonderwa'),
 ('Tebah'),

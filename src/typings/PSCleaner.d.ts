@@ -5,6 +5,7 @@ export type Entity = {
   color: string,
   domain: string,
   joinable: number,
+  discard: number,
   label: string,
   mask: string,
   reg_ex: string,

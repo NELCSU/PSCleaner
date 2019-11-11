@@ -5110,7 +5110,6 @@ VALUES
 ('Utonyok'),
 ('Utoomal'),
 ('Utoomprurkporn'),
-('Utopia'),
 ('Utoro'),
 ('Utoslahti'),
 ('Utoware'),

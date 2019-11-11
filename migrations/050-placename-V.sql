@@ -2348,7 +2348,6 @@ VALUES
 ('Viking Gas Terminal'),
 ('Viking Grove'),
 ('Viking Heights'),
-('Viking Industrial Estate'),
 ('Viking Meadow'),
 ('Viking Place'),
 ('Viking Rise'),

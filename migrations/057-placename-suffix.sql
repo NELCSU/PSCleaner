@@ -3,7 +3,6 @@ INSERT INTO "PlacenameSuffix"
 ("keyword", "strength")
 VALUES
 ('&', 0),
-('A', 0),
 ('And', 0),
 ('Big', 0),
 ('By', 0),

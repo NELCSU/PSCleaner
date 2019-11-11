@@ -15422,6 +15422,7 @@ VALUES
 ('Hersh'),
 ('Hersha'),
 ('Hershaft'),
+('Hershal'),
 ('Hershan'),
 ('Hershaw'),
 ('Hershberg'),

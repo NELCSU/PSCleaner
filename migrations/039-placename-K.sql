@@ -2068,7 +2068,6 @@ VALUES
 ('Kenfields Close'),
 ('Kenfig'),
 ('Kenfig Hill'),
-('Kenfig Industrial Estate'),
 ('Kenfig Mews'),
 ('Kenfig Place'),
 ('Kenfig Pool'),

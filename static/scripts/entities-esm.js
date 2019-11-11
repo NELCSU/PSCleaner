@@ -13,6 +13,7 @@ const entityLabel = one("#txtEntityLabel");
 const entityDomain = one("#txtEntityDomain");
 const entityMask = one("#txtEntityMask");
 const entityJoinable = one("#txtEntityJoinable");
+const entityDiscard = one("#txtEntityDiscard");
 const entityType = one("#lblEntityType");
 const entityRegEx = one("#txtEntityRegex");
 
@@ -31,6 +32,7 @@ function addEntity(list, data) {
   item.dataset.id = data.id;
   item.dataset.domain = data.domain;
   item.dataset.joinable = data.joinable;
+  item.dataset.discard = data.discard;
   item.dataset.mask = data.mask;
   item.dataset.type = data.type;
   item.dataset.reg_ex = data.reg_ex;
@@ -68,6 +70,7 @@ clearButton.addEventListener("click", _ => {
   entityColor.value = "#cccccc";
   entityLabel.value = "";
   entityJoinable.on = false;
+  entityDiscard.on = false;
   entityDomain.value = "";
   entityMask.value = "";
   entityId.value = "";
@@ -75,6 +78,7 @@ clearButton.addEventListener("click", _ => {
   entityLabel.disabled = false;
   entityMask.disabled = false;
   entityJoinable.disabled = false;
+  entityDiscard.disabled = false;
   entityDomain.disabled = false;
   deleteButton.classList.add("disabled");
   deleteButton.dataset.id = null;
@@ -104,6 +108,7 @@ entityList.addEventListener("selected", e => {
     entityLabel.value = e.detail.textContent;
     entityDomain.value = e.detail.dataset.domain;
     entityJoinable.on = e.detail.dataset.joinable === "1" ? true : false;
+    entityDiscard.on = e.detail.dataset.discard === "1" ? true : false;
     entityMask.value = e.detail.dataset.mask;
     entityRegEx.value = e.detail.dataset.reg_ex;
     entityId.value = e.detail.dataset.id;
@@ -111,6 +116,7 @@ entityList.addEventListener("selected", e => {
     entityType.dispatchEvent(new Event("change"));
     entityLabel.disabled = false;
     entityJoinable.disabled = false;
+    entityDiscard.disabled = false;
     entityMask.disabled = false;
     entityType.disabled = false;
     deleteButton.classList.remove("disabled");
@@ -125,6 +131,11 @@ entityLabel.addEventListener("input", db(_ => {
 }, 500));
 
 entityJoinable.addEventListener("input", db(_ => {
+  dirty = true;
+  toggleSaveEntity();
+}, 500));
+
+entityDiscard.addEventListener("input", db(_ => {
   dirty = true;
   toggleSaveEntity();
 }, 500));
@@ -185,6 +196,7 @@ saveButton.addEventListener("click", _ => {
     color: entityColor.value,
     domain: entityDomain.value,
     joinable: entityJoinable.on ? "1" : "0",
+    discard: entityDiscard.on ? "1" : "0",
     type: entityType.options[entityType.selectedIndex].value,
     mask: entityMask.value,
     reg_ex: entityRegEx.value

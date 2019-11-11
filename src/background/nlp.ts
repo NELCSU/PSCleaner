@@ -28,9 +28,9 @@ export class NLP {
   private _pos: posTagger;
   private _sensitivity: number = 1;
   private _sensitivityLevels: string[] = [
-    "|NNS|NNP|NNPS|RB|FW|PRP|",
-    "|NNS|NNP|NNPS|RB|FW|PRP|NN|VBG|VBP|",
-    "|NNS|NNP|NNPS|RB|FW|PRP|NN|VBG|VBP|VB|VBD|VBN|VBZ|JJ|MD|"
+    "|NNS|NNP|NNPS|RB|FW|PRP|IN|DT|VB|",
+    "|NNS|NNP|NNPS|RB|FW|PRP|IN|DT|VB|NN|VBG|VBP|",
+    "|NNS|NNP|NNPS|RB|FW|PRP|IN|DT|VB|NN|VBG|VBP|VBD|VBN|VBZ|JJ|MD|"
   ];
   private _trace: boolean = true;
 
@@ -305,9 +305,11 @@ export class NLP {
       }
       if (!skip) {
         cursor = current.end > cursor ? current.end : cursor;
-        result.push(current);
+        if (current.entity.discard === 0) {
+          result.push(current);
+        }
       }
-    }
+    }    
     return result;
   }
 }

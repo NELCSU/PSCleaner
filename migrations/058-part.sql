@@ -1,0 +1,43 @@
+-- Up
+INSERT INTO Part (keyword)
+VALUES
+('By price'),
+('I hope'),
+('I may'),
+('I will'),
+('East of'),
+('Have snow'),
+('He may'),
+('He will'),
+('His hope'),
+('His price'),
+('His will'),
+('My hope'),
+('My price'),
+('My will'),
+('New guy'),
+('North of'),
+('Our hope'),
+('Our price'),
+('Pro rata'),
+('She may'),
+('She will'),
+('South of'),
+('The price'),
+('The snow'),
+('The van'),
+('They hope'),
+('They may'),
+('They will'),
+('This may'),
+('This may'),
+('We hope'),
+('We may'),
+('We will'),
+('West of'),
+('You will'),
+('Your price'),
+('Your hope');
+
+-- Down
+DELETE FROM Part;

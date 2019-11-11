@@ -10,6 +10,7 @@ CREATE TABLE Entity (
   label     TEXT    NOT NULL, 
   color     TEXT    NOT NULL, 
   domain    TEXT    NOT NULL,
+  discard   INTEGER NOT NULL,
   joinable  INTEGER NOT NULL,
   type      TEXT    NOT NULL,
   mask      TEXT    NOT NULL,
@@ -17,6 +18,13 @@ CREATE TABLE Entity (
 );
 
 CREATE INDEX Entity_ix_type ON Entity (type);
+
+CREATE TABLE Part (
+  id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  keyword TEXT    NOT NULL COLLATE NOCASE
+);
+
+CREATE INDEX Part_ix_keyword ON Part (keyword);
 
 CREATE TABLE Person (
   id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
@@ -60,6 +68,9 @@ DROP TABLE IF EXISTS AppSettings;
 
 DROP INDEX Entity_ix_type;
 DROP TABLE IF EXISTS Entity;
+
+DROP INDEX Part_ix_keyword;
+DROP TABLE IF EXISTS Part;
 
 DROP INDEX Person_ix_keyword;
 DROP TABLE IF EXISTS Person;

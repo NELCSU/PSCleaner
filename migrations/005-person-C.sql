@@ -2864,7 +2864,6 @@ VALUES
 ('Cammy'),
 ('Camner'),
 ('Camnert'),
-('Camo'),
 ('Camoccio'),
 ('Camodeca'),
 ('Camoen'),
