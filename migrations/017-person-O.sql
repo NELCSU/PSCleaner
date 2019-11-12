@@ -7644,7 +7644,6 @@ VALUES
 ('Oldroyde'),
 ('Oldroyo'),
 ('Oldrunseye'),
-('Olds'),
 ('Oldschool'),
 ('Oldson'),
 ('Oldt'),

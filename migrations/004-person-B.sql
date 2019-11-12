@@ -7160,7 +7160,6 @@ VALUES
 ('Bannell'),
 ('Banneman'),
 ('Bannen'),
-('Banner'),
 ('Bannerjee'),
 ('Bannerman'),
 ('Bannert'),

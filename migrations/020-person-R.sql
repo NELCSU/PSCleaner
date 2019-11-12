@@ -11681,7 +11681,6 @@ VALUES
 ('Redecsi'),
 ('Redecsy'),
 ('Redeczky'),
-('Redeem'),
 ('Redeemer'),
 ('Redeer'),
 ('Redei'),

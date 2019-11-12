@@ -2919,7 +2919,6 @@ VALUES
 ('Vancott'),
 ('Vancour'),
 ('Vancourt'),
-('Vancouver'),
 ('Vancova'),
 ('Vancraeyenest'),
 ('Vancs'),

@@ -154,7 +154,7 @@ function selectTemplate() {
 runButton.addEventListener("click", _ => toggleRun());
 templateList.addEventListener("change", selectTemplate);
 
-//*** opens explorer view for each folder via badge click
+//** opens explorer view for each folder via badge click
 importBadge.addEventListener("click", _ => ipc.send("get-import-folder"));
 processingBadge.addEventListener("click", _ => ipc.send("get-processing-folder"));
 exportBadge.addEventListener("click", _ => ipc.send("get-export-folder"));
@@ -162,7 +162,7 @@ ipc.on("import-folder", (_, path) => shell.openItem(path));
 ipc.on("processing-folder", (_, path) => shell.openItem(path));
 ipc.on("export-folder", (_, path) => shell.openItem(path));
 
-//*** initialisation of badge counts
+//** initialisation of badge counts
 ipc.send("import-file-count");
 ipc.on("import-file-count", (_, data) => {
   importFiles = data;
@@ -202,7 +202,7 @@ ipc.on("template-files", (e, files) => {
   });
 });
 
-//*** Error handling
+//** Error handling
 ipc.on("import-folder-error", (_, err) => showError(`An error occurred with the import folder ${err}`));
 ipc.on("processing-folder-error", (_, err) => {
   showError(err);

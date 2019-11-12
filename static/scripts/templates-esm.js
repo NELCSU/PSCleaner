@@ -36,7 +36,7 @@ function addField(fieldName, selected) {
   return newField;
 }
 
-/***
+/**
  * Checks all form elements to ensure fields conform
  */
 function checkForm() {
@@ -59,7 +59,7 @@ function checkForm() {
   }
 }
 
-/***
+/**
  * Clear the form
  */
 function clear() {
@@ -70,7 +70,7 @@ function clear() {
   removeFields();
 }
 
-/***
+/**
  * Removes columns from form
  */
 function removeFields() {
@@ -81,7 +81,7 @@ function removeFields() {
   }
 }
 
-/***
+/**
  * Deletes row in form
  */
 function deleteField(e) {
@@ -90,7 +90,7 @@ function deleteField(e) {
   checkForm();
 }
 
-/***
+/**
  * Displays screen prompt to confirm file deletion
  */
 function deleteFile() {
@@ -106,7 +106,7 @@ function deleteFile() {
   }
 }
 
-/***
+/**
  * Load form from template data
  */
 function loadForm(file, data) {
@@ -118,7 +118,7 @@ function loadForm(file, data) {
   });
 }
 
-/***
+/**
  * Saves template
  */
 function saveFile() {
@@ -138,7 +138,7 @@ function saveFile() {
   ipc.send("save-template-file", fileName.value, data);
 }
 
-/***
+/**
  * Send request for file to be loaded
  */
 function selectFile() {

@@ -1,7 +1,7 @@
 import db from "debounce";
 import he from "he";
 import validFilename from "valid-filename";
-import { ipcRenderer as ipc, remote } from "electron";
+import { clipboard, ipcRenderer as ipc, remote } from "electron";
 import {
   rangeContiguous, rangeEmpty, selectionTrim
 } from "@buckneri/js-lib-selection";
@@ -29,6 +29,13 @@ let activeFile = null;
 let tag = null;
 let entityMap = new Map();
 
+/**
+ * Adds child element to list
+ * @param {HTMLElement} list - list to append item to
+ * @param {string} label - annotation label
+ * @param {string} color - CSS color spec
+ * @param {object} options - custom attributes for <nel-list-item>
+ */
 function addEntity(list, label, color, options) {
   const item = document.createElement("nel-list-item");
   item.setAttribute("color", color);
@@ -39,6 +46,12 @@ function addEntity(list, label, color, options) {
   return item;
 }
 
+/**
+ * Adds <nel-text-tag> to selected text in DOM
+ * @param {Selection} selection - DOM text selection
+ * @param {string} label - text annotation
+ * @param {string} color - CSS color spec
+ */
 function addTag(selection, label, color) {
   const rng = selection.getRangeAt(0);
   const mark = document.createElement("nel-text-tag");
@@ -59,14 +72,23 @@ function addTag(selection, label, color) {
   return mark;
 }
 
+/**
+ * Sends IPC request for current sensitivity setting
+ */
 function adjustSensitivity() {
   ipc.send("NLP-sensitivity", sensitivityButton.value);
 }
 
+/**
+ * Sends IPC request for current trace setting
+ */
 function adjustTrace() {
   ipc.send("NLP-trace", traceButton.on);
 }
 
+/**
+ * Sends IPC request to identify entities
+ */
 function autoDiscover() {
   ipc.send("NLP-request", dataEntryText.textContent);
   autodiscoverButton.classList.add("disabled");
@@ -74,11 +96,17 @@ function autoDiscover() {
   autodiscoverButton.classList.add("wait");
 }
 
+/**
+ * Cancels entity modal selection window
+ */
 function cancelEntityChoice() {
   window.dispatchEvent(new CustomEvent("CancelNewEntityCreation"));
   modal.removeAttribute("open");
 }
 
+/**
+ * Checks new text entered into text window
+ */
 function checkInput() {
   if (dataEntryText.textContent.length > 0) {
     window.dispatchEvent(new CustomEvent("NewTrainingData"));
@@ -94,6 +122,10 @@ function checkInput() {
   }
 }
 
+/**
+ * If filename is valid, enable the save button
+ * @param {Event} e 
+ */
 function checkInputFileRename(e) {
   if (validFilename(e.target.value.trim())) {
     renameFileSave.classList.remove("disabled");
@@ -102,11 +134,17 @@ function checkInputFileRename(e) {
   }
 }
 
+/**
+ * Removes entity tags from the text editor
+ */
 function clearTags() {
   dataEntryText.innerHTML = dataEntryText.textContent;
   clearButton.classList.add("disabled");
 }
 
+/**
+ * Close current file and clear out text
+ */
 function closeFile() {
   openButton.classList.remove("disabled");
   autodiscoverButton.classList.add("disabled");
@@ -121,6 +159,12 @@ function closeFile() {
   activeFile = null;
 }
 
+/**
+ * Returns a DOM text selection
+ * @param {Node} node 
+ * @param {number} start 
+ * @param {number} length 
+ */
 function createSelection(node, start, length) {
   const range = document.createRange();
   range.setStart(node, start);
@@ -131,6 +175,10 @@ function createSelection(node, start, length) {
   return sel;
 }
 
+/**
+ * Displays a confirmation window prompting to delete file
+ * If yes, sends IPC request to delete file
+ */
 function deleteFile() {
   const choice = remote.dialog.showMessageBoxSync(null, {
     type: "warning",
@@ -144,6 +192,9 @@ function deleteFile() {
   }
 }
 
+/**
+ * Clears out the file rename panel
+ */
 function fileRenameClear() {
   renameFileTickbox.checked = false;
   renameFileText.classList.add("disabled");
@@ -151,6 +202,9 @@ function fileRenameClear() {
   renameFileSave.classList.add("disabled");
 }
 
+/**
+ * Reposition cursor insertion point back point of text entry
+ */
 function insertionPoint() {
   let sel = window.getSelection();
   const node = sel.focusNode;
@@ -160,14 +214,24 @@ function insertionPoint() {
   };
 }
 
+/**
+ * Send IPC request to get folder path
+ */
 function openFile() {
   ipc.send("get-training-folder");
   openButton.classList.add("disabled");
 }
 
+/**
+ * Pastes text from clipboard into text editor
+ * @param {Event} e 
+ */
 function pasteText(e) {
-  e.preventDefault();
-  let paste = e.clipboardData.getData("text/plain");
+  if (e) { 
+    e.preventDefault(); 
+    e.stopPropagation();
+  }
+  let paste = clipboard.readText();
   paste = paste.replace(/(?:\r\n|\r|\n)/g, " ");
   paste = paste.replace(/\s+/g, " ");
   const sel = window.getSelection();
@@ -177,11 +241,13 @@ function pasteText(e) {
   }
   sel.deleteFromDocument();
   sel.getRangeAt(0).insertNode(document.createTextNode(paste));
-  e.stopPropagation();
   clearTags();
   checkInput();
 }
 
+/**
+ * Hack to resolve trailing whitespace in text editor
+ */
 function resetTextSelection() {
   const re = />$/;
   const match = dataEntryText.innerHTML.match(re);
@@ -195,6 +261,9 @@ function resetTextSelection() {
   }
 }
 
+/**
+ * Parses entities in text editor, creates and saves object as file
+ */
 function saveFile() {
   dataEntryText.normalize();
   const data = {
@@ -217,6 +286,10 @@ function saveFile() {
   ipc.send("save-training-file", filename.textContent, data);
 }
 
+/**
+ * Saves file as new filename
+ * @param {Event} e 
+ */
 function saveNewFileName(e) {
   let newFilename = renameFileText.value.trim();
   newFilename = newFilename.replace(/\.json/, "");
@@ -224,6 +297,10 @@ function saveNewFileName(e) {
   ipc.send("rename-training-file", activeFile, newFilename);
 }
 
+/**
+ * Enables/disables file rename panel
+ * @param {Event} e 
+ */
 function toggleRenameFile(e) {
   e.target.checked
     ? renameFileText.classList.remove("disabled")
@@ -372,6 +449,7 @@ window.addEventListener("contextmenu", e => {
   selectionTrim(sel);
   const rng = sel.rangeCount > 0 ? sel.getRangeAt(0) : null;
   const el = e.target;
+  let displayMenu = false;
 
   if (el.tagName === "NEL-TEXT-TAG") {
     e.stopPropagation();
@@ -385,18 +463,35 @@ window.addEventListener("contextmenu", e => {
         }
       })
     );
-    contextMenu.popup({ window: remote.getCurrentWindow() });
-  } else if (el.id === "txtAddText" && rng && rangeContiguous(rng) && !rangeEmpty(rng)) {
-    e.stopPropagation();
-    contextMenu.append(
-      new remote.MenuItem({
-        label: "Define entity",
-        click() {
-          tag = addTag(sel);
-          window.dispatchEvent(new CustomEvent("ShowModalEntityPicker"));
-        }
-      })
-    );
+    displayMenu = true;
+  } else if (el.id === "txtAddText") {
+    if (rng && rangeContiguous(rng) && !rangeEmpty(rng)) {
+      e.stopPropagation();
+      contextMenu.append(
+        new remote.MenuItem({
+          label: "Define entity",
+          click() {
+            tag = addTag(sel);
+            window.dispatchEvent(new CustomEvent("ShowModalEntityPicker"));
+          }
+        })
+      );
+      displayMenu = true;
+    } else if (typeof clipboard.readText() === "string") {
+      e.stopPropagation();
+      contextMenu.append(
+        new remote.MenuItem({
+          label: "Paste",
+          click() {
+            pasteText();
+          }
+        })
+      );
+      displayMenu = true;
+    }
+  }
+
+  if (displayMenu) {
     contextMenu.popup({ window: remote.getCurrentWindow() });
   }
 }, false);

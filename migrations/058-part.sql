@@ -1,6 +1,7 @@
 -- Up
 INSERT INTO Part (keyword)
 VALUES
+('Banks are'),
 ('By price'),
 ('East of'),
 ('Have snow'),
@@ -9,6 +10,7 @@ VALUES
 ('His hope'),
 ('His price'),
 ('His will'),
+('Hope all'),
 ('I hope'),
 ('I may'),
 ('I will'),
@@ -23,6 +25,8 @@ VALUES
 ('North of'),
 ('Our hope'),
 ('Our price'),
+('Price of'),
+('Price range'),
 ('Pro rata'),
 ('She may'),
 ('She will'),
@@ -39,6 +43,13 @@ VALUES
 ('We may'),
 ('We will'),
 ('West of'),
+('Will he'),
+('Will her'),
+('Will I'),
+('Will she'),
+('Will their'),
+('Will they'),
+('Will you'),
 ('You will'),
 ('Your price'),
 ('Your hope');

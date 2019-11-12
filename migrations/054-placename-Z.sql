@@ -3,7 +3,7 @@ INSERT INTO "Placename"
 ("keyword")
 VALUES
 ('Zachary Close'),
-('Zachary Merton Community Hospital'),
+('Zachary Merton Community'),
 ('Zacharys Copse'),
 ('Zacrys Islands'),
 ('Zaggy Lane'),

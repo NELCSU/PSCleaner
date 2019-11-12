@@ -125,7 +125,7 @@ export class TemplateFiles {
     return true;
   }
 
-  /***
+  /**
    * Clears out current selected template
    */
   public clear(): void {
