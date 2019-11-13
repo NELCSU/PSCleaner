@@ -19836,7 +19836,6 @@ VALUES
 ('Maryl'),
 ('Maryla'),
 ('Marylaine'),
-('Maryland'),
 ('Marylen'),
 ('Marylena'),
 ('Marylene'),

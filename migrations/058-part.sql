@@ -1,9 +1,12 @@
 -- Up
 INSERT INTO Part (keyword)
 VALUES
+('A lawyer'),
 ('Banks are'),
+('Bill of'),
 ('By price'),
 ('East of'),
+('Good faith'),
 ('Have snow'),
 ('He may'),
 ('He will'),
@@ -18,6 +21,7 @@ VALUES
 ('In April'),
 ('In June'),
 ('In May'),
+('Keen To'),
 ('May concern'),
 ('My hope'),
 ('My price'),
@@ -26,6 +30,7 @@ VALUES
 ('North of'),
 ('Our hope'),
 ('Our price'),
+('Powers to'),
 ('Price of'),
 ('Price range'),
 ('Pro rata'),

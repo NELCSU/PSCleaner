@@ -4641,7 +4641,6 @@ VALUES
 ('Hampden'),
 ('Hampe'),
 ('Hampel'),
-('Hamper'),
 ('Hamperger'),
 ('Hampford'),
 ('Hamphrey'),

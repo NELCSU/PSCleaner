@@ -20566,7 +20566,6 @@ VALUES
 ('Loan Hill'),
 ('Loan Lea Crescent'),
 ('Loan Place'),
-('Loan'),
 ('Loan View'),
 ('Loanbank Place'),
 ('Loanbank Quadrant'),

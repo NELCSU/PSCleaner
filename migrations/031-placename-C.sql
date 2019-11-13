@@ -39367,7 +39367,6 @@ VALUES
 ('Community Drive'),
 ('Community Forest Path'),
 ('Community Hall'),
-('Community'),
 ('Community Hospital Richardson'),
 ('Community Lane'),
 ('Community Place'),

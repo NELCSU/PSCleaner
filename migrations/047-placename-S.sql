@@ -51399,7 +51399,6 @@ VALUES
 ('Stansfield Centre'),
 ('Starlings'),
 ('Starlings Wood'),
-('State'),
 ('Station Approach'),
 ('Statutes'),
 ('Staver'),

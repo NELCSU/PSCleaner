@@ -25442,7 +25442,6 @@ VALUES
 ('Guys Head Road'),
 ('Guys Hill'),
 ('Guys Hole'),
-('Guys'),
 ('Guys Lane'),
 ('Guys Marsh'),
 ('Guys Moss'),

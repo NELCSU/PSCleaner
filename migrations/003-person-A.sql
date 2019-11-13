@@ -39242,7 +39242,6 @@ VALUES
 ('Anyu'),
 ('Anyuru'),
 ('Anyuta'),
-('Anz'),
 ('Anza'),
 ('Anzaar'),
 ('Anzab'),
