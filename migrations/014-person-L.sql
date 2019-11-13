@@ -12331,6 +12331,7 @@ VALUES
 ('Lenell'),
 ('Lener'),
 ('Lenero'),
+('Lenerose'),
 ('Leners'),
 ('Lenert'),
 ('Lenertz'),

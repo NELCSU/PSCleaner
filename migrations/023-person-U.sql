@@ -5226,6 +5226,7 @@ VALUES
 ('Uulius'),
 ('Uuman'),
 ('Uumi'),
+('Uunila'),
 ('Uunk'),
 ('Uurera'),
 ('Uuro'),

@@ -932,7 +932,7 @@ VALUES
 ('Upcott Mead Road'),
 ('Upcott Moor'),
 ('Upcott Moors'),
-('Upcott Plantations'),
+('Upcott'),
 ('Upcott Road'),
 ('Upcott Valley'),
 ('Upcott Wood'),

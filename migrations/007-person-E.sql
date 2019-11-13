@@ -7667,6 +7667,7 @@ VALUES
 ('Elifnazli'),
 ('Elifnur'),
 ('Elifosi'),
+('Elifrits'),
 ('Elifritz'),
 ('Elifsu'),
 ('Eliftheria'),

@@ -19657,6 +19657,7 @@ VALUES
 ('Kerney'),
 ('Kernian'),
 ('Kernick'),
+('Kernie'),
 ('Kernighan'),
 ('Kerning'),
 ('Kernisha'),

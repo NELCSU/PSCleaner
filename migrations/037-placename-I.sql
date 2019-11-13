@@ -3240,7 +3240,7 @@ VALUES
 ('Island of Rocks'),
 ('Island of Stroma'),
 ('Island Place'),
-('Island Plantations'),
+('Island'),
 ('Island Planting'),
 ('Island Pond'),
 ('Island Ponds'),

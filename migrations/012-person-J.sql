@@ -19378,6 +19378,7 @@ VALUES
 ('Jundul'),
 ('Jundulaite'),
 ('Junduliene'),
+('June'),
 ('Junea'),
 ('Junead'),
 ('Juneal'),

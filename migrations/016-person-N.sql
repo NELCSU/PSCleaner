@@ -18158,6 +18158,7 @@ VALUES
 ('Nimeh'),
 ('Nimeire'),
 ('Nimeishi'),
+('Nimene'),
 ('Nimenibo'),
 ('Nimer'),
 ('Nimeraseer'),

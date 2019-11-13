@@ -13940,7 +13940,6 @@ VALUES
 ('Remmond'),
 ('Remmouche'),
 ('Remmy'),
-('Remnant'),
 ('Remneva'),
 ('Remo'),
 ('Remogat'),

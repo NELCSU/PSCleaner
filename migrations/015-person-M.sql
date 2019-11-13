@@ -45840,6 +45840,7 @@ VALUES
 ('Mittalkod'),
 ('Mittalman'),
 ('Mittan'),
+('Mittanck'),
 ('Mittapalli'),
 ('Mittapally'),
 ('Mittapelly'),
