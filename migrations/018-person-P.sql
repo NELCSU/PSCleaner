@@ -31763,7 +31763,6 @@ VALUES
 ('Prolomova'),
 ('Proloy'),
 ('Prolubnikova'),
-('Prom'),
 ('Proma'),
 ('Promann'),
 ('Promano'),

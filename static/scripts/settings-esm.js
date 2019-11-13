@@ -1,10 +1,9 @@
 import { ipcRenderer as ipc, remote } from "electron";
-import { one } from "@buckneri/js-lib-dom-selection";
 
 let importFolder = "", processingFolder = "";
 let exportFolder = "", templateFolder = "", trainingFolder = "";
-const modalView = one("#modalView");
-const modalMessage = one(".modal-message");
+const modalView = document.getElementById("modalView");
+const modalMessage = document.querySelector(".modal-message");
 const dialogOptions = {
   title: "Select a folder",
   buttonLabel: "Select folder",
@@ -22,8 +21,8 @@ function showError(msg) {
 }
 
 (function ChooseImportFolder() {
-  const browse = one("#btnImportSelection");
-  const label = one("#lblImportFilePath");
+  const browse = document.getElementById("btnImportSelection");
+  const label = document.getElementById("lblImportFilePath");
 
   browse.addEventListener("click", _ => {
     dialogOptions.defaultPath = importFolder;
@@ -53,8 +52,8 @@ function showError(msg) {
 })();
 
 (function ChooseProcessingFolder() {
-  const browse = one("#btnProcessingSelection");
-  const label = one("#lblProcessingFilePath");
+  const browse = document.getElementById("btnProcessingSelection");
+  const label = document.getElementById("lblProcessingFilePath");
 
   browse.addEventListener("click", _ => {
     dialogOptions.defaultPath = processingFolder;
@@ -84,8 +83,8 @@ function showError(msg) {
 })();
 
 (function ChooseExportFolder() {
-  const browse = one("#btnExportSelection");
-  const label = one("#lblExportFilePath");
+  const browse = document.getElementById("btnExportSelection");
+  const label = document.getElementById("lblExportFilePath");
 
   browse.addEventListener("click", _ => {
     dialogOptions.defaultPath = exportFolder;
@@ -115,8 +114,8 @@ function showError(msg) {
 })();
 
 (function ChooseTemplateFolder() {
-  const browse = one("#btnTemplateSelection");
-  const label = one("#lblTemplateFilePath");
+  const browse = document.getElementById("btnTemplateSelection");
+  const label = document.getElementById("lblTemplateFilePath");
 
   browse.addEventListener("click", _ => {
     dialogOptions.defaultPath = templateFolder;
@@ -146,8 +145,8 @@ function showError(msg) {
 })();
 
 (function ChooseTrainingDataFolder() {
-  const browse = one("#btnTrainingDataSelection");
-  const label = one("#lblTrainingFilePath");
+  const browse = document.getElementById("btnTrainingDataSelection");
+  const label = document.getElementById("lblTrainingFilePath");
 
   browse.addEventListener("click", _ => {
     dialogOptions.defaultPath = trainingFolder;

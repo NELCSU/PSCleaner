@@ -5,12 +5,3 @@
 }
 
 h2 { margin-bottom: 30px }
-
-.action { cursor: pointer }
-
-.grow {
-  flex-grow: 1;
-  justify-content: flex-end
-}
-
-.wide { width: 100% }

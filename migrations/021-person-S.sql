@@ -47003,7 +47003,6 @@ VALUES
 ('Simpkin'),
 ('Simpkins'),
 ('Simpkiss'),
-('Simpler'),
 ('Simples'),
 ('Simpli'),
 ('Simplic'),

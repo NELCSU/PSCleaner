@@ -250,7 +250,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b(?:Mr|Ms.|Mrs|Professor)\.?\s(?:\w\.?\s)?[\w\-]+\b'
+  '\b(?:Mr|Ms.|Mrs|Prof.)\.?\s(?:\w\.?\s)?[\w\-]+\b'
 ),
 (
   'TimeClock', 

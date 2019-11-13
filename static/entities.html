@@ -17,25 +17,25 @@
   <nel-network-connection>
     <div class="network flex-r vcenter hleft"><span class="message">Application is offline</span></div>
   </nel-network-connection>
+
   <h2><a href="./index.html">Home</a> &gt; Manage entities</h2>
 
-  <div class="panel"></div>
-  <div class="flex-r vcenter hright"><span id="hintEntityCount"></span></div>
-  <div class="border item-collection">
-    <nel-item-collection id="lstManageEntities">
-    </nel-item-collection>
-  </div>
-  </div>
   <div id="pnlAddEntity" class="flex-c border panel pad">
+      
+    <div class="flex-r vcenter">
+      <select class="wide" id="lstManageEntities">
+        <option id="New" value="New" selected>Create a new entity</option>
+      </select>
+    </div>
 
-    <h3 id="title">Add an entity</h3>
     <input type="hidden" id="txtEntityId" value="">
 
     <div class="flex-r vcenter pad3">
       <label for="txtEntityColor">Color</label>
-      <div class="grow"><input id="txtEntityColor" type="color" value="#cccccc" title="Select a color for this entity">
+      <div class="grow"><input id="txtEntityColor" class="action" type="color" value="#cccccc" title="Select a color for this entity">
       </div>
     </div>
+
     <div class="flex-r vcenter pad3">
       <label for="txtEntityLabel">Label</label>
       <div class="grow">
@@ -43,6 +43,7 @@
           placeholder="Entity label (max. 30 char)" pattern=".*"></nel-text-input>
       </div>
     </div>
+
     <div class="flex-r vcenter pad3">
       <label for="txtEntityDomain" title="Category under which entities can be grouped">Domain</label>
       <div class="grow">
@@ -89,9 +90,9 @@
       </div>
     </div>
     <div class="flex-r pad3">
-      <div class="flex-r vcenter"><a href="#" id="btnEntitySave" class="btn-link disabled">Save</a></div>
-      <div class="flex-r vcenter"><a href="#" id="btnEntityCancel" class="btn-link">Clear</a></div>
-      <div class="flex-r vcenter grow"><a href="#" id="btnEntityDelete" class="btn-link disabled warn">Delete</a></div>
+      <div class="flex-r vcenter"><a href="#" id="btnEntitySave" class="btn-link action disabled">Save</a></div>
+      <div class="flex-r vcenter"><a href="#" id="btnEntityCancel" class="btn-link action">Clear</a></div>
+      <div class="flex-r vcenter grow"><a href="#" id="btnEntityDelete" class="btn-link action disabled warn">Delete</a></div>
     </div>
 
   </div>

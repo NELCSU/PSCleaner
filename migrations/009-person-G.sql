@@ -16802,7 +16802,6 @@ VALUES
 ('Glasford'),
 ('Glasglow'),
 ('Glasgo'),
-('Glasgow'),
 ('Glashan'),
 ('Glasheen'),
 ('Glashen'),

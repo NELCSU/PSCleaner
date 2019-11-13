@@ -21,13 +21,13 @@
   </nel-modal-view>
 
   <nel-item-collection align="horizontal">
-    <nel-status-badge id="statPending" data-count="0" label="queued" title="View import folder">0</nel-status-badge>
-    <nel-status-badge id="statProcessing" data-count="0" label="processing" title="View processing folder">0</nel-status-badge>
-    <nel-status-badge id="statComplete" data-count="0" label="completed" title="View export folder">0</nel-status-badge>
+    <nel-status-badge class="action" id="statPending" data-count="0" label="queued" title="View import folder">0</nel-status-badge>
+    <nel-status-badge class="action" id="statProcessing" data-count="0" label="processing" title="View processing folder">0</nel-status-badge>
+    <nel-status-badge class="action" id="statComplete" data-count="0" label="completed" title="View export folder">0</nel-status-badge>
   </nel-item-collection>
 
   <div class="flex-r vcenter">
-    <a href="#" id="btnProcessFiles" data-status="inactive" class="btn-link disabled">Start</a>
+    <a href="#" id="btnProcessFiles" data-status="inactive" class="btn-link action disabled">Start</a>
     <progress id="stProcessFiles" max="100" value="0" hidden></progress>
     <div id="lblTime"></div>
   </div>

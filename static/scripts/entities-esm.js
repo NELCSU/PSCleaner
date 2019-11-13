@@ -1,72 +1,52 @@
 import db from "debounce";
 import { ipcRenderer as ipc } from "electron";
-import { one } from "@buckneri/js-lib-dom-selection";
-import uuidv1 from "uuid/v1";
 
-const entityList = one("#lstManageEntities");
-const title = one("#title");
-const entityCount = one("#hintEntityCount");
+const entityList = document.getElementById("lstManageEntities");
+const entityId = document.getElementById("txtEntityId");
+const entityColor = document.getElementById("txtEntityColor");
+const entityLabel = document.getElementById("txtEntityLabel");
+const entityDomain = document.getElementById("txtEntityDomain");
+const entityMask = document.getElementById("txtEntityMask");
+const entityJoinable = document.getElementById("txtEntityJoinable");
+const entityDiscard = document.getElementById("txtEntityDiscard");
+const entityType = document.getElementById("lblEntityType");
+const entityRegEx = document.getElementById("txtEntityRegex");
 
-const entityId = one("#txtEntityId");
-const entityColor = one("#txtEntityColor");
-const entityLabel = one("#txtEntityLabel");
-const entityDomain = one("#txtEntityDomain");
-const entityMask = one("#txtEntityMask");
-const entityJoinable = one("#txtEntityJoinable");
-const entityDiscard = one("#txtEntityDiscard");
-const entityType = one("#lblEntityType");
-const entityRegEx = one("#txtEntityRegex");
+const saveButton = document.getElementById("btnEntitySave");
+const clearButton = document.getElementById("btnEntityCancel");
+const deleteButton = document.getElementById("btnEntityDelete");
 
-const saveButton = one("#btnEntitySave");
-const clearButton = one("#btnEntityCancel");
-const deleteButton = one("#btnEntityDelete");
-let dataset = {};
 let dirty = false;
 
-function addEntity(list, data) {
-  const item = document.createElement("nel-list-item");
-  item.setAttribute("color", data.color);
-  item.selectable = true;
-  item.deletable = false;
-  item.id = "id_" + uuidv1();
-  item.dataset.id = data.id;
-  item.dataset.domain = data.domain;
-  item.dataset.joinable = data.joinable;
-  item.dataset.discard = data.discard;
-  item.dataset.mask = data.mask;
-  item.dataset.type = data.type;
-  item.dataset.reg_ex = data.reg_ex;
-  item.textContent = data.label;
-  list.appendChild(item);
-  return item;
-}
+const entityMap = new Map();
 
-function deleteSelection() {
-  let tag = one(`#${deleteButton.dataset.id}`);
-  if (tag) {
-    tag.delete();
-    tag = null;
+/**
+ * Adds an entity to the list and internal data map
+ * @param {Entity} data 
+ */
+function addEntity(data) {
+  const option = document.createElement("option");
+  option.id = `entity_${data.id}`;
+  option.value = parseInt(data.id);
+  option.text = data.label;
+  const list = Array.from(entityList.options);
+  if (list.length === 1) {
+    entityList.appendChild(option);
+  } else {
+    for (let i = 1; i < list.length; i++) {
+      if (list[i].text > option.text) {
+        list[i].insertAdjacentElement("beforebegin", option);
+        break;
+      } else if (i + 1 === list.length) {
+        entityList.appendChild(option);
+        break;
+      }
+    }
   }
-  return tag;
+  entityMap.set(data.id, data);
 }
 
-function toggleSaveEntity() {
-  dirty 
-    ? saveButton.classList.remove("disabled")
-    : saveButton.classList.add("disabled");
-}
-
-async function updateCount() {
-  const n = entityList.children.length;
-  entityCount.textContent = (n === 0
-    ? "No entities"
-    : n === 1
-      ? `${n} entity`
-      : `${n} entities`) + " found";
-}
-
-clearButton.addEventListener("click", _ => {
-  title.textContent = "Add an entity";
+function clearForm() {
   entityColor.value = "#cccccc";
   entityLabel.value = "";
   entityJoinable.on = false;
@@ -88,67 +68,100 @@ clearButton.addEventListener("click", _ => {
   dirty = false;
   toggleSaveEntity();
   entityLabel.focus();
+}
+
+/**
+ * Deletes a lsit item if it is selected and valid to delete
+ */
+function deleteSelection(id) {
+  let tag = document.getElementById(`entity_${id}`);
+  if (tag) {
+    entityList.removeChild(tag);
+    entityList.selectedIndex = 0;
+  }
+}
+
+function selectEntity(data) {
+  const id = `entity_${data.id}`;
+  const list = Array.from(entityList.options);
+  for (let i = 0; i < list.length; i++) {
+    if (list[i].id === id) {
+      entityList.selectedIndex = i;
+      break;
+    }
+  }
+}
+
+/**
+ * Enable/disable save button if form has changed
+ */
+function toggleSaveEntity() {
+  dirty
+    ? saveButton.classList.remove("disabled")
+    : saveButton.classList.add("disabled");
+}
+
+/**
+ * Clear current entry in form
+ */
+clearButton.addEventListener("click", _ => {
+  clearForm();
+  entityList.selectedIndex = 0;
 });
 
-entityColor.addEventListener("change", () => {
-  dirty = true;
-  toggleSaveEntity();
+/**
+ * Send IPC request to delete entity
+ */
+deleteButton.addEventListener("click", _ => ipc.send("delete-entity", entityId.value));
+
+/**
+ * Action to perform if delete request succeeds
+ */
+ipc.on("entity-deleted", (_) => {
+  deleteSelection(entityId.value);
+  clearButton.click();
 });
 
-deleteButton.addEventListener("click", _ => {
-  let tag = one(`#${deleteButton.dataset.id}`);
-  ipc.send("delete-entity", tag.dataset.id);
-});
-
-entityList.addEventListener("selected", e => {
+/**
+ * Actions performed with list item selected
+ */
+entityList.addEventListener("change", e => {
   setTimeout(_ => {
-    dirty = false;
-    entityColor.value = e.detail.color;
-    title.textContent = `Editing ${e.detail.textContent}`;
-    entityLabel.value = e.detail.textContent;
-    entityDomain.value = e.detail.dataset.domain;
-    entityJoinable.on = e.detail.dataset.joinable === "1" ? true : false;
-    entityDiscard.on = e.detail.dataset.discard === "1" ? true : false;
-    entityMask.value = e.detail.dataset.mask;
-    entityRegEx.value = e.detail.dataset.reg_ex;
-    entityId.value = e.detail.dataset.id;
-    entityType.value = e.detail.dataset.type;
-    entityType.dispatchEvent(new Event("change"));
-    entityLabel.disabled = false;
-    entityJoinable.disabled = false;
-    entityDiscard.disabled = false;
-    entityMask.disabled = false;
-    entityType.disabled = false;
-    deleteButton.classList.remove("disabled");
-    deleteButton.dataset.id = e.detail.id;
-    toggleSaveEntity();
+    const i = entityList.selectedIndex;
+    clearForm();
+    if (i > 0) {
+      const id = parseInt(entityList.options[i].value);
+      const data = entityMap.get(id);
+      entityColor.value = data.color;
+      entityLabel.value = data.label;
+      entityDomain.value = data.domain;
+      entityJoinable.on = data.joinable;
+      entityDiscard.on = data.discard;
+      entityMask.value = data.mask;
+      entityRegEx.value = data.reg_ex;
+      entityId.value = data.id;
+      entityType.value = data.type;
+      entityType.dispatchEvent(new Event("change"));
+      entityLabel.disabled = false;
+      entityJoinable.disabled = false;
+      entityDiscard.disabled = false;
+      entityMask.disabled = false;
+      entityType.disabled = false;
+      deleteButton.classList.remove("disabled");
+      toggleSaveEntity();
+    }
   }, 50);
 });
 
-entityLabel.addEventListener("input", db(_ => {
-  dirty = true;
-  toggleSaveEntity();
-}, 500));
-
-entityJoinable.addEventListener("input", db(_ => {
-  dirty = true;
-  toggleSaveEntity();
-}, 500));
-
-entityDiscard.addEventListener("input", db(_ => {
-  dirty = true;
-  toggleSaveEntity();
-}, 500));
-
-entityMask.addEventListener("input", db(_ => {
-  dirty = true;
-  toggleSaveEntity();
-}, 500));
-
-entityRegEx.addEventListener("input", db(_ => {
-  dirty = true;
-  toggleSaveEntity();
-}, 500));
+/**
+ * Enable/disable save if form elements change
+ */
+entityColor.addEventListener("change", () => { dirty = true; toggleSaveEntity(); });
+entityLabel.addEventListener("input", db(_ => { dirty = true; toggleSaveEntity(); }, 500));
+entityJoinable.addEventListener("input", db(_ => { dirty = true; toggleSaveEntity(); }, 500));
+entityDiscard.addEventListener("input", db(_ => { dirty = true; toggleSaveEntity(); }, 500));
+entityMask.addEventListener("input", db(_ => { dirty = true; toggleSaveEntity(); }, 500));
+entityRegEx.addEventListener("input", db(_ => { dirty = true; toggleSaveEntity(); }, 500));
 
 entityType.addEventListener("change", _ => {
   entityRegEx.disabled = entityType.options[entityType.selectedIndex].value === "Regular expression"
@@ -158,39 +171,32 @@ entityType.addEventListener("change", _ => {
   toggleSaveEntity();
 });
 
-ipc.on("entity-deleted", _ => {
-  deleteSelection();
-  clearButton.click();
-  updateCount();
-});
+ipc.on("entity-list", (_, entities) => {
+  setTimeout(_ => {
+    Array.from(entityList.options)
+      .forEach((option, i) => {
+        if (i > 0) {
+          entityList.removeChild(option);
+        }
+      });
+    entityMap.clear();
 
-ipc.on("entity-list", async (_, response) => {
-  setTimeout(async _ => {
-    await entityList.clear();
-    response.forEach(d => addEntity(entityList, d));
-    updateCount();
-    await entityList.sort();
+    entities.forEach(entity => addEntity(entity));
   }, 250);
 });
 
-ipc.on("entity-saved", async (_, response) => {
-  deleteSelection();
-  addEntity(entityList, response);
-  entityList.sort();
-  clearButton.click();
-  updateCount();
+ipc.on("entity-saved", async (_, entity) => {
+  entityMap.set(entity.id, entity);
+  deleteSelection(entity.id);
+  addEntity(entity);
+  selectEntity(entity);
 });
 
 ipc.send("get-entities");
 
-entityRegEx.addEventListener("input", db(_ => {
-  dirty = true;
-  toggleSaveEntity();
-}, 500));
-
 saveButton.addEventListener("click", _ => {
   dirty = false;
-  dataset = {
+  const dataset = {
     id: entityId.value ? entityId.value : -1,
     label: entityLabel.value,
     color: entityColor.value,

@@ -1,19 +1,18 @@
 import validFilename from "valid-filename";
 import { ipcRenderer as ipc, remote } from "electron";
-import { one } from "@buckneri/js-lib-dom-selection";
 import db from "debounce";
 
-const clearButton = one("#btnClear");
-const deleteButton = one("#btnDelete");
-const saveButton = one("#btnSave");
-const addFieldButton = one("#btnAddField");
-const fileName = one("#txtFilename");
-const templateList = one("#listTemplate");
-const headerButton = one("#btnHeader");
-const panel = one("#pnlAddTemplate");
-const insertHere = one("#insertionPoint");
-const modalView = one("#modalView");
-const modalMessage = one(".modal-message");
+const clearButton = document.getElementById("btnClear");
+const deleteButton = document.getElementById("btnDelete");
+const saveButton = document.getElementById("btnSave");
+const addFieldButton = document.getElementById("btnAddField");
+const fileName = document.getElementById("txtFilename");
+const templateList = document.getElementById("listTemplate");
+const headerButton = document.getElementById("btnHeader");
+const panel = document.getElementById("pnlAddTemplate");
+const insertHere = document.getElementById("insertionPoint");
+const modalView = document.getElementById("modalView");
+const modalMessage = document.querySelector(".modal-message");
 
 /**
  * Adds another column to the document
@@ -130,7 +129,7 @@ function saveFile() {
   rows.forEach((r) => {
     const txt = r.querySelector("nel-text-input");
     const sen = r.querySelector("nel-on-off");
-    data.fields.push([ txt.value, sen.on ? true : false ]);
+    data.fields.push([txt.value, sen.on ? true : false]);
   });
   let newFilename = fileName.value.trim();
   newFilename = newFilename.replace(/\.json/, "");
@@ -175,7 +174,7 @@ ipc.on("template-file", (e, file, data) => {
 ipc.on("template-files", (e, files) => {
   Array.from(templateList.options)
     .forEach((option, i) => {
-      if (i > 0){
+      if (i > 0) {
         templateList.removeChild(option);
       }
     });

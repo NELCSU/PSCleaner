@@ -1,7 +1,6 @@
 {
   "author": "NEL",
   "dependencies": {
-    "@buckneri/js-lib-dom-selection": "0.0.3",
     "@buckneri/js-lib-selection": "0.0.4",
     "@buckneri/web-components": "^0.2.1",
     "chokidar": "^3.3.0",
@@ -76,7 +75,7 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf static/lib/web-components"
   },
-  "version": "0.3.10",
+  "version": "0.3.11",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }

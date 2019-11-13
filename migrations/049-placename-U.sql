@@ -2445,7 +2445,6 @@ VALUES
 ('Upper Smollett Street'),
 ('Upper Snailsden Moss'),
 ('Upper Sneyd Road'),
-('Upper Solar Farm'),
 ('Upper Soldridge Road'),
 ('Upper Soles Wood'),
 ('Upper Solva'),

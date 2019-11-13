@@ -1,15 +1,14 @@
 import { ipcRenderer as ipc, shell } from "electron";
-import { one } from "@buckneri/js-lib-dom-selection";
 
-const importBadge = one("#statPending");
-const processingBadge = one("#statProcessing");
-const exportBadge = one("#statComplete");
-const modalView = one("#modalView");
-const modalMessage = one(".modal-message");
-const runButton = one("#btnProcessFiles");
-const progressBar = one("#stProcessFiles");
-const timeLabel = one("#lblTime");
-const templateList = one("#listTemplate");
+const importBadge = document.getElementById("statPending");
+const processingBadge = document.getElementById("statProcessing");
+const exportBadge = document.getElementById("statComplete");
+const modalView = document.getElementById("modalView");
+const modalMessage = document.querySelector(".modal-message");
+const runButton = document.getElementById("btnProcessFiles");
+const progressBar = document.getElementById("stProcessFiles");
+const timeLabel = document.getElementById("lblTime");
+const templateList = document.getElementById("listTemplate");
 const messageDelay = 3000;
 const FILES_REQUIRED = "Click on QUEUED to view the import folder. CSV files are required.";
 let importFiles = 0;
@@ -190,7 +189,7 @@ ipc.send("get-template-files");
 ipc.on("template-files", (e, files) => {
   Array.from(templateList.options)
     .forEach((option, i) => {
-      if (i > 0){
+      if (i > 0) {
         templateList.removeChild(option);
       }
     });

@@ -5,25 +5,24 @@ import { clipboard, ipcRenderer as ipc, remote } from "electron";
 import {
   rangeContiguous, rangeEmpty, selectionTrim
 } from "@buckneri/js-lib-selection";
-import { one } from "@buckneri/js-lib-dom-selection";
 
-const cancelEntityButton = one("#btnEntityTagger");
-const closeButton = one("#btnCloseFile");
-const clearButton = one("#btnClearTags");
-const dataEntryText = one("#txtAddText");
-const deleteButton = one("#btnDeleteTextFile");
-const files = one("#pnlFileName");
-const filename = one("#lblFilename");
-const list = one("#lstEntityTagger");
-const modal = one("#mvEntityTagger");
-const openButton = one("#btnOpenText");
-const renameFileText = one("#lblRenameFile");
-const renameFileTickbox = one("#chkFileRename");
-const renameFileSave = one("#btnFileRename");
-const saveButton = one("#btnAddText");
-const sensitivityButton = one("#btnSensitivity");
-const traceButton = one("#btnTrace");
-const autodiscoverButton = one("#btnAutodiscover");
+const cancelEntityButton = document.getElementById("btnEntityTagger");
+const closeButton = document.getElementById("btnCloseFile");
+const clearButton = document.getElementById("btnClearTags");
+const dataEntryText = document.getElementById("txtAddText");
+const deleteButton = document.getElementById("btnDeleteTextFile");
+const files = document.getElementById("pnlFileName");
+const filename = document.getElementById("lblFilename");
+const list = document.getElementById("lstEntityTagger");
+const modal = document.getElementById("mvEntityTagger");
+const openButton = document.getElementById("btnOpenText");
+const renameFileText = document.getElementById("lblRenameFile");
+const renameFileTickbox = document.getElementById("chkFileRename");
+const renameFileSave = document.getElementById("btnFileRename");
+const saveButton = document.getElementById("btnAddText");
+const sensitivityButton = document.getElementById("btnSensitivity");
+const traceButton = document.getElementById("btnTrace");
+const autodiscoverButton = document.getElementById("btnAutodiscover");
 
 let activeFile = null;
 let tag = null;
@@ -227,8 +226,8 @@ function openFile() {
  * @param {Event} e 
  */
 function pasteText(e) {
-  if (e) { 
-    e.preventDefault(); 
+  if (e) {
+    e.preventDefault();
     e.stopPropagation();
   }
   let paste = clipboard.readText();
