@@ -3356,7 +3356,6 @@ VALUES
 ('Uzhhorod'),
 ('Undercliff'),
 ('Underfleet'),
-('Underway'),
 ('Underwood'),
 ('Uplands'),
 ('Upper Drive'),

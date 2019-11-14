@@ -38406,7 +38406,6 @@ VALUES
 ('Koshelev'),
 ('Kosheleva'),
 ('Koshen'),
-('Kosher'),
 ('Koshesai'),
 ('Koshesayi'),
 ('Kosheutov'),

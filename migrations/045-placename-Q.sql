@@ -1715,7 +1715,7 @@ VALUES
 ('Quilse'),
 ('Quilts'),
 ('Quinary'),
-('Quinta Nursing Home'),
+('Quinta'),
 ('Quomp'),
 ('Quorn'),
 ('Quorum');

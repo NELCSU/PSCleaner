@@ -23863,6 +23863,7 @@ VALUES
 ('Noveda'),
 ('Noveed'),
 ('Noveen'),
+('Noveena'),
 ('Novek'),
 ('Novela'),
 ('Novelasari'),

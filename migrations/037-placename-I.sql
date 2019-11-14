@@ -3240,7 +3240,6 @@ VALUES
 ('Island of Rocks'),
 ('Island of Stroma'),
 ('Island Place'),
-('Island'),
 ('Island Planting'),
 ('Island Pond'),
 ('Island Ponds'),
@@ -4059,7 +4058,7 @@ VALUES
 ('Incline'),
 ('Inclosures'),
 ('Infield'),
-('Ingleborough Nursing Home'),
+('Ingleborough'),
 ('Ingles'),
 ('Ings'),
 ('Inhams'),
@@ -4075,7 +4074,6 @@ VALUES
 ('Iron Bridge Way'),
 ('Ironworks'),
 ('Island Sand'),
-('Islands'),
 ('Ive'),
 ('Ivies');
 

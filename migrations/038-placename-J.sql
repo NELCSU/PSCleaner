@@ -1628,7 +1628,7 @@ VALUES
 ('Jennys Trees'),
 ('Jennys Walk'),
 ('Jennys Way'),
-('Jennys Well Care Home'),
+('Jennys Well'),
 ('Jennys Well Court'),
 ('Jennys Well Road'),
 ('Jennys Wood'),

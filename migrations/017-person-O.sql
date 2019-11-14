@@ -13687,7 +13687,6 @@ VALUES
 ('Ooley'),
 ('Oolugbemi'),
 ('Ooluwasanmisire'),
-('Oom'),
 ('Ooma'),
 ('Oomaar'),
 ('Oomadevi'),

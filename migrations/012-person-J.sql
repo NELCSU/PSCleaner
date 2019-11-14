@@ -17684,6 +17684,7 @@ VALUES
 ('Joxelius'),
 ('Joxo'),
 ('Joxy'),
+('Joy'),
 ('Joya'),
 ('Joyah'),
 ('Joyal'),

@@ -20,7 +20,7 @@ VALUES
   'LOCATION', 
   0,
   'Regular expression', 
-  '\b(?:\d{1,4}[a-z]{0,3}\s)(?:[''\.\-\w]*\s)?(?:approach|avenue|bank|close|cl|crescent|croft|court|drive|east|end|flats|field|heights|ga?r?de?ns|gate|grange|green|grove|hill|lane|ln|meadow|mews|north|parade|park|path|place|pl|rise|road|rd|row|square|south|street|st|terrace|towers|view|walk|way|west|wood|yard)\b'
+  '\b(?:\d{1,4}[a-z]{0,3}\s)(?:[''\.\-\w]*\s)?(?:approach|avenue|bank|close|cl|crescent|croft|court|drive|east|end|flats|field|heights|ga?r?de?ns|gate|grange|green|grove|hill|lane|ln|meadow|mews|north|parade|park|path|place|pl|rise|road|rd|row|square|south|street|st|terrace|towers|view|walk|way|west|wood|yard)(?:\s(?:north|south|east|west))?\b'
 ),
 (
   'Address2',  
@@ -143,16 +143,6 @@ VALUES
   '[34679]\d\d\s?\d\d\d\s?\d\s?\d\s?\d\s?\d'
 ),
 (
-  'Person',    
-  '#0080ff', 
-  'Person',   
-  0, 
-  'PERSON', 
-  0, 
-  'Single term', 
-  ''
-),
-(
   'Part',      
   '#ccddee', 
   'Part',     
@@ -160,6 +150,16 @@ VALUES
   'PART', 
   1,   
   'Multiple term', 
+  ''
+),
+(
+  'Person',    
+  '#0080ff', 
+  'Person',   
+  1, 
+  'PERSON', 
+  0, 
+  'Single term', 
   ''
 ),
 (

@@ -23825,7 +23825,6 @@ VALUES
 ('Gran'),
 ('Grana'),
 ('Granaci'),
-('Granada'),
 ('Granade'),
 ('Granadeiro'),
 ('Granadino'),

@@ -28,9 +28,9 @@ export class NLP {
   private _pos: posTagger;
   private _sensitivity: number = 1;
   private _sensitivityLevels: string[] = [
-    "|NNS|NNP|NNPS|RB|FW|PRP|IN|DT|VB|",
-    "|NNS|NNP|NNPS|RB|FW|PRP|IN|DT|VB|NN|VBG|VBP|",
-    "|NNS|NNP|NNPS|RB|FW|PRP|IN|DT|VB|NN|VBG|VBP|VBD|VBN|VBZ|JJ|MD|"
+    "|NN|NNS|NNP|NNPS|FW|PRP|PRP$|IN|VB|VBG|JJ|",
+    "|NN|NNS|NNP|NNPS|FW|PRP|PRP$|IN|VB|VBG|JJ|RB|MD|VBP|DT|WDT|",
+    "|NN|NNS|NNP|NNPS|FW|PRP|PRP$|IN|VB|VBG|JJ|RB|MD|VBP|VBD|VBN|VBZ|DT|WDT|"
   ];
   private _trace: boolean = true;
 
@@ -90,6 +90,7 @@ export class NLP {
     const words: WordPosition[] = [];
     const tags: Tag[] = this._pos.tagSentence(data);
     let cursor: number = 0;
+    let lastWord: WordPosition;
     tags.forEach((tag: Tag) => {
       const start: number = data.indexOf(tag.value, cursor);
       const len: number = tag.value.length;
@@ -97,12 +98,20 @@ export class NLP {
       cursor = end;
       if (tag.tag === "word") {
         if (this._sensitivityLevels[this.sensitivity].indexOf(`|${tag.pos}|`) > -1) {
-          words.push({
-            value: tag.value,
-            start: start,
-            end: end,
-            length: len
-          });
+          if (tag.pos === "RB" && lastWord && lastWord.end + 1 === start) {
+            const n: number = words.length - 1;
+            words[n].value += tag.value;
+            words[n].end = end;
+            words[n].length += len;
+          } else {
+            lastWord = {
+              value: tag.value,
+              start: start,
+              end: end,
+              length: len
+            };
+            words.push(lastWord);
+          }
         }
       }
     });
@@ -143,7 +152,7 @@ export class NLP {
   }
 
   private _joinable(curr: MatchedEntity, next: MatchedEntity): boolean {
-    return (next.start > curr.end && next.start <= curr.end + 3 && next.entity.domain === curr.entity.domain && curr.entity.joinable === 1);
+    return (next.start > curr.end && next.start <= curr.end + 2 && next.entity.domain === curr.entity.domain && curr.entity.joinable === 1);
   }
 
   private _queryMultipleTerms(words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
@@ -278,6 +287,7 @@ export class NLP {
     const result: MatchedEntity[] = [];
     values.sort((a, b) => a.start < b.start ? -1 : a.start > b.start ? 1 : 0);
     let current: MatchedEntity, peek: MatchedEntity, cursor: number = 0;
+
     while (values.length > 0) {
       current = values.shift() as MatchedEntity;
       let skip: boolean = cursor >= current.end;
@@ -297,10 +307,6 @@ export class NLP {
             values.shift();
             lookAhead = values.length > 0;
           }
-        } else if (this._joinable(current, peek)) {
-          current = this._join(current, peek, data);
-          values.shift();
-          lookAhead = values.length > 0;
         }
       }
       if (!skip) {
@@ -309,7 +315,20 @@ export class NLP {
           result.push(current);
         }
       }
-    }    
+    }
+
+    if (result.length > 1) {
+      for (let i = result.length -1; i > 0; i--) {
+        let peek = result[i];
+        let current = result[i -1];
+        if (this._joinable(current, peek)) {
+          result[i -1] = this._join(current, peek, data);
+          result.splice(i, 1);
+          --i;
+        }
+      }
+    }
+
     return result;
   }
 }
