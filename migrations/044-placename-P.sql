@@ -23692,7 +23692,6 @@ VALUES
 ('Prima Road'),
 ('Primack Road'),
 ('Primary Avenue'),
-('Primary'),
 ('Primary Close'),
 ('Primary Court'),
 ('Primary Gardens'),

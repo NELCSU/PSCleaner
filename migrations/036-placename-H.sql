@@ -3466,7 +3466,6 @@ VALUES
 ('Hammarskjold Road'),
 ('Hammas Leys'),
 ('Hammelton Road'),
-('Hammer'),
 ('Hammer Bank'),
 ('Hammer Bottom'),
 ('Hammer Coppice'),

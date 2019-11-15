@@ -244,7 +244,7 @@ VALUES
 ('Xennu'),
 ('Xeno'),
 ('Xenodike'),
-('Xenodochova'),
+
 ('Xenofan'),
 ('Xenofon'),
 ('Xenofondos'),
@@ -459,7 +459,7 @@ VALUES
 ('Xhoga'),
 ('Xhoi'),
 ('Xhon'),
-('Xhonathan'),
+
 ('Xhonetina'),
 ('Xhoni'),
 ('Xhoniklajda'),
@@ -1399,7 +1399,7 @@ VALUES
 ('Xuon'),
 ('Xuong'),
 ('Xuping'),
-('Xupova'),
+
 ('Xuqin'),
 ('Xuqing'),
 ('Xuran'),

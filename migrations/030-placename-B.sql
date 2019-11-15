@@ -41191,7 +41191,6 @@ VALUES
 ('Bridge Pit'),
 ('Bridge Place'),
 ('Bridge Place Road'),
-('Bridge'),
 ('Bridge Plats Way'),
 ('Bridge Pool'),
 ('Bridge Pot'),

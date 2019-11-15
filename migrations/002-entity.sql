@@ -153,6 +153,16 @@ VALUES
   ''
 ),
 (
+  'PartRegEx',  
+  '#ccddee', 
+  'Part', 
+  0, 
+  'PART', 
+  1,
+  'Regular expression', 
+  '\b\d+\s+(?:autumn|day|summer|week|winter)\s?\b'
+),
+(
   'Person',    
   '#0080ff', 
   'Person',   
@@ -161,6 +171,16 @@ VALUES
   0, 
   'Single term', 
   ''
+),
+(
+  'PersonRegEx',  
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b(?:\w+chek|\w+\wcz\w+|\w+iwe|\w+ova|\w+than|\w+uji|\w+vsky|\w+wska|\w+zyk)\b'
 ),
 (
   'PlaceName', 

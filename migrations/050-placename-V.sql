@@ -3356,7 +3356,6 @@ VALUES
 ('Valley Green'),
 ('Valleys'),
 ('Valls'),
-('Var'),
 ('Vatch'),
 ('Vauld'),
 ('Vauntie'),
