@@ -806,7 +806,6 @@ VALUES
 ('University Drive'),
 ('University Farm'),
 ('University Gardens'),
-('University'),
 ('University Hospital Ayr'),
 ('University Hospital Crosshouse'),
 ('University Hospital Hairmyres'),

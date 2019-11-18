@@ -58,6 +58,7 @@ export type SearchTermResult = {
   id: number,
   keyword: string,
   original_term?: string,
+  pos?: string,
   start: number
 }
 
@@ -66,11 +67,13 @@ export type MatchedEntity = {
   id: number,
   value: string,
   start: number,
+  pos?: string,
   end: number,
   length: number
 }
 
 export type WordPosition = {
+  pos?: string,
   value: string,
   start: number,
   end: number,

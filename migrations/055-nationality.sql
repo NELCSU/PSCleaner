@@ -90,6 +90,7 @@ VALUES
 ('Guinean'),
 ('Guyanese'), 
 ('Haitian'),
+('Hawaiian'),
 ('Honduran'),
 ('Hong Konger'),
 ('Hungarian'), 

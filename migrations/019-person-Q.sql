@@ -73,7 +73,7 @@ VALUES
 ('Qadoos'),
 ('Qadous'),
 ('Qadr'),
-('Qadra'),
+
 ('Qadri'),
 ('Qadria'),
 ('Qadriyah'),
@@ -360,7 +360,7 @@ VALUES
 ('Qayuim'),
 ('Qayum'),
 ('Qayumi'),
-('Qayumov'),
+
 ('Qayyam'),
 ('Qayyim'),
 ('Qayyom'),
@@ -882,7 +882,7 @@ VALUES
 ('Qod'),
 ('Qodah'),
 ('Qodia'),
-('Qodirov'),
+
 ('Qodosi'),
 ('Qodsia'),
 ('Qohaja'),
@@ -917,7 +917,7 @@ VALUES
 ('Qoshi'),
 ('Qoshja'),
 ('Qosim'),
-('Qosimov'),
+
 ('Qosja'),
 ('Qossoqsi'),
 ('Qotaly'),
@@ -927,7 +927,7 @@ VALUES
 ('Qoudiha'),
 ('Qousar'),
 ('Qousari'),
-('Qovudradra'),
+
 ('Qowdhan'),
 ('Qoyes'),
 ('Qoyyum'),
@@ -947,7 +947,7 @@ VALUES
 ('Quaatey'),
 ('Quabdid'),
 ('Quabena'),
-('Quacci'),
+
 ('Quacco'),
 ('Quacey'),
 ('Quach'),
@@ -982,7 +982,7 @@ VALUES
 ('Quadir'),
 ('Quadling'),
 ('Quadnau'),
-('Quadra'),
+
 ('Quadraccia'),
 ('Quadrat'),
 ('Quadrelli'),
@@ -1266,7 +1266,7 @@ VALUES
 ('Quartome'),
 ('Quarton'),
 ('Quartu'),
-('Quartucci'),
+
 ('Quartuccio'),
 ('Quartulli'),
 ('Quartus'),
@@ -1278,7 +1278,7 @@ VALUES
 ('Quasar'),
 ('Quasari'),
 ('Quaschnick'),
-('Quasdorf'),
+
 ('Quasebarth'),
 ('Quaseem'),
 ('Quasem'),
@@ -1347,7 +1347,7 @@ VALUES
 ('Quattrone'),
 ('Quattrotempore'),
 ('Quattrovicce'),
-('Quattrucci'),
+
 ('Quaum'),
 ('Quausah'),
 ('Quauyumi'),
@@ -2345,7 +2345,7 @@ VALUES
 ('Qutubuddin'),
 ('Qutubul'),
 ('Quule'),
-('Quvondiqov'),
+
 ('Quvonte'),
 ('Quwaam'),
 ('Quwaine'),

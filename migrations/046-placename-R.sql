@@ -20614,7 +20614,6 @@ VALUES
 ('Rufus Street'),
 ('Rufus Way'),
 ('Rufwood'),
-('Rug'),
 ('Rug Spinney'),
 ('Rugby'),
 ('Rugby Avenue'),

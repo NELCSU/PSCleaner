@@ -52255,7 +52255,6 @@ VALUES
 ('Burlestone'),
 ('Burlestone Wood'),
 ('Burleton Road'),
-('Burley'),
 ('Burley Avenue'),
 ('Burley Bank Close'),
 ('Burley Bank Road'),

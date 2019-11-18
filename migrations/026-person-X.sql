@@ -54,7 +54,7 @@ VALUES
 ('Xalek'),
 ('Xalex'),
 ('Xalid'),
-('Xalikov'),
+
 ('Xalima'),
 ('Xalimo'),
 ('Xamaica'),
@@ -78,7 +78,7 @@ VALUES
 ('Xander'),
 ('Xanders'),
 ('Xandex'),
-('Xandra'),
+
 ('Xandre'),
 ('Xandria'),
 ('Xandrine'),
@@ -263,7 +263,7 @@ VALUES
 ('Xenou'),
 ('Xenoula'),
 ('Xenoulla'),
-('Xenov'),
+
 ('Xenoy'),
 ('Xenoyla'),
 ('Xente'),
@@ -420,7 +420,7 @@ VALUES
 ('Xhevahir'),
 ('Xhevahire'),
 ('Xhevair'),
-('Xhevamir'),
+
 ('Xhevat'),
 ('Xhevdet'),
 ('Xhevit'),
@@ -430,9 +430,9 @@ VALUES
 ('Xheza'),
 ('Xhezair'),
 ('Xhezaj'),
-('Xhezemir'),
+
 ('Xhezide'),
-('Xhezmir'),
+
 ('Xhezo'),
 ('Xhiaj'),
 ('Xhici'),
@@ -1092,7 +1092,7 @@ VALUES
 ('Xiran'),
 ('Xireng'),
 ('Xirley'),
-('Xirojiddinov'),
+
 ('Xiromeritis'),
 ('Xirone'),
 ('Xiros'),

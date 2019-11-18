@@ -9776,7 +9776,6 @@ VALUES
 ('Orai'),
 ('Oral'),
 ('Oran'),
-('Orange'),
 ('Ordos City'),
 ('Ordu'),
 ('Örebro'),

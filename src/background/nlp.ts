@@ -106,6 +106,7 @@ export class NLP {
           } else {
             lastWord = {
               value: tag.value,
+              pos: tag.pos,
               start: start,
               end: end,
               length: len
@@ -167,7 +168,8 @@ export class NLP {
           id,
           '${word.value.replace(/\'/g, "''")}' AS original_term,
           keyword,
-          ${word.start} AS start 
+          ${word.start} AS start,
+          '${word.pos}' AS pos
         FROM "${entity.label}" 
         WHERE keyword LIKE ? ESCAPE '~' OR keyword = ?`;
       queue.push(DB().query(qry, [p1, p2]));
@@ -193,7 +195,8 @@ export class NLP {
       const qry: string = `SELECT 
           id,
           '${word.value.replace(/\'/g, "''")}' AS keyword, 
-          ${word.start} AS start 
+          ${word.start} AS start,
+          '${word.pos}' AS pos
         FROM "${entity.label}" WHERE keyword = ?`;
       queue.push(DB().queryFirstRow(qry, predicate));
     });
@@ -220,6 +223,7 @@ export class NLP {
           id: 0,
           value: m[0],
           start: m.index,
+          pos: "regex",
           end: m.index + m[0].length,
           length: m[0].length
         });
@@ -273,6 +277,7 @@ export class NLP {
               id: term.id,
               value: value,
               start: term.start,
+              pos: term.pos,
               end: term.start + value.length - 1,
               length: value.length
             });

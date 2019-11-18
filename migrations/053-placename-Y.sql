@@ -920,7 +920,6 @@ VALUES
 ('Yeldside Gardens'),
 ('Yelford'),
 ('Yelfs Road'),
-('Yell'),
 ('Yell Bank'),
 ('Yell Dingle'),
 ('Yell Hill'),
