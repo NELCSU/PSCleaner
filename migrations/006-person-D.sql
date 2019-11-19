@@ -226,7 +226,7 @@ VALUES
 ('Dabkeviciene'),
 ('Dabkevicius'),
 ('Dabkeviciute'),
-('Dabkiewicz'),
+
 
 
 ('Dabkowski'),
@@ -296,14 +296,14 @@ VALUES
 ('Dabris'),
 ('Dabrisiute'),
 ('Dabrom'),
-('Dabronicz'),
+
 ('Dabronzo'),
 ('Dabrosca'),
 ('Dabroski'),
 ('Dabrow'),
 ('Dabrowa'),
 
-('Dabrowicz'),
+
 ('Dabrowiecka'),
 ('Dabrowka'),
 ('Dabrowna'),
@@ -363,7 +363,7 @@ VALUES
 ('Dacent'),
 ('Dacer'),
 ('Dacesta'),
-('Dacewicz'),
+
 ('Dacey'),
 ('Dach'),
 ('Dacha'),
@@ -408,7 +408,7 @@ VALUES
 ('Dachtera'),
 ('Dachtler'),
 ('Dachuan'),
-('Dachyshyn'),
+
 ('Daci'),
 ('Dacia'),
 ('Dacian'),
@@ -434,7 +434,7 @@ VALUES
 ('Dackevicius'),
 ('Dackham'),
 ('Dackheden'),
-('Dackiewicz'),
+
 ('Dacko'),
 ('Dackombe'),
 ('Dackys'),
@@ -477,7 +477,7 @@ VALUES
 ('Dacy'),
 ('Dacyl'),
 ('Dacys'),
-('Dacyszyn'),
+
 
 
 
@@ -607,7 +607,7 @@ VALUES
 ('Dadmeah'),
 ('Dado'),
 ('Dadoe'),
-('Dadoeryk'),
+
 ('Dadok'),
 ('Dadomo'),
 ('Dadon'),
@@ -698,7 +698,7 @@ VALUES
 ('Daemian'),
 ('Daemon'),
 ('Daems'),
-('Daemyn'),
+
 ('Daen'),
 ('Daena'),
 ('Daene'),
@@ -777,7 +777,7 @@ VALUES
 ('Daffy'),
 ('Daffyd'),
 ('Daffydd'),
-('Daffyn'),
+
 ('Dafi'),
 ('Dafil'),
 ('Dafilmoto'),
@@ -1155,13 +1155,13 @@ VALUES
 ('Dahlal'),
 ('Dahlan'),
 ('Dahlbeck'),
-('Dahlberg'),
+
 ('Dahlby'),
 ('Dahle'),
 ('Dahleen'),
 ('Dahlem'),
 ('Dahlen'),
-('Dahlenburg'),
+
 ('Dahler'),
 ('Dahley'),
 ('Dahlgaard'),
@@ -1194,7 +1194,7 @@ VALUES
 ('Dahlstrom'),
 ('Dahlsveen'),
 ('Dahlton'),
-('Dahlyn'),
+
 ('Dahm'),
 ('Dahman'),
 ('Dahmane'),
@@ -1403,7 +1403,7 @@ VALUES
 ('Dailyde'),
 ('Dailyeva'),
 ('Dailyia'),
-('Dailyn'),
+
 ('Daim'),
 ('Daima'),
 ('Daiman'),
@@ -1605,7 +1605,7 @@ VALUES
 ('Daizy'),
 ('Daj'),
 ('Daja'),
-('Dajah'),
+
 ('Dajahn'),
 ('Dajahna'),
 ('Dajain'),
@@ -1732,7 +1732,7 @@ VALUES
 
 
 ('Dakovic'),
-('Dakowicz'),
+
 
 ('Dakowski'),
 ('Dakpa'),
@@ -1814,7 +1814,7 @@ VALUES
 ('Dalakishvili'),
 ('Dalakleidi'),
 ('Dalaklides'),
-('Dalakoti'),
+
 ('Dalakouras'),
 
 ('Dalal'),
@@ -1873,7 +1873,7 @@ VALUES
 ('Dalbeck'),
 ('Dalbeer'),
 ('Dalbera'),
-('Dalberg'),
+
 ('Dalbergs'),
 ('Dalberry'),
 ('Dalbert'),
@@ -1945,7 +1945,7 @@ VALUES
 ('Dalemo'),
 ('Dalen'),
 ('Dalena'),
-('Dalenberg'),
+
 ('Dalencon'),
 ('Dalenda'),
 ('Dalene'),
@@ -2015,7 +2015,7 @@ VALUES
 ('Dalhatu'),
 ('Dalhaug'),
 ('Dalhepalli'),
-('Dalhoff'),
+
 ('Dalhouse'),
 ('Dalhover'),
 ('Dalhuisen'),
@@ -2124,7 +2124,7 @@ VALUES
 ('Dalkaya'),
 ('Dalke'),
 ('Dalkeith'),
-('Dalkiewicz'),
+
 ('Dalkilic'),
 ('Dalkin'),
 ('Dalkir'),
@@ -2145,7 +2145,7 @@ VALUES
 ('Dallah'),
 ('Dallain'),
 ('Dallaire'),
-('Dallakoti'),
+
 ('Dallaku'),
 ('Dallal'),
 ('Dallalba'),
@@ -2244,7 +2244,7 @@ VALUES
 ('Dallura'),
 
 ('Dally'),
-('Dallyn'),
+
 ('Dalma'),
 ('Dalmacio'),
 ('Dalmadi'),
@@ -2555,7 +2555,7 @@ VALUES
 ('Damaseviciene'),
 ('Damaseviciute'),
 ('Damasiene'),
-('Damasiewicz'),
+
 ('Damasio'),
 ('Damasiute'),
 ('Damask'),
@@ -2608,7 +2608,7 @@ VALUES
 ('Dambell'),
 ('Dambelle'),
 ('Damber'),
-('Damberg'),
+
 ('Damberger'),
 ('Dambile'),
 ('Dambire'),
@@ -2925,7 +2925,7 @@ VALUES
 ('Damodhar'),
 ('Damodharan'),
 ('Damodi'),
-('Damodran'),
+
 ('Damoeh'),
 ('Damoglou'),
 ('Damoi'),
@@ -3017,7 +3017,7 @@ VALUES
 ('Damsoah'),
 ('Damson'),
 ('Damstra'),
-('Damsyn'),
+
 ('Damte'),
 ('Damtew'),
 ('Damto'),
@@ -3028,7 +3028,7 @@ VALUES
 ('Damuleviciene'),
 ('Damulevicius'),
 ('Damuleviciute'),
-('Damulewicz'),
+
 ('Damulira'),
 ('Damulyte'),
 ('Damuna'),
@@ -3175,7 +3175,7 @@ VALUES
 ('Danback'),
 ('Danbahadur'),
 ('Danbee'),
-('Danberg'),
+
 ('Danberry'),
 ('Danbi'),
 ('Danbigh'),
@@ -3186,7 +3186,7 @@ VALUES
 ('Danboyi'),
 ('Danbrauskaite'),
 ('Danbrook'),
-('Danburg'),
+
 ('Danbury'),
 ('Danby'),
 ('Danc'),
@@ -3202,7 +3202,7 @@ VALUES
 ('Dancel'),
 ('Dancescu'),
 ('Dancette'),
-('Dancewicz'),
+
 ('Dancey'),
 ('Danch'),
 ('Danchak'),
@@ -3329,7 +3329,7 @@ VALUES
 ('Daneala'),
 ('Daneau'),
 ('Daneault'),
-('Danecek'),
+
 ('Daneche'),
 ('Danecia'),
 ('Danecka'),
@@ -3394,7 +3394,7 @@ VALUES
 ('Danena'),
 ('Danenaite'),
 ('Danenas'),
-('Danenberg'),
+
 ('Danenhower'),
 ('Daneniene'),
 ('Daneo'),
@@ -3539,7 +3539,7 @@ VALUES
 ('Danhi'),
 ('Danho'),
 ('Danhof'),
-('Danhoff'),
+
 ('Danhong'),
 ('Danhoo'),
 
@@ -3565,7 +3565,7 @@ VALUES
 ('Danica'),
 ('Danican'),
 ('Danice'),
-('Danicek'),
+
 ('Danicia'),
 ('Danicic'),
 ('Danicilic'),
@@ -3576,7 +3576,7 @@ VALUES
 
 ('Danico'),
 ('Danics'),
-('Danicz'),
+
 ('Danid'),
 ('Danie'),
 ('Daniea'),
@@ -3594,7 +3594,7 @@ VALUES
 ('Danielak'),
 
 ('Daniele'),
-('Danielewicz'),
+
 
 ('Danielewsky'),
 ('Danieley'),
@@ -3604,7 +3604,7 @@ VALUES
 ('Danieliene'),
 ('Danieliote'),
 ('Danielis'),
-('Danieliszyn'),
+
 ('Danielius'),
 ('Danieliute'),
 ('Daniell'),
@@ -3684,7 +3684,7 @@ VALUES
 ('Danilaviciute'),
 ('Danilcenko'),
 ('Danilchenko'),
-('Danilchyk'),
+
 ('Danilcika'),
 
 ('Danile'),
@@ -3701,14 +3701,14 @@ VALUES
 ('Danileviciute'),
 ('Danilevicus'),
 ('Danilevskaja'),
-('Danilewicz'),
+
 ('Danilia'),
 ('Danilin'),
 ('Danilina'),
 ('Danilio'),
 ('Daniliuc'),
 ('Daniliuk'),
-('Danilkiewicz'),
+
 ('Danilkiewill'),
 ('Danill'),
 ('Danille'),
@@ -3723,7 +3723,7 @@ VALUES
 ('Danilovich'),
 ('Danilovna'),
 ('Danilovs'),
-('Danilowicz'),
+
 ('Danils'),
 ('Danilsa'),
 ('Danilso'),
@@ -3731,7 +3731,7 @@ VALUES
 ('Daniluk'),
 ('Daniluks'),
 ('Danily'),
-('Danilyn'),
+
 ('Danimbe'),
 ('Danin'),
 ('Danina'),
@@ -3848,7 +3848,7 @@ VALUES
 ('Dankert'),
 ('Dankey'),
 ('Dankha'),
-('Dankiewicz'),
+
 ('Dankins'),
 ('Dankittipong'),
 ('Dankiv'),
@@ -3940,7 +3940,7 @@ VALUES
 ('Dannemiller'),
 ('Dannen'),
 ('Dannenbaum'),
-('Dannenberg'),
+
 ('Dannenbring'),
 ('Dannenfelser'),
 ('Dannenmayer'),
@@ -4278,7 +4278,7 @@ VALUES
 
 ('Danyluk'),
 ('Danylyak'),
-('Danylyshyn'),
+
 ('Danylyuk'),
 ('Danyna'),
 ('Danyo'),
@@ -4424,7 +4424,7 @@ VALUES
 ('Dapkute'),
 ('Dapkuviene'),
 ('Dapling'),
-('Daplyn'),
+
 ('Dapne'),
 ('Dapo'),
 ('Dapoigny'),
@@ -4529,7 +4529,7 @@ VALUES
 ('Daral'),
 ('Daralee'),
 ('Daralis'),
-('Daralyn'),
+
 ('Daram'),
 ('Daramadas'),
 ('Daramadass'),
@@ -4584,7 +4584,7 @@ VALUES
 ('Darasti'),
 ('Darasur'),
 
-('Daraszkiewicz'),
+
 ('Daratawat'),
 ('Daratos'),
 ('Daraujo'),
@@ -4754,13 +4754,13 @@ VALUES
 ('Darell'),
 ('Darelle'),
 ('Darellynn'),
-('Darelyn'),
+
 ('Daren'),
 ('Darena'),
 ('Darenas'),
 ('Darene'),
-('Darensbourg'),
-('Darensburg'),
+
+
 ('Dareon'),
 ('Darer'),
 ('Darerca'),
@@ -4802,7 +4802,7 @@ VALUES
 ('Dargi'),
 ('Dargie'),
 ('Dargiene'),
-('Dargiewicz'),
+
 ('Dargin'),
 ('Darginaviciute'),
 ('Dargionle'),
@@ -4843,7 +4843,7 @@ VALUES
 ('Daric'),
 ('Darican'),
 ('Darice'),
-('Daricek'),
+
 ('Darici'),
 ('Darida'),
 ('Daridan'),
@@ -5039,7 +5039,7 @@ VALUES
 ('Darlow'),
 ('Darlton'),
 ('Darly'),
-('Darlyn'),
+
 ('Darlynn'),
 ('Darlynton'),
 ('Darm'),
@@ -5283,7 +5283,7 @@ VALUES
 ('Darry'),
 ('Darryl'),
 ('Darryll'),
-('Darryn'),
+
 ('Dars'),
 ('Darsa'),
 ('Darsadze'),
@@ -5455,7 +5455,7 @@ VALUES
 ('Darwood'),
 ('Darwsh'),
 ('Darwush'),
-('Darwyn'),
+
 ('Dary'),
 ('Darya'),
 ('Daryab'),
@@ -5478,7 +5478,7 @@ VALUES
 ('Darylen'),
 ('Daryll'),
 ('Darylle'),
-('Daryn'),
+
 ('Daryna'),
 ('Daryne'),
 ('Daryosh'),
@@ -5675,7 +5675,7 @@ VALUES
 ('Dasia'),
 ('Dasiah'),
 ('Dasian'),
-('Dasiewicz'),
+
 ('Dasigeni'),
 ('Dasigi'),
 ('Dasik'),
@@ -5718,7 +5718,7 @@ VALUES
 ('Daslenzo'),
 ('Dasling'),
 ('Daslouk'),
-('Daslyn'),
+
 ('Dasmahapatra'),
 ('Dasmahpatra'),
 ('Dasmal'),
@@ -5855,9 +5855,9 @@ VALUES
 ('Dasylva'),
 ('Dasyra'),
 ('Daszek'),
-('Daszewicz'),
+
 ('Daszkiewics'),
-('Daszkiewicz'),
+
 ('Daszko'),
 ('Daszkowski'),
 ('Daszuk'),
@@ -5884,7 +5884,7 @@ VALUES
 ('Datchina'),
 ('Datcu'),
 ('Dateh'),
-('Datelyn'),
+
 ('Datema'),
 ('Dater'),
 ('Dateresa'),
@@ -5895,7 +5895,7 @@ VALUES
 ('Dathan'),
 ('Dathe'),
 ('Dathi'),
-('Dathlyn'),
+
 ('Dathorne'),
 ('Dathout'),
 ('Dathra'),
@@ -6076,7 +6076,7 @@ VALUES
 ('Daugan'),
 ('Daugas'),
 ('Daugaviete'),
-('Daugbjerg'),
+
 ('Dauge'),
 ('Daugela'),
 ('Daugelaite'),
@@ -6337,7 +6337,7 @@ VALUES
 ('Dautrich'),
 ('Dautricourt'),
 ('Dautun'),
-('Dautzenberg'),
+
 ('Dauud'),
 ('Dauulola'),
 ('Dauvergne'),
@@ -6467,7 +6467,7 @@ VALUES
 ('Davell'),
 ('Davella'),
 ('Davelle'),
-('Davelyn'),
+
 ('Daven'),
 ('Davena'),
 ('Davenand'),
@@ -6477,7 +6477,7 @@ VALUES
 ('Davendo'),
 
 ('Davendralingam'),
-('Davendran'),
+
 ('Davendrasinh'),
 ('Davene'),
 ('Daveneet'),
@@ -6573,7 +6573,7 @@ VALUES
 ('Davidovs'),
 
 ('Davidow'),
-('Davidowicz'),
+
 
 ('Davidowski'),
 ('Davidraju'),
@@ -6823,7 +6823,7 @@ VALUES
 ('Dawber'),
 ('Dawborne'),
 ('Dawbuth'),
-('Dawcewicz'),
+
 ('Dawd'),
 ('Dawda'),
 ('Dawdi'),
@@ -6857,7 +6857,7 @@ VALUES
 ('Dawidek'),
 ('Dawidi'),
 ('Dawidow'),
-('Dawidowicz'),
+
 
 ('Dawidowski'),
 ('Dawidt'),
@@ -7110,7 +7110,7 @@ VALUES
 ('Dayglo'),
 ('Dayhana'),
 ('Dayhim'),
-('Dayhoff'),
+
 ('Dayhuff'),
 ('Dayi'),
 ('Dayian'),
@@ -7150,7 +7150,7 @@ VALUES
 ('Daylor'),
 ('Daylse'),
 ('Daylson'),
-('Daylyn'),
+
 ('Dayma'),
 ('Dayman'),
 ('Daymee'),
@@ -7160,7 +7160,7 @@ VALUES
 ('Daymon'),
 ('Daymond'),
 ('Daymude'),
-('Dayn'),
+
 ('Dayna'),
 ('Daynah'),
 ('Daynara'),
@@ -7337,7 +7337,7 @@ VALUES
 ('Deahne'),
 ('Deahoun'),
 ('Deaibes'),
-('Deajah'),
+
 ('Deajahmor'),
 ('Deajohn'),
 ('Deak'),
@@ -7369,7 +7369,7 @@ VALUES
 ('Dealwis'),
 ('Dealy'),
 ('Dealyha'),
-('Dealyn'),
+
 ('Deam'),
 ('Deamaral'),
 ('Deambrogio'),
@@ -7442,7 +7442,7 @@ VALUES
 ('Dearan'),
 ('Dearaujo'),
 ('Dearbail'),
-('Dearberg'),
+
 ('Dearbhail'),
 ('Dearbhaile'),
 ('Dearbhla'),
@@ -7584,7 +7584,7 @@ VALUES
 ('Debajani'),
 ('Debajeet'),
 ('Debajit'),
-('Debajyoti'),
+
 ('Debake'),
 ('Debaker'),
 ('Debakey'),
@@ -7631,7 +7631,7 @@ VALUES
 ('Debarghya'),
 ('Debari'),
 ('Debarnot'),
-('Debaroti'),
+
 ('Debarr'),
 ('Debarra'),
 ('Debarre'),
@@ -7698,7 +7698,7 @@ VALUES
 ('Debbink'),
 ('Debbins'),
 ('Debbion'),
-('Debblyn'),
+
 ('Debbo'),
 ('Debbonaire'),
 ('Debbonie'),
@@ -7766,7 +7766,7 @@ VALUES
 ('Deberah'),
 ('Deberardinis'),
 ('Debere'),
-('Deberg'),
+
 ('Debernard'),
 ('Debernardi'),
 ('Debernardis'),
@@ -7820,7 +7820,7 @@ VALUES
 ('Debikar'),
 ('Debil'),
 ('Debilde'),
-('Debilyn'),
+
 ('Debilzan'),
 ('Debin'),
 ('Debina'),
@@ -7844,7 +7844,7 @@ VALUES
 ('Debjani'),
 ('Debjit'),
 ('Debjita'),
-('Debjyoti'),
+
 ('Debkanta'),
 
 ('Debkowski'),
@@ -7951,7 +7951,7 @@ VALUES
 ('Deboth'),
 ('Debotro'),
 ('Debottis'),
-('Debourg'),
+
 ('Debouse'),
 ('Debout'),
 ('Debouto'),
@@ -8053,7 +8053,7 @@ VALUES
 ('Debrup'),
 ('Debrus'),
 ('Debruycker'),
-('Debruyn'),
+
 ('Debruyne'),
 ('Debry'),
 ('Debs'),
@@ -8306,7 +8306,7 @@ VALUES
 ('Declouet'),
 ('Declouette'),
 ('Declue'),
-('Declyn'),
+
 ('Decmar'),
 ('Decnerole'),
 ('Deco'),
@@ -8429,7 +8429,7 @@ VALUES
 ('Decusara'),
 ('Decuseara'),
 ('Decy'),
-('Decyk'),
+
 ('Decylma'),
 ('Ded'),
 ('Deda'),
@@ -8501,7 +8501,7 @@ VALUES
 ('Dedevelioglu'),
 ('Dedewo'),
 ('Dedey'),
-('Dedeyn'),
+
 ('Dedgjonaj'),
 ('Dedhar'),
 ('Dedhia'),
@@ -8589,7 +8589,7 @@ VALUES
 ('Deeanna'),
 ('Deeanne'),
 ('Deearnie'),
-('Deearyn'),
+
 ('Deeb'),
 ('Deeba'),
 ('Deebah'),
@@ -8974,7 +8974,7 @@ VALUES
 ('Deflorimonte'),
 ('Deflorio'),
 ('Deflumeri'),
-('Deflyn'),
+
 ('Defne'),
 ('Defoe'),
 ('Defoin'),
@@ -9134,7 +9134,7 @@ VALUES
 ('Deger'),
 ('Degerat'),
 ('Degeratu'),
-('Degerecz'),
+
 ('Degerfalt'),
 ('Degerli'),
 ('Degerlund'),
@@ -9472,7 +9472,7 @@ VALUES
 ('Dehning'),
 ('Dehnke'),
 ('Deho'),
-('Dehoff'),
+
 ('Dehokenanan'),
 ('Dehollander'),
 ('Dehombre'),
@@ -9743,7 +9743,7 @@ VALUES
 ('Dejai'),
 ('Dejaine'),
 ('Dejair'),
-('Dejaiyn'),
+
 ('Dejalmo'),
 ('Dejamhiz'),
 ('Dejamkhaiz'),
@@ -10378,7 +10378,7 @@ VALUES
 ('Delbosc'),
 ('Delbosque'),
 ('Delboulle'),
-('Delbourg'),
+
 ('Delbourgo'),
 ('Delbracio'),
 ('Delbravo'),
@@ -10536,7 +10536,7 @@ VALUES
 ('Deleonardo'),
 ('Deleone'),
 ('Deleonibus'),
-('Delephyn'),
+
 ('Delepine'),
 ('Deleporte'),
 ('Delepoulle'),
@@ -10631,7 +10631,7 @@ VALUES
 ('Delfourne'),
 ('Delfranco'),
 ('Delfrate'),
-('Delfryn'),
+
 ('Delfs'),
 ('Delft'),
 ('Delfuente'),
@@ -10859,7 +10859,7 @@ VALUES
 ('Deliv'),
 ('Deliva'),
 ('Delivani'),
-('Deliveioti'),
+
 ('Deliverance'),
 ('Delivet'),
 ('Delivett'),
@@ -11387,7 +11387,7 @@ VALUES
 ('Delruba'),
 ('Delrue'),
 ('Delrusso'),
-('Delryn'),
+
 ('Delsa'),
 ('Delsalto'),
 ('Delsante'),
@@ -11527,7 +11527,7 @@ VALUES
 ('Delvoka'),
 ('Delvon'),
 ('Delvueno'),
-('Delvyn'),
+
 ('Delwakkada'),
 ('Delwan'),
 ('delwar'),
@@ -11537,7 +11537,7 @@ VALUES
 ('Delwer'),
 ('Delwiche'),
 ('Delwin'),
-('Delwyn'),
+
 ('Delwynne'),
 ('Delxash'),
 ('Dely'),
@@ -11556,7 +11556,7 @@ VALUES
 ('Delyla'),
 ('Delylah'),
 ('Delyle'),
-('Delyn'),
+
 ('Delys'),
 ('Delyse'),
 ('Delyser'),
@@ -11767,7 +11767,7 @@ VALUES
 ('Dembo'),
 ('Demboski'),
 ('Dembosky'),
-('Dembowicz'),
+
 
 ('Dembowski'),
 ('Dembri'),
@@ -11971,7 +11971,7 @@ VALUES
 ('Demianiuk'),
 ('Demiantchook'),
 ('Demiantchouk'),
-('Demianyk'),
+
 ('Demianyshyna'),
 ('Demibras'),
 ('Demic'),
@@ -11999,7 +11999,7 @@ VALUES
 ('Demidovich'),
 ('Demidoviciute'),
 ('Demidovs'),
-('Demidowicz'),
+
 ('Demidris'),
 ('Demie'),
 ('Demiel'),
@@ -12175,7 +12175,7 @@ VALUES
 
 ('Demkovich'),
 ('Demkow'),
-('Demkowicz'),
+
 
 ('Demkowski'),
 ('Deml'),
@@ -12453,7 +12453,7 @@ VALUES
 ('Denbee'),
 ('Denbeigh'),
 ('Denbel'),
-('Denberg'),
+
 ('Denbert'),
 ('Denberu'),
 ('Denbeste'),
@@ -12497,7 +12497,7 @@ VALUES
 ('Dende'),
 ('Dender'),
 ('Dendera'),
-('Denderowicz'),
+
 ('Denderski'),
 ('Dendev'),
 ('Dendi'),
@@ -12557,7 +12557,7 @@ VALUES
 ('Denelsbeck'),
 ('Denely'),
 ('Denen'),
-('Denenberg'),
+
 ('Denene'),
 ('Denequa'),
 ('Dener'),
@@ -12660,7 +12660,7 @@ VALUES
 ('Denherder'),
 ('Denhoed'),
 ('Denhof'),
-('Denhoff'),
+
 ('Denhollander'),
 ('Denholm'),
 ('Denhoum'),
@@ -12744,7 +12744,7 @@ VALUES
 ('Denion'),
 ('Deniort'),
 ('Deniotris'),
-('Denipoti'),
+
 ('Deniqua'),
 ('Denique'),
 ('Denira'),
@@ -12850,8 +12850,8 @@ VALUES
 ('Denke'),
 ('Denker'),
 ('Denkers'),
-('Denkewicz'),
-('Denkiewicz'),
+
+
 ('Denkinger'),
 
 ('Denkins'),
@@ -13251,7 +13251,7 @@ VALUES
 ('Deoliveire'),
 ('Deoliver'),
 ('Deoluwa'),
-('Deolyn'),
+
 ('Deoman'),
 ('Deombaca'),
 ('Deon'),
@@ -13631,7 +13631,7 @@ VALUES
 ('Dercaci'),
 ('Dercella'),
 ('Derchie'),
-('Derchienberg'),
+
 ('Derchue'),
 ('Dercilla'),
 ('Dercio'),
@@ -13715,7 +13715,7 @@ VALUES
 ('Derenberger'),
 ('Derenburger'),
 ('Derenciute'),
-('Derencz'),
+
 ('Derendal'),
 ('Derendiajev'),
 ('Derendinger'),
@@ -13892,7 +13892,7 @@ VALUES
 ('Deriyannnan'),
 ('Deriye'),
 ('Deriziot'),
-('Derizioti'),
+
 ('Derizzio'),
 ('Derja'),
 ('Derjit'),
@@ -13902,7 +13902,7 @@ VALUES
 ('Derkach'),
 ('Derkacheva'),
 ('Derkachevskiy'),
-('Derkacz'),
+
 ('Derkan'),
 ('Derkaoua'),
 ('Derkaoui'),
@@ -13938,7 +13938,7 @@ VALUES
 
 ('Derlon'),
 ('Derlores'),
-('Derlukiewicz'),
+
 ('Derly'),
 ('Derlyenne'),
 ('Derma'),
@@ -14182,7 +14182,7 @@ VALUES
 ('Derryck'),
 ('Derryl'),
 ('Derrymore'),
-('Derryn'),
+
 ('Derryne'),
 ('Derryth'),
 ('Dersahakian'),
@@ -14305,7 +14305,7 @@ VALUES
 
 ('Derwitsch'),
 ('Derwort'),
-('Derwyn'),
+
 ('Derx'),
 ('Dery'),
 ('Derya'),
@@ -14315,22 +14315,22 @@ VALUES
 ('Deryck'),
 ('Derycke'),
 ('Deryishi'),
-('Deryk'),
+
 ('Deryke'),
 ('Deryl'),
 ('Derylak'),
 ('Derylene'),
 ('Deryll'),
 ('Derylo'),
-('Derylyn'),
-('Deryn'),
+
+
 ('Deryng'),
 ('Deryugina'),
 ('Derzakowski'),
 ('Derzbach'),
 ('Derzhitski'),
 ('Derzi'),
-('Derzioti'),
+
 ('Derziotis'),
 ('Derzsi'),
 
@@ -14439,7 +14439,7 @@ VALUES
 ('Desbarres'),
 ('Desbele'),
 ('Desbenoit'),
-('Desberg'),
+
 ('Desbetes'),
 ('Desbien'),
 ('Desbiens'),
@@ -14545,7 +14545,7 @@ VALUES
 ('Deselys'),
 ('Desen'),
 ('Desena'),
-('Desenberg'),
+
 ('Desendario'),
 ('Desenne'),
 ('Desens'),
@@ -14567,7 +14567,7 @@ VALUES
 ('Desersa'),
 ('Deserti'),
 ('Desery'),
-('Deseryn'),
+
 ('Deseva'),
 ('Deseve'),
 ('Desewu'),
@@ -14638,7 +14638,7 @@ VALUES
 ('Deshazo'),
 ('Deshazor'),
 ('Deshel'),
-('Deshelyn'),
+
 ('Desheng'),
 ('Desher'),
 ('Desherlia'),
@@ -14738,7 +14738,7 @@ VALUES
 ('Desiree'),
 ('Desireola'),
 ('Desirs'),
-('Desiryn'),
+
 ('Desisava'),
 ('Desislaaava'),
 ('Desislav'),
@@ -14795,7 +14795,7 @@ VALUES
 ('Desloover'),
 ('Deslva'),
 ('Desly'),
-('Deslyn'),
+
 ('Desma'),
 ('Desmaison'),
 ('Desman'),
@@ -15165,7 +15165,7 @@ VALUES
 
 ('Desye'),
 ('Desyllas'),
-('Deszcz'),
+
 
 ('Deszke'),
 ('Deta'),
@@ -15527,7 +15527,7 @@ VALUES
 ('Devanda'),
 ('Devandhiran'),
 
-('Devandran'),
+
 ('Devandre'),
 ('Devane'),
 ('Devanesan'),
@@ -15582,7 +15582,7 @@ VALUES
 ('Devaraj'),
 ('Devaraja'),
 ('Devarajachar'),
-('Devarajah'),
+
 ('Devarajan'),
 ('Devarajen'),
 ('Devaraju'),
@@ -15725,7 +15725,7 @@ VALUES
 ('Develle'),
 ('Devellis'),
 ('Develter'),
-('Develyn'),
+
 ('Develynes'),
 ('Develyte'),
 ('Deven'),
@@ -15743,7 +15743,7 @@ VALUES
 
 ('Devendrabhai'),
 ('Devendrakumar'),
-('Devendran'),
+
 ('Devendraraj'),
 ('Devendraray'),
 ('Devendrasinh'),
@@ -15970,7 +15970,7 @@ VALUES
 ('Devjit'),
 ('Devjoty'),
 ('Devjoy'),
-('Devjyoti'),
+
 ('Devkabai'),
 ('Devkaben'),
 ('Devkamalth'),
@@ -16002,8 +16002,8 @@ VALUES
 ('Devlofeu'),
 ('Devlon'),
 ('Devlukia'),
-('Devlukiewicz'),
-('Devlyn'),
+
+
 ('Devmal'),
 ('Devmallya'),
 ('Devmanee'),
@@ -16101,7 +16101,7 @@ VALUES
 ('Devot'),
 ('Devota'),
 ('Devotha'),
-('Devoti'),
+
 ('Devotie'),
 ('Devoto'),
 ('Devotta'),
@@ -16180,7 +16180,7 @@ VALUES
 ('Devyanshu'),
 ('Devyatkina'),
 
-('Devyn'),
+
 ('Devyne'),
 ('Devys'),
 ('Devyziene'),
@@ -16264,7 +16264,7 @@ VALUES
 ('Deweever'),
 ('Dewei'),
 ('Dewein'),
-('Deweldycz'),
+
 ('Dewell'),
 ('Dewen'),
 ('Dewer'),
@@ -16463,7 +16463,7 @@ VALUES
 ('Deymans'),
 ('Deymian'),
 ('Deymos'),
-('Deyn'),
+
 ('Deyna'),
 ('Deynat'),
 ('Deyncourt'),
@@ -16584,7 +16584,7 @@ VALUES
 ('Dezman'),
 ('Dezmond'),
 ('Dezna'),
-('Deznalyn'),
+
 ('Dezne'),
 ('Dezney'),
 ('Dezonne'),
@@ -16889,7 +16889,7 @@ VALUES
 ('Dhanekula'),
 
 ('Dhanendrakumar'),
-('Dhanendran'),
+
 ('Dhanenkula'),
 ('Dhanesar'),
 ('Dhanesh'),
@@ -17075,7 +17075,7 @@ VALUES
 ('Dharewal'),
 ('Dhargawe'),
 ('Dhargyal'),
-('Dhargyn'),
+
 ('Dhari'),
 ('Dharia'),
 ('Dharigouda'),
@@ -17128,7 +17128,7 @@ VALUES
 ('Dharmar'),
 ('Dharmaraj'),
 ('Dharmaraja'),
-('Dharmarajah'),
+
 ('Dharmarajan'),
 ('Dharmarajen'),
 ('Dharmarao'),
@@ -17365,7 +17365,7 @@ VALUES
 ('Dheiman'),
 ('Dhein'),
 ('Dheir'),
-('Dheivendran'),
+
 ('Dheivid'),
 ('Dheke'),
 ('Dhelens'),
@@ -17408,7 +17408,7 @@ VALUES
 ('Dhesna'),
 ('Dhespine'),
 ('Dhespo'),
-('Dhespoti'),
+
 ('Dheudieres'),
 ('Dheva'),
 ('Dhevan'),
@@ -17733,7 +17733,7 @@ VALUES
 ('Dhrubaa'),
 ('Dhrubaditya'),
 ('Dhrubaj'),
-('Dhrubajyoti'),
+
 ('Dhrubo'),
 ('Dhrukin'),
 ('Dhruksha'),
@@ -17755,7 +17755,7 @@ VALUES
 ('Dhruue'),
 ('Dhruv'),
 ('Dhruva'),
-('Dhruvajyoti'),
+
 ('Dhruvakumari'),
 ('Dhruval'),
 ('Dhruvalben'),
@@ -17817,7 +17817,7 @@ VALUES
 ('Dhullkifly'),
 ('Dhullu'),
 ('Dhulqarnain'),
-('Dhulqarnayn'),
+
 ('Dhulst'),
 ('Dhulu'),
 ('Dhumale'),
@@ -17933,7 +17933,7 @@ VALUES
 ('Dhylan'),
 ('Dhyll'),
 ('Dhylly'),
-('Dhylyn'),
+
 ('Dhyna'),
 ('Dhyom'),
 ('Dhyuti'),
@@ -18171,7 +18171,7 @@ VALUES
 ('Dianafinnes'),
 ('Dianah'),
 ('Dianakwa'),
-('Dianalyn'),
+
 ('Dianas'),
 ('Dianat'),
 ('Dianati'),
@@ -18582,7 +18582,7 @@ VALUES
 ('Dickensheets'),
 ('Dickenson'),
 ('Dicker'),
-('Dickerhoff'),
+
 ('Dickerhoof'),
 ('Dickerman'),
 ('Dickers'),
@@ -18597,7 +18597,7 @@ VALUES
 ('Dickhausen'),
 ('Dickhaut'),
 ('Dickherber'),
-('Dickhoff'),
+
 ('Dickhut'),
 ('Dickie'),
 ('Dickiene'),
@@ -18814,7 +18814,7 @@ VALUES
 ('Didwania'),
 ('Didway'),
 ('Didychuk'),
-('Didyk'),
+
 
 ('Didyoung'),
 ('Didzbalis'),
@@ -18852,7 +18852,7 @@ VALUES
 ('Dieck'),
 ('Dieckert'),
 ('Dieckhaus'),
-('Dieckhoff'),
+
 ('Dieckman'),
 ('Dieckmann'),
 ('Dieckow'),
@@ -18920,7 +18920,7 @@ VALUES
 ('Dieken'),
 ('Dieker'),
 ('Diekevers'),
-('Diekhoff'),
+
 ('Diekman'),
 ('Diekmann'),
 ('Diekokola'),
@@ -19071,7 +19071,7 @@ VALUES
 ('Dierstein'),
 ('Dieryck'),
 ('Dies'),
-('Diesburg'),
+
 ('Diesch'),
 ('Diese'),
 ('Diesel'),
@@ -19978,7 +19978,7 @@ VALUES
 ('Dillena'),
 ('Dillenback'),
 ('Dillenbeck'),
-('Dillenburg'),
+
 ('Dillender'),
 ('Dillenger'),
 ('Dillenia'),
@@ -19989,7 +19989,7 @@ VALUES
 ('Dillette'),
 ('Dilley'),
 ('Dilleyston'),
-('Dillhoff'),
+
 ('Dilli'),
 ('Dillia'),
 ('Dillian'),
@@ -20040,10 +20040,10 @@ VALUES
 ('Dillwara'),
 ('Dillway'),
 ('Dillworth'),
-('Dillwyn'),
+
 ('Dilly'),
 ('Dillybabu'),
-('Dillyn'),
+
 ('Dillys'),
 ('Dilma'),
 ('Dilmac'),
@@ -20250,7 +20250,7 @@ VALUES
 ('Dilwher'),
 ('Dilwor'),
 ('Dilworth'),
-('Dilwyn'),
+
 ('Dilwyne'),
 ('Dilyan'),
 ('Dilyana'),
@@ -20259,7 +20259,7 @@ VALUES
 ('Dilyara'),
 ('Dilyard'),
 
-('Dilyn'),
+
 ('Dilys'),
 ('Dilyte'),
 ('Dilz'),
@@ -21670,7 +21670,7 @@ VALUES
 ('Dipopolo'),
 ('Dipoppa'),
 ('Diposhree'),
-('Dipoti'),
+
 
 ('Dipp'),
 ('Dippa'),
@@ -21969,7 +21969,7 @@ VALUES
 ('Dirvonskyte'),
 ('Dirwai'),
 ('Dirwayi'),
-('Dirycz'),
+
 ('Dirye'),
 ('Diryie'),
 ('Dirzinauskas'),
@@ -22713,7 +22713,7 @@ VALUES
 ('Diwonzo'),
 ('Diwowa'),
 ('Diwyata'),
-('Diwyk'),
+
 ('Diwyne'),
 ('Dix'),
 ('Dixa'),
@@ -23636,7 +23636,7 @@ VALUES
 ('Dludlu'),
 ('Dlufemi'),
 ('Dluga'),
-('Dlugasiewicz'),
+
 ('Dlugaszek'),
 ('Dlugi'),
 ('Dlugokecka'),
@@ -23752,8 +23752,8 @@ VALUES
 
 ('Dmytrovich'),
 ('Dmytruk'),
-('Dmytryk'),
-('Dmytryszyn'),
+
+
 ('Dmyzro'),
 ('Dnakyi'),
 ('Dnale'),
@@ -23840,7 +23840,7 @@ VALUES
 ('Dobbrick'),
 ('Dobbs'),
 ('Dobby'),
-('Dobbyn'),
+
 ('Dobbyne'),
 ('Dobbyns'),
 ('Dobcheva'),
@@ -23934,7 +23934,7 @@ VALUES
 ('Doboseriu'),
 ('Dobosevici'),
 ('Dobosh'),
-('Dobosiewicz'),
+
 
 ('Dobossy'),
 
@@ -24125,7 +24125,7 @@ VALUES
 ('Dobrzensky'),
 ('Dobrzycki'),
 ('Dobrzykowski'),
-('Dobrzyn'),
+
 
 ('Dobrzynski'),
 ('Dobschall'),
@@ -24133,7 +24133,7 @@ VALUES
 ('Dobshits'),
 ('Dobsi'),
 ('Dobson'),
-('Dobsyn'),
+
 ('Dobszai'),
 ('Dobtchev'),
 ('Dobudko'),
@@ -24311,7 +24311,7 @@ VALUES
 
 ('Doden'),
 ('Dodenciu'),
-('Dodenhoff'),
+
 ('Doder'),
 ('Doderer'),
 ('Dodero'),
@@ -24437,7 +24437,7 @@ VALUES
 ('Doen'),
 ('Doench'),
 ('Doenges'),
-('Doenhoff'),
+
 ('Doenmez'),
 ('Doepel'),
 ('Doepke'),
@@ -24453,7 +24453,7 @@ VALUES
 ('Doerflinger'),
 ('Doerge'),
 ('Doerger'),
-('Doerhoff'),
+
 ('Doering'),
 ('Doeringer'),
 ('Doerksen'),
@@ -24463,7 +24463,7 @@ VALUES
 ('Doermann'),
 ('Doermer'),
 ('Doern'),
-('Doernenburg'),
+
 ('Doerner'),
 ('Doerpmund'),
 ('Doerr'),
@@ -24479,7 +24479,7 @@ VALUES
 ('Doerum'),
 ('Doerwald'),
 ('Doery'),
-('Doesburg'),
+
 ('Doescher'),
 ('Doeser'),
 ('Doespirito'),
@@ -24851,7 +24851,7 @@ VALUES
 ('Dolbec'),
 ('Dolbee'),
 ('Dolben'),
-('Dolberg'),
+
 ('Dolberry'),
 ('Dolbey'),
 ('Dolbier'),
@@ -24891,7 +24891,7 @@ VALUES
 ('Doleac'),
 ('Dolean'),
 ('Doleanu'),
-('Dolecek'),
+
 
 ('Dolecka'),
 ('Dolecki'),
@@ -24969,7 +24969,7 @@ VALUES
 
 
 ('Dolgovas'),
-('Dolgushyn'),
+
 ('Dolha'),
 ('Dolhai'),
 ('Dolhan'),
@@ -25175,7 +25175,7 @@ VALUES
 ('Doltis'),
 ('Dolton'),
 ('Doltu'),
-('Doltyn'),
+
 ('Dolu'),
 
 ('Dolukup'),
@@ -25290,7 +25290,7 @@ VALUES
 ('Domask'),
 ('Domass'),
 ('Domassevicius'),
-('Domaszewicz'),
+
 ('Domat'),
 ('Domatien'),
 ('Domatilla'),
@@ -25312,7 +25312,7 @@ VALUES
 ('Dombek'),
 ('Dombele'),
 ('Dombelindo'),
-('Domberg'),
+
 ('Dombey'),
 ('Dombi'),
 
@@ -25424,7 +25424,7 @@ VALUES
 ('Domhnaill'),
 ('Domhnall'),
 ('Domhof'),
-('Domhoff'),
+
 ('Domi'),
 ('Domia'),
 ('Domian'),
@@ -25701,7 +25701,7 @@ VALUES
 ('Domou'),
 ('Domoustchiev'),
 ('Domouzi'),
-('Domowicz'),
+
 
 ('Domozetski'),
 ('Domozych'),
@@ -25746,7 +25746,7 @@ VALUES
 ('Domys'),
 ('Domzaite'),
 ('Domzal'),
-('Domzalowicz'),
+
 
 ('Domzalski'),
 ('Don'),
@@ -25931,7 +25931,7 @@ VALUES
 ('Donco'),
 ('Doncon'),
 ('Doncor'),
-('Doncsecz'),
+
 
 ('Dond'),
 ('Donda'),
@@ -26155,7 +26155,7 @@ VALUES
 ('Donigan'),
 ('Doniger'),
 ('Donigian'),
-('Donigiewicz'),
+
 ('Donihoo'),
 ('Donihue'),
 ('Donij'),
@@ -26243,7 +26243,7 @@ VALUES
 ('Donlinski'),
 ('Donlit'),
 ('Donlon'),
-('Donlyn'),
+
 ('Donlyuk'),
 ('Donmall'),
 ('Donmez'),
@@ -26274,7 +26274,7 @@ VALUES
 ('Donnalley'),
 ('Donnally'),
 ('Donnaloia'),
-('Donnalyn'),
+
 ('Donnalys'),
 ('Donnamaria'),
 ('Donnamarie'),
@@ -26317,7 +26317,7 @@ VALUES
 ('Donnely'),
 ('Donnenwirth'),
 ('Donner'),
-('Donnerberg'),
+
 ('Donnerer'),
 ('Donnerine'),
 ('Donnery'),
@@ -26658,7 +26658,7 @@ VALUES
 ('Dopazo'),
 ('Dopchev'),
 ('Dopcheva'),
-('Dopelycz'),
+
 ('Doperalski'),
 ('Doperchuk'),
 ('Dopf'),
@@ -26682,7 +26682,7 @@ VALUES
 ('Doppalapudi'),
 ('Doppel'),
 ('Doppelt'),
-('Doppenberg'),
+
 ('Doppenschmied'),
 ('Dopper'),
 ('Doppke'),
@@ -27092,7 +27092,7 @@ VALUES
 ('Dornblaser'),
 ('Dornbos'),
 ('Dornbrook'),
-('Dornburg'),
+
 ('Dornbusch'),
 ('Dornbush'),
 ('Dorne'),
@@ -27153,7 +27153,7 @@ VALUES
 ('Dorobiala'),
 
 ('Dorochinas'),
-('Dorochowicz'),
+
 ('Dorocia'),
 ('Dorociak'),
 ('Doroclis'),
@@ -27215,9 +27215,9 @@ VALUES
 ('Dorostkar'),
 
 ('Doroszewski'),
-('Doroszkiewicz'),
+
 ('Doroszko'),
-('Doroszuiewicz'),
+
 ('Dorot'),
 ('Dorota'),
 ('Dorotea'),
@@ -27242,7 +27242,7 @@ VALUES
 ('Dorothiya'),
 ('Dorothy'),
 ('Dorothya'),
-('Doroti'),
+
 
 ('Dorotka'),
 ('Doroto'),
@@ -27251,7 +27251,7 @@ VALUES
 ('Dorottya'),
 ('Doroty'),
 ('Dorotya'),
-('Dorotycz'),
+
 ('Doroudgar'),
 ('Doroudian'),
 ('Dorough'),
@@ -27496,7 +27496,7 @@ VALUES
 ('Dosku'),
 ('Dosland'),
 
-('Doslyn'),
+
 
 ('Dosmaganbetora'),
 
@@ -27592,7 +27592,7 @@ VALUES
 
 ('Doszla'),
 ('Dosztal'),
-('Doszyn'),
+
 ('Dot'),
 ('Dota'),
 ('Dotan'),
@@ -27614,9 +27614,9 @@ VALUES
 ('Dotheney'),
 ('Dothie'),
 ('Dothlin'),
-('Dothlyn'),
+
 ('Dothy'),
-('Doti'),
+
 ('Dotie'),
 ('Dotieva'),
 ('Dotimi'),
@@ -27788,7 +27788,7 @@ VALUES
 ('Dougald'),
 ('Dougall'),
 ('Dougan'),
-('Douganioti'),
+
 ('Dougans'),
 ('Dougas'),
 ('Dougbehi'),
@@ -27932,7 +27932,7 @@ VALUES
 ('Doumler'),
 ('Doummar'),
 ('Doumou'),
-('Doumpioti'),
+
 ('Doumpri'),
 ('Douna'),
 ('Dounaev'),
@@ -28300,7 +28300,7 @@ VALUES
 ('Downam'),
 ('Downar'),
 ('Downard'),
-('Downarowicz'),
+
 ('Downe'),
 ('Downen'),
 ('Downer'),
@@ -28428,7 +28428,7 @@ VALUES
 ('Dozeman'),
 ('Dozer'),
 ('Dozh'),
-('Dozhdzhanyk'),
+
 ('Dozie'),
 ('Dozienze'),
 ('Dozier'),
@@ -28496,7 +28496,7 @@ VALUES
 ('Drachal'),
 ('Drachan'),
 ('Drachand'),
-('Drachenberg'),
+
 ('Dracher'),
 ('Drachevskaia'),
 ('Drachevskiy'),
@@ -28522,7 +28522,7 @@ VALUES
 ('Dracs'),
 ('Dracsilovszkij'),
 ('Dracup'),
-('Dracz'),
+
 
 
 
@@ -28657,7 +28657,7 @@ VALUES
 ('Dragot'),
 ('Dragota'),
 ('Dragotescu'),
-('Dragoti'),
+
 ('Dragott'),
 ('Dragotta'),
 ('Dragotto'),
@@ -28666,7 +28666,7 @@ VALUES
 ('Dragounski'),
 ('Dragoutsos'),
 
-('Dragovacz'),
+
 ('Dragovcheva'),
 ('Dragoveston'),
 ('Dragovic'),
@@ -28689,7 +28689,7 @@ VALUES
 ('Dragune'),
 ('Draguniene'),
 
-('Dragunowicz'),
+
 ('Dragus'),
 ('Dragusanu'),
 ('Dragush'),
@@ -28795,7 +28795,7 @@ VALUES
 ('Dramos'),
 ('Dramoslav'),
 
-('Dramowicz'),
+
 ('Dramsby'),
 ('Dramu'),
 ('Dran'),
@@ -28868,7 +28868,7 @@ VALUES
 ('Dras'),
 ('Drasar'),
 ('Drascaba'),
-('Drascek'),
+
 ('Draschler'),
 ('Draseika'),
 ('Draseikaite'),
@@ -28894,7 +28894,7 @@ VALUES
 ('Drasute'),
 ('Drasutis'),
 ('Drasutyte'),
-('Draszcz'),
+
 
 ('Dratch'),
 ('Dratchenin'),
@@ -28940,7 +28940,7 @@ VALUES
 ('Dravis'),
 ('Dravland'),
 ('Dravniece'),
-('Dravucz'),
+
 ('Drawan'),
 ('Drawat'),
 ('Drawbaugh'),
@@ -29173,7 +29173,7 @@ VALUES
 ('Drendel'),
 ('Drenea'),
 ('Drenec'),
-('Drengenberg'),
+
 ('Dreni'),
 ('Drenica'),
 ('Drenik'),
@@ -29294,7 +29294,7 @@ VALUES
 ('Drewes'),
 ('Drewet'),
 ('Drewett'),
-('Drewicz'),
+
 ('Drewienka'),
 ('Drewing'),
 ('Drewit'),
@@ -29689,7 +29689,7 @@ VALUES
 ('Dronachari'),
 ('Dronavalli'),
 ('Drone'),
-('Droneburg'),
+
 ('Dronen'),
 ('Drones'),
 ('Dronet'),
@@ -29773,7 +29773,7 @@ VALUES
 ('Drosu'),
 
 ('Drotar'),
-('Droti'),
+
 ('Drotleff'),
 ('Drotos'),
 ('Drott'),
@@ -29805,10 +29805,10 @@ VALUES
 ('Drouot'),
 ('Drouse'),
 ('Droushiotis'),
-('Drousioti'),
+
 ('Drousiotis'),
 ('Drousiotou'),
-('Droussioti'),
+
 ('Droussiotis'),
 ('Drouva'),
 ('Drouvin'),
@@ -29846,7 +29846,7 @@ VALUES
 ('Drozdovs'),
 ('Drozdovskaja'),
 
-('Drozdowicz'),
+
 
 ('Drozdowski'),
 ('Drozds'),
@@ -29854,7 +29854,7 @@ VALUES
 ('Drozdzal'),
 
 ('Drozdziel'),
-('Drozdziewicz'),
+
 ('Drozdzik'),
 ('Drozdziuk'),
 ('Drozdzivk'),
@@ -29863,7 +29863,7 @@ VALUES
 ('Droze'),
 ('Drozeanu'),
 ('Drozina'),
-('Droznakiewicz'),
+
 ('Droznika'),
 ('Drozo'),
 ('Drozynski'),
@@ -30035,7 +30035,7 @@ VALUES
 ('Druss'),
 ('Drust'),
 ('Drusus'),
-('Druszcz'),
+
 ('Drut'),
 ('Druta'),
 
@@ -30113,8 +30113,8 @@ VALUES
 ('Dryjas'),
 
 
-('Dryk'),
-('Drykacz'),
+
+
 ('Dryland'),
 ('Drylie'),
 ('Drymajlo'),
@@ -30137,14 +30137,14 @@ VALUES
 ('Dryzba'),
 ('Dryzhak'),
 ('Drzal'),
-('Drzaszcz'),
+
 
 ('Drzazga'),
 
 ('Drzazgowski'),
 ('Drzewicka'),
 ('Drzewicki'),
-('Drzewicz'),
+
 ('Drzewiecka'),
 ('Drzewiecki'),
 
@@ -30311,8 +30311,8 @@ VALUES
 ('Duballut'),
 ('Duban'),
 ('Duband'),
-('Dubaniewicz'),
-('Dubanowicz'),
+
+
 ('Dubanyo'),
 ('Dubar'),
 ('Dubara'),
@@ -30382,7 +30382,7 @@ VALUES
 ('Dubenski'),
 ('Dubensky'),
 ('Duber'),
-('Duberg'),
+
 ('Duberley'),
 ('Duberly'),
 ('Duberney'),
@@ -30461,7 +30461,7 @@ VALUES
 ('Dubla'),
 ('Dublaku'),
 ('Dublanc'),
-('Dublasiewicz'),
+
 ('Duble'),
 ('Dublea'),
 ('Dubler'),
@@ -30487,7 +30487,7 @@ VALUES
 ('Dubois'),
 ('Duboise'),
 ('Dubon'),
-('Duboniewicz'),
+
 ('Dubonnet'),
 ('Dubord'),
 ('Dubos'),
@@ -30505,7 +30505,7 @@ VALUES
 ('Dubouis'),
 ('Duboulay'),
 ('Dubouloz'),
-('Dubourg'),
+
 ('Dubouskaja'),
 ('Duboux'),
 
@@ -30601,7 +30601,7 @@ VALUES
 ('Dubwell'),
 ('Duby'),
 ('Dubyak'),
-('Dubyk'),
+
 
 ('Dubyna'),
 ('Dubynyak'),
@@ -30907,7 +30907,7 @@ VALUES
 ('Dudins'),
 
 ('Dudka'),
-('Dudkiewicz'),
+
 ('Dudkina'),
 ('Dudko'),
 
@@ -30947,7 +30947,7 @@ VALUES
 ('Dudouet'),
 ('Dudouit'),
 
-('Dudowicz'),
+
 ('Dudoyc'),
 
 ('Dudrah'),
@@ -30971,7 +30971,7 @@ VALUES
 ('Dudum'),
 ('Duduman'),
 ('Dudun'),
-('Duduryn'),
+
 ('Dudush'),
 ('Dudushka'),
 ('Duduta'),
@@ -30986,16 +30986,16 @@ VALUES
 ('Dudy'),
 ('Dudyala'),
 ('Dudycha'),
-('Dudycz'),
-('Dudyk'),
+
+
 ('Dudys'),
 ('Dudz'),
 ('Dudzai'),
-('Dudzewicz'),
+
 ('Dudziak'),
 ('Dudzic'),
 ('Dudzich'),
-('Dudzicz'),
+
 ('Dudzik'),
 
 ('Dudzikowski'),
@@ -31024,7 +31024,7 @@ VALUES
 ('Duelington'),
 ('Duelks'),
 ('Duell'),
-('Duellberg'),
+
 ('Duellette'),
 ('Duelley'),
 ('Duellman'),
@@ -31081,7 +31081,7 @@ VALUES
 ('Duersteler'),
 ('Duesbury'),
 ('Duescher'),
-('Duesenberg'),
+
 ('Duesing'),
 ('Duesler'),
 ('Duess'),
@@ -31212,7 +31212,7 @@ VALUES
 ('Dufwa'),
 ('Duga'),
 ('Dugaard'),
-('Dugacz'),
+
 ('Dugagjin'),
 ('Dugal'),
 ('Dugald'),
@@ -31223,7 +31223,7 @@ VALUES
 ('Dugans'),
 ('Dugar'),
 ('Dugard'),
-('Dugardyn'),
+
 
 ('Dugarte'),
 ('Dugas'),
@@ -31569,7 +31569,7 @@ VALUES
 ('Dulay'),
 ('Dulba'),
 ('Dulber'),
-('Dulberg'),
+
 
 ('Dulbinskis'),
 ('Dulbish'),
@@ -31633,7 +31633,7 @@ VALUES
 ('Dulevic'),
 ('Duleviciute'),
 ('Dulevskis'),
-('Dulewicz'),
+
 
 ('Dulewski'),
 ('Duley'),
@@ -31804,7 +31804,7 @@ VALUES
 ('Dulworth'),
 ('Dulya'),
 ('Dulyea'),
-('Dulyn'),
+
 ('Dulzos'),
 ('Dum'),
 ('Duma'),
@@ -32003,7 +32003,7 @@ VALUES
 ('Dumke'),
 ('Dumkele'),
 ('Dumkene'),
-('Dumkiewicz'),
+
 ('Dumkum'),
 ('Dumkwao'),
 ('Dumkwu'),
@@ -32135,7 +32135,7 @@ VALUES
 ('Dunbavand'),
 ('Dunbavin'),
 ('Dunbea'),
-('Dunberg'),
+
 ('Dunbrack'),
 ('Dunbuya'),
 ('Dunca'),
@@ -32257,7 +32257,7 @@ VALUES
 ('Duniam'),
 ('Dunica'),
 ('Dunican'),
-('Dunicz'),
+
 ('Dunidu'),
 ('Duniec'),
 ('Dunifer'),
@@ -32297,7 +32297,7 @@ VALUES
 ('Dunkara'),
 ('Dunkason'),
 ('Dunkel'),
-('Dunkelberg'),
+
 ('Dunkelberger'),
 ('Dunkeld'),
 ('Dunkelman'),
@@ -32791,7 +32791,7 @@ VALUES
 ('Durazzo'),
 ('Durba'),
 ('Durbaba'),
-('Durbacz'),
+
 ('Durbajlo'),
 
 ('Durbal'),
@@ -32940,7 +32940,7 @@ VALUES
 ('Durhan'),
 ('Durhasan'),
 ('Durheim'),
-('Durhoff'),
+
 ('Duri'),
 ('Duria'),
 
@@ -33003,7 +33003,7 @@ VALUES
 ('Durjayesh'),
 ('Durk'),
 ('Durka'),
-('Durkacz'),
+
 ('Durkan'),
 ('Durke'),
 ('Durkee'),
@@ -33012,7 +33012,7 @@ VALUES
 ('Durkhani'),
 ('Durkhanni'),
 ('Durkhany'),
-('Durkiewicz'),
+
 ('Durkin'),
 ('Durkins'),
 ('Durko'),
@@ -33229,7 +33229,7 @@ VALUES
 ('Duruaku'),
 ('Duruan'),
 ('Durucan'),
-('Durucz'),
+
 ('Durud'),
 ('Durudola'),
 ('Durueke'),
@@ -33490,13 +33490,13 @@ VALUES
 ('Dusus'),
 ('Dusyant'),
 ('Dusyanth'),
-('Dusyk'),
+
 ('Dusza'),
 ('Duszak'),
 ('Duszanskyj'),
 ('Duszek'),
 ('Duszka'),
-('Duszkiewicz'),
+
 ('Duszko'),
 ('Dusznyj'),
 
@@ -33560,7 +33560,7 @@ VALUES
 ('Dutiot'),
 ('Dutka'),
 ('Dutkevica'),
-('Dutkiewicz'),
+
 ('Dutkina'),
 ('Dutko'),
 
@@ -33723,7 +33723,7 @@ VALUES
 ('Duyle'),
 ('Duymaz'),
 ('Duymus'),
-('Duyn'),
+
 ('Duynh'),
 ('Duys'),
 ('Duysal'),
@@ -33731,7 +33731,7 @@ VALUES
 ('Duytan'),
 ('Duytro'),
 ('Duyur'),
-('Duyvestyn'),
+
 ('Duyzings'),
 ('Duzan'),
 ('Duzant'),
@@ -33813,7 +33813,7 @@ VALUES
 ('Dvonn'),
 ('Dvor'),
 ('Dvora'),
-('Dvoracek'),
+
 
 
 ('Dvorah'),
@@ -33849,7 +33849,7 @@ VALUES
 
 ('Dvoulety'),
 ('Dvrece'),
-('Dvtkiewicz'),
+
 ('Dwa'),
 ('Dwaabo'),
 ('Dwaah'),
@@ -33859,7 +33859,7 @@ VALUES
 ('Dwaine'),
 ('Dwainia'),
 ('Dwaipayan'),
-('Dwalyn'),
+
 ('Dwama'),
 ('Dwamema'),
 ('Dwamena'),
@@ -33896,7 +33896,7 @@ VALUES
 ('Dwaun'),
 ('Dwaye'),
 ('Dwayene'),
-('Dwayn'),
+
 ('Dwayne'),
 ('Dwayner'),
 ('Dwayneton'),
@@ -34023,7 +34023,7 @@ VALUES
 ('Dwyda'),
 ('Dwyer'),
 ('Dwyfor'),
-('Dwyn'),
+
 ('Dwyne'),
 ('Dwynwen'),
 ('Dwyre'),
@@ -34058,7 +34058,7 @@ VALUES
 ('Dyan'),
 ('Dyana'),
 ('Dyanah'),
-('Dyanalyn'),
+
 ('Dyanand'),
 ('Dyanane'),
 
@@ -34098,7 +34098,7 @@ VALUES
 ('Dybeck'),
 ('Dybek'),
 ('Dybell'),
-('Dyberg'),
+
 ('Dybevik'),
 ('Dybich'),
 ('Dybiec'),
@@ -34128,7 +34128,7 @@ VALUES
 ('Dyches'),
 ('Dychton'),
 ('Dyck'),
-('Dyckhoff'),
+
 ('Dyckman'),
 ('Dyckson'),
 ('Dycksztein'),
@@ -34181,7 +34181,7 @@ VALUES
 ('Dyglyte'),
 ('Dygon'),
 ('Dygudaj'),
-('Dygutowicz'),
+
 ('Dyhamilton'),
 ('Dyhan'),
 ('Dyhemea'),
@@ -34198,7 +34198,7 @@ VALUES
 ('Dyjanowski'),
 ('Dyjasek'),
 ('Dyjecinski'),
-('Dyk'),
+
 ('Dykarah'),
 ('Dykas'),
 ('Dyke'),
@@ -34209,7 +34209,7 @@ VALUES
 ('Dykers'),
 ('Dykes'),
 ('Dykgraaf'),
-('Dykhoff'),
+
 ('Dykhouse'),
 ('Dykhuis'),
 ('Dykhuizen'),
@@ -34254,7 +34254,7 @@ VALUES
 ('Dylen'),
 ('Dyles'),
 ('Dylewic'),
-('Dylewicz'),
+
 ('Dylewski'),
 ('Dyli'),
 ('Dylin'),
@@ -34272,7 +34272,7 @@ VALUES
 ('Dyllon'),
 ('Dylon'),
 ('Dylong'),
-('Dylowicz'),
+
 ('Dylus'),
 ('Dym'),
 ('Dymaite'),
@@ -34322,7 +34322,7 @@ VALUES
 ('Dynah'),
 ('Dynak'),
 
-('Dynalyn'),
+
 ('Dynamene'),
 ('Dynamite'),
 ('Dynamos'),
@@ -34348,11 +34348,11 @@ VALUES
 ('Dynitr'),
 ('Dynka'),
 ('Dynna'),
-('Dynnyk'),
+
 ('Dyno'),
 ('Dynon'),
 ('Dynott'),
-('Dynowicz'),
+
 
 ('Dynowski'),
 ('Dynpna'),
@@ -34379,7 +34379,7 @@ VALUES
 ('Dyrak'),
 ('Dyrakis'),
 ('Dyrala'),
-('Dyrberg'),
+
 ('Dyrby'),
 ('Dyrda'),
 ('Dyrdahl'),
@@ -34398,7 +34398,7 @@ VALUES
 ('Dyrinas'),
 ('Dyriv'),
 ('Dyriw'),
-('Dyrkacz'),
+
 ('Dyrko'),
 ('Dyrland'),
 ('Dyrma'),
@@ -34427,7 +34427,7 @@ VALUES
 ('Dysert'),
 ('Dyshon'),
 ('Dysia'),
-('Dysiewicz'),
+
 ('Dysinger'),
 
 ('Dyskelis'),
@@ -34442,7 +34442,7 @@ VALUES
 ('Dyszel'),
 ('Dyszer'),
 ('Dyszewski'),
-('Dyszkiewicz'),
+
 ('Dyszko'),
 ('Dyszynski'),
 ('Dyt'),
@@ -34903,17 +34903,17 @@ VALUES
 
 
 ('Dziadek'),
-('Dziadkiewicz'),
+
 ('Dziadko'),
 ('Dziadkovskaia'),
 ('Dziadkowiec'),
 ('Dziadon'),
 
 ('Dziadoszek'),
-('Dziadowicz'),
+
 ('Dziaduch'),
 ('Dziadul'),
-('Dziadulewicz'),
+
 ('Dziadur'),
 ('Dziadura'),
 ('Dziadziak'),
@@ -34951,8 +34951,8 @@ VALUES
 ('Dziarski'),
 ('Dziaruddin'),
 ('Dziastin'),
-('Dziatkiewicz'),
-('Dziatkowicz'),
+
+
 ('Dziaugiene'),
 ('Dziaugys'),
 ('Dziaugyte'),
@@ -34994,7 +34994,7 @@ VALUES
 
 ('Dzieciolowski'),
 ('Dziedlic'),
-('Dziedusiewicz'),
+
 ('Dzieduszycki'),
 ('Dziedzan'),
 ('Dziedziak'),
@@ -35005,7 +35005,7 @@ VALUES
 ('Dziedziela'),
 ('Dziedzik'),
 ('Dziedzina'),
-('Dziedziniewicz'),
+
 
 ('Dziedzinski'),
 ('Dziedziol'),
@@ -35022,7 +35022,7 @@ VALUES
 ('Dziek'),
 ('Dziekan'),
 ('Dziekciarz'),
-('Dziekiewicz'),
+
 
 ('Dziekonski'),
 ('Dziel'),
@@ -35030,11 +35030,11 @@ VALUES
 ('Dzielinski'),
 ('Dzielski'),
 ('Dziembor'),
-('Dziemdowicz'),
+
 ('Dziemian'),
-('Dziemianowicz'),
+
 ('Dziemidocrez'),
-('Dziemidowicz'),
+
 ('Dziemidzionek'),
 
 ('Dzienaite'),
@@ -35043,17 +35043,17 @@ VALUES
 ('Dzienio'),
 ('Dzienis'),
 ('Dzienisiuk'),
-('Dzienisowicz'),
+
 
 ('Dzieniszewski'),
 ('Dzieniszewsks'),
-('Dzienkiewicz'),
+
 ('Dzienniak'),
 ('Dzienyo'),
 ('Dziepak'),
 ('Dzieran'),
 ('Dziergas'),
-('Dziergiewicz'),
+
 
 ('Dzierlatka'),
 
@@ -35116,7 +35116,7 @@ VALUES
 ('Dzikija'),
 ('Dzikon'),
 
-('Dzikowicz'),
+
 
 ('Dzikowski'),
 ('Dzikri'),
@@ -35213,7 +35213,7 @@ VALUES
 ('Dziugas'),
 ('Dziugiel'),
 ('Dziugiene'),
-('Dziugiewicz'),
+
 ('Dziuginta'),
 ('Dziugita'),
 ('Dziugys'),
@@ -35239,7 +35239,7 @@ VALUES
 ('Dzivakwe'),
 ('Dzivbanda'),
 ('Dzivenu'),
-('Dzivmowicz'),
+
 ('Dziwenka'),
 ('Dziwernu'),
 ('Dziwientow'),
@@ -35377,8 +35377,8 @@ VALUES
 ('Dzwigala'),
 
 ('Dzwonek'),
-('Dzwonkiewicz'),
-('Dzwonkowicz'),
+
+
 ('Dzwonkowski'),
 ('Dzwonnik'),
 ('Dzyaloshinskaya'),

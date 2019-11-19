@@ -13950,7 +13950,6 @@ VALUES
 ('Ealing'),
 ('Earldoms'),
 ('Earls Croft'),
-('Earthquake'),
 ('East Mounth'),
 ('Eddies'),
 ('Edenwynde'),

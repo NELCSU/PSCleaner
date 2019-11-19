@@ -8498,7 +8498,6 @@ VALUES
 ('North Aldouran Wood'),
 ('North Allenford'),
 ('North Allington'),
-('North America'),
 ('North America Wood'),
 ('North and Middle Littleton'),
 ('North and South Anston'),

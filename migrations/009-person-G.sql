@@ -19,7 +19,7 @@ VALUES
 ('Gaalen'),
 ('Gaali'),
 ('Gaaloa'),
-('Gaalswyk'),
+
 ('Gaan'),
 ('Gaani'),
 ('Gaar'),
@@ -266,7 +266,7 @@ VALUES
 ('Gabouer'),
 ('Gabour'),
 ('Gabourel'),
-('Gabourg'),
+
 ('Gaboury'),
 
 
@@ -405,9 +405,9 @@ VALUES
 ('Gabryelle'),
 ('Gabryiela'),
 ('Gabryjela'),
-('Gabrylewicz'),
+
 ('Gabryll'),
-('Gabrynowicz'),
+
 ('Gabrys'),
 ('Gabrysch'),
 ('Gabrysiak'),
@@ -417,7 +417,7 @@ VALUES
 ('Gabryszewsua'),
 ('Gabsa'),
 ('Gabsi'),
-('Gabszewicz'),
+
 ('Gabtony'),
 ('Gabuat'),
 
@@ -437,7 +437,7 @@ VALUES
 ('Gabuya'),
 ('Gabwel'),
 ('Gaby'),
-('Gabyn'),
+
 ('Gabyow'),
 ('Gabzdyl'),
 ('Gabze'),
@@ -457,7 +457,7 @@ VALUES
 ('Gaccon'),
 ('Gacea'),
 ('Gaceciladze'),
-('Gacek'),
+
 ('Gacem'),
 ('Gacesa'),
 
@@ -543,7 +543,7 @@ VALUES
 
 ('Gad'),
 ('Gada'),
-('Gadacz'),
+
 ('Gadad'),
 ('Gadade'),
 ('Gadadhar'),
@@ -846,7 +846,7 @@ VALUES
 ('Gaell'),
 ('Gaella'),
 ('Gaelle'),
-('Gaelyn'),
+
 ('Gaenael'),
 ('Gaenor'),
 ('Gaensbacher'),
@@ -1064,7 +1064,7 @@ VALUES
 ('Gagliazzo'),
 ('Gaglio'),
 ('Gaglione'),
-('Gaglioti'),
+
 ('Gagna'),
 ('Gagnadre'),
 ('Gagnaire'),
@@ -1089,7 +1089,7 @@ VALUES
 ('Gagny'),
 ('Gago'),
 ('Gagol'),
-('Gagolewicz'),
+
 ('Gagon'),
 ('Gagor'),
 ('Gagos'),
@@ -1511,11 +1511,11 @@ VALUES
 ('Gajavathanan'),
 ('Gajawada'),
 ('Gajbud'),
-('Gajbutowicz'),
+
 ('Gajcy'),
 ('Gajda'),
 ('Gajdacs'),
-('Gajdamowicz'),
+
 ('Gajdan'),
 ('Gajdar'),
 ('Gajdecki'),
@@ -1548,7 +1548,7 @@ VALUES
 ('Gajendrakumar'),
 ('Gajendrakumaran'),
 ('Gajendrakunaran'),
-('Gajendran'),
+
 ('Gajendraprasad'),
 ('Gajentaan'),
 ('Gajenthaa'),
@@ -1565,7 +1565,7 @@ VALUES
 ('Gajevskij'),
 
 
-('Gajewicz'),
+
 
 ('Gajewski'),
 ('Gajhani'),
@@ -1581,7 +1581,7 @@ VALUES
 ('Gajji'),
 
 ('Gajkowski'),
-('Gajlewicz'),
+
 ('Gajny'),
 ('Gajo'),
 ('Gajos'),
@@ -1678,7 +1678,7 @@ VALUES
 ('Galadin'),
 ('Galadriel'),
 ('Galadrielle'),
-('Galadyk'),
+
 ('Galafassi'),
 ('Galaffu'),
 ('Galafton'),
@@ -1765,7 +1765,7 @@ VALUES
 ('Galarita'),
 ('Galarneau'),
 ('Galarosa'),
-('Galarowicz'),
+
 ('Galarraga'),
 ('Galarreta'),
 ('Galarsa'),
@@ -1776,7 +1776,7 @@ VALUES
 ('Galashan'),
 ('Galashaw'),
 ('Galasheva'),
-('Galashyn'),
+
 ('Galasi'),
 
 ('Galasinski'),
@@ -1789,7 +1789,7 @@ VALUES
 ('Galasyuk'),
 
 ('Galaszewski'),
-('Galaszkiewicz'),
+
 ('Galat'),
 ('Galata'),
 ('Galatai'),
@@ -2349,7 +2349,7 @@ VALUES
 ('Gallello'),
 ('Gallemore'),
 ('Gallen'),
-('Gallenberg'),
+
 ('Gallenberger'),
 ('Gallenca'),
 ('Galleni'),
@@ -2380,7 +2380,7 @@ VALUES
 ('Galletto'),
 ('Gallety'),
 ('Galleway'),
-('Gallewicz'),
+
 ('Galley'),
 ('Galleymore'),
 ('Gallez'),
@@ -2684,14 +2684,14 @@ VALUES
 ('Galyardt'),
 ('Galyas'),
 
-('Galychyn'),
+
 ('Galyean'),
 ('Galyen'),
 ('Galyer'),
 ('Galyfianaki'),
 ('Galym'),
 ('Galymzhan'),
-('Galyn'),
+
 ('Galyna'),
 ('Galynia'),
 ('Galyo'),
@@ -2779,7 +2779,7 @@ VALUES
 ('Gambell'),
 ('Gamber'),
 ('Gambera'),
-('Gamberg'),
+
 ('Gamberi'),
 ('Gamberini'),
 ('Gambero'),
@@ -3088,7 +3088,7 @@ VALUES
 ('Gancef'),
 ('Gancev'),
 ('Gancevskis'),
-('Gancewicz'),
+
 ('Ganchas'),
 ('Ganchenko'),
 ('Ganchev'),
@@ -3109,7 +3109,7 @@ VALUES
 ('Gancio'),
 ('Gancitano'),
 ('Ganciu'),
-('Gancz'),
+
 
 ('Gand'),
 ('Ganda'),
@@ -3174,7 +3174,7 @@ VALUES
 ('Gandi'),
 ('Gandia'),
 ('Gandiappalasami'),
-('Gandiburg'),
+
 ('Gandie'),
 ('Gandigali'),
 ('Gandigar'),
@@ -3184,7 +3184,7 @@ VALUES
 ('Gandin'),
 ('Gandini'),
 
-('Gandirajah'),
+
 ('Gandjbakhch'),
 ('Gandjindji'),
 ('Gandla'),
@@ -3222,7 +3222,7 @@ VALUES
 ('Ganduglia'),
 ('Ganduri'),
 ('Gandy'),
-('Gandyn'),
+
 
 ('Gandziuk'),
 ('Gandzyuk'),
@@ -3263,7 +3263,7 @@ VALUES
 
 ('Ganesaperumal'),
 ('Ganesapillai'),
-('Ganesarajah'),
+
 ('Ganesasabapathy'),
 ('Ganescu'),
 ('Ganesh'),
@@ -3286,7 +3286,7 @@ VALUES
 ('Ganeshapillai'),
 ('Ganeshapoopan'),
 ('Ganeshaprasath'),
-('Ganesharajah'),
+
 ('Ganesharany'),
 ('Ganesharatnam'),
 ('Ganesharupan'),
@@ -3390,7 +3390,7 @@ VALUES
 ('Gange'),
 ('Gangeh'),
 ('Gangel'),
-('Gangelhoff'),
+
 ('Gangell'),
 ('Gangemi'),
 ('Gangeo'),
@@ -3574,7 +3574,7 @@ VALUES
 ('Gankevics'),
 ('Gankhugag'),
 ('Gankhuyag'),
-('Gankiewicz'),
+
 ('Ganko'),
 
 
@@ -3665,10 +3665,10 @@ VALUES
 ('Gansallo'),
 ('Gansane'),
 ('Gansauskaite'),
-('Gansberg'),
+
 ('Gansberger'),
 ('Gansbuehler'),
-('Gansburg'),
+
 ('Ganschow'),
 ('Ganse'),
 ('Gansel'),
@@ -3776,7 +3776,7 @@ VALUES
 ('Ganya'),
 ('Ganyard'),
 ('Ganyata'),
-('Ganyecz'),
+
 ('Ganyeka'),
 ('Ganyiwa'),
 ('Ganyo'),
@@ -3890,7 +3890,7 @@ VALUES
 ('Garabagiu'),
 ('Garabajio'),
 ('Garabajiu'),
-('Garabecz'),
+
 ('Garabed'),
 ('Garabedian'),
 ('Garabet'),
@@ -3959,7 +3959,7 @@ VALUES
 ('Garanasvili'),
 ('Garanca'),
 ('Garance'),
-('Garancz'),
+
 ('Garand'),
 ('Garande'),
 ('Garandi'),
@@ -3971,7 +3971,7 @@ VALUES
 ('Garanovscaia'),
 ('Garanovskaia'),
 ('Garant'),
-('Garantzioti'),
+
 ('Garanzuay'),
 ('Garaoglu'),
 ('Garaot'),
@@ -4028,7 +4028,7 @@ VALUES
 ('Garbaciu'),
 ('Garbaciuk'),
 ('Garback'),
-('Garbacz'),
+
 
 
 ('Garbade'),
@@ -4073,7 +4073,7 @@ VALUES
 ('Garber'),
 ('Garbera'),
 ('Garberding'),
-('Garberg'),
+
 ('Garberich'),
 ('Garberoglio'),
 ('Garbers'),
@@ -4099,7 +4099,7 @@ VALUES
 ('Garbiz'),
 ('Garbo'),
 ('Garboan'),
-('Garbocz'),
+
 ('Garboden'),
 ('Garboga'),
 ('Garboggini'),
@@ -4337,7 +4337,7 @@ VALUES
 ('Gardy'),
 ('Gardyga'),
 ('Gardyla'),
-('Gardyn'),
+
 ('Gardyna'),
 ('Gardyne'),
 ('Gardzhev'),
@@ -4383,7 +4383,7 @@ VALUES
 ('Garelnabi'),
 ('Garemella'),
 ('Garen'),
-('Garenberg'),
+
 ('Garere'),
 ('Gareri'),
 ('Gares'),
@@ -4637,7 +4637,7 @@ VALUES
 ('Garkut'),
 ('Garl'),
 ('Garla'),
-('Garlacz'),
+
 ('Garlai'),
 ('Garlake'),
 ('Garlan'),
@@ -4830,7 +4830,6 @@ VALUES
 ('Garousi'),
 ('Garoutalia'),
 ('Garoutte'),
-
 ('Garovinas'),
 ('Garoy'),
 ('Garozzo'),
@@ -4861,6 +4860,7 @@ VALUES
 ('Garratt'),
 ('Garratty'),
 ('Garraud'),
+('Garraugh'),
 ('Garrault'),
 ('Garraway'),
 ('Garre'),
@@ -4890,7 +4890,6 @@ VALUES
 ('Garretty'),
 ('Garrety'),
 ('Garrey'),
-('Garreyn'),
 ('Garrghoun'),
 ('Garri'),
 ('Garriagos'),
@@ -4962,7 +4961,7 @@ VALUES
 ('Garry'),
 ('Garryck'),
 ('Garryev'),
-('Garryk'),
+
 ('Garryson'),
 ('Gars'),
 ('Garsa'),
@@ -5010,7 +5009,7 @@ VALUES
 ('Gartee'),
 ('Gartell'),
 ('Garten'),
-('Gartenberg'),
+
 ('Gartenhaus'),
 ('Gartenmayer'),
 ('Garter'),
@@ -5108,7 +5107,7 @@ VALUES
 ('Garvit'),
 ('Garvoa'),
 ('Garvorni'),
-('Garvyn'),
+
 ('Garwacki'),
 ('Garwah'),
 ('Garwaip'),
@@ -5134,7 +5133,7 @@ VALUES
 ('Garyfallia'),
 ('Garyfallou'),
 ('Garym'),
-('Garyn'),
+
 ('Garyth'),
 ('Garyza'),
 ('Garz'),
@@ -5252,7 +5251,7 @@ VALUES
 ('Gasidlo'),
 ('Gasienica'),
 ('Gasievi'),
-('Gasiewicz'),
+
 ('Gasiewski'),
 ('Gasik'),
 ('Gasiliauskaite'),
@@ -5263,14 +5262,14 @@ VALUES
 
 ('Gasimskol'),
 ('Gasimzade'),
-('Gasinowicz'),
+
 ('Gasinskaite'),
 ('Gasinski'),
 ('Gasinu'),
 ('Gasior'),
 ('Gasiorek'),
 ('Gasiorkiewick'),
-('Gasiorkiewicz'),
+
 
 ('Gasiorowski'),
 
@@ -5377,7 +5376,7 @@ VALUES
 ('Gasperoni'),
 
 ('Gasperow'),
-('Gasperowicz'),
+
 ('Gaspers'),
 
 ('Gasperson'),
@@ -5507,7 +5506,7 @@ VALUES
 ('Gasyte'),
 
 ('Gasza'),
-('Gaszcz'),
+
 
 
 ('Gaszewski'),
@@ -5659,7 +5658,7 @@ VALUES
 ('Gatithi'),
 ('Gatiyatulina'),
 ('Gatiziu'),
-('Gatkiewicz'),
+
 ('Gatland'),
 ('Gatley'),
 ('Gatliff'),
@@ -5721,7 +5720,7 @@ VALUES
 ('Gatte'),
 ('Gattegno'),
 ('Gatten'),
-('Gattenberg'),
+
 ('Gattenby'),
 ('Gattengno'),
 ('Gattengo'),
@@ -5870,7 +5869,7 @@ VALUES
 ('Gaudutyte'),
 ('Gaudvile'),
 ('Gaudvydas'),
-('Gaudyn'),
+
 ('Gauen'),
 ('Gauer'),
 ('Gauerke'),
@@ -6355,7 +6354,7 @@ VALUES
 ('Gavurin'),
 ('Gavy'),
 ('Gavya'),
-('Gavyn'),
+
 ('Gavzey'),
 ('Gaw'),
 ('Gawa'),
@@ -6367,7 +6366,7 @@ VALUES
 ('Gawain'),
 ('Gawaine'),
 ('Gawali'),
-('Gawalkiewicz'),
+
 ('Gawan'),
 ('Gawanab'),
 ('Gawande'),
@@ -6390,7 +6389,7 @@ VALUES
 ('Gawedzki'),
 ('Gawel'),
 ('Gawell'),
-('Gawelowicz'),
+
 ('Gawen'),
 ('Gawenda'),
 ('Gawer'),
@@ -6405,7 +6404,7 @@ VALUES
 ('Gawijee'),
 ('Gawin'),
 ('Gawinek'),
-('Gawinowicz'),
+
 
 ('Gawinski'),
 ('Gawior'),
@@ -6453,7 +6452,7 @@ VALUES
 
 ('Gawrylewski'),
 ('Gawrylolek'),
-('Gawrylowicz'),
+
 ('Gawryluk'),
 ('Gawrys'),
 ('Gawrysiak'),
@@ -6584,7 +6583,7 @@ VALUES
 ('Gayithri'),
 ('Gayiya'),
 ('Gayiz'),
-('Gayk'),
+
 ('Gaykema'),
 ('Gayken'),
 ('Gayl'),
@@ -6602,7 +6601,7 @@ VALUES
 ('Gaylo'),
 ('Gaylor'),
 ('Gaylord'),
-('Gaylyn'),
+
 ('Gaym'),
 ('Gayman'),
 ('Gaymer'),
@@ -6610,7 +6609,7 @@ VALUES
 ('Gaymon'),
 ('Gaymond'),
 ('Gaymoore'),
-('Gayn'),
+
 ('Gayna'),
 ('Gaynair'),
 ('Gayne'),
@@ -7212,7 +7211,7 @@ VALUES
 ('Gebel'),
 ('Gebelein'),
 ('Gebenawy'),
-('Gebenberg'),
+
 ('Geber'),
 ('Gebere'),
 ('Gebereegliabher'),
@@ -7442,7 +7441,7 @@ VALUES
 ('Geceviciene'),
 ('Gecevicius'),
 ('Geceviciute'),
-('Gecewicz'),
+
 ('Gecgil'),
 ('Gecgin'),
 ('Gechas'),
@@ -7465,7 +7464,7 @@ VALUES
 ('Geckler'),
 ('Geckles'),
 ('Gecks'),
-('Geclowicz'),
+
 ('Gecmen'),
 ('Gecosala'),
 ('Gecse'),
@@ -8108,7 +8107,7 @@ VALUES
 ('Gelbart'),
 ('Gelbaugh'),
 ('Gelber'),
-('Gelberg'),
+
 ('Gelbert'),
 ('Gelbhardt'),
 ('Gelbier'),
@@ -8172,7 +8171,7 @@ VALUES
 ('Geletaw'),
 ('Geletka'),
 ('Geletu'),
-('Geleyn'),
+
 ('Gelezauskas'),
 ('Gelezi'),
 ('Geleziunaite'),
@@ -8194,7 +8193,7 @@ VALUES
 ('Gelgota'),
 ('Gelgotaite'),
 ('Gelgotiene'),
-('Gelgyn'),
+
 ('Gelhaar'),
 ('Gelhar'),
 ('Gelhat'),
@@ -8374,7 +8373,7 @@ VALUES
 ('Gemaine'),
 ('Gemal'),
 ('Gemaline'),
-('Gemalyn'),
+
 ('Geman'),
 ('Gemanar'),
 ('Gemanari'),
@@ -8452,7 +8451,7 @@ VALUES
 ('Gemiliana'),
 ('Gemiliano'),
 ('Gemilla'),
-('Gemilyn'),
+
 ('Gemima'),
 ('Gemimah'),
 ('Gemin'),
@@ -8474,7 +8473,7 @@ VALUES
 ('Gemmah'),
 ('Gemmain'),
 ('Gemmaine'),
-('Gemmalyn'),
+
 ('Gemme'),
 ('Gemmel'),
 ('Gemmell'),
@@ -8528,7 +8527,7 @@ VALUES
 ('Genaine'),
 ('Genajeva'),
 ('Genalda'),
-('Genalyn'),
+
 ('Genan'),
 ('Genanaw'),
 ('Genani'),
@@ -8546,7 +8545,7 @@ VALUES
 ('Genay'),
 ('Genaya'),
 ('Genazzini'),
-('Genberg'),
+
 ('Genbez'),
 ('Genc'),
 ('Genca'),
@@ -8649,7 +8648,7 @@ VALUES
 ('Genelle'),
 ('Genelot'),
 ('Genelva'),
-('Genelyn'),
+
 ('Genemark'),
 ('Genemo'),
 ('Genen'),
@@ -9111,7 +9110,7 @@ VALUES
 ('Genwright'),
 ('Geny'),
 ('Genya'),
-('Genyk'),
+
 ('Genys'),
 ('Genyte'),
 ('Genz'),
@@ -9294,7 +9293,7 @@ VALUES
 ('Georgelis'),
 ('Georgelle'),
 ('Georgeller'),
-('Georgelyn'),
+
 ('Georgemann'),
 ('Georgen'),
 ('Georgena'),
@@ -9475,7 +9474,7 @@ VALUES
 ('Georlaine'),
 ('Georlin'),
 ('Georlins'),
-('Georlyn'),
+
 ('Geormayne'),
 ('Geormina'),
 ('Geormpalidou'),
@@ -9596,7 +9595,7 @@ VALUES
 ('Geralds'),
 ('Geraldson'),
 ('Geraldy'),
-('Geraldyn'),
+
 ('Geraldyne'),
 ('Gerali'),
 ('Geralidine'),
@@ -9606,7 +9605,7 @@ VALUES
 ('Geraltauskait'),
 ('Geraltauskas'),
 ('Geraltauskiene'),
-('Geralyn'),
+
 ('Geralynn'),
 ('Gerami'),
 ('Geramia'),
@@ -9745,9 +9744,9 @@ VALUES
 ('Gerbutaviciute'),
 ('Gerc'),
 ('Gercak'),
-('Gercek'),
+
 ('Gerchak'),
-('Gerchberg'),
+
 ('Gerchev'),
 ('Gercheva'),
 ('Gerchick'),
@@ -9922,7 +9921,7 @@ VALUES
 ('Gergory'),
 
 
-('Gergovacz'),
+
 ('Gergulas'),
 ('Gerguson'),
 ('Gergy'),
@@ -10049,7 +10048,7 @@ VALUES
 ('Gerloff'),
 ('Gerlt'),
 ('Gerly'),
-('Gerlyn'),
+
 ('Germa'),
 ('Germack'),
 ('Germade'),
@@ -10190,7 +10189,7 @@ VALUES
 ('Geroc'),
 ('Gerock'),
 ('Gerocs'),
-('Gerocz'),
+
 ('Gerod'),
 ('Gerodias'),
 ('Gerodie'),
@@ -10311,7 +10310,7 @@ VALUES
 ('Gerrett'),
 ('Gerrety'),
 ('Gerrexn'),
-('Gerreyn'),
+
 ('Gerri'),
 ('Gerriann'),
 ('Gerrick'),
@@ -10345,7 +10344,7 @@ VALUES
 ('Gerrund'),
 ('Gerry'),
 ('Gerrybylle'),
-('Gerrylyn'),
+
 ('Gers'),
 ('Gersak'),
 ('Gersande'),
@@ -10354,7 +10353,7 @@ VALUES
 ('Gersant'),
 ('Gersaome'),
 ('Gersbach'),
-('Gersberg'),
+
 ('Gersch'),
 ('Gerschel'),
 
@@ -10371,7 +10370,7 @@ VALUES
 ('Gersham'),
 ('Gershan'),
 ('Gershanik'),
-('Gershberg'),
+
 ('Gershen'),
 ('Gershenson'),
 ('Gershey'),
@@ -10392,7 +10391,7 @@ VALUES
 
 ('Gershum'),
 ('Gershuny'),
-('Gershwyn'),
+
 ('Gershy'),
 ('Gersi'),
 ('Gersia'),
@@ -10414,7 +10413,7 @@ VALUES
 ('Gerstein'),
 ('Gerstel'),
 ('Gersten'),
-('Gerstenberg'),
+
 ('Gerstenberger'),
 ('Gerstenfeld'),
 ('Gerstenhaber'),
@@ -10481,7 +10480,7 @@ VALUES
 ('Gertruida'),
 ('Gertruide'),
 ('Gerts'),
-('Gertsberg'),
+
 ('Gertsch'),
 ('Gertsema'),
 ('Gertsen'),
@@ -10562,7 +10561,7 @@ VALUES
 ('Gerwin'),
 ('Gerwing'),
 
-('Gerwyn'),
+
 ('Gery'),
 ('Geryba'),
 ('Gerybaite'),
@@ -10782,7 +10781,7 @@ VALUES
 ('Gethmin'),
 ('Gethsimani'),
 ('Gethusan'),
-('Gethyn'),
+
 ('Geti'),
 ('Getigan'),
 ('Getik'),
@@ -10828,7 +10827,7 @@ VALUES
 ('Gettelman'),
 ('Gettemy'),
 ('Getten'),
-('Gettenberg'),
+
 ('Gettens'),
 ('Getter'),
 ('Gettermann'),
@@ -13544,7 +13543,7 @@ VALUES
 ('Giedrys'),
 ('Giedryte'),
 ('Giedt'),
-('Giedyk'),
+
 ('Giedz'),
 ('Giedze'),
 ('Giedziun'),
@@ -13602,7 +13601,7 @@ VALUES
 ('Gier'),
 ('Giera'),
 ('Gierach'),
-('Gieracz'),
+
 ('Gieraine'),
 ('Gierak'),
 ('Gieral'),
@@ -13623,13 +13622,13 @@ VALUES
 ('Gierdien'),
 ('Giere'),
 ('Gierej'),
-('Gierejkiewicz'),
+
 ('Gierejko'),
 ('Gierek'),
 ('Gieremek'),
 ('Gierer'),
 
-('Giergielewicz'),
+
 ('Gierhar'),
 ('Gierhart'),
 ('Giering'),
@@ -13649,7 +13648,7 @@ VALUES
 ('Gierma'),
 ('Giermakowski'),
 ('Gierman'),
-('Giermanowicz'),
+
 
 ('Giermanski'),
 ('Giernoth'),
@@ -13673,8 +13672,8 @@ VALUES
 ('Gierus'),
 ('Gierut'),
 ('Gierymski'),
-('Gieryn'),
-('Gierzadowicz'),
+
+
 ('Gies'),
 ('Giesa'),
 ('Giesberger'),
@@ -13955,7 +13954,7 @@ VALUES
 ('Gilber'),
 ('Gilberaldo'),
 ('Gilberd'),
-('Gilberg'),
+
 ('Gilberi'),
 ('Gilbernete'),
 ('Gilbers'),
@@ -14029,7 +14028,7 @@ VALUES
 ('Gildehaus'),
 ('Gildemeister'),
 ('Gilden'),
-('Gildenberg'),
+
 ('Gildener'),
 ('Gildenhuys'),
 ('Gilder'),
@@ -14064,7 +14063,7 @@ VALUES
 ('Gileece'),
 ('Gilem'),
 ('Gilen'),
-('Gilenberg'),
+
 ('Gilenco'),
 ('Gilendeh'),
 ('Gilenny'),
@@ -14087,7 +14086,7 @@ VALUES
 ('Gilevicius'),
 ('Gileviciute'),
 ('Gilevskij'),
-('Gilewicz'),
+
 
 ('Gilewski'),
 ('Gilezene'),
@@ -14216,14 +14215,14 @@ VALUES
 ('Gillbanks'),
 ('Gillbe'),
 ('Gillbee'),
-('Gillberg'),
+
 ('Gillbert'),
 ('Gillcrest'),
 ('Gillcrist'),
 ('Gille'),
 ('Gillean'),
 ('Gillebaart'),
-('Gilleberg'),
+
 ('Gillece'),
 ('Gillee'),
 ('Gilleece'),
@@ -14546,7 +14545,7 @@ VALUES
 ('Gimla'),
 ('Gimle'),
 ('Gimler'),
-('Gimlewicz'),
+
 ('Gimlin'),
 ('Gimm'),
 ('Gimmack'),
@@ -14560,7 +14559,7 @@ VALUES
 ('Gimono'),
 ('Gimoto'),
 ('Gimpel'),
-('Gimpelewicz'),
+
 ('Gimple'),
 ('Gimse'),
 ('Gimson'),
@@ -14577,7 +14576,7 @@ VALUES
 ('Ginaitiene'),
 ('Ginal'),
 ('Ginalene'),
-('Ginalyn'),
+
 ('Ginan'),
 ('Ginana'),
 ('Ginanachchelvam'),
@@ -14601,7 +14600,7 @@ VALUES
 ('Gincaite'),
 ('Gincauskaite'),
 ('Gincauskas'),
-('Gincberg'),
+
 ('Gince'),
 ('Gincel'),
 ('Ginceviciute'),
@@ -14805,16 +14804,16 @@ VALUES
 
 ('Ginoveaf'),
 ('Ginovefa'),
-('Ginowicz'),
+
 ('Ginoza'),
 ('Gins'),
 ('Ginsac'),
 ('Ginsas'),
 ('Ginsbach'),
 ('Ginsbak'),
-('Ginsberg'),
+
 ('Ginsborg'),
-('Ginsburg'),
+
 ('Ginsburgh'),
 ('Ginsbury'),
 ('Ginsca'),
@@ -14877,7 +14876,7 @@ VALUES
 ('Ginyard'),
 ('Ginyo'),
 ('Ginyu'),
-('Ginzburg'),
+
 ('Ginzel'),
 ('Ginzler'),
 ('Gio'),
@@ -15066,7 +15065,7 @@ VALUES
 ('Giota'),
 ('Giotakou'),
 ('Giotas'),
-('Gioti'),
+
 ('Giotis'),
 ('Giotoiu'),
 ('Giotta'),
@@ -15366,8 +15365,8 @@ VALUES
 ('Giriana'),
 ('Giribaldi'),
 ('Giribona'),
-('Girichandran'),
-('Giricz'),
+
+
 ('Girid'),
 ('Giridhar'),
 ('Giridhara'),
@@ -15506,7 +15505,7 @@ VALUES
 ('Girories'),
 ('Girot'),
 ('Girote'),
-('Giroti'),
+
 ('Girotra'),
 ('Girotta'),
 ('Girotti'),
@@ -15532,7 +15531,7 @@ VALUES
 ('Girshanth'),
 ('Girshbhai'),
 ('Girshfeld'),
-('Girshwyn'),
+
 ('Girskyte'),
 ('Girst'),
 ('Girstmair'),
@@ -16150,7 +16149,7 @@ VALUES
 ('Gizi'),
 ('Giziakis'),
 ('Gizielle'),
-('Giziewicz'),
+
 
 ('Gizinski'),
 ('Gizir'),
@@ -16284,7 +16283,7 @@ VALUES
 ('Gjoksi'),
 ('Gjokutaj'),
 ('Gjolaj'),
-('Gjolberg'),
+
 ('Gjolek'),
 ('Gjoliku'),
 ('Gjolleshi'),
@@ -16671,7 +16670,7 @@ VALUES
 ('Gladunskaya'),
 ('Gladwell'),
 ('Gladwin'),
-('Gladwyn'),
+
 ('Glady'),
 ('Gladyangel'),
 ('Gladys'),
@@ -16726,7 +16725,7 @@ VALUES
 ('Glancilda'),
 ('Glancius'),
 ('Glancy'),
-('Glancz'),
+
 ('Gland'),
 ('Glanden'),
 ('Glander'),
@@ -16778,7 +16777,7 @@ VALUES
 ('Glarson'),
 ('Glas'),
 ('Glasa'),
-('Glasberg'),
+
 ('Glasbey'),
 ('Glasbrenner'),
 ('Glasby'),
@@ -16792,7 +16791,7 @@ VALUES
 ('Glasel'),
 ('Glasell'),
 ('Glasenapp'),
-('Glasenberg'),
+
 ('Glasener'),
 ('Glaser'),
 ('Glasford'),
@@ -16825,7 +16824,7 @@ VALUES
 ('Glaspie'),
 ('Glaspy'),
 ('Glassar'),
-('Glassberg'),
+
 ('Glassborow'),
 ('Glassbrook'),
 ('Glassburn'),
@@ -16949,7 +16948,7 @@ VALUES
 ('Glayds'),
 ('Glaydson'),
 ('Glayini'),
-('Glayn'),
+
 ('Glayne'),
 ('Glaysher'),
 ('Glayson'),
@@ -17078,7 +17077,7 @@ VALUES
 ('Gleig'),
 ('Gleim'),
 ('Gleinstein'),
-('Gleisberg'),
+
 ('Gleiser'),
 ('Gleisinger'),
 ('Gleisner'),
@@ -17101,7 +17100,7 @@ VALUES
 ('Glejser'),
 ('Glemarec'),
 ('Glemba'),
-('Glemberg'),
+
 ('Glembin'),
 ('Glembocki'),
 ('Glement'),
@@ -17131,7 +17130,7 @@ VALUES
 ('Glendean'),
 ('Glendeen'),
 ('Glendel'),
-('Glendelyn'),
+
 ('Glendena'),
 ('Glendene'),
 ('Glendening'),
@@ -17296,7 +17295,7 @@ VALUES
 ('Glicia'),
 ('Glicinia'),
 ('Glick'),
-('Glickberg'),
+
 ('Glicken'),
 ('Glicker'),
 ('Glickman'),
@@ -17318,7 +17317,7 @@ VALUES
 ('Gliem'),
 ('Glienke'),
 ('Glieye'),
-('Glifberg'),
+
 ('Glifford'),
 ('Gliga'),
 ('Gligic'),
@@ -17351,7 +17350,7 @@ VALUES
 ('Glindaite'),
 ('Glindemann'),
 ('Glindon'),
-('Glindzicz'),
+
 ('Glinert'),
 ('Glines'),
 ('Gliney'),
@@ -17380,7 +17379,7 @@ VALUES
 ('Glionna'),
 ('Gliorsi'),
 ('Gliosca'),
-('Glioti'),
+
 ('Gliozere'),
 ('Gliozeriene'),
 ('Gliozeris'),
@@ -17414,7 +17413,7 @@ VALUES
 ('Gliti'),
 ('Glitre'),
 ('Glitsun'),
-('Glittenberg'),
+
 ('Glitter'),
 
 ('Gliues'),
@@ -17500,7 +17499,7 @@ VALUES
 ('Gloff'),
 ('Gloger'),
 ('Glogg'),
-('Glogiewicz'),
+
 ('Glogojan'),
 ('Glogower'),
 
@@ -17553,7 +17552,7 @@ VALUES
 ('Glorietta'),
 ('Glorieux'),
 ('Glorija'),
-('Glorilyn'),
+
 ('Glorina'),
 ('Glorio'),
 ('Gloriosa'),
@@ -17631,7 +17630,7 @@ VALUES
 ('Glowacki'),
 ('Glowacky'),
 ('Glowacui'),
-('Glowacz'),
+
 
 ('Glowaki'),
 ('Glowala'),
@@ -17657,7 +17656,7 @@ VALUES
 ('Gloyd'),
 ('Gloyds'),
 ('Gloyer'),
-('Gloyn'),
+
 ('Gloyne'),
 ('Gloyns'),
 ('Gloystein'),
@@ -17669,7 +17668,7 @@ VALUES
 ('Glubka'),
 ('Gluc'),
 ('Gluch'),
-('Gluchowicz'),
+
 
 ('Gluchowski'),
 ('Glucina'),
@@ -17750,7 +17749,7 @@ VALUES
 ('Gluyas'),
 ('Gluza'),
 ('Gluzar'),
-('Gluzberg'),
+
 ('Gluzge'),
 ('Gluziki'),
 ('Gluzman'),
@@ -17760,7 +17759,7 @@ VALUES
 ('Glyas'),
 ('Glyceria'),
 ('Glyde'),
-('Glyk'),
+
 ('Glyka'),
 ('Glykenia'),
 ('Glykeria'),
@@ -17771,12 +17770,12 @@ VALUES
 ('Glymidakis'),
 ('Glymond'),
 ('Glymph'),
-('Glyn'),
+
 ('Glyna'),
 ('Glynan'),
 ('Glynatsis'),
 ('Glyndene'),
-('Glynderwyn'),
+
 ('Glyndia'),
 ('Glyndwr'),
 ('Glyndwre'),
@@ -17833,7 +17832,7 @@ VALUES
 ('Gnaboto'),
 ('Gnabouyou'),
 ('Gnabrou'),
-('Gnachandran'),
+
 ('Gnacinski'),
 ('Gnacio'),
 
@@ -17875,7 +17874,7 @@ VALUES
 ('Gnanaapriyaa'),
 ('Gnanabai'),
 
-('Gnanachandran'),
+
 ('Gnanachchelvam'),
 ('Gnanachchelvan'),
 ('Gnanachlvam'),
@@ -17928,7 +17927,7 @@ VALUES
 ('Gnanaprakasham'),
 ('Gnanaprasad'),
 ('Gnanaraj'),
-('Gnanarajah'),
+
 ('Gnanarany'),
 ('Gnanarasa'),
 ('Gnanarathinam'),
@@ -17961,7 +17960,7 @@ VALUES
 ('Gnanasundaram'),
 ('Gnanasundari'),
 ('Gnanasuntharam'),
-('Gnanathevarajah'),
+
 ('Gnanathurai'),
 ('Gnanauthayan'),
 ('Gnanavadivel'),
@@ -17975,7 +17974,7 @@ VALUES
 ('Gnandji'),
 ('Gnandt'),
 
-('Gnanendran'),
+
 ('Gnanesh'),
 ('Gnaneshwar'),
 ('Gnaneshwari'),
@@ -18005,7 +18004,7 @@ VALUES
 ('Gnatiuc'),
 ('Gnatiuk'),
 ('Gnativ'),
-('Gnatowicz'),
+
 
 ('Gnatyuk'),
 ('Gnatyur'),
@@ -18217,7 +18216,7 @@ VALUES
 ('Goberyte'),
 ('Gobet'),
 ('Gobey'),
-('Gobeyn'),
+
 ('Gobezie'),
 ('Gobi'),
 ('Gobidhasan'),
@@ -18288,7 +18287,7 @@ VALUES
 ('Goccione'),
 ('Goce'),
 ('Gocebe'),
-('Gocek'),
+
 
 ('Gocen'),
 ('Gocentaite'),
@@ -18579,7 +18578,7 @@ VALUES
 ('Godlove'),
 ('Godloza'),
 ('Godly'),
-('Godlyn'),
+
 ('Godman'),
 ('Godmon'),
 ('Godnester'),
@@ -18676,10 +18675,10 @@ VALUES
 ('Godwine'),
 ('Godwins'),
 ('Godwish'),
-('Godwyn'),
+
 ('Godwyns'),
 ('Godycki'),
-('Godyn'),
+
 
 ('Godzik'),
 ('Godzimira'),
@@ -18768,7 +18767,7 @@ VALUES
 ('Goerendt'),
 ('Goerens'),
 ('Goeres'),
-('Goerg'),
+
 ('Goerge'),
 ('Goergel'),
 ('Goergen'),
@@ -18901,7 +18900,7 @@ VALUES
 ('Gofran'),
 ('Gofrez'),
 ('Gofron'),
-('Gofryk'),
+
 ('Goft'),
 ('Goftari'),
 ('Gofton'),
@@ -18909,7 +18908,7 @@ VALUES
 ('Gofur'),
 ('Gog'),
 ('Goga'),
-('Gogacz'),
+
 ('Gogaeva'),
 ('Gogah'),
 ('Gogaj'),
@@ -18999,10 +18998,10 @@ VALUES
 
 ('Gogolin'),
 ('Gogolina'),
-('Gogolkiewicz'),
+
 ('Gogoll'),
 ('Gogolos'),
-('Gogolowicz'),
+
 ('Gogoma'),
 ('Gogonea'),
 ('Gogoneata'),
@@ -19225,7 +19224,7 @@ VALUES
 ('Gokcay'),
 ('Gokce'),
 ('Gokcedag'),
-('Gokcek'),
+
 ('Gokcem'),
 ('Gokcen'),
 ('Gokceoglu'),
@@ -19343,9 +19342,9 @@ VALUES
 ('Golait'),
 ('Golaj'),
 ('Golak'),
-('Golakiewicz'),
+
 ('Golakiya'),
-('Golakoti'),
+
 
 
 ('Golala'),
@@ -19417,7 +19416,7 @@ VALUES
 ('Golbasi'),
 ('Golbeck'),
 ('Golbek'),
-('Golberg'),
+
 ('Golbert'),
 ('Golbey'),
 ('Golbin'),
@@ -19442,7 +19441,7 @@ VALUES
 ('Golchinzadeh'),
 ('Golconda'),
 
-('Golcz'),
+
 
 ('Gold'),
 ('Golda'),
@@ -19465,7 +19464,7 @@ VALUES
 ('Goldbart'),
 ('Goldbaum'),
 ('Goldbeck'),
-('Goldberg'),
+
 ('Goldberga'),
 ('Goldberger'),
 ('Goldbergs'),
@@ -19476,7 +19475,7 @@ VALUES
 ('Goldbluth'),
 ('Goldbourne'),
 ('Goldbrom'),
-('Goldburg'),
+
 ('Goldby'),
 ('Golddy'),
 ('Golde'),
@@ -19485,7 +19484,7 @@ VALUES
 ('Goldeman'),
 ('Golden'),
 ('Goldenbaum'),
-('Goldenberg'),
+
 ('Goldene'),
 ('Goldengel'),
 ('Goldenman'),
@@ -19549,7 +19548,7 @@ VALUES
 ('Goldoiu'),
 ('Goldooz'),
 ('Goldowski'),
-('Goldran'),
+
 ('Goldrei'),
 ('Goldreich'),
 ('Goldrein'),
@@ -19572,7 +19571,7 @@ VALUES
 ('Goldshaft'),
 ('Goldshaw'),
 ('Goldshtein'),
-('Goldshteyn'),
+
 ('Goldsmid'),
 ('Goldsmith'),
 ('Goldsobel'),
@@ -19619,9 +19618,9 @@ VALUES
 ('Goldwin'),
 ('Goldwire'),
 
-('Goldwyn'),
+
 ('Goldy'),
-('Goldyn'),
+
 ('Goldynia'),
 ('Goldys'),
 ('Goldysiak'),
@@ -19809,7 +19808,7 @@ VALUES
 ('Gollamud'),
 ('Gollan'),
 ('Gollance'),
-('Gollancz'),
+
 ('Golland'),
 ('Gollapalli'),
 ('Gollapelli'),
@@ -19941,8 +19940,8 @@ VALUES
 
 ('Golovnina'),
 ('Golovnja'),
-('Golowacz'),
-('Golowicz'),
+
+
 ('Golowinski'),
 ('Goloyane'),
 ('Golozar'),
@@ -20030,7 +20029,7 @@ VALUES
 ('Golubtsou'),
 
 ('Golubun'),
-('Golubyk'),
+
 ('Goluch'),
 
 ('Goluguri'),
@@ -20055,7 +20054,7 @@ VALUES
 ('Goly'),
 ('Golya'),
 ('Golyala'),
-('Golyk'),
+
 ('Golysheva'),
 ('Golz'),
 ('Golzar'),
@@ -20107,7 +20106,7 @@ VALUES
 ('Gombe'),
 ('Gomber'),
 ('Gombera'),
-('Gomberg'),
+
 ('Gombert'),
 ('Gombi'),
 ('Gombik'),
@@ -20229,7 +20228,7 @@ VALUES
 ('Gomulak'),
 ('Gomulicka'),
 ('Gomulka'),
-('Gomulkiewicz'),
+
 ('Gomulnicka'),
 ('Gomulski'),
 ('Gomulu'),
@@ -20304,7 +20303,7 @@ VALUES
 ('Goncher'),
 ('Gonchev'),
 ('Gonchior'),
-('Gonchoff'),
+
 
 
 ('Gonciarz'),
@@ -20316,7 +20315,7 @@ VALUES
 
 ('Goncu'),
 ('Goncuk'),
-('Goncz'),
+
 
 
 
@@ -20359,7 +20358,7 @@ VALUES
 ('Gondora'),
 ('Gondos'),
 
-('Gondran'),
+
 ('Gondrand'),
 ('Gondris'),
 ('Gondro'),
@@ -20440,7 +20439,7 @@ VALUES
 ('Gonidec'),
 ('Gonie'),
 ('Goniea'),
-('Goniewicz'),
+
 ('Gonila'),
 ('Gonin'),
 ('Goninan'),
@@ -20529,7 +20528,7 @@ VALUES
 
 ('Gontard'),
 ('Gontarek'),
-('Gontarewicz'),
+
 ('Gontarili'),
 ('Gontariu'),
 
@@ -20818,7 +20817,7 @@ VALUES
 ('Goodsuccess'),
 ('Goodswen'),
 ('Goodur'),
-('Gooduuyn'),
+
 ('Goodvin'),
 ('Goodwater'),
 ('Goodway'),
@@ -20832,7 +20831,7 @@ VALUES
 ('Goodwins'),
 ('Goodworth'),
 ('Goodwright'),
-('Goodwyn'),
+
 ('Goodwyne'),
 ('Goody'),
 ('Goodyear'),
@@ -21111,7 +21110,7 @@ VALUES
 ('Goral'),
 ('Goralben'),
 
-('Goralewicz'),
+
 
 ('Goralewski'),
 ('Goralick'),
@@ -21165,7 +21164,7 @@ VALUES
 ('Gorbacioviene'),
 
 ('Gorbacovs'),
-('Gorbacz'),
+
 ('Gorbal'),
 ('Gorban'),
 ('Gorbanescu'),
@@ -21187,7 +21186,7 @@ VALUES
 ('Gorbea'),
 ('Gorbeck'),
 ('Gorbell'),
-('Gorberg'),
+
 ('Gorbert'),
 ('Gorbet'),
 ('Gorbett'),
@@ -21315,7 +21314,7 @@ VALUES
 ('Gorduk'),
 ('Gordwin'),
 ('Gordy'),
-('Gordyk'),
+
 ('Gordysheva'),
 ('Gordziej'),
 ('Gordzielik'),
@@ -21361,7 +21360,7 @@ VALUES
 ('Goremykina'),
 ('Goren'),
 ('Gorena'),
-('Gorenberg'),
+
 ('Gorenc'),
 ('Gorence'),
 ('Gorenci'),
@@ -21369,7 +21368,7 @@ VALUES
 ('Gorenflo'),
 
 ('Gorenli'),
-('Gorenscek'),
+
 ('Gorenski'),
 ('Gorenstein'),
 ('Gorenzo'),
@@ -21393,7 +21392,7 @@ VALUES
 ('Gorevic'),
 ('Gorevoj'),
 ('Gorewal'),
-('Gorewicz'),
+
 ('Gorey'),
 ('Gorez'),
 ('Gorezi'),
@@ -21532,7 +21531,7 @@ VALUES
 ('Gorkemli'),
 ('Gorken'),
 ('Gorkha'),
-('Gorkiewicz'),
+
 ('Gorkina'),
 ('Gorko'),
 ('Gorkovenko'),
@@ -21609,14 +21608,14 @@ VALUES
 ('Gornie'),
 ('Gornik'),
 ('Gorniki'),
-('Gornikiewicz'),
+
 
 ('Gornin'),
-('Gornisiewicz'),
+
 ('Gorno'),
 ('Gornoi'),
 ('Gornosta'),
-('Gornowicz'),
+
 ('Gornto'),
 ('Gorny'),
 ('Gornyik'),
@@ -21629,7 +21628,7 @@ VALUES
 
 ('Gorochovas'),
 ('Gorocila'),
-('Gorockiewicz'),
+
 ('Gorod'),
 ('Gorodchanin'),
 ('Gorodeckaja'),
@@ -21773,7 +21772,7 @@ VALUES
 ('Gortarez'),
 ('Gortari'),
 ('Gortat'),
-('Gortatowicz'),
+
 ('Gortazar'),
 ('Gortchacow'),
 ('Gorte'),
@@ -21839,8 +21838,8 @@ VALUES
 ('Gorzelak'),
 ('Gorzelanny'),
 ('Gorzewski'),
-('Gorzkiewicz'),
-('Gorzkowicz'),
+
+
 
 ('Gorzkowski'),
 ('Gorzna'),
@@ -22010,7 +22009,7 @@ VALUES
 ('Gossart'),
 ('Gossay'),
 ('Gossaye'),
-('Gossayn'),
+
 ('Gosschalk'),
 ('Gosse'),
 ('Gossec'),
@@ -22076,7 +22075,7 @@ VALUES
 ('Gostowski'),
 ('Gosturani'),
 ('Gostuski'),
-('Gostyn'),
+
 
 ('Gostynski'),
 ('Gosu'),
@@ -22087,7 +22086,7 @@ VALUES
 ('Goswick'),
 ('Goswin'),
 
-('Goszcz'),
+
 
 
 
@@ -22105,7 +22104,7 @@ VALUES
 ('Gotautaite'),
 ('Gotay'),
 ('Gotbaum'),
-('Gotberg'),
+
 ('Gotbi'),
 ('Gotborg'),
 ('Gotby'),
@@ -22148,7 +22147,7 @@ VALUES
 ('Gothandapani'),
 ('Gothard'),
 ('Gothari'),
-('Gothberg'),
+
 ('Gothe'),
 ('Gothelf'),
 ('Gothen'),
@@ -22162,7 +22161,7 @@ VALUES
 ('Gothoskar'),
 ('Gothro'),
 ('Gothwal'),
-('Goti'),
+
 ('Gotidoc'),
 ('Gotierrez'),
 ('Goties'),
@@ -22173,7 +22172,7 @@ VALUES
 ('Gotke'),
 ('Gotkin'),
 ('Gotkine'),
-('Gotkowicz'),
+
 
 ('Gotkowski'),
 ('Gotla'),
@@ -22197,7 +22196,7 @@ VALUES
 ('Gotowala'),
 
 ('Gotowicka'),
-('Gotowicz'),
+
 ('Gotowiecki'),
 ('Gotowka'),
 ('Gotreaux'),
@@ -22221,7 +22220,7 @@ VALUES
 ('Gottardello'),
 ('Gottardi'),
 ('Gottardo'),
-('Gottberg'),
+
 ('Gottdenger'),
 ('Gotte'),
 ('Gotteh'),
@@ -23181,7 +23180,7 @@ VALUES
 ('Grabbi'),
 ('Grabchev'),
 ('Grabchuk'),
-('Grabclyk'),
+
 
 
 
@@ -23190,7 +23189,7 @@ VALUES
 ('Grabda'),
 ('Grabe'),
 ('Grabecki'),
-('Grabecz'),
+
 ('Grabeel'),
 ('Grabek'),
 ('Grabel'),
@@ -23255,7 +23254,7 @@ VALUES
 ('Grabovskiene'),
 ('Grabovskis'),
 ('Grabow'),
-('Grabowicz'),
+
 ('Grabowiec'),
 ('Grabowiecka'),
 ('Grabowiecke'),
@@ -23307,7 +23306,7 @@ VALUES
 ('Graceline'),
 ('Gracella'),
 ('Gracely'),
-('Gracelyn'),
+
 ('Gracelynn'),
 ('Gracelynne'),
 ('Gracemarie'),
@@ -23391,7 +23390,7 @@ VALUES
 ('Gracjela'),
 ('Grack'),
 ('Graclelly'),
-('Graclyn'),
+
 ('Graco'),
 ('Gracous'),
 
@@ -23401,7 +23400,7 @@ VALUES
 ('Gracyalny'),
 ('Gracyan'),
 ('Gracyl'),
-('Gracz'),
+
 
 
 
@@ -23723,7 +23722,7 @@ VALUES
 ('Gramazio'),
 ('Grambal'),
 
-('Gramberg'),
+
 ('Gramble'),
 
 ('Grambling'),
@@ -23844,7 +23843,7 @@ VALUES
 ('Granaudo'),
 ('Granaueckaite'),
 ('Granbak'),
-('Granberg'),
+
 ('Granberry'),
 ('Granbohm'),
 ('Granbois'),
@@ -24151,7 +24150,7 @@ VALUES
 ('Grasher'),
 ('Grashina'),
 ('Grashion'),
-('Grashoff'),
+
 ('Grashorn'),
 ('Grashot'),
 ('Graside'),
@@ -24191,7 +24190,7 @@ VALUES
 ('Grasseta'),
 ('Grassetti'),
 ('Grassham'),
-('Grasshoff'),
+
 ('Grassi'),
 ('Grassia'),
 ('Grassick'),
@@ -24357,7 +24356,7 @@ VALUES
 ('Gravatt'),
 ('Gravatte'),
 ('Gravdahl'),
-('Gravecz'),
+
 
 ('Gravedoni'),
 ('Graveen'),
@@ -24374,7 +24373,7 @@ VALUES
 ('Gravelsina'),
 ('Gravelsins'),
 ('Gravely'),
-('Gravelyn'),
+
 ('Graveman'),
 ('Graven'),
 ('Gravenell'),
@@ -24428,7 +24427,7 @@ VALUES
 ('Gravois'),
 ('Gravouil'),
 ('Graw'),
-('Grawburg'),
+
 ('Grawe'),
 ('Grawert'),
 ('Grawey'),
@@ -24530,7 +24529,7 @@ VALUES
 ('Grazvyas'),
 ('Grazvydas'),
 ('Grazyella'),
-('Grazyn'),
+
 ('Grazyna'),
 ('Grazynazofia'),
 ('Grazynski'),
@@ -24657,7 +24656,7 @@ VALUES
 ('Grechkosiy'),
 ('Grechnaya'),
 ('Grechuta'),
-('Grechyn'),
+
 ('Grechyna'),
 ('Grechyshkin'),
 ('Greci'),
@@ -24727,14 +24726,14 @@ VALUES
 ('Greenbank'),
 ('Greenbat'),
 ('Greenbaum'),
-('Greenberg'),
+
 ('Greenberger'),
 ('Greenberry'),
 ('Greenblat'),
 ('Greenblatt'),
 ('Greenblum'),
 ('Greenbourne'),
-('Greenburg'),
+
 ('Greenburgh'),
 ('Greenbury'),
 ('Greenbush'),
@@ -24879,7 +24878,7 @@ VALUES
 ('Greeves'),
 ('Greey'),
 ('Gref'),
-('Grefberg'),
+
 ('Grefe'),
 ('Greff'),
 ('Greffier'),
@@ -24930,7 +24929,7 @@ VALUES
 ('Gregoraci'),
 ('Gregorash'),
 ('Gregoray'),
-('Gregorcyk'),
+
 
 
 ('Gregore'),
@@ -24965,7 +24964,7 @@ VALUES
 
 ('Gregorovic'),
 
-('Gregorowicz'),
+
 ('Gregorowski'),
 ('Gregorski'),
 ('Gregorsky'),
@@ -25013,12 +25012,12 @@ VALUES
 ('Greier'),
 ('Greif'),
 ('Greife'),
-('Greifenberg'),
+
 ('Greifenberger'),
 ('Greifenstein'),
 ('Greifer'),
 ('Greiff'),
-('Greiffemberg'),
+
 ('Greifzu'),
 ('Greig'),
 ('Greigo'),
@@ -25105,7 +25104,7 @@ VALUES
 ('Grello'),
 ('Grelloni'),
 ('Grelou'),
-('Grelyn'),
+
 ('Gremaud'),
 ('Gremaux'),
 ('Grembi'),
@@ -25151,7 +25150,7 @@ VALUES
 ('Grendell'),
 
 ('Grendene'),
-('Grendolyn'),
+
 ('Grendon'),
 ('Grendy'),
 ('Grendzinia'),
@@ -25239,7 +25238,7 @@ VALUES
 ('Gresham'),
 ('Greshar'),
 ('Greshell'),
-('Greshoff'),
+
 ('Gresik'),
 ('Gresilda'),
 ('Gresina'),
@@ -25287,7 +25286,7 @@ VALUES
 ('Greswell'),
 ('Gresza'),
 
-('Greszkiewicz'),
+
 ('Greszta'),
 ('Greta'),
 ('Gretalili'),
@@ -25313,7 +25312,7 @@ VALUES
 ('Grethelyne'),
 ('Grethen'),
 ('Grether'),
-('Grethlyn'),
+
 ('Grethmann'),
 ('Greti'),
 ('Gretiane'),
@@ -25409,7 +25408,7 @@ VALUES
 ('Greyhame'),
 ('Greyl'),
 ('Greyling'),
-('Greylyn'),
+
 ('Greyman'),
 ('Greynolds'),
 ('Greyo'),
@@ -25562,7 +25561,7 @@ VALUES
 ('Griemsmann'),
 ('Grien'),
 ('Grienacher'),
-('Grienberg'),
+
 ('Grieneisen'),
 ('Grienenberger'),
 ('Griener'),
@@ -25669,7 +25668,7 @@ VALUES
 ('Griffus'),
 ('Griffy'),
 ('Griffydd'),
-('Griffyn'),
+
 ('Grifin'),
 ('Grifina'),
 ('Grifith'),
@@ -25920,7 +25919,7 @@ VALUES
 ('Grimbaldeston'),
 ('Grimball'),
 ('Grimbeek'),
-('Grimberg'),
+
 ('Grimbergen'),
 ('Grimblat'),
 ('Grimble'),
@@ -25985,7 +25984,7 @@ VALUES
 ('Grinager'),
 ('Grinaveckis'),
 ('Grinaveckyte'),
-('Grinberg'),
+
 ('Grinberga'),
 ('Grinbergs'),
 ('Grinblat'),
@@ -26118,7 +26117,7 @@ VALUES
 ('Grion'),
 ('Griot'),
 ('Grioua'),
-('Gripenberg'),
+
 ('Gripentrog'),
 
 ('Gripinskaja'),
@@ -26206,7 +26205,7 @@ VALUES
 ('Grishmabahen'),
 ('Grishnia'),
 ('Grisholli'),
-('Grishyn'),
+
 ('Grisi'),
 ('Grisier'),
 ('Grisilda'),
@@ -26413,7 +26412,7 @@ VALUES
 ('Groben'),
 ('Grobenski'),
 ('Grober'),
-('Groberg'),
+
 ('Groberio'),
 ('Grobes'),
 ('Grobke'),
@@ -26457,7 +26456,7 @@ VALUES
 ('Grochowalski'),
 ('Grochowiak'),
 ('Grochowicki'),
-('Grochowicz'),
+
 
 ('Grochowski'),
 
@@ -26509,7 +26508,7 @@ VALUES
 ('Groe'),
 ('Groebe'),
 ('Groeber'),
-('Groeblinghoff'),
+
 ('Groebner'),
 ('Groegar'),
 ('Groeger'),
@@ -26519,14 +26518,14 @@ VALUES
 ('Groeling'),
 ('Groen'),
 ('Groenager'),
-('Groendyk'),
+
 ('Groendyke'),
 ('Groene'),
 ('Groenen'),
 ('Groenenboom'),
 ('Groenendijc'),
 ('Groenendijk'),
-('Groenendyk'),
+
 ('Groener'),
 ('Groenert'),
 ('Groeneveld'),
@@ -26550,7 +26549,7 @@ VALUES
 ('Groenkvist'),
 ('Groenland'),
 ('Groenli'),
-('Groenneberg'),
+
 ('Groenvynck'),
 ('Groenwold'),
 ('Groeper'),
@@ -26679,7 +26678,7 @@ VALUES
 
 ('Gromulis'),
 
-('Gromyk'),
+
 ('Gromyko'),
 
 ('Gron'),
@@ -26689,7 +26688,7 @@ VALUES
 ('Gronau'),
 ('Gronbach'),
 ('Gronbeck'),
-('Gronberg'),
+
 ('Gronblom'),
 ('Gronborg'),
 
@@ -26731,7 +26730,7 @@ VALUES
 ('Gronkowski'),
 ('Gronland'),
 ('Gronlund'),
-('Gronneberg'),
+
 ('Gronnerod'),
 ('Gronnesby'),
 ('Gronnier'),
@@ -26809,7 +26808,7 @@ VALUES
 ('Grosari'),
 ('Grosariu'),
 ('Grosart'),
-('Grosberg'),
+
 ('Grosberga'),
 ('Grosberger'),
 ('Grosbier'),
@@ -26880,7 +26879,7 @@ VALUES
 ('Grossbard'),
 ('Grossbauer'),
 ('Grossbaum'),
-('Grossberg'),
+
 ('Grossberger'),
 ('Grosscup'),
 ('Grosscurth'),
@@ -26947,14 +26946,14 @@ VALUES
 ('Groszer'),
 
 ('Groszewski'),
-('Groszkiewicz'),
+
 ('Groszko'),
 ('Groszman'),
 
 ('Groszy'),
 ('Grot'),
 ('Grota'),
-('Grotberg'),
+
 ('Grote'),
 ('Grotefeld'),
 ('Grotefend'),
@@ -26978,7 +26977,7 @@ VALUES
 ('Grothier'),
 ('Grothman'),
 ('Grothmoore'),
-('Grothoff'),
+
 ('Grothouse'),
 ('Grothues'),
 ('Grotjahn'),
@@ -27121,7 +27120,7 @@ VALUES
 ('Grubecki'),
 ('Grubel'),
 ('Gruben'),
-('Grubenhoff'),
+
 ('Gruber'),
 ('Grubert'),
 ('Grubestedt'),
@@ -27149,7 +27148,7 @@ VALUES
 ('Gruca'),
 ('Grucel'),
 ('Grucela'),
-('Gruchacz'),
+
 ('Gruchala'),
 
 ('Gruchot'),
@@ -27178,7 +27177,7 @@ VALUES
 ('Grudnick'),
 ('Grudnicka'),
 ('Grudnicki'),
-('Grudniewicz'),
+
 ('Grudniewski'),
 
 ('Grudonic'),
@@ -27213,13 +27212,13 @@ VALUES
 ('Gruen'),
 ('Gruenanger'),
 ('Gruenbaum'),
-('Gruenberg'),
+
 ('Gruenberger'),
 ('Gruendel'),
 ('Gruender'),
 ('Gruending'),
 ('Gruendler'),
-('Grueneberg'),
+
 ('Grueneich'),
 ('Gruenenberger'),
 ('Gruenenfelder'),
@@ -27240,6 +27239,7 @@ VALUES
 ('Gruesbeck'),
 ('Grueschow'),
 ('Gruescu'),
+('Gruesen'),
 ('Grueser'),
 ('Grueso'),
 ('Gruessing'),
@@ -27252,7 +27252,6 @@ VALUES
 ('Gruetzner'),
 ('Gruev'),
 ('Grueva'),
-
 ('gruezo'),
 ('Grufalo'),
 ('Gruff'),
@@ -27346,7 +27345,7 @@ VALUES
 ('Grunau'),
 ('Grunbaum'),
 ('Grunbaun'),
-('Grunberg'),
+
 ('Grunberger'),
 ('Grunblat'),
 ('Grunbuhel'),
@@ -27354,7 +27353,7 @@ VALUES
 ('Grund'),
 ('Grundahl'),
 ('Grundane'),
-('Grundberg'),
+
 ('Grundel'),
 ('Grundeler'),
 ('Grundell'),
@@ -27389,10 +27388,10 @@ VALUES
 ('Grundza'),
 
 ('Grune'),
-('Gruneberg'),
+
 ('Gruneisen'),
 ('Gruneisl'),
-('Grunenberg'),
+
 ('Grunenwald'),
 ('Gruner'),
 ('Grunert'),
@@ -27534,11 +27533,11 @@ VALUES
 ('Gruszecka'),
 ('Gruszecki'),
 
-('Gruszewicz'),
+
 
 ('Gruszewski'),
 ('Gruszka'),
-('Gruszkiewicz'),
+
 ('Gruszkos'),
 ('Grusznic'),
 ('Gruszynski'),
@@ -27623,7 +27622,7 @@ VALUES
 ('Gryder'),
 ('Gryf'),
 ('Gryff'),
-('Gryffenberg'),
+
 ('Gryffin'),
 ('Gryga'),
 ('Grygelaitiene'),
@@ -27635,11 +27634,11 @@ VALUES
 ('Grygieniec'),
 ('Grygier'),
 
-('Gryglewicz'),
+
 ('Gryglik'),
 ('Grygo'),
 ('Grygolec'),
-('Grygorcewicz'),
+
 ('Grygorchak'),
 ('Grygorchuk'),
 
@@ -27668,9 +27667,9 @@ VALUES
 
 ('Grymula'),
 ('Grymyuk'),
-('Gryn'),
+
 ('Grynapel'),
-('Grynberg'),
+
 
 
 ('Grynelle'),
@@ -27678,34 +27677,34 @@ VALUES
 ('Grynfeltt'),
 ('Grynhaus'),
 ('Grynia'),
-('Gryniewicz'),
+
 ('Grynik'),
 ('Grynis'),
 ('Gryniuk'),
 ('Gryniv'),
 ('Grynizuk'),
-('Grynkiewicz'),
+
 ('Grynko'),
 ('Grynszpan'),
 ('Grynyuk'),
 ('Gryp'),
 ('Gryparis'),
 ('Gryphin'),
-('Gryponisioti'),
+
 ('Grys'),
 ('Grysak'),
 ('Gryshchenko'),
 ('Gryshko'),
-('Grysiewicz'),
 
 
-('Gryskiewicz'),
+
+
 ('Grysko'),
 ('Grysole'),
 ('Gryson'),
 ('Gryspeerdt'),
 ('Grysza'),
-('Gryszkiewicz'),
+
 ('Gryszko'),
 ('Gryszowka'),
 ('Gryta'),
@@ -27735,14 +27734,14 @@ VALUES
 ('Grzanka'),
 
 ('Grzankowski'),
-('Grzaslewicz'),
-('Grzbyk'),
+
+
 ('Grze'),
 
 ('Grzebielucha'),
 ('Grzebien'),
 ('Grzeborz'),
-('Grzebyk'),
+
 ('Grzech'),
 ('Grzechnik'),
 ('Grzechowiak'),
@@ -27791,7 +27790,7 @@ VALUES
 ('Grzemski'),
 ('Grzenda'),
 ('Grzenia'),
-('Grzenkowicz'),
+
 ('Grzeoorz'),
 ('Grzes'),
 
@@ -27803,7 +27802,7 @@ VALUES
 
 ('Grzesista'),
 ('Grzesiuk'),
-('Grzeskiewicz'),
+
 ('Grzesko'),
 ('Grzeskow'),
 ('Grzeskowiak'),
@@ -27838,7 +27837,7 @@ VALUES
 ('Grzyna'),
 ('Grzys'),
 ('Grzywa'),
-('Grzywacz'),
+
 
 
 
@@ -27846,7 +27845,7 @@ VALUES
 ('Grzywinski'),
 ('Grzywna'),
 ('Grzywniak'),
-('Grzywnowicz'),
+
 ('Grzywok'),
 ('Gsassi'),
 ('Gscheidle'),
@@ -28246,7 +28245,7 @@ VALUES
 ('Gubello'),
 ('Gubenko'),
 ('Guber'),
-('Guberg'),
+
 ('Guberina'),
 ('Guberman'),
 ('Gubernat'),
@@ -28287,7 +28286,7 @@ VALUES
 ('Gubser'),
 
 ('Gubuan'),
-('Gubucz'),
+
 ('Gubukgu'),
 ('Guc'),
 ('Gucal'),
@@ -28330,7 +28329,7 @@ VALUES
 ('Gucukoglu'),
 ('Gucuyeter'),
 ('Gucwa'),
-('Gucz'),
+
 
 ('Guda'),
 ('Gudaboina'),
@@ -28342,7 +28341,7 @@ VALUES
 ('Gudal'),
 ('Gudalajtys'),
 ('Gudalevic'),
-('Gudalewicz'),
+
 
 ('Gudalewski'),
 ('Gudali'),
@@ -28363,7 +28362,7 @@ VALUES
 ('Gudaviciene'),
 ('Gudavicius'),
 ('Gudaviciute'),
-('Gudberg'),
+
 ('Gudbrandsdottir'),
 ('Gudbrandsen'),
 ('Gudd'),
@@ -29090,7 +29089,7 @@ VALUES
 ('Guggilapu'),
 ('Guggilla'),
 ('Guggino'),
-('Guggisberg'),
+
 ('Guggomos'),
 ('Gughie'),
 ('Gugila'),
@@ -29202,7 +29201,7 @@ VALUES
 ('Guibin'),
 ('Guibo'),
 ('Guibord'),
-('Guibourg'),
+
 ('Guibourgeau'),
 ('Guibrunet'),
 ('Guicciardi'),
@@ -29624,7 +29623,7 @@ VALUES
 ('Guinoubi'),
 ('Guins'),
 ('Guinsatao'),
-('Guinsberg'),
+
 ('Guinta'),
 ('Guintanilla'),
 ('Guinter'),
@@ -29888,7 +29887,7 @@ VALUES
 ('Gulagma'),
 ('Gulai'),
 ('Gulaid'),
-('Gulaidyn'),
+
 ('Gulaigari'),
 ('Gulaim'),
 ('Gulaisah'),
@@ -30027,7 +30026,7 @@ VALUES
 ('Gulbenk'),
 ('Gulbenkian'),
 ('Gulber'),
-('Gulberg'),
+
 ('Gulbesa'),
 ('Gulbet'),
 ('Gulbey'),
@@ -30077,7 +30076,7 @@ VALUES
 ('Gulchexra'),
 ('Gulchin'),
 ('Gulchinar'),
-('Gulcicek'),
+
 ('Gulcihan'),
 ('Gulcilem'),
 ('Gulcin'),
@@ -30086,7 +30085,7 @@ VALUES
 ('Gulcu'),
 ('Gulcum'),
 ('Gulcun'),
-('Gulcz'),
+
 
 
 
@@ -30100,7 +30099,7 @@ VALUES
 ('Guldane'),
 ('Guldar'),
 ('Guldasta'),
-('Guldberg'),
+
 ('Guldbrandsen'),
 ('Gulde'),
 ('Guldeman'),
@@ -30352,7 +30351,7 @@ VALUES
 ('Gullatt'),
 ('Gullatte'),
 ('Gullaume'),
-('Gullberg'),
+
 ('Gullbring'),
 ('Gulle'),
 ('Gulled'),
@@ -30878,7 +30877,7 @@ VALUES
 ('Gunapalasingham'),
 ('Gunapati'),
 ('Gunar'),
-('Gunarajah'),
+
 ('Gunarajan'),
 ('Gunaranjan'),
 ('Gunaranjini'),
@@ -30952,7 +30951,7 @@ VALUES
 
 ('Gunayon'),
 ('Gunbay'),
-('Gunberg'),
+
 ('Gunberk'),
 ('Gunbjornsen'),
 ('Gunby'),
@@ -31148,12 +31147,12 @@ VALUES
 ('Gunji'),
 ('Gunjie'),
 ('Gunjita'),
-('Gunjoti'),
+
 ('Gunka'),
 ('Gunkar'),
 ('Gunkel'),
 ('Gunkelman'),
-('Gunkievicz'),
+
 ('Gunkle'),
 ('Gunko'),
 ('Gunkordu'),
@@ -31235,7 +31234,7 @@ VALUES
 ('Gunsallus'),
 ('Gunsalus'),
 ('Gunsay'),
-('Gunsberg'),
+
 ('Gunsch'),
 ('Gunse'),
 ('Gunsel'),
@@ -31358,7 +31357,7 @@ VALUES
 ('Guocheng'),
 ('Guoda'),
 ('Guodong'),
-('Guoenhoff'),
+
 ('Guoer'),
 ('Guofang'),
 ('Guofei'),
@@ -31576,7 +31575,7 @@ VALUES
 ('Gurdaita'),
 ('Gurdak'),
 ('Gurdal'),
-('Gurdalyn'),
+
 ('Gurdarshan'),
 ('Gurdas'),
 ('Gurdass'),
@@ -31669,7 +31668,7 @@ VALUES
 ('Gurfer'),
 ('Gurfinkel'),
 ('Gurga'),
-('Gurgacz'),
+
 ('Gurganious'),
 ('Gurganus'),
 ('Gurgas'),
@@ -32046,7 +32045,7 @@ VALUES
 ('Gurtin'),
 ('Gurtirit'),
 ('Gurtish'),
-('Gurtkiewicz'),
+
 ('Gurtler'),
 
 ('Gurtner'),
@@ -32152,7 +32151,7 @@ VALUES
 ('Gurwant'),
 ('Gurwara'),
 ('Gurwell'),
-('Gurwicz'),
+
 ('Gurwindar'),
 ('Gurwinder'),
 
@@ -32161,7 +32160,7 @@ VALUES
 ('Guryay'),
 ('Guryel'),
 ('Guryeler'),
-('Gurynowicz'),
+
 ('Guryon'),
 ('Gurza'),
 ('Gurzap'),
@@ -32192,7 +32191,7 @@ VALUES
 ('Gusatu'),
 ('Guschelbauer'),
 ('Gusching'),
-('Gusciewicz'),
+
 ('Gusciora'),
 ('Gusciute'),
 ('Guscoth'),
@@ -32341,12 +32340,12 @@ VALUES
 ('Guste'),
 ('Gustea'),
 ('Gustek'),
-('Gustenhoff'),
+
 ('Guster'),
 ('Gusterman'),
 ('Gusterson'),
 ('Gustew'),
-('Gusthoff'),
+
 ('Gusthuff'),
 ('Gusti'),
 ('Gustia'),
@@ -32414,8 +32413,8 @@ VALUES
 ('Gutekunst'),
 ('Gutelius'),
 ('Gutema'),
-('Gutemberg'),
-('Gutenberg'),
+
+
 ('Gutenberger'),
 ('Gutenko'),
 ('Gutensohn'),
@@ -32557,7 +32556,7 @@ VALUES
 ('Gutteea'),
 ('Gutten'),
 ('Guttenbeil'),
-('Guttenberg'),
+
 ('Guttenplan'),
 ('Guttentag'),
 ('Gutteplan'),
@@ -32702,7 +32701,7 @@ VALUES
 ('Guymat'),
 ('Guymer'),
 ('Guymon'),
-('Guyn'),
+
 ('Guynan'),
 ('Guynes'),
 ('Guynh'),
@@ -32774,7 +32773,7 @@ VALUES
 ('Guzer'),
 ('Guzevicius'),
 ('Guzeviciute'),
-('Guzewicz'),
+
 ('Guzewski'),
 ('Guzey'),
 ('Guzga'),
@@ -32789,7 +32788,7 @@ VALUES
 ('Guziec'),
 
 ('Guzielak'),
-('Guziewicz'),
+
 ('Guzik'),
 ('Guzikas'),
 
@@ -32936,7 +32935,7 @@ VALUES
 ('Gwangwazo'),
 ('Gwanmesia'),
 ('Gwantwa'),
-('Gwanwyn'),
+
 ('Gwanyanya'),
 ('Gwanzura'),
 ('Gwapela'),
@@ -32968,9 +32967,9 @@ VALUES
 ('Gwatun'),
 ('Gwawr'),
 ('Gwawrwen'),
-('Gwayn'),
+
 ('Gwaza'),
-('Gwazdacz'),
+
 ('Gwaze'),
 ('Gweah'),
 ('Gweaver'),
@@ -32999,21 +32998,21 @@ VALUES
 ('Gwendalan'),
 ('Gwendalin'),
 ('Gwendaline'),
-('Gwendalyn'),
+
 ('Gwendap'),
 ('Gwendeline'),
 ('Gwendell'),
 ('Gwenderline'),
-('Gwenderlyn'),
+
 ('Gwendline'),
 ('Gwendolane'),
 ('Gwendoleen'),
 ('Gwendolen'),
 ('Gwendolene'),
-('Gwendoleyn'),
+
 ('Gwendolin'),
 ('Gwendoline'),
-('Gwendolyn'),
+
 ('Gwendolyne'),
 ('Gwendolynn'),
 ('Gwendolynne'),
@@ -33022,7 +33021,7 @@ VALUES
 ('Gwendu'),
 ('Gweneira'),
 ('Gwenelin'),
-('Gwenellyn'),
+
 ('Gweneth'),
 ('Gwenetta'),
 ('Gwenette'),
@@ -33080,7 +33079,7 @@ VALUES
 ('Gwffrida'),
 ('Gwiasda'),
 ('Gwiazda'),
-('Gwiazdowicz'),
+
 
 ('Gwiazdowski'),
 
@@ -33101,7 +33100,7 @@ VALUES
 ('Gwillim'),
 ('Gwilt'),
 ('Gwilym'),
-('Gwilyn'),
+
 ('Gwimaraes'),
 ('Gwin'),
 
@@ -33124,7 +33123,7 @@ VALUES
 ('Gwira'),
 ('Gwirtz'),
 ('Gwisai'),
-('Gwiszcz'),
+
 ('Gwithian'),
 ('Gwithyen'),
 ('Gwizadla'),
@@ -33146,9 +33145,9 @@ VALUES
 ('Gworek'),
 ('Gworys'),
 ('Gwosdz'),
-('Gwozdowicz'),
+
 ('Gwozdz'),
-('Gwozdziewicz'),
+
 
 ('Gwozonu'),
 ('Gwria'),
@@ -33158,11 +33157,11 @@ VALUES
 ('Gwydir'),
 ('Gwyenth'),
 ('Gwyer'),
-('Gwyn'),
+
 ('Gwyndaf'),
 ('Gwyndat'),
 ('Gwynder'),
-('Gwyndolyn'),
+
 ('Gwynedd'),
 ('Gwyneira'),
 ('Gwynes'),
@@ -33171,7 +33170,7 @@ VALUES
 ('Gwynfar'),
 ('Gwynfor'),
 ('Gwynfren'),
-('Gwynfryn'),
+
 ('Gwynhalek'),
 ('Gwynhelak'),
 ('Gwynlais'),
@@ -33189,7 +33188,7 @@ VALUES
 ('Gwyon'),
 ('Gwyther'),
 ('Gwythyr'),
-('Gwywfryn'),
+
 ('Gxapheka'),
 ('Gxekwa'),
 ('Gxing'),
@@ -33451,7 +33450,7 @@ VALUES
 ('Gyllander'),
 ('Gyllebo'),
 ('Gyllenband'),
-('Gyllenberg'),
+
 ('Gyllengahm'),
 ('Gyllenhaal'),
 ('Gyllenstein'),
@@ -33538,7 +33537,7 @@ VALUES
 ('Gyorgydiar'),
 ('Gyorgyi'),
 ('Gyorgyjakab'),
-('Gyorgylorincz'),
+
 ('Gyorgyne'),
 ('Gyorgyovich'),
 ('Gyori'),

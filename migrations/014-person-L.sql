@@ -178,7 +178,7 @@ VALUES
 ('Labas'),
 ('Labasan'),
 ('Labash'),
-('Labasiewicz'),
+
 ('Labass'),
 ('Labastida'),
 ('Labastide'),
@@ -277,7 +277,7 @@ VALUES
 ('Labep'),
 ('Laber'),
 ('Laberdee'),
-('Laberg'),
+
 ('Laberge'),
 ('Labergerie'),
 ('Laberibe'),
@@ -569,7 +569,7 @@ VALUES
 ('Labuzinski'),
 ('Labwo'),
 ('Labylle'),
-('Labynicz'),
+
 ('Labzentis'),
 ('Labzentyte'),
 ('Lac'),
@@ -651,7 +651,7 @@ VALUES
 ('Lacefield'),
 ('Laceigh'),
 ('Lacej'),
-('Lacek'),
+
 ('Lacelle'),
 ('Lacely'),
 ('Lacen'),
@@ -675,7 +675,7 @@ VALUES
 ('Lach'),
 ('Lachabai'),
 ('Lachachi'),
-('Lachacz'),
+
 
 ('Lachai'),
 ('Lachal'),
@@ -778,12 +778,12 @@ VALUES
 ('Lachoorn'),
 ('Lachouri'),
 
-('Lachowicz'),
+
 ('Lachowitzer'),
 
 ('Lachowski'),
 ('Lachowsky'),
-('Lachowycz'),
+
 ('Lachowytsch'),
 ('Lachqar'),
 ('Lachrichi'),
@@ -796,7 +796,7 @@ VALUES
 ('Lachungpa'),
 ('Lachut'),
 ('Lachvinder'),
-('Lachyn'),
+
 ('Laci'),
 ('Lacia'),
 ('Laciak'),
@@ -980,9 +980,9 @@ VALUES
 ('Lacvinder'),
 ('Lacwik'),
 ('Lacy'),
-('Lacyn'),
+
 ('Lacyte'),
-('Lacz'),
+
 
 
 
@@ -1085,7 +1085,7 @@ VALUES
 ('Ladefoged'),
 ('Ladega'),
 ('Ladegaard'),
-('Ladehoff'),
+
 ('Ladeinde'),
 ('Ladeira'),
 ('Ladeiro'),
@@ -1105,7 +1105,7 @@ VALUES
 
 ('Lademora'),
 ('Laden'),
-('Ladenburg'),
+
 ('Ladenburger'),
 
 ('Ladenegan'),
@@ -1268,7 +1268,7 @@ VALUES
 ('Ladoye'),
 
 ('Ladrach'),
-('Ladran'),
+
 ('Ladrat'),
 ('Ladrera'),
 ('Ladrido'),
@@ -1652,7 +1652,7 @@ VALUES
 ('Lagen'),
 ('Lagenour'),
 ('Lager'),
-('Lagerberg'),
+
 ('Lagergren'),
 ('Lageris'),
 ('Lagerkvist'),
@@ -2025,7 +2025,7 @@ VALUES
 ('Lahori'),
 ('Lahoria'),
 ('Lahosky'),
-('Lahoti'),
+
 ('Lahou'),
 ('Lahouaoui'),
 ('Lahouari'),
@@ -2104,7 +2104,7 @@ VALUES
 ('Laibe'),
 ('Laiben'),
 ('Laiber'),
-('Laiberg'),
+
 ('Laiberte'),
 ('Laibha'),
 ('Laibhair'),
@@ -2235,7 +2235,7 @@ VALUES
 ('Lailus'),
 ('Lailvaux'),
 ('Laily'),
-('Lailyn'),
+
 ('Laim'),
 ('Laima'),
 ('Laimantas'),
@@ -2379,7 +2379,7 @@ VALUES
 ('Laitung'),
 ('Laituri'),
 ('Laity'),
-('Laityn'),
+
 ('Laiu'),
 ('Laiva'),
 ('Laive'),
@@ -3051,7 +3051,7 @@ VALUES
 ('Laline'),
 ('Lalini'),
 ('Lalino'),
-('Lalioti'),
+
 ('Laliotis'),
 ('Lalioui'),
 ('Lalique'),
@@ -3174,7 +3174,7 @@ VALUES
 ('Lalmaya'),
 ('Lalmi'),
 ('Lalmohamed'),
-('Lalmoti'),
+
 ('Lalmotti'),
 ('Lalmuti'),
 ('Lalnee'),
@@ -3405,7 +3405,7 @@ VALUES
 ('Lambell'),
 ('Lamber'),
 ('Lamberdina'),
-('Lamberg'),
+
 ('Lambergen'),
 ('Lamberger'),
 ('Lamberius'),
@@ -3721,7 +3721,7 @@ VALUES
 ('Lammerding'),
 ('Lammers'),
 ('Lammert'),
-('Lammertyn'),
+
 ('Lammey'),
 ('Lammi'),
 ('Lammie'),
@@ -4138,7 +4138,7 @@ VALUES
 ('Lancucki'),
 ('Lancup'),
 ('Lancy'),
-('Lancz'),
+
 
 
 
@@ -4173,7 +4173,7 @@ VALUES
 ('Landay'),
 ('Landaz'),
 ('Landazuri'),
-('Landberg'),
+
 ('Landborg'),
 ('Landby'),
 ('Landcaster'),
@@ -4196,7 +4196,7 @@ VALUES
 ('Landells'),
 ('Landels'),
 ('Landen'),
-('Landenberg'),
+
 ('Landenberger'),
 ('Lander'),
 ('Landergan'),
@@ -4207,7 +4207,7 @@ VALUES
 ('Landers'),
 ('Landeryou'),
 ('Landes'),
-('Landesberg'),
+
 ('Landesman'),
 ('Landesmann'),
 ('Landesqe'),
@@ -4325,11 +4325,11 @@ VALUES
 ('Landry'),
 ('Landryne'),
 ('Landsaw'),
-('Landsberg'),
+
 ('Landsberger'),
 ('Landsberry'),
 ('Landsborough'),
-('Landsburg'),
+
 ('Landsburgh'),
 ('Landsbury'),
 ('Landschoot'),
@@ -4423,7 +4423,7 @@ VALUES
 ('Langbecker'),
 ('Langbehn'),
 ('Langbein'),
-('Langberg'),
+
 ('Langbis'),
 ('Langbjenne'),
 ('Langbord'),
@@ -4445,7 +4445,7 @@ VALUES
 ('Langeard'),
 ('Langebaek'),
 ('Langebek'),
-('Langeberg'),
+
 ('Langedijk'),
 ('Langefeld'),
 ('Langefels'),
@@ -4472,11 +4472,11 @@ VALUES
 ('Langenbach'),
 ('Langenbacher'),
 ('Langenbahn'),
-('Langenberg'),
+
 ('Langenberger'),
 ('Langenbrunner'),
 ('Langenbucher'),
-('Langenburg'),
+
 ('Langenderfer'),
 ('Langendoerfer'),
 
@@ -4529,7 +4529,7 @@ VALUES
 ('Langheim'),
 ('Langhelt'),
 ('Langhofer'),
-('Langhoff'),
+
 ('Langholdt'),
 ('Langholtz'),
 ('Langholz'),
@@ -4543,7 +4543,7 @@ VALUES
 ('Langianna'),
 ('Langiano'),
 ('Langier'),
-('Langiewicz'),
+
 ('Langill'),
 ('Langille'),
 ('Langin'),
@@ -4784,7 +4784,7 @@ VALUES
 ('Lankford'),
 ('Lankhaar'),
 ('Lankhorst'),
-('Lankiewicz'),
+
 ('Lankika'),
 ('Lankin'),
 ('Lankine'),
@@ -4908,9 +4908,9 @@ VALUES
 ('Lansard'),
 ('Lansarra'),
 ('Lansaw'),
-('Lansberg'),
+
 ('Lansberry'),
-('Lansburg'),
+
 ('Lansbury'),
 ('Lansdale'),
 ('Lansdall'),
@@ -5191,13 +5191,13 @@ VALUES
 ('Laoye'),
 ('Laoza'),
 ('Lapa'),
-('Lapacek'),
+
 ('Lapachi'),
 ('Lapachidze'),
 ('Lapacinskas'),
 ('Lapacinskiene'),
 ('Lapacka'),
-('Lapacz'),
+
 ('Lapada'),
 ('Lapadakis'),
 ('Lapadat'),
@@ -5227,7 +5227,7 @@ VALUES
 ('Lapanun'),
 ('Lapar'),
 ('Lapardhaja'),
-('Lapardhoti'),
+
 ('Laparev'),
 ('Lapari'),
 ('Laparra'),
@@ -5352,7 +5352,7 @@ VALUES
 ('Lapkauskiene'),
 ('Lapke'),
 ('Lapkiene'),
-('Lapkiewicz'),
+
 ('Lapkin'),
 ('Lapko'),
 
@@ -5470,7 +5470,7 @@ VALUES
 ('Lapsys'),
 ('Lapsyte'),
 ('Lapszanski'),
-('Lapszewicz'),
+
 ('Lapszys'),
 ('Laptaro'),
 ('Laptaru'),
@@ -5886,7 +5886,7 @@ VALUES
 ('Larmore'),
 ('Larmour'),
 ('Larmouth'),
-('Larmyn'),
+
 ('Larn'),
 ('Larna'),
 ('Larnaca'),
@@ -6113,7 +6113,7 @@ VALUES
 ('Laryer'),
 ('Laryin'),
 ('Laryionenka'),
-('Laryn'),
+
 ('Laryngas'),
 ('Larys'),
 ('Larysa'),
@@ -6436,7 +6436,7 @@ VALUES
 ('Laski'),
 ('Laskie'),
 ('Laskier'),
-('Laskiewicz'),
+
 ('Laskin'),
 ('Laskine'),
 ('Laskins'),
@@ -6486,7 +6486,7 @@ VALUES
 ('Lasmane'),
 ('Lasmanis'),
 ('Lasmanovics'),
-('Lasmanowicz'),
+
 ('Lasmar'),
 ('Lasmari'),
 ('Lasme'),
@@ -6682,12 +6682,12 @@ VALUES
 ('Laswkoski'),
 ('Lasya'),
 ('Lasyapriya'),
-('Lasyk'),
+
 ('Lasyone'),
 
 ('Laszanowski'),
 ('Laszario'),
-('Laszcz'),
+
 
 
 
@@ -6696,7 +6696,7 @@ VALUES
 ('Laszewski'),
 ('Laszio'),
 ('Laszione'),
-('Laszkiewicz'),
+
 ('Laszkowski'),
 ('Laszlo'),
 ('Laszloffi'),
@@ -6720,7 +6720,7 @@ VALUES
 ('Lataijah'),
 ('Lataille'),
 ('Lataiyah'),
-('Latajah'),
+
 ('Lataka'),
 ('Latakaite'),
 ('Latakas'),
@@ -7086,7 +7086,7 @@ VALUES
 ('Latorres'),
 ('Latortue'),
 ('Latos'),
-('Latosiewicz'),
+
 
 ('Latosinski'),
 ('Latoski'),
@@ -7259,7 +7259,7 @@ VALUES
 ('Latyak'),
 ('Latyf'),
 ('Latyfa'),
-('Latyk'),
+
 
 
 ('Latyre'),
@@ -7402,7 +7402,7 @@ VALUES
 ('Lauesen'),
 ('Lauezzari'),
 ('Lauf'),
-('Laufenberg'),
+
 ('Laufer'),
 ('Laufey'),
 ('Lauff'),
@@ -7455,7 +7455,7 @@ VALUES
 ('Lauhar'),
 ('Lauher'),
 ('Lauhien'),
-('Lauhoff'),
+
 ('Lauhon'),
 ('Lauhren'),
 ('Lauhusen'),
@@ -7579,7 +7579,7 @@ VALUES
 ('Lauralena'),
 ('Lauraley'),
 ('Lauraliisa'),
-('Lauralyn'),
+
 ('Lauramne'),
 ('Lauramore'),
 ('Lauran'),
@@ -7603,7 +7603,7 @@ VALUES
 ('Laurate'),
 ('Lauratu'),
 ('Laurayne'),
-('Laurberg'),
+
 ('Laurc'),
 ('Laurdesa'),
 ('Laure'),
@@ -7788,7 +7788,7 @@ VALUES
 ('Laurinolli'),
 ('Laurinsen'),
 ('Laurinskaite'),
-('Laurinyecz'),
+
 ('Laurio'),
 ('Lauriola'),
 ('Laurion'),
@@ -7851,14 +7851,14 @@ VALUES
 ('Laury'),
 ('Lauryl'),
 ('Laurylee'),
-('Lauryn'),
+
 ('Lauryna'),
 ('Laurynaityte'),
 ('Laurynas'),
 ('Lauryne'),
 ('Laus'),
 ('Lausanne'),
-('Lausberg'),
+
 ('Lausch'),
 ('Lauscher'),
 ('Lauschke'),
@@ -7900,7 +7900,7 @@ VALUES
 ('Lauten'),
 ('Lautenbach'),
 ('Lautenbacher'),
-('Lautenberg'),
+
 ('Lautencschlager'),
 ('Lautenschlage'),
 ('Lautenschlager'),
@@ -8121,7 +8121,7 @@ VALUES
 ('Lavelle'),
 ('Lavelli'),
 ('Lavely'),
-('Lavelyn'),
+
 ('Laven'),
 ('Lavena'),
 ('Lavenbein'),
@@ -8362,7 +8362,7 @@ VALUES
 ('Lavrukhina'),
 ('Lavrushko'),
 ('Lavrut'),
-('Lavryk'),
+
 ('Lavrynovic'),
 ('Lavsen'),
 
@@ -8410,7 +8410,7 @@ VALUES
 ('Lawbaugh'),
 ('Lawcel'),
 ('Lawcess'),
-('Lawcewicz'),
+
 
 ('Lawdanski'),
 ('Lawday'),
@@ -8537,7 +8537,7 @@ VALUES
 
 ('Lawry'),
 ('Lawrynowia'),
-('Lawrynowicz'),
+
 
 ('Lawsen'),
 ('Lawshauwn'),
@@ -8902,7 +8902,7 @@ VALUES
 ('Lazarevicius'),
 ('Lazareviciute'),
 
-('Lazarewicz'),
+
 ('Lazari'),
 ('Lazarian'),
 ('Lazaric'),
@@ -8938,7 +8938,7 @@ VALUES
 
 
 ('Lazarow'),
-('Lazarowicz'),
+
 
 ('Lazarra'),
 ('Lazarre'),
@@ -9058,7 +9058,7 @@ VALUES
 ('Lazorenko'),
 ('Lazorik'),
 ('Lazoryak'),
-('Lazoryk'),
+
 ('Lazos'),
 ('Lazott'),
 ('Lazou'),
@@ -9175,13 +9175,13 @@ VALUES
 ('Leadson'),
 ('Leadston'),
 ('Leady'),
-('Leaellyn'),
+
 ('Leaetitia'),
 ('Leafblad'),
 ('Leafe'),
 ('Leaff'),
 ('Leafgreen'),
-('Leaflyn'),
+
 ('Leaford'),
 ('Leafty'),
 ('Leafu'),
@@ -9650,7 +9650,7 @@ VALUES
 ('Lebouf'),
 ('Leboulanger'),
 ('Lebourdais'),
-('Lebourg'),
+
 ('Lebourgeois'),
 ('Leboutillier'),
 ('Lebovic'),
@@ -9684,7 +9684,7 @@ VALUES
 ('Lebrouc'),
 ('Lebrun'),
 ('Lebrusan'),
-('Lebryk'),
+
 ('Lebsack'),
 ('Lebsari'),
 ('Lebsock'),
@@ -9789,12 +9789,12 @@ VALUES
 ('Lechoslaw'),
 ('Lechovolea'),
 ('Lechowick'),
-('Lechowicz'),
+
 
 ('Lechowski'),
 ('Lechshenko'),
 
-('Lechtenberg'),
+
 ('Lechthaler'),
 ('Lechu'),
 ('Lechuga'),
@@ -9921,7 +9921,7 @@ VALUES
 ('Lecutier'),
 ('Lecuyer'),
 ('Lecy'),
-('Lecyk'),
+
 ('Lecyneide'),
 
 
@@ -10167,7 +10167,7 @@ VALUES
 ('Leedae'),
 ('Leedale'),
 ('Leedan'),
-('Leedberg'),
+
 ('Leedck'),
 ('Leedell'),
 ('Leeden'),
@@ -10331,7 +10331,7 @@ VALUES
 ('Leeraphongkul'),
 ('Leerar'),
 ('Leerasiri'),
-('Leerhoff'),
+
 ('Leerink'),
 ('Leeron'),
 ('Leeroy'),
@@ -10343,7 +10343,7 @@ VALUES
 ('Leesa'),
 ('Leescu'),
 ('Leese'),
-('Leeseberg'),
+
 ('Leeseng'),
 ('Leeser'),
 ('Leesha'),
@@ -10378,8 +10378,8 @@ VALUES
 ('Leeu'),
 ('Leeum'),
 ('Leeuw'),
-('Leeuwenberg'),
-('Leeuwenburg'),
+
+
 ('Leeuwendal'),
 ('Leeuwis'),
 ('Leevan'),
@@ -10547,7 +10547,7 @@ VALUES
 
 ('Leftevis'),
 ('Lefthand'),
-('Leftherioti'),
+
 ('Leftheris'),
 ('Leftie'),
 ('Leftinger'),
@@ -10867,7 +10867,7 @@ VALUES
 ('Lehis'),
 ('Lehiste'),
 ('Lehka'),
-('Lehkiewicz'),
+
 ('Lehkunow'),
 ('Lehl'),
 ('Lehla'),
@@ -10880,7 +10880,7 @@ VALUES
 ('Lehmann'),
 ('Lehmbach'),
 ('Lehmbeck'),
-('Lehmberg'),
+
 ('Lehmen'),
 ('Lehmenn'),
 ('Lehmensich'),
@@ -10907,7 +10907,7 @@ VALUES
 ('Lehnerz'),
 ('Lehnhardt'),
 ('Lehnherr'),
-('Lehnhoff'),
+
 ('Lehni'),
 ('Lehning'),
 ('Lehnis'),
@@ -11223,7 +11223,7 @@ VALUES
 ('Leilua'),
 ('Leily'),
 ('Leilyanne'),
-('Leilyn'),
+
 ('Leilyne'),
 ('Leim'),
 ('Leima'),
@@ -11404,7 +11404,7 @@ VALUES
 ('Leithicia'),
 ('Leithiser'),
 ('Leithner'),
-('Leithoff'),
+
 ('Leithold'),
 ('Leiti'),
 ('Leiticia'),
@@ -11457,7 +11457,7 @@ VALUES
 ('Leix'),
 ('Leiya'),
 ('Leiyah'),
-('Leiyhnowicz'),
+
 ('Leiyla'),
 ('Leiyu'),
 ('Leiz'),
@@ -11484,7 +11484,7 @@ VALUES
 ('Lejaun'),
 ('Lejaune'),
 ('Lejay'),
-('Lejbowicz'),
+
 ('Lejbt'),
 ('Lejcik'),
 ('Lejderman'),
@@ -11505,8 +11505,8 @@ VALUES
 ('Lejkowski'),
 ('Lejla'),
 ('Lejman'),
-('Lejmanovicz'),
-('Lejmanowicz'),
+
+
 ('Lejmi'),
 ('Lejohn'),
 ('Lejon'),
@@ -11547,7 +11547,7 @@ VALUES
 ('Lekaviciute'),
 
 ('Lekawski'),
-('Lekberg'),
+
 ('Lekbir'),
 ('Lekbira'),
 ('Leke'),
@@ -11602,7 +11602,7 @@ VALUES
 ('Lekiatas'),
 ('Lekic'),
 ('Lekiesha'),
-('Lekiewicz'),
+
 ('Lekili'),
 ('Lekin'),
 ('Lekis'),
@@ -11752,7 +11752,7 @@ VALUES
 ('Lelieveld'),
 ('Lelievre'),
 ('Leligboe'),
-('Leligdowicz'),
+
 ('Lelija'),
 
 ('Lelio'),
@@ -11793,7 +11793,7 @@ VALUES
 ('Lellman'),
 ('Lello'),
 ('Lelloucha'),
-('Lellwellyn'),
+
 ('Lelm'),
 ('Lelo'),
 ('Leloi'),
@@ -11860,7 +11860,7 @@ VALUES
 ('Lemanik'),
 ('Lemann'),
 ('Lemanoan'),
-('Lemanowicz'),
+
 ('Lemans'),
 
 ('Lemanski'),
@@ -11917,7 +11917,7 @@ VALUES
 ('Lembeka'),
 ('Lembelle'),
 ('Lember'),
-('Lemberg'),
+
 ('Lemberga'),
 ('Lemberger'),
 ('Lemberis'),
@@ -11937,8 +11937,8 @@ VALUES
 ('Lemboye'),
 ('Lembranca'),
 ('Lembrick'),
-('Lembryk'),
-('Lemburg'),
+
+
 ('Lembusa'),
 ('Lemcharraf'),
 ('Lemchi'),
@@ -12179,7 +12179,7 @@ VALUES
 ('Len'),
 ('Lena'),
 ('Lenaben'),
-('Lenaburg'),
+
 ('Lenadd'),
 ('Lenader'),
 ('Lenaduwa'),
@@ -12215,7 +12215,7 @@ VALUES
 ('Lenartaviciute'),
 
 ('Lenartowick'),
-('Lenartowicz'),
+
 ('Lenartz'),
 ('Lenarz'),
 ('Lenas'),
@@ -12231,7 +12231,7 @@ VALUES
 ('Lenaya'),
 ('Lenayah'),
 ('Lenbe'),
-('Lenberg'),
+
 ('Lenbert'),
 ('Lenc'),
 ('Lenca'),
@@ -12370,7 +12370,7 @@ VALUES
 ('Lenghen'),
 ('Lengher'),
 ('Lengi'),
-('Lengiewicz'),
+
 ('Lengio'),
 ('Lengkeek'),
 ('Lengle'),
@@ -12406,7 +12406,7 @@ VALUES
 ('Lenhert'),
 ('Lenhle'),
 ('Lenhof'),
-('Lenhoff'),
+
 ('Leni'),
 ('Lenia'),
 
@@ -12484,7 +12484,7 @@ VALUES
 ('Lenkey'),
 ('Lenki'),
 ('Lenkiewick'),
-('Lenkiewicz'),
+
 ('Lenkler'),
 ('Lenkman'),
 ('Lenkner'),
@@ -12525,7 +12525,7 @@ VALUES
 ('Lennartson'),
 ('Lennartsson'),
 ('Lennartz'),
-('Lenneberg'),
+
 ('Lenneca'),
 ('Lennee'),
 ('Lennehag'),
@@ -12662,7 +12662,7 @@ VALUES
 ('Lento'),
 ('Lenton'),
 ('Lentoudis'),
-('Lentowicz'),
+
 ('Lents'),
 ('Lentsch'),
 ('Lentschner'),
@@ -12694,7 +12694,7 @@ VALUES
 ('Lenyard'),
 ('Lenyaro'),
 ('Lenygon'),
-('Lenyn'),
+
 ('Lenyol'),
 ('Lenys'),
 ('Lenz'),
@@ -12780,7 +12780,7 @@ VALUES
 ('Leoline'),
 ('Leom'),
 ('Leoma'),
-('Leomalyn'),
+
 ('Leomar'),
 ('Leomaura'),
 ('Leombruno'),
@@ -12789,7 +12789,7 @@ VALUES
 ('Leomi'),
 ('Leomidaki'),
 ('Leomie'),
-('Leomiliewicz'),
+
 ('Leomille'),
 ('Leomiti'),
 ('Leomor'),
@@ -12988,7 +12988,7 @@ VALUES
 ('Leonovics'),
 ('Leonoviene'),
 ('Leonovs'),
-('Leonowicz'),
+
 ('Leonpacher'),
 ('Leonrdo'),
 ('Leons'),
@@ -13331,7 +13331,7 @@ VALUES
 ('Lercel'),
 ('Lerch'),
 ('Lerche'),
-('Lerchenberg'),
+
 ('Lercher'),
 ('Lerchner'),
 ('Lerconl'),
@@ -13443,7 +13443,7 @@ VALUES
 ('Leroux'),
 ('Lerow'),
 ('Leroy'),
-('Leroyn'),
+
 ('Leroyna'),
 ('Lerper'),
 ('Lerpiniere'),
@@ -13458,7 +13458,7 @@ VALUES
 ('Lerrone'),
 ('Lerroy'),
 ('Lerry'),
-('Lerryn'),
+
 ('Lersch'),
 ('Lershay'),
 ('Lersten'),
@@ -13581,18 +13581,18 @@ VALUES
 ('Lescombe'),
 ('Lescot'),
 ('Lescott'),
-('Lescowicz'),
+
 ('Lescure'),
 
 
 ('Lese'),
 ('Lesean'),
 ('Leseana'),
-('Leseberg'),
+
 ('Lesebergsmith'),
 ('Leseckyte'),
 ('Lesecq'),
-('Lesecz'),
+
 ('Lesed'),
 ('Lesedi'),
 ('Lesego'),
@@ -13692,7 +13692,7 @@ VALUES
 ('Lesiecki'),
 ('Lesieli'),
 ('Lesieur'),
-('Lesiewicz'),
+
 ('Lesik'),
 ('Lesikar'),
 
@@ -13704,7 +13704,7 @@ VALUES
 
 ('Lesinskas'),
 ('Lesinski'),
-('Lesioti'),
+
 ('Lesirge'),
 
 ('Lesiuk'),
@@ -13724,7 +13724,7 @@ VALUES
 ('Leskeviciute'),
 ('Leski'),
 ('Leskien'),
-('Leskiewicz'),
+
 ('Leskin'),
 ('Leskina'),
 ('Leskinas'),
@@ -13756,7 +13756,7 @@ VALUES
 ('Leslene'),
 ('Lesler'),
 ('Lesley'),
-('Lesleyn'),
+
 ('Lesli'),
 ('Leslian'),
 ('Lesliann'),
@@ -13773,7 +13773,7 @@ VALUES
 ('Lesly'),
 ('Leslyann'),
 ('Leslye'),
-('Leslyn'),
+
 ('Lesma'),
 ('Lesman'),
 ('Lesmana'),
@@ -13799,7 +13799,7 @@ VALUES
 ('Lesney'),
 ('Lesng'),
 ('Lesniak'),
-('Lesniakiewicz'),
+
 ('Lesnianski'),
 ('Lesniaukiene'),
 ('Lesniauskaite'),
@@ -13810,7 +13810,7 @@ VALUES
 ('Lesnickas'),
 ('Lesnicki'),
 
-('Lesniewicz'),
+
 
 ('Lesniewski'),
 ('Lesnik'),
@@ -13934,7 +13934,7 @@ VALUES
 ('Lestringant'),
 ('Lestronge'),
 ('Lestyan'),
-('Lestyn'),
+
 ('Lesu'),
 ('Lesuer'),
 ('Lesueur'),
@@ -13955,7 +13955,7 @@ VALUES
 ('Leswiak'),
 ('Lesworth'),
 ('Lesya'),
-('Lesyk'),
+
 
 ('Leszcynski'),
 
@@ -13974,7 +13974,7 @@ VALUES
 ('Leszja'),
 ('Leszko'),
 ('Leszkoven'),
-('Leszkowicz'),
+
 
 ('Leszkowski'),
 ('Leszman'),
@@ -14148,7 +14148,7 @@ VALUES
 ('Letkauskiene'),
 ('Letke'),
 ('Letki'),
-('Letkiewicz'),
+
 ('Letko'),
 
 ('Letlakwe'),
@@ -14561,7 +14561,7 @@ VALUES
 ('Leveloff'),
 ('Leven'),
 ('Levenaite'),
-('Levenberg'),
+
 ('Levend'),
 ('Levendal'),
 ('Levendel'),
@@ -14707,11 +14707,11 @@ VALUES
 ('Levill'),
 ('Levillain'),
 ('Leville'),
-('Levilyn'),
+
 ('Levin'),
 ('Levina'),
 ('Levinaite'),
-('Levinberg'),
+
 ('Levind'),
 ('Levindinos'),
 ('Levine'),
@@ -14865,14 +14865,14 @@ VALUES
 ('Lewand'),
 ('Lewandoski'),
 ('Lewandouski'),
-('Lewandowicz'),
+
 
 ('Lewandowski'),
 ('Lewandowsky'),
 ('Lewang'),
 ('Lewaniak'),
 ('Lewanna'),
-('Lewanowicz'),
+
 ('Lewanski'),
 
 ('Lewar'),
@@ -14881,7 +14881,7 @@ VALUES
 ('Lewarne'),
 ('Lewars'),
 ('Lewartowski'),
-('Lewaszkiewicz'),
+
 ('Lewate'),
 ('Lewcock'),
 ('Lewcy'),
@@ -14899,8 +14899,8 @@ VALUES
 ('Lewellen'),
 ('Lewellin'),
 ('Lewelling'),
-('Lewellyn'),
-('Lewelyn'),
+
+
 ('Lewen'),
 ('Lewendon'),
 ('Lewenhaupt'),
@@ -14917,7 +14917,7 @@ VALUES
 ('Lewick'),
 ('Lewicka'),
 ('Lewicki'),
-('Lewicz'),
+
 ('Lewie'),
 ('Lewien'),
 ('Lewille'),
@@ -14952,11 +14952,11 @@ VALUES
 ('Lewitzke'),
 ('Lewitzki'),
 ('Lewiza'),
-('Lewkiewicz'),
+
 ('Lewkiw'),
 ('Lewko'),
 ('Lewkovic'),
-('Lewkowicz'),
+
 
 ('Lewkowski'),
 ('Lewman'),
@@ -14968,7 +14968,7 @@ VALUES
 
 ('Lewonica'),
 ('Lewoniewski'),
-('Lewonowicz'),
+
 ('Lewonowski'),
 ('Leworthy'),
 
@@ -14997,7 +14997,7 @@ VALUES
 ('Lewy'),
 ('Lewycky'),
 ('Lewyckyj'),
-('Lewyn'),
+
 ('Lewys'),
 ('Lewzey'),
 ('Lex'),
@@ -15116,7 +15116,7 @@ VALUES
 ('Leyila'),
 ('Leyimu'),
 ('Leyja'),
-('Leyk'),
+
 ('Leyket'),
 ('Leykin'),
 ('Leyko'),
@@ -15136,7 +15136,7 @@ VALUES
 ('Leylufer'),
 ('Leyly'),
 ('Leylya'),
-('Leylyn'),
+
 ('Leyma'),
 ('Leyman'),
 ('Leymeister'),
@@ -15682,7 +15682,7 @@ VALUES
 ('Libere'),
 ('Liberee'),
 ('Liberek'),
-('Liberg'),
+
 ('Liberge'),
 ('Liberh'),
 ('Liberi'),
@@ -15873,7 +15873,7 @@ VALUES
 ('Licha'),
 
 ('Lichacv'),
-('Lichacz'),
+
 ('Lichaer'),
 ('Lichaev'),
 ('Lichailidis'),
@@ -15920,7 +15920,7 @@ VALUES
 ('Lichte'),
 ('Lichten'),
 ('Lichtenauer'),
-('Lichtenberg'),
+
 ('Lichtenberger'),
 ('Lichtenegger'),
 ('Lichtenfeld'),
@@ -15983,7 +15983,7 @@ VALUES
 ('Lickfelt'),
 ('Lickfett'),
 ('Lickfold'),
-('Lickiewicz'),
+
 
 ('Licking'),
 ('Lickiss'),
@@ -16042,7 +16042,7 @@ VALUES
 ('Liday'),
 ('Lidbark'),
 ('Lidbeck'),
-('Lidberg'),
+
 ('Lidbetter'),
 ('Lidbom'),
 ('Lidbury'),
@@ -16137,7 +16137,7 @@ VALUES
 ('Lidon'),
 ('Lidong'),
 ('Lidor'),
-('Lidorikioti'),
+
 ('Lidoua'),
 ('Lidsay'),
 ('Lidsky'),
@@ -16185,7 +16185,7 @@ VALUES
 ('Liebelt'),
 ('Lieben'),
 ('Liebenau'),
-('Liebenberg'),
+
 ('Liebengood'),
 ('Liebenguth'),
 ('Liebenow'),
@@ -16196,7 +16196,7 @@ VALUES
 ('Lieber'),
 ('Lieberam'),
 ('Lieberenz'),
-('Lieberg'),
+
 ('Liebergen'),
 ('Lieberherr'),
 ('Lieberkind'),
@@ -16258,7 +16258,7 @@ VALUES
 ('Lieckfeldt'),
 ('Lied'),
 ('Liedana'),
-('Liedberg'),
+
 ('Liede'),
 ('Liedel'),
 ('Lieder'),
@@ -16707,7 +16707,7 @@ VALUES
 ('Ligsay'),
 ('Ligtafari'),
 ('Ligtas'),
-('Ligtenberg'),
+
 ('Ligtermoet'),
 ('Ligu'),
 ('Liguang'),
@@ -16947,7 +16947,7 @@ VALUES
 ('Lilaj'),
 ('Lilam'),
 ('Lilamma'),
-('Lilamoti'),
+
 ('Lilan'),
 ('Lilana'),
 ('Liland'),
@@ -17100,7 +17100,7 @@ VALUES
 ('Liljar'),
 ('Lilje'),
 ('Liljebakk'),
-('Liljeberg'),
+
 ('Liljeblad'),
 ('Liljedahl'),
 ('Liljefors'),
@@ -17127,7 +17127,7 @@ VALUES
 ('Lillaz'),
 ('Lille'),
 ('Lilleath'),
-('Lilleberg'),
+
 ('Lilleboe'),
 ('Lilleby'),
 ('Lillebye'),
@@ -17182,7 +17182,7 @@ VALUES
 ('Lillicrap'),
 ('Lillie'),
 ('Lillieana'),
-('Lilliebjerg'),
+
 ('Lilliel'),
 ('Lilliella'),
 ('Lilliemae'),
@@ -17190,7 +17190,7 @@ VALUES
 ('Lilliemarie'),
 ('Lilliemay'),
 ('Lillien'),
-('Lillienberg'),
+
 ('Lillienna'),
 ('Lillierose'),
 ('Lillies'),
@@ -17316,7 +17316,7 @@ VALUES
 ('Lilymalar'),
 ('Lilymay'),
 ('Lilymehtaab'),
-('Lilyn'),
+
 ('Lilypa'),
 ('Lilyquist'),
 ('Lilyrose'),
@@ -17388,7 +17388,7 @@ VALUES
 ('Limbaya'),
 ('Limbeck'),
 ('Limber'),
-('Limberg'),
+
 ('Limberger'),
 ('Limbergs'),
 ('Limberis'),
@@ -17405,7 +17405,7 @@ VALUES
 ('Limbrey'),
 ('Limbrick'),
 ('Limbu'),
-('Limburg'),
+
 ('Limburn'),
 ('Limbute'),
 ('Limby'),
@@ -17539,13 +17539,13 @@ VALUES
 ('Lina'),
 ('Linabarger'),
 ('Linaben'),
-('Linaburg'),
+
 ('Linaburgiene'),
 ('Linaburgyte'),
 ('Linabury'),
 ('Linacero'),
 ('Linacre'),
-('Linacz'),
+
 ('Linafelter'),
 ('Linafred'),
 ('Linaghi'),
@@ -17597,13 +17597,13 @@ VALUES
 ('Linay'),
 ('Linaz'),
 ('Linback'),
-('Linberg'),
+
 ('Linberry'),
 ('Linbert'),
 ('Linbing'),
 ('Linbo'),
 ('Linborn'),
-('Linburg'),
+
 ('Linburn'),
 ('Linc'),
 ('Linca'),
@@ -17676,7 +17676,7 @@ VALUES
 ('Lindback'),
 ('Lindbaek'),
 ('Lindbeck'),
-('Lindberg'),
+
 ('Lindbergh'),
 ('Lindblad'),
 ('Lindblade'),
@@ -17687,10 +17687,10 @@ VALUES
 ('Lindbom'),
 ('Lindborg'),
 ('Lindbratt'),
-('Lindburg'),
+
 ('Linddsey'),
 ('Linde'),
-('Lindeberg'),
+
 ('Lindebergh'),
 ('Lindeborg'),
 ('Lindeck'),
@@ -17723,7 +17723,7 @@ VALUES
 ('Lindenauer'),
 ('Lindenbaum'),
 ('Lindenbauma'),
-('Lindenberg'),
+
 ('Lindenberger'),
 ('Lindenbergh'),
 ('Lindenburn'),
@@ -17824,7 +17824,7 @@ VALUES
 ('Lindlof'),
 ('Lindloff'),
 ('Lindly'),
-('Lindlyn'),
+
 ('Lindmajer'),
 ('Lindman'),
 ('Lindmark'),
@@ -17923,7 +17923,7 @@ VALUES
 ('Lineberger'),
 ('Lineberry'),
 ('Linebrink'),
-('Lineburg'),
+
 ('Lineea'),
 ('Lineekela'),
 ('Lineen'),
@@ -18016,7 +18016,7 @@ VALUES
 ('Lingasa'),
 ('Lingasamy'),
 ('Lingat'),
-('Lingathoti'),
+
 ('Lingawi'),
 ('Lingaya'),
 ('Lingayah'),
@@ -18025,7 +18025,7 @@ VALUES
 ('Lingbambe'),
 ('Lingbeck'),
 ('Lingbeek'),
-('Lingberg'),
+
 ('Lingberzina'),
 ('Lingbloom'),
 ('Lingbo'),
@@ -18191,7 +18191,7 @@ VALUES
 
 ('Linhavess'),
 ('Linhie'),
-('Linhoff'),
+
 ('Linholm'),
 ('Linhong'),
 ('Linhtet'),
@@ -18253,7 +18253,7 @@ VALUES
 ('Linkhorn'),
 ('Linkie'),
 ('Linkiene'),
-('Linkiewicz'),
+
 ('Linkin'),
 
 ('Linkins'),
@@ -18313,7 +18313,7 @@ VALUES
 ('Linneah'),
 ('Linnear'),
 ('Linnebank'),
-('Linneberg'),
+
 ('Linnebrink'),
 ('Linnebur'),
 ('Linnecar'),
@@ -18687,7 +18687,7 @@ VALUES
 ('Lipari'),
 ('Liparini'),
 ('Liparit'),
-('Liparoti'),
+
 ('Liparoto'),
 
 ('Lipaslauskaite'),
@@ -18723,7 +18723,7 @@ VALUES
 
 ('Lipensky'),
 ('Lipera'),
-('Liperoti'),
+
 ('Lipert'),
 ('Lipes'),
 ('Lipetz'),
@@ -18782,7 +18782,7 @@ VALUES
 ('Lipkyte'),
 ('Lipley'),
 ('Lipman'),
-('Lipmanowicz'),
+
 ('Lipna'),
 ('Lipner'),
 ('Lipnevic'),
@@ -18825,7 +18825,7 @@ VALUES
 
 ('Lipow'),
 
-('Lipowicz'),
+
 ('Lipowiecka'),
 ('Lipowiecki'),
 
@@ -18929,7 +18929,7 @@ VALUES
 ('Lipu'),
 ('Lipuma'),
 ('Lipungi'),
-('Lipuscek'),
+
 ('Lipushliev'),
 ('Liput'),
 ('Lipworth'),
@@ -19007,7 +19007,7 @@ VALUES
 ('Lirub'),
 ('Lirui'),
 ('Lirya'),
-('Liryk'),
+
 ('Lis'),
 ('Lisa'),
 ('Lisabet'),
@@ -19067,7 +19067,7 @@ VALUES
 ('Lisavskaite'),
 ('Lisban'),
 ('Lisbel'),
-('Lisberg'),
+
 ('Lisbet'),
 ('Lisbeth'),
 ('Lisbett'),
@@ -19214,7 +19214,7 @@ VALUES
 ('Lisiecka'),
 ('Lisiecki'),
 ('Lisiencki'),
-('Lisiewicz'),
+
 
 ('Lisiewski'),
 ('Lisignoli'),
@@ -19251,7 +19251,7 @@ VALUES
 ('Liskeviciute'),
 ('Liskey'),
 ('Liski'),
-('Liskiewicz'),
+
 ('Lisko'),
 
 ('Liskovec'),
@@ -19265,7 +19265,7 @@ VALUES
 ('Lisliethanuja'),
 ('Lislorrayne'),
 ('Lisma'),
-('Lismalyn'),
+
 ('Lisman'),
 ('Lismanis'),
 ('Lismar'),
@@ -19373,7 +19373,7 @@ VALUES
 ('Listek'),
 ('Listel'),
 ('Listenbee'),
-('Listenberg'),
+
 ('Listenberger'),
 ('Lister'),
 ('Listerman'),
@@ -19384,7 +19384,7 @@ VALUES
 ('Listin'),
 ('Listina'),
 ('Listiyani'),
-('Listkiewicz'),
+
 ('Listman'),
 ('Listmann'),
 ('Listo'),
@@ -19423,7 +19423,7 @@ VALUES
 ('Liszka'),
 ('Liszkai'),
 ('Liszkonoh'),
-('Liszliewicz'),
+
 ('Liszt'),
 ('Lisztes'),
 
@@ -19538,7 +19538,7 @@ VALUES
 ('Litleskare'),
 ('Litman'),
 ('Litmanovitch'),
-('Litmanowicz'),
+
 ('Litmer'),
 ('Litner'),
 ('Litneva'),
@@ -19740,7 +19740,7 @@ VALUES
 ('Litzell'),
 ('Litzelman'),
 ('Litzelmann'),
-('Litzenberg'),
+
 ('Litzenberger'),
 ('Litzi'),
 ('Litzifelder'),
@@ -19850,7 +19850,7 @@ VALUES
 ('Liumei'),
 ('Liumeit'),
 ('Liumeng'),
-('Liunberg'),
+
 ('Liung'),
 ('Liuomila'),
 ('Liupar'),
@@ -20049,7 +20049,7 @@ VALUES
 
 ('Livorsi'),
 ('Livos'),
-('Livoti'),
+
 ('Livotto'),
 ('Livramento'),
 ('Livreri'),
@@ -20080,7 +20080,7 @@ VALUES
 ('Liwayway'),
 ('Liwegha'),
 ('Liwei'),
-('Liwellyn'),
+
 ('Liwen'),
 ('Liwena'),
 ('Liwendahl'),
@@ -20100,7 +20100,7 @@ VALUES
 ('Lixandroiu'),
 ('Lixandru'),
 ('Lixberth'),
-('Lixenberg'),
+
 ('Lixey'),
 ('Lixi'),
 ('Lixia'),
@@ -20114,7 +20114,7 @@ VALUES
 ('Lixing'),
 ('Lixiu'),
 ('Lixmar'),
-('Lixourioti'),
+
 ('Lixuan'),
 ('Lixue'),
 ('Lixun'),
@@ -20374,7 +20374,7 @@ VALUES
 ('Ljulzim'),
 ('Ljumnie'),
 ('Ljung'),
-('Ljungberg'),
+
 ('Ljungblad'),
 ('Ljungdahl'),
 ('Ljungfjord'),
@@ -20392,7 +20392,7 @@ VALUES
 ('Ljupco'),
 ('Ljupgi'),
 ('Ljupka'),
-('Ljusberg'),
+
 ('Ljusi'),
 ('Ljusinda'),
 ('Ljusnjani'),
@@ -20529,7 +20529,7 @@ VALUES
 ('Lleucu'),
 ('Llew'),
 ('Llewe'),
-('Lleweiyn'),
+
 ('Llewel'),
 ('Llewela'),
 ('Llewell'),
@@ -20538,16 +20538,16 @@ VALUES
 ('Llewelleyey'),
 ('Llewellin'),
 ('Llewelly'),
-('Llewellyn'),
+
 ('Llewellyne'),
 ('Llewellynn'),
-('Llewelyn'),
-('Llewllyn'),
-('Llewlyn'),
-('Llewwellyn'),
-('Llewwlyn'),
-('Llewyllyn'),
-('Llewyn'),
+
+
+
+
+
+
+
 ('Lleyam'),
 ('Lleylannie'),
 ('Lleyton'),
@@ -20630,7 +20630,7 @@ VALUES
 ('Llort'),
 ('Llosa'),
 ('Lloshi'),
-('Lloti'),
+
 ('Llotia'),
 ('Llouella'),
 ('Llouisa'),
@@ -20689,17 +20689,17 @@ VALUES
 ('Lluv'),
 ('Lluvia'),
 ('Lluvial'),
-('Llwellyn'),
+
 ('Llwenza'),
-('Llwewellyn'),
-('Llwewllyn'),
+
+
 ('Llwy'),
 ('Llwyd'),
 ('Llyal'),
 
 ('Llycan'),
 ('Llyle'),
-('Llyn'),
+
 ('Llyneth'),
 ('Llynn'),
 ('Llynos'),
@@ -20707,10 +20707,10 @@ VALUES
 ('Llyodia'),
 ('Llyr'),
 ('Llyrio'),
-('Llystyn'),
+
 ('Llywarch'),
 ('Llywelly'),
-('Llywelyn'),
+
 ('Lmamacchia'),
 ('Lmar'),
 ('Lmari'),
@@ -20792,7 +20792,7 @@ VALUES
 
 ('Lobaciute'),
 ('Loback'),
-('Lobacz'),
+
 ('Lobaina'),
 ('Lobalbo'),
 ('Lobalo'),
@@ -20822,7 +20822,7 @@ VALUES
 ('Lobb'),
 ('Lobba'),
 ('Lobban'),
-('Lobbenberg'),
+
 ('Lobbestael'),
 ('Lobbezoo'),
 ('Lobbia'),
@@ -20853,7 +20853,7 @@ VALUES
 ('Lobenstein'),
 ('Lober'),
 ('Lobera'),
-('Loberg'),
+
 ('Loberger'),
 ('Loberman'),
 ('Lobert'),
@@ -20901,7 +20901,7 @@ VALUES
 ('Lobocki'),
 ('Loboda'),
 ('Lobodaite'),
-('Lobodycz'),
+
 ('Lobodzin'),
 
 ('Lobodzinski'),
@@ -21002,7 +21002,7 @@ VALUES
 ('Lochlen'),
 ('Lochli'),
 ('Lochlin'),
-('Lochlyn'),
+
 ('Lochman'),
 ('Lochmann'),
 ('Lochmuller'),
@@ -21074,7 +21074,7 @@ VALUES
 ('Locklier'),
 ('Locklin'),
 ('Lockling'),
-('Locklyn'),
+
 ('Lockman'),
 ('Lockmiller'),
 ('Locknane'),
@@ -21110,14 +21110,14 @@ VALUES
 ('Locoro'),
 ('Locorriere'),
 ('Locot'),
-('Locoti'),
+
 ('Locotusu'),
 ('Locquet'),
 ('Locquiao'),
 ('Locret'),
 ('Locrezia'),
 ('Locricchio'),
-('Locryn'),
+
 ('Locs'),
 ('Locse'),
 ('Locsei'),
@@ -21141,7 +21141,7 @@ VALUES
 ('Lodaria'),
 ('Lodato'),
 ('Lodaya'),
-('Lodberg'),
+
 ('Lodder'),
 ('Lodderhose'),
 ('Lodders'),
@@ -21169,7 +21169,7 @@ VALUES
 ('Lodewijk'),
 ('Lodewikus'),
 ('Lodewisk'),
-('Lodewyk'),
+
 ('Lodey'),
 ('Lodfi'),
 ('Lodge'),
@@ -21233,7 +21233,7 @@ VALUES
 ('Loebe'),
 ('Loebel'),
 ('Loeben'),
-('Loebenberg'),
+
 ('Loebenstein'),
 ('Loeber'),
 ('Loebig'),
@@ -21332,7 +21332,7 @@ VALUES
 ('Loeshe'),
 ('Loesing'),
 ('Loesje'),
-('Loessberg'),
+
 ('Loessc'),
 ('Loessin'),
 ('Loessl'),
@@ -21356,7 +21356,7 @@ VALUES
 ('Loew'),
 ('Loewe'),
 ('Loewen'),
-('Loewenberg'),
+
 ('Loewenberger'),
 ('Loewendahl'),
 ('Loewenguth'),
@@ -21378,7 +21378,7 @@ VALUES
 ('Lofaro'),
 ('Lofas'),
 ('Lofaso'),
-('Lofberg'),
+
 ('Lofdahl'),
 ('Lofdalil'),
 ('Lofemba'),
@@ -21449,7 +21449,7 @@ VALUES
 ('Lofur'),
 ('Lofurno'),
 ('Lofvander'),
-('Lofvenberg'),
+
 ('Lofving'),
 ('Lofwall'),
 ('Lofy'),
@@ -21477,7 +21477,7 @@ VALUES
 ('Logano'),
 ('Logar'),
 ('Logaraj'),
-('Logarajah'),
+
 ('Logarajeshwary'),
 ('Logarbo'),
 ('Logas'),
@@ -21503,7 +21503,7 @@ VALUES
 ('Logeman'),
 ('Logemann'),
 ('Logen'),
-('Logendran'),
+
 ('Loger'),
 ('Logereau'),
 ('Logerfo'),
@@ -21524,7 +21524,7 @@ VALUES
 ('Logg'),
 ('Loggains'),
 ('Loggans'),
-('Loggenberg'),
+
 ('Loggens'),
 ('Logghe'),
 ('Loggia'),
@@ -21550,20 +21550,15 @@ VALUES
 ('Logini'),
 ('Loginidevi'),
 ('Loginoua'),
-
-
 ('Loginovas'),
 ('Loginoviene'),
 ('Loginovs'),
 ('Loginow'),
 ('Logins'),
-
 ('Logios'),
-('Logirajah'),
 ('Logis'),
 ('Logisch'),
 ('Logishetty'),
-('Logitharajah'),
 ('Logithas'),
 ('Logiudice'),
 ('Logiuovs'),
@@ -21581,7 +21576,6 @@ VALUES
 ('Logofatu'),
 ('Logogianni'),
 ('Logoleo'),
-('Logon'),
 ('Logos'),
 ('Logose'),
 ('Logosso'),
@@ -21611,12 +21605,9 @@ VALUES
 ('Loguiiko'),
 ('Logullo'),
 ('Logun'),
-
 ('Logvin'),
 ('Logvinenkaite'),
 ('Logvinenko'),
-
-
 ('Logvynskyi'),
 ('Logwood'),
 ('Loh'),
@@ -21639,7 +21630,6 @@ VALUES
 ('Lohe'),
 ('Loheide'),
 ('Lohena'),
-
 ('Lohendy'),
 ('Loher'),
 ('Lohesan'),
@@ -21683,7 +21673,6 @@ VALUES
 ('Lohnes'),
 ('Lohninger'),
 ('Lohoar'),
-('Lohoff'),
 ('Lohonya'),
 ('Lohore'),
 ('Lohourignon'),
@@ -21711,7 +21700,6 @@ VALUES
 ('Lohuis'),
 ('Lohur'),
 ('Lohvongpaiboon'),
-('Lohvyn'),
 ('Lohwasser'),
 ('Loi'),
 ('Loia'),
@@ -21735,7 +21723,6 @@ VALUES
 ('Loidl'),
 ('Loidolt'),
 ('Loie'),
-
 ('Loignon'),
 ('Loigo'),
 ('Loik'),
@@ -21777,7 +21764,6 @@ VALUES
 ('Loita'),
 ('Loite'),
 ('Loits'),
-
 ('Loiudice'),
 ('Loius'),
 ('Loiusa'),
@@ -21820,19 +21806,17 @@ VALUES
 ('Lojen'),
 ('Lojera'),
 ('Lojetabriyangaa'),
-
 ('Lojewski'),
 ('Lojine'),
 ('Lojini'),
 ('Lojinie'),
 ('Lojith'),
 ('Lojkaite'),
-('Lojkiewicz'),
+
 ('Lojko'),
 ('Lojma'),
 ('Lojo'),
 ('Lojos'),
-
 ('Lojtek'),
 ('Loju'),
 ('Lok'),
@@ -21843,7 +21827,6 @@ VALUES
 ('Lokam'),
 ('Lokamen'),
 ('Lokan'),
-
 ('Lokando'),
 ('Lokanga'),
 ('Lokango'),
@@ -21862,7 +21845,6 @@ VALUES
 ('Lokate'),
 ('Lokato'),
 ('Lokay'),
-
 ('Lokdam'),
 ('Lokdarshi'),
 ('Lokdhiri'),
@@ -21873,8 +21855,6 @@ VALUES
 ('Lokelo'),
 ('Lokeman'),
 ('Loken'),
-
-('Lokendran'),
 ('Lokeni'),
 ('Lokensgard'),
 ('Loker'),
@@ -21893,12 +21873,9 @@ VALUES
 ('Lokhay'),
 ('Lokhishvili'),
 ('Lokhmator'),
-
 ('Lokhmus'),
 ('Lokhon'),
 ('Lokhonbi'),
-
-
 ('Lokhun'),
 ('Loki'),
 ('Lokic'),
@@ -21929,7 +21906,6 @@ VALUES
 ('Loknu'),
 ('Loko'),
 ('Lokoc'),
-
 ('Lokofe'),
 ('Lokoho'),
 ('Lokoka'),
@@ -21968,7 +21944,6 @@ VALUES
 ('Lokteva'),
 ('Loktevs'),
 ('Loktina'),
-
 ('Loktionow'),
 ('Loktuj'),
 ('Loktyeva'),
@@ -22092,8 +22067,6 @@ VALUES
 ('Lolosidi'),
 ('Lolosidis'),
 ('Lolotsi'),
-
-
 ('Lolovivi'),
 ('Loloy'),
 ('Lolu'),
@@ -22117,7 +22090,6 @@ VALUES
 ('Lomaiha'),
 ('Lomakina'),
 ('Lomako'),
-
 ('Lomama'),
 ('Lomamba'),
 ('Lomami'),
@@ -22131,7 +22103,6 @@ VALUES
 ('Lomani'),
 ('Lomanno'),
 ('Lomans'),
-
 ('Lomanto'),
 ('Lomany'),
 ('Lomardi'),
@@ -22142,7 +22113,7 @@ VALUES
 ('Lomasney'),
 ('Lomass'),
 ('Lomastro'),
-('Lomaszkiewicz'),
+
 ('Lomat'),
 ('Lomata'),
 ('Lomath'),
@@ -22169,14 +22140,13 @@ VALUES
 ('Lombardy'),
 ('Lombari'),
 ('Lombart'),
-
 ('Lombas'),
 ('Lombaya'),
 ('Lombe'),
 ('Lombeh'),
 ('Lombel'),
 ('Lombera'),
-('Lomberg'),
+
 ('Lombet'),
 ('Lombeya'),
 ('Lombi'),
@@ -22234,8 +22204,6 @@ VALUES
 ('Lomis'),
 ('Lomison'),
 ('Lomiteng'),
-
-
 ('Lomma'),
 ('Lommano'),
 ('Lomme'),
@@ -22243,7 +22211,6 @@ VALUES
 ('Lommen'),
 ('Lommerzheim'),
 ('Lomnicka'),
-
 ('Lomnitzer'),
 ('Lomo'),
 ('Lomoc'),
@@ -22254,7 +22221,7 @@ VALUES
 ('Lomoljo'),
 ('Lomonaco'),
 ('Lomongo'),
-('Lomonkiewicz'),
+
 ('Lomonosiene'),
 ('Lomonson'),
 ('Lomont'),
@@ -22265,10 +22232,8 @@ VALUES
 ('Lomotey'),
 ('Lomoto'),
 ('Lomouri'),
-
 ('Lomoy'),
 ('Lomozik'),
-
 ('Lomp'),
 ('Lompa'),
 ('Lompas'),
@@ -22309,7 +22274,6 @@ VALUES
 ('Lonati'),
 ('Lonberger'),
 ('Lonc'),
-
 ('Loncakovs'),
 ('Loncar'),
 ('Loncarevic'),
@@ -22319,10 +22283,8 @@ VALUES
 ('Lonchanty'),
 ('Lonchar'),
 ('Loncke'),
-
 ('Loncq'),
 ('Loncraine'),
-
 ('Lond'),
 ('Londa'),
 ('Londadjim'),
@@ -22364,7 +22326,6 @@ VALUES
 ('Londos'),
 ('Londou'),
 ('Londphille'),
-
 ('Londre'),
 ('Londresa'),
 ('Londrie'),
@@ -22374,7 +22335,6 @@ VALUES
 ('Londrita'),
 ('Londt'),
 ('Londy'),
-('Londyn'),
 ('Londynski'),
 ('Lonebear'),
 ('Lonegan'),
@@ -22406,7 +22366,6 @@ VALUES
 ('Longaker'),
 ('Longalonga'),
 ('Longan'),
-
 ('Longanbach'),
 ('Longanecker'),
 ('Longange'),
@@ -22632,7 +22591,7 @@ VALUES
 ('Lonmeni'),
 ('Lonn'),
 ('Lonna'),
-('Lonnberg'),
+
 ('Lonnblad'),
 ('Lonne'),
 ('Lonnee'),
@@ -22696,7 +22655,7 @@ VALUES
 ('Lonya'),
 ('Lonyem'),
 ('Lonyin'),
-('Lonyszyn'),
+
 ('Lonzi'),
 ('Lonzo'),
 ('Loo'),
@@ -22991,9 +22950,9 @@ VALUES
 ('Loral'),
 ('Loralee'),
 ('Loralei'),
+('Loraleigh'),
 ('Loralie'),
 ('Loralye'),
-('Loralyn'),
 ('Loram'),
 ('Loran'),
 ('Loranas'),
@@ -23006,7 +22965,6 @@ VALUES
 ('Lorandi'),
 ('Lorandne'),
 ('Lorandou'),
-
 ('Lorane'),
 ('Lorang'),
 ('Lorange'),
@@ -23023,7 +22981,6 @@ VALUES
 ('Lorato'),
 ('Loraun'),
 ('Loray'),
-('Lorayn'),
 ('Lorayne'),
 ('Lorbah'),
 ('Lorbeer'),
@@ -23138,7 +23095,7 @@ VALUES
 ('Lorelli'),
 ('Lorello'),
 ('Lorely'),
-('Lorelyn'),
+
 ('Lorem'),
 ('Lorema'),
 ('Loreman'),
@@ -23164,7 +23121,7 @@ VALUES
 ('Lorenco'),
 
 ('Lorencs'),
-('Lorencz'),
+
 ('Lorend'),
 ('Lorenda'),
 ('Lorendana'),
@@ -23193,7 +23150,7 @@ VALUES
 ('Lorentina'),
 ('Lorentine'),
 ('Lorento'),
-('Lorentowicz'),
+
 ('Lorentsen'),
 ('Lorentso'),
 ('Lorentson'),
@@ -23330,7 +23287,7 @@ VALUES
 ('Lorincia'),
 
 ('Lorincs'),
-('Lorincz'),
+
 
 ('Lorinda'),
 ('Lorine'),
@@ -23365,7 +23322,7 @@ VALUES
 ('Lorja'),
 ('Lorjav'),
 ('Lork'),
-('Lorkiewicz'),
+
 ('Lorkin'),
 ('Lorking'),
 
@@ -23422,7 +23379,7 @@ VALUES
 ('Lorrany'),
 ('Lorrawe'),
 ('Lorrayah'),
-('Lorrayn'),
+
 ('Lorrayne'),
 ('Lorrayni'),
 ('Lorraynne'),
@@ -23499,7 +23456,7 @@ VALUES
 ('Lorych'),
 ('Loryl'),
 ('Loryman'),
-('Loryn'),
+
 ('Lorys'),
 ('Lorz'),
 ('Lorza'),
@@ -23606,7 +23563,7 @@ VALUES
 
 ('Losier'),
 ('Losieva'),
-('Losiewicz'),
+
 ('Losiewski'),
 ('Losif'),
 ('Losijana'),
@@ -23783,7 +23740,7 @@ VALUES
 ('Lothringer'),
 ('Lothrop'),
 ('Lothspeich'),
-('Loti'),
+
 ('Lotib'),
 ('Lotiba'),
 ('Lotibun'),
@@ -23869,7 +23826,7 @@ VALUES
 ('Lotuzys'),
 ('Lotuzyte'),
 ('Lotya'),
-('Lotycz'),
+
 ('Lotye'),
 ('Lotys'),
 
@@ -23927,7 +23884,7 @@ VALUES
 ('Loubeyres'),
 ('Loubier'),
 ('Loubikou'),
-('Loubjerg'),
+
 ('Loubna'),
 ('Loubouton'),
 
@@ -24364,7 +24321,7 @@ VALUES
 ('Lousada'),
 ('Lousana'),
 ('Lousane'),
-('Lousberg'),
+
 ('Louse'),
 ('Louseian'),
 ('Louser'),
@@ -24478,7 +24435,7 @@ VALUES
 ('Louzebimio'),
 ('Louzeiro'),
 ('Louzieni'),
-('Louzioti'),
+
 ('Louziotis'),
 
 ('Louzolo'),
@@ -24590,7 +24547,7 @@ VALUES
 ('Lovelt'),
 ('Lovelu'),
 ('Loveluck'),
-('Lovelyn'),
+
 ('Lovelyne'),
 ('Loveman'),
 ('Lovemark'),
@@ -24599,8 +24556,8 @@ VALUES
 ('Lovena'),
 ('Lovenack'),
 ('Lovenah'),
-('Lovenberg'),
-('Lovenburg'),
+
+
 ('Lovenbury'),
 ('Lovence'),
 ('Lovencia'),
@@ -24780,7 +24737,7 @@ VALUES
 ('Lowbey'),
 ('Lowbridge'),
 ('Lowbury'),
-('Lowcewicz'),
+
 ('Lowcks'),
 ('Lowcock'),
 
@@ -24808,13 +24765,13 @@ VALUES
 ('Lowella'),
 ('Lowen'),
 ('Lowena'),
-('Lowenberg'),
+
 ('Lowenborg'),
 ('Lowendo'),
 ('Lowendri'),
 ('Lowene'),
 ('Lowenfield'),
-('Lowenhoff'),
+
 ('Lowenia'),
 ('Lowenna'),
 ('Lowensohn'),
@@ -24827,7 +24784,7 @@ VALUES
 ('Lowes'),
 ('Loweth'),
 ('Lowette'),
-('Lowewicz'),
+
 ('Lowey'),
 ('Lowhorn'),
 ('Lowi'),
@@ -24974,7 +24931,7 @@ VALUES
 ('Loylu'),
 ('Loylun'),
 ('Loylus'),
-('Loyn'),
+
 ('Loynachan'),
 ('Loynaz'),
 ('Loynd'),
@@ -25541,7 +25498,7 @@ VALUES
 ('Lucear'),
 ('Lucee'),
 ('Lucejko'),
-('Lucek'),
+
 ('Luceka'),
 ('Lucelene'),
 ('Lucelia'),
@@ -25583,7 +25540,7 @@ VALUES
 ('Lucetta'),
 ('Lucette'),
 ('Luceva'),
-('Lucewicz'),
+
 ('Lucey'),
 ('Luch'),
 ('Lucha'),
@@ -25659,7 +25616,7 @@ VALUES
 ('Lucht'),
 ('Luchtefeld'),
 ('Luchtel'),
-('Luchtenburg'),
+
 ('Luchterhand'),
 ('Luchtman'),
 ('Luchu'),
@@ -25744,7 +25701,7 @@ VALUES
 ('Lucillia'),
 ('Lucillianne'),
 ('Lucilo'),
-('Lucilyn'),
+
 ('Lucimar'),
 ('Lucimara'),
 ('Lucimba'),
@@ -25842,7 +25799,7 @@ VALUES
 ('Luckhurst'),
 ('Lucki'),
 ('Luckie'),
-('Luckiewicz'),
+
 ('Luckin'),
 ('Luckina'),
 ('Luckinbill'),
@@ -25853,7 +25810,7 @@ VALUES
 ('luckiva'),
 ('Luckland'),
 ('Luckly'),
-('Lucklyn'),
+
 ('Luckman'),
 ('Luckmann'),
 ('Luckmore'),
@@ -25963,7 +25920,7 @@ VALUES
 ('Lucyinda'),
 ('Lucyja'),
 ('Lucyjane'),
-('Lucyk'),
+
 ('Lucyle'),
 ('Lucylu'),
 ('Lucymay'),
@@ -25972,8 +25929,8 @@ VALUES
 ('Lucynthia'),
 ('Lucyrae'),
 ('Lucys'),
-('Lucyshyn'),
-('Lucz'),
+
+
 
 
 
@@ -26255,7 +26212,7 @@ VALUES
 ('Luecke'),
 ('Lueckemeyer'),
 ('Lueckenbach'),
-('Lueckenhoff'),
+
 ('Lueckenotte'),
 ('Luecker'),
 ('Luecking'),
@@ -26295,7 +26252,7 @@ VALUES
 ('Luella'),
 ('Luelle'),
 ('Luellen'),
-('Luellyn'),
+
 ('Luelwig'),
 ('Luemba'),
 ('Luembe'),
@@ -26304,7 +26261,7 @@ VALUES
 ('Luen'),
 ('Luena'),
 ('Luenda'),
-('Lueneburg'),
+
 ('Luenemana'),
 ('Luenen'),
 ('Lueng'),
@@ -26481,7 +26438,7 @@ VALUES
 ('Lugia'),
 ('Lugibihl'),
 ('Lugie'),
-('Lugiewicz'),
+
 ('Lugigan'),
 ('Lugin'),
 ('Luginbill'),
@@ -26521,7 +26478,7 @@ VALUES
 ('Lugowski'),
 ('Lugsden'),
 ('Lugt'),
-('Lugtenburg'),
+
 ('Lugto'),
 ('Lugtu'),
 ('Luguang'),
@@ -26734,7 +26691,7 @@ VALUES
 ('Lujane'),
 ('Lujania'),
 ('Lujano'),
-('Lujayn'),
+
 ('Lujayna'),
 ('Lujean'),
 ('Lujein'),
@@ -26769,7 +26726,7 @@ VALUES
 ('Lukacs'),
 ('Lukacsi'),
 ('Lukacsko'),
-('Lukacz'),
+
 
 
 ('Lukadi'),
@@ -26799,7 +26756,7 @@ VALUES
 
 ('Lukanovic'),
 ('Lukanow'),
-('Lukanowicz'),
+
 ('Lukanowkz'),
 
 ('Lukanowski'),
@@ -26827,12 +26784,12 @@ VALUES
 
 ('Lukasiak'),
 ('Lukasic'),
-('Lukasieuicz'),
-('Lukasiewicz'),
+
+
 ('Lukasik'),
 ('Lukasinski'),
 ('Lukasiunas'),
-('Lukaskiewicz'),
+
 ('Lukasl'),
 
 
@@ -26847,8 +26804,8 @@ VALUES
 
 
 ('Lukaszek'),
-('Lukaszevicz'),
-('Lukaszewicz'),
+
+
 
 ('Lukaszewski'),
 ('Lukaszka'),
@@ -26980,7 +26937,7 @@ VALUES
 
 ('Lukjanovics'),
 ('Lukjanovs'),
-('Lukjanowicz'),
+
 ('Lukjans'),
 
 ('Lukk'),
@@ -27062,7 +27019,7 @@ VALUES
 ('Lukow'),
 ('Lukowho'),
 ('Lukowiak'),
-('Lukowicz'),
+
 ('Lukowiecki'),
 
 ('Lukowski'),
@@ -27080,7 +27037,7 @@ VALUES
 ('Luksch'),
 ('Lukschana'),
 ('Luksenaite'),
-('Luksenberg'),
+
 ('Luksevicience'),
 ('Luksevicius'),
 ('Lukseviciute'),
@@ -27196,7 +27153,7 @@ VALUES
 ('Lulesseged'),
 ('Lulessged'),
 ('Luletia'),
-('Lulewicz'),
+
 ('Luley'),
 ('Lulezim'),
 ('Lulezime'),
@@ -27264,7 +27221,7 @@ VALUES
 ('Lulya'),
 ('Lulyana'),
 ('Lulyeta'),
-('Lulyn'),
+
 ('Lulzim'),
 ('Lulzime'),
 ('Lulzin'),
@@ -27319,7 +27276,7 @@ VALUES
 ('Lumbatis'),
 ('Lumbe'),
 ('Lumbera'),
-('Lumberg'),
+
 ('Lumbers'),
 ('Lumbert'),
 ('Lumbesi'),
@@ -27487,7 +27444,7 @@ VALUES
 ('Lunavat'),
 ('Lunawat'),
 ('Lunbeck'),
-('Lunberg'),
+
 ('Lunberry'),
 ('Lunca'),
 ('Luncan'),
@@ -27508,17 +27465,17 @@ VALUES
 ('Lundback'),
 ('Lundbak'),
 ('Lundbech'),
-('Lundberg'),
+
 ('Lundbergh'),
 ('Lundblad'),
 ('Lundblade'),
 ('Lundbom'),
 ('Lundborg'),
-('Lundburg'),
+
 ('Lundby'),
 ('Lundbye'),
 ('Lunde'),
-('Lundeberg'),
+
 ('Lundeby'),
 ('Lundebye'),
 ('Lundeen'),
@@ -27740,7 +27697,7 @@ VALUES
 ('Lunuatu'),
 ('Lunungu'),
 
-('Lunyk'),
+
 ('Lunyte'),
 ('Lunz'),
 ('Lunzamba'),
@@ -27775,7 +27732,7 @@ VALUES
 ('Luosha'),
 ('Luosheng'),
 ('Luostarinen'),
-('Luoti'),
+
 ('Luoto'),
 ('Luotong'),
 ('Luotoniemi'),
@@ -28013,7 +27970,7 @@ VALUES
 ('Lurleene'),
 ('Lurlene'),
 ('Lurline'),
-('Lurlyn'),
+
 ('Lurlyne'),
 ('Lurmarl'),
 ('Lurnar'),
@@ -28126,8 +28083,8 @@ VALUES
 ('Lushbaugh'),
 ('Lushchak'),
 ('Lushchevskyi'),
-('Lushchyk'),
-('Lushcuyk'),
+
+
 ('Lusheen'),
 ('Lushendrie'),
 ('Lusheng'),
@@ -28218,7 +28175,7 @@ VALUES
 ('Lussy'),
 ('Lusta'),
 ('Lustbader'),
-('Lustberg'),
+
 ('Lusteau'),
 ('Lusted'),
 ('Lustenberger'),
@@ -28239,7 +28196,7 @@ VALUES
 ('Lustrati'),
 ('Lustre'),
 ('Lustri'),
-('Lustyk'),
+
 ('Lusu'),
 ('Lusueki'),
 ('Lusukula'),
@@ -28252,16 +28209,16 @@ VALUES
 ('Lusy'),
 ('Lusyl'),
 ('Luszca'),
-('Luszcz'),
+
 
 
 
 
 
 ('Luszes'),
-('Luszkiewicz'),
+
 ('Luszniak'),
-('Luszowicz'),
+
 ('Lut'),
 ('Luta'),
 ('Lutaaya'),
@@ -28286,7 +28243,7 @@ VALUES
 ('Lutao'),
 ('Lutar'),
 ('Lutara'),
-('Lutarewicz'),
+
 ('Lutas'),
 ('Lutaud'),
 ('Lutawu'),
@@ -28466,7 +28423,7 @@ VALUES
 ('Lutke'),
 ('Lutken'),
 ('Lutkiene'),
-('Lutkiewicz'),
+
 ('Lutkin'),
 ('Lutkins'),
 ('Lutkus'),
@@ -28523,8 +28480,8 @@ VALUES
 ('Lutsky'),
 ('Lutstrom'),
 ('Lutsuk'),
-('Lutsyk'),
-('Lutsyshyn'),
+
+
 ('Lutsyshyna'),
 ('Lutt'),
 ('Luttas'),
@@ -28532,7 +28489,7 @@ VALUES
 ('Lutte'),
 ('Lutteman'),
 ('Luttenbacher'),
-('Luttenberg'),
+
 ('Luttenberger'),
 ('Luttenegger'),
 ('Lutter'),
@@ -28745,7 +28702,7 @@ VALUES
 ('Luxchumee'),
 ('Luxem'),
 ('Luxemy'),
-('Luxenberg'),
+
 ('Luxenburger'),
 ('Luxene'),
 ('Luxey'),
@@ -28858,7 +28815,7 @@ VALUES
 ('Luying'),
 ('Luyinga'),
 ('Luyirika'),
-('Luyk'),
+
 ('Luyken'),
 ('Luyks'),
 ('Luykx'),
@@ -29139,7 +29096,7 @@ VALUES
 ('Lybeck'),
 ('Lybecker'),
 ('Lyberatos'),
-('Lyberg'),
+
 ('Lyberger'),
 ('Lybert'),
 ('Lybi'),
@@ -29400,7 +29357,7 @@ VALUES
 ('Lymperopoulos'),
 ('Lymperopoulou'),
 ('Lymych'),
-('Lyn'),
+
 ('Lyna'),
 ('Lynaa'),
 ('Lynady'),
@@ -29467,7 +29424,7 @@ VALUES
 ('Lyndsi'),
 ('Lyndsy'),
 ('Lyndy'),
-('Lyndyn'),
+
 ('Lyndzey'),
 ('Lyne'),
 ('Lynear'),
@@ -29589,7 +29546,7 @@ VALUES
 ('Lynwen'),
 ('Lynwode'),
 ('Lynwood'),
-('Lynwyn'),
+
 ('Lynx'),
 ('Lynxwiler'),
 ('Lynz'),
@@ -29760,8 +29717,8 @@ VALUES
 ('Lysyuk'),
 ('Lyszak'),
 
-('Lyszkiewicz'),
-('Lyszkowicz'),
+
+
 ('Lytal'),
 ('Lytch'),
 ('Lytchier'),
@@ -29795,13 +29752,13 @@ VALUES
 ('Lyttle'),
 ('Lyttleton'),
 ('Lytton'),
-('Lytvyn'),
+
 ('Lytvynchuk'),
 ('Lytvynenko'),
 ('Lytvynko'),
 
 ('Lytwan'),
-('Lytwyn'),
+
 ('Lytzhoft'),
 ('Lyu'),
 ('Lyuba'),

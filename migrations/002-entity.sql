@@ -160,7 +160,7 @@ VALUES
   'PART', 
   1,
   'Regular expression', 
-  '\b\d+[\s\-]{1}(?:autumn|day|summer|week|winter)s?\b'
+  '\b[\d,\.]+[\s\-\\/]{1,2}(?:autumn|day|mark|summer|week|winter)s?\b'
 ),
 (
   'PartWordDurationRegEx',  
@@ -170,7 +170,17 @@ VALUES
   'PART', 
   1,
   'Regular expression', 
-  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten)[\s\-]{1}(?:autumn|day|summer|week|winter)s?\b'
+  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten)[\s\-\\/]{1,2}(?:autumn|day|summer|week|winter)s?\b'
+),
+(
+  'PartWordSubsitutionRegEx',
+  '#ccddee', 
+  'Part', 
+  0, 
+  'PART', 
+  1,
+  'Regular expression', 
+  '\ba\snew\s\w+\b'
 ),
 (
   'Person',    
@@ -190,7 +200,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b(?:\w+cci|\w+chek|\w+dra|\w+\wcz\w+|\w+itz|\w+iwe|\w+mir|\w+orf|\w+ova?|\w+ska|\w+sz|\w+than|\w+uji|\w+vsky|\w+zyk)\b'
+  '\b\w+(?:ajah|cci|ch?ek|dran?|\wcz\w+|hoff|itz|iwe|mir|orf|oti|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn])\b'
 ),
 (
   'PlaceName', 

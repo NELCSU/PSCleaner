@@ -247,7 +247,7 @@ VALUES
 ('Qarkaxhija'),
 ('Qarmi'),
 ('Qarnain'),
-('Qarnayn'),
+
 ('Qarni'),
 ('Qarra'),
 ('Qarraj'),
@@ -1186,7 +1186,7 @@ VALUES
 ('Quarashi'),
 ('Quaratino'),
 ('Quarato'),
-('Quarberg'),
+
 ('Quarbo'),
 ('Quarchie'),
 ('Quarcoe'),
@@ -1219,7 +1219,7 @@ VALUES
 ('Quarmayne'),
 ('Quarmby'),
 ('Quarn'),
-('Quarnberg'),
+
 ('Quarnell'),
 ('Quarney'),
 ('Quarnstrom'),
@@ -1309,7 +1309,7 @@ VALUES
 ('Quast'),
 ('Quastad'),
 ('Quastel'),
-('Quasthoff'),
+
 ('Quat'),
 ('Quataisha'),
 ('Quatannens'),
@@ -1492,7 +1492,7 @@ VALUES
 ('Queencilla'),
 ('Queency'),
 ('Queendaline'),
-('Queendalyn'),
+
 ('Queendellin'),
 ('Queene'),
 ('Queener'),
@@ -1572,7 +1572,7 @@ VALUES
 ('Quellien'),
 ('Quello'),
 ('Quelly'),
-('Quellyn'),
+
 ('Quelma'),
 ('Quelue'),
 ('Queluta'),
@@ -2047,7 +2047,7 @@ VALUES
 ('Quintrell'),
 ('Quintus'),
 ('Quinty'),
-('Quintyn'),
+
 ('Quintyne'),
 ('Quinzanos'),
 ('Quinzi'),

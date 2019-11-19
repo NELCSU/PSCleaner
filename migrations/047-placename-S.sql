@@ -50786,6 +50786,7 @@ VALUES
 ('San Cristóbal de La Laguna'),
 ('San Cristóbal de Las Casas'),
 ('San Cristóbal'),
+('San Felipe'),
 ('San Fernando'),
 ('San Fernando de Apure'),
 ('San Fernando de Valle de Catamarca'),

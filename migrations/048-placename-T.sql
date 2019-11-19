@@ -24633,7 +24633,6 @@ VALUES
 ('Twin Oaks Drive'),
 ('Twin Oaks Walk'),
 ('Twin Pike Way'),
-('Twin'),
 ('Twin Rivers'),
 ('Twin Sails Bridge'),
 ('Twin Sails Bridge Approach'),

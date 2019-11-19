@@ -42957,7 +42957,6 @@ VALUES
 ('Corner Park'),
 ('Corner Peaked Copse'),
 ('Corner Pin Close'),
-('Corner'),
 ('Corner Pool'),
 ('Corner Pool Farm'),
 ('Corner Road'),

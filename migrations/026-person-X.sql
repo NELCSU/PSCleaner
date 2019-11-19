@@ -745,7 +745,7 @@ VALUES
 ('Xiaosong'),
 ('Xiaosu'),
 ('Xiaoteng'),
-('Xiaoti'),
+
 ('Xiaotian'),
 ('Xiaoting'),
 ('Xiaotong'),
@@ -776,7 +776,7 @@ VALUES
 ('Xiaoyin'),
 ('Xiaoying'),
 ('Xiaoyl'),
-('Xiaoyn'),
+
 ('Xiaoyong'),
 ('Xiaoyu'),
 ('Xiaoyuan'),
@@ -1399,7 +1399,6 @@ VALUES
 ('Xuon'),
 ('Xuong'),
 ('Xuping'),
-
 ('Xuqin'),
 ('Xuqing'),
 ('Xuran'),
@@ -1409,7 +1408,6 @@ VALUES
 ('Xuseen'),
 ('Xuseh'),
 ('Xusen'),
-('Xuseyn'),
 ('Xushan'),
 ('Xusna'),
 ('Xussein'),
