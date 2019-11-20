@@ -10692,7 +10692,6 @@ VALUES
 ('Engineers Way'),
 ('Engineers Wood'),
 ('Engirs Geo'),
-('England'),
 ('England Avenue'),
 ('England Covert'),
 ('England Crescent'),
@@ -12687,7 +12686,6 @@ VALUES
 ('Europa View'),
 ('Europa Way'),
 ('Europarc'),
-('Europe'),
 ('Europe Road'),
 ('European Way'),
 ('Eurostar Meadow'),
@@ -13965,6 +13963,5 @@ VALUES
 ('Everglades'),
 ('Expressway'),
 ('Eyrie');
-
 -- Down
 DELETE FROM "Placename" WHERE "keyword" LIKE 'e%';

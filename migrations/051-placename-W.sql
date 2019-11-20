@@ -1015,7 +1015,6 @@ VALUES
 ('Waleran Close'),
 ('Walerand Road'),
 ('Waleron Road'),
-('Wales'),
 ('Wales Avenue'),
 ('Wales Bank'),
 ('Wales Bar'),

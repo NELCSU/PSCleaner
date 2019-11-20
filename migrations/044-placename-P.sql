@@ -15490,6 +15490,7 @@ VALUES
 ('Pitts Street'),
 ('Pitts Wood'),
 ('Pitts Wood Inclosure'),
+('Pittsburg'),
 ('Pittsburgh'),
 ('Pittsburgh Court'),
 ('Pittsburgh Road'),

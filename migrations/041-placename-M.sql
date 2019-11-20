@@ -6228,7 +6228,6 @@ VALUES
 ('Mark Moor'),
 ('Mark Oak Lane'),
 ('Mark of Luce Moss'),
-('Mark'),
 ('Mark Rake'),
 ('Mark Rise'),
 ('Mark Road'),

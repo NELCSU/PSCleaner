@@ -354,8 +354,6 @@ ipc.on("NLP-response", (e, response) => {
   autodiscoverButton.textContent = "Autodiscover";
   autodiscoverButton.classList.remove("disabled");
   autodiscoverButton.classList.remove("wait");
-  console.clear();
-  console.table(response);
   dataEntryText.innerHTML = he.encode(dataEntryText.textContent);
   if (response.length > 0) {
     window.dispatchEvent(new CustomEvent("NewTrainingData"));

@@ -20,10 +20,10 @@ VALUES
   'LOCATION', 
   0,
   'Regular expression', 
-  '\b(?:[1-9]\d{0,3}[a-z]{0,3}\s)(?:[''\.\-\w]*\s)?(?:[''\.\-\w]*\s)?(?:approach|avenue|bank|close|cl\.|crescent|croft|court|drive|end|flats|field|heights|gardens|gate|grange|green|grove|hill|lane|ln\.|meadow|mews|parade|park|path|place|pl\.|rise|road|rd\.|row|square|street|st\.|strand|terrace|towers|view|walk|way|wood|yard|north|south|east|west)(?:\s(?:north|south|east|west))?\b'
+  '\b(?:[1-9]\d{0,3}[a-z]{0,3}\s)(?:[''\.\-\w]*\s)?(?:\w{3,}\s)?(?:approach|avenue|bank|bottom|close|cl\.|crescent|croft|court|drive|end|flats|field|heights|gardens|gate|grange|green|grove|hill|lane|ln\.|meadow|mews|parade|park|path|place|pl\.|rise|road|rd\.|row|square|street|st\.|strand|terrace|towers|view|walk|way|wood|yard|north|south|east|west)(?:\s(?:north|south|east|west))?\b'
 ),
 (
-  'Address2',  
+  'Address2',
   '#80ff70', 
   'Location', 
   0, 
@@ -160,7 +160,7 @@ VALUES
   'PART', 
   1,
   'Regular expression', 
-  '\b[\d,\.]+[\s\-\\/]{1,2}(?:autumn|day|mark|summer|week|winter)s?\b'
+  '\b[\d,\.]+[\s\-\\/]{1,2}(?:autumn|day|miles|summer|week|winter)s?\b'
 ),
 (
   'PartWordDurationRegEx',  
@@ -200,7 +200,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+(?:ajah|cci|ch?ek|dran?|\wcz\w+|hoff|itz|iwe|mir|orf|oti|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn])\b'
+  '\b\w+(?:ajah|cci|ch?ek|dran?|\wcz\w+|hoff|itz|iwe|mir|orf|oti|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn])\b'
 ),
 (
   'PlaceName', 
@@ -290,7 +290,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b(?:Mr|Ms|Mrs|Prof)\.?\s(?:\w\.?\s)?[\w\-]+\b'
+  '\b(?:Mr|Ms\.|Mrs)\.?\s(?:\w\.?\s)?[\w\-]+\b'
 ),
 (
   'TimeClock', 

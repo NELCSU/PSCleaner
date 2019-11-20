@@ -40899,7 +40899,6 @@ VALUES
 ('Coolidge Gardens'),
 ('Coolin Drive'),
 ('Coolin Hills Gardens'),
-('Cooling'),
 ('Cooling Close'),
 ('Cooling Common'),
 ('Cooling Hill'),

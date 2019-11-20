@@ -24944,7 +24944,6 @@ VALUES
 ('Hintons Gorse'),
 ('Hintons Hill'),
 ('Hintonwood Lane'),
-('Hints'),
 ('Hints Court'),
 ('Hints Hill'),
 ('Hints Lane'),

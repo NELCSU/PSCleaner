@@ -65,11 +65,12 @@ export class NLP {
     const ent_re = await Entities.getList("Regular expression");
     const ent_st = await Entities.getList("Single term");
     const ent_mt = await Entities.getList("Multiple term");
-    return Promise.all([ent_re, ent_st, ent_mt])
+    const words: WordPosition[] = await this.getWordPositions(data);
+    return Promise.all([ent_re, ent_st, ent_mt, words])
       .then(async entities => {
         const match_re = await this._runRegExpressions(data, entities[0]);
-        const match_st = await this._runTerms(data, entities[1]);
-        const match_mt = await this._runTerms(data, entities[2]);
+        const match_st = await this._runTerms(data, entities[3], entities[1]);
+        const match_mt = await this._runTerms(data, entities[3], entities[2]);
         return Promise.all([match_re, match_st, match_mt])
           .then((matches: MatchedEntity[][]) => {
             const mt: MatchedEntity[] = [];
@@ -91,6 +92,7 @@ export class NLP {
     const tags: Tag[] = this._pos.tagSentence(data);
     let cursor: number = 0;
     let lastWord: WordPosition;
+    let lastModal: boolean = false;
     tags.forEach((tag: Tag) => {
       const start: number = data.indexOf(tag.value, cursor);
       const len: number = tag.value.length;
@@ -103,6 +105,9 @@ export class NLP {
             words[n].value += tag.value;
             words[n].end = end;
             words[n].length += len;
+          } else if (lastModal && tag.pos.indexOf("VB") > -1) {
+            // account for things like "will act"
+            words.pop();
           } else {
             lastWord = {
               value: tag.value,
@@ -113,6 +118,7 @@ export class NLP {
             };
             words.push(lastWord);
           }
+          lastModal = tag.pos === "MD";
         }
       }
     });
@@ -224,7 +230,7 @@ export class NLP {
           value: m[0],
           start: m.index,
           pos: "regex",
-          end: m.index + m[0].length,
+          end: m.index + m[0].length - 1,
           length: m[0].length
         });
       }
@@ -232,9 +238,8 @@ export class NLP {
     return Promise.resolve(r);
   }
 
-  private async _runTerms(data: string, entities: Entity[]): Promise<MatchedEntity[]> {
+  private async _runTerms(data: string, words: WordPosition[], entities: Entity[]): Promise<MatchedEntity[]> {
     const queue: Promise<MatchedEntity[]>[] = [];
-    const words: WordPosition[] = await this.getWordPositions(data);
     entities.forEach((ent: Entity) => {
       queue.push(this._searchTerms(data, words, ent))
     });
@@ -303,6 +308,13 @@ export class NLP {
         if (cursor > current.start) {
           // is cursor beyond start of current entity? Yes => skip
           skip = true;
+        } else if (peek.start === current.start && peek.end === current.end) {           
+          if (current.entity.type === "Regular expression") {
+            skip = true;
+          } else {
+            values.shift();
+            lookAhead = values.length > 0;
+          }
         } else if (peek.start >= current.start && peek.start <= current.end) {
           // two adjacent entities have some overlap ...
           if (peek.length > current.length) {

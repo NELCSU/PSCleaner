@@ -42,7 +42,6 @@ VALUES
 ('Faan'),
 ('Faang'),
 ('Faao'),
-
 ('Faarah'),
 ('Faarax'),
 ('Faarbaek'),
@@ -87,7 +86,6 @@ VALUES
 ('Faay'),
 ('Faayaz'),
 ('Faaz'),
-
 ('Faazil'),
 ('Faba'),
 ('Fabacher'),
@@ -118,7 +116,6 @@ VALUES
 ('Fabbrizzi'),
 ('Fabbro'),
 ('Fabbroni'),
-
 ('Fabby'),
 ('Fabe'),
 ('Fabea'),
@@ -150,17 +147,14 @@ VALUES
 ('Fabiam'),
 ('Fabian'),
 ('Fabiana'),
-
 ('Fabiane'),
 ('Fabiani'),
-
 ('Fabiankovits'),
 ('Fabiann'),
 ('Fabianna'),
 ('Fabianne'),
 ('Fabianni'),
 ('Fabiano'),
-
 ('Fabianq'),
 ('Fabianski'),
 ('Fabianus'),
@@ -188,19 +182,16 @@ VALUES
 ('Fabihah'),
 ('Fabij'),
 ('Fabijan'),
-
 ('Fabijanowski'),
 ('Fabijanski'),
 ('Fabijanskiene'),
 ('Fabijonavicius'),
 ('Fabikun'),
 ('Fabila'),
-
 ('Fabin'),
 ('Fabina'),
 ('Fabing'),
 ('Fabino'),
-
 ('Fabinski'),
 ('Fabiny'),
 ('Fabinyi'),
@@ -219,21 +210,16 @@ VALUES
 ('Fabis'),
 ('Fabish'),
 ('Fabisiak'),
-
 ('Fabisodun'),
 ('Fabiszak'),
-
 ('Fabiszewski'),
 ('Fabiu'),
 ('Fabiunke'),
 ('Fabius'),
 ('Fabiya'),
 ('Fabiyaan'),
-
 ('Fabiyi'),
 ('Fabjan'),
-
-
 ('Fabjola'),
 ('Fabjon'),
 ('Fable'),
@@ -243,11 +229,10 @@ VALUES
 ('Fabnizio'),
 ('Fabo'),
 ('Fabode'),
-
 ('Fabor'),
 ('Faboro'),
 ('Fabos'),
-('Fabou'),
+
 ('Fabowale'),
 ('Fabozzi'),
 ('Fabra'),
@@ -272,7 +257,6 @@ VALUES
 ('Fabricant'),
 ('Fabricante'),
 ('Fabricatore'),
-
 ('Fabriccia'),
 ('Fabrice'),
 ('Fabriche'),
@@ -282,7 +266,6 @@ VALUES
 ('Fabricius'),
 ('Fabrick'),
 ('Fabrico'),
-
 ('Fabriella'),
 ('Fabrienne'),
 ('Fabrigar'),
@@ -310,7 +293,6 @@ VALUES
 ('Fabry'),
 ('Fabrycio'),
 ('Fabrycjo'),
-
 ('Fabu'),
 ('Fabula'),
 ('Fabulet'),
@@ -343,7 +325,6 @@ VALUES
 ('Facchini'),
 ('Facchino'),
 ('Facchinutti'),
-
 ('Faccia'),
 ('Facciani'),
 ('Facciano'),
@@ -358,7 +339,6 @@ VALUES
 ('Facco'),
 ('Faccone'),
 ('Faccuetti'),
-
 ('Facel'),
 ('Facella'),
 ('Facelli'),
@@ -379,7 +359,7 @@ VALUES
 ('Fachina'),
 ('Fachini'),
 ('Fachiri'),
-('Fachiridou'),
+
 ('Fachler'),
 ('Fachria'),
 ('Fachtna'),
@@ -400,8 +380,6 @@ VALUES
 ('Facklam'),
 ('Fackler'),
 ('Fackney'),
-
-
 ('Fackrell'),
 ('Fackruz'),
 ('Facle'),
@@ -421,7 +399,6 @@ VALUES
 ('Facunda'),
 ('Facundo'),
 ('Facunla'),
-
 ('Facus'),
 ('Facy'),
 ('Fada'),
@@ -439,7 +416,6 @@ VALUES
 ('Fadak'),
 ('Fadaka'),
 ('Fadakarbani'),
-
 ('Fadal'),
 ('Fadalat'),
 ('Fadale'),
@@ -567,7 +543,6 @@ VALUES
 ('Fadilla'),
 ('Fadillah'),
 ('Fadiloglu'),
-
 ('Fadim'),
 ('Fadima'),
 ('Fadimah'),
@@ -627,17 +602,14 @@ VALUES
 ('Fadoul'),
 ('Fadoumo'),
 ('Fadous'),
-
 ('Fadri'),
 ('Fadrian'),
-
 ('Fadrowski'),
 ('Fadte'),
 ('Fadu'),
 ('Fadua'),
 ('Fadugba'),
 ('Fadul'),
-
 ('Faduma'),
 ('Fadumah'),
 ('Fadumasahra'),
@@ -671,7 +643,6 @@ VALUES
 ('Faeda'),
 ('Faedda'),
 ('Faedora'),
-
 ('Faeeim'),
 ('Faeem'),
 ('Faeema'),
@@ -690,7 +661,6 @@ VALUES
 ('Faeiq'),
 ('Faeiz'),
 ('Faeiza'),
-
 ('Faelago'),
 ('Faelan'),
 ('Faeldonea'),
@@ -718,7 +688,6 @@ VALUES
 ('Faero'),
 ('Faeroe'),
 ('Faerydale'),
-
 ('Faes'),
 ('Faesel'),
 ('Faessler'),
@@ -794,7 +763,6 @@ VALUES
 ('Fagbendro'),
 ('Fagbenle'),
 ('Fagbenro'),
-
 ('Fagbesa'),
 ('Fagbewesa'),
 ('Fagbeyiro'),
@@ -825,7 +793,6 @@ VALUES
 ('Fagents'),
 ('Fager'),
 ('Fageraes'),
-
 ('Fagerblad'),
 ('Fagerland'),
 ('Fagerli'),
@@ -912,7 +879,6 @@ VALUES
 ('Fagoon'),
 ('Fagoonee'),
 ('Fagot'),
-
 ('Fagoul'),
 ('Fagrach'),
 ('Fagre'),
@@ -932,7 +898,6 @@ VALUES
 ('Fahad'),
 ('Fahadani'),
 ('Fahadh'),
-
 ('Fahadul'),
 ('Fahadullah'),
 ('Fahadur'),
@@ -1055,7 +1020,6 @@ VALUES
 ('Fahlan'),
 ('Fahland'),
 ('Fahlane'),
-
 ('Fahle'),
 ('Fahlen'),
 ('Fahlenkamp'),
@@ -1129,13 +1093,11 @@ VALUES
 ('Fahrash'),
 ('Fahrbach'),
 ('Fahredin'),
-
 ('Fahreen'),
 ('Fahren'),
 ('Fahrenbach'),
 ('Fahrenbruch'),
 ('Fahrenbruck'),
-
 ('Fahrendorff'),
 ('Fahrenheim'),
 ('Fahrenholtz'),
@@ -1182,7 +1144,6 @@ VALUES
 ('Fahrudin'),
 ('Fahruk'),
 ('Fahrunnisa'),
-
 ('Fahs'),
 ('Fahsana'),
 ('Fahsil'),
@@ -1230,7 +1191,6 @@ VALUES
 ('Faidiga'),
 ('Faidley'),
 ('Faidon'),
-
 ('Faidy'),
 ('Faie'),
 ('Faied'),
@@ -1319,12 +1279,11 @@ VALUES
 ('Fainaro'),
 ('Fainaru'),
 ('Fainas'),
-
 ('Fainche'),
 ('Fainda'),
 ('Faindy'),
 ('Faine'),
-('Fainekou'),
+
 ('Fainer'),
 ('Faines'),
 ('Fainet'),
@@ -1388,7 +1347,7 @@ VALUES
 ('Fairholm'),
 ('Fairholme'),
 ('Fairhurst'),
-('Fairilou'),
+
 ('Fairin'),
 ('Fairirayi'),
 ('Fairlamb'),
@@ -1476,15 +1435,12 @@ VALUES
 ('Fait'),
 ('Faith'),
 ('Faithe'),
-
 ('Faithfull'),
 ('Faithia'),
 ('Faithian'),
 ('Faithlin'),
-
 ('Faithore'),
 ('Faithorn'),
-
 ('Faithya'),
 ('Faitima'),
 ('Faium'),
@@ -1541,7 +1497,6 @@ VALUES
 ('Faizo'),
 ('Faizon'),
 ('Faizoull'),
-
 ('Faizuddin'),
 ('Faizudeen'),
 ('faizul'),
@@ -1565,7 +1520,6 @@ VALUES
 ('Fajarine'),
 ('Fajarul'),
 ('Fajayel'),
-
 ('Fajebe'),
 ('Fajeel'),
 ('Fajeela'),
@@ -1582,10 +1536,8 @@ VALUES
 ('Fajen'),
 ('Fajer'),
 ('Fajertag'),
-
 ('Fajeyisan'),
 ('Fajga'),
-
 ('Fajgenbaum'),
 ('Fajger'),
 ('Fajid'),
@@ -1602,7 +1554,6 @@ VALUES
 ('Fajita'),
 ('Fajka'),
 ('Fajkis'),
-
 ('Fajkus'),
 ('Fajle'),
 ('Fajley'),
@@ -1613,7 +1564,6 @@ VALUES
 ('Fajlu'),
 ('Fajlur'),
 ('Fajnor'),
-
 ('Fajobi'),
 ('Fajol'),
 ('Fajolu'),
@@ -1624,7 +1574,6 @@ VALUES
 ('Fajrur'),
 ('Fajt'),
 ('Fajta'),
-
 ('Fajuke'),
 ('Fajurally'),
 ('Fajutag'),
@@ -1721,14 +1670,11 @@ VALUES
 ('Fakhrun'),
 ('Fakhrunnisa'),
 ('Fakhrus'),
-
-
 ('Fakhruz'),
 ('Fakhruzzaman'),
 ('Fakhry'),
 ('Fakhul'),
 ('Fakhuri'),
-
 ('Fakhuruddin'),
 ('Faki'),
 ('Fakid'),
@@ -1750,14 +1696,12 @@ VALUES
 ('Fakirchan'),
 ('Fakiri'),
 ('Fakirmohma'),
-
 ('Fakirvddin'),
 ('Fakiza'),
 ('Fakka'),
 ('Fakkar'),
 ('Fakku'),
 ('Fakler'),
-
 ('Fako'),
 ('Fakokunde'),
 ('Fakolade'),
@@ -1777,9 +1721,6 @@ VALUES
 ('Fakour'),
 ('Fakouri'),
 ('Fakoutas'),
-
-
-
 ('Fakoya'),
 ('Fakra'),
 ('Fakraj'),
@@ -1824,7 +1765,6 @@ VALUES
 ('Falace'),
 ('Falack'),
 ('Falade'),
-
 ('Falae'),
 ('Falagan'),
 ('Falah'),
@@ -1854,7 +1794,6 @@ VALUES
 ('Falancika'),
 ('Falando'),
 ('Falandry'),
-
 ('Falanga'),
 ('Falangis'),
 ('Falangola'),
@@ -1882,7 +1821,6 @@ VALUES
 ('Falatko'),
 ('Falato'),
 ('Falatoori'),
-
 ('Falatycki'),
 ('Falaus'),
 ('Falavel'),
@@ -1893,7 +1831,6 @@ VALUES
 ('Falba'),
 ('Falbe'),
 ('Falber'),
-
 ('Falbierski'),
 ('Falbo'),
 ('Falby'),
@@ -1927,7 +1864,6 @@ VALUES
 ('Falcomer'),
 ('Falcon'),
 ('Falconar'),
-
 ('Falconbury'),
 ('Falcone'),
 ('Falconer'),
@@ -1940,14 +1876,10 @@ VALUES
 ('Falconitin'),
 ('Falconitto'),
 ('Falconnet'),
-('Falcou'),
 
 ('Falcsik'),
-
 ('Falcus'),
-
 ('Falda'),
-
 ('Faldborg'),
 ('Falde'),
 ('Faldeenah'),
@@ -1961,13 +1893,11 @@ VALUES
 ('Faldrini'),
 ('Faldu'),
 ('Falduto'),
-
 ('Fale'),
 ('Faleasha'),
 ('Faleauto'),
 ('Falecka'),
 ('Falecki'),
-
 ('faleel'),
 ('Faleela'),
 ('Faleeva'),
@@ -1987,11 +1917,8 @@ VALUES
 ('Falen'),
 ('Falenchuk'),
 ('Falencki'),
-
 ('Falender'),
-
 ('Falenpin'),
-
 ('Falenta'),
 ('Faler'),
 ('Falerio'),
@@ -2025,7 +1952,6 @@ VALUES
 ('Falgoon'),
 ('Falgoust'),
 ('Falgout'),
-
 ('Falgun'),
 ('Falguna'),
 ('Falgunaben'),
@@ -2060,10 +1986,10 @@ VALUES
 ('Falilat'),
 ('Falilath'),
 ('Falilathunisa'),
-('Falilatou'),
+
 ('Falilatu'),
 ('Falilejeva'),
-('Falilou'),
+
 ('Falilu'),
 ('Falim'),
 ('Falima'),
@@ -2074,7 +2000,6 @@ VALUES
 ('Faling'),
 ('Falini'),
 ('Falinower'),
-
 ('Falinski'),
 ('Faliq'),
 ('Falique'),
@@ -2084,8 +2009,6 @@ VALUES
 ('Falisewski'),
 ('Falish'),
 ('Falisha'),
-
-
 ('Faliszewski'),
 ('Falius'),
 ('Faliva'),
@@ -2101,9 +2024,7 @@ VALUES
 ('Falkauske'),
 ('Falke'),
 ('Falkenbach'),
-
 ('Falkenberry'),
-
 ('Falkenhagen'),
 ('Falkenrath'),
 ('Falkenstein'),
@@ -2111,10 +2032,8 @@ VALUES
 ('Falkenstine'),
 ('Falkenthal'),
 ('Falker'),
-
 ('Falkiewilz'),
 ('Falkin'),
-
 ('Falkinder'),
 ('Falkiner'),
 ('Falkingham'),
@@ -2127,8 +2046,6 @@ VALUES
 ('Falkoff'),
 ('Falkoni'),
 ('Falkovitch'),
-
-
 ('Falkowski'),
 ('Falks'),
 ('Falksohn'),
@@ -2161,7 +2078,6 @@ VALUES
 ('Fallaver'),
 ('Fallavollita'),
 ('Fallaw'),
-
 ('Falle'),
 ('Fallecker'),
 ('Falleiros'),
@@ -2200,7 +2116,7 @@ VALUES
 ('Fallone'),
 ('Falloon'),
 ('Fallot'),
-('Fallou'),
+
 ('Fallover'),
 ('Fallow'),
 ('Fallowell'),
@@ -2218,7 +2134,6 @@ VALUES
 ('Fallwell'),
 ('Fally'),
 ('Fallylah'),
-
 ('Falma'),
 ('Falmai'),
 ('Falmata'),
@@ -2253,7 +2168,7 @@ VALUES
 ('Falor'),
 ('Falore'),
 ('Falotico'),
-('Falou'),
+
 ('Falouti'),
 ('Falowo'),
 ('Falowski'),
@@ -2297,7 +2212,6 @@ VALUES
 ('Faltesek'),
 ('Falth'),
 ('Falticeni'),
-
 ('Faltien'),
 ('Faltin'),
 ('Faltinschi'),
@@ -2306,13 +2220,9 @@ VALUES
 ('Falto'),
 ('Faltoni'),
 ('Faltous'),
-
 ('Faltus'),
-
 ('Faltynek'),
-
 ('Faltynoka'),
-
 ('Faltynowski'),
 ('Faltys'),
 ('Faltz'),
@@ -2338,7 +2248,6 @@ VALUES
 ('Falvo'),
 ('Falwell'),
 ('Faly'),
-
 ('Falzal'),
 ('Falzana'),
 ('Falzarano'),
@@ -2413,7 +2322,7 @@ VALUES
 ('Famin'),
 ('Famina'),
 ('Faminialagao'),
-('Faminou'),
+
 ('Faminu'),
 ('Famiya'),
 ('Famiyeh'),
@@ -2429,13 +2338,11 @@ VALUES
 ('Famore'),
 ('Famoriyo'),
 ('Famorosa'),
-
 ('Famory'),
 ('Famosaya'),
 ('Famose'),
 ('Famoso'),
 ('Famovra'),
-
 ('Fampian'),
 ('Famstyna'),
 ('Famuboni'),
@@ -2502,7 +2409,6 @@ VALUES
 ('Fancis'),
 ('Fancisco'),
 ('Fancita'),
-
 ('Fanciulli'),
 ('Fanciullo'),
 ('Fanco'),
@@ -2510,11 +2416,9 @@ VALUES
 ('Fancote'),
 ('Fancourt'),
 ('Fancovic'),
-
 ('Fancsali'),
 ('Fancsik'),
 ('Fand'),
-
 ('Fandal'),
 ('Fandarac'),
 ('Fandart'),
@@ -2624,7 +2528,7 @@ VALUES
 ('Fangyu'),
 ('Fangyuan'),
 ('Fangzhan'),
-('Fangzhou'),
+
 ('Fangzhu'),
 ('Fanha'),
 ('Fanhao'),
@@ -2654,7 +2558,6 @@ VALUES
 ('Fanin'),
 ('Fanina'),
 ('Fanindhar'),
-
 ('Fanion'),
 ('Fanioudaki'),
 ('Fanir'),
@@ -2688,9 +2591,6 @@ VALUES
 ('Fankhauser'),
 ('Fankhouser'),
 ('Fanko'),
-
-
-
 ('Fanli'),
 ('Fanlu'),
 ('Fanlun'),
@@ -2735,14 +2635,13 @@ VALUES
 ('Fanos'),
 ('Fanosne'),
 ('Fanosue'),
-('Fanou'),
+
 ('Fanoula'),
 ('Fanoulla'),
 ('Fanourgaki'),
 ('Fanouria'),
 ('Fanourios'),
 ('Fanous'),
-
 ('Fanovard'),
 ('Fanow'),
 ('Fanoy'),
@@ -2774,7 +2673,6 @@ VALUES
 ('Fant'),
 ('Fanta'),
 ('Fantabalu'),
-
 ('Fantacone'),
 ('Fantah'),
 ('Fantahun'),
@@ -2828,7 +2726,6 @@ VALUES
 ('Fantoni'),
 ('Fantossi'),
 ('Fantousi'),
-
 ('Fantozzi'),
 ('Fantrita'),
 ('Fantroy'),
@@ -2840,7 +2737,6 @@ VALUES
 ('Fanty'),
 ('Fantz'),
 ('Fanucchi'),
-
 ('Fanuel'),
 ('Fanula'),
 ('Fanuria'),
@@ -2879,7 +2775,7 @@ VALUES
 ('Faolan'),
 ('Faoro'),
 ('Faosat'),
-('Faou'),
+
 ('Faouad'),
 ('Faouaz'),
 ('Faour'),
@@ -2971,7 +2867,6 @@ VALUES
 ('Faradokht'),
 ('Faradoon'),
 ('Farae'),
-
 ('Farag'),
 ('Faraga'),
 ('Faragalla'),
@@ -2984,7 +2879,6 @@ VALUES
 ('Farago'),
 ('Faragoni'),
 ('Faragoza'),
-
 ('Farah'),
 ('Faraha'),
 ('Farahain'),
@@ -3080,7 +2974,6 @@ VALUES
 ('Farani'),
 ('Faranirina'),
 ('Farano'),
-
 ('Faransa'),
 ('Farant'),
 ('Farantaki'),
@@ -3088,14 +2981,13 @@ VALUES
 ('Faraoanu'),
 ('Faraon'),
 ('Faraone'),
-('Faraou'),
+
 ('Faraq'),
 ('Faraqaut'),
 ('Farar'),
 ('Farara'),
 ('Fararey'),
 ('Fararmarz'),
-
 ('Faras'),
 ('Farasat'),
 ('Farashata'),
@@ -3133,7 +3025,6 @@ VALUES
 ('Farba'),
 ('Farbakary'),
 ('Farbaniec'),
-
 ('Farbaz'),
 ('Farbeen'),
 ('Farbeg'),
@@ -3165,7 +3056,7 @@ VALUES
 ('Farcasel'),
 ('Farcau'),
 ('Farcel'),
-('Farchadou'),
+
 ('Farchat'),
 ('Farchie'),
 ('Farchione'),
@@ -3324,7 +3215,7 @@ VALUES
 ('Farek'),
 ('Fareka'),
 ('Farekh'),
-('Farekou'),
+
 ('Farel'),
 ('Fareleiro'),
 ('Fareli'),
@@ -3359,12 +3250,9 @@ VALUES
 ('Farezmia'),
 ('Farfaglia'),
 ('Farfalla'),
-
-
 ('Farfan'),
-('Farfarelou'),
-('Farfariello'),
 
+('Farfariello'),
 ('Farffan'),
 ('Farfloyd'),
 ('Farfour'),
@@ -3612,7 +3500,6 @@ VALUES
 ('Farin'),
 ('Farina'),
 ('Farinabanu'),
-
 ('Farinah'),
 ('Farinango'),
 ('Farinas'),
@@ -3695,7 +3582,6 @@ VALUES
 ('Farizatul'),
 ('Farizo'),
 ('Farizon'),
-
 ('Farizul'),
 ('Farizus'),
 ('Farja'),
@@ -3733,8 +3619,6 @@ VALUES
 ('Farkasdi'),
 ('Farkash'),
 ('Farkasinszki'),
-
-
 ('Farkeh'),
 ('Farkh'),
 ('Farkhad'),
@@ -3742,7 +3626,6 @@ VALUES
 ('Farkhanda'),
 ('Farkhandia'),
 ('Farkhari'),
-
 ('Farkhiedeh'),
 ('Farkho'),
 ('Farkhod'),
@@ -3754,17 +3637,12 @@ VALUES
 ('Farkhunda'),
 ('Farkhundah'),
 ('Farkouh'),
-
-
 ('Farkrul'),
 ('Farkus'),
 ('Farkya'),
 ('Farkye'),
 ('Farla'),
 ('Farlaab'),
-
-
-
 ('Farlam'),
 ('Farland'),
 ('Farlee'),
@@ -3785,7 +3663,6 @@ VALUES
 ('Farlot'),
 ('Farlough'),
 ('Farlow'),
-
 ('Farma'),
 ('Farmaan'),
 ('Farmagiu'),
@@ -3806,8 +3683,6 @@ VALUES
 ('Farmani'),
 ('Farmaniya'),
 ('Farmankhail'),
-
-
 ('Farmanua'),
 ('Farmanudeen'),
 ('Farmanul'),
@@ -3839,7 +3714,6 @@ VALUES
 ('Farmita'),
 ('Farmiya'),
 ('Farmon'),
-
 ('Farmosi'),
 ('Farmsworth'),
 ('Farmus'),
@@ -4126,7 +4000,6 @@ VALUES
 ('Farry'),
 ('Farrya'),
 ('Farryl'),
-
 ('Fars'),
 ('Farsace'),
 ('Farsad'),
@@ -4158,7 +4031,6 @@ VALUES
 ('Farsina'),
 ('Farsizadeh'),
 ('Farsjo'),
-
 ('Farson'),
 ('Farspoorian'),
 ('Farst'),
@@ -4188,15 +4060,12 @@ VALUES
 ('Fartum'),
 ('Fartun'),
 ('Fartuna'),
-
 ('Fartunn'),
-
 ('Fartushnyi'),
 ('Fartuskeviciute'),
 ('Fartuun'),
 ('Faruaji'),
 ('Faruas'),
-
 ('Faruc'),
 ('Faruck'),
 ('Faruf'),
@@ -4223,7 +4092,6 @@ VALUES
 ('Farukuzzaman'),
 ('Faruky'),
 ('Farul'),
-
 ('Farulla'),
 ('Farumata'),
 ('Farun'),
@@ -4288,12 +4156,10 @@ VALUES
 ('Farydah'),
 ('Farydon'),
 ('Faryl'),
-
 ('Faryna'),
 ('Faryniarz'),
 ('Faryniuk'),
 ('Farynne'),
-
 ('Faryorsey'),
 ('Farys'),
 ('Farz'),
@@ -4348,7 +4214,6 @@ VALUES
 ('Fasa'),
 ('Fasade'),
 ('Fasahat'),
-
 ('Fasakin'),
 ('Fasal'),
 ('Fasalojo'),
@@ -4472,7 +4337,6 @@ VALUES
 ('Fasilat'),
 ('Fasile'),
 ('Fasilina'),
-
 ('Fasin'),
 ('Fasina'),
 ('Fasino'),
@@ -4582,7 +4446,6 @@ VALUES
 ('Fasugbe'),
 ('Fasuhanmi'),
 ('Fasui'),
-
 ('Fasula'),
 ('Fasullo'),
 ('Fasulo'),
@@ -4598,7 +4461,6 @@ VALUES
 ('Faswy'),
 ('Fasy'),
 ('Fasyal'),
-
 ('Fata'),
 ('Fataar'),
 ('Fatadin'),
@@ -4844,7 +4706,7 @@ VALUES
 ('Fatihma'),
 ('Fatihur'),
 ('Fatijon'),
-('Fatijou'),
+
 ('Fatik'),
 ('Fatile'),
 ('Fatim'),
@@ -4861,7 +4723,7 @@ VALUES
 ('Fatimat'),
 ('Fatimata'),
 ('Fatimatah'),
-('Fatimatou'),
+
 ('Fatimatt'),
 ('Fatimatu'),
 ('Fatimatul'),
@@ -4876,12 +4738,11 @@ VALUES
 ('Fatimehin'),
 ('Fatimela'),
 ('Fatimer'),
-('Fatimetou'),
+
 ('Fatimha'),
 ('Fatimi'),
 ('Fatimin'),
 ('Fatimina'),
-
 ('Fatimo'),
 ('Fatimobarwaqo'),
 ('Fatimoh'),
@@ -4953,17 +4814,14 @@ VALUES
 ('Fatmbar'),
 ('Fatme'),
 ('Fatmegyul'),
-
 ('Fatmeh'),
 ('Fatmehsari'),
 ('Fatmeyul'),
 ('Fatmi'),
-
 ('Fatmira'),
 ('Fatmire'),
 ('Fatmish'),
 ('Fatmo'),
-
 ('Fatmusha'),
 ('Fatna'),
 ('Fatnam'),
@@ -5002,7 +4860,7 @@ VALUES
 ('Fatos'),
 ('Fatose'),
 ('Fatosh'),
-('Fatou'),
+
 ('Fatouaki'),
 ('Fatouhaka'),
 ('Fatoum'),
@@ -5017,7 +4875,6 @@ VALUES
 ('Fatouretchi'),
 ('Fatouros'),
 ('Fatoutmata'),
-
 ('Fatovic'),
 ('Fatoye'),
 ('Fatoyinbo'),
@@ -5028,7 +4885,7 @@ VALUES
 ('Fatseas'),
 ('Fatsin'),
 ('Fatson'),
-('Fatsou'),
+
 ('Fatt'),
 ('Fatta'),
 ('Fattacciu'),
@@ -5039,8 +4896,6 @@ VALUES
 ('Fattahpoor'),
 ('Fattahullah'),
 ('Fattahy'),
-
-
 ('Fattal'),
 ('Fattane'),
 ('Fattaneh'),
@@ -5107,7 +4962,6 @@ VALUES
 ('Fatunmbi'),
 ('Fatunwase'),
 ('Fatur'),
-
 ('Fatus'),
 ('Fatusa'),
 ('Fatush'),
@@ -5121,7 +4975,6 @@ VALUES
 ('Fatxiya'),
 ('Faty'),
 ('Fatyaha'),
-
 ('Fatyga'),
 ('Fatyma'),
 ('Fatyna'),
@@ -5202,9 +5055,7 @@ VALUES
 ('Faulisi'),
 ('Faulk'),
 ('Faulke'),
-
 ('Faulkenberry'),
-
 ('Faulkenbury'),
 ('Faulker'),
 ('Faulkes'),
@@ -5255,7 +5106,7 @@ VALUES
 ('Faurot'),
 ('Faurote'),
 ('Faurrieta'),
-('Faurschou'),
+
 ('Faury'),
 ('Faus'),
 ('Fausa'),
@@ -5277,12 +5128,11 @@ VALUES
 ('Fausnaught'),
 ('Fausnight'),
 ('Fausone'),
-
 ('Fauss'),
 ('Faussadier'),
 ('Fausset'),
 ('Faussett'),
-('Faussou'),
+
 ('Faussurier'),
 ('Faust'),
 ('Fausta'),
@@ -5303,8 +5153,6 @@ VALUES
 ('Fausto'),
 ('Faustus'),
 ('Faustyna'),
-
-
 ('Faut'),
 ('Fautas'),
 ('Fauteux'),
@@ -5340,7 +5188,6 @@ VALUES
 ('Fauziah'),
 ('Fauziya'),
 ('Fauziyah'),
-
 ('Fauzy'),
 ('Fauzya'),
 ('Fava'),
@@ -5579,7 +5426,6 @@ VALUES
 ('Faydali'),
 ('Faydelys'),
 ('Faydene'),
-
 ('Faye'),
 ('Fayeaz'),
 ('Fayed'),
@@ -5661,7 +5507,6 @@ VALUES
 ('Fayjun'),
 ('Fayjunnessa'),
 ('Fayjur'),
-
 ('Fayke'),
 ('Fayker'),
 ('Faykosh'),
@@ -5678,7 +5523,6 @@ VALUES
 ('Faylon'),
 ('Faylor'),
 ('Fayluga'),
-
 ('Fayma'),
 ('Fayman'),
 ('Faymann'),
@@ -5687,7 +5531,6 @@ VALUES
 ('Faynel'),
 ('Fayniece'),
 ('Faynomi'),
-
 ('Faynus'),
 ('Fayo'),
 ('Fayobi'),
@@ -5768,7 +5611,6 @@ VALUES
 ('Fayzi'),
 ('Fayziev'),
 ('Fayzieva'),
-
 ('Fayziyeva'),
 ('Fayzu'),
 ('Fayzui'),
@@ -5878,7 +5720,6 @@ VALUES
 ('Fazilla'),
 ('Fazilleau'),
 ('Fazilot'),
-
 ('Fazilton'),
 ('Fazima'),
 ('Fazina'),
@@ -5924,7 +5765,6 @@ VALUES
 ('Fazllji'),
 ('Fazlollah'),
 ('Fazlollani'),
-
 ('Fazlparast'),
 ('Fazlu'),
 ('Fazlul'),
@@ -5964,7 +5804,6 @@ VALUES
 ('Fazwani'),
 ('Fazwnda'),
 ('Fazylah'),
-
 ('Fazzalari'),
 ('Fazzani'),
 ('Fazzari'),
@@ -6059,7 +5898,7 @@ VALUES
 ('Fearns'),
 ('Fearnside'),
 ('Fearon'),
-('Fearou'),
+
 ('Fearrington'),
 ('Fearson'),
 ('Fearwhot'),
@@ -6151,7 +5990,6 @@ VALUES
 ('Fecarotta'),
 ('Fecat'),
 ('Fecchio'),
-
 ('Fech'),
 ('Fecher'),
 ('Fecheta'),
@@ -6177,19 +6015,15 @@ VALUES
 ('Feckenstedt'),
 ('Fecker'),
 ('Fecko'),
-
 ('Fecoli'),
-
 ('Fecri'),
 ('Fecsik'),
 ('Fecske'),
-
 ('Fecso'),
 ('Fecteau'),
 ('Fecto'),
 ('Fectus'),
 ('Fecunda'),
-
 ('Feda'),
 ('Fedaa'),
 ('Fedaat'),
@@ -6198,13 +6032,11 @@ VALUES
 ('Fedaie'),
 ('Fedaiee'),
 ('Fedail'),
-
 ('Fedain'),
 ('Fedaioglu'),
 ('Fedak'),
 ('Fedaka'),
 ('Fedakar'),
-
 ('Fedalen'),
 ('Fedalizo'),
 ('Fedally'),
@@ -6222,7 +6054,6 @@ VALUES
 ('Fedchenko'),
 ('Fedchuk'),
 ('Fedco'),
-
 ('Fedd'),
 ('Fedda'),
 ('Feddag'),
@@ -6295,7 +6126,6 @@ VALUES
 ('Federis'),
 ('Federka'),
 ('Federkeil'),
-
 ('Federle'),
 ('Federlein'),
 ('Federline'),
@@ -6303,13 +6133,11 @@ VALUES
 ('Federmann'),
 ('Federoff'),
 ('Federose'),
-
 ('Federschmid'),
 ('Federsoni'),
 ('Federspiel'),
 ('Federtco'),
 ('Federweis'),
-
 ('Federzoni'),
 ('Fedevici'),
 ('Fedevielle'),
@@ -6325,7 +6153,6 @@ VALUES
 ('Fedichenko'),
 ('Fedichkin'),
 ('Fedick'),
-
 ('Fedics'),
 ('Fedida'),
 ('Fedie'),
@@ -6363,22 +6190,17 @@ VALUES
 ('Fedorak'),
 ('Fedorasko'),
 ('Fedorcak'),
-
 ('Fedorcenko'),
 ('Fedorchak'),
 ('Fedorchenko'),
 ('Fedorchuk'),
 ('Fedorciow'),
-
-
 ('Fedord'),
 ('Fedore'),
 ('Fedorek'),
 ('Fedorencika'),
 ('Fedorenco'),
 ('Fedorenko'),
-
-
 ('Fedoret'),
 ('Fedoriak'),
 ('Fedorico'),
@@ -6388,21 +6210,12 @@ VALUES
 ('Fedorka'),
 ('Fedorkiv'),
 ('Fedorko'),
-
-
-
 ('Fedoroff'),
-
-
 ('Fedorovica'),
 ('Fedorovich'),
 ('Fedorovici'),
 ('Fedorovych'),
-
-
 ('Fedoruk'),
-
-
 ('Fedoryszak'),
 ('Fedoryuk'),
 ('Fedoseev'),
@@ -6412,16 +6225,10 @@ VALUES
 ('Fedosejeva'),
 ('Fedoseyeva'),
 ('Fedosoff'),
-
-
 ('Fedosseera'),
 ('Fedossejeva'),
-
-
 ('Fedotenkovs'),
 ('Fedotor'),
-
-
 ('Fedotovaite'),
 ('Fedotovas'),
 ('Fedotoviene'),
@@ -6429,8 +6236,6 @@ VALUES
 ('Fedoua'),
 ('Fedoul'),
 ('Fedouloff'),
-
-
 ('Fedrerico'),
 ('Fedric'),
 ('Fedrica'),
@@ -6446,14 +6251,9 @@ VALUES
 ('Feduccia'),
 ('Feduchin'),
 ('Fedukovich'),
-
 ('Fedun'),
-
 ('Feduniw'),
 ('Fedunkiv'),
-
-
-
 ('Fedus'),
 ('Feduszka'),
 ('Feduzi'),
@@ -6462,16 +6262,11 @@ VALUES
 ('Fedy'),
 ('Fedya'),
 ('Fedyaeva'),
-
 ('Fedyanini'),
 ('Fedyasheva'),
 ('Fedyashin'),
-
-
-
 ('Fedyna'),
 ('Fedyniak'),
-
 ('Fedyunina'),
 ('Fedyushkin'),
 ('Fedzrico'),
@@ -6547,7 +6342,6 @@ VALUES
 ('Fefe'),
 ('Fefee'),
 ('Fefer'),
-
 ('Feferkorn'),
 ('Feffer'),
 ('Fefferman'),
@@ -6596,7 +6390,6 @@ VALUES
 ('Feher'),
 ('Feherne'),
 ('Fehernevarga'),
-
 ('Fehervari'),
 ('Fehilly'),
 ('Fehily'),
@@ -6613,7 +6406,6 @@ VALUES
 ('Fehintoluwa'),
 ('Fehl'),
 ('Fehlandt'),
-
 ('Fehlen'),
 ('Fehler'),
 ('Fehlhaber'),
@@ -6662,7 +6454,6 @@ VALUES
 ('Feicho'),
 ('Feicht'),
 ('Feichter'),
-
 ('Feichtinger'),
 ('Feichtner'),
 ('Feick'),
@@ -6692,7 +6483,6 @@ VALUES
 ('Feifer'),
 ('Feiferiene'),
 ('Feiferis'),
-
 ('Feig'),
 ('Feiga'),
 ('Feige'),
@@ -6736,11 +6526,9 @@ VALUES
 ('Feikin'),
 ('Feikje'),
 ('Feikles'),
-
 ('Feiks'),
 ('Feil'),
 ('Feilbach'),
-
 ('Feild'),
 ('Feildel'),
 ('Feilden'),
@@ -6770,14 +6558,11 @@ VALUES
 ('Feimer'),
 ('Feiming'),
 ('Feimoglu'),
-
-
 ('Feimster'),
 ('Fein'),
 ('Feina'),
 ('Feinaj'),
 ('Feinauer'),
-
 ('Feinblatt'),
 ('Feind'),
 ('Feindel'),
@@ -6843,7 +6628,6 @@ VALUES
 ('Feitchi'),
 ('Feitchy'),
 ('Feiteira'),
-
 ('Feiten'),
 ('Feith'),
 ('Feitl'),
@@ -6853,7 +6637,6 @@ VALUES
 ('Feitoza'),
 ('Feitshans'),
 ('Feitussi'),
-
 ('Feivel'),
 ('Feivish'),
 ('Feivush'),
@@ -6874,7 +6657,7 @@ VALUES
 ('Feizal'),
 ('Feizan'),
 ('Feizel'),
-('Feizhou'),
+
 ('Feizi'),
 ('Feizian'),
 ('Feizo'),
@@ -6893,20 +6676,15 @@ VALUES
 ('Fejerica'),
 ('Fejervary'),
 ('Fejes'),
-
 ('Fejfar'),
-
 ('Fejfer'),
 ('Fejiro'),
-
 ('Fejokwu'),
 ('Fejos'),
 ('Fejoz'),
 ('Fejra'),
 ('Fejshall'),
 ('Fejtek'),
-
-
 ('Fejza'),
 ('Fejzagic'),
 ('Fejzaj'),
@@ -6929,18 +6707,14 @@ VALUES
 ('Fekak'),
 ('Fekare'),
 ('Fekdu'),
-
 ('Fekecs'),
 ('Fekede'),
 ('Fekemo'),
-
 ('Feker'),
 ('Fekeram'),
 ('Fekerte'),
 ('Fekeshazy'),
 ('Fekete'),
-
-
 ('Fekets'),
 ('Fekety'),
 ('Fekhah'),
@@ -6949,7 +6723,6 @@ VALUES
 ('Fekhardji'),
 ('Feki'),
 ('Fekiac'),
-
 ('Fekier'),
 ('Fekir'),
 ('Fekkak'),
@@ -6957,7 +6730,6 @@ VALUES
 ('Fekkes'),
 ('Feklina'),
 ('Feklistous'),
-
 ('Feklistovs'),
 ('Fekna'),
 ('Feknee'),
@@ -6987,7 +6759,6 @@ VALUES
 ('Felarca'),
 ('Felber'),
 ('Felberbaum'),
-
 ('Felbinger'),
 ('Felby'),
 ('Felce'),
@@ -7004,16 +6775,12 @@ VALUES
 ('Felcity'),
 ('Felcser'),
 ('Felcy'),
-
-
-
 ('Feld'),
 ('Felda'),
 ('Feldano'),
 ('Feldbacher'),
 ('Feldbauer'),
 ('Feldbaum'),
-
 ('Feldberga'),
 ('Feldborg'),
 ('Feldbrugge'),
@@ -7023,7 +6790,6 @@ VALUES
 ('Feldegg'),
 ('Felden'),
 ('Felder'),
-
 ('Felderman'),
 ('Feldes'),
 ('Feldewerth'),
@@ -7177,8 +6943,6 @@ VALUES
 ('Feliksa'),
 ('Feliksas'),
 ('Feliksiak'),
-
-
 ('Felikss'),
 ('Felila'),
 ('Felilie'),
@@ -7188,11 +6952,9 @@ VALUES
 ('Felin'),
 ('Felina'),
 ('Feline'),
-
 ('Felini'),
 ('Felino'),
 ('Felinor'),
-
 ('Felinski'),
 ('Felio'),
 ('Felion'),
@@ -7351,7 +7113,6 @@ VALUES
 ('Felman'),
 ('Felmanas'),
 ('Felmary'),
-
 ('Felmeri'),
 ('Felmet'),
 ('Felmey'),
@@ -7373,7 +7134,6 @@ VALUES
 ('Felony'),
 ('Felouah'),
 ('Feloussi'),
-
 ('Feloy'),
 ('Felpe'),
 ('Felps'),
@@ -7383,7 +7143,6 @@ VALUES
 ('Felsan'),
 ('Felsch'),
 ('Felsen'),
-
 ('Felsenstein'),
 ('Felsenthal'),
 ('Felser'),
@@ -7391,7 +7150,6 @@ VALUES
 ('Felsher'),
 ('Felsing'),
 ('Felsinger'),
-
 ('Felske'),
 ('Felski'),
 ('Felsman'),
@@ -7403,7 +7161,6 @@ VALUES
 ('Felsted'),
 ('Felstein'),
 ('Felsu'),
-
 ('Feltch'),
 ('Felten'),
 ('Feltenberger'),
@@ -7419,8 +7176,6 @@ VALUES
 ('Feltner'),
 ('Feltoe'),
 ('Felton'),
-
-
 ('Feltre'),
 ('Feltrin'),
 ('Feltrop'),
@@ -7511,7 +7266,6 @@ VALUES
 ('Fencil'),
 ('Fenciuc'),
 ('Fencl'),
-
 ('Fenco'),
 ('Fend'),
 ('Fenda'),
@@ -7658,7 +7412,6 @@ VALUES
 ('Fennane'),
 ('Fenndi'),
 ('Fenne'),
-
 ('Fenneke'),
 ('Fennel'),
 ('Fennell'),
@@ -7758,20 +7511,17 @@ VALUES
 ('Fenuccio'),
 ('Fenuku'),
 ('Fenusoua'),
-
 ('Fenutina'),
 ('Fenuyi'),
 ('Fenuzi'),
 ('Fenwick'),
 ('Fenwicke'),
 ('Fenwickgillingham'),
-
 ('Feny'),
 ('Fenya'),
 ('Fenyes'),
 ('Fenyesi'),
 ('Fenyiwah'),
-
 ('Fenyo'),
 ('Fenyohazi'),
 ('Fenyu'),
@@ -7787,17 +7537,12 @@ VALUES
 ('Feodorava'),
 ('Feodoridi'),
 ('Feodoroff'),
-
-
 ('Feodorovs'),
 ('Feodosia'),
 ('Feodosieva'),
 ('Feodosijs'),
 ('Feoerico'),
 ('Feofan'),
-
-
-
 ('Feola'),
 ('Feole'),
 ('Feoli'),
@@ -7815,7 +7560,6 @@ VALUES
 ('Feraas'),
 ('Ferabi'),
 ('Ferabolli'),
-
 ('Ferach'),
 ('Feraco'),
 ('Ferad'),
@@ -7824,7 +7568,6 @@ VALUES
 ('Ferae'),
 ('Ferag'),
 ('Ferage'),
-
 ('Ferah'),
 ('Ferahan'),
 ('Ferahi'),
@@ -7854,10 +7597,8 @@ VALUES
 ('Feranhami'),
 ('Feranil'),
 ('Feranmi'),
-
 ('Feraol'),
 ('Feraouche'),
-
 ('Ferar'),
 ('Ferara'),
 ('Ferard'),
@@ -7886,7 +7627,6 @@ VALUES
 ('Ferbrache'),
 ('Ferby'),
 ('Fercak'),
-
 ('Fercan'),
 ('Ferch'),
 ('Ferchak'),
@@ -7961,7 +7701,6 @@ VALUES
 ('Ferdinandez'),
 ('Ferdinandi'),
 ('Ferdinando'),
-
 ('Ferdinands'),
 ('Ferdinandsen'),
 ('Ferdinandz'),
@@ -8005,7 +7744,6 @@ VALUES
 ('Ferdousy'),
 ('Ferdousye'),
 ('Ferdouz'),
-
 ('Ferdows'),
 ('Ferdowsa'),
 ('Ferdowse'),
@@ -8066,13 +7804,11 @@ VALUES
 ('Fereiuciue'),
 ('Ferej'),
 ('Ferek'),
-('Ferekidou'),
 
 ('Ferelith'),
 ('Ferell'),
 ('Ferella'),
 ('Ferelloc'),
-
 ('Feremusu'),
 ('Feren'),
 ('Ferenc'),
@@ -8084,14 +7820,8 @@ VALUES
 ('Ferenchuk'),
 ('Ferenci'),
 ('Ferencik'),
-
 ('Ferencne'),
-
 ('Ferency'),
-
-
-
-
 ('Ferendenus'),
 ('Ferenduros'),
 ('Ferenes'),
@@ -8102,7 +7832,7 @@ VALUES
 ('Ferenten'),
 ('Ferenti'),
 ('Ferentinos'),
-('Ferentinou'),
+
 ('Ferentz'),
 ('Ferenz'),
 ('Fereol'),
@@ -8125,9 +7855,7 @@ VALUES
 ('Feretti'),
 ('Ferew'),
 ('Ferewini'),
-
 ('Ferewyin'),
-
 ('Ferey'),
 ('Fereydon'),
 ('Fereydoni'),
@@ -8164,12 +7892,10 @@ VALUES
 ('Ferghus'),
 ('Fergie'),
 ('Fergilles'),
-
 ('Fergione'),
 ('Fergison'),
 ('Fergoson'),
 ('Fergous'),
-
 ('Fergson'),
 ('Fergueson'),
 ('Fergul'),
@@ -8240,12 +7966,10 @@ VALUES
 ('Ferin'),
 ('Ferina'),
 ('Ferinard'),
-
 ('Feringa'),
 ('Ferington'),
 ('Ferino'),
 ('Ferioli'),
-
 ('Ferioz'),
 ('Feriozzi'),
 ('Ferir'),
@@ -8263,7 +7987,6 @@ VALUES
 ('Ferizi'),
 ('Ferizolli'),
 ('Ferjana'),
-
 ('Ferjani'),
 ('Ferjat'),
 ('Ferjelisa'),
@@ -8277,9 +8000,7 @@ VALUES
 ('Ferkins'),
 ('Ferko'),
 ('Ferkoua'),
-
 ('Ferkovich'),
-
 ('Ferla'),
 ('Ferlaine'),
 ('Ferlan'),
@@ -8288,7 +8009,6 @@ VALUES
 ('Ferlauto'),
 ('Ferlazzo'),
 ('Ferlenda'),
-
 ('Ferley'),
 ('Ferlia'),
 ('Ferlic'),
@@ -8303,7 +8023,6 @@ VALUES
 ('Ferlo'),
 ('Ferlone'),
 ('Ferly'),
-
 ('Ferm'),
 ('Ferma'),
 ('Fermaint'),
@@ -8315,8 +8034,6 @@ VALUES
 ('Fermanian'),
 ('Fermanich'),
 ('Fermann'),
-
-
 ('Ferme'),
 ('Ferment'),
 ('Fermesk'),
@@ -8366,7 +8083,6 @@ VALUES
 ('Fernander'),
 ('Fernanders'),
 ('Fernandes'),
-
 ('Fernandez'),
 ('Fernandezcachafeiro'),
 ('Fernandeze'),
@@ -8405,9 +8121,7 @@ VALUES
 ('Fernbach'),
 ('Fernback'),
 ('Fernbank'),
-
 ('Ferncrest'),
-
 ('Ferndana'),
 ('Ferndez'),
 ('Ferne'),
@@ -8531,7 +8245,6 @@ VALUES
 ('Ferraby'),
 ('Ferracaku'),
 ('Ferracane'),
-
 ('Ferrachat'),
 ('Ferracho'),
 ('Ferracin'),
@@ -8758,7 +8471,6 @@ VALUES
 ('Ferroukhi'),
 ('Ferrow'),
 ('Ferrua'),
-
 ('Ferruccio'),
 ('Ferrucio'),
 ('Ferrufino'),
@@ -8776,7 +8488,7 @@ VALUES
 ('Ferry'),
 ('Ferryby'),
 ('Ferryman'),
-('Fersadou'),
+
 ('Fersaoui'),
 ('Fersch'),
 ('Ferschke'),
@@ -8810,7 +8522,6 @@ VALUES
 ('Fertil'),
 ('Fertitta'),
 ('Fertleman'),
-
 ('Fertlinski'),
 ('Ferton'),
 ('Fertona'),
@@ -8818,12 +8529,9 @@ VALUES
 ('Fertoul'),
 ('Fertsch'),
 ('Fertuna'),
-
 ('Feru'),
 ('Ferubko'),
-
 ('Ferudun'),
-
 ('Ferug'),
 ('Ferugson'),
 ('Feruh'),
@@ -8837,7 +8545,6 @@ VALUES
 ('Ferullo'),
 ('Feruni'),
 ('Ferus'),
-
 ('Feruszewski'),
 ('Feruz'),
 ('Feruza'),
@@ -8894,7 +8601,6 @@ VALUES
 ('Fesehatsion'),
 ('Fesehaye'),
 ('Fesenbek'),
-
 ('Fesenmaier'),
 ('Fesenmyer'),
 ('Feser'),
@@ -8982,8 +8688,6 @@ VALUES
 ('Festos'),
 ('Festoso'),
 ('Festous'),
-
-
 ('Festuccia'),
 ('Festue'),
 ('Festum'),
@@ -8992,9 +8696,6 @@ VALUES
 ('Fesuk'),
 ('Fesum'),
 ('Fesus'),
-
-
-
 ('Feszter'),
 ('Fesztory'),
 ('Feta'),
@@ -9011,7 +8712,6 @@ VALUES
 ('Fetcher'),
 ('Fetchko'),
 ('Fetcho'),
-
 ('Fetcu'),
 ('Fete'),
 ('Feteh'),
@@ -9066,7 +8766,6 @@ VALUES
 ('Fetinija'),
 ('Fetish'),
 ('Fetishi'),
-
 ('Fetita'),
 ('Fetiti'),
 ('Fetiu'),
@@ -9105,7 +8804,6 @@ VALUES
 ('Fette'),
 ('Fetter'),
 ('Fetterer'),
-
 ('Fetterley'),
 ('Fetterly'),
 ('Fetterman'),
@@ -9161,7 +8859,6 @@ VALUES
 ('Feuerbach'),
 ('Feuerbacher'),
 ('Feuerbaum'),
-
 ('Feuerborn'),
 ('Feuerer'),
 ('Feuerhelm'),
@@ -9312,7 +9009,7 @@ VALUES
 ('Feynerol'),
 ('Feynman'),
 ('Feyona'),
-('Feyou'),
+
 ('Feyrer'),
 ('Feyroos'),
 ('Feyrouz'),
@@ -9333,12 +9030,10 @@ VALUES
 ('Feyzioglu'),
 ('Feyziya'),
 ('Feyziye'),
-
 ('Feyzt'),
 ('Feyzula'),
 ('Feyzulla'),
 ('Feyzullah'),
-
 ('Feza'),
 ('Fezaan'),
 ('Fezabanu'),
@@ -9361,7 +9056,6 @@ VALUES
 ('Fezira'),
 ('Feziye'),
 ('Feznadeer'),
-
 ('Fezra'),
 ('Fezril'),
 ('Fezul'),
@@ -9373,7 +9067,6 @@ VALUES
 ('Ffinch'),
 ('Ffion'),
 ('Ffiona'),
-
 ('Fflur'),
 ('Ffolkes'),
 ('Ffolliott'),
@@ -9435,7 +9128,6 @@ VALUES
 ('Fhatuwani'),
 ('Fhay'),
 ('Fher'),
-
 ('Fhian'),
 ('Fhil'),
 ('Fhima'),
@@ -9484,14 +9176,11 @@ VALUES
 ('Fialka'),
 ('Fialko'),
 ('Fialkoff'),
-
-
 ('Fialkovskis'),
 ('Fialkowski'),
 ('Fiallo'),
 ('Fiallos'),
 ('Fialon'),
-
 ('Fiam'),
 ('Fiama'),
 ('Fiamanya'),
@@ -9510,7 +9199,6 @@ VALUES
 ('Fiandaca'),
 ('Fiander'),
 ('Fiandesio'),
-
 ('Fiangol'),
 ('Fianke'),
 ('Fianko'),
@@ -9568,7 +9256,6 @@ VALUES
 ('Fibian'),
 ('Fibic'),
 ('Fibich'),
-
 ('Fibidu'),
 ('Fibiga'),
 ('Fibinger'),
@@ -9596,7 +9283,6 @@ VALUES
 ('Ficchi'),
 ('Ficco'),
 ('Ficdler'),
-
 ('Ficenec'),
 ('Ficeri'),
 ('Ficerman'),
@@ -9607,7 +9293,6 @@ VALUES
 ('Fichelson'),
 ('Ficher'),
 ('Fichera'),
-
 ('Fichers'),
 ('Fichet'),
 ('Ficheux'),
@@ -9616,7 +9301,7 @@ VALUES
 ('Fichman'),
 ('Ficho'),
 ('Fichot'),
-('Fichou'),
+
 ('Ficht'),
 ('Fichte'),
 ('Fichtel'),
@@ -9650,7 +9335,6 @@ VALUES
 ('Fickler'),
 ('Ficklin'),
 ('Fickling'),
-
 ('Ficks'),
 ('Fickweiler'),
 ('Fico'),
@@ -9661,7 +9345,6 @@ VALUES
 ('Ficorilli'),
 ('Ficsor'),
 ('Ficuta'),
-
 ('Fida'),
 ('Fidaa'),
 ('Fidaali'),
@@ -9689,8 +9372,6 @@ VALUES
 ('Fidangul'),
 ('Fidanis'),
 ('Fidanka'),
-('Fidanoglou'),
-
 
 ('Fidanza'),
 ('Fidarie'),
@@ -9775,7 +9456,7 @@ VALUES
 ('Fidolis'),
 ('Fidone'),
 ('Fidos'),
-('Fidou'),
+
 ('Fidouh'),
 ('Fidoulla'),
 ('Fidow'),
@@ -9787,7 +9468,6 @@ VALUES
 ('Fiducia'),
 ('Fiduse'),
 ('Fidvi'),
-
 ('Fidyka'),
 ('Fidytek'),
 ('Fie'),
@@ -9796,7 +9476,6 @@ VALUES
 ('Fiebich'),
 ('Fiebig'),
 ('Fiebiger'),
-
 ('Fiechter'),
 ('Fiechtner'),
 ('Fieck'),
@@ -9805,21 +9484,15 @@ VALUES
 ('Fieden'),
 ('Fiederlein'),
 ('Fiedler'),
-
 ('Fiedor'),
-
-
 ('Fiedorec'),
-
 ('Fiedorow'),
-
 ('Fiedorowilz'),
 ('Fiedoruk'),
-
 ('Fiedosiuk'),
 ('Fiedotow'),
 ('Fiedrich'),
-('Fiedtkou'),
+
 ('Fiedura'),
 ('Fieekiyanage'),
 ('Fief'),
@@ -9859,9 +9532,7 @@ VALUES
 ('Fieldus'),
 ('Fieldwick'),
 ('Fieler'),
-
 ('Fielipe'),
-
 ('Fiell'),
 ('Fielm'),
 ('Fielman'),
@@ -9869,7 +9540,6 @@ VALUES
 ('Fiema'),
 ('Fieming'),
 ('Fien'),
-
 ('Fienburgh'),
 ('Fiendley'),
 ('Fiene'),
@@ -9895,7 +9565,7 @@ VALUES
 ('Fiermonte'),
 ('Fiero'),
 ('Fieroiu'),
-('Fierou'),
+
 ('Fieroz'),
 ('Fierra'),
 ('Fierro'),
@@ -9961,7 +9631,6 @@ VALUES
 ('Fifunmi'),
 ('Fig'),
 ('Figa'),
-
 ('Figaia'),
 ('Figalli'),
 ('Figan'),
@@ -9971,7 +9640,6 @@ VALUES
 ('Figaro'),
 ('Figaroa'),
 ('Figarola'),
-
 ('Figarski'),
 ('Figarsky'),
 ('Figart'),
@@ -10012,11 +9680,8 @@ VALUES
 ('Figiola'),
 ('Figiri'),
 ('Figlar'),
-
 ('Figlear'),
 ('Figler'),
-
-
 ('Figlewski'),
 ('Figley'),
 ('Figlia'),
@@ -10030,7 +9695,6 @@ VALUES
 ('Figlomeni'),
 ('Figlus'),
 ('Fignar'),
-
 ('Figo'),
 ('Figoli'),
 ('Figols'),
@@ -10076,8 +9740,6 @@ VALUES
 ('Figuri'),
 ('Figurinaite'),
 ('Figuroa'),
-
-
 ('Figurski'),
 ('Figus'),
 ('Figy'),
@@ -10103,8 +9765,6 @@ VALUES
 ('Fijak'),
 ('Fijal'),
 ('Fijalka'),
-
-
 ('Fijalkowski'),
 ('Fijas'),
 ('Fijen'),
@@ -10150,7 +9810,6 @@ VALUES
 ('Fiknet'),
 ('Fiknete'),
 ('Fiko'),
-
 ('Fikr'),
 ('Fikrat'),
 ('Fikre'),
@@ -10159,7 +9818,6 @@ VALUES
 ('Fikret'),
 ('Fikreta'),
 ('Fikrete'),
-
 ('Fikri'),
 ('Fikria'),
 ('Fikrie'),
@@ -10189,8 +9847,6 @@ VALUES
 ('Filacchione'),
 ('Filadelfo'),
 ('Filadhere'),
-
-
 ('Filahi'),
 ('Filaj'),
 ('Filak'),
@@ -10198,7 +9854,7 @@ VALUES
 ('Filali'),
 ('Filan'),
 ('Filancia'),
-('Filandrianou'),
+
 ('Filandro'),
 ('Filandt'),
 ('Filanenko'),
@@ -10214,7 +9870,6 @@ VALUES
 ('Filaret'),
 ('Filareta'),
 ('Filareti'),
-
 ('Filarski'),
 ('Filary'),
 ('Filas'),
@@ -10224,8 +9879,6 @@ VALUES
 ('Filatkina'),
 ('Filaton'),
 ('Filatous'),
-
-
 ('Filatovas'),
 ('Filatovich'),
 ('Filatovs'),
@@ -10253,7 +9906,6 @@ VALUES
 ('Filda'),
 ('Fildah'),
 ('Fildane'),
-
 ('Filder'),
 ('Fildes'),
 ('Fildesa'),
@@ -10266,10 +9918,8 @@ VALUES
 ('Fileds'),
 ('Fileen'),
 ('Filek'),
-
 ('Filemon'),
 ('Filemu'),
-
 ('Filenko'),
 ('Filep'),
 ('Filepe'),
@@ -10280,7 +9930,6 @@ VALUES
 ('Fileti'),
 ('Fileto'),
 ('Filetoth'),
-
 ('Filetti'),
 ('Filetto'),
 ('Filev'),
@@ -10299,7 +9948,6 @@ VALUES
 ('Filhoze'),
 ('Fili'),
 ('Filia'),
-
 ('Filiaggi'),
 ('Filiak'),
 ('Filian'),
@@ -10325,7 +9973,7 @@ VALUES
 ('Filida'),
 ('Filidaus'),
 ('Filide'),
-('Filidou'),
+
 ('Filie'),
 ('Filiea'),
 ('Filife'),
@@ -10340,8 +9988,6 @@ VALUES
 ('Filimom'),
 ('Filimon'),
 ('Filimoniuk'),
-
-
 ('Filimonovs'),
 ('Filimoskina'),
 ('Filimoskinas'),
@@ -10351,10 +9997,8 @@ VALUES
 ('Filine'),
 ('Filingeri'),
 ('Filini'),
-
 ('Filinkovs'),
 ('Filinna'),
-
 ('Filinski'),
 ('Filinto'),
 ('Filintra'),
@@ -10373,17 +10017,12 @@ VALUES
 ('Filipchuk'),
 ('Filipcik'),
 ('Filipciuc'),
-
-
-
 ('Filipe'),
 ('Filipei'),
 ('Filipek'),
 ('Filipekas'),
-
 ('Filipelli'),
 ('Filipenko'),
-
 ('Filipescu'),
 ('Filipi'),
 ('Filipiak'),
@@ -10394,17 +10033,12 @@ VALUES
 ('Filipina'),
 ('Filipinas'),
 ('Filipini'),
-
 ('Filipiuk'),
-
-
 ('Filipkowski'),
 ('Filipo'),
 ('Filipof'),
 ('Filipoiu'),
 ('Filiposki'),
-('Filipouou'),
-
 
 ('Filipovas'),
 ('Filipovic'),
@@ -10418,14 +10052,11 @@ VALUES
 ('Filipovski'),
 ('Filipovych'),
 ('Filipow'),
-
-
 ('Filipowski'),
 ('Filipp'),
 ('Filippa'),
-('Filippakopoulou'),
-('Filippatos'),
 
+('Filippatos'),
 ('Filippe'),
 ('Filippeli'),
 ('Filippelli'),
@@ -10437,7 +10068,7 @@ VALUES
 ('Filippides'),
 ('Filippidi'),
 ('Filippidis'),
-('Filippidou'),
+
 ('Filippini'),
 ('Filippo'),
 ('Filippochkina'),
@@ -10447,14 +10078,11 @@ VALUES
 ('Filipponis'),
 ('Filippopoulos'),
 ('Filippos'),
-('Filippou'),
+
 ('Filippoulos'),
 ('Filippousi'),
-
-
 ('Filippovych'),
 ('Filips'),
-
 ('Filipski'),
 ('Filipson'),
 ('Filiptsik'),
@@ -10475,8 +10103,6 @@ VALUES
 ('Filistrucchi'),
 ('Filitisiya'),
 ('Filitsa'),
-
-
 ('Filius'),
 ('Filiusina'),
 ('Filiuta'),
@@ -10489,10 +10115,7 @@ VALUES
 ('Filkin'),
 ('Filkins'),
 ('Filko'),
-
-
 ('Filkret'),
-
 ('Filla'),
 ('Fillagos'),
 ('Fillaire'),
@@ -10553,17 +10176,14 @@ VALUES
 ('Filloon'),
 ('Filloreta'),
 ('Filloux'),
-
 ('Fillpot'),
 ('Filly'),
 ('Fillyaw'),
-
 ('Fillyphe'),
 ('Filma'),
 ('filman'),
 ('Filmanavicius'),
 ('Filmanaviciute'),
-
 ('Filmawi'),
 ('Filmawit'),
 ('Filmawitt'),
@@ -10581,7 +10201,6 @@ VALUES
 ('Filocamo'),
 ('Filocaro'),
 ('Filocaso'),
-
 ('Filochowski'),
 ('Filoda'),
 ('Filoftea'),
@@ -10602,11 +10221,9 @@ VALUES
 ('Filomon'),
 ('Filon'),
 ('Filonas'),
-
 ('Filonenko'),
 ('Filonik'),
 ('Filonovaite'),
-
 ('Filonuk'),
 ('Filoponlos'),
 ('Filopoulos'),
@@ -10619,7 +10236,6 @@ VALUES
 ('Filosi'),
 ('Filosidis'),
 ('Filoso'),
-('Filosofopoulou'),
 
 ('Filosto'),
 ('Filote'),
@@ -10629,11 +10245,10 @@ VALUES
 ('Filotico'),
 ('Filotrani'),
 ('Filotto'),
-('Filou'),
+
 ('Filoufas'),
 ('Filoumeni'),
 ('Filous'),
-
 ('Filoxeni'),
 ('Filp'),
 ('Filpa'),
@@ -10667,14 +10282,10 @@ VALUES
 ('Filusionoks'),
 ('Filusonoks'),
 ('Filut'),
-
 ('Fily'),
 ('Filyak'),
 ('Filyan'),
 ('Filyaw'),
-
-
-
 ('Filyovski'),
 ('Filz'),
 ('Filza'),
@@ -10741,10 +10352,8 @@ VALUES
 ('Finbarn'),
 ('Finbarr'),
 ('Finber'),
-
 ('Finboe'),
 ('Finbow'),
-
 ('Finburgh'),
 ('Finca'),
 ('Fincan'),
@@ -10762,14 +10371,12 @@ VALUES
 ('Finchum'),
 ('Finchy'),
 ('Finci'),
-
 ('Fincie'),
 ('Finciszki'),
 ('Finck'),
 ('Finckbone'),
 ('Fincke'),
 ('Fincken'),
-
 ('Finco'),
 ('Fincutter'),
 ('Finda'),
@@ -10799,10 +10406,7 @@ VALUES
 ('Findling'),
 ('Findlow'),
 ('Findoliya'),
-
-
 ('Findon'),
-
 ('Findoro'),
 ('Finduelo'),
 ('Findull'),
@@ -10810,9 +10414,7 @@ VALUES
 ('Fineas'),
 ('Fineass'),
 ('Finebaum'),
-
 ('Finecountry'),
-
 ('Fineday'),
 ('Finedon'),
 ('Fineese'),
@@ -10845,14 +10447,12 @@ VALUES
 ('Finey'),
 ('Fineza'),
 ('Finfando'),
-
 ('Finfrock'),
 ('Fing'),
 ('Fingado'),
 ('Fingal'),
 ('Fingall'),
 ('Fingar'),
-
 ('Finge'),
 ('Fingenschau'),
 ('Fingerett'),
@@ -10870,7 +10470,6 @@ VALUES
 ('Fini'),
 ('Finian'),
 ('Finias'),
-
 ('Finica'),
 ('Finical'),
 ('Finicelli'),
@@ -10906,10 +10505,8 @@ VALUES
 ('Finkbonner'),
 ('Finke'),
 ('Finkel'),
-
 ('Finkelman'),
 ('Finkelshtein'),
-
 ('Finkelson'),
 ('Finkelstein'),
 ('Finkelstern'),
@@ -10930,7 +10527,6 @@ VALUES
 ('Finkley'),
 ('Finkner'),
 ('Finko'),
-
 ('Finks'),
 ('Finku'),
 ('Finlae'),
@@ -10970,7 +10566,6 @@ VALUES
 ('Finne'),
 ('Finnean'),
 ('Finneas'),
-
 ('Finnecy'),
 ('Finnefrock'),
 ('Finnegan'),
@@ -11039,8 +10634,6 @@ VALUES
 ('Finocchiaro'),
 ('Finocchio'),
 ('Finochio'),
-
-
 ('Finogenovh'),
 ('Finok'),
 ('Finol'),
@@ -11055,7 +10648,6 @@ VALUES
 ('Finotto'),
 ('Finoula'),
 ('Finoulla'),
-
 ('Finozkhan'),
 ('Fins'),
 ('Finsbury'),
@@ -11099,7 +10691,6 @@ VALUES
 ('Finyuk'),
 ('Finze'),
 ('Finzel'),
-
 ('Finzer'),
 ('Finzi'),
 ('Fio'),
@@ -11109,12 +10700,9 @@ VALUES
 ('Fiodor'),
 ('Fiodoras'),
 ('Fiodorenko'),
-
-
 ('Fiodorovas'),
 ('Fiodoroviene'),
 ('Fiodorow'),
-
 ('Fiodot'),
 ('Fiol'),
 ('Fiola'),
@@ -11226,18 +10814,15 @@ VALUES
 ('Fiorot'),
 ('Fiorotti'),
 ('Fiortti'),
-
 ('Fiorulla'),
 ('Fiorza'),
 ('Fiosal'),
 ('Fiossonangaye'),
 ('Fiotakis'),
-
-
 ('Fioto'),
 ('Fiotodimitrak'),
 ('Fioty'),
-('Fiou'),
+
 ('Fioulingk'),
 ('Fiouz'),
 ('Fioye'),
@@ -11290,7 +10875,6 @@ VALUES
 ('Firchau'),
 ('Firchuk'),
 ('Fircloth'),
-
 ('Firdans'),
 ('Firdantini'),
 ('Firdaos'),
@@ -11383,8 +10967,6 @@ VALUES
 ('Firkey'),
 ('Firkin'),
 ('Firkins'),
-
-
 ('Firkowski'),
 ('Firkret'),
 ('Firkry'),
@@ -11395,7 +10977,6 @@ VALUES
 ('Firlag'),
 ('Firle'),
 ('Firlej'),
-
 ('Firley'),
 ('Firlik'),
 ('Firlit'),
@@ -11463,7 +11044,6 @@ VALUES
 ('Firouzian'),
 ('Firouzmand'),
 ('Firouzyar'),
-
 ('Firow'),
 ('Firoz'),
 ('Firoza'),
@@ -11486,20 +11066,13 @@ VALUES
 ('Firrell'),
 ('Firrie'),
 ('Firrous'),
-
 ('Firsching'),
 ('Firshman'),
 ('Firsht'),
-
 ('Firsiuk'),
-
-
 ('Firsovas'),
-
 ('Firstater'),
-
 ('Firster'),
-
 ('Firszt'),
 ('Firtat'),
 ('Firtelmaister'),
@@ -11539,7 +11112,6 @@ VALUES
 ('Fisaha'),
 ('Fisahaye'),
 ('Fisal'),
-
 ('Fisanick'),
 ('Fisanotti'),
 ('Fisauli'),
@@ -11567,7 +11139,6 @@ VALUES
 ('Fischenich'),
 ('Fischer'),
 ('Fischerfeier'),
-
 ('Fischesser'),
 ('Fischette'),
 ('Fischetti'),
@@ -11592,12 +11163,11 @@ VALUES
 ('Fisek'),
 ('Fisekci'),
 ('Fisentzos'),
-('Fisentzou'),
+
 ('Fiser'),
 ('Fiseraite'),
 ('Fiseriene'),
 ('Fisermanis'),
-
 ('Fiseryte'),
 ('Fiset'),
 ('Fisette'),
@@ -11697,7 +11267,6 @@ VALUES
 ('Fita'),
 ('Fitah'),
 ('Fitaima'),
-
 ('Fitamant'),
 ('Fitamnt'),
 ('Fitanides'),
@@ -11740,9 +11309,6 @@ VALUES
 ('Fitin'),
 ('Fitini'),
 ('Fitinia'),
-
-
-
 ('Fitisovs'),
 ('Fitizroy'),
 ('Fitkin'),
@@ -11785,7 +11351,7 @@ VALUES
 ('Fitser'),
 ('Fitsgerald'),
 ('Fitsioris'),
-('Fitsiou'),
+
 ('Fitsum'),
 ('Fitsumbirhan'),
 ('Fitsych'),
@@ -11815,7 +11381,6 @@ VALUES
 ('Fittz'),
 ('Fituri'),
 ('Fitwi'),
-
 ('Fitza'),
 ('Fitzachary'),
 ('Fitzakerly'),
@@ -11831,7 +11396,6 @@ VALUES
 ('Fitzduff'),
 ('Fitze'),
 ('Fitzek'),
-
 ('Fitzell'),
 ('Fitzelle'),
 ('Fitzen'),
@@ -11916,8 +11480,6 @@ VALUES
 ('Fiusco'),
 ('Fiustes'),
 ('Fiuta'),
-
-
 ('Fiutowski'),
 ('Fiuza'),
 ('Fivas'),
@@ -11985,7 +11547,6 @@ VALUES
 ('Fizi'),
 ('Fizia'),
 ('Fiziana'),
-
 ('Fizipa'),
 ('Fizmani'),
 ('Fizomena'),
@@ -12002,9 +11563,7 @@ VALUES
 ('Fjaervoll'),
 ('Fjallman'),
 ('Fjallstrom'),
-
 ('Fjeld'),
-
 ('Fjeldbonde'),
 ('Fjeldheim'),
 ('Fjeldstad'),
@@ -12026,10 +11585,8 @@ VALUES
 ('Fjetland'),
 ('Fjodon'),
 ('Fjodor'),
-('Fjodorou'),
+
 ('Fjodorous'),
-
-
 ('Fjodorovica'),
 ('Fjodorovics'),
 ('Fjodorovs'),
@@ -12063,19 +11620,16 @@ VALUES
 ('Flach'),
 ('Flachinecher'),
 ('Flachs'),
-
 ('Flacio'),
 ('Flack'),
 ('Flacke'),
 ('Flacks'),
-
 ('Flad'),
 ('Fladager'),
 ('Fladby'),
 ('Fladd'),
 ('Flade'),
 ('Fladeland'),
-
 ('Flader'),
 ('Fladerer'),
 ('Fladger'),
@@ -12122,23 +11676,18 @@ VALUES
 ('Flaischaker'),
 ('Flaishon'),
 ('Flaisler'),
-
-
 ('Flaiz'),
 ('Flaiza'),
 ('Flajoliet'),
 ('Flajszer'),
-
 ('Flak'),
 ('Flaka'),
 ('Flake'),
 ('Flaker'),
 ('Flakes'),
 ('Flakhaut'),
-
 ('Flakne'),
 ('Flakoll'),
-
 ('Flakrona'),
 ('Flaks'),
 ('Flaksmane'),
@@ -12182,7 +11731,7 @@ VALUES
 ('Flammini'),
 ('Flamos'),
 ('Flamour'),
-('Flampoutoglou'),
+
 ('Flamsholt'),
 ('Flamson'),
 ('Flamtermesky'),
@@ -12197,7 +11746,6 @@ VALUES
 ('Flanary'),
 ('Flanc'),
 ('Flancoes'),
-
 ('Fland'),
 ('Flander'),
 ('Flanders'),
@@ -12229,7 +11777,6 @@ VALUES
 ('Flannery'),
 ('Flannigan'),
 ('Flanquart'),
-
 ('Flantua'),
 ('Flapi'),
 ('Flaquer'),
@@ -12250,19 +11797,14 @@ VALUES
 ('Flashner'),
 ('Flasia'),
 ('Flasino'),
-
 ('Flasinski'),
-
 ('Flaskamp'),
 ('Flaskerud'),
 ('Flasko'),
-
 ('Flaspohler'),
 ('Flaster'),
 ('Flastin'),
-
 ('Flaszka'),
-
 ('Flaszynski'),
 ('Flatau'),
 ('Flateau'),
@@ -12346,7 +11888,6 @@ VALUES
 ('Flavy'),
 ('Flavyane'),
 ('Flawith'),
-
 ('Flawn'),
 ('Flax'),
 ('Flaxen'),
@@ -12395,7 +11936,7 @@ VALUES
 ('Fledderjohann'),
 ('Fledderjohn'),
 ('Fledderman'),
-('Fledou'),
+
 ('Fleece'),
 ('Fleegal'),
 ('Fleege'),
@@ -12442,7 +11983,6 @@ VALUES
 ('Fleischaker'),
 ('Fleischauer'),
 ('Fleischer'),
-
 ('Fleischez'),
 ('Fleischfresser'),
 ('Fleischhacker'),
@@ -12465,10 +12005,8 @@ VALUES
 ('Fleith'),
 ('Fleitman'),
 ('Fleitmann'),
-
 ('Flejieras'),
 ('Flekacs'),
-
 ('Flekech'),
 ('Flekiej'),
 ('Flekier'),
@@ -12574,7 +12112,6 @@ VALUES
 ('Fleurant'),
 ('Fleurantin'),
 ('Fleurat'),
-
 ('Fleurdelys'),
 ('Fleurdeon'),
 ('Fleure'),
@@ -12605,7 +12142,6 @@ VALUES
 ('Fleviour'),
 ('Flewellen'),
 ('Flewelling'),
-
 ('Flewers'),
 ('Flewett'),
 ('Flewin'),
@@ -12615,12 +12151,10 @@ VALUES
 ('Flexer'),
 ('Flexman'),
 ('Flexon'),
-
 ('Fleyshman'),
 ('Flez'),
 ('Flias'),
 ('Flibotte'),
-
 ('Flichy'),
 ('Flick'),
 ('Flicker'),
@@ -12699,21 +12233,17 @@ VALUES
 ('Flippini'),
 ('Flippo'),
 ('Flippos'),
-('Flippou'),
 ('Flippy'),
 ('Flipse'),
-('Flirt'),
 ('Flis'),
 ('Flisak'),
 ('Flisek'),
 ('Flisher'),
 ('Flisi'),
 ('Flisik'),
-
 ('Flisikowski'),
 ('Flisiuk'),
 ('Flisk'),
-
 ('Flisowski'),
 ('Fliss'),
 ('Flissi'),
@@ -12753,7 +12283,6 @@ VALUES
 ('Floaresu'),
 ('Floate'),
 ('Flobenc'),
-
 ('Flobier'),
 ('Flobin'),
 ('Floca'),
@@ -12765,7 +12294,6 @@ VALUES
 ('Floch'),
 ('Floche'),
 ('Flochlay'),
-
 ('Flocke'),
 ('Flocken'),
 ('Flockenhaus'),
@@ -12774,14 +12302,12 @@ VALUES
 ('Flockhart'),
 ('Flockinger'),
 ('Flockton'),
-
 ('Floden'),
 ('Floderus'),
 ('Flodgren'),
 ('Flodia'),
 ('Flodin'),
 ('Flodman'),
-
 ('Flodorovas'),
 ('Flodr'),
 ('Flodstrom'),
@@ -12789,7 +12315,6 @@ VALUES
 ('Floe'),
 ('Floeck'),
 ('Floella'),
-
 ('Floer'),
 ('Floerchinger'),
 ('Floering'),
@@ -12867,10 +12392,6 @@ VALUES
 ('Florbela'),
 ('Florbella'),
 ('Florchinger'),
-
-
-
-
 ('Flordeline'),
 ('Flordelis'),
 ('Flordeliz'),
@@ -12898,7 +12419,6 @@ VALUES
 ('Florelli'),
 ('Florellino'),
 ('Florello'),
-
 ('Floremar'),
 ('Floremont'),
 ('Floremta'),
@@ -12992,10 +12512,7 @@ VALUES
 ('Florianne'),
 ('Florianni'),
 ('Floriano'),
-
-
 ('Floriant'),
-
 ('Floribert'),
 ('Floribeth'),
 ('Floribn'),
@@ -13017,7 +12534,7 @@ VALUES
 ('Floridis'),
 ('Floridjon'),
 ('Florido'),
-('Floridou'),
+
 ('Florie'),
 ('Floriely'),
 ('Florien'),
@@ -13050,7 +12567,6 @@ VALUES
 ('Florinia'),
 ('Florinn'),
 ('Florino'),
-
 ('Florio'),
 ('Florioli'),
 ('Florion'),
@@ -13083,16 +12599,13 @@ VALUES
 ('Florjnda'),
 ('Florke'),
 ('Florkey'),
-
 ('Florko'),
-
 ('Florkowski'),
 ('Florlidia'),
 ('Florlinda'),
 ('Florman'),
 ('Flormino'),
 ('Florn'),
-
 ('Floro'),
 ('Floroaie'),
 ('Floroi'),
@@ -13100,8 +12613,6 @@ VALUES
 ('Floroiu'),
 ('Florontino'),
 ('Floros'),
-('Florou'),
-
 
 ('Florozelle'),
 ('Florrence'),
@@ -13122,11 +12633,7 @@ VALUES
 ('Floryan'),
 ('Florybert'),
 ('Floryda'),
-
 ('Florys'),
-
-
-
 ('Flos'),
 ('Flosi'),
 ('Flosita'),
@@ -13161,14 +12668,14 @@ VALUES
 ('Flourence'),
 ('Flourentz'),
 ('Flourentzos'),
-('Flourentzou'),
+
 ('Flouri'),
 ('Flouris'),
 ('Flournay'),
 ('Flourney'),
 ('Flournoy'),
 ('Flouros'),
-('Flourou'),
+
 ('Flousy'),
 ('Flouval'),
 ('Flover'),
@@ -13201,7 +12708,6 @@ VALUES
 ('Flude'),
 ('Fluder'),
 ('Fludgate'),
-
 ('Flueck'),
 ('Flueckiger'),
 ('Fluegel'),
@@ -13258,7 +12764,6 @@ VALUES
 ('Flurrence'),
 ('Flurry'),
 ('Flury'),
-
 ('Flusche'),
 ('Flusk'),
 ('Fluskey'),
@@ -13293,7 +12798,6 @@ VALUES
 ('Flygelring'),
 ('Flykt'),
 ('Flymn'),
-
 ('Flynn'),
 ('Flynndowney'),
 ('Flynne'),
@@ -13364,7 +12868,6 @@ VALUES
 ('Fobrogo'),
 ('Fobs'),
 ('Foca'),
-
 ('Focaccia'),
 ('Focaccio'),
 ('Focant'),
@@ -13389,7 +12892,6 @@ VALUES
 ('Focken'),
 ('Fockink'),
 ('Fockler'),
-
 ('Focks'),
 ('Fockter'),
 ('Foco'),
@@ -13434,7 +12936,6 @@ VALUES
 ('Fodoreaw'),
 ('Fodorica'),
 ('Fodoroiu'),
-
 ('Fodot'),
 ('Fodoulla'),
 ('Fodow'),
@@ -13464,7 +12965,6 @@ VALUES
 ('Foenander'),
 ('Foeppl'),
 ('Foerch'),
-
 ('Foerger'),
 ('Foers'),
 ('Foerschler'),
@@ -13512,7 +13012,6 @@ VALUES
 ('Fogaros'),
 ('Fogarty'),
 ('Fogas'),
-
 ('Fogato'),
 ('Fogba'),
 ('Fogbel'),
@@ -13521,11 +13020,9 @@ VALUES
 ('Foge'),
 ('Foged'),
 ('Fogel'),
-
 ('Fogele'),
 ('Fogell'),
 ('Fogelman'),
-
 ('Fogelquist'),
 ('Fogelsanger'),
 ('Fogelson'),
@@ -13669,10 +13166,7 @@ VALUES
 ('Fojorul'),
 ('Fojt'),
 ('Fojta'),
-
 ('Fojtik'),
-
-
 ('Fojtu'),
 ('Fojtuch'),
 ('Fojzr'),
@@ -13681,7 +13175,6 @@ VALUES
 ('Fokam'),
 ('Fokar'),
 ('Fokas'),
-
 ('Fokeer'),
 ('Fokeera'),
 ('Fokeerah'),
@@ -13705,8 +13198,8 @@ VALUES
 ('Fokia'),
 ('Fokianaki'),
 ('Fokianos'),
-('Fokianou'),
-('Fokidou'),
+
+
 ('Fokin'),
 ('Fokina'),
 ('Fokinaite'),
@@ -13723,7 +13216,7 @@ VALUES
 ('Fokoruddin'),
 ('Fokorul'),
 ('Fokorun'),
-('Fokou'),
+
 ('Fokow'),
 ('Fokra'),
 ('Fokru'),
@@ -13735,7 +13228,6 @@ VALUES
 ('Fokruzzaman'),
 ('Foks'),
 ('Foksa'),
-
 ('Foksinski'),
 ('Fokson'),
 ('Fokti'),
@@ -13817,7 +13309,6 @@ VALUES
 ('Folayimika'),
 ('Folayinka'),
 ('Folayon'),
-
 ('Folbigg'),
 ('Folc'),
 ('Folca'),
@@ -13830,10 +13321,6 @@ VALUES
 ('Folck'),
 ('Folckemer'),
 ('Folco'),
-
-
-
-
 ('Folda'),
 ('Folden'),
 ('Foldenauer'),
@@ -13851,13 +13338,12 @@ VALUES
 ('Folega'),
 ('Folegatti'),
 ('Foleiss'),
-
 ('Folejewski'),
 ('Folek'),
 ('Foleng'),
 ('Folero'),
 ('Foleros'),
-('Folerou'),
+
 ('Foles'),
 ('Folescle'),
 ('Foletta'),
@@ -13939,7 +13425,7 @@ VALUES
 ('Follette'),
 ('Folletto'),
 ('Folley'),
-('Follezou'),
+
 ('Folli'),
 ('Folliard'),
 ('Follick'),
@@ -14008,17 +13494,12 @@ VALUES
 ('Folta'),
 ('Foltache'),
 ('Foltan'),
-
 ('Foltin'),
 ('Folto'),
-
 ('Foltozan'),
 ('Foltran'),
 ('Folts'),
 ('Foltu'),
-
-
-
 ('Foltynski'),
 ('Foltz'),
 ('Folu'),
@@ -14039,7 +13520,6 @@ VALUES
 ('Foluwaso'),
 ('Foluwasola'),
 ('Folvig'),
-
 ('Folwarniak'),
 ('Folwell'),
 ('Folz'),
@@ -14047,7 +13527,6 @@ VALUES
 ('Fomake'),
 ('Foman'),
 ('Fomani'),
-
 ('Fomao'),
 ('Fomba'),
 ('Fombang'),
@@ -14056,7 +13535,6 @@ VALUES
 ('Fombutu'),
 ('Fomby'),
 ('Fomcenko'),
-
 ('Fome'),
 ('Fomeh'),
 ('Fomelack'),
@@ -14069,9 +13547,6 @@ VALUES
 ('Fomicevs'),
 ('Fomichev'),
 ('Fomicheva'),
-
-
-
 ('Fomicki'),
 ('Fomin'),
 ('Fomina'),
@@ -14101,7 +13576,6 @@ VALUES
 ('Fonah'),
 ('Fonari'),
 ('Fonaroff'),
-
 ('Fonatti'),
 ('Fonayi'),
 ('Foncannon'),
@@ -14137,7 +13611,7 @@ VALUES
 ('Foney'),
 ('Fonfara'),
 ('Fonfeder'),
-('Fonfou'),
+
 ('Fonfria'),
 ('Fong'),
 ('Fongang'),
@@ -14171,7 +13645,7 @@ VALUES
 ('Fonki'),
 ('Fonkom'),
 ('Fonkon'),
-('Fonkou'),
+
 ('Fonkoue'),
 ('Fonkumam'),
 ('Fonnegra'),
@@ -14187,7 +13661,6 @@ VALUES
 ('Fonoimoana'),
 ('Fonoll'),
 ('Fonollosa'),
-
 ('Fonovic'),
 ('Fonpria'),
 ('Fonrose'),
@@ -14245,7 +13718,6 @@ VALUES
 ('Fontannaz'),
 ('Fontano'),
 ('Fontanos'),
-
 ('Fontao'),
 ('Fontas'),
 ('Fontayne'),
@@ -14283,7 +13755,6 @@ VALUES
 ('Fontes'),
 ('Fontesse'),
 ('Fontevecchia'),
-
 ('Fonteyne'),
 ('Fonthelle'),
 ('Fonthes'),
@@ -14308,7 +13779,6 @@ VALUES
 ('Fontolliet'),
 ('Fontour'),
 ('Fontoura'),
-
 ('Fontquerni'),
 ('Fonts'),
 ('Fontus'),
@@ -14412,7 +13882,6 @@ VALUES
 ('Foraji'),
 ('Foraker'),
 ('Foral'),
-
 ('Foram'),
 ('Foramben'),
 ('Foran'),
@@ -14431,7 +13900,6 @@ VALUES
 ('Forazi'),
 ('Forba'),
 ('Forbach'),
-
 ('Forbang'),
 ('Forbath'),
 ('Forbaz'),
@@ -14440,7 +13908,6 @@ VALUES
 ('Forbeck'),
 ('Forben'),
 ('Forber'),
-
 ('Forbes'),
 ('Forbess'),
 ('Forbesy'),
@@ -14481,9 +13948,7 @@ VALUES
 ('Forclaz'),
 ('Forconi'),
 ('Forcos'),
-
 ('Forcum'),
-
 ('Ford'),
 ('Fordah'),
 ('Fordahl'),
@@ -14505,7 +13970,6 @@ VALUES
 ('Fordney'),
 ('Fordom'),
 ('Fordon'),
-
 ('Fordos'),
 ('Fordowza'),
 ('Fordred'),
@@ -14569,7 +14033,6 @@ VALUES
 ('Foret'),
 ('Foretia'),
 ('Foretich'),
-
 ('Foretuna'),
 ('Foreva'),
 ('Forey'),
@@ -14654,7 +14117,6 @@ VALUES
 ('Forisha'),
 ('Forisky'),
 ('Forister'),
-
 ('Foriwa'),
 ('Foriwaa'),
 ('Foriwaah'),
@@ -14720,12 +14182,9 @@ VALUES
 ('Formai'),
 ('Formakovs'),
 ('Formales'),
-
-
 ('Formambuh'),
 ('Forman'),
 ('Formanek'),
-
 ('Formanski'),
 ('Formanskiene'),
 ('Formanskis'),
@@ -14755,7 +14214,6 @@ VALUES
 ('Formiconi'),
 ('Formiehetti'),
 ('Formigal'),
-
 ('Forminski'),
 ('Formis'),
 ('Formisano'),
@@ -14783,8 +14241,6 @@ VALUES
 ('Fornai'),
 ('Fornaini'),
 ('Fornal'),
-
-
 ('Fornalski'),
 ('Fornanda'),
 ('Fornander'),
@@ -14804,7 +14260,6 @@ VALUES
 ('Fornazari'),
 ('Fornazier'),
 ('Fornazini'),
-
 ('Fornea'),
 ('Fornear'),
 ('Fornefeld'),
@@ -14904,7 +14359,6 @@ VALUES
 ('Forristall'),
 ('Forrister'),
 ('Forro'),
-
 ('Forrow'),
 ('Forrukh'),
 ('Forry'),
@@ -14915,7 +14369,6 @@ VALUES
 ('Forsas'),
 ('Forsayeth'),
 ('Forsbach'),
-
 ('Forsbrey'),
 ('Forsbrook'),
 ('Forsch'),
@@ -14927,7 +14380,6 @@ VALUES
 ('Forsdike'),
 ('Forsdyke'),
 ('Forse'),
-
 ('Forsee'),
 ('Forsell'),
 ('Forsen'),
@@ -14959,10 +14411,8 @@ VALUES
 ('Forsmark'),
 ('Forson'),
 ('Forsoni'),
-
 ('Forss'),
 ('Forssander'),
-
 ('Forssell'),
 ('Forssen'),
 ('Forsslund'),
@@ -15044,7 +14494,6 @@ VALUES
 ('Forton'),
 ('Fortosi'),
 ('Fortouni'),
-
 ('Fortozo'),
 ('Fortress'),
 ('Forts'),
@@ -15052,7 +14501,6 @@ VALUES
 ('Fortson'),
 ('Fortt'),
 ('Fortu'),
-
 ('Fortugna'),
 ('Fortugno'),
 ('Fortuin'),
@@ -15064,17 +14512,12 @@ VALUES
 ('Fortunatas'),
 ('Fortunati'),
 ('Fortunato'),
-
-
 ('Fortunatta'),
 ('Fortunatus'),
 ('Fortunee'),
 ('Fortuner'),
 ('Fortuniak'),
 ('Fortuno'),
-
-
-
 ('Fortunski'),
 ('Fortuny'),
 ('Fortuun'),
@@ -15094,7 +14537,6 @@ VALUES
 ('Forystek'),
 ('Forysth'),
 ('Forysyuk'),
-
 ('Forzan'),
 ('Forzana'),
 ('Forzano'),
@@ -15107,7 +14549,6 @@ VALUES
 ('Fos'),
 ('Fosa'),
 ('Fosbenner'),
-
 ('Fosberry'),
 ('Fosbert'),
 ('Fosbery'),
@@ -15115,7 +14556,6 @@ VALUES
 ('Fosbrink'),
 ('Fosbrook'),
 ('Fosbrooke'),
-
 ('Fosburgh'),
 ('Fosbury'),
 ('Fosca'),
@@ -15204,7 +14644,7 @@ VALUES
 ('Fossnes'),
 ('Fosso'),
 ('Fosson'),
-('Fossou'),
+
 ('Fossum'),
 ('Fossung'),
 ('Fost'),
@@ -15223,7 +14663,6 @@ VALUES
 ('Fostok'),
 ('Foston'),
 ('Fostun'),
-
 ('Fosu'),
 ('Fosua'),
 ('Fosuaa'),
@@ -15237,9 +14676,6 @@ VALUES
 ('Fosuwa'),
 ('Fosuwaa'),
 ('Fosuwaah'),
-
-
-
 ('Foszto'),
 ('Fota'),
 ('Fotabong'),
@@ -15259,12 +14695,12 @@ VALUES
 ('Foteimi'),
 ('Foteinaki'),
 ('Foteinakis'),
-('Foteinakou'),
+
 ('Foteini'),
 ('Foteinias'),
 ('Foteinopoulos'),
-('Foteinopoulou'),
-('Foteinou'),
+
+
 ('Fotejev'),
 ('Fotejeva'),
 ('Fotelina'),
@@ -15284,12 +14720,11 @@ VALUES
 ('Fotheringhame'),
 ('Fotheringill'),
 ('Fothringham'),
-
 ('Fotia'),
 ('Fotiades'),
 ('Fotiadi'),
 ('Fotiadis'),
-('Fotiadou'),
+
 ('Fotidar'),
 ('Fotik'),
 ('Fotika'),
@@ -15300,7 +14735,7 @@ VALUES
 ('Fotinos'),
 ('Fotiny'),
 ('Fotios'),
-('Fotiou'),
+
 ('Fotique'),
 ('Fotis'),
 ('Fotlunn'),
@@ -15312,9 +14747,9 @@ VALUES
 ('Fotoohi'),
 ('Fotoon'),
 ('Fotopoulos'),
-('Fotopoulou'),
+
 ('Fotos'),
-('Fotou'),
+
 ('Fotouh'),
 ('Fotouhi'),
 ('Fotoula'),
@@ -15328,14 +14763,13 @@ VALUES
 ('Fotso'),
 ('Fotta'),
 ('Fotter'),
-
 ('Fottes'),
 ('Fottrell'),
 ('Fotu'),
 ('Fotuah'),
 ('Foty'),
 ('Fotyo'),
-('Fou'),
+
 ('Foua'),
 ('Fouaad'),
 ('Fouabi'),
@@ -15421,7 +14855,7 @@ VALUES
 ('Foulcher'),
 ('Foulder'),
 ('Foulds'),
-('Foulematou'),
+
 ('Foules'),
 ('Foulet'),
 ('Fouley'),
@@ -15430,7 +14864,7 @@ VALUES
 ('Foulhouze'),
 ('Fouli'),
 ('Foulides'),
-('Foulidou'),
+
 ('Foulimata'),
 ('Foulis'),
 ('Foulk'),
@@ -15468,7 +14902,7 @@ VALUES
 ('Fountas'),
 ('Founti'),
 ('Fountian'),
-('Fountoukidou'),
+
 ('Fountoukos'),
 ('Fountoulaki'),
 ('Fountoulakis'),
@@ -15492,7 +14926,7 @@ VALUES
 ('Fourdous'),
 ('Foureaux'),
 ('Fourel'),
-('Fourengou'),
+
 ('Fouret'),
 ('Fourey'),
 ('Fourgeaud'),
@@ -15506,7 +14940,7 @@ VALUES
 ('Fourkiller'),
 ('Fourkiotis'),
 ('Fourkun'),
-('Fourlanou'),
+
 ('Fourman'),
 ('Fourmann'),
 ('Fourmaux'),
@@ -15518,7 +14952,7 @@ VALUES
 ('Fournadjieva'),
 ('Fournaison'),
 ('Fournarakis'),
-('Fournaridou'),
+
 ('Fournaris'),
 ('Fournerat'),
 ('Fournes'),
@@ -15547,7 +14981,7 @@ VALUES
 ('Fourt'),
 ('Fourte'),
 ('Fourtner'),
-('Fourtou'),
+
 ('Fourtoulaki'),
 ('Fourtoulakis'),
 ('Fourtout'),
@@ -15584,7 +15018,7 @@ VALUES
 ('Foutry'),
 ('Fouts'),
 ('Foutsias'),
-('Foutsitzoglou'),
+
 ('Foutty'),
 ('Fouty'),
 ('Foutz'),
@@ -15618,9 +15052,8 @@ VALUES
 ('Fovel'),
 ('Fovenyes'),
 ('Fovenyesi'),
-
 ('Fovitor'),
-('Fovou'),
+
 ('Fovzia'),
 ('Fow'),
 ('Fowaa'),
@@ -15766,7 +15199,6 @@ VALUES
 ('Foyla'),
 ('Foylan'),
 ('Foyle'),
-
 ('Foynes'),
 ('Foyoh'),
 ('Foyrlin'),
@@ -15820,7 +15252,6 @@ VALUES
 ('Foziljon'),
 ('Fozilot'),
 ('Fozilotun'),
-
 ('Foziluthun'),
 ('Fozina'),
 ('Fozir'),
@@ -15881,7 +15312,7 @@ VALUES
 ('Fraccacreta'),
 ('Fraccari'),
 ('Fraccaro'),
-('Fraccarou'),
+
 ('Fraccascia'),
 ('Fraccastoro'),
 ('Fracchia'),
@@ -15905,20 +15336,13 @@ VALUES
 ('Frack'),
 ('Frackelton'),
 ('Fracker'),
-
 ('Frackiewkz'),
 ('Frackleton'),
 ('Frackowiak'),
-
 ('Fraco'),
 ('Fracois'),
 ('Fracoso'),
 ('Fracquelina'),
-
-
-
-
-
 ('Fradd'),
 ('Fraddanno'),
 ('Fraddosio'),
@@ -15927,7 +15351,6 @@ VALUES
 ('Fradel'),
 ('Fradella'),
 ('Fraden'),
-
 ('Frader'),
 ('Fradera'),
 ('Fradet'),
@@ -15985,7 +15408,7 @@ VALUES
 ('Fragkopoula'),
 ('Fragkopoulos'),
 ('Fragkos'),
-('Fragkou'),
+
 ('Fragkoudi'),
 ('Fragkoulaki'),
 ('Fragkouli'),
@@ -16079,7 +15502,6 @@ VALUES
 ('Frajda'),
 ('Fraje'),
 ('Frajen'),
-
 ('Frajtag'),
 ('Frak'),
 ('Frake'),
@@ -16087,8 +15509,6 @@ VALUES
 ('Frakes'),
 ('Frakhat'),
 ('Fraklin'),
-
-
 ('Frakson'),
 ('Frakulla'),
 ('Fralar'),
@@ -16122,14 +15542,11 @@ VALUES
 ('Frampton'),
 ('Framrose'),
 ('Framu'),
-
 ('Fran'),
 ('Frana'),
 ('Franaisco'),
 ('Franaois'),
 ('Franas'),
-
-
 ('Franc'),
 ('Franca'),
 ('Francais'),
@@ -16153,7 +15570,6 @@ VALUES
 ('Franceilia'),
 ('Franceine'),
 ('Franceise'),
-
 ('Francel'),
 ('Francele'),
 ('Franceli'),
@@ -16204,10 +15620,9 @@ VALUES
 ('Franceshini'),
 ('Francesia'),
 ('Francesk'),
-
 ('Franceski'),
 ('Francesko'),
-('Franceskou'),
+
 ('Franceslo'),
 ('Franceso'),
 ('Franceson'),
@@ -16218,7 +15633,6 @@ VALUES
 ('Francessca'),
 ('Francessco'),
 ('Francesse'),
-
 ('Francesso'),
 ('Francetic'),
 ('Francetta'),
@@ -16232,7 +15646,6 @@ VALUES
 ('Franchesca'),
 ('Franchescka'),
 ('Franchesco'),
-
 ('Francheteau'),
 ('Franchette'),
 ('Franchetti'),
@@ -16271,7 +15684,6 @@ VALUES
 ('Franciene'),
 ('Franciere'),
 ('Francies'),
-
 ('Franciette'),
 ('Francij'),
 ('Francik'),
@@ -16337,7 +15749,6 @@ VALUES
 ('Francisek'),
 ('Franciseo'),
 ('Francisk'),
-
 ('Franciskovich'),
 ('Franciskovity'),
 ('Francislaine'),
@@ -16355,7 +15766,6 @@ VALUES
 ('Franciszel'),
 ('Franciszer'),
 ('Franciszka'),
-
 ('Francita'),
 ('Francius'),
 ('Francival'),
@@ -16410,11 +15820,10 @@ VALUES
 ('Francopaolo'),
 ('Francos'),
 ('Francot'),
-('Francou'),
+
 ('Francoual'),
 ('Francour'),
 ('Francourt'),
-
 ('Francovig'),
 ('Francovigh'),
 ('Francovszky'),
@@ -16424,21 +15833,15 @@ VALUES
 ('Francscon'),
 ('Francsico'),
 ('Francu'),
-
 ('Francuk'),
 ('Franculescu'),
 ('Franculli'),
 ('Francuz'),
-
 ('Francy'),
 ('Francyne'),
 ('Francynne'),
 ('Francys'),
 ('Francyte'),
-
-
-
-
 ('Frand'),
 ('Franda'),
 ('Frandah'),
@@ -16460,7 +15863,6 @@ VALUES
 ('Franeisco'),
 ('Franeiseo'),
 ('Franek'),
-
 ('Franel'),
 ('Franeni'),
 ('Franeo'),
@@ -16474,9 +15876,8 @@ VALUES
 ('Frangaj'),
 ('Franganito'),
 ('Frangella'),
-
 ('Franger'),
-('Frangescou'),
+
 ('Frangeskos'),
 ('Frangeti'),
 ('Franggy'),
@@ -16490,7 +15891,7 @@ VALUES
 ('Frangipane'),
 ('Frangis'),
 ('Frangiskos'),
-('Frangiskou'),
+
 ('Frangleton'),
 ('Frangois'),
 ('Frangoise'),
@@ -16500,12 +15901,11 @@ VALUES
 ('Frangopoullos'),
 ('Frangopoulos'),
 ('Frangos'),
-('Frangou'),
+
 ('Frangoudes'),
 ('Frangoudis'),
 ('Frangoulis'),
 ('Frangoullides'),
-
 ('Frangs'),
 ('Frangu'),
 ('Frangue'),
@@ -16519,7 +15919,6 @@ VALUES
 ('Franics'),
 ('Franicsca'),
 ('Franie'),
-
 ('Franiel'),
 ('Franine'),
 ('Franio'),
@@ -16533,7 +15932,7 @@ VALUES
 ('Franjieh'),
 ('Franjisek'),
 ('Franjo'),
-('Franjou'),
+
 ('Franjul'),
 ('Frank'),
 ('Franka'),
@@ -16555,10 +15954,8 @@ VALUES
 ('Frankell'),
 ('Franken'),
 ('Frankenbach'),
-
 ('Frankenberger'),
 ('Frankenberry'),
-
 ('Frankenfeld'),
 ('Frankenfield'),
 ('Frankenheim'),
@@ -16585,7 +15982,6 @@ VALUES
 ('Frankiel'),
 ('Frankiemay'),
 ('Frankiene'),
-
 ('Frankii'),
 ('Frankilin'),
 ('Frankin'),
@@ -16605,7 +16001,6 @@ VALUES
 ('Frankline'),
 ('Frankling'),
 ('Franklinos'),
-
 ('Franklyne'),
 ('Franklynette'),
 ('Franklynn'),
@@ -16613,13 +16008,10 @@ VALUES
 ('Frankman'),
 ('Franko'),
 ('Frankos'),
-
 ('Frankovic'),
 ('Frankovich'),
 ('Frankow'),
 ('Frankowiak'),
-
-
 ('Frankowski'),
 ('Franks'),
 ('Franksen'),
@@ -16645,7 +16037,6 @@ VALUES
 ('Franois'),
 ('Franosch'),
 ('Franovich'),
-
 ('Franpton'),
 ('Franque'),
 ('Franqueira'),
@@ -16698,7 +16089,6 @@ VALUES
 ('Fransisco'),
 ('Fransiscus'),
 ('Fransishku'),
-
 ('Fransiszek'),
 ('Fransje'),
 ('Fransman'),
@@ -16716,33 +16106,26 @@ VALUES
 ('Fransury'),
 ('Franswah'),
 ('Fransway'),
-
 ('Frant'),
 ('Franta'),
 ('Franthesco'),
 ('Franthiesco'),
 ('Franti'),
 ('Frantiesko'),
-
 ('Frantisek'),
 ('Frantiseks'),
 ('Frantishek'),
 ('Frantishko'),
-
 ('Frantizis'),
 ('Frantom'),
 ('Franton'),
 ('Frantos'),
-
 ('Frants'),
 ('Frantsen'),
 ('Frantsi'),
 ('Frantsisk'),
-
 ('Frantskeko'),
 
-
-('Frantszeskou'),
 ('Frantum'),
 ('Frantuzu'),
 ('Franty'),
@@ -16751,14 +16134,12 @@ VALUES
 ('Frantzell'),
 ('Frantzen'),
 
-('Frantzeskou'),
-
 ('Frantzi'),
 ('Frantzich'),
 ('Frantzides'),
 ('Frantzis'),
 ('Frantzoulos'),
-('Frantzoulou'),
+
 ('Frantzpoulos'),
 ('Frantzsen'),
 ('Franukevicius'),
@@ -16783,7 +16164,6 @@ VALUES
 ('Franzer'),
 ('Franzese'),
 
-('Franzeskou'),
 ('Franzetti'),
 ('Franzi'),
 ('Franzia'),
@@ -16797,7 +16177,6 @@ VALUES
 ('Franzino'),
 ('Franzis'),
 ('Franzisca'),
-
 ('Franziskus'),
 ('Franzisla'),
 ('Franzke'),
@@ -16896,10 +16275,7 @@ VALUES
 ('Frassrand'),
 ('Frasta'),
 ('Frastali'),
-
 ('Frasure'),
-
-
 ('Fraszek'),
 ('Fraszt'),
 ('Fratagnoli'),
@@ -16909,7 +16285,6 @@ VALUES
 ('Fratantonio'),
 ('Fratarcangeli'),
 ('Fratari'),
-
 ('Frate'),
 ('Fratea'),
 ('Fratean'),
@@ -16922,7 +16297,6 @@ VALUES
 ('Fraterman'),
 ('Fraternale'),
 ('Fraternali'),
-
 ('Fraterrigo'),
 ('Frates'),
 ('Fratescu'),
@@ -17015,10 +16389,8 @@ VALUES
 ('Fraylingcork'),
 ('Fraylon'),
 ('Frayman'),
-
 ('Frayna'),
 ('Frayne'),
-
 ('Frayre'),
 ('Frayser'),
 ('Fraysier'),
@@ -17080,9 +16452,7 @@ VALUES
 ('Frebault'),
 ('Frebel'),
 ('Freber'),
-
 ('Freberic'),
-
 ('Freburger'),
 ('Freccero'),
 ('Frecchiero'),
@@ -17091,8 +16461,6 @@ VALUES
 ('Frechette'),
 ('Frechin'),
 ('Frechoso'),
-('Frechou'),
-
 
 ('Frechter'),
 ('Frecia'),
@@ -17101,7 +16469,6 @@ VALUES
 ('Freckingham'),
 ('Freckleton'),
 ('Frecknall'),
-
 ('Fred'),
 ('Freda'),
 ('Fredah'),
@@ -17126,8 +16493,6 @@ VALUES
 ('Fredell'),
 ('Fredella'),
 ('Freden'),
-
-
 ('Fredenburgh'),
 ('Fredenco'),
 ('Fredendall'),
@@ -17175,7 +16540,6 @@ VALUES
 ('Frederric'),
 ('Frederrica'),
 ('Frederrick'),
-
 ('Fredeslina'),
 ('Fredesminda'),
 ('Fredeswinda'),
@@ -17227,7 +16591,6 @@ VALUES
 ('Fredrica'),
 ('Fredricca'),
 ('Fredrich'),
-
 ('Fredrichs'),
 ('Fredrichsen'),
 ('Fredrick'),
@@ -17248,7 +16611,6 @@ VALUES
 ('Fredrikson'),
 ('Fredriksson'),
 ('Fredrique'),
-
 ('Fredroy'),
 ('Fredsbo'),
 ('Fredsgaard'),
@@ -17258,12 +16620,10 @@ VALUES
 ('Fredua'),
 ('Freduah'),
 ('Fredun'),
-
 ('Fredy'),
 ('Fredya'),
 ('Freear'),
 ('Freebairn'),
-
 ('Freebern'),
 ('Freebird'),
 ('Freebish'),
@@ -17272,7 +16632,6 @@ VALUES
 ('Freeborough'),
 ('Freebourne'),
 ('Freebrey'),
-
 ('Freeburger'),
 ('Freeburn'),
 ('Freeburne'),
@@ -17283,7 +16642,6 @@ VALUES
 ('Freeda'),
 ('Freedah'),
 ('Freedanz'),
-
 ('Freede'),
 ('Freeder'),
 ('Freeders'),
@@ -17356,7 +16714,7 @@ VALUES
 ('Fregia'),
 ('Fregin'),
 ('Fregiste'),
-('Fregkoglou'),
+
 ('Fregnan'),
 ('Frego'),
 ('Fregoe'),
@@ -17385,14 +16743,12 @@ VALUES
 ('Freia'),
 ('Freias'),
 ('Freiba'),
-
 ('Freiberga'),
 ('Freiberger'),
 ('Freibergs'),
 ('Freibert'),
 ('Freiboth'),
 ('Freibothe'),
-
 ('Freiburger'),
 ('Freid'),
 ('Freida'),
@@ -17403,7 +16759,6 @@ VALUES
 ('Freideriki'),
 ('Freidet'),
 ('Freidhof'),
-
 ('Freidi'),
 ('Freidil'),
 ('Freidin'),
@@ -17467,7 +16822,6 @@ VALUES
 ('Freires'),
 ('Freiria'),
 ('Freis'),
-
 ('Freischem'),
 ('Freise'),
 ('Freiseis'),
@@ -17484,7 +16838,6 @@ VALUES
 ('Freistuhler'),
 ('Freita'),
 ('Freitag'),
-
 ('Freitakas'),
 ('Freitas'),
 ('Freite'),
@@ -17497,7 +16850,6 @@ VALUES
 ('Freixes'),
 ('Freixo'),
 ('Freiya'),
-
 ('Freize'),
 ('Frej'),
 ('Freja'),
@@ -17511,7 +16863,6 @@ VALUES
 ('Freji'),
 ('Frejiene'),
 ('Frejlich'),
-
 ('Frejtak'),
 ('Frejus'),
 ('Frejute'),
@@ -17522,8 +16873,6 @@ VALUES
 ('Freland'),
 ('Frelaure'),
 ('Frelich'),
-
-
 ('Freligh'),
 ('Frelik'),
 ('Frelin'),
@@ -17534,7 +16883,6 @@ VALUES
 ('Frelon'),
 ('Frelow'),
 ('Frels'),
-
 ('Frem'),
 ('Frema'),
 ('Fremah'),
@@ -17546,15 +16894,12 @@ VALUES
 ('Freme'),
 ('Fremeaux'),
 ('Fremer'),
-
 ('Fremette'),
 ('Fremgen'),
 ('Fremin'),
 ('Fremion'),
 ('Fremland'),
 ('Fremling'),
-
-
 ('Fremming'),
 ('Fremon'),
 ('Fremouw'),
@@ -17590,7 +16935,6 @@ VALUES
 ('Frencois'),
 ('Frencsh'),
 ('Frend'),
-
 ('Frendo'),
 ('Frendy'),
 ('Frenehard'),
@@ -17600,7 +16944,6 @@ VALUES
 ('Frenesi'),
 ('Frenett'),
 ('Frenette'),
-
 ('Freng'),
 ('Frengel'),
 ('Frenger'),
@@ -17679,7 +17022,6 @@ VALUES
 ('Freschi'),
 ('Freschini'),
 ('Fresco'),
-
 ('Frescura'),
 ('Fresdorfas'),
 ('Frese'),
@@ -17721,7 +17063,6 @@ VALUES
 ('Freston'),
 ('Frestrup'),
 ('Fresu'),
-
 ('Fret'),
 ('Freter'),
 ('Fretheim'),
@@ -17747,9 +17088,7 @@ VALUES
 ('Freud'),
 ('Freude'),
 ('Freuden'),
-
 ('Freudenberger'),
-
 ('Freudenfeld'),
 ('Freudenherger'),
 ('Freudenrich'),
@@ -17794,7 +17133,6 @@ VALUES
 ('Freyan'),
 ('Freyana'),
 ('Freyanna'),
-
 ('Freyberger'),
 ('Freyborn'),
 ('Freycenet'),
@@ -17827,7 +17165,6 @@ VALUES
 ('Freymont'),
 ('Freymuth'),
 ('Freyne'),
-('Freyou'),
 
 ('Freyre'),
 ('Freysdottir'),
@@ -17873,11 +17210,9 @@ VALUES
 ('Fribbins'),
 ('Fribek'),
 ('Fribence'),
-
 ('Fribley'),
 ('Fribo'),
 ('Friborg'),
-
 ('Friburgo'),
 ('Fric'),
 ('Fricand'),
@@ -17887,7 +17222,7 @@ VALUES
 ('Fricheteau'),
 ('Frichette'),
 ('Frichot'),
-('Frichou'),
+
 ('Frichtl'),
 ('Frick'),
 ('Fricke'),
@@ -17903,8 +17238,6 @@ VALUES
 ('Fricler'),
 ('Fricot'),
 ('Fricotteau'),
-
-
 ('Frid'),
 ('Frida'),
 ('Fridah'),
@@ -17914,7 +17247,6 @@ VALUES
 ('Fridaus'),
 ('Fridause'),
 ('Fridaye'),
-
 ('Fridberga'),
 ('Fridbjarardottir'),
 ('Fridd'),
@@ -17926,7 +17258,6 @@ VALUES
 ('Fridel'),
 ('Fridell'),
 ('Friden'),
-
 ('Fridenberga'),
 ('Fridenmaker'),
 ('Frideres'),
@@ -17960,7 +17291,6 @@ VALUES
 ('Fridoun'),
 ('Fridous'),
 ('Fridrich'),
-
 ('Fridricka'),
 ('Fridrih'),
 ('Fridrihsone'),
@@ -17976,23 +17306,19 @@ VALUES
 ('Frie'),
 ('Friebe'),
 ('Friebel'),
-
 ('Friebis'),
 ('Friebus'),
 ('Fried'),
 ('Frieda'),
 ('Friedah'),
-
 ('Friedbert'),
 ('Friede'),
-
 ('Friedeck'),
 ('Friedel'),
 ('Friedell'),
 ('Friedeman'),
 ('Friedemann'),
 ('Frieden'),
-
 ('Friedenberger'),
 ('Friedenike'),
 ('Friedenile'),
@@ -18012,7 +17338,6 @@ VALUES
 ('Friedhaber'),
 ('Friedheim'),
 ('Friedhelm'),
-
 ('Friedi'),
 ('Friedich'),
 ('Friedkin'),
@@ -18032,16 +17357,13 @@ VALUES
 ('Friedly'),
 ('Friedman'),
 ('Friedmann'),
-
 ('Friedmeyer'),
 ('Friedner'),
 ('Friedoonpour'),
-
 ('Friedri'),
 ('Friedric'),
 ('Friedrich'),
 ('Friedriche'),
-
 ('Friedrichs'),
 ('Friedrichsen'),
 ('Friedrick'),
@@ -18060,7 +17382,6 @@ VALUES
 ('Friela'),
 ('Frields'),
 ('Frieler'),
-
 ('Frieling'),
 ('Friell'),
 ('Friello'),
@@ -18087,7 +17408,6 @@ VALUES
 ('Friesema'),
 ('Friesen'),
 ('Friesenbiller'),
-
 ('Friesenhahn'),
 ('Frieske'),
 ('Frieslaar'),
@@ -18100,7 +17420,6 @@ VALUES
 ('Friest'),
 ('Friestad'),
 ('Friesth'),
-
 ('Frietas'),
 ('Frietman'),
 ('Frietsch'),
@@ -18220,7 +17539,7 @@ VALUES
 ('Frion'),
 ('Frior'),
 ('Friot'),
-('Friou'),
+
 ('Frioui'),
 ('Frioux'),
 ('Fripomaa'),
@@ -18243,14 +17562,12 @@ VALUES
 ('Frische'),
 ('Frischen'),
 ('Frischer'),
-
 ('Frischetto'),
 ('Frischke'),
 ('Frischknecht'),
 ('Frischkorn'),
 ('Frischman'),
 ('Frischmann'),
-
 ('Friscia'),
 ('Friscira'),
 ('Frisco'),
@@ -18260,7 +17577,6 @@ VALUES
 ('Frisenda'),
 ('Frisenna'),
 ('Frish'),
-
 ('Frishkorn'),
 ('Frishling'),
 ('Frishman'),
@@ -18272,7 +17588,6 @@ VALUES
 ('Frisino'),
 ('Frisira'),
 ('Frisk'),
-
 ('Friske'),
 ('Friskey'),
 ('Friskin'),
@@ -18297,12 +17612,10 @@ VALUES
 ('Fristedt'),
 ('Fristensky'),
 ('Fristianto'),
-
 ('Fristoe'),
 ('Frisvold'),
 ('Friswel'),
 ('Friswell'),
-
 ('Frita'),
 ('Fritat'),
 ('Fritch'),
@@ -18332,7 +17645,6 @@ VALUES
 ('Fritton'),
 ('Fritts'),
 ('Frittz'),
-
 ('Fritze'),
 ('Fritzel'),
 ('Fritzell'),
@@ -18348,7 +17660,6 @@ VALUES
 ('Fritzman'),
 ('Fritzmaurice'),
 ('Fritzner'),
-
 ('Fritzpatrick'),
 ('Fritzroy'),
 ('Fritzsch'),
@@ -18358,7 +17669,7 @@ VALUES
 ('Frivet'),
 ('Frix'),
 ('Frixos'),
-('Frixou'),
+
 ('Friya'),
 ('Friyana'),
 ('Friygia'),
@@ -18378,21 +17689,18 @@ VALUES
 ('Frizzle'),
 ('Frizzo'),
 ('Frkal'),
-
 ('Frlan'),
 ('Frlicka'),
 ('Frlizarda'),
 ('Frljak'),
 ('Frman'),
 ('Frmesk'),
-
 ('Frncis'),
 ('Frncoise'),
 ('Frnka'),
 ('Froats'),
 ('Frobeen'),
 ('Frobel'),
-
 ('Frobese'),
 ('Frobish'),
 ('Frobishear'),
@@ -18403,7 +17711,6 @@ VALUES
 ('Frode'),
 ('Froden'),
 ('Frodeno'),
-
 ('Froderman'),
 ('Frodge'),
 ('Frodhe'),
@@ -18453,12 +17760,10 @@ VALUES
 ('Frohar'),
 ('Frohardt'),
 ('Frohawk'),
-
 ('Frohde'),
 ('Frohlich'),
 ('Frohlick'),
 ('Frohling'),
-
 ('Frohm'),
 ('Frohmader'),
 ('Frohmaier'),
@@ -18500,14 +17805,10 @@ VALUES
 ('Frolic'),
 ('Frolich'),
 ('Frolik'),
-
 ('Frolin'),
 ('Froling'),
 ('Frolinghaus'),
-
 ('Frolleau'),
-('Frolou'),
-
 
 ('Frolovaite'),
 ('Frolovs'),
@@ -18518,8 +17819,6 @@ VALUES
 ('Fromant'),
 ('Fromanteel'),
 ('Frombach'),
-
-
 ('Fromdahl'),
 ('Frome'),
 ('Fromel'),
@@ -18545,7 +17844,6 @@ VALUES
 ('Fromondi'),
 ('Fromong'),
 ('Fromow'),
-
 ('Frompong'),
 ('Frompongmaa'),
 ('Fromson'),
@@ -18554,22 +17852,15 @@ VALUES
 ('Fronabarger'),
 ('Fronc'),
 ('Fronce'),
-
 ('Froncillo'),
 ('Froncine'),
 ('Froncisca'),
 ('Fronckowiak'),
-
-
-
-
-
 ('Frond'),
 ('Fronda'),
 ('Fronde'),
 ('Frondella'),
 ('Frondely'),
-
 ('Fronduti'),
 ('Fronea'),
 ('Froneberger'),
@@ -18588,10 +17879,8 @@ VALUES
 ('Froning'),
 ('Fronius'),
 ('Fronk'),
-
 ('Frontalini'),
 ('Frontana'),
-
 ('Fronte'),
 ('Fronteddu'),
 ('Frontera'),
@@ -18651,7 +17940,7 @@ VALUES
 ('Frossard'),
 ('Frosslund'),
 ('Frosso'),
-('Frossou'),
+
 ('Frost'),
 ('Frostad'),
 ('Frostander'),
@@ -18768,7 +18057,6 @@ VALUES
 ('Fruman'),
 ('Frumar'),
 ('Frumat'),
-
 ('Frume'),
 ('Frumeh'),
 ('Frumento'),
@@ -18838,15 +18126,11 @@ VALUES
 ('Fryatt'),
 ('Fryback'),
 ('Frybarger'),
-
 ('Fryberger'),
-
 ('Frybin'),
 ('Fryc'),
 ('Fryca'),
 ('Fryckstedt'),
-
-
 ('Fryd'),
 ('Fryda'),
 ('Frydas'),
@@ -18854,25 +18138,21 @@ VALUES
 ('Fryde'),
 ('Frydecka'),
 ('Frydel'),
-
 ('Frydenbo'),
 ('Frydendall'),
 ('Frydenlund'),
 ('Frydensborg'),
 ('Frydenson'),
-
 ('Fryderyka'),
 ('Frydkjaer'),
 ('Frydman'),
 ('Frydo'),
 ('Frydrak'),
 ('Frydrych'),
-
 ('Frydrychowski'),
 ('Frydrysiak'),
 ('Frydryszak'),
 ('Frydryszewki'),
-
 ('Frye'),
 ('Fryer'),
 ('Fryers'),
@@ -18882,7 +18162,6 @@ VALUES
 ('Fryga'),
 ('Fryhart'),
 ('Fryhover'),
-
 ('Frykegard'),
 ('Frykholm'),
 ('Frykman'),
@@ -18900,16 +18179,14 @@ VALUES
 ('Frymyer'),
 ('Frynas'),
 ('Fryni'),
-('Fryou'),
+
 ('Fryrear'),
 ('Frys'),
 ('Frysinger'),
 ('Fryslie'),
 ('Fryson'),
 ('Frystak'),
-
 ('Fryszka'),
-
 ('Fryszkowski'),
 ('Frysztak'),
 ('Fryt'),
@@ -18918,9 +18195,6 @@ VALUES
 ('Fryze'),
 ('Fryzel'),
 ('Fryziel'),
-
-
-
 ('Frzaneh'),
 ('Fshaile'),
 ('Fshaye'),
@@ -18929,9 +18203,9 @@ VALUES
 ('Fsseha'),
 ('Fssum'),
 ('Fstum'),
-('Ftaimou'),
+
 ('Ftaiti'),
-('Ftanou'),
+
 ('Ftaw'),
 ('Fthi'),
 ('Ftich'),
@@ -18980,11 +18254,8 @@ VALUES
 ('Fubu'),
 ('Fuca'),
 ('Fucarino'),
-
 ('Fuccillo'),
 ('Fuce'),
-
-
 ('Fuchez'),
 ('Fuchigami'),
 ('Fuchs'),
@@ -18994,12 +18265,10 @@ VALUES
 ('Fuchsia'),
 ('Fuchsjaeger'),
 ('Fuchsloch'),
-
 ('Fuchter'),
 ('Fuchun'),
 ('Fuci'),
 ('Fucik'),
-
 ('Fucile'),
 ('Fucili'),
 ('Fucilla'),
@@ -19009,9 +18278,7 @@ VALUES
 ('Fuckner'),
 ('Fucks'),
 ('Fucshia'),
-
 ('Fuda'),
-
 ('Fudala'),
 ('Fudalej'),
 ('Fudali'),
@@ -19027,7 +18294,6 @@ VALUES
 ('Fudulache'),
 ('Fudulachi'),
 ('Fudulica'),
-
 ('Fudulu'),
 ('Fuduma'),
 ('Fudumo'),
@@ -19070,7 +18336,6 @@ VALUES
 ('Fuerman'),
 ('Fuerst'),
 ('Fuerstenau'),
-
 ('Fuerstenberge'),
 ('Fuerster'),
 ('Fuertado'),
@@ -19133,11 +18398,9 @@ VALUES
 ('Fugitt'),
 ('Fugl'),
 ('Fugle'),
-
 ('Fugler'),
 ('Fuglesang'),
 ('Fuglestad'),
-
 ('Fuglistaller'),
 ('Fuglsang'),
 ('Fuglsig'),
@@ -19157,10 +18420,8 @@ VALUES
 ('Fuhaim'),
 ('Fuhan'),
 ('Fuhao'),
-
 ('Fuheng'),
 ('Fuher'),
-
 ('Fuhler'),
 ('Fuhr'),
 ('Fuhrek'),
@@ -19171,7 +18432,6 @@ VALUES
 ('Fuhrken'),
 ('Fuhrman'),
 ('Fuhrmann'),
-
 ('Fuhrmeister'),
 ('Fuhry'),
 ('Fuhs'),
@@ -19193,10 +18453,8 @@ VALUES
 ('Fujah'),
 ('Fujail'),
 ('Fujak'),
-
 ('Fujan'),
 ('Fujar'),
-
 ('Fujayel'),
 ('Fujer'),
 ('Fuji'),
@@ -19242,7 +18500,6 @@ VALUES
 ('Fukami'),
 ('Fukano'),
 ('Fukar'),
-
 ('Fukasawa'),
 ('Fukase'),
 ('Fukashi'),
@@ -19269,9 +18526,7 @@ VALUES
 ('Fukrul'),
 ('Fuks'),
 ('Fuksa'),
-
 ('Fuksman'),
-
 ('Fuku'),
 ('Fukuari'),
 ('Fukuba'),
@@ -19313,14 +18568,12 @@ VALUES
 ('Fulani'),
 ('Fular'),
 ('Fulara'),
-
 ('Fulari'),
 ('Fularun'),
 ('Fulasa'),
 ('Fulat'),
 ('Fulbahar'),
 ('Fulbai'),
-
 ('Fulbert'),
 ('Fulberte'),
 ('Fulbright'),
@@ -19463,14 +18716,11 @@ VALUES
 ('Fulmine'),
 ('Fulmodina'),
 ('Fulmore'),
-
-
 ('Fulnehar'),
 ('Fulner'),
 ('Fulon'),
 ('Fulong'),
 ('Fulop'),
-
 ('Fuloqi'),
 ('Fulorans'),
 ('Fulp'),
@@ -19554,7 +18804,6 @@ VALUES
 ('Fumika'),
 ('Fumikeh'),
 ('Fumiko'),
-
 ('Fumilayo'),
 ('Fumilola'),
 ('Fumina'),
@@ -19585,7 +18834,6 @@ VALUES
 ('Funagalli'),
 ('Funahashi'),
 ('Funai'),
-
 ('Funaki'),
 ('Funakoshi'),
 ('Funani'),
@@ -19607,7 +18855,6 @@ VALUES
 ('Funck'),
 ('Funcken'),
 ('Funda'),
-
 ('Fundament'),
 ('Fundaro'),
 ('Fundatureanu'),
@@ -19616,9 +18863,7 @@ VALUES
 ('Fundell'),
 ('Fundement'),
 ('Fundenberger'),
-
 ('Funderbunk'),
-
 ('Funderburgh'),
 ('Funderburk'),
 ('Funderburke'),
@@ -19655,7 +18900,6 @@ VALUES
 ('Funge'),
 ('Fungi'),
 ('Fungisayi'),
-
 ('Fungo'),
 ('Fungtammasan'),
 ('Fungurai'),
@@ -19666,7 +18910,6 @@ VALUES
 ('Funiati'),
 ('Funicelli'),
 ('Funicello'),
-
 ('Funikovs'),
 ('Funilayo'),
 ('Funimilayo'),
@@ -19676,7 +18919,6 @@ VALUES
 ('Funkapo'),
 ('Funke'),
 ('Funkhouser'),
-
 ('Funlaisor'),
 ('Funlayo'),
 ('Funlola'),
@@ -19714,7 +18956,6 @@ VALUES
 ('Funston'),
 ('Funsu'),
 ('Funt'),
-
 ('Funtanilla'),
 ('Funtek'),
 ('Funtera'),
@@ -19730,7 +18971,6 @@ VALUES
 ('Funwayo'),
 ('Funwi'),
 ('Funyak'),
-
 ('Funzi'),
 ('Fuoad'),
 ('Fuoche'),
@@ -19752,7 +18992,6 @@ VALUES
 ('Furah'),
 ('Furaha'),
 ('Furaheen'),
-
 ('Furama'),
 ('Furan'),
 ('Furano'),
@@ -19762,7 +19001,6 @@ VALUES
 ('Furayah'),
 ('Furbach'),
 ('Furbacher'),
-
 ('Furbank'),
 ('Furbatto'),
 ('Furbay'),
@@ -19789,7 +19027,6 @@ VALUES
 ('Furcoi'),
 ('Furcron'),
 ('Furcy'),
-
 ('Furda'),
 ('Furdal'),
 ('Furdan'),
@@ -19818,7 +19055,6 @@ VALUES
 ('Furfaro'),
 ('Furfey'),
 ('Furga'),
-
 ('Furgal'),
 ('Furgala'),
 ('Furgan'),
@@ -19826,7 +19062,6 @@ VALUES
 ('Furger'),
 ('Furgerson'),
 ('Furgeson'),
-
 ('Furgier'),
 ('Furgison'),
 ('Furgiuele'),
@@ -19835,7 +19070,6 @@ VALUES
 ('Furgurson'),
 ('Furguson'),
 ('Furgustine'),
-
 ('Furhaad'),
 ('Furhaaze'),
 ('Furhad'),
@@ -19861,9 +19095,7 @@ VALUES
 ('Furiga'),
 ('Furii'),
 ('Furikado'),
-
 ('Furin'),
-
 ('Furini'),
 ('Furino'),
 ('Furio'),
@@ -19908,7 +19140,6 @@ VALUES
 ('Furlong'),
 ('Furlonge'),
 ('Furlonger'),
-
 ('Furlotte'),
 ('Furlotti'),
 ('Furlough'),
@@ -19918,16 +19149,12 @@ VALUES
 ('Furmage'),
 ('Furman'),
 ('Furmanbaeva'),
-
 ('Furmane'),
 ('Furmanek'),
 ('Furmaniak'),
 ('Furmanik'),
 ('Furmanis'),
-
-
 ('Furmanowie'),
-
 ('Furmanski'),
 ('Furmetz'),
 ('Furmin'),
@@ -20020,13 +19247,10 @@ VALUES
 ('Fursland'),
 ('Fursman'),
 ('Fursous'),
-
 ('Fursse'),
 ('Furst'),
 ('Furstenau'),
 ('Furstenback'),
-
-
 ('Furtado'),
 ('Furtadoi'),
 ('Furtah'),
@@ -20050,10 +19274,8 @@ VALUES
 ('Furu'),
 ('Furubeppu'),
 ('Furubotten'),
-
 ('Furugard'),
 ('Furughi'),
-
 ('Furuhashi'),
 ('Furuhata'),
 ('Furuheim'),
@@ -20084,7 +19306,6 @@ VALUES
 ('Furuzawa'),
 ('Furuze'),
 ('Fury'),
-
 ('Furzad'),
 ('Furzana'),
 ('Furzankhan'),
@@ -20214,7 +19435,6 @@ VALUES
 ('Futhulmuslima'),
 ('Futi'),
 ('Futia'),
-
 ('Futila'),
 ('Futloo'),
 ('Futo'),
@@ -20226,7 +19446,6 @@ VALUES
 ('Futrell'),
 ('Futrelle'),
 ('Futrill'),
-
 ('Futsaeter'),
 ('Futsama'),
 ('Futscher'),
@@ -20262,13 +19481,12 @@ VALUES
 ('Fuxiaoxuan'),
 ('Fuxing'),
 ('Fuxman'),
-
 ('Fuxu'),
 ('Fuyal'),
 ('Fuyana'),
 ('Fuyane'),
 ('Fuyang'),
-('Fuyou'),
+
 ('Fuyu'),
 ('Fuyuhiko'),
 ('Fuyuka'),
@@ -20282,7 +19500,6 @@ VALUES
 ('Fuzat'),
 ('Fuzayal'),
 ('Fuzayel'),
-
 ('Fuzeau'),
 ('Fuzek'),
 ('Fuzel'),
@@ -20346,7 +19563,7 @@ VALUES
 ('Fyke'),
 ('Fykes'),
 ('Fyksen'),
-('Fylaktou'),
+
 ('Fylan'),
 ('Fyle'),
 ('Fyler'),
@@ -20358,7 +19575,6 @@ VALUES
 ('Fylstra'),
 ('Fylvia'),
 ('Fylypiv'),
-
 ('Fynan'),
 ('Fynaut'),
 ('Fynch'),
@@ -20378,8 +19594,6 @@ VALUES
 ('Fynye'),
 ('Fyock'),
 ('Fyodor'),
-
-
 ('Fyon'),
 ('Fyona'),
 ('Fyondo'),
@@ -20388,7 +19602,6 @@ VALUES
 ('Fyori'),
 ('Fypher'),
 ('Fyqa'),
-
 ('Fyret'),
 ('Fyrooz'),
 ('Fyrose'),
@@ -20406,8 +19619,8 @@ VALUES
 ('Fysyl'),
 ('Fytas'),
 ('Fyten'),
-('Fytilopoulou'),
-('Fytopoulou'),
+
+
 ('Fytsaylo'),
 ('Fytton'),
 ('Fyvie'),
@@ -20420,5 +19633,6 @@ VALUES
 ('Fzeel'),
 ('Fzng'),
 ('Fzorin');
+
 -- Down
 DELETE FROM "Person" WHERE "keyword" LIKE 'f%';

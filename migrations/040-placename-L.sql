@@ -7524,7 +7524,6 @@ VALUES
 ('Leaf Grove'),
 ('Leaf Hall Road'),
 ('Leaf Hill Drive'),
-('Leaf'),
 ('Leaf Howe Hill'),
 ('Leaf Lane'),
 ('Leaf Road'),

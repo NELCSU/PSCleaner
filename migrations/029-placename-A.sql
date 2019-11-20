@@ -17114,6 +17114,7 @@ VALUES
 ('Aspell Close'),
 ('Aspels Crescent'),
 ('Aspels Nook'),
+('Aspen'),
 ('Aspen Avenue'),
 ('Aspen Close'),
 ('Aspen Coppice'),
@@ -19379,7 +19380,6 @@ VALUES
 ('Avenue Bernard'),
 ('Avenue C East'),
 ('Avenue C West'),
-('Avenue'),
 ('Avenue Cannes'),
 ('Avenue Clamart'),
 ('Avenue Close'),
@@ -19433,7 +19433,6 @@ VALUES
 ('Avenue Park Road'),
 ('Avenue Park West'),
 ('Avenue Place'),
-('Avenue'),
 ('Avenue Ponds'),
 ('Avenue Rise'),
 ('Avenue Road'),
@@ -20825,11 +20824,8 @@ VALUES
 ('Auld Sheep-pund'),
 ('Avarack'),
 ('Avenals'),
-('Avenue'),
-('Avenues'),
 ('Awful Hand'),
 ('Ayre'),
 ('Ayres');
-
 -- Down
 DELETE FROM "Placename" WHERE "keyword" LIKE 'a%';
