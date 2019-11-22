@@ -39,6 +39,7 @@ VALUES
 ('Cameroon'),
 ('Canada'),
 ('Canary Islands'),
+('Cayman Island'),
 ('Central African Republic'),
 ('Chad'),
 ('Chile'),

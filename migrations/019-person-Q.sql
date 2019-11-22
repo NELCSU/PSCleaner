@@ -543,7 +543,6 @@ VALUES
 ('Qiaoyan'),
 ('Qiaoyi'),
 ('Qiaoying'),
-
 ('Qiaoyu'),
 ('Qiaoyun'),
 ('Qiaozhen'),
@@ -561,7 +560,6 @@ VALUES
 ('Qichaun'),
 ('Qichen'),
 ('Qicheng'),
-
 ('Qicong'),
 ('Qidai'),
 ('Qide'),
@@ -703,7 +701,6 @@ VALUES
 ('Qinli'),
 ('Qinling'),
 ('Qinmei'),
-
 ('Qinping'),
 ('Qinqi'),
 ('Qinqin'),
@@ -853,7 +850,6 @@ VALUES
 ('Qiydaar'),
 ('Qiyin'),
 ('Qiymay'),
-
 ('Qiyu'),
 ('Qiyuan'),
 ('Qiyun'),
@@ -863,7 +859,6 @@ VALUES
 ('Qizhao'),
 ('Qizhen'),
 ('Qizhi'),
-
 ('Qizi'),
 ('Qizuo'),
 ('Qlingya'),
@@ -984,7 +979,6 @@ VALUES
 ('Quadrino'),
 ('Quadrio'),
 ('Quadros'),
-('Quadrozzi'),
 ('Quadry'),
 ('Quadsia'),
 ('Quaedvlieg'),
@@ -1006,7 +1000,6 @@ VALUES
 ('Quaglione'),
 ('Quagliotti'),
 ('Quagliotto'),
-('Quagliozzi'),
 ('Quagraine'),
 ('Quah'),
 ('Quaha'),
@@ -1028,7 +1021,6 @@ VALUES
 ('Quailey'),
 ('Quails'),
 ('Quaim'),
-
 ('Quain'),
 ('Quaine'),
 ('Quaini'),
@@ -1681,7 +1673,6 @@ VALUES
 ('Quesny'),
 ('Queson'),
 ('Quessenberry'),
-
 ('Questa'),
 ('Questad'),
 ('Questan'),
@@ -1869,7 +1860,6 @@ VALUES
 ('Quilon'),
 ('Quilor'),
 ('Quilson'),
-('Quilt'),
 ('Quilter'),
 ('Quilton'),
 ('Quilty'),
@@ -1931,7 +1921,6 @@ VALUES
 ('Quingyuan'),
 ('Quinhangala'),
 ('Quinhui'),
-
 ('Quinisha'),
 ('Quinit'),
 ('Quiniya'),
@@ -2237,7 +2226,6 @@ VALUES
 ('Quorran'),
 ('Quosia'),
 ('Quoss'),
-
 ('Quow'),
 ('Quoy'),
 ('Qupaku'),
@@ -2406,5 +2394,6 @@ VALUES
 ('Qzlem'),
 ('Qzong'),
 ('Qzulun');
+
 -- Down
 DELETE FROM "Person" WHERE "keyword" LIKE 'q%';

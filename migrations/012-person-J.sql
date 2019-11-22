@@ -281,7 +281,6 @@ VALUES
 ('Jabor'),
 ('Jaboro'),
 ('Jabory'),
-
 ('Jabouin'),
 ('Jabour'),
 ('Jabourian'),
@@ -301,7 +300,6 @@ VALUES
 ('Jabrhan'),
 ('Jabri'),
 ('Jabriel'),
-
 ('Jabriil'),
 ('Jabril'),
 ('Jabrill'),
@@ -509,7 +507,6 @@ VALUES
 ('Jacki'),
 ('Jackia'),
 ('Jackie'),
-
 ('Jackiline'),
 ('Jackiln'),
 ('Jackim'),
@@ -656,7 +653,6 @@ VALUES
 ('Jacovides'),
 ('Jacovino'),
 ('Jacovos'),
-
 ('Jacoway'),
 ('Jacox'),
 ('Jacoy'),
@@ -727,7 +723,6 @@ VALUES
 ('Jacqulin'),
 ('Jacquline'),
 ('Jacquot'),
-
 ('Jacqvier'),
 ('Jacron'),
 ('Jacs'),
@@ -1460,7 +1455,6 @@ VALUES
 ('Jagodzinskaja'),
 ('Jagodzinski'),
 ('Jagodzinskis'),
-('Jagodzki'),
 ('Jagoe'),
 ('Jagofarovas'),
 ('Jagoish'),
@@ -2031,7 +2025,6 @@ VALUES
 ('Jahorul'),
 ('Jahos'),
 ('Jahosky'),
-
 ('Jahquadi'),
 ('Jahquan'),
 ('Jahquille'),
@@ -2164,7 +2157,6 @@ VALUES
 ('Jahvontay'),
 ('Jahvonte'),
 ('Jahvorn'),
-
 ('Jahwariya'),
 ('Jahwe'),
 ('Jahwir'),
@@ -2370,7 +2362,6 @@ VALUES
 ('Jaina'),
 ('Jainab'),
 ('Jainaba'),
-
 ('Jainabu'),
 ('Jainabunachiyar'),
 ('Jainade'),
@@ -2583,7 +2574,6 @@ VALUES
 ('Jaizah'),
 ('Jaizani'),
 ('Jaizinho'),
-('Jaizki'),
 ('Jaj'),
 ('Jaja'),
 ('Jajaie'),
@@ -2608,7 +2598,6 @@ VALUES
 ('Jajodia'),
 ('Jajoo'),
 ('Jajoria'),
-
 ('Jaju'),
 ('Jajua'),
 ('Jajuan'),
@@ -2827,7 +2816,6 @@ VALUES
 ('Jakosalem'),
 ('Jakosch'),
 ('Jakosky'),
-
 ('Jakoubek'),
 ('Jakouch'),
 ('Jakovac'),
@@ -3610,7 +3598,6 @@ VALUES
 ('Jamilahon'),
 ('Jamilar'),
 ('Jamilato'),
-
 ('Jamilatu'),
 ('Jamile'),
 ('Jamilea'),
@@ -4587,7 +4574,6 @@ VALUES
 ('Jannatus'),
 ('Jannaty'),
 ('Jannay'),
-('Jannazzo'),
 ('Janne'),
 ('Jannean'),
 ('Jannece'),
@@ -4652,7 +4638,6 @@ VALUES
 ('Jannun'),
 ('Jannusch'),
 ('Jannutal'),
-('Jannuzzi'),
 ('Janny'),
 ('Jannyhr'),
 ('Jannyse'),
@@ -4703,7 +4688,6 @@ VALUES
 ('Janota'),
 ('Janotka'),
 ('Janotta'),
-
 ('Janoud'),
 ('Janoudi'),
 ('Janoula'),
@@ -4798,7 +4782,6 @@ VALUES
 ('Jansweiser'),
 ('Jansy'),
 ('Janszen'),
-('Janszki'),
 ('Janszo'),
 ('Jant'),
 ('Janta'),
@@ -4936,7 +4919,6 @@ VALUES
 ('Janusonis'),
 ('Januszek'),
 ('Januszewski'),
-('Januszko'),
 ('Januta'),
 ('Janutaite'),
 ('Janutauskaite'),
@@ -4948,7 +4930,6 @@ VALUES
 ('Januzat'),
 ('Januzi'),
 ('Januzik'),
-('Januzzi'),
 ('Janvalee'),
 ('Janvee'),
 ('Janvekar'),
@@ -4979,7 +4960,6 @@ VALUES
 ('Janyny'),
 ('Janys'),
 ('Janysek'),
-('Janyszko'),
 ('Janyuvula'),
 ('Janz'),
 ('Janzaib'),
@@ -4988,7 +4968,6 @@ VALUES
 ('Janzer'),
 ('Janzia'),
 ('Janzirany'),
-('Janzko'),
 ('Janzso'),
 ('Jao'),
 ('Jaoa'),
@@ -5191,7 +5170,6 @@ VALUES
 ('Jarcau'),
 ('Jarchi'),
 ('Jarchlo'),
-
 ('Jarchow'),
 ('Jarcu'),
 ('Jard'),
@@ -5295,7 +5273,6 @@ VALUES
 ('Jaria'),
 ('Jariah'),
 ('Jariata'),
-
 ('Jariatu'),
 ('Jariatul'),
 ('Jaribu'),
@@ -5324,7 +5301,6 @@ VALUES
 ('Jarinporn'),
 ('Jarinya'),
 ('Jariol'),
-
 ('Jarip'),
 ('Jarir'),
 ('Jarira'),
@@ -5342,7 +5318,6 @@ VALUES
 ('Jarjadian'),
 ('Jarji'),
 ('Jarjis'),
-
 ('Jarjouhi'),
 ('Jarjour'),
 ('Jarjoura'),
@@ -5410,7 +5385,6 @@ VALUES
 ('Jarmolowski'),
 ('Jarmon'),
 ('Jarmoseko'),
-('Jarmoszko'),
 ('Jarmoszuk'),
 ('Jarmson'),
 ('Jarmuda'),
@@ -5521,13 +5495,11 @@ VALUES
 ('Jarostaw'),
 ('Jaroszek'),
 ('Jaroszewski'),
-('Jaroszko'),
 ('Jaroszlav'),
 ('Jaroszonek'),
 ('Jaroszuk'),
 ('Jaroszynski'),
 ('Jarota'),
-
 ('Jaroume'),
 ('Jaroussky'),
 ('Jarovaite'),
@@ -5587,7 +5559,6 @@ VALUES
 ('Jarrow'),
 ('Jarrvis'),
 ('Jarry'),
-
 ('Jarryd'),
 ('Jarryl'),
 ('Jarselius'),
@@ -6477,7 +6448,6 @@ VALUES
 ('Jaton'),
 ('Jatoo'),
 ('Jatothi'),
-
 ('Jatsch'),
 ('Jatskiv'),
 ('Jatta'),
@@ -6488,7 +6458,6 @@ VALUES
 ('Jatti'),
 ('Jatto'),
 ('Jattor'),
-
 ('Jattu'),
 ('Jatu'),
 ('Jatuah'),
@@ -6524,7 +6493,6 @@ VALUES
 ('Jaudel'),
 ('Jaudine'),
 ('Jaudon'),
-
 ('Jaudzemis'),
 ('Jaudzems'),
 ('Jaudzemyte'),
@@ -6898,7 +6866,6 @@ VALUES
 ('Javorski'),
 ('Javorskij'),
 ('Javorsky'),
-('Javorszki'),
 ('Javotte'),
 ('Javoughnia'),
 ('Javoy'),
@@ -7908,7 +7875,6 @@ VALUES
 ('Jbeen'),
 ('Jbfe'),
 ('Jbili'),
-
 ('Jbra'),
 ('Jbrahim'),
 ('Jdaini'),
@@ -8098,7 +8064,6 @@ VALUES
 ('Jeantine'),
 ('Jeantique'),
 ('Jeanton'),
-
 ('Jeanty'),
 ('Jeanu'),
 ('Jeanville'),
@@ -8169,7 +8134,6 @@ VALUES
 ('Jebens'),
 ('Jeber'),
 ('Jeberean'),
-
 ('Jeberson'),
 ('Jebert'),
 ('Jebet'),
@@ -8334,7 +8298,6 @@ VALUES
 ('Jedras'),
 ('Jedrasiak'),
 ('Jedraszak'),
-('Jedraszko'),
 ('Jedreas'),
 ('Jedrecy'),
 ('Jedrej'),
@@ -8759,7 +8722,6 @@ VALUES
 ('Jegorva'),
 ('Jegorvs'),
 ('Jegosothy'),
-
 ('Jegthaug'),
 ('Jegtheeswari'),
 ('Jegu'),
@@ -9330,7 +9292,6 @@ VALUES
 ('Jena'),
 ('Jenab'),
 ('Jenabi'),
-
 ('Jenabzadeh'),
 ('Jenace'),
 ('Jenacio'),
@@ -10823,11 +10784,9 @@ VALUES
 ('Jesyma'),
 ('Jeszan'),
 ('Jeszenak'),
-('Jeszenszki'),
 ('Jesziah'),
 ('Jeszica'),
 ('Jeszke'),
-('Jesztrebszki'),
 ('Jeta'),
 ('Jetal'),
 ('Jetani'),
@@ -10884,7 +10843,6 @@ VALUES
 ('Jetnard'),
 ('Jetnor'),
 ('Jeton'),
-
 ('Jetpole'),
 ('Jetra'),
 ('Jetsabeth'),
@@ -11777,7 +11735,6 @@ VALUES
 ('Jhotika'),
 ('Jhoton'),
 ('Jhoty'),
-
 ('Jhouangi'),
 ('Jhoura'),
 ('Jhouree'),
@@ -11986,7 +11943,6 @@ VALUES
 ('Jiangyu'),
 ('Jiangyue'),
 ('Jiangzhi'),
-
 ('Jianhai'),
 ('Jianhan'),
 ('Jianhang'),
@@ -12057,7 +12013,6 @@ VALUES
 ('Jianyi'),
 ('Jianying'),
 ('Jianyong'),
-
 ('Jianyu'),
 ('Jianyui'),
 ('Jianyun'),
@@ -12158,7 +12113,6 @@ VALUES
 ('Jiazhen'),
 ('Jiazheng'),
 ('Jiazhi'),
-
 ('Jiazi'),
 ('Jiba'),
 ('Jibac'),
@@ -12256,7 +12210,6 @@ VALUES
 ('Jidayi'),
 ('Jidda'),
 ('Jiddi'),
-
 ('Jide'),
 ('Jidechi'),
 ('Jidechukwu'),
@@ -12340,7 +12293,6 @@ VALUES
 ('Jiezel'),
 ('Jiezhen'),
 ('Jiezhi'),
-
 ('Jifa'),
 ('Jifang'),
 ('Jifcovici'),
@@ -12538,7 +12490,6 @@ VALUES
 ('Jilby'),
 ('Jilcu'),
 ('Jildiray'),
-
 ('Jile'),
 ('Jilek'),
 ('Jilekha'),
@@ -12948,7 +12899,6 @@ VALUES
 ('Jingze'),
 ('Jingzhe'),
 ('Jingzhi'),
-
 ('Jingzhu'),
 ('Jingzi'),
 ('Jinh'),
@@ -13119,7 +13069,6 @@ VALUES
 ('Jinyang'),
 ('Jinyi'),
 ('Jinying'),
-
 ('Jinyoung'),
 ('Jinyu'),
 ('Jinyuan'),
@@ -13128,7 +13077,6 @@ VALUES
 ('Jinzhen'),
 ('Jinzhi'),
 ('Jinzhong'),
-
 ('Jinzhu'),
 ('Jinzi'),
 ('Jinzo'),
@@ -13150,7 +13098,6 @@ VALUES
 ('Jiordan'),
 ('Jiordanne'),
 ('Jiosyas'),
-
 ('Jiovani'),
 ('Jiovanni'),
 ('Jip'),
@@ -13565,7 +13512,6 @@ VALUES
 ('Jizel'),
 ('Jizelle'),
 ('Jizhe'),
-
 ('Jizmundo'),
 ('Jizu'),
 ('Jj'),
@@ -13589,7 +13535,6 @@ VALUES
 ('Jlie'),
 ('Jlil'),
 ('Jlilid'),
-
 ('Jlir'),
 ('Jlirga'),
 ('Jlitakryan'),
@@ -13705,7 +13650,6 @@ VALUES
 ('Joanez'),
 ('Joang'),
 ('Joanha'),
-
 ('Joani'),
 ('Joaniah'),
 ('Joanica'),
@@ -13747,7 +13691,6 @@ VALUES
 ('Joannne'),
 ('Joanno'),
 ('Joannos'),
-
 ('Joannous'),
 ('Joanntoinette'),
 ('Joanny'),
@@ -15283,7 +15226,6 @@ VALUES
 ('Jongluckana'),
 ('Jongman'),
 ('Jongmin'),
-
 ('Jongphil'),
 ('Jongruk'),
 ('Jongs'),
@@ -15655,7 +15597,6 @@ VALUES
 ('Jordanoff'),
 ('Jordanos'),
 ('Jordanoski'),
-
 ('Jordans'),
 ('Jordany'),
 ('Jordao'),
@@ -15809,7 +15750,6 @@ VALUES
 ('Jornet'),
 ('Jornod'),
 ('Jorns'),
-
 ('Jorod'),
 ('Jorolan'),
 ('Jorolanie'),
@@ -16333,7 +16273,6 @@ VALUES
 ('Joszefcsuk'),
 ('Josziharu'),
 ('Joszkin'),
-('Joszko'),
 ('Joszsef'),
 ('Jot'),
 ('Jotangia'),
@@ -16398,7 +16337,6 @@ VALUES
 ('Jotwani'),
 ('Joty'),
 ('Jotyi'),
-
 ('Jouad'),
 ('Jouahri'),
 ('Jouai'),
@@ -16465,7 +16403,6 @@ VALUES
 ('Jouini'),
 ('Jouita'),
 ('Joujon'),
-
 ('Joukhadar'),
 ('Jouko'),
 ('Joul'),
@@ -16481,11 +16418,9 @@ VALUES
 ('Jouliac'),
 ('Jouliami'),
 ('Joulianon'),
-
 ('Joulie'),
 ('Jouline'),
 ('Joully'),
-
 ('Joulwan'),
 ('Jouly'),
 ('Jouma'),
@@ -18722,7 +18657,6 @@ VALUES
 ('Junona'),
 ('Junor'),
 ('Junot'),
-
 ('Junovic'),
 ('Junoy'),
 ('Junpei'),
@@ -18795,7 +18729,6 @@ VALUES
 ('Junyi'),
 ('Junying'),
 ('Junyong'),
-
 ('Junyoung'),
 ('Junyu'),
 ('Junyuan'),
@@ -18803,7 +18736,6 @@ VALUES
 ('Junze'),
 ('Junzhang'),
 ('Junzheng'),
-
 ('Junzhut'),
 ('Junzi'),
 ('Junzuenn'),
@@ -19899,5 +19831,6 @@ VALUES
 ('Jzulia'),
 ('Jzulianne'),
 ('Jzulio');
+
 -- Down
 DELETE FROM "Person" WHERE "keyword" LIKE 'j%';

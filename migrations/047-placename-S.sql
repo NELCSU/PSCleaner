@@ -3630,6 +3630,7 @@ VALUES
 ('Santa Cruz Drive'),
 ('Santa Maria Lane'),
 ('Santa Maria Way'),
+('Santa Monica'),
 ('Santa Monica Crescent'),
 ('Santa Monica Grove'),
 ('Santa Monica Road'),

@@ -12927,7 +12927,6 @@ VALUES
 ('Forest Screed'),
 ('Forest Side'),
 ('Forest Side Gardens'),
-('Forest'),
 ('Forest Street'),
 ('Forest Town'),
 ('Forest Vale Road'),

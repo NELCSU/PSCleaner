@@ -7177,7 +7177,6 @@ VALUES
 ('Wedon Close'),
 ('Wedon Way'),
 ('Wedow Road'),
-('Wee'),
 ('Wee Alicompen Waterfall'),
 ('Wee Bay'),
 ('Wee Berbeth Loch'),

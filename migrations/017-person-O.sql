@@ -702,7 +702,6 @@ VALUES
 ('Obiang'),
 ('Obianiberi'),
 ('Obianigwe'),
-
 ('Obianjuj'),
 ('Obiano'),
 ('Obianodo'),
@@ -1068,7 +1067,6 @@ VALUES
 ('Obote'),
 ('Oboth'),
 ('Obotse'),
-
 ('Oboudi'),
 ('Oboue'),
 ('Obour'),
@@ -1163,7 +1161,6 @@ VALUES
 ('Obrocnik'),
 ('Obroin'),
 ('Obroslak'),
-
 ('Obrtegon'),
 ('Obruche'),
 ('Obruk'),
@@ -1335,9 +1332,6 @@ VALUES
 ('Occhionorelli'),
 ('Occhipinti'),
 ('Occhiuto'),
-('Occhiuzzi'),
-('Occhiuzzo'),
-('Occhuizzo'),
 ('Occiano'),
 ('Occleston'),
 ('Occolier'),
@@ -1407,7 +1401,6 @@ VALUES
 ('Ocheche'),
 ('Ochedalski'),
 ('Ochedikwu'),
-('Ocheduszko'),
 ('Ochefu'),
 ('Ochei'),
 ('Ocheja'),
@@ -1416,7 +1409,6 @@ VALUES
 ('Ochembo'),
 ('Ochen'),
 ('Ochendal'),
-('Ochenduszko'),
 ('Ochenduszlio'),
 ('Ocheng'),
 ('Ochenya'),
@@ -1790,7 +1782,6 @@ VALUES
 ('Odayne'),
 ('Odaysha'),
 ('Odazhiev'),
-('Odazzi'),
 ('Odbi'),
 ('Oddbjorn'),
 ('Odde'),
@@ -2133,7 +2124,6 @@ VALUES
 ('Odillon'),
 ('Odilo'),
 ('Odilon'),
-
 ('Odim'),
 ('Odimah'),
 ('Odimaka'),
@@ -2166,7 +2156,6 @@ VALUES
 ('Odinocenko'),
 ('Odinot'),
 ('Odinsdottir'),
-
 ('Odinwamkpa'),
 ('Odinwankpa'),
 ('Odio'),
@@ -2359,7 +2348,6 @@ VALUES
 ('Odorici'),
 ('Odorico'),
 ('Odorisio'),
-('Odorizzi'),
 ('Odorkor'),
 ('Odoroaga'),
 ('Odorog'),
@@ -2370,7 +2358,6 @@ VALUES
 ('Odosamavben'),
 ('Odotei'),
 ('Odotie'),
-
 ('Odoua'),
 ('Odouard'),
 ('Odougherty'),
@@ -2947,7 +2934,6 @@ VALUES
 ('Offorjindu'),
 ('Offormezie'),
 ('Offosua'),
-
 ('Offousa'),
 ('Offredi'),
 ('Offredy'),
@@ -3076,7 +3062,6 @@ VALUES
 ('Ofosuwaah'),
 ('Ofosuwah'),
 ('Ofotsu'),
-
 ('Ofounwah'),
 ('Ofowaa'),
 ('Ofowinor'),
@@ -3099,7 +3084,6 @@ VALUES
 ('Ofsak'),
 ('Ofshahraki'),
 ('Ofshori'),
-
 ('Ofstad'),
 ('Ofstein'),
 ('Ofsthun'),
@@ -3399,7 +3383,6 @@ VALUES
 ('Ogechikanma'),
 ('Ogecho'),
 ('Ogechukinu'),
-
 ('Ogechukwa'),
 ('Ogechukwu'),
 ('Ogechukwuka'),
@@ -3744,7 +3727,6 @@ VALUES
 ('Ognyan'),
 ('Ognyana'),
 ('Ognyanon'),
-
 ('Ogo'),
 ('Ogoamaka'),
 ('Ogoazi'),
@@ -3814,7 +3796,6 @@ VALUES
 ('Ogosi'),
 ('Ogosu'),
 ('Ogotomiwa'),
-
 ('Ogouna'),
 ('Ogouns'),
 ('Ogounsola'),
@@ -3892,7 +3873,6 @@ VALUES
 ('Ogufere'),
 ('Ogugbue'),
 ('Ogugha'),
-
 ('Ogugu'),
 ('Ogugua'),
 ('Oguguam'),
@@ -4798,12 +4778,8 @@ VALUES
 ('Oiknine'),
 ('Oikonomaki'),
 ('Oikonomakos'),
-
 ('Oikonomidis'),
-
 ('Oikonomopoulos'),
-
-
 ('Oikonomoy'),
 ('Oila'),
 ('Oilar'),
@@ -5649,7 +5625,6 @@ VALUES
 ('Okitikpi'),
 ('Okito'),
 ('Okitondo'),
-
 ('Okitsu'),
 ('Okitukay'),
 ('Okity'),
@@ -5905,7 +5880,6 @@ VALUES
 ('Okoto'),
 ('Okotume'),
 ('Okoturo'),
-
 ('Okoua'),
 ('Okoubi'),
 ('Okoukoni'),
@@ -6999,7 +6973,6 @@ VALUES
 ('Olarerin'),
 ('Olarescu'),
 ('Olaretan'),
-
 ('Olarewaju'),
 ('Olari'),
 ('Olaribigbe'),
@@ -7493,7 +7466,6 @@ VALUES
 ('Oledimmah'),
 ('Oledo'),
 ('Oledzka'),
-('Oledzki'),
 ('Olee'),
 ('Oleed'),
 ('Oleen'),
@@ -7676,7 +7648,6 @@ VALUES
 ('Olesya'),
 ('Oleszek'),
 ('Oleszja'),
-('Oleszko'),
 ('Olet'),
 ('Oleta'),
 ('Oletanu'),
@@ -7862,7 +7833,6 @@ VALUES
 ('Oliman'),
 ('Olimar'),
 ('Olimata'),
-
 ('Olimatta'),
 ('Olimatu'),
 ('Olimba'),
@@ -7899,7 +7869,6 @@ VALUES
 ('Olinger'),
 ('Olingheru'),
 ('Olinghouse'),
-
 ('Olinia'),
 ('Olinic'),
 ('Olinici'),
@@ -8069,7 +8038,6 @@ VALUES
 ('Olivos'),
 ('Olivoto'),
 ('Olivotos'),
-
 ('Olivur'),
 ('Olivya'),
 ('Oliwa'),
@@ -8095,7 +8063,6 @@ VALUES
 ('Oliyinka'),
 ('Oliynk'),
 ('Oliyur'),
-('Olizko'),
 ('Olja'),
 ('Oljaca'),
 ('Oljan'),
@@ -8112,7 +8079,6 @@ VALUES
 ('Olkira'),
 ('Olko'),
 ('Olkonomopoulos'),
-
 ('Olkowski'),
 ('Olkun'),
 ('Olla'),
@@ -8162,7 +8128,6 @@ VALUES
 ('Ollichon'),
 ('Ollie'),
 ('Olliegemi'),
-
 ('Ollier'),
 ('Ollieur'),
 ('Ollieuz'),
@@ -8305,7 +8270,6 @@ VALUES
 ('Ologo'),
 ('Ologolo'),
 ('Ologosu'),
-
 ('Ologun'),
 ('Ologunagba'),
 ('Ologunde'),
@@ -8487,7 +8451,6 @@ VALUES
 ('Olotoyin'),
 ('Olotu'),
 ('Olotunde'),
-
 ('Oloude'),
 ('OLoughlen'),
 ('Oloughlin'),
@@ -8627,7 +8590,6 @@ VALUES
 ('Olszewik'),
 ('Olszewski'),
 ('Olszewsui'),
-('Olszko'),
 ('Olszowka'),
 ('Olszowski'),
 ('Olszowy'),
@@ -10405,7 +10367,6 @@ VALUES
 ('Olykemi'),
 ('Olymbiada'),
 ('Olymbios'),
-
 ('Olympa'),
 ('Olympe'),
 ('Olympi'),
@@ -10414,7 +10375,6 @@ VALUES
 ('Olympias'),
 ('Olympio'),
 ('Olympios'),
-
 ('Olympious'),
 ('Olynadurotimi'),
 ('Olynger'),
@@ -11330,7 +11290,6 @@ VALUES
 ('Omoliyi'),
 ('Omollara'),
 ('Omollo'),
-
 ('OMolloy'),
 ('Omolnbanin'),
 ('Omoloa'),
@@ -11626,7 +11585,6 @@ VALUES
 ('Omotunmise'),
 ('Omotunmishe'),
 ('Omotuyi'),
-
 ('Omoulare'),
 ('Omovbude'),
 ('Omovie'),
@@ -12167,7 +12125,6 @@ VALUES
 ('Onek'),
 ('Oneka'),
 ('Onekalit'),
-
 ('Onekie'),
 ('Oneko'),
 ('Onel'),
@@ -12186,7 +12143,6 @@ VALUES
 ('Onemaa'),
 ('Oneme'),
 ('Onemegho'),
-
 ('Onemli'),
 ('Onemokpe'),
 ('Onen'),
@@ -12288,7 +12244,6 @@ VALUES
 ('Ongor'),
 ('Ongore'),
 ('Ongoren'),
-
 ('Ongu'),
 ('Onguc'),
 ('Onguende'),
@@ -12432,14 +12387,12 @@ VALUES
 ('Onisifor'),
 ('Onisiforon'),
 ('Onisiforos'),
-
 ('Onisiforu'),
 ('Onisile'),
 ('Onisim'),
 ('Onisimi'),
 ('Onisimo'),
 ('Onisimus'),
-
 ('Onisiwo'),
 ('Onisko'),
 ('Onismos'),
@@ -12450,10 +12403,8 @@ VALUES
 ('Onisor'),
 ('Onisoru'),
 ('Onisosweiye'),
-
 ('Onisto'),
 ('Onisuru'),
-('Oniszko'),
 ('Onita'),
 ('Onitha'),
 ('Oniti'),
@@ -12691,7 +12642,6 @@ VALUES
 ('Onosizi'),
 ('Onosoga'),
 ('Onosohwo'),
-('Onoszko'),
 ('Onotanomeyovwi'),
 ('Onotoghene'),
 ('Onotrei'),
@@ -12701,11 +12651,9 @@ VALUES
 ('Onoue'),
 ('Onoufriadis'),
 ('Onoufrios'),
-
 ('Onoufrious'),
 ('Onoura'),
 ('Onourah'),
-
 ('Onovo'),
 ('Onovughe'),
 ('Onovughedafe'),
@@ -12869,7 +12817,6 @@ VALUES
 ('Onusko'),
 ('Onusu'),
 ('Onusua'),
-('Onuszko'),
 ('Onut'),
 ('Onuta'),
 ('Onutan'),
@@ -13096,7 +13043,6 @@ VALUES
 ('Onyekach'),
 ('Onyekachi'),
 ('Onyekachim'),
-
 ('Onyekachuku'),
 ('Onyekachukwa'),
 ('Onyekachukwu'),
@@ -13698,7 +13644,6 @@ VALUES
 ('Opiyd'),
 ('Opiyo'),
 ('Opkirat'),
-
 ('Opku'),
 ('Opland'),
 ('Oplay'),
@@ -13707,7 +13652,6 @@ VALUES
 ('Opliger'),
 ('Oplinger'),
 ('Oplod'),
-
 ('Opneet'),
 ('Opo'),
 ('Opobe'),
@@ -13788,7 +13732,6 @@ VALUES
 ('Oppido'),
 ('Oppie'),
 ('Oppilamany'),
-('Oppizzi'),
 ('Oppl'),
 ('Oppliger'),
 ('Oppman'),
@@ -14179,7 +14122,6 @@ VALUES
 ('Ordas'),
 ('Ordaviciute'),
 ('Ordaz'),
-('Ordazzo'),
 ('Orde'),
 ('Ordean'),
 ('Ordeanu'),
@@ -14336,7 +14278,6 @@ VALUES
 ('Orejuela'),
 ('Orek'),
 ('Orekan'),
-
 ('Orekoya'),
 ('Orekunrin'),
 ('Orel'),
@@ -14482,8 +14423,6 @@ VALUES
 ('Oreye'),
 ('Oreyeju'),
 ('Oreyomi'),
-
-('Orezzi'),
 ('Orf'),
 ('Orfa'),
 ('Orfad'),
@@ -14491,11 +14430,9 @@ VALUES
 ('Orfaliais'),
 ('Orfana'),
 ('Orfanidis'),
-
 ('Orfano'),
 ('Orfanopoulos'),
 ('Orfanos'),
-
 ('Orfanoudaki'),
 ('Orfanoudakis'),
 ('Orfao'),
@@ -14916,7 +14853,6 @@ VALUES
 ('Orkiszewski'),
 ('Orkney'),
 ('Orko'),
-
 ('Orkoz'),
 ('Orkun'),
 ('Orkunoglu'),
@@ -15261,7 +15197,6 @@ VALUES
 ('Orougi'),
 ('Orouke'),
 ('Oroumchi'),
-
 ('ORourk'),
 ('Orourke'),
 ('ORourle'),
@@ -15290,9 +15225,7 @@ VALUES
 ('Orphan'),
 ('Orphandudakis'),
 ('Orphanides'),
-
 ('Orphanos'),
-
 ('Orphe'),
 ('Orphea'),
 ('Orpheas'),
@@ -15513,7 +15446,6 @@ VALUES
 ('Ortho'),
 ('Orthodoxia'),
 ('Orthodoxos'),
-
 ('Orthopoulos'),
 ('Orthwein'),
 ('Orthy'),
@@ -16642,7 +16574,6 @@ VALUES
 ('Oshiyeni'),
 ('Oshiyoku'),
 ('Oshkhereli'),
-
 ('Oshlyansky'),
 ('Oshman'),
 ('Oshmenskaya'),
@@ -16980,7 +16911,6 @@ VALUES
 ('Osmankinas'),
 ('Osmanko'),
 ('Osmano'),
-
 ('Osmanoglu'),
 ('Osmanovic'),
 ('Osmanski'),
@@ -17123,7 +17053,6 @@ VALUES
 ('Osotolu'),
 ('Osotpromma'),
 ('Osouli'),
-
 ('Osow'),
 ('Osowiecka'),
 ('Osowiecki'),
@@ -17631,7 +17560,6 @@ VALUES
 ('Oszkinis'),
 ('Oszlacs'),
 ('Oszlancine'),
-('Oszlanszki'),
 ('Oszlanyi'),
 ('Oszmian'),
 ('Osztafi'),
@@ -17708,7 +17636,6 @@ VALUES
 ('Otano'),
 ('Otaobayomi'),
 ('Otaoghene'),
-
 ('Otaqui'),
 ('Otar'),
 ('Otaran'),
@@ -17853,7 +17780,6 @@ VALUES
 ('Othon'),
 ('Othona'),
 ('Othonaios'),
-
 ('Othonakis'),
 ('Othonas'),
 ('Othonos'),
@@ -18020,7 +17946,6 @@ VALUES
 ('Otote'),
 ('Ototey'),
 ('Otott'),
-
 ('Otous'),
 ('Otovos'),
 ('Otoya'),
@@ -18209,14 +18134,12 @@ VALUES
 ('Ottosen'),
 ('Ottoson'),
 ('Ottosson'),
-
 ('Ottovordemgentuchenfelde'),
 ('Ottow'),
 ('Ottoway'),
 ('Ottrand'),
 ('Ottria'),
 ('Ottrix'),
-
 ('Otts'),
 ('Ottu'),
 ('Ottum'),
@@ -18362,7 +18285,6 @@ VALUES
 ('Ouadjaout'),
 ('Ouadje'),
 ('Ouadjer'),
-
 ('Ouaduaa'),
 ('Ouafa'),
 ('Ouafaa'),
@@ -18455,11 +18377,9 @@ VALUES
 ('Ouarhani'),
 ('Ouariach'),
 ('Ouariache'),
-
 ('Ouarite'),
 ('Ouaritini'),
 ('Ouarkoub'),
-
 ('Ouarrach'),
 ('Ouarti'),
 ('Ouarzane'),
@@ -18511,7 +18431,6 @@ VALUES
 ('Oucar'),
 ('Ouch'),
 ('Ouchait'),
-
 ('Ouchati'),
 ('Ouchbaselassie'),
 ('Ouchebara'),
@@ -18648,17 +18567,13 @@ VALUES
 ('Ouguergouz'),
 ('Ouhab'),
 ('Ouhadda'),
-
 ('Ouhadj'),
-
-
 ('Ouhib'),
 ('Ouhibi'),
 ('Ouhida'),
 ('Ouhiya'),
 ('Ouhoud'),
 ('Ouhoutta'),
-
 ('Ouhris'),
 ('Ouhtit'),
 ('Ouiam'),
@@ -18700,7 +18615,6 @@ VALUES
 ('Oukali'),
 ('Oukasha'),
 ('Oukassi'),
-
 ('Oukba'),
 ('Oukha'),
 ('Ouki'),
@@ -18714,7 +18628,6 @@ VALUES
 ('Oula'),
 ('Oulab'),
 ('Oulad'),
-
 ('Ouladmansour'),
 ('Oulagnon'),
 ('Oulai'),
@@ -18723,7 +18636,6 @@ VALUES
 ('Oulalia'),
 ('Oularbi'),
 ('Oulare'),
-
 ('Oulatta'),
 ('Oulay'),
 ('Oulaya'),
@@ -18732,7 +18644,6 @@ VALUES
 ('Ould'),
 ('Ouldamri'),
 ('Ouldbachir'),
-
 ('Ouldboukhitine'),
 ('Ouldchikh'),
 ('Ouldcott'),
@@ -18754,7 +18665,6 @@ VALUES
 ('Oulette'),
 ('Oulevay'),
 ('Ouleye'),
-
 ('Oulfa'),
 ('Oulfet'),
 ('Oulfunso'),
@@ -18765,7 +18675,6 @@ VALUES
 ('Ouliana'),
 ('Oulianitski'),
 ('Oulianoff'),
-
 ('Oulidazouz'),
 ('Oulidi'),
 ('Oulihem'),
@@ -18790,7 +18699,6 @@ VALUES
 ('Oulwaseun'),
 ('Oum'),
 ('Ouma'),
-
 ('Oumackaire'),
 ('Oumadevi'),
 ('Oumaima'),
@@ -18803,7 +18711,6 @@ VALUES
 ('Oumar'),
 ('Oumario'),
 ('Oumarl'),
-
 ('Oumaru'),
 ('Oumast'),
 ('Oumatee'),
@@ -18843,8 +18750,6 @@ VALUES
 ('Oumniaguina'),
 ('Oumnthia'),
 ('Oumokhtar'),
-
-
 ('Oumouben'),
 ('Oumouchi'),
 ('Oumoukhairy'),
@@ -18870,7 +18775,6 @@ VALUES
 ('Ounloueren'),
 ('Ounnas'),
 ('Ounoufi'),
-
 ('Ounrai'),
 ('Ounsley'),
 ('Ounstead'),
@@ -18896,7 +18800,6 @@ VALUES
 ('Ourafil'),
 ('Ouraga'),
 ('Ouraghi'),
-
 ('Ouramdane'),
 ('Ouramdani'),
 ('Ouran'),
@@ -18953,13 +18856,8 @@ VALUES
 ('Ourzalla'),
 ('Ousa'),
 ('Ousaadi'),
-
-
 ('Ousainau'),
-
 ('Ousama'),
-
-
 ('Ousanu'),
 ('Ousaraoul'),
 ('Ousaraouli'),
@@ -18976,7 +18874,6 @@ VALUES
 ('Ousia'),
 ('Ousida'),
 ('Ousimaal'),
-
 ('Ousitsenko'),
 ('Ousland'),
 ('Ouslati'),
@@ -19003,8 +18900,6 @@ VALUES
 ('Oussellam'),
 ('Oussema'),
 ('Ousseni'),
-
-
 ('Oussiali'),
 ('Oussine'),
 ('Oussoren'),
@@ -19057,7 +18952,6 @@ VALUES
 ('Outoghza'),
 ('Outohouri'),
 ('Outomuro'),
-
 ('Outoudert'),
 ('Outra'),
 ('Outradev'),
@@ -19081,7 +18975,6 @@ VALUES
 ('Outwater'),
 ('Outz'),
 ('Outzen'),
-
 ('Outzmourt'),
 ('Ouvaroff'),
 ('Ouverney'),
@@ -19123,7 +19016,6 @@ VALUES
 ('Ouznadji'),
 ('Ouzoun'),
 ('Ouzounian'),
-
 ('Ouzounoua'),
 ('Ouzts'),
 ('Ova'),
@@ -20296,7 +20188,6 @@ VALUES
 ('Oyoubalre'),
 ('Oyoung'),
 ('Oyouomi'),
-
 ('Oyousa'),
 ('Oyovwe'),
 ('Oyovwevotu'),
@@ -20617,14 +20508,12 @@ VALUES
 ('Ozgenturk'),
 ('Ozgenur'),
 ('Ozger'),
-
 ('Ozgirdaite'),
 ('Ozgirdas'),
 ('Ozgirdiene'),
 ('Ozgkiour'),
 ('Ozgoker'),
 ('Ozgostak'),
-
 ('Ozgoul'),
 ('Ozgour'),
 ('Ozgovercin'),
@@ -21065,8 +20954,8 @@ VALUES
 ('Ozzello'),
 ('Ozzengin'),
 ('Ozzeni'),
-('Ozzi'),
 ('Ozzie'),
 ('Ozzy');
+
 -- Down
 DELETE FROM "Person" WHERE "keyword" LIKE 'o%';

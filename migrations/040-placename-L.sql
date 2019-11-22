@@ -8914,7 +8914,6 @@ VALUES
 ('Leg Square Court'),
 ('Leg Street'),
 ('Leg-of-Mutton Copse'),
-('Legacy'),
 ('Legar'),
 ('Legard Avenue'),
 ('Legard Drive'),

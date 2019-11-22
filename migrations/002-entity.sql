@@ -160,7 +160,7 @@ VALUES
   'PART', 
   1,
   'Regular expression', 
-  '\b[\d,\.]+[\s\-\\/]{1,2}(?:autumn|day|miles|summer|week|winter)s?\b'
+  '\b[\d,\.]+[\s\-\\/]{1,2}(?:autumn|day|miles|story|summer|week|winter)s?\b'
 ),
 (
   'PartWordDurationRegEx',  
@@ -200,7 +200,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+(?:ajah|cci|ch?ek|dran?|\wcz\w+|hoff|itz|iwe|mir|orf|oti|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn])\b'
+  '\b\w+(?:ajah|cci|ch?ek|dran?|\wcz\w+|hoff|itz|iwe|mir|orf|oti|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn]|z[kz][io])\b'
 ),
 (
   'PlaceName', 

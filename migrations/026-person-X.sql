@@ -96,7 +96,6 @@ VALUES
 ('Xant'),
 ('Xante'),
 ('Xanthaki'),
-
 ('Xanthe'),
 ('Xantheas'),
 ('Xanthee'),
@@ -108,9 +107,7 @@ VALUES
 ('Xanthippe'),
 ('Xanthippi'),
 ('Xanthopoulos'),
-
 ('Xanthos'),
-
 ('Xanthoula'),
 ('Xanthouli'),
 ('Xanthoulis'),
@@ -253,11 +250,8 @@ VALUES
 ('Xenophon'),
 ('Xenophontos'),
 ('Xenophos'),
-
-
 ('Xenos'),
 ('Xenotoy'),
-
 ('Xenoula'),
 ('Xenoulla'),
 ('Xenoy'),
@@ -271,7 +265,6 @@ VALUES
 ('Xerazade'),
 ('Xeres'),
 ('Xeria'),
-
 ('Xerovasila'),
 ('Xerra'),
 ('Xerri'),
@@ -571,7 +564,6 @@ VALUES
 ('Xiangyi'),
 ('Xiangyin'),
 ('Xiangying'),
-
 ('Xiangyu'),
 ('Xiangyue'),
 ('Xiangyun'),
@@ -590,7 +582,6 @@ VALUES
 ('Xianmin'),
 ('Xianna'),
 ('Xiannye'),
-
 ('Xianqi'),
 ('Xianqian'),
 ('Xianqing'),
@@ -605,7 +596,6 @@ VALUES
 ('Xianze'),
 ('Xianzhang'),
 ('Xianzhong'),
-
 ('Xiao'),
 ('Xiaoao'),
 ('Xiaobai'),
@@ -688,7 +678,6 @@ VALUES
 ('Xiaolin'),
 ('Xiaoling'),
 ('Xiaolong'),
-
 ('Xiaolu'),
 ('Xiaoluan'),
 ('Xiaolun'),
@@ -706,7 +695,6 @@ VALUES
 ('Xiaoni'),
 ('Xiaoning'),
 ('Xiaoniu'),
-
 ('Xiaopeng'),
 ('Xiaopin'),
 ('Xiaoping'),
@@ -777,7 +765,6 @@ VALUES
 ('Xiaozhen'),
 ('Xiaozheng'),
 ('Xiaozhi'),
-
 ('Xiaozhu'),
 ('Xiaozhuo'),
 ('Xiaozi'),
@@ -785,9 +772,7 @@ VALUES
 ('Xiaozuo'),
 ('Xiapin'),
 ('Xiara'),
-
 ('Xiarchos'),
-
 ('Xiaris'),
 ('Xiarong'),
 ('Xiarrah'),
@@ -955,7 +940,6 @@ VALUES
 ('Xingyue'),
 ('Xingyun'),
 ('Xingzhi'),
-
 ('Xingzi'),
 ('Xinh'),
 ('Xinhao'),
@@ -1042,7 +1026,6 @@ VALUES
 ('Xinzhao'),
 ('Xinzhe'),
 ('Xinzheng'),
-
 ('Xinzhu'),
 ('Xinzhuo'),
 ('Xinzi'),
@@ -1061,7 +1044,6 @@ VALUES
 ('Xiongjun'),
 ('Xiongxiao'),
 ('Xiosmara'),
-
 ('Xiouni'),
 ('Xioupol'),
 ('Xiouri'),
@@ -1167,7 +1149,6 @@ VALUES
 ('Xizhe'),
 ('Xizhen'),
 ('Xizheng'),
-
 ('Xizi'),
 ('Xizohui'),
 ('Xizu'),
@@ -1310,7 +1291,6 @@ VALUES
 ('Xueni'),
 ('Xuening'),
 ('Xuenzhong'),
-
 ('Xueping'),
 ('Xuepu'),
 ('Xueqi'),
@@ -1345,7 +1325,6 @@ VALUES
 ('Xuezhen'),
 ('Xuezheng'),
 ('Xuezhi'),
-
 ('Xuezhu'),
 ('Xufang'),
 ('Xufei'),
@@ -1460,7 +1439,6 @@ VALUES
 ('Xypolias'),
 ('Xyrah'),
 ('Xyrichis'),
-
 ('Xyrra'),
 ('Xyrus'),
 ('Xystras'),
@@ -1483,5 +1461,6 @@ VALUES
 ('Xzenecia'),
 ('Xzetenia'),
 ('Xzinmzao');
+
 -- Down
 DELETE FROM "Person" WHERE "keyword" LIKE 'x%';

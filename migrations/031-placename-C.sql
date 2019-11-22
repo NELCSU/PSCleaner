@@ -54197,7 +54197,6 @@ VALUES
 ('Crossens Marsh'),
 ('Crossens Pool'),
 ('Crossens Way'),
-('Crosses'),
 ('Crosses Copse'),
 ('Crosses Covert'),
 ('Crosses Creek'),

@@ -1072,7 +1072,6 @@ VALUES
 ('Ugochinyerem'),
 ('Ugochkwu'),
 ('Ugochuicwu'),
-
 ('Ugochukiwu'),
 ('Ugochukkiu'),
 ('Ugochuku'),
@@ -2146,7 +2145,6 @@ VALUES
 ('Ulziinyam'),
 ('Ulziisaikhan'),
 ('Ulzohra'),
-('Um'),
 ('Uma'),
 ('Umaad'),
 ('Umaaimah'),
@@ -2520,7 +2518,6 @@ VALUES
 ('Umiugulsum'),
 ('Umiya'),
 ('Umiza'),
-
 ('Umjuma'),
 ('Umkanbahen'),
 ('Umkhulsum'),
@@ -2916,7 +2913,6 @@ VALUES
 ('Uneet'),
 ('Unegbe'),
 ('Unegbu'),
-
 ('Uneisa'),
 ('Uneiza'),
 ('Unejs'),
@@ -3009,7 +3005,6 @@ VALUES
 ('Unguryte'),
 ('Ungvari'),
 ('Ungvarsky'),
-('Ungvarszki'),
 ('Unhabo'),
 ('Unhenna'),
 ('Unhjem'),
@@ -3390,7 +3385,6 @@ VALUES
 ('Upile'),
 ('Upinder'),
 ('Upingasana'),
-
 ('Upjohn'),
 ('Upkaar'),
 ('Upkai'),
@@ -4486,7 +4480,6 @@ VALUES
 ('Usmi'),
 ('Usmia'),
 ('Usmiyati'),
-
 ('Usna'),
 ('Usnani'),
 ('Usnata'),
@@ -5243,7 +5236,6 @@ VALUES
 ('Uyovbukerhi'),
 ('Uyoyo'),
 ('Uyoyoghene'),
-
 ('Uyran'),
 ('Uyrell'),
 ('Uyrun'),
@@ -5446,7 +5438,6 @@ VALUES
 ('Uzorka'),
 ('Uzorko'),
 ('Uzorma'),
-
 ('Uzoroh'),
 ('Uzoukwu'),
 ('Uzowa'),
@@ -5496,7 +5487,6 @@ VALUES
 ('Uzunoglu'),
 ('Uzunogullari'),
 ('Uzunon'),
-
 ('Uzunow'),
 ('Uzunowa'),
 ('Uzunsakal'),
@@ -5514,12 +5504,11 @@ VALUES
 ('Uzzamat'),
 ('Uzzel'),
 ('Uzzell'),
-('Uzzi'),
 ('Uzziah'),
 ('Uzziel'),
 ('Uzziitogtokh'),
 ('Uzzle'),
-('Uzzo'),
 ('Uzzol');
+
 -- Down
 DELETE FROM "Person" WHERE "keyword" LIKE 'u%';

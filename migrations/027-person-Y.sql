@@ -22,7 +22,6 @@ VALUES
 ('Yaak'),
 ('Yaakob'),
 ('Yaakobouvic'),
-
 ('Yaakoub'),
 ('Yaakow'),
 ('Yaakyaa'),
@@ -116,7 +115,6 @@ VALUES
 ('Yabome'),
 ('Yabor'),
 ('Yaboskhi'),
-
 ('Yabsera'),
 ('Yabsina'),
 ('Yabsira'),
@@ -154,7 +152,6 @@ VALUES
 ('Yachna'),
 ('Yachne'),
 ('Yachnit'),
-
 ('Yachuan'),
 ('Yachun'),
 ('Yachy'),
@@ -190,12 +187,10 @@ VALUES
 ('Yacono'),
 ('Yacoob'),
 ('Yacoobali'),
-
 ('Yacoub'),
 ('Yacouba'),
 ('Yacoubi'),
 ('Yacoubian'),
-
 ('Yacoubu'),
 ('Yacoumis'),
 ('Yacout'),
@@ -354,7 +349,6 @@ VALUES
 ('Yafaie'),
 ('Yafaj'),
 ('Yafang'),
-
 ('Yafatu'),
 ('Yafe'),
 ('Yafeao'),
@@ -393,7 +387,6 @@ VALUES
 ('Yaganti'),
 ('Yagar'),
 ('Yagazie'),
-
 ('Yagba'),
 ('Yagbaoro'),
 ('Yagbasan'),
@@ -461,7 +454,6 @@ VALUES
 ('Yagoda'),
 ('Yagoob'),
 ('Yagor'),
-
 ('Yagoub'),
 ('Yagoubi'),
 ('Yagoudaef'),
@@ -605,7 +597,6 @@ VALUES
 ('Yaiimundow'),
 ('Yaikah'),
 ('Yailin'),
-
 ('Yaimara'),
 ('Yaimin'),
 ('Yain'),
@@ -724,11 +715,9 @@ VALUES
 ('Yakonzi'),
 ('Yakoob'),
 ('Yakood'),
-
 ('Yakoub'),
 ('Yakoubi'),
 ('Yakoubne'),
-
 ('Yakouelo'),
 ('Yakoup'),
 ('Yakout'),
@@ -740,7 +729,6 @@ VALUES
 ('Yakovlevna'),
 ('Yakow'),
 ('Yakpo'),
-
 ('Yakrang'),
 ('Yaksan'),
 ('Yaksh'),
@@ -919,7 +907,6 @@ VALUES
 ('Yalon'),
 ('Yalong'),
 ('Yalorde'),
-
 ('Yalouris'),
 ('Yaloveckas'),
 ('Yaltirik'),
@@ -942,7 +929,6 @@ VALUES
 ('Yamadi'),
 ('yamadjako'),
 ('Yamadka'),
-
 ('Yamaeva'),
 ('Yamagata'),
 ('Yamaghani'),
@@ -1106,7 +1092,6 @@ VALUES
 ('Yamonean'),
 ('Yamos'),
 ('Yamoto'),
-
 ('Yamoundaw'),
 ('Yamoundow'),
 ('Yamoyam'),
@@ -1336,7 +1321,6 @@ VALUES
 ('Yangnok'),
 ('Yango'),
 ('Yangonde'),
-
 ('Yangpaksi'),
 ('Yangpeng'),
 ('Yangphaibul'),
@@ -1466,7 +1450,6 @@ VALUES
 ('Yankon'),
 ('Yankoski'),
 ('Yankosky'),
-
 ('Yankovich'),
 ('Yankovitch'),
 ('Yankovitsh'),
@@ -1509,7 +1492,6 @@ VALUES
 ('Yannah'),
 ('Yannakakis'),
 ('Yannakis'),
-
 ('Yannam'),
 ('Yannan'),
 ('Yannantuono'),
@@ -1555,7 +1537,6 @@ VALUES
 ('Yannouli'),
 ('Yannoussis'),
 ('Yannu'),
-('Yannuzzi'),
 ('Yanny'),
 ('Yano'),
 ('Yanoff'),
@@ -1567,7 +1548,6 @@ VALUES
 ('Yanos'),
 ('Yanosik'),
 ('Yanosky'),
-
 ('Yanoulla'),
 ('Yanouri'),
 ('Yanover'),
@@ -1657,7 +1637,6 @@ VALUES
 ('Yanushevskaya'),
 ('Yanushka'),
 ('Yanushkovskaya'),
-('Yanuzzi'),
 ('Yanvi'),
 ('Yanwei'),
 ('Yanwen'),
@@ -1716,7 +1695,6 @@ VALUES
 ('Yaorun'),
 ('Yaotey'),
 ('Yaoting'),
-
 ('Yaouanc'),
 ('Yaoussa'),
 ('Yaovaporn'),
@@ -1931,12 +1909,10 @@ VALUES
 ('Yarling'),
 ('Yarlini'),
 ('Yarlott'),
-
 ('Yarlugluolan'),
 ('Yarlugluozan'),
 ('Yarman'),
 ('Yarmazka'),
-('Yarmazki'),
 ('Yarmitsky'),
 ('Yarmohamed'),
 ('Yarmohammadi'),
@@ -1982,7 +1958,6 @@ VALUES
 ('Yaroslava'),
 ('Yaroslaw'),
 ('Yaroson'),
-
 ('Yarovoy'),
 ('Yarow'),
 ('Yarowilka'),
@@ -2136,7 +2111,6 @@ VALUES
 ('Yasenchak'),
 ('Yasenev'),
 ('Yasenia'),
-
 ('Yasenovskiy'),
 ('Yasenya'),
 ('Yaser'),
@@ -2240,7 +2214,6 @@ VALUES
 ('Yashok'),
 ('Yashomatee'),
 ('Yashooda'),
-
 ('Yashovar'),
 ('Yashpal'),
 ('Yashpalkumar'),
@@ -2549,7 +2522,6 @@ VALUES
 ('Yataro'),
 ('Yatassa'),
 ('Yatbaz'),
-
 ('Yatco'),
 ('Yate'),
 ('Yateem'),
@@ -2610,7 +2582,6 @@ VALUES
 ('Yatoo'),
 ('Yatooma'),
 ('Yatosa'),
-
 ('Yatra'),
 ('Yatranand'),
 ('Yatras'),
@@ -2878,7 +2849,6 @@ VALUES
 ('Yazhin'),
 ('Yazhini'),
 ('Yazhong'),
-
 ('Yazhu'),
 ('Yazi'),
 ('Yazici'),
@@ -2917,7 +2887,6 @@ VALUES
 ('Yazvinskaya'),
 ('Yazynina'),
 ('Yazza'),
-('Yazzi'),
 ('Yazzie'),
 ('Yazzle'),
 ('Yazzolino'),
@@ -2956,7 +2925,6 @@ VALUES
 ('Ydis'),
 ('Yditi'),
 ('Ydonna'),
-
 ('Ydri'),
 ('Ydstie'),
 ('Ye'),
@@ -3123,7 +3091,6 @@ VALUES
 ('Yeboda'),
 ('Yeboha'),
 ('Yebooah'),
-
 ('Yeboue'),
 ('Yebovi'),
 ('Yebowaah'),
@@ -3171,7 +3138,6 @@ VALUES
 ('Yedan'),
 ('Yedda'),
 ('Yeddo'),
-
 ('Yeddula'),
 ('Yedduladoddi'),
 ('Yedel'),
@@ -3527,7 +3493,6 @@ VALUES
 ('Yeliz'),
 ('Yelizabeth'),
 ('Yelizar'),
-
 ('Yelizaveta'),
 ('Yelk'),
 ('Yelken'),
@@ -3675,7 +3640,6 @@ VALUES
 ('Yemoly'),
 ('Yemorkor'),
 ('Yemoteley'),
-
 ('Yempe'),
 ('Yemraj'),
 ('Yemriyam'),
@@ -3774,7 +3738,6 @@ VALUES
 ('Yenn'),
 ('Yenna'),
 ('Yennadia'),
-
 ('Yennaram'),
 ('Yennard'),
 ('Yennari'),
@@ -3888,7 +3851,6 @@ VALUES
 ('Yeorum'),
 ('Yeoshua'),
 ('Yeosun'),
-
 ('Yeoun'),
 ('Yeoung'),
 ('Yeoup'),
@@ -3934,7 +3896,6 @@ VALUES
 ('Yeranossian'),
 ('Yerardi'),
 ('Yerashenia'),
-
 ('Yeraud'),
 ('Yeray'),
 ('Yerbic'),
@@ -4034,20 +3995,16 @@ VALUES
 ('Yermy'),
 ('Yernar'),
 ('Yernaux'),
-
 ('Yernur'),
 ('Yero'),
 ('Yerodin'),
 ('Yerokhina'),
 ('Yerokun'),
 ('Yerolemis'),
-
 ('Yeron'),
 ('Yerong'),
 ('Yeropoli'),
 ('Yerosha'),
-
-
 ('Yeroushalmi'),
 ('Yerra'),
 ('Yerrabally'),
@@ -4064,7 +4021,6 @@ VALUES
 ('Yerrill'),
 ('Yerro'),
 ('Yerrola'),
-
 ('Yerry'),
 ('Yersain'),
 ('Yershon'),
@@ -4271,8 +4227,6 @@ VALUES
 ('Yessios'),
 ('Yesso'),
 ('Yessoh'),
-
-
 ('Yessrine'),
 ('Yessuff'),
 ('Yeste'),
@@ -4344,7 +4298,6 @@ VALUES
 ('Yetto'),
 ('Yettocha'),
 ('Yetton'),
-
 ('Yetts'),
 ('Yettukuri'),
 ('Yetty'),
@@ -4465,7 +4418,6 @@ VALUES
 ('Yezerskyi'),
 ('Yezeshewal'),
 ('Yezhen'),
-
 ('Yezhuvath'),
 ('Yezi'),
 ('Yezid'),
@@ -4473,10 +4425,8 @@ VALUES
 ('Yezril'),
 ('Yezus'),
 ('Yezza'),
-('Yezzi'),
 ('Yfantidi'),
 ('Yfantidis'),
-
 ('Yfantis'),
 ('Yfat'),
 ('Yfeko'),
@@ -4537,13 +4487,10 @@ VALUES
 ('Yiagazis'),
 ('Yiakoumakis'),
 ('Yiakoumi'),
-
 ('Yiallouri'),
 ('Yiallourides'),
-
 ('Yiallouris'),
 ('Yiallouros'),
-
 ('Yialonites'),
 ('Yiam'),
 ('Yiambouranis'),
@@ -4556,7 +4503,6 @@ VALUES
 ('Yiangiozis'),
 ('Yiango'),
 ('Yiangos'),
-
 ('Yiangoullis'),
 ('Yianian'),
 ('Yianiniaki'),
@@ -4564,45 +4510,36 @@ VALUES
 ('Yiankos'),
 ('Yianna'),
 ('Yiannacis'),
-
 ('Yiannagis'),
 ('Yiannakas'),
 ('Yiannaki'),
 ('Yiannakis'),
 ('Yiannakko'),
-
 ('Yiannaros'),
-
 ('Yiannes'),
 ('Yianni'),
 ('Yiannides'),
 ('Yiannikaris'),
 ('Yiannikas'),
 ('Yiannikis'),
-
 ('Yiannis'),
 ('Yiannitsaros'),
 ('Yiannomita'),
 ('Yiannopoullos'),
 ('Yiannopoulos'),
-
 ('Yiannos'),
-
 ('Yiannoudes'),
 ('Yiannoukkos'),
 ('Yiannoukos'),
 ('Yiannoula'),
 ('Yiannoulla'),
 ('Yiannoullos'),
-
-
 ('Yiannourides'),
 ('Yiannovdes'),
 ('Yianoma'),
 ('Yianomah'),
 ('Yianoula'),
 ('Yianoulla'),
-
 ('Yianulla'),
 ('Yiao'),
 ('Yiaolong'),
@@ -4616,7 +4553,6 @@ VALUES
 ('Yiasefoulla'),
 ('Yiasemi'),
 ('Yiasemides'),
-
 ('Yiasemina'),
 ('Yiasemis'),
 ('Yiasin'),
@@ -4629,9 +4565,7 @@ VALUES
 ('Yiassas'),
 ('Yiassomi'),
 ('Yiassoumis'),
-
 ('Yiatro'),
-
 ('Yiau'),
 ('Yiavouz'),
 ('Yiaw'),
@@ -5051,7 +4985,6 @@ VALUES
 ('Yingzhe'),
 ('Yingzhen'),
 ('Yingzhi'),
-
 ('Yingzhu'),
 ('Yingzi'),
 ('Yinh'),
@@ -5117,7 +5050,6 @@ VALUES
 ('Yinyu'),
 ('Yinze'),
 ('Yinzhi'),
-
 ('Yinzhu'),
 ('Yinzhue'),
 ('Yio'),
@@ -5138,7 +5070,6 @@ VALUES
 ('Yioryos'),
 ('Yiosese'),
 ('Yiota'),
-
 ('Yioula'),
 ('Yiow'),
 ('Yip'),
@@ -5185,12 +5116,10 @@ VALUES
 ('Yirka'),
 ('Yirmenji'),
 ('Yirmiahu'),
-
 ('Yirmiyahu'),
 ('Yiroel'),
 ('Yiron'),
 ('Yirong'),
-
 ('Yirrell'),
 ('Yirtici'),
 ('Yiru'),
@@ -5396,7 +5325,6 @@ VALUES
 ('Yizheng'),
 ('Yizhi'),
 ('Yizhong'),
-
 ('Yizhu'),
 ('Yizhuo'),
 ('Yizi'),
@@ -5555,7 +5483,6 @@ VALUES
 ('Yoanni'),
 ('Yoannides'),
 ('Yoannis'),
-
 ('Yoanny'),
 ('Yoao'),
 ('Yoaosantos'),
@@ -5576,7 +5503,6 @@ VALUES
 ('Yoble'),
 ('Yobo'),
 ('Yoboro'),
-
 ('Yoboua'),
 ('Yoboue'),
 ('Yobouet'),
@@ -5678,7 +5604,6 @@ VALUES
 ('Yofesi'),
 ('Yoffe'),
 ('Yofi'),
-('Yoga'),
 ('Yogaaraani'),
 ('Yogachitra'),
 ('Yogaditya'),
@@ -5687,7 +5612,7 @@ VALUES
 ('Yogaiswaree'),
 ('Yogakumar'),
 ('Yogakumari'),
-('yogal'),
+('Yogal'),
 ('Yogaladsumy'),
 ('Yogalakshmi'),
 ('Yogaletchumy'),
@@ -5874,7 +5799,6 @@ VALUES
 ('Yohnz'),
 ('Yoho'),
 ('Yohonna'),
-
 ('Yohoun'),
 ('Yohsuf'),
 ('Yohsuke'),
@@ -6027,7 +5951,6 @@ VALUES
 ('Yolmar'),
 ('Yologlu'),
 ('Yolotzin'),
-
 ('Yoloye'),
 ('Yolsal'),
 ('Yolton'),
@@ -6396,7 +6319,6 @@ VALUES
 ('Yorio'),
 ('Yorisola'),
 ('Yorita'),
-('Yorizzo'),
 ('Yorkabel'),
 ('Yorke'),
 ('Yorker'),
@@ -6664,7 +6586,6 @@ VALUES
 ('Youarn'),
 ('Youas'),
 ('Youassi'),
-
 ('Youatt'),
 ('Youb'),
 ('Youbaraj'),
@@ -6877,7 +6798,6 @@ VALUES
 ('Younjeong'),
 ('Younji'),
 ('Younjoon'),
-
 ('Younjung'),
 ('Younk'),
 ('Younker'),
@@ -7012,10 +6932,8 @@ VALUES
 ('Youssif'),
 ('Youssiliana'),
 ('Youssof'),
-
 ('Youssouf'),
 ('Youssoufa'),
-
 ('Youssoufzai'),
 ('Youssouph'),
 ('Youssoupha'),
@@ -7060,7 +6978,6 @@ VALUES
 ('Youxiang'),
 ('Youxu'),
 ('Youye'),
-
 ('Youzbashi'),
 ('Youzeena'),
 ('Youzhen'),
@@ -7149,7 +7066,6 @@ VALUES
 ('Yozler'),
 ('Yozlu'),
 ('Yoztyurk'),
-('Yozzo'),
 ('Ypil'),
 ('Ypina'),
 ('Ypma'),
@@ -7303,7 +7219,6 @@ VALUES
 ('Yuanmei'),
 ('Yuanmin'),
 ('Yuanming'),
-
 ('Yuanna'),
 ('Yuanni'),
 ('Yuanpei'),
@@ -7337,7 +7252,6 @@ VALUES
 ('Yuanzheng'),
 ('Yuanzhi'),
 ('Yuanzhong'),
-
 ('Yuanzhu'),
 ('Yuanzhuo'),
 ('Yuanzu'),
@@ -7567,7 +7481,6 @@ VALUES
 ('Yueyun'),
 ('Yueze'),
 ('Yuezhong'),
-
 ('Yuezhu'),
 ('Yuezi'),
 ('Yufa'),
@@ -7638,7 +7551,6 @@ VALUES
 ('Yuhnis'),
 ('Yuho'),
 ('Yuhong'),
-
 ('Yuhsin'),
 ('Yuhsuan'),
 ('Yuhua'),
@@ -7844,7 +7756,6 @@ VALUES
 ('Yulo'),
 ('Yulong'),
 ('Yulorick'),
-
 ('Yulu'),
 ('Yulun'),
 ('Yuluo'),
@@ -8302,7 +8213,6 @@ VALUES
 ('Yuro'),
 ('Yurob'),
 ('Yurong'),
-
 ('Yurovic'),
 ('Yurovskiy'),
 ('Yurraj'),
@@ -8329,7 +8239,6 @@ VALUES
 ('Yuruk'),
 ('Yurukoglu'),
 ('Yurukogullari'),
-
 ('Yurun'),
 ('Yuruo'),
 ('Yurvaasi'),
@@ -8681,7 +8590,6 @@ VALUES
 ('Yuzheng'),
 ('Yuzhi'),
 ('Yuzhong'),
-
 ('Yuzhu'),
 ('Yuzi'),
 ('Yuzifovich'),
@@ -8745,7 +8653,6 @@ VALUES
 ('Yvi'),
 ('Yvie'),
 ('Yvin'),
-
 ('Yvomciu'),
 ('Yvon'),
 ('Yvone'),
@@ -8800,5 +8707,6 @@ VALUES
 ('Yzobelle'),
 ('Yzquierdo'),
 ('Yzsheng');
+
 -- Down
 DELETE FROM "Person" WHERE "keyword" LIKE 'y%';
