@@ -8814,6 +8814,7 @@ VALUES
 ('Zips'),
 ('Zipse'),
 ('Zipser'),
+('Zipter'),
 ('Zipura'),
 ('Ziqi'),
 ('Ziqian'),

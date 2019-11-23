@@ -80,6 +80,7 @@ VALUES
 ('Qadu'),
 ('Qadus'),
 ('Qaed'),
+('Qaeda'),
 ('Qaedar'),
 ('Qaes'),
 ('Qaesar'),

@@ -1056,6 +1056,7 @@ VALUES
 ('Jaeshan'),
 ('Jaesik'),
 ('Jaeson'),
+('Jaesoo'),
 ('Jaesung'),
 ('Jaet'),
 ('Jaetaek'),

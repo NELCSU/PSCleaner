@@ -39495,6 +39495,7 @@ VALUES
 ('Kristjana'),
 ('Kristjansdotiir'),
 ('Kristjansdottir'),
+('Kristjansen'),
 ('Kristjanson'),
 ('Kristjansson'),
 ('Kristjornsson'),

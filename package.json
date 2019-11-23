@@ -75,7 +75,7 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf static/lib/web-components"
   },
-  "version": "0.4.8",
+  "version": "0.4.9",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }

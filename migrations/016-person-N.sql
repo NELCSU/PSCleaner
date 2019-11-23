@@ -16038,6 +16038,7 @@ VALUES
 ('Niesten'),
 ('Niesterow'),
 ('Niestrata'),
+('Niestrath'),
 ('Niestroj'),
 ('Niestryjewski'),
 ('Niestrzeba'),

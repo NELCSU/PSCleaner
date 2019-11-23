@@ -160,7 +160,7 @@ VALUES
   'PART', 
   1,
   'Regular expression', 
-  '\b[\d,\.]+[\s\-\\/]{1,2}(?:autumn|day|miles|story|summer|week|winter)s?\b'
+  '\b[\d,\.]+(?:st|nd|rd|th)?[\s\-\\/]{1,2}(?:autumn|beer|day|mile|story|summer|week|winter)s?\b'
 ),
 (
   'PartWordDurationRegEx',  
@@ -170,7 +170,7 @@ VALUES
   'PART', 
   1,
   'Regular expression', 
-  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten)[\s\-\\/]{1,2}(?:autumn|day|summer|week|winter)s?\b'
+  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten)[\s\-\\/]{1,2}(?:autumn|beer|day|mile|story|summer|week|winter)s?\b'
 ),
 (
   'PartWordSubsitutionRegEx',

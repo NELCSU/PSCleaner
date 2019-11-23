@@ -12497,7 +12497,6 @@ VALUES
 ('Nameless Cwm'),
 ('Nant'),
 ('Nantlle and Hebog Hills'),
-('Nap'),
 ('Napping'),
 ('Narrow Boats'),
 ('Narrows'),
