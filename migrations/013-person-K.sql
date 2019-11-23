@@ -6541,7 +6541,7 @@ VALUES
 ('Kandola'),
 ('Kandolia'),
 ('Kandoll'),
-('Kandolha),
+('Kandolha'),
 ('Kandolo'),
 ('Kandongo'),
 ('Kandoriya'),

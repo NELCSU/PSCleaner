@@ -3,8 +3,6 @@ INSERT INTO "Placename"
 ("keyword")
 VALUES
 ('U Wybr Ty Coch'),
-('U.P. Lane'),
-('U.P. Road'),
 ('Uabhal Mòr'),
 ('Uachdar'),
 ('Uamascleit'),

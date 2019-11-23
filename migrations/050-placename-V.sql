@@ -1784,7 +1784,6 @@ VALUES
 ('Veysey Close'),
 ('Veyseys Wood'),
 ('Vezey Street'),
-('VI Form'),
 ('Via Gellia'),
 ('Via Gellia Road'),
 ('Via Ravenna'),

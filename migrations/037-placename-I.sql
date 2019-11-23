@@ -757,7 +757,7 @@ VALUES
 ('Impey Road'),
 ('Imphal Close'),
 ('Impington'),
-('Impington International Sixth Form'),
+('Impington International'),
 ('Impington Lane'),
 ('Implacable Road'),
 ('Implement Road'),

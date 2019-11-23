@@ -1163,7 +1163,7 @@ VALUES
 ('Yeovilton'),
 ('Yeovilton Close'),
 ('Yeovilton Place'),
-('Yeovilton Royal Naval Air Station'),
+('Yeovilton Royal Naval Air'),
 ('Yeoward Road'),
 ('Yeowood'),
 ('Yerbeston'),

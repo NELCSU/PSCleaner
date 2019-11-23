@@ -4398,7 +4398,7 @@ VALUES
 ('Old Severn'),
 ('Old Shackerley Lane'),
 ('Old Shaft Wood'),
-('Old Shaftesbury (Shaston) Drove'),
+('Old Shaftesbury Shaston Drove'),
 ('Old Shaftesbury Drove'),
 ('Old Shaftsbury Drove'),
 ('Old Shamblehurst Lane'),

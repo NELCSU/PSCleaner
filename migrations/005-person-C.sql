@@ -34786,7 +34786,7 @@ VALUES
 ('Cuerdo'),
 ('Cuero'),
 ('Cuerq'),
-('Cuerva.Cuadras'),
+('Cuerva'),
 ('Cuervo'),
 ('Cuesta'),
 ('Cuestas'),
