@@ -200,7 +200,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+(?:ajah|cci|ch?ek|dran?|\wcz\w+|hoff|itz|iwe|mir|orf|oti|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn]|z[kz][io])\b'
+  '\b\w+(?:ajah|akis|cci|ch?ek|dran?|\wcz\w+|hoff|it[az]|iwe|mir|orf|[ao][tv]i|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn]|z[kz][io])\b'
 ),
 (
   'PlaceName', 

@@ -12547,6 +12547,5 @@ VALUES
 ('Zyzda'),
 ('Zyzik'),
 ('Zyznowski');
-
 -- Down
 DELETE FROM "Person" WHERE "keyword" LIKE 'z%';

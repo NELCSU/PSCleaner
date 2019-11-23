@@ -316,7 +316,6 @@ VALUES
 ('Qauym'),
 ('Qauyum'),
 ('Qauyumi'),
-('Qavi'),
 ('Qavolli'),
 ('Qawane'),
 ('Qawariq'),
@@ -1330,7 +1329,6 @@ VALUES
 ('Quauyumi'),
 ('Quave'),
 ('Quaver'),
-('Quavi'),
 ('Quavo'),
 ('Quawam'),
 ('Quawasmi'),
@@ -2394,6 +2392,5 @@ VALUES
 ('Qzlem'),
 ('Qzong'),
 ('Qzulun');
-
 -- Down
 DELETE FROM "Person" WHERE "keyword" LIKE 'q%';
