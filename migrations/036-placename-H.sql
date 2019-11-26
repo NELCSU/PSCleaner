@@ -992,7 +992,6 @@ VALUES
 ('Haighton Park Wood'),
 ('Haighton Top'),
 ('Haigville Gardens'),
-('Hail'),
 ('Hail Lane'),
 ('Hail Mary Drive'),
 ('Hail Mary Hill Wood'),

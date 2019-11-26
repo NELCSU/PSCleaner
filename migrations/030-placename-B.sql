@@ -33918,7 +33918,6 @@ VALUES
 ('Boundary Pass'),
 ('Boundary Pastures'),
 ('Boundary Place'),
-('Boundary'),
 ('Boundary Road'),
 ('Boundary Road East'),
 ('Boundary Road North'),

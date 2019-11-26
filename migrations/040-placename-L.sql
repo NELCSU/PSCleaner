@@ -38242,7 +38242,6 @@ VALUES
 ('Lennards'),
 ('Lentins'),
 ('Lerburne'),
-('Less'),
 ('Leug'),
 ('Leverretts'),
 ('Ley'),

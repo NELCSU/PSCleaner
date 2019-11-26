@@ -2490,7 +2490,6 @@ VALUES
 ('Farmer Ward Road'),
 ('Farmer Way'),
 ('Farmerie Road'),
-('Farmers'),
 ('Farmers Arms'),
 ('Farmers Avenue'),
 ('Farmers Bank'),

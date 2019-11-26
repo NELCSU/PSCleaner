@@ -3744,7 +3744,6 @@ VALUES
 ('Jumpag'),
 ('Jumper Bottom'),
 ('Jumper Lane'),
-('Jumpers'),
 ('Jumpers Avenue'),
 ('Jumpers Combe'),
 ('Jumpers Common'),

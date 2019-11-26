@@ -1375,7 +1375,6 @@ VALUES
 ('Wall Park'),
 ('Wall Park Close'),
 ('Wall Park Road'),
-('Wall'),
 ('Wall Pond'),
 ('Wall Pool'),
 ('Wall Ridge Reach'),

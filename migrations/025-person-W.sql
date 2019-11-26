@@ -12772,8 +12772,6 @@ VALUES
 ('Wring'),
 ('Wringe'),
 ('Wringer'),
-('Wrinkle'),
-('Wrinkles'),
 ('Wrinn'),
 ('Wrisdale'),
 ('Wrisley'),

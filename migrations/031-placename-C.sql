@@ -43284,7 +43284,6 @@ VALUES
 ('Corona Terrace'),
 ('Coronach Close'),
 ('Coronado Road'),
-('Coronation'),
 ('Coronation Avenue'),
 ('Coronation Belt'),
 ('Coronation Bridge'),

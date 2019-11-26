@@ -20,7 +20,7 @@ VALUES
   'LOCATION', 
   0,
   'Regular expression', 
-  '\b(?:[1-9]\d{0,3}[a-z]{0,3}\s)(?:[''\.\-\w]*\s)?(?:\w{3,}\s)?(?:approach|avenue|bank|bottom|close|cl\.|crescent|croft|court|drive|end|flats|field|heights|gardens|gate|grange|green|grove|hill|lane|ln\.|meadow|mews|parade|park|path|place|pl\.|rise|road|rd\.|row|square|street|st\.|strand|terrace|towers|view|walk|way|wood|yard|north|south|east|west)(?:\s(?:north|south|east|west))?\b'
+  '\b(?:[1-9]\d{0,3}[a-z]{0,3}\s)(?:[''\.\-\w]*\s)?(?:\w{3,}\s)?(?:approach|avenue|bank|bottom|close|cl\.|crescent|croft|court|drive|end|flats|field|heights|gardens|gate|grange|green|grove|hill|lane|ln\.|meadow|mews|parade|park|path|place|pl\.|rise|road|rd\.|row|square|street|st\.|strand|terrace|towers|view|walk|way|wood|yard|north|south|east|west)\b'
 ),
 (
   'Address2',
@@ -160,7 +160,7 @@ VALUES
   'PART', 
   1,
   'Regular expression', 
-  '\b[\d,\.]+(?:st|nd|rd|th)?[\s\-\\/]{1,2}(?:autumn|beer|day|mile|story|summer|week|winter)s?\b'
+  '\b[\d,\.]+(?:st|nd|rd|th)?[\s\-\\/]{1,2}(?:autumn|beer|day|fairway|mile|min|story|summer|week|winter)s?\b'
 ),
 (
   'PartWordDurationRegEx',  

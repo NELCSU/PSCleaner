@@ -26820,7 +26820,6 @@ VALUES
 ('Luthefa'),
 ('Luthel'),
 ('Luther'),
-('Lutheran'),
 ('Lutherking'),
 ('Lutherus'),
 ('Luthfa'),

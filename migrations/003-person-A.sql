@@ -39913,7 +39913,6 @@ VALUES
 ('Archenti'),
 ('Archeos'),
 ('Archer'),
-('Archery'),
 ('Archet'),
 ('Archetti'),
 ('Archey'),
