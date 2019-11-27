@@ -50728,6 +50728,7 @@ VALUES
 ('San Nicolás'),
 ('San Nicolás de los Garza'),
 ('San Pablo'),
+('San Patrico'),
 ('San Pedro'),
 ('San Pedro de la Paz'),
 ('San Pedro de Macoris'),

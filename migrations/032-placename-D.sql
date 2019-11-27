@@ -15128,7 +15128,6 @@ VALUES
 ('Drivers Row'),
 ('Drivers Wood'),
 ('Drivetts Coppice'),
-('Driveway'),
 ('Driveway Drove'),
 ('Driving Gate'),
 ('Driving Lane'),

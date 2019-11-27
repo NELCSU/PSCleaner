@@ -1067,7 +1067,6 @@ VALUES
 ('Wakar'),
 ('Wakarindi'),
 ('Wakarul'),
-('Wakas'),
 ('Wakasa'),
 ('Wakasugi'),
 ('Wakatsuki'),

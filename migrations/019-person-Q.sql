@@ -2054,7 +2054,6 @@ VALUES
 ('Quirinomario'),
 ('Quirinus'),
 ('Quirion'),
-('Quirk'),
 ('Quirke'),
 ('Quiroa'),
 ('Quiroga'),
