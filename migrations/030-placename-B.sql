@@ -7155,7 +7155,6 @@ VALUES
 ('Bardy Lane'),
 ('Bardyke Bank'),
 ('Bardykes Road'),
-('Bare'),
 ('Bare Allotment'),
 ('Bare Ash'),
 ('Bare Avenue'),

@@ -5284,7 +5284,6 @@ VALUES
 ('Hardenwick Court'),
 ('Harders Road'),
 ('Hardess Street'),
-('Hardest'),
 ('Hardest Cleugh'),
 ('Hardesty Close'),
 ('Hardewick Close'),

@@ -179,6 +179,7 @@ VALUES
 ('Solomon Islands'),
 ('Somalia'),
 ('South Africa'),
+('South America'),
 ('Spain'),
 ('Sri Lanka'),
 ('Sudan'),
