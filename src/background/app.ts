@@ -71,14 +71,6 @@ class Main {
               });
           });
 
-          ipc.on("NLP-sensitivity", (e: IpcMainEvent, n: string) => {
-            if (n === "0" || n === "1" || n === "2") {
-              nlp.sensitivity = parseInt(n);
-            } else {
-              this.mainWindow.webContents.send("NLP-sensitivity", nlp.sensitivity);
-            }
-          });
-
           ipc.on("NLP-trace", (e: IpcMainEvent, n?: boolean) => {
             if (n === undefined) {
               this.mainWindow.webContents.send("NLP-trace", nlp.trace);

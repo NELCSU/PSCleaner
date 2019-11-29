@@ -20,7 +20,6 @@ const renameFileText = document.getElementById("lblRenameFile");
 const renameFileTickbox = document.getElementById("chkFileRename");
 const renameFileSave = document.getElementById("btnFileRename");
 const saveButton = document.getElementById("btnAddText");
-const sensitivityButton = document.getElementById("btnSensitivity");
 const traceButton = document.getElementById("btnTrace");
 const autodiscoverButton = document.getElementById("btnAutodiscover");
 
@@ -69,13 +68,6 @@ function addTag(selection, label, color) {
   rng.surroundContents(mark);
   selection.removeAllRanges();
   return mark;
-}
-
-/**
- * Sends IPC request for current sensitivity setting
- */
-function adjustSensitivity() {
-  ipc.send("NLP-sensitivity", sensitivityButton.value);
 }
 
 /**
@@ -131,6 +123,19 @@ function checkInputFileRename(e) {
   } else {
     renameFileSave.classList.add("disabled");
   }
+}
+
+/**
+ * Removes artificats from text that will impede recognition
+ * @param {string} text
+ */
+function cleanText(text) {
+  text = text.replace(/(?:\r\n|\r|\n)/g, " ");
+  text = text.replace(/\s+/g, " ");
+  text = text.replace(/\s?[\-]\s?/g, "-");
+  text = text.replace(/\s?[\/]\s?/g, "/");
+  text = text.replace(/\s?[\\]\s?/g, "\\");
+  return text;
 }
 
 /**
@@ -231,8 +236,7 @@ function pasteText(e) {
     e.stopPropagation();
   }
   let paste = clipboard.readText();
-  paste = paste.replace(/(?:\r\n|\r|\n)/g, " ");
-  paste = paste.replace(/\s+/g, " ");
+  paste = cleanText(paste);
   const sel = window.getSelection();
   if (!sel.rangeCount) {
     dataEntryText.normalize();
@@ -325,7 +329,6 @@ renameFileText.addEventListener("input", db(checkInputFileRename, 500));
 renameFileTickbox.addEventListener("change", toggleRenameFile);
 renameFileSave.addEventListener("click", saveNewFileName);
 saveButton.addEventListener("click", saveFile);
-sensitivityButton.addEventListener("change", adjustSensitivity);
 traceButton.addEventListener("input", adjustTrace);
 
 ipc.on("entity-list", (e, response) => {
@@ -431,11 +434,9 @@ ipc.on("training-folder", (_, folder) => {
   }).catch(err => console.log(err));
 });
 
-ipc.on("NLP-sensitivity", (_, n) => sensitivityButton.value = n);
 ipc.on("NLP-trace", (_, n) => traceButton.on = n);
 
 ipc.send("get-entities");
-ipc.send("NLP-sensitivity");
 ipc.send("NLP-trace");
 
 window.addEventListener("CancelNewEntityCreation", _ => tag.delete());

@@ -87,7 +87,7 @@ VALUES
 ('Grenadian'), 
 ('Guamanian'),
 ('Guatemalan'),
-('Guinea-Bissaun'), 
+('Guinea Bissaun'), 
 ('Guinean'),
 ('Guyanese'), 
 ('Haitian'),

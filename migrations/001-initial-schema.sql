@@ -40,14 +40,6 @@ CREATE TABLE Placename (
 
 CREATE INDEX Placename_ix_keyword ON Placename (keyword);
 
-CREATE TABLE PlacenameSuffix (
-  id        INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-  keyword   TEXT    NOT NULL COLLATE NOCASE,
-  strength  NUMBER  NOT NULL
-);
-
-CREATE INDEX PlacenameSuffix_ix_keyword ON PlacenameSuffix (keyword);
-
 CREATE TABLE Nationality (
   id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
   keyword TEXT    NOT NULL COLLATE NOCASE
@@ -77,9 +69,6 @@ DROP TABLE IF EXISTS Person;
 
 DROP INDEX Placename_ix_keyword;
 DROP TABLE IF EXISTS Placename;
-
-DROP INDEX PlacenameSuffix_ix_keyword;
-DROP TABLE IF EXISTS PlacenameSuffix;
 
 DROP INDEX Nationality_ix_keyword;
 DROP TABLE IF EXISTS Nationality;

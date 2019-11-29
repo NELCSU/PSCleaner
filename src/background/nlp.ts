@@ -7,15 +7,6 @@ import { Entities } from "./entities";
  * ### Natural language processing services
  */
 export class NLP {
-  public get sensitivity(): number {
-    return this._sensitivity;
-  };
-
-  public set sensitivity(n: number) {
-    this._sensitivity = n;
-    DB().run("UPDATE AppSettings SET value = ? WHERE field = 'NLP_SENSITIVITY'", this._sensitivity);
-  }
-
   public get trace(): boolean {
     return this._trace;
   };
@@ -26,25 +17,13 @@ export class NLP {
   }
 
   private _pos: posTagger;
-  private _sensitivity: number = 1;
   private _sensitivityLevels: string[] = [
-    "|NN|NNS|NNP|NNPS|FW|PRP|PRP$|IN|CC|VB|VBG|JJ|JJR|JJS|TO|",
-    "|NN|NNS|NNP|NNPS|FW|PRP|PRP$|IN|CC|VB|VBG|JJ|JJR|JJS|TO|RB|MD|VBP|DT|WDT|",
-    "|NN|NNS|NNP|NNPS|FW|PRP|PRP$|IN|CC|VB|VBG|JJ|JJR|JJS|TO|RB|MD|VBP|VBD|VBN|VBZ|DT|WDT|"
+    "CC|DT|FW|IN|JJ|JJR|JJS|MD|NN|NNS|NNP|NNPS|PRP|PRP$|RB|TO|VB|VBD|VBG|VBN|VBP|VBZ|WDT|"
   ];
   private _trace: boolean = true;
 
   constructor() {
     this._pos = posTagger();
-
-    DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field = 'NLP_SENSITIVITY'`)
-      .then(async row => {
-        if (row) {
-          this._sensitivity = row.value;
-        } else {
-          DB().insert("AppSettings", { field: "NLP_SENSITIVITY", value: this._sensitivity });
-        }
-      });
 
     DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field = 'NLP_TRACE'`)
       .then(async row => {
@@ -99,7 +78,7 @@ export class NLP {
       const end: number = start + len - 1;
       cursor = end;
       if (tag.tag === "word") {
-        if (this._sensitivityLevels[this.sensitivity].indexOf(`|${tag.pos}|`) > -1) {
+        if (this._sensitivityLevels[0].indexOf(`|${tag.pos}|`) > -1) {
           if (tag.pos === "RB" && lastWord && lastWord.end + 1 === start) {
             const n: number = words.length - 1;
             words[n].value += tag.value;
@@ -108,6 +87,14 @@ export class NLP {
           } else if (lastModal && tag.pos.indexOf("VB") > -1) {
             // account for things like "will act"
             words.pop();
+            lastWord = {
+              value: tag.value,
+              pos: tag.pos,
+              start: start,
+              end: end,
+              length: len
+            };
+            words.push(lastWord);
           } else {
             lastWord = {
               value: tag.value,

@@ -2,7 +2,7 @@
 INSERT INTO "Placename"
 ("keyword")
 VALUES
-('Xai-Xai'),
+('Xai Xai'),
 ('Xalapa'),
 ('Xiamen'),
 ('Xian'),

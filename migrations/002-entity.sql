@@ -30,7 +30,7 @@ VALUES
   'LOCATION', 
   0,
   'Regular expression', 
-  '\b(?:Suite\s(?:\w+)|\d+(st|nd|rd|th)\sFloor)\b'
+  '\b(?:(?:Block|Suite)\s\w|\d+(st|nd|rd|th)\sFloor)\b'
 ),
 (
   'DateLong',  
@@ -200,7 +200,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+(?:ajah|ak[ahiopsuy]s|cci|ch?ek|dran?|\wcz\w+|\wham|\who|hoff|it[az]|iwe|mir|orf|[ao][tv]i|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn]|\w[kz][io])\b'
+  '\b\w+(?:ajah|ak[ahiopsuy]s|cci|ch?ek|dran?|\wcz\w+|\wham|\who|hoff|it[az]|iwe|kw[aeiou]|mir|orf|[ao][ntv]i|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn]|\w[kz][io])\b'
 ),
 (
   'PlaceName', 
