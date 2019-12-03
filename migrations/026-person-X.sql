@@ -1,6 +1,5 @@
 -- Up
-INSERT INTO "Person"
-("keyword")
+INSERT INTO Person (keyword)
 VALUES
 ('Xaaji'),
 ('Xaajim'),
@@ -15,7 +14,6 @@ VALUES
 ('Xabibo'),
 ('Xabier'),
 ('Xabil'),
-('Xabir'),
 ('Xade'),
 ('Xadija'),
 ('Xaeji'),
@@ -171,7 +169,6 @@ VALUES
 ('Xayasouk'),
 ('Xayavong'),
 ('Xayden'),
-('Xayir'),
 ('Xaymaca'),
 ('Xaymika'),
 ('Xayne'),
@@ -265,7 +262,6 @@ VALUES
 ('Xetegauncar'),
 ('Xeucheng'),
 ('Xeunry'),
-('Xevahir'),
 ('Xeyjuantae'),
 ('Xeymeihra'),
 ('Xezal'),
@@ -335,7 +331,6 @@ VALUES
 ('Xhelic'),
 ('Xhelil'),
 ('Xhelilaj'),
-('Xhelili'),
 ('Xhelill'),
 ('Xhem'),
 ('Xhema'),
@@ -386,7 +381,6 @@ VALUES
 ('Xhetah'),
 ('Xhetan'),
 ('Xhevadi'),
-('Xhevahir'),
 ('Xhevahire'),
 ('Xhevair'),
 ('Xhevat'),
@@ -407,7 +401,6 @@ VALUES
 ('Xhiku'),
 ('Xhilaga'),
 ('Xhilaj'),
-('Xhili'),
 ('Xhiljola'),
 ('Xhim'),
 ('Xhina'),
@@ -780,7 +773,6 @@ VALUES
 ('Xidhas'),
 ('Xidi'),
 ('Xidia'),
-('Xidir'),
 ('Xidong'),
 ('Xidowen'),
 ('Xie'),
@@ -795,7 +787,6 @@ VALUES
 ('Xienna'),
 ('Xieo'),
 ('Xier'),
-('Xieraili'),
 ('Xieu'),
 ('Xieying'),
 ('Xifan'),
@@ -832,7 +823,6 @@ VALUES
 ('Xilo'),
 ('Xilonem'),
 ('Xilong'),
-('Xilu'),
 ('Xilun'),
 ('Xiluva'),
 ('Ximan'),
@@ -1133,10 +1123,8 @@ VALUES
 ('Xochilt'),
 ('Xochiquestzal'),
 ('Xochiquetzai'),
-('Xochitl'),
 ('Xoel'),
 ('Xoese'),
-('Xohitl'),
 ('Xola'),
 ('Xolela'),
 ('Xolev'),
@@ -1421,4 +1409,4 @@ VALUES
 ('Xzetenia'),
 ('Xzinmzao');
 -- Down
-DELETE FROM "Person" WHERE "keyword" LIKE 'x%';
+DELETE FROM Person WHERE keyword LIKE 'x%';

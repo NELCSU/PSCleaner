@@ -1,6 +1,5 @@
 -- Up
-INSERT INTO "Placename"
-("keyword")
+  INSERT INTO Placename (keyword)
 VALUES
 ('Vaa Geo'),
 ('Vaagen Road'),

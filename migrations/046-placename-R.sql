@@ -1,6 +1,5 @@
 -- Up
-INSERT INTO "Placename"
-("keyword")
+  INSERT INTO Placename (keyword)
 VALUES
 ('Raa Wick'),
 ('Raabit Kame'),
@@ -11530,13 +11529,7 @@ VALUES
 ('Road Knap Wood'),
 ('Road Lane'),
 ('Road Nine'),
-('Road No 1'),
-('Road No 2'),
-('Road No 3'),
-('Road No 4'),
-('Road No 5'),
-('Road No 7'),
-('Road No 8'),
+('Road No'),
 ('Road Of Remembrance'),
 ('Road of the Hay'),
 ('Road One'),

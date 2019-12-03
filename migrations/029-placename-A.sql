@@ -1,6 +1,5 @@
 -- Up
-INSERT INTO "Placename"
-("keyword")
+  INSERT INTO Placename (keyword)
 VALUES
 ('A Avenue'),
 ('A Bhainlir'),
@@ -19419,7 +19418,7 @@ VALUES
 ('Avenue Lourdes'),
 ('Avenue Mews'),
 ('Avenue Mezidon Canon'),
-('Avenue No 2'),
+('Avenue No'),
 ('Avenue North'),
 ('Avenue Nozay'),
 ('Avenue Of Remembrance'),
@@ -20823,6 +20822,5 @@ VALUES
 ('Awful Hand'),
 ('Ayre'),
 ('Ayres');
-
 -- Down
 DELETE FROM "Placename" WHERE "keyword" LIKE 'a%';

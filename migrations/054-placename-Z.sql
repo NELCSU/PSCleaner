@@ -1,6 +1,5 @@
 -- Up
-INSERT INTO "Placename"
-("keyword")
+  INSERT INTO Placename (keyword)
 VALUES
 ('Zachary Close'),
 ('Zachary Merton Community'),

@@ -1,6 +1,5 @@
 -- Up
-INSERT INTO "Placename"
-("keyword")
+  INSERT INTO Placename (keyword)
 VALUES
 ('Llew Jones'),
 ('La Bassee Road'),
@@ -38153,6 +38152,7 @@ VALUES
 ('Lairs'),
 ('Lake Covert'),
 ('Lake in the Wood'),
+('Lake Oswego'),
 ('Lakes Care Centre'),
 ('Lakes Road'),
 ('Lakie'),

@@ -1,6 +1,5 @@
 -- Up
-INSERT INTO "Placename"
-("keyword")
+  INSERT INTO Placename (keyword)
 VALUES
 ('J B Court'),
 ('J F Kennedy Drive'),
@@ -109,8 +108,8 @@ VALUES
 ('Jack Williams Wood'),
 ('Jack Wood'),
 ('Jack Y Ddu'),
-('Jack  in  the  Green'),
-('Jack  the  Liars Wood'),
+('Jack in the Green'),
+('Jack the Liars Wood'),
 ('Jacka Point'),
 ('Jackal Wood'),
 ('Jackaments Bottom'),
@@ -885,7 +884,7 @@ VALUES
 ('Janeway Place'),
 ('Janeway Street'),
 ('Janey Road'),
-('Jangye  ryn'),
+('Jangye ryn'),
 ('Janice Drive'),
 ('Janice Grove'),
 ('Janice Mews'),
@@ -2115,7 +2114,7 @@ VALUES
 ('Jims Wood'),
 ('Jin Dawsons Wood'),
 ('Jin Whin Court'),
-('Jin  Whin Hill'),
+('Jin Whin Hill'),
 ('Jindabyne Court'),
 ('Jinging Hill'),
 ('Jingle Pot Edge'),
@@ -4038,7 +4037,7 @@ VALUES
 ('Jinshi City'),
 ('Jinzhong'),
 ('Jinzhou'),
-('Ji  Paraná'),
+('Ji Paraná'),
 ('Jiroft'),
 ('Jishou'),
 ('Jisr Diyala'),
@@ -4050,7 +4049,7 @@ VALUES
 ('Jiyuan'),
 ('Jizan'),
 ('Jizzakh'),
-('Jleeb Al  Shuyoukh'),
+('Jleeb Al Shuyoukh'),
 ('João Pessoa'),
 ('Jodhpur'),
 ('Joetsu'),

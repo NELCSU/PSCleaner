@@ -1,6 +1,5 @@
 -- Up
-INSERT INTO "Placename"
-("keyword")
+  INSERT INTO Placename (keyword)
 VALUES
 ('Waalwyk Drive'),
 ('Waarburton'),
@@ -4844,10 +4843,6 @@ VALUES
 ('Water Stratford Road'),
 ('Water Stratford Wood'),
 ('Water Street'),
-('Water Supply 10'),
-('Water Supply 17'),
-('Water Supply 5'),
-('Water Supply 6'),
 ('Water Swallows'),
 ('Water Swallows Road'),
 ('Water Swallows Wood'),

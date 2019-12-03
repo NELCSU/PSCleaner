@@ -1,7 +1,6 @@
 -- Up
 
-INSERT INTO "Nationality"
-("keyword")
+INSERT INTO Nationality (keyword)
 VALUES
 ('Afghan'),
 ('Albanian'),

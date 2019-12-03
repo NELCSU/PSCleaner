@@ -1,7 +1,6 @@
 -- Up
 
-INSERT INTO "Territory"
-("keyword")
+INSERT INTO Territory (keyword)
 VALUES
 ('Afghanistan'),
 ('Albania'),

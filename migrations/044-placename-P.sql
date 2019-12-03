@@ -1,6 +1,5 @@
 -- Up
-INSERT INTO "Placename"
-("keyword")
+  INSERT INTO Placename (keyword)
 VALUES
 ('Pa Irce Bhaoin'),
 ('Paa Hill'),
@@ -15851,14 +15850,13 @@ VALUES
 ('Plantation Gardens'),
 ('Plantation Gate'),
 ('Plantation Gates'),
-('Plantation Glan  Rhydw'),
+('Plantation Glan Rhydw'),
 ('Plantation Grove'),
 ('Plantation Hill'),
 ('Plantation Knowe'),
 ('Plantation Lane'),
 ('Plantation Mawr'),
 ('Plantation Nook'),
-('Plantation Number A102'),
 ('Plantation of Hillhead'),
 ('Plantation of Hillockhead'),
 ('Plantation Park'),
@@ -16133,7 +16131,6 @@ VALUES
 ('Platers Road'),
 ('Platers Walk'),
 ('Platford Green'),
-('Platform 17'),
 ('Platform Drive'),
 ('Platform Road'),
 ('Platform Street'),
@@ -23035,7 +23032,7 @@ VALUES
 ('Press Moor'),
 ('Press Moor Drive'),
 ('Press Reservoirs'),
-('Press Reservoirs Number 1'),
+('Press Reservoirs Number'),
 ('Press Ridge Warren'),
 ('Press Road'),
 ('Press Street'),

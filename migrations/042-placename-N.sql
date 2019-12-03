@@ -1,6 +1,5 @@
 -- Up
-INSERT INTO "Placename"
-("keyword")
+  INSERT INTO Placename (keyword)
 VALUES
 ('Na Badagan'),
 ('Na Binneinean'),
@@ -11321,7 +11320,6 @@ VALUES
 ('Nottingham Heliport'),
 ('Nottingham Hill'),
 ('Nottingham Lane'),
-('Nottingham M1'),
 ('Nottingham New Road'),
 ('Nottingham North'),
 ('Nottingham Place'),

@@ -160,7 +160,7 @@ VALUES
   'PART', 
   1,
   'Regular expression', 
-  '\b[\d,\.]+(?:st|nd|rd|th)?[\s\-\\/]{1,2}(?:acre|autumn|beer|day|fairway|mile|min|story|summer|week|winter)s?\b'
+  '\b[\d,\.]+(?:st|nd|rd|th)?[\s\-\\/]{1,2}(?:acre|autumn|beer|day|fairway|mile|pence|pound|min|story|summer|week|winter)s?\b'
 ),
 (
   'PartWordDurationRegEx',  
@@ -170,7 +170,7 @@ VALUES
   'PART', 
   1,
   'Regular expression', 
-  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten)[\s\-\\/]{1,2}(?:acre|autumn|beer|day|mile|story|summer|week|winter)s?\b'
+  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten)[\s\-\\/]{1,2}(?:acre|autumn|beer|day|mile|pence|pound|story|summer|week|winter)s?\b'
 ),
 (
   'PartWordSubsitutionRegEx',
@@ -193,14 +193,14 @@ VALUES
   ''
 ),
 (
-  'PersonRegEx',  
+  'PersonRegEx',
   '#00a0ff', 
   'Person', 
   1, 
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+(?:ajah|ak[ahiopsuy]s|cci|ch?ek|dran?|\wcz\w+|\wham|\who|hoff|it[az]|iwe|kw[aeiou]|mir|orf|[ao][ntv]i|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn]|\w[kz][io])\b'
+  '\b\w+(?:ajah|ak[ahiopsuy]s|cci|ch?ek|dran?|\wcz\w+|\wham|\who|hoff|il[bcg-ju-xz]|iute|it[acdgjl-npru-xz]|iwe|kw[aeiou]|[b-df-np-su-z]ir|orf|[ao][ntv]i|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn]|\w[kz][io])\b'
 ),
 (
   'PlaceName', 

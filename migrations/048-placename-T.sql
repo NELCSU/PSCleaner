@@ -1,6 +1,5 @@
 -- Up
-INSERT INTO "Placename"
-("keyword")
+  INSERT INTO Placename (keyword)
 VALUES
 ('Ta  Verne Lane'),
 ('Tabard Gardens'),
@@ -2081,7 +2080,7 @@ VALUES
 ('Tarn Mire'),
 ('Tarn Moor'),
 ('Tarn Moor Crescent'),
-('Tarn Moor Memorial Woodland 2002'),
+('Tarn Moor Memorial Woodland'),
 ('Tarn Moss'),
 ('Tarn Mount'),
 ('Tarn Point'),
@@ -5156,8 +5155,6 @@ VALUES
 ('Three Marshes'),
 ('Three Stacks'),
 ('Threshers'),
-('Thrift'),
-('Throat'),
 ('Thrum'),
 ('Thrums'),
 ('Tideway'),
@@ -12584,7 +12581,7 @@ VALUES
 ('Tidy Street'),
 ('Tidys Copse'),
 ('Tidys Lane'),
-('Tie Road No 2'),
+('Tie Road No'),
 ('Tiel Path'),
 ('Tiepigs Lane'),
 ('Tiercel Avenue'),
@@ -20086,9 +20083,6 @@ VALUES
 ('Trench Knowe'),
 ('Trench Lane'),
 ('Trench Lock'),
-('Trench Lock 1'),
-('Trench Lock 2'),
-('Trench Lock 3'),
 ('Trench Point'),
 ('Trench Pool'),
 ('Trench Road'),
