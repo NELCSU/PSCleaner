@@ -33,6 +33,16 @@ VALUES
   '\b(?:(?:Block|Suite)\s\w|\d+(st|nd|rd|th)\sFloor)\b'
 ),
 (
+  'Address3',
+  '#80ff70', 
+  'Location', 
+  0, 
+  'LOCATION', 
+  0,
+  'Regular expression', 
+  '\b\w{2,}\s+(?:crescent|gardens?|place|road|street|terraces?|woods?)\b'
+),
+(
   'DateLong',  
   '#ffb3ff', 
   'DateTime', 

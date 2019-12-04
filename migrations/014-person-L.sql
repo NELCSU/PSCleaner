@@ -7479,6 +7479,7 @@ VALUES
 ('Laverdin'),
 ('Laverdure'),
 ('Lavere'),
+('Laverell'),
 ('Laverette'),
 ('Laverghetta'),
 ('Lavergne'),
