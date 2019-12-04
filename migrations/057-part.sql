@@ -219,7 +219,7 @@ VALUES
 ('Dean of'),
 ('Deep snow'),
 ('Demand peaks'),
-('Dense woods'),
+
 ('Dining hall'),
 ('Disputes over'),
 ('Ditch someone'),
@@ -452,7 +452,7 @@ VALUES
 ('Last Autumn'),
 ('Last Christmas'),
 ('Last Easter'),
-('Last road'),
+
 ('Last Summer'),
 ('Last Winter'),
 ('Later day'),
@@ -549,7 +549,7 @@ VALUES
 ('Nearby camp'),
 ('Next autumn'),
 ('Next day'),
-('Next road'),
+
 ('Next summer'),
 ('Next winter'),
 ('New bonds'),
@@ -926,7 +926,7 @@ VALUES
 ('The rally seemed'),
 ('The rest of'),
 ('The resolution of'),
-('The road'),
+
 ('The roads'),
 ('The royal bank'),
 ('The run of'),
@@ -993,7 +993,7 @@ VALUES
 ('This Autumn'),
 ('This Christmas'),
 ('This Easter'),
-('This road'),
+
 ('This story'),
 ('This summer'),
 ('This sun'),
@@ -1083,10 +1083,10 @@ VALUES
 ('West from'),
 ('West wing'),
 ('Wetter than'),
-('What road'),
+
 ('When will'),
 ('Where grass'),
-('Which road'),
+
 ('Which will'),
 ('White man'),
 ('White men'),

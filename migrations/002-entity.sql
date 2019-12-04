@@ -40,7 +40,7 @@ VALUES
   'LOCATION', 
   0,
   'Regular expression', 
-  '\b\w{2,}\s+(?:crescent|gardens?|place|road|street|terraces?|woods?)\b'
+  '\b\w{2,}\s+(?:avenue|coppices?|court|crescent|croft|ford|gardens?|grove|parade|place|road|square|street|terraces?|view|woods?)\b'
 ),
 (
   'DateLong',  
