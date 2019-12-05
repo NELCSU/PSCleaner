@@ -162,6 +162,7 @@ VALUES
 ('Panamanian'), 
 ('Papua New Guinean'),
 ('Paraguayan'),
+('Persian'),
 ('Peruvian'), 
 ('Pitcairn Islander'),
 ('Polish'),

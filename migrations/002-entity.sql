@@ -20,7 +20,7 @@ VALUES
   'LOCATION', 
   0,
   'Regular expression', 
-  '\b(?:[1-9]\d{0,3}[a-z]{0,3}\s)(?:[''\.\-\w]*\s)?(?:\w{3,}\s)(?:approach|avenue|bank|bottom|close|cl\.|crescent|croft|court|drive|end|flats|field|heights|gardens|gate|grange|green|grove|hill|lane|ln\.|meadow|mews|parade|park|path|place|pl\.|rise|road|rd\.|row|square|street|st\.|strand|terrace|towers|view|walk|way|wood|yard|north|south|east|west)\b'
+  '\b(?:[1-9]\d{0,3}[a-z]{0,3}\s)(?:[''\.\-a-z]*\s)?(?:[a-z'']{3,}\s)(?:approach|avenue|bank|bay|bottom|boulevard|brae|close|cl\.|crescent|croft|cottages?|court|drive|end|flats|field|heights|gardens|gate|grange|green|grove|hill|junction|lane|ln\.|lawns?|meads?|meadows?|mews|mills?|orchards?|parade|park|path|place|pl\.|ponds?|ridge|rise|road|rd\.|row|spinney|square|street|st\.|strand|terrace|towers|view|walk|way|woods?|yard|north|south|east|west)\b'
 ),
 (
   'Address2',
@@ -30,17 +30,7 @@ VALUES
   'LOCATION', 
   0,
   'Regular expression', 
-  '\b(?:(?:Block|Suite)\s\w|\d+(st|nd|rd|th)\sFloor)\b'
-),
-(
-  'Address3',
-  '#80ff70', 
-  'Location', 
-  0, 
-  'LOCATION', 
-  0,
-  'Regular expression', 
-  '\b\w{2,}\s+(?:avenue|coppices?|court|crescent|croft|ford|gardens?|grove|parade|place|road|square|street|terraces?|view|woods?)\b'
+  '\b(?:(?:Block|Suite)\s[\w]*|\d+(st|nd|rd|th)\sFloor)\b'
 ),
 (
   'DateLong',  
@@ -170,7 +160,7 @@ VALUES
   'PART', 
   1,
   'Regular expression', 
-  '\b[\d,\.]+(?:st|nd|rd|th)?[\s\-\\/]{1,2}(?:acre|autumn|beer|day|fairway|mile|pence|pound|min|story|summer|week|winter)s?\b'
+  '\b[\d,\.]+(?:st|nd|rd|th)?[\s\-\\/]{1,2}(?:acre|autumn|beer|day|fairway|mile|pence|place|pound|min|story|summer|week|winter)s?\b'
 ),
 (
   'PartWordDurationRegEx',  
@@ -180,7 +170,7 @@ VALUES
   'PART', 
   1,
   'Regular expression', 
-  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten)[\s\-\\/]{1,2}(?:acre|autumn|beer|day|mile|pence|pound|story|summer|week|winter)s?\b'
+  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten|hundred)[\s\-\\/]{1,2}(?:acre|autumn|beer|day|mile|pence|place|pound|story|summer|week|winter)s?\b'
 ),
 (
   'PartWordSubsitutionRegEx',
@@ -210,7 +200,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+(?:ajah|ak[ahiopsuy]s|cci|ch?ek|dran?|\wcz\w+|\wham|\who|hoff|il[bcg-ju-xz]|iute|it[acdgjl-npru-xz]|iwe|kw[aeiou]|[b-df-np-su-z]ir|orf|[ao][ntv]i|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn]|\w[kz][io])\b'
+  '\b\w+(?:ajah|ak[ahiopsuy]s|cci|ch?ek|dran?|\wcz\w+|\wham|\who|hoff|i[fhijkquvwy]|il[bcg-ju-xz]|iute|it[acdgjl-npru-xz]|iwe|kw[aeiou]|[b-df-np-su-z]ir|orf|[ao][ntv]i|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn]|\w[kz][io])\b'
 ),
 (
   'PlaceName', 
