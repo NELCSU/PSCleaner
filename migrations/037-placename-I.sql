@@ -80,7 +80,6 @@ VALUES
 ('Ibis Way'),
 ('Ible'),
 ('Ible Wood'),
-('IBM'),
 ('Ibris Place'),
 ('Ibrook Wood'),
 ('Ibrox'),

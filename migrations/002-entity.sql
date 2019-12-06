@@ -20,7 +20,7 @@ VALUES
   'LOCATION', 
   0,
   'Regular expression', 
-  '\b(?:[1-9]\d{0,3}[a-z]{0,3}\s)(?:[''\.\-a-z]*\s)?(?:[a-z'']{3,}\s)(?:approach|avenue|bank|bay|bottom|boulevard|brae|close|cl\.|crescent|croft|cottages?|court|drive|end|flats|field|heights|gardens|gate|grange|green|grove|hill|junction|lane|ln\.|lawns?|meads?|meadows?|mews|mills?|orchards?|parade|park|path|place|pl\.|ponds?|ridge|rise|road|rd\.|row|spinney|square|street|st\.|strand|terrace|towers|view|walk|way|woods?|yard|north|south|east|west)\b'
+  '\b(?:[1-9]\d{0,3}[a-z]{0,3}\s)(?:[''\.\-a-z]*\s)?(?:[a-z'']{3,}\s)(?:approach|avenue|bank|bay|bottom|boulevard|blvd|brae|close|crescent|croft|cottages?|court|drive|end|flats|field|heights|gardens|gate|grange|green|grove|hill|junction|lane|ln|lawns?|meads?|meadows?|mews|mills?|orchards?|parade|park|path|place|pl|ponds?|ridge|rise|road|rd|row|spinney|square|street|st|strand|terrace|towers|view|walk|way|woods?|yard)\b'
 ),
 (
   'Address2',
@@ -90,7 +90,7 @@ VALUES
   'DATETIME', 
   0,
   'Regular expression', 
-  '\b[0123]?\d[\s\/]{1,3}[0123]?\d[\s\/]{1,3}\d{2,4}|\d{2,4}[\s\/]{1,3}[0123]?\d[\s\/]{1,3}[0123]?\d\b'
+  '\b[0123]?\d[\s\/]{1,3}[0123]?\d[\s\/]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\/]{1,3}[0123]?\d[\s\/]{1,3}[0123]?\d\b'
 ),
 (
   'DateShort2',
@@ -100,7 +100,7 @@ VALUES
   'DATETIME', 
   0,
   'Regular expression', 
-  '\b[0123]?\d[\s\-]{1,3}[0123]?\d[\s\-]{1,3}\d{2,4}|\d{2,4}[\s\-]{1,3}[0123]?\d[\s\-]{1,3}[0123]?\d\b'
+  '\b[0123]?\d[\s\-]{1,3}[0123]?\d[\s\-]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\-]{1,3}[0123]?\d[\s\-]{1,3}[0123]?\d\b'
 ),
 (
   'DateShort3',
@@ -110,7 +110,7 @@ VALUES
   'DATETIME', 
   0,
   'Regular expression', 
-  '\b[0123]?\d[\s\.]{1,3}[0123]?\d[\s\.]{1,3}\d{2,4}|\d{2,4}[\s\.]{1,3}[0123]?\d[\s\.]{1,3}[0123]?\d\b'
+  '\b[0123]?\d[\s\.]{1,3}[0123]?\d[\s\.]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\.]{1,3}[0123]?\d[\s\.]{1,3}[0123]?\d\b'
 ),
 (
   'Email',     
@@ -200,7 +200,37 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+(?:ajah|ak[ahiopsuy]s|cci|ch?ek|dran?|\wcz\w+|\wham|\who|hoff|i[fhijkquvwy]|il[bcg-ju-xz]|iute|it[acdgjl-npru-xz]|iwe|kw[aeiou]|[b-df-np-su-z]ir|orf|[ao][ntv]i|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn]|\w[kz][io])\b'
+  '\b\w+(?:ak[ahiopsuy]s|cci|ch?ek|dran?|\wcz\w+|\wham|\who|hoff|[a-hj-z]i[fhijkquvwy]|iute|iwe|kw[aeiou]|[b-df-np-su-z]ir|orf|[ao][ntv]i|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn]|\w[kz][io])\b'
+),
+(
+  'PersonRegExh',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+h(?:le)\b'
+),
+(
+  'PersonRegExi',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+i(?:a[abf-kmo-qu-z]|b[a-df-rt-z]|c[b-dfgijl-ru-xz]|l[bcg-ju-xz]|t[acdgjl-npru-xz]|[xy][a-z]|z[a-df-y])\b'
+),
+(
+  'PersonRegExj',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b[a-z_]+(?:jah)\b'
 ),
 (
   'PlaceName', 
@@ -243,14 +273,14 @@ VALUES
   '\(?0\d\d(?:\)?[\s\-]?\d\d\d|\d\)?[\s\-]?\d\d|\d\d\)?[\s\-]?\d|\d\s?\d\d\)?)[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d\d'
 ),
 (
-  'TelUKInt',  
+  'TelUKInt',
   '#ff80ff', 
   'Reference',
   0, 
   'CONTACT', 
   0,
   'Regular expression', 
-  '(?:\+\(?44\)?|0044)\s?\(?0?\d\d(?:\)?[\s\-]?\d\d\d|\d\)?[\s\-]?\d\d|\d\d\)?[\s\-]?\d|\d\s?\d\d\)?)[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d\d'
+  '(?:\+?\(?44\)?|0044\s?)\s?\(?0?\)?\s?\d\s?\d\)?[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d?'
 ),
 (
   'Territory',

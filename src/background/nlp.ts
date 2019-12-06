@@ -244,7 +244,7 @@ export class NLP {
       ? await this._querySingleTerms(words, entity)
       : await this._queryMultipleTerms(words, entity);
     const r: MatchedEntity[] = [];
-    let test: string = data.toLowerCase();
+    let test: string = data.toLowerCase().replace(/-/g, " ");
     searchTerms.forEach((term: SearchTermResult) => {
       let value: string, added_check: boolean = false;
       if (term.original_term === undefined) {

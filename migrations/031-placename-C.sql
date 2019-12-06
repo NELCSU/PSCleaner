@@ -6576,7 +6576,6 @@ VALUES
 ('Carholme Road'),
 ('Carhowden Road'),
 ('Carib Street'),
-('Caribbean'),
 ('Caribee Quarter'),
 ('Caribou Close'),
 ('Caribou Way'),

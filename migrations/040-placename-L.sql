@@ -38184,7 +38184,6 @@ VALUES
 ('Larthings'),
 ('Larun Beat'),
 ('Lathes'),
-('Launches'),
 ('Laund'),
 ('Launde'),
 ('Laurells'),

@@ -6931,7 +6931,6 @@ VALUES
 ('Orwick Hill'),
 ('Orwick Water'),
 ('Orwin Green'),
-('Os'),
 ('Os a Muigh'),
 ('Os a Stigh'),
 ('Osbaldeston'),

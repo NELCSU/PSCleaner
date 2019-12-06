@@ -163,7 +163,7 @@ VALUES
 ('Vacsilja'),
 ('Vactor'),
 ('Vacula'),
-('Vaculciak'), 
+ 
 ('Vaculisteanu'),
 ('Vaculovschi'),
 ('Vacura'),
@@ -251,7 +251,7 @@ VALUES
 ('Vadga'),
 ('Vadgama'),
 ('Vadhana'),
-('Vadhariya'),
+
 ('Vadhavania'),
 ('Vadheim'),
 ('Vadher'),
@@ -283,7 +283,7 @@ VALUES
 ('Vadivel'),
 ('Vadivelo'),
 ('Vadivelu'),
-('Vadivupriya'),
+
 ('Vadiwala'),
 ('Vadjima'),
 ('Vadkerti'),
@@ -304,7 +304,7 @@ VALUES
 ('Vadodaria'),
 ('Vadodia'),
 ('Vadolia'),
-('Vadoliya'),
+
 ('Vador'),
 ('Vadovics'),
 ('Vadranam'),
@@ -394,7 +394,7 @@ VALUES
 ('Vaghadia'),
 ('Vaghari'),
 ('Vaghasia'),
-('Vaghasiya'),
+
 ('Vaghefian'),
 ('Vaghela'),
 ('Vaghella'),
@@ -520,7 +520,7 @@ VALUES
 ('Vahitoglu'),
 ('Vahittin'),
 ('Vahl'),
-('Vahle'),
+
 ('Vahlhaus'),
 ('Vahling'),
 ('Vahlkamp'),
@@ -573,7 +573,7 @@ VALUES
 ('Vaiceliuniene'),
 ('Vaicelyte'),
 ('Vaicenavicius'),
-('Vaici'),
+
 ('Vaiciakauskaite'),
 ('Vaicickaite'),
 ('Vaiciene'),
@@ -609,7 +609,7 @@ VALUES
 ('Vaid'),
 ('Vaida'),
 ('Vaidah'),
-('Vaidaiah'),
+
 ('Vaidaite'),
 ('Vaidakaviciene'),
 ('Vaidakavicius'),
@@ -756,9 +756,9 @@ VALUES
 ('Vaira'),
 ('Vairabala'),
 ('Vairagee'),
-('Vairaiaa'),
-('Vairaiah'),
-('Vairaiya'),
+
+
+
 ('Vairaiyah'),
 ('Vairaj'),
 ('Vairakkannu'),
@@ -785,7 +785,7 @@ VALUES
 ('Vairayaa'),
 ('Vairea'),
 ('Vairi'),
-('Vairiah'),
+
 ('Vairiayah'),
 ('Vairis'),
 ('Vairo'),
@@ -955,7 +955,7 @@ VALUES
 ('Vaivutskaite'),
 ('Vaivutskas'),
 ('Vaivutskiene'),
-('Vaiya'),
+
 ('Vaiyapuri'),
 ('Vaiyata'),
 ('Vaiz'),
@@ -1039,7 +1039,7 @@ VALUES
 ('Vakaj'),
 ('Vakalawaku'),
 ('Vakaliarelis'),
-('Vakaliya'),
+
 ('Vakalopoulos'),
 ('Vakaloudi'),
 ('Vakaloudis'),
@@ -1074,7 +1074,7 @@ VALUES
 ('Vakha'),
 ('Vakhaeva'),
 ('Vakharia'),
-('Vakhariya'),
+
 ('Vakhitovich'),
 ('Vakhrameeva'),
 ('Vakhris'),
@@ -1090,7 +1090,7 @@ VALUES
 ('Vakilpour'),
 ('Vakilzadeh'),
 ('Vakirtzis'),
-('Vakizh'),
+
 ('Vakizzadeh'),
 ('Vakkachan'),
 ('Vakkanti'),
@@ -1114,7 +1114,7 @@ VALUES
 ('Vaks'),
 ('Vaksala'),
 ('Vakshan'),
-('Vakshniak'),
+
 ('Vaksman'),
 ('Vakulabharanam'),
 ('Vakulina'),
@@ -1610,7 +1610,7 @@ VALUES
 ('Valerievich'),
 ('Valerievna'), 
 ('Valeriia'),
-('Valeriiav'), 
+ 
 ('Valerija'),
 ('Valerijanas'),
 ('Valerijs'),
@@ -1623,9 +1623,9 @@ VALUES
 ('Valerio'),
 ('Valerios'), 
 ('Valerius'),  
-('Valeriya'),
+
 ('Valeriyan'),
-('Valeriys'),
+
 ('Valerja'),
 ('Valerjan'),
 ('Valerjevna'),
@@ -1701,7 +1701,7 @@ VALUES
 ('Valhopol'),
 ('Vali'),
 ('Valia'),
-('Valiah'),
+
 ('Valiallah'),
 ('Valiame'),
 ('Valiandis'),
@@ -1718,7 +1718,7 @@ VALUES
 ('Valibone'),
 ('Valica'),
 ('Valicenti'),
-('Valici'),
+
 ('Valicia'),
 ('Valickaite'),
 ('Valickas'),
@@ -1751,7 +1751,7 @@ VALUES
 ('Valimahomed'),
 ('Valimamod'),
 ('Valimamodo'),
-('Valimiya'),
+
 ('Valimohamed'),
 ('Valimohammed'),
 ('Valimomed'),
@@ -1827,7 +1827,7 @@ VALUES
 ('Valiveti'),
 ('Valivoniene'),
 ('Valivonis'),
-('Valiya'),
+
 ('Valiyakath'),
 ('Valiyamplakkal'),
 ('Valiyapeediyakkal'),
@@ -3003,7 +3003,7 @@ VALUES
 ('Vandezande'),
 ('Vandhana'),
 ('Vandi'),
-('Vandico'),
+
 ('Vandieken'),
 ('Vandien'),
 ('Vandiepen'),
@@ -3142,7 +3142,7 @@ VALUES
 ('Vanegdom'),
 ('Vanegeren'),
 ('Vanegmond'),
-('Vaneiza'),
+
 ('Vanejeva'),
 ('Vanek'),
 ('Vanel'),
@@ -3243,7 +3243,7 @@ VALUES
 ('Vangelis'),
 ('Vangelista'),
 ('Vangelitsa'),
-('Vangeliya'),
+
 ('Vangelos'),
 ('Vangemert'),
 ('Vangen'),
@@ -3263,7 +3263,7 @@ VALUES
 ('Vanghela'),
 ('Vanghele'),
 ('Vanghelie'),
-('Vanghelovici'),
+
 ('Vangi'),
 ('Vangie'),
 ('Vangiesen'),
@@ -3399,7 +3399,7 @@ VALUES
 ('Vanhyfte'),
 ('Vanhyning'),
 ('Vania'),
-('Vaniak'),
+
 ('Vanian'),
 ('Vaniankizhakel'),
 ('Vanica'),
@@ -3461,8 +3461,8 @@ VALUES
 ('Vanitharathnam'),
 ('Vanitta'),
 ('Vanity'),
-('Vaniya'),
-('Vaniza'),
+
+
 ('Vanja'),
 ('Vanjara'),
 ('Vanjareonpun'),
@@ -3637,7 +3637,7 @@ VALUES
 ('Vanneza'),
 ('Vanngel'),
 ('Vanni'),
-('Vanniah'),
+
 ('Vannice'),
 ('Vannicola'),
 ('Vannie'),
@@ -3735,7 +3735,7 @@ VALUES
 ('Vanoverloop'),
 ('Vanoverschelde'),
 ('Vanoy'),
-('Vanpariya'),
+
 ('Vanparys'),
 ('Vanpatten'),
 ('Vanpatton'),
@@ -4071,7 +4071,7 @@ VALUES
 ('Vanzetto'),
 ('Vanzie'),
 ('Vanzile'),
-('Vanziliak'),
+
 ('Vanzin'),
 ('Vanzini'),
 ('Vanzuiden'),
@@ -4111,7 +4111,7 @@ VALUES
 ('Varacalli'),
 ('Varache'),
 ('Varachhia'),
-('Varachhiya'),
+
 ('Varachia'),
 ('Varad'),
 ('Varada'),
@@ -4145,7 +4145,7 @@ VALUES
 ('Varaich'),
 ('Varaillon'),
 ('Varaitch'),
-('Varaiya'),
+
 ('Varajanikant'),
 ('Varajas'),
 ('Varajlal'),
@@ -4402,7 +4402,7 @@ VALUES
 ('Vargivan'),
 ('Vargo'),
 ('Vargockaja'),
-('Vargolici'),
+
 ('Vargoniene'),
 ('Vargos'),
 ('Vargovich'),
@@ -4419,12 +4419,12 @@ VALUES
 ('Varhola'),
 ('Vari'),
 ('Varia'),
-('Variah'),
+
 ('Variakojis'),
 ('Variakojyte'),
 ('Variakoyte'),
 ('Variale'),
-('Variam'),
+
 ('Varian'),
 ('Variankaval'),
 ('Varias'),
@@ -4485,7 +4485,7 @@ VALUES
 ('Varit'),
 ('Varithamby'),
 ('Varitimos'),
-('Variya'),
+
 ('Variyalil'),
 ('Varjabedian'),
 ('Varjagins'),
@@ -4582,7 +4582,7 @@ VALUES
 ('Varnav'),
 ('Varnava'),
 ('Varnavas'),
-('Varnavici'),
+
 ('Varnavides'),
 ('Varndell'),
 ('Varne'),
@@ -4608,7 +4608,7 @@ VALUES
 ('Varnina'),
 ('Varnish'),
 ('Varnisha'),
-('Varniya'),
+
 ('Varnjeet'),
 ('Varnman'),
 ('Varno'),
@@ -4803,7 +4803,7 @@ VALUES
 ('Varvaousis'),
 ('Varvara'),
 ('Varvarchuk'),
-('Varvarici'),
+
 ('Varvarides'),
 ('Varvaritsa'),
 ('Varvariuk'),
@@ -5012,7 +5012,7 @@ VALUES
 ('Vasey'),
 ('Vasfi'),
 ('Vasfie'),
-('Vasfiye'),
+
 ('Vasgo'),
 ('Vasguez'),
 ('Vash'),
@@ -5163,7 +5163,7 @@ VALUES
 ('Vasilica'),
 ('Vasilich'),
 ('Vasilichie'),
-('Vasilici'),
+
 ('Vasilicia'),
 ('Vasilie'),
 ('Vasilieios'),
@@ -5192,8 +5192,8 @@ VALUES
 ('Vasilisuskas'), 
 ('Vasiliunaite'),
 ('Vasilius'), 
-('Vasiliya'),
-('Vasiliys'),
+
+
 ('Vasiljeu'),
 ('Vasiljev'),
 ('Vasiljeva'),
@@ -5221,7 +5221,7 @@ VALUES
 ('Vasilonoka'),
 ('Vasilopoulos'),
 ('Vasilos'),
-('Vasilovici'),
+
 ('Vasilow'),
 ('Vasilpolous'),
 ('Vasiluks'),
@@ -5465,7 +5465,7 @@ VALUES
 ('Vasugi'),
 ('Vasujaid'),
 ('Vasukidevi'),
-('Vasukisivappriya'),
+
 ('Vasukula'),
 ('Vasuky'),
 ('Vasula'),
@@ -5495,7 +5495,7 @@ VALUES
 ('Vasvi'),
 ('Vasvie'),
 ('Vasvija'),
-('Vasviye'),
+
 ('Vasy'),
 ('Vasya'),
 ('Vasyatkina'),
@@ -5584,7 +5584,7 @@ VALUES
 ('Vatinno'),
 ('Vatish'),
 ('Vatiste'),
-('Vatiya'),
+
 ('Vatkas'),
 ('Vatland'),
 ('Vatn'),
@@ -5599,7 +5599,7 @@ VALUES
 ('Vatra'),
 ('Vatran'),
 ('Vatrano'),
-('Vatrici'),
+
 ('Vats'),
 ('Vatsa'),
 ('Vatsal'),
@@ -5769,7 +5769,7 @@ VALUES
 ('Vawdrey'),
 ('Vawn'),
 ('Vawser'),
-('Vawsiya'),
+
 ('Vawter'),
 ('Vawters'),
 ('Vax'),
@@ -6022,7 +6022,7 @@ VALUES
 ('Vedage'),
 ('Vedaguiry'),
 ('Vedak'),
-('Vedakaruniya'),
+
 ('Vedakkan'),
 ('Vedalaksmi'),
 ('Vedalankar'),
@@ -6142,7 +6142,7 @@ VALUES
 ('Veeder'),
 ('Veedi'),
 ('Veediawatee'),
-('Veediya'),
+
 ('Veedu'),
 ('Veedyotma'),
 ('Veeha'),
@@ -6195,12 +6195,12 @@ VALUES
 ('Veerabadren'),
 ('Veerabathini'),
 ('Veerabathran'),
-('Veerabhadraiah'),
+
 ('Veerabhadrappa'),
 ('Veerachun'),
 ('Veeragathipillai'), 
 ('Veerailandiraiyan'),
-('Veeraiya'),
+
 ('Veeraj'),
 ('Veerajith'),
 ('Veerakamaraj'),
@@ -6292,7 +6292,7 @@ VALUES
 ('Veerepalli'),
 ('Veeresh'),
 ('Veerhilde'),
-('Veeriah'),
+
 ('Veerindar'),
 ('Veerinder'),
 ('Veeriouka'),
@@ -6395,7 +6395,7 @@ VALUES
 ('Vehara'),
 ('Vehbi'),
 ('Vehbija'),
-('Vehbiye'),
+
 ('Veheary'),
 ('Vehid'),
 ('Vehige'),
@@ -6539,7 +6539,7 @@ VALUES
 ('Veka'),
 ('Vekaj'),
 ('Vekaria'),
-('Vekariya'),
+
 ('Vekata'),
 ('Vekavanasvera'),
 ('Vekay'),
@@ -6559,7 +6559,7 @@ VALUES
 ('Vekony'),
 ('Vekoslav'),
 ('Vekria'),
-('Vekriya'),
+
 ('Vekselshtein'),
 ('Veksiene'),
 ('Veksler'),
@@ -6720,7 +6720,7 @@ VALUES
 ('Veler'),
 ('Veleria'),
 ('Velerio'),
-('Veleriya'),
+
 ('Veles'),
 ('Velesco'),
 ('Velescu'),
@@ -6755,13 +6755,13 @@ VALUES
 ('Velhosh'),
 ('Veli'),
 ('Velia'),
-('Veliaj'),
+
 ('Velian'),
 ('Velianos'),
 ('Veliaris'),
 ('Velias'),
 ('Veliath'),
-('Veliay'),
+
 ('Velibas'),
 ('Veliben'),
 ('Velibor'),
@@ -6777,7 +6777,7 @@ VALUES
 ('Velichka'),
 ('Velichor'),
 ('Velichore'),
-('Velici'),
+
 ('Velicia'),
 ('Velicka'),
 ('Velickaite'),
@@ -6787,7 +6787,7 @@ VALUES
 ('Velickovich'),
 ('Velicky'),
 ('Velicotschi'),
-('Velicu'),
+
 ('Velie'),
 ('Velieda'),
 ('Veliev'),
@@ -6861,7 +6861,7 @@ VALUES
 ('Vellacheri'),
 ('Vellacherry'),
 ('Vellacott'),
-('Vellaiah'),
+
 ('Vellaiappa'),
 ('Vellaichamy'),
 ('Vellaikkal'),
@@ -6905,7 +6905,7 @@ VALUES
 ('Velli'),
 ('Velliades'),
 ('Velliadis'),
-('Velliah'),
+
 ('Vellido'),
 ('Vellimayil'),
 ('Vellimyil'),
@@ -7311,7 +7311,7 @@ VALUES
 ('Venetheetan'),
 ('Veneti'),
 ('Venetia'),
-('Veneticu'),
+
 ('Venetiei'),
 ('Venetis'),
 ('Venetos'),
@@ -7466,7 +7466,7 @@ VALUES
 ('Venkatadhana'),
 ('Venkatadri'),
 ('Venkatagiri'),
-('Venkataiah'),
+
 ('Venkatakalyan'),
 ('Venkatakrishan'),
 ('Venkatakrishana'),
@@ -7476,7 +7476,7 @@ VALUES
 ('Venkatamadhu'),
 ('Venkatamuni'),
 ('Venkatanaga'),
-('Venkatanarasimhaiah'),
+
 ('Venkatanarasimharaju'),
 ('Venkatanarasimharao'),
 ('Venkatanarayanan'),
@@ -7507,9 +7507,9 @@ VALUES
 ('Venkatasamy'),
 ('Venkatasatyanarayana'),
 ('Venkatasubash'),
-('Venkatasubbaiah'),
+
 ('Venkatasubbu'),
-('Venkatasubramaniam'),
+
 ('Venkatasubramanian'),
 ('Venkatasubramaniyan'),
 ('Venkatasubramanya'),
@@ -7561,7 +7561,7 @@ VALUES
 ('Venketesh'),
 ('Venketrauiaud'),
 ('Venketsany'),
-('Venkiah'),
+
 ('Venkidusamy'),
 ('Venkin'),
 ('Venkiteela'),
@@ -7861,7 +7861,7 @@ VALUES
 ('Veral'),
 ('Veraldi'),
 ('Veralene'),
-('Veralizy'),
+
 ('Verallo'),
 ('Veralucia'),
 ('Verametta'),
@@ -8184,7 +8184,7 @@ VALUES
 ('Verginija'),
 ('Verginile'),
 ('Verginis'),
-('Verginiya'),
+
 ('Vergios'),
 ('Vergis'),
 ('Vergith'),
@@ -8257,7 +8257,7 @@ VALUES
 ('Verhoye'),
 ('Verhulst'),
 ('Veri'),
-('Veriah'),
+
 ('Veriane'),
 ('Veriato'),
 ('Verica'),
@@ -8441,7 +8441,7 @@ VALUES
 ('Vernald'),
 ('Vernalee'),
 ('Vernali'),
-('Vernaliza'),
+
 ('Vernall'),
 ('Vernalls'),
 ('Vernals'),
@@ -8635,7 +8635,7 @@ VALUES
 ('Verrett'),
 ('Verrette'),
 ('Verri'),
-('Verrico'),
+
 ('Verrienti'),
 ('Verrier'),
 ('Verriere'),
@@ -8888,7 +8888,7 @@ VALUES
 ('Verzeroli'),
 ('Verzhbinsky'),
 ('Verzhinia'),
-('Verzhiniya'),
+
 ('Verzier'),
 ('Verzila'),
 ('Verzin'),
@@ -9103,7 +9103,7 @@ VALUES
 ('Vethamony'),
 ('Vethanayagam'),
 ('Vethanayagampillai'),
-('Vethanayagiam'),
+
 ('Vethanayakam'),
 ('Vethara'),
 ('Vetharamiyam'),
@@ -9311,12 +9311,12 @@ VALUES
 ('Vhien'),
 ('Vhing'),
 ('Vhirgyl'),
-('Vhiya'),
+
 ('Vhondo'),
 ('Vhora'),
 ('Vhrinda'),
 ('Vhristopher'),
-('Vhuiya'),
+
 ('Vhutto'),
 ('Vhytie'),
 ('Viaan'),
@@ -9348,7 +9348,7 @@ VALUES
 ('Viaene'),
 ('Viafara'),
 ('Viagappan'),
-('Viai'),
+
 ('Vial'),
 ('Viala'),
 ('Vialatte'),
@@ -9425,7 +9425,7 @@ VALUES
 ('Viatoro'),
 ('Viatseslav'),
 ('Viatte'),
-('Viau'),
+
 ('Viaud'),
 ('Viaut'),
 ('Viavattene'),
@@ -9435,7 +9435,7 @@ VALUES
 ('Viaysinh'),
 ('Viazis'),
 ('Vib'),
-('Viba'),
+
 ('Viban'),
 ('Vibar'),
 ('Vibart'),
@@ -9508,7 +9508,7 @@ VALUES
 ('Vicario'),
 ('Vicars'),
 ('Vicary'),
-('Vicassiau'),
+
 ('Vicat'),
 ('Vicbnte'),
 ('Viccaro'),
@@ -9657,12 +9657,12 @@ VALUES
 ('Vickykumar'),
 ('Vickylouise'),
 ('Vicnel'),
-('Vico'),
+
 ('Vicol'),
 ('Vicolas'),
 ('Vicoleanu'),
 ('Vicomanni'),
-('Vicoriya'),
+
 ('Vicory'),
 ('Vicotr'),
 ('Vicotria'),
@@ -9712,7 +9712,7 @@ VALUES
 ('Victorioso'),
 ('Victorious'),
 ('Victorius'),
-('Victoriya'),
+
 ('Victoros'),
 ('Victorovich'),
 ('Victorovitch'),
@@ -9729,7 +9729,7 @@ VALUES
 ('Victtor'),
 ('Victtoria'),
 ('Victus'),
-('Vicu'),
+
 ('Vicueroa'),
 ('Vicuna'),
 ('Vicuta'),
@@ -9862,7 +9862,7 @@ VALUES
 ('Vidhyakar'),
 ('Vidhyalakshmi'),
 ('Vidhyaprakash'),
-('Vidhyapriya'),
+
 ('Vidhyarthi'),
 ('Vidhyasagar'),
 ('Vidhyashankar'),
@@ -9870,13 +9870,13 @@ VALUES
 ('Vidhyasree'),
 ('Vidi'),
 ('Vidia'),
-('Vidiam'),
+
 ('Vidiastow'),
 ('Vidiawatee'),
 ('Vidiawotee'),
 ('Vidic'),
 ('Vidican'),
-('Vidici'),
+
 ('Vididi'),
 ('Vidiel'),
 ('Vidigal'),
@@ -9895,7 +9895,7 @@ VALUES
 ('Vidit'),
 ('Vidito'),
 ('Vidivelli'),
-('Vidiya'),
+
 ('Vidiyala'),
 ('Vidjak'),
 ('Vidjakovs'),
@@ -10037,7 +10037,7 @@ VALUES
 ('Viehman'),
 ('Viehmann'),
 ('Viehweg'),
-('Vieiba'),
+
 ('Vieider'),
 ('Vieillard'),
 ('Vieille'),
@@ -10646,7 +10646,7 @@ VALUES
 ('Vijitharan'),
 ('Vijithavarnan'),
 ('Vijitra'),
-('Vijiya'),
+
 ('Vijiyaben'),
 ('Vijiyakumar'),
 ('Vijnapuu'),
@@ -10745,7 +10745,7 @@ VALUES
 ('Vikor'),
 ('Vikoria'),
 ('Vikorija'),
-('Vikoriya'),
+
 ('Vikraanth'),
 ('Vikram'),
 ('Vikrama'),
@@ -10789,7 +10789,7 @@ VALUES
 ('Viktorija'),
 ('Viktorijia'),
 ('Viktorisa'),
-('Viktoriya'),
+
 ('Viktorja'),
 ('Viktorne'),
 ('Viktoros'),
@@ -10991,7 +10991,7 @@ VALUES
 ('Vilhjalmsdottir'),
 ('Vilhjalmsson'),
 ('Vilia'),
-('Viliam'),
+
 ('Vilian'),
 ('Viliana'),
 ('Viliand'),
@@ -11039,7 +11039,7 @@ VALUES
 ('Vilius'),
 ('Viliusiene'),
 ('Viliusis'),
-('Viliya'),
+
 ('Viliyan'),
 ('Viliyana'),
 ('Viliynas'),
@@ -11227,7 +11227,7 @@ VALUES
 ('Villaret'),
 ('Villarete'),
 ('Villari'),
-('Villarico'),
+
 ('Villariguez'),
 ('Villarin'),
 ('Villarini'),
@@ -11685,7 +11685,7 @@ VALUES
 ('Vincey'),
 ('Vinch'),
 ('Vinchiaturo'),
-('Vinchici'),
+
 ('Vinchur'),
 ('Vinci'),
 ('Vincia'),
@@ -11840,7 +11840,7 @@ VALUES
 ('Vinickaite'),
 ('Vinickas'),
 ('Viniclus'),
-('Vinico'),
+
 ('Vinicombe'),
 ('Vinicuis'),
 ('Vinicus'),
@@ -11873,7 +11873,7 @@ VALUES
 ('Vinisha'),
 ('Vinishan'),
 ('Vinishka'),
-('Vinisiya'),
+
 ('Vinissha'),
 ('Vinit'),
 ('Vinith'),
@@ -11960,7 +11960,7 @@ VALUES
 ('Vinodh'),
 ('Vinodhini'),
 ('Vinodhkumar'),
-('Vinodiba'),
+
 ('Vinodini'),
 ('Vinodkant'),
 ('Vinodkumar'),
@@ -12046,7 +12046,7 @@ VALUES
 ('Vintex'),
 ('Vintha'),
 ('Vinther'),
-('Vinthiya'),
+
 ('Vinti'),
 ('Vintila'),
 ('Vintilescu'),
@@ -12080,7 +12080,7 @@ VALUES
 ('Vinulal'),
 ('Vinumol'),
 ('Vinup'),
-('Vinupriya'),
+
 ('Vinura'),
 ('Vinurika'),
 ('Vinuroy'),
@@ -12092,7 +12092,7 @@ VALUES
 ('Vinushanthi'),
 ('Vinushka'),
 ('Vinushraj'),
-('Vinusiya'),
+
 ('Vinuta'),
 ('Vinutha'),
 ('Vinuush'),
@@ -12370,7 +12370,7 @@ VALUES
 ('Vircillo'),
 ('Virciorovan'), 
 ('Virco'),
-('Virctoriya'),
+
 ('Virdah'),
 ('Virdan'),
 ('Virdanen'),
@@ -12440,7 +12440,7 @@ VALUES
 ('Virgine'),
 ('Virgini'),
 ('Virginia'),
-('Virginiah'),
+
 ('Virginica'),
 ('Virginie'),
 ('Virginija'),
@@ -12451,7 +12451,7 @@ VALUES
 ('Virginio'),
 ('Virginisus'),
 ('Virginius'),
-('Virginiya'),
+
 ('Virginja'),
 ('Virginjus'),
 ('Virginnus'),
@@ -12462,7 +12462,7 @@ VALUES
 ('Virgl'),
 ('Virgnia'),
 ('Virgo'),
-('Virgolici'),
+
 ('Virgona'),
 ('Virgute'),
 ('Virgy'),
@@ -12494,7 +12494,7 @@ VALUES
 ('Viritha'),
 ('Viritika'),
 ('Virivada'),
-('Viriya'),
+
 ('Viriyanukulvong'),
 ('Virjee'),
 ('Virjen'),
@@ -12524,7 +12524,7 @@ VALUES
 ('Virlanuta'),
 ('Virle'),
 ('Virley'),
-('Virlici'),
+
 ('Virlun'),
 ('Virma'),
 ('Virmala'),
@@ -12629,7 +12629,7 @@ VALUES
 ('Viryam'),
 ('Viryasiri'),
 ('Virzhinia'),
-('Virzhiniya'),
+
 ('Visaal'),
 ('Visaaly'),
 ('Visad'),
@@ -12672,14 +12672,14 @@ VALUES
 ('Visanagiri'),
 ('Visanthakumari'),
 ('Visanu'),
-('Visapriya'),
+
 ('Visar'),
 ('Visard'),
 ('Visaria'),
 ('Visarraga'),
 ('Visatkumar'),
 ('Visavadia'),
-('Visavadiya'),
+
 ('Visavaram'),
 ('Visay'),
 ('Visaya'),
@@ -12836,7 +12836,7 @@ VALUES
 ('Vishnuprasad'),
 ('Vishnuprasadji'),
 ('Vishnuprashad'),
-('Vishnupriya'),
+
 ('Vishnupuri'),
 ('Vishnuraj'),
 ('Vishnuram'),
@@ -13184,11 +13184,11 @@ VALUES
 ('Vitality'),
 ('Vitalius'),
 ('Vitaliva'), 
-('Vitaliya'),
+
 ('Vitaliyivna'),
-('Vitaliys'),
+
 ('Vitaliyus'),
-('Vitaliza'),
+
 ('Vitaljs'),
 ('Vitaller'),
 ('Vitalo'),
@@ -13285,7 +13285,7 @@ VALUES
 ('Vithika'),
 ('Vithill'),
 ('Vithira'),
-('Vithiya'),
+
 ('Vithiyamare'),
 ('Vithiyanantha'),
 ('Vithiyanirupathy'),
@@ -13323,7 +13323,7 @@ VALUES
 ('Vithusha'),
 ('Vithushan'),
 ('Vithushanth'),
-('Vithushiaa'),
+
 ('Vithushika'),
 ('Vithusika'),
 ('Vithuza'),
@@ -13402,7 +13402,7 @@ VALUES
 ('Vitoria'),
 ('Vitorian'),
 ('Vitoriano'),
-('Vitoriao'),
+
 ('Vitorica'),
 ('Vitoring'),
 ('Vitorino'),
@@ -13612,7 +13612,7 @@ VALUES
 ('Vivia'),
 ('Viviaen'),
 ('Viviaka'),
-('Viviam'),
+
 ('Viviame'),
 ('Vivian'),
 ('Viviana'),
@@ -13627,7 +13627,7 @@ VALUES
 ('Vivians'),
 ('Viviant'),
 ('Viviany'),
-('Viviav'),
+
 ('Vivica'),
 ('Vivical'),
 ('Vivicia'),
@@ -13674,14 +13674,14 @@ VALUES
 ('Viwat'),
 ('Viwatrujirapong'),
 ('Vix'),
-('Vixa'),
+
 ('Vixama'),
 ('Vixamar'),
 ('Vixay'),
 ('Vixayack'),
 ('Vixseboxse'),
 ('Vixteu'),
-('Viya'),
+
 ('Viyaan'),
 ('Viyaasan'),
 ('Viyada'),
@@ -13696,7 +13696,7 @@ VALUES
 ('Viyashan'),
 ('Viyay'),
 ('Viyella'),
-('Viyi'),
+
 ('Viyja'),
 ('Viyola'),
 ('Viyon'),
@@ -13705,7 +13705,7 @@ VALUES
 ('Viytautas'),
 ('Viyuna'),
 ('Viyushi'),
-('Viza'),
+
 ('Vizal'),
 ('Vizalkuvarba'),
 ('Vizan'),
@@ -13746,7 +13746,7 @@ VALUES
 ('Vizgirdiene'),
 ('Vizhdam'),
 ('Vizhdan'),
-('Vizhiniya'),
+
 ('Vizier'),
 ('Vizina'),
 ('Vizinteanu'),
@@ -13908,7 +13908,7 @@ VALUES
 ('Vladoi'), 
 ('Vlador'),
 ('Vladovic'),
-('Vladovici'),
+
 ('Vladu'),
 ('Vladuca'),
 ('Vladuceanu'),
@@ -13942,7 +13942,7 @@ VALUES
 ('Vlahovics'),
 ('Vlaic'),
 ('Vlaicevic'),
-('Vlaicu'),
+
 ('Vlaiduc'),
 ('Vlaisan'),
 ('Vlaisavljevic'),
@@ -13971,7 +13971,7 @@ VALUES
 ('Vlashi'),
 ('Vlasi'),
 ('Vlasic'),
-('Vlasici'),
+
 ('Vlasie'),
 ('Vlasihins'),
 ('Vlasin'),
@@ -14000,7 +14000,7 @@ VALUES
 ('Vlaun'),
 ('Vlavianos'),
 ('Vlcuando'),
-('Vlderico'),
+
 ('Vleck'),
 ('Vleider'),
 ('Vleju'),
@@ -14276,7 +14276,7 @@ VALUES
 ('Voicihovschi'),
 ('Voicil'),
 ('Voicila'),
-('Voicu'),
+
 ('Voiculescu'),
 ('Voiculet'),
 ('Voicuta'),
@@ -14371,7 +14371,7 @@ VALUES
 ('Vojdan'),
 ('Vojdanie'),
 ('Vojencak'),
-('Vojenciak'),
+
 ('Vojetch'),
 ('Vojevodina'),
 ('Vojic'),
@@ -15005,7 +15005,7 @@ VALUES
 ('Vorbach'),
 ('Vorbeck'),
 ('Vorbinian'),
-('Vorbohle'),
+
 ('Vorce'),
 ('Vordbejiene'),
 ('Vorderbruggen'),
@@ -15061,11 +15061,11 @@ VALUES
 ('Vornic'),
 ('Vorniceanu'),
 ('Vornicescu'),
-('Vornicu'),
+
 ('Vornikoglo'),
 ('Vornkahl'),
 ('Vorno'),
-('Vorobchievici'),
+
 ('Vorobejiene'),
 ('Vorobejs'),
 ('Vorobejus'),
@@ -15378,7 +15378,7 @@ VALUES
 ('Vozila'),
 ('Vozmitela'),
 ('Vozmitels'),
-('Vozniak'),
+
 ('Vozniceseu'),
 ('Voznick'), 
 ('Voznits'),
@@ -15473,7 +15473,7 @@ VALUES
 ('Vraz'),
 ('Vrazel'),
 ('Vrba'),
-('Vrbaniak'),
+
 ('Vrbanic'),
 ('Vrbanjac'),
 ('Vrbas'),
@@ -15715,7 +15715,7 @@ VALUES
 ('Vuite'),
 ('Vuitton'),
 ('Vuittonet'),
-('Vuiya'),
+
 ('Vujadinovic'),
 ('Vujanic'),
 ('Vujanovic'),
