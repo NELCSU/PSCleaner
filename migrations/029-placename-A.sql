@@ -1,5 +1,5 @@
 -- Up
-  INSERT INTO Placename (keyword)
+ INSERT INTO Placename (keyword)
 VALUES
 ('A Avenue'),
 ('A Bhainlir'),

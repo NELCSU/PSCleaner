@@ -14,7 +14,6 @@ VALUES
 ('Qaasim'),
 ('Qaasimm'),
 ('Qaasin'),
-
 ('Qabaha'),
 ('Qabama'),
 ('Qaban'),
@@ -64,13 +63,11 @@ VALUES
 ('Qadirah'),
 ('Qadiri'),
 ('Qadirkhan'),
-
 ('Qadoos'),
 ('Qadous'),
 ('Qadr'),
 ('Qadri'),
 ('Qadria'),
-('Qadriyah'),
 ('Qadro'),
 ('Qadu'),
 ('Qadus'),
@@ -79,7 +76,6 @@ VALUES
 ('Qaedar'),
 ('Qaes'),
 ('Qaesar'),
-
 ('Qafarena'),
 ('Qafoku'),
 ('Qahar'),
@@ -99,7 +95,6 @@ VALUES
 ('Qaifa'),
 ('Qaila'),
 ('Qailah'),
-
 ('Qaim'),
 ('Qaima'),
 ('Qaimamunazzala'),
@@ -123,7 +118,6 @@ VALUES
 ('Qaium'),
 ('Qaiyan'),
 ('Qaiyoum'),
-
 ('Qaiyum'),
 ('Qaiyyum'),
 ('Qajka'),
@@ -145,8 +139,6 @@ VALUES
 ('Qalimow'),
 ('Qalinle'),
 ('Qalirea'),
-
-('Qaliyah'),
 ('Qallaf'),
 ('Qallia'),
 ('Qallija'),
@@ -158,7 +150,6 @@ VALUES
 ('Qamarauli'),
 ('Qamardin'),
 ('Qamari'),
-
 ('Qamaru'),
 ('Qamarud'),
 ('Qamarul'),
@@ -196,7 +187,6 @@ VALUES
 ('Qandigul'),
 ('Qandil'),
 ('Qaneetah'),
-
 ('Qanit'),
 ('Qanitah'),
 ('Qanta'),
@@ -219,7 +209,6 @@ VALUES
 ('Qarhas'),
 ('Qari'),
 ('Qaria'),
-('Qarib'),
 ('Qaribullah'),
 ('Qarina'),
 ('Qarini'),
@@ -253,7 +242,6 @@ VALUES
 ('Qasim'),
 ('Qasimali'),
 ('Qasimi'),
-
 ('Qasin'),
 ('Qasit'),
 ('Qasmi'),
@@ -314,13 +302,11 @@ VALUES
 ('Qayeed'),
 ('Qayenate'),
 ('Qayes'),
-
 ('Qayid'),
 ('Qayium'),
 ('Qayla'),
 ('Qaylah'),
 ('Qaylia'),
-
 ('Qayom'),
 ('Qayoom'),
 ('Qayoomi'),
@@ -404,7 +390,6 @@ VALUES
 ('Qetser'),
 ('Qetsia'),
 ('Qevsere'),
-
 ('Qeyr'),
 ('Qeyre'),
 ('Qeyruun'),
@@ -422,9 +407,7 @@ VALUES
 ('Qhyum'),
 ('Qi'),
 ('Qia'),
-
 ('Qiaane'),
-
 ('Qiamali'),
 ('Qiamuddin'),
 ('Qian'),
@@ -476,7 +459,6 @@ VALUES
 ('Qianyue'),
 ('Qianyun'),
 ('Qianzhi'),
-
 ('Qiaoan'),
 ('Qiaochu'),
 ('Qiaochun'),
@@ -496,7 +478,6 @@ VALUES
 ('Qiaonanbei'),
 ('Qiaoping'),
 ('Qiaoqian'),
-
 ('Qiaorong'),
 ('Qiaoru'),
 ('Qiaoshan'),
@@ -518,12 +499,10 @@ VALUES
 ('Qiaozhu'),
 ('Qiara'),
 ('Qias'),
-
 ('Qiawen'),
 ('Qiayuan'),
 ('Qibin'),
 ('Qibing'),
-
 ('Qichao'),
 ('Qichaun'),
 ('Qichen'),
@@ -578,7 +557,6 @@ VALUES
 ('Qinag'),
 ('Qinami'),
 ('Qinan'),
-
 ('Qinchen'),
 ('Qindeel'),
 ('Qineng'),
@@ -616,8 +594,6 @@ VALUES
 ('Qinglun'),
 ('Qingluo'),
 ('Qingmei'),
-
-
 ('Qingmin'),
 ('Qingning'),
 ('Qingpei'),
@@ -640,7 +616,6 @@ VALUES
 ('Qingwu'),
 ('Qingxi'),
 ('Qingxia'),
-
 ('Qingxin'),
 ('Qingya'),
 ('Qingyan'),
@@ -776,7 +751,6 @@ VALUES
 ('Qiuwen'),
 ('Qiuxia'),
 ('Qiuxiang'),
-
 ('Qiuxiong'),
 ('Qiuxuan'),
 ('Qiuxun'),
@@ -793,7 +767,6 @@ VALUES
 ('Qivlia'),
 ('Qiwei'),
 ('Qiwen'),
-
 ('Qixiang'),
 ('Qixin'),
 ('Qixuan'),
@@ -810,7 +783,6 @@ VALUES
 ('Qiydaar'),
 ('Qiyin'),
 ('Qiymay'),
-
 ('Qiyuan'),
 ('Qiyun'),
 ('Qiyyama'),
@@ -829,7 +801,6 @@ VALUES
 ('Qnah'),
 ('Qoarashe'),
 ('Qobil'),
-('Qobiljon'),
 ('Qod'),
 ('Qodah'),
 ('Qodia'),
@@ -1111,7 +1082,6 @@ VALUES
 ('Quao'),
 ('Quaquah'),
 ('Quaque'),
-('Quar'),
 ('Quara'),
 ('Quarab'),
 ('Quaradeghini'),
@@ -1260,7 +1230,6 @@ VALUES
 ('Quatrone'),
 ('Quattara'),
 ('Quattlebaum'),
-('Quattri'),
 ('Quattrin'),
 ('Quattrini'),
 ('Quattro'),
@@ -1327,13 +1296,11 @@ VALUES
 ('Qudamah'),
 ('Qudan'),
 ('Qudaraos'),
-
 ('Quddas'),
 ('Quddish'),
 ('Quddoos'),
 ('Quddos'),
 ('Quddose'),
-('Quddossiyyah'),
 ('Quddous'),
 ('Quddus'),
 ('Quddush'),
@@ -1342,7 +1309,6 @@ VALUES
 ('Qudeer'),
 ('Quder'),
 ('Qudh'),
-
 ('Qudirat'),
 ('Qudoos'),
 ('Qudrat'),
@@ -1353,11 +1319,7 @@ VALUES
 ('Qudseh'),
 ('Qudsi'),
 ('Qudsia'),
-
 ('Qudsiea'),
-
-('Qudsiyah'),
-('Qudsiyyah'),
 ('Qudus'),
 ('Qudusi'),
 ('Qudusia'),
@@ -1670,8 +1632,6 @@ VALUES
 ('Quiabeira'),
 ('Quiad'),
 ('Quiafo'),
-
-
 ('Quiala'),
 ('Quiambao'),
 ('Quiambo'),
@@ -1681,7 +1641,6 @@ VALUES
 ('Quiang'),
 ('Quianna'),
 ('Quiano'),
-
 ('Quiaoit'),
 ('Quiapo'),
 ('Quiara'),
@@ -1745,7 +1704,6 @@ VALUES
 ('Quijandria'),
 ('Quijano'),
 ('Quijas'),
-('Quijije'),
 ('Quijo'),
 ('Quikabad'),
 ('Quilacio'),
@@ -1765,7 +1723,6 @@ VALUES
 ('Quilez'),
 ('Quilfen'),
 ('Quilherme'),
-
 ('Quiligotti'),
 ('Quilimaco'),
 ('Quilindo'),
@@ -1783,7 +1740,6 @@ VALUES
 ('Quilleri'),
 ('Quillet'),
 ('Quilley'),
-
 ('Quilliams'),
 ('Quillian'),
 ('Quilliec'),
@@ -1861,7 +1817,6 @@ VALUES
 ('Quinhui'),
 ('Quinisha'),
 ('Quinit'),
-
 ('Quink'),
 ('Quinkert'),
 ('Quinlan'),
@@ -1934,7 +1889,6 @@ VALUES
 ('Quintia'),
 ('Quintian'),
 ('Quintiana'),
-
 ('Quintiero'),
 ('Quintiliano'),
 ('Quintin'),
@@ -1974,7 +1928,6 @@ VALUES
 ('Quirat'),
 ('Quire'),
 ('Quirey'),
-
 ('Quirie'),
 ('Quirijn'),
 ('Quirin'),
@@ -2062,7 +2015,6 @@ VALUES
 ('Quiyao'),
 ('Quiyra'),
 ('Quiyum'),
-
 ('Quizada'),
 ('Quizhen'),
 ('Quizhpe'),
@@ -2191,7 +2143,6 @@ VALUES
 ('Qurishi'),
 ('Qurishy'),
 ('Quriyach'),
-('Quriyah'),
 ('Qurnyan'),
 ('Quroga'),
 ('Qurra'),
@@ -2222,11 +2173,9 @@ VALUES
 ('Qussay'),
 ('Quta'),
 ('Qutab'),
-
 ('Qutaibah'),
 ('Qutb'),
 ('Qutbuz'),
-('Qutiaba'),
 ('Qutob'),
 ('Quttaineh'),
 ('Qutteineh'),
@@ -2303,7 +2252,6 @@ VALUES
 ('Qyqalla'),
 ('Qyra'),
 ('Qyshkollari'),
-('Qyteza'),
 ('Qyum'),
 ('Qyyum'),
 ('Qzabor'),

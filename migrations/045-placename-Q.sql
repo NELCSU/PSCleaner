@@ -1,5 +1,5 @@
 -- Up
-  INSERT INTO Placename (keyword)
+ INSERT INTO Placename (keyword)
 VALUES
 ('Quaas Crescent'),
 ('Quaas Loaning'),
@@ -169,7 +169,7 @@ VALUES
 ('Quar Close'),
 ('Quar Hill Cuttings'),
 ('Quar Road'),
-('Quarante  Ans'),
+('Quarante Ans'),
 ('Quarella'),
 ('Quarella Crescent'),
 ('Quarella Road'),
@@ -213,7 +213,7 @@ VALUES
 ('Quarr Place'),
 ('Quarr Road'),
 ('Quarr Wood'),
-('Quarr  clydach'),
+('Quarr clydach'),
 ('Quarrel Burn Reservoir'),
 ('Quarrel Cleugh'),
 ('Quarrel Dean'),
@@ -396,7 +396,7 @@ VALUES
 ('Quarry Wood Road'),
 ('Quarry Woods'),
 ('Quarry Yard'),
-('Quarry  Ffinant'),
+('Quarry Ffinant'),
 ('Quarrybank'),
 ('Quarrybank Close'),
 ('Quarrybank Court'),
@@ -1293,7 +1293,7 @@ VALUES
 ('Queys Houll'),
 ('Quhaap Knowe'),
 ('Quheyinstany Geo'),
-('Quhina  roo'),
+('Quhina roo'),
 ('Quholm'),
 ('Quhytewoollen Hill'),
 ('Qui Ayre'),

@@ -1,5 +1,5 @@
 -- Up
-  INSERT INTO Placename (keyword)
+ INSERT INTO Placename (keyword)
 VALUES
 ('Ba Hill'),
 ('Ba Muir'),
@@ -31570,7 +31570,7 @@ VALUES
 ('Bonc Ddu'),
 ('Bonc Twni'),
 ('Bonc Wen'),
-('Bonc  Yr  Odyn'),
+('Bonc Yr Odyn'),
 ('Bonc gòch Covert'),
 ('Boncarn Drive'),
 ('Boncath'),
@@ -48784,7 +48784,7 @@ VALUES
 ('Bryn wern'),
 ('Bryn Wgan Wood'),
 ('Bryn wig Wood'),
-('Bryn Y  Grog Hill'),
+('Bryn Y Grog Hill'),
 ('Bryn y baal'),
 ('Bryn Y Baal Road'),
 ('Bryn y Bedd'),

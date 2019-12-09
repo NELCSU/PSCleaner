@@ -1,5 +1,5 @@
 -- Up
-  INSERT INTO Placename (keyword)
+ INSERT INTO Placename (keyword)
 VALUES
 ('Zachary Close'),
 ('Zachary Merton Community'),
@@ -143,8 +143,8 @@ VALUES
 ('Zider Pass'),
 ('Zig Zag'),
 ('Zig Zag Road'),
-('Zig  Zag Hill'),
-('Zig  Zag Lane'),
+('Zig Zag Hill'),
+('Zig Zag Lane'),
 ('Ziggarson Wood'),
 ('Zigzag Covert'),
 ('Zigzag Wood'),

@@ -200,37 +200,177 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+(?:ak[ahiopsuy]s|cci|ch?ek|dran?|\wcz\w+|\wham|\who|hoff|[a-hj-z]i[fhijkquvwy]|iute|iwe|kw[aeiou]|[b-df-np-su-z]ir|orf|[ao][ntv]i|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|uji|vsky|y[kn]|\w[kz][io])\b'
+  '\b\w+(?:ak[ahiopsuy]s|dran?|\wcz\w+|\wham|\who|hoff|[a-hj-z]i[fhijkquvwy]|iute|[b-df-np-su-z]ir|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|vsky|y[kn]|\w[kz][io])\b'
 ),
 (
-  'PersonRegExh',
+  'PersonRegExA',
   '#00a0ff', 
   'Person', 
   1, 
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+h(?:le)\b'
+  '\b\w+a(?:ba|[ntv]i|wy)\b'
 ),
 (
-  'PersonRegExi',
+  'PersonRegExC',
   '#00a0ff', 
   'Person', 
   1, 
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+i(?:a[abf-kmo-qu-z]|b[a-df-rt-z]|c[b-dfgijl-ru-xz]|l[bcg-ju-xz]|t[acdgjl-npru-xz]|[xy][a-z]|z[a-df-y])\b'
+  '\b\w+c(?:ci|ek)\b'
 ),
 (
-  'PersonRegExj',
+  'PersonRegExD',
   '#00a0ff', 
   'Person', 
   1, 
   'PERSON', 
   0,
   'Regular expression', 
-  '\b[a-z_]+(?:jah)\b'
+  '\b\w+d(?:za)\b'
+),
+(
+  'PersonRegExE',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+e(?:jn|za)\b'
+),
+(
+  'PersonRegExH',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+h(?:ek|le)\b'
+),
+(
+  'PersonRegExI',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+i(?:a[abf-kmo-qu-z]|b[a-df-rt-z]|c[b-dfgijl-ru-xz]|je|ka|l[bcg-ju-xz]|t[acdgjl-npru-xz]|we|[xy][a-z]|z[a-df-y])\b'
+),
+(
+  'PersonRegExJ',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+j(?:ah|on)\b'
+),
+(
+  'PersonRegExK',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+k(?:w[aeiou])\b'
+),
+(
+  'PersonRegExL',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+l(?:jo)\b'
+),
+(
+  'PersonRegExN',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+n(?:ca|pd)\b'
+),
+(
+  'PersonRegExO',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+o(?:[ntv]i|rf|ui)\b'
+),
+(
+  'PersonRegExQ',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+q(?:ar)\b'
+),
+(
+  'PersonRegExR',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+r(?:ba|ek|ib|ub)\b'
+),
+(
+  'PersonRegExT',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+t(?:ri)\b'
+),
+(
+  'PersonRegExU',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+u(?:ar|gg|ji)\b'
+),
+(
+  'PersonRegExW',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+w(?:ek)\b'
+),
+(
+  'PersonRegExY',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+y(?:ah|na)\b'
 ),
 (
   'PlaceName', 
@@ -340,7 +480,7 @@ VALUES
   'URL', 
   0,
   'Regular expression', 
-  '\b(?:(?:https?:\/\/)?www.[\w\/\?~&=%\+\-\._\d]+|https?:\/\/[\w\/\?~&=%\+\-\._\d]+)\b'
+  '\b(?:(?:https?:\/\/)?www.[\w\/\?~&=%\+\-:\._\d]+|https?:\/\/[\w\/\?~&=%\+\-:\._\d]+)\b'
 );
 
 -- Down

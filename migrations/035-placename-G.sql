@@ -1,5 +1,5 @@
 -- Up
-  INSERT INTO Placename (keyword)
+ INSERT INTO Placename (keyword)
 VALUES
 ('G Spinney'),
 ('Ga Gates'),
@@ -5979,7 +5979,7 @@ VALUES
 ('Ger Yr Afon'),
 ('Ger Yr Eglwys'),
 ('Ger Yr Ysgol'),
-('Ger Y  Parc'),
+('Ger Y Parc'),
 ('Ger Y Bont'),
 ('Ger Y Capel'),
 ('Ger Y Castell'),
@@ -7155,7 +7155,7 @@ VALUES
 ('Gill Wath Waterfall'),
 ('Gill Way'),
 ('Gill Wood'),
-('Gill An  Creet'),
+('Gill An Creet'),
 ('Gill An Creet'),
 ('Gill Lands Lane'),
 ('Gilla Head'),
@@ -14034,7 +14034,7 @@ VALUES
 ('Golwg Y Gamlas'),
 ('Golwg Y Mynydd'),
 ('Golwg Y Tywyn'),
-('Golwg Yr  Afon'),
+('Golwg Yr Afon'),
 ('Golwg Yr Afon'),
 ('Golwgydre Lane'),
 ('Golwyg Derwen'),

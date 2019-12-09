@@ -1,5 +1,5 @@
 -- Up
-  INSERT INTO Placename (keyword)
+ INSERT INTO Placename (keyword)
 VALUES
 ('D C Griffiths Way'),
 ('D Covert'),
@@ -16173,7 +16173,7 @@ VALUES
 ('Druti gya More'),
 ('Druxton West'),
 ('Drws y Foel'),
-('Drws Y  Coed'),
+('Drws Y Coed'),
 ('Drws y coed'),
 ('Drws Y Nant'),
 ('Dry Arch Road'),

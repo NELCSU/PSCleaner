@@ -7,11 +7,9 @@ VALUES
 ('Xaashira'),
 ('Xaaviyar'),
 ('Xaawo'),
-('Xaba'),
 ('Xabat'),
 ('Xabel'),
 ('Xabi'),
-
 ('Xabier'),
 ('Xabil'),
 ('Xade'),
@@ -31,7 +29,6 @@ VALUES
 ('Xahil'),
 ('Xahra'),
 ('Xaia'),
-
 ('Xaiden'),
 ('Xaime'),
 ('Xaimoungkhoun'),
@@ -82,7 +79,6 @@ VALUES
 ('Xangi'),
 ('Xanh'),
 ('Xania'),
-
 ('Xaniar'), 
 ('Xaniso'),
 ('Xanna'),
@@ -148,7 +144,6 @@ VALUES
 ('Xaviera'),
 ('Xaviere'),
 ('Xavierito'),
-('Xavika'),
 ('Xavion'),
 ('Xavior'),
 ('Xaviour'),
@@ -160,7 +155,6 @@ VALUES
 ('Xayaana'),
 ('Xayaat'),
 ('Xayachack'),
-('Xayah'),
 ('Xayarath'),
 ('Xayasane'),
 ('Xayasith'),
@@ -168,7 +162,6 @@ VALUES
 ('Xayavong'),
 ('Xayden'),
 ('Xaymaca'),
-('Xaymika'),
 ('Xayne'),
 ('Xayraan'),
 ('Xaysana'),
@@ -213,9 +206,6 @@ VALUES
 ('Xenios'),
 ('Xenis'),
 ('Xenith'),
-
-('Xeniyah'),
-
 ('Xenja'),
 ('Xenlan'),
 ('Xenmay'),
@@ -299,12 +289,11 @@ VALUES
 ('Xhara'),
 ('Xharie'),
 ('Xhastin'),
-('Xhatri'),
 ('Xhauri'),
 ('Xhavara'),
 ('Xhavid'),
 ('Xhavit'),
-('Xhaxhaj'),  
+('Xhaxhaj'), 
 ('Xhebexhia'),
 ('Xhebraj'),
 ('Xhecuka'),
@@ -316,7 +305,6 @@ VALUES
 ('Xhejms'),
 ('Xhejson'),
 ('Xhejsona'),
-('Xhek'),
 ('Xheksi'),
 ('Xheladin'),
 ('Xheladini'),
@@ -353,7 +341,6 @@ VALUES
 ('Xhenifer'),
 ('Xhenis'),
 ('Xhenseval'),
-('Xhensika'),
 ('Xhensila'),
 ('Xhensiva'),
 ('Xhentila'),
@@ -372,7 +359,6 @@ VALUES
 ('Xherxhi'),
 ('Xhesi'),
 ('Xhesiana'),
-('Xhesika'),
 ('Xhesjana'),
 ('Xhetah'),
 ('Xhetan'),
@@ -383,17 +369,12 @@ VALUES
 ('Xhevdet'),
 ('Xhevit'),
 ('Xhevrie'),
-('Xhevrije'),
 ('Xheydet'),
-('Xheza'),
 ('Xhezair'),
 ('Xhezaj'),
 ('Xhezide'),
-
-
 ('Xhigoli'),
 ('Xhihaj'),
-('Xhika'),
 ('Xhiku'),
 ('Xhilaga'),
 ('Xhilaj'),
@@ -431,7 +412,6 @@ VALUES
 ('Xhuljana'),
 ('Xhuljano'),
 ('Xhuljeta'),
-('Xhuljo'),
 ('Xhulso'),
 ('Xhume'),
 ('Xhumshiti'),
@@ -449,7 +429,6 @@ VALUES
 ('Xiachu'),
 ('Xiad'),
 ('Xiadi'),
-
 ('Xiadoa'),
 ('Xiadong'),
 ('Xiafan'),
@@ -472,7 +451,6 @@ VALUES
 ('Xiana'),
 ('Xianan'),
 ('Xianavane'),
-
 ('Xianchao'),
 ('Xianduo'),
 ('Xiane'),
@@ -559,7 +537,6 @@ VALUES
 ('Xianze'),
 ('Xianzhang'),
 ('Xianzhong'),
-
 ('Xiaoao'),
 ('Xiaobai'),
 ('Xiaobei'),
@@ -615,7 +592,6 @@ VALUES
 ('Xiaojia'),
 ('Xiaojian'),
 ('Xiaojiang'),
-
 ('Xiaojie'),
 ('Xiaojin'),
 ('Xiaojing'),
@@ -636,7 +612,6 @@ VALUES
 ('Xiaolei'),
 ('Xiaolen'),
 ('Xiaoli'),
-
 ('Xiaoliang'),
 ('Xiaolin'),
 ('Xiaoling'),
@@ -649,7 +624,6 @@ VALUES
 ('Xiaoman'),
 ('Xiaomei'),
 ('Xiaomeng'),
-
 ('Xiaomin'),
 ('Xiaoming'),
 ('Xiaomo'),
@@ -663,7 +637,6 @@ VALUES
 ('Xiaoqi'),
 ('Xiaoqian'),
 ('Xiaoqiang'),
-
 ('Xiaoqin'),
 ('Xiaoqing'),
 ('Xiaoqinghuan'), 
@@ -698,7 +671,6 @@ VALUES
 ('Xiaoxia'),
 ('Xiaoxian'),
 ('Xiaoxiang'),
-
 ('Xiaoxin'),
 ('Xiaoxing'),
 ('Xiaoxiong'),
@@ -741,7 +713,6 @@ VALUES
 ('Xiastao'),
 ('Xiatian'),
 ('Xiatiguli'),
-
 ('Xiauhua'),
 ('Xiaujie'),
 ('Xiautan'),
@@ -756,7 +727,6 @@ VALUES
 ('Xiayuan'),
 ('Xiayun'),
 ('Xiberras'),
-
 ('Xichao'),
 ('Xichen'),
 ('Xichong'),
@@ -810,7 +780,6 @@ VALUES
 ('Xilang'),
 ('Xilena'),
 ('Xileng'),
-
 ('Xilin'),
 ('Xiling'),
 ('Xilo'),
@@ -848,7 +817,6 @@ VALUES
 ('Xindi'),
 ('Xine'),
 ('Xinena'),
-('Xinenyika'),
 ('Xinfan'),
 ('Xinfang'),
 ('Xinfeng'),
@@ -881,7 +849,6 @@ VALUES
 ('Xingwei'),
 ('Xingxian'),
 ('Xingxiang'),
-
 ('Xingxing'),
 ('Xingxu'),
 ('Xingyan'),
@@ -956,7 +923,6 @@ VALUES
 ('Xinxi'),
 ('Xinxia'),
 ('Xinxian'),
-
 ('Xinxiaoyu'),
 ('Xinxin'),
 ('Xinxing'),
@@ -968,7 +934,6 @@ VALUES
 ('Xinye'),
 ('Xinyi'),
 ('Xinying'),
-
 ('Xinyu'),
 ('Xinyuan'),
 ('Xinyue'),
@@ -993,7 +958,6 @@ VALUES
 ('Xiongfeng'),
 ('Xiongjie'),
 ('Xiongjun'),
-
 ('Xiosmara'),
 ('Xiouni'),
 ('Xioupol'),
@@ -1041,7 +1005,6 @@ VALUES
 ('Xiuhtzal'),
 ('Xiuhua'),
 ('Xiuhui'),
-
 ('Xiujuan'),
 ('Xiukuang'),
 ('Xiukun'),
@@ -1074,18 +1037,13 @@ VALUES
 ('Xiuzhu'),
 ('Xiwei'),
 ('Xiwen'),
-
 ('Xixiang'),
 ('Xixin'),
-
-
 ('Xiyan'),
 ('Xiyang'),
 ('Xiyao'),
-
 ('Xiyin'),
 ('Xiying'),
-
 ('Xiyuan'),
 ('Xiyue'),
 ('Xiyun'),
@@ -1096,7 +1054,6 @@ VALUES
 ('Xizhen'),
 ('Xizheng'),
 ('Xizohui'),
-
 ('Xjshisthi'),
 ('Xlamu'),
 ('Xlan'),
@@ -1208,7 +1165,6 @@ VALUES
 ('Xuehui'),
 ('Xuehuo'),
 ('Xuejian'),
-
 ('Xuejie'),
 ('Xuejin'),
 ('Xuejing'),
@@ -1277,7 +1233,6 @@ VALUES
 ('Xuhua'),
 ('Xuhui'),
 ('Xujia'),
-
 ('Xujie'),
 ('Xujing'),
 ('Xujun'),
@@ -1341,7 +1296,6 @@ VALUES
 ('Xuzhi'),
 ('Xvan'),
 ('Xvereb'),
-('Xweza'),
 ('Xxxx'),
 ('Xyan'),
 ('Xyann'),
@@ -1394,7 +1348,6 @@ VALUES
 ('Xzaoxzao'),
 ('Xzavier'),
 ('Xze'),
-
 ('Xzenecia'),
 ('Xzetenia'),
 ('Xzinmzao');

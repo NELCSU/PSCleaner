@@ -1,5 +1,5 @@
 -- Up
-  INSERT INTO Placename (keyword)
+ INSERT INTO Placename (keyword)
 VALUES
 ('H E Bates Way'),
 ('H Jones Crescent'),
@@ -17302,8 +17302,8 @@ VALUES
 ('Heol Ysgyfarnog'),
 ('Heol Yspitty'),
 ('Heol Ystrad'),
-('Heol  Y Cawl'),
-('Heol  Y Coed'),
+('Heol Y Cawl'),
+('Heol Y Coed'),
 ('Heol Ael Y Bryn'),
 ('Heol Aneddfa'),
 ('Heol Cae Globe'),
@@ -17327,8 +17327,8 @@ VALUES
 ('Heol ty Maen'),
 ('Heol Uchaf'),
 ('Heol Wenallt'),
-('Heol Y  Bryn'),
-('Heol Y  Coed'),
+('Heol Y Bryn'),
+('Heol Y Coed'),
 ('Heol Y Banc'),
 ('Heol Y Bardd'),
 ('Heol Y Beddau'),

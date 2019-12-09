@@ -9,7 +9,6 @@ VALUES
 ('Waadhinat'),
 ('Waafa'),
 ('Waafi'), 
-('Waafiyah'),
 ('Waag'),
 ('Waaga'),
 ('Waage'),
@@ -69,7 +68,6 @@ VALUES
 ('Waber'),
 ('Waberi'),
 ('Wabessa'),
-('Wabeza'),
 ('Wabi'),
 ('Wabia'), 
 ('Wabitoh'),
@@ -132,7 +130,6 @@ VALUES
 ('Wacholc'),
 ('Wacholic'),
 ('Wacholz'),
-
 ('Wachs'),
 ('Wachsler'),
 ('Wachsman'),
@@ -270,14 +267,12 @@ VALUES
 ('Wadhha'),
 ('Wadhi'),
 ('Wadhia'),
-
 ('Wadhva'),
 ('Wadhwa'),
 ('Wadhwana'),
 ('Wadi'),
 ('Wadia'),
 ('Wadiaah'),
-
 ('Wadiahendo'),
 ('Wadibia'),
 ('Wadid'),
@@ -300,8 +295,6 @@ VALUES
 ('Wadinga'),
 ('Wadivambigai'),
 ('Wadiwala'),
-
-('Wadiyah'),
 ('Wadja'),
 ('Wadjdi'),
 ('Wadje'),
@@ -338,7 +331,6 @@ VALUES
 ('Wadud'),
 ('Waduda'),
 ('Waduge'),
-
 ('Wadum'),
 ('Wadusky'),
 ('Wadutantrige'),
@@ -396,7 +388,6 @@ VALUES
 ('Waeyaert'),
 ('Waeys'),
 ('Waez'),
-('Waeza'),
 ('Waezshaah'),
 ('Wafa'),
 ('Wafaa'),
@@ -428,15 +419,11 @@ VALUES
 ('Wafic'),
 ('Wafid'), 
 ('Wafiiqah'), 
-('Wafika'),
 ('Wafing'), 
 ('Wafiqa'),
 ('Wafiqah'),
 ('Wafiul'),
 ('Wafiullah'), 
-
-('Wafiyah'),
-
 ('Wafiyya'),
 ('Wafler'),
 ('Wafri'),
@@ -593,7 +580,6 @@ VALUES
 ('Wahaga'),
 ('Wahage'),
 ('Wahaib'),
-
 ('Wahaid'), 
 ('Wahaish'),
 ('Wahaj'),
@@ -647,10 +633,8 @@ VALUES
 ('Waheishi'),
 ('Wahekeni'),
 ('Waheleye'),
-
 ('Wahem'),
 ('Wahez'),
-('Waheza'),
 ('Wahhaab'),
 ('Wahhab'),
 ('Wahhabi'),
@@ -659,7 +643,6 @@ VALUES
 ('Wahi'),
 ('Wahiad'),
 ('Wahib'),
-
 ('Wahibah'),
 ('Wahibul'),
 ('Wahibur'),
@@ -688,7 +671,6 @@ VALUES
 ('Wahiebah'),
 ('Wahied'),
 ('Wahieda'),
-
 ('Wahil'),
 ('Wahimah'),
 ('Wahington'),
@@ -703,7 +685,6 @@ VALUES
 ('Wahlborg'),
 ('Wahlbrink'),
 ('Wahlbro'),
-
 ('Wahleed'),
 ('Wahlen'),
 ('Wahlenmaier'),
@@ -715,7 +696,6 @@ VALUES
 ('Wahlhaus'),
 ('Wahlig'),
 ('Wahlin'),
-
 ('Wahlman'),
 ('Wahlmeier'),
 ('Wahlquist'),
@@ -758,10 +738,7 @@ VALUES
 ('Wai'),
 ('Waiana'),
 ('Waiata'),
-
-
 ('Waibel'),
-
 ('Waible'),
 ('Waibochi'),
 ('Waiboonya'),
@@ -857,7 +834,6 @@ VALUES
 ('Waiora'),
 ('Waipa'),
 ('Wair'),
-
 ('Wairama'),
 ('Waire'),
 ('Wairegi'),
@@ -919,7 +895,6 @@ VALUES
 ('Waiyee'),
 ('Waiyohu'),
 ('Waiz'),
-
 ('Waize'),
 ('Waizenegger'),
 ('Waizeneker'),
@@ -957,7 +932,6 @@ VALUES
 ('Wajhi'),
 ('Waji'),
 ('Wajia'),
-
 ('Wajibali'),
 ('Wajibun'),
 ('Wajid'),
@@ -992,7 +966,6 @@ VALUES
 ('Wak'),
 ('Waka'),
 ('Wakaabu'),
-('Wakaba'),
 ('Wakabamba'),
 ('Wakabayashi'),
 ('Wakabeya'),
@@ -1116,7 +1089,6 @@ VALUES
 ('Wal'),
 ('Wala'),
 ('Walaa'),
-('Walaba'),
 ('Walace'),
 ('Walach'),
 ('Walachnia'),
@@ -1185,7 +1157,6 @@ VALUES
 ('Walcher'),
 ('Walcheroy'),
 ('Walchester'),
-
 ('Walchli'),
 ('Walck'),
 ('Walcker'),
@@ -1213,7 +1184,6 @@ VALUES
 ('Waldelius'),
 ('Waldeman'),
 ('Waldemar'),
-
 ('Waldemarr'),
 ('Waldemer'),
 ('Walden'),
@@ -1319,12 +1289,10 @@ VALUES
 ('Walemano'),
 ('Walembama'),
 ('Walen'),
-
 ('Walenciej'), 
 ('Walenciuk'),
  
 ('Walenga'),
-
 ('Walenkamp'),
 ('Walenn'),
 ('Walent'),
@@ -1333,18 +1301,15 @@ VALUES
 ('Walentino'),
 ('Walentiny'),
 ('Walenty'),
-('Walentyna'),
 ('Waleola'),
 ('Waler'),
 ('Waleria'),
 ('Walerian'),
 ('Walerie'),
 ('Walerius'),
-
 ('Walerzak'),
 ('Walesa'),
 ('Walesby'),
-
 ('Walethi'),
 ('Waleti'),
 ('Waleto'),
@@ -1352,7 +1317,6 @@ VALUES
 ('Walette'),
 ('Waley'),
 ('Waleya'),
-('Waleza'),
 ('Walezak'),
 ('Walf'),
 ('Walfall'),
@@ -1375,7 +1339,6 @@ VALUES
 ('Walhood'),
 ('Wali'),
 ('Walia'),
-
 ('Waliahad'),
 ('Waliat'),
 ('Waliath'),
@@ -1401,7 +1364,6 @@ VALUES
 ('Waligura'),
 ('Walihah'),
 ('Waliid'),
-
 ('Walikangas'),
 ('Walike'),
 ('Walim'),
@@ -1419,7 +1381,6 @@ VALUES
 ('Walis'),
 ('Walisaid'),
 ('Waliser'),
-
 ('Walisinghe'),
 ('Waliszak'),
 ('Waliszcak'),
@@ -1430,11 +1391,7 @@ VALUES
 ('Waliur'),
 ('Waliuz'),
 ('Waliuzzaman'), 
-
-('Waliyah'),
 ('Waliyat'),
-
-
 ('Walizada'),
 ('Walizadah'),
 ('Walizer'),
@@ -1470,9 +1427,7 @@ VALUES
 ('Walkling'),
 ('Walkner'),
 ('Walkom'),
-
 ('Walkow'),
-
 ('Walkowsi'),
 ('Walkup'),
 ('Walkush'),
@@ -1777,7 +1732,6 @@ VALUES
 ('Walus'),
 ('Walusansa'),
 ('Walusha'),
-
 ('Walusimb'),
 ('Walusimbi'),
 ('Walusungu'),
@@ -1801,7 +1755,6 @@ VALUES
 ('Walzel'),
 ('Walzer'),
 ('Walzier'),
-
 ('Wamack'),
 ('Wamadi'),
 ('Wamae'),
@@ -1827,7 +1780,6 @@ VALUES
 ('Wambeke'),
 ('Wambeti'),
 ('Wambi'),
-('Wambika'),
 ('Wambini'),
 ('Wamble'),
 ('Wambles'),
@@ -1857,7 +1809,7 @@ VALUES
 ('Wamia'),
 ('Wamidh'),
 ('Wamiduz'),
-('Wamika'), 
+ 
 ('Wamiqur'),
 ('Wamithi'),
 ('Wamiti'),
@@ -1886,7 +1838,6 @@ VALUES
 ('Wamuka'),
 ('Wamukalayi'),
 ('Wamukelwe'),
-('Wamukeza'),
 ('Wamulume'),
 ('Wamungu'),
 ('Wamunyima'),
@@ -1896,7 +1847,6 @@ VALUES
 ('Wamuyu'),
 ('Wan'),
 ('Wana'),
-('Wanaba'),
 ('Wanadio'),
 ('Wanah'),
 ('Wanakale'),
@@ -1927,7 +1877,6 @@ VALUES
 ('Wanbui'),
 ('Wanbuku'),
 ('Wanbun'),
-('Wanca'),
 ('Wance'),
 ('Wanchai'),
 ('Wanchao'),
@@ -2012,7 +1961,6 @@ VALUES
 ('Wanduramba'),
 ('Wandy'),
 ('Wandyembe'),
-('Wandza'),
 ('Wandzilak'),
 ('Wandzura'),
 ('Wane'),
@@ -2080,7 +2028,6 @@ VALUES
 ('Wangori'),
 ('Wangpo'),
 ('Wangsa'),
-('Wangsaputri'),
 ('Wangsgard'),
 ('Wangsha'),
 ('Wangshu'),
@@ -2105,7 +2052,6 @@ VALUES
 ('Wanhong'),
 ('Wanhua'),
 ('Wania'),
-
 ('Wanichsampan'),
 ('Wanida'),
 ('Waniek'),
@@ -2115,7 +2061,6 @@ VALUES
 ('Wanigasekara'),
 ('Wanigasekera'),
 ('Wanigasinghe'),
-
 ('Wanigasundara'),
 ('Wanigesekera'),
 ('Wanilasekera'),
@@ -2129,8 +2074,6 @@ VALUES
 ('Wanissa'),
 ('Wanitha'),
 ('Waniwan'),
-
-('Waniyah'),
 ('Waniyya'),
 ('Wanja'),
 ('Wanjagi'),
@@ -2139,7 +2082,6 @@ VALUES
 ('Wanjeri'),
 ('Wanji'),
 ('Wanjia'),
-
 ('Wanjie'),
 ('Wanjihia'),
 ('Wanjiku'),
@@ -2238,7 +2180,6 @@ VALUES
 ('Wanphen'),
 ('Wanping'),
 ('Wanqi'),
-
 ('Wanqin'),
 ('Wanqing'),
 ('Wanqzu'),
@@ -2322,7 +2263,6 @@ VALUES
 ('Wany'),
 ('Wanya'),
 ('Wanyaga'),
-('Wanyah'),
 ('Wanyama'),
 ('Wanyan'),
 ('Wanyana'),
@@ -2388,7 +2328,6 @@ VALUES
 ('Waqaas'),
 ('Waqaass'),
 ('Waqais'),
-('Waqar'),
 ('Waqas'),
 ('Waqasat'),
 ('Waqasuddin'),
@@ -2398,14 +2337,11 @@ VALUES
 ('Waqel'),
 ('Waqi'),
 ('Waqia'),
-
 ('Waqidul'), 
 ('Waqil'),
 ('Waqis'),
-('Waqqar'),
 ('Waqqas'),
 ('Waquad'),
-('Waquar'),
 ('Waquas'),
 ('Waqued'),
 ('Waquib'),
@@ -2610,7 +2546,6 @@ VALUES
 ('Wariara'),
 ('Wariaro'),
 ('Waribere'),
-
 ('Warich'),
 ('Warick'),
 ('Warid'),
@@ -2722,19 +2657,13 @@ VALUES
 ('Warnaby'),
 ('Warnack'),
 ('Warnage'),
-
-
 ('Warnakula'),
-
 ('Warnakulapatabendige'), 
-
 ('Warnakulasoorya'),
 ('Warnakulasuria'),
-
 ('Warnakulasuriyage'),
 ('Warnapurage'),
 ('Warnasch'),
-
 ('Warnatsch'),
 ('Warncke'),
 ('Warne'),
@@ -2758,12 +2687,10 @@ VALUES
 ('Warnick'),
 ('Warnicke'),
 ('Warnie'),
-('Warnika'),
 ('Warnimont'),
 ('Warnix'),
 ('Warnke'),
 ('Warnken'),
-
 ('Warnlock'),
 ('Warno'),
 ('Warnock'),
@@ -2927,7 +2854,6 @@ VALUES
 ('Warwinu'),
 ('Warwood'),
 ('Warya'),
-('Waryah'),
 ('Waryam'),
 ('Waryas'),
 ('Warych'),
@@ -3045,8 +2971,6 @@ VALUES
 ('Wasfa'),
 ('Wasfi'),
 ('Wasfia'),
-
-('Wasfiyah'),
 ('Wasfy'),
 ('Washa'),
 ('Washabaugh'),
@@ -3066,7 +2990,6 @@ VALUES
 ('Washe'),
 ('Washeda'),
 ('Washeja'),
-('Washek'),
 ('Washel'),
 ('Washell'),
 ('Washenberger'),
@@ -3089,7 +3012,6 @@ VALUES
 ('Washiur'),
 ('Washiuzzaman'),
 ('Washkansky'),
-
 ('Washler'),
 ('Washma'),
 ('Washmah'),
@@ -3112,8 +3034,6 @@ VALUES
 ('Washuta'),
 ('Wasi'),
 ('Wasia'),
-
-
 ('Wasiat'),
 ('Wasib'),
 ('Wasick'),
@@ -3131,7 +3051,6 @@ VALUES
 ('Wasihun'),
 ('Wasiim'),
 ('Wasiin'), 
-('Wasika'),
 ('Wasike'),
 ('Wasikeh'),
 ('Wasiku'),
@@ -3188,7 +3107,6 @@ VALUES
 ('Waskom'),
 ('Waskosky'),
 ('Waskow'),
-
 ('Wasle'),
 ('Waslen'),
 ('Wasley'),
@@ -3254,7 +3172,6 @@ VALUES
 ('Wassertstrum'),
 ('Wassi'),
 ('Wassia'),
-
 ('Wassie'), 
 ('Wassifa'),
 ('Wassihan'),
@@ -3272,7 +3189,6 @@ VALUES
 ('Wassinger'),
 ('Wassink'),
 ('Wassister'), 
-('Wassiyah'),
 ('Wassman'),
 ('Wassmann'),
 ('Wassmer'),
@@ -3334,12 +3250,10 @@ VALUES
 ('Waszak'),
 ('Waszek'),
 ('Waszkinel'),
-
 ('Waszmer'),
 ('Waszut'),
 ('Wat'),
 ('Wata'),
-('Wataba'),
 ('Watabe'),
 ('Watah'),
 ('Watahabe'),
@@ -3424,7 +3338,6 @@ VALUES
 ('Watfa'),
 ('Watgharee'),
 ('Wath'),
-
 ('Wathalie'),
 ('Wathall'), 
 ('Wathanafa'),
@@ -3438,7 +3351,6 @@ VALUES
 ('Wathha'),
 ('Wathie'),
 ('Wathigu'), 
-('Wathika'),
 ('Wathingira'),
 ('Wathke'),
 ('Wathmi'),
@@ -3454,7 +3366,6 @@ VALUES
 ('Watir'),
 ('Watiri'),
 ('Watissee'),
-
 ('Watje'),
 ('Watjen'),
 ('Watker'),
@@ -3483,7 +3394,6 @@ VALUES
 ('Waton'),
 ('Watondawo'),
 ('Wator'),
-('Watorek'),
 ('Watoro'),
 ('Watouta'),
 ('Watpusit'),
@@ -3542,7 +3452,6 @@ VALUES
 ('Watthanaporn'),
 ('Watthey'),
 ('Watti'),
-
 ('Wattie'),
 ('Wattier'),
 ('Wattiez'),
@@ -3639,7 +3548,6 @@ VALUES
 ('Waweru'),
 ('Wawina'),
 ('Wawira'),
-
 ('Wawn'),
 ('Wawne'),
 ('Wawoe'),
@@ -3659,7 +3567,6 @@ VALUES
 ('Wawrzesta'),
 ('Wawrzonek'),
 ('Wawrzycka'),
-
 ('Wawrzyniec'),
 ('Wawrzyniecka'),
 ('Wawrzyniuk'),
@@ -3727,7 +3634,6 @@ VALUES
 ('Waymon'),
 ('Waymont'),
 ('Waymouth'),
-('Wayna'),
 ('Wayne'),
 ('Waynecia'),
 ('Waynedell'),
@@ -3760,7 +3666,6 @@ VALUES
 ('Waysson'),
 ('Waysur'),
 ('Wayt'),
-('Waytashek'),
 ('Wayte'),
 ('Wayton'),
 ('Wayts'),
@@ -3829,7 +3734,6 @@ VALUES
 ('Wculek'),
 ('Wdaru'),
 ('Wdenilson'),
-
 ('Wdowka'),
 ('Weaam'),
 ('Weaber'),
@@ -3855,7 +3759,6 @@ VALUES
 ('Weakland'),
 ('Weaklend'),
 ('Weakley'),
-
 ('Weakly'),
 ('Weaks'),
 ('Weal'),
@@ -4017,9 +3920,7 @@ VALUES
 ('Weckstrom'),
 ('Weckwerth'),
 ('Weclaw'),
-('Weclawek'),
 ('Wecsley'),
-('Wectorek'),
 ('Weda'),
 ('Wedab'),
 ('Wedad'),
@@ -4186,10 +4087,8 @@ VALUES
 ('Weerasinha'),
 ('Weerasirwardana'),
 ('Weerasoori'),
-
 ('Weerassekara'),
 ('Weerasundara'),
-
 ('Weerathunga'),
 ('Weeratunge'),
 ('Weerawan'),
@@ -4258,11 +4157,8 @@ VALUES
 ('Wegiel'),
 ('Wegienka'),
 ('Wegier'),
-('Wegierek'),
-
 ('Wegl'),
 ('Weglage'),
-('Weglarek'),
 ('Weglarz'),
 ('Wegleitner'),
 ('Weglewsa'),
@@ -4272,11 +4168,9 @@ VALUES
 ('Wegman'),
 ('Wegmann'),
 ('Wegner'),
-('Wegorek'),
 ('Wegrocka'),
 ('Wegrzak'),
 ('Wegrzynek'),
-
 ('Wegscheid'),
 ('Wegscheider'),
 ('Weguelin'),
@@ -4303,8 +4197,6 @@ VALUES
 ('Wehelan'),
 ('Wehele'),
 ('Wehelie'),
-
-
 ('Wehella'),
 ('Wehi'),
 ('Wehinger'),
@@ -4313,12 +4205,10 @@ VALUES
 ('Wehlage'),
 ('Wehland'),
 ('Wehlau'),
-
 ('Wehler'),
 ('Wehlie'),
 ('Wehling'),
 ('Wehlisch'),
-
 ('Wehman'),
 ('Wehmann'),
 ('Wehmeier'),
@@ -4362,12 +4252,10 @@ VALUES
 ('Weibel'),
 ('Weiberle'),
 ('Weibert'),
-
 ('Weibin'),
 ('Weibing'),
 ('Weible'),
 ('Weibley'),
-
 ('Weibrecht'),
 ('Weican'),
 ('Weicen'),
@@ -4390,7 +4278,6 @@ VALUES
 ('Weichselbaumer'),
 ('Weichselbraun'),
 ('Weicht'),
-
 ('Weick'),
 ('Weickel'),
 ('Weicker'),
@@ -4511,7 +4398,6 @@ VALUES
 ('Weiiss'),
 ('Weijan'),
 ('Weijand'),
-('Weije'),
 ('Weijel'),
 ('Weijer'),
 ('Weijerman'),
@@ -4519,7 +4405,6 @@ VALUES
 ('Weijia'),
 ('Weijian'),
 ('Weijiang'),
-
 ('Weijie'),
 ('Weijin'),
 ('Weijing'),
@@ -4582,7 +4467,6 @@ VALUES
 ('Weimers'),
 ('Weimerskirch'),
 ('Weimert'),
-
 ('Weimin'),
 ('Weiming'),
 ('Wein'),
@@ -4665,7 +4549,6 @@ VALUES
 ('Weinrebe'),
 ('Weinreich'),
 ('Weinreis'),
-('Weinrib'),
 ('Weinrich'),
 ('Weinroth'),
 ('Weins'),
@@ -4750,6 +4633,7 @@ VALUES
 ('Weisenfels'),
 ('Weisenfluh'),
 ('Weisenhorn'),
+('Weisenmiller'),
 ('Weisenpacher'),
 ('Weisensee'),
 ('Weisensel'),
@@ -4883,22 +4767,16 @@ VALUES
 ('Weix'),
 ('Weixel'),
 ('Weixelman'),
-
 ('Weixian'),
 ('Weixiang'),
-
 ('Weixin'),
 ('Weixing'), 
 ('Weixler'),
-
 ('Weixuan'), 
 ('Weiyan'),
 ('Weiyang'),
-
-
 ('Weiying'),
 ('Weiyip'),
-
 ('Weize'),
 ('Weizel'),
 ('Weizer'),
@@ -4908,7 +4786,6 @@ VALUES
 ('Weizhuang'),
 ('Weizman'),
 ('Weizmann'),
-
 ('Wej'),
 ('Wejda'),
 ('Wejdan'),
@@ -4951,7 +4828,6 @@ VALUES
 ('Welaratne'),
 ('Welasa'),
 ('Welat'),
-('Welatantri'),
 ('Welatantrige'),
 ('Welathantrige'),
 ('Welayat'),
@@ -5006,7 +4882,6 @@ VALUES
 ('Weldel'),
 ('Weldelchel'),
 ('Weldele'),
-
 ('Weldemarim'),
 ('Weldemeskel'),
 ('Weldemicael'),
@@ -5055,7 +4930,6 @@ VALUES
 ('Welenc'),
 ('Welender'),
 ('Welensky'),
-('Welentyna'),
 ('Welerson'),
 ('Welesley'),
 ('Weleteyesus'),
@@ -5094,12 +4968,9 @@ VALUES
 ('Welito'),
 ('Weliton'),
 ('Weliver'),
-
 ('Weliwattage'),
 ('Weliweriyade'),
 ('Weliwitage'),
-
-
 ('Weljie'),
 ('Welk'),
 ('Welka'),
@@ -5207,7 +5078,6 @@ VALUES
 ('Welna'),
 ('Welner'),
 ('Welnetz'),
-
 ('Welnicka'),
 ('Welnitschuk'),
 ('Welo'),
@@ -5347,7 +5217,6 @@ VALUES
 ('Wencke'),
 ('Wencker'),
 ('Wencl'),
-
 ('Wenclever'), 
 ('Wencui'),
 ('Wency'),
@@ -5637,7 +5506,6 @@ VALUES
 ('Wenxia'),
 ('Wenxian'),
 ('Wenxiang'),
-
 ('Wenxin'),
 ('Wenxing'), 
 ('Wenxnan'),
@@ -5681,11 +5549,9 @@ VALUES
 ('Wenzloff'),
 ('Wenzong'),
 ('Weobong'),
-('Weodarek'),
 ('Weoi'),
 ('Weol'),
 ('Weon'),
-('Weonika'),
 ('Wepener'),
 ('Wepfer'),
 ('Wephre'),
@@ -5696,7 +5562,6 @@ VALUES
 ('Weppler'),
 ('Weppner'),
 ('Weprin'),
-('Weqar'),
 ('Weqas'),
 ('Wera'),
 ('Werachai'),
@@ -5708,7 +5573,6 @@ VALUES
 ('Werahannedige'),
 ('Werar'),
 ('Werb'),
-('Werba'),
 ('Werbach'),
 ('Werbeck'),
 ('Werbel'),
@@ -5746,7 +5610,6 @@ VALUES
 ('Weremara'),
 ('Weremchuk'),
 ('Weremiuk'),
-
 ('Werens'),
 ('Weres'),
 ('Weress'),
@@ -5769,7 +5632,6 @@ VALUES
 ('Werikowaa'),
 ('Werikowaah'),
 ('Werinesh'),
-('Werinika'),
 ('Werino'),
 ('Weris'),
 ('Werishimina'),
@@ -5858,16 +5720,12 @@ VALUES
 ('Werny'),
 ('Wernz'),
 ('Wero'),
-('Weromika'),
 ('Weron'),
 ('Weronica'),
-('Weronika'),
 ('Weronka'),
-('Weronkika'),
 ('Weronuka'),
 ('Weroto'),
 ('Werotte'),
-('Werowika'),
 ('Werquin'),
 ('Werr'),
 ('Werra'),
@@ -6442,7 +6300,6 @@ VALUES
 ('Weyrich'),
 ('Weyrick'),
 ('Weyts'),
-('Weza'),
 ('Wezana'),
 ('Wezel'),
 ('Wezenet'), 
@@ -6451,7 +6308,6 @@ VALUES
 ('Wfuakatino'),
 ('Wgrid'),
 ('Wha'),
-('Whaba'),
 ('Whabi'),
 ('Whabira'),
 ('Whack'),
@@ -6687,7 +6543,6 @@ VALUES
 ('Wheybrew'),
 ('Wheyon'),
 ('Whibley'),
-
 ('Whichard'),
 ('Whichello'),
 ('Whichelo'),
@@ -7156,14 +7011,10 @@ VALUES
 ('Whytsell'),
 ('Wiaam'),
 ('Wiabo'),
-('Wiaderek'),
 ('Wiaderny'),
 ('Wiafe'),
 ('Wiafi'),
-
-
 ('Wiala'),
-
 ('Wiame'),
 ('Wian'),
 ('Wiand'),
@@ -7180,9 +7031,7 @@ VALUES
 ('Wiater'),
 ('Wiatr'),
 ('Wiatrak'),
-('Wiatrek'),
 ('Wiatt'),
-
 ('Wiazel'),
 ('Wibasaputra'),
 ('Wibawa'),
@@ -7219,7 +7068,6 @@ VALUES
 ('Wicaksono'),
 ('Wical'),
 ('Wice'),
-
 ('Wicford'),
 ('Wich'),
 ('Wichael'),
@@ -7324,8 +7172,6 @@ VALUES
 ('Wickramasinghe'),
 ('Wickramasingre'),
 ('Wickramasinha'),
-
-
 ('Wickramathilaka'),
 ('Wickramathona'),
 ('Wickramatillake'),
@@ -7484,7 +7330,6 @@ VALUES
 ('Widyalankara'),
 ('Widyan'),
 ('Widyaratna'),
-('Widyaratri'),
 ('Widyasari'),
 ('Widyastuti'),
 ('Widyatanti'),
@@ -7527,9 +7372,7 @@ VALUES
 ('Wieck'),
 ('Wiecka'),
 ('Wieckert'),
-
 ('Wieclaw'),
-('Wieclorek'),
 ('Wied'),
 ('Wieda'),
 ('Wiedaad'),
@@ -7606,7 +7449,6 @@ VALUES
 ('Wiehe'),
 ('Wiehi'),
 ('Wiehl'),
-
 ('Wiehmann'),
 ('Wiehn'),
 ('Wiehrl'),
@@ -7629,7 +7471,6 @@ VALUES
 ('Wieleba'),
 ('Wielecka'),
 ('Wielek'),
-('Wielemborek'),
 ('Wielend'),
 ('Wielenga'),
 ('Wieler'),
@@ -7689,9 +7530,7 @@ VALUES
 ('Wiepert'),
 ('Wier'),
 ('Wiera'),
-('Wierba'),
 ('Wierbicka'),
-
 ('Wiercigroch'),
 ('Wiercioch'),
 ('Wiercx'),
@@ -7816,8 +7655,6 @@ VALUES
 ('Wiewiora'),
 ('Wiewiorka'),
  
-
-('Wiezorek'),
 ('Wifa'),
 ('Wifaq'),
 ('Wifeweera'),
@@ -7925,7 +7762,6 @@ VALUES
 ('Wiid'),
 ('Wiida'),
 ('Wiig'), 
-
 ('Wiiliams'),
 ('Wiilo'),
 ('Wiimah'),
@@ -7966,7 +7802,6 @@ VALUES
 ('Wijdan'),
 ('Wijdeueld'),
 ('Wijdeveld'),
-('Wije'),
 ('Wijeakumar'),
 ('Wijeba'),
 ('Wijebanda'),
@@ -7999,10 +7834,7 @@ VALUES
 ('Wijesinghe'),
 ('Wijesinha'),
 ('Wijesiri'),
-
-
 ('Wijesundara'),
-
 ('Wijethunga'),
 ('Wijetilaka'),
 ('Wijetunga'),
@@ -8016,7 +7848,6 @@ VALUES
 ('Wijewickrama'),
 ('Wijewickrema'),
 ('Wijewikkrama'),
-
 ('Wijeyan'),
 ('Wijeyaratne'),
 ('Wijeyasinghe'),
@@ -8052,7 +7883,6 @@ VALUES
 ('Wijtha'),
 ('Wijtzes'),
 ('Wijyaratnam'), 
-('Wika'),
 ('Wikander'),
 ('Wikanes'),
 ('Wikanthomo'),
@@ -8093,10 +7923,8 @@ VALUES
 ('Wiktona'),
 ('Wiktonia'),
 ('Wiktor'),
-('Wiktorek'),
 ('Wiktoria'),
 ('Wiktorija'), 
-
 ('Wiktorja'),
 ('Wiktorla'),
 ('Wiktorsson'),
@@ -8368,13 +8196,11 @@ VALUES
 ('Wilhoite'),
 ('Wilholm'),
 ('Wilhour'),
-
 ('Wiliams'),
 ('Wilian'),
 ('Wilians'),
 ('Wilie'),
 ('Wilifred'),
-
 ('Wilim'),
 ('Wilimber'),
 ('Wilinton'),
@@ -8437,7 +8263,6 @@ VALUES
 ('Willadsen'),
 ('Willaert'),
 ('Willaford'),
-
 ('Willaim'),
 ('Willaims'),
 ('Willaimson'),
@@ -8588,7 +8413,6 @@ VALUES
 ('Willia'),
 ('Williaam'),
 ('Williaim'),
-
 ('Williama'),
 ('Williambhai'),
 ('Williame'),
@@ -8630,7 +8454,6 @@ VALUES
 ('Willibrord'),
 ('Willibrordu'),
 ('Willibrordus'),
-
 ('Willich'),
 ('Willick'),
 ('Willicombe'),
@@ -8648,7 +8471,6 @@ VALUES
 ('Willigar'),
 ('Willigh'),
 ('Willighan'),
-
 ('Willilam'),
 ('Willilams'),
 ('Willim'),
@@ -8698,9 +8520,7 @@ VALUES
 ('Willkom'),
 ('Willkomm'),
 ('Willlam'),
-
 ('Willliams'),
-
 ('Willma'),
 ('Willman'),
 ('Willmann'),
@@ -9042,7 +8862,6 @@ VALUES
 ('Winchie'),
 ('Winchurch'),
 ('Wincie'),
-('Winciorek'),
 ('Wincke'),
 ('Winckel'),
 ('Winckelmann'),
@@ -9112,7 +8931,6 @@ VALUES
 ('Windisch'),
 ('Windischmann'),
 ('Windish'),
-('Windjaba'),
 ('Windjammers'),
 ('Windland'),
 ('Windle'),
@@ -9217,7 +9035,6 @@ VALUES
 ('Wingard'),
 ('Wingate'),
 ('Wingave'),
-
 ('Wingco'),
 ('Winge'),
 ('Wingeier'),
@@ -9269,7 +9086,6 @@ VALUES
 ('Winhall'),
 ('Winheim'),
 ('Wini'),
-('Winiarek'),
 ('Winiarz'),
 ('Winiasom'),
 ('Winiata'),
@@ -9376,8 +9192,6 @@ VALUES
 ('Winnford'),
 ('Winnfred'),
 ('Winni'),
-
-
 ('Winnick'),
 ('Winnicka'),
 ('Winnicott'),
@@ -9616,7 +9430,6 @@ VALUES
 ('Wipprecht'),
 ('Wipula'),
 ('Wiputhanupong'),
-('Wiqar'),
 ('Wiqas'),
 ('Wiquas'),
 ('Wira'),
@@ -9628,7 +9441,6 @@ VALUES
 ('Wiranata'),
 ('Wiranphat'),
 ('Wiraputra'),
-('Wiraputri'),
 ('Wirasinha'),
 ('Wiraszka'),
 ('Wirat'),
@@ -9673,7 +9485,6 @@ VALUES
 ('Wirima'),
 ('Wirina'),
 ('Wiriranal'),
-
 ('Wiriyaongsri'),
 ('Wiriyaphong'),
 ('Wiriyasakunphan'),
@@ -9746,7 +9557,6 @@ VALUES
 ('Wischner'),
 ('Wischnewsky'),
 ('Wischnia'),
-
 ('Wiscomb'),
 ('Wiscombe'),
 ('Wiscount'),
@@ -9795,7 +9605,6 @@ VALUES
 ('Wishman'),
 ('Wishner'),
 ('Wishney'),
-
 ('Wishnie'),
 ('Wishnow'),
 ('Wishon'),
@@ -9809,7 +9618,6 @@ VALUES
 ('Wisidagama'),
 ('Wisie'),
 ('Wisinger'),
-('Wisiorek'),
 ('Wisk'),
 ('Wisken'),
 ('Wisker'),
@@ -9840,7 +9648,6 @@ VALUES
 ('Wisner'),
 ('Wisnesky'),
 ('Wisnia'),
-
 ('Wisnicka'),
 ('Wisniewsua'), 
 ('Wisnioch'),
@@ -10001,7 +9808,6 @@ VALUES
 ('Withey'),
 ('Withfield'),
 ('Withford'),
-
 ('Withiel'),
 ('Withington'),
 ('Withmore'),
@@ -10218,7 +10024,6 @@ VALUES
 ('Wixson'),
 ('Wixted'),
 ('Wixvin'),
-
 ('Wiyada'),
 ('Wiyakumar'),
 ('Wiyan'),
@@ -10229,7 +10034,6 @@ VALUES
 ('Wiyohannes'),
 ('Wiyombo'),
 ('Wiyono'),
-
 ('Wizam'),
 ('Wizar'),
 ('Wize'),
@@ -10247,7 +10051,6 @@ VALUES
 ('Wjeeh'),
 ('Wjood'),
 ('Wkadyslaw'),
-
 ('Wkodzimierz'),
 ('Wlach'),
 ('Wladarz'),
@@ -10278,7 +10081,6 @@ VALUES
 ('Wlasak'),
 ('Wlaschin'),
 ('Wlasiuk'),
-
 ('Wlassics'),
 ('Wlat'),
 ('Wlaz'),
@@ -10296,7 +10098,6 @@ VALUES
 ('Wlock'),
 ('Wlodarcyzk'),
 ('Wlodarec'),
-('Wlodarek'),
 ('Wlodaruka'),
 ('Wlodarz'),
 ('Wlodek'),
@@ -10354,7 +10155,6 @@ VALUES
 ('Woby'),
 ('Woch'),
 ('Wochner'),
-
 ('Wochnick'),
 ('Wocial'),
 ('Wock'),
@@ -10392,7 +10192,6 @@ VALUES
 ('Wodtke'),
 ('Wodud'),
 ('Woduni'),
-
 ('Wodzicka'),
 ('Wodzien'),
 ('Woe'),
@@ -10561,7 +10360,6 @@ VALUES
 ('Wojas'),
 ('Wojceich'),
 ('Wojchiech'),
-
 ('Wojcicka'),
 ('Wojciec'),
 ('Wojcieca'),
@@ -10588,7 +10386,6 @@ VALUES
 ('Wojdylak'),
 ('Wojdylo'),
 ('Wojdyr'),
-
 ('Wojeciech'),
 ('Wojed'), 
 ('Wojenoda'),
@@ -10628,7 +10425,6 @@ VALUES
 ('Wojtek'),
 ('Wojtenek'),
 ('Wojtis'), 
-
 ('Wojtkun'),
 ('Wojtkunat'),
 ('Wojton'),
@@ -10641,12 +10437,9 @@ VALUES
 ('Wojtyla'),
 ('Wojtylak'),
 ('Wojtylo'),
-('Wojtyna'),
-
 ('Wojtynka'),
 ('Wojtyra'),
 ('Wojtys'),
-
 ('Wokaari'),
 ('Wokafi'),
 ('Wokari'),
@@ -10725,7 +10518,6 @@ VALUES
 ('Woldekirkos'),
 ('Woldekiros'),
 ('Woldemar'),
-
 ('Woldemariyam'),
 ('Woldemdhin'),
 ('Woldemedhim'),
@@ -10741,7 +10533,6 @@ VALUES
 ('Woldenegus'),
 ('Woldense'),
 ('Wolder'),
-
 ('Wolderufael'),
 ('Woldesamuel'),
 ('Woldeselassie'),
@@ -10767,8 +10558,6 @@ VALUES
 ('Woldezoin'),
 ('Woldgabriel'),
 ('Woldgiorgis'),
-('Woldhek'),
-
 ('Woldman'),
 ('Woldmeskle'),
 ('Woldridge'),
@@ -11021,7 +10810,6 @@ VALUES
 ('Wolstrommer'),
 ('Wolsza'),
 ('Wolszon'),
-
 ('Wolt'),
 ('Woltel'),
 ('Woltemath'),
@@ -11218,7 +11006,6 @@ VALUES
 ('Wonyakona'),
 ('Wonydya'),
 ('Wonyia'),
-
 ('Woo'),
 ('Woob'),
 ('Woobin'),
@@ -11628,7 +11415,6 @@ VALUES
 ('Woreba'),
 ('Worecka'),
 ('Woreen'),
-('Worek'),
 ('Worel'),
 ('Worell'),
 ('Worfolk'),
@@ -11641,7 +11427,6 @@ VALUES
 ('Worgu'),
 ('Worgull'),
 ('Woria'),
-('Worika'),
 ('Worikhail'),
 ('Woringer'),
 ('Worji'),
@@ -11656,7 +11441,6 @@ VALUES
 ('Workineh'),
 ('Workinesh'),
 ('Workinger'),
-
 ('Workley'),
 ('Workman'),
 ('Workmon'),
@@ -11722,7 +11506,6 @@ VALUES
 ('Worobey'),
 ('Worobiej'), 
 ('Woroch'),
-
 ('Worona'),
 ('Woronecka'),
 ('Woroner'),
@@ -11822,7 +11605,6 @@ VALUES
 ('Wosenu'),
 ('Woser'),
 ('Wosher'),
-
 ('Wosick'),
 ('Wosiek'),
 ('Wosien'), 
@@ -11838,7 +11620,6 @@ VALUES
 ('Wossene'),
 ('Wossenie'),
 ('Wossenyelesh'),
-('Wosshika'),
 ('Wossidlo'),
 ('Wosskow'),
 ('Wossnig'),
@@ -11850,7 +11631,6 @@ VALUES
 ('Woster'),
 ('Wostmann'),
 ('Wostry'),
-
 ('Wosu'),
 ('Woszek'),
 ('Wotana'),
@@ -11918,7 +11698,6 @@ VALUES
 ('Woye'),
 ('Woyele'),
 ('Woyengikuro'),
-
 ('Woyeso'),
 ('Woyessa'),
 ('Woyesso'),
@@ -11936,7 +11715,6 @@ VALUES
 ('Woytovich'),
 ('Woytowich'),
 ('Woytowick'), 
-
 ('Wozciech'), 
 ('Wozencraft'),
 ('Wozencroft'),
@@ -11946,7 +11724,6 @@ VALUES
 ('Wozna'), 
 ('Woznak'),
 ('Wozney'),
-
 ('Wozniaka'),
 ('Woznica'),
 ('Woznick'),
@@ -12093,7 +11870,6 @@ VALUES
 ('Wroble'),
 ('Wroblicka'),
 ('Wrocklage'),
-('Wroclawek'),
 ('Wroe'),
 ('Wroldsen'),
 ('Wrolson'),
@@ -12101,7 +11877,6 @@ VALUES
 ('Wrona'),
 ('Wroncliffe'),
 ('Wronek'),
-
 ('Wronka'),
 ('Wronker'),
 ('Wronske'),
@@ -12109,7 +11884,6 @@ VALUES
 ('Wross'),
 ('Wroten'),
 ('Wroth'),
-
 ('Wrotny'),
 ('Wrotten'),
 ('Wroughs'),
@@ -12134,12 +11908,10 @@ VALUES
 ('Wrzalka'),
 ('Wrzask'),
 ('Wrzecion'),
-
 ('Wrzesien'),
 ('Wrzos'),
 ('Wrzosek'),
 ('Wsam'),
-
 ('Wshah'),
 ('Wsol'),
 ('Wspanialy'),
@@ -12199,7 +11971,6 @@ VALUES
 ('Wudie'),
 ('Wudmilla'),
 ('Wudnesh'),
-
 ('Wudood'),
 ('Wudtke'),
 ('Wudu'),
@@ -12285,7 +12056,6 @@ VALUES
 ('Wulf'),
 ('Wulfe'),
 ('Wulfeck'),
-
 ('Wulfers'),
 ('Wulfert'),
 ('Wulff'),
@@ -12321,7 +12091,6 @@ VALUES
 ('Wun'),
 ('Wuna'),
 ('Wunch'),
-('Wuncuirek'),
 ('Wunde'),
 ('Wundeh'),
 ('Wunder'),
@@ -12356,7 +12125,6 @@ VALUES
 ('Wuori'),
 ('Wuorinen'),
 ('Wuoristo'),
-
 ('Wura'),
 ('Wuraade'),
 ('Wuradla'),
@@ -12374,7 +12142,6 @@ VALUES
 ('Wurfel'),
 ('Wurgler'),
 ('Wurie'),
-
 ('Wurl'),
 ('Wurlitzer'),
 ('Wurm'),
@@ -12499,7 +12266,6 @@ VALUES
 ('Wyborny'),
 ('Wybourn'),
 ('Wybrand'),
-
 ('Wybraniec'),
 ('Wybrant'),
 ('Wybrew'),
@@ -12512,7 +12278,6 @@ VALUES
 ('Wycherley'),
 ('Wychgel'),
 ('Wychocka'),
-
 ('Wychowaniec'),  
 ('Wycisk'), 
 ('Wyckaert'),
@@ -12632,7 +12397,6 @@ VALUES
 ('Wyndel'),
 ('Wyndell'),
 ('Wynder'),
-
 ('Wyne'),
 ('Wynecoop'),
 ('Wynegar'),
@@ -12697,7 +12461,6 @@ VALUES
 ('Wyrd'),
 ('Wyre'),
 ('Wyrebek'),
-
 ('Wyres'),
 ('Wyrich'),
 ('Wyrick'),
@@ -12726,7 +12489,6 @@ VALUES
 ('Wyskiel'),
 ('Wyskocsil'),
 ('Wysling'),
-
 ('Wysmolec'),
 ('Wysmotek'),
 ('Wysock'),
