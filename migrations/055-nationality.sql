@@ -229,7 +229,8 @@ VALUES
 ('Welsh'), 
 ('Yemeni'), 
 ('Zambian'),
-('Zimbabwean');
+('Zimbabwean'),
+('Zulu');
 
 -- Down
 
