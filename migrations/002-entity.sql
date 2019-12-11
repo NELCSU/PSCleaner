@@ -13,14 +13,14 @@ INSERT INTO "Entity"
 ) 
 VALUES 
 (
-  'Address1',  
+  'Address1',
   '#80ff80', 
   'Location', 
   0, 
   'LOCATION', 
   0,
   'Regular expression', 
-  '\b(?:[1-9]\d{0,3}[a-z]{0,3}\s)(?:[''\.\-a-z]*\s)?(?:[a-z'']{3,}\s)(?:approach|avenue|bank|bay|bottom|boulevard|blvd|brae|close|crescent|croft|cottages?|court|drive|end|flats|field|heights|gardens|gate|grange|green|grove|hill|junction|lane|ln|lawns?|meads?|meadows?|mews|mills?|orchards?|parade|park|path|place|pl|ponds?|ridge|rise|road|rd|row|spinney|square|street|st|strand|terrace|towers|view|walk|way|woods?|yard)\b'
+  '\b(?:[1-9]\d{0,3}[a-z]{0,3}\s)(?:[''\.\-a-z]{3,}\s)?(?:[a-z'']{3,}\s)(?:approach|avenue|bank|bay|bottom|boulevard|blvd|brae|close|crescent|croft|cottages?|court|drive|end|flats|field|heights|gardens|gate|grange|green|grove|hill|junction|lane|ln|lawns?|meads?|meadows?|mews|mills?|orchards?|parade|park|path|place|pl|ponds?|ridge|rise|road|rd|row|spinney|square|street|st|strand|terrace|towers|view|walk|way|woods?|yard)\b'
 ),
 (
   'Address2',
@@ -200,7 +200,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+(?:ak[ahiopsuy]s|dran?|\wcz\w+|\wham|\who|hoff|[a-hj-z]i[fhijkquvwy]|iute|[b-df-np-su-z]ir|\wou|\wova?|\w[eu]rg|ska|\w[cs]z|than|vsky|y[kn]|\w[kz][io])\b'
+  '\b\w+(?:ak[ahiopsuy]s|dran?|\wcz\w+|\wham|\who|hoff|[a-hj-z]i[fhijkquvwy]|iute|\wova?|\w[eu]rg|ska|\w[cs]z|than|vsky|y[kn]|\w[kz][io])\b'
 ),
 (
   'PersonRegExA',
@@ -210,7 +210,17 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+a(?:ba|e[rv]|ga|jn|[ntv]i|wy|ye)\b'
+  '\b\w+a(?:an|ba|e[lrv]|fi|ga|ia|jn|[ntv]i|nn|ou|r[io]|um|wy|ye)\b'
+),
+(
+  'PersonRegExB',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+b(?:ek|ir|go|o[ku]|ur)\b'
 ),
 (
   'PersonRegExC',
@@ -220,7 +230,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+c(?:ci|ek|ka)\b'
+  '\b\w+c(?:c[ai]|ek|ir|ka|ou)\b'
 ),
 (
   'PersonRegExD',
@@ -230,7 +240,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+d(?:za)\b'
+  '\b\w+d(?:de|e[ahk]|ir|lo|ou|re|ur|z[ae])\b'
 ),
 (
   'PersonRegExE',
@@ -240,7 +250,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+e(?:jn|ri|tt|va|za)\b'
+  '\b\w+e(?:da|j[in]|ou|ri|tt|va|za)\b'
 ),
 (
   'PersonRegExF',
@@ -250,7 +260,17 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+f(?:et|li)\b'
+  '\b\w+f(?:al|et|ir|ja|li|ou)\b'
+),
+(
+  'PersonRegExG',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+g(?:aj|ha|i[mr]|ji|lu|ma|ou|ui)\b'
 ),
 (
   'PersonRegExH',
@@ -260,7 +280,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+h(?:ek|le|ra)\b'
+  '\b\w+h(?:ar|ek|ir|le|ou|wa|ra)\b'
 ),
 (
   'PersonRegExI',
@@ -270,7 +290,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+i(?:a[abf-kmo-qu-z]|b[a-df-rt-z]|c[b-dfgijl-ru-xz]|e[ckn]|f[al]|je|ka|l[bcg-ju-xz]|t[acdgjl-npru-xz]|we|[xy][a-z]|z[a-df-y])\b'
+  '\b\w+i(?:a[abf-kmo-qu-z]|b[a-df-rt-z]|c[b-df-jl-ru-xz]|e[ckn]|f[al]|ir|j[aekt]|ka|l[bcg-ju-xz]|nn|ou|pa|ri|t[acdgjl-npru-xz]|w[ae]|[xy][a-z]|z[a-df-y])\b'
 ),
 (
   'PersonRegExJ',
@@ -280,7 +300,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+j(?:ah|on)\b'
+  '\b\w+j(?:a[eh]|i[aenr]|o[nou]|u[ens])\b'
 ),
 (
   'PersonRegExK',
@@ -290,7 +310,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+k(?:a[jnrs]|i[abc]|u[fn]|w[aeiou])\b'
+  '\b\w+k(?:a[jnrs]|h[ae]|i[abcr]|ou|u[fn]|w[aeiou])\b'
 ),
 (
   'PersonRegExL',
@@ -300,7 +320,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+l(?:ek|fo|ig|j[ao]|[kmn]a|li|p[ao]|ta|u[afr])\b'
+  '\b\w+l(?:ak|ek|fo|i[gr]|j[ao]|[kmn]a|li|ou|p[ao]|ta|u[afr]|ya)\b'
 ),
 (
   'PersonRegExM',
@@ -310,7 +330,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+m(?:ai|ek|l[ae])\b'
+  '\b\w+m(?:a[io]|ek|ir|l[ae]|ke|ou)\b'
 ),
 (
   'PersonRegExN',
@@ -320,7 +340,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+n(?:a[bhn]|ca|ek|pd|ul)\b'
+  '\b\w+n(?:a[bhmn]|ca|ek|ga|ir|kl|n[aeiu]|ou|pd|ti|ul]|yi)\b'
 ),
 (
   'PersonRegExO',
@@ -330,7 +350,17 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+o(?:[ntv]i|rf|ui)\b'
+  '\b\w+o(?:ao|e[kl]|hi|lo|mo|[ntv]i|ou|r[cf]|u[ainw])\b'
+),
+(
+  'PersonRegExP',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+p(?:ir|ou)\b'
 ),
 (
   'PersonRegExQ',
@@ -340,7 +370,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+q(?:ar)\b'
+  '\b\w+q(?:ar|ir|ou)\b'
 ),
 (
   'PersonRegExR',
@@ -350,7 +380,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+r(?:ah|ba|ek|fi|ib|ra|ub|y[aelu])\b'
+  '\b\w+r(?:a[hj]|ba|c[ao]|e[ckv]|fi|i[br]|ka|ou|ra|ub|y[aelu]|zs)\b'
 ),
 (
   'PersonRegExS',
@@ -360,7 +390,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+s(?:ki)\b'
+  '\b\w+s(?:ak|ch|ev|ir|ki|ou|uk)\b'
 ),
 (
   'PersonRegExT',
@@ -370,7 +400,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+t(?:ek|ka|ri)\b'
+  '\b\w+t(?:ek|hu|ka|ou|ri|sa|ti|ua|v[ai])\b'
 ),
 (
   'PersonRegExU',
@@ -380,7 +410,17 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+u(?:ar|gg|ji|lu|ni)\b'
+  '\b\w+u(?:a[mnr]|g[ag]|ir|ji|lu|n[iou]|ou|tz|u[aer]|y[ei]|z[eu])\b'
+),
+(
+  'PersonRegExV',
+  '#00a0ff', 
+  'Person', 
+  1, 
+  'PERSON', 
+  0,
+  'Regular expression', 
+  '\b\w+v(?:ab|i[cr]|ka|o[cu])\b'
 ),
 (
   'PersonRegExW',
@@ -390,7 +430,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+w(?:ek)\b'
+  '\b\w+w(?:e[ikn]|ir|ou|ra)\b'
 ),
 (
   'PersonRegExX',
@@ -400,7 +440,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+x(?:ba)\b'
+  '\b\w+x(?:ba|ir|ou|te)\b'
 ),
 (
   'PersonRegExY',
@@ -410,7 +450,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+y(?:a[dhr]|[hknrtvyz]a|s[ks]|to|u[flz])\b'
+  '\b\w+y(?:a[dhor]|ba|c[hk]|el|ir|[ghknrtvyz]a|ou|s[ks]|to|u[flnz])\b'
 ),
 (
   'PersonRegExZ',
@@ -420,7 +460,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+z(?:ak|da)\b'
+  '\b\w+z(?:a[ik]|da|e[oq]|ga|i[agnor]|ja|k[ay]|li|n[aey]|o[dnu]|s[ai]|u[ryz]|v[iy]|w[ei]|za)\b'
 ),
 (
   'PlaceName', 

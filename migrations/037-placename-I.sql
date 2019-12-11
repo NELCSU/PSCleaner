@@ -4073,6 +4073,5 @@ VALUES
 ('Island Sand'),
 ('Ive'),
 ('Ivies');
-
 -- Down
 DELETE FROM "Placename" WHERE "keyword" LIKE 'i%';
