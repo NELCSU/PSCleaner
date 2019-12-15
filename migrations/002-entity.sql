@@ -240,7 +240,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+d(?:de|e[ahk]|ir|lo|ou|re|ur|z[ae])\b'
+  '\b\w+d(?:de|e[ahk]|ir|lo|ou|r[ei]|ur|z[ae])\b'
 ),
 (
   'PersonRegExE',
@@ -250,7 +250,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+e(?:da|j[in]|ou|ri|tt|va|za)\b'
+  '\b\w+e(?:d[at]|j[in]|ni|ou|ri|tt|va|za)\b'
 ),
 (
   'PersonRegExF',
@@ -270,7 +270,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+g(?:aj|ha|i[mr]|ji|lu|ma|ou|ui)\b'
+  '\b\w+g(?:aj|ha|i[mr]|ji|lu|ma|na|ou|ui|ze)\b'
 ),
 (
   'PersonRegExH',
@@ -280,7 +280,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+h(?:ar|ek|ir|le|ou|wa|ra)\b'
+  '\b\w+h(?:ar|ek|ir|le|ou|um|wa|ra)\b'
 ),
 (
   'PersonRegExI',
@@ -290,7 +290,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+i(?:a[abf-kmo-qu-z]|b[a-df-rt-z]|c[b-df-jl-ru-xz]|e[ckn]|f[al]|ir|j[aekt]|ka|l[bcg-ju-xz]|nn|ou|pa|ri|t[acdgjl-npru-xz]|w[ae]|[xy][a-z]|z[a-df-y])\b'
+  '\b\w+i(?:a[abf-kmo-qu-z]|b[a-df-rt-z]|c[b-df-jl-ru-xz]|e[ckn]|f[al]|ir|j[aekt]|ka|l[bcg-ju-xz]|nn|ou|pa|ri|t[acdgjl-npru-xz]|uc|w[ae]|[xy][a-z]|z[a-df-y])\b'
 ),
 (
   'PersonRegExJ',
@@ -340,7 +340,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+n(?:a[bhmn]|ca|ek|ga|ir|kl|n[aeiu]|ou|pd|ti|ul]|yi)\b'
+  '\b\w+n(?:a[bhmn]|ca|e[kz]|ga|ir|ja|kl|n[aeiu]|ou|pd|ti|ul]|yi)\b'
 ),
 (
   'PersonRegExO',
@@ -380,7 +380,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+r(?:a[hj]|ba|c[ao]|e[ckv]|fi|i[br]|ka|ou|ra|ub|y[aelu]|zs)\b'
+  '\b\w+r(?:a[hjr]|ba|c[ao]|e[ckv]|fi|i[br]|ka|o[mu]|ra|ub|y[aelu]|zs)\b'
 ),
 (
   'PersonRegExS',
@@ -390,7 +390,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+s(?:ak|ch|ev|ir|ki|ou|uk)\b'
+  '\b\w+s(?:ak|c[hou]|ev|hi|ir|k[ei]|ou|uk)\b'
 ),
 (
   'PersonRegExT',
@@ -400,7 +400,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+t(?:ek|hu|ka|ou|ri|sa|ti|ua|v[ai])\b'
+  '\b\w+t(?:ek|hu|ka|ou|ri|sa|t[il]|ua|v[ai])\b'
 ),
 (
   'PersonRegExU',
@@ -410,7 +410,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+u(?:a[mnr]|g[ag]|ir|ji|lu|n[iou]|ou|tz|u[aer]|y[ei]|z[eu])\b'
+  '\b\w+u(?:a[a-df-km-su-z]|cu|da|g[ag]|ir|ji|lu|n[iou]|ou|tz|u[aer]|wa|y[ei]|z[eu])\b'
 ),
 (
   'PersonRegExV',
@@ -420,7 +420,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+v(?:ab|i[cr]|ka|o[cu])\b'
+  '\b\w+v(?:ab|i[crt]|ka|o[cu])\b'
 ),
 (
   'PersonRegExW',
@@ -430,7 +430,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+w(?:e[ikn]|ir|ou|ra)\b'
+  '\b\w+w(?:a[a-km-qt-vz]|b[aieoruy]|c[aehkosy]|d[adeinou]|e[ikn]|ir|ou|ra)\b'
 ),
 (
   'PersonRegExX',
@@ -450,7 +450,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+y(?:a[dhor]|ba|c[hk]|el|ir|[ghknrtvyz]a|ou|s[ks]|to|u[flnz])\b'
+  '\b\w+y(?:a[dhor]|ba|c[hk]|d[ay]|el|ir|[ghknrtvyz]a|ou|s[ks]|to|u[flnz])\b'
 ),
 (
   'PersonRegExZ',
