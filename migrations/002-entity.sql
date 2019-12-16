@@ -210,7 +210,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+a(?:an|ba|e[lrv]|fi|ga|ia|jn|[ntv]i|nn|ou|r[io]|um|wy|ye)\b'
+  '\b\w+a(?:[ajq][a-z]|b[a-rt-z]|c[a-df-gijl-ru-xz]|d[a-df-np-rtu-xz]|e[a-ce-z]|f[a-dg-ru-xz]|g[a-df-hj-np-rt-xz]|h[b-rt-z]|i[abef-ko-qu-z]|k[a-df-rt-xz]|l[bcghjnqru-xz]|m[cdf-hj-mqru-xz]|n[bcfhijl-np-ru-xz]|o[a-rt-z]|p[a-dfgi-np-ru-xz]|r[acg-joqu-xz]|s[a-dfgijloqru-xz]|t[b-dfgi-ru-xz]|u[a-ce-km-qu-z]|v[b-df-np-xz]|w[a-jmo-qrt-z]|x[a-xz]|y[a-rt-z]|z[a-df-xz])\b'
 ),
 (
   'PersonRegExB',

@@ -37470,7 +37470,6 @@ VALUES
 ('Henrys'),
 ('Heog'),
 ('Herberts'),
-('Heritage'),
 ('Hermitage Residential Home'),
 ('Hern'),
 ('Heronry'),
