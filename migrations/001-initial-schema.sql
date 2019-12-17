@@ -19,12 +19,12 @@ CREATE TABLE Entity (
 
 CREATE INDEX Entity_ix_type ON Entity (type);
 
-CREATE TABLE Part (
+CREATE TABLE Skip (
   id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
   keyword TEXT    NOT NULL COLLATE NOCASE
 );
 
-CREATE INDEX Part_ix_keyword ON Part (keyword);
+CREATE INDEX Skip_ix_keyword ON Skip (keyword);
 
 CREATE TABLE Person (
   id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
@@ -61,8 +61,8 @@ DROP TABLE IF EXISTS AppSettings;
 DROP INDEX Entity_ix_type;
 DROP TABLE IF EXISTS Entity;
 
-DROP INDEX Part_ix_keyword;
-DROP TABLE IF EXISTS Part;
+DROP INDEX Skip_ix_keyword;
+DROP TABLE IF EXISTS Skip;
 
 DROP INDEX Person_ix_keyword;
 DROP TABLE IF EXISTS Person;

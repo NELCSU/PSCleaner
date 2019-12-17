@@ -15,7 +15,7 @@ let importFiles = 0;
 let processingFiles = 0;
 let exportFiles = 0;
 let running = false;
-let timeStart, timeEnd = new Date(null), timer;
+let timeStart, timer;
 
 /**
  * Displays timestamp as hh:mm:ss
@@ -29,8 +29,11 @@ function formatTime(start, end) {
   if (end === null) {
     end = Date.now();
   }
-  timeEnd.setSeconds((end - start) / 1000);
-  return timeEnd.toISOString().substr(11, 8);
+  const raw = (end - start) / 1000;
+  const ss = `0${Math.floor(raw % 60)}`;
+  const mm = `0${Math.floor(raw / 60)}`;
+  const hh = `0${Math.floor(raw / 3600)}`;
+  return `${hh.slice(-2)}:${mm.slice(-2)}:${ss.slice(-2)}`;
 }
 
 /**
@@ -49,7 +52,6 @@ function setUpTimer() {
   runButton.textContent = "Stop";
   templateList.classList.add("disabled");
   timeStart = Date.now();
-  timeEnd = new Date(null);
   timeLabel.innerHTML = "starting " + formatTime(timeStart, Date.now());
   timer = setInterval(() => {
     timeLabel.innerHTML = "in progress " + formatTime(timeStart, Date.now());

@@ -7,6 +7,7 @@ import { join, parse } from "path";
 import DB from "sqlite3-helper";
 import { cleanText } from "./util/text";
 import { TemplateFiles } from "./template-files";
+import jschardet from "jschardet";
 
 /**
  * ### Manages files stored in watched folder. Runs NLP services on files.
@@ -76,7 +77,7 @@ export class ProcessFiles {
    * @param {string} file
    * @param {ImportTemplate} - template to validate CSV file
    */
-  public processFile(file: string, templates: TemplateFiles): void {
+  public async processFile(file: string, templates: TemplateFiles): Promise<void> {
     const from: string = join(this.fm.folder, file);
     const temp: string = join(this.fm.folder, "temp.tmp");
     let to: string = join(this.sendTo, file);
@@ -88,35 +89,51 @@ export class ProcessFiles {
         }
       });
 
-    const stream = csv.format({ headers: templates.header });
-    const writeStream = this.fm.fs.createWriteStream(temp);
-    stream.pipe(writeStream);
-    const rows: Promise<any>[] = [];
+    const size: number = this.fm.fs.statSync(from).size;
+    if (size < 3) {
+      throw new Error("File cannot be empty");
+    }
 
-    csv.parseFile(from, { headers: templates.header })
-      .on("data", async (row: any) => {
-        await rows.push(this._processRow(row, stream, templates.fields));
-      })
-      .on("end", () => {
-        Promise.all(rows)
-          .then(_ => {
-            stream.end();
-            Promise.all([
-              this.fm.fs.move(temp, to),
-              this.fm.delete(from)
-            ]).then(_ => this.events.emit("file-processed"))
-              .catch(_ => this.events.emit("file-processing-error"));
-          });
+    const rs = this.fm.fs.createReadStream(from, { start: 0, end: size > 499 ? 499 : size });
+    rs.on("data", (chunk: any) => {          
+      const isUTF8: boolean = chunk[0] === 239 && chunk[1] === 187 && chunk[2] === 191 
+      rs.close();
+      const text: any = jschardet.detect(chunk.toString());
+
+      const stream = csv.format({
+        headers: templates.header,
+        writeBOM: isUTF8 ? true : false
       });
+      const writeStream = this.fm.fs.createWriteStream(temp);
+      stream.pipe(writeStream);
+      const rows: Promise<any>[] = [];
+  
+      csv.parseFile(from, {
+        encoding: isUTF8 ? "utf-8" : text.encoding,
+        headers: templates.header
+      })
+        .on("data", async (row: any) => {
+          await rows.push(this._processRow(row, stream, templates.fields));
+        })
+        .on("end", () => {
+          Promise.all(rows)
+            .then(_ => {
+              stream.end();
+              Promise.all([
+                this.fm.fs.move(temp, to),
+                this.fm.delete(from)
+              ]).then(_ => this.events.emit("file-processed"))
+                .catch(_ => this.events.emit("file-processing-error"));
+            });
+        });
+    });
   }
 
   private _processRow(row: any, stream: any, fields: Map<string, boolean>): Promise<any> {
     const cellQ: any[] = [];
-
     for (let cell in row) {
       cellQ.push(this._processCell(cell, row, fields));
     }
-
     return Promise.all(cellQ)
       .then(_ => {
         stream.write(row);
@@ -125,16 +142,16 @@ export class ProcessFiles {
   }
 
   private async _processCell(cell: any, row: any[], fields: Map<string, boolean>): Promise<any> {
-    let normalised: string = cleanText(row[cell]);
     let canProcess: boolean = fields.get(cell) || false;
-    return canProcess
-      ? await this.nlp.evaluate(normalised)
+    if (canProcess) {
+      let normalised: string = cleanText(row[cell]);
+      return await this.nlp.evaluate(normalised)
         .then(async matches => {
           await this.nlp.replace(normalised, matches)
-            .then(r => {
-              return new Promise(resolve => resolve(row[cell] = r));
-            });
+            .then(r => new Promise(resolve => resolve(row[cell] = r)));
         })
-      : Promise.resolve(cell);
+    } else {
+      return Promise.resolve(cell);
+    }
   }
 }

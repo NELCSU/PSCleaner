@@ -3,17 +3,18 @@
   "dependencies": {
     "@buckneri/js-lib-selection": "0.0.4",
     "@buckneri/web-components": "^0.2.2",
-    "chokidar": "^3.3.0",
+    "chokidar": "^3.3.1",
     "debounce": "^1.2.0",
     "dotenv": "^8.2.0",
     "electron-squirrel-startup": "^1.0.0",
     "electron-store": "^5.1.0",
     "electron-window-state": "^5.0.3",
     "esm": "^3.2.25",
-    "fast-csv": "^3.5.0",
+    "fast-csv": "^3.4.0",
     "file-url": "^3.0.0",
     "fs-extra": "^8.1.0",
     "he": "^1.2.0",
+    "jschardet": "^2.1.1",
     "json-stringify-pretty-compact": "^2.0.0",
     "make-dir": "^3.0.0",
     "node-abi": "^2.13.0",
@@ -35,7 +36,7 @@
     "@types/chokidar": "^2.1.3",
     "@types/debounce": "^1.2.0",
     "@types/fs-extra": "^8.0.1",
-    "@types/node": "^12.12.17",
+    "@types/node": "^12.12.18",
     "@types/sqlite3": "^3.1.5",
     "@types/uuid": "^3.4.6",
     "electron": "^7.1.5",
@@ -75,7 +76,7 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf static/lib/web-components"
   },
-  "version": "0.5.0",
+  "version": "0.5.1",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }

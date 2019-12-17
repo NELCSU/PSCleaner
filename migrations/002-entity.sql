@@ -1,6 +1,6 @@
 -- Up
 
-INSERT INTO "Entity" 
+INSERT INTO Entity 
 (
   label, 
   color, 
@@ -123,6 +123,36 @@ VALUES
   '\b(?:[\w+\-\_\.]+)@(?:[\w+\-\_\.]+)\b'
 ),
 (
+  'Skip',      
+  '#ccddee', 
+  'Skip',     
+  0, 
+  'SKIP', 
+  1,   
+  'Multiple term', 
+  ''
+),
+(
+  'SkipNumberDurationRegEx',
+  '#ccddee', 
+  'Skip', 
+  0, 
+  'SKIP', 
+  1,
+  'Regular expression', 
+  '\b[\d,\.]+(?:st|nd|rd|th)?[\s\-\\/]{1,2}(?:acre|autumn|beer|day|fairway|mile|pence|place|pound|min|story|summer|week|winter)s?\b'
+),
+(
+  'SkipWordDurationRegEx',  
+  '#ccddee', 
+  'Skip', 
+  0, 
+  'SKIP', 
+  1,
+  'Regular expression', 
+  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten|hundred)[\s\-\\/]{1,2}(?:acre|autumn|beer|day|mile|pence|place|pound|story|summer|week|winter)s?\b'
+),
+(
   'Nationality',
   '#0050ff', 
   'Reference', 
@@ -141,46 +171,6 @@ VALUES
   0,
   'Regular expression', 
   '[34679]\d\d\s?\d\d\d\s?\d\s?\d\s?\d\s?\d'
-),
-(
-  'Part',      
-  '#ccddee', 
-  'Part',     
-  0, 
-  'PART', 
-  1,   
-  'Multiple term', 
-  ''
-),
-(
-  'PartNumberDurationRegEx',
-  '#ccddee', 
-  'Part', 
-  0, 
-  'PART', 
-  1,
-  'Regular expression', 
-  '\b[\d,\.]+(?:st|nd|rd|th)?[\s\-\\/]{1,2}(?:acre|autumn|beer|day|fairway|mile|pence|place|pound|min|story|summer|week|winter)s?\b'
-),
-(
-  'PartWordDurationRegEx',  
-  '#ccddee', 
-  'Part', 
-  0, 
-  'PART', 
-  1,
-  'Regular expression', 
-  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten|hundred)[\s\-\\/]{1,2}(?:acre|autumn|beer|day|mile|pence|place|pound|story|summer|week|winter)s?\b'
-),
-(
-  'PartWordSubsitutionRegEx',
-  '#ccddee', 
-  'Part', 
-  0, 
-  'PART', 
-  1,
-  'Regular expression', 
-  '\ba\snew\s\w+\b'
 ),
 (
   'Person',    
@@ -220,7 +210,7 @@ VALUES
   'PERSON', 
   0,
   'Regular expression', 
-  '\b\w+b(?:ek|ir|go|o[ku]|ur)\b'
+  '\b\w+b(?:a[a-dfh-kmo-qu-z]|b[a-xz]|[cdf-hjkmnpqstv-z][a-z]|e[a-cfg-km-qu-xz]|i[bfh-mo-ru-z]|l[a-df-xz]|o[a-kmpuvz]|r[b-df-z]|u[acfh-mo-ru-xz])\b'
 ),
 (
   'PersonRegExC',
@@ -575,4 +565,4 @@ VALUES
 
 -- Down
 
-DELETE FROM "Entity";
+DELETE FROM Entity;

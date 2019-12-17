@@ -742,7 +742,6 @@ VALUES
 ('Yaxham Road'),
 ('Yaxham Wood'),
 ('Yaxley'),
-('Yaxley & Farcet'),
 ('Yaxley Close'),
 ('Yaxley Court'),
 ('Yaxley Fen'),
