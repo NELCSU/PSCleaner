@@ -33,6 +33,26 @@ VALUES
   '\b(?:(?:Block|Suite)\s[\w]*|\d+(st|nd|rd|th)\sFloor)\b'
 ),
 (
+  'Currency1',
+  '#334320', 
+  'Currency', 
+  0, 
+  'CURRENCY', 
+  0,
+  'Regular expression', 
+  '[$£€]\s*[\d,]+(?:\.\d{1,2})?'
+),
+(
+  'Currency2',
+  '#334320', 
+  'Currency', 
+  0, 
+  'CURRENCY', 
+  0,
+  'Regular expression', 
+  '[\d,\.]{1,}\s?(?:pounds?|p(?:ence)?|euros?|dollars?)'
+),
+(
   'DateLong',  
   '#ffb3ff', 
   'DateTime', 
@@ -456,7 +476,7 @@ VALUES
   'PlaceName', 
   '#80ff00', 
   'Location', 
-  0, 
+  1, 
   'LOCATION', 
   0, 
   'Multiple term', 

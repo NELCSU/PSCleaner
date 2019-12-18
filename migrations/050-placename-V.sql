@@ -2001,7 +2001,7 @@ VALUES
 ('Victor Way'),
 ('Victor Wilde Drive'),
 ('Victoria'),
-('Victoria & Norcross'),
+('Norcross'),
 ('Victoria Approach'),
 ('Victoria Avenue'),
 ('Victoria Avenue East'),

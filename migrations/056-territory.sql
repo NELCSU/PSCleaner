@@ -37,6 +37,7 @@ VALUES
 ('Burma'),
 ('Burundi'),
 ('Cabo Verde'),
+('Caledonia'),
 ('Cambodia'),
 ('Cameroon'),
 ('Canada'),

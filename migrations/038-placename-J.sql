@@ -1,10 +1,9 @@
 -- Up
- INSERT INTO Placename (keyword)
+INSERT INTO Placename (keyword)
 VALUES
 ('J B Court'),
 ('J F Kennedy Drive'),
 ('J T Flett Park'),
-('JH Bealey & Son'),
 ('JH Taylor Drive'),
 ('Jaarlen Road'),
 ('Jabe Davies Close'),
