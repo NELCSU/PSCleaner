@@ -20441,7 +20441,6 @@ VALUES
 ('Groutides'),
 ('Groux'),
 ('Grovas'),
-('Grove'),
 ('Groveman'),
 ('Groven'),
 ('Grovenstein'),

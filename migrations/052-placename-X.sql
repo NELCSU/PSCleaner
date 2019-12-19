@@ -1,5 +1,5 @@
 -- Up
- INSERT INTO Placename (keyword)
+INSERT INTO Placename (keyword)
 VALUES
 ('Xai Xai'),
 ('Xalapa'),
@@ -31,6 +31,5 @@ VALUES
 ('Xuancheng'),
 ('Xuchang'),
 ('XII Apostles');
-
 -- Down
-DELETE FROM "Placename" WHERE "keyword" LIKE 'x%';
+DELETE FROM Placename WHERE keyword LIKE 'x%';

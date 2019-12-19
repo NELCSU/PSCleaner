@@ -338,6 +338,7 @@ VALUES
 ('Eassen'),
 ('Eassom'),
 ('Easson'),
+('East'),
 ('Eastabrook'),
 ('Eastabrooks'),
 ('Eastaff'),

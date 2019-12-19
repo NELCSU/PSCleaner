@@ -26,6 +26,13 @@ CREATE TABLE Skip (
 
 CREATE INDEX Skip_ix_keyword ON Skip (keyword);
 
+CREATE TABLE SkipOrJoin (
+  id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  keyword TEXT    NOT NULL COLLATE NOCASE
+);
+
+CREATE INDEX SkipOrJoin_ix_keyword ON SkipOrJoin (keyword);
+
 CREATE TABLE Person (
   id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
   keyword TEXT    NOT NULL COLLATE NOCASE
@@ -63,6 +70,9 @@ DROP TABLE IF EXISTS Entity;
 
 DROP INDEX Skip_ix_keyword;
 DROP TABLE IF EXISTS Skip;
+
+DROP INDEX SkipOrJoin_ix_keyword;
+DROP TABLE IF EXISTS SkipOrJoin;
 
 DROP INDEX Person_ix_keyword;
 DROP TABLE IF EXISTS Person;

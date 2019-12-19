@@ -13,24 +13,24 @@ INSERT INTO Entity
 ) 
 VALUES 
 (
-  'Address1',
-  '#80ff80', 
-  'Location', 
-  0, 
+  'AddressPart',
+  '#80ff70', 
+  'Name', 
+  1, 
   'LOCATION', 
-  0,
+  1,
   'Regular expression', 
-  '\b(?:[1-9]\d{0,3}[a-z]{0,3}\s)(?:[''\.\-a-z]{3,}\s)?(?:[a-z'']{3,}\s)(?:approach|avenue|bank|bay|bottom|boulevard|blvd|brae|close|crescent|croft|cottages?|court|drive|end|flats|field|heights|gardens|gate|grange|green|grove|hill|junction|lane|ln|lawns?|meads?|meadows?|mews|mills?|orchards?|parade|park|path|place|pl|ponds?|ridge|rise|road|rd|row|spinney|square|street|st|strand|terrace|towers|view|walk|way|woods?|yard)\b'
+  '(?:(?:Block|Suite)\s[\w]*|\d+(st|nd|rd|th)\sFloor|[1-9]\d{0,3}[a-z]{0,3})'
 ),
 (
-  'Address2',
+  'AddressPart',    
   '#80ff70', 
-  'Location', 
-  0, 
+  'Name',   
+  1, 
   'LOCATION', 
-  0,
+  1, 
   'Regular expression', 
-  '\b(?:(?:Block|Suite)\s[\w]*|\d+(st|nd|rd|th)\sFloor)\b'
+  '\b(?:approach|avenue|bank|bay|bottom|boulevard|brae|bridge|brook|close|common|coppice|copse|court|cottages?|crescent|croft|drive|east|end|estate|farm|fell|field|flats|forest|gardens?|gate|glen|grange|green|grove|harbour|heights|hill|junction|lane|lawns?|meadows?|meads?|mews|mills?|moor|mount|north|orchards?|parade|park|pasture|path|place|plain|ponds?|point|reservoir|ridge|rise|road|row|south|spinney|square|station|strand|street|terrace|towers|view|village|walk|way|west|woods?|yard)\b'
 ),
 (
   'Currency1',
@@ -153,6 +153,16 @@ VALUES
   ''
 ),
 (
+  'SkipOrJoin',      
+  '#ccddee', 
+  'Name',     
+  1, 
+  'SKIP', 
+  1,   
+  'Single term', 
+  ''
+),
+(
   'SkipNumberDurationRegEx',
   '#ccddee', 
   'Skip', 
@@ -195,7 +205,7 @@ VALUES
 (
   'Person',    
   '#0080ff', 
-  'Person',   
+  'Name',   
   1, 
   'PERSON', 
   0, 
@@ -205,7 +215,7 @@ VALUES
 (
   'PersonRegEx',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -215,7 +225,7 @@ VALUES
 (
   'PersonRegExA',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -225,7 +235,7 @@ VALUES
 (
   'PersonRegExB',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -235,7 +245,7 @@ VALUES
 (
   'PersonRegExC',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -245,7 +255,7 @@ VALUES
 (
   'PersonRegExD',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -255,7 +265,7 @@ VALUES
 (
   'PersonRegExE',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -265,7 +275,7 @@ VALUES
 (
   'PersonRegExF',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -275,7 +285,7 @@ VALUES
 (
   'PersonRegExG',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -285,7 +295,7 @@ VALUES
 (
   'PersonRegExH',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -295,7 +305,7 @@ VALUES
 (
   'PersonRegExI',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -305,7 +315,7 @@ VALUES
 (
   'PersonRegExJ',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -315,7 +325,7 @@ VALUES
 (
   'PersonRegExK',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -325,7 +335,7 @@ VALUES
 (
   'PersonRegExL',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -335,7 +345,7 @@ VALUES
 (
   'PersonRegExM',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -345,7 +355,7 @@ VALUES
 (
   'PersonRegExN',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -355,7 +365,7 @@ VALUES
 (
   'PersonRegExO',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -365,7 +375,7 @@ VALUES
 (
   'PersonRegExP',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -375,7 +385,7 @@ VALUES
 (
   'PersonRegExQ',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -385,7 +395,7 @@ VALUES
 (
   'PersonRegExR',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -395,7 +405,7 @@ VALUES
 (
   'PersonRegExS',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -405,7 +415,7 @@ VALUES
 (
   'PersonRegExT',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -415,7 +425,7 @@ VALUES
 (
   'PersonRegExU',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -425,7 +435,7 @@ VALUES
 (
   'PersonRegExV',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -435,7 +445,7 @@ VALUES
 (
   'PersonRegExW',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -445,7 +455,7 @@ VALUES
 (
   'PersonRegExX',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -455,7 +465,7 @@ VALUES
 (
   'PersonRegExY',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -465,7 +475,7 @@ VALUES
 (
   'PersonRegExZ',
   '#00a0ff', 
-  'Person', 
+  'Name', 
   1, 
   'PERSON', 
   0,
@@ -475,7 +485,7 @@ VALUES
 (
   'PlaceName', 
   '#80ff00', 
-  'Location', 
+  'Name', 
   1, 
   'LOCATION', 
   0, 

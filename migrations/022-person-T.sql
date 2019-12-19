@@ -24420,7 +24420,6 @@ VALUES
 ('Tumzghi'),
 ('Tumzgi'),
 ('Tun'),
-('Tuna'),
 ('Tunaboylu'),
 ('Tunahan'),
 ('Tunai'),

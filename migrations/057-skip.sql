@@ -341,7 +341,6 @@ VALUES
 ('Drive north'),
 ('Drive south'),
 ('Drive west'),
-('East and west'),
 ('East coast'),
 ('East of'),
 ('East of the'),
@@ -776,7 +775,6 @@ VALUES
 ('Noel'),
 ('Normal pace'),
 ('Normal summer'),
-('North and south'),
 ('North of'),
 ('North of the'),
 ('North from'),
@@ -908,6 +906,7 @@ VALUES
 ('Pizza'),
 ('Plain vanilla'),
 ('Plant pots'),
+('Plant will'),
 ('Plant volume'),
 ('Plateau that'),
 ('Pogrom'),
@@ -1626,6 +1625,5 @@ VALUES
 ('Your love'),
 ('Your price'),
 ('Your sins');
-
 -- Down
 DELETE FROM Skip;

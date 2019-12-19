@@ -18,7 +18,7 @@ export class NLP {
 
   private _pos: posTagger;
   private _sensitivityLevels: string[] = [
-    "CC|DT|FW|IN|JJ|JJR|JJS|MD|NN|NNS|NNP|NNPS|PDT|PRP|PRP$|RB|TO|VB|VBD|VBG|VBN|VBP|VBZ|WDT|"
+    "CC|DT|FW|IN|JJ|JJR|JJS|MD|NN|NNS|NNP|NNPS|PDT|PRP|PRP$|RB|RBR|TO|VB|VBD|VBG|VBN|VBP|VBZ|WDT|"
   ];
   private _trace: boolean = true;
 
@@ -107,10 +107,18 @@ export class NLP {
           }
           lastModal = tag.pos === "MD";
         }
+      } else if (tag.normal === ".") {
+        if (lastWord && lastWord.length === 2) {
+          const n: number = words.length - 1;
+          words[n].value += tag.value;
+          words[n].end = end;
+          words[n].length += len;
+        }
       }
     });
     return words;
   }
+  
   /**
    * Returns text with sensitive values removed
    * @param {string} data - body of text to match and replace 
@@ -134,15 +142,16 @@ export class NLP {
   }
 
   private _join(curr: MatchedEntity, next: MatchedEntity, originalText: string): MatchedEntity {
-    const c: MatchedEntity = curr;
-    let conjunction: string = originalText.substr(c.end + 1, next.start - c.end - 1);
+    let conjunction: string = originalText.substr(curr.end + 1, next.start - curr.end - 1);
     if (conjunction === "") {
       conjunction = " ";
     }
-    c.value += conjunction + next.value;
-    c.length = c.value.length;
-    c.end = next.end;
-    return c;
+    curr.value += conjunction + next.value;
+    curr.entity = next.entity;
+    curr.entity.discard = 0;
+    curr.length = curr.value.length;
+    curr.end = next.end;
+    return curr;
   }
 
   private _joinable(curr: MatchedEntity, next: MatchedEntity): boolean {
@@ -315,7 +324,7 @@ export class NLP {
       }
       if (!skip) {
         cursor = current.end > cursor ? current.end : cursor;
-        if (current.entity.discard === 0) {
+        if (current.entity.discard === 0 || current.entity.joinable === 1) {
           result.push(current);
         }
       }
@@ -328,8 +337,15 @@ export class NLP {
         if (this._joinable(current, peek)) {
           result[i -1] = this._join(current, peek, data);
           result.splice(i, 1);
-          --i;
+          if (result[i -1].entity.joinable !== 1 && result[i -1].entity.discard !== 1) {
+            --i;
+          }
+        } else if (peek.entity.discard === 1) {
+          result.splice(i, 1);
         }
+      }
+      if (result[0].entity.discard === 1) {
+        result.splice(0, 1);
       }
     }
 

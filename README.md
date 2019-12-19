@@ -1,6 +1,7 @@
 # PSCleaner
 
-Process CSV files by identifying and removing personal sensitive text
+Process CSV files by identifying'),
+('removing personal sensitive text
 
 ## Getting started
 
@@ -10,8 +11,11 @@ The [wiki](https://github.com/NELCSU/PSCleaner/wiki) linked to this project has 
 
 ## Development
 
-Once you have copied the project, [npm-check](https://www.npmjs.com/package/npm-check) is a useful tool to check all the project dependencies are installed and up-to-date.
+Once you have copied the project, [npm-check](https://www.npmjs.com/package/npm-check) is a useful tool to check all the project dependencies are installed'),
+('up-to-date.
 
-After doing that, run *npm run update-all* to ensure both Electron and SQLite are fitted to your system. You may require the Python runtime (required by sqlite3) and C++ build tools to be installed. The console messages do a good job of prompting you for what might be required for your system.
+After doing that, run *npm run update-all* to ensure both Electron'),
+('SQLite are fitted to your system. You may require the Python runtime (required by sqlite3)'),
+('C++ build tools to be installed. The console messages do a good job of prompting you for what might be required for your system.
 
 Once updated, run *npm run build* to start the Typescript compiler. Lastly run the program in debug mode by pressing **F5**.
