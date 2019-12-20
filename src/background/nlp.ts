@@ -217,18 +217,20 @@ export class NLP {
   private async _runRegExpressions(data: string, entities: Entity[]): Promise<MatchedEntity[]> {
     const r: MatchedEntity[] = [];
     await entities.forEach(async (ent: Entity) => {
-      let re = new RegExp(ent.reg_ex, "gmi");
-      let m: RegExpExecArray | null;
-      while ((m = re.exec(data)) !== null) {
-        r.push({
-          entity: ent,
-          id: 0,
-          value: m[0],
-          start: m.index,
-          pos: "regex",
-          end: m.index + m[0].length - 1,
-          length: m[0].length
-        });
+      if (ent.enabled === 1) {
+        let re = new RegExp(ent.reg_ex, "gmi");
+        let m: RegExpExecArray | null;
+        while ((m = re.exec(data)) !== null) {
+          r.push({
+            entity: ent,
+            id: 0,
+            value: m[0],
+            start: m.index,
+            pos: "regex",
+            end: m.index + m[0].length - 1,
+            length: m[0].length
+          });
+        }
       }
     })
     return Promise.resolve(r);
@@ -237,7 +239,9 @@ export class NLP {
   private async _runTerms(data: string, words: WordPosition[], entities: Entity[]): Promise<MatchedEntity[]> {
     const queue: Promise<MatchedEntity[]>[] = [];
     entities.forEach((ent: Entity) => {
-      queue.push(this._searchTerms(data, words, ent))
+      if (ent.enabled === 1) {
+        queue.push(this._searchTerms(data, words, ent));
+      }
     });
     return Promise.all(queue)
       .then(matches => {

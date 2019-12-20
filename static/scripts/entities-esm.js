@@ -7,6 +7,8 @@ const entityColor = document.getElementById("txtEntityColor");
 const entityLabel = document.getElementById("txtEntityLabel");
 const entityDomain = document.getElementById("txtEntityDomain");
 const entityMask = document.getElementById("txtEntityMask");
+const entityEnabled = document.getElementById("txtEntityEnabled");
+const entityPriority = document.getElementById("txtEntityPriority");
 const entityJoinable = document.getElementById("txtEntityJoinable");
 const entityDiscard = document.getElementById("txtEntityDiscard");
 const entityType = document.getElementById("lblEntityType");
@@ -43,7 +45,7 @@ function addEntity(data) {
       }
     }
   }
-  entityMap.set(data.id, data);
+  entityMap.set(parseInt(data.id), data);
 }
 
 function clearForm() {
@@ -51,6 +53,8 @@ function clearForm() {
   entityLabel.value = "";
   entityJoinable.on = false;
   entityDiscard.on = false;
+  entityEnabled.on = false;
+  entityPriority.value = 5;
   entityDomain.value = "";
   entityMask.value = "";
   entityId.value = "";
@@ -59,6 +63,8 @@ function clearForm() {
   entityMask.disabled = false;
   entityJoinable.disabled = false;
   entityDiscard.disabled = false;
+  entityEnabled.disabled = false;
+  entityPriority.disabled = false;
   entityDomain.disabled = false;
   deleteButton.classList.add("disabled");
   deleteButton.dataset.id = null;
@@ -135,14 +141,18 @@ entityList.addEventListener("change", e => {
       entityColor.value = data.color;
       entityLabel.value = data.label;
       entityDomain.value = data.domain;
-      entityJoinable.on = data.joinable;
-      entityDiscard.on = data.discard;
+      entityEnabled.on = parseInt(data.enabled);
+      entityPriority.value = data.priority;
+      entityJoinable.on = parseInt(data.joinable);
+      entityDiscard.on = parseInt(data.discard);
       entityMask.value = data.mask;
       entityRegEx.value = data.reg_ex;
       entityId.value = data.id;
       entityType.value = data.type;
       entityType.dispatchEvent(new Event("change"));
       entityLabel.disabled = false;
+      entityEnabled.disabled = false;
+      entityPriority.disabled = false;
       entityJoinable.disabled = false;
       entityDiscard.disabled = false;
       entityMask.disabled = false;
@@ -158,6 +168,8 @@ entityList.addEventListener("change", e => {
  */
 entityColor.addEventListener("change", () => { dirty = true; toggleSaveEntity(); });
 entityLabel.addEventListener("input", db(_ => { dirty = true; toggleSaveEntity(); }, 500));
+entityEnabled.addEventListener("input", db(_ => { dirty = true; toggleSaveEntity(); }, 500));
+entityPriority.addEventListener("input", db(_ => { dirty = true; toggleSaveEntity(); }, 500));
 entityJoinable.addEventListener("input", db(_ => { dirty = true; toggleSaveEntity(); }, 500));
 entityDiscard.addEventListener("input", db(_ => { dirty = true; toggleSaveEntity(); }, 500));
 entityMask.addEventListener("input", db(_ => { dirty = true; toggleSaveEntity(); }, 500));
@@ -186,7 +198,7 @@ ipc.on("entity-list", (_, entities) => {
 });
 
 ipc.on("entity-saved", async (_, entity) => {
-  entityMap.set(entity.id, entity);
+  entityMap.set(parseInt(entity.id), entity);
   deleteSelection(entity.id);
   addEntity(entity);
   selectEntity(entity);
@@ -201,6 +213,8 @@ saveButton.addEventListener("click", _ => {
     label: entityLabel.value,
     color: entityColor.value,
     domain: entityDomain.value,
+    enabled: entityEnabled.on ? "1" : "0",
+    priority: entityPriority.value,
     joinable: entityJoinable.on ? "1" : "0",
     discard: entityDiscard.on ? "1" : "0",
     type: entityType.options[entityType.selectedIndex].value,

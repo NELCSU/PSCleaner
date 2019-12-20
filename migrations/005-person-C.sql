@@ -1,5 +1,5 @@
 -- Up
-INSERT INTO Person (keyword)
+INSERT INTO Name (keyword)
 VALUES
 ('Caabid'),
 ('Caabida'),
@@ -29757,4 +29757,4 @@ VALUES
 ('Czyz'),
 ('Czyzydlo');
 -- Down
-DELETE FROM Person WHERE keyword LIKE 'c%';
+DELETE FROM Name WHERE keyword LIKE 'c%';

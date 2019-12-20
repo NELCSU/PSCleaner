@@ -59,6 +59,18 @@
       </div>
     </div>
     <div class="flex-r vcenter pad3">
+      <label for="txtEntityEnabled" title="Enable/disabled this entity">Enabled</label>
+      <div class="grow">
+        <nel-on-off id="txtEntityEnabled" size="3"></nel-on-off>
+      </div>
+    </div>
+    <div class="flex-r vcenter pad3">
+      <label for="txtEntityPriority" title="Sets the priority entity has during processing. Lower number = higher priority">Priority</label>
+      <div class="grow">
+        <input id="txtEntityPriority" type="number" min="0" max="5"></input>
+      </div>
+    </div>
+    <div class="flex-r vcenter pad3">
       <label for="txtEntityJoinable" title="Entities will be joined together if adjacent">Joinable</label>
       <div class="grow">
         <nel-on-off id="txtEntityJoinable" size="3"></nel-on-off>

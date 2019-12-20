@@ -3,6 +3,7 @@ INSERT INTO Placename (keyword)
 VALUES
 ('Xai Xai'),
 ('Xalapa'),
+('Xaviers'),
 ('Xiamen'),
 ('Xian'),
 ('Xiangtan'),
@@ -11,25 +12,19 @@ VALUES
 ('Xiantao'),
 ('Xianyang'),
 ('Xiaogan'),
-('Xiaoshan'),
 ('Xichang'),
+('XII Apostles'),
 ('Xilinhot'),
-('Xingcheng'),
-('Xinghua'),
 ('Xingtai'),
-('Xingyi'),
 ('Xining'),
 ('Xinji'),
 ('Xintai'),
 ('Xinxiang'),
-('Xinyang'),
 ('Xinyi'),
-('Xinyu'),
 ('Xinzhou'),
-('Xo‘jayli'),
 ('Xochimilco'),
-('Xuancheng'),
-('Xuchang'),
-('XII Apostles');
+('Xo‘jayli'),
+('Xuchang');
+
 -- Down
 DELETE FROM Placename WHERE keyword LIKE 'x%';

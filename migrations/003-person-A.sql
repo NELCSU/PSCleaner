@@ -1,8 +1,9 @@
 -- Up
-INSERT INTO Person (keyword)
+INSERT INTO Name (keyword)
 VALUES
 ('Aaaron'),
 ('Aaban'),
+('Anna'),
 ('Aabbey'),
 ('Aabboubi'),
 ('Aabdalla'),
@@ -42859,4 +42860,4 @@ VALUES
 ('Azzurrini'),
 ('Azzurro');
 -- Down
-DELETE FROM Person WHERE keyword LIKE 'a%';
+DELETE FROM Name WHERE keyword LIKE 'a%';

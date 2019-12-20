@@ -4,6 +4,8 @@ export type Entity = {
   id: number,
   color: string,
   domain: string,
+  enabled: number,
+  priority: number,
   joinable: number,
   discard: number,
   label: string,

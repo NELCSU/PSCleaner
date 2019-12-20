@@ -1,18 +1,11 @@
 -- Up
 INSERT INTO SkipOrJoin (keyword)
 VALUES
-('Can'),
-('Central'),
-('Down'),
-('Index'),
-('Lower'),
-('Market'),
-('Meet'),
-('Off'),
+('Mr'),
+('Mrs'),
+('Ms'),
 ('Saint'),
-('Screen'),
 ('St'),
-('St.'),
-('Upper');
+('St.');
 -- Down
 DELETE FROM SkipOrJoin;

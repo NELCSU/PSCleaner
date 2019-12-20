@@ -10,6 +10,8 @@ CREATE TABLE Entity (
   label     TEXT    NOT NULL, 
   color     TEXT    NOT NULL, 
   domain    TEXT    NOT NULL,
+  enabled   INTEGER NOT NULL,
+  priority  INTEGER NOT NULL,
   discard   INTEGER NOT NULL,
   joinable  INTEGER NOT NULL,
   type      TEXT    NOT NULL,
@@ -33,12 +35,12 @@ CREATE TABLE SkipOrJoin (
 
 CREATE INDEX SkipOrJoin_ix_keyword ON SkipOrJoin (keyword);
 
-CREATE TABLE Person (
+CREATE TABLE Name (
   id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
   keyword TEXT    NOT NULL COLLATE NOCASE
 );
 
-CREATE INDEX Person_ix_keyword ON Person (keyword);
+CREATE INDEX Name_ix_keyword ON Name (keyword);
 
 CREATE TABLE Placename (
   id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
@@ -74,8 +76,8 @@ DROP TABLE IF EXISTS Skip;
 DROP INDEX SkipOrJoin_ix_keyword;
 DROP TABLE IF EXISTS SkipOrJoin;
 
-DROP INDEX Person_ix_keyword;
-DROP TABLE IF EXISTS Person;
+DROP INDEX Name_ix_keyword;
+DROP TABLE IF EXISTS Name;
 
 DROP INDEX Placename_ix_keyword;
 DROP TABLE IF EXISTS Placename;
