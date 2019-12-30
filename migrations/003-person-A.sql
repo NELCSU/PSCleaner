@@ -27917,7 +27917,6 @@ VALUES
 ('Anshuva'),
 ('Anshveer'),
 ('Anshy'),
-('Ansi'),
 ('Ansia'),
 ('Ansiboy'),
 ('Ansie'),

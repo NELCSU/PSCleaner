@@ -19312,7 +19312,6 @@ VALUES
 ('Higgs Road'),
 ('Higgs Row'),
 ('Higgss Copse'),
-('High'),
 ('High Abbey Wood'),
 ('High Abbotside'),
 ('High Ackworth'),

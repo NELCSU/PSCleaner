@@ -6259,7 +6259,6 @@ VALUES
 ('Waxwing Park'),
 ('Waxwing Way'),
 ('Waxy Lane'),
-('Way'),
 ('Way Bank Lane'),
 ('Way Close'),
 ('Way Copse'),
