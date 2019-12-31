@@ -6,7 +6,7 @@ INSERT INTO Entity
   enabled, discard, joinable, priority,
   reg_ex
 ) 
-VALUES 
+VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
@@ -90,7 +90,7 @@ VALUES
 (
   'NameRegEx', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 0, 1, 3,
-  '\b\w+(?:dran?|\wcz\w+|hoff|iute)\b'
+  '\b\w+(?:dran?|\wcz\w+|iute)\b'
 ),
 (
   'NameRegExA', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -100,7 +100,7 @@ VALUES
 (
   'NameRegExB', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+b(?:a[a-dfh-kmo-qu-z]|b[a-xz]|[cdf-hjkmnpqstv-z][a-z]|e[a-cfg-km-qu-xz]|i[bfh-mo-ru-z]|k[io]|l[a-df-xz]|o[a-kmpuvz]|r[b-df-z]|sz|u[acfh-mo-ru-xz]|y[kn]|z[io])\b'
+  '\b\w+b(?:a[a-dfh-kmo-qu-z]|b[a-xz]|[cdf-hjkmnpqstv-z][a-z]|e[a-cfg-km-qu-xz]|i[bfh-mo-ru-z]|k[io]|l[a-df-xz]|o[a-mpuvz]|r[b-df-z]|sz|u[acfh-mo-ru-xz]|y[kn]|z[io])\b'
 ),
 (
   'NameRegExC', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -110,12 +110,12 @@ VALUES
 (
   'NameRegExD', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+d(?:cz|de|e[ahk]|ho|i[fhijkqruvwy]|k[io]|lo|ou|r[ei]|sz|ur|y[kn]|z[aeio])\b'
+  '\b\w+d(?:an|cz|de|e[ahk]|ho|i[fghijkqruvwy]|k[io]|lo|ou|r[eio]|sz|ur|y[kn]|z[aeio])\b'
 ),
 (
   'NameRegExE', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+e(?:cz|d[at]|ho|i[fhijkquvwy]|j[in]|k[io]|ni|ou|r[gi]|sz|tt|va|y[kn]|z[aio])\b'
+  '\b\w+e(?:cz|d[adt]|ho|i[fhijkquvwy]|j[in]|k[io]|ni|ou|r[gi]|s[iz]|tt|va|y[kn]|z[aio])\b'
 ),
 (
   'NameRegExF', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -125,12 +125,12 @@ VALUES
 (
   'NameRegExG', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 0, 1, 3,
-  '\b\w+g(?:aj|cz|h[ao]|i[fhijkmqruvwy]|ji|k[io]|lu|ma|na|ou|sz|ui|y[kn]|z[eio])\b'
+  '\b\w+g(?:aj|cz|h[ao]|i[fhijkmqruvwy]|ji|k[io]|lu|ma|na|ou|sz|ui|we|xi|y[eiknu]|z[eio])\b'
 ),
 (
   'NameRegExH', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+h(?:a[mnr]|cz|ek|ho|i[fhijkqruvwy]|k[io]|le|ou|sz|um|wa|y[kn]|ra|z[io])\b'
+  '\b\w+h(?:a[imnor]|cz|ek|ho|i[afhijkqruvwy]|k[io]|le|ny|ou|sz|um|wa|y[kn]|ra|z[io])\b'
 ),
 (
   'NameRegExI', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -140,32 +140,32 @@ VALUES
 (
   'NameRegExJ', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+j(?:a[eh]|cz|ho|i[aefhijknqruvwy]|k[io]|o[nou]|sz|u[ens]|y[kn]|z[io])\b'
+  '\b\w+j(?:a[ehn]|cz|ho|i[aefhijknqruvwy]|k[io]|o[nou]|sz|u[ens]|y[kn]|z[io])\b'
 ),
 (
   'NameRegExK', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+k(?:a[jnrs]|cz|h[aeos]|i[abcfhijkqrsuvwy]|k[io]|o[su]|p[s]|s[sz]|u[fns]|w[aeiou]|y[kns]|z[io])\b'
+  '\b\w+k(?:a[jnrs]|cz|h[aeos]|i[abcfhijkqrsuvwy]|k[io]|o[su]|p[s]|ro|s[sz]|u[fns]|w[aeiou]|y[kns]|z[io])\b'
 ),
 (
   'NameRegExL', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+l(?:ak|cz|ek|fo|ho|i[fghijkqruvwy]|j[ao]|k[aio]|li|[mn]a|ou|p[ao]|sz|ta|u[afr]|y[akn]|z[io])\b'
+  '\b\w+l(?:ak|c[oz]|ek|fo|ho|i[fghijkqruvwy]|j[ao]|k[aio]|li|[mn]a|ou|p[ao]|sz|ta|u[afr]|y[akn]|z[io])\b'
 ),
 (
   'NameRegExM', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+m(?:a[io]|cz|ek|ho|i[fhijkqruvwy]|k[io]|l[ae]|ke|ou|sz|y[kn]|z[io])\b'
+  '\b\w+m(?:a[io]|cz|ek|ho|i[fhijkqruvwy]|k[io]|l[ae]|ke|ou|sz|y[knr]|z[io])\b'
 ),
 (
   'NameRegExN', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+n(?:a[bhmn]|c[az]|e[kz]|ga|ho|i[fhijkqruvwy]|ja|k[ilo]|n[aeiu]|ou|pd|sz|ti|ul]|y[ikn]|z[io])\b'
+  '\b\w+n(?:a[bhmn]|bu|c[az]|e[kz]|ga|ho|i[fhijkqruvwy]|j[ai]|k[ilo]|n[aeiu]|ou|pd|sz|t[iul]|y[ikn]|z[io])\b'
 ),
 (
   'NameRegExO', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+o(?:ao|cz|e[kl]|h[io]|i[fhijkquvwy]|k[io]|lo|mo|[ntv]i|ou|r[cf]|sz|u[ainw]|y[kn]|z[io])\b'
+  '\b\w+o(?:ao|cz|e[kl]|ff|h[io]|i[fhijkquvwy]|k[io]|lo|mo|[ntv]i|ou|r[cf]|sz|u[ainw]|va|y[kn]|z[io])\b'
 ),
 (
   'NameRegExP', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -180,17 +180,17 @@ VALUES
 (
   'NameRegExR', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+r(?:a[hjr]|ba|c[aoz]|e[ckv]|fi|ho|i[bfhijkqruvwy]|k[aio]|o[mu]|ra|sz|ub|y[aeklnu]|z[ios])\b'
+  '\b\w+r(?:a[hjr]|ba|c[aoz]|e[bckv]|fi|ho|i[bfhijkqruvwy]|k[aio]|o[mu]|ra|sz|ub|y[aeklnu]|z[eios])\b'
 ),
 (
   'NameRegExS', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+s(?:ak|c[houz]|ev|h[io]|i[fhijkqruvwy]|k[aeioy]|ou|sz|uk|y[kn]|z[io])\b'
+  '\b\w+s(?:ak|c[houz]|ev|h[iou]|i[fhijkqruvwy]|k[aeioy]|ou|sz|uk|y[kn]|z[io])\b'
 ),
 (
   'NameRegExT', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+t(?:cz|ek|h[ou]|i[fhijkquvwy]|k[aio]|ou|ri|s[az]|t[il]|ua|v[ai]|y[kn]|z[io])\b'
+  '\b\w+t(?:a[dio]|cz|ek|h[ou]|i[fhijkquvwy]|k[aio]|ou|ri|s[az]|t[il]|ua|v[ai]|y[kn]|z[io])\b'
 ),
 (
   'NameRegExU', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -200,7 +200,7 @@ VALUES
 (
   'NameRegExV', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+v(?:a[a-df-kmo-qu-z]|cz|ho|i[cfhijkqrtuvwy]|k[aio]|o[cu]|sz|y[kn]|z[io])\b'
+  '\b\w+v(?:a[a-df-kmo-qu-z]|cz|ho|i[cfhijkqrtuvwy]|k[aio]|o[cu]|s[kz]|y[kn]|z[io])\b'
 ),
 (
   'NameRegExW', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -210,17 +210,17 @@ VALUES
 (
   'NameRegExX', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+x(?:ba|cz|ho|i[fhijkqruvwy]|k[io]|ou|sz|te|y[kn]|z[io])\b'
+  '\b\w+x(?:ai|ba|cz|ho|i[fhijkqruvwy]|k[io]|ou|sz|te|y[kn]|z[io])\b'
 ),
 (
   'NameRegExY', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+y(?:a[dhor]|ba|c[hkz]|d[ay]|el|ga|h[ao]|i[fhijkqru-wy]|k[aio]|na|ou|ra|s[ksz]|t[ao]|u[flnz]|va|y[akn]|z[aio])\b'
+  '\b\w+y(?:a[dhor]|ba|c[hkz]|d[ay]|el|ga|h[ao]|i[fhijkqru-wy]|k[aio]|li|n[an]|ou|ra|s[ksz]|t[ao]|u[flnz]|va|y[akn]|z[aio])\b'
 ),
 (
   'NameRegExZ', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 3,
-  '\b\w+z(?:a[ik]|cz|da|e[oq]|ga|ho|i[af-knoqruvwy]|ja|k[aioy]|li|n[aey]|o[dnu]|s[aiz]|u[ryz]|v[iy]|w[ei]|y[kn]|z[aio])\b'
+  '\b\w+z(?:a[hik]|cz|da|e[hoq]|ga|h[eo]|i[af-knoqruvwy]|ja|k[aioy]|li|n[aey]|o[dnru]|s[aiz]|u[ryz]|v[iy]|w[ei]|y[kn]|z[aio])\b'
 ),
 (
   'PlaceName', '#80ff00', 'Name', 'LOCATION', 'Multiple term',
