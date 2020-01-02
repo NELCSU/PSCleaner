@@ -706,7 +706,7 @@ VALUES
 ('Laddie'),
 ('Laddour'),
 ('Ladds'),
-('Laddu'),
+
 ('Laddunoori'),
 ('Laddusaw'),
 ('Laddy'),
@@ -9627,7 +9627,7 @@ VALUES
 ('Leokardia'),
 ('Leoke'),
 ('Leokoudia'),
-('Leol'),
+
 ('Leola'),
 ('Leoladia'),
 ('Leolanica'),
@@ -10029,7 +10029,7 @@ VALUES
 ('Lepsyte'),
 ('Leptiher'),
 ('Leptos'),
-('Lepur'),
+
 ('Lepuri'),
 ('Leqi'),
 ('Leqian'),

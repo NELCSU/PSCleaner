@@ -2854,7 +2854,7 @@ VALUES
 ('Yeojoong'),
 ('Yeok'),
 ('Yeoku'),
-('Yeol'),
+
 ('Yeoland'),
 ('Yeole'),
 ('Yeom'),

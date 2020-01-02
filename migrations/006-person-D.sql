@@ -543,7 +543,7 @@ VALUES
 ('Dafne'),
 ('Dafner'),
 ('Dafney'),
-('Dafni'),
+
 ('Dafnios'),
 ('Dafnis'),
 ('Dafnomilis'),
@@ -10044,7 +10044,7 @@ VALUES
 ('Deokee'),
 ('Deokie'),
 ('Deokje'),
-('Deol'),
+
 ('Deola'),
 ('Deolall'),
 ('Deoleo'),
@@ -16423,7 +16423,7 @@ VALUES
 ('Dipuma'),
 ('Dipun'),
 ('Dipunkumar'),
-('Dipur'),
+
 ('Diquattro'),
 ('Dique'),
 ('Dir'),
@@ -19320,7 +19320,7 @@ VALUES
 ('Doneata'),
 ('Donec'),
 ('Donecker'),
-('Doneddu'),
+
 ('Doneff'),
 ('Donegal'),
 ('Donegan'),
@@ -22905,7 +22905,7 @@ VALUES
 ('Duddles'),
 ('Duddleston'),
 ('Duddridge'),
-('Duddu'),
+
 ('Duddukuri'),
 ('Duddul'),
 ('Duddy'),

@@ -795,7 +795,7 @@ VALUES
 ('Saccavini'),
 ('Saccente'),
 ('Saccha'),
-('Saccheddu'),
+
 ('Sacchet'),
 ('Sacchettini'),
 ('Sacchetto'),
@@ -1163,7 +1163,7 @@ VALUES
 ('Saddok'),
 ('Saddoris'),
 ('Saddrettin'),
-('Saddu'),
+
 ('Saddug'),
 ('Saddul'),
 ('Sadduq'),
@@ -3306,7 +3306,7 @@ VALUES
 ('Sakalaviciene'),
 ('Sakalavicius'),
 ('Sakalei'),
-('Sakaleshpur'),
+
 ('Sakali'),
 ('Sakalian'),
 ('Sakaliene'),
@@ -7465,7 +7465,7 @@ VALUES
 ('Santhanaluxmy'),
 ('Santhanavadivambikai'),
 ('Santhappan'),
-('Santhapur'),
+
 ('Santhapuri'),
 ('Santharam'),
 ('Santharasasegaram'),
@@ -11210,7 +11210,7 @@ VALUES
 ('Sayougta'),
 ('Sayoum'),
 ('Saypuddievitch'),
-('Saypur'),
+
 ('Sayqa'),
 ('Sayraha'),
 ('Sayran'),
@@ -11493,7 +11493,7 @@ VALUES
 ('Scampion'),
 ('Scampoli'),
 ('Scamporlino'),
-('Scampuddu'),
+
 ('Scamus'),
 ('Scanapieco'),
 ('Scanatovits'),
@@ -18860,7 +18860,7 @@ VALUES
 ('Seok'),
 ('Seokbeom'),
 ('Seoktae'),
-('Seol'),
+
 ('Seola'),
 ('Seolall'),
 ('Seolin'),
@@ -20653,7 +20653,7 @@ VALUES
 ('Seyfang'),
 ('Seyfarth'),
 ('Seyfeddin'),
-('Seyfeddinipur'),
+
 ('Seyfedin'),
 ('Seyfer'),
 ('Seyfert'),
@@ -21543,7 +21543,7 @@ VALUES
 ('Shafly'),
 ('Shafna'),
 ('Shafner'),
-('Shafni'),
+
 ('Shafoqur'),
 ('Shafore'),
 ('Shafqat'),
@@ -22014,7 +22014,7 @@ VALUES
 ('Shahpoor'),
 ('Shahporan'),
 ('Shahpour'),
-('Shahpur'),
+
 ('Shahpuri'),
 ('Shahque'),
 ('Shahrad'),
@@ -24150,7 +24150,7 @@ VALUES
 ('Shapthana'),
 ('Shapton'),
 ('Shapulaton'),
-('Shapur'),
+
 ('Shapwick'),
 ('Shaq'),
 ('Shaqeal'),
@@ -30519,7 +30519,7 @@ VALUES
 ('Shtini'),
 ('Shtivelman'),
 ('Shtjefai'),
-('Shtjefni'),
+
 ('Shtrobach'),
 ('Shtruzman'),
 ('Shtrvzman'),
@@ -32160,7 +32160,7 @@ VALUES
 ('Siddamsetty'),
 ('Siddanth'),
 ('Siddappa'),
-('Siddapur'),
+
 ('Siddaque'),
 ('Siddaram'),
 ('Siddard'),
@@ -32274,7 +32274,7 @@ VALUES
 ('Siddque'),
 ('Siddqui'),
 ('Siddratul'),
-('Siddu'),
+
 ('Sidduque'),
 ('Siddy'),
 ('Sideboard'),
@@ -34006,7 +34006,7 @@ VALUES
 ('Simenson'),
 ('Simental'),
 ('Simeo'),
-('Simeol'),
+
 ('Simeoli'),
 ('Simeon'),
 ('Simeona'),
@@ -34539,7 +34539,7 @@ VALUES
 ('Sindaras'),
 ('Sindatche'),
 ('Sindavy'),
-('Sinddu'),
+
 ('Sinde'),
 ('Sindee'),
 ('Sindeed'),
@@ -35260,7 +35260,7 @@ VALUES
 ('Sipula'),
 ('Sipulins'),
 ('Sipulskiene'),
-('Sipur'),
+
 ('Sipuzzaman'),
 ('Sipva'),
 ('Sipze'),
@@ -39745,7 +39745,7 @@ VALUES
 ('Sodd'),
 ('Sodderland'),
 ('Sodders'),
-('Soddu'),
+
 ('Soddy'),
 ('Sode'),
 ('Sodeau'),
@@ -44941,7 +44941,7 @@ VALUES
 ('Spungin'),
 ('Spungina'),
 ('Spunt'),
-('Spur'),
+
 ('Spura'),
 ('Spurbeck'),
 ('Spurck'),
@@ -54314,7 +54314,7 @@ VALUES
 ('Sunny'),
 ('Sunnya'),
 ('Sunnyat'),
-('Sunnydeol'),
+
 ('Sunnykumar'),
 ('Sunnymon'),
 ('Sunnymul'),

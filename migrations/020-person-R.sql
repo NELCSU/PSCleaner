@@ -9488,7 +9488,7 @@ VALUES
 ('Reipiene'),
 ('Reipond'),
 ('Reippa'),
-('Reipur'),
+
 ('Reique'),
 ('Reire'),
 ('Reirs'),
@@ -22219,7 +22219,7 @@ VALUES
 ('Rundassa'),
 ('Rundbaken'),
 ('Runde'),
-('Rundeddu'),
+
 ('Rundegren'),
 ('Rundel'),
 ('Rundell'),
@@ -23476,7 +23476,7 @@ VALUES
 ('Ruzzaman'),
 ('Ruzzano'),
 ('Ruzzante'),
-('Ruzzeddu'),
+
 
 ('Ruzzene'),
 ('Ruzzier'),

@@ -1372,7 +1372,7 @@ VALUES
 ('Nagoy'),
 ('Nagpal'),
 ('Nagpaul'),
-('Nagpur'),
+
 ('Nagra'),
 ('Nagrala'),
 ('Nagrampa'),
@@ -2167,7 +2167,7 @@ VALUES
 ('Nakacwa'),
 ('Nakadai'),
 ('Nakadaira'),
-('Nakaddu'),
+
 ('Nakade'),
 ('Nakae'),
 ('Nakaela'),
@@ -2707,7 +2707,7 @@ VALUES
 ('Namaalwa'),
 ('Namachila'),
 ('Namad'),
-('Namaddu'),
+
 ('Namadev'),
 ('Namaemba'),
 ('Namafallah'),
@@ -2991,7 +2991,7 @@ VALUES
 ('Namtsango'),
 ('Namubiru'),
 ('Namudala'),
-('Namuddu'),
+
 ('Namude'),
 ('Namudu'),
 ('Namugambe'),
@@ -3711,7 +3711,7 @@ VALUES
 ('Naptisha'),
 ('Napua'),
 ('Napue'),
-('Napur'),
+
 ('Naputano'),
 ('Naputi'),
 ('Naqab'),
@@ -4251,7 +4251,7 @@ VALUES
 ('Narrsingh'),
 ('Narsai'),
 ('Narsaim'),
-('Narsapur'),
+
 ('Narsareddy'),
 ('Narseta'),
 ('Narsha'),
@@ -6314,7 +6314,7 @@ VALUES
 ('Nayota'),
 ('Nayoung'),
 ('Naypes'),
-('Naypur'),
+
 ('Nayral'),
 ('Nayram'),
 ('Nayrcha'),
@@ -9095,7 +9095,7 @@ VALUES
 ('Neokleous'),
 ('Neoklis'),
 ('Neokul'),
-('Neol'),
+
 ('Neola'),
 ('Neole'),
 ('Neoli'),
@@ -9180,7 +9180,7 @@ VALUES
 ('Neptial'),
 ('Neptune'),
 ('Nepu'),
-('Nepur'),
+
 ('Nepura'),
 ('Nequssle'),
 ('Ner'),
@@ -11951,7 +11951,7 @@ VALUES
 ('Nied'),
 ('Niedbala'),
 ('Niedbalec'),
-('Nieddu'),
+
 ('Niedecken'),
 ('Niedenfuehr'),
 ('Niedens'),
@@ -12800,7 +12800,7 @@ VALUES
 ('Nikplay'),
 ('Nikpor'),
 ('Nikpour'),
-('Nikpur'),
+
 ('Nikqi'),
 ('Nikray'),
 ('Nikrooz'),
@@ -13523,7 +13523,7 @@ VALUES
 ('Nirantha'),
 ('Nirapjit'),
 ('Nirappil'),
-('Nirappur'),
+
 ('Nirappurackal'),
 ('Niras'),
 ('Nirash'),
@@ -14350,7 +14350,7 @@ VALUES
 ('Nizae'),
 ('Nizakat'),
 ('Nizal'),
-('Nizalapur'),
+
 ('Nizalda'),
 ('Nizam'),
 ('Nizamat'),
@@ -15953,7 +15953,7 @@ VALUES
 ('Noons'),
 ('Nooori'),
 ('Noop'),
-('Noopur'),
+
 ('Noor'),
 ('Noora'),
 ('Nooraaini'),
@@ -16165,7 +16165,7 @@ VALUES
 ('Nopporn'),
 ('Nopprapun'),
 ('Nopsirivong'),
-('Nopur'),
+
 ('Noqal'),
 ('Noquapor'),
 ('Noque'),
@@ -18558,7 +18558,7 @@ VALUES
 ('Nupp'),
 ('Nupponen'),
 ('Nuprai'),
-('Nupur'),
+
 ('Nupura'),
 ('Nuque'),
 ('Nuqui'),

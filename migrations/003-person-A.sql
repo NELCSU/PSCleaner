@@ -5520,7 +5520,7 @@ VALUES
 ('Addreta'),
 ('Addrison'),
 ('Addson'),
-('Addu'),
+
 ('Adduci'),
 ('Adducul'),
 ('Adduha'),
@@ -9743,7 +9743,7 @@ VALUES
 ('Agpak'),
 ('Agpoon'),
 ('Agpunar'),
-('Agpur'),
+
 ('Agquiz'),
 ('Agra'),
 ('Agraa'),
@@ -19514,7 +19514,7 @@ VALUES
 ('Alpuche'),
 ('Alpuerto'),
 ('Alpula'),
-('Alpur'),
+
 ('Alqa'),
 ('Alqabeeh'),
 ('Alqadeeb'),
@@ -22438,7 +22438,7 @@ VALUES
 ('Amissi'),
 ('Amist'),
 ('Amista'),
-('Amistapur'),
+
 ('Amistha'),
 ('Amisticia'),
 ('Amistinea'),
@@ -26558,7 +26558,7 @@ VALUES
 ('Annappa'),
 ('Annappah'),
 ('Annapuma'),
-('Annapur'),
+
 ('Annapureddy'),
 ('Annapurna'),
 ('Annapurni'),
@@ -27159,7 +27159,7 @@ VALUES
 ('Anpilogovs'),
 ('Anpilovs'),
 ('Anpuchchelvi'),
-('Anpur'),
+
 ('Anqa'),
 ('Anqela'),
 ('Anqelina'),
@@ -28831,7 +28831,7 @@ VALUES
 ('Apeakorang'),
 ('Apeander'),
 ('Apeawusu'),
-('Apeddu'),
+
 ('Apedo'),
 ('Apedu'),
 ('Apeh'),
@@ -29359,7 +29359,7 @@ VALUES
 ('Apunnee'),
 ('Apunte'),
 ('Apuntie'),
-('Apur'),
+
 ('Apurbo'),
 ('Apuruot'),
 ('Apurv'),
@@ -30301,7 +30301,7 @@ VALUES
 ('Ardavon'),
 ('Arday'),
 ('Ardayfio'),
-('Ardd'),
+
 ('Arde'),
 ('Ardeen'),
 ('Ardehali'),
@@ -34222,7 +34222,7 @@ VALUES
 ('Asgarally'),
 ('Asgard'),
 ('Asgaron'),
-('Asgarpur'),
+
 ('Asgary'),
 ('Asgdom'),
 ('Asgedom'),
@@ -37455,7 +37455,7 @@ VALUES
 ('Attoumbre'),
 ('Attout'),
 ('Attovan'),
-('Attoyeddu'),
+
 ('Attqa'),
 ('Attque'),
 ('Attracta'),

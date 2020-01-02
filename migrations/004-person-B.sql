@@ -8272,7 +8272,7 @@ VALUES
 ('Batirli'),
 ('Batis'),
 ('Batisa'),
-('Batiseol'),
+
 ('Batish'),
 ('Batista'),
 ('Batiste'),
@@ -10553,7 +10553,7 @@ VALUES
 ('Beepath'),
 ('Beepeng'),
 ('Beepin'),
-('Beepur'),
+
 ('Beeput'),
 ('Beeputh'),
 ('Beera'),
@@ -16831,7 +16831,7 @@ VALUES
 ('Bhageerutty'),
 ('Bhageria'),
 ('Bhagerthi'),
-('Bhageshpur'),
+
 ('Bhageshree'),
 ('Bhaghat'),
 ('Bhagi'),
@@ -17103,7 +17103,7 @@ VALUES
 ('Bharoocha'),
 ('Bharos'),
 ('Bharpoor'),
-('Bharpur'),
+
 ('Bharrat'),
 ('Bharrathsingh'),
 ('Bhart'),
@@ -17959,7 +17959,7 @@ VALUES
 ('Bicat'),
 ('Biccai'),
 ('Biccay'),
-('Biccheddu'),
+
 ('Biccum'),
 ('Biccy'),
 ('Bice'),
@@ -18106,7 +18106,7 @@ VALUES
 ('Biddleman'),
 ('Biddles'),
 ('Biddlestone'),
-('Biddu'),
+
 ('Biddulph'),
 ('Biddut'),
 ('Bidduth'),
@@ -23055,7 +23055,7 @@ VALUES
 ('Boddington'),
 ('Boddison'),
 ('Boddon'),
-('Boddu'),
+
 ('Boddukola'),
 ('Boddula'),
 ('Boddulri'),
@@ -30531,11 +30531,11 @@ VALUES
 ('Breezee'),
 ('Brefeld'),
 ('Breffney'),
-('Breffni'),
+
 ('Breffy'),
 ('Brefini'),
 ('Brefka'),
-('Brefni'),
+
 ('Brefo'),
 ('Brega'),
 ('Bregala'),
@@ -33902,7 +33902,7 @@ VALUES
 ('Buchal'),
 ('Buchalter'),
 ('Buchaman'),
-('Buchan'),
+
 ('Buchana'),
 ('Buchanancook'),
 ('Buchannon'),
@@ -37560,7 +37560,7 @@ VALUES
 ('Byeing'),
 ('Byelyy'),
 ('Byenkya'),
-('Byeol'),
+
 ('Byeong'),
 ('Byer'),
 ('Byera'),

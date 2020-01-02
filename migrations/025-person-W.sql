@@ -790,7 +790,7 @@ VALUES
 ('Wajnglas'),
 ('Wajnsztok'),
 ('Wajood'),
-('Wajpur'),
+
 ('Wajskop'),
 ('Wajsman'),
 ('Wajtis'),
@@ -1558,7 +1558,7 @@ VALUES
 ('Wampol'),
 ('Wampole'),
 ('Wamposzyc'),
-('Wampur'),
+
 ('Wamser'),
 ('Wamsher'),
 ('Wamsler'),
@@ -3372,7 +3372,7 @@ VALUES
 ('Weddington'),
 ('Weddle'),
 ('Weddleton'),
-('Weddu'),
+
 ('Weddup'),
 ('Weddy'),
 ('Wede'),
@@ -4773,7 +4773,7 @@ VALUES
 ('Wenzong'),
 ('Weobong'),
 ('Weoi'),
-('Weol'),
+
 ('Weon'),
 ('Wepener'),
 ('Wepfer'),
@@ -8106,7 +8106,7 @@ VALUES
 ('Winspear'),
 ('Winspeare'),
 ('Winsper'),
-('Winspur'),
+
 ('Winstan'),
 ('Winstanley'),
 ('Winstanlia'),

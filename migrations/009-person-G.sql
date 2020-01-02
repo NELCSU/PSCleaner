@@ -414,7 +414,7 @@ VALUES
 ('Gaddison'),
 ('Gaddist'),
 ('Gaddo'),
-('Gaddu'),
+
 ('Gaddy'),
 ('Gade'),
 ('Gadear'),
@@ -652,7 +652,7 @@ VALUES
 ('Gafkjen'),
 ('Gafner'),
 ('Gafney'),
-('Gafni'),
+
 ('Gafoor'),
 ('Gafooro'),
 ('Gafoow'),
@@ -2201,7 +2201,7 @@ VALUES
 ('Gandall'),
 ('Gandam'),
 ('Gandamihardja'),
-('Gandapur'),
+
 ('Gandar'),
 ('Gandarez'),
 ('Gandaria'),
@@ -2738,7 +2738,7 @@ VALUES
 ('Gapsevicius'),
 ('Gapsys'),
 ('Gapune'),
-('Gapur'),
+
 ('Gapusan'),
 ('Gapuz'),
 ('Gaqos'),
@@ -9456,7 +9456,7 @@ VALUES
 ('Giado'),
 ('Giaffar'),
 ('Giafranco'),
-('Giagheddu'),
+
 ('Giagkoumpidis'),
 ('Giagnacovo'),
 ('Giagni'),
@@ -13664,7 +13664,7 @@ VALUES
 ('Godding'),
 ('Goddone'),
 ('Goddour'),
-('Goddu'),
+
 ('Goddy'),
 ('Gode'),
 ('Godeau'),
@@ -15658,7 +15658,7 @@ VALUES
 ('Goppert'),
 ('Gopti'),
 ('Gopu'),
-('Gopur'),
+
 ('Gopy'),
 ('Gor'),
 ('Gora'),
@@ -20877,7 +20877,7 @@ VALUES
 ('Guddi'),
 ('Guddo'),
 ('Guddoy'),
-('Guddu'),
+
 ('Guddus'),
 ('Guddy'),
 ('Gude'),
@@ -23592,7 +23592,7 @@ VALUES
 ('Gurpritam'),
 ('Gurprite'),
 ('Gurpryat'),
-('Gurpur'),
+
 ('Gurr'),
 ('Gurracino'),
 ('Gurrad'),
@@ -24636,7 +24636,7 @@ VALUES
 ('Gyening'),
 ('Gyenis'),
 ('Gyenyame'),
-('Gyeol'),
+
 ('Gyeong'),
 ('Gyeore'),
 ('Gyepi'),

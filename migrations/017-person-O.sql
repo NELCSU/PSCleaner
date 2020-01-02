@@ -2207,7 +2207,7 @@ VALUES
 ('Offa'),
 ('Offard'),
 ('Offe'),
-('Offeddu'),
+
 ('Offee'),
 ('Offeh'),
 ('Offei'),
@@ -13134,7 +13134,7 @@ VALUES
 ('Ossenbrink'),
 ('Ossenfort'),
 ('Ossenkopp'),
-('Osseol'),
+
 ('Osser'),
 ('Osseria'),
 ('Osserman'),

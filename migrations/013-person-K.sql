@@ -632,7 +632,7 @@ VALUES
 ('Kaddour'),
 ('Kaddoura'),
 ('Kaddouri'),
-('Kaddu'),
+
 ('Kaddus'),
 ('Kaddy'),
 ('Kade'),
@@ -2122,7 +2122,7 @@ VALUES
 ('Kakoza'),
 ('Kakpa'),
 ('Kakpo'),
-('Kakpur'),
+
 ('Kakra'),
 ('Kakrodi'),
 ('Kakroo'),
@@ -2950,7 +2950,7 @@ VALUES
 ('Kalliades'),
 ('Kalliala'),
 ('Kallianiotis'),
-('Kallianpur'),
+
 ('Kalliantas'),
 ('Kallias'),
 ('Kallichanda'),
@@ -3428,7 +3428,7 @@ VALUES
 ('Kalyanjee'),
 ('Kalyankrishna'),
 ('Kalyano'),
-('Kalyanpur'),
+
 ('Kalyanwala'),
 ('Kalychurn'),
 ('Kalyeena'),
@@ -5834,7 +5834,7 @@ VALUES
 ('Kapumha'),
 ('Kapupu'),
 ('Kapupula'),
-('Kapur'),
+
 ('Kapura'),
 ('Kapuran'),
 ('Kapurchand'),
@@ -7253,7 +7253,7 @@ VALUES
 ('Karpuhhina'),
 ('Karpuk'),
 ('Karpukhina'),
-('Karpur'),
+
 ('Karpurapo'),
 ('Karpus'),
 ('Karpushin'),
@@ -7956,7 +7956,7 @@ VALUES
 ('Kashoush'),
 ('Kashout'),
 ('Kashpal'),
-('Kashpur'),
+
 ('Kashru'),
 ('Kashshaf'),
 ('Kashta'),
@@ -13021,7 +13021,7 @@ VALUES
 ('Keohavong'),
 ('Keoinmorokot'),
 ('Keok'),
-('Keol'),
+
 ('Keola'),
 ('Keolan'),
 ('Keolanui'),
@@ -17414,7 +17414,7 @@ VALUES
 ('Kiddle'),
 ('Kiddoo'),
 ('Kidds'),
-('Kiddu'),
+
 ('Kiddy'),
 ('Kide'),
 ('Kideam'),
@@ -20303,7 +20303,7 @@ VALUES
 ('Kistamah'),
 ('Kistamurthy'),
 ('Kistan'),
-('Kistapur'),
+
 ('Kiste'),
 ('Kistell'),
 ('Kistella'),
@@ -24101,7 +24101,7 @@ VALUES
 ('Kolgjini'),
 ('Kolgo'),
 ('Kolgvini'),
-('Kolhapur'),
+
 ('Kolhapure'),
 ('Kolhe'),
 ('Koli'),

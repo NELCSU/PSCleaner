@@ -576,7 +576,7 @@ VALUES
 ('Jadcenia'),
 ('Jaddi'),
 ('Jaddoo'),
-('Jaddu'),
+
 ('Jade'),
 ('Jadean'),
 ('Jadeane'),
@@ -1753,7 +1753,7 @@ VALUES
 ('Jainade'),
 ('Jainal'),
 ('Jainamma'),
-('Jainapur'),
+
 ('Jainay'),
 ('Jaindl'),
 ('Jaine'),
@@ -1922,7 +1922,7 @@ VALUES
 ('Jajak'),
 ('Jajala'),
 ('Jajam'),
-('Jajapur'),
+
 ('Jajbhay'),
 ('Jajcay'),
 ('Jajee'),
@@ -6368,7 +6368,7 @@ VALUES
 ('Jeffirs'),
 ('Jefflee'),
 ('Jeffna'),
-('Jeffni'),
+
 ('Jeffnie'),
 ('Jefford'),
 ('Jeffords'),
@@ -7332,7 +7332,7 @@ VALUES
 ('Jeoffrey'),
 ('Jeoffroy'),
 ('Jeoiugbu'),
-('Jeol'),
+
 ('Jeoleit'),
 ('Jeome'),
 ('Jeon'),
@@ -11767,7 +11767,7 @@ VALUES
 ('Joranas'),
 ('Jorand'),
 ('Jorany'),
-('Jorapur'),
+
 ('Jorate'),
 ('Jorawar'),
 ('Joray'),

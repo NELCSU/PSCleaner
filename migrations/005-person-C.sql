@@ -169,7 +169,7 @@ VALUES
 ('Cabiad'),
 ('Cabic'),
 ('Cabida'),
-('Cabiddu'),
+
 ('Cabides'),
 ('Cabido'),
 ('Cabie'),
@@ -422,7 +422,7 @@ VALUES
 ('Cade'),
 ('Cadeana'),
 ('Cadeau'),
-('Cadeddu'),
+
 ('Cadee'),
 ('Cadeem'),
 ('Cadeen'),
@@ -3871,7 +3871,7 @@ VALUES
 ('Careca'),
 ('Careccia'),
 ('Caredda'),
-('Careddu'),
+
 ('Careduu'),
 ('Careeb'),
 ('Careem'),
@@ -12365,7 +12365,7 @@ VALUES
 ('Chenzira'),
 ('Cheo'),
 ('Cheok'),
-('Cheol'),
+
 ('Cheoliver'),
 ('Cheolsoo'),
 ('Cheon'),
@@ -18551,7 +18551,7 @@ VALUES
 ('Circus'),
 ('Cirdei'),
 ('Cire'),
-('Cireddu'),
+
 ('Cirefice'),
 ('Cirel'),
 ('Cirella'),
@@ -22834,7 +22834,7 @@ VALUES
 ('Contaste'),
 ('Conte'),
 ('Contea'),
-('Conteddu'),
+
 ('Contee'),
 ('Contegreco'),
 ('Conteh'),
@@ -23446,7 +23446,7 @@ VALUES
 ('Cordeau'),
 ('Cordebar'),
 ('Cordedda'),
-('Cordeddu'),
+
 ('Cordeira'),
 ('Cordeird'),
 ('Cordeiro'),
@@ -24004,7 +24004,7 @@ VALUES
 ('Correau'),
 ('Correca'),
 ('Correcher'),
-('Correddu'),
+
 ('Corredeira'),
 ('Corredera'),
 ('Corredor'),
@@ -26015,7 +26015,6 @@ VALUES
 ('Crescencie'),
 ('Crescencio'),
 ('Crescens'),
-('Crescent'),
 ('Crescente'),
 ('Crescentia'),
 ('Crescentini'),
@@ -26576,7 +26575,7 @@ VALUES
 ('Croat'),
 ('Croatt'),
 ('Croawell'),
-('Crobeddu'),
+
 ('Crobet'),
 ('Crobu'),
 ('Crocco'),
@@ -27451,7 +27450,7 @@ VALUES
 ('Cubbins'),
 ('Cubbison'),
 ('Cubbon'),
-('Cubeddu'),
+
 ('Cubeiro'),
 ('Cubel'),
 ('Cubellis'),
@@ -27506,7 +27505,7 @@ VALUES
 ('Cuccodrillo'),
 ('Cuccovillo'),
 ('Cuccu'),
-('Cuccureddu'),
+
 ('Cuccuru'),
 ('Cuccurullo'),
 ('Cuce'),
@@ -27782,7 +27781,7 @@ VALUES
 ('Culea'),
 ('Culeac'),
 ('Culeca'),
-('Culeddu'),
+
 ('Culen'),
 ('Culey'),
 ('Culfa'),
@@ -29140,7 +29139,7 @@ VALUES
 ('Czopek'),
 ('Czopowyj'),
 ('Czopp'),
-('Czopur'),
+
 ('Czora'),
 ('Czornyj'),
 ('Czosek'),

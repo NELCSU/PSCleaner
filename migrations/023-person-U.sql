@@ -176,7 +176,7 @@ VALUES
 ('Uccellatori'),
 ('Uccellini'),
 ('Uccello'),
-('Uccheddu'),
+
 ('Uccio'),
 ('Ucef'),
 ('Uceina'),
@@ -2106,7 +2106,7 @@ VALUES
 ('Une'),
 ('Uneanya'),
 ('Unedar'),
-('Uneddu'),
+
 ('Uneeb'),
 ('Uneesh'),
 ('Uneet'),

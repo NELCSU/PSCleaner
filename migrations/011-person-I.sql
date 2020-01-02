@@ -2518,7 +2518,7 @@ VALUES
 ('Ikeobodozie'),
 ('Ikeogu'),
 ('Ikeohu'),
-('Ikeol'),
+
 ('Ikeola'),
 ('Ikeoluwapo'),
 ('Ikeora'),
@@ -5310,7 +5310,7 @@ VALUES
 ('Inyeana'),
 ('Inyemba'),
 ('Inyene'),
-('Inyeol'),
+
 ('Inyhat'),
 ('Inyima'),
 ('Inyiong'),
@@ -5541,7 +5541,7 @@ VALUES
 ('Iorlano'),
 ('Iornem'),
 ('Iorns'),
-('Iorwerdd'),
+
 ('Iorwerth'),
 ('Iosaf'),
 ('Iosakul'),

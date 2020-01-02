@@ -1180,7 +1180,7 @@ VALUES
 ('Hafling'),
 ('Hafna'),
 ('Hafner'),
-('Hafni'),
+
 ('Hafoka'),
 ('Hafren'),
 ('Hafroze'),
@@ -5359,7 +5359,7 @@ VALUES
 ('Harlan'),
 ('Harland'),
 ('Harlander'),
-('Harlapur'),
+
 ('Harlas'),
 ('Harle'),
 ('Harlea'),
@@ -5650,7 +5650,7 @@ VALUES
 ('Harpstrite'),
 ('Harpum'),
 ('Harpunur'),
-('Harpur'),
+
 ('Harput'),
 ('Harpwood'),
 ('Harr'),
@@ -13630,7 +13630,7 @@ VALUES
 ('Hindson'),
 ('Hindt'),
 ('Hindu'),
-('Hindupur'),
+
 ('Hindwood'),
 ('Hindy'),
 ('Hindya'),
@@ -16786,7 +16786,7 @@ VALUES
 ('Hoomwantee'),
 ('Hoon'),
 ('Hoona'),
-('Hooncheol'),
+
 ('Hoong'),
 ('Hoopai'),
 ('Hoopaugh'),
@@ -17708,7 +17708,7 @@ VALUES
 ('Hotse'),
 ('Hotsinpiller'),
 ('Hotson'),
-('Hotspur'),
+
 ('Hotston'),
 ('Hotstone'),
 ('Hott'),
@@ -18604,7 +18604,7 @@ VALUES
 ('Hsouna'),
 ('Hsrald'),
 ('Hssan'),
-('Hssanpur'),
+
 ('Hssen'),
 ('Hstu'),
 ('Hsu'),
@@ -19454,7 +19454,7 @@ VALUES
 ('Hulhaz'),
 ('Huli'),
 ('Hulia'),
-('Huliapur'),
+
 ('Huliat'),
 ('Hulick'),
 ('Hulikal'),
@@ -20893,7 +20893,7 @@ VALUES
 ('Hyeng'),
 ('Hyeo'),
 ('Hyeon'),
-('Hyeoncheol'),
+
 ('Hyeong'),
 ('Hyeonjeong'),
 ('Hyeonkyeong'),

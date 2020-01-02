@@ -6022,7 +6022,7 @@ VALUES
 ('Ferentinos'),
 ('Ferentz'),
 ('Ferenz'),
-('Fereol'),
+
 ('Fereos'),
 ('Ferer'),
 ('Feres'),
@@ -6460,7 +6460,7 @@ VALUES
 ('Ferrenc'),
 ('Ferrence'),
 ('Ferrentino'),
-('Ferreol'),
+
 ('Ferrer'),
 ('Ferrera'),
 ('Ferreras'),
@@ -14151,7 +14151,7 @@ VALUES
 ('Frontalini'),
 ('Frontana'),
 ('Fronte'),
-('Fronteddu'),
+
 ('Frontera'),
 ('Fronterhouse'),
 ('Fronterre'),
