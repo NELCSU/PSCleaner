@@ -1414,7 +1414,7 @@ VALUES
 ('Yarney'),
 ('Yarnisa'),
 ('Yarnit'),
-('yarno'),
+('Yarno'),
 ('Yarnold'),
 ('Yarns'),
 ('Yarnton'),
@@ -2785,7 +2785,7 @@ VALUES
 ('Yenkue'),
 ('Yenla'),
 ('Yenling'),
-('Yenn'),
+
 ('Yennadia'),
 ('Yennaram'),
 ('Yennard'),
@@ -2854,7 +2854,6 @@ VALUES
 ('Yeojoong'),
 ('Yeok'),
 ('Yeoku'),
-
 ('Yeoland'),
 ('Yeole'),
 ('Yeom'),
@@ -4477,7 +4476,7 @@ VALUES
 ('Yolene'),
 ('Yolenis'),
 ('Yolenmy'),
-('Yolenn'),
+
 ('Yolga'),
 ('Yoli'),
 ('Yolibeth'),
@@ -4657,7 +4656,7 @@ VALUES
 ('Yonkers'),
 ('Yonkin'),
 ('Yonkman'),
-('Yonn'),
+
 ('Yonnas'),
 ('Yonnette'),
 ('Yonnica'),
@@ -5022,7 +5021,7 @@ VALUES
 ('Youell'),
 ('Youells'),
 ('Youen'),
-('Youenn'),
+
 ('Youens'),
 ('Youern'),
 ('Youetto'),
@@ -6045,7 +6044,7 @@ VALUES
 ('Yunmeng'),
 ('Yunmi'),
 ('Yunming'),
-('Yunn'),
+
 ('Yunning'),
 ('Yunnis'),
 ('Yunnissi'),
@@ -6158,7 +6157,7 @@ VALUES
 ('Yurdakok'),
 ('Yurdakul'),
 ('Yurdal'),
-('yurdanos'),
+('Yurdanos'),
 ('Yurdanur'),
 ('Yurdatap'),
 ('Yurday'),
@@ -6553,7 +6552,7 @@ VALUES
 ('Yvon'),
 ('Yvone'),
 ('Yvonhel'),
-('Yvonn'),
+
 ('Yvonnea'),
 ('Yvonnetta'),
 ('Yvonnhe'),

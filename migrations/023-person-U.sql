@@ -176,7 +176,6 @@ VALUES
 ('Uccellatori'),
 ('Uccellini'),
 ('Uccello'),
-
 ('Uccio'),
 ('Ucef'),
 ('Uceina'),
@@ -218,7 +217,7 @@ VALUES
 ('Uchena'),
 ('Uchendi'),
 ('Uchendu'),
-('Uchenn'),
+
 ('Uchennwa'),
 ('Uchenwa'),
 ('Ucheoma'),
@@ -966,7 +965,7 @@ VALUES
 ('Uinka'),
 ('Uino'),
 ('Uinoda'),
-('Uinsionn'),
+
 ('Uinskaite'),
 ('Uinzenaz'),
 ('Uira'),
@@ -2106,7 +2105,6 @@ VALUES
 ('Une'),
 ('Uneanya'),
 ('Unedar'),
-
 ('Uneeb'),
 ('Uneesh'),
 ('Uneet'),
@@ -2260,7 +2258,7 @@ VALUES
 ('Unmmi'),
 ('Unmole'),
 ('Unmukta'),
-('Unn'),
+
 ('Unnadkat'),
 ('Unnar'),
 ('Unnarsdottir'),

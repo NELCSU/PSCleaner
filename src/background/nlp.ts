@@ -2,6 +2,7 @@ import DB, { DataObject } from "sqlite3-helper";
 import posTagger from "wink-pos-tagger";
 import { Entity, MatchedEntity, SearchTermResult, WordPosition } from "../typings/PSCleaner";
 import { Entities } from "./entities";
+import { deepCopy } from "./util/deepCopy";
 
 /**
  * ### Natural language processing services
@@ -222,7 +223,7 @@ export class NLP {
         let m: RegExpExecArray | null;
         while ((m = re.exec(data)) !== null) {
           r.push({
-            entity: ent,
+            entity: deepCopy(ent),
             id: 0,
             value: m[0],
             start: m.index,
@@ -278,7 +279,7 @@ export class NLP {
           }
           if (!added_check) {
             r.push({
-              entity: entity,
+              entity: deepCopy(entity),
               id: term.id,
               value: value,
               start: term.start,
@@ -350,6 +351,10 @@ export class NLP {
       }
       if (result[0].entity.discard === 1) {
         result.splice(0, 1);
+      }
+    } else if (result.length === 1) {
+      if (result[0].entity.discard === 1) {
+        result.pop();
       }
     }
 

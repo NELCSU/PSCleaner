@@ -1167,7 +1167,7 @@ VALUES
 ('Raetz'),
 ('Raetzel'),
 ('Raeven'),
-('Raevonn'),
+
 ('Raevschi'),
 ('Raewadee'),
 ('Raewyne'),
@@ -4226,7 +4226,7 @@ VALUES
 ('Rammy'),
 ('Rammya'),
 ('Rammyan'),
-('Rammyglenn'),
+
 ('Ramna'),
 ('Ramnarace'),
 ('Ramnarain'),
@@ -6703,7 +6703,6 @@ VALUES
 ('Rauwers'),
 ('Rauza'),
 ('Rauzat'),
-
 ('Rauzman'),
 ('Rauzy'),
 ('Rav'),
@@ -7508,7 +7507,6 @@ VALUES
 ('Razeensha'),
 ('Razegh'),
 ('Razeghi'),
-
 ('Razek'),
 ('Razeka'),
 ('Razel'),
@@ -7778,7 +7776,7 @@ VALUES
 ('Reamey'),
 ('Reami'),
 ('Reammel'),
-('Reamonn'),
+
 ('Reams'),
 ('Reamsnyder'),
 ('Reamy'),
@@ -8201,7 +8199,6 @@ VALUES
 ('Redclift'),
 ('Redcloud'),
 ('Redcross'),
-
 ('Redda'),
 ('Reddacliff'),
 ('Reddah'),
@@ -8278,7 +8275,7 @@ VALUES
 ('Reden'),
 ('Redenbaugh'),
 ('Redenius'),
-('Redenn'),
+
 ('Redenta'),
 ('Redente'),
 ('Redentor'),
@@ -9488,7 +9485,6 @@ VALUES
 ('Reipiene'),
 ('Reipond'),
 ('Reippa'),
-
 ('Reique'),
 ('Reire'),
 ('Reirs'),
@@ -10458,7 +10454,7 @@ VALUES
 ('Renman'),
 ('Renmares'),
 ('Renming'),
-('Renn'),
+
 ('Rennae'),
 ('Rennaker'),
 ('Rennalls'),
@@ -11664,7 +11660,7 @@ VALUES
 ('Reyre'),
 ('Reys'),
 ('Reysan'),
-('Reysenn'),
+
 ('Reysha'),
 ('Reyshme'),
 ('Reyson'),
@@ -11921,7 +11917,6 @@ VALUES
 ('Rhebe'),
 ('Rheborg'),
 ('Rhed'),
-
 ('Rheden'),
 ('Rhee'),
 ('Rheea'),
@@ -11991,9 +11986,7 @@ VALUES
 ('Rhiana'),
 ('Rhianda'),
 ('Rhiane'),
-
 ('Rhiannat'),
-
 ('Rhianno'),
 ('Rhiannon'),
 ('Rhianon'),
@@ -12246,7 +12239,6 @@ VALUES
 ('Rhymes'),
 ('Rhynard'),
 ('Rhyne'),
-
 ('Rhyneir'),
 ('Rhyner'),
 ('Rhynes'),
@@ -15071,7 +15063,7 @@ VALUES
 ('Riyike'),
 ('Riyon'),
 ('Riyong'),
-('Riyonn'),
+
 ('Riyukta'),
 ('Riyyan'),
 ('Riz'),
@@ -15507,7 +15499,7 @@ VALUES
 ('Robinsa'),
 ('Robinso'),
 ('Robinson'),
-('Robinsonn'),
+
 ('Robinsons'),
 ('Robinus'),
 ('Robinzine'),
@@ -16418,7 +16410,7 @@ VALUES
 ('Rofiquel'),
 ('Rofiquen'),
 ('Rofiquin'),
-('rofiqul'),
+('Rofiqul'),
 ('Rofiqun'),
 ('Rofiquol'),
 ('Rofiqur'),
@@ -17874,7 +17866,7 @@ VALUES
 ('Ronley'),
 ('Ronli'),
 ('Ronmy'),
-('Ronn'),
+
 ('Ronnaline'),
 ('Ronnau'),
 ('Ronnber'),
@@ -19894,7 +19886,6 @@ VALUES
 ('Rouzaqui'),
 ('Rouzaud'),
 ('Rouzban'),
-
 ('Rouzel'),
 ('Rouzen'),
 ('Rouzer'),
@@ -20375,7 +20366,7 @@ VALUES
 ('Rozenfelde'),
 ('Rozenfield'),
 ('Rozenlauka'),
-('Rozenn'),
+
 ('Rozeno'),
 ('Rozensteina'),
 ('Rozenstine'),
@@ -20692,7 +20683,7 @@ VALUES
 ('Rubenhold'),
 ('Rubenina'),
 ('Rubenis'),
-('Rubenn'),
+
 ('Rubens'),
 ('Rubensson'),
 ('Rubenstein'),
@@ -21245,7 +21236,7 @@ VALUES
 ('Ruenger'),
 ('Ruengrat'),
 ('Ruenkamol'),
-('Ruenn'),
+
 ('Ruenpakian'),
 ('Ruenpakpian'),
 ('Ruensumran'),
@@ -22219,7 +22210,6 @@ VALUES
 ('Rundassa'),
 ('Rundbaken'),
 ('Runde'),
-
 ('Rundegren'),
 ('Rundel'),
 ('Rundell'),
@@ -22336,7 +22326,7 @@ VALUES
 ('Runlin'),
 ('Runmeng'),
 ('Runmin'),
-('Runn'),
+
 ('Runnacles'),
 ('Runnalls'),
 ('Runnals'),
@@ -23476,8 +23466,6 @@ VALUES
 ('Ruzzaman'),
 ('Ruzzano'),
 ('Ruzzante'),
-
-
 ('Ruzzene'),
 ('Ruzzier'),
 ('Rvenkatatamana'),
@@ -23664,7 +23652,7 @@ VALUES
 ('Ryen'),
 ('Ryeng'),
 ('Ryenine'),
-('Ryenn'),
+
 ('Ryeong'),
 ('Ryer'),
 ('Ryerse'),

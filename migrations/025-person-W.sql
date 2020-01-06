@@ -790,7 +790,6 @@ VALUES
 ('Wajnglas'),
 ('Wajnsztok'),
 ('Wajood'),
-
 ('Wajskop'),
 ('Wajsman'),
 ('Wajtis'),
@@ -1082,7 +1081,7 @@ VALUES
 ('Walenciej'),
 ('Walenciuk'),
 ('Walenkamp'),
-('Walenn'),
+
 ('Walent'),
 ('Walenta'),
 ('Walentina'),
@@ -1558,7 +1557,6 @@ VALUES
 ('Wampol'),
 ('Wampole'),
 ('Wamposzyc'),
-
 ('Wamser'),
 ('Wamsher'),
 ('Wamsler'),
@@ -2235,7 +2233,7 @@ VALUES
 ('Warmbold'),
 ('Warmbrod'),
 ('Warmbrodt'),
-('Warmbrunn'),
+
 ('Warme'),
 ('Warmerdam'),
 ('Warminger'),
@@ -2537,7 +2535,7 @@ VALUES
 ('Washburn'),
 ('Washburne'),
 ('Washco'),
-('washdev'),
+('Washdev'),
 ('Washe'),
 ('Washeja'),
 ('Washel'),
@@ -3359,7 +3357,6 @@ VALUES
 ('Wedande'),
 ('Wedase'),
 ('Wedatilake'),
-
 ('Weddderburn'),
 ('Weddel'),
 ('Weddeling'),
@@ -3372,7 +3369,6 @@ VALUES
 ('Weddington'),
 ('Weddle'),
 ('Weddleton'),
-
 ('Weddup'),
 ('Weddy'),
 ('Wede'),
@@ -4658,7 +4654,7 @@ VALUES
 ('Wenmoth'),
 ('Wenmouth'),
 ('Wenmu'),
-('Wenn'),
+
 ('Wenndt'),
 ('Wenneker'),
 ('Wennekes'),
@@ -4773,7 +4769,6 @@ VALUES
 ('Wenzong'),
 ('Weobong'),
 ('Weoi'),
-
 ('Weon'),
 ('Wepener'),
 ('Wepfer'),
@@ -5730,7 +5725,7 @@ VALUES
 ('Whippe'),
 ('Whippey'),
 ('Whippie'),
-('whipple'),
+('Whipple'),
 ('Whippo'),
 ('Whipps'),
 ('Whippy'),
@@ -7100,7 +7095,7 @@ VALUES
 ('Wilhelnas'),
 ('Wilhem'),
 ('Wilhemena'),
-('Wilhemenn'),
+
 ('Wilhemina'),
 ('Wilhemine'),
 ('Wilhenina'),
@@ -7148,7 +7143,7 @@ VALUES
 ('Wilkie'),
 ('Wilkin'),
 ('Wilking'),
-('wilkingson'),
+('Wilkingson'),
 ('Wilkins'),
 ('Wilkinson'),
 ('Wilkison'),
@@ -7624,7 +7619,7 @@ VALUES
 ('Wimalarathne'),
 ('Wimalaratne'),
 ('Wimalasekera'),
-('wimalasena'),
+('Wimalasena'),
 ('Wimalathas'),
 ('Wimalavangsa'),
 ('Wimalge'),
@@ -8106,7 +8101,6 @@ VALUES
 ('Winspear'),
 ('Winspeare'),
 ('Winsper'),
-
 ('Winstan'),
 ('Winstanley'),
 ('Winstanlia'),
@@ -9232,7 +9226,7 @@ VALUES
 ('Wolferman'),
 ('Wolfers'),
 ('Wolfersberger'),
-('wolfersgruen'),
+('Wolfersgruen'),
 ('Wolferstan'),
 ('Wolfert'),
 ('Wolfertz'),
@@ -9553,7 +9547,7 @@ VALUES
 ('Wonkyi'),
 ('Wonlathee'),
 ('Wonmook'),
-('Wonn'),
+
 ('Wonnacott'),
 ('Wonneberger'),
 ('Wonnell'),
@@ -10299,7 +10293,7 @@ VALUES
 ('Wrencher'),
 ('Wrenford'),
 ('Wrenley'),
-('Wrenn'),
+
 ('Wrentmore'),
 ('Wrenton'),
 ('Wrenzy'),
@@ -10554,7 +10548,7 @@ VALUES
 ('Wungu'),
 ('Wunkai'),
 ('Wunmi'),
-('Wunn'),
+
 ('Wunnaporn'),
 ('Wunner'),
 ('Wunpini'),

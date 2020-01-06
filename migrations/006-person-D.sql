@@ -210,7 +210,7 @@ VALUES
 ('Dabusinskaite'),
 ('Dabusis'),
 ('Dabuta'),
-('dabycharan'),
+('Dabycharan'),
 ('Dabycharun'),
 ('Dabydai'),
 ('Dabydeen'),
@@ -543,7 +543,6 @@ VALUES
 ('Dafne'),
 ('Dafner'),
 ('Dafney'),
-
 ('Dafnios'),
 ('Dafnis'),
 ('Dafnomilis'),
@@ -1332,7 +1331,7 @@ VALUES
 ('Dalce'),
 ('Dalcee'),
 ('Dalcher'),
-('dalchow'),
+('Dalchow'),
 ('Dalci'),
 ('Dalcin'),
 ('Dalcina'),
@@ -3303,7 +3302,7 @@ VALUES
 ('Darash'),
 ('Darasimi'),
 ('Daraskaite'),
-('daraskeuiciene'),
+('Daraskeuiciene'),
 ('Daraskevicience'),
 ('Daraskeviciene'),
 ('Daraskevicius'),
@@ -4566,7 +4565,7 @@ VALUES
 ('Dauniene'),
 ('Daunira'),
 ('Daunis'),
-('Daunn'),
+
 ('Daunoraite'),
 ('Daunoras'),
 ('Daunoravicius'),
@@ -4724,7 +4723,6 @@ VALUES
 ('Daveau'),
 ('Davecia'),
 ('Daved'),
-
 ('Davee'),
 ('Daveed'),
 ('Daveen'),
@@ -4835,7 +4833,7 @@ VALUES
 ('Daviella'),
 ('Davies'),
 ('Daviesba'),
-('Daviesonn'),
+
 ('Daviest'),
 ('Davietta'),
 ('Daviez'),
@@ -5066,7 +5064,7 @@ VALUES
 ('Dawney'),
 ('Dawnie'),
 ('Dawnilee'),
-('Dawnn'),
+
 ('Dawnson'),
 ('Dawntay'),
 ('Dawod'),
@@ -5557,7 +5555,7 @@ VALUES
 ('Deaville'),
 ('Deavin'),
 ('Deavon'),
-('Deavonn'),
+
 ('Deavours'),
 ('Deavy'),
 ('Deay'),
@@ -7310,7 +7308,7 @@ VALUES
 ('Dejeante'),
 ('Dejee'),
 ('Dejelle'),
-('Dejelvonn'),
+
 ('Dejen'),
 ('Dejenai'),
 ('Dejenay'),
@@ -7918,7 +7916,7 @@ VALUES
 ('Delene'),
 ('Delenian'),
 ('Delenick'),
-('Delenn'),
+
 ('Deleo'),
 ('Deleola'),
 ('Deleon'),
@@ -8736,7 +8734,7 @@ VALUES
 ('Delvoka'),
 ('Delvon'),
 ('Delvueno'),
-('delwar'),
+('Delwar'),
 ('Delwarul'),
 ('Delwer'),
 ('Delwiche'),
@@ -9754,7 +9752,7 @@ VALUES
 ('Denmar'),
 ('Denmead'),
 ('Denmon'),
-('Denn'),
+
 ('Dennai'),
 ('Dennaly'),
 ('Dennant'),
@@ -9820,7 +9818,7 @@ VALUES
 ('Dennisia'),
 ('Dennisilksen'),
 ('Dennison'),
-('Dennisonn'),
+
 ('Dennisrory'),
 ('Denniss'),
 ('Dennisse'),
@@ -10044,7 +10042,6 @@ VALUES
 ('Deokee'),
 ('Deokie'),
 ('Deokje'),
-
 ('Deola'),
 ('Deolall'),
 ('Deoleo'),
@@ -10070,7 +10067,7 @@ VALUES
 ('Deonis'),
 ('Deonitsius'),
 ('Deonjay'),
-('Deonn'),
+
 ('Deonnie'),
 ('Deontae'),
 ('Deontay'),
@@ -12227,7 +12224,7 @@ VALUES
 ('Devonique'),
 ('Devonish'),
 ('Devonjay'),
-('Devonn'),
+
 ('Devono'),
 ('Devonp'),
 ('Devonport'),
@@ -13354,7 +13351,7 @@ VALUES
 ('Dhital'),
 ('Dhitheeksha'),
 ('Dhivashini'),
-('Dhivonn'),
+
 ('Dhivya'),
 ('Dhivyan'),
 ('Dhivyen'),
@@ -14394,7 +14391,7 @@ VALUES
 ('Dieninis'),
 ('Dieninyte'),
 ('Dienisiuk'),
-('Dienn'),
+
 ('Dienner'),
 ('Diennet'),
 ('Dienno'),
@@ -16182,7 +16179,7 @@ VALUES
 ('Dionissia'),
 ('Dionissios'),
 ('Dionissis'),
-('Dionn'),
+
 ('Dionnte'),
 ('Dionora'),
 ('Dionori'),
@@ -16423,7 +16420,6 @@ VALUES
 ('Dipuma'),
 ('Dipun'),
 ('Dipunkumar'),
-
 ('Diquattro'),
 ('Dique'),
 ('Dir'),
@@ -16708,7 +16704,7 @@ VALUES
 ('Dishon'),
 ('Dishong'),
 ('Dishongh'),
-('Dishonn'),
+
 ('Dishroon'),
 ('Dishuka'),
 ('Dishvi'),
@@ -17411,7 +17407,7 @@ VALUES
 ('Djbirl'),
 ('Djdje'),
 ('Dje'),
-('Djeavonn'),
+
 ('Djebabera'),
 ('Djebali'),
 ('Djebar'),
@@ -18625,7 +18621,7 @@ VALUES
 ('Dolgion'),
 ('Dolgner'),
 ('Dolgorsuren'),
-('Dolgorsurenn'),
+
 ('Dolgortseren'),
 ('Dolgorukovs'),
 ('Dolgos'),
@@ -19320,7 +19316,6 @@ VALUES
 ('Doneata'),
 ('Donec'),
 ('Donecker'),
-
 ('Doneff'),
 ('Donegal'),
 ('Donegan'),
@@ -19529,7 +19524,7 @@ VALUES
 ('Donmnica'),
 ('Donmore'),
 ('Donmoyer'),
-('Donn'),
+
 ('Donnabelle'),
 ('Donnacha'),
 ('Donnachad'),
@@ -21517,7 +21512,7 @@ VALUES
 ('Dratch'),
 ('Dratchenin'),
 ('Drath'),
-('dratnal'),
+('Dratnal'),
 ('Dratwa'),
 ('Draucker'),
 ('Draude'),
@@ -22905,7 +22900,6 @@ VALUES
 ('Duddles'),
 ('Duddleston'),
 ('Duddridge'),
-
 ('Duddukuri'),
 ('Duddul'),
 ('Duddy'),
@@ -23046,7 +23040,7 @@ VALUES
 ('Duenhas'),
 ('Duenke'),
 ('Duenkel'),
-('Duenn'),
+
 ('Duenner'),
 ('Duennbier'),
 ('Dueno'),
@@ -24078,7 +24072,7 @@ VALUES
 ('Dunmoye'),
 ('Dunmyer'),
 ('Dunmyre'),
-('Dunn'),
+
 ('Dunnachie'),
 ('Dunnagan'),
 ('Dunnage'),
@@ -24795,7 +24789,7 @@ VALUES
 ('Dusannier'),
 ('Dusarlapudi'),
 ('Dusart'),
-('dusastre'),
+('Dusastre'),
 ('Dusauzay'),
 ('Dusca'),
 ('Duschen'),
@@ -25169,7 +25163,7 @@ VALUES
 ('Dviti'),
 ('Dvoiro'),
 ('Dvonc'),
-('Dvonn'),
+
 ('Dvor'),
 ('Dvora'),
 ('Dvorak'),
