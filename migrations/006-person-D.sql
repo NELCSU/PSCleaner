@@ -23789,7 +23789,6 @@ VALUES
 ('Dummigan'),
 ('Dummitt'),
 ('Dummond'),
-('Dummy'),
 ('Dumnoi'),
 ('Dumnorix'),
 ('Dumny'),

@@ -10952,6 +10952,7 @@ VALUES
 ('Chasapis'),
 ('Chasar'),
 ('Chasca'),
+('Chase'),
 ('Chasel'),
 ('Chaseling'),
 ('Chasen'),

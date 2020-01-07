@@ -54843,7 +54843,6 @@ VALUES
 ('Suretan'),
 ('Surette'),
 ('Suretun'),
-('Surety'),
 ('Surey'),
 ('Sureya'),
 ('Surezaban'),
