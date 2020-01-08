@@ -105,12 +105,12 @@ VALUES
 (
   'NameRegExC', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+c(?:c[aiz]|ek|ho|i[fhijkqruvwy]|k[aio]|nn|ou|sz|y[kn]|z[io])\b'
+  '\b\w+c(?:c[aiz]|ek|ho|i[fhijkqruvwy]|k[aio]|nn|ou|sz|y[kn]|z[a-z])\b'
 ),
 (
   'NameRegExD', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+d(?:an|cz|d[eu]|e[ahk]|ho|i[fghijkqruvwy]|k[io]|lo|nn|ou|r[eio]|sz|ur|y[kn]|z[aeio])\b'
+  '\b\w+d(?:an|cz|d[eu]|e[ahk]|ho|i[fghijkqruvwy]|k[io]|lo|nn|ou|r[eio]|sz|ur|y[kn]|z[a-z])\b'
 ),
 (
   'NameRegExE', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -120,7 +120,7 @@ VALUES
 (
   'NameRegExF', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+f(?:al|cz|et|ho|i[fhijkqruvwy]|ja|k[io]|li|n[in]|ou|sz|y[kn]|z[io])\b'
+  '\b\w+f(?:al|cz|et|ho|i[fhijkqruvwy]|ja|k[io]|li|n[in]|ou|sz|y[kn]|z[a-z])\b'
 ),
 (
   'NameRegExG', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
@@ -130,7 +130,7 @@ VALUES
 (
   'NameRegExH', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+h(?:a[imnor]|cz|ek|ho|i[afhijkqruvwy]|k[io]|le|n[ny]|ou|sz|um|wa|y[kn]|ra|z[io])\b'
+  '\b\w+h(?:a[imnor]|cz|ek|ho|i[afhijkqruvwy]|k[io]|le|n[ny]|ou|sz|um|wa|y[kn]|ra|z[a-z])\b'
 ),
 (
   'NameRegExI', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -140,27 +140,27 @@ VALUES
 (
   'NameRegExJ', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+j(?:a[ehn]|cz|ho|i[aefhijknqruvwy]|k[io]|nn|o[nou]|sz|u[ens]|y[kn]|z[io])\b'
+  '\b\w+j(?:a[ehn]|cz|ho|i[aefhijknqruvwy]|k[io]|nn|o[nou]|sz|u[ens]|y[kn]|z[a-z])\b'
 ),
 (
   'NameRegExK', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+k(?:a[jnrs]|cz|h[aeos]|i[abcfhijkqrsuvwy]|k[io]|nn|o[su]|p[s]|ro|s[sz]|u[fns]|w[aeiou]|y[kns]|z[io])\b'
+  '\b\w+k(?:a[jnrs]|cz|h[aeos]|i[abcfhijkqrsuvwy]|k[io]|nn|o[su]|p[s]|ro|s[sz]|u[fns]|w[aeiou]|y[kns]|z[a-z])\b'
 ),
 (
   'NameRegExL', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+l(?:ak|c[oz]|ek|fo|ho|i[fghijkqruvwy]|j[ao]|k[aio]|li|ma|n[an]|ou|p[ao]|sz|ta|u[afr]|y[akn]|z[io])\b'
+  '\b\w+l(?:ak|c[oz]|ek|fo|ho|i[fghijkqruvwy]|j[ao]|k[aio]|li|ma|n[an]|ou|p[ao]|sz|ta|u[afr]|y[akn]|z[a-z])\b'
 ),
 (
   'NameRegExM', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+m(?:a[io]|cz|ek|ho|i[fh-kqruvwy]|k[io]|l[ae]|ke|nn|o[uv]|sz|y[knr]|z[io])\b'
+  '\b\w+m(?:a[io]|cz|ek|ho|i[fh-kqruvwy]|k[io]|l[ae]|ke|nn|o[uv]|sz|y[knr]|z[a-z])\b'
 ),
 (
   'NameRegExN', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+n(?:a[bhmn]|bu|c[az]|e[kz]|ga|ho|i[fhijkqruvwy]|j[ai]|k[ilo]|n[aeinu]|ou|pd|sz|t[iul]|y[ikn]|z[io])\b'
+  '\b\w+n(?:a[bhmn]|bu|c[az]|e[kz]|ga|ho|i[fhijkqruvwy]|j[ai]|k[ilo]|n[aeinu]|ou|pd|sz|t[iul]|y[ikn]|z[b-z])\b'
 ),
 (
   'NameRegExO', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -170,17 +170,17 @@ VALUES
 (
   'NameRegExP', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+p(?:cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|sz|ur|y[kn]|z[io])\b'
+  '\b\w+p(?:cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|sz|ur|y[kn]|z[a-z])\b'
 ),
 (
   'NameRegExQ', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+q(?:ar|cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|sz|y[kn]|z[io])\b'
+  '\b\w+q(?:ar|cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|sz|[v-z][a-z])\b'
 ),
 (
   'NameRegExR', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+r(?:a[hjr]|ba|c[aoz]|dd|e[bckv]|fi|ho|i[bfhijkqruvwy]|k[aio]|nn|o[mu]|ra|sz|ub|y[aeklnu]|z[eios])\b'
+  '\b\w+r(?:a[hjr]|ba|c[aoz]|dd|e[bckv]|fi|ho|i[bfhijkqruvwy]|k[aio]|nn|o[mu]|ra|sz|ub|y[aeklnu]|z[a-z])\b'
 ),
 (
   'NameRegExS', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -190,7 +190,7 @@ VALUES
 (
   'NameRegExT', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+t(?:a[dio]|cz|ek|h[ou]|i[fhijkquvwy]|k[aio]|nn|ou|ri|s[az]|t[il]|ua|v[ai]|y[kn]|z[io])\b'
+  '\b\w+t(?:a[dio]|cz|ek|h[ou]|i[fhijkquvwy]|k[aio]|nn|ou|ri|s[az]|t[il]|ua|v[ai]|y[kn]|z[a-z])\b'
 ),
 (
   'NameRegExU', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -200,7 +200,7 @@ VALUES
 (
   'NameRegExV', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+v(?:a[a-df-kmo-qu-z]|cz|ho|i[cfhijkqrtuvwy]|k[aio]|nn|o[cu]|s[kz]|y[kn]|z[io])\b'
+  '\b\w+v(?:a[a-df-kmo-qu-z]|cz|ho|i[cfhijkqrtuvwy]|k[aio]|nn|o[cu]|s[kz]|y[kn]|z[a-z])\b'
 ),
 (
   'NameRegExW', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -210,7 +210,7 @@ VALUES
 (
   'NameRegExX', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+x(?:ai|ba|cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|sz|te|y[kn]|z[io])\b'
+  '\b\w+x(?:ai|ba|cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|sz|te|[u-z][a-z])\b'
 ),
 (
   'NameRegExY', '#00a0ff', 'Name', 'NAME', 'Regular expression',
