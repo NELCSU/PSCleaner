@@ -607,7 +607,7 @@ VALUES
   ('Ibouroi'),
   ('Ibowa'),
   ('Iboyi'),
-  ('Ibqal'),
+  
   ('Ibra'),
   ('Ibraaheem'),
   ('Ibraahiim'),
@@ -1530,7 +1530,7 @@ VALUES
   ('Ifeyi'),
   ('Ifeyinka'),
   ('Ifeyinwa'),
-  ('Ifezu'),
+  
   ('Ifezulike'),
   ('Iffa'),
   ('Iffah'),
@@ -3252,7 +3252,7 @@ VALUES
   ('Illyas'),
   ('Illyes'),
   ('Illyriana'),
-  ('Illyuk'),
+  
   ('Ilm'),
   ('Ilmach'),
   ('Ilmah'),
@@ -5077,7 +5077,7 @@ VALUES
   ('Intenberga'),
   ('Intendencia'),
   ('Intentsia'),
-  ('Inteqab'),
+  
   ('Interesovas'),
   ('Interian'),
   ('Interiand'),
@@ -5357,7 +5357,6 @@ VALUES
   ('Iommi'),
   ('Iomut'),
   ('Iomuta'),
-  ('Ion'),
   ('Iona'),
   ('Ionadelin'),
   ('Ional'),
@@ -5616,7 +5615,7 @@ VALUES
   ('Iptisam'),
   ('Ipuacia'),
   ('Iputu'),
-  ('Iqba'),
+  
   ('Iqbal'),
   ('Iqbale'),
   ('Iqbalhusain'),
@@ -5629,7 +5628,7 @@ VALUES
   ('Iqbar'),
   ('Iqbel'),
   ('Iqen'),
-  ('Iqfa'),
+  
   ('Iqhtiaree'),
   ('Iqira'),
   ('Iqlas'),
@@ -5637,7 +5636,7 @@ VALUES
   ('Iqmot'),
   ('Iqnacio'),
   ('Iqpal'),
-  ('Iqra'),
+  
   ('Iqraa'),
   ('Iqrab'),
   ('Iqram'),
@@ -5647,8 +5646,8 @@ VALUES
   ('Iqramulhaq'),
   ('Iqramur'),
   ('Iqraw'),
-  ('Iqrk'),
-  ('Iqro'),
+  
+  
   ('Iqtadar'),
   ('Iqtedar'),
   ('Iqthyer'),
@@ -6204,7 +6203,7 @@ VALUES
   ('Irsule'),
   ('Irta'),
   ('Irten'),
-  ('Irteqah'),
+  
   ('Irti'),
   ('Irtiqa'),
   ('Irtisam'),
@@ -7504,7 +7503,7 @@ VALUES
   ('Istvanine'),
   ('Istvanovics'),
   ('Istvetna'),
-  ('Istyaqal'),
+  
   ('Isua'),
   ('Isub'),
   ('Isubu'),
@@ -8028,7 +8027,7 @@ VALUES
   ('Ivanyitchi'),
   ('Ivanysh'),
   ('Ivanytskyy'),
-  ('Ivanyuk'),
+  
   ('Ivanyura'),
   ('Ivar'),
   ('Ivaras'),
@@ -8409,7 +8408,7 @@ VALUES
   ('Iyapah'),
   ('Iyapo'),
   ('Iyappan'),
-  ('Iyaqah'),
+  
   ('Iyare'),
   ('Iyaria'),
   ('Iyarna'),
@@ -8558,7 +8557,7 @@ VALUES
   ('Iyssa'),
   ('Iysse'),
   ('Iyuadoo'),
-  ('Iyub'),
+  
   ('Iyuel'),
   ('Iyuen'),
   ('Iyunade'),

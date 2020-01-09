@@ -239,7 +239,7 @@ VALUES
 ('Jacenta'),
 ('Jacentina'),
 ('Jacenty'),
-('Jacenyuk'),
+
 ('Jaceon'),
 ('Jacepo'),
 ('Jacequline'),
@@ -730,7 +730,7 @@ VALUES
 ('Jaehui'),
 ('Jaehyeon'),
 ('Jaehyeong'),
-('Jaehyuk'),
+
 ('Jaeil'),
 ('Jaeim'),
 ('Jaejoon'),
@@ -1072,7 +1072,7 @@ VALUES
 ('Jagnelle'),
 ('Jagnisha'),
 ('Jagnoor'),
-('Jagnyuk'),
+
 ('Jago'),
 ('Jagoba'),
 ('Jagoda'),
@@ -2313,7 +2313,7 @@ VALUES
 ('Jallaluddin'),
 ('Jallaludin'),
 ('Jalland'),
-('Jalldyze'),
+
 ('Jalle'),
 ('Jalleger'),
 ('Jalleh'),
@@ -4150,7 +4150,7 @@ VALUES
 ('Jarygina'),
 ('Jaryll'),
 ('Jarysto'),
-('Jaryum'),
+
 ('Jarzebina'),
 ('Jarzemsri'),
 ('Jarzino'),
@@ -5036,7 +5036,7 @@ VALUES
 ('Javlon'),
 ('Javnikabahen'),
 ('Javnish'),
-('Javnyuy'),
+
 ('Javon'),
 ('Javone'),
 ('Javoneh'),
@@ -5641,8 +5641,8 @@ VALUES
 ('Jaytera'),
 ('Jaython'),
 ('Jaytun'),
-('Jayue'),
-('Jayur'),
+
+
 ('Jayuran'),
 ('Jayvan'),
 ('Jayvannie'),
@@ -5661,7 +5661,7 @@ VALUES
 ('Jayvion'),
 ('Jayvis'),
 ('Jayvon'),
-('Jaywa'),
+
 ('Jaywant'),
 ('Jaywantee'),
 ('Jaywantrao'),
@@ -7148,7 +7148,7 @@ VALUES
 ('Jennymay'),
 ('Jennyrose'),
 ('Jennyshka'),
-('Jennyve'),
+
 ('Jeno'),
 ('Jenoa'),
 ('Jenobia'),
@@ -8434,7 +8434,7 @@ VALUES
 ('Jezselle'),
 ('Jezuit'),
 ('Jezusek'),
-('Jezz'),
+
 ('Jezzard'),
 ('Jfferson'),
 ('Jgft'),
@@ -8773,7 +8773,7 @@ VALUES
 ('Jhuti'),
 ('Jhutty'),
 ('Jhyaraman'),
-('Jhyve'),
+
 ('Jhyvre'),
 ('Ji'),
 ('Jia'),
@@ -8863,7 +8863,7 @@ VALUES
 ('Jianguo'),
 ('Jiangxu'),
 ('Jiangyong'),
-('Jiangyue'),
+
 ('Jianhang'),
 ('Jianheng'),
 ('Jianhong'),
@@ -8911,10 +8911,10 @@ VALUES
 ('Jianying'),
 ('Jianyong'),
 ('Jianyu'),
-('Jianyui'),
+
 ('Jiaona'),
 ('Jiaoyang'),
-('Jiaoyue'),
+
 ('Jiapei'),
 ('Jiapeng'),
 ('Jiaping'),
@@ -8958,8 +8958,8 @@ VALUES
 ('Jiaying'),
 ('Jiayins'),
 ('Jiayong'),
-('Jiayue'),
-('Jiayui'),
+
+
 ('Jiayutong'),
 ('Jiaze'),
 ('Jiazen'),
@@ -9182,7 +9182,7 @@ VALUES
 ('Jihwey'),
 ('Jihye'),
 ('Jihyeon'),
-('Jihyuk'),
+
 ('Jihyung'),
 ('Jiijo'),
 ('Jiilal'),
@@ -9545,7 +9545,7 @@ VALUES
 ('Jingyan'),
 ('Jingyang'),
 ('Jingying'),
-('Jingyue'),
+
 ('Jinh'),
 ('Jinhang'),
 ('Jinhee'),
@@ -9669,7 +9669,7 @@ VALUES
 ('Jinying'),
 ('Jinyoung'),
 ('Jinyu'),
-('Jinyue'),
+
 ('Jinzhen'),
 ('Jinzhong'),
 ('Jio'),
@@ -9737,7 +9737,7 @@ VALUES
 ('Jirayingmongkol'),
 ('Jirayouth'),
 ('Jirayukul'),
-('Jirayut'),
+
 ('Jirbander'),
 ('Jirbandey'),
 ('Jirde'),
@@ -9910,7 +9910,7 @@ VALUES
 ('Jiun'),
 ('Jiunnjer'),
 ('Jiuteng'),
-('Jiuyue'),
+
 ('Jiva'),
 ('Jivabagas'),
 ('Jivajee'),
@@ -9966,7 +9966,7 @@ VALUES
 ('Jiyoo'),
 ('Jiyoon'),
 ('Jiyoung'),
-('Jiyue'),
+
 ('Jizbelle'),
 ('Jizchak'),
 ('Jizchock'),
@@ -12674,8 +12674,8 @@ VALUES
 ('Joytun'),
 ('Joytunnesa'),
 ('Joytura'),
-('Joyub'),
-('Joyve'),
+
+
 ('Joywin'),
 ('Joza'),
 ('Jozana'),
@@ -13773,7 +13773,7 @@ VALUES
 ('Juneer'),
 ('Juneha'),
 ('Junehyong'),
-('Junehyuk'),
+
 ('Juneid'),
 ('Juneida'),
 ('Juneidah'),
@@ -13842,7 +13842,7 @@ VALUES
 ('Junghie'),
 ('Junghietoru'),
 ('Junghoon'),
-('Junghyub'),
+
 ('Jungi'),
 ('Jungild'),
 ('Jungin'),
@@ -13889,7 +13889,7 @@ VALUES
 ('Junhyeong'),
 ('Junhyoung'),
 ('Junhyuck'),
-('Junhyuk'),
+
 ('Junia'),
 ('Juniad'),
 ('Junian'),
@@ -14058,7 +14058,7 @@ VALUES
 ('Junyong'),
 ('Junyoung'),
 ('Junyu'),
-('Junyue'),
+
 ('Junzhang'),
 ('Junzheng'),
 ('Junzhut'),
@@ -14185,7 +14185,7 @@ VALUES
 ('Juravschi'),
 ('Jurawon'),
 ('Juray'),
-('Juraywi'),
+
 ('Jurbala'),
 ('Jurbic'),
 ('Jurbilai'),
@@ -14850,7 +14850,7 @@ VALUES
 ('Jyssonyeh'),
 ('Jytte'),
 ('Jyung'),
-('Jyve'),
+
 ('Jyves'),
 ('Jyvette'),
 ('Jyz'),

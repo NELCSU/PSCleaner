@@ -394,7 +394,7 @@ VALUES
 ('Udesinh'),
 ('Udeze'),
 ('Udezenwannia'),
-('Udezu'),
+
 ('Udezueh'),
 ('Udhali'),
 ('Udhams'),
@@ -639,7 +639,7 @@ VALUES
 ('Uffredi'),
 ('Ufimstev'),
 ('Ufiobor'),
-('Ufiteyezu'),
+
 ('Ufkes'),
 ('Ufland'),
 ('Ufmanjai'),
@@ -2108,7 +2108,7 @@ VALUES
 ('Ungaria'),
 ('Ungashick'),
 ('Ungate'),
-('Ungayua'),
+
 ('Ungeheuer'),
 ('Ungela'),
 ('Ungemach'),
@@ -2523,8 +2523,8 @@ VALUES
 ('Upupa'),
 ('Upveja'),
 ('Upwall'),
-('Uqba'),
-('Uqbu'),
+
+
 ('Uqdah'),
 ('Uqeuqe'),
 ('Uqochi'),
@@ -2546,7 +2546,7 @@ VALUES
 ('Uraine'),
 ('Urainee'),
 ('Uraipan'),
-('Uraiqat'),
+
 ('Urairat'),
 ('Uraiwun'),
 ('Urajlal'),

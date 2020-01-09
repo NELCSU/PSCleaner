@@ -934,7 +934,7 @@ VALUES
   ('Faiola'),
   ('Faioli'),
   ('Faiqa'),
-  ('Faiqah'),
+  
   ('Faiqo'),
   ('Faique'),
   ('Faira'),
@@ -1988,6 +1988,7 @@ VALUES
   ('Fantino'),
   ('Fantis'),
   ('Fantivi'),
+  ('Fantle'),
   ('Fanto'),
   ('Fantocchi'),
   ('Fantoft'),
@@ -2019,7 +2020,7 @@ VALUES
   ('Fanyin'),
   ('Fanying'),
   ('Fanyinka'),
-  ('Fanyue'),
+  
   ('Fanzhen'),
   ('Fanziso'),
   ('Fanzola'),
@@ -2042,15 +2043,15 @@ VALUES
   ('Faponle'),
   ('Faponnle'),
   ('Fappiano'),
-  ('Faqai'),
+  
   ('Faqare'),
-  ('Faqay'),
+  
   ('Faqeeh'),
   ('Faqeeha'),
   ('Faqeer'),
   ('Faqiiha'),
   ('Faqirullah'),
-  ('Faqru'),
+  
   ('Faqruddin'),
   ('Faqrul'),
   ('Faqruzzaman'),
@@ -2823,8 +2824,8 @@ VALUES
   ('Faroye'),
   ('Faroz'),
   ('Faroza'),
-  ('Farqad'),
-  ('Farqan'),
+  
+  
   ('Farqher'),
   ('Farquarhson'),
   ('Farquarson'),
@@ -4031,7 +4032,7 @@ VALUES
   ('Fayemuwo'),
   ('Fayen'),
   ('Fayenuwo'),
-  ('Fayenywo'),
+  
   ('Fayer'),
   ('Fayerman'),
   ('Fayers'),
@@ -4114,7 +4115,7 @@ VALUES
   ('Fayour'),
   ('Fayow'),
   ('Fayoyin'),
-  ('Fayqah'),
+  
   ('Fayram'),
   ('Fayrdus'),
   ('Fayrfax'),
@@ -4149,9 +4150,9 @@ VALUES
   ('Fayyrha'),
   ('Fayzaha'),
   ('Fayzallah'),
-  ('Fayze'),
+  
   ('Fayziev'),
-  ('Fayzu'),
+  
   ('Fayzullah'),
   ('Fayzunnesa'),
   ('Faz'),
@@ -4589,7 +4590,7 @@ VALUES
   ('Fedorina'),
   ('Fedorovica'),
   ('Fedoruk'),
-  ('Fedoryuk'),
+  
   ('Fedoseev'),
   ('Fedosejenkovas'),
   ('Fedosejev'),
@@ -5264,7 +5265,7 @@ VALUES
   ('Fellermeier'),
   ('Fellermeyer'),
   ('Fellers'),
-  ('Fellezs'),
+  
   ('Fellgate'),
   ('Fellhauer'),
   ('Fellhoelter'),
@@ -6056,7 +6057,7 @@ VALUES
   ('Fernaders'),
   ('Fernades'),
   ('Fernadez'),
-  ('Fernadezs'),
+  
   ('Fernado'),
   ('Fernain'),
   ('Fernald'),
@@ -6165,7 +6166,7 @@ VALUES
   ('Fernsund'),
   ('Ferntinant'),
   ('Fernyhough'),
-  ('Fernyuk'),
+  
   ('Fernz'),
   ('Fero'),
   ('Feroaz'),
@@ -6799,7 +6800,7 @@ VALUES
   ('Feyt'),
   ('Feytullah'),
   ('Feyyaz'),
-  ('Feyzt'),
+  
   ('Feyzula'),
   ('Feyzulla'),
   ('Feyzullah'),
@@ -8101,7 +8102,7 @@ VALUES
   ('Finuf'),
   ('Finula'),
   ('Finwall'),
-  ('Finyuk'),
+  
   ('Finzer'),
   ('Fio'),
   ('Fiocchi'),
@@ -8196,14 +8197,14 @@ VALUES
   ('Fioye'),
   ('Fippinger'),
   ('Fipps'),
-  ('Fiqah'),
+  
   ('Fiqerete'),
-  ('Fiqhi'),
+  
   ('Fiqirete'),
   ('Fiqow'),
   ('Fiqret'),
   ('Fiqrete'),
-  ('Fiqri'),
+  
   ('Fique'),
   ('Fiqueira'),
   ('Fiquemont'),
@@ -9827,7 +9828,7 @@ VALUES
   ('Flyton'),
   ('Flyunt'),
   ('Flyura'),
-  ('Flyxe'),
+  
   ('Fneer'),
   ('Fneiche'),
   ('Fnieche'),
@@ -10607,7 +10608,7 @@ VALUES
   ('Fonyama'),
   ('Fonyay'),
   ('Fonyodi'),
-  ('Fonyuy'),
+  
   ('Fonzeca'),
   ('Fooad'),
   ('Fooce'),
@@ -11015,7 +11016,7 @@ VALUES
   ('Foroza'),
   ('Foroze'),
   ('Forozis'),
-  ('Forqan'),
+  
   ('Forquer'),
   ('Forquy'),
   ('Forr'),
@@ -11188,7 +11189,7 @@ VALUES
   ('Forys'),
   ('Forysiuk'),
   ('Forysth'),
-  ('Forysyuk'),
+  
   ('Forzana'),
   ('Forzano'),
   ('Forzen'),
@@ -11707,7 +11708,7 @@ VALUES
   ('Foysur'),
   ('Foyt'),
   ('Foyz'),
-  ('Foyze'),
+  
   ('Foyzulhoq'),
   ('Foyzunnessa'),
   ('Foyzunur'),
@@ -12010,7 +12011,7 @@ VALUES
   ('Francette'),
   ('Francey'),
   ('Francez'),
-  ('Francezk'),
+  
   ('Franch'),
   ('Franchak'),
   ('Francher'),
@@ -13204,7 +13205,7 @@ VALUES
   ('Freytes'),
   ('Freyther'),
   ('Freywald'),
-  ('Freywe'),
+  
   ('Frezefond'),
   ('Frezella'),
   ('Frezer'),
@@ -13868,7 +13869,7 @@ VALUES
   ('Froyd'),
   ('Froydis'),
   ('Froylan'),
-  ('Froyze'),
+  
   ('Froz'),
   ('Frroku'),
   ('Frtala'),
@@ -14027,7 +14028,7 @@ VALUES
   ('Fryt'),
   ('Fryxell'),
   ('Fryz'),
-  ('Fryze'),
+  
   ('Fryziel'),
   ('Frzaneh'),
   ('Fshaile'),
@@ -14771,7 +14772,7 @@ VALUES
   ('Furook'),
   ('Furozh'),
   ('Furphy'),
-  ('Furqan'),
+  
   ('Furqana'),
   ('Furqueron'),
   ('Furqun'),

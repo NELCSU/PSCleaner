@@ -154,7 +154,7 @@ VALUES
 ('Rabbles'),
 ('Rabbouj'),
 ('Rabby'),
-('Rabchenyuk'),
+
 ('Rabdia'),
 ('Rabeaa'),
 ('Rabeah'),
@@ -994,7 +994,7 @@ VALUES
 ('Rady'),
 ('Radya'),
 ('Radys'),
-('Radyuk'),
+
 ('Radzevica'),
 ('Radzeviciene'),
 ('Radzevicius'),
@@ -1210,7 +1210,7 @@ VALUES
 ('Rafanello'),
 ('Rafaniello'),
 ('Rafaola'),
-('Rafaqat'),
+
 ('Rafaqatali'),
 ('Rafaqiat'),
 ('Rafaque'),
@@ -1251,7 +1251,7 @@ VALUES
 ('Rafeen'),
 ('Rafeena'),
 ('Rafeeq'),
-('Rafeeqah'),
+
 ('Rafeeque'),
 ('Rafeequr'),
 ('Rafeeul'),
@@ -1395,9 +1395,9 @@ VALUES
 ('Rafinesque'),
 ('Rafinoor'),
 ('Rafiqa'),
-('Rafiqal'),
+
 ('Rafiqali'),
-('Rafiqan'),
+
 ('Rafiqhusain'),
 ('Rafiqi'),
 ('Rafiqua'),
@@ -1440,7 +1440,7 @@ VALUES
 ('Rafols'),
 ('Rafonel'),
 ('Rafoss'),
-('Rafqat'),
+
 ('Rafraf'),
 ('Rafsa'),
 ('Rafsal'),
@@ -2416,7 +2416,7 @@ VALUES
 ('Raiph'),
 ('Raippen'),
 ('Raiqa'),
-('Raiqah'),
+
 ('Rairata'),
 ('Rairden'),
 ('Rairdon'),
@@ -5316,10 +5316,10 @@ VALUES
 ('Raptotasios'),
 ('Rapuano'),
 ('Rapulchukwuoku'),
-('Raqaa'),
-('Raqad'),
+
+
 ('Raqchel'),
-('Raqda'),
+
 ('Raqeeb'),
 ('Raqeeba'),
 ('Raqeem'),
@@ -5446,7 +5446,7 @@ VALUES
 ('Rasappagounder'),
 ('Rasappan'),
 ('Rasaq'),
-('Rasaqat'),
+
 ('Rasar'),
 ('Rasaram'),
 ('Rasarathina'),
@@ -9796,7 +9796,7 @@ VALUES
 ('Remigio'),
 ('Remigisus'),
 ('Remigius'),
-('Remigiyus'),
+
 ('Remigo'),
 ('Remigus'),
 ('Remijio'),
@@ -11461,10 +11461,10 @@ VALUES
 ('Reyson'),
 ('Reysul'),
 ('Reytier'),
-('Reyve'),
+
 ('Reyver'),
 ('Reyyan'),
-('Reyze'),
+
 ('Rez'),
 ('Rezaante'),
 ('Rezaeian'),
@@ -11527,7 +11527,7 @@ VALUES
 ('Rezian'),
 ('Rezima'),
 ('Rezina'),
-('Rezk'),
+
 ('Rezkallah'),
 ('Rezkiva'),
 ('Rezlane'),
@@ -11556,7 +11556,7 @@ VALUES
 ('Rezowena'),
 ('Rezsaul'),
 ('Rezsnak'),
-('Rezu'),
+
 ('Rezual'),
 ('Rezuana'),
 ('Rezuhana'),
@@ -12220,7 +12220,7 @@ VALUES
 ('Ribordy'),
 ('Ribot'),
 ('Ribota'),
-('Ribqah'),
+
 ('Ribriro'),
 ('Ribron'),
 ('Ribsamen'),
@@ -13033,8 +13033,8 @@ VALUES
 ('Rieyag'),
 ('Rieyyan'),
 ('Riez'),
-('Riezl'),
-('Riezu'),
+
+
 ('Rifaa'),
 ('Rifad'),
 ('Rifaf'),
@@ -13048,7 +13048,7 @@ VALUES
 ('Rifana'),
 ('Rifang'),
 ('Rifaqahat'),
-('Rifaqat'),
+
 ('Rifaqatullah'),
 ('Rifaquat'),
 ('Rifaque'),
@@ -13111,7 +13111,7 @@ VALUES
 ('Rifna'),
 ('Rifoz'),
 ('Rifqa'),
-('Rifqah'),
+
 ('Rifqi'),
 ('Rifqy'),
 ('Rifshad'),
@@ -14084,7 +14084,7 @@ VALUES
 ('Ripulkumar'),
 ('Ripun'),
 ('Ripuree'),
-('Riqaz'),
+
 ('Riqbino'),
 ('Riqelle'),
 ('Riqia'),
@@ -14267,7 +14267,7 @@ VALUES
 ('Risino'),
 ('Risinu'),
 ('Risiott'),
-('Risiqat'),
+
 ('Risiquat'),
 ('Risius'),
 ('Risja'),
@@ -16142,7 +16142,7 @@ VALUES
 ('Rogat'),
 ('Rogate'),
 ('Rogaten'),
-('Rogatyuk'),
+
 ('Rogayan'),
 ('Rogba'),
 ('Rogbeer'),
@@ -16404,7 +16404,7 @@ VALUES
 ('Rohma'),
 ('Rohman'),
 ('Rohmania'),
-('Rohmanyuk'),
+
 ('Rohmat'),
 ('Rohme'),
 ('Rohmel'),
@@ -16993,7 +16993,7 @@ VALUES
 ('Romanuel'),
 ('Romanus'),
 ('Romany'),
-('Romanyuk'),
+
 ('Romar'),
 ('Romare'),
 ('Romareo'),
@@ -17861,7 +17861,7 @@ VALUES
 ('Ropulcas'),
 ('Ropyak'),
 ('Roq'),
-('Roqaa'),
+
 ('Roqeeb'),
 ('Roqeebet'),
 ('Roqeya'),
@@ -20072,7 +20072,7 @@ VALUES
 ('Rozorea'),
 ('Rozploch'),
 ('Rozpond'),
-('Rozqan'),
+
 ('Rozs'),
 ('Rozsas'),
 ('Rozsival'),
@@ -20087,7 +20087,7 @@ VALUES
 ('Rozylo'),
 ('Rozynen'),
 ('Rozyoka'),
-('Rozyur'),
+
 ('Rozzano'),
 ('Rozzell'),
 ('Rozzelle'),
@@ -22929,7 +22929,7 @@ VALUES
 ('Ruyten'),
 ('Ruyter'),
 ('Ruyu'),
-('Ruyue'),
+
 ('Ruyz'),
 ('Ruz'),
 ('Ruza'),
@@ -23378,7 +23378,7 @@ VALUES
 ('Ryskiyev'),
 ('Rysl'),
 ('Ryslard'),
-('Rysnyuk'),
+
 ('Ryson'),
 ('Rystrand'),
 ('Rysxard'),
@@ -23423,9 +23423,9 @@ VALUES
 ('Ryuta'),
 ('Ryuto'),
 ('Ryutoku'),
-('Ryuu'),
+
 ('Ryuya'),
-('Ryve'),
+
 ('Ryver'),
 ('Ryvers'),
 ('Ryves'),

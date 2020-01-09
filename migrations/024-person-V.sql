@@ -853,7 +853,7 @@ VALUES
 ('Vakhshour'),
 ('Vakhshouri'),
 ('Vakhtang'),
-('Vakhyuk'),
+
 ('Vakil'),
 ('Vakilinia'),
 ('Vakilpour'),
@@ -3439,7 +3439,7 @@ VALUES
 ('Vappu'),
 ('Vaqais'),
 ('Vaqaruddin'),
-('Vaqas'),
+
 ('Vaquer'),
 ('Vaquera'),
 ('Vaquerano'),
@@ -3910,7 +3910,7 @@ VALUES
 ('Varshah'),
 ('Varshali'),
 ('Varshana'),
-('Varshayuj'),
+
 ('Varshga'),
 ('Varshiga'),
 ('Varshinee'),
@@ -6450,7 +6450,7 @@ VALUES
 ('Veranice'),
 ('Verano'),
 ('Verant'),
-('Veranyuy'),
+
 ('Verapat'),
 ('Verapen'),
 ('Verard'),
@@ -7047,7 +7047,7 @@ VALUES
 ('Veronicia'),
 ('Veronie'),
 ('Veronioue'),
-('Veroniqca'),
+
 ('Veronique'),
 ('Veronis'),
 ('Veronka'),
@@ -8180,7 +8180,7 @@ VALUES
 ('Vidyawatee'),
 ('Vidyawtee'),
 ('Vidyotama'),
-('Vidyut'),
+
 ('Vidzais'),
 ('Vidzenieks'),
 ('Vidzhev'),
@@ -10271,7 +10271,7 @@ VALUES
 ('Virsolvy'),
 ('Virson'),
 ('Virsta'),
-('Virstyuk'),
+
 ('Virsyle'),
 ('Virta'),
 ('Virtanen'),
@@ -10727,7 +10727,7 @@ VALUES
 ('Vitalius'),
 ('Vitaliva'),
 ('Vitaliyivna'),
-('Vitaliyus'),
+
 ('Vitaljs'),
 ('Vitaller'),
 ('Vitalo'),
@@ -11338,7 +11338,7 @@ VALUES
 ('Vlastaris'),
 ('Vlastimil'),
 ('Vlastimila'),
-('Vlasyuk'),
+
 ('Vlattas'),
 ('Vlavianos'),
 ('Vlcuando'),
@@ -12500,7 +12500,7 @@ VALUES
 ('Voznovica'),
 ('Voznovics'),
 ('Voznyak'),
-('Voznyuk'),
+
 ('Vozzella'),
 ('Vozzoller'),
 ('Vpachos'),
@@ -13083,7 +13083,7 @@ VALUES
 ('Vyvyan'),
 ('Vyzaite'),
 ('Vyzas'),
-('Vyze'),
+
 ('Vyzelman'),
 ('Vyzner'),
 ('Vzcanea'),

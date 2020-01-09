@@ -1022,7 +1022,7 @@ VALUES
 ('Naftel'),
 ('Nafthali'),
 ('Nafti'),
-('Naftinyuy'),
+
 ('Naftli'),
 ('Naftole'),
 ('Naftoli'),
@@ -3656,7 +3656,7 @@ VALUES
 ('Napue'),
 ('Naputano'),
 ('Naputi'),
-('Naqab'),
+
 ('Naqash'),
 ('Naqdeer'),
 ('Naqeb'),
@@ -3674,7 +3674,7 @@ VALUES
 ('Naqqash'),
 ('Naqqi'),
 ('Naqrsinh'),
-('Naqsh'),
+
 ('Naqsha'),
 ('Naqshab'),
 ('Naqshabandi'),
@@ -3963,7 +3963,7 @@ VALUES
 ('Naretto'),
 ('Nareut'),
 ('Narey'),
-('Nareyus'),
+
 ('Narez'),
 ('Narfsh'),
 ('Nargareta'),
@@ -5269,7 +5269,7 @@ VALUES
 ('Natinee'),
 ('Natingor'),
 ('Natino'),
-('Natiqah'),
+
 ('Natiridad'),
 ('Natis'),
 ('Natischa'),
@@ -5934,7 +5934,7 @@ VALUES
 ('Navyanish'),
 ('Navyasree'),
 ('Navyasri'),
-('Navyug'),
+
 ('Navzer'),
 ('Naw'),
 ('Nawabdin'),
@@ -6256,10 +6256,10 @@ VALUES
 ('Naythen'),
 ('Naythran'),
 ('Nayudu'),
-('Nayum'),
+
 ('Nayumi'),
-('Nayur'),
-('Nayve'),
+
+
 ('Nayvia'),
 ('Nayyab'),
 ('Nayyair'),
@@ -6269,7 +6269,7 @@ VALUES
 ('Nayyereh'),
 ('Nayyira'),
 ('Nayyren'),
-('Nayyum'),
+
 ('Nayzer'),
 ('Nayzgie'),
 ('Naz'),
@@ -6299,7 +6299,7 @@ VALUES
 ('Nazanina'),
 ('Nazanine'),
 ('Nazanoweka'),
-('Nazaqat'),
+
 ('Nazaquat'),
 ('Nazarak'),
 ('Nazarali'),
@@ -6352,7 +6352,7 @@ VALUES
 ('Nazatul'),
 ('Nazatun'),
 ('Nazawali'),
-('Nazayuk'),
+
 ('Nazbin'),
 ('Nazdmi'),
 ('Naze'),
@@ -9147,7 +9147,7 @@ VALUES
 ('Nerisus'),
 ('Neritan'),
 ('Neriton'),
-('Neriyus'),
+
 ('Nerjad'),
 ('Nerjess'),
 ('Nerjis'),
@@ -10280,7 +10280,7 @@ VALUES
 ('Nezrin'),
 ('Nezron'),
 ('Neztsosie'),
-('Nezu'),
+
 ('Nezukaitis'),
 ('Nezy'),
 ('Nfade'),
@@ -10415,7 +10415,7 @@ VALUES
 ('Nganuny'),
 ('Nganwa'),
 ('Nganwuchu'),
-('Nganyuo'),
+
 ('Ngao'),
 ('Ngaorungsri'),
 ('Ngaoubi'),
@@ -10521,7 +10521,7 @@ VALUES
 ('Ngethe'),
 ('Ngewa'),
 ('Ngeyitala'),
-('Ngeywa'),
+
 ('Ngeze'),
 ('Ngfoshing'),
 ('Nghana'),
@@ -12560,7 +12560,7 @@ VALUES
 ('Nikols'),
 ('Nikoltchev'),
 ('Nikolva'),
-('Nikolyuk'),
+
 ('Nikomachi'),
 ('Nikomi'),
 ('Nikomvan'),
@@ -14578,7 +14578,7 @@ VALUES
 ('Nkwain'),
 ('Nkwanda'),
 ('Nkwantabisa'),
-('Nkwanyuo'),
+
 ('Nkwatabisa'),
 ('Nkwazema'),
 ('Nkwebe'),
@@ -14644,7 +14644,7 @@ VALUES
 ('Nmesomachi'),
 ('Nmezichi'),
 ('Nmezoma'),
-('Nmezu'),
+
 ('Nmlotey'),
 ('Nmobu'),
 ('Nmor'),
@@ -15862,7 +15862,7 @@ VALUES
 ('Nopporn'),
 ('Nopprapun'),
 ('Nopsirivong'),
-('Noqal'),
+
 ('Noquapor'),
 ('Noque'),
 ('Noquerol'),
@@ -18426,7 +18426,7 @@ VALUES
 ('Nurkoo'),
 ('Nurlaily'),
 ('Nurlan'),
-('Nurlankyzy'),
+
 ('Nurlen'),
 ('Nurliana'),
 ('Nurliessa'),
@@ -18515,7 +18515,7 @@ VALUES
 ('Nursenem'),
 ('Nurseven'),
 ('Nursey'),
-('Nurshafiqah'),
+
 ('Nurshah'),
 ('Nurshe'),
 ('Nurshed'),
@@ -19304,7 +19304,7 @@ VALUES
 ('Nyakeh'),
 ('Nyakeru'),
 ('Nyakinyanya'),
-('Nyakinyua'),
+
 ('Nyakio'),
 ('Nyakiti'),
 ('Nyakoa'),
@@ -19909,7 +19909,7 @@ VALUES
 ('Nyuieme'),
 ('Nyuiemedi'),
 ('Nyuimedi'),
-('Nyuk'),
+
 ('Nyulas'),
 ('Nyulassy'),
 ('Nyuli'),

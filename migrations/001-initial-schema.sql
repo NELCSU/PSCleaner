@@ -40,7 +40,7 @@ CREATE TABLE Name (
   keyword TEXT    NOT NULL COLLATE NOCASE
 );
 
-CREATE UNIQUE INDEX Name_ix_keyword ON Name (keyword);
+CREATE INDEX Name_ix_keyword ON Name (keyword);
 
 CREATE TABLE Placename (
   id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,

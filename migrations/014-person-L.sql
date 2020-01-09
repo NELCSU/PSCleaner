@@ -14,7 +14,7 @@ VALUES
   ('Laadjal'),
   ('Laaeqa'),
   ('Laageide'),
-  ('Laaiqah'),
+  
   ('Laaisan'),
   ('Laake'),
   ('Laaker'),
@@ -198,7 +198,7 @@ VALUES
   ('Labidine'),
   ('Labie'),
   ('Labied'),
-  ('Labieqah'),
+  
   ('Labier'),
   ('Labigne'),
   ('Labiib'),
@@ -1412,7 +1412,7 @@ VALUES
   ('Lahner'),
   ('Lahni'),
   ('Lahnsteiner'),
-  ('Lahnyuk'),
+  
   ('Lahoda'),
   ('Lahodny'),
   ('Lahon'),
@@ -1629,8 +1629,8 @@ VALUES
   ('Laipple'),
   ('Laipply'),
   ('Laiqa'),
-  ('Laiqah'),
-  ('Laiqat'),
+  
+  
   ('Laiquddin'),
   ('Laique'),
   ('Lair'),
@@ -6181,7 +6181,7 @@ VALUES
   ('Lavrindo'),
   ('Lavrinovica'),
   ('Lavrinovics'),
-  ('Lavrinyuk'),
+  
   ('Lavro'),
   ('Lavrovs'),
   ('Lavruk'),
@@ -6405,7 +6405,7 @@ VALUES
   ('Layane'),
   ('Layanica'),
   ('Layanvi'),
-  ('Layaqah'),
+  
   ('Layard'),
   ('Layarl'),
   ('Layas'),
@@ -6545,7 +6545,7 @@ VALUES
   ('Laytis'),
   ('Layton'),
   ('Laytoya'),
-  ('Layug'),
+  
   ('Layugan'),
   ('Laywell'),
   ('Laywola'),
@@ -11268,10 +11268,10 @@ VALUES
   ('Leyton'),
   ('Leytush'),
   ('Leyu'),
-  ('Leyua'),
+  
   ('Leyuraz'),
   ('Leyvas'),
-  ('Leyvi'),
+  
   ('Leyvraz'),
   ('Lez'),
   ('Lezaha'),
@@ -11295,7 +11295,7 @@ VALUES
   ('Lezotte'),
   ('Lezoul'),
   ('Lezroy'),
-  ('Lezu'),
+  
   ('Lfourate'),
   ('Lghosoon'),
   ('Lgibson'),
@@ -11472,8 +11472,8 @@ VALUES
   ('Liapina'),
   ('Liapine'),
   ('Liapis'),
-  ('Liaqad'),
-  ('Liaqat'),
+  
+  
   ('Liaqatali'),
   ('Liaqath'),
   ('Liaqouris'),
@@ -12238,7 +12238,7 @@ VALUES
   ('Lieyana'),
   ('Lieze'),
   ('Liezelle'),
-  ('Liezl'),
+  
   ('Liezle'),
   ('Lifan'),
   ('Lifang'),
@@ -13504,7 +13504,7 @@ VALUES
   ('Lingyan'),
   ('Lingys'),
   ('Lingyte'),
-  ('Lingyue'),
+  
   ('Lingzhen'),
   ('Linh'),
   ('Linhang'),
@@ -13776,7 +13776,7 @@ VALUES
   ('Linyard'),
   ('Linyer'),
   ('Linyu'),
-  ('Linyue'),
+  
   ('Linz'),
   ('Linza'),
   ('Linzalone'),
@@ -14907,7 +14907,7 @@ VALUES
   ('Liyanora'),
   ('Liyanur'),
   ('Liyanwela'),
-  ('Liyaqat'),
+  
   ('Liyaqath'),
   ('Liyaquat'),
   ('Liyarna'),
@@ -14929,7 +14929,7 @@ VALUES
   ('Liyong'),
   ('Liyora'),
   ('Liytauras'),
-  ('Liyue'),
+  
   ('Liyumei'),
   ('Liz'),
   ('Lizabel'),
@@ -20546,7 +20546,7 @@ VALUES
   ('Luput'),
   ('Lupv'),
   ('Luqa'),
-  ('Luqas'),
+  
   ('Luqi'),
   ('Luqian'),
   ('Luqing'),
@@ -21241,7 +21241,7 @@ VALUES
   ('Luyt'),
   ('Luyten'),
   ('Luyu'),
-  ('Luyue'),
+  
   ('Luz'),
   ('Luza'),
   ('Luzabelle'),
@@ -21382,7 +21382,7 @@ VALUES
   ('Lyalina'),
   ('Lyall'),
   ('Lyalls'),
-  ('Lyalyuk'),
+  
   ('Lyam'),
   ('Lyamena'),
   ('Lyan'),
@@ -21397,7 +21397,7 @@ VALUES
   ('Lyanta'),
   ('Lyaoto'),
   ('Lyapina'),
-  ('Lyaqat'),
+  
   ('Lyarna'),
   ('Lyas'),
   ('Lyathe'),
@@ -21865,7 +21865,7 @@ VALUES
   ('Lystra'),
   ('Lysy'),
   ('Lysycia'),
-  ('Lysyuk'),
+  
   ('Lytal'),
   ('Lytch'),
   ('Lytchier'),
@@ -21922,7 +21922,7 @@ VALUES
   ('Lyulph'),
   ('Lyuman'),
   ('Lyupka'),
-  ('Lyus'),
+  
   ('Lyushun'),
   ('Lyutfi'),
   ('Lyutfiev'),
@@ -21933,7 +21933,7 @@ VALUES
   ('Lyver'),
   ('Lyverna'),
   ('Lyvers'),
-  ('Lyvi'),
+  
   ('Lyvia'),
   ('Lyvian'),
   ('Lyvica'),
@@ -21949,7 +21949,7 @@ VALUES
   ('Lyzcia'),
   ('Lyzelle'),
   ('Lyzohub'),
-  ('Lyzu'),
+  
   ('Lzang'),
   ('Lzeblan'),
   ('Lzu');

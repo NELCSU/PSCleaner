@@ -1386,7 +1386,7 @@ VALUES
 ('Bagatirlar'),
 ('Bagattin'),
 ('Bagatya'),
-('Bagatyuk'),
+
 ('Bagau'),
 ('Bagavathi'),
 ('Bagawathram'),
@@ -2546,7 +2546,7 @@ VALUES
 ('Bakhtina'),
 ('Bakhtirai'),
 ('Bakhtiyor'),
-('Bakhtiyur'),
+
 ('Bakhtnama'),
 ('Bakhtovarshoiev'),
 ('Bakhuijs'),
@@ -4066,7 +4066,7 @@ VALUES
 ('Baluyan'),
 ('Baluyos'),
 ('Baluyot'),
-('Baluyut'),
+
 ('Balvant'),
 ('Balvantkumar'),
 ('Balvantrai'),
@@ -5124,14 +5124,14 @@ VALUES
 ('Bapuoyela'),
 ('Bapurao'),
 ('Bapusaheb'),
-('Baqai'),
-('Baqal'),
+
+
 ('Baqarina'),
 ('Baqaullah'),
 ('Baqdad'),
 ('Baqer'),
 ('Baqia'),
-('Baqri'),
+
 ('Baqthaw'),
 ('Baque'),
 ('Baquedano'),
@@ -5318,7 +5318,7 @@ VALUES
 ('Barao'),
 ('Baraona'),
 ('Barapatre'),
-('Baraqqah'),
+
 ('Baraquero'),
 ('Baraquiel'),
 ('Baraquin'),
@@ -7441,7 +7441,7 @@ VALUES
 ('Basia'),
 ('Basias'),
 ('Basibas'),
-('Basibuyuk'),
+
 ('Basica'),
 ('Basical'),
 ('Basid'),
@@ -8573,7 +8573,7 @@ VALUES
 ('Baulsom'),
 ('Bault'),
 ('Bauluck'),
-('Bauluyut'),
+
 ('Bauly'),
 ('Bauman'),
 ('Baumane'),
@@ -8911,7 +8911,7 @@ VALUES
 ('Bayard'),
 ('Bayardi'),
 ('Bayardo'),
-('Bayarkyzy'),
+
 ('Bayarmaa'),
 ('Bayarnaa'),
 ('Bayarri'),
@@ -9150,21 +9150,21 @@ VALUES
 ('Baytops'),
 ('Baytos'),
 ('Baytug'),
-('Bayuk'),
+
 ('Bayulken'),
 ('Bayumi'),
 ('Bayunda'),
 ('Bayung'),
 ('Bayuningrat'),
-('Bayus'),
+
 ('Bayush'),
 ('Bayusuf'),
 ('Bayvel'),
 ('Bayyan'),
 ('Bayyes'),
-('Bayyi'),
+
 ('Bayyoud'),
-('Bayze'),
+
 ('Bayzed'),
 ('Bayzeed'),
 ('Baz'),
@@ -10623,7 +10623,7 @@ VALUES
 ('Begw'),
 ('Begwn'),
 ('Begy'),
-('Begyum'),
+
 ('Begz'),
 ('Begzjav'),
 ('Beh'),
@@ -11009,7 +11009,7 @@ VALUES
 ('Beitong'),
 ('Beitran'),
 ('Beixing'),
-('Beiyue'),
+
 ('Beizer'),
 ('Bej'),
 ('Beja'),
@@ -12605,7 +12605,7 @@ VALUES
 ('Bendetto'),
 ('Bendeus'),
 ('Bendewald'),
-('Bendezu'),
+
 ('Bendfeldt'),
 ('Bendghoughi'),
 ('Bendhe'),
@@ -13778,7 +13778,7 @@ VALUES
 ('Beqa'),
 ('Beqi'),
 ('Beqirai'),
-('Beqja'),
+
 ('Beque'),
 ('Bequeaith'),
 ('Bequette'),
@@ -14380,7 +14380,7 @@ VALUES
 ('Berinson'),
 ('Berintan'),
 ('Berinyo'),
-('Berinyuy'),
+
 ('Berio'),
 ('Berioli'),
 ('Beriot'),
@@ -14901,7 +14901,7 @@ VALUES
 ('Beroux'),
 ('Berovijel'),
 ('Berpan'),
-('Berqat'),
+
 ('Berquist'),
 ('Berr'),
 ('Berrabia'),
@@ -16345,7 +16345,7 @@ VALUES
 ('Beyzadin'),
 ('Beyzagul'),
 ('Beyzanur'),
-('Beyzh'),
+
 ('Beyzhet'),
 ('Bez'),
 ('Bezaiel'),
@@ -16371,7 +16371,7 @@ VALUES
 ('Bezdany'),
 ('Bezdel'),
 ('Bezdenezhnykh'),
-('Bezdykhanyuk'),
+
 ('Beze'),
 ('Bezema'),
 ('Bezeng'),
@@ -16410,7 +16410,7 @@ VALUES
 ('Bezpalec'),
 ('Bezreh'),
 ('Bezruk'),
-('Bezu'),
+
 ('Bezuayehu'),
 ('Bezubaite'),
 ('Bezuhanet'),
@@ -17401,7 +17401,7 @@ VALUES
 ('Biallas'),
 ('Bialle'),
 ('Bialo'),
-('Bialomyzy'),
+
 ('Bialon'),
 ('Bialose'),
 ('Bialous'),
@@ -17764,7 +17764,7 @@ VALUES
 ('Biddut'),
 ('Bidduth'),
 ('Biddy'),
-('Biddyut'),
+
 ('Bide'),
 ('Bideau'),
 ('Bidecant'),
@@ -17851,8 +17851,8 @@ VALUES
 ('Bidwanty'),
 ('Bidwell'),
 ('Bidy'),
-('Bidyuk'),
-('Bidyut'),
+
+
 ('Bidzhiev'),
 ('Bidziel'),
 ('Bidzina'),
@@ -19185,7 +19185,7 @@ VALUES
 ('Bingxu'),
 ('Bingyan'),
 ('Bingyin'),
-('Bingyue'),
+
 ('Bingzheng'),
 ('Bingzhong'),
 ('Binh'),
@@ -19343,7 +19343,7 @@ VALUES
 ('Binteh'),
 ('Binter'),
 ('Binteriana'),
-('Bintewaqas'),
+
 ('Bintey'),
 ('Bintgh'),
 ('Binth'),
@@ -19406,7 +19406,7 @@ VALUES
 ('Binyon'),
 ('Binysh'),
 ('Binyu'),
-('Binyue'),
+
 ('Binz'),
 ('Binzaid'),
 ('Binzangi'),
@@ -19514,7 +19514,7 @@ VALUES
 ('Biranisha'),
 ('Birankumar'),
 ('Birant'),
-('Biraqda'),
+
 ('Birardi'),
 ('Birat'),
 ('Biratsi'),
@@ -20556,7 +20556,7 @@ VALUES
 ('Biying'),
 ('Biyong'),
 ('Biyood'),
-('Biyue'),
+
 ('Biywar'),
 ('Biz'),
 ('Bizanjo'),
@@ -21292,7 +21292,7 @@ VALUES
 ('Blayne'),
 ('Blayney'),
 ('Blaysson'),
-('Blayze'),
+
 ('Blaz'),
 ('Blazaitis'),
 ('Blazaityte'),
@@ -22122,7 +22122,7 @@ VALUES
 ('Blyton'),
 ('Blyuss'),
 ('Blyzaite'),
-('Blyze'),
+
 ('Blyzes'),
 ('Blyzyte'),
 ('Bnagy'),
@@ -23245,7 +23245,7 @@ VALUES
 ('Bogolin'),
 ('Bogoljub'),
 ('Bogoljup'),
-('Bogolyub'),
+
 ('Bogomaz'),
 ('Bogomil'),
 ('Bogomila'),
@@ -23337,11 +23337,11 @@ VALUES
 ('Bohatch'),
 ('Bohatel'),
 ('Bohaty'),
-('Bohatyuk'),
+
 ('Bohay'),
 ('Bohbocea'),
 ('Bohdana'),
-('Bohdanyuk'),
+
 ('Bohde'),
 ('Bohdi'),
 ('Bohdon'),
@@ -24601,7 +24601,7 @@ VALUES
 ('Bondut'),
 ('Bondwe'),
 ('Bondy'),
-('Bondyuk'),
+
 ('Bondz'),
 ('Bondzewa'),
 ('Bondzinskaite'),
@@ -25223,7 +25223,7 @@ VALUES
 ('Booputh'),
 ('Boor'),
 ('Boora'),
-('Booranabunyut'),
+
 ('Booras'),
 ('Boorbonnais'),
 ('Boorbor'),
@@ -26692,7 +26692,7 @@ VALUES
 ('Botyo'),
 ('Botyriene'),
 ('Botyrius'),
-('Botyuk'),
+
 ('Botz'),
 ('Botzenhardt'),
 ('Botzios'),
@@ -27550,7 +27550,7 @@ VALUES
 ('Bounyavong'),
 ('Bououdine'),
 ('Boupha'),
-('Bouqal'),
+
 ('Bouqssim'),
 ('Bouqueau'),
 ('Bouquemont'),
@@ -28442,10 +28442,10 @@ VALUES
 ('Boyts'),
 ('Boytt'),
 ('Boyu'),
-('Boyue'),
-('Boyuk'),
+
+
 ('Boyukliev'),
-('Boyum'),
+
 ('Boyunsuz'),
 ('Boyz'),
 ('Boz'),
@@ -32575,6 +32575,7 @@ VALUES
 ('Brullo'),
 ('Brulotte'),
 ('Bruls'),
+('Brulte'),
 ('Brum'),
 ('Bruma'),
 ('Brumage'),
@@ -33038,7 +33039,7 @@ VALUES
 ('Brytnee'),
 ('Bryton'),
 ('Bryttain'),
-('Bryum'),
+
 ('Bryven'),
 ('Bryzachina'),
 ('Bryzachinas'),
@@ -35490,7 +35491,7 @@ VALUES
 ('Burington'),
 ('Burinkul'),
 ('Burinskaite'),
-('Burinyuy'),
+
 ('Burio'),
 ('Buris'),
 ('Burish'),
@@ -36646,7 +36647,7 @@ VALUES
 ('Buyson'),
 ('Buysse'),
 ('Buytenhuys'),
-('Buyuk'),
+
 ('Buyukadam'),
 ('Buyukarslan'),
 ('Buyukavci'),
@@ -36674,7 +36675,7 @@ VALUES
 ('Buyuktosum'),
 ('Buyuktosun'),
 ('Buyukyilmaz'),
-('Buyum'),
+
 ('Buyumez'),
 ('Buyungo'),
 ('Buyurgan'),
@@ -37057,7 +37058,7 @@ VALUES
 ('Byungryool'),
 ('Byungsun'),
 ('Byungyoon'),
-('Byus'),
+
 ('Byuzura'),
 ('Bywater'),
 ('Bywaters'),

@@ -1255,7 +1255,7 @@ VALUES
 ('Palagos'),
 ('Palaguachi'),
 ('Palaha'),
-('Palahnyuk'),
+
 ('Palai'),
 ('Palaima'),
 ('Palaimaite'),
@@ -6660,7 +6660,7 @@ VALUES
 ('Pavluka'),
 ('Pavlukevica'),
 ('Pavlus'),
-('Pavlyuk'),
+
 ('Pavneet'),
 ('Pavni'),
 ('Pavnit'),
@@ -6874,13 +6874,13 @@ VALUES
 ('Payuyo'),
 ('Payvand'),
 ('Payvin'),
-('Paywa'),
+
 ('Paywand'),
 ('Paywast'),
 ('Payyapat'),
 ('Payyappilly'),
 ('Payzant'),
-('Payze'),
+
 ('Paz'),
 ('Pazarcikli'),
 ('Pazare'),
@@ -7743,7 +7743,7 @@ VALUES
 ('Peiyee'),
 ('Peiyin'),
 ('Peiying'),
-('Peiyue'),
+
 ('Peize'),
 ('Peizhen'),
 ('Peizhong'),
@@ -7770,7 +7770,7 @@ VALUES
 ('Pekay'),
 ('Pekayangkool'),
 ('Pekbeken'),
-('Pekbuyuk'),
+
 ('Pekcan'),
 ('Pekel'),
 ('Pekenc'),
@@ -10357,7 +10357,7 @@ VALUES
 ('Petlickaite'),
 ('Petlock'),
 ('Petlueng'),
-('Petlyuk'),
+
 ('Petmecky'),
 ('Petmezas'),
 ('Petna'),
@@ -10617,7 +10617,7 @@ VALUES
 ('Petrossi'),
 ('Petrossian'),
 ('Petrosyan'),
-('Petrosyuk'),
+
 ('Petrotta'),
 ('Petrouis'),
 ('Petrouits'),
@@ -11565,7 +11565,7 @@ VALUES
 ('Phibian'),
 ('Phibion'),
 ('Phibmena'),
-('Phichayut'),
+
 ('Phichitsingh'),
 ('Phicip'),
 ('Phicippe'),
@@ -12209,7 +12209,7 @@ VALUES
 ('Physick'),
 ('Phythian'),
 ('Phyu'),
-('Phyuk'),
+
 ('Phyvos'),
 ('Pia'),
 ('Piacente'),
@@ -12303,7 +12303,6 @@ VALUES
 ('Pibudak'),
 ('Piburn'),
 ('Pibworth'),
-('Pic'),
 ('Pica'),
 ('Picache'),
 ('Picado'),
@@ -12387,7 +12386,7 @@ VALUES
 ('Pichaud'),
 ('Pichault'),
 ('Pichay'),
-('Pichayut'),
+
 ('Pichcha'),
 ('Piche'),
 ('Piched'),
@@ -14977,7 +14976,7 @@ VALUES
 ('Plajos'),
 ('Plake'),
 ('Plakhina'),
-('Plakhotnyuk'),
+
 ('Plakides'),
 ('Plakidina'),
 ('Plakidis'),
@@ -16309,7 +16308,7 @@ VALUES
 ('Pokharma'),
 ('Pokharna'),
 ('Pokhilchuk'),
-('Pokholyuk'),
+
 ('Pokhot'),
 ('Pokhrel'),
 ('Pokhriyal'),
@@ -16336,7 +16335,7 @@ VALUES
 ('Pokropek'),
 ('Pokroy'),
 ('Pokrywka'),
-('Pokrzywa'),
+
 ('Poks'),
 ('Poku'),
 ('Pokua'),
@@ -16892,7 +16891,7 @@ VALUES
 ('Polyvas'),
 ('Polyvios'),
 ('Polywka'),
-('Polyxa'),
+
 ('Polyxene'),
 ('Polyyena'),
 ('Polyzoes'),
@@ -17521,7 +17520,7 @@ VALUES
 ('Popadiuk'),
 ('Popaj'),
 ('Popal'),
-('Popalyuk'),
+
 ('Popan'),
 ('Popandreev'),
 ('Poparlan'),
@@ -17541,7 +17540,7 @@ VALUES
 ('Popel'),
 ('Popeley'),
 ('Popely'),
-('Popelyuk'),
+
 ('Popenhagen'),
 ('Popenkovs'),
 ('Poper'),
@@ -19135,7 +19134,7 @@ VALUES
 ('Pradyuman'),
 ('Pradyumankumar'),
 ('Pradyumna'),
-('Pradyut'),
+
 ('Pradywman'),
 ('Prae'),
 ('Praed'),
@@ -19211,8 +19210,6 @@ VALUES
 ('Prainsack'),
 ('Prairie'),
 ('Prais'),
-('Praises'),
-('Praising'),
 ('Praisoody'),
 ('Praiswater'),
 ('Praitano'),
@@ -20088,7 +20085,7 @@ VALUES
 ('Preece'),
 ('Preecha'),
 ('Preechasin'),
-('Preechathammayut'),
+
 ('Preechawuttidech'),
 ('Preedakorn'),
 ('Preedom'),
@@ -20145,7 +20142,7 @@ VALUES
 ('Preeyaporn'),
 ('Preeyen'),
 ('Preeyenha'),
-('Preeyus'),
+
 ('Preez'),
 ('Preeziosia'),
 ('Prefas'),
@@ -20664,7 +20661,7 @@ VALUES
 ('Pretto'),
 ('Prettyleaf'),
 ('Prettyman'),
-('Prettyvi'),
+
 ('Prettyweasel'),
 ('Pretum'),
 ('Prety'),
@@ -21532,7 +21529,7 @@ VALUES
 ('Prodahiclic'),
 ('Prodana'),
 ('Prodanichin'),
-('Prodanyuk'),
+
 ('Prodaus'),
 ('Proddaturi'),
 ('Proddow'),
@@ -21560,7 +21557,7 @@ VALUES
 ('Prodromos'),
 ('Prodromoulla'),
 ('Produge'),
-('Prodyut'),
+
 ('Proe'),
 ('Proeber'),
 ('Proebstl'),
@@ -21733,7 +21730,7 @@ VALUES
 ('Pronali'),
 ('Pronay'),
 ('Prondoso'),
-('Prondyuk'),
+
 ('Proner'),
 ('Pronesti'),
 ('Pronev'),
@@ -21899,7 +21896,7 @@ VALUES
 ('Prots'),
 ('Protsack'),
 ('Protsman'),
-('Protsyuk'),
+
 ('Prott'),
 ('Prottasha'),
 ('Protte'),
@@ -24038,9 +24035,9 @@ VALUES
 ('Pylypcio'),
 ('Pylypets'),
   
-('Pylypyuk'),
+
 ('Pylyuhina'),
-('Pylyuk'),
+
 ('Pym'),
 ('Pyman'),
 ('Pymar'),

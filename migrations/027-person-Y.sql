@@ -403,7 +403,7 @@ VALUES
 ('Yahnishna'),
 ('Yahnke'),
 ('Yahnoush'),
-('Yahnyuk'),
+
 ('Yahola'),
 ('Yahong'),
 ('Yahooda'),
@@ -1198,7 +1198,7 @@ VALUES
 ('Yanys'),
 ('Yanyu'),
 ('Yanyyev'),
-('Yanyyv'),
+
 ('Yanza'),
 ('Yanzhen'),
 ('Yanzhuo'),
@@ -1869,7 +1869,7 @@ VALUES
 ('Yatsuo'),
 ('Yatsura'),
 ('Yatswi'),
-('Yatsyuk'),
+
 ('Yatta'),
 ('Yattaw'),
 ('Yattin'),
@@ -3453,7 +3453,7 @@ VALUES
 ('Yigang'),
 ('Yige'),
 ('Yigen'),
-('Yigezu'),
+
 ('Yigi'),
 ('Yiginer'),
 ('Yiging'),
@@ -3672,8 +3672,8 @@ VALUES
 ('Yingyan'),
 ('Yingyang'),
 ('Yingying'),
-('Yingyue'),
-('Yingyut'),
+
+
 ('Yingzhen'),
 ('Yinh'),
 ('Yinhei'),
@@ -3903,7 +3903,7 @@ VALUES
 ('Yiying'),
 ('Yiyit'),
 ('Yiyitcan'),
-('Yiyue'),
+
 ('Yizcaino'),
 ('Yizchak'),
 ('Yizchock'),
@@ -4229,7 +4229,7 @@ VALUES
 ('Yogun'),
 ('Yogurtcu'),
 ('Yogyata'),
-('Yogzyur'),
+
 ('Yoh'),
 ('Yoha'),
 ('Yohala'),
@@ -4792,7 +4792,7 @@ VALUES
 ('Yoshito'),
 ('Yoshitsugu'),
 ('Yoshiyama'),
-('Yoshiyuk'),
+
 ('Yoshizuma'),
 ('Yoshizumi'),
 ('Yoshma'),
@@ -5267,7 +5267,7 @@ VALUES
 ('Yozefa'),
 ('Yozen'),
 ('Yozeta'),
-('Yozgyur'),
+
 ('Yozlem'),
 ('Yozler'),
 ('Yoztyurk'),
@@ -5404,7 +5404,7 @@ VALUES
 ('Yuanyang'),
 ('Yuanying'),
 ('Yuanyu'),
-('Yuanyue'),
+
 ('Yuanzhen'),
 ('Yuanzheng'),
 ('Yuanzhong'),
@@ -5578,7 +5578,7 @@ VALUES
 ('Yueyang'),
 ('Yueyi'),
 ('Yueying'),
-('Yueyue'),
+
 ('Yueze'),
 ('Yuezhong'),
 ('Yufa'),
@@ -5975,7 +5975,7 @@ VALUES
 ('Yunyin'),
 ('Yunying'),
 ('Yunyu'),
-('Yunyue'),
+
 ('Yunzhang'),
 ('Yunzhel'),
 ('Yunzhen'),
@@ -6102,7 +6102,7 @@ VALUES
 ('Yurma'),
 ('Yurmaly'),
 ('Yurman'),
-('Yurmyus'),
+
 ('Yuro'),
 ('Yurob'),
 ('Yurong'),
@@ -6166,7 +6166,7 @@ VALUES
 ('Yushen'),
 ('Yusheng'),
 ('Yushin'),
-('Yushkalyuk'),
+
 ('Yushkina'),
 ('Yushreen'),
 ('Yushreena'),
@@ -6236,7 +6236,7 @@ VALUES
 ('Yustres'),
 ('Yustrez'),
 ('Yustus'),
-('Yustywa'),
+
 ('Yusu'),
 ('Yusuf'),
 ('Yusufa'),
@@ -6353,7 +6353,7 @@ VALUES
 ('Yuyin'),
 ('Yuying'),
 ('Yuyu'),
-('Yuyue'),
+
 ('Yuz'),
 ('Yuzana'),
 ('Yuzeir'),
