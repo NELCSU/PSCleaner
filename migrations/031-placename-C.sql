@@ -46259,7 +46259,7 @@ VALUES
 ('Cwmgwilym'),
 ('Cwmgwinau'),
 ('Cwmgwrach'),
-('Cwmhir Road'),
+('Cwmhir'),
 ('Cwmhiraeth'),
 ('Cwmhouse Dingle'),
 ('Cwmhwylog'),

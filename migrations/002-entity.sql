@@ -15,7 +15,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:acres?|alley|approach|avenue|bank|barns?|bay|beach|bottom|boulevard|brae|bridge|brook|canal|clough|close|common|coppice|copse|cottages?|court|covert|creek|crescent|croft|cross|dale|downs|drive|east|esplanade|estate|farm|fell|fields?|flats?|forest|gardens?|gate|geos?|glen|grange|green|grove|hall|harbour|heath|heights?|highway|hill|house|jetty|junction|lake|lane|lawns?|loch|lodge|marsh|meadows?|meads?|mews|mills?|moors?|mount|north|orchards?|parade|parks?|passage|pastures?|path|place|plain|plaza|ponds?|point|port|rd|reach|reservoir|ridge|rise|road|rocks?|row|skerry|skerries|south|spinney|square|station|strand|street|terrace|towers|towns?|vale|view|village|walk|way|weir|west|woods?|yards?)\b'
+  '\b(?:acres?|alley|approach|avenue|bank|barns?|bay|beach|bottom|boulevard|brae|bridge|brook|canal|clough|close|common|coppice|copse|cottages?|court|covert|creek|crescent|croft|cross|dale|downs?|drove|drive|east|esplanade|estate|farm|fell|fields?|flats?|forest|gardens?|gate|geos?|glen|grange|green|grove|hall|harbour|heath|heights?|highway|hill|house|jetty|junction|lake|lane|lawns?|loch|lodge|marsh|meadows?|meads?|mews|mills?|moors?|mount|north|orchards?|parade|parks?|passage|pastures?|path|place|plains?|plaza|ponds?|point|port|rd|reach|reservoir|ridge|rise|road|rocks?|row|skerry|skerries|south|spinney|square|station|strand|street|terrace|towers|towns?|vale|valley|view|village|walk|way|weir|west|woods?|yards?)\b'
 ),
 (
   'Currency1', '#334320', 'Currency', 'CURRENCY', 'Regular expression',
