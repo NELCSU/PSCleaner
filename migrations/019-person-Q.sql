@@ -86,8 +86,6 @@ VALUES
 ('Qaisy'),
 ('Qaium'),
 ('Qaiyan'),
-
-
 ('Qajka'),
 ('Qaker'),
 ('Qakhkhor'),
@@ -217,14 +215,12 @@ VALUES
 ('Qausul'),
 ('Qauum'),
 ('Qauym'),
-
 ('Qauyumi'),
 ('Qawane'),
 ('Qawatin'),
 ('Qawel'),
 ('Qawiat'),
 ('Qawiem'),
-
 ('Qawsain'),
 ('Qayam'),
 ('Qayas'),
@@ -245,13 +241,11 @@ VALUES
 ('Qays'),
 ('Qayshon'),
 ('Qayuim'),
-
 ('Qayumi'),
 ('Qayyam'),
 ('Qayyim'),
 ('Qayyom'),
 ('Qayyoom'),
-
 ('Qayyuum'),
 ('Qazaffi'),
 ('Qazalbash'),
@@ -316,7 +310,6 @@ VALUES
 ('Qhalib'),
 ('Qhemeng'),
 ('Qhobosheane'),
-
 ('Qi'),
 ('Qia'),
 ('Qiaane'),
@@ -356,7 +349,6 @@ VALUES
 ('Qianyin'),
 ('Qianying'),
 ('Qianyu'),
-
 ('Qiaoan'),
 ('Qiaochu'),
 ('Qiaochun'),
@@ -480,7 +472,6 @@ VALUES
 ('Qingyan'),
 ('Qingyang'),
 ('Qingying'),
-
 ('Qingzhen'),
 ('Qinhe'),
 ('Qinhua'),
@@ -512,7 +503,6 @@ VALUES
 ('Qiongya'),
 ('Qiongyan'),
 ('Qiongying'),
-
 ('Qionhmei'),
 ('Qipei'),
 ('Qipeng'),
@@ -579,7 +569,6 @@ VALUES
 ('Qiuyang'),
 ('Qiuying'),
 ('Qiuyu'),
-
 ('Qivind'),
 ('Qivlia'),
 ('Qixiang'),
@@ -622,7 +611,6 @@ VALUES
 ('Qondisile'),
 ('Qoodos'),
 ('Qoqa'),
-
 ('Qorane'),
 ('Qorax'),
 ('Qordiriyat'),
@@ -633,15 +621,12 @@ VALUES
 ('Qoshja'),
 ('Qosim'),
 ('Qosja'),
-
 ('Qotaly'),
 ('Qoterys'),
-
 ('Qouasbi'),
 ('Qoudiha'),
 ('Qousar'),
 ('Qoyes'),
-
 ('Qrina'),
 ('Qsei'),
 ('Qtefan'),
@@ -735,7 +720,6 @@ VALUES
 ('Quaisul'),
 ('Quaite'),
 ('Quaium'),
-
 ('Quake'),
 ('Quakenbush'),
 ('Quaker'),
@@ -984,9 +968,7 @@ VALUES
 ('Quaysia'),
 ('Quayson'),
 ('Quaysoor'),
-
 ('Quayyaim'),
-
 ('Quba'),
 ('Qubain'),
 ('Quban'),
@@ -1288,7 +1270,6 @@ VALUES
 ('Qufaj'),
 ('Quhey'),
 ('Quhn'),
-
 ('Qui'),
 ('Quiabeira'),
 ('Quiad'),
@@ -1628,7 +1609,6 @@ VALUES
 ('Quiwanie'),
 ('Quiwon'),
 ('Quiwtino'),
-
 ('Quizhen'),
 ('Quizhpe'),
 ('Quizhpi'),
@@ -1663,7 +1643,6 @@ VALUES
 ('Qumor'),
 ('Qumors'),
 ('Qumouchi'),
-
 ('Qumran'),
 ('Qumrul'),
 ('Qumrun'),
@@ -1776,12 +1755,10 @@ VALUES
 ('Quynhvy'),
 ('Quyoom'),
 ('Quyst'),
-
 ('Quyyam'),
 ('Quyyan'),
 ('Quyyem'),
 ('Quyyom'),
-
 ('Quz'),
 ('Quzmar'),
 ('Qvale'),
@@ -1808,8 +1785,6 @@ VALUES
 ('Qyeong'),
 ('Qypi'),
 ('Qyqalla'),
-
-
 ('Qzabor'),
 ('Qziaha'),
 ('Qzlem'),

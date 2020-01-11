@@ -1221,7 +1221,6 @@ VALUES
 ('Galass'),
 ('Galassi'),
 ('Galasso'),
-
 ('Galat'),
 ('Galata'),
 ('Galatan'),
@@ -2235,7 +2234,6 @@ VALUES
 ('Ganduri'),
 ('Gandy'),
 ('Gandziuk'),
-
 ('Gane'),
 ('Ganea'),
 ('Ganebnas'),
@@ -2674,7 +2672,6 @@ VALUES
 ('Gaoxiang'),
 ('Gaoya'),
 ('Gaoyan'),
-
 ('Gapac'),
 ('Gapak'),
 ('Gapare'),
@@ -4429,7 +4426,6 @@ VALUES
 ('Gavitha'),
 ('Gavito'),
 ('Gavitt'),
-
 ('Gavles'),
 ('Gavlick'),
 ('Gavlin'),
@@ -4482,7 +4478,6 @@ VALUES
 ('Gavriluc'),
 ('Gavrilut'),
 ('Gavriluta'),
-
 ('Gavris'),
 ('Gavriushina'),
 ('Gavriz'),
@@ -4696,7 +4691,6 @@ VALUES
 ('Gayton'),
 ('Gaytrie'),
 ('Gaytten'),
-
 ('Gaywaree'),
 ('Gaywood'),
 ('Gaz'),
@@ -8019,7 +8013,6 @@ VALUES
 ('Geyt'),
 ('Geyton'),
 ('Geyu'),
-
 ('Gezachew'),
 ('Gezahagne'),
 ('Gezahegn'),
@@ -8431,9 +8424,7 @@ VALUES
 ('Ghayoub'),
 ('Ghayour'),
 ('Ghayumi'),
-
 ('Ghayyour'),
-
 ('Ghazaalah'),
 ('Ghazaeepour'),
 ('Ghazafnar'),
@@ -8533,7 +8524,6 @@ VALUES
 ('Ghebreyohammes'),
 ('Ghebreyohanes'),
 ('Ghebreyohannes'),
-
 ('Ghebrezgabher'),
 ('Ghebrezghi'),
 ('Ghebrezghiher'),
@@ -8760,7 +8750,6 @@ VALUES
 ('Ghezelbash'),
 ('Ghezhey'),
 ('Gheziel'),
-
 ('Ghfar'),
 ('Ghfren'),
 ('Ghgzhey'),
@@ -11890,7 +11879,6 @@ VALUES
 ('Gjyslime'),
 ('Gjyste'),
 ('Gjystina'),
-
 ('Gkagiane'),
 ('Gkagka'),
 ('Gkagkaidis'),
@@ -13070,8 +13058,6 @@ VALUES
 ('Gnat'),
 ('Gnata'),
 ('Gnatiuk'),
-
-
 ('Gnau'),
 ('Gnaucad'),
 ('Gnava'),
@@ -14445,7 +14431,6 @@ VALUES
 ('Goloburdo'),
 ('Golod'),
 ('Goloda'),
-
 ('Golofit'),
 ('Gologan'),
 ('Golojuch'),
@@ -14727,7 +14712,6 @@ VALUES
 ('Goncilo'),
 ('Gonclaves'),
 ('Goncloves'),
-
 ('Goncrovs'),
 ('Goncu'),
 ('Goncuk'),
@@ -16756,7 +16740,6 @@ VALUES
 ('Gozman'),
 ('Goznobi'),
 ('Goztas'),
-
 ('Gozutok'),
 ('Gozzano'),
 ('Gozzard'),
@@ -17532,7 +17515,6 @@ VALUES
 ('Gratton'),
 ('Gratwick'),
 ('Graty'),
-
 ('Gratzer'),
 ('Gratzner'),
 ('Grau'),
@@ -17685,7 +17667,6 @@ VALUES
 ('Grayston'),
 ('Graystone'),
 ('Grayton'),
-
 ('Graz'),
 ('Grazebrook'),
 ('Grazella'),
@@ -17789,7 +17770,6 @@ VALUES
 ('Grebeniuk'),
 ('Grebenok'),
 ('Grebenuks'),
-
 ('Greber'),
 ('Grebert'),
 ('Grebin'),
@@ -18475,7 +18455,6 @@ VALUES
 ('Gribbon'),
 ('Gribbons'),
 ('Gribby'),
-
 ('Gribieniene'),
 ('Gribillos'),
 ('Gribincea'),
@@ -18733,7 +18712,6 @@ VALUES
 ('Grigorio'),
 ('Grigorios'),
 ('Grigoris'),
-
 ('Grigorjana'),
 ('Grigorjev'),
 ('Grigorjevaite'),
@@ -19182,7 +19160,6 @@ VALUES
 ('Grivois'),
 ('Grivot'),
 ('Grix'),
-('Grixti'),
 ('Grizaite'),
 ('Grizas'),
 ('Grize'),
@@ -19377,7 +19354,6 @@ VALUES
 ('Gromis'),
 ('Gromley'),
 ('Gromling'),
-
 ('Grommes'),
 ('Grommesh'),
 ('Grommet'),
@@ -20062,7 +20038,6 @@ VALUES
 ('Grymes'),
 ('Grymonprez'),
 ('Grymula'),
-
 ('Grynapel'),
 ('Grynelle'),
 ('Gryner'),
@@ -20072,7 +20047,6 @@ VALUES
 ('Grynis'),
 ('Gryniuk'),
 ('Grynszpan'),
-
 ('Gryp'),
 ('Gryparis'),
 ('Gryphin'),
@@ -20085,7 +20059,6 @@ VALUES
 ('Gryte'),
 ('Grytta'),
 ('Gryz'),
-
 ('Gryzbon'),
 ('Gryzelda'),
 ('Grzadiel'),
@@ -20124,7 +20097,6 @@ VALUES
 ('Grzwgorz'),
 ('Grzymajlo'),
 ('Grzymala'),
-
 ('Grzywna'),
 ('Grzywok'),
 ('Gsassi'),
@@ -22251,13 +22223,11 @@ VALUES
 ('Gumdoor'),
 ('Gumede'),
 ('Gumel'),
-
 ('Gumenchuk'),
 ('Gumende'),
 ('Gumene'),
 ('Gumenikovaite'),
 ('Gumeniuk'),
-
 ('Gumera'),
 ('Gumercinda'),
 ('Gumercindo'),
@@ -22770,7 +22740,6 @@ VALUES
 ('Guoyimeng'),
 ('Guoyin'),
 ('Guoying'),
-
 ('Guozheng'),
 ('Guozhong'),
 ('Guozoniene'),
@@ -23263,7 +23232,6 @@ VALUES
 ('Gurukumar'),
 ('Gurule'),
 ('Guruleen'),
-
 ('Gurumoorthy'),
 ('Gurumurthy'),
 ('Gurun'),
@@ -23546,7 +23514,6 @@ VALUES
 ('Gutiererrez'),
 ('Gutieres'),
 ('Gutierez'),
-
 ('Gutiermez'),
 ('Gutierre'),
 ('Gutierree'),
@@ -23746,7 +23713,6 @@ VALUES
 ('Guystone'),
 ('Guytano'),
 ('Guyton'),
-
 ('Guyver'),
 ('Guz'),
 ('Guza'),
@@ -24368,7 +24334,6 @@ VALUES
 ('Gyulsevim'),
 ('Gyulshem'),
 ('Gyulshen'),
-
 ('Gyulten'),
 ('Gyultyan'),
 ('Gyulver'),
@@ -24376,7 +24341,6 @@ VALUES
 ('Gyulymser'),
 ('Gyulyu'),
 ('Gyulyumser'),
-
 ('Gyumay'),
 ('Gyumyush'),
 ('Gyumyushlyu'),
@@ -24401,9 +24365,7 @@ VALUES
 ('Gyuneyt'),
 ('Gyung'),
 ('Gyungbae'),
-
 ('Gyunnar'),
-
 ('Gyura'),
 ('Gyurak'),
 ('Gyurau'),
@@ -24434,7 +24396,6 @@ VALUES
 ('Gyuzelev'),
 ('Gyver'),
 ('Gyves'),
-
 ('Gyyla'),
 ('Gyzelle'),
 ('Gzate'),

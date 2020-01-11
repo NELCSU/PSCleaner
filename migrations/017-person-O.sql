@@ -599,7 +599,6 @@ VALUES
 ('Obiesie'),
 ('Obiev'),
 ('Obieze'),
-
 ('Obigaeli'),
 ('Obigali'),
 ('Obigbesan'),
@@ -1310,7 +1309,6 @@ VALUES
 ('Odartey'),
 ('Odarteye'),
 ('Odary'),
-
 ('Odasola'),
 ('Odasso'),
 ('Odathma'),
@@ -6086,7 +6084,6 @@ VALUES
 ('Oliyil'),
 ('Oliyinka'),
 ('Oliynk'),
-
 ('Oljana'),
 ('Oljar'),
 ('Oljas'),
@@ -6177,7 +6174,6 @@ VALUES
 ('Ollufemi'),
 ('Olly'),
 ('Ollynabee'),
-
 ('Olm'),
 ('Olmajer'),
 ('Olman'),
@@ -6928,9 +6924,7 @@ VALUES
 ('Olumoye'),
 ('Olumurewa'),
 ('Olumuyima'),
-
 ('Olumwaseun'),
-
 ('Oluna'),
 ('Olunadamilula'),
 ('Olunadarasimi'),
@@ -7501,7 +7495,6 @@ VALUES
 ('Oluwaponle'),
 ('Oluwaponm'),
 ('Oluwaponmile'),
-
 ('Oluwaranisimi'),
 ('Oluwarantimi'),
 ('Oluware'),
@@ -7951,10 +7944,8 @@ VALUES
 ('Olyssia'),
 ('Olyuomi'),
 ('Olyupia'),
-
 ('Olyvar'),
 ('Olyvia'),
-
 ('Olywakanmi'),
 ('Olywapemisire'),
 ('Olywasegun'),
@@ -10530,7 +10521,6 @@ VALUES
 ('Opyd'),
 ('Opydo'),
 ('Opyrchal'),
-
 ('Oqbal'),
 ('Oqbaldet'),
 ('Oqua'),
@@ -11761,7 +11751,6 @@ VALUES
 ('Ortet'),
 ('Orteu'),
 ('Ortez'),
-
 ('Ortga'),
 ('Ortgies'),
 ('Ortgiesen'),
@@ -12015,7 +12004,6 @@ VALUES
 ('Osagie'),
 ('Osagiede'),
 ('Osagiobare'),
-
 ('Osaglede'),
 ('Osago'),
 ('Osagumwengie'),
@@ -12202,7 +12190,6 @@ VALUES
 ('Osasogie'),
 ('Osasona'),
 ('Osasuyimen'),
-
 ('Osata'),
 ('Osataima'),
 ('Osatata'),
@@ -15653,7 +15640,6 @@ VALUES
 ('Ozguven'),
 ('Ozguyen'),
 ('Ozguzcan'),
-
 ('Ozhelil'),
 ('Ozhot'),
 ('Ozhovarda'),

@@ -15,7 +15,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:acres?|alley|approach|avenue|bank|barns?|bay|beach|bottom|boulevard|brae|bridge|brook|canal|clough|close|common|coppice|copse|cottages?|court|covert|creek|crescent|croft|cross|dale|downs?|drove|drive|east|esplanade|estate|farm|fell|fields?|flats?|forest|gardens?|gate|geos?|glen|grange|green|grove|hall|harbour|heath|heights?|highway|hill|house|jetty|junction|lake|lane|lawns?|loch|lodge|marsh|meadows?|meads?|mews|mills?|moors?|mount|north|orchards?|parade|parks?|passage|pastures?|path|place|plains?|plaza|ponds?|point|port|rd|reach|reservoir|ridge|rise|road|rocks?|row|skerry|skerries|south|spinney|square|station|strand|street|terrace|towers|towns?|vale|valley|view|village|walk|way|weir|west|woods?|yards?)\b'
+  '\b(?:acres?|alley|approach|avenue|banks?|barns?|bay|beach|bottom|boulevard|braes?|bridge|brook|buildings?|canal|causeway|circle|circus|cliff|clough|close|common|coppice|copse|corner|cottages?|court|courtyard|covert|creek|crescent|croft|cross|dale|docks?|downs?|drove|drive|east|edge|esplanade|estate|farm|fell|fens?|fields?|flats?|forest|gardens?|gate|geos?|glen|gorge|grange|green|grove|hall|harbour|head|heath|heights?|highway|hill|house|isle|jetty|junction|lake|lane|lawns?|leys?|loch|lodge|manor|marsh(?:es)?|meadows?|mead[es]?|mews|mills?|moors?|mount|north|orchards?|oval|paddock|parade|parks?|passage|pastures?|path|place|plains?|plaza|ponds?|pool|point|port|quadrant|quay|rd|reach|reservoir|ridge|rise|road|rocks?|row|skerry|skerries|south|spinney|springs?|square|station|strand|street|tarn|terrace|tor|towers?|towns?|vale|valley|view|villas?|village|walk|way|weir|west|woods?|yards?)\b'
 ),
 (
   'Currency1', '#334320', 'Currency', 'CURRENCY', 'Regular expression',
@@ -210,7 +210,7 @@ VALUES
 (
   'NameRegExX', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+x(?:ai|ba|cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|sz|te|[u-z][a-z])\b'
+  '\b\w+x(?:ai|ba|cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|s[a-z]|t[a-xz]|[u-z][a-z])\b'
 ),
 (
   'NameRegExY', '#00a0ff', 'Name', 'NAME', 'Regular expression',
