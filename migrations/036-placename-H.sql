@@ -22752,7 +22752,7 @@ VALUES
 ('Holdernesse'),
 ('Holdernesse Close'),
 ('Holdernesse Road'),
-('Holders'),
+('Holders Street'),
 ('Holders Close'),
 ('Holders Gardens'),
 ('Holders Green'),

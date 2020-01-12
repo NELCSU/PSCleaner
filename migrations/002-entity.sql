@@ -15,7 +15,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:acres?|alley|approach|avenue|banks?|barns?|bay|beach|bottom|boulevard|braes?|bridge|brook|buildings?|canal|causeway|circle|circus|cliff|clough|close|common|coppice|copse|corner|cottages?|court|courtyard|covert|creek|crescent|croft|cross|dale|docks?|downs?|drove|drive|east|edge|esplanade|estate|farm|fell|fens?|fields?|flats?|forest|gardens?|gate|geos?|glen|gorge|grange|green|grove|hall|harbour|head|heath|heights?|highway|hill|house|isle|jetty|junction|lake|lane|lawns?|leys?|loch|lodge|manor|marsh(?:es)?|meadows?|mead[es]?|mews|mills?|moors?|mount|north|orchards?|oval|paddock|parade|parks?|passage|pastures?|path|place|plains?|plaza|ponds?|pool|point|port|quadrant|quay|rd|reach|reservoir|ridge|rise|road|rocks?|row|skerry|skerries|south|spinney|springs?|square|station|strand|street|tarn|terrace|tor|towers?|towns?|vale|valley|view|villas?|village|walk|way|weir|west|woods?|yards?)\b'
+  '\b(?:acres?|alley|approach|avenue|back|bad|banks?|barns?|bay|beach|bottom|boulevard|braes?|bridge|brook|buildings?|canal|causeway|circle|circus|cliff|clough|close|common|coppice|copse|corner|cottages?|court(?:yard)?|covert|creek|crescent|croft|cross|dale|docks?|downs?|dr[io]ve|east|edge|esplanade|estate|farm|fell|fens?|fields?|flats?|forest|gardens?|gate|geos?|glen|gorge|grange|green|grove|hall|harbour|head|heath|heights?|highway|hill|house|isle|jetty|junction|lake|lane|lawns?|leys?|loch|lodge|manor|marsh(?:es)?|meadows?|mead[es]?|mews|mills?|moors?|mount|north|orchards?|oval|paddock|parade|parks?|passage|pastures?|path|place|plains?|plaza|ponds?|pool|point|port|quadrant|quay|rd|reach|reservoir|ridge|rise|road|rocks?|row|sands|skerry|skerries|south|spinney|springs?|square|station|strand|street|tarn|terrace|tor|towers?|towns?|vale|valley|view|villas?|village|walk|way|weir|west|woods?|yards?)\b'
 ),
 (
   'Currency1', '#334320', 'Currency', 'CURRENCY', 'Regular expression',
@@ -100,7 +100,7 @@ VALUES
 (
   'NameRegExB', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+b(?:a[a-dfh-kmo-qu-z]|b[a-xz]|[cdf-hjkmnpqstv-z][a-z]|e[a-cfg-km-qu-xz]|i[bfh-mo-ru-z]|k[io]|l[a-df-xz]|nn|o[a-mpuvz]|r[b-df-z]|sz|u[acfh-mo-ru-xz]|y[kn]|z[io])\b'
+  '\b\w+b(?:a[a-dfh-kmo-qu-z]|b[a-xz]|[cdf-hjkmnpqstv-z][a-z]|e[a-cfg-km-qu-xz]|i[bfh-mo-ru-z]|k[io]|l[a-df-xz]|nn|o[a-mpuvz]|r[b-df-z]|u[acfh-mo-ru-xz]|y[kn]|z[io])\b'
 ),
 (
   'NameRegExC', '#00a0ff', 'Name', 'NAME', 'Regular expression',

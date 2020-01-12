@@ -26,21 +26,21 @@ CREATE TABLE Skip (
   keyword TEXT    NOT NULL COLLATE NOCASE
 );
 
-CREATE INDEX Skip_ix_keyword ON Skip (keyword);
+CREATE UNIQUE INDEX Skip_ix_keyword ON Skip (keyword);
 
 CREATE TABLE SkipOrJoin (
   id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
   keyword TEXT    NOT NULL COLLATE NOCASE
 );
 
-CREATE INDEX SkipOrJoin_ix_keyword ON SkipOrJoin (keyword);
+CREATE UNIQUE INDEX SkipOrJoin_ix_keyword ON SkipOrJoin (keyword);
 
 CREATE TABLE Name (
   id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
   keyword TEXT    NOT NULL COLLATE NOCASE
 );
 
-CREATE INDEX Name_ix_keyword ON Name (keyword);
+CREATE UNIQUE INDEX Name_ix_keyword ON Name (keyword);
 
 CREATE TABLE Placename (
   id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
@@ -54,14 +54,14 @@ CREATE TABLE Nationality (
   keyword TEXT    NOT NULL COLLATE NOCASE
 );
 
-CREATE INDEX Nationality_ix_keyword ON Nationality (keyword);
+CREATE UNIQUE INDEX Nationality_ix_keyword ON Nationality (keyword);
 
 CREATE TABLE Territory (
   id      INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
   keyword TEXT    NOT NULL COLLATE NOCASE
 );
 
-CREATE INDEX Territory_ix_keyword ON Territory (keyword);
+CREATE UNIQUE INDEX Territory_ix_keyword ON Territory (keyword);
 
 -- Down
 

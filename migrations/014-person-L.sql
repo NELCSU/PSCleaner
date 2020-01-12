@@ -18336,7 +18336,6 @@ VALUES
 ('Lovvorn'),
 ('Lovwe'),
 ('Lovy'),
-('Low'),
 ('Lowa'),
 ('Lowal'),
 ('Lowala'),
