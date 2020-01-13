@@ -1,7 +1,6 @@
 -- Up
 INSERT INTO Name (keyword)
 VALUES
-('Xaajim'),
 ('Xaameed'),
 ('Xaashira'),
 ('Xabat'),
@@ -231,7 +230,6 @@ VALUES
 ('Xhefri'),
 ('Xhei'),
 ('Xheje'),
-('Xhejms'),
 ('Xhejson'),
 ('Xhejsona'),
 ('Xheksi'),
@@ -248,7 +246,6 @@ VALUES
 ('Xhema'),
 ('Xhemail'),
 ('Xhemaj'),
-('Xhemajli'),
 ('Xhemal'),
 ('Xhemalaj'),
 ('Xhemali'),
@@ -310,7 +307,6 @@ VALUES
 ('Xhoi'),
 ('Xhon'),
 ('Xhonetina'),
-('Xhoniklajda'),
 ('Xhopi'),
 ('Xhorxhi'),
 ('Xhorxhina'),

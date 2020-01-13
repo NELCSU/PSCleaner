@@ -144,7 +144,7 @@ export class NLP {
 
   private _join(curr: MatchedEntity, next: MatchedEntity, originalText: string): MatchedEntity {
     let conjunction: string = originalText.substr(curr.end + 1, next.start - curr.end - 1);
-    if (conjunction === "") {
+    if (conjunction === "" && curr.value[curr.length - 1] !== " ") {
       conjunction = " ";
     }
     curr.value += conjunction + next.value;

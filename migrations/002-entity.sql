@@ -15,7 +15,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:acres?|alley|approach|avenue|back|bad|banks?|barns?|bay|beach|bottom|boulevard|braes?|bridge|brook|buildings?|canal|causeway|circle|circus|cliff|clough|close|common|coppice|copse|corner|cottages?|court(?:yard)?|covert|creek|crescent|croft|cross|dale|docks?|downs?|dr[io]ve|east|edge|esplanade|estate|farm|fell|fens?|fields?|flats?|forest|gardens?|gate|geos?|glen|gorge|grange|green|grove|hall|harbour|head|heath|heights?|highway|hill|house|isle|jetty|junction|lake|lane|lawns?|leys?|loch|lodge|manor|marsh(?:es)?|meadows?|mead[es]?|mews|mills?|moors?|mount|north|orchards?|oval|paddock|parade|parks?|passage|pastures?|path|place|plains?|plaza|ponds?|pool|point|port|quadrant|quay|rd|reach|reservoir|ridge|rise|road|rocks?|row|sands|skerry|skerries|south|spinney|springs?|square|station|strand|street|tarn|terrace|tor|towers?|towns?|vale|valley|view|villas?|village|walk|way|weir|west|woods?|yards?)\b'
+  '\b(?:acres?|alley|approach|avenue|back|bad|banks?|barns?|bay|beach|bottom|boulevard|braes?|bridge|brook|buildings?|canal|castle|causeway|circle|circus|cliff|clough|close|common|coppice|copse|corner|cottages?|court(?:yard)?|covert|creek|crescent|croft|cross|dale|docks?|downs?|dr[io]ve|east|edge|esplanade|estate|farm|fell|fens?|fields?|flats?|fold|forest|gardens?|gate|geos?|glen|gorge|grange|green|grove|hall|harbour|head|heath|heights?|highway|hill|house|isle|jetty|junction|lake|lane|lawns?|leys?|loch|lodge|manor|marsh(?:es)?|meadows?|mead[es]?|mews|mills?|moors?|mount|north|orchards?|oval|paddock|parade|parks?|passage|pastures?|path|place|plains?|plaza|ponds?|pool|point|port|quadrant|quay|rd|reach|reservoir|ridge|rise|road|rocks?|row|sands|skerry|skerries|south|spinney|springs?|square|station|strand|street|tarn|terrace|tor|towers?|towns?|upper|vale|valley|view|villas?|village|walk|way|weir|west|woods?|yards?)\b'
 ),
 (
   'Currency1', '#334320', 'Currency', 'CURRENCY', 'Regular expression',
@@ -88,6 +88,11 @@ VALUES
   ''
 ),
 (
+  'NameRegExInitial', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
+  1, 1, 1, 2,
+  '\s[A-Z]\.?\s'
+),
+(
   'NameRegEx', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 0, 1, 3,
   '\b\w+(?:dran?|\wcz\w+|iute|lund)\b'
@@ -140,7 +145,7 @@ VALUES
 (
   'NameRegExJ', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+j(?:a[ehn]|cz|ho|i[aefhijknqruvwy]|k[io]|nn|o[nou]|sz|u[ens]|y[kn]|z[a-z])\b'
+  '\b\w+j(?:[a-df-z][a-z]|e[a-su-z])\b'
 ),
 (
   'NameRegExK', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -180,7 +185,7 @@ VALUES
 (
   'NameRegExR', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+r(?:a[hjr]|ba|c[aoz]|dd|e[bckv]|fi|ho|i[bfhijkqruvwy]|k[aio]|nn|o[mu]|ra|sz|ub|y[aeklnu]|z[a-z])\b'
+  '\b\w+r(?:a[hjr]|ba|c[aoz]|dd|e[bckv]|fi|ho|i[bfhijkqruvwy]|k[aio]|nn|o[dmu]|ra|sz|ub|y[aeklnu]|z[a-z])\b'
 ),
 (
   'NameRegExS', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -200,7 +205,7 @@ VALUES
 (
   'NameRegExV', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+v(?:a[a-df-kmo-qu-z]|cz|ho|i[cfhijkqrtuvwy]|k[aio]|nn|o[cu]|s[kz]|y[kn]|z[a-z])\b'
+  '\b\w+v(?:a[a-df-kmo-qu-z]|be|cz|ho|i[cfhijkqrtuvwy]|k[aio]|nn|o[cu]|s[kz]|y[kn]|z[a-z])\b'
 ),
 (
   'NameRegExW', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -250,7 +255,7 @@ VALUES
 (
   'SkipNumberDurationRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',
   1, 1, 0, 1, 
-  '[\d,\.]+(?:st|nd|rd|th)?[\s\-\\\/]{1,2}(?:acre|autumn|beer|day|fairway|mile|pages?|pence|place|pound|min|story|summer|week|winter|yr)s?'
+  '[\d,\.]+(?:st|nd|rd|th)?[\s\-\\\/]{1,2}(?:acre|autumn|beer|day|fairway|mile|pages?|pence|place|pound|min|story|summer|week|winter|yards?|yr)s?'
 ),
 (
   'SkipWordDurationRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',

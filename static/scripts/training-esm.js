@@ -135,6 +135,7 @@ function cleanText(text) {
   text = text.replace(/\s?[\-]\s?/g, "-");
   text = text.replace(/\s?[\/]\s?/g, "/");
   text = text.replace(/\s?[\\]\s?/g, "\\");
+  
   return text;
 }
 
