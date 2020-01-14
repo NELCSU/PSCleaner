@@ -43,7 +43,7 @@ VALUES
 ('Canada'),
 ('Canary Islands'),
 ('Caribbean'),
-('Cayman Island'),
+('Cayman'),
 ('Central African Republic'),
 ('Central Asia'),
 ('Chad'),

@@ -347,7 +347,7 @@ VALUES
 ('Qianying'),
 ('Qianyu'),
 ('Qiaoan'),
-('Qiaochu'),
+
 ('Qiaochun'),
 ('Qiaoen'),
 ('Qiaofang'),
@@ -426,7 +426,7 @@ VALUES
 ('Qingchang'),
 ('Qingchen'),
 ('Qingcheng'),
-('Qingchu'),
+
 ('Qingchun'),
 ('Qingcun'),
 ('Qingdong'),
@@ -633,7 +633,7 @@ VALUES
 ('Quaatey'),
 ('Quabdid'),
 ('Quabena'),
-('Quacco'),
+
 ('Quacey'),
 ('Quach'),
 ('Quack'),
@@ -939,7 +939,7 @@ VALUES
 ('Quattrociocchi'),
 ('Quattrone'),
 ('Quattrotempore'),
-('Quattrovicce'),
+
 ('Quausah'),
 ('Quauyumi'),
 ('Quave'),
@@ -1031,7 +1031,7 @@ VALUES
 ('Quechell'),
 ('Quechon'),
 ('Queck'),
-('Quecke'),
+
 ('Quecuta'),
 ('Quecuto'),
 ('Quedas'),
@@ -1288,7 +1288,7 @@ VALUES
 ('Quibuyen'),
 ('Quica'),
 ('Quiceno'),
-('Quicke'),
+
 ('Quickel'),
 ('Quickenden'),
 ('Quickfall'),

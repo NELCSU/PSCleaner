@@ -162,7 +162,7 @@ VALUES
 ('Ubungen'),
 ('Ubyte'),
 ('Ucab'),
-('Ucak'),
+
 ('Ucal'),
 ('Ucama'),
 ('Ucan'),
@@ -172,7 +172,7 @@ VALUES
 ('Uccellatori'),
 ('Uccello'),
 ('Uccio'),
-('Ucef'),
+
 ('Uceina'),
 ('Ucel'),
 ('Ucelay'),
@@ -235,7 +235,7 @@ VALUES
 ('Uchoa'),
 ('Uchoas'),
 ('Uchtman'),
-('Uchu'),
+
 ('Uchytil'),
 ('Uci'),
 ('Ucil'),
@@ -244,10 +244,10 @@ VALUES
 ('Ucin'),
 ('Uckac'),
 ('Uckanie'),
-('Ucke'),
+
 ('Ucker'),
 ('Uckose'),
-('Ucku'),
+
 ('Uckuronis'),
 ('Uckuzular'),
 ('Ucky'),
@@ -568,7 +568,7 @@ VALUES
 ('Uebersax'),
 ('Ueberschlag'),
 ('Uechi'),
-('Uecke'),
+
 ('Uecker'),
 ('Ueckert'),
 ('Uedeiz'),
@@ -609,7 +609,7 @@ VALUES
 ('Uesra'),
 ('Uesugi'),
 ('Ueta'),
-('Uetrecht'),
+
 ('Uetz'),
 ('Ueysel'),
 ('Ueze'),
@@ -784,7 +784,7 @@ VALUES
 ('Ugonoh'),
 ('Ugonwa'),
 ('Ugoojo'),
-('Ugorcak'),
+
 ('Ugorgi'),
 ('Ugori'),
 ('Ugorji'),
@@ -1008,7 +1008,7 @@ VALUES
 ('Uka'),
 ('Ukachi'),
 ('Ukachinwa'),
-('Ukachu'),
+
 ('Ukachuku'),
 ('Ukachukwy'),
 ('Ukadia'),
@@ -1188,7 +1188,7 @@ VALUES
 ('Ulbach'),
 ('Ulbenario'),
 ('Ulbinas'),
-('Ulbricht'),
+
 ('Ulbright'),
 ('Ulcay'),
 ('Ulcena'),
@@ -1339,7 +1339,7 @@ VALUES
 ('Ullastre'),
 ('Ullathorne'),
 ('Ullattil'),
-('Ullbricht'),
+
 ('Ulle'),
 ('Ulleh'),
 ('Ullei'),
@@ -1401,7 +1401,7 @@ VALUES
 ('Ulricha'),
 ('Ulriche'),
 ('Ulrichs'),
-('Ulricht'),
+
 ('Ulrick'),
 ('Ulrickson'),
 ('Ulrie'),
@@ -1921,7 +1921,7 @@ VALUES
 ('Umusu'),
 ('Umut'),
 ('Umutcan'),
-('Umutcem'),
+
 ('Umutlar'),
 ('Umutlu'),
 ('Umutoza'),
@@ -2091,7 +2091,7 @@ VALUES
 ('Ungemuth'),
 ('Unger'),
 ('Ungerbock'),
-('Ungerecht'),
+
 ('Ungerer'),
 ('Ungererer'),
 ('Ungerland'),
@@ -2127,7 +2127,7 @@ VALUES
 ('Unhur'),
 ('Uni'),
 ('Unia'),
-('Uniacke'),
+
 ('Uniat'),
 ('Unica'),
 ('Unice'),
@@ -3060,7 +3060,7 @@ VALUES
 ('Urziene'),
 ('Urzola'),
 ('Urzula'),
-('Urzuncev'),
+
 ('Urzysztof'),
 ('Usaama'),
 ('Usaamah'),
@@ -3382,7 +3382,7 @@ VALUES
 ('Utebaliyev'),
 ('Utebayev'),
 ('Utech'),
-('Utecht'),
+
 ('Uteeme'),
 ('Uteene'),
 ('Utegg'),
@@ -3546,7 +3546,7 @@ VALUES
 ('Uttar'),
 ('Uttarwar'),
 ('Uttech'),
-('Uttecht'),
+
 ('Utten'),
 ('Utter'),
 ('Utterback'),
@@ -3603,7 +3603,7 @@ VALUES
 ('Uutela'),
 ('Uva'),
 ('Uvacin'),
-('Uvacjn'),
+
 ('Uvais'),
 ('Uvaisa'),
 ('Uvaisul'),
@@ -3914,7 +3914,7 @@ VALUES
 ('Uzonwa'),
 ('Uzonwane'),
 ('Uzooma'),
-('Uzorchu'),
+
 ('Uzorh'),
 ('Uzorma'),
 ('Uzoroh'),

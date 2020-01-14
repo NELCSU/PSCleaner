@@ -335,7 +335,7 @@ VALUES
 ('Xia'),
 ('Xiaano'),
 ('Xiabin'),
-('Xiachu'),
+
 ('Xiad'),
 ('Xiadoa'),
 ('Xiadong'),
@@ -421,7 +421,7 @@ VALUES
 ('Xiaochen'),
 ('Xiaocheng'),
 ('Xiaochi'),
-('Xiaochu'),
+
 ('Xiaochun'),
 ('Xiaocong'),
 ('Xiaocun'),

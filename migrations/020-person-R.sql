@@ -255,7 +255,7 @@ VALUES
 ('Rabin'),
 ('Rabina'),
 ('Rabinad'),
-('Rabincak'),
+
 ('Rabindarnath'),
 ('Rabinder'),
 ('Rabindrakumar'),
@@ -338,7 +338,7 @@ VALUES
 ('Racaite'),
 ('Racaitis'),
 ('Racaityte'),
-('Racak'),
+
 ('Racan'),
 ('Racanello'),
 ('Racaniello'),
@@ -349,12 +349,12 @@ VALUES
 ('Racatej'),
 ('Racault'),
 ('Raccagni'),
-('Raccah'),
+
 ('Raccan'),
 ('Raccanello'),
 ('Racchpal'),
 ('Raccio'),
-('Racco'),
+
 ('Raccosta'),
 ('Raccuglia'),
 ('Raccuia'),
@@ -396,7 +396,7 @@ VALUES
 ('Racharne'),
 ('Rachata'),
 ('Rachau'),
-('Rachchu'),
+
 ('Rachdi'),
 ('Rache'),
 ('Rachea'),
@@ -424,7 +424,7 @@ VALUES
 ('Rachet'),
 ('Rachev'),
 ('Rachford'),
-('Rachh'),
+
 ('Rachha'),
 ('Rachhoya'),
 ('Rachhpalsingh'),
@@ -467,7 +467,7 @@ VALUES
 ('Rachow'),
 ('Rachpal'),
 ('Rachpan'),
-('Racht'),
+
 ('Rachtamianto'),
 ('Rachtaminto'),
 ('Rachtan'),
@@ -519,7 +519,7 @@ VALUES
 ('Rackauskiaite'),
 ('Rackauskiene'),
 ('Rackauskyte'),
-('Racke'),
+
 ('Rackeama'),
 ('Rackel'),
 ('Rackell'),
@@ -642,7 +642,7 @@ VALUES
 ('Radebaugh'),
 ('Radebe'),
 ('Radeck'),
-('Radecke'),
+
 ('Radecker'),
 ('Radee'),
 ('Radeea'),
@@ -741,7 +741,7 @@ VALUES
 ('Radichev'),
 ('Radicic'),
 ('Radick'),
-('Radicke'),
+
 ('Radics'),
 ('Radicsne'),
 ('Radid'),
@@ -2169,10 +2169,10 @@ VALUES
 ('Raichel'),
 ('Raichelson'),
 ('Raichev'),
-('Raichl'),
+
 ('Raichman'),
 ('Raichovo'),
-('Raichu'),
+
 ('Raichur'),
 ('Raichura'),
 ('Raichuri'),
@@ -3669,7 +3669,7 @@ VALUES
 ('Ramburuth'),
 ('Rambus'),
 ('Ramby'),
-('Ramcaj'),
+
 ('Ramce'),
 ('Ramceass'),
 ('Ramchaitanya'),
@@ -5354,7 +5354,7 @@ VALUES
 ('Rasbury'),
 ('Rascano'),
 ('Rascarache'),
-('Rascau'),
+
 ('Rascelles'),
 ('Rascevsra'),
 ('Raschbacher'),
@@ -6311,7 +6311,7 @@ VALUES
 ('Raud'),
 ('Raudabaugh'),
 ('Raudales'),
-('Raudaschl'),
+
 ('Raudebaugh'),
 ('Raudenbush'),
 ('Raudh'),
@@ -7397,7 +7397,7 @@ VALUES
 ('Rbina'),
 ('Rcardo'),
 ('Rchard'),
-('Rchd'),
+
 ('Rchid'),
 ('Rdal'),
 ('Rdddrigo'),
@@ -7409,7 +7409,7 @@ VALUES
 ('Reabetswe'),
 ('Reabold'),
 ('Reaburn'),
-('Reacce'),
+
 ('Reace'),
 ('Reacheal'),
 ('Reachel'),
@@ -7611,7 +7611,7 @@ VALUES
 ('Rebe'),
 ('Rebebane'),
 ('Rebeca'),
-('Rebeccah'),
+
 ('Rebecchi'),
 ('Rebecha'),
 ('Rebeck'),
@@ -7736,8 +7736,8 @@ VALUES
 ('Reca'),
 ('Recacha'),
 ('Recado'),
-('Recai'),
-('Recaj'),
+
+
 ('Recalde'),
 ('Recalder'),
 ('Recaldin'),
@@ -7758,11 +7758,11 @@ VALUES
 ('Recatala'),
 ('Recayte'),
 ('Recber'),
-('Recce'),
+
 ('Recchi'),
 ('Recchio'),
 ('Recchiuti'),
-('Recco'),
+
 ('Reccordon'),
 ('Rece'),
 ('Reced'),
@@ -7816,7 +7816,7 @@ VALUES
 ('Rechpal'),
 ('Rechreche'),
 ('Rechsteiner'),
-('Recht'),
+
 ('Rechter'),
 ('Rechtin'),
 ('Rechtman'),
@@ -7843,7 +7843,7 @@ VALUES
 ('Reckamp'),
 ('Reckard'),
 ('Reckart'),
-('Recke'),
+
 ('Reckeiro'),
 ('Reckel'),
 ('Recker'),
@@ -8810,7 +8810,7 @@ VALUES
 ('Reibstein'),
 ('Reic'),
 ('Reica'),
-('Reicco'),
+
 ('Reice'),
 ('Reicela'),
 ('Reicha'),
@@ -8840,7 +8840,7 @@ VALUES
 ('Reichhelm'),
 ('Reichhold'),
 ('Reichinger'),
-('Reichl'),
+
 ('Reichler'),
 ('Reichley'),
 ('Reichlin'),
@@ -8851,12 +8851,12 @@ VALUES
 ('Reichold'),
 ('Reichow'),
 ('Reichstein'),
-('Reicht'),
+
 ('Reichter'),
 ('Reichwald'),
 ('Reichwein'),
 ('Reick'),
-('Reickh'),
+
 ('Reickie'),
 ('Reicks'),
 ('Reicman'),
@@ -9040,7 +9040,7 @@ VALUES
 ('Reinbolt'),
 ('Reinbott'),
 ('Reince'),
-('Reincke'),
+
 ('Reindeau'),
 ('Reindel'),
 ('Reinder'),
@@ -9054,7 +9054,7 @@ VALUES
 ('Reine'),
 ('Reineccius'),
 ('Reineck'),
-('Reinecke'),
+
 ('Reinecker'),
 ('Reinee'),
 ('Reinehr'),
@@ -9105,7 +9105,7 @@ VALUES
 ('Reinicans'),
 ('Reiniche'),
 ('Reinick'),
-('Reinicke'),
+
 ('Reiniene'),
 ('Reiniep'),
 ('Reinier'),
@@ -9189,7 +9189,7 @@ VALUES
 ('Reischel'),
 ('Reischer'),
 ('Reischez'),
-('Reischl'),
+
 ('Reischman'),
 ('Reisdorfer'),
 ('Reisdorff'),
@@ -9770,7 +9770,7 @@ VALUES
 ('Rena'),
 ('Renaata'),
 ('Renaboyana'),
-('Renacco'),
+
 ('Renacilda'),
 ('Renad'),
 ('Renade'),
@@ -9847,7 +9847,7 @@ VALUES
 ('Renborn'),
 ('Renbusa'),
 ('Renc'),
-('Rencai'),
+
 ('Rencber'),
 ('Rence'),
 ('Renceliauskaite'),
@@ -10142,7 +10142,7 @@ VALUES
 ('Renney'),
 ('Rennhack'),
 ('Rennick'),
-('Rennicke'),
+
 ('Rennicker'),
 ('Rennicks'),
 ('Rennie'),
@@ -10504,7 +10504,7 @@ VALUES
 ('Resbi'),
 ('Resbun'),
 ('Resca'),
-('Rescec'),
+
 ('Rescel'),
 ('Reschke'),
 ('Reschly'),
@@ -10674,7 +10674,7 @@ VALUES
 ('Ressome'),
 ('Ressonha'),
 ('Ressurreccion'),
-('Ressurreicao'),
+
 ('Resta'),
 ('Restaino'),
 ('Restall'),
@@ -10718,7 +10718,7 @@ VALUES
 ('Resumadero'),
 ('Resureccion'),
 ('Resurreccion'),
-('Resurreicao'),
+
 ('Resus'),
 ('Resuta'),
 ('Resva'),
@@ -11254,7 +11254,7 @@ VALUES
 ('Reynders'),
 ('Reyne'),
 ('Reynea'),
-('Reynecke'),
+
 ('Reynefe'),
 ('Reyneke'),
 ('Reynel'),
@@ -11374,7 +11374,7 @@ VALUES
 ('Rezmvves'),
 ('Rezner'),
 ('Reznic'),
-('Reznicak'),
+
 ('Reznick'),
 ('Reznor'),
 ('Rezoan'),
@@ -11997,7 +11997,7 @@ VALUES
 ('Ribe'),
 ('Ribeaucourt'),
 ('Ribeca'),
-('Ribecai'),
+
 ('Ribeena'),
 ('Ribeino'),
 ('Ribeir'),
@@ -12062,7 +12062,7 @@ VALUES
 ('Ricaford'),
 ('Ricafort'),
 ('Ricafrente'),
-('Ricai'),
+
 ('Ricaido'),
 ('Ricaille'),
 ('Rical'),
@@ -12074,7 +12074,7 @@ VALUES
 ('Ricalinda'),
 ('Ricamarie'),
 ('Ricando'),
-('Ricao'),
+
 ('Ricapito'),
 ('Ricard'),
 ('Ricarda'),
@@ -12106,8 +12106,8 @@ VALUES
 ('Riccarda'),
 ('Riccardi'),
 ('Riccardo'),
-('Ricce'),
-('Ricch'),
+
+
 ('Ricchardson'),
 ('Ricchera'),
 ('Ricchi'),
@@ -12126,7 +12126,7 @@ VALUES
 ('Riccio'),
 ('Riccioli'),
 ('Ricciuti'),
-('Ricco'),
+
 ('Riccobene'),
 ('Riccobono'),
 ('Riccon'),
@@ -12292,7 +12292,7 @@ VALUES
 ('Richrene'),
 ('Richshae'),
 ('Richson'),
-('Richt'),
+
 ('Richter'),
 ('Richtering'),
 ('Richteris'),
@@ -12301,7 +12301,7 @@ VALUES
 ('Richtmyer'),
 ('Richtor'),
 ('Richtsmeier'),
-('Richu'),
+
 ('Richwine'),
 ('Richwood'),
 ('Richy'),
@@ -12327,7 +12327,7 @@ VALUES
 ('Rickart'),
 ('Rickatson'),
 ('Rickbery'),
-('Ricke'),
+
 ('Rickeard'),
 ('Rickeeno'),
 ('Rickel'),
@@ -12660,11 +12660,11 @@ VALUES
 ('Riechet'),
 ('Riechman'),
 ('Rieck'),
-('Riecke'),
+
 ('Riecken'),
 ('Riecker'),
 ('Rieckers'),
-('Rieckh'),
+
 ('Rieckhof'),
 ('Rieckman'),
 ('Rieckof'),
@@ -13528,7 +13528,7 @@ VALUES
 ('Rindels'),
 ('Rinder'),
 ('Rinderer'),
-('Rinderknecht'),
+
 ('Rinderle'),
 ('Rindforth'),
 ('Rindfuss'),
@@ -14200,7 +14200,7 @@ VALUES
 ('Rit'),
 ('Ritabahen'),
 ('Ritabrata'),
-('Ritacco'),
+
 ('Ritag'),
 ('Ritage'),
 ('Ritah'),
@@ -14314,7 +14314,7 @@ VALUES
 ('Ritschard'),
 ('Ritschel'),
 ('Ritscher'),
-('Ritschl'),
+
 ('Ritscl'),
 ('Ritse'),
 ('Ritsema'),
@@ -15039,7 +15039,7 @@ VALUES
 ('Robottom'),
 ('Robra'),
 ('Robreau'),
-('Robrecht'),
+
 ('Robredo'),
 ('Robrts'),
 ('Robsaa'),
@@ -15089,16 +15089,16 @@ VALUES
 ('Roccia'),
 ('Roccio'),
 ('Roccisano'),
-('Rocco'),
+
 ('Roccon'),
-('Roccu'),
-('Rocda'),
+
+
 ('Rocea'),
 ('Rocel'),
 ('Rocella'),
 ('Rocelle'),
 ('Rocelyne'),
-('Rocem'),
+
 ('Roces'),
 ('Roch'),
 ('Rocha'),
@@ -15201,7 +15201,7 @@ VALUES
 ('Rockcliff'),
 ('Rockcliffe'),
 ('Rockcy'),
-('Rocke'),
+
 ('Rockea'),
 ('Rockefeller'),
 ('Rockel'),
@@ -15713,7 +15713,7 @@ VALUES
 ('Roehrborn'),
 ('Roehreke'),
 ('Roehrenbeck'),
-('Roehricht'),
+
 ('Roehrick'),
 ('Roehrig'),
 ('Roehrman'),
@@ -15762,7 +15762,7 @@ VALUES
 ('Roena'),
 ('Roenfeldt'),
 ('Roenfelt'),
-('Roenicke'),
+
 ('Roenigk'),
 ('Roenker'),
 ('Roennbeck'),
@@ -15772,7 +15772,7 @@ VALUES
 ('Roensholdt'),
 ('Roentgen'),
 ('Roenxh'),
-('Roepcke'),
+
 ('Roepe'),
 ('Roeper'),
 ('Roepke'),
@@ -16269,7 +16269,7 @@ VALUES
 ('Roibas'),
 ('Roice'),
 ('Roichali'),
-('Roicke'),
+
 ('Roid'),
 ('Roide'),
 ('Roider'),
@@ -17244,7 +17244,7 @@ VALUES
 ('Rongzhen'),
 ('Ronia'),
 ('Ronica'),
-('Ronicah'),
+
 ('Ronice'),
 ('Ronick'),
 ('Ronicle'),
@@ -17389,7 +17389,7 @@ VALUES
 ('Rooble'),
 ('Roobow'),
 ('Roocha'),
-('Roocke'),
+
 ('Roocroft'),
 ('Rood'),
 ('Rooda'),
@@ -19858,7 +19858,7 @@ VALUES
 ('Rranxi'),
 ('Rrapai'),
 ('Rrapo'),
-('Rrecaj'),
+
 ('Rregjine'),
 ('Rrema'),
 ('Rreshka'),
@@ -19873,7 +19873,7 @@ VALUES
 ('Rroku'),
 ('Rron'),
 ('Rrona'),
-('Rrucaj'),
+
 ('Rrugia'),
 ('Rrukai'),
 ('Rrukay'),
@@ -20143,7 +20143,7 @@ VALUES
 ('Rubottom'),
 ('Rubow'),
 ('Rubra'),
-('Rubrecht'),
+
 ('Rubrice'),
 ('Rubright'),
 ('Rubrio'),
@@ -20170,7 +20170,7 @@ VALUES
 ('Rubython'),
 ('Rubyyat'),
 ('Ruc'),
-('Rucaj'),
+
 ('Rucan'),
 ('Rucarean'),
 ('Rucart'),
@@ -20180,7 +20180,7 @@ VALUES
 ('Rucchin'),
 ('Ruccia'),
 ('Ruccio'),
-('Rucco'),
+
 ('Rucesh'),
 ('Ruch'),
 ('Rucha'),
@@ -20237,7 +20237,7 @@ VALUES
 ('Rucker'),
 ('Ruckert'),
 ('Ruckey'),
-('Ruckh'),
+
 ('Ruckheim'),
 ('Ruckin'),
 ('Rucklanthi'),
@@ -20633,7 +20633,7 @@ VALUES
 ('Rufeida'),
 ('Rufeil'),
 ('Rufena'),
-('Rufenacht'),
+
 ('Rufener'),
 ('Rufeng'),
 ('Rufer'),
@@ -21379,7 +21379,7 @@ VALUES
 ('Rumi'),
 ('Rumia'),
 ('Rumiana'),
-('Rumiancev'),
+
 ('Rumiancevas'),
 ('Rumicha'),
 ('Rumie'),
@@ -21691,7 +21691,7 @@ VALUES
 ('Runzler'),
 ('Ruo'),
 ('Ruobing'),
-('Ruocco'),
+
 ('Ruocen'),
 ('Ruochen'),
 ('Ruocheng'),
@@ -21894,14 +21894,14 @@ VALUES
 ('Rupping'),
 ('Rupple'),
 ('Rupply'),
-('Ruppprecht'),
-('Rupprecht'),
+
+
 ('Rupps'),
 ('Ruppy'),
 ('Rupra'),
 ('Ruprai'),
 ('Rupray'),
-('Ruprecht'),
+
 ('Rupright'),
 ('Rupsa'),
 ('Rupsana'),
@@ -22838,8 +22838,8 @@ VALUES
 ('Ryburn'),
 ('Rybynok'),
 ('Rycabel'),
-('Rycaj'),
-('Rycak'),
+
+
 ('Rycard'),
 ('Rycardas'),
 ('Ryce'),
@@ -22854,7 +22854,7 @@ VALUES
 ('Rychlewsk'),
 ('Rychta'),
 ('Rychter'),
-('Rycke'),
+
 ('Ryckeboer'),
 ('Ryckie'),
 ('Ryckman'),

@@ -15,7 +15,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:acres?|alley|approach|avenue|back|bad|banks?|barns?|bay|beach|bottom|boulevard|braes?|bridge|brook|buildings?|canal|castle|causeway|circle|circus|cliff|clough|close|common|coppice|copse|corner|cottages?|court(?:yard)?|covert|creek|crescent|croft|cross|dale|docks?|downs?|dr[io]ve|east|edge|esplanade|estate|farm|fell|fens?|fields?|flats?|fold|forest|gardens?|gate|geos?|glen|gorge|grange|green|grove|hall|harbour|head|heath|heights?|highway|hill|house|isle|jetty|junction|lake|lane|lawns?|leys?|loch|lodge|manor|marsh(?:es)?|meadows?|mead[es]?|mews|mills?|moors?|mount|north|orchards?|oval|paddock|parade|parks?|passage|pastures?|path|place|plains?|plaza|ponds?|pool|point|port|quadrant|quay|rd|reach|reservoir|ridge|rise|road|rocks?|row|sands|skerry|skerries|south|spinney|springs?|square|station|strand|street|tarn|terrace|tor|towers?|towns?|upper|vale|valley|view|villas?|village|walk|way|weir|west|woods?|yards?)\b'
+  '\b(?:acres?|alley|approach|avenue|back|bad|banks?|barns?|bay|beach|bottom|boulevard|braes?|bridge|broad(?:way)?|brook|buildings?|canal|castle|causeway|central|circle|circus|cliff|clough|close|common|coppice|copse|corner|cottages?|court(?:yard)?|covert|creek|crescent|croft|cross(?:ing)?|dale|docks?|downs?|dr[io]ve|east|edge|esplanade|estate|farm|fell|fens?|fields?|flats?|fold|forest|gardens?|gate|geos?|glen|gorge|grange|green|grove|hall|harbour|head|heath|heights?|highway|hill|house|island|isle|jetty|junction|lake|lane|lawns?|leys?|loch|lodge|manor|marsh(?:es)?|meadows?|mead[es]?|mews|mills?|moors?|mount|north|orchards?|oval|paddock|parade|parks?|passage|pastures?|path|place|plains?|plaza|ponds?|pool|point|port|quadrant|quay|rd|reach|reservoir|ridge|rise|road|rocks?|row|sands|skerry|skerries|south|spinney|springs?|square|station|strand|stream|street|tarn|terrace|tor|towers?|towns?|upper|vale|valley|view|villas?|villages?|walk|water(?:s|fall)?|way|weirs?|west|woods?|yards?)\b'
 ),
 (
   'Currency1', '#334320', 'Currency', 'CURRENCY', 'Regular expression',
@@ -90,7 +90,7 @@ VALUES
 (
   'NameRegExInitial', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 1, 1, 2,
-  '\s[A-Z]\.?\s'
+  '\b[A-Z]\b\.'
 ),
 (
   'NameRegEx', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
@@ -105,12 +105,12 @@ VALUES
 (
   'NameRegExB', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+b(?:a[a-dfh-kmo-qu-z]|b[a-xz]|[cdf-hjkmnpqstv-z][a-z]|e[a-cfg-km-qu-xz]|i[bfh-mo-ru-z]|k[io]|l[a-df-xz]|nn|o[a-mpuvz]|r[b-df-z]|u[acfh-mo-ru-xz]|y[kn]|z[io])\b'
+  '\b\w+b(?:a[a-dfh-kmo-qu-z]|b[a-xz]|[cdf-hjkmnpqstv-z][a-z]|e[a-cfg-km-qu-xz]|i[bfh-mo-ru-z]|k[io]|l[a-df-xz]|nn|o[a-mpuvz]|r[b-df-z]|u[acfh-mo-ru-xz]|y[kn]|z[a-z])\b'
 ),
 (
   'NameRegExC', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+c(?:c[aiz]|ek|ho|i[fhijkqruvwy]|k[aio]|nn|ou|sz|y[kn]|z[a-z])\b'
+  '\b\w+c(?:a[acdg-koquvz]|e[bcf-kmoqu-xz]|h[b-df-hj-rt-xz]|i[bf-kqru-z]|k[a-ot-xz]|l[b-df-np-xz]|nn|ou|sz|y[kn]|[b-dfjz][a-z])\b'
 ),
 (
   'NameRegExD', '#00a0ff', 'Name', 'NAME', 'Regular expression',

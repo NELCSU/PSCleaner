@@ -60,9 +60,9 @@ VALUES
   ('Vacchiano'),
   ('Vacchio'),
   ('Vacciana'),
-  ('Vacco'),
+  
   ('Vacer'),
-  ('Vacev'),
+  
   ('Vach'),
   ('Vacha'),
   ('Vachagan'),
@@ -1040,7 +1040,7 @@ VALUES
   ('Valciukaite'),
   ('Valciukiene'),
   ('Valciunaite'),
-  ('Valckx'),
+  
   ('Valcour'),
   ('Valcourt'),
   ('Valcu'),
@@ -1488,7 +1488,7 @@ VALUES
   ('Valkealahti'),
   ('Valkeasuo'),
   ('Valkema'),
-  ('Valkenburcht'),
+  
   ('Valker'),
   ('Valkeriene'),
   ('Valkeryte'),
@@ -2085,7 +2085,7 @@ VALUES
   ('Vancina'),
   ('Vancise'),
   ('Vancisin'),
-  ('Vancke'),
+  
   ('Vanckevicius'),
   ('Vanclay'),
   ('Vancleaf'),
@@ -2205,8 +2205,8 @@ VALUES
   ('Vandenbroeck'),
   ('Vandenbroeke'),
   ('Vandenbrook'),
-  ('Vandenbroucke'),
-  ('Vandenbulcke'),
+  
+  
   ('Vandenburgh'),
   ('Vandenbush'),
   ('Vandenbussche'),
@@ -2264,7 +2264,7 @@ VALUES
   ('Vandergriend'),
   ('Vandergriff'),
   ('Vandergrift'),
-  ('Vandergucht'),
+  
   ('Vanderhagen'),
   ('Vanderhall'),
   ('Vanderhart'),
@@ -2432,7 +2432,7 @@ VALUES
   ('Vanderwoodson'),
   ('Vanderwoude'),
   ('Vanderwyst'),
-  ('Vanderyacht'),
+  
   ('Vanderzanden'),
   ('Vanderzeil'),
   ('Vanderziel'),
@@ -2481,7 +2481,7 @@ VALUES
   ('Vandewettering'),
   ('Vandewiele'),
   ('Vandewoestyne'),
-  ('Vandeyacht'),
+  
   ('Vandezande'),
   ('Vandhana'),
   ('Vandi'),
@@ -2586,7 +2586,7 @@ VALUES
   ('Vanechand'),
   ('Vanechka'),
   ('Vaneck'),
-  ('Vanecke'),
+  
   ('Vanee'),
   ('Vaneeasha'),
   ('Vaneei'),
@@ -2776,7 +2776,7 @@ VALUES
   ('Vanhauen'),
   ('Vanhaverbeke'),
   ('Vanheck'),
-  ('Vanhecke'),
+  
   ('Vanhee'),
   ('Vanheel'),
   ('Vanhees'),
@@ -2796,7 +2796,7 @@ VALUES
   ('Vanhill'),
   ('Vanhinsbergh'),
   ('Vanhise'),
-  ('Vanhoecke'),
+  
   ('Vanhoesen'),
   ('Vanhofwegen'),
   ('Vanholland'),
@@ -2922,7 +2922,7 @@ VALUES
   ('Vankuren'),
   ('Vanlaanen'),
   ('Vanlaarhoven'),
-  ('Vanlaecke'),
+  
   ('Vanlaere'),
   ('Vanlalauva'),
   ('Vanlalsanglura'),
@@ -3140,7 +3140,7 @@ VALUES
   ('Vanpool'),
   ('Vanpoppelen'),
   ('Vanportfliet'),
-  ('Vanpoucke'),
+  
   ('Vanpouille'),
   ('Vanpoulle'),
   ('Vanpoville'),
@@ -4201,7 +4201,7 @@ VALUES
   ('Vasilauskiene'),
   ('Vasilav'),
   ('Vasilca'),
-  ('Vasilcau'),
+  
   ('Vasilchuk'),
   ('Vasilcin'),
   ('Vasilda'),
@@ -4868,7 +4868,7 @@ VALUES
   ('Vebr'),
   ('Veca'),
   ('Vecahet'),
-  ('Vecaj'),
+  
   ('Vecanique'),
   ('Vecchi'),
   ('Vecchiarello'),
@@ -4892,7 +4892,7 @@ VALUES
   ('Vecerskyte'),
   ('Vecheslav'),
   ('Vechi'),
-  ('Vecht'),
+  
   ('Vechter'),
   ('Vechus'),
   ('Veciaslavas'),
@@ -6578,7 +6578,7 @@ VALUES
   ('Verdiana'),
   ('Verdicchio'),
   ('Verdick'),
-  ('Verdickt'),
+  
   ('Verdiel'),
   ('Verdiell'),
   ('Verdier'),
@@ -6623,7 +6623,7 @@ VALUES
   ('Verediano'),
   ('Veredibina'),
   ('Veree'),
-  ('Vereecke'),
+  
   ('Vereecken'),
   ('Vereeke'),
   ('Vereen'),
@@ -6742,7 +6742,7 @@ VALUES
   ('Verhas'),
   ('Verhasselt'),
   ('Verhat'),
-  ('Verheecke'),
+  
   ('Verheek'),
   ('Verhees'),
   ('Verheggen'),
@@ -7180,7 +7180,7 @@ VALUES
   ('Verster'),
   ('Versteynen'),
   ('Verstinskiene'),
-  ('Verstockt'),
+  
   ('Verstoep'),
   ('Verstraaten'),
   ('Verstrae'),
@@ -7252,7 +7252,7 @@ VALUES
   ('Verute'),
   ('Vervaart'),
   ('Vervaeck'),
-  ('Vervaecke'),
+  
   ('Vervain'),
   ('Vervalin'),
   ('Vervelde'),
@@ -7743,7 +7743,7 @@ VALUES
   ('Vibby'),
   ('Vibe'),
   ('Vibeche'),
-  ('Vibecke'),
+  
   ('Vibeke'),
   ('Vibekke'),
   ('Vibenche'),
@@ -7837,7 +7837,7 @@ VALUES
   ('Vichitsorasatra'),
   ('Vichot'),
   ('Vichoudis'),
-  ('Vicht'),
+  
   ('Vichuta'),
   ('Vician'),
   ('Viciano'),
@@ -9210,7 +9210,7 @@ VALUES
   ('Ville'),
   ('Villeas'),
   ('Villebrun'),
-  ('Villecco'),
+  
   ('Villecus'),
   ('Villega'),
   ('Villegas'),
@@ -9247,7 +9247,7 @@ VALUES
   ('Villery'),
   ('Villesca'),
   ('Villescas'),
-  ('Villescaz'),
+  
   ('Villeseche'),
   ('Villet'),
   ('Villetas'),
@@ -9433,7 +9433,7 @@ VALUES
   ('Vin'),
   ('Vina'),
   ('Vinaayak'),
-  ('Vinacco'),
+  
   ('Vinache'),
   ('Vinachi'),
   ('Vinader'),
@@ -10524,7 +10524,7 @@ VALUES
   ('Visintainer'),
   ('Visintin'),
   ('Visintine'),
-  ('Visitacao'),
+  
   ('Visitacion'),
   ('Visiter'),
   ('Visitha'),
@@ -10689,7 +10689,7 @@ VALUES
   ('Viszokai'),
   ('Vit'),
   ('Vitabile'),
-  ('Vitacco'),
+  
   ('Vitae'),
   ('Vitagliano'),
   ('Vitaglione'),
@@ -11293,7 +11293,7 @@ VALUES
   ('Vlalee'),
   ('Vlami'),
   ('Vlaminck'),
-  ('Vlaminckx'),
+  
   ('Vlamings'),
   ('Vlamis'),
   ('Vlancea'),
@@ -11387,7 +11387,7 @@ VALUES
   ('Voborna'),
   ('Vobruba'),
   ('Voca'),
-  ('Vocaj'),
+  
   ('Vocat'),
   ('Vocaturo'),
   ('Voccia'),
@@ -11404,7 +11404,7 @@ VALUES
   ('Vocino'),
   ('Vocisano'),
   ('Vock'),
-  ('Vocke'),
+  
   ('Vockins'),
   ('Vockner'),
   ('Vocosin'),
@@ -11646,7 +11646,7 @@ VALUES
   
   ('Vojcic'),
   ('Vojdanie'),
-  ('Vojencak'),
+  
   ('Vojetch'),
   ('Vojevodina'),
   
@@ -11701,7 +11701,7 @@ VALUES
   ('Volbikaite'),
   ('Volbis'),
   ('Volbona'),
-  ('Volbrecht'),
+  
   ('Volc'),
   ('Volcan'),
   ('Volcano'),
@@ -11802,8 +11802,8 @@ VALUES
   ('Vollance'),
   ('Volland'),
   ('Vollans'),
-  ('Vollbracht'),
-  ('Vollbrecht'),
+  
+  
   ('Volle'),
   ('Vollebery'),
   ('Vollen'),
@@ -11970,7 +11970,7 @@ VALUES
   ('Vonchev'),
   ('Voncila'),
   ('Vonck'),
-  ('Vonckx'),
+  
   ('Voncripps'),
   ('Vonda'),
   ('Vondal'),
@@ -12015,7 +12015,7 @@ VALUES
   ('Vongai'),
   ('Vongaishe'),
   ('Vongal'),
-  ('Vongchu'),
+  
   ('Vonge'),
   ('Vongerichten'),
   ('Vongli'),
@@ -12171,8 +12171,8 @@ VALUES
   ('Vordbejiene'),
   ('Vorderbruggen'),
   ('Vorderstrasse'),
-  ('Vorderwuelbecke'),
-  ('Vorderwulbecke'),
+  
+  
   ('Vordlal'),
   ('Vordogiannis'),
   ('Vore'),
@@ -12688,7 +12688,7 @@ VALUES
   ('Vuakanisakea'),
   ('Vuangi'),
   ('Vubu'),
-  ('Vucaj'),
+  
   ('Vucane'),
   ('Vucea'),
   
@@ -12744,7 +12744,7 @@ VALUES
   ('Vukadin'),
   ('Vukasin'),
   ('Vukatana'),
-  ('Vukcaj'),
+  
   ('Vukelic'),
   ('Vukelj'),
   ('Vukile'),
@@ -12758,7 +12758,7 @@ VALUES
   ('Vukotic'),
   ('Vuksa'),
   ('Vuksanaj'),
-  ('Vuksanbrucaj'),
+  
   ('Vukson'),
   ('Vula'),
   ('Vulaj'),
@@ -12981,7 +12981,7 @@ VALUES
   ('Vylmantas'),
   ('Vylopilly'),
   ('Vynarchuk'),
-  ('Vyncke'),
+  
   ('Vyner'),
   ('Vynette'),
   ('Vyniauskaite'),
@@ -12992,7 +12992,7 @@ VALUES
   ('Vyom'),
   ('Vyoma'),
   ('Vyomesh'),
-  ('Vypricke'),
+  
   ('Vyragaram'),
   ('Vyramutha'),
   ('Vyrapilla'),

@@ -271,11 +271,13 @@ export class NLP {
       }
       let srch = value.toLowerCase();
       if (test.indexOf(srch) > -1) {
-        const inspect: string = test.substr(term.start, srch.length);
+        let inspect: string = test.substr(term.start, srch.length);
         if (inspect === srch) {
           if (added_check) {
             const re = new RegExp("\\b" + srch + "\\b", "gmi");
-            added_check = !re.test(test);
+            // check that match is not part of a longer word (e.g. word boundary missed in initial check)
+            inspect = test.substr(term.start > 0 ? term.start - 1 : 0, term.start > 0 ? srch.length + 2 : srch.length + 1);
+            added_check = !re.test(inspect);
           }
           if (!added_check) {
             r.push({
