@@ -15,7 +15,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:acres?|alley|approach|avenue|back|bad|banks?|barns?|bay|beach|bottom|boulevard|braes?|bridge|broad(?:way)?|brook|buildings?|canal|castle|causeway|central|circle|circus|cliff|clough|close|common|coppice|copse|corner|cottages?|court(?:yard)?|covert|creek|crescent|croft|cross(?:ing)?|dale|docks?|downs?|dr[io]ve|east|edge|esplanade|estate|farm|fell|fens?|fields?|flats?|fold|forest|gardens?|gate|geos?|glen|gorge|grange|green|grove|hall|harbour|head|heath|heights?|highway|hill|house|island|isle|jetty|junction|lake|lane|lawns?|leys?|loch|lodge|manor|marsh(?:es)?|meadows?|mead[es]?|mews|mills?|moors?|mount|north|orchards?|oval|paddock|parade|parks?|passage|pastures?|path|place|plains?|plaza|ponds?|pool|point|port|quadrant|quay|rd|reach|reservoir|ridge|rise|road|rocks?|row|sands|skerry|skerries|south|spinney|springs?|square|station|strand|stream|street|tarn|terrace|tor|towers?|towns?|upper|vale|valley|view|villas?|villages?|walk|water(?:s|fall)?|way|weirs?|west|woods?|yards?)\b'
+  '\b(?:abbey|acres?|alley|approach|avenue|back|bad|banks?|barns?|bay|beach|bottom|boulevard|braes?|bridge|broad(?:way)?|brook|buildings?|canal|castle|causeway|central|circle|circus|cliff|clough|close|common|coppices?|copse|corner|cottages?|court(?:yard)?|covert|creek|crescent|croft|cross(?:ing)?|dales?|ditch|docks?|downs?|dr[io]ve|east|edge|esplanade|estate|farm|fell|fens?|fields?|flats?|fold|ford|forest|gardens?|gate|geos?|glade|glen|gorge|grange|green|ground|groves?|gully|hall|harbour|head|heath|heights?|highway|hills?|houses?|island|isle|jetty|junction|lake|lane|lawns?|leys?|loch|lodge|manor|marsh(?:es)?|meadows?|mead[es]?|mere|mews|mills?|moors?|mount|north|orchards?|oval|paddock|parade|parks?|passage|pastures?|path|pier|place|plains?|plaza|ponds?|pool|point|port|quadrant|quay|range|rd|reach|reservoir|ridge|rise|river|road|rocks?|row|sands|skerry|skerries|south|spinney|springs?|square|station|strand|stream|street|tarn|terrace|tor|towers?|towns?|upper|vale|valley|view|villas?|villages?|walk|water(?:s|fall)?|way|weirs?|west|woods?|yards?)\b'
 ),
 (
   'Currency1', '#334320', 'Currency', 'CURRENCY', 'Regular expression',
@@ -73,8 +73,8 @@ VALUES
   '\b(?:[''\w+\-\_\.]+)@(?:[\w+\-\_\.]+)\b'
 ),
 (
-  'Nationality', '#0050ff', 'Reference', 'ATTRIBUTE', 'Multiple term', 
-  1, 0, 0, 3,
+  'Nationality', '#0050ff', 'Name', 'NAME', 'Multiple term', 
+  1, 0, 1, 3,
   ''
 ),
 (
@@ -95,137 +95,137 @@ VALUES
 (
   'NameRegEx', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 0, 1, 3,
-  '\b\w+(?:dran?|\wcz\w+|iute|lund)\b'
+  '\b[a-z]+(?:dran?|[a-z]cz[a-z]+|iute|lund)\b'
 ),
 (
   'NameRegExA', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+a(?:a[a-z]|b[a-rt-z]|c[a-df-gijl-ru-xz]|d[a-df-np-rtu-xz]|e[a-ce-z]|f[a-dg-ru-xz]|g[a-df-hj-np-rt-xz]|h[b-rt-z]|i[abef-ko-qu-z]|j[a-z]|k[a-df-rt-xz]|l[bcghjnqru-xz]|m[cdf-hj-mqru-xz]|n[bcfhijl-np-ru-xz]|o[a-rt-z]|p[a-dfgi-np-ru-xz]|q[a-z]|r[acg-joqu-xz]|s[a-dfgijloqru-xz]|t[b-dfgi-ru-xz]|u[a-ce-km-qu-z]|v[b-df-np-xz]|w[a-jmo-qrt-z]|x[a-xz]|y[a-rt-z]|z[a-df-xz])\b'
+  '\b[a-zàèéìòóùäöüß]+a(?:a[a-z]|b[a-rt-z]|c[a-df-gijl-ru-xz]|d[a-df-np-rtu-xz]|e[a-ce-z]|f[a-dg-ru-xz]|g[a-df-hj-np-rt-xz]|h[b-rt-z]|i[abef-ko-qu-z]|j[a-z]|k[a-df-rt-xz]|l[bcghjnqru-xz]|m[cdf-hj-mqru-xz]|n[bcfhijl-np-ru-xz]|o[a-rt-z]|p[a-dfgi-np-ru-xz]|q[a-z]|r[acg-joqu-xz]|s[a-dfgijloqru-xz]|t[b-dfgi-ru-xz]|u[a-ce-km-qu-z]|v[b-df-np-xz]|w[a-jmo-qrt-z]|x[a-xz]|y[a-rt-z]|z[a-df-xz])\b'
 ),
 (
   'NameRegExB', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+b(?:a[a-dfh-kmo-qu-z]|b[a-xz]|[cdf-hjkmnpqstv-z][a-z]|e[a-cfg-km-qu-xz]|i[bfh-mo-ru-z]|k[io]|l[a-df-xz]|nn|o[a-mpuvz]|r[b-df-z]|u[acfh-mo-ru-xz]|y[kn]|z[a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+b(?:a[a-dfh-kmo-qtu-z]|b[a-xz]|[cdf-hjkmnpqstv-z][a-z]|e[a-cfg-km-qu-xz]|i[bfh-mo-ru-z]|k[io]|l[a-df-xz]|nn|o[a-mpuvz]|r[b-df-z]|u[acfh-mo-ru-xz]|y[kn]|z[a-z])\b'
 ),
 (
   'NameRegExC', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+c(?:a[acdg-koquvz]|e[bcf-kmoqu-xz]|h[b-df-hj-rt-xz]|i[bf-kqru-z]|k[a-ot-xz]|l[b-df-np-xz]|nn|ou|sz|y[kn]|[b-dfjz][a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+c(?:a[acdg-koquvz]|e[bcf-kmoqu-xz]|h[b-df-rt-xz]|i[bf-kqru-z]|k[a-ot-xz]|l[b-df-np-xz]|nn|ou|sz|y[knr]|[b-dfjz][a-z])\b'
 ),
 (
   'NameRegExD', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+d(?:an|cz|d[eu]|e[ahk]|ho|i[fghijkqruvwy]|k[io]|lo|nn|ou|r[eio]|sz|ur|y[kn]|z[a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+d(?:an|cz|d[eu]|e[ah-k]|ho|i[fghijkqruvwy]|k[io]|lo|nn|ou|r[eio]|sz|u[lr]|y[kn]|[mqz][a-z])\b'
 ),
 (
   'NameRegExE', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+e(?:cz|d[adt]|ho|i[fhijkquvwy]|j[in]|k[io]|n[in]|o[lu]|r[gi]|s[iz]|tt|va|y[kn]|z[a-df-xz])\b'
+  '\b[a-zàèéìòóùäöüß]+e(?:au|cz|d[adt]|ho|i[fhijkquvwy]|j[in]|k[a-io]|n[in]|o[lu]|r[gi]|s[iz]|tt|ux|v[au]|y[kn]|z[a-df-xz])\b'
 ),
 (
   'NameRegExF', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+f(?:al|cz|et|ho|i[fhijkqruvwy]|ja|k[io]|li|n[in]|ou|sz|y[kn]|z[a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+f(?:a[lk]e[ft]|ho|i[e-kqru-wy]|ja|k[io]|li|n[in]|ou|sz|y[kn]|[bcqz][a-z])\b'
 ),
 (
   'NameRegExG', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 0, 1, 2,
-  '\b\w+g(?:aj|cz|h[ao]|i[fhijkmqruvwy]|ji|k[io]|lu|ma|n[an]|ou|sz|ui|we|xi|y[eiknu]|z[eio])\b'
+  '\b[a-zàèéìòóùäöüß]+g(?:aj|cz|h[ao]|i[fhi-kmoqruvwy]|ji|k[aio]|lu|ma|n[an]|ou|sz|ui|we|xi|y[aeiknu]|[qz][a-z])\b'
 ),
 (
   'NameRegExH', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+h(?:a[imnor]|cz|ek|ho|i[afhijkqruvwy]|k[io]|le|n[ny]|ou|sz|um|wa|y[kn]|ra|z[a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+h(?:a[dikmnor]|cz|da|e[kv]|ho|i[afhijkqruvwy]|k[io]|le|n[ny]|ou|sz|um|wa|y[kn]|ra|[qvz][a-z])\b'
 ),
 (
   'NameRegExI', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+i(?:a[abf-kmo-qu-z]|b[a-df-rt-z]|c[b-df-jl-ru-xz]|e[ckn]|f[al]|ho|ir|j[aekt]|k[aio]|l[bcg-ju-xz]|n[in]|ou|pa|ri|sz|t[acdgjl-npru-xz]|uc|w[ae]|[xy][a-z]|z[a-df-y])\b'
+  '\b[a-zàèéìòóùäöüß]+i(?:a[abf-kmo-qu-z]|b[a-df-rt-z]|c[b-df-jl-ru-xz]|d[it]|e[cknv]|f[al]|ho|ir|j[aeknt]|k[aio]|l[bcg-ju-xz]|n[in]|ou|pa|r[io]|sz|t[acdgjl-npru-xz]|uc|w[ae]|[xy][a-z]|z[a-df-y])\b'
 ),
 (
   'NameRegExJ', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+j(?:[a-df-z][a-z]|e[a-su-z])\b'
+  '\b[a-zàèéìòóùäöüß]+j(?:[a-df-z][a-z]|e[a-su-z])\b'
 ),
 (
   'NameRegExK', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+k(?:a[jnrs]|cz|h[aeos]|i[abcfhijkqrsuvwy]|k[io]|nn|o[su]|p[s]|ro|s[sz]|u[fns]|w[aeiou]|y[kns]|z[a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+k(?:a[jnrs]|cz|h[aeos]|i[a-cfh-kmqrsu-z]|k[io]|nn|o[su]|p[s]|ro|s[asz]|ta|u[fns]|w[aeiou]|y[kns]|[qz][a-z])\b'
 ),
 (
   'NameRegExL', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+l(?:ak|c[oz]|ek|fo|ho|i[fghijkqruvwy]|j[ao]|k[aio]|li|ma|n[an]|ou|p[ao]|sz|ta|u[afr]|y[akn]|z[a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+l(?:a[ik]|c[oz]|da|ek|fo|ho|i[fghijkqruvwy]|j[ao]|k[aio]|li|ma|n[an]|ou|p[ao]|sz|ta|u[afr]|y[akn]|[qz][a-z])\b'
 ),
 (
   'NameRegExM', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+m(?:a[io]|cz|ek|ho|i[fh-kqruvwy]|k[io]|l[ae]|ke|nn|o[uv]|sz|y[knr]|z[a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+m(?:a[a-kmoqu-wyz]|[bn][a-rt-z]|e[a-ce-kmo-qu-z]|i[bf-kmo-ru-z]|l[a-xz]|m[b-df-xz]|o[a-lo-qt-wz]|p[a-gj-nru-xz]|u[a-ln-pu-wyz]|y[a-km-z]|[cdf-hjkqr-tv-xz][a-z])\b'
 ),
 (
   'NameRegExN', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+n(?:a[bhmn]|bu|c[az]|e[kz]|ga|ho|i[fhijkqruvwy]|j[ai]|k[ilo]|n[aeinu]|ou|pd|sz|t[iul]|y[ikn]|z[b-z])\b'
+  '\b[a-zàèéìòóùäöüß]+n(?:a[bhjmn]|b[ou]|c[az]|di|e[kz]|ga|ho|i[f-kqru-wy]|j[ai]|k[ailo]|n[aeinu]|ou|pd|sz|t[iluz]|x[a-z]|y[ikn]|[qz][b-z])\b'
 ),
 (
   'NameRegExO', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+o(?:ao|cz|e[kl]|ff|h[io]|i[fhijkquvwy]|k[io]|lo|mo|n[in]|[tv]i|ou|r[cf]|sz|u[aimnw]|va|y[kn]|z[io])\b'
+  '\b[a-zàèéìòóùäöüß]+o(?:ao|ba|cz|e[kln]|f[fo]|h[io]|i[fhijkqu-z]|k[io]|ja|lo|mo|n[in]|[tv]i|ou|r[cf]|sz|u[aim-owx]|va|y[kn]|z[a-df-xz])\b'
 ),
 (
   'NameRegExP', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+p(?:cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|sz|ur|y[kn]|z[a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+p(?:cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|sz|ur|y[kn]|z[a-z])\b'
 ),
 (
   'NameRegExQ', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+q(?:i[fhijkqruvwy]|k[io]|ou|[a-df-hjl-nr-tv-z][a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+q(?:i[fhijkqruvwy]|k[io]|ou|[a-df-hjl-nr-tv-z][a-z])\b'
 ),
 (
   'NameRegExR', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+r(?:a[hjr]|ba|c[aoz]|dd|e[bckv]|fi|ho|i[bfhijkqruvwy]|k[aio]|nn|o[dmu]|ra|sz|ub|y[aeklnu]|z[a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+r(?:a[hjr]|ba|c[aoz]|dd|e[bcgkvz]|fi|ho|i[bfhijkqruvwy]|k[aio]|nn|o[dmu]|ra|s[iz]|ub|y[aeklnu]|[qz][a-z])\b'
 ),
 (
   'NameRegExS', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+s(?:ak|c[houz]|ev|h[iou]|i[fhijkqruvwy]|k[aeioy]|nn|ou|sz|uk|y[kn]|z[io])\b'
+  '\b[a-zàèéìòóùäöüß]+s(?:ak|c[houz]|ev|h[iou]|i[fhijkqruvwy]|k[aeioy]|nn|ou|sz|uk|wa|y[kn]|[bz][a-z])\b'
 ),
 (
   'NameRegExT', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+t(?:a[dio]|cz|ek|h[ou]|i[fhijkquvwy]|k[aio]|nn|ou|ri|s[az]|t[il]|ua|v[ai]|y[kn]|z[a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+t(?:a[dhio]|c[a-gi-z]|e[bcfghjkoqu-wz]|h[b-df-hj-ln-rt-xz]|i[bfhijkqu-z]|l[a-df-xz]|o[a-df-ktuvz]|r[b-df-np-s-xz]|s[a-f-tv-xz]|t[b-df-np-rt-xz]|u[acf-oqt-z]|[bdfgjkmnpqv-z][a-z])\b'
 ),
 (
   'NameRegExU', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+u(?:a[a-df-km-su-z]|bb|c[uz]|da|g[ag]|ho|i[fhijkqruvwy]|ji|k[io]|lu|n[inou]|ou|rg|sz|tz|u[aer]|wa|y[eikn]|z[eiou])\b'
+  '\b[a-zàèéìòóùäöüß]+u(?:a[a-df-km-su-z]|bb|c[uz]|da|g[ag]|ho|i[fhijkqruvwy]|ji|k[ios]|lu|n[inou]|ou|rg|s[iz]|tz|u[aer]|wa|y[eikn]|z[eiou])\b'
 ),
 (
   'NameRegExV', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+v(?:a[a-df-kmo-qu-z]|be|cz|ho|i[cfhijkqrtuvwy]|k[aio]|nn|o[cu]|s[kz]|y[kn]|z[a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+v(?:a[a-df-kmo-qu-z]|be|cz|ho|i[cfhijkqrtuvwy]|k[aioy]|nn|o[cu]|s[kz]|y[kn]|[qpz][a-z])\b'
 ),
 (
   'NameRegExW', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+w(?:a[a-km-qt-vz]|b[aieoruy]|c[aehkosyz]|d[adeinou]|e[ikn]|ho|i[fhijkqruvwy]|k[io]|nn|ou|ra|sz|y[kn]|z[io])\b'
+  '\b[a-zàèéìòóùäöüß]+w(?:a[a-km-qt-vz]|b[aieoruy]|c[aehkosyz]|d[adeinou]|e[ikn]|ho|i[fhijkqruvwy]|k[io]|nn|ou|ra|sz|y[kn]|z[io])\b'
 ),
 (
   'NameRegExX', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+x(?:ai|ba|cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|s[a-z]|t[a-xz]|[u-z][a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+x(?:ai|ba|cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|s[a-z]|t[a-xz]|[u-z][a-z])\b'
 ),
 (
   'NameRegExY', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+y(?:a[dhor]|ba|c[hkz]|d[ay]|el|ga|h[ao]|i[fhijkqru-wy]|k[aio]|li|n[an]|ou|ra|s[ksz]|t[ao]|[u-z][a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+y(?:a[dhor]|ba|c[hkz]|d[ady]|el|ga|h[ao]|i[fhijkqru-wy]|k[aio]|li|n[an]|ou|ra|s[ksz]|t[ao]|[u-z][a-z])\b'
 ),
 (
   'NameRegExZ', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b\w+z(?:[ai][a-rt-z]|[b-df-hjkmnp-z][a-z]|e[a-ce-mo-qt-z]|l[a-df-z]|o[b-rt-z])\b'
+  '\b[a-zàèéìòóùäöüß]+z(?:[ai][a-rt-z]|[b-df-hjkmnp-z][a-z]|e[a-ce-mo-qt-z]|l[a-df-z]|o[b-rt-z])\b'
 ),
 (
   'PlaceName', '#80ff00', 'Name', 'LOCATION', 'Multiple term',
@@ -273,8 +273,8 @@ VALUES
   '(?:\+?\(?44\)?|0044\s?)\s?\(?0?\)?\s?\d\s?\d\)?[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d?'
 ),
 (
-  'Territory', '#80ff80', 'Location', 'LOCATION', 'Multiple term',
-  1, 0, 0, 3,
+  'Territory', '#80ff80', 'Name', 'NAME', 'Multiple term',
+  1, 0, 1, 3,
   ''
 ),
 (
