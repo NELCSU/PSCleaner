@@ -157,7 +157,7 @@ VALUES
 ('Fabrick'),
 ('Fabriella'),
 ('Fabrigar'),
-('Fabrigio'),
+
 ('Fabrikant'),
 ('Fabrina'),
 ('Fabrine'),
@@ -544,7 +544,7 @@ VALUES
 ('Faggiano'),
 ('Faggin'),
 ('Faggins'),
-('Faggio'),
+
 ('Faggion'),
 ('Faggiotto'),
 ('Faggotter'),
@@ -2742,7 +2742,7 @@ VALUES
 ('Farru'),
 ('Farruca'),
 ('Farruggia'),
-('Farruggio'),
+
 ('Farrugia'),
 ('Farruh'),
 ('Farruk'),
@@ -9934,7 +9934,7 @@ VALUES
 ('Font'),
 ('Fonta'),
 ('Fontae'),
-('Fontagio'),
+
 ('Fontagneu'),
 ('Fontain'),
 ('Fontaina'),
@@ -10320,7 +10320,7 @@ VALUES
 ('Forlow'),
 ('Formaggi'),
 ('Formaggia'),
-('Formaggio'),
+
 ('Formaglio'),
 ('Formakovs'),
 ('Formales'),
@@ -12946,7 +12946,7 @@ VALUES
 ('Froggat'),
 ('Froggatt'),
 ('Frogge'),
-('Froggio'),
+
 ('Froggitt'),
 ('Frogley'),
 ('Frogner'),

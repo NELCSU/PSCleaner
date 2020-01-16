@@ -1763,7 +1763,7 @@ VALUES
 ('Ignaciuk'),
 ('Ignaclo'),
 ('Ignacy'),
-('Ignagio'),
+
 ('Ignagni'),
 ('Ignago'),
 ('Ignaitus'),

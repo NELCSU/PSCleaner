@@ -2036,7 +2036,7 @@ VALUES
 ('Panagatos'),
 ('Panagavil'),
 ('Panager'),
-('Panaggio'),
+
 ('Panaghiotis'),
 ('Panaghoulis'),
 ('Panagi'),
@@ -5673,7 +5673,7 @@ VALUES
 ('Patroklis'),
 ('Patroklos'),
 ('Patrolina'),
-('Patronaggio'),
+
 ('Patronas'),
 ('Patrone'),
 ('Patronel'),
@@ -7426,7 +7426,7 @@ VALUES
 ('Pelagia'),
 ('Pelagias'),
 ('Pelagie'),
-('Pelagio'),
+
 ('Pelais'),
 ('Pelaj'),
 ('Pelakauskaite'),
@@ -12045,7 +12045,7 @@ VALUES
 ('Pieraite'),
 ('Pierallis'),
 ('Pieralvise'),
-('Pierambrogio'),
+
 ('Pierandrea'),
 ('Pierandrei'),
 ('Pieranela'),
@@ -12084,8 +12084,8 @@ VALUES
 ('Pierfranco'),
 ('Piergeti'),
 ('Piergiacomi'),
-('Piergiogio'),
-('Piergiorgio'),
+
+
 ('Piergiuseppe'),
 ('Piergrossi'),
 ('Pierick'),
@@ -15345,7 +15345,7 @@ VALUES
 ('Poggi'),
 ('Poggia'),
 ('Poggiali'),
-('Poggio'),
+
 ('Poggioli'),
 ('Poghirc'),
 ('Poghossian'),
@@ -22516,7 +22516,7 @@ VALUES
 ('Pusztan'),
 ('Pusztay'),
 ('Puta'),
-('Putaggio'),
+
 ('Putala'),
 ('Putalavage'),
 ('Putan'),

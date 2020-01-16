@@ -6093,7 +6093,7 @@ VALUES
 ('Nbeba'),
 ('Nbefe'),
 ('Nbegwa'),
-('Nbigio'),
+
 ('Nbihah'),
 ('Nbokoso'),
 ('Nboma'),
@@ -9762,7 +9762,7 @@ VALUES
 ('Nginilla'),
 ('Nginya'),
 ('Nginyo'),
-('Ngio'),
+
 ('Ngion'),
 ('Ngioto'),
 ('Ngipdjo'),

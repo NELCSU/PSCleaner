@@ -406,7 +406,7 @@ VALUES
 ('Wagidoso'),
 ('Wagieallah'),
 ('Wagiel'),
-('Wagio'),
+
 ('Wagisha'),
 ('Wagland'),
 ('Wagle'),

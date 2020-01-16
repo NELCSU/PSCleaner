@@ -10096,7 +10096,7 @@ VALUES
 ('Oregel'),
 ('Oregge'),
 ('Oreggia'),
-('Oreggio'),
+
 ('Oregomisan'),
 ('Oregory'),
 ('Oregunwa'),
@@ -10784,7 +10784,7 @@ VALUES
 ('Orokpo'),
 ('Orola'),
 ('Oroli'),
-('Orologio'),
+
 ('Oroma'),
 ('Orome'),
 ('Oromi'),

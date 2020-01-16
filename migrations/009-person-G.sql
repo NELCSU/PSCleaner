@@ -6452,7 +6452,7 @@ VALUES
 ('Georginel'),
 ('Georginia'),
 ('Georgino'),
-('Georgio'),
+
 ('Georgiopoulos'),
 ('Georgios'),
 ('Georgious'),
@@ -8934,7 +8934,7 @@ VALUES
 ('Gianfelice'),
 ('Gianferro'),
 ('Gianfilippo'),
-('Gianformaggio'),
+
 ('Gianforte'),
 ('Gianfranco'),
 ('Gianfrate'),
@@ -10341,7 +10341,7 @@ VALUES
 ('Gioffre'),
 ('Giogia'),
 ('Giogiana'),
-('Giogio'),
+
 ('Giogios'),
 ('Giogo'),
 ('Giogonda'),
@@ -10417,7 +10417,7 @@ VALUES
 ('Giorgica'),
 ('Giorgina'),
 ('Giorgino'),
-('Giorgio'),
+
 ('Giorgione'),
 ('Giorgios'),
 ('Giorgis'),
@@ -10645,7 +10645,7 @@ VALUES
 ('Girgil'),
 ('Girgin'),
 ('Girginok'),
-('Girgio'),
+
 ('Girgis'),
 ('Girgla'),
 ('Girgorios'),
@@ -11038,7 +11038,7 @@ VALUES
 ('Giuffrida'),
 ('Giuffrido'),
 ('Giugale'),
-('Giuggio'),
+
 ('Giuglea'),
 ('Giugler'),
 ('Giugliano'),
@@ -14784,7 +14784,7 @@ VALUES
 ('Gorgie'),
 ('Gorgin'),
 ('Gorgina'),
-('Gorgio'),
+
 ('Gorgipour'),
 ('Gorgis'),
 ('Gorglione'),
@@ -17155,7 +17155,7 @@ VALUES
 ('Gregg'),
 ('Greggain'),
 ('Greggains'),
-('Greggio'),
+
 ('Greggo'),
 ('Greggor'),
 ('Greggory'),
@@ -17778,10 +17778,10 @@ VALUES
 ('Grigg'),
 ('Griggers'),
 ('Griggi'),
-('Griggio'),
+
 ('Griggs'),
 ('Grigiene'),
-('Grigio'),
+
 ('Grigis'),
 ('Grigjane'),
 ('Griglen'),

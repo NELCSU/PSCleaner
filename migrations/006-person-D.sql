@@ -1808,7 +1808,7 @@ VALUES
 ('Dambre'),
 ('Dambreville'),
 ('Dambrine'),
-('Dambrogio'),
+
 ('Dambros'),
 ('Dambrose'),
 ('Dambrosi'),
@@ -2391,7 +2391,7 @@ VALUES
 ('Dangiel'),
 ('Dangiger'),
 ('Danging'),
-('Dangio'),
+
 ('Dangiolellla'),
 ('Dangiolillo'),
 ('Dangira'),
@@ -5033,7 +5033,7 @@ VALUES
 ('Dazmen'),
 ('Dazy'),
 ('Dbache'),
-('Dbaggio'),
+
 ('Dbeey'),
 ('Dborin'),
 ('Dbouk'),
@@ -5118,7 +5118,7 @@ VALUES
 ('Dealy'),
 ('Deam'),
 ('Deamaral'),
-('Deambrogio'),
+
 ('Deambrosis'),
 ('Deamear'),
 ('Deamer'),
@@ -6441,7 +6441,7 @@ VALUES
 ('Degioannis'),
 ('Degiodio'),
 ('Degiorgi'),
-('Degiorgio'),
+
 ('Degirige'),
 ('Degirmenci'),
 ('Degirmengi'),
@@ -7647,7 +7647,7 @@ VALUES
 ('Deligencia'),
 ('Deligiannis'),
 ('Deligiannopoulos'),
-('Deligio'),
+
 ('Deligiorgi'),
 ('Deligkaris'),
 ('Deligny'),
@@ -8064,7 +8064,7 @@ VALUES
 ('Deloyer'),
 ('Delozier'),
 ('Delp'),
-('Delpaggio'),
+
 ('Delpalacio'),
 ('Delpeache'),
 ('Delpech'),
@@ -8301,7 +8301,7 @@ VALUES
 ('Dem'),
 ('Dema'),
 ('Demaertelaere'),
-('Demaggio'),
+
 ('Demagistris'),
 ('Demaicsek'),
 ('Demaid'),
@@ -13821,7 +13821,7 @@ VALUES
 ('Digem'),
 ('Digena'),
 ('Digeorge'),
-('Digeorgio'),
+
 ('Digerlando'),
 ('Digerolamo'),
 ('Digeronimo'),
@@ -13870,7 +13870,7 @@ VALUES
 ('Digings'),
 ('Digioia'),
 ('Digiorgi'),
-('Digiorgio'),
+
 ('Digiorno'),
 ('Digiovine'),
 ('Digirolamo'),
@@ -14483,7 +14483,7 @@ VALUES
 ('Dimadis'),
 ('Dimador'),
 ('Dimafelix'),
-('Dimaggio'),
+
 ('Dimaityte'),
 ('Dimakopoulos'),
 ('Dimal'),
@@ -18021,7 +18021,7 @@ VALUES
 ('Donadussi'),
 ('Donae'),
 ('Donafee'),
-('Donaggio'),
+
 ('Donaghe'),
 ('Donaghey'),
 ('Donaghue'),

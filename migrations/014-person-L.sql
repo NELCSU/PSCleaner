@@ -6968,7 +6968,7 @@ VALUES
 ('Ledebuhr'),
 ('Ledec'),
 ('Ledee'),
-('Ledegio'),
+
 ('Ledeliane'),
 ('Ledeme'),
 ('Leden'),
@@ -7518,7 +7518,7 @@ VALUES
 ('Leggiero'),
 ('Leggin'),
 ('Leggins'),
-('Leggio'),
+
 ('Leggitt'),
 ('Leggo'),
 ('Leggott'),
@@ -8699,7 +8699,7 @@ VALUES
 ('Lenghen'),
 ('Lengher'),
 ('Lengi'),
-('Lengio'),
+
 ('Lengkeek'),
 ('Lengle'),
 ('Lengline'),
@@ -11726,7 +11726,7 @@ VALUES
 ('Liggin'),
 ('Liggings'),
 ('Liggins'),
-('Liggio'),
+
 ('Liggis'),
 ('Liggison'),
 ('Liggitt'),
@@ -11771,7 +11771,7 @@ VALUES
 ('Ligiane'),
 ('Ligiela'),
 ('Ligin'),
-('Ligio'),
+
 ('Ligitas'),
 ('Ligkonis'),
 ('Ligler'),
@@ -19529,7 +19529,7 @@ VALUES
 ('Luretta'),
 ('Lurey'),
 ('Lurger'),
-('Lurgio'),
+
 ('Luri'),
 ('Luria'),
 ('Lurian'),

@@ -31659,7 +31659,7 @@ VALUES
 ('Kyresh'),
 ('Kyresha'),
 ('Kyresse'),
-('Kyrgio'),
+
 ('Kyrgios'),
 ('Kyrgiotis'),
 ('Kyrhys'),

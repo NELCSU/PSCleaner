@@ -1453,7 +1453,7 @@ VALUES
 ('Ragge'),
 ('Raggi'),
 ('Raggie'),
-('Raggio'),
+
 ('Raggoo'),
 ('Raggs'),
 ('Raghanath'),
@@ -1583,7 +1583,7 @@ VALUES
 ('Ragozins'),
 ('Ragozzino'),
 ('Ragrag'),
-('Ragragio'),
+
 ('Ragrin'),
 ('Ragsdale'),
 ('Ragsdell'),
@@ -7989,7 +7989,7 @@ VALUES
 ('Refualo'),
 ('Refuf'),
 ('Refugia'),
-('Refugio'),
+
 ('Reful'),
 ('Refulle'),
 ('Refvoe'),
@@ -8078,7 +8078,7 @@ VALUES
 ('Reggi'),
 ('Reggiardi'),
 ('Reggie'),
-('Reggio'),
+
 ('Reggione'),
 ('Reggy'),
 ('Regh'),
@@ -8126,7 +8126,7 @@ VALUES
 ('Regino'),
 ('Reginold'),
 ('Reginus'),
-('Regio'),
+
 ('Regionald'),
 ('Regione'),
 ('Regiori'),
@@ -9150,7 +9150,7 @@ VALUES
 ('Remigidlis'),
 ('Remigijius'),
 ('Remigijusy'),
-('Remigio'),
+
 ('Remigisus'),
 ('Remigius'),
 ('Remigo'),
@@ -9792,7 +9792,7 @@ VALUES
 ('Reoland'),
 ('Reolanda'),
 ('Reolant'),
-('Reolegio'),
+
 ('Reolon'),
 ('Reome'),
 ('Reomy'),
@@ -12378,7 +12378,7 @@ VALUES
 ('Riggin'),
 ('Riggings'),
 ('Riggins'),
-('Riggio'),
+
 ('Riggle'),
 ('Riggleman'),
 ('Riggles'),
@@ -14815,7 +14815,7 @@ VALUES
 ('Rodregus'),
 ('Rodrequez'),
 ('Rodrew'),
-('Rodrgio'),
+
 ('Rodrguez'),
 ('Rodrian'),
 ('Rodric'),
@@ -15212,7 +15212,7 @@ VALUES
 ('Rogger'),
 ('Roggero'),
 ('Roggie'),
-('Roggio'),
+
 ('Roggli'),
 ('Rogglio'),
 ('Roggow'),
@@ -15236,7 +15236,7 @@ VALUES
 ('Roginald'),
 ('Rogineia'),
 ('Roginson'),
-('Rogio'),
+
 ('Rogious'),
 ('Rogiros'),
 ('Rogish'),
@@ -19796,7 +19796,7 @@ VALUES
 ('Ruggiere'),
 ('Ruggiero'),
 ('Ruggins'),
-('Ruggio'),
+
 ('Ruggirello'),
 ('Ruggle'),
 ('Ruggles'),

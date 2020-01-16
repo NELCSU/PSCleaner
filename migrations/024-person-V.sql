@@ -2714,7 +2714,7 @@ VALUES
 ('Vanharn'),
 ('Vanhart'),
 ('Vanhassel'),
-('Vanhatagio'),
+
 ('Vanhatalo'),
 ('Vanhatten'),
 ('Vanhauen'),
@@ -10058,7 +10058,7 @@ VALUES
 ('Visagaparumal'),
 ('Visage'),
 ('Visaggi'),
-('Visaggio'),
+
 ('Visagie'),
 ('Visaginy'),
 ('Visah'),
@@ -11609,7 +11609,7 @@ VALUES
 ('Volsing'),
 ('Volson'),
 ('Volt'),
-('Voltaggio'),
+
 ('Voltair'),
 ('Voltaire'),
 ('Voltan'),
@@ -12460,7 +12460,7 @@ VALUES
 ('Vulpis'),
 ('Vulpovar'),
 ('Vulstaffsmith'),
-('Vultaggio'),
+
 ('Vulte'),
 ('Vultos'),
 ('Vultur'),
