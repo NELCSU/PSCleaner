@@ -40,7 +40,7 @@ VALUES
 ('Caledonia'),
 ('Cambodia'),
 ('Cameroon'),
-('Canada'),
+
 ('Canary Islands'),
 ('Caribbean'),
 ('Cayman'),
@@ -85,7 +85,7 @@ VALUES
 ('Ghana'),
 ('Great Britain'),
 ('Greece'),
-('Grenada'),
+
 ('Guatemala'),
 ('Guinea'),
 ('Guinea Bissau'),
@@ -99,14 +99,14 @@ VALUES
 ('Iran'),
 ('Iraq'),
 ('Ireland'),
-('Israel'),
+
 ('Italy'),
 ('Jamaica'),
 ('Japan'),
 ('Jordan'),
 ('Kazakhstan'),
 ('Kenya'),
-('Kiribati'),
+
 ('North Africa'),
 ('North America'),
 ('North Korea'),
@@ -124,7 +124,7 @@ VALUES
 ('Lithuania'),
 ('Luxembourg'),
 ('Madagascar'),
-('Malawi'),
+
 ('Malaysia'),
 ('Maldives'),
 ('Mali'),
@@ -136,7 +136,7 @@ VALUES
 ('Micronesia'),
 ('Middle East'),
 ('Moldova'),
-('Monaco'),
+
 ('Mongolia'),
 ('Montenegro'),
 ('Morocco'),
@@ -207,7 +207,7 @@ VALUES
 ('Tunisia'),
 ('Turkey'),
 ('Turkmenistan'),
-('Tuvalu'),
+
 ('Uganda'),
 ('Ukraine'),
 ('United Arab Emirates'),
@@ -215,7 +215,7 @@ VALUES
 ('United States'),
 ('Uruguay'),
 ('Uzbekistan'),
-('Vanuatu'),
+
 ('Vatican City'),
 ('Venezuela'),
 ('Vietnam'),

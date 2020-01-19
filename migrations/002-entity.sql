@@ -15,7 +15,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:abbey|acres?|alley|approach|avenue|back|bad|banks?|barns?|bay|beach|bottom|boulevard|braes?|bridge|broad(?:way)?|brook|buildings?|bush(?:es)?|canal|castle|causeway|central|circle|circus|cliffs?|cl[eo]ugh|close|common|coppices?|copse|corner|cottages?|court(?:yard)?|covert|creek|crescent|croft|cross(?:ing)?|dales?|ditch|docks?|downs?|drift|dr[io]ve|east|edge|esplanade|estate|farm|f[ae]lls?|fens?|ferry|fields?|flats?|fold|ford|forest|gap|gardens?|gates?|geos?|glades?|glens?|gor[gs]e|grange|greens?|grounds?|groves?|gully|h[ai]lls?|harbour|haven|head|heath|heights?|highway|hollow|houses?|islands?|isles?|jetty|junctions?|lakes?|lanes?|lawns?|leys?|loch|lodge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moors?|moss|mounts?|ness|north|orchards?|oval|paddocks?|parade|parks?|passage|pastures?|path|pier|place|plains?|plaza|ponds?|pool|point|port|priory|quadrant|quarry|quay|range|rd|reach|reservoir|ridge|rise|river|road|rocks?|rough|row|sands?|side|skerr(?:y|ies)|south|spa|spinney|springs?|square|station|strand|stream|street|strip|tarn|terrace|tor|towers?|towns?|upper|vale|valley|views?|villas?|villages?|walk|water(?:s|fall)?|way|weirs?|west|wharf|wood(?:s|lands)?|yards?)\b'
+  '\b(?:abbey|acres?|alley|allotments?|approach|avenue|back|bad|banks?|barns?|bay|beach|beacon|bottom|boulevard|braes?|bridge|broad(?:way)?|brook|buildings?|bush(?:es)?|canal|castle|causeway|central|circle|circus|cliffs?|cl[eo]ugh|close|common|coppices?|copse|corner|cottages?|court(?:yard)?|cove|coverts?|creek|crescent|crofts?|cross(?:ing)?|dales?|ditch|docks?|downs?|drift|dr[io]ve|east|edge|esplanade|estate|farm|f[ae]lls?|fens?|ferry|fields?|flats?|fold|ford|forest|gap|gardens?|gates?|geos?|glades?|glens?|gor[gs]e|grange|greens?|grounds?|groves?|gully|h[ai]lls?|harbour|haven|head|heath|heights?|highway|hollow|houses?|islands?|isles?|jetty|junctions?|lakes?|lanes?|lawns?|leys?|loch|lodge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moors?|moss|mounts?|ness|north|orchards?|oval|paddocks?|parade|parks?|passage|pastures?|path|pier|pit|place|plains?|plaza|ponds?|pool|point|port|priory|promenade|quadrant|quarry|quay|range|rd|reach|reservoir|ridge|rise|rivers?|roads?|rocks?|rough|round|row|sands?|side|skerr(?:y|ies)|south|spa|spinney|springs?|square|station|strand|stream|street|strip|tarn|terrace|tor|towers?|towns?|upper|vale|valley|views?|villas?|villages?|walks?|walls?|water(?:s|fall)?|ways?|weirs?|west|wharf|wood(?:s|lands)?|yards?)\b'
 ),
 (
   'Currency1', '#334320', 'Currency', 'CURRENCY', 'Regular expression',
@@ -115,12 +115,12 @@ VALUES
 (
   'NameRegExD', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-zàèéìòóùäöüß]+d(?:an|cz|d[eu]|e[ah-k]|ho|i[fghijkqruvwy]|k[io]|lo|nn|ou|r[eio]|sz|u[lr]|y[kn]|[mqz][a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+d(?:a[a-cf-kn-qu-xz]|e[a-cf-ko-qt-vz]|g[a-df-xz]|i[bf-kmp-ru-wyz]|l[a-df-hj-xz]|n[a-ru-z]|o[abd-fh-kpquvyz]|r[b-xz]|s[a-su-xz]|t[a-fh-z]|u[cdf-lnoqrt-z]|y[a-df-km-z]|[b-dfhjkmpqv-xz][a-z])\b'
 ),
 (
   'NameRegExE', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-zàèéìòóùäöüß]+e(?:au|cz|d[adt]|ho|i[fhijkquvwy]|j[in]|k[a-io]|n[in]|o[lu]|r[gi]|s[iz]|tt|ux|v[au]|y[kn]|z[a-df-xz])\b'
+  '\b[a-zàèéìòóùäöüß]+e(?:a[a-cgijoqu-z]|b[b-np-ru-xz]|c[b-dfgijl-ru-xz]|d[a-df-np-rt-xz]|e[a-ceg-joqu-z]|f[a-ru-xz]|g[b-df-lnp-rt-xz]|h[a-z]|i[be-kmo-qu-z]|j[a-z]|k[a-rt-xz]|l[bcghjknoqru-xz]|m[b-df-mqru-xz]|n[bcfh-np-rv-xz]|o[a-eg-qt-vx-z]|p[a-df-ru-xz]|q[a-z]|r[g-jqru-xz]|s[b-dfgijl-ru-xz]|t[b-dfgj-np-rt-xz]|u[a-ce-lnoqt-z]|v[a-df-xz]|w[a-mo-ru-xz]|x[a-df-hj-xz]|y[a-df-rt-z]|z[a-df-xz])\b'
 ),
 (
   'NameRegExF', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -165,7 +165,7 @@ VALUES
 (
   'NameRegExN', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-zàèéìòóùäöüß]+n(?:a[bhjmn]|b[ou]|c[az]|di|e[kz]|ga|ho|i[f-kqru-wy]|j[ai]|k[ailo]|n[aeinu]|ou|pd|sz|t[iluz]|x[a-z]|y[ikn]|[qz][b-z])\b'
+  '\b[a-zàèéìòóùäöüß]+n(?:a[bhjmn]|b[ou]|c[az]|di|e[kz]|ga|ho|i[f-kqru-wy]|j[ai]|k[ailo]|n[aeinu]|o[uv]|pd|sz|t[iluz]|x[a-z]|y[ikn]|[qz][b-z])\b'
 ),
 (
   'NameRegExO', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -185,7 +185,7 @@ VALUES
 (
   'NameRegExR', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-zàèéìòóùäöüß]+r(?:a[hjr]|ba|c[aoz]|dd|e[bcgkvz]|fi|ho|i[bfhijkqruvwy]|k[aio]|nn|o[dmu]|ra|s[iz]|ub|y[aeklnu]|[qz][a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+r(?:a[acfh-koqruvz]|b[a-rt-xz]|c[aoz]|dd|e[bcgkvz]|fi|ga|ho|i[bfh-kqru-wy]|k[aio]|nn|o[dmu]|ra|s[iz]|ta|ub|y[aeklnu]|[qz][a-z])\b'
 ),
 (
   'NameRegExS', '#00a0ff', 'Name', 'NAME', 'Regular expression',
