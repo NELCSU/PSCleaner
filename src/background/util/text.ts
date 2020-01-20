@@ -4,10 +4,10 @@
  * @returns {string}
  */
 export function cleanText(text: string): string {
-  let result: string = text.replace(/\s+/g, " ");
-  result = result.replace(/(?:\r\n|\r|\n)/g, " ");
-  result = result.replace(/\s?[\-]\s?/g, "-");
-  result = result.replace(/\s?[\/]\s?/g, "/");
-  result = result.replace(/\s?[\\]\s?/g, "\\");
-  return result;
+  let r: string = text.replace(/(?:\r\n|\r|\n)/g, "<br>");
+  r = r.replace(/\s?[\-]\s?/g, "-");
+  r = r.replace(/\s?[\/]\s?/g, "/");
+  r = r.replace(/\s?[\\]\s?/g, "\\");
+  r = r.replace(/<br>/g, "  ");
+  return r;
 }

@@ -130,12 +130,12 @@ function checkInputFileRename(e) {
  * @param {string} text
  */
 function cleanText(text) {
+  text = text.replace(/(?:\r\n|\r|\n)/g, "<br>");
   text = text.replace(/\s+/g, " ");
-  text = text.replace(/(?:\r\n|\r|\n)/g, "  ");
   text = text.replace(/\s?[\-]\s?/g, "-");
   text = text.replace(/\s?[\/]\s?/g, "/");
   text = text.replace(/\s?[\\]\s?/g, "\\");
-  
+  text = text.replace(/<br>/g, "  ");
   return text;
 }
 

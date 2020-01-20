@@ -59,14 +59,12 @@ VALUES
 ('Ubakeba'),
 ('Ubakie'),
 ('Ubaldo'),
-('Uballe'),
 ('Uban'),
 ('Ubando'),
 ('Ubaner'),
 ('Ubangtu'),
 ('Ubanks'),
 ('Ubannine'),
-
 ('Ubartaite'),
 ('Ubartas'),
 ('Ubartiene'),
@@ -226,7 +224,6 @@ VALUES
 ('Ucpinar'),
 ('Ucrack'),
 ('Ucrainet'),
-
 ('Ucrania'),
 ('Ucuncu'),
 ('Ucur'),
@@ -249,10 +246,8 @@ VALUES
 ('Udalor'),
 ('Udam'),
 ('Udana'),
-
 ('Udane'),
 ('Udanya'),
-
 ('Udas'),
 ('Udash'),
 ('Udat'),
@@ -348,7 +343,6 @@ VALUES
 ('Udhali'),
 ('Udhams'),
 ('Udhandaraman'),
-
 ('Udhas'),
 ('Udhav'),
 ('Udhay'),
@@ -515,7 +509,6 @@ VALUES
 ('Uelez'),
 ('Ueli'),
 ('Ueliton'),
-('Uelle'),
 ('Uelmen'),
 ('Uemura'),
 ('Uenal'),
@@ -704,11 +697,9 @@ VALUES
 ('Ugorny'),
 ('Ugowe'),
 ('Ugradar'),
-
 ('Ugrardar'),
 ('Ugras'),
 ('Ugrasli'),
-
 ('Ugriks'),
 ('Ugro'),
 ('Ugron'),
@@ -1202,7 +1193,6 @@ VALUES
 ('Ullastre'),
 ('Ullathorne'),
 ('Ullattil'),
-('Ulle'),
 ('Ulleh'),
 ('Ullei'),
 ('Ullens'),
@@ -1435,7 +1425,6 @@ VALUES
 ('Umaram'),
 ('Umaras'),
 ('Umardeen'),
-
 ('Umarfarooq'),
 ('Umarfaruk'),
 ('Umargaonwalla'),
@@ -1556,7 +1545,6 @@ VALUES
 ('Umezurike'),
 ('Umfleet'),
 ('Umfress'),
-('Umfreville'),
 ('Umfuhrer'),
 ('Umhoefer'),
 ('Umholtz'),
@@ -1671,7 +1659,6 @@ VALUES
 ('Umrania'),
 ('Umrashidat'),
 ('Umraw'),
-
 ('Umreen'),
 ('Umrigar'),
 ('Umrish'),
@@ -1996,7 +1983,6 @@ VALUES
 ('Unoyinza'),
 ('Unpingco'),
 ('Unrath'),
-
 ('Unregistered'),
 ('Unrein'),
 ('Unrine'),
@@ -2150,7 +2136,6 @@ VALUES
 ('Upen'),
 ('Upenda'),
 ('Upendar'),
-
 ('Upender'),
 ('Upendo'),
 ('Upendrakumar'),
@@ -2256,7 +2241,6 @@ VALUES
 ('Urago'),
 ('Urahama'),
 ('Urahman'),
-
 ('Uraida'),
 ('Uraine'),
 ('Urainee'),
@@ -2289,10 +2273,8 @@ VALUES
 ('Urata'),
 ('Urate'),
 ('Urathirabalan'),
-
 ('Uray'),
 ('Urayahkhill'),
-
 ('Urazalina'),
 ('Urazaliyev'),
 ('Urb'),
@@ -2322,7 +2304,6 @@ VALUES
 ('Urbawaviciene'),
 ('Urbel'),
 ('Urbelioniene'),
-
 ('Urbia'),
 ('Urbick'),
 ('Urbiene'),
@@ -2332,7 +2313,6 @@ VALUES
 ('Urbind'),
 ('Urbine'),
 ('Urbino'),
-
 ('Urbohas'),
 ('Urbon'),
 ('Urbonaite'),
@@ -2353,10 +2333,8 @@ VALUES
 ('Urcella'),
 ('Urch'),
 ('Urcile'),
-('Urcille'),
 ('Urcino'),
 ('Urciuoli'),
-('Urcrille'),
 ('Urcula'),
 ('Urcuyo'),
 ('Urda'),
@@ -2417,7 +2395,6 @@ VALUES
 ('Urfer'),
 ('Urffer'),
 ('Urful'),
-
 ('Urgan'),
 ('Urgeghe'),
 ('Urgeles'),
@@ -2462,7 +2439,6 @@ VALUES
 ('Uriegas'),
 ('Uriel'),
 ('Uriela'),
-('Urielle'),
 ('Uriep'),
 ('Urier'),
 ('Urieta'),
@@ -2900,7 +2876,6 @@ VALUES
 ('Usigbe'),
 ('Usila'),
 ('Usilenoks'),
-('Usille'),
 ('Usilton'),
 ('Usina'),
 ('Usinger'),
@@ -3117,7 +3092,6 @@ VALUES
 ('Uthpala'),
 ('Uthpalawarna'),
 ('Uthpol'),
-
 ('Uththamaputhiran'),
 ('Uththyran'),
 ('Uthuma'),
@@ -3255,7 +3229,6 @@ VALUES
 ('Uusen'),
 ('Uusikyla'),
 ('Uusitalo'),
-
 ('Uusoya'),
 ('Uute'),
 ('Uutela'),
@@ -3264,7 +3237,6 @@ VALUES
 ('Uvais'),
 ('Uvaisa'),
 ('Uvaisul'),
-('Uvalle'),
 ('Uvalles'),
 ('Uvan'),
 ('Uvane'),
