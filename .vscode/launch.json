@@ -6,6 +6,7 @@
       "type": "node",
       "request": "launch",
       "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+      "envFile": "${workspaceFolder}/.env",
       "windows": {
         "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
       },
