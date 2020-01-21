@@ -155,7 +155,7 @@ VALUES
 (
   'NameRegExL', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-zàèéìòóùäöüß]+l(?:a[ik]|c[oz]|da|ek|fo|ho|i[fghijkoqruvwy]|j[ao]|k[aio]|l[ei]|ma|n[an]|ou|p[ao]|sz|ta|u[afr]|y[akn]|[qz][a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+l(?:a[afh-loquvz]|b[a-rt-xz]|c[a-gi-xz]|d[a-rt-xz]|e[bcfhjko-quvz]|f[a-ru-xz]|g[a-df-xz]|i[bf-moqru-z]|k[a-rt-xz]|l[b-np-ru-xz]|m[a-rt-xz]|o[a-fh-koquvxz]|p[a-rt-xz]|r[a-xz]|s[a-df-su-z]|t[a-gi-rt-xz]|u[acdfh-ln-rt-wyz]|v[a-df-z]|y[a-km-rt-wyz]|[hjnqwxz][a-z])\b'
 ),
 (
   'NameRegExM', '#00a0ff', 'Name', 'NAME', 'Regular expression',

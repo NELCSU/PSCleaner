@@ -186,6 +186,7 @@ VALUES
 ('Jamaican'),
 ('Jamaicans'),
 ('Japanese'),
+('Jewish'),
 ('Jordanian'), 
 ('Jordanians'), 
 ('Kazakh'),
