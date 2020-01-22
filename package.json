@@ -64,7 +64,7 @@
   "scripts": {
     "build": "tsc",
     "dev.listglobals": "npm list -g --depth 0",
-    "eslint": "eslint -c .eslintrc.json --rulesdir ./build/lib/eslint --ext .ts --ext .js ./src",
+    "eslint": "eslint -c .eslintrc.json --ext .ts --ext .js ./src",
     "make": "npm run wipe-all && npm run update-webc && npm run make-w32 && npm run make-w64",
     "make-w32": "electron-forge make --platform=win32 --arch=ia32",
     "make-w64": "electron-forge make",
