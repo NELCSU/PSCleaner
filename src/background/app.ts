@@ -98,7 +98,7 @@ class Main {
               e.reply("processing-folder-error", err.message);
             }
           });
-        })
+        });
 
       this.app.on("second-instance", _ => {
         if (this.mainWindow) {
@@ -119,7 +119,7 @@ class Main {
     }
   }
 
-  public hardClose = () => {
+  public hardClose() {
     this.isQuitting = true;
     this.app.quit();
   }
@@ -135,9 +135,11 @@ class Main {
     })();
   }
 
-  public show = () => this.mainWindow.show();
+  public show() {
+    this.mainWindow.show();
+  }
 
-  public softClose = (event: Event) => {
+  public softClose(event: Event) {
     if (!this.isQuitting && this.mainWindow.hideWhenMinimised) {
       event.preventDefault();
       this.mainWindow.hide();
@@ -196,7 +198,7 @@ class Main {
       this.softClose(e);
       return false;
     });
-  }
+  };
 }
 
 const main = new Main();

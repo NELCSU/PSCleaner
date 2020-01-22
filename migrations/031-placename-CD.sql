@@ -21561,7 +21561,7 @@ VALUES
 ('Clixby Lane'),
 ('Cliàsam Creag'),
 ('Clo Mhuillin'),
-('Cloag'),
+
 ('Cloak Hill'),
 ('Cloak Lane'),
 ('Cloak Moss'),

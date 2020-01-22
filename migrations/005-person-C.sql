@@ -9832,7 +9832,6 @@ VALUES
 ('Chatonnet'),
 ('Chatoo'),
 ('Chatooa'),
-('Chatooah'),
 ('Chatoomal'),
 ('Chatora'),
 ('Chatpaiboon'),

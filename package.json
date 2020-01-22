@@ -39,8 +39,13 @@
     "@types/node": "^12.12.25",
     "@types/sqlite3": "^3.1.6",
     "@types/uuid": "^3.4.6",
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
+    "@typescript-eslint/parser": "^2.17.0",
     "electron": "^7.1.9",
     "electron-rebuild": "^1.8.8",
+    "eslint": "^6.8.0",
+    "eslint-plugin-jsdoc": "^20.3.1",
+    "jsdoc": "^3.6.3",
     "typescript": "^3.7.5"
   },
   "keywords": [
@@ -59,6 +64,7 @@
   "scripts": {
     "build": "tsc",
     "dev.listglobals": "npm list -g --depth 0",
+    "eslint": "eslint -c .eslintrc.json --rulesdir ./build/lib/eslint --ext .ts --ext .js ./src",
     "make": "npm run wipe-all && npm run update-webc && npm run make-w32 && npm run make-w64",
     "make-w32": "electron-forge make --platform=win32 --arch=ia32",
     "make-w64": "electron-forge make",

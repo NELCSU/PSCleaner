@@ -595,6 +595,7 @@ VALUES
 ('Ladybird Lane'),
 ('Ladybird Way'),
 ('Ladybower'),
+('Maen'),
 ('Ladybridge'),
 ('Ladybrook'),
 ('Ladyburn'),
@@ -3885,7 +3886,7 @@ VALUES
 ('Lanyon Way'),
 ('Lanyork Road'),
 ('Lanús'),
-('Laoag'),
+
 ('Laogh'),
 ('Laogh an Eilein'),
 ('Laogh'),
@@ -40284,7 +40285,7 @@ VALUES
 ('Miami Close'),
 ('Miami Gardens'),
 ('Mianais'),
-('Miandoab'),
+
 ('Mianyang'),
 ('Miar Beaga'),
 ('Miarum'),

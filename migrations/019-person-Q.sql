@@ -1506,7 +1506,6 @@ VALUES
 ('Qunnarath'),
 ('Qunxiong'),
 ('Quoang'),
-('Quoay'),
 ('Quoc'),
 ('Quock'),
 ('Quocphong'),
