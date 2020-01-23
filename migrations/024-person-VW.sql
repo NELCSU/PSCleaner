@@ -287,7 +287,7 @@ VALUES
 ('Vagmur'),
 ('Vagnei'),
 ('Vagner'),
-('Vagnholm'),
+
 ('Vagni'),
 ('Vagnier'),
 ('Vagnone'),
@@ -1958,7 +1958,7 @@ VALUES
 ('Vandeguchte'),
 ('Vandehei'),
 ('Vandehey'),
-('Vandehoef'),
+
 ('Vandeildes'),
 ('Vandeir'),
 ('Vandekamp'),
@@ -2041,7 +2041,7 @@ VALUES
 ('Vandercar'),
 ('Vandercook'),
 ('Vandercruyssen'),
-('Vanderdoes'),
+
 ('Vanderdupe'),
 ('Vanderdussen'),
 ('Vanderelst'),
@@ -2067,7 +2067,7 @@ VALUES
 ('Vanderheyden'),
 ('Vanderhill'),
 ('Vanderhoech'),
-('Vanderhoef'),
+
 ('Vanderhoeven'),
 ('Vanderhoof'),
 ('Vanderhoot'),
@@ -2086,8 +2086,8 @@ VALUES
 ('Vanderkelen'),
 ('Vanderkin'),
 ('Vanderkolk'),
-('Vanderkooi'),
-('Vanderkooy'),
+
+
 ('Vanderlan'),
 ('Vanderlee'),
 ('Vanderleest'),
@@ -2127,7 +2127,7 @@ VALUES
 ('Vanderplank'),
 ('Vanderplas'),
 ('Vanderplight'),
-('Vanderploeg'),
+
 ('Vanderpluym'),
 ('Vanderpol'),
 ('Vanderpoll'),
@@ -2163,7 +2163,7 @@ VALUES
 ('Vanderstel'),
 ('Vanderstelt'),
 ('Vanderstichel'),
-('Vanderstoep'),
+
 ('Vanderstreaten'),
 ('Vandertie'),
 ('Vandertuig'),
@@ -2709,7 +2709,7 @@ VALUES
 ('Vanloenen'),
 ('Vanlook'),
 ('Vanloon'),
-('Vanlooy'),
+
 ('Vanlue'),
 ('Vanluvanee'),
 ('Vanluven'),
@@ -2785,7 +2785,7 @@ VALUES
 ('Vannieuwenhuijzen'),
 ('Vannina'),
 ('Vanninen'),
-('Vannislerooy'),
+
 ('Vannitsem'),
 ('Vanniyasingam'),
 ('Vannocker'),
@@ -2901,7 +2901,7 @@ VALUES
 ('Vanroekel'),
 ('Vanroo'),
 ('Vanroon'),
-('Vanrooy'),
+
 ('Vanrooyen'),
 ('Vanrossum'),
 ('Vanroy'),
@@ -3385,7 +3385,7 @@ VALUES
 ('Varignia'),
 ('Varikayil'),
 ('Varikkottil'),
-('Varikolu'),
+
 ('Varikouv'),
 ('Variku'),
 ('Varikuppala'),
@@ -3816,7 +3816,7 @@ VALUES
 ('Vashney'),
 ('Vashni'),
 ('Vashnie'),
-('Vashoev'),
+
 ('Vashon'),
 ('Vashram'),
 ('Vashryde'),
@@ -4347,7 +4347,7 @@ VALUES
 ('Vayne'),
 ('Vayner'),
 ('Vayola'),
-('Vayomi'),
+
 ('Vayon'),
 ('Vayro'),
 ('Vayrynen'),
@@ -4873,7 +4873,7 @@ VALUES
 ('Vekios'),
 ('Vekkot'),
 ('Veklinec'),
-('Vekonu'),
+
 ('Vekony'),
 ('Vekria'),
 ('Vekselshtein'),
@@ -5215,7 +5215,7 @@ VALUES
 ('Velusamy'),
 ('Veluswamy'),
 ('Veluvali'),
-('Veluvolu'),
+
 ('Velvelidis'),
 ('Velvelt'),
 ('Velven'),
@@ -5524,7 +5524,7 @@ VALUES
 ('Veniz'),
 ('Venizelos'),
 ('Venjega'),
-('Venjohn'),
+
 ('Venkaata'),
 ('Venkadasalam'),
 ('Venkadasamy'),
@@ -5574,7 +5574,7 @@ VALUES
 ('Venkatasuresh'),
 ('Venkataswamy'),
 ('Venkatavaraghavan'),
-('Venkatayogi'),
+
 ('Venkatchalam'),
 ('Venkatensan'),
 ('Venkates'),
@@ -5611,7 +5611,7 @@ VALUES
 ('Venkiteela'),
 ('Venkittammal'),
 ('Venkittukumar'),
-('Venkogi'),
+
 ('Venkteshwar'),
 ('Venkuti'),
 ('Venla'),
@@ -5859,7 +5859,7 @@ VALUES
 ('Verber'),
 ('Verberck'),
 ('Verberger'),
-('Verberkmoes'),
+
 ('Verberne'),
 ('Verbeten'),
 ('Verbias'),
@@ -6112,10 +6112,10 @@ VALUES
 ('Verheyen'),
 ('Verhine'),
 ('Verhines'),
-('Verhoef'),
+
 ('Verhoeven'),
 ('Verhonde'),
-('Verhoog'),
+
 ('Verhoosel'),
 ('Verhorevoort'),
 ('Verhovec'),
@@ -6334,7 +6334,7 @@ VALUES
 ('Vernonica'),
 ('Vernonis'),
 ('Vernoo'),
-('Vernooy'),
+
 ('Vernor'),
 ('Vernorel'),
 ('Vernot'),
@@ -6389,7 +6389,7 @@ VALUES
 ('Verpiot'),
 ('Verplanck'),
 ('Verplank'),
-('Verploeg'),
+
 ('Verploegen'),
 ('Verquin'),
 ('Verraed'),
@@ -6490,7 +6490,7 @@ VALUES
 ('Versola'),
 ('Versolatto'),
 ('Verspeak'),
-('Verspohl'),
+
 ('Verspreet'),
 ('Verspui'),
 ('Verstage'),
@@ -6499,7 +6499,7 @@ VALUES
 ('Verster'),
 ('Versteynen'),
 ('Verstinskiene'),
-('Verstoep'),
+
 ('Verstraaten'),
 ('Verstrae'),
 ('Verstraelem'),
@@ -6994,7 +6994,7 @@ VALUES
 ('Viartola'),
 ('Vias'),
 ('Viastikopoulos'),
-('Viatonu'),
+
 ('Viator'),
 ('Viatoro'),
 ('Viatte'),
@@ -7936,7 +7936,7 @@ VALUES
 ('Vikhas'),
 ('Vikhdis'),
 ('Vikhil'),
-('Vikholm'),
+
 ('Viking'),
 ('Vikingur'),
 ('Vikinta'),
@@ -8366,7 +8366,7 @@ VALUES
 ('Villemarette'),
 ('Villemer'),
 ('Villemin'),
-('Villemoes'),
+
 ('Villems'),
 ('Villemsone'),
 ('Villemure'),
@@ -8763,7 +8763,7 @@ VALUES
 ('Vingriene'),
 ('Vingryte'),
 ('Vingtier'),
-('Vingtofi'),
+
 ('Vingyte'),
 ('Vinh'),
 ('Vinha'),
@@ -8868,11 +8868,11 @@ VALUES
 ('Vinodkant'),
 ('Vinodkumar'),
 ('Vinodray'),
-('Vinoge'),
+
 ('Vinograd'),
 ('Vinogradovs'),
 ('Vinoj'),
-('Vinojh'),
+
 ('Vinojiny'),
 ('Vinok'),
 ('Vinokaran'),
@@ -8976,9 +8976,9 @@ VALUES
 ('Viocaine'),
 ('Vioche'),
 ('Viode'),
-('Vioet'),
+
 ('Vioeta'),
-('Viohl'),
+
 ('Viol'),
 ('Viola'),
 ('Violadas'),
@@ -9053,7 +9053,7 @@ VALUES
 ('Vipeksh'),
 ('Viper'),
 ('Vipers'),
-('Viphakonh'),
+
 ('Vipi'),
 ('Vipie'),
 ('Vipim'),
@@ -9275,7 +9275,7 @@ VALUES
 ('Viroana'),
 ('Virobian'),
 ('Virock'),
-('Viroga'),
+
 ('Virokaitiene'),
 ('Virola'),
 ('Virolainen'),
@@ -9398,7 +9398,7 @@ VALUES
 ('Viscius'),
 ('Visciuviene'),
 ('Viscome'),
-('Viscomi'),
+
 ('Visconte'),
 ('Viscontte'),
 ('Viscosi'),
@@ -10095,7 +10095,7 @@ VALUES
 ('Vizcarrondo'),
 ('Vizcaychipi'),
 ('Vizdiklar'),
-('Vizdoga'),
+
 ('Vize'),
 ('Vizella'),
 ('Vizena'),
@@ -10143,7 +10143,7 @@ VALUES
 ('Vjera'),
 ('Vjeshta'),
 ('Vjestica'),
-('Vjogi'),
+
 ('Vjola'),
 ('Vjoleta'),
 ('Vjona'),
@@ -10294,7 +10294,7 @@ VALUES
 ('Vlk'),
 ('Vlladas'),
 ('Vllamiel'),
-('Vloet'),
+
 ('Vlora'),
 ('Vlore'),
 ('Vnad'),
@@ -10381,8 +10381,8 @@ VALUES
 ('Voergaard'),
 ('Voerman'),
 ('Voermans'),
-('Voeroes'),
-('Voet'),
+
+
 ('Voeten'),
 ('Voetter'),
 ('Voevodas'),
@@ -10393,7 +10393,7 @@ VALUES
 ('Vogazianos'),
 ('Vogdanos'),
 ('Vogds'),
-('Voge'),
+
 ('Vogel'),
 ('Vogelauer'),
 ('Vogelbacher'),
@@ -10407,7 +10407,7 @@ VALUES
 ('Vogelin'),
 ('Vogelius'),
 ('Vogelman'),
-('Vogelpohl'),
+
 ('Vogels'),
 ('Vogelsang'),
 ('Vogelsanger'),
@@ -10420,7 +10420,7 @@ VALUES
 ('Voges'),
 ('Voget'),
 ('Vogeti'),
-('Vogg'),
+
 ('Voggenberger'),
 ('Voggenreiter'),
 ('Voggu'),
@@ -10431,7 +10431,7 @@ VALUES
 ('Vogiazis'),
 ('Vogiel'),
 ('Vogkli'),
-('Vogl'),
+
 ('Vogland'),
 ('Vogle'),
 ('Vogler'),
@@ -10443,7 +10443,7 @@ VALUES
 ('Vognicuk'),
 ('Vogrin'),
 ('Vogronics'),
-('Vogt'),
+
 ('Vogth'),
 ('Vogtle'),
 ('Vogtlin'),
@@ -10475,7 +10475,7 @@ VALUES
 ('Voiculet'),
 ('Voicuta'),
 ('Voidoc'),
-('Voie'),
+
 ('Voiers'),
 ('Voight'),
 ('Voights'),
@@ -10544,7 +10544,7 @@ VALUES
 ('Vojnics'),
 ('Vojnits'),
 ('Vojsava'),
-('Vojt'),
+
 ('Vojtech'),
 ('Vojtela'),
 ('Vojtus'),
@@ -10579,7 +10579,7 @@ VALUES
 ('Volbikaite'),
 ('Volbis'),
 ('Volbona'),
-('Volc'),
+
 ('Volcan'),
 ('Volcano'),
 ('Volcenoka'),
@@ -10697,10 +10697,10 @@ VALUES
 ('Vollmuller'),
 ('Vollmuth'),
 ('Volloncs'),
-('Vollono'),
+
 ('Vollrath'),
 ('Vollweiler'),
-('Volm'),
+
 ('Volman'),
 ('Volmane'),
 ('Volmar'),
@@ -10712,7 +10712,7 @@ VALUES
 ('Volner'),
 ('Volney'),
 ('Volnie'),
-('Voloboev'),
+
 ('Volobuev'),
 ('Volobujevas'),
 ('Volobuyev'),
@@ -10757,7 +10757,7 @@ VALUES
 ('Volosiniene'),
 ('Volosins'),
 ('Volousek'),
-('Volp'),
+
 ('Volpenhein'),
 ('Volper'),
 ('Volpert'),
@@ -10788,7 +10788,7 @@ VALUES
 ('Volvie'),
 ('Volynets'),
 ('Volynskyy'),
-('Volz'),
+
 ('Volzer'),
 ('Voman'),
 ('Vomdee'),
@@ -10827,7 +10827,7 @@ VALUES
 ('Vonderheide'),
 ('Vonderkell'),
 ('Vonderlieth'),
-('Vonderohe'),
+
 ('Vondette'),
 ('Vondeylen'),
 ('Vondia'),
@@ -10906,11 +10906,11 @@ VALUES
 ('Vonnie'),
 ('Vonniederhaus'),
 ('Vonny'),
-('Vono'),
+
 ('Vonohlen'),
 ('Vonpen'),
 ('Vonphachith'),
-('Vonrohr'),
+
 ('Vonrotz'),
 ('Vonruden'),
 ('Vonrueden'),
@@ -10945,11 +10945,11 @@ VALUES
 ('Vonzodiene'),
 ('Vonzudaite'),
 ('Voo'),
-('Voogd'),
+
 ('Vooght'),
 ('Voogla'),
-('Voogt'),
-('Vooi'),
+
+
 ('Voola'),
 ('Vools'),
 ('Voon'),
@@ -11066,7 +11066,7 @@ VALUES
 ('Voronisce'),
 ('Voroniuk'),
 ('Voronkin'),
-('Vorono'),
+
 ('Voronovs'),
 ('Voropayev'),
 ('Voros'),
@@ -11361,7 +11361,7 @@ VALUES
 ('Vrecic'),
 ('Vredenburgh'),
 ('Vredeveld'),
-('Vredevoogd'),
+
 ('Vree'),
 ('Vreeken'),
 ('Vreeland'),
@@ -11466,7 +11466,7 @@ VALUES
 ('Vruti'),
 ('Vrutil'),
 ('Vruwink'),
-('Vryenhoef'),
+
 ('Vryhof'),
 ('Vrynios'),
 ('Vryonides'),
@@ -11598,7 +11598,7 @@ VALUES
 ('Vunue'),
 ('Vuoli'),
 ('Vuong'),
-('Vuono'),
+
 ('Vuopala'),
 ('Vuorela'),
 ('Vuorenlehto'),
@@ -11882,7 +11882,7 @@ VALUES
 ('Wachauer'),
 ('Wachel'),
 ('Wacher'),
-('Wachholz'),
+
 ('Wachil'),
 ('Wachill'),
 ('Wachira'),
@@ -11893,9 +11893,9 @@ VALUES
 ('Wachman'),
 ('Wachner'),
 ('Wachob'),
-('Wacholc'),
+
 ('Wacholic'),
-('Wacholz'),
+
 ('Wachs'),
 ('Wachsler'),
 ('Wachsman'),
@@ -12198,7 +12198,7 @@ VALUES
 ('Wagno'),
 ('Wagnon'),
 ('Wagnor'),
-('Wagogo'),
+
 ('Wagoli'),
 ('Wagona'),
 ('Wagoner'),
@@ -12454,7 +12454,7 @@ VALUES
 ('Waiyan'),
 ('Waiyasil'),
 ('Waiyee'),
-('Waiyohu'),
+
 ('Waize'),
 ('Waizenegger'),
 ('Waizeneker'),
@@ -12548,7 +12548,7 @@ VALUES
 ('Wakiley'),
 ('Wakilus'),
 ('Wakily'),
-('Wakimvono'),
+
 ('Wakin'),
 ('Wakins'),
 ('Wakinshaw'),
@@ -12629,7 +12629,7 @@ VALUES
 ('Walchester'),
 ('Walchli'),
 ('Walcker'),
-('Walcolm'),
+
 ('Walcot'),
 ('Walcott'),
 ('Walcutt'),
@@ -12969,7 +12969,7 @@ VALUES
 ('Walneide'),
 ('Walner'),
 ('Walney'),
-('Walnoha'),
+
 ('Walo'),
 ('Walope'),
 ('Waloren'),
@@ -13130,7 +13130,7 @@ VALUES
 ('Wammed'),
 ('Wamo'),
 ('Wamona'),
-('Wamono'),
+
 ('Wampach'),
 ('Wampah'),
 ('Wampene'),
@@ -13329,8 +13329,8 @@ VALUES
 ('Wanjira'),
 ('Wanjiru'),
 ('Wanjiry'),
-('Wanjohl'),
-('Wanjoku'),
+
+
 ('Wanju'),
 ('Wanjugu'),
 ('Wanjuhi'),
@@ -13392,7 +13392,7 @@ VALUES
 ('Wanqin'),
 ('Wanqing'),
 ('Wanren'),
-('Wanrooy'),
+
 ('Wanru'),
 ('Wanruo'),
 ('Wansa'),
@@ -13888,7 +13888,7 @@ VALUES
 ('Wartman'),
 ('Wartner'),
 ('Warton'),
-('Wartono'),
+
 ('Warttig'),
 ('Warudom'),
 ('Waruguru'),
@@ -14653,7 +14653,7 @@ VALUES
 ('Weatherford'),
 ('Weatherhead'),
 ('Weatherhog'),
-('Weatherhogg'),
+
 ('Weatherholt'),
 ('Weatherill'),
 ('Weatherington'),
@@ -14768,7 +14768,7 @@ VALUES
 ('Wedeking'),
 ('Wedel'),
 ('Wedeles'),
-('Wedelholm'),
+
 ('Wedell'),
 ('Wedeman'),
 ('Wedemeier'),
@@ -14996,7 +14996,7 @@ VALUES
 ('Wehrmeyer'),
 ('Wehrs'),
 ('Wehrsig'),
-('Wehrspohn'),
+
 ('Wehrung'),
 ('Wehrwein'),
 ('Wehry'),
@@ -15338,7 +15338,7 @@ VALUES
 ('Weishaupt'),
 ('Weisheit'),
 ('Weisheng'),
-('Weisholz'),
+
 ('Weishuhn'),
 ('Weisi'),
 ('Weisiger'),
@@ -15346,7 +15346,7 @@ VALUES
 ('Weiskam'),
 ('Weiskircher'),
 ('Weiskittel'),
-('Weiskopf'),
+
 ('Weisleitner'),
 ('Weisler'),
 ('Weislo'),
@@ -15387,7 +15387,7 @@ VALUES
 ('Weissig'),
 ('Weissinger'),
 ('Weisskirchen'),
-('Weisskopf'),
+
 ('Weissler'),
 ('Weissman'),
 ('Weissmandel'),
@@ -15889,7 +15889,7 @@ VALUES
 ('Wengsek'),
 ('Wengyee'),
 ('Wenhold'),
-('Wenholz'),
+
 ('Wenhua'),
 ('Wenhui'),
 ('Wenick'),
@@ -15941,7 +15941,7 @@ VALUES
 ('Wenninger'),
 ('Wennington'),
 ('Wennman'),
-('Wennnerholm'),
+
 ('Wenny'),
 ('Weno'),
 ('Wenona'),
@@ -16063,7 +16063,7 @@ VALUES
 ('Werdin'),
 ('Werdine'),
 ('Werdlow'),
-('Werdofa'),
+
 ('Werede'),
 ('Weredekal'),
 ('Werema'),
@@ -16081,7 +16081,7 @@ VALUES
 ('Wergin'),
 ('Werhane'),
 ('Werick'),
-('Weridenbofa'),
+
 ('Weridu'),
 ('Werie'),
 ('Werinesh'),
@@ -16364,7 +16364,7 @@ VALUES
 ('Westerheide'),
 ('Westerhof'),
 ('Westerhold'),
-('Westerholm'),
+
 ('Westerhouse'),
 ('Westerhuis'),
 ('Westerink'),
@@ -16377,7 +16377,7 @@ VALUES
 ('Westermeier'),
 ('Westermeyer'),
 ('Westersta'),
-('Westerstroem'),
+
 ('Westersund'),
 ('Westerveld'),
 ('Westervelt'),
@@ -16414,7 +16414,7 @@ VALUES
 ('Westiner'),
 ('Westing'),
 ('Westington'),
-('Westjohn'),
+
 ('Westlake'),
 ('Westland'),
 ('Westlea'),
@@ -16984,7 +16984,7 @@ VALUES
 ('Whitear'),
 ('Whitebear'),
 ('Whitebird'),
-('Whitebooi'),
+
 ('Whitebread'),
 ('Whitebrook'),
 ('Whitebuffalo'),
@@ -17319,8 +17319,8 @@ VALUES
 ('Wiberley'),
 ('Wibert'),
 ('Wibeto'),
-('Wibholm'),
-('Wibisono'),
+
+
 ('Wible'),
 ('Wiblin'),
 ('Wiboon'),
@@ -17330,7 +17330,7 @@ VALUES
 ('Wibroe'),
 ('Wibrow'),
 ('Wicaksana'),
-('Wicaksono'),
+
 ('Wical'),
 ('Wice'),
 ('Wicford'),
@@ -17467,7 +17467,7 @@ VALUES
 ('Widdis'),
 ('Widdison'),
 ('Widdocks'),
-('Widdoes'),
+
 ('Widdoss'),
 ('Widdows'),
 ('Widdowson'),
@@ -17492,7 +17492,7 @@ VALUES
 ('Widgery'),
 ('Widgren'),
 ('Widhalm'),
-('Widholm'),
+
 ('Widhurakoon'),
 ('Widia'),
 ('Widiane'),
@@ -17502,7 +17502,7 @@ VALUES
 ('Widick'),
 ('Widing'),
 ('Widinson'),
-('Widjojo'),
+
 ('Widlake'),
 ('Widler'),
 ('Widleta'),
@@ -17719,7 +17719,7 @@ VALUES
 ('Wieskalia'),
 ('Wieskamp'),
 ('Wieskaw'),
-('Wieskolw'),
+
 ('Wieslan'),
 ('Wieslander'),
 ('Wieslaw'),
@@ -17842,7 +17842,7 @@ VALUES
 ('Wihl'),
 ('Wihlborg'),
 ('Wihok'),
-('Wiholm'),
+
 ('Wihongi'),
 ('Wihsgott'),
 ('Wihsunly'),
@@ -17939,7 +17939,7 @@ VALUES
 ('Wiker'),
 ('Wikert'),
 ('Wikesh'),
-('Wikholm'),
+
 ('Wikiel'),
 ('Wikiera'),
 ('Wikins'),
@@ -18000,7 +18000,7 @@ VALUES
 ('Wilbey'),
 ('Wilbin'),
 ('Wilbon'),
-('Wilbonh'),
+
 ('Wilborn'),
 ('Wilborne'),
 ('Wilbourn'),
@@ -18179,7 +18179,7 @@ VALUES
 ('Wilhma'),
 ('Wilhoit'),
 ('Wilhoite'),
-('Wilholm'),
+
 ('Wilhour'),
 ('Wiliams'),
 ('Wilian'),
@@ -18219,7 +18219,7 @@ VALUES
 ('Wilklow'),
 ('Wilkman'),
 ('Wilkoijc'),
-('Wilkojc'),
+
 ('Wilkop'),
 ('Wilks'),
 ('Wilkshire'),
@@ -18444,7 +18444,7 @@ VALUES
 ('Williver'),
 ('Willkie'),
 ('Willkom'),
-('Willkomm'),
+
 ('Willlam'),
 ('Willliams'),
 ('Willman'),
@@ -18550,7 +18550,7 @@ VALUES
 ('Wilney'),
 ('Wilnor'),
 ('Wilo'),
-('Wilohn'),
+
 ('Wilomena'),
 ('Wilona'),
 ('Wilper'),
@@ -18783,8 +18783,8 @@ VALUES
 ('Windhager'),
 ('Windhaguer'),
 ('Windhausen'),
-('Windholm'),
-('Windholz'),
+
+
 ('Windhorn'),
 ('Windhorst'),
 ('Windhurst'),
@@ -18963,7 +18963,7 @@ VALUES
 ('Winkeler'),
 ('Winkelgrund'),
 ('Winkelhuis'),
-('Winkeljohn'),
+
 ('Winkelman'),
 ('Winkelpleck'),
 ('Winkels'),
@@ -19283,7 +19283,7 @@ VALUES
 ('Wirts'),
 ('Wirtz'),
 ('Wirtzfeld'),
-('Wirwohl'),
+
 ('Wirz'),
 ('Wis'),
 ('Wisa'),
@@ -19623,8 +19623,8 @@ VALUES
 ('Wittish'),
 ('Wittkamp'),
 ('Wittkop'),
-('Wittkopf'),
-('Wittkopp'),
+
+
 ('Wittkopper'),
 ('Wittle'),
 ('Wittler'),
@@ -19658,7 +19658,7 @@ VALUES
 ('Wittus'),
 ('Wittwer'),
 ('Wituch'),
-('Witvoet'),
+
 ('Witwer'),
 ('Witworth'),
 ('Wityak'),
@@ -19695,7 +19695,7 @@ VALUES
 ('Wiydorla'),
 ('Wiygul'),
 ('Wiyohannes'),
-('Wiyono'),
+
 ('Wize'),
 ('Wizerwa'),
 ('Wizner'),
@@ -19787,7 +19787,7 @@ VALUES
 ('Woehrl'),
 ('Woehrle'),
 ('Woehrling'),
-('Woei'),
+
 ('Woelber'),
 ('Woelfel'),
 ('Woelffer'),
@@ -19829,7 +19829,7 @@ VALUES
 ('Wogan'),
 ('Wogciech'),
 ('Wogden'),
-('Woge'),
+
 ('Wogen'),
 ('Woggon'),
 ('Woghiren'),
@@ -19842,7 +19842,7 @@ VALUES
 ('Wogoman'),
 ('Wogomon'),
 ('Wogsland'),
-('Wogu'),
+
 ('Wogud'),
 ('Wohab'),
 ('Wohali'),
@@ -19854,7 +19854,7 @@ VALUES
 ('Wohhab'),
 ('Wohid'),
 ('Wohidzzaman'),
-('Wohl'),
+
 ('Wohld'),
 ('Wohleber'),
 ('Wohlen'),
@@ -19884,7 +19884,7 @@ VALUES
 ('Wohltman'),
 ('Wohlwend'),
 ('Wohlwender'),
-('Wohn'),
+
 ('Wohner'),
 ('Wohnrath'),
 ('Wohrel'),
@@ -19921,10 +19921,10 @@ VALUES
 ('Wojnar'),
 ('Wojnarowiez'),
 ('Wojner'),
-('Wojs'),
+
 ('Wojsiat'),
 ('Wojslaw'),
-('Wojt'),
+
 ('Wojtach'),
 ('Wojtachnio'),
 ('Wojtak'),
@@ -20059,7 +20059,7 @@ VALUES
 ('Wolfenberger'),
 ('Wolfendale'),
 ('Wolfenden'),
-('Wolfensohn'),
+
 ('Wolfensperger'),
 ('Wolfenstein'),
 ('Wolfer'),
@@ -20116,7 +20116,7 @@ VALUES
 ('Wolfsen'),
 ('Wolfskill'),
 ('Wolfslag'),
-('Wolfsohn'),
+
 ('Wolfson'),
 ('Wolfsteiner'),
 ('Wolfsuager'),
@@ -20254,7 +20254,7 @@ VALUES
 ('Wolvin'),
 ('Wolwer'),
 ('Woly'),
-('Wolz'),
+
 ('Wolzen'),
 ('Woma'),
 ('Womack'),
@@ -20272,9 +20272,9 @@ VALUES
 ('Womeldorff'),
 ('Womer'),
 ('Womersley'),
-('Womi'),
+
 ('Womick'),
-('Womiloju'),
+
 ('Wommack'),
 ('Wommer'),
 ('Womsiwor'),
@@ -20372,12 +20372,12 @@ VALUES
 ('Wontner'),
 ('Wontor'),
 ('Wontumi'),
-('Wonu'),
+
 ('Wonuola'),
 ('Wonyakona'),
 ('Wonyia'),
 ('Woo'),
-('Woob'),
+
 ('Woobin'),
 ('Woochit'),
 ('Woock'),
@@ -20483,11 +20483,11 @@ VALUES
 ('Woodrick'),
 ('Woodridge'),
 ('Woodring'),
-('Woodrofe'),
+
 ('Woodroffe'),
 ('Woodrome'),
 ('Woodroof'),
-('Woodroofe'),
+
 ('Woodrooffe'),
 ('Woodrough'),
 ('Woodrow'),
@@ -20524,13 +20524,13 @@ VALUES
 ('Wooffindin'),
 ('Wooffitt'),
 ('Woofter'),
-('Woog'),
+
 ('Woogai'),
-('Wooge'),
+
 ('Woogun'),
-('Wooh'),
+
 ('Woohaa'),
-('Wooi'),
+
 ('Woojung'),
 ('Wook'),
 ('Wookey'),
@@ -20675,7 +20675,7 @@ VALUES
 ('Woover'),
 ('Wooward'),
 ('Wooyung'),
-('Wooz'),
+
 ('Woozeer'),
 ('Woozeerally'),
 ('Woozley'),
@@ -20728,7 +20728,7 @@ VALUES
 ('Wordley'),
 ('Wordlington'),
 ('Wordlow'),
-('Wordofa'),
+
 ('Wordota'),
 ('Wordsworth'),
 ('Woreba'),
@@ -20917,7 +20917,7 @@ VALUES
 ('Wostal'),
 ('Wostar'),
 ('Wostear'),
-('Wostenholm'),
+
 ('Woster'),
 ('Wostry'),
 ('Wosu'),
@@ -21247,7 +21247,7 @@ VALUES
 ('Wulforst'),
 ('Wulfred'),
 ('Wulfric'),
-('Wulfsohn'),
+
 ('Wulfstan'),
 ('Wulian'),
 ('Wulinkuti'),

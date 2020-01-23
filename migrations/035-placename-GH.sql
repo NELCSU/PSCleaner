@@ -3039,7 +3039,7 @@ VALUES
 ('Gateheugh'),
 ('Gatehill Gardens'),
 ('Gatehill Road'),
-('Gateholm'),
+
 ('Gateholm Avenue'),
 ('Gateholm Close'),
 ('Gateholm Sound'),
@@ -3960,7 +3960,7 @@ VALUES
 ('Gelligarn'),
 ('Gelligeiros'),
 ('Gelliglas'),
-('Gelligroes'),
+
 ('Gelligron'),
 ('Gelligyflog'),
 ('Gellihaf'),
@@ -5368,7 +5368,7 @@ VALUES
 ('Ghobhlach'),
 ('Ghobhlain'),
 ('Ghocain'),
-('Ghoib'),
+
 ('Ghoideal'),
 ('Ghoil'),
 ('Ghoil Sgeir'),
@@ -6722,7 +6722,7 @@ VALUES
 ('Gingham Park'),
 ('Gingler Lane'),
 ('Gingling Cleugh'),
-('Gingoog'),
+
 ('Ginhall Lane'),
 ('Ginhams Road'),
 ('Ginhouse Lane'),
@@ -8909,7 +8909,7 @@ VALUES
 ('Glenbeck Road'),
 ('Glenbeigh Terrace'),
 ('Glenbervie'),
-('Glenboig'),
+
 ('Glenboig Farm'),
 ('Glenboig New'),
 ('Glenboig Road'),
@@ -9008,7 +9008,7 @@ VALUES
 ('Glencarse'),
 ('Glencarse Hill'),
 ('Glencart Grove'),
-('Glencartholm'),
+
 ('Glencastle Road'),
 ('Glencastle Way'),
 ('Glencathara Road'),
@@ -9463,7 +9463,7 @@ VALUES
 ('Glenhills'),
 ('Glenhills Way'),
 ('Glenhoise'),
-('Glenholm'),
+
 ('Glenholm Avenue'),
 ('Glenholm Place'),
 ('Glenholm Road'),
@@ -10121,7 +10121,7 @@ VALUES
 ('Glimmer Way'),
 ('Glimna Geo'),
 ('Glimps Holm'),
-('Glimpsholm'),
+
 ('Glimpsing Green'),
 ('Glims'),
 ('Gling Glang'),
@@ -10183,14 +10183,14 @@ VALUES
 ('Glodwick'),
 ('Glodwick Lows'),
 ('Glodwick Road'),
-('Glofa'),
+
 ('Glog'),
 ('Glog Hill'),
 ('Glogue'),
 ('Glol'),
 ('Glomach'),
 ('Glomach Grove'),
-('Glonc'),
+
 ('Glonds Knowes'),
 ('Gloom Hill'),
 ('Gloomy Cleuch'),
@@ -14197,7 +14197,7 @@ VALUES
 ('Grandford'),
 ('Grandford Drove'),
 ('Grandford Lane'),
-('Grandholm'),
+
 ('Grandholm Avenue'),
 ('Grandholm Crescent'),
 ('Grandholm Drive'),
@@ -14679,7 +14679,7 @@ VALUES
 ('Grasshill Causeway'),
 ('Grasshill Common'),
 ('Grasshill Covert'),
-('Grassholm'),
+
 ('Grassholm Close'),
 ('Grassholm Gardens'),
 ('Grassholm Place'),
@@ -17270,7 +17270,7 @@ VALUES
 ('Greenhoe Place'),
 ('Greenhoe Road'),
 ('Greenhole Place'),
-('Greenholm'),
+
 ('Greenholm Sound'),
 ('Greenhoop Drove'),
 ('Greenhope'),
@@ -19314,7 +19314,7 @@ VALUES
 ('Groes Efa'),
 ('Groes faen'),
 ('Groes Fagl'),
-('Groes'),
+
 ('Groes Goch'),
 ('Groes Grove'),
 ('Groes Lon'),
@@ -19374,7 +19374,7 @@ VALUES
 ('Gronishudden'),
 ('Gronow Close'),
 ('Gronow Place'),
-('Gronw'),
+
 ('Groo Hellia'),
 ('Grood'),
 ('Groom Close'),
@@ -21638,7 +21638,7 @@ VALUES
 ('Hachenburg Place'),
 ('Hacheston'),
 ('Hacheston Road'),
-('Hachinohe'),
+
 ('Hachiōji'),
 ('Hack Drive'),
 ('Hack Green'),
@@ -39603,7 +39603,7 @@ VALUES
 ('Highheath'),
 ('Highheath Farm'),
 ('Highhoes Copse'),
-('Highholm'),
+
 ('Highholm Avenue'),
 ('Highhouse View'),
 ('Highland Avenue'),
@@ -42375,7 +42375,7 @@ VALUES
 ('Hofland Road'),
 ('Hofmann Mews'),
 ('Hoftens Cross'),
-('Hofu'),
+
 ('Hofuf'),
 ('Hog'),
 ('Hog Bay'),
@@ -44110,7 +44110,7 @@ VALUES
 ('Hollywoods'),
 ('Holm Avenue'),
 ('Holm Bay'),
-('Holm'),
+
 ('Holm Branch'),
 ('Holm Burn'),
 ('Holm Bush'),
@@ -46805,7 +46805,7 @@ VALUES
 ('Horny Bush'),
 ('Hornyold Avenue'),
 ('Hornyold Road'),
-('Horogh'),
+
 ('Horologe Hill'),
 ('Horpit'),
 ('Horrabridge'),
@@ -51254,7 +51254,7 @@ VALUES
 ('Hyskeir'),
 ('Hyslop'),
 ('Hyson'),
-('Hysopp'),
+
 ('Hyssington'),
 ('Hyssop'),
 ('Hystfield'),

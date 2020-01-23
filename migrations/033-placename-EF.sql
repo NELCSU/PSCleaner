@@ -1522,7 +1522,7 @@ VALUES
 ('Easthill Road'),
 ('Easthill Way'),
 ('Eastholes Copse'),
-('Eastholm'),
+
 ('Eastholm Close'),
 ('Eastholm Green'),
 ('Eastholme Avenue'),
@@ -9821,7 +9821,7 @@ VALUES
 ('Ettrickdale Road'),
 ('Ettricke Drive'),
 ('Ettrickhaugh Road'),
-('Ettrickholm'),
+
 ('Ettrickhouse Hill'),
 ('Etty Avenue'),
 ('Etty Close'),
@@ -13349,7 +13349,7 @@ VALUES
 ('Faro Close'),
 ('Faroe Close'),
 ('Faroe Road'),
-('Faroes'),
+
 ('Faroes Close'),
 ('Faroes Court'),
 ('Farorna Walk'),
@@ -16103,7 +16103,7 @@ VALUES
 ('Ffynnonddrain'),
 ('Ffynnongain'),
 ('Ffynnongain Lane'),
-('Ffynnongroes'),
+
 ('Ffynnongroew Road'),
 ('Ffynnongroyw'),
 ('Ffynon'),
@@ -19602,7 +19602,7 @@ VALUES
 ('Flodding Hill'),
 ('Floddrams'),
 ('Flodigarry'),
-('Floga'),
+
 ('Flood Crag'),
 ('Flood Craigs of Twiness'),
 ('Flood Drain'),
@@ -21089,7 +21089,7 @@ VALUES
 ('Forgefields'),
 ('Forgehill'),
 ('Forgehill Crescent'),
-('Forgeholm'),
+
 ('Forger Close'),
 ('Forges Hill'),
 ('Forges Road'),

@@ -170,7 +170,7 @@ VALUES
 (
   'NameRegExO', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-zàèéìòóùäöüß]+o(?:a[a-cg-joqu-z]|b[a-df-rt-z]|c[a-jl-ru-z]|d[a-df-rt-xz]|e[kln]|f[fo]|h[io]|i[fhijkqu-z]|k[io]|ja|lo|mo|n[in]|[tv]i|ou|r[cf]|sz|u[aim-owx]|va|y[kn]|z[a-df-xz])\b'
+  '\b[a-zàèéìòóùäöüß]+o(?:a[a-cg-joqu-z]|b[a-df-rt-z]|c[a-jl-ru-z]|d[a-df-rt-xz]|e[bce-qs-xz]|f[a-ru-xz]|g[a-rt-xz]|h[a-rt-z]|i[be-kmo-qu-z]|j[a-z]|k[b-df-rt-xz]|l[bcghjm-ru-xz]|m[cf-rt-xz]|n[bcfhijl-ru-xz]|o[a-ceg-joqu-z]|p[b-dfgjkp]|qq|r[cf]|s[z]|ti|u[aim-owx]|v[ai]|ww|xx|y[kn]|z[a-df-xz])\b'
 ),
 (
   'NameRegExP', '#00a0ff', 'Name', 'NAME', 'Regular expression',

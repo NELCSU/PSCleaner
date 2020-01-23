@@ -860,7 +860,7 @@ VALUES
 ('Inchcape Rock'),
 ('Inchcape Terrace'),
 ('Inchcliffe Crescent'),
-('Inchcolm'),
+
 ('Inchcolm Drive'),
 ('Inchcolm Gardens'),
 ('Inchcolm Place'),
@@ -914,7 +914,7 @@ VALUES
 ('Inchgower Terrace'),
 ('Inchgreen'),
 ('Inchgreen Gardens'),
-('Inchholm'),
+
 ('Inchholm Lane'),
 ('Inchie'),
 ('Inchie Strip'),
@@ -5293,7 +5293,7 @@ VALUES
 ('Ji Paraná'),
 ('Jiangmen'),
 ('Jiangyin'),
-('Jiaohe'),
+
 ('Jiaojiang'),
 ('Jiaozhou City'),
 ('Jib Close'),
@@ -6670,7 +6670,7 @@ VALUES
 ('Kate Great Stone'),
 ('Kate Melons'),
 ('Kate Reed'),
-('Kateholm'),
+
 ('Kateregina'),
 ('Kateridden'),
 ('Kates Belt'),
@@ -7606,7 +7606,7 @@ VALUES
 ('Kelloe Close'),
 ('Kelloe Hill'),
 ('Kelloe Law'),
-('Kelloholm'),
+
 ('Kellow Hill'),
 ('Kellow Road'),
 ('Kells Acres'),
@@ -9631,7 +9631,7 @@ VALUES
 ('Kettlehills Crescent'),
 ('Kettlehills Lane'),
 ('Kettlehills Road'),
-('Kettleholm'),
+
 ('Kettleholm Moor'),
 ('Kettlehouse Road'),
 ('Kettlemore Lane'),
@@ -10654,7 +10654,7 @@ VALUES
 ('Killyvarder Way'),
 ('Killywhan Hill'),
 ('Kilmachalmack'),
-('Kilmacolm'),
+
 ('Kilmacolm Place'),
 ('Kilmacolm Road'),
 ('Kilmadock'),
@@ -10941,7 +10941,7 @@ VALUES
 ('Kilnheugh'),
 ('Kilnhill'),
 ('Kilnhillock'),
-('Kilnholm'),
+
 ('Kilnhouse'),
 ('Kilnhouse Bank'),
 ('Kilnhouse Lane'),
@@ -11458,7 +11458,7 @@ VALUES
 ('Kine Moor'),
 ('Kinecroft'),
 ('Kinegar Strip'),
-('Kineholm'),
+
 ('Kineholme Drive'),
 ('Kinellan'),
 ('Kinellan Drive'),
@@ -11737,7 +11737,7 @@ VALUES
 ('Kinghazard Belt'),
 ('Kingheriot'),
 ('Kinghern Copse'),
-('Kingholm'),
+
 ('Kingholm Drive'),
 ('Kingholm Loaning'),
 ('Kingholm Quay'),
@@ -12164,7 +12164,7 @@ VALUES
 ('Kingshoath'),
 ('Kingshoe'),
 ('Kingshold Road'),
-('Kingsholm'),
+
 ('Kingsholm Close'),
 ('Kingsholm Court'),
 ('Kingsholm Gardens'),
@@ -13366,7 +13366,7 @@ VALUES
 ('Kirkcaldy Road'),
 ('Kirkcaldy Sands'),
 ('Kirkcambeck'),
-('Kirkcolm'),
+
 ('Kirkcolm Point'),
 ('Kirkconnel'),
 ('Kirkconnel Avenue'),
@@ -13596,7 +13596,7 @@ VALUES
 ('Kirkland Way'),
 ('Kirkland Wynd'),
 ('Kirklandhill Path'),
-('Kirklandholm'),
+
 ('Kirklandneuk Road'),
 ('Kirklands'),
 ('Kirklands Avenue'),
@@ -13838,7 +13838,7 @@ VALUES
 ('Kirktonhill'),
 ('Kirktonhill Place'),
 ('Kirktonhill Road'),
-('Kirktonholm'),
+
 ('Kirktonholm Place'),
 ('Kirktonholme Crescent'),
 ('Kirktonholme Gardens'),
@@ -15406,7 +15406,7 @@ VALUES
 ('Knowehead Hill'),
 ('Knowehead Road'),
 ('Knowehead Terrace'),
-('Knoweholm'),
+
 ('Knoweknack Terrace'),
 ('Knowel Hill'),
 ('Knowelea Place'),
@@ -15682,7 +15682,7 @@ VALUES
 ('Kodaira'),
 ('Kofi Geo'),
 ('Koforidua'),
-('Kofu'),
+
 ('Koganei'),
 ('Koh I Noor'),
 ('Kohat'),
@@ -15724,7 +15724,7 @@ VALUES
 ('Koppers Way'),
 ('Korda Close'),
 ('Korea Road'),
-('Korhogo'),
+
 ('Koriyama'),
 ('Korndyk Avenue'),
 ('Kornwestheim Way'),

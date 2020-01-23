@@ -1671,7 +1671,7 @@ VALUES
 ('Lambhill Moss'),
 ('Lambhill Quadrant'),
 ('Lambhill Terrace'),
-('Lambhoga'),
+
 ('Lambhole'),
 ('Lambhouse Lane'),
 ('Lambi Geo'),
@@ -1886,7 +1886,7 @@ VALUES
 ('Lamellyon'),
 ('Lamen Road'),
 ('Lamer Lane'),
-('Lamerhooe'),
+
 ('Lamerhooe Drive'),
 ('Lamerock Road'),
 ('Lamers Road'),
@@ -3159,7 +3159,7 @@ VALUES
 ('Langhills'),
 ('Langhills Goil'),
 ('Langhole Drove'),
-('Langholm'),
+
 ('Langholm Avenue'),
 ('Langholm Braes'),
 ('Langholm Close'),
@@ -3887,15 +3887,15 @@ VALUES
 ('Lanyork Road'),
 ('Lanús'),
 
-('Laogh'),
+
 ('Laogh an Eilein'),
-('Laogh'),
-('Laogh'),
+
+
 ('Laoghach'),
-('Laoig'),
+
 ('Laoigan Place'),
 ('Laoighscan'),
-('Laoim'),
+
 ('Laoiran'),
 ('Laorin Bay'),
 ('Lap'),
@@ -6532,7 +6532,7 @@ VALUES
 ('Leahill Croft'),
 ('Leahoe Gardens'),
 ('Leaholes Avenue'),
-('Leaholm'),
+
 ('Leaholme Close'),
 ('Leaholme Crescent'),
 ('Leaholme Gardens'),
@@ -6572,7 +6572,7 @@ VALUES
 ('Lealands Avenue'),
 ('Lealands Close'),
 ('Lealands Drive'),
-('Lealholm'),
+
 ('Lealholm Court'),
 ('Lealholm Crescent'),
 ('Lealholm Lane'),
@@ -7995,7 +7995,7 @@ VALUES
 ('Leithland Avenue'),
 ('Leithland Road'),
 ('Leithne'),
-('Leitholm'),
+
 ('Leitholm Close'),
 ('Leithope Forest'),
 ('Leithy'),
@@ -11757,7 +11757,7 @@ VALUES
 ('Linghaw'),
 ('Lingheath Road'),
 ('Linghills Road'),
-('Lingholm'),
+
 ('Lingholm Close'),
 ('Lingholm Crescent'),
 ('Lingholm Hill'),
@@ -16014,7 +16014,7 @@ VALUES
 ('Llandinshop'),
 ('Llandochau'),
 ('Llandoche'),
-('Llandogo'),
+
 ('Llandogo Road'),
 ('Llandore Close'),
 ('Llandouche'),
@@ -16062,7 +16062,7 @@ VALUES
 ('Llandyrnog'),
 ('Llandyry'),
 ('Llandysilio gogo'),
-('Llandysiliogogo'),
+
 ('Llandyssil'),
 ('Llandysul'),
 ('Llandâf'),
@@ -16329,7 +16329,7 @@ VALUES
 ('Llanhenwg'),
 ('Llanhilleth'),
 ('Llanhuadain'),
-('Llanidloes'),
+
 ('Llanidloes Allanol'),
 ('Llanidloes Mews'),
 ('Llanidloes Road'),
@@ -20689,7 +20689,7 @@ VALUES
 ('Longhirst Drive'),
 ('Longhirst Gardens'),
 ('Longhirst Road'),
-('Longhoes'),
+
 ('Longholme Road'),
 ('Longholme Way'),
 ('Longhook Gardens'),
@@ -21366,7 +21366,7 @@ VALUES
 ('Loo Avenue'),
 ('Loobert Road'),
 ('Loocombe Ponds'),
-('Looe'),
+
 ('Looe Bay'),
 ('Looe Close'),
 ('Looe Downs'),
@@ -24907,42 +24907,18 @@ VALUES
 ('Lunts Heath'),
 ('Lunts Lane'),
 ('Lunts Moss'),
-('Luntswood Grove'),
+('Luntswood'),
 ('Lunty'),
 ('Lunvoy'),
-('Luohe'),
 ('Luoyang'),
-('Lupin Avenue'),
-('Lupin Close'),
-('Lupin Court'),
-('Lupin Crescent'),
-('Lupin Drive'),
-('Lupin Gardens'),
-('Lupin Grove'),
-('Lupin Lane'),
-('Lupin Mews'),
-('Lupin Ride'),
-('Lupin Road'),
-('Lupin Spinney'),
-('Lupin Walk'),
-('Lupin Way'),
-('Lupine Road'),
-('Lupins Close'),
-('Luppit Close'),
+('Lupin'),
+('Lupine'),
+('Lupins'),
+('Luppit'),
 ('Luppitt'),
-('Luppitt Common'),
 ('Lupridge'),
 ('Lupset'),
-('Lupset Crescent'),
-('Lupset Pond'),
-('Lupton Avenue'),
-('Lupton Bank'),
-('Lupton Close'),
-('Lupton Crescent'),
-('Lupton Drive'),
-('Lupton Place'),
-('Lupton Road'),
-('Lupton Springs'),
+('Lupton'),
 ('Lupus'),
 ('Lupus Way'),
 ('Lurach'),
@@ -25922,7 +25898,7 @@ VALUES
 ('Lyneham Road'),
 ('Lyneham Walk'),
 ('Lyneham Way'),
-('Lyneholm'),
+
 ('Lyneholm Hill'),
 ('Lyneholm Moss'),
 ('Lyneholme Ford'),
@@ -26991,7 +26967,7 @@ VALUES
 ('Machriewater Foot'),
 ('Machrihanish'),
 ('Machrihanish Bay'),
-('Machroes'),
+
 ('Machynlleth'),
 ('Machynlleth Way'),
 ('Machynys'),
@@ -27521,7 +27497,7 @@ VALUES
 ('Madocke Road'),
 ('Madocks Way'),
 ('Madocs Haven'),
-('Madoes'),
+
 ('Madoes Road'),
 ('Madog Close'),
 ('Madog Place'),
@@ -28588,7 +28564,7 @@ VALUES
 ('Maines Batch'),
 ('Maingait Medway'),
 ('Mainhill'),
-('Mainholm'),
+
 ('Mainhouse'),
 ('Mainmark Rock'),
 ('Mainnir nam'),
@@ -31205,7 +31181,7 @@ VALUES
 ('Marcos Road'),
 ('Marcot Road'),
 ('Marcourt Road'),
-('Marcroes'),
+
 ('Marcroft Avenue'),
 ('Marcroft Place'),
 ('Marcroft Road'),
@@ -31620,7 +31596,7 @@ VALUES
 ('Marhamchurch'),
 ('Marhead Balk'),
 ('Marhill Road'),
-('Marholm'),
+
 ('Marholm Close'),
 ('Marholm Road'),
 ('Marhon Close'),
@@ -32732,7 +32708,7 @@ VALUES
 ('Marro Field'),
 ('Marrods Bottom'),
 ('Marrofield Water'),
-('Marrogh'),
+
 ('Marron Avenue'),
 ('Marron Close'),
 ('Marron Court'),
@@ -35986,7 +35962,7 @@ VALUES
 ('Meadle'),
 ('Meadley Court'),
 ('Meadley Place'),
-('Meadoes'),
+
 ('Meadon Avenue'),
 ('Meadow Acre'),
 ('Meadow Approach'),
@@ -37638,7 +37614,7 @@ VALUES
 ('Meiklehill Avenue'),
 ('Meiklehill Loan'),
 ('Meiklehill Road'),
-('Meikleholm'),
+
 ('Meikleholm Drive'),
 ('Meikleholm Glen'),
 ('Meikleholm Hill'),
@@ -41570,7 +41546,7 @@ VALUES
 ('Midhill Drive'),
 ('Midhill Place'),
 ('Midhill Road'),
-('Midholm'),
+
 ('Midholm Close'),
 ('Midholm Road'),
 ('Midhope'),
@@ -44369,7 +44345,7 @@ VALUES
 ('Miskin Road'),
 ('Miskin Terrace'),
 ('Miskin Way'),
-('Miskolc'),
+
 ('Mislet Brow'),
 ('Misley Copse'),
 ('Misling Lane'),
@@ -44641,7 +44617,7 @@ VALUES
 ('Mixon Close'),
 ('Mixtow'),
 ('Mixtow Pill'),
-('Miyakonojo'),
+
 ('Miz Maze'),
 ('Mizen Close'),
 ('Mizen Court'),
@@ -46502,7 +46478,7 @@ VALUES
 ('Moo Taing'),
 ('Moo Water'),
 ('Moo Wick'),
-('Mooa'),
+
 ('Mooa Clett'),
 ('Mooa Geo'),
 ('Mooa Stack'),
@@ -47136,7 +47112,7 @@ VALUES
 ('Moorsfield Avenue'),
 ('Moorshall Copse'),
 ('Moorshill Lane'),
-('Moorsholm'),
+
 ('Moorsholm Drive'),
 ('Moorsholm Lane'),
 ('Moorsholm Moor'),
@@ -51332,7 +51308,7 @@ VALUES
 ('Murroch Crescent'),
 ('Murroch Glen'),
 ('Murrocks Lane'),
-('Murroes'),
+
 ('Murroes Place'),
 ('Murroes Road'),
 ('Murrough Wilson'),
@@ -51671,7 +51647,7 @@ VALUES
 ('Mwnt'),
 ('Mwnws'),
 ('Mwrog'),
-('Mwsogl'),
+
 ('Mwtshwr'),
 ('Mwyalch'),
 ('Mwyalchod'),
@@ -52201,7 +52177,7 @@ VALUES
 ('Mythe View'),
 ('Mythern Meadow'),
 ('Mythholme Avenue'),
-('Mytholm'),
+
 ('Mytholm Bank'),
 ('Mytholm Bridge'),
 ('Mytholm Close'),

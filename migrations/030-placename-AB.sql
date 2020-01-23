@@ -220,7 +220,7 @@ VALUES
 ('Aberdore'),
 ('Aberdovey'),
 ('Aberdulais'),
-('Aberdunhonw'),
+
 ('Aberdyberthi'),
 ('Aberdyfi'),
 ('Aberdâr'),
@@ -1018,7 +1018,7 @@ VALUES
 ('Agravaine'),
 ('Agricultural Hall'),
 ('Agricultural Way'),
-('Agrikomp'),
+
 ('Aguascalientes'),
 ('Ahavig'),
 ('Ahmednagar'),
@@ -2663,7 +2663,7 @@ VALUES
 ('Alnwickhill'),
 ('Alnwickhill Loan'),
 ('Alnwood'),
-('Aloes'),
+
 ('Aloeswood'),
 ('Alor Setar'),
 ('Alotan'),
@@ -3126,7 +3126,7 @@ VALUES
 ('Ampulla'),
 ('Amreli'),
 ('Amritsar'),
-('Amroha'),
+
 ('Amroth'),
 ('Amsbridge'),
 ('Amspool'),
@@ -3430,7 +3430,7 @@ VALUES
 ('Anglo Road'),
 ('Angly Bar'),
 ('Angmering'),
-('Angono'),
+
 ('Angoods'),
 ('Angorfa'),
 ('Angotts'),
@@ -4422,7 +4422,7 @@ VALUES
 ('Ardgryfe'),
 ('Ardgryfe Manor'),
 ('Ardheisker'),
-('Ardholm'),
+
 ('Ardhuncart'),
 ('Ardie'),
 ('Ardiebrown'),
@@ -4624,7 +4624,7 @@ VALUES
 ('Arketts'),
 ('Arkill'),
 ('Arkindale'),
-('Arkinholm'),
+
 ('Arkland Rig'),
 ('Arklay'),
 ('Arkleby'),
@@ -4801,7 +4801,7 @@ VALUES
 ('Arngill Force'),
 ('Arnhall'),
 ('Arnhill'),
-('Arnholm'),
+
 ('Arnian'),
 ('Arnicil'),
 ('Arnicle'),
@@ -9024,7 +9024,7 @@ VALUES
 ('Balmaise'),
 ('Balmakeith Drive'),
 ('Balmakeith Park'),
-('Balmalcolm'),
+
 ('Balmalcolm Den'),
 ('Balmaleedy'),
 
@@ -9820,7 +9820,7 @@ VALUES
 ('Bankhey'),
 ('Bankhill'),
 ('Bankhirst'),
-('Bankholm'),
+
 ('Bankholmes'),
 ('Bankhouse'),
 ('Bankier'),
@@ -10159,7 +10159,7 @@ VALUES
 ('Banyardway'),
 ('Baní'),
 ('Baoding'),
-('Baoji'),
+
 ('Baonal Way'),
 ('Bapaume Road'),
 ('Bapchild'),
@@ -10254,7 +10254,7 @@ VALUES
 ('Baravullin'),
 ('Barb Mews'),
 ('Barbacena'),
-('Barbadoes'),
+
 ('Barbadoes Green'),
 ('Barbadoes Place'),
 ('Barbadoes Road'),
@@ -10898,7 +10898,7 @@ VALUES
 ('Barhaugh Pot'),
 ('Barhill'),
 ('Barhoise Hill'),
-('Barholm'),
+
 ('Bari Close'),
 ('Bari Road'),
 ('Bariloche'),
@@ -12881,7 +12881,7 @@ VALUES
 ('Barthorpe Crescent'),
 ('Barthorps Covert'),
 ('Barthorps Creek'),
-('Barthropp'),
+
 ('Bartic Avenue'),
 ('Bartie Gardens'),
 ('Bartiebeith Road'),
@@ -17293,7 +17293,7 @@ VALUES
 ('Behind Butts'),
 ('Behind Hayes'),
 ('Behind Town'),
-('Behoes'),
+
 ('Behrendt Close'),
 ('Behrens Whin'),
 ('Beidic'),
@@ -19083,7 +19083,7 @@ VALUES
 ('Benhilton'),
 ('Benhilton Gardens'),
 ('Benhole Lane'),
-('Benholm'),
+
 ('Benholm Gardens'),
 ('Benholm Place'),
 ('Benholmley Hill'),
@@ -19776,7 +19776,7 @@ VALUES
 ('Berefold Close'),
 ('Bereford Close'),
 ('Berehill House'),
-('Bereholm'),
+
 ('Berehurst'),
 ('Berelan'),
 ('Bereland Avenue'),
@@ -27723,7 +27723,7 @@ VALUES
 ('Blencathra Way'),
 ('Blench Drive'),
 ('Blench Lane'),
-('Blencogo'),
+
 ('Blencow'),
 ('Blencowe Close'),
 ('Blencowe Drive'),
@@ -28310,7 +28310,7 @@ VALUES
 ('Bloxham Road'),
 ('Bloxham Way'),
 ('Bloxhams'),
-('Bloxholm'),
+
 ('Bloxholm Gorse'),
 ('Bloxholm Lane'),
 ('Bloxsom Close'),
@@ -28717,7 +28717,7 @@ VALUES
 ('Blythfield'),
 ('Blythhedges'),
 ('Blythhedges Spring'),
-('Blythholm'),
+
 ('Blything Court'),
 ('Blythings'),
 ('Blythlaw'),
@@ -29521,7 +29521,7 @@ VALUES
 ('Bogh an Tairbh'),
 ('Bogh an Tire'),
 ('Bogh Eilean an'),
-('Bogh'),
+
 ('Bogh Oitir'),
 ('Bogh à Bhinnein'),
 ('Bogha a'),
@@ -30175,7 +30175,7 @@ VALUES
 ('Bonby Grove'),
 ('Bonby Lane'),
 ('Bonby Road'),
-('Bonc'),
+
 ('Bonc Crogen'),
 ('Bonc Ddu'),
 ('Bonc dwyrch'),
@@ -34785,7 +34785,7 @@ VALUES
 ('Braine Croft'),
 ('Braine Lalleud'),
 ('Braine Road'),
-('Brainjohn'),
+
 ('Brainport Bay'),
 ('Brainport Point'),
 ('Brains Coppice'),
@@ -35655,7 +35655,7 @@ VALUES
 ('Branket'),
 ('Brankfleet'),
 ('Brankfleet Spit'),
-('Brankholm'),
+
 ('Brankholm Crescent'),
 ('Brankholm Gardens'),
 ('Brankholm Lane'),
@@ -39836,7 +39836,7 @@ VALUES
 ('Broadhinton Road'),
 ('Broadhoath'),
 ('Broadholes Lane'),
-('Broadholm'),
+
 ('Broadholme Gorse'),
 ('Broadhope'),
 ('Broading'),
@@ -40680,7 +40680,7 @@ VALUES
 ('Brogden Terrace'),
 ('Brogden View'),
 ('Brogenslade Bottom'),
-('Brogg'),
+
 ('Brogging Moss'),
 ('Broginin'),
 ('Brogorwel'),
@@ -40694,7 +40694,7 @@ VALUES
 ('Broich Avenue'),
 ('Broich Road'),
 ('Broich Terrace'),
-('Broig'),
+
 ('Broige'),
 ('Broilein'),
 ('Broke Avenue'),
@@ -41442,7 +41442,7 @@ VALUES
 ('Brookshill Coppice'),
 ('Brookshill Drive'),
 ('Brookshire'),
-('Brooksholm'),
+
 ('Brookside'),
 ('Brookside Ascot'),
 ('Brookside Avenue'),
@@ -41808,7 +41808,7 @@ VALUES
 ('Broomhills'),
 ('Broomhills Lane'),
 ('Broomhills Road'),
-('Broomholm'),
+
 ('Broomhope Cleugh'),
 ('Broomhouse'),
 ('Broomhouse Avenue'),
@@ -43499,7 +43499,7 @@ VALUES
 ('Bryncoed'),
 ('Bryncoed Terrace'),
 ('Bryncriafol'),
-('Bryncroes'),
+
 ('Bryncrug'),
 ('Bryncurl'),
 ('Bryncwar Road'),
@@ -43957,7 +43957,7 @@ VALUES
 ('Buckhold Road'),
 ('Buckhole Farm'),
 ('Buckholes Lane'),
-('Buckholm'),
+
 ('Buckholm Hill'),
 ('Buckholm Mill'),
 ('Buckholme Lonning'),
@@ -48779,7 +48779,7 @@ VALUES
 ('Bwlchgwallter'),
 ('BwlchyDdar'),
 ('Bwlchyffridd'),
-('Bwlchygroes'),
+
 ('Bwlchygwynt'),
 ('Bwlchyrhaearn'),
 ('Bwlfar'),
