@@ -1,5 +1,5 @@
 /**
- * https://github.com/microsoft/vscode/blob/master/src/vs/base/common/charCode.ts
+ * @see https://github.com/microsoft/vscode/blob/master/src/vs/base/common/charCode.ts
  * An inlined enum containing useful character codes (to be used with String.charCodeAt).
  * Please leave the const keyword such that it gets inlined when compiled to JavaScript!
  */
@@ -334,11 +334,13 @@ export const enum CharCode {
 
 	/**
 	 * Unicode Character 'LINE SEPARATOR' (U+2028)
-	 * http://www.fileformat.info/info/unicode/char/2028/index.htm
+	 * @see http://www.fileformat.info/info/unicode/char/2028/index.htm
 	 */
 	LINE_SEPARATOR_2028 = 8232,
 
-	// http://www.fileformat.info/info/unicode/category/Sk/list.htm
+	/* 
+	 * @see http://www.fileformat.info/info/unicode/category/Sk/list.htm 
+	 */
 	U_CIRCUMFLEX = 0x005E,									// U+005E	CIRCUMFLEX
 	U_GRAVE_ACCENT = 0x0060,								// U+0060	GRAVE ACCENT
 	U_DIAERESIS = 0x00A8,									// U+00A8	DIAERESIS
@@ -413,7 +415,7 @@ export const enum CharCode {
 	/**
 	 * UTF-8 BOM
 	 * Unicode Character 'ZERO WIDTH NO-BREAK SPACE' (U+FEFF)
-	 * http://www.fileformat.info/info/unicode/char/feff/index.htm
+	 * @see http://www.fileformat.info/info/unicode/char/feff/index.htm
 	 */
 	UTF8_BOM = 65279
 }

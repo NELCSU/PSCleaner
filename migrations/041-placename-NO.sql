@@ -1070,7 +1070,7 @@ VALUES
 ('Narracott Lane'),
 ('Narratons Road'),
 ('Narraway Grove'),
-('Narroch'),
+
 ('Narromine Drive'),
 ('Narrow'),
 ('Narrow Balk'),
@@ -13960,7 +13960,7 @@ VALUES
 ('Orne Gardens'),
 ('Orneage Close'),
 ('Orniscourt'),
-('Ornockenoch'),
+
 ('Ornsay'),
 ('Ornsay Close'),
 ('Ornsby Hill'),

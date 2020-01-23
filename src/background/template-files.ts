@@ -60,7 +60,7 @@ export class TemplateFiles {
         .then(
           _ => {
             this.fm.folder = path;
-            e.reply("template-folder", this.fm.folder)
+            e.reply("template-folder", this.fm.folder);
           },
           _ => e.reply("template-folder-error", this.fm.folder)
         );
@@ -101,7 +101,7 @@ export class TemplateFiles {
       this.fm.listFiles()
         .then(
           success => {
-            success = success.map(f => f.replace(/\.json/, ""))
+            success = success.map(f => f.replace(/\.json/, ""));
             e.reply("template-files", success);
           }
         );
@@ -110,7 +110,7 @@ export class TemplateFiles {
 
   /**
    * Returns false if check on parameter fails. Stores error.
-   * @param {CSVTemplate} template
+   * @param template
    */
   public check(template: CSVTemplate): boolean {
     if (template.header === undefined || typeof template.header !== "boolean") {
@@ -135,8 +135,7 @@ export class TemplateFiles {
 
   /**
    * Deletes a file
-   * @param {string} file - file to delete
-   * @return {Promise<any}
+   * @param file - file to delete
    */
   public deleteFile(file: string): Promise<string> {
     const fullPath: string = this.fm.join(file.replace(/\.json/, "") + ".json");
@@ -149,8 +148,7 @@ export class TemplateFiles {
 
   /**
    * Opens a file
-   * @param {string} file - path to file
-   * @return {Promise<any>}
+   * @param file - path to file
    */
   public openFile(file: string): Promise<ReadFileAction> {
     const fullPath: string = this.fm.join(file.replace(/\.json/, "") + ".json");
@@ -166,9 +164,8 @@ export class TemplateFiles {
 
   /**
    * Save a file
-   * @param {string} file - path to file
-   * @param {any} data - data to save to file
-   * @return {Promise<ReadFileAction>}
+   * @param file - path to file
+   * @param data - data to save to file
    */
   public saveFile(file: string, data: any): Promise<ReadFileAction> {
     const fullPath: string = this.fm.join(file.replace(/\.json/, "") + ".json");
@@ -189,7 +186,7 @@ export class TemplateFiles {
           return row.value;
         } else {
           const loc: string = join(app.getPath("home"), "Documents", app.getName(), "template");
-          await DB().insert("AppSettings", { field: "TEMPLATE_FOLDER", value: loc })
+          await DB().insert("AppSettings", { field: "TEMPLATE_FOLDER", value: loc });
           return loc;
         }
       })

@@ -25,7 +25,7 @@ export class ExportFiles {
         .then(
           _ => {
             this.fm.folder = path;
-            e.reply("export-folder", this.fm.folder)
+            e.reply("export-folder", this.fm.folder);
           },
           _ => e.reply("export-folder-error", this.fm.folder)
         );
@@ -47,7 +47,7 @@ export class ExportFiles {
           return row.value;
         } else {
           const loc: string = join(app.getPath("home"), "Documents", app.getName(), "export");
-          await DB().insert("AppSettings", { field: "EXPORT_FOLDER", value: loc })
+          await DB().insert("AppSettings", { field: "EXPORT_FOLDER", value: loc });
           return loc;
         }
       })

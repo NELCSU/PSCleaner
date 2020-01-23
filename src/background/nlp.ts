@@ -10,7 +10,7 @@ import { deepCopy } from "./util/deepCopy";
 export class NLP {
   public get trace(): boolean {
     return this._trace;
-  };
+  }
 
   public set trace(n: boolean) {
     this._trace = n;
@@ -38,8 +38,7 @@ export class NLP {
 
   /**
    * Returns list of matched entities
-   * @param {string} data - body of text to evaluate
-   * @return {Promise<MatchedEntity[]>}
+   * @param data - body of text to evaluate
    */
   public async evaluate(data: string): Promise<MatchedEntity[]> {
     const ent_re = await Entities.getList("Regular expression");
@@ -64,8 +63,7 @@ export class NLP {
 
   /**
    * Returns list of word positions
-   * @param {string} data - body of text to evaluate
-   * @return {Promise<WordPosition[]>}
+   * @param data - body of text to evaluate
    */
   public async getWordPositions(data: string): Promise<WordPosition[]> {
     const words: WordPosition[] = [];
@@ -122,8 +120,7 @@ export class NLP {
   
   /**
    * Returns text with sensitive values removed
-   * @param {string} data - body of text to match and replace 
-   * @param {MatchedEntites[]} matches - list of matches found
+   * @param data - body of text to match and replace 
    */
   public replace(data: string, matches: MatchedEntity[]): Promise<string> {
     return new Promise((resolve, reject) => {
@@ -139,7 +136,7 @@ export class NLP {
       catch (err) {
         reject(err);
       }
-    })
+    });
   }
 
   private _join(curr: MatchedEntity, next: MatchedEntity, originalText: string): MatchedEntity {
@@ -233,7 +230,7 @@ export class NLP {
           });
         }
       }
-    })
+    });
     return Promise.resolve(r);
   }
 

@@ -167,7 +167,7 @@ VALUES
 ('Gadley Close'),
 ('Gadley Covert'),
 ('Gadley Lane'),
-('Gadloch'),
+
 ('Gadloch Avenue'),
 ('Gadloch Gardens'),
 ('Gadloch View'),
@@ -356,10 +356,10 @@ VALUES
 ('Gairal'),
 ('Gairalily'),
 ('Gairbraid'),
-('Gairdoch'),
+
 ('Gaireallach'),
 ('Gairletter'),
-('Gairloch'),
+
 ('Gairlochy'),
 ('Gairlock Close'),
 ('Gairn Circle'),
@@ -491,7 +491,7 @@ VALUES
 ('Galdames Place'),
 ('Galdana Avenue'),
 ('Galdeford'),
-('Galdenoch'),
+
 ('Galdenoch Moor'),
 ('Galders'),
 ('Galdrings'),
@@ -1273,7 +1273,7 @@ VALUES
 ('Ganneys Meadow'),
 ('Gannicox Road'),
 ('Gannister'),
-('Gannoch'),
+
 ('Gannochie Terrace'),
 ('Gannochy'),
 ('Gannochy Avenue'),
@@ -1741,7 +1741,7 @@ VALUES
 ('Garelet Dod'),
 ('Garelet Hill'),
 ('Garelet Place'),
-('Gareloch'),
+
 ('Gareloch Avenue'),
 ('Gareloch Close'),
 ('Gareloch Lane'),
@@ -1833,7 +1833,7 @@ VALUES
 ('Garibaldi Road'),
 ('Garibaldi Terrace'),
 ('Garileph Way'),
-('Garioch'),
+
 ('Garioch Road'),
 ('Gariochsford'),
 ('Garion Drive'),
@@ -2038,7 +2038,7 @@ VALUES
 ('Garngaber Court'),
 ('Garngaber Place'),
 ('Garngibbock Road'),
-('Garngoch'),
+
 ('Garngoch Terrace'),
 ('Garngour Road'),
 ('Garngrew Road'),
@@ -2263,7 +2263,7 @@ VALUES
 ('Garriston'),
 ('Garriston Gill'),
 ('Garro Lane'),
-('Garroch'),
+
 ('Garroch Fell'),
 ('Garroch Hill'),
 ('Garroch Moss'),
@@ -2634,7 +2634,7 @@ VALUES
 ('Gartlet Road'),
 ('Gartliston Road'),
 ('Gartliston Terrace'),
-('Gartloch'),
+
 ('Gartloch Avenue'),
 ('Gartloch Court'),
 ('Gartloch Road'),
@@ -4289,7 +4289,7 @@ VALUES
 ('Geodh Leathan'),
 ('Geodh Mhanaich'),
 ('Geodh Mhàrtainn'),
-('Geodh'),
+
 ('Geodh na'),
 ('Geodh na Bà'),
 ('Geodh na Creig Airde'),
@@ -7831,7 +7831,7 @@ VALUES
 ('Glasbury Walk'),
 ('Glasby Court'),
 ('Glascairn Avenue'),
-('Glascarnoch'),
+
 ('Glaschoil'),
 ('Glaschoille Loch'),
 ('Glaschul Hill'),
@@ -7983,8 +7983,8 @@ VALUES
 ('Glassmoor'),
 ('Glassmoor Bank'),
 ('Glassmount Hill'),
-('Glassnoch'),
-('Glassoch'),
+
+
 ('Glassoch Fell'),
 ('Glassock Road'),
 ('Glasson Close'),
@@ -8807,7 +8807,7 @@ VALUES
 ('Glen Strip'),
 ('Glen Top'),
 ('Glen Vine'),
-('Glenacardoch'),
+
 ('Glenacre'),
 ('Glenafeoch Road'),
 ('Glenaffric Avenue'),
@@ -9422,7 +9422,7 @@ VALUES
 ('Glengruboch Hill'),
 ('Glengruboch Moor'),
 ('Glenguffock Hill'),
-('Glengunnoch'),
+
 ('Glengunnoch Hill'),
 ('Glengyle Drive'),
 ('Glengyle Place'),
@@ -9580,7 +9580,7 @@ VALUES
 ('Glenlivet Gardens'),
 ('Glenlivet Place'),
 ('Glenlivet Road'),
-('Glenloch'),
+
 ('Glenloch Drive'),
 ('Glenloch Road'),
 ('Glenloch View'),
@@ -9844,7 +9844,7 @@ VALUES
 ('Glensdale Terrace'),
 ('Glensford Gardens'),
 ('Glenshalg Hill'),
-('Glenshalloch'),
+
 ('Glenshalloch Hill'),
 ('Glenshalloch Road'),
 ('Glenshamrock Drive'),
@@ -9917,7 +9917,7 @@ VALUES
 ('Glentarbert Road'),
 ('Glentarken'),
 ('Glentarkie Hill'),
-('Glentarroch'),
+
 ('Glentenmont Height'),
 ('Glentham Close'),
 ('Glentham Court'),
@@ -10017,7 +10017,7 @@ VALUES
 ('Glenvale Close'),
 ('Glenvalentine'),
 ('Glenvarloch Crescent'),
-('Glenvernoch'),
+
 ('Glenvernoch Fell'),
 ('Glenview'),
 ('Glenview Avenue'),
@@ -10172,7 +10172,7 @@ VALUES
 ('Globhar a Deas'),
 ('Globhar a Tuath'),
 ('Globwll'),
-('Gloch'),
+
 ('Gloch Wen'),
 ('Gloddaeth'),
 ('Gloddaeth Avenue'),
@@ -10458,7 +10458,7 @@ VALUES
 ('Glynbâch'),
 ('Glyncastle'),
 ('Glyncastle Forest'),
-('Glyncoch'),
+
 ('Glyncoed'),
 ('Glyncoed Terrace'),
 ('Glyncoled'),
@@ -10825,7 +10825,7 @@ VALUES
 ('Gobhlach'),
 ('Gobhlan'),
 ('Gobhlan Illeach'),
-('Gobhloch'),
+
 ('Gobichean Feoir'),
 ('Gobind Marg'),
 ('Gobions'),
@@ -12893,7 +12893,7 @@ VALUES
 ('Gorseyville Crescent'),
 ('Gorseyville Road'),
 ('Gorseywell Lane'),
-('Gorsgoch'),
+
 ('Gorsins Geo'),
 ('Gorslas'),
 ('Gorsley'),
@@ -14360,7 +14360,7 @@ VALUES
 ('Granni Geo'),
 ('Grannie Clarks Wynd'),
 ('Grannis Drive'),
-('Grannoch'),
+
 ('Grannoch Place'),
 ('Grannus Mews'),
 ('Granny Avenue'),
@@ -17531,7 +17531,7 @@ VALUES
 ('Greenock Road'),
 ('Greenock Terrace'),
 ('Greenock Way'),
-('Greenodd'),
+
 ('Greenodd Avenue'),
 ('Greenodd Drive'),
 ('Greenodd Sands'),
@@ -22539,7 +22539,7 @@ VALUES
 ('Hairy Bull'),
 ('Hairy Ness'),
 ('Hairy Side'),
-('Hairyhorroch'),
+
 ('Haisbro Avenue'),
 ('Haise Court'),
 ('Haise Mount'),
@@ -51139,7 +51139,7 @@ VALUES
 ('Hykeham Memorial'),
 ('Hykeham Road'),
 ('Hykeham Witham'),
-('Hykoch'),
+
 ('Hylack'),
 ('Hyland Close'),
 ('Hyland Crescent'),

@@ -39,7 +39,7 @@ export class ProcessFiles {
         .then(
           _ => {
             this.fm.folder = path;
-            e.reply("processing-folder", this.fm.folder)
+            e.reply("processing-folder", this.fm.folder);
           },
           _ => e.reply("processing-folder-error", `${this.fm.folder} cannot be opened`)
         );
@@ -61,7 +61,7 @@ export class ProcessFiles {
           return row.value;
         } else {
           const loc: string = join(app.getPath("home"), "Documents", app.getName(), "processing");
-          await DB().insert("AppSettings", { field: "PROCESSING_FOLDER", value: loc })
+          await DB().insert("AppSettings", { field: "PROCESSING_FOLDER", value: loc });
           return loc;
         }
       })
@@ -74,8 +74,8 @@ export class ProcessFiles {
 
   /**
    * Processes file. Applies NLP service on free text
-   * @param {string} file
-   * @param {ImportTemplate} - template to validate CSV file
+   * @param file - file path
+   * @param templates - template to validate CSV file
    */
   public async processFile(file: string, templates: TemplateFiles): Promise<void> {
     const from: string = join(this.fm.folder, file);
@@ -96,7 +96,7 @@ export class ProcessFiles {
 
     const rs = this.fm.fs.createReadStream(from, { start: 0, end: size > 499 ? 499 : size });
     rs.on("data", (chunk: any) => {          
-      const isUTF8: boolean = chunk[0] === 239 && chunk[1] === 187 && chunk[2] === 191 
+      const isUTF8: boolean = chunk[0] === 239 && chunk[1] === 187 && chunk[2] === 191;
       rs.close();
       const text: any = jschardet.detect(chunk.toString());
 
@@ -149,7 +149,7 @@ export class ProcessFiles {
         .then(async matches => {
           await this.nlp.replace(normalised, matches)
             .then(r => new Promise(resolve => resolve(row[cell] = r)));
-        })
+        });
     } else {
       return Promise.resolve(cell);
     }

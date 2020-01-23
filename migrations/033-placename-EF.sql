@@ -7842,7 +7842,7 @@ VALUES
 ('Emral House'),
 ('Emral Rise'),
 ('Emridge'),
-('Emroch'),
+
 ('Emroyd Common'),
 ('Emrys Avenue'),
 ('Emsbrook Drive'),
@@ -8612,7 +8612,7 @@ VALUES
 ('Erewash Valley'),
 ('Erfurt Avenue'),
 ('Erghallan'),
-('Erglodd'),
+
 ('Ergue Gaberic'),
 ('Ergyd Isaf'),
 ('Eri Clett'),
@@ -10093,7 +10093,7 @@ VALUES
 ('Evening Wood'),
 ('Eveningbank'),
 ('Eveninghill'),
-('Evenjobb'),
+
 ('Evenjobb Hill'),
 ('Evenley'),
 ('Evenley Close'),
@@ -12166,7 +12166,7 @@ VALUES
 ('Falling Sands'),
 ('Fallings Heath'),
 ('Fallings Park'),
-('Falloch'),
+
 ('Falloch Road'),
 ('Fallodan Road'),
 ('Falloden Avenue'),
@@ -12493,7 +12493,7 @@ VALUES
 ('Fanton Avenue'),
 ('Fanton Gardens'),
 ('Fanton Walk'),
-('Faobh'),
+
 ('Faochag'),
 ('Faochag Bay'),
 ('Faochag Vick'),
@@ -13510,7 +13510,7 @@ VALUES
 ('Farrishes Lane'),
 ('Farrmheall'),
 ('Farro Drive'),
-('Farroch'),
+
 ('Farrochie Gardens'),
 ('Farrochie Park'),
 ('Farrochie Road'),
@@ -14098,7 +14098,7 @@ VALUES
 ('Fearnley Road'),
 ('Fearnmore'),
 ('Fearnmore Road'),
-('Fearnoch'),
+
 ('Fearnoch Forest'),
 ('Fearns Avenue'),
 ('Fearns Close'),
@@ -14772,7 +14772,7 @@ VALUES
 ('Fendike Lane'),
 ('Fenditch Lane'),
 ('Fendley Close'),
-('Fendoch'),
+
 ('Fendoch Road'),
 ('Fendom'),
 ('Fendon Close'),
@@ -15718,7 +15718,7 @@ VALUES
 ('Ferriston'),
 ('Ferro Fields'),
 ('Ferro Road'),
-('Ferroch'),
+
 ('Ferrol Road'),
 ('Ferron Road'),
 ('Ferrous Close'),
@@ -16199,7 +16199,7 @@ VALUES
 ('Fhradhairc'),
 ('Fhradhaire'),
 ('Fhradhaire Iosal'),
-('Fhraoch'),
+
 ('Fhraoich choire'),
 ('Fhraoich Ghairbh'),
 ('Fhraoich Mhòir'),
@@ -17414,7 +17414,7 @@ VALUES
 ('Fionndalach Bige'),
 ('Fionnphort'),
 ('Fiorda Taing'),
-('Fiorloch'),
+
 ('Fippenny Hollow'),
 ('Fir'),
 ('Fir Acre'),
@@ -18304,7 +18304,7 @@ VALUES
 ('Fison Way'),
 ('Fissla Taing'),
 ('Fist and Finger Stack'),
-('Fisteodh'),
+
 ('Fistral'),
 ('Fistral Avenue'),
 ('Fistral Bay'),
@@ -20424,7 +20424,7 @@ VALUES
 ('Folville Rise'),
 ('Folville Spinney'),
 ('Folwell Road'),
-('Fominoch'),
+
 ('Fon mon'),
 ('Fonab Crescent'),
 ('Fonaby Top'),
@@ -23527,7 +23527,7 @@ VALUES
 ('Franthorne Way'),
 ('Franton Road'),
 ('Frantons'),
-('fraoch'),
+
 ('Fraoch Bheinn'),
 ('Fraoch choire'),
 ('Fraoch Eilean'),
@@ -24985,7 +24985,7 @@ VALUES
 ('Fronfelen Hall'),
 ('Fronfraith'),
 ('Frongain'),
-('Frongoch'),
+
 ('Frongoch Covert'),
 ('Fronhaul'),
 ('Fronheulog'),
@@ -26229,7 +26229,7 @@ VALUES
 ('Fynney'),
 ('Fynney Fields'),
 ('Fynnon'),
-('Fyntalloch'),
+
 ('Fynway'),
 ('Fynwent'),
 ('Fynwy'),

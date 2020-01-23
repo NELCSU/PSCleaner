@@ -1,6 +1,5 @@
 import { ipcMain as ipc } from "electron";
-import DB from "sqlite3-helper";
-import { DataObject } from "sqlite3-helper";
+import DB, { DataObject } from "sqlite3-helper";
 import { Entity, EntityResponse, EntityType } from "../typings/PSCleaner";
 
 /**
@@ -42,8 +41,7 @@ export class Entities {
 
   /**
    * deletes entity from data store
-   * @param {number} id - entity id to delete
-   * @return {Promise<EntityResponse>}
+   * @param id - entity id to delete
    */
   public static delete(id: number): Promise<EntityResponse> {
     return DB().run("DELETE FROM Entity WHERE id = ?", id)
@@ -55,8 +53,7 @@ export class Entities {
 
   /**
    * returns list of entities
-   * @param {EntityType} filterByType - (optional) filters list by entity type
-   * @return {Promise<Entity[]>}
+   * @param filterByType - (optional) filters list by entity type
    */
   public static getList(filterByType?: EntityType): Promise<Entity[]> {
     const qry: string = `SELECT 
@@ -79,8 +76,7 @@ export class Entities {
 
   /**
    * Saves new/existing entity changes
-   * @param {Entity} data - entity to upsert into data store
-   * @return {Promise<Entity>}
+   * @param data - entity to upsert into data store
    */
   public static async save(data: Entity): Promise<Entity> {
     const item: any = {
@@ -124,8 +120,7 @@ export class Entities {
 
   /**
    * Converts list of DataObjects to sorted (by label) list of Entities
-   * @param {DataObject[]} entities - list of objects returned from data store
-   * @return {Entity[]}
+   * @param entities - list of objects returned from data store
    */
   public static toList(entities: DataObject[]): Entity[] {
     const r: Entity[] = [];

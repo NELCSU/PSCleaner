@@ -1,6 +1,6 @@
 /**
- * https://2ality.com/2019/10/shared-mutable-state.html
- * @param {any} original 
+ * @see https://2ality.com/2019/10/shared-mutable-state.html
+ * @param original 
  */
 export function deepCopy (original: any): any {
   if (Array.isArray(original)) {

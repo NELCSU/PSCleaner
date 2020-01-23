@@ -33,11 +33,6 @@ export function isRootOrDriveLetter(path: string): boolean {
   return pathNormalized === posix.sep;
 }
 
-/**
- * 
- * @param {number} code 
- * @returns {boolean}
- */
 export function isWindowsDeviceRoot(code: number): boolean {
   return code >= CHAR_UPPERCASE_A && code <= CHAR_UPPERCASE_Z ||
     code >= CHAR_LOWERCASE_A && code <= CHAR_LOWERCASE_Z;
@@ -48,12 +43,12 @@ export function isWindowsDriveLetter(char0: number): boolean {
 }
 
 /**
- * https://github.com/microsoft/vscode/blob/master/src/vs/base/common/path.ts
- * @param {string} path - path to normalize
+ * @see https://github.com/microsoft/vscode/blob/master/src/vs/base/common/path.ts
+ * @param path - path to normalize
  */
 export function normalize(path: string): string {
   if (typeof path !== "string") {
-    throw "Invalid path specified";
+    throw new Error("Invalid path specified");
   }
   const len = path.length;
   if (len === 0) {

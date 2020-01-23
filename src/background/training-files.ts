@@ -53,7 +53,7 @@ export class TrainingFiles {
         .then(
           _ => {
             this.fm.folder = path;
-            e.reply("training-folder", this.fm.folder)
+            e.reply("training-folder", this.fm.folder);
           },
           _ => e.reply("training-folder-error", this.fm.folder)
         );
@@ -80,8 +80,7 @@ export class TrainingFiles {
 
   /**
    * Deletes a file
-   * @param {string} file - file to delete
-   * @return {Promise<any}
+   * @param file - file to delete
    */
   public delete(file: string): Promise<ReadFileAction> {
     return this.fm.delete(file)
@@ -95,8 +94,7 @@ export class TrainingFiles {
 
   /**
    * Opens a file
-   * @param {string} file - path to file
-   * @return {Promise<any>}
+   * @param file - path to file
    */
   public open(file: string): Promise<ReadFileAction> {
     return this.fm.fs.readFile(file, "utf8")
@@ -111,10 +109,9 @@ export class TrainingFiles {
 
   /**
    * Renames a file
-   * @param {string} srcFile - source file to rename
-   * @param {string} destFile - destination file name
-   * @param {boolean} force - overwrite destination if true
-   * @return {Promise<any>}
+   * @param srcFile - source file to rename
+   * @param destFile - destination file name
+   * @param force - overwrite destination if true
    */
   public rename(srcFile: string, destFile: string, force: boolean = false): Promise<ReadFileAction> {
     let oldFilePath: string = this.fm.join(srcFile);
@@ -130,12 +127,12 @@ export class TrainingFiles {
             return Promise.resolve({
               fn: destFile,
               status: "training-file-renamed"
-            })
+            });
           } else if (force === false && exists[1]) {
             return Promise.resolve({
               fn: destFile,
               status: "training-file-rename-warning"
-            })
+            });
           } else {
             return this.fm.fs.move(oldFilePath, newFilePath)
               .then(
@@ -152,9 +149,8 @@ export class TrainingFiles {
 
   /**
    * Save a file
-   * @param {string} file - path to file
-   * @param {any} data - data to save to file
-   * @return {Promise<any>}
+   * @param file - path to file
+   * @param data - data to save to file
    */
   public save(file: string, data: any): Promise<ReadFileAction> {
     return this.fm.saveFile(this.fm.join(file), stringify(data))
@@ -174,7 +170,7 @@ export class TrainingFiles {
           return row.value;
         } else {
           const loc: string = join(app.getPath("home"), "Documents", app.getName(), "training");
-          await DB().insert("AppSettings", { field: "TRAINING_FOLDER", value: loc })
+          await DB().insert("AppSettings", { field: "TRAINING_FOLDER", value: loc });
           return loc;
         }
       })

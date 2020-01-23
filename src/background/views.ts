@@ -20,4 +20,4 @@ export default {
   menu: j(base, "static", "menu", `${os.platform()}.json`),
   pages: pages,
   view: view
-}
+};

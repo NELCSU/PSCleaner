@@ -1291,7 +1291,7 @@ VALUES
 ('Panniers Lane'),
 ('Panniers Pool'),
 ('Panniers Way'),
-('Pannoch'),
+
 ('Panns Bank'),
 ('Pannwr'),
 ('Panorama'),
@@ -1523,7 +1523,7 @@ VALUES
 ('Pantygraig Wen'),
 ('Pantygraigwen Road'),
 ('Pantygwydr Road'),
-('Pantymoch'),
+
 ('Pantyrhiwen Lane'),
 ('Pantyrychen'),
 ('Panwaun Pen'),
@@ -2332,7 +2332,7 @@ VALUES
 ('Parka Road'),
 ('Parkan Dubh'),
 ('Parkanaur Avenue'),
-('Parkandarroch'),
+
 ('Parkapella'),
 ('Parkatt'),
 ('Parkbank'),
@@ -4528,7 +4528,7 @@ VALUES
 ('Peaks Parkway'),
 ('Peaks Wood'),
 ('Peakshill'),
-('Peakstalloch'),
+
 ('Peakstile Piece'),
 ('Peakston Close'),
 ('Peakstone Close'),
@@ -6216,7 +6216,7 @@ VALUES
 ('Penbrook'),
 ('Penbryn Ci'),
 ('Penbryn Coch'),
-('Penbryncoch'),
+
 ('Penbrynglas'),
 ('Penbrynyreglwys'),
 ('Penbugle'),
@@ -6917,7 +6917,7 @@ VALUES
 ('Penlline Moor'),
 ('Penlline Road'),
 ('Penllwyn Lane'),
-('Penllwyncoch'),
+
 ('Penllwyngwyn Farm'),
 ('Penllwyngwyn Road'),
 ('Penllwyniorwg'),
@@ -7569,7 +7569,7 @@ VALUES
 ('Penrhiwfer'),
 ('Penrhiwgaled'),
 ('Penrhiwgaled Lane'),
-('Penrhiwgoch'),
+
 ('Penrhiwgwynt Road'),
 ('Penrhiwlas'),
 ('Penrhiwllan'),
@@ -7636,7 +7636,7 @@ VALUES
 ('Penrhyn Walk'),
 ('Penrhyn Way'),
 ('Penrhyn Ychen'),
-('Penrhyncoch'),
+
 ('Penrhyndeudraeth'),
 ('Penrhys'),
 ('Penrhys Avenue'),
@@ -15374,7 +15374,7 @@ VALUES
 ('Poltair Drive'),
 ('Poltair Meadow'),
 ('Poltair Road'),
-('Poltalloch'),
+
 ('Poltalloch Road'),
 ('Poltava'),
 ('Poltesco Lane'),
@@ -15807,7 +15807,7 @@ VALUES
 ('Pontcanna Place'),
 ('Pontcynon'),
 ('Pontcynon Terrace'),
-('Pontdolgoch'),
+
 ('Pontefract Avenue'),
 ('Pontefract Baghill'),
 ('Pontefract Close'),
@@ -18539,7 +18539,7 @@ VALUES
 ('Presbytery Close'),
 ('Prescelly'),
 ('Prescelly Mountains'),
-('Prescoch'),
+
 ('Prescod'),
 ('Prescoed'),
 ('Prescot'),
@@ -21221,7 +21221,7 @@ VALUES
 ('Pwllgwinau'),
 ('Pwllheli'),
 ('Pwllheli Road'),
-('Pwllhobi'),
+
 ('Pwllmelin Lane'),
 ('Pwllmelin Road'),
 ('Pwllmeurig'),
@@ -22216,7 +22216,7 @@ VALUES
 ('Quineys Road'),
 ('Quinion'),
 ('Quinish'),
-('Quinloch'),
+
 ('Quinloch Muir'),
 ('Quinnel'),
 ('Quinneys'),
@@ -23631,7 +23631,7 @@ VALUES
 ('Ralley Close'),
 ('Ralliss'),
 ('Ralliwood Road'),
-('Ralloch'),
+
 ('Rallt'),
 ('Rallt glan William Covert'),
 ('Rallt Goch'),
@@ -24341,7 +24341,7 @@ VALUES
 ('Rannes'),
 ('Ranneys Close'),
 ('Rannich Pool'),
-('Rannoch'),
+
 ('Rannoch Avenue'),
 ('Rannoch Close'),
 ('Rannoch Court'),
@@ -24515,7 +24515,7 @@ VALUES
 ('Rapley Rise'),
 ('Rapleys Copse'),
 ('Rapleys Field'),
-('Raploch'),
+
 ('Raploch Avenue'),
 ('Raploch Lane'),
 ('Raploch Road'),
@@ -29077,7 +29077,7 @@ VALUES
 ('Rhiwfer'),
 ('Rhiwgarn'),
 ('Rhiwglyn Road'),
-('Rhiwgoch'),
+
 ('Rhiwgriafol'),
 ('Rhiwisg'),
 ('Rhiwlas'),
@@ -29588,7 +29588,7 @@ VALUES
 ('Rhosgadfan'),
 ('Rhosgadfan Park'),
 ('Rhosgellan'),
-('Rhosgoch'),
+
 ('Rhosigor'),
 ('Rhosili Road'),
 ('Rhoslan'),
@@ -36329,7 +36329,7 @@ VALUES
 ('Rotten Wood'),
 ('Rottenbutts'),
 ('Rottendown Hill'),
-('Rottenloch'),
+
 ('Rottenrow'),
 ('Rottenstone Hill'),
 ('Rottenstone Lane'),

@@ -695,6 +695,7 @@ VALUES
 ('I will'),
 ('I won'),
 ('Idea'),
+('Idiocy'),
 ('Igloo'),
 ('It may'),
 ('It will'),
