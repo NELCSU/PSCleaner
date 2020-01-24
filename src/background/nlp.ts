@@ -18,9 +18,6 @@ export class NLP {
   }
 
   private _pos: posTagger;
-  private _sensitivityLevels: string[] = [
-    "|CC|CD|DT|FW|IN|JJ|JJR|JJS|MD|NN|NNS|NNP|NNPS|PDT|PRP|PRP$|RB|RBR|TO|VB|VBD|VBG|VBN|VBP|VBZ|WDT|"
-  ];
   private _trace: boolean = true;
 
   constructor() {
@@ -71,30 +68,35 @@ export class NLP {
     let cursor: number = 0;
     let lastWord: WordPosition;
     let lastModal: boolean = false;
+    let lastDot: boolean = false;
     tags.forEach((tag: Tag) => {
       const start: number = data.indexOf(tag.value, cursor);
       const len: number = tag.value.length;
       const end: number = start + len - 1;
       cursor = end;
       if (tag.tag === "word") {
-        if (this._sensitivityLevels[0].indexOf(`|${tag.pos}|`) > -1) {
-          if (tag.pos === "RB" && lastWord && lastWord.end + 1 === start) {
-            const n: number = words.length - 1;
-            words[n].value += tag.value;
-            words[n].end = end;
-            words[n].length += len;
-          } else if (lastModal && tag.pos.indexOf("VB") > -1) {
-            // account for things like "will act"
-            words.pop();
-            lastWord = {
-              value: tag.value,
-              pos: tag.pos,
-              start: start,
-              end: end,
-              length: len
-            };
-            words.push(lastWord);
-          } else {
+        const n: number = words.length - 1;
+        if (lastDot && len === 1 && words[n].value.indexOf(".") > -1) {
+          words[n].value += tag.value;
+          words[n].end = end;
+          words[n].length += len;
+        } else if (tag.pos === "RB" && lastWord && lastWord.end + 1 === start) {
+          words[n].value += tag.value;
+          words[n].end = end;
+          words[n].length += len;
+        } else if (lastModal && tag.pos.indexOf("VB") > -1) {
+          // account for things like "will act"
+          words.pop();
+          lastWord = {
+            value: tag.value,
+            pos: tag.pos,
+            start: start,
+            end: end,
+            length: len
+          };
+          words.push(lastWord);
+        } else {
+          if (tag.value !== "'s") {
             lastWord = {
               value: tag.value,
               pos: tag.pos,
@@ -104,15 +106,24 @@ export class NLP {
             };
             words.push(lastWord);
           }
-          lastModal = tag.pos === "MD";
         }
+        lastModal = tag.pos === "MD";
+        lastDot = false;
       } else if (tag.normal === ".") {
-        if (lastWord && lastWord.length === 2) {
+        if (lastWord && lastWord.length < 3) {
           const n: number = words.length - 1;
           words[n].value += tag.value;
           words[n].end = end;
           words[n].length += len;
+          lastWord = {
+            value: tag.value,
+            pos: tag.pos,
+            start: start,
+            end: end,
+            length: len
+          };
         }
+        lastDot = true;
       }
     });
     return words;
@@ -141,7 +152,7 @@ export class NLP {
 
   private _join(curr: MatchedEntity, next: MatchedEntity, originalText: string): MatchedEntity {
     let conjunction: string = originalText.substr(curr.end + 1, next.start - curr.end - 1);
-    if (conjunction === "" && curr.value[curr.length - 1] !== " ") {
+    if (conjunction === "" && curr.value[curr.length - 1] !== " " && curr.length === 1) {
       conjunction = " ";
     }
     curr.value += conjunction + next.value;

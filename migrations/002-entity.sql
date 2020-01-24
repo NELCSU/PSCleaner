@@ -15,7 +15,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:abbey|acres?|alley|allotments?|approach|avenue|back|bad|banks?|barns?|bay|beach|beacon|bottom|boulevard|braes?|bridge|broad(?:way)?|brook|buildings?|bush(?:es)?|canal|castle|causeway|central|circle|circus|cliffs?|cl[eo]ugh|close|common|coppices?|copses?|corner|cottages?|court(?:yard)?|cove|coverts?|creek|crescent|crofts?|cross(?:ing)?|dales?|ditch|docks?|downs?|drift|dr[io]ve|east|edge|esplanade|estate|farm|f[ae]lls?|fens?|ferry|fields?|flats?|fold|ford|forest|gap|gardens?|gates?|geos?|glades?|glens?|gor[gs]e|grange|greens?|grounds?|groves?|gully|h[ai]lls?|harbour|haven|head|heath|heights?|highway|hollow|houses?|islands?|isles?|jetty|junctions?|lakes?|lanes?|lawns?|ledge|leys?|loch|lodge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moors?|moss|mounts?|ness|north|orchards?|oval|paddocks?|parade|parks?|passage|pastures?|path|pier|pit|place|plains?|plaza|ponds?|pool|point|port|priory|promenade|quadrant|quarry|quay|range|rd|reach|reservoir|ridge|rise|rivers?|roads?|rocks?|rough|round|row|sands?|side|skerr(?:y|ies)|south|spa|spinney|springs?|square|station|strand|stream|street|strip|tarn|terrace|tor|towers?|towns?|upper|vale|valley|views?|villas?|villages?|walks?|walls?|water(?:s|fall)?|ways?|weirs?|west|wharf|wood(?:s|lands)?|yards?)\b'
+  '\b(?:abbey|acres?|alley|allotments?|approach|avenue|back|bad|banks?|barns?|bay|beach|beacon|bottom|boulevard|braes?|brake|bridge|broad(?:way)?|brook|buildings?|bush(?:es)?|canal|castle|causeway|central|circle|circus|cliffs?|cl[eo]ugh|close|common|coppices?|copses?|corner|cottages?|court(?:yard)?|cove|coverts?|creek|crescent|crofts?|cross(?:ing)?|dales?|ditch|docks?|downs?|drift|dr[io]ve|east|edge|esplanade|estate|farm|f[ae]lls?|fens?|ferry|fields?|flats?|fold|ford|forest|gap|gardens?|gates?|geos?|glades?|glens?|gor[gs]e|grange|greens?|grounds?|groves?|gully|h[ai]lls?|harbour|haven|head|heath|heights?|highway|hollow|houses?|islands?|isles?|jetty|junctions?|lakes?|lanes?|lawns?|ledge|leys?|loch|lodge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moors?|moss|mounts?|ness|north|orchards?|oval|paddocks?|parade|parks?|passage|pastures?|path|pier|pit|place|plains?|plaza|ponds?|pool|point|port|priory|promenade|quadrant|quarry|quay|range|rd|reach|reservoir|ridge|rise|rivers?|roads?|rocks?|rough|round|row|sands?|side|skerr(?:y|ies)|south|spa|spinney|springs?|square|station|strand|stream|street|strip|tarn|terrace|tor|towers?|towns?|upper|vale|valley|views?|villas?|villages?|walks?|walls?|water(?:s|fall)?|ways?|weirs?|west|wharf|wood(?:s|lands)?|yards?)\b'
 ),
 (
   'Currency1', '#334320', 'Currency', 'CURRENCY', 'Regular expression',
@@ -100,12 +100,12 @@ VALUES
 (
   'NameRegExA', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-zàèéìòóùäöüß]+a(?:a[a-z]|b[a-rt-z]|c[a-df-gijl-ru-xz]|d[a-df-np-rtu-xz]|e[a-ce-z]|f[a-dg-ru-xz]|g[a-df-hj-np-rt-xz]|h[b-rt-z]|i[abef-ko-qu-z]|j[a-z]|k[a-df-rt-xz]|l[bcghjnqru-xz]|m[cdf-hj-mqru-xz]|n[bcfhijl-np-ru-xz]|o[a-rt-z]|p[a-dfgi-np-ru-xz]|q[a-z]|r[acg-joqu-xz]|s[a-dfgijloqru-xz]|t[b-dfgi-ru-xz]|u[a-ce-km-qu-z]|v[b-df-np-xz]|w[a-jmo-qrt-z]|x[a-xz]|y[a-rt-z]|z[a-df-xz])\b'
+  '\b[a-zàèéìòóùäöüß]+a(?:c[a-df-gijl-ru-xz]|d[a-df-np-rtu-xz]|e[a-ce-z]|f[a-dg-ru-xz]|g[a-df-hj-np-rt-xz]|h[b-rt-z]|i[abef-ko-qu-z]|[ajq][a-z]|k[a-df-rt-xz]|l[bcghjnqru-xz]|m[cdf-hj-mqru-xz]|n[bcfhijl-np-ru-xz]|[boy][a-rt-z]|p[a-dfgi-np-ru-xz]|r[acg-joqu-xz]|s[a-dfgijloqru-xz]|t[b-dfgi-ru-xz]|u[a-ce-km-qu-z]|v[b-df-np-xz]|w[a-jmo-qrt-z]|x[a-xz]|z[a-df-xz])\b'
 ),
 (
   'NameRegExB', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-zàèéìòóùäöüß]+b(?:a[a-dfh-kmo-qtu-z]|b[a-xz]|[cdf-hjkmnpqstv-z][a-z]|e[a-cfg-km-qu-xz]|i[bfh-mo-ru-z]|k[io]|l[a-df-xz]|nn|o[a-mpuvz]|r[b-df-z]|u[acfh-mo-ru-xz]|y[kn]|z[a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+b(?:a[a-dfh-kmo-qtu-z]|b[a-xz]|[cdf-hjkmnpqstv-z][a-z]|e[a-cfg-km-qu-xz]|i[bfh-mo-ru-z]|l[a-df-xz]|o[a-mpuvz]|r[b-df-z]|u[acfh-mo-ru-xz])\b'
 ),
 (
   'NameRegExC', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -120,7 +120,7 @@ VALUES
 (
   'NameRegExE', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-zàèéìòóùäöüß]+e(?:a[a-cgijoqu-z]|b[b-np-ru-xz]|c[b-dfgijl-ru-xz]|d[a-df-np-rt-xz]|e[a-ceg-joqu-z]|f[a-ru-xz]|g[b-df-lnp-rt-xz]|h[a-z]|i[be-kmo-qu-z]|j[a-z]|k[a-rt-xz]|l[bcghjknoqru-xz]|m[b-df-mqru-xz]|n[bcfh-np-rv-xz]|o[a-eg-qt-vx-z]|p[a-df-ru-xz]|q[a-z]|r[g-jqru-xz]|s[b-dfgijl-ru-xz]|t[b-dfgj-np-rt-xz]|u[a-ce-lnoqt-z]|v[a-df-xz]|w[a-mo-ru-xz]|x[a-df-hj-xz]|y[a-df-rt-z]|z[a-df-xz])\b'
+  '\b[a-zàèéìòóùäöüß]+e(?:a[a-cgijoqu-z]|b[b-np-ru-xz]|c[b-dfgijl-ru-xz]|d[a-df-np-rt-xz]|e[a-ceg-joqu-z]|f[a-ru-xz]|g[b-df-lnp-rt-xz]|i[be-kmo-qu-z]|k[a-rt-xz]|l[bcghjknoqru-xz]|m[b-df-mqru-xz]|n[bcfh-np-rv-xz]|o[a-eg-qt-vx-z]|p[a-df-ru-xz]|[hjq][a-z]|r[g-jqru-xz]|s[b-dfgijl-ru-xz]|t[b-dfgj-np-rt-xz]|u[a-ce-lnoqt-z]|w[a-mo-ru-xz]|x[a-df-hj-xz]|y[a-df-rt-z]|[vz][a-df-xz])\b'
 ),
 (
   'NameRegExF', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -170,7 +170,7 @@ VALUES
 (
   'NameRegExO', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-zàèéìòóùäöüß]+o(?:a[a-cg-joqu-z]|b[a-df-rt-z]|c[a-jl-ru-z]|d[a-df-rt-xz]|e[bce-qs-xz]|f[a-ru-xz]|g[a-rt-xz]|h[a-rt-z]|i[be-kmo-qu-z]|j[a-z]|k[b-df-rt-xz]|l[bcghjm-ru-xz]|m[cf-rt-xz]|n[bcfhijl-ru-xz]|o[a-ceg-joqu-z]|p[b-dfgjkp]|qq|r[cf]|s[z]|ti|u[aim-owx]|v[ai]|ww|xx|y[kn]|z[a-df-xz])\b'
+  '\b[a-zàèéìòóùäöüß]+o(?:a[a-cg-joqu-z]|b[a-df-rt-z]|c[a-jl-ru-z]|e[bce-qs-xz]|f[a-ru-xz]|i[be-kmo-qu-z]|j[a-z]|l[bcghjm-ru-xz]|m[cf-rt-xz]|n[bcfhijl-ru-xz]|o[a-ceg-joqu-z]|[kp][b-df-rt-xz]|q[a-z]|r[cf-jlo-ru-wz]|s[a-dfgj-ln-ru-xz]|t[a-dfgi-np-ru-xz]|u[a-ce-km-oqu-z]|[dv][a-df-rt-xz]|w[a-df-kmo-rt-xz]|[gx][a-rt-xz]|[hy][a-rt-z]|z[a-df-xz])\b'
 ),
 (
   'NameRegExP', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -248,7 +248,7 @@ VALUES
   ''
 ),
 (
-  'SkipOrJoin', '#ccddee', 'Name', 'SKIP', 'Single term', 
+  'SkipOrJoin', '#00a0ff', 'Name', 'NAME', 'Single term', 
   1, 1, 1, 1,
   ''
 ),

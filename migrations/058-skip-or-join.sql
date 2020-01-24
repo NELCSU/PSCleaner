@@ -1,16 +1,42 @@
 -- Up
 INSERT INTO SkipOrJoin (keyword)
 VALUES
+('Aims'),
+('Bill'),
+('Cares'),
+('Chancellor'),
+('Clues'),
+('Cook'),
+('Counts'),
+('County'),
+('Dr'),
+('Dr.'),
+('Guest'),
+('Heard'),
 ('Lady'),
 ('Lord'),
+('Minister'),
+('Miss'),
 ('Mr'),
 ('Mr.'),
 ('Mrs'),
 ('Mrs.'),
 ('Ms'),
+('President'),
+('Prof'),
+('Prof.'),
+('Professor'),
+('Rancour'),
 ('Saint'),
 ('Sir'),
+('Slimmer'),
 ('St'),
-('St.');
+('St.'),
+('Story'),
+('Summits'),
+('Will'),
+('Warns'),
+('Young'),
+('Younger');
 -- Down
 DELETE FROM SkipOrJoin;
