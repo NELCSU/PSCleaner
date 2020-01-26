@@ -3416,7 +3416,6 @@ VALUES
 ('Uzzell'),
 ('Uzziel'),
 ('Uzzle'),
-('Uzzol'),
 ('Vaaderpass'),
 ('Vaage'),
 ('Vaagen'),
