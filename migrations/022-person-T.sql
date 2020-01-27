@@ -2889,7 +2889,6 @@ VALUES
 ('Tankeliun'),
 ('Tankeliunaite'),
 ('Tankeo'),
-('Tanker'),
 ('Tankersley'),
 ('Tankersly'),
 ('Tankesley'),

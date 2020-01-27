@@ -349,7 +349,7 @@ export class NLP {
       for (let i = result.length -1; i > 0; i--) {
         let peek = result[i];
         let current = result[i -1];
-        if (this._joinable(current, peek)) {
+        if (this._joinable(current, peek) && peek.length > 1) {
           result[i -1] = this._join(current, peek, data);
           result.splice(i, 1);
           if (result[i -1].entity.joinable !== 1 && result[i -1].entity.discard !== 1) {

@@ -28297,7 +28297,6 @@ VALUES
 ('Asgrimur'),
 ('Asgul'),
 ('Asgupta'),
-('Ash'),
 ('Asha'),
 ('Ashaa'),
 ('Ashaana'),

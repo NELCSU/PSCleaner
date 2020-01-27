@@ -9,13 +9,18 @@ INSERT INTO Entity
 VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
-  1, 1, 1, 2,
-  '(?:(?:Block|Suite)\s\w{0,1}|\d+(st|nd|rd|th)\sFloor|[1-9][\d]{0,3}[a-z]?(?=\s[a-z]{3,}))'
+  1, 0, 0, 2,
+  '(?:block|suite)\s[\w\d]{0,2}|\d+(st|nd|rd|th)\sFloor'
 ),
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:abbey|acres?|alley|allotments?|approach|avenue|back|bad|banks?|barns?|bay|beach|beacon|bottom|boulevard|braes?|brake|bridge|broad(?:way)?|brook|buildings?|bush(?:es)?|canal|castle|causeway|central|circle|circus|cliffs?|cl[eo]ugh|close|common|coppices?|copses?|corner|cottages?|court(?:yard)?|cove|coverts?|creek|crescent|crofts?|cross(?:ing)?|dales?|ditch|docks?|downs?|drift|dr[io]ve|east|edge|esplanade|estate|farm|f[ae]lls?|fens?|ferry|fields?|flats?|fold|ford|forest|gap|gardens?|gates?|geos?|glades?|glens?|gor[gs]e|grange|greens?|grounds?|groves?|gully|h[ai]lls?|harbour|haven|head|heath|heights?|highway|hollow|houses?|islands?|isles?|jetty|junctions?|lakes?|lanes?|lawns?|ledge|leys?|loch|lodge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moors?|moss|mounts?|ness|north|orchards?|oval|paddocks?|parade|parks?|passage|pastures?|path|pier|pit|place|plains?|plaza|ponds?|pool|point|port|priory|promenade|quadrant|quarry|quay|range|rd|reach|reservoir|ridge|rise|rivers?|roads?|rocks?|rough|round|row|sands?|side|skerr(?:y|ies)|south|spa|spinney|springs?|square|station|strand|stream|street|strip|tarn|terrace|tor|towers?|towns?|upper|vale|valley|views?|villas?|villages?|walks?|walls?|water(?:s|fall)?|ways?|weirs?|west|wharf|wood(?:s|lands)?|yards?)\b'
+  '(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-z]?(?=\s[a-z]{3,})'
+),
+(
+  'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
+  1, 1, 1, 2,
+  '\b(?:abbey|acres?|alley|allotments?|approach|avenue|b[ae]ck|banks?|barns?|bay|beach|beacon|bottom|boulevard|braes?|brake|bridge|broad(?:way)?|brook|buildings?|bush(?:es)?|canal|castle|causeway|circle|circus|cliffs?|cl[eo]ugh|close|common|coppices?|copses?|corner|cottages?|court(?:yard)?|cove(?:rts?)?|creek|crescent|crofts?|cross(?:ing)?|dales?|ditch|docks?|downs?|drift|dr[io]ve|edge|esplanade|estate|farm|f[ae]lls?|fens?|ferry|fields?|flats?|fold|ford|forest|gap|gardens?|gates?|geos?|glades?|glens?|gor[gs]e|grange|greens?|grounds?|groves?|gully|h[ai]lls?|harbour|haven|head|heath|hedge|heights?|high(?:way)?|hollow|houses?|islands?|isles?|jetty|junctions?|lakes?|lanes?|lawns?|ledge|leys?|loch|lodge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|moors?|moss|mounts?|ness|orchards?|oval|paddocks?|parade|parks?|passage|pastures?|path|pier|pit|place|plains?|plaza|ponds?|pool|point|port|priory|promenade|quadrant|quarry|quay|range|rd|reach|reservoir|ridge|rise|rivers?|roads?|rocks?|rough|round|row|sands?|side|skerr(?:y|ies)|spa|spinney|springs?|square|station|strand|stream|street|strip|tarn|terrace|tor|towers?|towns?|upper|vale|valley|views?|villas?|villages?|walks?|walls?|water(?:s|fall)?|ways?|weirs?|wharf|wood(?:s|lands)?|yards?)\b'
 ),
 (
   'Currency1', '#334320', 'Currency', 'CURRENCY', 'Regular expression',
@@ -90,7 +95,7 @@ VALUES
 (
   'NameRegExInitial', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 1, 1, 2,
-  '\b[A-Z]\b\.'
+  '(?:\b[a|i]\b\.|\b[b-hj-z]\b\.?)'
 ),
 (
   'NameRegEx', '#00a0ff', 'Name', 'NAME', 'Regular expression', 

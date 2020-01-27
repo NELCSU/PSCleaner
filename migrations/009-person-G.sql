@@ -7945,6 +7945,7 @@ VALUES
 ('Ghodiwalley'),
 ('Ghodrat'),
 ('Ghods'),
+('Ghodsian'),
 ('Ghodsieh'),
 ('Ghodsiyen'),
 ('Ghodsyeh'),

@@ -4483,7 +4483,6 @@ VALUES
 ('Daxshkumar'),
 ('Daxson'),
 ('Daxton'),
-('Day'),
 ('Dayadrawala'),
 ('Dayae'),
 ('Dayag'),

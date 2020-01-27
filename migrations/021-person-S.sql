@@ -9614,7 +9614,6 @@ VALUES
 ('Scalera'),
 ('Scalercio'),
 ('Scalero'),
-('Scales'),
 ('Scalese'),
 ('Scalesse'),
 ('Scalet'),

@@ -21975,7 +21975,6 @@ VALUES
 ('Covas'),
 ('Covasan'),
 ('Covault'),
-('Cove'),
 ('Covei'),
 ('Covel'),
 ('Coveley'),

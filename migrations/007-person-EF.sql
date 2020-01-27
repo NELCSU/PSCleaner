@@ -23581,7 +23581,6 @@ VALUES
 ('Foste'),
 ('Fostel'),
 ('Fosten'),
-('Foster'),
 ('Fosterer'),
 ('Fosterud'),
 ('Fostervold'),
