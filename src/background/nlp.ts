@@ -80,7 +80,7 @@ export class NLP {
           words[n].value += tag.value;
           words[n].end = end;
           words[n].length += len;
-        } else if (tag.pos === "RB" && lastWord && lastWord.end + 1 === start) {
+        } else if (tag.pos === "RB" && lastWord && (lastWord.end + 1) === start) {
           words[n].value += tag.value;
           words[n].end = end;
           words[n].length += len;
@@ -139,8 +139,7 @@ export class NLP {
         for (let i = matches.length - 1; i > -1; --i) {
           let m = matches[i];
           const mask: string = `**${m.entity.mask}` + (this.trace ? ` [${m.id}]` : ``) + `**`;
-          data = data.substring(0, m.start) + mask + 
-            data.substring(m.end + 1, data.length);
+          data = data.substring(0, m.start) + mask + data.substring(m.end + 1, data.length);
         }
         resolve(data);
       }
@@ -164,7 +163,7 @@ export class NLP {
   }
 
   private _joinable(curr: MatchedEntity, next: MatchedEntity): boolean {
-    return (next.start > curr.end && next.start <= curr.end + 2 && next.entity.domain === curr.entity.domain && curr.entity.joinable === 1);
+    return (next.start > curr.end && next.start <= (curr.end + 2) && next.entity.domain === curr.entity.domain && curr.entity.joinable === 1);
   }
 
   private _queryMultipleTerms(words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
@@ -349,7 +348,8 @@ export class NLP {
       for (let i = result.length -1; i > 0; i--) {
         let peek = result[i];
         let current = result[i -1];
-        if (this._joinable(current, peek) && peek.length > 1) {
+        const canJoin: boolean = this._joinable(current, peek);
+        if (canJoin && peek.length > 1) {
           result[i -1] = this._join(current, peek, data);
           result.splice(i, 1);
           if (result[i -1].entity.joinable !== 1 && result[i -1].entity.discard !== 1) {

@@ -20,7 +20,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:abbey|acres?|alley|allotments?|approach|avenue|b[ae]ck|banks?|barns?|bay|beach|beacon|bottom|boulevard|braes?|brake|bridge|broad(?:way)?|brook|buildings?|bush(?:es)?|canal|castle|causeway|circle|circus|cliffs?|cl[eo]ugh|close|common|coppices?|copses?|corner|cottages?|court(?:yard)?|cove(?:rts?)?|creek|crescent|crofts?|cross(?:ing)?|dales?|ditch|docks?|downs?|drift|dr[io]ve|edge|esplanade|estate|farm|f[ae]lls?|fens?|ferry|fields?|flats?|fold|ford|forest|gap|gardens?|gates?|geos?|glades?|glens?|gor[gs]e|grange|greens?|grounds?|groves?|gully|h[ai]lls?|harbour|haven|head|heath|hedge|heights?|high(?:way)?|hollow|houses?|islands?|isles?|jetty|junctions?|lakes?|lanes?|lawns?|ledge|leys?|loch|lodge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|moors?|moss|mounts?|ness|orchards?|oval|paddocks?|parade|parks?|passage|pastures?|path|pier|pit|place|plains?|plaza|ponds?|pool|point|port|priory|promenade|quadrant|quarry|quay|range|rd|reach|reservoir|ridge|rise|rivers?|roads?|rocks?|rough|round|row|sands?|side|skerr(?:y|ies)|spa|spinney|springs?|square|station|strand|stream|street|strip|tarn|terrace|tor|towers?|towns?|upper|vale|valley|views?|villas?|villages?|walks?|walls?|water(?:s|fall)?|ways?|weirs?|wharf|wood(?:s|lands)?|yards?)\b'
+  '\b(?:abbey|acres?|alley|allotments?|approach|avenue|b[ae]ck|banks?|barns?|bay|beach|beacon|bottoms?|boulevard|braes?|brake|bridges?|broad(?:s|way)?|brooks?|buildings?|bush(?:es)?|canal|castle|causeway|cave|centre|channel|church|circ(?:le|us)|circular|cliffs?|cl[eo]ugh|close|coast|commons?|coppices?|copses?|corner|cottages?|court(?:yard)?|cove(?:rts?)?|crags?|creek|crescent|crofts?|cross(?:ing)?|dales?|dam|ditch|docks?|downs?|drift|dr[io]ve|edge|esplanade|estate|farm|f[ae]lls?|fens?|ferry|fields?|flats?|folds?|ford|forest|gap|gardens?|gate(?:s|way)?|geos?|glades?|glens?|gor[gs]e|grange|greens?|grounds?|groves?|gully|h[ai]lls?|harbour|haven|head|heath|hedge|heights?|high(?:way)?|hollow|houses?|islands?|isles?|jetty|junctions?|la[kn]es?|lawns?|leys?|loch|l[eo]dge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|moors?|moss|mounts?|ness|orchards?|oval|paddocks?|parade|park(?:s|way)?|pass(?:age)?|pastures?|path|pier|pit|place|plains?|plaza|ponds?|pool|point|port|priory|promenade|quad(?:rant)?|quarry|quay|range|rd|reach|reservoir|ridge|rise|rivers?|roads?|rocks?|rough|round|row|sands?|side|skerr(?:y|ies)|spa|spinney|springs?|square|station|strand|stream|street|strip|tarn|terrace|tor|towers?|towns?|upper|vale|valley|views?|villas?|villages?|wal[kl]s?|water(?:s|fall)?|ways?|weirs?|wharf|wood(?:s|lands)?|yards?)\b'
 ),
 (
   'Currency1', '#334320', 'Currency', 'CURRENCY', 'Regular expression',
@@ -95,7 +95,7 @@ VALUES
 (
   'NameRegExInitial', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 1, 1, 2,
-  '(?:\b[a|i]\b\.|\b[b-hj-z]\b\.?)'
+  '(?:\b[a|i|s]\b\.|\b[b-hj-rt-z]\b\.?)'
 ),
 (
   'NameRegEx', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
@@ -135,7 +135,7 @@ VALUES
 (
   'NameRegExG', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 0, 1, 2,
-  '\b[a-zàèéìòóùäöüß]+g(?:aj|cz|h[ao]|i[fhi-kmoqruvwy]|ji|k[aio]|lu|ma|n[an]|ou|sz|ui|we|xi|y[aeiknu]|[qz][a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+g(?:aj|cz|h[ao]|i[fhi-kmoqruvwy]|ji|k[aio]|lu|ma|n[an]|o[gu]|sz|ui|we|xi|y[aeiknu]|[qz][a-z])\b'
 ),
 (
   'NameRegExH', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -195,7 +195,7 @@ VALUES
 (
   'NameRegExS', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-zàèéìòóùäöüß]+s(?:ak|c[houz]|ev|h[iou]|i[fhijkqruvwy]|k[aeioy]|nn|ou|sz|uk|wa|y[kn]|[bz][a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+s(?:a[a-df-ko-quvxz]|c[a-df-rt-z]|e[bf-kmo-qu-wz]|h[a-xz]|i[bf-ko-ru-z]|k[a-rt-z]|l[a-df-xz]|m[b-rt-xz]|n[a-su-z]|p[a-rt-xz]|o[a-koqu-z]|sz|uk|wa|y[kn]|[bdfgjz][a-z])\b'
 ),
 (
   'NameRegExT', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -205,7 +205,7 @@ VALUES
 (
   'NameRegExU', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-zàèéìòóùäöüß]+u(?:a[a-df-km-su-z]|bb|c[uz]|da|g[ag]|ho|i[fhijkqruvwy]|ji|k[ios]|lu|n[inou]|ou|rg|s[iz]|tz|u[aer]|wa|y[eikn]|z[eiou])\b'
+  '\b[a-zàèéìòóùäöüß]+u(?:a[a-df-km-su-z]|bb|c[uz]|da|g[ag]|ho|i[fh-kqru-y]|ji|k[ios]|lu|n[inou]|ou|rg|s[iz]|tz|u[aer]|wa|y[eikn]|z[eiou])\b'
 ),
 (
   'NameRegExV', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -220,7 +220,7 @@ VALUES
 (
   'NameRegExX', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-zàèéìòóùäöüß]+x(?:ai|ba|cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|s[a-z]|t[a-xz]|[u-z][a-z])\b'
+  '\b[a-zàèéìòóùäöüß]+x(?:ai|ba|cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|s[a-z]|t[a-gi-xz]|[u-z][a-z])\b'
 ),
 (
   'NameRegExY', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -270,7 +270,7 @@ VALUES
 (
   'SkipTrailingNumberRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',
   1, 1, 0, 1, 
-  '(?:clause|page)\s[\d]+'
+  '(?:clause|page|para)\s[\d]+'
 ),
 (
   'SkipWordDurationRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',
