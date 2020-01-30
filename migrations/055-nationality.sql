@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO Nationality (keyword)
 VALUES
 ('Afghan'),
@@ -125,7 +124,7 @@ VALUES
 ('Estonian'), 
 ('Estonians'), 
 ('Ethiopian'), 
-('Ethiopians'), 
+('Ethiopians'),
 ('Faroese'),
 ('Fijian'),
 ('Fijians'),
@@ -391,7 +390,5 @@ VALUES
 ('Zimbabweans'),
 ('Zulu'),
 ('Zulus');
-
 -- Down
-
 DELETE FROM "Nationality";

@@ -3454,7 +3454,7 @@ VALUES
 ('Hantal'),
 ('Hantar'),
 ('Hantas'),
-('Hante'),
+
 ('Hantea'),
 ('Hanten'),
 ('Hanthorn'),
@@ -4364,6 +4364,7 @@ VALUES
 ('Harkavy'),
 ('Harkavyi'),
 ('Harkay'),
+('Harkbreaker'),
 ('Harkcom'),
 ('Harke'),
 ('Harkeerat'),
@@ -6988,7 +6989,6 @@ VALUES
 ('Hearst'),
 ('Hearston'),
 ('Hearsum'),
-('Heart'),
 ('Heartfield'),
 ('Hearth'),
 ('Heartland'),
@@ -9185,7 +9185,7 @@ VALUES
 ('Hentcha'),
 ('Hentche'),
 ('Hentchy'),
-('Hente'),
+
 ('Henter'),
 ('Hentes'),
 ('Hentges'),
@@ -11715,7 +11715,7 @@ VALUES
 ('Hinsull'),
 ('Hinta'),
 ('Hintaran'),
-('Hinte'),
+
 ('Hinten'),
 ('Hinterberger'),
 ('Hinteregger'),
@@ -14182,7 +14182,7 @@ VALUES
 ('Honstein'),
 ('Hontang'),
 ('Hontarrede'),
-('Honte'),
+
 ('Hontoia'),
 ('Hontomin'),
 ('Hontoria'),
@@ -15874,7 +15874,7 @@ VALUES
 ('Huans'),
 ('Huansi'),
 ('Huant'),
-('Huante'),
+
 ('Huanting'),
 ('Huanxin'),
 ('Huanyu'),
@@ -16901,7 +16901,7 @@ VALUES
 ('Hunsucker'),
 ('Hunswick'),
 ('Huntbach'),
-('Hunte'),
+
 ('Hunteman'),
 ('Hunten'),
 ('Hunter'),
@@ -17217,7 +17217,6 @@ VALUES
 ('Husayni'),
 ('Husaynur'),
 ('Husban'),
-('Husbands'),
 ('Huschelrath'),
 ('Huscher'),
 ('Huschit'),
@@ -17684,7 +17683,7 @@ VALUES
 ('Hyabiel'),
 ('Hyacin'),
 ('Hyacint'),
-('Hyacinte'),
+
 ('Hyacinth'),
 ('Hyacintha'),
 ('Hyacinthe'),

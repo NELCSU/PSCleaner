@@ -770,7 +770,7 @@ VALUES
 ('Ocanaz'),
 ('Ocano'),
 ('Ocansey'),
-('Ocante'),
+
 ('Ocantos'),
 ('Ocaoindealbhain'),
 ('Ocap'),
@@ -1549,7 +1549,7 @@ VALUES
 ('Oduro'),
 ('Oduroagyei'),
 ('Oduroh'),
-('Oduromante'),
+
 ('Odurosi'),
 ('Oduru'),
 ('Odus'),
@@ -2583,7 +2583,7 @@ VALUES
 ('Ogwuche'),
 ('Ogwude'),
 ('Ogwuguna'),
-('Ogwunte'),
+
 ('Ogyman'),
 ('Ogyntsin'),
 ('Ogzewalla'),
@@ -7406,7 +7406,7 @@ VALUES
 ('Ontalus'),
 ('Ontanon'),
 ('Ontas'),
-('Onte'),
+
 ('Onteta'),
 ('Onthank'),
 ('Onthatile'),
@@ -8110,7 +8110,7 @@ VALUES
 ('Oranje'),
 ('Oranli'),
 ('Oranoos'),
-('Orante'),
+
 ('Orantes'),
 ('Oranus'),
 ('Oranutt'),
@@ -8526,7 +8526,7 @@ VALUES
 ('Oriema'),
 ('Orient'),
 ('Oriental'),
-('Oriente'),
+
 ('Orieny'),
 ('Orienza'),
 ('Oriero'),
@@ -8656,7 +8656,7 @@ VALUES
 ('Oriyarna'),
 ('Oriyasin'),
 ('Orizabal'),
-('Orizzonte'),
+
 ('Orjales'),
 ('Orjana'),
 ('Orjanos'),
@@ -8908,7 +8908,7 @@ VALUES
 ('Oross'),
 ('Orosun'),
 ('Orosundafosi'),
-('Orosundakinte'),
+
 ('Oroszlan'),
 ('Orotoulidis'),
 ('Orouge'),
@@ -10409,6 +10409,7 @@ VALUES
 ('Otavia'),
 ('Otavio'),
 ('Otavo'),
+('Otay'),
 ('Otchaly'),
 ('Otchere'),
 ('Otchereh'),

@@ -20,7 +20,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:abbey|acres?|alley|allotments?|approach|avenue|b[ae]ck|banks?|barns?|bay|beach|beacon|bottoms?|boulevard|braes?|brake|bridges?|broad(?:s|way)?|brooks?|buildings?|bush(?:es)?|canal|castle|causeway|cave|centre|channel|church|circ(?:le|us)|circular|cliffs?|close|coast|commons?|coppices?|copses?|corner|cottages?|court(?:yard)?|cove(?:rts?)?|crags?|creek|crescent|crofts?|cross(?:ing)?|dales?|dam|ditch|docks?|downs?|drift|dr[io]ve|edge|esplanade|estates?|farms?|f[ae]lls?|fens?|ferry|fields?|flats?|folds?|ford|forest|gap|gardens?|gate(?:s|way)?|geos?|glens?|gor[gs]e|grange|greens?|grounds?|groves?|gully|h[ai]lls?|hanger|harbour|haven|head|heath|hedge|heights?|high(?:way)?|hollow|houses?|interchange|islands?|isles?|jetty|junctions?|la[kn]es?|lawns?|leys?|loch|l[eo]dge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|moors?|moss|mounts?|ness|orchards?|oval|paddocks?|parade|park(?:land|s|way)?|pass(?:age)?|pastures?|path|piece|pier|pike|pit|place|plains?|plaza|ponds?|pool|point|port|priory|promenade|quad(?:rant)?|quarry|range|rd|reach|reservoir|ridge|rise|rivers?|roads?|rocks?|rough|round(?:about)?|row|sands?|side|skerr(?:y|ies)|sound|spa|spinneys?|springs?|square|station|strand|stream|street|strip|tarn|terrace|tor|towers?|towns?|upper|vale|valley|views?|villas?|villages?|wal[kl]s?|water(?:s|fall)?|ways?|weirs?|wharf|wood(?:s|lands)?|yards?)\b'
+  '\b(?:abbey|acres?|alley|allotments?|approach|avenue|b[ae]ck|banks?|barns?|basin|bay|beach|beacon|bottoms?|boulevard|braes?|brake|bridges?|broad(?:s|way)?|brooks?|buildings?|bush(?:es)?|bypass|camp|canal|castle|causeway|cave|centre|channel|chapel|church|circ(?:le|us)|circular|cliffs?|close|coast|commons?|coppices?|copses?|corner|cottages?|court(?:yard)?|cove(?:rts?)?|crags?|creek|crescent|crofts?|cross(?:ing)?|dales?|dam|d[iy]ke|ditch|docks?|downs?|drift|dr[io]ve|edge|entrance|esplanade|estates?|farms?|f[ae]lls?|fens?|ferry|fields?|flats?|fo[lr]ds?|forest|gap|gardens?|gate(?:s|way)?|geos?|glens?|gor[gs]e|grange|greens?|grounds?|groves?|gully|h[ai]lls?|hanger|harbour|haven|head|heath|hedge|heights?|high(?:way)?|hollow|houses?|interchange|islands?|isles?|jetty|junctions?|la[kn]es?|lawns?|leys?|loch|l[eo]dge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|moors?|moss|mounts?|mouth|ness|orchards?|oval|paddocks?|parade|park(?:land|s|way)?|pass(?:age)?|passageway|pastures?|path|piece|pier|pike|pit|place|plains?|plaza|ponds?|pool|point|port|priory|promenade|quad(?:rant)?|quarry|range|rd|reach|reservoir|ridge|rise|rivers?|roads?|rocks?|rough|round(?:about)?|row|sands?|sea|side|skerr(?:y|ies)|sound|spa|spinneys?|springs?|square|station|strand|stream|street|strip|tarn|terrace|tor|towers?|towns?|tunnel|upper|vale|valley|views?|villas?|villages?|wal[kl]s?|water(?:s|fall)?|ways?|weirs?|wharf|wood(?:s|lands)?|yards?)\b'
 ),
 (
   'Currency1', '#334320', 'Currency', 'CURRENCY', 'Regular expression',
@@ -75,7 +75,7 @@ VALUES
 (
   'Email', '#ff8000', 'Reference', 'CONTACT', 'Regular expression', 
   1, 0, 0, 1,
-  '\b(?:[''\w+\-\_\.]+)@(?:[\w+\-\_\.]+)\b'
+  '\b(?:[''\w+\-\_\.]+)@(?:[\w+\-\_\.]+)\.(?:[\w+\-\_\.]+)\b'
 ),
 (
   'Nationality', '#0050ff', 'Name', 'NAME', 'Multiple term', 
@@ -93,9 +93,9 @@ VALUES
   ''
 ),
 (
-  'NameRegExInitial', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
+  'NameRegExInitial', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 1, 1, 2,
-  '(?:\b[a|i|s]\b\.|\b[b-hj-rt-z]\b\.?)'
+  '\b[a-z]\b\.'
 ),
 (
   'NameRegEx', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
@@ -170,7 +170,7 @@ VALUES
 (
   'NameRegExN', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-zăàäèéìòóöùüßț]+n(?:a[bhjmn]|b[ou]|c[az]|di|e[kz]|ga|ho|i[f-kqru-wy]|j[ai]|k[ailo]|n[aeinu]|o[uv]|pd|sz|t[iluz]|x[a-z]|y[ikn]|[qz][b-z])\b'
+  '\b[a-zăàäèéìòóöùüßț]+n(?:a[bhjmn]|b[ou]|c[az]|di|e[kz]|ga|ho|i[f-kqru-wy]|j[ai]|k[ailo]|n[aeinu]|o[uv]|pd|sz|t[eiluz]|x[a-z]|y[ikn]|[qz][b-z])\b'
 ),
 (
   'NameRegExO', '#00a0ff', 'Name', 'NAME', 'Regular expression',
@@ -265,7 +265,7 @@ VALUES
 (
   'SkipLeadingNumberRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',
   1, 1, 0, 1, 
-  '[\d,\.]+(?:st|nd|rd|th)?[\s\-\\\/]{1,2}(?:acre|autumn|beer|day|fairway|mile|page|pence|place|pound|min|story|summer|week|winter|yard|yr)s?'
+  '[\d,\.]+(?:st|nd|rd|th)?[\s\-\\\/]{1,2}(?:acre|autumn|beer|day|fairway|hour|mile|page|pence|place|pound|min|story|summer|week|winter|yard|yr)s?'
 ),
 (
   'SkipTrailingNumberRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',
@@ -275,7 +275,7 @@ VALUES
 (
   'SkipWordDurationRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',
   1, 1, 0, 1, 
-  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten|hundred)[\s\-\\/]{1,2}(?:acre|autumn|beer|day|mile|page|pence|place|pound|story|summer|week|winter)s?\b'
+  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten|hundred)[\s\-\\/]{1,2}(?:acre|autumn|beer|daughter|day|hour|mile|page|pence|place|pound|son|story|summer|week|winter)s?\b'
 ),
 (
   'TelUK', '#ff80ff', 'Reference', 'CONTACT', 'Regular expression',

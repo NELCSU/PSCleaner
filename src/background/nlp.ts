@@ -68,7 +68,7 @@ export class NLP {
     let cursor: number = 0;
     let lastWord: WordPosition;
     let lastModal: boolean = false;
-    let lastDot: boolean = false;
+    let lastSymbol: boolean = false;
     tags.forEach((tag: Tag) => {
       const start: number = data.indexOf(tag.value, cursor);
       const len: number = tag.value.length;
@@ -76,7 +76,10 @@ export class NLP {
       cursor = end;
       if (tag.tag === "word") {
         const n: number = words.length - 1;
-        if (lastDot && len === 1 && words[n].value.indexOf(".") > -1) {
+        if (lastSymbol && len === 1 && (
+          words[n].value.indexOf(".") > -1 ||
+          words[n].value.indexOf("&") > -1
+        )) {
           words[n].value += tag.value;
           words[n].end = end;
           words[n].length += len;
@@ -108,8 +111,8 @@ export class NLP {
           }
         }
         lastModal = tag.pos === "MD";
-        lastDot = false;
-      } else if (tag.normal === ".") {
+        lastSymbol = false;
+      } else if (tag.normal === "." || tag.normal === "&") {
         if (lastWord && lastWord.length < 3) {
           const n: number = words.length - 1;
           words[n].value += tag.value;
@@ -123,7 +126,7 @@ export class NLP {
             length: len
           };
         }
-        lastDot = true;
+        lastSymbol = true;
       }
     });
     return words;

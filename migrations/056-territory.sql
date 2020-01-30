@@ -1,5 +1,4 @@
 -- Up
-
 INSERT INTO Territory (keyword)
 VALUES
 ('Afghanistan'),
@@ -40,7 +39,6 @@ VALUES
 ('Caledonia'),
 ('Cambodia'),
 ('Cameroon'),
-
 ('Canary Islands'),
 ('Caribbean'),
 ('Cayman'),
@@ -85,7 +83,6 @@ VALUES
 ('Ghana'),
 ('Great Britain'),
 ('Greece'),
-
 ('Guatemala'),
 ('Guinea'),
 ('Guinea Bissau'),
@@ -99,14 +96,12 @@ VALUES
 ('Iran'),
 ('Iraq'),
 ('Ireland'),
-
 ('Italy'),
 ('Jamaica'),
 ('Japan'),
 ('Jordan'),
 ('Kazakhstan'),
 ('Kenya'),
-
 ('North Africa'),
 ('North America'),
 ('North Korea'),
@@ -124,7 +119,6 @@ VALUES
 ('Lithuania'),
 ('Luxembourg'),
 ('Madagascar'),
-
 ('Malaysia'),
 ('Maldives'),
 ('Mali'),
@@ -136,7 +130,6 @@ VALUES
 ('Micronesia'),
 ('Middle East'),
 ('Moldova'),
-
 ('Mongolia'),
 ('Montenegro'),
 ('Morocco'),
@@ -207,7 +200,6 @@ VALUES
 ('Tunisia'),
 ('Turkey'),
 ('Turkmenistan'),
-
 ('Uganda'),
 ('Ukraine'),
 ('United Arab Emirates'),
@@ -215,7 +207,6 @@ VALUES
 ('United States'),
 ('Uruguay'),
 ('Uzbekistan'),
-
 ('Vatican City'),
 ('Venezuela'),
 ('Vietnam'),
@@ -224,7 +215,5 @@ VALUES
 ('Yugoslavia'),
 ('Zambia'),
 ('Zimbabwe');
-
 -- Down
-
 DELETE FROM "Territory";

@@ -3242,7 +3242,7 @@ VALUES
 ('Eimannya'),
 ('Eimantaite'),
 ('Eimantas'),
-('Eimante'),
+
 ('Eimar'),
 ('Eimear'),
 ('Eimen'),
@@ -4539,7 +4539,7 @@ VALUES
 ('Eleesa'),
 ('Eleesia'),
 ('Elefant'),
-('Elefante'),
+
 ('Elefeheria'),
 ('Elefheria'),
 ('Elefiheria'),
@@ -8452,7 +8452,7 @@ VALUES
 ('Entan'),
 ('Entanya'),
 ('Entaz'),
-('Ente'),
+
 ('Entea'),
 ('Entel'),
 ('Entela'),
@@ -9829,7 +9829,7 @@ VALUES
 ('Errami'),
 ('Erran'),
 ('Errandonea'),
-('Errante'),
+
 ('Errappa'),
 ('Errard'),
 ('Erraswamy'),
@@ -10173,7 +10173,7 @@ VALUES
 ('Escade'),
 ('Escaffre'),
 ('Escala'),
-('Escalante'),
+
 ('Escalas'),
 ('Escalera'),
 ('Escalero'),
@@ -11096,7 +11096,7 @@ VALUES
 ('Estefano'),
 ('Estefanos'),
 ('Estefanta'),
-('Estefante'),
+
 ('Estefany'),
 ('Esteffe'),
 ('Estegant'),
@@ -11301,7 +11301,7 @@ VALUES
 ('Estter'),
 ('Estuardo'),
 ('Estud'),
-('Estudante'),
+
 ('Estudillo'),
 ('Estuesta'),
 ('Estulin'),
@@ -11926,7 +11926,7 @@ VALUES
 ('Eulanda'),
 ('Eulander'),
 ('Eulandia'),
-('Eulante'),
+
 ('Eulate'),
 ('Eulatt'),
 ('Eulavino'),
@@ -12322,7 +12322,7 @@ VALUES
 ('Evans'),
 ('Evansella'),
 ('Evanson'),
-('Evante'),
+
 ('Evantha'),
 ('Evanthe'),
 ('Evanthea'),
@@ -13615,7 +13615,7 @@ VALUES
 ('Fabrel'),
 ('Fabrica'),
 ('Fabricant'),
-('Fabricante'),
+
 ('Fabricatore'),
 ('Fabriccia'),
 ('Fabrice'),
@@ -14154,7 +14154,7 @@ VALUES
 ('Fahys'),
 ('Fai'),
 ('Faiad'),
-('Faiante'),
+
 ('Faiar'),
 ('Faibin'),
 ('Faibis'),
@@ -15103,7 +15103,7 @@ VALUES
 ('Fantastica'),
 ('Fantay'),
 ('Fantayeneh'),
-('Fante'),
+
 ('Fantel'),
 ('Fantela'),
 ('Fanter'),
@@ -18112,7 +18112,7 @@ VALUES
 ('Fenstermaker'),
 ('Fent'),
 ('Fenta'),
-('Fente'),
+
 ('Fentem'),
 ('Fenteman'),
 ('Fenten'),
@@ -18638,7 +18638,7 @@ VALUES
 ('Ferrandu'),
 ('Ferrans'),
 ('Ferrant'),
-('Ferrante'),
+
 ('Ferrantino'),
 ('Ferranto'),
 ('Ferraraccio'),
@@ -18872,7 +18872,7 @@ VALUES
 ('Fessuh'),
 ('Fessy'),
 ('Festa'),
-('Festante'),
+
 ('Feste'),
 ('Festenstein'),
 ('Fester'),
@@ -19455,7 +19455,7 @@ VALUES
 ('Fierke'),
 ('Fierle'),
 ('Fierman'),
-('Fiermonte'),
+
 ('Fiero'),
 ('Fieroz'),
 ('Fierro'),
@@ -20300,9 +20300,9 @@ VALUES
 ('Fior'),
 ('Fiora'),
 ('Fioraliso'),
-('Fiorante'),
+
 ('Fioratto'),
-('Fioravante'),
+
 ('Fiordalisi'),
 ('Fiordaliso'),
 ('Fiordellisi'),
@@ -20315,7 +20315,7 @@ VALUES
 ('Fiorena'),
 ('Fiorencio'),
 ('Fiorendina'),
-('Fiorente'),
+
 ('Fiorentin'),
 ('Fiorentina'),
 ('Fiorentino'),
@@ -20536,7 +20536,7 @@ VALUES
 ('Fisauli'),
 ('Fisavli'),
 ('Fisbeck'),
-('Fiscante'),
+
 ('Fiscel'),
 ('Fiscella'),
 ('Fiscer'),
@@ -20709,7 +20709,7 @@ VALUES
 ('Fitt'),
 ('Fitta'),
 ('Fittall'),
-('Fittante'),
+
 ('Fitte'),
 ('Fitten'),
 ('Fitter'),
@@ -21494,7 +21494,7 @@ VALUES
 ('Florane'),
 ('Florangel'),
 ('Florant'),
-('Florante'),
+
 ('Florantina'),
 ('Florantine'),
 ('Floras'),
@@ -21950,7 +21950,6 @@ VALUES
 ('Foggo'),
 ('Foggon'),
 ('Foggs'),
-('Foggy'),
 ('Foghere'),
 ('Foghis'),
 ('Foght'),
@@ -22373,7 +22372,7 @@ VALUES
 ('Fontanos'),
 ('Fontas'),
 ('Fontayne'),
-('Fonte'),
+
 ('Fontebasso'),
 ('Fontecchio'),
 ('Fontecha'),
@@ -24023,7 +24022,7 @@ VALUES
 ('Fraslin'),
 ('Frasor'),
 ('Frasquillo'),
-('Frassante'),
+
 ('Frassenei'),
 ('Frassetto'),
 ('Frassi'),
@@ -24339,7 +24338,7 @@ VALUES
 ('Fregiste'),
 ('Frego'),
 ('Fregoe'),
-('Fregolente'),
+
 ('Fregoli'),
 ('Fregona'),
 ('Fregonese'),
@@ -25168,7 +25167,7 @@ VALUES
 ('Fronius'),
 ('Fronk'),
 ('Frontana'),
-('Fronte'),
+
 ('Frontera'),
 ('Fronterhouse'),
 ('Fronterre'),
@@ -25301,7 +25300,7 @@ VALUES
 ('Frunza'),
 ('Frunzeti'),
 ('Fruscella'),
-('Frusciante'),
+
 ('Fruscione'),
 ('Frush'),
 ('Frusher'),
@@ -25447,7 +25446,7 @@ VALUES
 ('Fuensanta'),
 ('Fuensantia'),
 ('Fuentas'),
-('Fuente'),
+
 ('Fuentebella'),
 ('Fuentes'),
 ('Fuents'),
@@ -25482,7 +25481,7 @@ VALUES
 ('Fugah'),
 ('Fugal'),
 ('Fugallo'),
-('Fugante'),
+
 ('Fugar'),
 ('Fugard'),
 ('Fugarino'),

@@ -255,7 +255,7 @@ VALUES
 ('Cacchioli'),
 ('Cacchione'),
 ('Caccia'),
-('Cacciante'),
+
 ('Cacciapagcia'),
 ('Cacciapaglia'),
 ('Cacciarru'),
@@ -277,7 +277,6 @@ VALUES
 ('Cacharel'),
 ('Cachart'),
 ('Cachat'),
-('Cache'),
 ('Cachelarel'),
 ('Cachelin'),
 ('Cachero'),
@@ -390,7 +389,7 @@ VALUES
 ('Cadia'),
 ('Cadice'),
 ('Cadie'),
-('Cadiente'),
+
 ('Cadier'),
 ('Cadiere'),
 ('Cadierno'),
@@ -940,7 +939,7 @@ VALUES
 ('Calalang'),
 ('Calam'),
 ('Calaman'),
-('Calamante'),
+
 ('Calamare'),
 ('Calamarino'),
 ('Calame'),
@@ -1498,7 +1497,7 @@ VALUES
 ('Calvello'),
 ('Calven'),
 ('Calvent'),
-('Calvente'),
+
 ('Calver'),
 ('Calverese'),
 ('Calverey'),
@@ -2465,7 +2464,7 @@ VALUES
 ('Cantane'),
 ('Cantanhede'),
 ('Cantano'),
-('Cantante'),
+
 ('Cantaore'),
 ('Cantarano'),
 ('Cantarella'),
@@ -2478,7 +2477,7 @@ VALUES
 ('Cantatore'),
 ('Cantave'),
 ('Cantay'),
-('Cante'),
+
 ('Cantea'),
 ('Canteen'),
 ('Canteenwala'),
@@ -3017,7 +3016,7 @@ VALUES
 ('Caranci'),
 ('Carandang'),
 ('Carande'),
-('Carandente'),
+
 ('Caranese'),
 ('Caranfel'),
 ('Caranfil'),
@@ -3025,7 +3024,7 @@ VALUES
 ('Carangi'),
 ('Caranicas'),
 ('Caranina'),
-('Carannante'),
+
 ('Carano'),
 ('Caransias'),
 ('Carantagi'),
@@ -3152,7 +3151,7 @@ VALUES
 ('Carchillian'),
 ('Carcia'),
 ('Carcianle'),
-('Carciente'),
+
 ('Carcione'),
 ('Carciug'),
 ('Carciun'),
@@ -3197,7 +3196,7 @@ VALUES
 ('Cardeno'),
 ('Cardenoa'),
 ('Cardenos'),
-('Cardente'),
+
 ('Cardentey'),
 ('Carder'),
 ('Cardera'),
@@ -3853,7 +3852,7 @@ VALUES
 ('Carpenedo'),
 ('Carpenito'),
 ('Carpentar'),
-('Carpente'),
+
 ('Carpenter'),
 ('Carpentier'),
 ('Carpentiere'),
@@ -3907,8 +3906,8 @@ VALUES
 ('Carramolino'),
 ('Carran'),
 ('Carranco'),
-('Carrannante'),
-('Carranntante'),
+
+
 ('Carrano'),
 ('Carransa'),
 ('Carranza'),
@@ -4101,7 +4100,6 @@ VALUES
 ('Cartee'),
 ('Cartegena'),
 ('Cartei'),
-('Cartel'),
 ('Cartelia'),
 ('Cartell'),
 ('Cartella'),
@@ -4204,7 +4202,7 @@ VALUES
 ('Carvella'),
 ('Carvello'),
 ('Carven'),
-('Carvente'),
+
 ('Carveor'),
 ('Carver'),
 ('Carverhill'),
@@ -4253,7 +4251,7 @@ VALUES
 ('Casadiego'),
 ('Casadio'),
 ('Casado'),
-('Casadonte'),
+
 ('Casados'),
 ('Casady'),
 ('Casafina'),
@@ -4360,7 +4358,7 @@ VALUES
 ('Cascales'),
 ('Cascalla'),
 ('Cascampas'),
-('Cascante'),
+
 ('Cascapera'),
 ('Cascarano'),
 ('Cascardi'),
@@ -5512,8 +5510,8 @@ VALUES
 ('Caval'),
 ('Cavalares'),
 ('Cavalaris'),
-('Cavalcante'),
-('Cavalecante'),
+
+
 ('Cavalensi'),
 ('Cavalera'),
 ('Cavalero'),
@@ -5650,7 +5648,7 @@ VALUES
 ('Cavolina'),
 ('Cavon'),
 ('Cavone'),
-('Cavonte'),
+
 ('Cavoordin'),
 ('Cavor'),
 ('Cavoto'),
@@ -5830,7 +5828,7 @@ VALUES
 ('Cazumbula'),
 ('Cazzador'),
 ('Cazzaniga'),
-('Cazzante'),
+
 ('Cazzell'),
 ('Cazzola'),
 ('Cazzoli'),
@@ -6505,7 +6503,7 @@ VALUES
 ('Centmayer'),
 ('Centner'),
 ('Cento'),
-('Centofante'),
+
 ('Centoira'),
 ('Centola'),
 ('Centore'),
@@ -6883,7 +6881,7 @@ VALUES
 ('Cerutto'),
 ('Cerva'),
 ('Cervano'),
-('Cervante'),
+
 ('Cervantes'),
 ('Cervates'),
 ('Cerveira'),
@@ -8006,7 +8004,6 @@ VALUES
 ('Champie'),
 ('Champigny'),
 ('Champine'),
-('Champion'),
 ('Champis'),
 ('Champken'),
 ('Champkin'),
@@ -8572,7 +8569,7 @@ VALUES
 ('Chantawatcharakorn'),
 ('Chantay'),
 ('Chantayapuch'),
-('Chante'),
+
 ('Chantee'),
 ('Chanteese'),
 ('Chanteile'),
@@ -9200,7 +9197,7 @@ VALUES
 ('Charnpreet'),
 ('Charnsilp'),
 ('Charnsit'),
-('Charnte'),
+
 ('Charnu'),
 ('Charny'),
 ('Charnyque'),
@@ -10471,7 +10468,7 @@ VALUES
 ('Chenshuo'),
 ('Chensina'),
 ('Chenta'),
-('Chente'),
+
 ('Chenthil'),
 ('Chentian'),
 ('Chentier'),
@@ -11037,7 +11034,7 @@ VALUES
 ('Chevannes'),
 ('Chevannese'),
 ('Chevannise'),
-('Chevante'),
+
 ('Chevanthy'),
 ('Chevapatrakul'),
 ('Chevardo'),
@@ -11258,7 +11255,7 @@ VALUES
 ('Chiang'),
 ('Chianleah'),
 ('Chianta'),
-('Chiante'),
+
 ('Chiantia'),
 ('Chianugom'),
 ('Chianugwo'),
@@ -11280,7 +11277,7 @@ VALUES
 ('Chiaradio'),
 ('Chiaralisa'),
 ('Chiarami'),
-('Chiaramonte'),
+
 ('Chiarappa'),
 ('Chiarella'),
 ('Chiarello'),
@@ -11295,18 +11292,18 @@ VALUES
 ('Chiarito'),
 ('Chiarle'),
 ('Chiarlone'),
-('Chiarmonte'),
-('Chiarofonte'),
+
+
 ('Chiarolanza'),
 ('Chiarolla'),
-('Chiaromonte'),
+
 ('Chiarotto'),
 ('Chiarpei'),
 ('Chiarva'),
 ('Chiasera'),
 ('Chiasson'),
 ('Chiat'),
-('Chiatante'),
+
 ('Chiatto'),
 ('Chiavaroli'),
 ('Chiavello'),
@@ -12220,7 +12217,7 @@ VALUES
 ('Chinomyerem'),
 ('Chinonso'),
 ('Chinonsom'),
-('Chinonte'),
+
 ('Chinonye'),
 ('Chinonyelum'),
 ('Chinonyem'),
@@ -13204,7 +13201,7 @@ VALUES
 ('Chonradee'),
 ('Chontae'),
 ('Chontay'),
-('Chonte'),
+
 ('Chontel'),
 ('Chontele'),
 ('Chonthicha'),
@@ -14787,7 +14784,7 @@ VALUES
 ('Ciarissa'),
 ('Ciarke'),
 ('Ciarla'),
-('Ciarlante'),
+
 ('Ciarlet'),
 ('Ciarletta'),
 ('Ciarlo'),
@@ -14945,7 +14942,7 @@ VALUES
 ('Cicmanec'),
 ('Cicon'),
 ('Cicone'),
-('Ciconte'),
+
 ('Cicora'),
 ('Cicoria'),
 ('Cicortas'),
@@ -15179,7 +15176,7 @@ VALUES
 ('Cimadamore'),
 ('Cimadevilla'),
 ('Cimador'),
-('Cimafonte'),
+
 ('Cimaglia'),
 ('Cimagoziem'),
 ('Ciman'),
@@ -16018,7 +16015,7 @@ VALUES
 ('Clairlouise'),
 ('Clairmond'),
 ('Clairmont'),
-('Clairmonte'),
+
 ('Clairrissa'),
 ('Clairson'),
 ('Claisse'),
@@ -16224,7 +16221,7 @@ VALUES
 ('Claryce'),
 ('Clarysse'),
 ('Clas'),
-('Clasadonte'),
+
 ('Clase'),
 ('Claseman'),
 ('Clasen'),
@@ -16593,7 +16590,7 @@ VALUES
 ('Clemenson'),
 ('Clement'),
 ('Clementa'),
-('Clemente'),
+
 ('Clementel'),
 ('Clementia'),
 ('Clementin'),
@@ -16656,7 +16653,7 @@ VALUES
 ('Clendon'),
 ('Clendy'),
 ('Clene'),
-('Clenente'),
+
 ('Clenentine'),
 ('Clenley'),
 ('Clenman'),
@@ -16728,7 +16725,7 @@ VALUES
 ('Clerkin'),
 ('Clerkley'),
 ('Clermont'),
-('Clermonte'),
+
 ('Clerona'),
 ('Clerrette'),
 ('Clervil'),
@@ -17789,7 +17786,7 @@ VALUES
 ('Cohron'),
 ('Cohrs'),
 ('Coia'),
-('Coiante'),
+
 ('Coica'),
 ('Coid'),
 ('Coido'),
@@ -17816,7 +17813,7 @@ VALUES
 ('Coinelius'),
 ('Coiner'),
 ('Coinneach'),
-('Cointe'),
+
 ('Cointepas'),
 ('Cointre'),
 ('Coipel'),
@@ -17923,7 +17920,7 @@ VALUES
 ('Colarte'),
 ('Colarusso'),
 ('Colas'),
-('Colasante'),
+
 ('Colasanto'),
 ('Colastia'),
 ('Colasuonno'),
@@ -18461,7 +18458,7 @@ VALUES
 ('Combarros'),
 ('Combary'),
 ('Combass'),
-('Combattente'),
+
 ('Combee'),
 ('Combel'),
 ('Combellack'),
@@ -19221,7 +19218,7 @@ VALUES
 ('Constantacopoulos'),
 ('Constantantin'),
 ('Constantas'),
-('Constante'),
+
 ('Constantia'),
 ('Constantial'),
 ('Constantian'),
@@ -19292,7 +19289,7 @@ VALUES
 ('Contarin'),
 ('Contarino'),
 ('Contaste'),
-('Conte'),
+
 ('Contea'),
 ('Contee'),
 ('Contel'),
@@ -19302,7 +19299,7 @@ VALUES
 ('Contene'),
 ('Contenson'),
 ('Contenta'),
-('Contente'),
+
 ('Contentin'),
 ('Contentment'),
 ('Contento'),
@@ -19327,7 +19324,7 @@ VALUES
 ('Contiero'),
 ('Contillo'),
 ('Contin'),
-('Continente'),
+
 ('Continenza'),
 ('Contino'),
 ('Contis'),
@@ -20357,7 +20354,7 @@ VALUES
 ('Correna'),
 ('Corrence'),
 ('Correno'),
-('Corrente'),
+
 ('Correo'),
 ('Correra'),
 ('Correro'),
@@ -20585,7 +20582,7 @@ VALUES
 ('Cosen'),
 ('Cosendey'),
 ('Cosens'),
-('Cosente'),
+
 ('Cosentino'),
 ('Cosenza'),
 ('Coser'),
@@ -20754,7 +20751,7 @@ VALUES
 ('Costano'),
 ('Costant'),
 ('Costanta'),
-('Costante'),
+
 ('Costantia'),
 ('Costantin'),
 ('Costantina'),
@@ -21054,7 +21051,6 @@ VALUES
 ('Couffer'),
 ('Cougan'),
 ('Couger'),
-('Cough'),
 ('Coughanour'),
 ('Coughenour'),
 ('Coughlam'),
@@ -21468,7 +21464,7 @@ VALUES
 ('Covino'),
 ('Covitt'),
 ('Covone'),
-('Covonte'),
+
 ('Covotta'),
 ('Covre'),
 ('Covrig'),
@@ -22102,7 +22098,7 @@ VALUES
 ('Crescencie'),
 ('Crescencio'),
 ('Crescens'),
-('Crescente'),
+
 ('Crescentia'),
 ('Crescimanno'),
 ('Crescioli'),
@@ -22325,7 +22321,7 @@ VALUES
 ('Crisan'),
 ('Crisando'),
 ('Crisanta'),
-('Crisante'),
+
 ('Crisanto'),
 ('Crisantos'),
 ('Crisbel'),
@@ -22432,7 +22428,7 @@ VALUES
 ('Cristan'),
 ('Cristana'),
 ('Cristano'),
-('Cristante'),
+
 ('Cristantiello'),
 ('Cristatian'),
 ('Cristau'),

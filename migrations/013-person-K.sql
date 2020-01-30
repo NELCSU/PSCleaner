@@ -2184,7 +2184,7 @@ VALUES
 ('Kalinovskiene'),
 ('Kalinovskyi'),
 ('Kalintas'),
-('Kalinte'),
+
 ('Kaliny'),
 ('Kalinyak'),
 ('Kalinyin'),
@@ -2857,7 +2857,7 @@ VALUES
 ('Kamansing'),
 ('Kamantauskaite'),
 ('Kamantauskiene'),
-('Kamante'),
+
 ('Kamany'),
 ('Kamanya'),
 ('Kamanyire'),
@@ -4172,7 +4172,7 @@ VALUES
 ('Kantauskiene'),
 ('Kantautaite'),
 ('Kantautas'),
-('Kante'),
+
 ('Kantee'),
 ('Kanteper'),
 ('Kanter'),
@@ -5253,7 +5253,7 @@ VALUES
 ('Karema'),
 ('Karemanzira'),
 ('Kareme'),
-('Karemente'),
+
 ('Karemera'),
 ('Karemes'),
 ('Karemire'),
@@ -6254,7 +6254,7 @@ VALUES
 ('Kasduri'),
 ('Kase'),
 ('Kaseba'),
-('Kasebante'),
+
 ('Kasee'),
 ('Kaseem'),
 ('Kaseena'),
@@ -6433,7 +6433,7 @@ VALUES
 ('Kasiama'),
 ('Kasian'),
 ('Kasiban'),
-('Kasibante'),
+
 ('Kasiboina'),
 ('Kasic'),
 ('Kasica'),
@@ -8699,7 +8699,7 @@ VALUES
 ('Keanon'),
 ('Keanosh'),
 ('Keanoush'),
-('Keante'),
+
 ('Keanua'),
 ('Keanue'),
 ('Keanui'),
@@ -10526,7 +10526,7 @@ VALUES
 ('Kentaroh'),
 ('Kentas'),
 ('Kentch'),
-('Kente'),
+
 ('Kentea'),
 ('Kenten'),
 ('Kenter'),
@@ -10614,7 +10614,7 @@ VALUES
 ('Keondrick'),
 ('Keone'),
 ('Keong'),
-('Keonte'),
+
 ('Keopaseuth'),
 ('Keopraseuth'),
 ('Keops'),
@@ -11794,7 +11794,7 @@ VALUES
 ('Kevon'),
 ('Kevonie'),
 ('Kevontae'),
-('Kevonte'),
+
 ('Kevontey'),
 ('Kevork'),
 ('Kevorkian'),
@@ -11910,7 +11910,7 @@ VALUES
 ('Keyon'),
 ('Keyona'),
 ('Keyonnie'),
-('Keyonte'),
+
 ('Keyren'),
 ('Keyrol'),
 ('Keyron'),
@@ -13984,7 +13984,7 @@ VALUES
 ('Kianoosh'),
 ('Kianosh'),
 ('Kianoush'),
-('Kianunte'),
+
 ('Kianus'),
 ('Kiany'),
 ('Kiapot'),
@@ -14347,7 +14347,7 @@ VALUES
 ('Kienzler'),
 ('Kieo'),
 ('Kieody'),
-('Kieonte'),
+
 ('Kiep'),
 ('Kiepas'),
 ('Kiepe'),
@@ -15649,7 +15649,7 @@ VALUES
 ('Kintana'),
 ('Kintanar'),
 ('Kintas'),
-('Kinte'),
+
 ('Kinter'),
 ('Kintesh'),
 ('Kintey'),
@@ -15717,7 +15717,7 @@ VALUES
 ('Kiondo'),
 ('Kiong'),
 ('Kiongo'),
-('Kionte'),
+
 ('Kiora'),
 ('Kiorgaard'),
 ('Kiorona'),
@@ -17922,7 +17922,7 @@ VALUES
 ('Klinsukhon'),
 ('Klint'),
 ('Klinta'),
-('Klinte'),
+
 ('Klintebo'),
 ('Klinthall'),
 ('Klintijo'),
@@ -20559,7 +20559,7 @@ VALUES
 ('Kontautas'),
 ('Kontautiene'),
 ('Kontaxis'),
-('Konte'),
+
 ('Kontelidis'),
 ('Kontemeniotis'),
 ('Kontemukkala'),
@@ -20977,7 +20977,7 @@ VALUES
 ('Korangott'),
 ('Koranit'),
 ('Korankye'),
-('Korante'),
+
 ('Korantem'),
 ('Korantene'),
 ('Koranteng'),
@@ -25916,7 +25916,7 @@ VALUES
 ('Kulvinskiene'),
 ('Kulvits'),
 ('Kulwant'),
-('Kulwante'),
+
 ('Kulwanty'),
 ('Kulwart'),
 ('Kulwin'),
@@ -26408,7 +26408,7 @@ VALUES
 ('Kuntala'),
 ('Kuntarakornkiti'),
 ('Kuntas'),
-('Kunte'),
+
 ('Kunter'),
 ('Kuntesh'),
 ('Kuntey'),
@@ -27271,7 +27271,7 @@ VALUES
 ('Kutenda'),
 ('Kutende'),
 ('Kutenha'),
-('Kutente'),
+
 ('Kuter'),
 ('Kutera'),
 ('Kutere'),
@@ -27897,7 +27897,7 @@ VALUES
 ('Kyanda'),
 ('Kyando'),
 ('Kyanoosh'),
-('Kyante'),
+
 ('Kyarn'),
 ('Kyarna'),
 ('Kyaron'),
