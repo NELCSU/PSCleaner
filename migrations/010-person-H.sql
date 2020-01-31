@@ -13674,7 +13674,6 @@ VALUES
 ('Holstine'),
 ('Holston'),
 ('Holsworth'),
-('Holt'),
 ('Holtak'),
 ('Holtan'),
 ('Holtar'),

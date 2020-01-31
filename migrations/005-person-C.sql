@@ -17172,7 +17172,6 @@ VALUES
 ('Cluley'),
 ('Clulow'),
 ('Clum'),
-('Clump'),
 ('Clumpner'),
 ('Clunas'),
 ('Clune'),
