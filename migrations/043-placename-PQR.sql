@@ -29362,7 +29362,7 @@ VALUES
 ('Rie Achan'),
 ('Rie Meikle'),
 ('Riec Sur Belon'),
-('Riecawr Avenue'),
+('Riecawr'),
 ('Riefield'),
 ('Riefield Hanger'),
 ('Riefield Road'),
