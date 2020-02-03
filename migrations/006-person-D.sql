@@ -409,7 +409,6 @@ VALUES
 ('Daeve'),
 ('Daevid'),
 ('Daevon'),
-
 ('Daewha'),
 ('Daewon'),
 ('Daezhane'),
@@ -471,7 +470,6 @@ VALUES
 ('Dafodil'),
 ('Dafoe'),
 ('Dafonseca'),
-
 ('Dafos'),
 ('Daft'),
 ('Daftary'),
@@ -1260,7 +1258,6 @@ VALUES
 ('Dalilo'),
 ('Dalimer'),
 ('Dalimil'),
-
 ('Dalin'),
 ('Dalina'),
 ('Dalinda'),
@@ -1401,7 +1398,6 @@ VALUES
 ('Dalmolin'),
 ('Dalmon'),
 ('Dalmonego'),
-
 ('Dalnei'),
 ('Dalnirys'),
 ('Dalo'),
@@ -1424,7 +1420,6 @@ VALUES
 ('Dalphonse'),
 ('Dalphrase'),
 ('Dalpont'),
-
 ('Dalporto'),
 ('Dalpra'),
 ('Dalpreet'),
@@ -1529,7 +1524,6 @@ VALUES
 ('Damanskiene'),
 ('Damanskyte'),
 ('Damant'),
-
 ('Damantee'),
 ('Damantha'),
 ('Damanvala'),
@@ -1812,7 +1806,6 @@ VALUES
 ('Damond'),
 ('Damone'),
 ('Damons'),
-
 ('Damoon'),
 ('Damora'),
 ('Damore'),
@@ -2514,7 +2507,6 @@ VALUES
 ('Dantas'),
 ('Dantata'),
 ('Dantay'),
-
 ('Dantei'),
 ('Dantel'),
 ('Danter'),
@@ -2624,7 +2616,6 @@ VALUES
 ('Danyyila'),
 ('Danza'),
 ('Danzalan'),
-
 ('Danzebrink'),
 ('Danzeisen'),
 ('Danzer'),
@@ -2714,7 +2705,6 @@ VALUES
 ('Dapoigny'),
 ('Dapolito'),
 ('Dapollonio'),
-
 ('Dapore'),
 ('Dapoto'),
 ('Dapoz'),
@@ -2738,7 +2728,6 @@ VALUES
 ('Dapvaala'),
 ('Daquand'),
 ('Daquila'),
-
 ('Daquin'),
 ('Daquino'),
 ('Daquip'),
@@ -2783,7 +2772,6 @@ VALUES
 ('Daranijo'),
 ('Daranjo'),
 ('Daranno'),
-
 ('Daraobong'),
 ('Darapen'),
 ('Darapon'),
@@ -3158,7 +3146,6 @@ VALUES
 ('Darnly'),
 ('Darnold'),
 ('Darntae'),
-
 ('Darnton'),
 ('Darnyl'),
 ('Darnyll'),
@@ -3441,7 +3428,6 @@ VALUES
 ('Dashanea'),
 ('Dashanel'),
 ('Dashanney'),
-
 ('Dasharat'),
 ('Dasharath'),
 ('Dasharathe'),
@@ -3535,7 +3521,6 @@ VALUES
 ('Dasousa'),
 ('Daspit'),
 ('Daspre'),
-
 ('Dasqupta'),
 ('Dasruth'),
 ('Dass'),
@@ -3848,7 +3833,6 @@ VALUES
 ('Daultrey'),
 ('Dauman'),
 ('Daumantas'),
-
 ('Daumants'),
 ('Daumas'),
 ('Daume'),
@@ -3988,7 +3972,6 @@ VALUES
 ('Davanso'),
 ('Davant'),
 ('Davanta'),
-
 ('Davany'),
 ('Davanyell'),
 ('Davar'),
@@ -4189,7 +4172,6 @@ VALUES
 ('Davong'),
 ('Davontae'),
 ('Davontay'),
-
 ('Davony'),
 ('Davood'),
 ('Davoodian'),
@@ -4199,7 +4181,6 @@ VALUES
 ('Davos'),
 ('Davost'),
 ('Davoud'),
-
 ('Davour'),
 ('Davoust'),
 ('Davout'),
@@ -4395,7 +4376,6 @@ VALUES
 ('Dayanikli'),
 ('Dayanithi'),
 ('Dayanithy'),
-
 ('Dayantha'),
 ('Dayanthi'),
 ('Dayantis'),
@@ -4557,7 +4537,6 @@ VALUES
 ('Ddniguer'),
 ('Dduma'),
 ('Ddungu'),
-('De'),
 ('Dea'),
 ('Deabenderfer'),
 ('Deabill'),
@@ -4648,13 +4627,11 @@ VALUES
 ('Deankean'),
 ('Deannia'),
 ('Deannie'),
-
 ('Deano'),
 ('Deanos'),
 ('Deans'),
 ('Deansdale'),
 ('Deansen'),
-
 ('Deantonio'),
 ('Deanus'),
 ('Deany'),
@@ -5018,7 +4995,6 @@ VALUES
 ('Debrei'),
 ('Debreli'),
 ('Debrelzeny'),
-
 ('Debreto'),
 ('Debretsen'),
 ('Debretsion'),
@@ -5229,7 +5205,6 @@ VALUES
 ('Declay'),
 ('Decle'),
 ('Decleene'),
-
 ('Declen'),
 ('Declerck'),
 ('Declercq'),
@@ -5464,7 +5439,6 @@ VALUES
 ('Deemer'),
 ('Deeming'),
 ('Deemos'),
-('Deems'),
 ('Deemter'),
 ('Deen'),
 ('Deena'),
@@ -5654,7 +5628,6 @@ VALUES
 ('Defloor'),
 ('Deflora'),
 ('Deflores'),
-
 ('Deflorio'),
 ('Defne'),
 ('Defoe'),
@@ -5741,7 +5714,6 @@ VALUES
 ('Degang'),
 ('Degannes'),
 ('Degano'),
-
 ('Degarcia'),
 ('Degard'),
 ('Degaris'),
@@ -6088,7 +6060,6 @@ VALUES
 ('Deily'),
 ('Deima'),
 ('Deimantas'),
-
 ('Deimar'),
 ('Deimas'),
 ('Deimat'),
@@ -6214,7 +6185,6 @@ VALUES
 ('Dejanea'),
 ('Dejaneria'),
 ('Dejanira'),
-
 ('Dejarden'),
 ('Dejardin'),
 ('Dejarlais'),
@@ -6234,7 +6204,6 @@ VALUES
 ('Dejdar'),
 ('Dejean'),
 ('Dejeant'),
-
 ('Dejenai'),
 ('Dejenay'),
 ('Dejene'),
@@ -6260,7 +6229,6 @@ VALUES
 ('Dejongh'),
 ('Dejonghe'),
 ('Dejonie'),
-
 ('Dejonwo'),
 ('Dejoode'),
 ('Dejordy'),
@@ -6401,7 +6369,6 @@ VALUES
 ('Delafosse'),
 ('Delafrose'),
 ('Delafroz'),
-
 ('Delagado'),
 ('Delagarde'),
 ('Delage'),
@@ -6488,7 +6455,6 @@ VALUES
 ('Delanoval'),
 ('Delanoy'),
 ('Delanta'),
-
 ('Delantis'),
 ('Delantonis'),
 ('Delanty'),
@@ -6501,7 +6467,6 @@ VALUES
 ('Delapena'),
 ('Delapenha'),
 ('Delaperriere'),
-
 ('Delapicula'),
 ('Delapierre'),
 ('Delaplain'),
@@ -6512,7 +6477,6 @@ VALUES
 ('Delaporte'),
 ('Delaportilla'),
 ('Delappe'),
-
 ('Delar'),
 ('Delaram'),
 ('Delarama'),
@@ -6587,7 +6551,6 @@ VALUES
 ('Delaval'),
 ('Delavan'),
 ('Delavano'),
-
 ('Delavar'),
 ('Delavary'),
 ('Delavega'),
@@ -6669,7 +6632,6 @@ VALUES
 ('Delcio'),
 ('Delclos'),
 ('Delcollo'),
-
 ('Delcora'),
 ('Delcorde'),
 ('Delcore'),
@@ -6810,7 +6772,6 @@ VALUES
 ('Delfrate'),
 ('Delfs'),
 ('Delft'),
-
 ('Delgadillo'),
 ('Delgadilo'),
 ('Delgado'),
@@ -7128,7 +7089,6 @@ VALUES
 ('Delmondes'),
 ('Delmonego'),
 ('Delmont'),
-
 ('Delmor'),
 ('Delmoral'),
 ('Delmore'),
@@ -7175,7 +7135,6 @@ VALUES
 ('Delongis'),
 ('Delonglee'),
 ('Delonor'),
-
 ('Delony'),
 ('Deloof'),
 ('Delooze'),
@@ -7269,7 +7228,6 @@ VALUES
 ('Delplanque'),
 ('Delpleche'),
 ('Delpont'),
-
 ('Delport'),
 ('Delporte'),
 ('Delporto'),
@@ -7317,7 +7275,6 @@ VALUES
 ('Delroy'),
 ('Delrue'),
 ('Delrusso'),
-
 ('Delsanto'),
 ('Delsart'),
 ('Delsaut'),
@@ -7393,7 +7350,6 @@ VALUES
 ('Delvene'),
 ('Delventhal'),
 ('Delver'),
-('Delves'),
 ('Delvetia'),
 ('Delvidas'),
 ('Delvie'),
@@ -7844,7 +7800,6 @@ VALUES
 ('Demonpion'),
 ('Demont'),
 ('Demontagnac'),
-
 ('Demontfort'),
 ('Demontigny'),
 ('Demontis'),
@@ -8398,12 +8353,10 @@ VALUES
 ('Densum'),
 ('Densun'),
 ('Densyle'),
-('Dent'),
 ('Dentaa'),
 ('Dentali'),
 ('Dentampol'),
 ('Dentas'),
-
 ('Dentel'),
 ('Denten'),
 ('Denter'),
@@ -8534,7 +8487,6 @@ VALUES
 ('Deonnie'),
 ('Deontae'),
 ('Deontay'),
-
 ('Deontroy'),
 ('Deor'),
 ('Deora'),
@@ -8656,7 +8608,6 @@ VALUES
 ('Depolito'),
 ('Deponge'),
 ('Depont'),
-
 ('Depoorter'),
 ('Depoortere'),
 ('Deporter'),
@@ -8972,7 +8923,6 @@ VALUES
 ('Dermaine'),
 ('Derman'),
 ('Dermane'),
-
 ('Dermar'),
 ('Dermat'),
 ('Dermaut'),
@@ -8993,7 +8943,6 @@ VALUES
 ('Dermond'),
 ('Dermondy'),
 ('Dermont'),
-
 ('Dermontt'),
 ('Dermoth'),
 ('Dermott'),
@@ -9258,7 +9207,6 @@ VALUES
 ('Desanghere'),
 ('Desanlis'),
 ('Desano'),
-
 ('Desantiago'),
 ('Desantigo'),
 ('Desantila'),
@@ -9423,7 +9371,6 @@ VALUES
 ('Deshano'),
 ('Deshant'),
 ('Deshantae'),
-
 ('Deshanth'),
 ('Deshapande'),
 ('Desharn'),
@@ -9431,7 +9378,6 @@ VALUES
 ('Desharnais'),
 ('Desharne'),
 ('Deshaune'),
-
 ('Deshaut'),
 ('Deshaw'),
 ('Deshawn'),
@@ -9476,7 +9422,6 @@ VALUES
 ('Desian'),
 ('Desiana'),
 ('Desiano'),
-
 ('Desiata'),
 ('Desideria'),
 ('Desiderio'),
@@ -9825,7 +9770,6 @@ VALUES
 ('Detaeye'),
 ('Detamble'),
 ('Detamore'),
-
 ('Detar'),
 ('Detassis'),
 ('Detavernier'),
@@ -10082,7 +10026,6 @@ VALUES
 ('Devanshukumar'),
 ('Devanta'),
 ('Devantae'),
-
 ('Devantier'),
 ('Devantoy'),
 ('Devany'),
@@ -10139,7 +10082,6 @@ VALUES
 ('Devaul'),
 ('Devault'),
 ('Devauntae'),
-
 ('Devavrata'),
 ('Devawn'),
 ('Devayalage'),
@@ -10255,11 +10197,9 @@ VALUES
 ('Devian'),
 ('Deviana'),
 ('Devianee'),
-
 ('Deviata'),
 ('Deviatovaite'),
 ('Devica'),
-
 ('Devichand'),
 ('Devicia'),
 ('Devick'),
@@ -10393,7 +10333,6 @@ VALUES
 ('Devonta'),
 ('Devontae'),
 ('Devontay'),
-
 ('Devontea'),
 ('Devontey'),
 ('Devontie'),
@@ -10694,7 +10633,6 @@ VALUES
 ('Deyondo'),
 ('Deyong'),
 ('Deyonker'),
-
 ('Deyoung'),
 ('Deyounto'),
 ('Deyran'),
@@ -11639,7 +11577,6 @@ VALUES
 ('Diamant'),
 ('Diamanta'),
 ('Diamantatos'),
-
 ('Diamantidis'),
 ('Diamantin'),
 ('Diamantina'),
@@ -11673,7 +11610,6 @@ VALUES
 ('Diamondali'),
 ('Diamonique'),
 ('Diamontay'),
-
 ('Diamora'),
 ('Diamuangana'),
 ('Diamyama'),
@@ -11724,7 +11660,6 @@ VALUES
 ('Diansila'),
 ('Diantae'),
 ('Diantala'),
-
 ('Diantela'),
 ('Diantha'),
 ('Diantia'),
@@ -11967,7 +11902,6 @@ VALUES
 ('Dicla'),
 ('Diclaudio'),
 ('Dicle'),
-
 ('Dicob'),
 ('Dicochea'),
 ('Dicoias'),
@@ -12194,7 +12128,6 @@ VALUES
 ('Dieman'),
 ('Diemand'),
 ('Diemantaite'),
-
 ('Diemar'),
 ('Dieme'),
 ('Diemel'),
@@ -12232,7 +12165,6 @@ VALUES
 ('Dienyami'),
 ('Dienye'),
 ('Dieo'),
-
 ('Dieophanit'),
 ('Diep'),
 ('Diepenbrock'),
@@ -12277,7 +12209,6 @@ VALUES
 ('Dierstein'),
 ('Dies'),
 ('Diese'),
-('Diesel'),
 ('Diesen'),
 ('Dieser'),
 ('Dieshod'),
@@ -12362,7 +12293,6 @@ VALUES
 ('Dieye'),
 ('Diez'),
 ('Difan'),
-
 ('Difatta'),
 ('Dife'),
 ('Difebo'),
@@ -13021,7 +12951,6 @@ VALUES
 ('Dimanochie'),
 ('Dimansteina'),
 ('Dimant'),
-
 ('Dimanthi'),
 ('Dimanuel'),
 ('Dimapilis'),
@@ -13217,7 +13146,6 @@ VALUES
 ('Dimoniene'),
 ('Dimonique'),
 ('Dimont'),
-
 ('Dimopoulos'),
 ('Dimora'),
 ('Dimos'),
@@ -13573,13 +13501,11 @@ VALUES
 ('Dintakurthi'),
 ('Dintakurti'),
 ('Dintaman'),
-
 ('Dintelman'),
 ('Dinter'),
 ('Dinterman'),
 ('Dintie'),
 ('Dintino'),
-
 ('Dintle'),
 ('Dinto'),
 ('Dinttufail'),
@@ -13696,12 +13622,10 @@ VALUES
 ('Dionissia'),
 ('Dionissios'),
 ('Dionissis'),
-
 ('Dionora'),
 ('Dionso'),
 ('Diontae'),
 ('Diontay'),
-
 ('Diontre'),
 ('Dionusios'),
 ('Dionys'),
@@ -14080,7 +14004,6 @@ VALUES
 ('Disanayake'),
 ('Disano'),
 ('Disant'),
-
 ('Disantis'),
 ('Disanto'),
 ('Disanza'),
@@ -14482,7 +14405,6 @@ VALUES
 ('Divonia'),
 ('Divonin'),
 ('Divontay'),
-
 ('Divontry'),
 ('Divor'),
 ('Divora'),
@@ -15033,7 +14955,6 @@ VALUES
 ('Dmitruk'),
 ('Dmitry'),
 ('Dmitryevna'),
-
 ('Dmonty'),
 ('Dmorias'),
 ('Dmowunmi'),
@@ -15065,7 +14986,6 @@ VALUES
 ('Doan'),
 ('Doandes'),
 ('Doane'),
-
 ('Doar'),
 ('Doaries'),
 ('Doarks'),
@@ -15197,7 +15117,6 @@ VALUES
 ('Dobromira'),
 ('Dobromis'),
 ('Dobron'),
-
 ('Dobros'),
 ('Dobroschke'),
 ('Dobrosi'),
@@ -15663,7 +15582,6 @@ VALUES
 ('Dolen'),
 ('Dolence'),
 ('Dolene'),
-
 ('Doler'),
 ('Doleres'),
 ('Doleros'),
@@ -15709,7 +15627,6 @@ VALUES
 ('Dolida'),
 ('Dolidon'),
 ('Dolieba'),
-
 ('Dolier'),
 ('Dolimpio'),
 ('Dolin'),
@@ -15748,7 +15665,6 @@ VALUES
 ('Dollemore'),
 ('Dollen'),
 ('Dollens'),
-
 ('Doller'),
 ('Dolleris'),
 ('Dollero'),
@@ -15879,7 +15795,6 @@ VALUES
 ('Domanskyte'),
 ('Domantas'),
 ('Domantay'),
-
 ('Domany'),
 ('Domarie'),
 ('Domaris'),
@@ -16049,7 +15964,6 @@ VALUES
 ('Dominovez'),
 ('Dominque'),
 ('Dominson'),
-
 ('Dominucil'),
 ('Dominuque'),
 ('Dominus'),
@@ -16196,7 +16110,6 @@ VALUES
 ('Donals'),
 ('Donalson'),
 ('Donandela'),
-
 ('Donaque'),
 ('Donar'),
 ('Donard'),
@@ -16592,7 +16505,6 @@ VALUES
 ('Dontae'),
 ('Dontas'),
 ('Dontay'),
-
 ('Dontel'),
 ('Dontell'),
 ('Donten'),
@@ -16799,7 +16711,6 @@ VALUES
 ('Doranikheil'),
 ('Dorans'),
 ('Dorant'),
-
 ('Dorantes'),
 ('Dorare'),
 ('Dorart'),
@@ -18972,7 +18883,6 @@ VALUES
 ('Dsehila'),
 ('Dsenisi'),
 ('Dshaughnessy'),
-
 ('Dsmond'),
 ('Dsniel'),
 ('Dsoina'),
@@ -19012,7 +18922,6 @@ VALUES
 ('Duangtida'),
 ('Duangwongsri'),
 ('Duanjinyu'),
-
 ('Duany'),
 ('Duanyang'),
 ('Duapen'),
@@ -19912,7 +19821,6 @@ VALUES
 ('Dulkoan'),
 ('Dulks'),
 ('Dulkyte'),
-('Dull'),
 ('Dulla'),
 ('Dullabhdas'),
 ('Dullaert'),
@@ -20534,7 +20442,6 @@ VALUES
 ('Dupon'),
 ('Dupond'),
 ('Dupont'),
-
 ('Duporge'),
 ('Duport'),
 ('Duporte'),
@@ -20619,7 +20526,6 @@ VALUES
 ('Duranso'),
 ('Duranszkai'),
 ('Durant'),
-
 ('Durantes'),
 ('Duranthon'),
 ('Duranton'),
@@ -20629,7 +20535,6 @@ VALUES
 ('Duras'),
 ('Durasamy'),
 ('Durassie'),
-
 ('Durate'),
 ('Duraturo'),
 ('Duraud'),
@@ -20868,7 +20773,6 @@ VALUES
 ('Durrane'),
 ('Durrans'),
 ('Durrant'),
-
 ('Durrat'),
 ('Durray'),
 ('Durre'),
@@ -21156,7 +21060,6 @@ VALUES
 ('Duvancic'),
 ('Duvane'),
 ('Duvaniel'),
-
 ('Duvaragan'),
 ('Duvarney'),
 ('Duve'),
@@ -21246,7 +21149,6 @@ VALUES
 ('Dva'),
 ('Dval'),
 ('Dvali'),
-
 ('Dvany'),
 ('Dvareckaite'),
 ('Dvareckiene'),

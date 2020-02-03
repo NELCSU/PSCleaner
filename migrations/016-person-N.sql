@@ -1559,7 +1559,6 @@ VALUES
 ('Najfai'),
 ('Najgebauer'),
 ('Najgibaver'),
-
 ('Najhat'),
 ('Najian'),
 ('Najibe'),
@@ -2612,7 +2611,6 @@ VALUES
 ('Nantaporn'),
 ('Nantau'),
 ('Nantchouang'),
-
 ('Nantee'),
 ('Nantege'),
 ('Nantel'),
@@ -3699,7 +3697,6 @@ VALUES
 ('Nasomar'),
 ('Nason'),
 ('Nasonovs'),
-
 ('Nasor'),
 ('Nasoran'),
 ('Nasoud'),
@@ -6398,7 +6395,6 @@ VALUES
 ('Negreira'),
 ('Negreiros'),
 ('Negrell'),
-
 ('Negrepontis'),
 ('Negreros'),
 ('Negreta'),
@@ -7080,7 +7076,6 @@ VALUES
 ('Nensi'),
 ('Nenssy'),
 ('Nenstiel'),
-
 ('Nento'),
 ('Nentwig'),
 ('Nenu'),
@@ -8131,7 +8126,6 @@ VALUES
 ('Newmond'),
 ('Newmyer'),
 ('Newnes'),
-('Newness'),
 ('Newns'),
 ('Newnum'),
 ('Newoor'),
@@ -8352,7 +8346,6 @@ VALUES
 ('Ngamaha'),
 ('Ngamakuli'),
 ('Ngamali'),
-
 ('Ngamatele'),
 ('Ngambula'),
 ('Ngamchard'),
@@ -9843,7 +9836,6 @@ VALUES
 ('Niida'),
 ('Niifio'),
 ('Niikoi'),
-
 ('Niilaryea'),
 ('Niilas'),
 ('Niilo'),
@@ -10210,7 +10202,6 @@ VALUES
 ('Niland'),
 ('Nilangi'),
 ('Nilanjana'),
-
 ('Nilantha'),
 ('Nilanthi'),
 ('Nilanthiny'),
@@ -10581,7 +10572,6 @@ VALUES
 ('Ninson'),
 ('Ninsuriyakorn'),
 ('Nintcheu'),
-
 ('Nintsemon'),
 ('Ninu'),
 ('Ninuccia'),
@@ -11904,7 +11894,6 @@ VALUES
 ('Noccioli'),
 ('Nocella'),
 ('Nocent'),
-
 ('Nocera'),
 ('Nocerino'),
 ('Nocero'),
@@ -12381,7 +12370,6 @@ VALUES
 ('Nonata'),
 ('Nonceba'),
 ('Noncel'),
-
 ('Nondal'),
 ('Nonde'),
 ('Nondiney'),
@@ -12716,7 +12704,6 @@ VALUES
 ('Noran'),
 ('Noraney'),
 ('Noranisa'),
-
 ('Noras'),
 ('Norashahera'),
 ('Norashiqin'),
@@ -13011,7 +12998,6 @@ VALUES
 ('Normanshally'),
 ('Normantaite'),
 ('Normantas'),
-
 ('Normantiene'),
 ('Normanton'),
 ('Normany'),
@@ -14095,7 +14081,6 @@ VALUES
 ('Ntenis'),
 ('Ntenisa'),
 ('Nteno'),
-
 ('Ntentes'),
 ('Nteonarnt'),
 ('Ntesa'),
@@ -14469,7 +14454,6 @@ VALUES
 ('Numalovas'),
 ('Numamoto'),
 ('Numan'),
-
 ('Numanur'),
 ('Numanvoic'),
 ('Numanzade'),
@@ -14599,7 +14583,6 @@ VALUES
 ('Nunwick'),
 ('Nunya'),
 ('Nunzella'),
-
 ('Nunziata'),
 ('Nunziatina'),
 ('Nunziatino'),
@@ -15616,7 +15599,6 @@ VALUES
 ('Nyantaky'),
 ('Nyantakyei'),
 ('Nyantakyi'),
-
 ('Nyantei'),
 ('Nyantekyi'),
 ('Nyanteng'),

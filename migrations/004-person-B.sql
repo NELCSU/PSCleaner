@@ -167,7 +167,6 @@ VALUES
 ('Babatunda'),
 ('Babatunde'),
 ('Babatunle'),
-
 ('Babatupe'),
 ('Babaturde'),
 ('Babawale'),
@@ -603,8 +602,6 @@ VALUES
 ('Backen'),
 ('Backensto'),
 ('Backenstose'),
-('Backer'),
-('Backers'),
 ('Backert'),
 ('Backes'),
 ('Backey'),
@@ -686,7 +683,6 @@ VALUES
 ('Badaines'),
 ('Badal'),
 ('Badalage'),
-
 ('Badalan'),
 ('Badalge'),
 ('Badali'),
@@ -1647,7 +1643,6 @@ VALUES
 ('Bahya'),
 ('Bai'),
 ('Baiad'),
-
 ('Baian'),
 ('Baiano'),
 ('Baiardi'),
@@ -3105,7 +3100,6 @@ VALUES
 ('Balmain'),
 ('Balman'),
 ('Balmane'),
-
 ('Balmas'),
 ('Balmat'),
 ('Balmater'),
@@ -3526,7 +3520,6 @@ VALUES
 ('Bamokande'),
 ('Bamolona'),
 ('Bamonadio'),
-
 ('Bamotra'),
 ('Bamoussa'),
 ('Bamp'),
@@ -3729,7 +3722,6 @@ VALUES
 ('Bandtock'),
 ('Bandu'),
 ('Bandukda'),
-
 ('Bandukwala'),
 ('Bandula'),
 ('Bandulin'),
@@ -6001,7 +5993,6 @@ VALUES
 ('Basanio'),
 ('Basant'),
 ('Basanta'),
-
 ('Basantes'),
 ('Basanth'),
 ('Basantina'),
@@ -7641,7 +7632,6 @@ VALUES
 ('Bayramdurdiyev'),
 ('Bayrami'),
 ('Bayran'),
-
 ('Bayrd'),
 ('Bayri'),
 ('Bayrie'),
@@ -8122,7 +8112,6 @@ VALUES
 ('Beaumier'),
 ('Beaumond'),
 ('Beaumont'),
-
 ('Beaumouth'),
 ('Beaune'),
 ('Beauparlant'),
@@ -8724,7 +8713,6 @@ VALUES
 ('Beenish'),
 ('Beenken'),
 ('Beenstock'),
-
 ('Beenu'),
 ('Beeny'),
 ('Beenyameen'),
@@ -9231,7 +9219,6 @@ VALUES
 ('Beira'),
 ('Beiraghdar'),
 ('Beirakdar'),
-
 ('Beircheart'),
 ('Beird'),
 ('Beireis'),
@@ -9449,7 +9436,6 @@ VALUES
 ('Belade'),
 ('Belader'),
 ('Beladona'),
-
 ('Belagode'),
 ('Belahcen'),
 ('Belahnech'),
@@ -9759,7 +9745,6 @@ VALUES
 ('Belindanana'),
 ('Belinde'),
 ('Belinder'),
-
 ('Beling'),
 ('Belingar'),
 ('Belingard'),
@@ -9837,8 +9822,6 @@ VALUES
 ('Belladira'),
 ('Bellaera'),
 ('Bellafiore'),
-
-
 ('Bellaha'),
 ('Bellahcene'),
 ('Bellahouel'),
@@ -9862,14 +9845,12 @@ VALUES
 ('Bellance'),
 ('Belland'),
 ('Bellando'),
-
 ('Bellange'),
 ('Bellanger'),
 ('Bellanid'),
 ('Bellanire'),
 ('Bellano'),
 ('Bellant'),
-
 ('Bellantone'),
 ('Bellantonio'),
 ('Bellany'),
@@ -9908,7 +9889,6 @@ VALUES
 ('Bellefleur'),
 ('Bellefontain'),
 ('Bellefontaine'),
-
 ('Bellegarde'),
 ('Bellego'),
 ('Belleguic'),
@@ -9980,7 +9960,6 @@ VALUES
 ('Bellinda'),
 ('Bellinder'),
 ('Bellinello'),
-
 ('Belling'),
 ('Bellingar'),
 ('Bellinger'),
@@ -10096,7 +10075,6 @@ VALUES
 ('Belmond'),
 ('Belmondo'),
 ('Belmont'),
-
 ('Belmontes'),
 ('Belmore'),
 ('Belmoudem'),
@@ -10435,7 +10413,6 @@ VALUES
 ('Benattig'),
 ('Benauides'),
 ('Benavent'),
-
 ('Benavides'),
 ('Benavoli'),
 ('Benay'),
@@ -10755,7 +10732,6 @@ VALUES
 ('Beneze'),
 ('Benfadel'),
 ('Benfadoul'),
-
 ('Benfaremo'),
 ('Benfares'),
 ('Benfatto'),
@@ -11353,7 +11329,6 @@ VALUES
 ('Bentayeb'),
 ('Bentch'),
 ('Bentchakal'),
-
 ('Bentea'),
 ('Bentebiche'),
 ('Bentel'),
@@ -11751,7 +11726,6 @@ VALUES
 ('Berensu'),
 ('Berent'),
 ('Berentan'),
-
 ('Berentes'),
 ('Berents'),
 ('Berentsen'),
@@ -12633,7 +12607,6 @@ VALUES
 ('Bertan'),
 ('Bertana'),
 ('Bertand'),
-
 ('Bertany'),
 ('Bertanza'),
 ('Bertasiene'),
@@ -13042,7 +13015,6 @@ VALUES
 ('Bessame'),
 ('Bessan'),
 ('Bessant'),
-
 ('Bessaoud'),
 ('Bessard'),
 ('Bessas'),
@@ -13730,7 +13702,6 @@ VALUES
 ('Beyonce'),
 ('Beyonces'),
 ('Beyone'),
-
 ('Beyor'),
 ('Beyounce'),
 ('Beyrand'),
@@ -13930,7 +13901,6 @@ VALUES
 ('Bhagwandeen'),
 ('Bhagwandin'),
 ('Bhagwant'),
-
 ('Bhagwantee'),
 ('Bhagwantie'),
 ('Bhagwatee'),
@@ -14653,7 +14623,6 @@ VALUES
 ('Bialylew'),
 ('Biama'),
 ('Biami'),
-
 ('Bian'),
 ('Biana'),
 ('Biancajade'),
@@ -15366,7 +15335,6 @@ VALUES
 ('Bignall'),
 ('Bignami'),
 ('Bignand'),
-
 ('Bignardi'),
 ('Bignell'),
 ('Bigner'),
@@ -15720,7 +15688,6 @@ VALUES
 ('Billam'),
 ('Billandel'),
 ('Billaney'),
-
 ('Billany'),
 ('Billard'),
 ('Billas'),
@@ -15958,7 +15925,6 @@ VALUES
 ('Bimo'),
 ('Bimola'),
 ('Bimont'),
-
 ('Bimpas'),
 ('Bimpeh'),
 ('Bimpel'),
@@ -16291,7 +16257,6 @@ VALUES
 ('Bintas'),
 ('Bintay'),
 ('Bintcliffe'),
-
 ('Bintee'),
 ('Binter'),
 ('Binteriana'),
@@ -17207,7 +17172,6 @@ VALUES
 ('Bitondo'),
 ('Bitong'),
 ('Bitonio'),
-
 ('Bitoo'),
 ('Bitossi'),
 ('Bitoula'),
@@ -17226,7 +17190,6 @@ VALUES
 ('Bitta'),
 ('Bittam'),
 ('Bittan'),
-
 ('Bittar'),
 ('Bitte'),
 ('Bittel'),
@@ -17527,7 +17490,6 @@ VALUES
 ('Blachut'),
 ('Blacid'),
 ('Blacio'),
-('Black'),
 ('Blackabee'),
 ('Blackadar'),
 ('Blackadder'),
@@ -17795,7 +17757,6 @@ VALUES
 ('Blanckensee'),
 ('Blanco'),
 ('Blancowe'),
-('Bland'),
 ('Blanda'),
 ('Blandamer'),
 ('Blandano'),
@@ -18865,7 +18826,6 @@ VALUES
 ('Bobala'),
 ('Boban'),
 ('Bobana'),
-
 ('Bobanza'),
 ('Bobar'),
 ('Bobard'),
@@ -19391,7 +19351,6 @@ VALUES
 ('Boenker'),
 ('Boens'),
 ('Boentario'),
-
 ('Boepple'),
 ('Boer'),
 ('Boera'),
@@ -20117,7 +20076,6 @@ VALUES
 ('Bolanos'),
 ('Bolansi'),
 ('Bolant'),
-
 ('Bolaolutito'),
 ('Bolaoluwatito'),
 ('Bolape'),
@@ -20628,7 +20586,6 @@ VALUES
 ('Bonafede'),
 ('Bonafide'),
 ('Bonafont'),
-
 ('Bonagurio'),
 ('Bonaguro'),
 ('Bonahis'),
@@ -20799,7 +20756,6 @@ VALUES
 ('Boney'),
 ('Boneysteele'),
 ('Bonfa'),
-
 ('Bonfatto'),
 ('Bonfert'),
 ('Bonfield'),
@@ -20914,7 +20870,6 @@ VALUES
 ('Bonina'),
 ('Bonincontro'),
 ('Bonine'),
-
 ('Boning'),
 ('Bonington'),
 ('Bonino'),
@@ -21077,7 +21032,6 @@ VALUES
 ('Bonta'),
 ('Bontacchio'),
 ('Bontas'),
-
 ('Bontea'),
 ('Bontein'),
 ('Bontempi'),
@@ -21229,7 +21183,6 @@ VALUES
 ('Boomhower'),
 ('Booms'),
 ('Boomsma'),
-('Boon'),
 ('Boonchanasukit'),
 ('Boonchanit'),
 ('Boonchuduang'),
@@ -21840,8 +21793,6 @@ VALUES
 ('Borotiranite'),
 ('Borotoulas'),
 ('Borouch'),
-('Borough'),
-('Boroughs'),
 ('Borouhhin'),
 ('Borouhhina'),
 ('Boroujerdi'),
@@ -22260,7 +22211,6 @@ VALUES
 ('Bossy'),
 ('Bost'),
 ('Bostain'),
-
 ('Bostan'),
 ('Bostanbas'),
 ('Bostanci'),
@@ -23911,7 +23861,6 @@ VALUES
 ('Boychuck'),
 ('Boychuk'),
 ('Boycie'),
-('Boycott'),
 ('Boydboland'),
 ('Boyde'),
 ('Boydell'),
@@ -24108,10 +24057,7 @@ VALUES
 ('Bracaglia'),
 ('Bracaite'),
 ('Bracaitis'),
-
 ('Bracale'),
-
-
 ('Bracamontes'),
 ('Bracard'),
 ('Bracarense'),
@@ -24303,7 +24249,6 @@ VALUES
 ('Bragaglia'),
 ('Bragalone'),
 ('Bragan'),
-
 ('Braganza'),
 ('Bragard'),
 ('Bragas'),
@@ -24500,7 +24445,6 @@ VALUES
 ('Bramanandam'),
 ('Bramane'),
 ('Bramanis'),
-
 ('Brambell'),
 ('Brambila'),
 ('Brambilla'),
@@ -24777,7 +24721,6 @@ VALUES
 ('Branstutter'),
 ('Brant'),
 ('Branta'),
-
 ('Branter'),
 ('Brantevica'),
 ('Branthoover'),
@@ -25355,7 +25298,6 @@ VALUES
 ('Brega'),
 ('Bregala'),
 ('Bregan'),
-
 ('Breganza'),
 ('Bregar'),
 ('Brege'),
@@ -25922,7 +25864,6 @@ VALUES
 ('Briano'),
 ('Brians'),
 ('Briant'),
-
 ('Brianunyte'),
 ('Brianwood'),
 ('Briany'),
@@ -26149,7 +26090,6 @@ VALUES
 ('Brigaityte'),
 ('Brigance'),
 ('Brigand'),
-
 ('Brigantina'),
 ('Brigantino'),
 ('Brigas'),
@@ -26306,7 +26246,6 @@ VALUES
 ('Brilen'),
 ('Briles'),
 ('Briley'),
-
 ('Brilhart'),
 ('Brilia'),
 ('Briliant'),
@@ -26320,7 +26259,6 @@ VALUES
 ('Brill'),
 ('Brilla'),
 ('Brillant'),
-
 ('Brillantes'),
 ('Brillanuil'),
 ('Brillard'),
@@ -26426,7 +26364,6 @@ VALUES
 ('Brininstool'),
 ('Brinis'),
 ('Brinius'),
-('Brink'),
 ('Brinke'),
 ('Brinker'),
 ('Brinkert'),
@@ -27141,7 +27078,6 @@ VALUES
 ('Bronstein'),
 ('Bronston'),
 ('Bront'),
-
 ('Brontea'),
 ('Brontee'),
 ('Brontie'),
@@ -28765,7 +28701,6 @@ VALUES
 ('Buenrrostro'),
 ('Buensalida'),
 ('Buense'),
-
 ('Buentello'),
 ('Buenting'),
 ('Buentipo'),
@@ -29711,7 +29646,6 @@ VALUES
 ('Bunt'),
 ('Bunta'),
 ('Buntain'),
-
 ('Buntean'),
 ('Bunten'),
 ('Buntenbach'),
@@ -30830,12 +30764,9 @@ VALUES
 ('Bustalino'),
 ('Bustamande'),
 ('Bustamanie'),
-
 ('Bustamantes'),
 ('Bustamate'),
-
 ('Bustami'),
-
 ('Bustan'),
 ('Bustana'),
 ('Bustard'),
@@ -30853,7 +30784,6 @@ VALUES
 ('Bustinza'),
 ('Bustios'),
 ('Bustle'),
-
 ('Busto'),
 ('Buston'),
 ('Bustos'),

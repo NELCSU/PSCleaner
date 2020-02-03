@@ -91,6 +91,7 @@ VALUES
 ('Congolese'),
 ('Cook Islander'),
 ('Cook Islanders'),
+('Cornish'),
 ('Corsican'),
 ('Costa Rican'),
 ('Costa Ricans'),

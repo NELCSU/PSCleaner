@@ -53,7 +53,6 @@ VALUES
 ('Gabayare'),
 ('Gabayeron'),
 ('Gabayre'),
-
 ('Gabban'),
 ('Gabbana'),
 ('Gabbar'),
@@ -1029,7 +1028,6 @@ VALUES
 ('Galanos'),
 ('Galant'),
 ('Galanta'),
-
 ('Galanter'),
 ('Galantina'),
 ('Galanto'),
@@ -1347,7 +1345,6 @@ VALUES
 ('Gallanders'),
 ('Gallano'),
 ('Gallant'),
-
 ('Gallanty'),
 ('Gallapello'),
 ('Gallarate'),
@@ -2202,7 +2199,6 @@ VALUES
 ('Ganta'),
 ('Gantavya'),
 ('Gantaz'),
-
 ('Gantelet'),
 ('Gantenbein'),
 ('Ganter'),
@@ -3421,7 +3417,6 @@ VALUES
 ('Gatherer'),
 ('Gathergood'),
 ('Gatheright'),
-('Gathers'),
 ('Gatherum'),
 ('Gathier'),
 ('Gathigia'),
@@ -4635,7 +4630,6 @@ VALUES
 ('Gediun'),
 ('Gedivan'),
 ('Gedman'),
-
 ('Gedminaite'),
 ('Gedminas'),
 ('Gedminiene'),
@@ -6177,7 +6171,6 @@ VALUES
 ('Gerenkcil'),
 ('Gerensea'),
 ('Gerensi'),
-
 ('Gereow'),
 ('Gerer'),
 ('Gererd'),
@@ -6337,7 +6330,6 @@ VALUES
 ('Germanow'),
 ('Germans'),
 ('Germantas'),
-
 ('Germanus'),
 ('Germardus'),
 ('Germedhin'),
@@ -7544,7 +7536,6 @@ VALUES
 ('Gherna'),
 ('Gheroghe'),
 ('Gheroghina'),
-
 ('Gherouat'),
 ('Gheroufella'),
 ('Gherrat'),
@@ -8203,7 +8194,6 @@ VALUES
 ('Gianpiero'),
 ('Gianpietro'),
 ('Gianquinto'),
-
 ('Gianshree'),
 ('Giansily'),
 ('Giantin'),
@@ -8580,7 +8570,6 @@ VALUES
 ('Gifty'),
 ('Gifu'),
 ('Giga'),
-
 ('Gigantino'),
 ('Gigaud'),
 ('Gigauri'),
@@ -9360,7 +9349,6 @@ VALUES
 ('Gintautas'),
 ('Gintaute'),
 ('Gintauts'),
-
 ('Ginter'),
 ('Gintere'),
 ('Ginters'),
@@ -9705,7 +9693,6 @@ VALUES
 ('Girillo'),
 ('Girima'),
 ('Girimallannawar'),
-
 ('Girin'),
 ('Girinala'),
 ('Girinath'),
@@ -9747,7 +9734,6 @@ VALUES
 ('Girmali'),
 ('Girman'),
 ('Girmantas'),
-
 ('Girmation'),
 ('Girmatsion'),
 ('Girmatson'),
@@ -11913,7 +11899,6 @@ VALUES
 ('Goggi'),
 ('Goggin'),
 ('Goggins'),
-('Goggles'),
 ('Goggleye'),
 ('Goggs'),
 ('Goggun'),
@@ -12226,7 +12211,6 @@ VALUES
 ('Goldbluth'),
 ('Goldbourne'),
 ('Goldeman'),
-('Golden'),
 ('Goldene'),
 ('Goldengel'),
 ('Goldenman'),
@@ -14452,7 +14436,6 @@ VALUES
 ('Graaphuis'),
 ('Graban'),
 ('Grabanica'),
-
 ('Grabaouskaite'),
 ('Grabar'),
 ('Grabaskey'),
@@ -14970,7 +14953,6 @@ VALUES
 ('Granston'),
 ('Grant'),
 ('Grantas'),
-
 ('Granter'),
 ('Granth'),
 ('Granthick'),
@@ -15164,7 +15146,6 @@ VALUES
 ('Gravanis'),
 ('Gravano'),
 ('Gravans'),
-
 ('Gravat'),
 ('Gravatt'),
 ('Gravatte'),
@@ -15333,7 +15314,6 @@ VALUES
 ('Greatbanks'),
 ('Greatbatch'),
 ('Greatens'),
-('Greater'),
 ('Greathead'),
 ('Greathed'),
 ('Greathouse'),
@@ -15427,7 +15407,6 @@ VALUES
 ('Greene'),
 ('Greeneklee'),
 ('Greenen'),
-('Greener'),
 ('Greenert'),
 ('Greeney'),
 ('Greenfeld'),
@@ -15454,7 +15433,6 @@ VALUES
 ('Greenholt'),
 ('Greenhorn'),
 ('Greenhough'),
-('Greenhouse'),
 ('Greenhow'),
 ('Greenhoward'),
 ('Greenhut'),
@@ -15754,7 +15732,6 @@ VALUES
 ('Grenside'),
 ('Grensted'),
 ('Grent'),
-
 ('Grention'),
 ('Grentrup'),
 ('Grenway'),
@@ -17505,7 +17482,6 @@ VALUES
 ('Guanqing'),
 ('Guanrong'),
 ('Guansing'),
-
 ('Guantiero'),
 ('Guanting'),
 ('Guanxian'),
@@ -17544,7 +17520,6 @@ VALUES
 ('Guare'),
 ('Guarella'),
 ('Guareno'),
-
 ('Guariglia'),
 ('Guarin'),
 ('Guarino'),
@@ -17587,7 +17562,6 @@ VALUES
 ('Guayarmina'),
 ('Guayco'),
 ('Guaydia'),
-
 ('Guaynalla'),
 ('Gub'),
 ('Gubacsi'),

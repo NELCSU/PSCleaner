@@ -681,7 +681,6 @@ VALUES
 ('Quanstrum'),
 ('Quant'),
 ('Quantavian'),
-
 ('Quantick'),
 ('Quantin'),
 ('Quantmeyer'),
@@ -1268,7 +1267,6 @@ VALUES
 ('Quintard'),
 ('Quintart'),
 ('Quintas'),
-
 ('Quintel'),
 ('Quintela'),
 ('Quintelier'),
@@ -1312,7 +1310,6 @@ VALUES
 ('Quique'),
 ('Quiram'),
 ('Quirama'),
-
 ('Quirarte'),
 ('Quirat'),
 ('Quire'),
@@ -1483,7 +1480,6 @@ VALUES
 ('Qutub'),
 ('Qutubuddin'),
 ('Quule'),
-
 ('Quwaine'),
 ('Quwarn'),
 ('Quwayne'),
@@ -2103,7 +2099,6 @@ VALUES
 ('Raden'),
 ('Radenbaugh'),
 ('Radenhurst'),
-
 ('Rader'),
 ('Radermacher'),
 ('Rades'),
@@ -6374,7 +6369,6 @@ VALUES
 ('Rasp'),
 ('Raspagni'),
 ('Raspal'),
-
 ('Raspberry'),
 ('Raspel'),
 ('Raspeno'),
@@ -8313,7 +8307,6 @@ VALUES
 ('Redenbaugh'),
 ('Redenius'),
 ('Redenta'),
-
 ('Redentor'),
 ('Redenzonta'),
 ('Redeoune'),
@@ -8532,7 +8525,6 @@ VALUES
 ('Reekoe'),
 ('Reeks'),
 ('Reekye'),
-('Reel'),
 ('Reela'),
 ('Reeley'),
 ('Reels'),
@@ -8821,7 +8813,6 @@ VALUES
 ('Regly'),
 ('Regmi'),
 ('Regnal'),
-
 ('Regnar'),
 ('Regnard'),
 ('Regnaud'),
@@ -9493,7 +9484,7 @@ VALUES
 ('Rejwana'),
 ('Rejwanur'),
 ('Rek'),
-('Réka'),
+
 ('Rekab'),
 ('Rekai'),
 ('Rekala'),
@@ -9863,7 +9854,6 @@ VALUES
 ('Renang'),
 ('Renans'),
 ('Renanta'),
-
 ('Renard'),
 ('Renardas'),
 ('Renardo'),
@@ -9962,6 +9952,7 @@ VALUES
 ('Renedela'),
 ('Renedo'),
 ('Renee'),
+
 ('Reneece'),
 ('Reneelen'),
 ('Reneer'),
@@ -10489,7 +10480,6 @@ VALUES
 ('Resendel'),
 ('Resendes'),
 ('Resendis'),
-
 ('Reser'),
 ('Resetar'),
 ('Resetnikovas'),
@@ -10616,7 +10606,6 @@ VALUES
 ('Restaino'),
 ('Restall'),
 ('Restanta'),
-
 ('Restarick'),
 ('Restas'),
 ('Reste'),
@@ -11109,7 +11098,6 @@ VALUES
 ('Reynald'),
 ('Reynalds'),
 ('Reynals'),
-
 ('Reynar'),
 ('Reynard'),
 ('Reynardo'),
@@ -11156,7 +11144,6 @@ VALUES
 ('Reyver'),
 ('Reyyan'),
 ('Rez'),
-
 ('Rezaeian'),
 ('Rezaeinia'),
 ('Rezaghian'),
@@ -11829,7 +11816,6 @@ VALUES
 ('Ricaedo'),
 ('Ricaford'),
 ('Ricafort'),
-
 ('Ricaido'),
 ('Rical'),
 ('Ricalday'),
@@ -12552,7 +12538,6 @@ VALUES
 ('Rifayath'),
 ('Rifaydeen'),
 ('Rifaz'),
-('Rife'),
 ('Rifelyte'),
 ('Rifenbark'),
 ('Rifenbery'),
@@ -12608,7 +12593,6 @@ VALUES
 ('Rigal'),
 ('Rigali'),
 ('Rigall'),
-
 ('Rigan'),
 ('Rigano'),
 ('Rigard'),
@@ -12705,7 +12689,6 @@ VALUES
 ('Rigling'),
 ('Riglos'),
 ('Rigmaiden'),
-
 ('Rigmor'),
 ('Rignace'),
 ('Rignall'),
@@ -12951,7 +12934,6 @@ VALUES
 ('Rimando'),
 ('Rimanpreet'),
 ('Rimantas'),
-
 ('Rimanths'),
 ('Rimants'),
 ('Rimantus'),
@@ -13522,7 +13504,6 @@ VALUES
 ('Rishanie'),
 ('Rishank'),
 ('Rishant'),
-
 ('Rishanth'),
 ('Rishard'),
 ('Risharn'),
@@ -14234,7 +14215,6 @@ VALUES
 ('Robana'),
 ('Robander'),
 ('Robange'),
-
 ('Robar'),
 ('Robard'),
 ('Robards'),
@@ -14640,7 +14620,6 @@ VALUES
 ('Rockwell'),
 ('Rockwood'),
 ('Rockxy'),
-('Rocky'),
 ('Rockya'),
 ('Rockymore'),
 ('Rocle'),
@@ -14682,7 +14661,6 @@ VALUES
 ('Rodammer'),
 ('Rodane'),
 ('Rodano'),
-
 ('Rodanthi'),
 ('Rodar'),
 ('Rodarmel'),
@@ -16401,7 +16379,6 @@ VALUES
 ('Ronsted'),
 ('Rontae'),
 ('Rontale'),
-
 ('Rontgen'),
 ('Rontidis'),
 ('Ronto'),
@@ -16734,7 +16711,6 @@ VALUES
 ('Rosamond'),
 ('Rosamonde'),
 ('Rosamont'),
-
 ('Rosamund'),
 ('Rosamunde'),
 ('Rosamundo'),
@@ -16757,7 +16733,6 @@ VALUES
 ('Rosannia'),
 ('Rosano'),
 ('Rosant'),
-
 ('Rosanth'),
 ('Rosantina'),
 ('Rosanwo'),
@@ -17562,7 +17537,6 @@ VALUES
 ('Rotalia'),
 ('Rotan'),
 ('Rotando'),
-
 ('Rotar'),
 ('Rotardier'),
 ('Rotario'),
@@ -20122,7 +20096,6 @@ VALUES
 ('Runshaw'),
 ('Runswe'),
 ('Runswick'),
-
 ('Runtian'),
 ('Runton'),
 ('Runur'),
@@ -21017,7 +20990,6 @@ VALUES
 ('Ruzylo'),
 ('Ruzzaman'),
 ('Ruzzano'),
-
 ('Ruzzene'),
 ('Ruzzier'),
 ('Rvenkatatamana'),

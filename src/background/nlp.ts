@@ -68,7 +68,7 @@ export class NLP {
     let cursor: number = 0;
     let lastWord: WordPosition;
     let lastModal: boolean = false;
-    let lastSymbol: boolean = false;
+    let lastSymbol: string = "";
     tags.forEach((tag: Tag) => {
       const start: number = data.indexOf(tag.value, cursor);
       const len: number = tag.value.length;
@@ -76,7 +76,11 @@ export class NLP {
       cursor = end;
       if (tag.tag === "word") {
         const n: number = words.length - 1;
-        if (lastSymbol && len === 1 && (
+        if (lastSymbol && (tag.value === "t" && len > 1)) {
+          words[n].value += lastSymbol + tag.value;
+          words[n].end = end;
+          words[n].length += len + 1;
+        } else if (lastSymbol && len === 1 && (
           words[n].value.indexOf(".") > -1 ||
           words[n].value.indexOf("&") > -1
         )) {
@@ -99,7 +103,7 @@ export class NLP {
           };
           words.push(lastWord);
         } else {
-          if (tag.value !== "'s") {
+          if (tag.value !== "s" && lastSymbol !== "’") {
             lastWord = {
               value: tag.value,
               pos: tag.pos,
@@ -111,7 +115,7 @@ export class NLP {
           }
         }
         lastModal = tag.pos === "MD";
-        lastSymbol = false;
+        lastSymbol = "";
       } else if (tag.normal === "." || tag.normal === "&") {
         if (lastWord && lastWord.length < 3) {
           const n: number = words.length - 1;
@@ -126,7 +130,9 @@ export class NLP {
             length: len
           };
         }
-        lastSymbol = true;
+        lastSymbol = tag.normal;
+      } else if (tag.normal === "'" || tag.normal === "’") {
+        lastSymbol = tag.normal;
       }
     });
     return words;
@@ -173,13 +179,13 @@ export class NLP {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
       let p1 = word.value
-        .replace(/\'/g, "")
+        .replace(/[\'\’]/g, "")
         .replace(/_/g, "~_")
         .replace(/%/g, "~%") + " %";
-      let p2 = word.value.replace(/\'/g, "");
+      let p2 = word.value.replace(/[\'\’]/g, "");
       const qry: string = `SELECT
           id,
-          '${word.value.replace(/\'/g, "''")}' AS original_term,
+          '${word.value.replace(/[\'\’]/g, "''")}' AS original_term,
           keyword,
           ${word.start} AS start,
           '${word.pos}' AS pos
@@ -204,10 +210,10 @@ export class NLP {
   private _querySingleTerms(words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
-      const predicate: string = word.value.replace(/\'/g, "");
+      const predicate: string = word.value.replace(/[\'\’]/g, "");
       const qry: string = `SELECT 
           id,
-          '${word.value.replace(/\'/g, "''")}' AS keyword, 
+          '${word.value.replace(/[\'\’]/g, "''")}' AS keyword, 
           ${word.start} AS start,
           '${word.pos}' AS pos
         FROM "${entity.label}" WHERE keyword = ?`;
@@ -268,7 +274,7 @@ export class NLP {
       ? await this._querySingleTerms(words, entity)
       : await this._queryMultipleTerms(words, entity);
     const r: MatchedEntity[] = [];
-    let test: string = data.toLowerCase().replace(/-/g, " ");
+    let test: string = data.toLowerCase().replace(/-/g, " ").replace(/\’/g, "'");
     searchTerms.forEach((term: SearchTermResult) => {
       let value: string, added_check: boolean = false;
       if (term.original_term === undefined) {

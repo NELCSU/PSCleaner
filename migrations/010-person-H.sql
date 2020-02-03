@@ -396,7 +396,6 @@ VALUES
 ('Haciulis'),
 ('Haciveli'),
 ('Hacizade'),
-('Hack'),
 ('Hackart'),
 ('Hackathorn'),
 ('Hackbart'),
@@ -3454,7 +3453,6 @@ VALUES
 ('Hantal'),
 ('Hantar'),
 ('Hantas'),
-
 ('Hantea'),
 ('Hanten'),
 ('Hanthorn'),
@@ -6991,7 +6989,6 @@ VALUES
 ('Hearsum'),
 ('Heartfield'),
 ('Hearth'),
-('Heartland'),
 ('Heartleigh'),
 ('Heartley'),
 ('Heartsill'),
@@ -9185,7 +9182,6 @@ VALUES
 ('Hentcha'),
 ('Hentche'),
 ('Hentchy'),
-
 ('Henter'),
 ('Hentes'),
 ('Hentges'),
@@ -11278,7 +11274,6 @@ VALUES
 ('Hillol'),
 ('Hillon'),
 ('Hillquist'),
-('Hills'),
 ('Hillsden'),
 ('Hillsdon'),
 ('Hillseth'),
@@ -11715,7 +11710,6 @@ VALUES
 ('Hinsull'),
 ('Hinta'),
 ('Hintaran'),
-
 ('Hinten'),
 ('Hinterberger'),
 ('Hinteregger'),
@@ -13296,7 +13290,6 @@ VALUES
 ('Holdhof'),
 ('Holdiman'),
 ('Holdiness'),
-('Holding'),
 ('Holditch'),
 ('Holdman'),
 ('Holdmeyer'),
@@ -14181,7 +14174,6 @@ VALUES
 ('Honstein'),
 ('Hontang'),
 ('Hontarrede'),
-
 ('Hontoia'),
 ('Hontomin'),
 ('Hontoria'),
@@ -14204,7 +14196,6 @@ VALUES
 ('Hoodless'),
 ('Hoody'),
 ('Hooey'),
-('Hoof'),
 ('Hoofard'),
 ('Hoofman'),
 ('Hoofnagle'),
@@ -15873,7 +15864,6 @@ VALUES
 ('Huans'),
 ('Huansi'),
 ('Huant'),
-
 ('Huanting'),
 ('Huanxin'),
 ('Huanyu'),
@@ -16900,7 +16890,6 @@ VALUES
 ('Hunsucker'),
 ('Hunswick'),
 ('Huntbach'),
-
 ('Hunteman'),
 ('Hunten'),
 ('Hunter'),
@@ -17682,7 +17671,6 @@ VALUES
 ('Hyabiel'),
 ('Hyacin'),
 ('Hyacint'),
-
 ('Hyacinth'),
 ('Hyacintha'),
 ('Hyacinthe'),

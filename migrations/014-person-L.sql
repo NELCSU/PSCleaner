@@ -2,7 +2,6 @@
 INSERT INTO Name
 (keyword)
 VALUES
-('La'),
 ('Laaban'),
 ('Laabassi'),
 ('Laabid'),
@@ -205,7 +204,6 @@ VALUES
 ('Labonido'),
 ('Labonno'),
 ('Labonnya'),
-
 ('Labonty'),
 ('Labony'),
 ('Laboo'),
@@ -377,11 +375,9 @@ VALUES
 ('Lachaman'),
 ('Lachance'),
 ('Lachanee'),
-
 ('Lachapele'),
 ('Lachapell'),
 ('Lacharite'),
-
 ('Lacharn'),
 ('Lacharna'),
 ('Lacharnay'),
@@ -393,7 +389,6 @@ VALUES
 ('Lachaud'),
 ('Lachaume'),
 ('Lache'),
-
 ('Lachele'),
 ('Lachen'),
 ('Lachenal'),
@@ -495,7 +490,6 @@ VALUES
 ('Lacome'),
 ('Lacon'),
 ('Laconsay'),
-
 ('Lacoppola'),
 ('Lacorbiniere'),
 ('Lacore'),
@@ -919,10 +913,8 @@ VALUES
 ('Lafrit'),
 ('Lafrombois'),
 ('Lafromboise'),
-
 ('Lafta'),
 ('Lafton'),
-
 ('Lagab'),
 ('Lagace'),
 ('Lagache'),
@@ -1989,7 +1981,6 @@ VALUES
 ('Lamanno'),
 ('Lamano'),
 ('Lamantagne'),
-
 ('Lamantia'),
 ('Lamar'),
 ('Lamarana'),
@@ -2079,7 +2070,6 @@ VALUES
 ('Lambhate'),
 ('Lambiase'),
 ('Lambie'),
-
 ('Lambillion'),
 ('Lambin'),
 ('Lambing'),
@@ -2293,7 +2283,6 @@ VALUES
 ('Lamonta'),
 ('Lamontae'),
 ('Lamontagne'),
-
 ('Lamoore'),
 ('Lamor'),
 ('Lamora'),
@@ -2487,7 +2476,6 @@ VALUES
 ('Lanch'),
 ('Lancha'),
 ('Lanchanie'),
-
 ('Lancharro'),
 ('Lanchart'),
 ('Lanchberry'),
@@ -3087,7 +3075,6 @@ VALUES
 ('Lantagne'),
 ('Lantana'),
 ('Lantano'),
-
 ('Lantee'),
 ('Lantei'),
 ('Lanteigne'),
@@ -3332,13 +3319,11 @@ VALUES
 ('Laplaine'),
 ('Laplanche'),
 ('Laplant'),
-
 ('Laplasse'),
 ('Laplaunt'),
 ('Laplume'),
 ('Lapo'),
 ('Lapoint'),
-
 ('Lapoirie'),
 ('Lapole'),
 ('Lapolice'),
@@ -3348,7 +3333,6 @@ VALUES
 ('Lapomarede'),
 ('Laponnaz'),
 ('Laponsie'),
-
 ('Lapora'),
 ('Lapore'),
 ('Laporscha'),
@@ -3415,7 +3399,6 @@ VALUES
 ('Laptes'),
 ('Lapthorn'),
 ('Lapthorne'),
-
 ('Lapuhos'),
 ('Lapuhs'),
 ('Lapukaite'),
@@ -3443,7 +3426,6 @@ VALUES
 ('Laquaurn'),
 ('Laquayne'),
 ('Laque'),
-
 ('Laquerre'),
 ('Laquetta'),
 ('Laqueur'),
@@ -3461,7 +3443,6 @@ VALUES
 ('Larabel'),
 ('Larabell'),
 ('Larabella'),
-
 ('Laracy'),
 ('Larae'),
 ('Larague'),
@@ -3746,7 +3727,6 @@ VALUES
 ('Larr'),
 ('Larrabee'),
 ('Larracas'),
-
 ('Larrad'),
 ('Larragy'),
 ('Larrahondo'),
@@ -3975,7 +3955,6 @@ VALUES
 ('Lashane'),
 ('Lashanta'),
 ('Lashantae'),
-
 ('Lashantei'),
 ('Lashanthy'),
 ('Lasharana'),
@@ -4022,7 +4001,6 @@ VALUES
 ('Lashomb'),
 ('Lashona'),
 ('Lashontae'),
-
 ('Lashua'),
 ('Lashure'),
 ('Lashute'),
@@ -4607,7 +4585,6 @@ VALUES
 ('Lauckner'),
 ('Laucks'),
 ('Laucyte'),
-('Laud'),
 ('Laudadio'),
 ('Laudalia'),
 ('Laudano'),
@@ -4861,7 +4838,6 @@ VALUES
 ('Laurenson'),
 ('Laurent'),
 ('Laurenta'),
-
 ('Laurenteen'),
 ('Laurentia'),
 ('Laurentiadis'),
@@ -5197,7 +5173,6 @@ VALUES
 ('Lavenia'),
 ('Laveniers'),
 ('Lavens'),
-
 ('Laventure'),
 ('Lavenya'),
 ('Laver'),
@@ -5316,7 +5291,6 @@ VALUES
 ('Lavonia'),
 ('Lavonica'),
 ('Lavontae'),
-
 ('Lavony'),
 ('Lavore'),
 ('Lavos'),
@@ -5931,7 +5905,6 @@ VALUES
 ('Leansa'),
 ('Leanse'),
 ('Leanta'),
-
 ('Leantus'),
 ('Leany'),
 ('Leanya'),
@@ -6019,7 +5992,6 @@ VALUES
 ('Leauthier'),
 ('Leava'),
 ('Leavan'),
-
 ('Leaveil'),
 ('Leavell'),
 ('Leaven'),
@@ -6054,7 +6026,6 @@ VALUES
 ('Lebakken'),
 ('Leban'),
 ('Lebane'),
-
 ('Lebar'),
 ('Lebard'),
 ('Lebarge'),
@@ -6291,7 +6262,6 @@ VALUES
 ('Lecoat'),
 ('Lecoeuvre'),
 ('Lecoffre'),
-
 ('Lecolleen'),
 ('Lecomber'),
 ('Lecompte'),
@@ -6299,7 +6269,6 @@ VALUES
 ('Lecona'),
 ('Leconey'),
 ('Lecont'),
-
 ('Lecorchick'),
 ('Lecordier'),
 ('Lecore'),
@@ -6311,7 +6280,6 @@ VALUES
 ('Lecoufle'),
 ('Lecoultre'),
 ('Lecount'),
-
 ('Lecoupeur'),
 ('Lecour'),
 ('Lecours'),
@@ -6650,7 +6618,6 @@ VALUES
 ('Lefaive'),
 ('Lefaivre'),
 ('Lefan'),
-
 ('Lefas'),
 ('Lefat'),
 ('Lefatur'),
@@ -6881,7 +6848,6 @@ VALUES
 ('Legler'),
 ('Legmpelos'),
 ('Legname'),
-
 ('Legnar'),
 ('Legner'),
 ('Legni'),
@@ -7226,7 +7192,6 @@ VALUES
 ('Leimo'),
 ('Leimonaite'),
 ('Leimontas'),
-
 ('Leimy'),
 ('Lein'),
 ('Leina'),
@@ -7572,7 +7537,6 @@ VALUES
 ('Leloir'),
 ('Lelon'),
 ('Lelong'),
-
 ('Lelorain'),
 ('Lelouch'),
 ('Lelouche'),
@@ -7770,7 +7734,6 @@ VALUES
 ('Lemonnier'),
 ('Lemons'),
 ('Lemont'),
-
 ('Lemony'),
 ('Lemor'),
 ('Lemora'),
@@ -8119,7 +8082,6 @@ VALUES
 ('Lenta'),
 ('Lentaigne'),
 ('Lentas'),
-
 ('Lentell'),
 ('Lenten'),
 ('Lentengre'),
@@ -8187,7 +8149,6 @@ VALUES
 ('Leocarther'),
 ('Leocat'),
 ('Leocatia'),
-
 ('Leocorda'),
 ('Leodannis'),
 ('Leodiceia'),
@@ -8363,7 +8324,6 @@ VALUES
 ('Leonson'),
 ('Leonta'),
 ('Leontas'),
-
 ('Leonthin'),
 ('Leonthyne'),
 ('Leontia'),
@@ -8440,7 +8400,6 @@ VALUES
 ('Lepak'),
 ('Lepalele'),
 ('Lepanjuuri'),
-
 ('Lepard'),
 ('Lepardo'),
 ('Leparporit'),
@@ -8792,7 +8751,6 @@ VALUES
 ('Leshaj'),
 ('Leshana'),
 ('Leshane'),
-
 ('Leshare'),
 ('Lesharn'),
 ('Lesharna'),
@@ -8893,7 +8851,6 @@ VALUES
 ('Leson'),
 ('Lesonia'),
 ('Lesonta'),
-
 ('Lesorgen'),
 ('Lesovics'),
 ('Lespagnol'),
@@ -9325,7 +9282,6 @@ VALUES
 ('Levanon'),
 ('Levans'),
 ('Levant'),
-
 ('Levantis'),
 ('Levany'),
 ('Levar'),
@@ -9379,7 +9335,6 @@ VALUES
 ('Levenspiel'),
 ('Levenstein'),
 ('Levent'),
-
 ('Leventelis'),
 ('Leventene'),
 ('Leventer'),
@@ -9432,7 +9387,6 @@ VALUES
 ('Leverton'),
 ('Leverty'),
 ('Leverve'),
-
 ('Levesgue'),
 ('Levesley'),
 ('Leveson'),
@@ -9492,7 +9446,6 @@ VALUES
 ('Levinstein'),
 ('Levinston'),
 ('Levinta'),
-
 ('Levinthal'),
 ('Levinus'),
 ('Levique'),
@@ -11141,7 +11094,6 @@ VALUES
 ('Limane'),
 ('Limantaite'),
 ('Limantas'),
-
 ('Limanthi'),
 ('Limar'),
 ('Limardi'),
@@ -11579,7 +11531,6 @@ VALUES
 ('Liney'),
 ('Linfan'),
 ('Linfang'),
-
 ('Linfei'),
 ('Linfeng'),
 ('Linfield'),
@@ -12457,7 +12408,6 @@ VALUES
 ('Lissy'),
 ('Lissya'),
 ('Lista'),
-
 ('Listas'),
 ('Liste'),
 ('Listel'),
@@ -13216,7 +13166,6 @@ VALUES
 ('Lloreen'),
 ('Lloren'),
 ('Llorens'),
-
 ('Llorera'),
 ('Lloresana'),
 ('Lloret'),
@@ -13407,7 +13356,6 @@ VALUES
 ('Locan'),
 ('Locane'),
 ('Locano'),
-
 ('Locantore'),
 ('Locardia'),
 ('Locas'),
@@ -13520,7 +13468,6 @@ VALUES
 ('Locmelis'),
 ('Locnys'),
 ('Locock'),
-
 ('Loconto'),
 ('Locorriere'),
 ('Locot'),
@@ -14255,7 +14202,6 @@ VALUES
 ('Lomonosiene'),
 ('Lomonson'),
 ('Lomont'),
-
 ('Lomorey'),
 ('Lomotei'),
 ('Lomotey'),
@@ -14319,7 +14265,6 @@ VALUES
 ('Londola'),
 ('Londole'),
 ('Londonderry'),
-('Londoners'),
 ('Londors'),
 ('Londos'),
 ('Londresa'),
@@ -14734,7 +14679,6 @@ VALUES
 ('Lops'),
 ('Lopshire'),
 ('Lopuch'),
-
 ('Lopus'),
 ('Lopusa'),
 ('Lopuz'),
@@ -14895,7 +14839,6 @@ VALUES
 ('Lorensor'),
 ('Lorensson'),
 ('Lorent'),
-
 ('Lorentebodalo'),
 ('Lorentina'),
 ('Lorentine'),
@@ -14961,7 +14904,6 @@ VALUES
 ('Lorie'),
 ('Loriega'),
 ('Loriene'),
-
 ('Lorier'),
 ('Lorietta'),
 ('Loriette'),
@@ -15030,7 +14972,6 @@ VALUES
 ('Lornie'),
 ('Loron'),
 ('Lorona'),
-
 ('Lorow'),
 ('Loroy'),
 ('Lorphevre'),
@@ -16356,7 +16297,6 @@ VALUES
 ('Luceneia'),
 ('Lucenio'),
 ('Lucenta'),
-
 ('Luceny'),
 ('Lucera'),
 ('Lucerio'),
@@ -17472,7 +17412,6 @@ VALUES
 ('Lunag'),
 ('Lunak'),
 ('Lunama'),
-('Lunar'),
 ('Lunarde'),
 ('Lunardi'),
 ('Lunardo'),
@@ -18617,7 +18556,6 @@ VALUES
 ('Lyma'),
 ('Lyman'),
 ('Lymantaite'),
-
 ('Lymar'),
 ('Lymas'),
 ('Lymaster'),
