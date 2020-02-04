@@ -12927,7 +12927,6 @@ VALUES
 ('Alexandira'),
 ('Alexandor'),
 ('Alexandr'),
-
 ('Alexandrache'),
 ('Alexandrads'),
 ('Alexandrae'),
@@ -22695,7 +22694,6 @@ VALUES
 ('Apcher'),
 ('Apda'),
 ('Apdesh'),
-('Ape'),
 ('Apea'),
 ('Apeagyei'),
 ('Apeah'),

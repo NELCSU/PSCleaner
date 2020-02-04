@@ -16808,7 +16808,6 @@ VALUES
 ('Kittell'),
 ('Kittelman'),
 ('Kittelson'),
-('Kitten'),
 ('Kittensamy'),
 ('Kitter'),
 ('Kitterick'),

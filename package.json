@@ -39,8 +39,8 @@
     "@types/node": "^12.12.26",
     "@types/sqlite3": "^3.1.6",
     "@types/uuid": "^3.4.7",
-    "@typescript-eslint/eslint-plugin": "^2.18.0",
-    "@typescript-eslint/parser": "^2.18.0",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
     "electron": "^7.1.11",
     "electron-rebuild": "^1.10.0",
     "eslint": "^6.8.0",
@@ -82,7 +82,7 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf static/lib/web-components"
   },
-  "version": "0.5.9",
+  "version": "0.5.10",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }

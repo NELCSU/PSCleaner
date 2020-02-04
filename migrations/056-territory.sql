@@ -51,7 +51,7 @@ VALUES
 ('Comoros'),
 ('Congo'),
 ('Costa Rica'),
-('Côte d’Ivoire'),
+('Côte dIvoire'),
 ('Croatia'),
 ('Cuba'),
 ('Cyprus'),

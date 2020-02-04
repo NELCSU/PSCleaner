@@ -3,6 +3,7 @@ import posTagger from "wink-pos-tagger";
 import { Entity, MatchedEntity, SearchTermResult, WordPosition } from "../typings/PSCleaner";
 import { Entities } from "./entities";
 import { deepCopy } from "./util/deepCopy";
+import { isApostrophe } from "./util/text";
 
 /**
  * ### Natural language processing services
@@ -76,10 +77,10 @@ export class NLP {
       cursor = end;
       if (tag.tag === "word") {
         const n: number = words.length - 1;
-        if (lastSymbol && (tag.value === "t" && len > 1)) {
+        if ((isApostrophe(lastSymbol)) && (tag.value === "t" || len > 1)) {
           words[n].value += lastSymbol + tag.value;
           words[n].end = end;
-          words[n].length += len + 1;
+          words[n].length = words[n].value.length;
         } else if (lastSymbol && len === 1 && (
           words[n].value.indexOf(".") > -1 ||
           words[n].value.indexOf("&") > -1
@@ -131,7 +132,7 @@ export class NLP {
           };
         }
         lastSymbol = tag.normal;
-      } else if (tag.normal === "'" || tag.normal === "’") {
+      } else if (isApostrophe(tag.normal)) {
         lastSymbol = tag.normal;
       }
     });
@@ -179,13 +180,13 @@ export class NLP {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
       let p1 = word.value
-        .replace(/[\'\’]/g, "")
+        .replace(/[\'\’\`]/g, "")
         .replace(/_/g, "~_")
         .replace(/%/g, "~%") + " %";
-      let p2 = word.value.replace(/[\'\’]/g, "");
+      let p2 = word.value.replace(/[\'\’\`]/g, "");
       const qry: string = `SELECT
           id,
-          '${word.value.replace(/[\'\’]/g, "''")}' AS original_term,
+          '${word.value.replace(/[\'\’\`]/g, "''")}' AS original_term,
           keyword,
           ${word.start} AS start,
           '${word.pos}' AS pos
@@ -210,10 +211,10 @@ export class NLP {
   private _querySingleTerms(words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
-      const predicate: string = word.value.replace(/[\'\’]/g, "");
+      const predicate: string = word.value.replace(/[\'\’\`]/g, "");
       const qry: string = `SELECT 
           id,
-          '${word.value.replace(/[\'\’]/g, "''")}' AS keyword, 
+          '${word.value.replace(/[\'\’\`]/g, "''")}' AS keyword, 
           ${word.start} AS start,
           '${word.pos}' AS pos
         FROM "${entity.label}" WHERE keyword = ?`;
@@ -274,7 +275,7 @@ export class NLP {
       ? await this._querySingleTerms(words, entity)
       : await this._queryMultipleTerms(words, entity);
     const r: MatchedEntity[] = [];
-    let test: string = data.toLowerCase().replace(/-/g, " ").replace(/\’/g, "'");
+    let test: string = data.toLowerCase().replace(/-/g, " ").replace(/[\’\`]/g, "'");
     searchTerms.forEach((term: SearchTermResult) => {
       let value: string, added_check: boolean = false;
       if (term.original_term === undefined) {
