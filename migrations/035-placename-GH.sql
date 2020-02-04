@@ -4658,7 +4658,7 @@ VALUES
 ('Gew graze'),
 ('Gewans Meadow'),
 ('Gewlfor'),
-('Gewni'),
+
 ('Gews Corner'),
 ('Geylen Road'),
 ('Geys Gug'),
@@ -7195,7 +7195,7 @@ VALUES
 ('Glanymor Road'),
 ('Glanymôr'),
 ('Glanynant'),
-('Glanypwll'),
+
 ('Glanypwll Road'),
 ('Glanyrafon'),
 ('Glanyrafon Close'),
@@ -7313,7 +7313,7 @@ VALUES
 ('Glasney Terrace'),
 ('Glasney Valley'),
 ('Glasphein'),
-('Glaspwll'),
+
 ('Glass Avenue'),
 ('Glass Crescent'),
 ('Glass Hill'),
@@ -9564,7 +9564,7 @@ VALUES
 ('Globerdon Road'),
 ('Globhar a Deas'),
 ('Globhar a Tuath'),
-('Globwll'),
+
 ('Gloch Wen'),
 ('Gloddaeth'),
 ('Gloddaeth Avenue'),
@@ -9720,7 +9720,7 @@ VALUES
 ('Gloy'),
 ('Gloyw bâch'),
 ('Gloyw Lyn'),
-('Gloywfa'),
+
 ('Gludy'),
 ('Glue Hill'),
 ('Glue Lane'),
@@ -12836,7 +12836,7 @@ VALUES
 ('Gowkshill'),
 ('Gowkthrapple'),
 ('Gowktree'),
-('Gowla'),
+
 ('Gowland Avenue'),
 ('Gowland Drive'),
 ('Gowland Lane'),
@@ -16731,7 +16731,7 @@ VALUES
 ('Greenwick Dale'),
 ('Greenwillows'),
 ('Greenwith'),
-('Greenwix'),
+
 ('Greenwood Close'),
 ('Greenwood Cut'),
 ('Greenwood Gate Clump'),
@@ -18583,7 +18583,7 @@ VALUES
 ('Gryphon Road'),
 ('Gryps Close'),
 ('Grysedale Lane'),
-('Grysmwnt'),
+
 ('Grà Sgeir Mhòr'),
 
 
@@ -19676,10 +19676,7 @@ VALUES
 ('Gwavas Lane'),
 ('Gwavas Road'),
 ('Gwbert'),
-('Gwbert Close'),
 ('Gwbert on Sea'),
-('Gwbert Road'),
-('Gwcw'),
 ('Gwddw glas'),
 ('Gweal'),
 ('Gweal An'),
@@ -19929,7 +19926,7 @@ VALUES
 ('Gwlybfannau'),
 ('Gwman'),
 ('Gwmannog'),
-('Gwna'),
+
 ('Gwnda'),
 ('Gwndy'),
 ('Gwnen Uchaf'),
@@ -28590,7 +28587,7 @@ VALUES
 ('Hawnby Hill'),
 ('Hawnby Moor'),
 ('Hawnby Road'),
-('Hawne'),
+
 ('Hawne Close'),
 ('Hawne Lane'),
 ('Hawnelands'),
@@ -32395,7 +32392,7 @@ VALUES
 ('Hendraburnick Down'),
 ('Hendragreen'),
 ('Hendras'),
-('Hendrawna'),
+
 ('Hendre ddu'),
 ('Hendre Fadog'),
 ('Hendre faenol'),
@@ -34096,7 +34093,7 @@ VALUES
 ('Hewitts Moss'),
 ('Hewitts Place'),
 ('Hewitts Road'),
-('Hewke'),
+
 ('Hewke Hill'),
 ('Hewland Court'),
 ('Hewlett Avenue'),
@@ -41698,7 +41695,7 @@ VALUES
 ('Hongrass'),
 ('Honibere'),
 ('Honibere Belt'),
-('Honicknowle'),
+
 ('Honicknowle Green'),
 ('Honicknowle Lane'),
 ('Honignton Airfield'),
@@ -44710,7 +44707,7 @@ VALUES
 ('Howey Hill'),
 ('Howey Lane'),
 ('Howey Rise'),
-('Howff'),
+
 ('Howfield'),
 ('Howfield Green'),
 ('Howfield Lane'),
@@ -47106,10 +47103,10 @@ VALUES
 ('Huế'),
 ('Hwch fach'),
 ('Hwch Isaf'),
-('Hwfa'),
+
 ('Hwlfa Porth Egryn'),
 ('Hwngan'),
-('hwnt'),
+
 ('Hwnt ir afon'),
 ('Hwyaden'),
 ('Hwyifar Ceirw'),

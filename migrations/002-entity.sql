@@ -215,7 +215,7 @@ VALUES
 (
   'NameRegExW', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+w(?:a[a-km-qt-vz]|b[aieoruy]|c[aehkosyz]|d[adeinou]|e[ikn]|ho|i[fhijkqruvwy]|k[io]|nn|ou|ra|sz|y[kn]|z[io])\b'
+  '\b[a-z]+w(?:a[a-km-qt-vz]|[bcf-hjm][a-z]|[dln][a-rt-xz]|e[acf-km-qu-z]|i[a-fh-lo-su-z]|k[a-rt-z]|ou|ra|sz|y[kn]|z[io])\b'
 ),
 (
   'NameRegExX', '#00a0ff', 'Name', 'NAME', 'Regular expression',

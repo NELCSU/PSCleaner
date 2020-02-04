@@ -971,7 +971,7 @@ VALUES
 ('Lagerqvist'),
 ('Lagertha'),
 ('Lagerwall'),
-('Lagerwey'),
+
 ('Lages'),
 ('Lageshetty'),
 ('Lageshwar'),
@@ -994,7 +994,7 @@ VALUES
 ('Laghrouche'),
 ('Lagias'),
 ('Lagier'),
-('Lagiewka'),
+
 ('Lagimodiere'),
 ('Lagin'),
 ('Laginaf'),
@@ -1914,8 +1914,8 @@ VALUES
 ('Laloy'),
 ('Lalpourwal'),
 ('Lalramliana'),
-('Lalrinawma'),
-('Lalrinawmi'),
+
+
 ('Lalsie'),
 ('Lalsingh'),
 ('Lalson'),
@@ -2897,7 +2897,7 @@ VALUES
 ('Langvinyte'),
 ('Langwald'),
 ('Langway'),
-('Langweg'),
+
 ('Langwell'),
 ('Langwenya'),
 ('Langwith'),
@@ -3046,7 +3046,7 @@ VALUES
 ('Lansden'),
 ('Lansdon'),
 ('Lansdown'),
-('Lansdowne'),
+
 ('Lanse'),
 ('Lansell'),
 ('Lanser'),
@@ -3834,7 +3834,7 @@ VALUES
 ('Larvin'),
 ('Larvor'),
 ('Larwa'),
-('Larweh'),
+
 ('Larwill'),
 ('Larwin'),
 ('Larwood'),
@@ -3966,7 +3966,7 @@ VALUES
 ('Lashaw'),
 ('Lashaway'),
 ('Lashawn'),
-('Lashawna'),
+
 ('Lashay'),
 ('Lashbaugh'),
 ('Lashbrook'),
@@ -4167,7 +4167,7 @@ VALUES
 ('Lastie'),
 ('Lastine'),
 ('Lastinger'),
-('Lastiwka'),
+
 ('Laston'),
 ('Lastoney'),
 ('Lastoria'),
@@ -5040,7 +5040,7 @@ VALUES
 ('Lauweire'),
 ('Lauwers'),
 ('Lauwick'),
-('Lauwie'),
+
 ('Lauwrens'),
 ('Lauxen'),
 ('Lauzadyte'),
@@ -5364,7 +5364,7 @@ VALUES
 ('Lawden'),
 ('Lawder'),
 ('Lawee'),
-('Laweh'),
+
 ('Lawell'),
 ('Lawence'),
 ('Lawendel'),
@@ -5385,13 +5385,13 @@ VALUES
 ('Lawhorn'),
 ('Lawhorne'),
 ('Lawhun'),
-('Lawie'),
+
 ('Lawin'),
 ('Lawing'),
 ('Lawinger'),
 ('Lawinia'),
 ('Lawino'),
-('Lawis'),
+
 ('Lawk'),
 ('Lawkiel'),
 ('Lawl'),
@@ -5406,7 +5406,7 @@ VALUES
 ('Lawman'),
 ('Lawmaster'),
 ('Lawmon'),
-('Lawne'),
+
 ('Lawner'),
 ('Lawnetta'),
 ('Lawomtong'),
@@ -5449,7 +5449,7 @@ VALUES
 ('Lawro'),
 ('Lawruk'),
 ('Lawry'),
-('Lawrynowia'),
+
 ('Lawsen'),
 ('Lawshea'),
 ('Lawsin'),
@@ -6550,7 +6550,7 @@ VALUES
 ('Leeonnie'),
 ('Leeor'),
 ('Leeora'),
-('Leeowna'),
+
 ('Leep'),
 ('Leeper'),
 ('Leephie'),
@@ -6590,7 +6590,7 @@ VALUES
 ('Leets'),
 ('Leeum'),
 ('Leeuwendal'),
-('Leeuwis'),
+
 ('Leevan'),
 ('Leeve'),
 ('Leeven'),
@@ -7709,7 +7709,7 @@ VALUES
 ('Lemn'),
 ('Lemnian'),
 ('Lemnitzer'),
-('Lemnwie'),
+
 ('Lemo'),
 ('Lemoar'),
 ('Lemoine'),
@@ -8120,7 +8120,7 @@ VALUES
 ('Lenvol'),
 ('Lenward'),
 ('Lenway'),
-('Lenwea'),
+
 ('Lenworth'),
 ('Leny'),
 ('Lenya'),
@@ -8390,7 +8390,7 @@ VALUES
 ('Leovin'),
 ('Leow'),
 ('Leoward'),
-('Leowil'),
+
 ('Leowora'),
 ('Lepachelet'),
 ('Lepadat'),
@@ -9540,10 +9540,10 @@ VALUES
 ('Lewerke'),
 ('Lewers'),
 ('Lewes'),
-('Lewey'),
+
 ('Lewhat'),
 ('Lewick'),
-('Lewie'),
+
 ('Lewin'),
 ('Lewindon'),
 ('Lewine'),
@@ -9555,7 +9555,7 @@ VALUES
 ('Lewinson'),
 ('Lewinter'),
 ('Lewinton'),
-('Lewis'),
+
 ('Lewisa'),
 ('Lewisman'),
 ('Lewison'),
@@ -9567,7 +9567,7 @@ VALUES
 ('Lewman'),
 ('Lewnas'),
 ('Lewney'),
-('Lewno'),
+
 ('Lewon'),
 ('Lewonica'),
 ('Leworthy'),
@@ -10554,7 +10554,7 @@ VALUES
 ('Liew'),
 ('Liewald'),
 ('Liewer'),
-('Liewwll'),
+
 ('Lieyana'),
 ('Lieze'),
 ('Liezle'),
@@ -10647,7 +10647,7 @@ VALUES
 ('Lightbourn'),
 ('Lightbourne'),
 ('Lightbown'),
-('Lightbowne'),
+
 ('Lightburn'),
 ('Lightcap'),
 ('Lightell'),
@@ -11047,7 +11047,7 @@ VALUES
 ('Lilong'),
 ('Lilongi'),
 ('Liloutie'),
-('Lilowey'),
+
 ('Lilowtee'),
 ('Lilowti'),
 ('Lilowtie'),
@@ -12860,7 +12860,7 @@ VALUES
 ('Liwena'),
 ('Liwenjing'),
 ('Liweta'),
-('Liwia'),
+
 ('Liwotto'),
 ('Liwsi'),
 ('Liwu'),
@@ -15920,10 +15920,10 @@ VALUES
 ('Lowes'),
 ('Loweth'),
 ('Lowette'),
-('Lowey'),
+
 ('Lowhorn'),
 ('Lowick'),
-('Lowie'),
+
 ('Lowiesebeth'),
 ('Lowigus'),
 ('Lowila'),
@@ -15933,13 +15933,13 @@ VALUES
 ('Lowing'),
 ('Lowinger'),
 ('Lowings'),
-('Lowis'),
+
 ('Lowisa'),
 ('Lowish'),
 ('Lowiss'),
 ('Lowit'),
 ('Lowitt'),
-('Lowka'),
+
 ('Lowkiel'),
 ('Lowler'),
 ('Lowles'),
@@ -15950,10 +15950,10 @@ VALUES
 ('Lown'),
 ('Lowndes'),
 ('Lownds'),
-('Lowne'),
+
 ('Lownes'),
 ('Lowney'),
-('Lowni'),
+
 ('Lownie'),
 ('Lownsbery'),
 ('Lownsborough'),
@@ -17061,7 +17061,7 @@ VALUES
 ('Lukane'),
 ('Lukangira'),
 ('Lukanow'),
-('Lukanowkz'),
+
 ('Lukanus'),
 ('Lukanyo'),
 ('Lukarri'),
@@ -17356,7 +17356,7 @@ VALUES
 ('Lumetsberger'),
 ('Lumetta'),
 ('Lumford'),
-('Lumhkawng'),
+
 ('Lumia'),
 ('Lumiere'),
 ('Lumiisa'),
@@ -18164,7 +18164,7 @@ VALUES
 ('Luwarin'),
 ('Luwate'),
 ('Luwayne'),
-('Luwej'),
+
 ('Luwengu'),
 ('Luwero'),
 ('Luwies'),
@@ -18778,7 +18778,7 @@ VALUES
 ('Lysiotis'),
 ('Lysis'),
 ('Lysiuk'),
-('Lyskawka'),
+
 ('Lyskoit'),
 ('Lyson'),
 ('Lysongo'),

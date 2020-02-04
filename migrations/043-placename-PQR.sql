@@ -6258,7 +6258,7 @@ VALUES
 ('Penduck Shaw'),
 ('Pendula Drive'),
 ('Pendula Road'),
-('Pendwll'),
+
 ('Pendwll Road'),
 ('Pendwyallt Road'),
 ('Pendyffryn Gardens'),
@@ -6268,7 +6268,7 @@ VALUES
 ('Pendyrys'),
 ('Penearth'),
 ('Penel Orlieu'),
-('Penelewey'),
+
 ('Penelope Close'),
 ('Penelope Gardens'),
 ('Penelope Park'),
@@ -13784,7 +13784,7 @@ VALUES
 ('Pluto Rise'),
 ('Pluto Road'),
 ('Pluto Way'),
-('Plwmp'),
+
 ('Plwyf'),
 ('Plyers Hill'),
 ('Plym Close'),
@@ -16411,7 +16411,7 @@ VALUES
 ('Portway Place'),
 ('Portway Road'),
 ('Portwell'),
-('Portwey'),
+
 ('Portwey Close'),
 ('Portwood Close'),
 ('Portworthy'),
@@ -17230,7 +17230,7 @@ VALUES
 ('Powerstation'),
 ('Powerstock'),
 ('Powetts'),
-('Powey'),
+
 ('Poweylane'),
 ('Powfoot'),
 ('Powfoot Scar'),
@@ -17241,7 +17241,7 @@ VALUES
 ('Powick Road'),
 ('Powicke Drive'),
 ('Powicke Walk'),
-('Powie'),
+
 ('Powie Bushes'),
 ('Powie Point'),
 ('Powies'),
@@ -17441,7 +17441,7 @@ VALUES
 ('Pratts Pit'),
 ('Pratts Shrubbery'),
 ('Praunter'),
-('Prawle'),
+
 ('Prawn Close'),
 ('Pray Brae'),
 ('Pray Heath'),
@@ -17930,7 +17930,7 @@ VALUES
 ('Pricky Bank'),
 ('Pridd'),
 ('Priddacombe Downs'),
-('Priddbwll'),
+
 ('Priddeons Hill'),
 ('Priddis Close'),
 ('Priddles Hill'),
@@ -19513,7 +19513,7 @@ VALUES
 ('Puncheston Common'),
 ('Punchfield New Belt'),
 ('Punchfield Old Belt'),
-('Puncknowle'),
+
 ('Pund Geo'),
 ('Pund Loch'),
 ('Pund of Burravoe'),
@@ -19948,7 +19948,7 @@ VALUES
 ('Pwell Edyn'),
 ('Pwl'),
 ('Pwl mawr'),
-('Pwll'),
+
 ('Pwll a Lecwydd'),
 ('Pwll Annie'),
 ('Pwll Arian'),
@@ -20066,7 +20066,7 @@ VALUES
 ('Pwllygranant'),
 ('Pwllygravel'),
 ('Pwllypant'),
-('Pwmp'),
+
 ('Pwynt'),
 ('Pyat'),
 ('Pyat Hill'),
@@ -23977,7 +23977,7 @@ VALUES
 ('Ravensden'),
 ('Ravensden Road'),
 ('Ravensdon'),
-('Ravensdowne'),
+
 ('Ravenseat Moor'),
 ('Ravenser Close'),
 ('Ravensfield'),
@@ -24723,7 +24723,7 @@ VALUES
 ('Reavill Close'),
 ('Reavley Avenue'),
 ('Reawick'),
-('Reawla'),
+
 ('Reawla Lane'),
 ('Reay Avenue'),
 ('Reay Crescent'),
@@ -28299,7 +28299,7 @@ VALUES
 ('Rhossilly'),
 ('Rhosson'),
 ('Rhostir'),
-('Rhostrehwfa'),
+
 ('Rhostryfan'),
 ('Rhostyllen'),
 ('Rhoswiel'),
@@ -28351,7 +28351,7 @@ VALUES
 ('Rhuvid Bank'),
 ('Rhuvoult'),
 ('Rhwd Dingle'),
-('Rhwng'),
+
 ('Rhwng ddeugoed'),
 ('Rhws'),
 ('Rhwy'),
@@ -28423,7 +28423,7 @@ VALUES
 ('Rhydings'),
 ('Rhydlafar Drive'),
 ('Rhydlanfair'),
-('Rhydlewis'),
+
 ('Rhydlios'),
 ('Rhydol'),
 ('Rhydonen'),

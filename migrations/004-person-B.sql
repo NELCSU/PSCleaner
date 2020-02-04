@@ -2643,7 +2643,7 @@ VALUES
 ('Baldevji'),
 ('Baldevsingh'),
 ('Baldevsinh'),
-('Baldeweg'),
+
 ('Baldey'),
 ('Baldia'),
 ('Baldian'),
@@ -3089,7 +3089,7 @@ VALUES
 ('Ballve'),
 ('Ballway'),
 ('Ballweber'),
-('Ballweg'),
+
 ('Bally'),
 ('Ballybor'),
 ('Ballymakeery'),
@@ -4690,7 +4690,7 @@ VALUES
 ('Bardash'),
 ('Bardauskaite'),
 ('Bardauskiene'),
-('Bardawil'),
+
 ('Barday'),
 ('Barde'),
 ('Bardebes'),
@@ -7400,10 +7400,10 @@ VALUES
 ('Bawher'),
 ('Bawhom'),
 ('Bawks'),
-('Bawla'),
+
 ('Bawling'),
 ('Bawn'),
-('Bawna'),
+
 ('Bawner'),
 ('Bawoh'),
 ('Bawol'),
@@ -12103,7 +12103,7 @@ VALUES
 ('Berkovitch'),
 ('Berkovits'),
 ('Berkow'),
-('Berkowic'),
+
 ('Berkoz'),
 ('Berkpinar'),
 ('Berks'),
@@ -13596,7 +13596,7 @@ VALUES
 ('Bewell'),
 ('Bewers'),
 ('Bewes'),
-('Bewey'),
+
 ('Bewick'),
 ('Bewig'),
 ('Bewitt'),
@@ -14247,8 +14247,8 @@ VALUES
 ('Bhawantee'),
 ('Bhawesh'),
 ('Bhawin'),
-('Bhawle'),
-('Bhawna'),
+
+
 ('Bhawon'),
 ('Bhawoo'),
 ('Bhawsar'),
@@ -14604,7 +14604,7 @@ VALUES
 ('Biala'),
 ('Bialan'),
 ('Bialas'),
-('Bialasiewiz'),
+
 ('Biale'),
 ('Bialer'),
 ('Bialic'),
@@ -15170,7 +15170,7 @@ VALUES
 ('Biernesser'),
 ('Bierny'),
 ('Bieron'),
-('Bierowka'),
+
 ('Biers'),
 ('Biersack'),
 ('Bierschbach'),
@@ -16682,7 +16682,7 @@ VALUES
 ('Biros'),
 ('Biroson'),
 ('Birot'),
-('Birowka'),
+
 ('Birr'),
 ('Birraine'),
 ('Birram'),
@@ -17082,7 +17082,7 @@ VALUES
 ('Biswash'),
 ('Biswatosh'),
 ('Biswell'),
-('Biswep'),
+
 ('Biswokarma'),
 ('Bisztray'),
 ('Bisztrony'),
@@ -17274,7 +17274,7 @@ VALUES
 ('Biwer'),
 ('Biwerston'),
 ('Biwi'),
-('Biwie'),
+
 ('Biwonsa'),
 ('Biwott'),
 ('Bix'),
@@ -18210,7 +18210,7 @@ VALUES
 ('Blevins'),
 ('Blewden'),
 ('Blewer'),
-('Blewis'),
+
 ('Blewitt'),
 ('Blewman'),
 ('Blews'),
@@ -20315,7 +20315,7 @@ VALUES
 ('Bolls'),
 ('Bollschweiler'),
 ('Bollum'),
-('Bollweg'),
+
 ('Bolly'),
 ('Bolman'),
 ('Bolmer'),
@@ -21809,7 +21809,7 @@ VALUES
 ('Borow'),
 ('Borowick'),
 ('Borowiel'),
-('Borowka'),
+
 ('Borowy'),
 ('Borozdin'),
 ('Borque'),
@@ -22281,7 +22281,7 @@ VALUES
 ('Botcherry'),
 ('Botchey'),
 ('Botchway'),
-('Botchwey'),
+
 ('Bote'),
 ('Botea'),
 ('Botean'),
@@ -22457,7 +22457,7 @@ VALUES
 ('Botundu'),
 ('Botusan'),
 ('Botvycius'),
-('Botwey'),
+
 ('Botwin'),
 ('Botwinick'),
 ('Botwood'),
@@ -23736,17 +23736,17 @@ VALUES
 ('Bowery'),
 ('Bowes'),
 ('Bowesteve'),
-('Bowey'),
+
 ('Bowgen'),
 ('Bowgren'),
 ('Bowhall'),
 ('Bowhay'),
 ('Bowhill'),
 ('Bowick'),
-('Bowie'),
+
 ('Bowin'),
 ('Bowins'),
-('Bowis'),
+
 ('Bowker'),
 ('Bowkley'),
 ('Bowlan'),
@@ -23757,7 +23757,7 @@ VALUES
 ('Bowlden'),
 ('Bowlding'),
 ('Bowlds'),
-('Bowle'),
+
 ('Bowlen'),
 ('Bowler'),
 ('Bowles'),
@@ -23780,7 +23780,7 @@ VALUES
 ('Bownas'),
 ('Bownass'),
 ('Bownds'),
-('Bowne'),
+
 ('Bownes'),
 ('Bowness'),
 ('Bowns'),
@@ -24559,7 +24559,7 @@ VALUES
 ('Branderhorst'),
 ('Branders'),
 ('Brandes'),
-('Brandewie'),
+
 ('Brandford'),
 ('Brandful'),
 ('Brandhorst'),
@@ -25227,7 +25227,7 @@ VALUES
 ('Bredero'),
 ('Bredesen'),
 ('Bredeson'),
-('Bredeweg'),
+
 ('Bredgaard'),
 ('Bredhauer'),
 ('Bredican'),
@@ -25782,7 +25782,7 @@ VALUES
 ('Brewin'),
 ('Brewington'),
 ('Brewins'),
-('Brewis'),
+
 ('Brewitt'),
 ('Brewley'),
 ('Brewood'),
@@ -25924,7 +25924,7 @@ VALUES
 ('Bricknell'),
 ('Brickner'),
 ('Brickson'),
-('Brickweg'),
+
 ('Brickwood'),
 ('Briclet'),
 ('Bricman'),
@@ -26798,7 +26798,7 @@ VALUES
 ('Brodala'),
 ('Brodarics'),
 ('Brodaty'),
-('Brodawka'),
+
 ('Brodbeck'),
 ('Brodbin'),
 ('Brodbine'),
@@ -27343,9 +27343,9 @@ VALUES
 ('Brownback'),
 ('Brownbill'),
 ('Brownbridge'),
-('Brownd'),
+
 ('Browndon'),
-('Browne'),
+
 ('Brownell'),
 ('Brownen'),
 ('Browner'),
@@ -27475,7 +27475,7 @@ VALUES
 ('Brucks'),
 ('Bruckschen'),
 ('Bruckshaw'),
-('Bruckweh'),
+
 ('Brucoli'),
 ('Brucy'),
 ('Brud'),
@@ -27499,7 +27499,7 @@ VALUES
 ('Brueckler'),
 ('Brueckman'),
 ('Brueckner'),
-('Brueckweh'),
+
 ('Bruegel'),
 ('Bruegge'),
 ('Brueggeman'),
@@ -29190,7 +29190,7 @@ VALUES
 ('Bulaty'),
 ('Bulaukaite'),
 ('Bulavina'),
-('Bulawka'),
+
 ('Bulbeck'),
 ('Bulbes'),
 ('Bulbrook'),
@@ -30892,7 +30892,7 @@ VALUES
 ('Butkeviciene'),
 ('Butkevicius'),
 ('Butkiene'),
-('Butkiewiz'),
+
 ('Butkute'),
 ('Butkuviene'),
 ('Butkyte'),
@@ -31231,7 +31231,7 @@ VALUES
 ('Bweba'),
 ('Bwebale'),
 ('Bwee'),
-('Bweh'),
+
 ('Bwela'),
 ('Bwema'),
 ('Bwemo'),
@@ -31475,7 +31475,7 @@ VALUES
 ('Byzance'),
 ('Bzait'),
 ('Bzandisauskaite'),
-('Bzdawka'),
+
 ('Bzdega'),
 ('Bzdon'),
 ('Bzdziel'),

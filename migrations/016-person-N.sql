@@ -322,7 +322,7 @@ VALUES
 ('Nachtman'),
 ('Nachtrab'),
 ('Nachtrieb'),
-('Nachtwey'),
+
 ('Nachula'),
 ('Nachuma'),
 ('Nachur'),
@@ -1996,7 +1996,7 @@ VALUES
 ('Nallella'),
 ('Nallen'),
 ('Nallet'),
-('Nalleweg'),
+
 ('Nalley'),
 ('Nalleye'),
 ('Nallia'),
@@ -2950,7 +2950,7 @@ VALUES
 ('Narayanmurthy'),
 ('Narayansamy'),
 ('Narayen'),
-('Naraynasawmy'),
+
 ('Naraynen'),
 ('Narays'),
 ('Narband'),
@@ -4779,19 +4779,19 @@ VALUES
 ('Nawdor'),
 ('Nawed'),
 ('Naweed'),
-('Nawef'),
-('Nawej'),
+
+
 ('Nawel'),
 ('Nawelagama'),
 ('Nawer'),
 ('Nawerun'),
-('Nawez'),
+
 ('Nawfat'),
 ('Nawfel'),
 ('Nawferdeen'),
 ('Nawful'),
 ('Nawial'),
-('Nawid'),
+
 ('Nawida'),
 ('Nawidrahman'),
 ('Nawied'),
@@ -4801,7 +4801,7 @@ VALUES
 ('Nawira'),
 ('Nawit'),
 ('Nawitta'),
-('Nawli'),
+
 ('Nawman'),
 ('Nawn'),
 ('Nawomola'),
@@ -4913,7 +4913,7 @@ VALUES
 ('Nayeen'),
 ('Nayeer'),
 ('Nayef'),
-('Nayegninwlo'),
+
 ('Nayegon'),
 ('Nayeh'),
 ('Nayehare'),
@@ -5300,7 +5300,7 @@ VALUES
 ('Nazume'),
 ('Nazurudeen'),
 ('Nazwar'),
-('Nazwey'),
+
 ('Nazworth'),
 ('Nazy'),
 ('Nazyer'),
@@ -5571,7 +5571,7 @@ VALUES
 ('Ndombele'),
 ('Ndome'),
 ('Ndomingiedie'),
-('Ndomwey'),
+
 ('Ndon'),
 ('Ndona'),
 ('Ndonda'),
@@ -6890,7 +6890,7 @@ VALUES
 ('Nelon'),
 ('Neloom'),
 ('Nelopa'),
-('Nelowfa'),
+
 ('Nelria'),
 ('Nels'),
 ('Nelsen'),
@@ -7869,7 +7869,7 @@ VALUES
 ('Neuvill'),
 ('Neuvirth'),
 ('Neuvonen'),
-('Neuweg'),
+
 ('Neuweger'),
 ('Neuwert'),
 ('Neuwirth'),
@@ -8074,7 +8074,7 @@ VALUES
 ('Newenle'),
 ('Newens'),
 ('Newes'),
-('Newey'),
+
 ('Newfield'),
 ('Newford'),
 ('Newgard'),
@@ -8097,7 +8097,7 @@ VALUES
 ('Newinger'),
 ('Newington'),
 ('Newins'),
-('Newis'),
+
 ('Newiss'),
 ('Newitt'),
 ('Newjoto'),
@@ -8113,7 +8113,7 @@ VALUES
 ('Newling'),
 ('Newlon'),
 ('Newlove'),
-('Newma'),
+
 ('Newman'),
 ('Newmans'),
 ('Newmar'),
@@ -8719,7 +8719,7 @@ VALUES
 ('Ngwanma'),
 ('Ngwanza'),
 ('Ngwawasya'),
-('Ngwem'),
+
 ('Ngwendema'),
 ('Ngweng'),
 ('Ngwenya'),
@@ -11298,7 +11298,7 @@ VALUES
 ('Niwas'),
 ('Niwata'),
 ('Niwate'),
-('Niwla'),
+
 ('Niwlaos'),
 ('Nix'),
 ('Nixey'),
@@ -11524,7 +11524,7 @@ VALUES
 ('Nkanza'),
 ('Nkao'),
 ('Nkapsa'),
-('Nkarevwem'),
+
 ('Nkaronye'),
 ('Nkashama'),
 ('Nkassa'),
@@ -11586,7 +11586,7 @@ VALUES
 ('Nkeonyere'),
 ('Nker'),
 ('Nkere'),
-('Nkereuwem'),
+
 ('Nkese'),
 ('Nkesiga'),
 ('Nketa'),
@@ -12488,7 +12488,7 @@ VALUES
 ('Noome'),
 ('Noonchester'),
 ('Noone'),
-('Nooneesawmy'),
+
 ('Noonen'),
 ('Nooner'),
 ('Nooney'),
@@ -13216,8 +13216,8 @@ VALUES
 ('Norways'),
 ('Norwell'),
 ('Norwick'),
-('Norwid'),
-('Norwie'),
+
+
 ('Norwin'),
 ('Norwine'),
 ('Norwood'),
@@ -13743,11 +13743,11 @@ VALUES
 ('Nowhin'),
 ('Nowick'),
 ('Nowida'),
-('Nowie'),
+
 ('Nowikow'),
 ('Nowill'),
 ('Nowina'),
-('Nowka'),
+
 ('Nowlan'),
 ('Nowland'),
 ('Nowlen'),
@@ -13757,7 +13757,7 @@ VALUES
 ('Nowling'),
 ('Nowlotha'),
 ('Nowman'),
-('Nowmi'),
+
 ('Nowocin'),
 ('Nowoghonwenma'),
 ('Nowok'),
@@ -14135,7 +14135,7 @@ VALUES
 ('Ntitima'),
 ('Ntizhila'),
 ('Ntoburi'),
-('Ntokungwia'),
+
 ('Ntolios'),
 ('Ntoluke'),
 ('Ntombana'),
@@ -15203,7 +15203,7 @@ VALUES
 ('Nwacheli'),
 ('Nwachinaemere'),
 ('Nwachinemere'),
-('Nwachukwla'),
+
 ('Nwachukwuh'),
 ('Nwachukwy'),
 ('Nwachunwu'),
@@ -15357,7 +15357,7 @@ VALUES
 ('Nwesigwa'),
 ('Nweti'),
 ('Nweze'),
-('Nwfi'),
+
 ('Nwiado'),
 ('Nwike'),
 ('Nwikpo'),

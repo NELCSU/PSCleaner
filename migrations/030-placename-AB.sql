@@ -1784,7 +1784,7 @@ VALUES
 ('Allanhall'),
 ('Allanmead'),
 ('Allanpark'),
-('Allanrowie'),
+
 ('Allans Ling'),
 ('Allans Little'),
 ('Allansford'),
@@ -2185,7 +2185,7 @@ VALUES
 ('Alpington'),
 ('Alresford'),
 ('Alrewas'),
-('Alrewic'),
+
 ('Alsa Gait'),
 ('Alsace'),
 ('Alsagers'),
@@ -3019,7 +3019,7 @@ VALUES
 ('Annington'),
 ('Annions'),
 ('Annisdale'),
-('Annisdowne'),
+
 ('Annisfield'),
 ('Annisgarth'),
 ('Annishader'),
@@ -3320,7 +3320,7 @@ VALUES
 ('Appelford'),
 ('Appenine'),
 ('Apperdale'),
-('Apperknowle'),
+
 ('Apperley Centre'),
 ('Apperley Dene'),
 ('Apperleybankfoot'),
@@ -3978,7 +3978,7 @@ VALUES
 ('Ardwall Isle'),
 ('Ardwell'),
 ('Ardwick'),
-('Ardwil'),
+
 ('Ardyle'),
 ('Arean'),
 ('Arecaria'),
@@ -4291,7 +4291,7 @@ VALUES
 ('Arnton'),
 ('Arnulls'),
 ('Arnups Belt'),
-('Arnwil'),
+
 ('Arnwood'),
 ('Arodene'),
 ('Arondale'),
@@ -4639,7 +4639,7 @@ VALUES
 ('Ashdell'),
 ('Ashdene'),
 ('Ashdown & Conquest'),
-('Ashdowne'),
+
 ('Asheldon'),
 ('Ashels Batch'),
 ('Asheltor'),
@@ -4735,7 +4735,7 @@ VALUES
 ('Ashingdon'),
 ('Ashkelon'),
 ('Ashkirk'),
-('Ashknowle'),
+
 ('Ashlade'),
 ('Ashlade Firs'),
 ('Ashlake'),
@@ -5375,7 +5375,7 @@ VALUES
 ('Auchenback'),
 ('Auchenblae'),
 ('Auchenbothie'),
-('Auchenbowie'),
+
 ('Auchenbreck'),
 ('Auchencairn'),
 ('Auchencar'),
@@ -5419,7 +5419,7 @@ VALUES
 ('Auchenheath'),
 ('Auchenhew'),
 ('Auchenhove'),
-('Auchenhowie'),
+
 ('Aucheninnes'),
 ('Auchenkeld'),
 ('Auchenkist'),
@@ -9833,7 +9833,7 @@ VALUES
 ('Bardon View'),
 ('Bardon Walk'),
 ('Bardon Way'),
-('Bardowie'),
+
 ('Bardowie Loch'),
 ('Bardown'),
 ('Bardown Road'),
@@ -17714,7 +17714,7 @@ VALUES
 ('Benefield Road'),
 ('Benefit Street'),
 ('Benefold Copse'),
-('Beneknowle'),
+
 ('Benelip'),
 ('Benellen'),
 ('Benellen Gardens'),
@@ -18212,7 +18212,7 @@ VALUES
 ('Bentlass Hill'),
 ('Bentlass Road'),
 ('Bentlass Terrace'),
-('Bentlawnt'),
+
 ('Bentlea Road'),
 ('Bentley Dale'),
 ('Bentley Firs'),
@@ -25068,7 +25068,7 @@ VALUES
 ('Blairbeth Mews'),
 ('Blairbeth Road'),
 ('Blairbeth Terrace'),
-('Blairbowie'),
+
 ('Blairbuie Drive'),
 ('Blairbuies Hill'),
 ('Blairbuy Loch'),
@@ -25470,7 +25470,7 @@ VALUES
 ('Blanchards'),
 ('Blanchbeck'),
 ('Blanchdown'),
-('Blanchedowne'),
+
 ('Blanches'),
 ('Blanchfort'),
 ('Blanchiebrough'),
@@ -33989,7 +33989,7 @@ VALUES
 ('Brebner Place'),
 ('Brebner Terrace'),
 ('Brecanridge Port'),
-('Brecbowie'),
+
 ('Breccia Gardens'),
 ('Brechame Road'),
 ('Brechan Rig'),
@@ -37404,7 +37404,7 @@ VALUES
 ('Broadways'),
 ('Broadweir'),
 ('Broadwells'),
-('Broadwey'),
+
 ('Broadwick'),
 ('Broadwindsor'),
 ('Broadwoodkelly'),
@@ -45341,7 +45341,7 @@ VALUES
 ('Butteriss Downs'),
 ('Butteriss Gate'),
 ('Butterknowes'),
-('Butterknowle'),
+
 ('Butterlands'),
 ('Butterlaw'),
 ('Butterlee'),
@@ -45646,7 +45646,7 @@ VALUES
 ('Bwgan'),
 ('Bwgan Ddu'),
 ('Bwl'),
-('Bwla'),
+
 ('Bwlarth'),
 ('Bwlch'),
 ('Bwlchcoediog'),

@@ -9185,7 +9185,7 @@ VALUES
 ('Ewins Ash'),
 ('Ewins Close'),
 ('Ewins Hill'),
-('Ewlo'),
+
 ('Ewloe Close'),
 ('Ewloe Court'),
 ('Ewloe Drive'),
@@ -13976,7 +13976,7 @@ VALUES
 ('Ferrous Close'),
 ('Ferrous Road'),
 ('Ferrous Way'),
-('Ferrowie'),
+
 ('Ferry Boat'),
 ('Ferry Burrows'),
 ('Ferry Channel'),
@@ -15273,7 +15273,7 @@ VALUES
 ('Findochty'),
 ('Findon'),
 ('Findons'),
-('Findowie'),
+
 ('Findowrie'),
 ('Findrassie'),
 ('Finduie'),
@@ -23801,7 +23801,7 @@ VALUES
 ('Fuzzy Clump'),
 ('Fuzzy Drove'),
 ('Fuzzy Grounds'),
-('Fwng'),
+
 ('Fwthog'),
 ('Fydell'),
 ('Fydell Court'),

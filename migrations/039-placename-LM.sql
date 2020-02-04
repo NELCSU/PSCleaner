@@ -1583,7 +1583,7 @@ VALUES
 ('Lambscote Close'),
 ('Lambscroft Avenue'),
 ('Lambscroft Way'),
-('Lambsdowne'),
+
 ('Lambseth'),
 ('Lambsfield'),
 ('Lambsfrith Grove'),
@@ -2217,7 +2217,7 @@ VALUES
 ('Landsdown Grove'),
 ('Landsdown Mews'),
 ('Landsdown Road'),
-('Landsdowne'),
+
 ('Landsdowne Avenue'),
 ('Landsdowne Close'),
 ('Landsdowne Court'),
@@ -3394,7 +3394,7 @@ VALUES
 ('Lanterns Lane'),
 ('Lanterns Way'),
 ('Lanternside'),
-('Lantewey'),
+
 ('Lanthony Close'),
 ('Lanthorn Close'),
 ('Lanthorn Stile'),
@@ -5017,7 +5017,7 @@ VALUES
 ('Lawnswood Road'),
 ('Lawnswood Vale'),
 ('Lawnswood View'),
-('Lawnt'),
+
 ('Lawnt Chepstow Castle'),
 ('Lawnt Fowlio'),
 ('Lawnt yr Afallen'),
@@ -15252,7 +15252,7 @@ VALUES
 ('Llandaff Way'),
 ('Llandanwg'),
 ('Llandarcy'),
-('Llandawke'),
+
 ('Llanddaniel Fab'),
 ('Llanddarog'),
 ('Llanddeiniol'),
@@ -15461,9 +15461,9 @@ VALUES
 ('Llanfair yn Neubwll'),
 ('Llanfair yng Nghornwy'),
 ('Llanfairhall'),
-('Llanfairpwll'),
+
 ('Llanfairpwllgwyngyll'),
-('Llanfairyneubwll'),
+
 ('Llanfairynghornwy'),
 ('Llanfarian'),
 ('Llanfawr Close'),
@@ -15679,7 +15679,7 @@ VALUES
 ('Llanllwchaearn'),
 ('Llanllwchaiarn'),
 ('Llanllwchhaearn'),
-('Llanllwni'),
+
 ('Llanllywel'),
 ('Llanlowdy'),
 ('Llanlowdy Hill'),
@@ -15889,7 +15889,7 @@ VALUES
 ('Llawhaden'),
 ('Llawlech'),
 ('Llawnroc Close'),
-('Llawnt'),
+
 ('Llawr llan'),
 ('Llawr Pentre'),
 ('Llawr Wern'),
@@ -16118,7 +16118,7 @@ VALUES
 ('Llwchwr'),
 ('Llwn Einion'),
 ('Llwn Yr Eos'),
-('Llwnc'),
+
 ('Llwncelyn Close'),
 ('Llwnch'),
 ('Llwy onn'),
@@ -22741,7 +22741,7 @@ VALUES
 ('Lown Hill'),
 ('Lowna Road'),
 ('Lownage'),
-('Lownd'),
+
 ('Lownde'),
 ('Lowndes Avenue'),
 ('Lowndes Close'),
@@ -28650,7 +28650,7 @@ VALUES
 ('Manby'),
 ('Middlegate'),
 ('Mancetter'),
-('Mancheldowne'),
+
 ('Manchester'),
 ('Northenden'),
 ('Piccadilly'),
@@ -43723,7 +43723,7 @@ VALUES
 ('Moll Harriss Clump'),
 ('Moll Hayes'),
 ('Mollacliffe'),
-('Mollanbowie'),
+
 ('Mollands'),
 ('Mollards'),
 ('Mollatts'),
@@ -46789,7 +46789,7 @@ VALUES
 ('Mossthwaite Fell'),
 ('Mosston Road'),
 ('Mosstone'),
-('Mosstowie'),
+
 ('Mosstown'),
 ('Mosstree Close'),
 ('Mossvale'),
@@ -47513,7 +47513,7 @@ VALUES
 ('Mowhay Meadow'),
 ('Mowhay Road'),
 ('Mowhills'),
-('Mowie'),
+
 ('Mowie Close'),
 ('Mowing'),
 ('Mowings Lane'),
@@ -49275,7 +49275,7 @@ VALUES
 ('Mwmbwls'),
 ('Mwmffri'),
 ('Mwn'),
-('Mwnt'),
+
 ('Mwnws'),
 ('Mwrog'),
 ('Mwrwg'),
@@ -49284,7 +49284,7 @@ VALUES
 ('Mwyalchod'),
 ('Mwyn Ffordd'),
 ('Mwyn Fynydd'),
-('Mwynbwll'),
+
 ('Mwyndy'),
 ('Mwyngil'),
 ('Mwyrdy'),

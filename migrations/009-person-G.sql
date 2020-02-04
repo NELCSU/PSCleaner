@@ -358,7 +358,7 @@ VALUES
 ('Gadekah'),
 ('Gadeken'),
 ('Gadel'),
-('Gadelmawla'),
+
 ('Gadelrab'),
 ('Gademsetty'),
 ('Gaden'),
@@ -1485,7 +1485,7 @@ VALUES
 ('Gallusser'),
 ('Gallwas'),
 ('Gallway'),
-('Gallwey'),
+
 ('Gally'),
 ('Gallyot'),
 ('Galm'),
@@ -3102,7 +3102,7 @@ VALUES
 ('Garway'),
 ('Garwe'),
 ('Garwell'),
-('Garwey'),
+
 ('Garwick'),
 ('Garwin'),
 ('Garwood'),
@@ -3915,12 +3915,12 @@ VALUES
 ('Gawiuk'),
 ('Gawkrodger'),
 ('Gawlas'),
-('Gawle'),
+
 ('Gawler'),
 ('Gawley'),
 ('Gawlytta'),
 ('Gawn'),
-('Gawne'),
+
 ('Gawned'),
 ('Gawor'),
 ('Gawre'),
@@ -4221,8 +4221,8 @@ VALUES
 ('Gbetie'),
 ('Gbetin'),
 ('Gbeve'),
-('Gbewga'),
-('Gbewla'),
+
+
 ('Gbewoli'),
 ('Gbikpi'),
 ('Gbin'),
@@ -7339,11 +7339,11 @@ VALUES
 ('Ghebreghiorgis'),
 ('Ghebrehawariat'),
 ('Ghebrehinet'),
-('Ghebrehiwef'),
+
 ('Ghebrehiwet'),
 ('Ghebrehiwit'),
 ('Ghebrehiwot'),
-('Ghebrehwey'),
+
 ('Ghebreigzabiher'),
 ('Ghebreigziabher'),
 ('Ghebreindrias'),
@@ -9528,7 +9528,7 @@ VALUES
 ('Giovanrdi'),
 ('Giovany'),
 ('Giovaughn'),
-('Giovawna'),
+
 ('Giove'),
 ('Giovenco'),
 ('Giovengo'),
@@ -11121,7 +11121,7 @@ VALUES
 ('Glowacky'),
 ('Glowala'),
 ('Glowe'),
-('Glowka'),
+
 ('Glownia'),
 ('Gloxinia'),
 ('Gloyds'),
@@ -11239,7 +11239,7 @@ VALUES
 ('Gnanakumur'),
 ('Gnanalatha'),
 ('Gnanalingam'),
-('Gnanalowni'),
+
 ('Gnanaluxmy'),
 ('Gnanamathy'),
 ('Gnanambikai'),
@@ -11700,7 +11700,7 @@ VALUES
 ('Godward'),
 ('Godwatta'),
 ('Godwell'),
-('Godwil'),
+
 ('Godwill'),
 ('Godwin'),
 ('Godwina'),
@@ -11834,7 +11834,7 @@ VALUES
 ('Goetzsche'),
 ('Goevert'),
 ('Goewert'),
-('Goewey'),
+
 ('Gofaone'),
 ('Gofar'),
 ('Goffar'),
@@ -13803,7 +13803,7 @@ VALUES
 ('Gotor'),
 ('Gotora'),
 ('Gotowala'),
-('Gotowka'),
+
 ('Gotschall'),
 ('Gotsche'),
 ('Gotshal'),
@@ -14278,9 +14278,9 @@ VALUES
 ('Gower'),
 ('Gowers'),
 ('Gowes'),
-('Gowey'),
+
 ('Gowher'),
-('Gowie'),
+
 ('Gowiely'),
 ('Gowin'),
 ('Gowinder'),
@@ -14293,7 +14293,7 @@ VALUES
 ('Gowman'),
 ('Gownder'),
 ('Gowney'),
-('Gowni'),
+
 ('Gownowry'),
 ('Gowns'),
 ('Gowon'),
@@ -14658,7 +14658,7 @@ VALUES
 ('Graft'),
 ('Grafton'),
 ('Grafulla'),
-('Grafweg'),
+
 ('Gragas'),
 ('Gragasin'),
 ('Gragbe'),
@@ -15202,7 +15202,7 @@ VALUES
 ('Gravouil'),
 ('Graw'),
 ('Grawert'),
-('Grawey'),
+
 ('Gray'),
 ('Grayaa'),
 ('Graybeal'),
@@ -16376,7 +16376,7 @@ VALUES
 ('Grinvald'),
 ('Grinvalo'),
 ('Grinwald'),
-('Grinwis'),
+
 ('Grinyer'),
 ('Grinyte'),
 ('Griogre'),
@@ -16635,7 +16635,7 @@ VALUES
 ('Groeneveld'),
 ('Groenevelt'),
 ('Groenewald'),
-('Groeneweg'),
+
 ('Groenewegen'),
 ('Groenewold'),
 ('Groenewoud'),
@@ -17269,7 +17269,7 @@ VALUES
 ('Gruvel'),
 ('Gruver'),
 ('Gruwell'),
-('Gruwez'),
+
 ('Gruyters'),
 ('Gruz'),
 ('Gruzauskaite'),
@@ -17326,7 +17326,7 @@ VALUES
 ('Grysole'),
 ('Gryson'),
 ('Gryspeerdt'),
-('Gryszowka'),
+
 ('Gryte'),
 ('Grytta'),
 ('Gryz'),
@@ -17352,7 +17352,7 @@ VALUES
 ('Grzeskow'),
 ('Grzona'),
 ('Grzymala'),
-('Grzywna'),
+
 ('Grzywok'),
 ('Gsassi'),
 ('Gscheidle'),

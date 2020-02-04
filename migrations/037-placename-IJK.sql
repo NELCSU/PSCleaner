@@ -987,7 +987,7 @@ VALUES
 ('Indiana Grove'),
 ('Indianapolis'),
 ('Indians Road'),
-('Indicknowle'),
+
 ('Indicombe Lane'),
 ('Indigo Drive'),
 ('Indigo Gardens'),
@@ -7458,7 +7458,7 @@ VALUES
 ('Kelmscott Rise'),
 ('Kelmscott Road'),
 ('Kelmscott Way'),
-('Kelowna'),
+
 ('Kelpatrick Road'),
 ('Kelphope Hill'),
 ('Kelpie Gardens'),
@@ -9934,7 +9934,7 @@ VALUES
 ('Kilbourne Close'),
 ('Kilbourne Court'),
 ('Kilbourne Road'),
-('Kilbowie'),
+
 ('Kilbowie Place'),
 ('Kilbowie Road'),
 ('Kilbrack'),
@@ -14872,7 +14872,7 @@ VALUES
 ('Knowlbank Road'),
 ('Knowldale Way'),
 ('Knowldens Glen'),
-('Knowle'),
+
 ('Knowle Brake'),
 ('Knowle DGE'),
 ('Knowle Height'),

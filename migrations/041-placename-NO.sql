@@ -25,7 +25,7 @@ VALUES
 ('Nab Walk'),
 ('Nab Water'),
 ('Nab Wood'),
-('Nabadwip'),
+
 ('Nabbin'),
 ('Nabbott'),
 ('Nabbswood'),
@@ -872,7 +872,7 @@ VALUES
 ('Nanty Felin'),
 ('Nanty Moor'),
 ('Nantybeudy'),
-('Nantybwla'),
+
 ('Nantycagal'),
 ('Nantycaws'),
 ('Nantyfelin'),
