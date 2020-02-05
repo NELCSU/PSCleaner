@@ -1758,7 +1758,6 @@ VALUES
 ('Pamon'),
 ('Pamora'),
 ('Pamos'),
-
 ('Pamp'),
 ('Pampagnin'),
 ('Pampalona'),
@@ -2114,7 +2113,6 @@ VALUES
 ('Panetta'),
 ('Panettiere'),
 ('Panev'),
-
 ('Panex'),
 ('Panfalone'),
 ('Panfeng'),
@@ -3716,7 +3714,6 @@ VALUES
 ('Parmesh'),
 ('Parmeshwar'),
 ('Parmeshwaree'),
-('Parmeshwor'),
 ('Parmessur'),
 ('Parmeswar'),
 ('Parmeswaran'),
@@ -4169,12 +4166,9 @@ VALUES
 ('Parwathy'),
 ('Parwattie'),
 ('Parween'),
-
 ('Parweze'),
 ('Parwin'),
 ('Parwinder'),
-
-
 ('Pary'),
 ('Paryan'),
 ('Parycher'),
@@ -4677,7 +4671,6 @@ VALUES
 ('Paszkiet'),
 ('Paszkiewics'),
 ('Paszkot'),
-
 ('Pasztelan'),
 ('Pasztor'),
 ('Pasztory'),
@@ -5764,17 +5757,13 @@ VALUES
 ('Pawer'),
 ('Pawera'),
 ('Pawet'),
-
-
 ('Pawin'),
 ('Pawine'),
 ('Pawinee'),
 ('Pawittar'),
 ('Pawl'),
-
 ('Pawlat'),
 ('Pawlata'),
-
 ('Pawletta'),
 ('Pawley'),
 ('Pawlica'),
@@ -5783,7 +5772,6 @@ VALUES
 ('Pawlina'),
 ('Pawling'),
 ('Pawlinow'),
-
 ('Pawlon'),
 ('Pawloniez'),
 ('Pawlos'),
@@ -5792,12 +5780,10 @@ VALUES
 ('Pawlukanis'),
 ('Pawlus'),
 ('Pawnandeep'),
-
 ('Pawolleck'),
 ('Pawoyan'),
 ('Pawsey'),
 ('Pawson'),
-('Pawul'),
 ('Pawutiyapong'),
 ('Pawwel'),
 ('Pawzath'),
@@ -6506,7 +6492,6 @@ VALUES
 ('Pegap'),
 ('Pegarro'),
 ('Pegat'),
-
 ('Pegden'),
 ('Pegel'),
 ('Pegelow'),
@@ -6555,7 +6540,6 @@ VALUES
 ('Pehling'),
 ('Pehlivan'),
 ('Pehlivanos'),
-
 ('Pehrson'),
 ('Pehrsson'),
 ('Pei'),
@@ -8183,7 +8167,6 @@ VALUES
 ('Peroumal'),
 ('Perouse'),
 ('Perow'),
-
 ('Peroy'),
 ('Peroz'),
 ('Perozshah'),
@@ -8510,7 +8493,6 @@ VALUES
 ('Pervusin'),
 ('Perween'),
 ('Perwer'),
-
 ('Perwin'),
 ('Perwone'),
 ('Pery'),
@@ -9724,7 +9706,6 @@ VALUES
 ('Phansing'),
 ('Phanta'),
 ('Phanthanouvon'),
-
 ('Phanthauong'),
 ('Phanthavong'),
 ('Phanthavongsa'),
@@ -9817,7 +9798,6 @@ VALUES
 ('Phavinder'),
 ('Phaw'),
 ('Phawana'),
-('Phawun'),
 ('Phay'),
 ('Phayade'),
 ('Phaymany'),
@@ -11167,7 +11147,6 @@ VALUES
 ('Pietruk'),
 ('Pietrus'),
 ('Pietrzeniuk'),
-('Pietrzykowsk'),
 ('Pietschker'),
 ('Pietschman'),
 ('Piette'),
@@ -11294,8 +11273,6 @@ VALUES
 ('Piirto'),
 ('Piispanen'),
 ('Piisponen'),
-('Pijanowsk'),
-
 ('Pijl'),
 ('Pijoan'),
 ('Pijtak'),
@@ -11385,7 +11362,6 @@ VALUES
 ('Pilauskaite'),
 ('Pilava'),
 ('Pilavas'),
-
 ('Pilbauer'),
 ('Pilbeam'),
 ('Pilbin'),
@@ -12229,7 +12205,6 @@ VALUES
 ('Pirciel'),
 ('Pird'),
 ('Pirdaud'),
-('Pirdawod'),
 ('Pire'),
 ('Pirea'),
 ('Pirela'),
@@ -13387,8 +13362,6 @@ VALUES
 ('Plevyak'),
 ('Plew'),
 ('Plewes'),
-
-
 ('Plewnia'),
 ('Plewniok'),
 ('Plews'),
@@ -13463,7 +13436,6 @@ VALUES
 ('Pliukstaite'),
 ('Pliuskyte'),
 ('Pliut'),
-
 ('Pllana'),
 ('Pllum'),
 ('Pllumb'),
@@ -13849,7 +13821,6 @@ VALUES
 ('Podishetty'),
 ('Podkolina'),
 ('Podkolzina'),
-
 ('Podlas'),
 ('Podlasim'),
 ('Podlasin'),
@@ -13890,7 +13861,6 @@ VALUES
 ('Podshibikhina'),
 ('Podsiad'),
 ('Podsiadly'),
-
 ('Podtebnya'),
 ('Podurgiel'),
 ('Podust'),
@@ -14068,8 +14038,6 @@ VALUES
 ('Poindron'),
 ('Poinen'),
 ('Poingdestre'),
-
-
 ('Poinsamy'),
 ('Poinsette'),
 ('Poinson'),
@@ -14154,7 +14122,6 @@ VALUES
 ('Pokrass'),
 ('Pokropek'),
 ('Pokroy'),
-
 ('Poks'),
 ('Pokua'),
 ('Pokuagyeman'),
@@ -14179,7 +14146,6 @@ VALUES
 ('Polakous'),
 ('Polakovs'),
 ('Polakow'),
-('Polakowsk'),
 ('Polam'),
 ('Polamarasetty'),
 ('Polan'),
@@ -14270,7 +14236,6 @@ VALUES
 ('Polevoi'),
 ('Polevoj'),
 ('Polevoy'),
-
 ('Poley'),
 ('Polfelipe'),
 ('Polfer'),
@@ -14526,7 +14491,6 @@ VALUES
 ('Polowe'),
 ('Polowitzer'),
 ('Polowy'),
-('Polowyj'),
 ('Polozovs'),
 ('Polozuns'),
 ('Polpaditkong'),
@@ -14627,7 +14591,6 @@ VALUES
 ('Polytimi'),
 ('Polyvas'),
 ('Polyvios'),
-
 ('Polyxene'),
 ('Polyyena'),
 ('Polyzogopoulos'),
@@ -15276,7 +15239,6 @@ VALUES
 ('Poppy'),
 ('Poppyrose'),
 ('Poppystar'),
-
 ('Pops'),
 ('Popse'),
 ('Popson'),
@@ -15379,7 +15341,6 @@ VALUES
 ('Porkola'),
 ('Porkolab'),
 ('Porkon'),
-
 ('Porlier'),
 ('Porlin'),
 ('Porlindsdottir'),
@@ -15694,7 +15655,6 @@ VALUES
 ('Posta'),
 ('Postance'),
 ('Postans'),
-
 ('Postbeschild'),
 ('Postchild'),
 ('Poste'),
@@ -15878,7 +15838,6 @@ VALUES
 ('Potop'),
 ('Potora'),
 ('Potosnak'),
-('Potowza'),
 ('Potra'),
 ('Potrais'),
 ('Potrick'),
@@ -16251,7 +16210,6 @@ VALUES
 ('Powery'),
 ('Powet'),
 ('Powick'),
-
 ('Powl'),
 ('Powlas'),
 ('Powledge'),
@@ -16269,7 +16227,6 @@ VALUES
 ('Powlus'),
 ('Pownall'),
 ('Pownceby'),
-
 ('Pownell'),
 ('Powner'),
 ('Powney'),
@@ -16280,7 +16237,6 @@ VALUES
 ('Powter'),
 ('Powton'),
 ('Powtoo'),
-('Powys'),
 ('Poxana'),
 ('Poxelaris'),
 ('Poxon'),
@@ -16348,7 +16304,6 @@ VALUES
 ('Pozsgai'),
 ('Pozuelos'),
 ('Pozveta'),
-
 ('Pozzana'),
 ('Pozzebon'),
 ('Pozzer'),
@@ -16723,7 +16678,6 @@ VALUES
 ('Pramela'),
 ('Pramendorfer'),
 ('Pramesh'),
-('Prameshwor'),
 ('Pramida'),
 ('Pramil'),
 ('Pramila'),
@@ -17227,7 +17181,6 @@ VALUES
 ('Pravnieks'),
 ('Pravya'),
 ('Praween'),
-
 ('Prawesh'),
 ('Prawin'),
 ('Prawira'),
@@ -18970,7 +18923,6 @@ VALUES
 ('Prowe'),
 ('Prowell'),
 ('Prowitt'),
-
 ('Prowpls'),
 ('Prows'),
 ('Prowse'),
@@ -19752,7 +19704,6 @@ VALUES
 ('Pulwer'),
 ('Pulwin'),
 ('Pulwinder'),
-('Pulwoo'),
 ('Pulyala'),
 ('Pulzer'),
 ('Pum'),

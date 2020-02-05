@@ -17,7 +17,7 @@
     "jschardet": "^2.1.1",
     "json-stringify-pretty-compact": "^2.0.0",
     "make-dir": "^3.0.0",
-    "node-abi": "^2.13.0",
+    "node-abi": "^2.14.0",
     "node-pre-gyp": "^0.14.0",
     "sqlite3": "^4.1.1",
     "sqlite3-helper": "^1.3.2",
@@ -41,7 +41,7 @@
     "@types/uuid": "^3.4.7",
     "@typescript-eslint/eslint-plugin": "^2.19.0",
     "@typescript-eslint/parser": "^2.19.0",
-    "electron": "^7.1.11",
+    "electron": "^8.0.0",
     "electron-rebuild": "^1.10.0",
     "eslint": "^6.8.0",
     "eslint-plugin-jsdoc": "^21.0.0",
@@ -82,7 +82,7 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf static/lib/web-components"
   },
-  "version": "0.5.10",
+  "version": "0.6.0",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }

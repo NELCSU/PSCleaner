@@ -1303,7 +1303,6 @@ VALUES
 ('Lambarde Drive'),
 ('Lambarde Road'),
 ('Lambardes Close'),
-
 ('Lambcatch'),
 ('Lambclose'),
 ('Lambclose Copse'),
@@ -1583,7 +1582,6 @@ VALUES
 ('Lambscote Close'),
 ('Lambscroft Avenue'),
 ('Lambscroft Way'),
-
 ('Lambseth'),
 ('Lambsfield'),
 ('Lambsfrith Grove'),
@@ -2217,7 +2215,6 @@ VALUES
 ('Landsdown Grove'),
 ('Landsdown Mews'),
 ('Landsdown Road'),
-
 ('Landsdowne Avenue'),
 ('Landsdowne Close'),
 ('Landsdowne Court'),
@@ -2295,7 +2292,6 @@ VALUES
 ('Lane Ends'),
 ('Lane Foot'),
 ('Lane Foot Brow'),
-('Lane Fox'),
 ('Lane Hackings'),
 ('Lane Hanger'),
 ('Lane Head'),
@@ -2660,7 +2656,6 @@ VALUES
 ('Langfield Road'),
 ('Langfields'),
 ('Langford'),
-
 ('Heathfield'),
 ('Langford Locks'),
 ('Langford Long'),
@@ -3394,7 +3389,6 @@ VALUES
 ('Lanterns Lane'),
 ('Lanterns Way'),
 ('Lanternside'),
-
 ('Lanthony Close'),
 ('Lanthorn Close'),
 ('Lanthorn Stile'),
@@ -3448,7 +3442,6 @@ VALUES
 ('Lanyon Road'),
 ('Lanyon Way'),
 ('Lanyork Road'),
-('Lanús'),
 ('Laogh an Eilein'),
 ('Laoghach'),
 ('Laoigan Place'),
@@ -4930,22 +4923,9 @@ VALUES
 ('Lawkland Green'),
 ('Lawkland Hall'),
 ('Lawkland Moss'),
-('Lawler Avenue'),
-('Lawler Close'),
-('Lawler Grove'),
-('Lawless Coppice'),
-('Lawless Cross'),
-('Lawless Street'),
-('Lawley Avenue'),
-('Lawley Bank'),
-('Lawley Close'),
-('Lawley Common'),
-('Lawley Drive'),
-('Lawley Gardens'),
-('Lawley Gate'),
+('Lawler'),
+('Lawley'),
 ('Lawley Middleway'),
-('Lawley Road'),
-('Lawley Way'),
 ('Lawleys Coppice'),
 ('Lawling Avenue'),
 ('Lawling Creek'),
@@ -5017,7 +4997,6 @@ VALUES
 ('Lawnswood Road'),
 ('Lawnswood Vale'),
 ('Lawnswood View'),
-
 ('Lawnt Chepstow Castle'),
 ('Lawnt Fowlio'),
 ('Lawnt yr Afallen'),
@@ -7069,7 +7048,6 @@ VALUES
 ('Leg Shaw'),
 ('Leg Square'),
 ('Leg Street'),
-
 ('Legard Avenue'),
 ('Legard Drive'),
 ('Legard Road'),
@@ -8097,7 +8075,6 @@ VALUES
 ('Letter Bay'),
 ('Letter Bottom'),
 ('Letter Boulevard'),
-('Letter Box'),
 ('Letter Brae'),
 ('Letter Brake'),
 ('Letter Bridge'),
@@ -8981,18 +8958,9 @@ VALUES
 ('Leziate Drove'),
 ('Leziate Fen'),
 ('Leziate Heath'),
-
 ('Leàc nan Arm'),
 ('Leàna Bàine'),
-
-
-
-
 ('Leòidean Mòra'),
-
-
-
-
 ('Lhanbryde'),
 ('Lhassa'),
 ('Lhen Close'),
@@ -11332,7 +11300,6 @@ VALUES
 ('Linkwood Place'),
 ('Linkwood Road'),
 ('Linkwood Way'),
-
 ('Linlathen'),
 ('Linlathen Grove'),
 ('Linlathen House'),
@@ -15085,9 +15052,6 @@ VALUES
 ('Lizwell'),
 ('Lizzie Brices Strip'),
 ('Lizzies Lane'),
-
-
-
 ('Ljubljana'),
 ('Lladron'),
 ('Llaethdy'),
@@ -15111,7 +15075,6 @@ VALUES
 ('Llain Yr Eglwys'),
 ('Llain Yr Ysgol'),
 ('Llainfain Estate'),
-('Llaingarreglwyd'),
 ('Llaithgwm'),
 ('Llam Carw'),
 ('Llam Lloi'),
@@ -15252,7 +15215,6 @@ VALUES
 ('Llandaff Way'),
 ('Llandanwg'),
 ('Llandarcy'),
-
 ('Llanddaniel Fab'),
 ('Llanddarog'),
 ('Llanddeiniol'),
@@ -15285,9 +15247,7 @@ VALUES
 ('Llanddulas a Rhyd'),
 ('Llanddulas Avenue'),
 ('Llanddulas Quarries'),
-('Llanddunwyd'),
 ('Llanddwyn Bay'),
-
 ('Llandefaelog'),
 ('Llandefaelog trer'),
 ('Llandegai'),
@@ -15358,7 +15318,6 @@ VALUES
 ('Llandwrog'),
 ('Llandybie'),
 ('Llandybie Road'),
-('Llandybïe'),
 ('Llandyfaelog'),
 ('Llandyfai'),
 ('Llandyfalle Hill'),
@@ -15366,16 +15325,12 @@ VALUES
 ('Llandyfrig Close'),
 ('Llandyfriog'),
 ('Llandyfrydog'),
-('Llandyfrïog'),
-
 ('Llandygai'),
-
 ('Llandyrnog'),
 ('Llandyry'),
 ('Llandysilio gogo'),
 ('Llandyssil'),
 ('Llandysul'),
-('Llandâf'),
 ('Llanedern'),
 ('Llanedeyrn'),
 ('Llanedeyrn Close'),
@@ -15383,7 +15338,6 @@ VALUES
 ('Llanedeyrn Road'),
 ('Llanedi Road'),
 ('Llanedy Road'),
-('Llaneglwys'),
 ('Llaneglwys Dingle'),
 ('Llaneilian'),
 ('Llaneilian Road'),
@@ -15461,9 +15415,7 @@ VALUES
 ('Llanfair yn Neubwll'),
 ('Llanfair yng Nghornwy'),
 ('Llanfairhall'),
-
 ('Llanfairpwllgwyngyll'),
-
 ('Llanfairynghornwy'),
 ('Llanfarian'),
 ('Llanfawr Close'),
@@ -15544,7 +15496,6 @@ VALUES
 ('Llangeinor'),
 ('Llangeinor Road'),
 ('Llangeinor Terrace'),
-('Llangeinwyr'),
 ('Llangeler'),
 ('Llangelynin'),
 ('Llangelynnin'),
@@ -15624,7 +15575,6 @@ VALUES
 ('Llangynllo'),
 ('Llangynnwr'),
 ('Llangynog'),
-('Llangynwyd'),
 ('Llangynwyd Lower'),
 ('Llangynwyd Middle'),
 ('Llangynyw'),
@@ -15679,7 +15629,6 @@ VALUES
 ('Llanllwchaearn'),
 ('Llanllwchaiarn'),
 ('Llanllwchhaearn'),
-
 ('Llanllywel'),
 ('Llanlowdy'),
 ('Llanlowdy Hill'),
@@ -15745,11 +15694,9 @@ VALUES
 ('Llanrug'),
 ('Llanrumney'),
 ('Llanrumney Avenue'),
-('Llanrwst'),
 ('Llanrwst Close'),
 ('Llanrwst Road'),
 ('Llansadurnen'),
-('Llansadwrn'),
 ('Llansadwrnen'),
 ('Llansaint'),
 ('Llansaintfraed In Elvel'),
@@ -15771,7 +15718,6 @@ VALUES
 ('Llansantffraid Glyn Ceiriog'),
 ('Llansantffraid ym Mechain'),
 ('Llansantffraidd ym Mechain'),
-('Llansanwyr'),
 ('Llansawel'),
 ('Llansawel Crescent'),
 ('Llansawel Dwyrain'),
@@ -15868,7 +15814,6 @@ VALUES
 ('Llanybydder'),
 ('Llanybyther'),
 ('Llanycil'),
-('Llanycrwys'),
 ('Llanymddfri'),
 ('Llanymddyfri'),
 ('Llanymynech'),
@@ -15889,7 +15834,6 @@ VALUES
 ('Llawhaden'),
 ('Llawlech'),
 ('Llawnroc Close'),
-
 ('Llawr llan'),
 ('Llawr Pentre'),
 ('Llawr Wern'),
@@ -16041,7 +15985,6 @@ VALUES
 ('Lliedi Crescent'),
 ('Llifior'),
 ('Llifos'),
-('Llifôn'),
 ('Lligwy'),
 ('Lligwy Bay'),
 ('Llinau'),
@@ -16118,7 +16061,6 @@ VALUES
 ('Llwchwr'),
 ('Llwn Einion'),
 ('Llwn Yr Eos'),
-
 ('Llwncelyn Close'),
 ('Llwnch'),
 ('Llwy onn'),
@@ -16323,7 +16265,6 @@ VALUES
 ('Llwynypia'),
 ('Llwynypia Road'),
 ('Llwynypiod'),
-('Llwynyriâr'),
 ('Llwynywormwood'),
 ('Llwynywormwood Park'),
 ('Llwytgoed'),
@@ -16776,7 +16717,6 @@ VALUES
 ('Llywernog Pond'),
 ('Llywn Helyg'),
 ('Llywnallt'),
-
 ('Lo Cabm'),
 ('Lo Grove'),
 ('Lo Lane'),
@@ -18240,7 +18180,6 @@ VALUES
 ('Logmore Lane'),
 ('Lognor Road'),
 ('Logpool'),
-
 ('Logs Hill'),
 ('Logus Court'),
 ('Logwell Court'),
@@ -18385,7 +18324,6 @@ VALUES
 ('Lomondgate Drive'),
 ('Lomondside Avenue'),
 ('Lomsey Close'),
-
 ('Lon Abaty'),
 ('Lon Aber'),
 ('Lon Abererch'),
@@ -22278,7 +22216,6 @@ VALUES
 ('Lower Batch'),
 ('Lower Beacon'),
 ('Lower Beer'),
-('Lower Bell'),
 ('Lower Belt'),
 ('Lower Berry'),
 ('Lower Binton Court'),
@@ -22741,7 +22678,6 @@ VALUES
 ('Lown Hill'),
 ('Lowna Road'),
 ('Lownage'),
-
 ('Lownde'),
 ('Lowndes Avenue'),
 ('Lowndes Close'),
@@ -24282,14 +24218,12 @@ VALUES
 ('Luynes Rise'),
 ('Luzborough'),
 ('Luzborough Lane'),
-('Luziânia'),
 ('Luzley'),
 ('Luzley Brook'),
 ('Luzley Road'),
 ('LVS Ascot'),
 ('LVS Hassocks'),
 ('lwrch'),
-('Lwyd'),
 ('Ly'),
 ('Lyal Road'),
 ('Lyall Avenue'),
@@ -25402,71 +25336,35 @@ VALUES
 ('Lywood Road'),
 ('Lyzzick'),
 ('LÃ´n Hayesgate'),
-
-
-
-
 ('Làir Bhàn'),
 ('Làir Bàna'),
-
 ('Làire Baine'),
 ('Làire Bàine'),
 ('Làire Duibhe'),
-
 ('Làirig Luaidhe'),
 ('Làirig Meachdainn'),
-
 ('Làma Sgorr'),
 ('Làmh na Sgeire Bheag'),
 ('Làmh sgeir Mhòr'),
 ('Làmha Cleit'),
-
-
-
 ('Làraich nam'),
-
 ('Làraiche Maoile'),
-
-
-
-('Lâ'),
-('Lâleston'),
-('Lâs'),
 ('lâs Strip'),
-
 ('Lèan Chàrn'),
 ('Lèana Mhòr'),
 ('Lèana na'),
-
 ('Lèig Speireag'),
 ('Lèig Tàdh'),
-
-
 ('Lèim an Taghain'),
-
-
-
-
-
 ('Lèoba Mhic Cùbhaig'),
-
-
 ('Lì a Deas'),
 ('Lì a Tuath'),
 ('Lìath a Bhaid Sgàilich'),
-
-
-
 ('Lìth Ghleann'),
 ('Lìth Sgeir'),
-
 ('Lòba Sgeir'),
-
-
 ('Lòin Bhàin'),
 ('Lòin nan Donnlaich'),
-
-
 ('Lòn a Ghairt'),
 ('Lòn an Alltain Duibh'),
 ('Lòn an Deargain'),
@@ -25558,7 +25456,6 @@ VALUES
 ('Lòn Yr wyn'),
 ('Lòn Yr Ysgol'),
 ('Lòn Yr Ywen'),
-
 ('Lùb a Chladha'),
 ('Lùb a Ghlastail'),
 ('Lùb a Ghàrraidh chrìche'),
@@ -25587,8 +25484,6 @@ VALUES
 ('Lùb Riabhach'),
 ('Lùb Voreven'),
 ('Lùban Croma'),
-
-
 ('Lùib a Chairn'),
 ('Lùib an'),
 ('Lùib Bhig'),
@@ -25598,14 +25493,10 @@ VALUES
 ('Lùib na Moil'),
 ('Lùib na Mòr choille'),
 ('Lùib Riabhaich'),
-
 ('Lùibe Bàine'),
 ('Lùibe Riabhaich'),
 ('Lùibean Glas'),
 ('Lùnn Dà Bhrà'),
-
-
-
 ('Ma Nàire'),
 ('Ma Stac'),
 ('Maa'),
@@ -25718,7 +25609,6 @@ VALUES
 ('Macandrew Road'),
 ('Macandrew Walk'),
 ('Macanrie'),
-
 ('Macara Drive'),
 ('Macaret Close'),
 ('Macarther Court'),
@@ -25756,7 +25646,6 @@ VALUES
 ('Macauley Road'),
 ('Macauley Way'),
 ('Macauslan Terrace'),
-
 ('Macbean Road'),
 ('Macbeth Approach'),
 ('Macbeth Close'),
@@ -25847,7 +25736,6 @@ VALUES
 ('Macefield Close'),
 ('Macefin Avenue'),
 ('Macehill'),
-
 ('Maceley'),
 ('Macers Lane'),
 ('Macewan Place'),
@@ -26586,7 +26474,6 @@ VALUES
 ('Maenen'),
 ('Maengwyn Avenue'),
 ('Maenlle gwaun'),
-('Maenllwyd'),
 ('Maenofferen'),
 ('Maenol Glasfryn'),
 ('Maenor'),
@@ -27016,7 +26903,6 @@ VALUES
 ('Maeslee'),
 ('Maesllan'),
 ('Maesllawddog'),
-('Maesllwyd'),
 ('Maesllwyn Close'),
 ('Maesllwyn Lane'),
 ('Maesmaur Road'),
@@ -27041,7 +26927,6 @@ VALUES
 ('Maesterton Place'),
 ('Maestir'),
 ('Maestir Road'),
-('Maestorglwyd'),
 ('Maestref'),
 ('Maestregymer'),
 ('Maesuchel'),
@@ -27098,7 +26983,6 @@ VALUES
 ('Magach'),
 ('Magadales Drive'),
 ('Magalang'),
-
 ('Magarlan'),
 ('Magars'),
 ('Magasgeir'),
@@ -27303,10 +27187,8 @@ VALUES
 ('Magwintons'),
 ('Magwitch Close'),
 ('Magwr'),
-('Magwyr'),
 ('Magwyr gyda Gwndy'),
 ('Magyar Crescent'),
-
 ('Mahaar Moss'),
 ('Mahaddie Way'),
 ('Mahaick'),
@@ -27582,7 +27464,7 @@ VALUES
 ('Main Stroll'),
 ('Main View'),
 ('Main Wood'),
-('Mainberry Fox'),
+('Mainberry'),
 ('Maindee'),
 ('Maindiff'),
 ('Maindy'),
@@ -28270,7 +28152,6 @@ VALUES
 ('Malltraeth Marsh'),
 ('Malltraeth Pool'),
 ('Malltraeth Sands'),
-('Mallwyd'),
 ('Mallyan Close'),
 ('Mallyan Spout'),
 ('Mallyclose Drive'),
@@ -28302,7 +28183,6 @@ VALUES
 ('Malmsgate Lane'),
 ('Malmsmead'),
 ('Malmstone Avenue'),
-
 ('Malo Avenue'),
 ('Malo Close'),
 ('Malo Road'),
@@ -28567,7 +28447,6 @@ VALUES
 ('Malyons Terrace'),
 ('Malzeard Road'),
 ('Malzor Lane'),
-
 ('Mam Coire Easain'),
 ('Mam gu'),
 ('Mam Hael'),
@@ -28646,11 +28525,9 @@ VALUES
 ('Manbey'),
 ('Manbre'),
 ('Manbrough'),
-
 ('Manby'),
 ('Middlegate'),
 ('Mancetter'),
-
 ('Manchester'),
 ('Northenden'),
 ('Piccadilly'),
@@ -28664,7 +28541,6 @@ VALUES
 ('Mandalay'),
 ('Mandale'),
 ('Mandaluyong'),
-
 ('Mandarin Avenue'),
 ('Mandarin Close'),
 ('Mandarin Court'),
@@ -28688,7 +28564,6 @@ VALUES
 ('Manders'),
 ('Manderston'),
 ('Mandervell'),
-
 ('Manderville Road'),
 ('Mandeville Close'),
 ('Mandeville Court'),
@@ -29984,41 +29859,12 @@ VALUES
 ('Marcuse Fields'),
 ('Marcuse Road'),
 ('Marcwheal'),
-('Mardale Avenue'),
-('Mardale Close'),
-('Mardale Common'),
-('Mardale Court'),
-('Mardale Crescent'),
-('Mardale Drive'),
-('Mardale Gardens'),
-('Mardale Grove'),
-('Mardale Ill Bell'),
-('Mardale Lawn'),
-('Mardale Road'),
-('Mardale Walk'),
-('Mardale Way'),
-('Mardell Road'),
-('Marden Ash'),
-('Marden Ash Chipping Ongar'),
-('Marden Avenue'),
+('Mardale'),
+('Mardale Ill'),
+('Marden'),
+('Chipping Ongar'),
 ('Marden Beech'),
-('Marden Close'),
-('Marden Copse'),
-('Marden Court'),
-('Marden Covert'),
-('Marden Crescent'),
-('Marden Down'),
-('Marden Farm'),
-('Marden Grove'),
-('Marden Hill'),
-('Marden Park'),
-('Marden Place'),
-('Marden Road'),
-('Marden Rocks'),
-('Marden Terrace'),
 ('Marden Thorn'),
-('Marden Walk'),
-('Marden Way'),
 ('Mardens'),
 ('Mardens Hill'),
 ('Marder Road'),
@@ -30042,17 +29888,8 @@ VALUES
 ('Mardling Avenue'),
 ('Mardling Run'),
 ('Mardol'),
-('Mardol Close'),
-('Mardol Road'),
-('Mardon Close'),
-('Mardon Covert'),
-('Mardon Down'),
-('Mardon Hill'),
-('Mardon House'),
-('Mardon Park'),
-('Mardon Road'),
-('Mardon Strip'),
-('Mardons Close'),
+('Mardon'),
+('Mardons'),
 ('Mardu Lane'),
 ('Mardy Close'),
 ('Mardy Crescent'),
@@ -30430,7 +30267,6 @@ VALUES
 ('Maricas Avenue'),
 ('Maricopa Close'),
 ('Maricourt Avenue'),
-
 ('Marie Avenue'),
 ('Marie Brock'),
 ('Marie Close'),
@@ -30557,7 +30393,6 @@ VALUES
 ('Mariners Wharf'),
 ('Marines Drive'),
 ('Marineside'),
-
 ('Marino Close'),
 ('Marino Court'),
 ('Marino Way'),
@@ -31553,7 +31388,6 @@ VALUES
 ('Marseilles Close'),
 ('Marset'),
 ('Marsett Cow'),
-
 ('Marsey'),
 ('Marsh Barns'),
 ('Marsh Brows'),
@@ -32163,9 +31997,7 @@ VALUES
 ('Mary Abbots'),
 ('Mary Armyne'),
 ('Mary Axe'),
-('Mary Box'),
 ('Mary Countess'),
-('Mary Cross'),
 ('Mary Datchelor'),
 ('Mary Days'),
 ('Mary De Bohun'),
@@ -32186,7 +32018,6 @@ VALUES
 ('Mary Magdalene'),
 ('Mary Magdalenes'),
 ('Mary Magdalens'),
-('Mary Mead'),
 ('Mary Millers Pool'),
 ('Mary Moon'),
 ('Mary Munnion Quarter'),
@@ -32200,13 +32031,10 @@ VALUES
 ('Mary Rand'),
 ('Mary Redcliffe And Temple'),
 ('Mary Rose'),
-('Mary Rose Drive'),
-('Mary Rose Manor'),
 ('Mary Ruck'),
-('Mary Shunn Way'),
+('Mary Shunn'),
 ('Mary Slessor'),
 ('Mary Slessor Wynd'),
-('Mary Square'),
 ('Mary Stanford'),
 ('Mary Star Of The Sea'),
 ('Mary Sumner'),
@@ -32215,7 +32043,7 @@ VALUES
 ('Mary Well'),
 ('Mary Whipple'),
 ('Mary Wilsons Slunk'),
-('Maryat Way'),
+('Maryat'),
 ('Maryatt Avenue'),
 ('Marybank'),
 ('Marybank Close'),
@@ -32325,7 +32153,6 @@ VALUES
 ('Marywell'),
 ('Marywells'),
 ('Marywood'),
-('Marília'),
 ('Mas'),
 ('Mas a Ghearraidh'),
 ('Mas an Toa'),
@@ -32590,7 +32417,6 @@ VALUES
 ('Matanzas'),
 ('Matapan'),
 ('Mataram'),
-
 ('Match Lakes'),
 ('Match Street'),
 ('Matchams'),
@@ -32850,7 +32676,6 @@ VALUES
 ('Matthewsgreen'),
 ('Matthewsgreen Road'),
 ('Matthewson Close'),
-('Matthewss'),
 ('Matthysens'),
 ('Mattie Brown'),
 ('Mattie Collins'),
@@ -32896,7 +32721,6 @@ VALUES
 ('Mattys Lane'),
 ('Mattys Loup'),
 ('Maturin Close'),
-('Maturín'),
 ('Mauchline'),
 ('Mauchline Avenue'),
 ('Mauchline Court'),
@@ -33145,7 +32969,6 @@ VALUES
 ('Mautravers Close'),
 ('Mauve Craig'),
 ('Mauveine Gardens'),
-
 ('Mavay of Trumland'),
 ('Maveen Grove'),
 ('Mavelstone Close'),
@@ -33401,7 +33224,6 @@ VALUES
 ('May Banks'),
 ('May Bate'),
 ('May Beck Farm Trail'),
-('May Bell'),
 ('May Berry'),
 ('May Blossom'),
 ('May Bush'),
@@ -33952,7 +33774,6 @@ VALUES
 ('Mazahirul Uloom London'),
 ('Mazard Tree'),
 ('Mazari Sharif'),
-
 ('Maze Avenue'),
 ('Maze Green'),
 ('Maze Hill'),
@@ -35676,7 +35497,6 @@ VALUES
 ('Medebourne Close'),
 ('Medebridge Road'),
 ('Medellin Hill'),
-('Medellín'),
 ('Meden Avenue'),
 ('Meden Bank'),
 ('Meden Close'),
@@ -36233,7 +36053,6 @@ VALUES
 ('Melanda Close'),
 ('Melander Close'),
 ('Melander Gardens'),
-
 ('Melandra Crescent'),
 ('Melandra Road'),
 ('Melanie Close'),
@@ -36859,12 +36678,12 @@ VALUES
 ('Memel Court'),
 ('Memel Place'),
 ('Memnon Court'),
-('Memorial'),
+('Memorial Street'),
 ('Memorial Avenue'),
 ('Memorial Close'),
 ('Memorial Drive'),
 ('Memorial Firs'),
-('Memorial Flower Garden Drive'),
+('Memorial Flower Garden'),
 ('Memorial Forest'),
 ('Memorial Gardens'),
 ('Memorial Hall'),
@@ -38080,7 +37899,6 @@ VALUES
 ('Merwin Way'),
 ('Merwood Avenue'),
 ('Merwood Grove'),
-('Merwys'),
 ('Meryfield Close'),
 ('Meryhurst Road'),
 ('Meryl Gardens'),
@@ -38150,7 +37968,6 @@ VALUES
 ('Mesty Croft'),
 ('Mesur'),
 ('Met Combe'),
-('Metal Box'),
 ('Metal Bridge'),
 ('Metal Street'),
 ('Metalband Hill'),
@@ -38432,7 +38249,6 @@ VALUES
 ('Mezereon Spur'),
 ('Mezhdurechensk'),
 ('Mezidon Canon'),
-
 ('Meòir Langwell Wood'),
 ('Mhacain'),
 ('Mhachaire'),
@@ -38656,14 +38472,10 @@ VALUES
 ('Mhic Uilleim'),
 ('Mhic Uruickein'),
 ('MhicColla'),
-
-
 ('Mhicheal'),
 ('Mhicheil'),
 ('Mhichie'),
 ('Mhicille Riabhaich'),
-
-
 ('Mhicrail'),
 ('MhicReithe'),
 ('Mhidhinis'),
@@ -38690,7 +38502,6 @@ VALUES
 ('Mhir An T Salainn'),
 ('Mhire'),
 ('Mhisteam'),
-
 ('Mhochaidh'),
 ('Mhogh sgeir'),
 ('Mhoicean'),
@@ -38750,34 +38561,11 @@ VALUES
 ('Mhurchaidh Oig'),
 ('Mhurstat'),
 ('Mhusgain'),
-
-
-
-
-
 ('Mhàim nan Carn'),
-
 ('Mhàis Leathain'),
-
-
-
-
-
-
-
-
-
-
 ('Mhèoir Ghil'),
 ('Mhì Runaich'),
-
-
-
-
-
-
 ('Mhòir Cleite Dubh Loch'),
-
 ('Mhòr a Bhinnein'),
 ('Mhòr a Ghearraidh Dhuibh'),
 ('Mhòr Beinn nan Capull'),
@@ -38802,13 +38590,6 @@ VALUES
 ('Mhòr Ridhe Eilein'),
 ('Mhòr Sheamsgeir'),
 ('Mhòr Thollaidh'),
-
-
-
-
-
-
-
 ('Mhùrain Eilean'),
 ('Mi chomhairle'),
 ('Mia Mews'),
@@ -41991,19 +41772,14 @@ VALUES
 ('Milton Abbot'),
 ('Milton Brow'),
 ('Milton Combe'),
-('Milton Crescent'),
 ('Milton Damerel'),
 ('Milton Den'),
 ('Milton Dene'),
-('Milton Ernest'),
-('Milton Fields'),
 ('Milton Folly'),
-('Milton Gate'),
 ('Milton Heugh'),
 ('Milton Hill Clump'),
 ('Milton Industrial'),
 ('Milton Keynes'),
-('Milton Keynes Central'),
 ('Milton Knowe'),
 ('Milton Lilbourne'),
 ('Milton Link'),
@@ -42024,9 +41800,7 @@ VALUES
 ('Milton on Stour'),
 ('Milton Pools'),
 ('Milton Regis'),
-('Milton Road'),
-('Milton Road Campus'),
-('Milton Rough'),
+('Milton'),
 ('Milton under Wychwood'),
 ('Miltonbank Crescent'),
 ('Miltoncourt Lane'),
@@ -42078,7 +41852,6 @@ VALUES
 ('Milwich Road'),
 ('Milwich Rough'),
 ('Milwr Close'),
-('Milwyr'),
 ('Mimas Road'),
 ('Mimas Way'),
 ('Mimbridge'),
@@ -42131,7 +41904,6 @@ VALUES
 ('Minard Point'),
 ('Minard Road'),
 ('Minard Way'),
-
 ('Mincarlo'),
 ('Mincendane'),
 ('Mincent Close'),
@@ -43028,12 +42800,10 @@ VALUES
 ('Mizzymead Close'),
 ('Mizzymead Rise'),
 ('Mizzymead Road'),
-
 ('Mna'),
 ('Mna Mairbhe'),
 ('Mnatha'),
 ('Mnatha Uaine'),
-
 ('Mnà Mairbhe'),
 ('Mo Dhachaidh'),
 ('Mo Geo'),
@@ -43713,8 +43483,6 @@ VALUES
 ('Moley Gardens'),
 ('Moley Hill'),
 ('Moleyns Close'),
-
-
 ('Molinnis'),
 ('Molios'),
 ('Molison'),
@@ -43723,7 +43491,6 @@ VALUES
 ('Moll Harriss Clump'),
 ('Moll Hayes'),
 ('Mollacliffe'),
-
 ('Mollands'),
 ('Mollards'),
 ('Mollatts'),
@@ -43840,9 +43607,7 @@ VALUES
 ('Monaughty Poeth'),
 ('Monaveen'),
 ('Monawee'),
-
 ('Monce'),
-
 ('Monck'),
 ('Moncks'),
 ('Monckton'),
@@ -43852,9 +43617,7 @@ VALUES
 ('Moncreiff'),
 ('Moncreiffe'),
 ('Moncrief'),
-
 ('Moncrieffe'),
-
 ('Moncton'),
 ('Moncton Bushes'),
 ('Moncur'),
@@ -44559,7 +44322,6 @@ VALUES
 ('Monterey Place'),
 ('Monterey Road'),
 ('Montery Close'),
-('Montería'),
 ('Montes Claros'),
 ('Montes Hill'),
 ('Montesole Court'),
@@ -44667,7 +44429,6 @@ VALUES
 ('Montreathmont'),
 ('Montrell'),
 ('Montresor'),
-
 ('Montrose'),
 ('Montrouge'),
 ('Montrovia'),
@@ -44677,13 +44438,10 @@ VALUES
 ('Montserrat Brow'),
 ('Montsford'),
 ('Montsnaught'),
-
 ('Montsurs'),
 ('Montvale'),
-
 ('Monty'),
 ('Monty'),
-
 ('Monubent'),
 ('Monument'),
 ('Monument Avenue'),
@@ -46401,7 +46159,6 @@ VALUES
 ('Morwoods'),
 ('Morwr'),
 ('Morwynion'),
-('Morwyr'),
 ('Moryd'),
 ('Mosach'),
 ('Mosaic Close'),
@@ -46776,7 +46533,6 @@ VALUES
 ('Mossop Close'),
 ('Mossop Court'),
 ('Mossop Drive'),
-
 ('Mosspark'),
 ('Mosspaul'),
 ('Mosspit'),
@@ -46789,7 +46545,6 @@ VALUES
 ('Mossthwaite Fell'),
 ('Mosston Road'),
 ('Mosstone'),
-
 ('Mosstown'),
 ('Mosstree Close'),
 ('Mossvale'),
@@ -47513,7 +47268,6 @@ VALUES
 ('Mowhay Meadow'),
 ('Mowhay Road'),
 ('Mowhills'),
-
 ('Mowie Close'),
 ('Mowing'),
 ('Mowings Lane'),
@@ -48856,7 +48610,6 @@ VALUES
 ('Murhill Lane'),
 ('Muriau cochion'),
 ('Muriau Park'),
-
 ('Murie Lodge Clump'),
 ('Muriel King'),
 ('Muriels Belt'),
@@ -49275,7 +49028,6 @@ VALUES
 ('Mwmbwls'),
 ('Mwmffri'),
 ('Mwn'),
-
 ('Mwnws'),
 ('Mwrog'),
 ('Mwrwg'),
@@ -49284,7 +49036,6 @@ VALUES
 ('Mwyalchod'),
 ('Mwyn Ffordd'),
 ('Mwyn Fynydd'),
-
 ('Mwyndy'),
 ('Mwyngil'),
 ('Mwyrdy'),
@@ -49848,13 +49599,10 @@ VALUES
 ('Myvot Avenue'),
 ('Myvot Road'),
 ('MÃ³ire'),
-
 ('Màire Nighinn Alasdair'),
 ('Màiri Mhurchaidh'),
-
 ('Màitheigh Glas'),
 ('Màitheigh Riabhach'),
-
 ('Màm a Chroisg'),
 ('Màm a Chullaich'),
 ('Màm a Ghaill'),
@@ -49871,10 +49619,7 @@ VALUES
 ('Màm nan Uranan'),
 ('Màm Sodhail'),
 ('Màm Unndalain'),
-
-
 ('Mànracha Duibhe'),
-
 ('Màs a Chnoic'),
 ('Màs a Chnoic Chuairtich'),
 ('Màs a Chnuic'),
@@ -49892,27 +49637,16 @@ VALUES
 ('Màs Sgeir'),
 ('Màs Shlèiteabhal'),
 ('Màs Torcaso'),
-
 ('Màthair Bhorgaidh'),
-('Mâisgeir'),
-
-
-
-
 ('Mèise Bàine'),
-
 ('Mì Mheall Breac'),
 ('Mì Mheall Dubh'),
-
 ('Mìn Choire'),
 ('Mìn na Beinne Brice'),
 ('Mìnich an t Sluig'),
-
 ('Mò Bhìogadail'),
-
 ('Mòin a Chriathair'),
 ('Mòin Eouin'),
-
 ('Mòine a Cheirde'),
 ('Mòine a Chlachain'),
 ('Mòine a Ghiubhais'),
@@ -49971,13 +49705,8 @@ VALUES
 ('Mòine Tomach'),
 ('Mòine Wood'),
 ('Mòineach Loch Portain'),
-
 ('Mòinteich Bhig'),
 ('Mòintich Leathainn'),
-
-
-
-
 ('Mòr a'),
 ('Mòr a Bhàin Bhig'),
 ('Mòr a Chlachair'),
@@ -50051,22 +49780,9 @@ VALUES
 ('Mòr Thunga'),
 ('Mòr àird Mheadonach'),
 ('Mòr àrnol'),
-
-
-
-('Môr'),
-('Môrawelon'),
-
-
-
-
-
-
-
 ('Mùrla Chananan'),
 ('Mùrlainne Duibhe'),
-('Mülheim an der Ruhr'),
-('Münster');
+('Mülheim an der Ruhr');
 -- Down
 DELETE FROM Placename 
 WHERE 

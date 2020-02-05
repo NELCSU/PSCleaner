@@ -3896,7 +3896,6 @@ VALUES
 ('Rajeshvar'),
 ('Rajeshwar'),
 ('Rajeshwaran'),
-('Rajeshwri'),
 ('Rajeskumar'),
 ('Rajespary'),
 ('Rajesree'),
@@ -4545,7 +4544,6 @@ VALUES
 ('Ramasauskaite'),
 ('Ramasauskiene'),
 ('Ramasaway'),
-
 ('Ramascan'),
 ('Ramasene'),
 ('Ramash'),
@@ -4657,7 +4655,6 @@ VALUES
 ('Ramdat'),
 ('Ramdath'),
 ('Ramdaursingh'),
-('Ramdawor'),
 ('Ramday'),
 ('Ramdayal'),
 ('Ramdee'),
@@ -4671,7 +4668,6 @@ VALUES
 ('Ramden'),
 ('Ramdenee'),
 ('Ramdewar'),
-('Ramdewor'),
 ('Ramdhanie'),
 ('Ramdhansingh'),
 ('Ramdharry'),
@@ -4756,7 +4752,6 @@ VALUES
 ('Rameshwar'),
 ('Rameshwaran'),
 ('Rameshwaree'),
-('Rameshwor'),
 ('Rameskumar'),
 ('Ramess'),
 ('Ramessa'),
@@ -5022,7 +5017,6 @@ VALUES
 ('Ramoul'),
 ('Ramoutar'),
 ('Ramowe'),
-
 ('Ramoy'),
 ('Rampadarat'),
 ('Rampadarath'),
@@ -5967,7 +5961,6 @@ VALUES
 ('Rasabacthula'),
 ('Rasabenyia'),
 ('Rasagopal'),
-('Rasagowri'),
 ('Rasail'),
 ('Rasaily'),
 ('Rasairia'),
@@ -7279,26 +7272,19 @@ VALUES
 ('Rawdtha'),
 ('Rawee'),
 ('Raweed'),
-
 ('Rawel'),
 ('Rawell'),
 ('Rawes'),
 ('Rawesh'),
-
 ('Rawhal'),
-
 ('Rawhoof'),
 ('Rawhouser'),
-
-
 ('Rawin'),
 ('Rawinder'),
 ('Rawings'),
 ('Rawitzer'),
-
 ('Rawkins'),
 ('Rawl'),
-
 ('Rawleigh'),
 ('Rawlence'),
 ('Rawles'),
@@ -7321,8 +7307,6 @@ VALUES
 ('Rawnaqul'),
 ('Rawnie'),
 ('Rawnsley'),
-('Rawof'),
-('Rawoo'),
 ('Rawoof'),
 ('Rawoot'),
 ('Raworth'),
@@ -7341,10 +7325,7 @@ VALUES
 ('Rawstron'),
 ('Rawstrone'),
 ('Rawther'),
-('Rawut'),
 ('Rawwida'),
-('Rawya'),
-('Rawza'),
 ('Rax'),
 ('Raxana'),
 ('Raxence'),
@@ -7670,7 +7651,6 @@ VALUES
 ('Razavifar'),
 ('Razavikhaveh'),
 ('Razawl'),
-('Razawul'),
 ('Razayee'),
 ('Razayoul'),
 ('Razbadauskaite'),
@@ -9483,7 +9463,6 @@ VALUES
 ('Rejwana'),
 ('Rejwanur'),
 ('Rek'),
-
 ('Rekab'),
 ('Rekai'),
 ('Rekala'),
@@ -9494,7 +9473,6 @@ VALUES
 ('Rekatanskiene'),
 ('Rekatanskyte'),
 ('Rekaut'),
-
 ('Rekayla'),
 ('Rekdal'),
 ('Rekel'),
@@ -9506,7 +9484,6 @@ VALUES
 ('Rekesius'),
 ('Rekeviciene'),
 ('Rekevicius'),
-
 ('Rekezela'),
 ('Rekhabahen'),
 ('Rekhade'),
@@ -9951,7 +9928,6 @@ VALUES
 ('Renedela'),
 ('Renedo'),
 ('Renee'),
-
 ('Reneece'),
 ('Reneelen'),
 ('Reneer'),
@@ -10962,7 +10938,6 @@ VALUES
 ('Rewadee'),
 ('Rewald'),
 ('Rewalt'),
-('Rewalwto'),
 ('Rewane'),
 ('Rewant'),
 ('Rewata'),
@@ -10976,10 +10951,8 @@ VALUES
 ('Rewers'),
 ('Rewerts'),
 ('Reweth'),
-
 ('Rewiakin'),
 ('Rewina'),
-
 ('Rewitzer'),
 ('Rewnike'),
 ('Rewood'),
@@ -11170,8 +11143,6 @@ VALUES
 ('Rezaur'),
 ('Rezawana'),
 ('Rezawool'),
-('Rezawul'),
-('Rezawur'),
 ('Rezayee'),
 ('Rezazade'),
 ('Reze'),
@@ -11297,7 +11268,6 @@ VALUES
 ('Rhasea'),
 ('Rhashawn'),
 ('Rhashel'),
-
 ('Rhatigan'),
 ('Rhattigan'),
 ('Rhaveen'),
@@ -12365,7 +12335,6 @@ VALUES
 ('Riedmiller'),
 ('Riedmuller'),
 ('Riedner'),
-
 ('Riedy'),
 ('Rief'),
 ('Riefer'),
@@ -13404,7 +13373,6 @@ VALUES
 ('Ripps'),
 ('Rippstein'),
 ('Rippy'),
-('Rips'),
 ('Ripsie'),
 ('Ripson'),
 ('Ripta'),
@@ -18144,19 +18112,15 @@ VALUES
 ('Rowern'),
 ('Roweth'),
 ('Roweus'),
-
 ('Rowfat'),
 ('Rowhama'),
-
 ('Rowholt'),
-
 ('Rowin'),
 ('Rowina'),
 ('Rowing'),
 ('Rowinia'),
 ('Rowinkel'),
 ('Rowitt'),
-
 ('Rowjath'),
 ('Rowjina'),
 ('Rowl'),
@@ -18167,7 +18131,6 @@ VALUES
 ('Rowlandson'),
 ('Rowlatt'),
 ('Rowlay'),
-
 ('Rowledge'),
 ('Rowlee'),
 ('Rowlen'),
@@ -18184,13 +18147,10 @@ VALUES
 ('Rowlinson'),
 ('Rowlison'),
 ('Rowllings'),
-
 ('Rowls'),
 ('Rowlson'),
 ('Rowman'),
-
 ('Rownak'),
-
 ('Rownen'),
 ('Rowney'),
 ('Rownok'),
@@ -18231,7 +18191,6 @@ VALUES
 ('Rowton'),
 ('Rowvill'),
 ('Rowwitha'),
-('Rowza'),
 ('Rowzana'),
 ('Rowzbin'),
 ('Rox'),
@@ -19998,14 +19957,12 @@ VALUES
 ('Rungarun'),
 ('Rungary'),
 ('Rungasamy'),
-
 ('Rungata'),
 ('Rungay'),
 ('Runge'),
 ('Rungen'),
 ('Rungger'),
 ('Runggu'),
-
 ('Runghen'),
 ('Rungis'),
 ('Rungkitwattanakul'),
@@ -21090,7 +21047,6 @@ VALUES
 ('Rychert'),
 ('Ryches'),
 ('Rychikhina'),
-('Rychlewsk'),
 ('Rychta'),
 ('Rychter'),
 ('Ryckeboer'),
@@ -21358,7 +21314,6 @@ VALUES
 ('Ryves'),
 ('Rywana'),
 ('Rywin'),
-
 ('Ryx'),
 ('Ryyan'),
 ('Ryyana'),

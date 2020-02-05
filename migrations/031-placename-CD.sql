@@ -453,7 +453,6 @@ VALUES
 ('Cadwgan Terrace'),
 ('Cadwin Field'),
 ('Cadworthy'),
-('Cadwst'),
 ('Cadycrowse Rock'),
 ('Cadythew Rock'),
 ('Cadzow Avenue'),
@@ -1054,7 +1053,6 @@ VALUES
 ('Caerwent Lane'),
 ('Caerwent Road'),
 ('Caerwgan'),
-('Caerwys'),
 ('Caerwys Grove'),
 ('Caesar Avenue'),
 ('Caesar Close'),
@@ -1505,7 +1503,6 @@ VALUES
 ('Cairnswell Avenue'),
 ('Cairnswell Place'),
 ('Cairntack Road'),
-
 ('Cairnton'),
 ('Cairnton Crescent'),
 ('Cairnton Place'),
@@ -2636,7 +2633,6 @@ VALUES
 ('Cam àrd Beag'),
 ('Camag Linne Mhòr'),
 ('Camagach Sgeir'),
-
 ('Camaisean'),
 ('Camalaig Bay'),
 ('Caman'),
@@ -2823,7 +2819,6 @@ VALUES
 ('Cambusmore'),
 ('Cambustay Gardens'),
 ('Cambuswallace'),
-
 ('Camcross Close'),
 ('Camdale Close'),
 ('Camdale Lane'),
@@ -2977,7 +2972,6 @@ VALUES
 ('Camesky Road'),
 ('Camesworth'),
 ('Camesworth Lane'),
-
 ('Camfar Cwn'),
 ('Camffrwd Way'),
 ('Camfield Close'),
@@ -3358,26 +3352,14 @@ VALUES
 ('Campton Place'),
 ('Campton Road'),
 ('Camptown'),
-('Campus'),
-('Campus Avenue'),
-('Campus Drive'),
 ('Campus Five'),
-('Campus Martius'),
+('Martius'),
 ('Campus One'),
-('Campus Road'),
 ('Campus Three'),
 ('Campus Two'),
-('Campus Way'),
 ('Campview'),
-('Campview Avenue'),
-('Campview Crescent'),
-('Campview Gardens'),
-('Campview Grove'),
-('Campview Road'),
-('Campview Terrace'),
-('Campville Crescent'),
-('Campville Grove'),
-('Campwood Road'),
+('Campville'),
+('Campwood'),
 ('Campws'),
 ('Campws Cymuned'),
 ('Campws Stryd Tileri'),
@@ -3665,7 +3647,6 @@ VALUES
 ('Cancer Drove'),
 ('Canch'),
 ('Cancleave Strand'),
-('Cancún'),
 ('Candace Court'),
 ('Candahar Road'),
 ('Candale Close'),
@@ -4358,7 +4339,6 @@ VALUES
 ('Caolas Fiarach'),
 ('Caolas Fuideach'),
 ('Caolas na'),
-
 ('Caolasnacon'),
 ('Caoldair'),
 ('Caoldairidh'),
@@ -4538,7 +4518,6 @@ VALUES
 ('Capheaton'),
 ('Capheaton Way'),
 ('Caphill Moss'),
-
 ('Capilano Park'),
 ('Capilano Road'),
 ('Capilaw Road'),
@@ -4809,7 +4788,6 @@ VALUES
 ('Caragloose Point'),
 ('Caragrich Point'),
 ('Carantoc Way'),
-('Carapicuíba'),
 ('Caravan Lane'),
 ('Caravan Park'),
 ('Caravel Close'),
@@ -4825,7 +4803,6 @@ VALUES
 ('Caraway Walk'),
 ('Carawood Close'),
 ('Caray Grove'),
-
 ('Carbarns'),
 ('Carbarns Road'),
 ('Carbean'),
@@ -6013,10 +5990,7 @@ VALUES
 ('Carninney Lane'),
 ('Carnis Mhòr'),
 ('Carnish'),
-('Carnival Close'),
-('Carnival Way'),
-('Carnivan Hill'),
-
+('Carnivan'),
 ('Carnjewey Way'),
 ('Carnkie'),
 ('Carnkief'),
@@ -6358,7 +6332,6 @@ VALUES
 ('Carregaman Isaf'),
 ('Carregamman Lane'),
 ('Carreghofa Lane'),
-
 ('Carreglefain'),
 ('Carrel Road'),
 ('Carres Square'),
@@ -6709,11 +6682,9 @@ VALUES
 ('Carrycoats Hall'),
 ('Carryer Place'),
 ('Cars Wood'),
-
 ('Carsal Close'),
 ('Carsamull'),
 ('Carscallan'),
-
 ('Carscreugh'),
 ('Carsdale'),
 ('Carse'),
@@ -6728,12 +6699,10 @@ VALUES
 ('Carsegate'),
 ('Carseggie'),
 ('Carseggie Law'),
-
 ('Carsegreen'),
 ('Carseheugh'),
 ('Carsehill'),
 ('Carselea'),
-
 ('Carseriggan'),
 ('Carsethorn'),
 ('Carseview'),
@@ -7232,7 +7201,6 @@ VALUES
 ('Carysfort Close'),
 ('Carysfort Road'),
 ('Carzise'),
-('Carúpano'),
 ('Cas a'),
 ('Cas Bach'),
 ('Cas Bhràighe'),
@@ -8427,7 +8395,6 @@ VALUES
 ('Catriona Crescent'),
 ('Catriona Place'),
 ('Catriona Terrace'),
-
 ('Cats Ash'),
 ('Cats Bank'),
 ('Cats Bottom'),
@@ -9269,8 +9236,6 @@ VALUES
 ('Ceannamhoir Bheag'),
 ('Ceannamhoire'),
 ('Ceannamhor'),
-
-
 ('Ceap'),
 ('Ceapabhal'),
 ('Ceapan'),
@@ -9706,7 +9671,6 @@ VALUES
 ('Cefnesgair'),
 ('Cefngefail'),
 ('Cefngolog'),
-('Cefngwyr'),
 ('Cefni Saltmarsh'),
 ('Cefnllan'),
 ('Cefnllan isaf'),
@@ -10233,11 +10197,8 @@ VALUES
 ('Ceylon Walk'),
 ('Cezanne Road'),
 ('CeÃ rnag Na Seann Sgoile'),
-
 ('Ceàrn Chònais'),
 ('Ceàrnag Na Seann Sgoile'),
-
-
 ('Ceùm an Lèim'),
 ('Cha leig'),
 ('Chabach'),
@@ -11099,7 +11060,6 @@ VALUES
 ('Champanyie'),
 ('Champernhayes Lane'),
 ('Champernhayes Marsh'),
-
 ('Champflower'),
 ('Champford Lane'),
 ('Champford Mews'),
@@ -11150,7 +11110,6 @@ VALUES
 ('Chandlings'),
 ('Chandos'),
 ('Chandos Pole'),
-
 ('Chandres'),
 ('Chaney'),
 ('Chaneyfield'),
@@ -11337,7 +11296,6 @@ VALUES
 ('Chaos Pool'),
 ('Chap and Crater'),
 ('Chapaill'),
-
 ('Chapel Alders'),
 ('Chapel Allerton'),
 ('Chapel Alley'),
@@ -13872,8 +13830,6 @@ VALUES
 ('Cheshire'),
 ('Cheshire Lines'),
 ('Cheshires'),
-
-
 ('Chesholt'),
 ('Cheshunt'),
 ('Cheshunt Wash'),
@@ -14507,11 +14463,6 @@ VALUES
 ('Cheynies'),
 ('Cheyny Close'),
 ('Chez Nous'),
-
-
-
-
-
 ('Chhapra'),
 ('Chi Rio'),
 ('Chiall'),
@@ -14879,7 +14830,6 @@ VALUES
 ('Chillybridge'),
 ('Chillybridge Rocks'),
 ('Chillyhill Lane'),
-
 ('Chilmans Downs'),
 ('Chilmans Drive'),
 ('Chilmark'),
@@ -15038,7 +14988,6 @@ VALUES
 ('Chilworth Way'),
 ('Chilworthy'),
 ('Chilworthy Lane'),
-
 ('Chimbote'),
 ('Chime Bank'),
 ('Chime Close'),
@@ -15586,14 +15535,8 @@ VALUES
 ('Chluainein'),
 ('Chluanaidh'),
 ('Chluarain'),
-
-
 ('Chlàr Locha'),
-
-
 ('Chlèite Bhric'),
-
-
 ('Chnapan'),
 ('Chno Dearg'),
 ('Chnoc'),
@@ -15611,7 +15554,6 @@ VALUES
 ('Chnuic Dhuibhe'),
 ('Chnuic Dhuinn'),
 ('Chnuit Dhuinn'),
-
 ('Choakes'),
 ('Choakes Brake'),
 ('Choakles'),
@@ -15881,7 +15823,6 @@ VALUES
 ('Chorse'),
 ('Chorus Close'),
 ('Chorwell Lane'),
-
 ('Choseley'),
 ('Choseley Close'),
 ('Choseley Court'),
@@ -16151,25 +16092,12 @@ VALUES
 ('Chrystel Close'),
 ('Chrystie Lane'),
 ('Chryston Road'),
-
-
-
-
 ('Chrìon Alltain'),
 ('Chrìon doire'),
 ('Chrìon Làraich'),
-
-
-
-
 ('Chròm Dhoire'),
 ('Chròm uillt'),
-
-
 ('Chrùbaich Bhig'),
-
-
-
 ('Chuail'),
 ('Chuailein'),
 ('Chuain'),
@@ -16800,70 +16728,28 @@ VALUES
 ('Chywoone Crescent'),
 ('Chywoone Hill'),
 ('Chywoone Place'),
-
-
-
-
-
 ('Chàirn Beag'),
 ('Chàirn Bhàin'),
 ('Chàirn Deirg'),
-
-
 ('Chàise Bhig'),
-
-
-
 ('Chàisgein Beag'),
-
-
-
-
-
-
 ('Chàrnach Mhòr'),
-
 ('Chàrnain Bhàin'),
-
 ('Chàrra Bhig'),
 ('Chàrra MhÃ³ir'),
-
-
 ('Chèir Ghorm'),
-
-
 ('Chìl Mhalieu'),
 ('Chìoch Bheag'),
 ('Chìoch Mhòr'),
 ('Chìpeagal Bheag'),
 ('Chìpeagal Mhòr'),
-('Chía'),
-
-
-
 ('Chòineach Beag'),
-
 ('Chòinnich Beag'),
-
-
-
-
-
 ('Chòrr Bhealaich'),
-
-
 ('Chùil tairbh'),
 ('Chùilean Dubha'),
-
-
 ('Chùirn Bhig'),
-
-
 ('Chùl Achaidh'),
-
-
-
-
 ('Chōfu'),
 ('Ci'),
 ('Ci Road'),
@@ -16945,7 +16831,6 @@ VALUES
 ('Cilcoed'),
 ('Cildaudy'),
 ('Cildaudy Road'),
-('Cildwrn'),
 ('Cildwrn Road'),
 ('Cilfach'),
 ('Cilfach Crwys'),
@@ -17043,8 +16928,6 @@ VALUES
 ('Cilwrgi Drive'),
 ('Cilybebyll'),
 ('Cilycwm Road'),
-('Cilymaenllwyd'),
-('Cilâ'),
 ('Cilâ Uchaf'),
 ('Cimarron Close'),
 ('Cimla Close'),
@@ -20636,7 +20519,6 @@ VALUES
 ('Clowes Road'),
 ('Cloweswood Lane'),
 ('Clown Hill'),
-
 ('Clowne Common'),
 ('Clowne Linear'),
 ('Clowne Road'),
@@ -20856,11 +20738,9 @@ VALUES
 ('Clwyd Road'),
 ('Clwyd Way'),
 ('Clwyd Wen'),
-('Clwydfagwyr'),
 ('Clwydian Avenue'),
 ('Clwydian Park'),
 ('Clwydian Range'),
-('Clwydyfagwyr'),
 ('Clyans'),
 ('Clyans Dam'),
 ('Clybouw Avenue'),
@@ -20992,21 +20872,10 @@ VALUES
 ('Clywedog Road'),
 ('ClÃ³s Pickering'),
 ('Clàdan Biorach'),
-
-
 ('Clàr Lochan'),
-
-
-
 ('Clèit an Ime'),
-
-
 ('Clèitseal a Deas'),
-
-
-
 ('Clòiche Mòire'),
-
 ('Clòs Abbeydale'),
 ('Clòs Bryn Sgyryd'),
 ('Clòs Catherine'),
@@ -21030,8 +20899,6 @@ VALUES
 ('Clòs Samuel Salter'),
 ('Clòs Ynys Dulas'),
 ('Clòs Ynys Llanddwyn'),
-('Clôs'),
-
 ('Cnaimh'),
 ('Cnap'),
 ('Cnap a Chailbhe'),
@@ -21255,10 +21122,6 @@ VALUES
 ('Cnwclas'),
 ('Cnyw'),
 ('Cnyw Terrace'),
-
-
-
-
 ('Coach And Horses'),
 ('Coach Bach'),
 ('Coach Balk'),
@@ -22263,7 +22126,6 @@ VALUES
 ('Cocknage Road'),
 ('Cockney Hill'),
 ('Cockneys'),
-
 ('Cockpen'),
 ('Cockpit Close'),
 ('Cockpit Head'),
@@ -22526,7 +22388,6 @@ VALUES
 ('Cody Road'),
 ('Cody Technology'),
 ('Cody Walk'),
-
 ('Coe Avenue'),
 ('Coe Close'),
 ('Coe Crags'),
@@ -22568,7 +22429,6 @@ VALUES
 ('Coedbach'),
 ('Coedbach Park'),
 ('Coedbach Road'),
-('Coedberthlwyd'),
 ('Coedbrynglas'),
 ('Coedcae'),
 ('Coedcae Ambrose'),
@@ -22627,13 +22487,11 @@ VALUES
 ('Coedmore Lane'),
 ('Coedpenmaen Road'),
 ('Coedpoeth'),
-
 ('Coedrath Park'),
 ('Coedriglan Drive'),
 ('Coedsaeson'),
 ('Coedslaies'),
 ('Coedtal'),
-
 ('Coeduchaf'),
 ('Coedwaunwyllt'),
 ('Coedway'),
@@ -22643,7 +22501,6 @@ VALUES
 ('Coedwig Erw'),
 ('Coedwig Niwbwrch'),
 ('Coedwig Place'),
-('Coedwyr'),
 ('Coedy Bronallt'),
 ('Coedy Clegyr'),
 ('Coedybrain Court'),
@@ -22793,7 +22650,6 @@ VALUES
 ('Coilantogle Ford'),
 ('Coileach'),
 ('Coileanais'),
-
 ('Coilessan Glen'),
 ('Coilhallan'),
 ('Coiliochbhar Hill'),
@@ -22925,7 +22781,6 @@ VALUES
 ('Coirein Riabhach'),
 ('Coirenamfeuran'),
 ('Coiresa'),
-
 ('Coirnis'),
 ('Coise'),
 ('Coise cagailte'),
@@ -25091,7 +24946,6 @@ VALUES
 ('Colzium Glen'),
 ('Colzium Hill'),
 ('Colzium View'),
-
 ('Comairig'),
 ('Comalegy'),
 ('Comar Gardens'),
@@ -25335,7 +25189,6 @@ VALUES
 ('Comiston Terrace'),
 ('Comiston View'),
 ('Comisty'),
-
 ('Comley Bottom'),
 ('Comley Hill'),
 ('Comley Road'),
@@ -25719,7 +25572,6 @@ VALUES
 ('Concanon Road'),
 ('Concast Road'),
 ('Conce Moor'),
-
 ('Concept Business'),
 ('Concept Court'),
 ('Concert Court'),
@@ -26937,8 +26789,7 @@ VALUES
 ('Coopa Taing'),
 ('Coopalash'),
 ('Coope Road'),
-('Cooper Avenue'),
-('Cooper Box'),
+('Cooper'),
 ('Cooper Bridge'),
 ('Cooper Bridge Cut'),
 ('Cooper Close'),
@@ -27170,7 +27021,6 @@ VALUES
 ('Cophurst Knott'),
 ('Copi Fancer'),
 ('Copia Crescent'),
-
 ('Copicar'),
 ('Copinces Fen'),
 ('Copinces Lane'),
@@ -29180,7 +29030,6 @@ VALUES
 ('Coruisk'),
 ('Coruisk Drive'),
 ('Corum Place'),
-
 ('Corun'),
 ('Corunna Avenue'),
 ('Corunna Close'),
@@ -29193,7 +29042,6 @@ VALUES
 ('Corunna Road'),
 ('Corunna Terrace'),
 ('Corunna View'),
-
 ('Corva Close'),
 ('Corva Road'),
 ('Corval Hill'),
@@ -31489,7 +31337,6 @@ VALUES
 ('Coytra hen'),
 ('Coytrahen'),
 ('Coytrahen Close'),
-('Coytrahên'),
 ('Cozen Croft'),
 ('Cozendon'),
 ('Cozens Close'),
@@ -32740,7 +32587,6 @@ VALUES
 ('Craigy Braes'),
 ('Craigy Hill'),
 ('Craigy Linn'),
-('Craigydiffwys'),
 ('Craigyfulfran'),
 ('Craigypistyll'),
 ('Craigyrogof'),
@@ -34036,7 +33882,6 @@ VALUES
 ('Creewood Close'),
 ('Crefeld Close'),
 ('Creffield Road'),
-('Crefftwyr'),
 ('Cregen'),
 ('Creggans Point'),
 ('Cregoe'),
@@ -34102,7 +33947,6 @@ VALUES
 ('Creiglyn Dyfi'),
 ('Creignant'),
 ('Creigton Court'),
-('Creigwyr'),
 ('Creinch'),
 ('Creinch Drive'),
 ('Creine Mill'),
@@ -34417,7 +34261,6 @@ VALUES
 ('Crewes Lane'),
 ('Crewgarth Road'),
 ('Crewgreen'),
-
 ('Crewkerne'),
 ('Crewkerne Close'),
 ('Crewkerne Copse'),
@@ -34538,7 +34381,6 @@ VALUES
 ('Crichtons Heath'),
 ('Crichtons Way'),
 ('Cricieth'),
-('Criciúma'),
 ('Crick Close'),
 ('Crick Covert'),
 ('Crick dee'),
@@ -37635,7 +37477,6 @@ VALUES
 ('Crwbin'),
 ('Crwcas'),
 ('Crwn'),
-('Crwst'),
 ('Crwynwr'),
 ('Crwys Lane'),
 ('Crwys Place'),
@@ -37696,24 +37537,11 @@ VALUES
 ('Crystal Terrace'),
 ('Crystal Way'),
 ('Crythan Walk'),
-
-
 ('Cràdh gheoidh'),
 ('Cràdh gheòidh'),
-
-
-
 ('Cràraigh Mhòr'),
-
-
 ('Crèige Loisgte'),
-
-
-
 ('Crìon Làrach'),
-
-
-
 ('Crò a Mhàil'),
 ('Crò Chriosdaig'),
 ('Crò Dubhaig'),
@@ -37722,35 +37550,17 @@ VALUES
 ('Crò Iain Ghriasaich'),
 ('Crò Mhic Iain'),
 ('Cròc nan Làir'),
-
-
-
-
-
 ('Crògearraidh Beag'),
 ('Crògearraidh na Thobha'),
-
 ('Cròic a Deas'),
 ('Cròic a Tuath'),
 ('Cròic bheinn'),
-
-
-
-
-
-
 ('Cròm Gleann'),
 ('Cròm uillt'),
-
-
 ('Cròthair Bheag'),
 ('Cròthair Mhòr'),
-
-
 ('Crùban Beag'),
-
 ('Crùn Lochan'),
-('Crûg'),
 ('Cu Dhèis'),
 ('Cuaiche'),
 ('Cuaidh'),
@@ -37762,12 +37572,10 @@ VALUES
 ('Cuan Sound'),
 ('Cuaran'),
 ('Cuarsgag'),
-
 ('Cub Close'),
 ('Cub Pond'),
 ('Cuba Crescent'),
 ('Cuba Drive'),
-('Cubatão'),
 ('Cubb Field'),
 ('Cubbi Geo'),
 ('Cubbi Skerry'),
@@ -38057,7 +37865,6 @@ VALUES
 ('Cuguen Place'),
 ('Cuhere'),
 ('Cui leim'),
-
 ('Cuiashader'),
 ('Cuiche'),
 ('Cuidh'),
@@ -38271,7 +38078,6 @@ VALUES
 ('Culhorn'),
 ('Culhorn Loch'),
 ('Culhorn Road'),
-
 ('Culimore Close'),
 ('Culimore Road'),
 ('Culkae Hill'),
@@ -38647,7 +38453,6 @@ VALUES
 ('Culzean Place'),
 ('Culzean Road'),
 ('Cum Hag'),
-
 ('Cumber Close'),
 ('Cumber Drive'),
 ('Cumber Lane'),
@@ -39052,7 +38857,6 @@ VALUES
 ('Curgenven Close'),
 ('Curghie Bay'),
 ('Curia Close'),
-
 ('Curie Avenue'),
 ('Curie Close'),
 ('Curie Croft'),
@@ -39309,7 +39113,6 @@ VALUES
 ('Curtis Way'),
 ('Curtisden'),
 ('Curtishill'),
-
 ('Curtismill'),
 ('Curtisway'),
 ('Curtlee Hill'),
@@ -39584,7 +39387,6 @@ VALUES
 ('Cutties Strip'),
 ('Cuttifords Door'),
 ('Cuttine'),
-
 ('Cuttings Avenue'),
 ('Cuttings Close'),
 ('Cuttings Court'),
@@ -39641,8 +39443,6 @@ VALUES
 ('Cwarre'),
 ('Cwarrel Clark'),
 ('Cwarter Bach'),
-
-
 ('Cwintin'),
 ('Cwlach'),
 ('Cwlach Road'),
@@ -39708,10 +39508,8 @@ VALUES
 ('Cwmbrandy'),
 ('Cwmbreichian'),
 ('Cwmbrwyno'),
-('Cwmbrân'),
 ('Cwmbrân Uchaf'),
 ('Cwmbwrla'),
-('Cwmbâch'),
 ('Cwmcadian'),
 ('Cwmcarfan'),
 ('Cwmcarfan Hill'),
@@ -39741,7 +39539,6 @@ VALUES
 ('Cwmdu Road'),
 ('Cwmdulais'),
 ('Cwmdwyfran'),
-
 ('Cwmeldeg isaf'),
 ('Cwmere'),
 ('Cwmerthig'),
@@ -39808,7 +39605,6 @@ VALUES
 ('Cwmrhyddgoed'),
 ('Cwmrhydyceirw'),
 ('Cwmrhydyceirw Road'),
-
 ('Cwms Lane'),
 ('Cwmsaerbren'),
 ('Cwmsirhwy'),
@@ -39854,7 +39650,6 @@ VALUES
 ('Cwrdy Lane'),
 ('Cwrdy Road'),
 ('Cwrn Covert'),
-('Cwrt'),
 ('Cwrt Aethen'),
 ('Cwrt Afallon'),
 ('Cwrt Anthony'),
@@ -40062,7 +39857,6 @@ VALUES
 ('Cwrtbychan Covert'),
 ('Cwrtglas'),
 ('Cwt'),
-('Cwta'),
 ('Cwta Aber'),
 ('Cwter'),
 ('Cwttir Lane'),
@@ -40198,7 +39992,6 @@ VALUES
 ('Cynllaith'),
 ('Cynllan'),
 ('Cynllan Avenue'),
-('Cynllwyd'),
 ('Cynllwyn du'),
 ('Cynllwyndu Road'),
 ('cynllyfan'),
@@ -40223,7 +40016,6 @@ VALUES
 ('Cyntwell Avenue'),
 ('Cyntwell Crescent'),
 ('Cyntwell Place'),
-('Cynwyd'),
 ('Cynwyd Forest'),
 ('Cynwyds Avenue'),
 ('Cynwyl Elfed'),
@@ -40281,22 +40073,9 @@ VALUES
 ('Cyri'),
 ('Cyriacs'),
 ('Cyrics Creek'),
-('Cyril Avenue'),
-('Cyril Bell'),
-('Cyril Black'),
 ('Cyril Child'),
-('Cyril Crescent'),
-('Cyril Evans'),
-('Cyril Grove'),
-('Cyril Hart'),
-('Cyril Hayward'),
-('Cyril Place'),
-('Cyril Road'),
-('Cyril Vokins'),
-('Cyrils Close'),
-('Cyrils Corner'),
-('Cyrils Road'),
-('Cyrils Way'),
+('Vokins'),
+('Cyrils'),
 ('Cyrn'),
 ('Cyrnant'),
 ('Cyrnau'),
@@ -40330,79 +40109,43 @@ VALUES
 ('Cywion'),
 ('Czarina Rise'),
 ('Częstochowa'),
-
-
 ('Càbhag Rock'),
-
-
-
-
 ('Càirn Bhioraich'),
 ('Càirn Deirg'),
-
-
 ('Càm Beag'),
 ('Càm Choirein'),
 ('Càm Ghleann'),
 ('Càm Loch'),
 ('Càm Sgeir'),
 ('Càm Sgriob'),
-
-
-
-
-
 ('Càrn nam Bad'),
 ('Càrn nan Con easan'),
-
-
 ('Càrnan Bàn'),
 ('Càrnan Maire'),
-
-
-
-
 ('Càth Sgeir'),
 ('Càthrach Duibhe'),
-
-
-
-
-
 ('Cìche na Beinne Deirge'),
 ('Cìoch Beinn an Eòin'),
 ('Cìoch Beinn nan Eun'),
 ('Cìoch Mhòr'),
 ('Cìpeagal Bheag'),
 ('Cìpeagal Mhor'),
-
 ('Cìrean Geardail'),
 ('Cìrein Beaga'),
 ('Cìrein Mòra'),
 ('Cìrein Ruadh a Stangu'),
 ('Cò stri'),
-
 ('còch Dingle'),
 ('Còg syth'),
-
 ('Còinneach Mhòr'),
-
 ('Còir Eilean'),
 ('Còmhnard Coire nan Geur Oirean'),
-
-
-
 ('Còrr Bhile'),
 ('Còrr Chnoic'),
 ('Còrr Eilean'),
 ('Còrr Eilean Ceallasaigh'),
 ('Còrr Sgeir'),
 ('Còs Madaidh ruaidh'),
-
-
-
-
-
 ('Cùil a Bhainne'),
 ('Cùil an t Saimh'),
 ('Cùil an t Salainn'),
@@ -40419,20 +40162,11 @@ VALUES
 ('Cùil Phuirt'),
 ('Cùil Rubha'),
 ('Cùil Shuas'),
-
-
-
-
 ('Cùirt Chùl Fheàma àrd'),
 ('Cùirt à Chrolaidh'),
-
-
 ('Cùl an Trinnse'),
 ('Cùl na h àirde'),
 ('Cùl Sgòr'),
-
-('Cúa'),
-('Cúcuta'),
 ('Cần Thơ'),
 ('Cẩm Phả'),
 ('Da Baas o Stremness'),
@@ -41236,7 +40970,6 @@ VALUES
 ('Dalditch Lane'),
 ('Daldorch House'),
 ('Daldorne'),
-
 ('Daldowie Avenue'),
 ('Daldowie Hill'),
 ('Daldridge'),
@@ -41537,7 +41270,6 @@ VALUES
 ('Dalloway Road'),
 ('Dallowgill'),
 ('Dallowgill Moor'),
-
 ('Dallowie Road'),
 ('Dallows'),
 ('Dalls Lane'),
@@ -42534,7 +42266,6 @@ VALUES
 ('Danley Kiln'),
 ('Danley Lane'),
 ('Danley Road'),
-('Danlí'),
 ('Danmore Close'),
 ('Dann Court'),
 ('Dannah Crescent'),
@@ -43374,7 +43105,6 @@ VALUES
 ('Dashwood Square'),
 ('Dashwoods Lane'),
 ('Daskett Hill'),
-
 ('Dasna Road'),
 ('Dassels'),
 ('Dassels Hill'),
@@ -44135,12 +43865,9 @@ VALUES
 ('Ddyfal'),
 ('Ddyfan'),
 ('Ddyle'),
-('Ddâr'),
-
 ('Ddòl Cownwy'),
 ('Ddòl fawr'),
 ('Ddòl Wood'),
-('Ddôl'),
 ('Ddôl Cownwy'),
 ('Angeli'),
 ('Aston'),
@@ -44192,7 +43919,6 @@ VALUES
 ('Ferrieres'),
 ('Frene'),
 ('Gaunt'),
-
 ('Gravel'),
 ('Grey'),
 ('Greys'),
@@ -44266,7 +43992,6 @@ VALUES
 ('Tracey'),
 ('Trafford'),
 ('Traffords'),
-
 ('Valle de Catamarca'),
 ('Verdon'),
 ('Vere'),
@@ -45863,15 +45588,12 @@ VALUES
 ('Broughton'),
 ('Delves Slack'),
 ('Delview'),
-
 ('Delvin'),
 ('Delvine'),
 ('Delvino'),
 ('Delvins'),
 ('Delvyns'),
-
 ('Delwood'),
-
 ('Delysg'),
 ('Demage'),
 ('Demands Coppice'),
@@ -47510,8 +47232,6 @@ VALUES
 ('Deysbrook Side'),
 ('Deysbrook Way'),
 ('Dezful'),
-
-
 ('Dhadhaidh'),
 ('Dhahran'),
 ('Dhaibhaidh'),
@@ -47594,18 +47314,9 @@ VALUES
 ('Dhun Omhain'),
 ('Dhustone Close'),
 ('Dhustone Lane'),
-
-
-
 ('Dhòmhnaill Bhig'),
-
-
-
-
 ('Dhùghaill Mhic Raonuill'),
-
 ('Dhùn a Gharaidh'),
-
 ('Di chuimhne'),
 ('Di haul'),
 ('Diabaigas àirde'),
@@ -47994,7 +47705,6 @@ VALUES
 ('Differick Drive'),
 ('Diffords Copse'),
 ('Diffrwyth'),
-('Diffwys'),
 ('Diffwys a Maenofferen'),
 ('Difwg'),
 ('Difyr'),
@@ -48074,7 +47784,6 @@ VALUES
 ('Digswell Water'),
 ('Dihanog'),
 ('Dihaul'),
-('Dihewyd'),
 ('Dijon Avenue'),
 ('Dike End'),
 ('Dike Furlong'),
@@ -48474,7 +48183,6 @@ VALUES
 ('Dinorben Avenue'),
 ('Dinorben Beeches'),
 ('Dinorben Close'),
-
 ('Dinorwic Close'),
 ('Dinorwic Road'),
 ('Dinorwig'),
@@ -48795,7 +48503,6 @@ VALUES
 ('Divinity Close'),
 ('Divinity Flat'),
 ('Divinity Road'),
-
 ('Division Lane'),
 ('Division Moor'),
 ('Division Road'),
@@ -48828,7 +48535,6 @@ VALUES
 ('Dixy Close'),
 ('Diyarbakır'),
 ('Dizzard Point'),
-
 ('Djuba Dale'),
 ('Djuba Voe'),
 ('Djuba Water'),
@@ -49989,7 +49695,6 @@ VALUES
 ('Dolwen Road'),
 ('Dolwgan'),
 ('Dolwilkin'),
-('Dolwyd'),
 ('Dolwyddelan'),
 ('Dolybont'),
 ('Dolycoed'),
@@ -52172,7 +51877,6 @@ VALUES
 ('Drammen'),
 ('Dramore'),
 ('Dramsell Rise'),
-('Dramwys'),
 ('Drancy'),
 ('Dranes'),
 ('Drangway'),
@@ -52387,7 +52091,6 @@ VALUES
 ('Drefgerrig'),
 ('Dreflan'),
 ('Drefor Dingle'),
-('Drefâch'),
 ('Dregging Geos'),
 ('Dreghorn Avenue'),
 ('Dreghorn Drive'),
@@ -53149,7 +52852,6 @@ VALUES
 ('Drumbles Lane'),
 ('Drumboe Avenue'),
 ('Drumbottie Road'),
-
 ('Drumbowie Crescent'),
 ('Drumbowie View'),
 ('Drumboy Hill'),
@@ -53818,9 +53520,6 @@ VALUES
 ('Drywell Court'),
 ('Drywood Avenue'),
 ('Drywoods'),
-
-
-
 ('Du'),
 ('Du bruaich'),
 ('Du Burstow'),
@@ -54019,7 +53718,6 @@ VALUES
 ('Dubton'),
 ('Dubton Road'),
 ('Dubwath'),
-('Dubâch'),
 ('Ducane Close'),
 ('Ducane Walk'),
 ('Ducans Marsh'),
@@ -54510,7 +54208,6 @@ VALUES
 ('Dulverston Close'),
 ('Dulverton'),
 ('Dulvys'),
-
 ('Dulwich Community'),
 ('Dulyard'),
 ('Dum Dum'),
@@ -56422,7 +56119,6 @@ VALUES
 ('Durris Loan'),
 ('Durrockstock Crescent'),
 ('Durrockstock Road'),
-('Durrës'),
 ('Dursainean'),
 ('Dursden Lane'),
 ('Dursdon'),
@@ -56469,7 +56165,6 @@ VALUES
 ('Duryard Halls Of Residence'),
 ('Duryardwood Copse'),
 ('Duryardwood Lane'),
-
 ('Dusain'),
 ('Dushanbe'),
 ('Dusk Glen'),
@@ -56600,9 +56295,7 @@ VALUES
 ('Dwelly Close'),
 ('Dwelly Lane'),
 ('Dwerryhouse Lane'),
-
 ('Dwfnant'),
-
 ('Dwfr Ddisgynfa Cwm du'),
 ('Dwgan'),
 ('Dwight Close'),
@@ -56846,7 +56539,6 @@ VALUES
 ('Dynham Place'),
 ('Dynham Road'),
 ('Dyniewaid'),
-('Dyniewyd'),
 ('Dynyn Hill'),
 ('Dynys'),
 ('Dyon Lane'),
@@ -56916,11 +56608,9 @@ VALUES
 ('Dytchleys Road'),
 ('Dythel Park'),
 ('Dywarchen'),
-('Dywod'),
 ('dywyll'),
 ('Dywysoges Margared'),
 ('Dzerzhinsk'),
-
 ('Dà Bhriomag'),
 ('Dà Bhàrr'),
 ('Dà Bogha Ràmha Cleit'),
@@ -56942,27 +56632,13 @@ VALUES
 ('Dà Ruisg'),
 ('Dà Sgeir Bhàn'),
 ('Dà Sgeir na Siollt'),
-
-
-
-
 ('Dàlach Mòire'),
-('Dâr'),
-
 ('Dèighe fo Dheas'),
 ('Dèighe fo Thuath'),
-
-
-
 ('Dìollaid Bheag'),
 ('Dìollaid Mhòr'),
 ('Dìollaid nam Fiadh'),
-
-
 ('Dìthreabh na Cuileige'),
-
-
-
 ('Dòl Ebwy'),
 ('Dòl fawr'),
 ('Dòl forwyn'),
@@ -56970,34 +56646,18 @@ VALUES
 ('Dòl gefeiliau'),
 ('Dòl Pistyll'),
 ('Dòl Sant Ilid'),
-
-
-
-
-
-
-('Dôl'),
 ('Dôl forwyn'),
-
-
 ('Dùbhrach Choire'),
-
-
 ('Dùin Bhig'),
 ('Dùin Bhuidhe'),
 ('Dùin Mhòr'),
-
 ('Dùine Mhairbh'),
-
 ('Dùn da lamh'),
 ('Dùn dà Ghaoithe'),
 ('Dùn na Ban Òige'),
 ('Dùn nan Gall'),
 ('Dùn àrn'),
-
 ('Dùnach Liath'),
-
-
 ('Dùntan Breaca'),
 ('Dąbrowa Górnicza');
 -- Down

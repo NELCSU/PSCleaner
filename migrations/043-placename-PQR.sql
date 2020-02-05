@@ -497,7 +497,6 @@ VALUES
 ('Pagitts Grove'),
 ('Paglesfield'),
 ('Paglesham Churchend'),
-
 ('Paglesham Eastend'),
 ('Pagnall Court'),
 ('Pagnell'),
@@ -807,7 +806,6 @@ VALUES
 ('Palgrave Way'),
 ('Palgrove Road'),
 ('Palgrove Square'),
-('Palhoça'),
 ('Palin Avenue'),
 ('Palin Close'),
 ('Palin Drive'),
@@ -1346,7 +1344,6 @@ VALUES
 ('Pantbach Place'),
 ('Pantcadifor'),
 ('Pantcelynline'),
-('Pantcwta'),
 ('Pantddu Road'),
 ('Panteg Close'),
 ('Panteg Road'),
@@ -1393,7 +1390,6 @@ VALUES
 ('Pantlings Lane'),
 ('Pantlladron'),
 ('Pantllefrith'),
-('Pantllwyd'),
 ('Pantmaenog Forest'),
 ('Pantmawr Road'),
 ('Pantoch Drive'),
@@ -1624,7 +1620,6 @@ VALUES
 ('Paradise Walk'),
 ('Paradise Way'),
 ('Paradus Walk'),
-('Paradwys'),
 ('Paradykes Avenue'),
 ('Paragon'),
 ('Paragon Avenue'),
@@ -1649,13 +1644,10 @@ VALUES
 ('Parana Close'),
 ('Parana Court'),
 ('Parana Road'),
-
-
 ('Parauapebas'),
 ('Paravane Close'),
 ('Parawell Lane'),
 ('Paray Drive'),
-
 ('Parbean'),
 ('Parbold'),
 ('Parbold Avenue'),
@@ -2731,7 +2723,6 @@ VALUES
 ('Parnalls'),
 ('Parnamirim'),
 ('Parnassus'),
-('Parnaíba'),
 ('Parndon'),
 ('Parneleys'),
 ('Parnells'),
@@ -3130,7 +3121,6 @@ VALUES
 ('Parwich Lane'),
 ('Parwich Road'),
 ('Parwich Walk'),
-('Parwyd'),
 ('Parys Lodge'),
 ('Parys Mountain'),
 ('Parys Pool'),
@@ -3817,7 +3807,6 @@ VALUES
 ('Paulwood Road'),
 ('Pauly Rock'),
 ('Paulyn Way'),
-('Paulínia'),
 ('Pauncefoot Hill'),
 ('Pauncefote Road'),
 ('Pauntley'),
@@ -4992,7 +4981,6 @@ VALUES
 ('Pednor Road'),
 ('Pednormead End'),
 ('Pednvounder'),
-
 ('Pedrog'),
 ('Pedrog Terrace'),
 ('Pedula Way'),
@@ -5875,7 +5863,6 @@ VALUES
 ('Penare Terrace'),
 ('Penarfynydd bâch'),
 ('Penarlag'),
-('Penarlâg'),
 ('Penarron'),
 ('Penarron Drive'),
 ('Penarrow Close'),
@@ -5934,7 +5921,6 @@ VALUES
 ('Penbryn Ci'),
 ('Penbryn Coch'),
 ('Penbrynglas'),
-('Penbrynyreglwys'),
 ('Penbugle'),
 ('Penbury'),
 ('Penbwchdy'),
@@ -6258,7 +6244,6 @@ VALUES
 ('Penduck Shaw'),
 ('Pendula Drive'),
 ('Pendula Road'),
-
 ('Pendwll Road'),
 ('Pendwyallt Road'),
 ('Pendyffryn Gardens'),
@@ -6268,7 +6253,6 @@ VALUES
 ('Pendyrys'),
 ('Penearth'),
 ('Penel Orlieu'),
-
 ('Penelope Close'),
 ('Penelope Gardens'),
 ('Penelope Park'),
@@ -8559,7 +8543,6 @@ VALUES
 ('Perthi Bach'),
 ('Perthi Common'),
 ('Perthigleision'),
-('Perthlwyd'),
 ('Perths Grove'),
 ('Perthshire'),
 ('Perthshire Grove'),
@@ -8762,26 +8745,11 @@ VALUES
 ('Peterscroft Avenue'),
 ('Peterseat Drive'),
 ('Petersfield'),
-('Petersfield Avenue'),
-('Petersfield Bell'),
 ('Petersfield Butser'),
 ('Petersfield Causeway'),
-('Petersfield Close'),
-('Petersfield Copse'),
-('Petersfield Crescent'),
-('Petersfield Drive'),
-('Petersfield Gardens'),
-('Petersfield Green'),
 ('Petersfield Hangers'),
-('Petersfield Heath'),
-('Petersfield Lane'),
-('Petersfield Place'),
-('Petersfield Rise'),
-('Petersfield Road'),
 ('Petersfield Rother'),
-('Petersfield Way'),
 ('Petersfinger'),
-('Petersfinger Road'),
 ('Petersgarth Lane'),
 ('Petersgate'),
 ('Petersgate Close'),
@@ -8944,7 +8912,6 @@ VALUES
 ('Petros Court'),
 ('Petrox'),
 ('Petrox Close'),
-
 ('Petsalls Copses'),
 ('Petsoe End'),
 ('Pett Bottom'),
@@ -9537,15 +9504,12 @@ VALUES
 ('Phipps Bottom'),
 ('Phipps Bridge'),
 ('Phipson Road'),
-
-
 ('Phlaide Mhòr'),
 ('Phlashetts Lane'),
 ('Phlea'),
 ('Phlocrapoil'),
 ('Phloid'),
 ('Phluic'),
-
 ('Phnom Penh'),
 ('Pho Hill'),
 ('Phobaill'),
@@ -9619,11 +9583,9 @@ VALUES
 ('Phriosain'),
 ('Phris'),
 ('Phris Ghiubhais'),
-
 ('Phrop'),
 ('Phrosso Road'),
 ('Phrympth'),
-
 ('Phubuil'),
 ('Phubuill'),
 ('Phuill'),
@@ -9661,11 +9623,6 @@ VALUES
 ('Physics Road'),
 ('Phythian Close'),
 ('Phythian Crescent'),
-
-
-
-
-
 ('Pia Road'),
 ('Piala Place'),
 ('Piano Lane'),
@@ -9676,7 +9633,6 @@ VALUES
 ('Piban'),
 ('Pibble Hill'),
 ('Pibsbury'),
-('Pibwrlwyd'),
 ('Pibwrlwyd Lane'),
 ('Pibyah Rock'),
 ('Pic Tor'),
@@ -10662,7 +10618,6 @@ VALUES
 ('Pillans Place'),
 ('Pillar Avenue'),
 ('Pillar Bank'),
-('Pillar Box'),
 ('Pillar Butts'),
 ('Pillar Close'),
 ('Pillar Crescent'),
@@ -13204,7 +13159,6 @@ VALUES
 ('Plealey'),
 ('Pleamore'),
 ('Pleamoss'),
-
 ('Plean'),
 ('Pleanbank'),
 ('Pleasance Avenue'),
@@ -13784,8 +13738,6 @@ VALUES
 ('Pluto Rise'),
 ('Pluto Road'),
 ('Pluto Way'),
-
-('Plwyf'),
 ('Plyers Hill'),
 ('Plym Close'),
 ('Plym Crescent'),
@@ -13845,7 +13797,6 @@ VALUES
 ('Plysu Way'),
 ('Plython Lake'),
 ('Plzeň'),
-('Plâs'),
 ('Plâs Bruton Covert'),
 ('Plâs isaf'),
 ('Plâs Llwyngwern'),
@@ -13853,7 +13804,6 @@ VALUES
 ('Plâs uchaf'),
 ('Plâs Wood'),
 ('Plâs yn Yale'),
-
 ('Poachers Belt'),
 ('Poachers Brook'),
 ('Poachers Chase'),
@@ -13955,7 +13905,6 @@ VALUES
 ('Pococks Lane'),
 ('Pococks Road'),
 ('Pococks Yard'),
-('Pococí'),
 ('Pocohontas Crescent'),
 ('Pocombe Hill'),
 ('Pod Lane'),
@@ -15110,8 +15059,6 @@ VALUES
 ('Ponteland Road'),
 ('Ponteland Square'),
 ('Ponters Grove'),
-('Ponterwyd'),
-('Ponterwyl'),
 ('Pontes Avenue'),
 ('Pontesbury'),
 ('Pontesbury Hill'),
@@ -15434,7 +15381,6 @@ VALUES
 ('Pop Hill'),
 ('Pop Lane'),
 ('Pop Mallers'),
-
 ('Pope Avenue'),
 ('Pope Carr'),
 ('Pope Close'),
@@ -16073,7 +16019,6 @@ VALUES
 ('Porthmissen Close'),
 ('Porthmoina'),
 ('Porthmon'),
-('Porthmynawyd'),
 ('Porthnavas Creek'),
 ('Porthole Close'),
 ('Portholland'),
@@ -16411,7 +16356,6 @@ VALUES
 ('Portway Place'),
 ('Portway Road'),
 ('Portwell'),
-
 ('Portwey Close'),
 ('Portwood Close'),
 ('Portworthy'),
@@ -16624,7 +16568,6 @@ VALUES
 ('Potlocks'),
 ('Potmans Heath'),
 ('Potmans Lane'),
-('Potosí'),
 ('Potovens Bridge'),
 ('Potovens Close'),
 ('Potovens Lane'),
@@ -17230,7 +17173,6 @@ VALUES
 ('Powerstation'),
 ('Powerstock'),
 ('Powetts'),
-
 ('Poweylane'),
 ('Powfoot'),
 ('Powfoot Scar'),
@@ -17241,7 +17183,6 @@ VALUES
 ('Powick Road'),
 ('Powicke Drive'),
 ('Powicke Walk'),
-
 ('Powie Bushes'),
 ('Powie Point'),
 ('Powies'),
@@ -17406,7 +17347,6 @@ VALUES
 ('Poystreet Green'),
 ('Poza Rica de Hidalgo'),
 ('Poznań'),
-
 ('Poços de Caldas'),
 ('Pr Andrew Drive'),
 ('Pr Charles Drive'),
@@ -17441,7 +17381,6 @@ VALUES
 ('Pratts Pit'),
 ('Pratts Shrubbery'),
 ('Praunter'),
-
 ('Prawn Close'),
 ('Pray Brae'),
 ('Pray Heath'),
@@ -17930,7 +17869,6 @@ VALUES
 ('Pricky Bank'),
 ('Pridd'),
 ('Priddacombe Downs'),
-
 ('Priddeons Hill'),
 ('Priddis Close'),
 ('Priddles Hill'),
@@ -18101,7 +18039,7 @@ VALUES
 ('Prime Close'),
 ('Prime Coppices'),
 ('Prime Four'),
-('Prime Gilt Box'),
+('Prime Gilt'),
 ('Prime Lane'),
 ('Prime Parkway'),
 ('Prime Place'),
@@ -18682,7 +18620,6 @@ VALUES
 ('Prize Close'),
 ('Prize Wood'),
 ('Prizett Road'),
-
 ('Probert Avenue'),
 ('Probert Close'),
 ('Probert Court'),
@@ -18790,7 +18727,6 @@ VALUES
 ('Prophets Alley'),
 ('Prophets Close'),
 ('Prophets Lane'),
-('Prophwyd'),
 ('Propino Way'),
 ('Propps Hall'),
 ('Propulsives'),
@@ -19513,7 +19449,6 @@ VALUES
 ('Puncheston Common'),
 ('Punchfield New Belt'),
 ('Punchfield Old Belt'),
-
 ('Pund Geo'),
 ('Pund Loch'),
 ('Pund of Burravoe'),
@@ -19948,7 +19883,6 @@ VALUES
 ('Pwell Edyn'),
 ('Pwl'),
 ('Pwl mawr'),
-
 ('Pwll a Lecwydd'),
 ('Pwll Annie'),
 ('Pwll Arian'),
@@ -20066,7 +20000,6 @@ VALUES
 ('Pwllygranant'),
 ('Pwllygravel'),
 ('Pwllypant'),
-
 ('Pwynt'),
 ('Pyat'),
 ('Pyat Hill'),
@@ -20378,14 +20311,8 @@ VALUES
 ('Pàirc nan Laogh'),
 ('Pàirc Roghadail'),
 ('Pàirc Thòmais'),
-
 ('Pàirce Bige'),
 ('Pàirce nan Each'),
-
-
-
-('pîb'),
-('Pîl'),
 ('Pòll Randaidh'),
 ('Pòrt Dhughaill'),
 ('Pòrt Phadruig'),
@@ -20898,7 +20825,6 @@ VALUES
 ('Quhytewoollen'),
 ('Qui Ayre'),
 ('Qui Nhơn'),
-
 ('Quibells'),
 ('Quibury'),
 ('Quick Cleugh'),
@@ -20978,7 +20904,6 @@ VALUES
 ('Quilmes'),
 ('Quilow'),
 ('Quilp'),
-
 ('Quilsa Shun'),
 ('Quilsa Taing'),
 ('Quilse'),
@@ -23977,7 +23902,6 @@ VALUES
 ('Ravensden'),
 ('Ravensden Road'),
 ('Ravensdon'),
-
 ('Ravenseat Moor'),
 ('Ravenser Close'),
 ('Ravensfield'),
@@ -24723,7 +24647,6 @@ VALUES
 ('Reavill Close'),
 ('Reavley Avenue'),
 ('Reawick'),
-
 ('Reawla Lane'),
 ('Reay Avenue'),
 ('Reay Crescent'),
@@ -26354,7 +26277,6 @@ VALUES
 ('Reenes'),
 ('Reenglass'),
 ('Reens'),
-
 ('Rees'),
 ('Reeshill'),
 ('Reesland'),
@@ -27416,7 +27338,6 @@ VALUES
 ('Reydon Smear'),
 ('Reygate Grove'),
 ('Reyhill Grove'),
-('Reykjavík'),
 ('Reymead Close'),
 ('Reymerston'),
 ('Reymerston Road'),
@@ -27491,7 +27412,6 @@ VALUES
 ('Reynoldstown Road'),
 ('Reyntiens View'),
 ('Rezare'),
-
 ('Rha Bank'),
 ('Rhaeadr bach'),
 ('Rhaeadr Blaenhafren'),
@@ -28299,7 +28219,6 @@ VALUES
 ('Rhossilly'),
 ('Rhosson'),
 ('Rhostir'),
-
 ('Rhostryfan'),
 ('Rhostyllen'),
 ('Rhoswiel'),
@@ -28351,11 +28270,9 @@ VALUES
 ('Rhuvid Bank'),
 ('Rhuvoult'),
 ('Rhwd Dingle'),
-
 ('Rhwng ddeugoed'),
 ('Rhws'),
 ('Rhwy'),
-('Rhwyd'),
 ('Rhwyddfor'),
 ('Rhyal'),
 ('Rhyber Avenue'),
@@ -28423,7 +28340,6 @@ VALUES
 ('Rhydings'),
 ('Rhydlafar Drive'),
 ('Rhydlanfair'),
-
 ('Rhydlios'),
 ('Rhydol'),
 ('Rhydonen'),
@@ -28442,7 +28358,6 @@ VALUES
 ('Rhydyffynnon'),
 ('Rhydygele'),
 ('Rhydymain'),
-('Rhydymilwyr'),
 ('Rhydymwyn Road'),
 ('Rhydymynach'),
 ('Rhydynos'),
@@ -28502,14 +28417,12 @@ VALUES
 ('Rhyse Lane'),
 ('Rhystone Lane'),
 ('Rhyswg Road'),
-
 ('Rhòs Dingle'),
 ('Rhòs gwerthyr'),
 ('Rhòs Jephrey'),
 ('Rhòs nant'),
 ('Rhòs on Sea'),
 ('Rhòs porth ychain'),
-('Rhôs'),
 ('Rhôs on Sea'),
 ('Rhôs porth ychain'),
 ('Ri Oitir'),
@@ -29464,7 +29377,6 @@ VALUES
 ('Riesco Drive'),
 ('Riesling Drive'),
 ('Rieth'),
-
 ('Rieve Hill'),
 ('Rifa Gil'),
 ('Rifeside'),
@@ -31754,7 +31666,6 @@ VALUES
 ('Rocky Pedn'),
 ('Rocky Wall'),
 ('Rockyfield'),
-
 ('Rocott'),
 ('Rocque'),
 ('Rod Eyot Islands'),
@@ -32851,7 +32762,6 @@ VALUES
 ('Rondin Road'),
 ('Rondini Avenue'),
 ('Rondle'),
-
 ('Rondu Road'),
 ('Rone Close'),
 ('Ronelean Road'),
@@ -37663,7 +37573,6 @@ VALUES
 ('Rudmore Park'),
 ('Rudmore Square'),
 ('Rudolph Road'),
-
 ('Rudrams Gap'),
 ('Rudry'),
 ('Rudry Close'),
@@ -38321,64 +38230,19 @@ VALUES
 ('Rusey'),
 ('Rusey Cliff'),
 ('Rusgaigh'),
-('Rush Acre'),
-('Rush Ash'),
-('Rush Bank'),
 ('Rush Bed'),
 ('Rush Beds'),
-('Rush Bottom'),
 ('Rush Burn'),
 ('Rush Candle'),
-('Rush Close'),
-('Rush Common'),
-('Rush Copse'),
-('Rush Court'),
-('Rush Covert'),
-('Rush Croft'),
-('Rush Down'),
-('Rush Drive'),
-('Rush Drove'),
-('Rush Gardens'),
-('Rush Green'),
-('Rush Green Airfield'),
-('Rush Grove'),
-('Rush Hill'),
-('Rush Hills'),
-('Rush Lane'),
 ('Rush Leys'),
-('Rush Marsh'),
-('Rush Meadow'),
-('Rush Meadow Road'),
-('Rush Mere'),
-('Rush Mount'),
-('Rush Park'),
 ('Rush Pits'),
-('Rush Pond'),
-('Rush Pool'),
-('Rush Street'),
-('Rush View'),
 ('Rush Wall'),
-('Rush Way'),
-('Rush Wood'),
 ('Rushacloust'),
 ('Rushacre'),
-('Rushacre Lane'),
-('Rushall Close'),
-('Rushall Copse'),
-('Rushall Down'),
-('Rushall Drove'),
-('Rushall Green'),
-('Rushall Hill'),
-('Rushall Lane'),
-('Rushall Manor'),
-('Rushall Place'),
-('Rushall Road'),
-('Rushall Shelfield'),
-('Rushall View'),
-('Rusham Park'),
-('Rusham Road'),
+('Rushall'),
+('Shelfield'),
+('Rusham'),
 ('Rushams'),
-('Rushams Road'),
 ('Rushbank'),
 ('Rushbank Hill'),
 ('Rushbearers Walk'),
@@ -39755,21 +39619,8 @@ VALUES
 ('Ryvoan Place'),
 ('Ryvra Road'),
 ('Ryw Blodyn'),
-
-
-
-
-
 ('Ràmha Cleit'),
-
-
-
-
-
 ('Ràtha Bheag'),
-
-
-
 ('Rèidh a Bhuirg'),
 ('Rèidh a Chruidh'),
 ('Rèidh an Fhìdhleir'),
@@ -39786,39 +39637,13 @@ VALUES
 ('Rèidh nan uaig'),
 ('Rèidh Raibeirt'),
 ('Rèidh Rainich'),
-
-
-
 ('Rèisa an t Sruith'),
 ('Rèisa Mhic Phaidean'),
-
-
-
-
-
-
 ('Ròg an Ear'),
 ('Ròg Beag'),
-
 ('Ròin Beag'),
-
-
-
-
 ('Ròiseal Beag'),
-
-
-
-
-
-
 ('Ròs Mhic Mhaoilein'),
-
-
-
-
-
-
 ('Rùm Cuillin'),
 ('Rùsg a Bhiora'),
 ('Rạch Giá');

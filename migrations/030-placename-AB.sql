@@ -191,7 +191,6 @@ VALUES
 ('Abercrave'),
 ('Abercregan'),
 ('Abercregen'),
-
 ('Abercynllaith'),
 ('Abercynon'),
 ('Aberdafen'),
@@ -209,7 +208,6 @@ VALUES
 ('Aberdulais'),
 ('Aberdyberthi'),
 ('Aberdyfi'),
-('Aberdâr'),
 ('Aberelan'),
 ('Abererch'),
 ('Aberfalls'),
@@ -275,7 +273,6 @@ VALUES
 ('Aberthaw'),
 ('Aberthin'),
 ('Abertillery'),
-('Abertonllwyd'),
 ('Abertysswg'),
 ('Abertyswg'),
 ('Aberuthven'),
@@ -460,7 +457,6 @@ VALUES
 ('Acharole'),
 ('Acharry'),
 ('Achastle'),
-
 ('Achavar'),
 ('Achbuiligan'),
 ('Achcheargary'),
@@ -878,7 +874,6 @@ VALUES
 ('Adwood'),
 ('Adworthy'),
 ('Adwy Wynt'),
-('Adwyr'),
 ('Adwyr Farm'),
 ('Adwyr Nant'),
 ('Adziel'),
@@ -893,7 +888,6 @@ VALUES
 ('Aelfric'),
 ('Aelreds'),
 ('Aels'),
-('Aelwyd'),
 ('Aelwyd Ucha'),
 ('Aelwyd uchaf Belt'),
 ('Aer'),
@@ -1416,7 +1410,6 @@ VALUES
 ('Alcocks'),
 ('Alcomden Water'),
 ('Alconbury'),
-
 ('Alcot'),
 ('Alcote'),
 ('Alcotes'),
@@ -1653,7 +1646,6 @@ VALUES
 ('Alec Issigonis'),
 ('Alec Rose'),
 ('Aleck Low'),
-
 ('Aled Isaf'),
 ('Alemill'),
 ('Alemoor'),
@@ -1784,7 +1776,6 @@ VALUES
 ('Allanhall'),
 ('Allanmead'),
 ('Allanpark'),
-
 ('Allans Ling'),
 ('Allans Little'),
 ('Allansford'),
@@ -2017,7 +2008,6 @@ VALUES
 ('Allways'),
 ('Allwhannie'),
 ('Allwoods'),
-('Allwys'),
 ('Allyington'),
 ('Allyn Saxon'),
 ('Alm'),
@@ -2034,7 +2024,6 @@ VALUES
 ('Almerie'),
 ('Almers'),
 ('Almery'),
-('Almería'),
 ('Almeys'),
 ('Almhouse Belt'),
 ('Almhouses'),
@@ -2185,7 +2174,6 @@ VALUES
 ('Alpington'),
 ('Alresford'),
 ('Alrewas'),
-
 ('Alsa Gait'),
 ('Alsace'),
 ('Alsagers'),
@@ -3019,7 +3007,6 @@ VALUES
 ('Annington'),
 ('Annions'),
 ('Annisdale'),
-
 ('Annisfield'),
 ('Annisgarth'),
 ('Annishader'),
@@ -3175,7 +3162,6 @@ VALUES
 ('Anyards'),
 ('Anysley'),
 ('Anzacs'),
-
 ('Aobran'),
 ('Aodainn Bhain'),
 ('Aodann Ban'),
@@ -3262,7 +3248,6 @@ VALUES
 ('Ap Pryce'),
 ('Apalit'),
 ('Aparecida de Goiânia'),
-
 ('Apatha'),
 ('Apedaile'),
 ('Apedale'),
@@ -3320,7 +3305,6 @@ VALUES
 ('Appelford'),
 ('Appenine'),
 ('Apperdale'),
-
 ('Apperley Centre'),
 ('Apperley Dene'),
 ('Apperleybankfoot'),
@@ -3528,7 +3512,6 @@ VALUES
 ('Arach Nam Muc'),
 ('Aradaidh'),
 ('Araglen'),
-('Araguaína'),
 ('Araich Glaise'),
 ('Arail'),
 ('Aramstone'),
@@ -3543,10 +3526,8 @@ VALUES
 ('Araras'),
 ('Araruama'),
 ('Arau Duon'),
-
 ('Araure'),
 ('Arayat'),
-('Araçatuba'),
 ('Arbaile'),
 ('Arbeadie'),
 ('Arberth'),
@@ -3941,7 +3922,6 @@ VALUES
 ('Ardownie'),
 ('Ardpatrick'),
 ('Ardpeaton'),
-
 ('Ardrain'),
 ('Ardreddie'),
 ('Ardroil'),
@@ -3978,7 +3958,6 @@ VALUES
 ('Ardwall Isle'),
 ('Ardwell'),
 ('Ardwick'),
-
 ('Ardyle'),
 ('Arean'),
 ('Arecaria'),
@@ -4114,7 +4093,6 @@ VALUES
 ('Arlingdon'),
 ('Arlingford'),
 ('Arliston'),
-('Arllwyd'),
 ('Arlosh'),
 ('Arlott'),
 ('Arm And Sword'),
@@ -4291,7 +4269,6 @@ VALUES
 ('Arnton'),
 ('Arnulls'),
 ('Arnups Belt'),
-
 ('Arnwood'),
 ('Arodene'),
 ('Arondale'),
@@ -4639,7 +4616,6 @@ VALUES
 ('Ashdell'),
 ('Ashdene'),
 ('Ashdown & Conquest'),
-
 ('Asheldon'),
 ('Ashels Batch'),
 ('Asheltor'),
@@ -4699,17 +4675,17 @@ VALUES
 ('Asheybank'),
 ('Ashfarm'),
 ('Ashfern'),
-('Ashfield Boot'),
-('Ashfield Building'),
-('Ashfield Cum Thorpe'),
+('Ashfield'),
+('Cum Thorpe'),
 ('Ashfields'),
 ('Ashfields New'),
 ('Ashflats'),
 ('Ashfold'),
 ('Ashfold Crossways'),
-('Ashford Bowdler'),
-('Ashford Carbonel'),
-('Ashford Carbonell'),
+('Ashford'),
+('Bowdler'),
+('Carbonel'),
+('Carbonell'),
 ('Ashford in the Water'),
 ('Ashfords'),
 ('Ashfurlong'),
@@ -4735,7 +4711,6 @@ VALUES
 ('Ashingdon'),
 ('Ashkelon'),
 ('Ashkirk'),
-
 ('Ashlade'),
 ('Ashlade Firs'),
 ('Ashlake'),
@@ -5170,7 +5145,6 @@ VALUES
 ('Astwell'),
 ('Astwick'),
 ('Astwith'),
-
 ('Aswanley'),
 ('Aswarby'),
 ('Aswarby Thorns'),
@@ -5241,7 +5215,6 @@ VALUES
 ('Athletes Way'),
 ('Athletic Street'),
 ('Athlon'),
-
 ('Athoke'),
 ('Athold'),
 ('Athollbank'),
@@ -5375,7 +5348,6 @@ VALUES
 ('Auchenback'),
 ('Auchenblae'),
 ('Auchenbothie'),
-
 ('Auchenbreck'),
 ('Auchencairn'),
 ('Auchencar'),
@@ -5419,7 +5391,6 @@ VALUES
 ('Auchenheath'),
 ('Auchenhew'),
 ('Auchenhove'),
-
 ('Aucheninnes'),
 ('Auchenkeld'),
 ('Auchenkist'),
@@ -6087,8 +6058,6 @@ VALUES
 ('Azes'),
 ('Azimghur'),
 ('Azors'),
-('Açailândia'),
-
 ('Aìrde Mòire'),
 ('Aìrigh na h'),
 ('Aìs Sgeir'),
@@ -6199,7 +6168,6 @@ VALUES
 ('Back Bar'),
 ('Back Bark'),
 ('Back Beacon'),
-('Back Bell'),
 ('Back Bold'),
 ('Back Boundary'),
 ('Back Bride'),
@@ -6242,7 +6210,6 @@ VALUES
 ('Back Florist'),
 ('Back Fortune'),
 ('Back Foundry'),
-('Back Fox'),
 ('Back Grain'),
 ('Back Grosvenor'),
 ('Back Grouse'),
@@ -6361,7 +6328,6 @@ VALUES
 ('Back Swan'),
 ('Back Teak'),
 ('Back Tempest'),
-('Back Temple'),
 ('Back Tewit Well'),
 ('Back Thorn'),
 ('Back Thorns'),
@@ -6374,12 +6340,9 @@ VALUES
 ('Back Walls'),
 ('Back Walnut'),
 ('Back Wash'),
-('Back Water'),
 ('Back Wheat'),
 ('Back Wilderness'),
 ('Back Willow'),
-('Back Woodland'),
-('Back Woodlands'),
 ('Back Young'),
 ('Back Zion'),
 ('Backaborough'),
@@ -6510,7 +6473,6 @@ VALUES
 ('Bacup'),
 ('Bacup Old'),
 ('Bacup Road'),
-
 ('Bad a'),
 ('Bad Abrach'),
 ('Bad Alasdair'),
@@ -6899,7 +6861,6 @@ VALUES
 ('Bagworth New'),
 ('Bagworth Road'),
 ('Bagwyllydiart'),
-
 ('Bahama Close'),
 ('Bahama Road'),
 ('Bahamas Way'),
@@ -9399,7 +9360,6 @@ VALUES
 ('Banyards Green'),
 ('Banyards Place'),
 ('Banyardway'),
-('Baní'),
 ('Baoding'),
 ('Baonal Way'),
 ('Bapaume Road'),
@@ -9475,7 +9435,6 @@ VALUES
 ('Barafundle Bay'),
 ('Baraillean Sail'),
 ('Barallan Hill'),
-
 ('Baramans'),
 ('Baramill'),
 ('Baran Road'),
@@ -9833,7 +9792,6 @@ VALUES
 ('Bardon View'),
 ('Bardon Walk'),
 ('Bardon Way'),
-
 ('Bardowie Loch'),
 ('Bardown'),
 ('Bardown Road'),
@@ -13274,7 +13232,6 @@ VALUES
 ('Bay Willow'),
 ('Bayambang'),
 ('Bayamo'),
-
 ('Bayannur'),
 ('Bayard Brow'),
 ('Bayards'),
@@ -15345,7 +15302,6 @@ VALUES
 ('Bedwyn Common'),
 ('Bedwyns'),
 ('Bedwyr Court'),
-('Bedyddwyr'),
 ('Bee'),
 ('Bee Bush'),
 ('Bee Dale'),
@@ -16344,109 +16300,25 @@ VALUES
 ('Belk Close'),
 ('Belkay Copse'),
 ('Belklane Drive'),
-('Bell Acre'),
 ('Bell Alders'),
-('Bell Alley'),
-('Bell Avenue'),
-('Bell Bank'),
-('Bell Banks'),
 ('Bell Bar'),
-('Bell Barn'),
 ('Bell Barns'),
-('Bell Bay'),
-('Bell Beck'),
-('Bell Bottom'),
-('Bell Brae'),
-('Bell Bridge'),
-('Bell Brook'),
 ('Bell Busk'),
 ('Bell Butts'),
-('Bell Chapel'),
-('Bell Chase'),
-('Bell Cleuch'),
-('Bell Close'),
-('Bell Clough'),
-('Bell Common'),
-('Bell Coppice'),
-('Bell Copse'),
-('Bell Court'),
-('Bell Courtyard'),
-('Bell Covert'),
 ('Bell Crags'),
-('Bell Craig'),
-('Bell Crescent'),
-('Bell Croft'),
-('Bell Davies'),
-('Bell Dean'),
-('Bell Drive'),
-('Bell Drove'),
-('Bell End'),
-('Bell Farm'),
-('Bell Field'),
-('Bell Flat'),
 ('Bell Flats'),
-('Bell Fold'),
 ('Bell Foundry'),
-('Bell Gardens'),
-('Bell Garth'),
-('Bell Green'),
-('Bell Grove'),
 ('Bell Hagg'),
-('Bell Hall'),
-('Bell Heath'),
-('Bell Heather'),
-('Bell Hill'),
-('Bell Holloway'),
-('Bell Holt'),
 ('Bell Horse'),
-('Bell House'),
-('Bell Ings'),
-('Bell Inn'),
-('Bell Land'),
-('Bell Lands'),
-('Bell Lane'),
-('Bell Lane Creek'),
-('Bell Leys'),
-('Bell Mead'),
-('Bell Meadow'),
-('Bell Mews'),
-('Bell Mills'),
-('Bell Moor'),
-('Bell Moss'),
-('Bell Mount'),
 ('Bell o th'),
-('Bell Orchard'),
-('Bell Park'),
-('Bell Piece'),
-('Bell Place'),
-('Bell Pool'),
-('Bell Quadrant'),
-('Bell Reeves'),
-('Bell Road'),
 ('Bell Rock'),
 ('Bell Ropes'),
-('Bell Row'),
-('Bell Row Drove'),
-('Bell Shaw'),
 ('Bell Slack'),
-('Bell Square'),
 ('Bell Stane'),
-('Bell Street'),
-('Bell Terrace'),
-('Bell Tower'),
 ('Bell Trees'),
-('Bell Vale'),
 ('Bell Veor'),
-('Bell View'),
 ('Bell Vue'),
-('Bell Walk'),
-('Bell Water'),
-('Bell Way'),
 ('Bell Weather'),
-('Bell Weir'),
-('Bell Wharf'),
-('Bell Wood'),
-('Bell Yard'),
 ('Bella Avenue'),
 ('Bella Close'),
 ('Bella Hill'),
@@ -17308,7 +17180,6 @@ VALUES
 ('Belyngham Crescent'),
 ('Belz Drive'),
 ('Belz Terrace'),
-
 ('Beman Close'),
 ('Bembows'),
 ('Bembridge Brading'),
@@ -17714,7 +17585,6 @@ VALUES
 ('Benefield Road'),
 ('Benefit Street'),
 ('Benefold Copse'),
-
 ('Benelip'),
 ('Benellen'),
 ('Benellen Gardens'),
@@ -18212,7 +18082,6 @@ VALUES
 ('Bentlass Hill'),
 ('Bentlass Road'),
 ('Bentlass Terrace'),
-
 ('Bentlea Road'),
 ('Bentley Dale'),
 ('Bentley Firs'),
@@ -18623,9 +18492,7 @@ VALUES
 ('Berllan dywyll'),
 ('Berllan gollen'),
 ('Berllan Lane'),
-('Berllanlwyd'),
 ('Berllanlwyd Avenue'),
-('Berllwyd'),
 ('Berma Close'),
 ('Bermans Way'),
 ('Bermelie Fields'),
@@ -19147,9 +19014,7 @@ VALUES
 ('Berther Road'),
 ('Berthes Road'),
 ('Berthin Road'),
-('Berthllwyd'),
 ('Berthlog'),
-('Berthlwyd'),
 ('Berthold Gate'),
 ('Berthold Mews'),
 ('Berthon Road'),
@@ -19200,7 +19065,6 @@ VALUES
 ('Beryls'),
 ('Berystede'),
 ('Beryton'),
-('Besançon'),
 ('Besbury'),
 ('Bescar'),
 ('Bescar Brow'),
@@ -19298,11 +19162,9 @@ VALUES
 ('Bessingham Close'),
 ('Bessingham Gardens'),
 ('Bessingham Road'),
-('Bessy Bank'),
-('Bessy Bell'),
-('Bessy Moss'),
+('Bessy'),
 ('Bessyboot'),
-('Bessybrook Close'),
+('Bessybrook'),
 ('Bessygill'),
 ('Bessymire'),
 ('Bessys'),
@@ -19315,9 +19177,9 @@ VALUES
 ('Best Park'),
 ('Best Road'),
 ('Best Street'),
-('Bestall Road'),
-('Bestbeech Hill'),
-('Bested Hill'),
+('Bestall'),
+('Bestbeech'),
+('Bested'),
 ('Besthorpe'),
 ('Besthorpe Close'),
 ('Besthorpe Road'),
@@ -19944,8 +19806,6 @@ VALUES
 ('Bezack'),
 ('Bezant Place'),
 ('Bezza Lane'),
-
-
 ('Beàrnaraigh Beag'),
 ('Beòuin Mhòr'),
 ('Bhac'),
@@ -20016,7 +19876,6 @@ VALUES
 ('Bhalwal'),
 ('Bhamra Gardens'),
 ('Bhan Dubhaidh'),
-
 ('Bhandari Close'),
 ('Bharabhais'),
 ('Bharabhat'),
@@ -20045,8 +19904,6 @@ VALUES
 ('Bhatacuil'),
 ('Bhatagain'),
 ('Bhatair'),
-
-
 ('Bhataraidh'),
 ('Bhatarsaidh'),
 ('Bhatarsaigh'),
@@ -20104,9 +19961,6 @@ VALUES
 ('Bheoil àirigh'),
 ('Bhereagbhat'),
 ('Bheula'),
-
-
-
 ('Bhi'),
 ('Bhi Bùirn'),
 ('Bhide Ruaidh'),
@@ -20137,12 +19991,9 @@ VALUES
 ('Bhlarain'),
 ('Bhleabhal'),
 ('Bhleith'),
-
 ('Bhlàir Bhàin'),
 ('Bhlàir Mhòine'),
 ('Bhlàr Bhuidhe'),
-
-
 ('Bho Dheas'),
 ('Bhocain'),
 ('Bhodachain'),
@@ -20227,23 +20078,9 @@ VALUES
 ('Bhruic Bhig'),
 ('Bhrunachain'),
 ('Bhruthais'),
-
-
-
-
 ('Bhràigh thairis'),
-
 ('Bhràighe Bhuidhe'),
-
 ('Bhrè sgorr'),
-
-
-
-
-
-
-
-
 ('Bhuachaile'),
 ('Bhuaile'),
 ('Bhuaile Bhig'),
@@ -20274,58 +20111,25 @@ VALUES
 ('Bhullar Way'),
 ('Bhun'),
 ('Bhuntata'),
-
 ('Bhursta'),
 ('Bhusawal'),
 ('Bhutan Close'),
 ('Bhutan Road'),
 ('Bhutha'),
-
 ('Bhylls Crescent'),
 ('Bhylls Lane'),
-
-
-
 ('Bhàgh Ghainmhich'),
-
 ('Bhàigh ghlais'),
 ('Bhàigh Mhòr'),
 ('Bhàigh tràight'),
-
-
-
-
 ('Bhàird Rock'),
-
-
 ('Bhàn Rubha'),
 ('Bhàn Uillt'),
 ('Bhàn àrd'),
-
-
 ('Bhàrna sgeir'),
-
 ('Bhàrr Lèith'),
-
-
-
-
-
-
 ('Bhàthaich àrd'),
-
-
-
-
-
-
-
-
-
 ('Bhùirich Rapaig'),
-
-
-
 ('Bi'),
 ('Bi Wood'),
 ('Bia Close'),
@@ -22131,45 +21935,14 @@ VALUES
 ('Bircotes'),
 ('Bircotes Walk'),
 ('Bircumshaws Road'),
-('Bird Avenue'),
-('Bird Bank'),
-('Bird Brook'),
-('Bird Cage'),
 ('Bird Cherry'),
-('Bird Close'),
-('Bird Common'),
-('Bird Court'),
-('Bird Dyke'),
-('Bird End'),
-('Bird Farm'),
-('Bird Field'),
 ('Bird Flight Goit'),
-('Bird Gardens'),
-('Bird Green'),
-('Bird Grove'),
-('Bird Hall'),
-('Bird Hill'),
-('Bird Holme'),
-('Bird House'),
 ('Bird In Bush'),
 ('Bird in Eye'),
-('Bird in eye Shaw'),
 ('Bird In Hand'),
-('Bird In Hand Passage'),
-('Bird In Hand Yard'),
 ('Bird in hole Rock'),
-('Bird Island'),
-('Bird Lane'),
-('Bird Mews'),
 ('Bird Nest'),
-('Bird Pond'),
 ('Bird Ridding'),
-('Bird Road'),
-('Bird Street'),
-('Bird View'),
-('Bird Walk'),
-('Bird Way'),
-('Bird Wood'),
 ('Birdacre'),
 ('Birdale Close'),
 ('Birdale Field'),
@@ -22736,14 +22509,11 @@ VALUES
 ('Birwood'),
 ('Bisbrook'),
 ('Bisbrooke'),
-
 ('Biscathorpe'),
 ('Biscay'),
 ('Biscayne'),
 ('Biscoe'),
-
 ('Biscombes'),
-
 ('Biscot'),
 ('Biscovey'),
 ('Biscovey'),
@@ -23283,7 +23053,6 @@ VALUES
 ('Bizerte'),
 ('Bizziard Fell'),
 ('Bizzyberry'),
-
 ('Blaberry'),
 ('Blabys Drove'),
 ('Blacader Drive'),
@@ -24950,7 +24719,6 @@ VALUES
 ('Blaennantygroes Road'),
 ('Blaenos'),
 ('Blaenpennal'),
-('Blaenplwyf'),
 ('Blaenporth'),
 ('Blaenrheidol'),
 ('Blaenrhondda Road'),
@@ -25068,7 +24836,6 @@ VALUES
 ('Blairbeth Mews'),
 ('Blairbeth Road'),
 ('Blairbeth Terrace'),
-
 ('Blairbuie Drive'),
 ('Blairbuies Hill'),
 ('Blairbuy Loch'),
@@ -25470,7 +25237,6 @@ VALUES
 ('Blanchards'),
 ('Blanchbeck'),
 ('Blanchdown'),
-
 ('Blanches'),
 ('Blanchfort'),
 ('Blanchiebrough'),
@@ -26447,7 +26213,6 @@ VALUES
 ('Blows Lane'),
 ('Blows Moss'),
 ('Blows Road'),
-('Blowty'),
 ('Blowup Nose'),
 ('Bloxam Gardens'),
 ('Bloxam Place'),
@@ -26865,7 +26630,6 @@ VALUES
 ('Blythefield Avenue'),
 ('Blythes'),
 ('Blythesway'),
-('Blytheswod'),
 ('Blytheswood'),
 ('Blytheway'),
 ('Blythewood'),
@@ -26893,8 +26657,6 @@ VALUES
 ('Blyton Walk'),
 ('Blytons'),
 ('Blà Bheinn'),
-
-
 ('Blàr a Bhainne'),
 ('Blàr a Ghille Dhomhnaich'),
 ('Blàr Achaidh'),
@@ -26916,13 +26678,9 @@ VALUES
 ('Blàr nan Sùil Gorma'),
 ('Blàr Riabhach'),
 ('Blàr Sleagha'),
-
 ('Blàrach Burn Pool'),
 ('Blàran Odhar'),
-
-
 ('Blàtha Beag'),
-
 ('BMI'),
 ('Bnei Brak'),
 ('Bo Aonghais'),
@@ -27229,9 +26987,7 @@ VALUES
 ('Bochastle Hill'),
 ('Bochel'),
 ('Bochetone'),
-('Bochlwyd'),
 ('Bocholt Way'),
-('Bochrwyd'),
 ('Bochum Parkway'),
 ('Bochym Hill'),
 ('Bockell Hill'),
@@ -27278,7 +27034,6 @@ VALUES
 ('Bodach'),
 ('Bodach a Chailbhe'),
 ('Bodach an Uird'),
-('Bodach Bell'),
 ('Bodach Crom'),
 ('Bodach Dearg'),
 ('Bodach Nan Gobhar'),
@@ -27472,7 +27227,6 @@ VALUES
 ('Bodowen Close'),
 ('Bodowen Covert'),
 ('Bodowen Road'),
-
 ('Bodrawl'),
 ('Bodrean Lodge'),
 ('Bodrhyddan Avenue'),
@@ -28757,19 +28511,10 @@ VALUES
 ('Booseys Walk'),
 ('Boosmill Hill'),
 ('Booston'),
-('Boot & Shoe Close'),
+('Boot & Shoe'),
 ('Boot Binders'),
 ('Boot Drift'),
-('Boot End'),
-('Boot Hill'),
-('Boot Lane'),
-('Boot Moor'),
 ('Boot of the Wold'),
-('Boot Piece'),
-('Boot Pond'),
-('Boot Street'),
-('Boot Way'),
-('Boot Wood'),
 ('Bootenhay'),
 ('Booth'),
 ('Booth Avenue'),
@@ -29931,7 +29676,6 @@ VALUES
 ('Botwright Drive'),
 ('Botyl Road'),
 ('Bou Saâda'),
-
 ('Bouch Way'),
 ('Bouchain Court'),
 ('Bouchall'),
@@ -30325,7 +30069,6 @@ VALUES
 ('Bouverie Square'),
 ('Bouverie Way'),
 ('Bouvier Road'),
-('Bouïra'),
 ('Bovacott Lane'),
 ('Bovarde Avenue'),
 ('Bove Moor'),
@@ -31074,37 +30817,15 @@ VALUES
 ('Bowyers Mews'),
 ('Bowyers Shaw'),
 ('Bowyers Water'),
-('Bowys'),
 ('Bowzell'),
 ('Bowzell Road'),
 ('Box and Colerne'),
 ('Box Belt'),
 ('Box Berry'),
-('Box Bottom'),
-('Box Bush'),
-('Box Close'),
-('Box Copse'),
-('Box Covert'),
-('Box Crescent'),
 ('Box Crofts'),
-('Box Drive'),
-('Box End'),
-('Box Grove'),
-('Box Hill'),
-('Box Ings'),
-('Box Knowe'),
-('Box Lane'),
-('Box Mill'),
-('Box Ridge'),
-('Box Road'),
 ('Box Rock'),
-('Box Street'),
-('Box Strip'),
 ('Box Tree'),
 ('Box Trees'),
-('Box View'),
-('Box Walk'),
-('Box Wood'),
 ('Boxall Gardens'),
 ('Boxall Road'),
 ('Boxall Walk'),
@@ -32044,7 +31765,6 @@ VALUES
 ('Bradwell Wick'),
 ('Bradworth'),
 ('Bradworthy'),
-('Bradwys'),
 ('Brady Avenue'),
 ('Brady Close'),
 ('Brady Crescent'),
@@ -32198,7 +31918,6 @@ VALUES
 ('Braga Geo'),
 ('Bragair'),
 ('Braganza Way'),
-('Bragança'),
 ('Bragança Paulista'),
 ('Bragar'),
 ('Bragborough Hole'),
@@ -33398,7 +33117,6 @@ VALUES
 ('Brasted Hill'),
 ('Brasted Lane'),
 ('Brasted Road'),
-('Brasília'),
 ('Brat Bheinn'),
 ('Brat folaich'),
 ('Brat Hill'),
@@ -33989,7 +33707,6 @@ VALUES
 ('Brebner Place'),
 ('Brebner Terrace'),
 ('Brecanridge Port'),
-
 ('Breccia Gardens'),
 ('Brechame Road'),
 ('Brechan Rig'),
@@ -34362,7 +34079,6 @@ VALUES
 ('Brendan Close'),
 ('Brendan Gardens'),
 ('Brendan Home'),
-
 ('Brendan Road'),
 ('Brendan Way'),
 ('Brendans'),
@@ -35420,25 +35136,7 @@ VALUES
 ('Bridgers Pond'),
 ('Bridgersmill'),
 ('Bridgerule'),
-('Bridges Avenue'),
-('Bridges Close'),
-('Bridges Court'),
-('Bridges Crescent'),
-('Bridges Drive'),
-('Bridges Grove'),
-('Bridges Lake'),
-('Bridges Lane'),
-('Bridges Mead'),
-('Bridges Road'),
-('Bridges Street'),
-('Bridges View'),
-('Bridges Walk'),
 ('Bridgeside'),
-('Bridgeside Avenue'),
-('Bridgeside Close'),
-('Bridgeside Lodge'),
-('Bridgeside Mews'),
-('Bridgeside Way'),
 ('Bridgestone Drive'),
 ('Bridgestone Hill'),
 ('Bridget Avenue'),
@@ -37404,7 +37102,6 @@ VALUES
 ('Broadways'),
 ('Broadweir'),
 ('Broadwells'),
-
 ('Broadwick'),
 ('Broadwindsor'),
 ('Broadwoodkelly'),
@@ -40436,10 +40133,7 @@ VALUES
 ('Bryce Place'),
 ('Bryce Road'),
 ('Bryce Way'),
-('Brycedale Avenue'),
-('Brycedale Campus'),
-('Brycedale Crescent'),
-('Brycedale Road'),
+('Brycedale'),
 ('Bryces Lane'),
 ('Bryceway'),
 ('Brychan Place'),
@@ -40584,7 +40278,6 @@ VALUES
 ('Bryndulas Road'),
 ('Bryndyrnod'),
 ('Bryne Lane'),
-('Bryneglwys'),
 ('Bryneglwys Avenue'),
 ('Bryneglwys Gardens'),
 ('Bryneinion'),
@@ -40758,7 +40451,6 @@ VALUES
 ('Brynrheidol'),
 ('Brynrhos Crescent'),
 ('Brynsadler'),
-('Brynsadwrn'),
 ('Brynseilo'),
 ('Brynside Close'),
 ('Brynsiencyn Road'),
@@ -40793,7 +40485,6 @@ VALUES
 ('Brythen'),
 ('Brythill'),
 ('Bryworth'),
-
 ('Bràigh a '),
 ('Bràigh an'),
 ('Bràigh an t'),
@@ -40801,26 +40492,11 @@ VALUES
 ('Bràigh na h'),
 ('Bràigh na Lice'),
 ('Bràigh nan'),
-
 ('Bràighe na h'),
 ('Bràighe na h Airde Moire'),
-
-
-('Brâg'),
-('Brân'),
-('Brâs'),
 ('Brè sgorr'),
-
-
-
-
 ('Brèin Phort'),
-
-
 ('Bròna Cleit'),
-
-
-
 ('Bu'),
 ('Bu Hill'),
 ('Bu Point'),
@@ -41546,12 +41222,10 @@ VALUES
 ('Bufferys Close'),
 ('Buffet Hill'),
 ('Buffets Close'),
-
 ('Buffetts'),
 ('Buffham Pastures'),
 ('Buffies'),
 ('Buffins'),
-
 ('Bufflers Holt'),
 ('Buffs Avenue'),
 ('Buffs Croft'),
@@ -43686,40 +43360,12 @@ VALUES
 ('Burnplot Copse'),
 ('Burnrigg'),
 ('Burnroyd Avenue'),
-('Burns Avenue'),
 ('Burns Begg'),
-('Burns Brae'),
-('Burns Circus'),
-('Burns Close'),
 ('Burns Club'),
-('Burns Court'),
-('Burns Crescent'),
-('Burns Drive'),
-('Burns Fold'),
-('Burns Garden'),
-('Burns Gardens'),
-('Burns Gate'),
-('Burns Green'),
-('Burns Grove'),
-('Burns Hill'),
-('Burns Lane'),
 ('Burns Nurseries'),
-('Burns Park'),
-('Burns Place'),
-('Burns Plain'),
 ('Burns Pot'),
-('Burns Quarry'),
-('Burns Road'),
-('Burns Square'),
 ('Burns Statue'),
-('Burns Street'),
-('Burns Terrace'),
-('Burns View'),
-('Burns Walk'),
-('Burns Way'),
 ('Burns Wicket'),
-('Burns Wood'),
-('Burns Wynd'),
 ('Burnsall Avenue'),
 ('Burnsall Close'),
 ('Burnsall Crescent'),
@@ -45341,7 +44987,6 @@ VALUES
 ('Butteriss Downs'),
 ('Butteriss Gate'),
 ('Butterknowes'),
-
 ('Butterlands'),
 ('Butterlaw'),
 ('Butterlee'),
@@ -45628,7 +45273,6 @@ VALUES
 ('Buzzard Way'),
 ('Buzzards Close'),
 ('Buzzards Hill'),
-
 ('Buôn Ma Thuột'),
 ('Bwa'),
 ('Bwa Du'),
@@ -45646,7 +45290,6 @@ VALUES
 ('Bwgan'),
 ('Bwgan Ddu'),
 ('Bwl'),
-
 ('Bwlarth'),
 ('Bwlch'),
 ('Bwlchcoediog'),
@@ -45665,7 +45308,6 @@ VALUES
 ('Bwrw eira pellaf'),
 ('Bwrw Road'),
 ('Bwt'),
-('Bwâu'),
 ('By Brook'),
 ('By Sunte'),
 ('Byag'),
@@ -46024,13 +45666,11 @@ VALUES
 ('Bywell Terrace'),
 ('Bywood'),
 ('Byworth Hanger'),
-
 ('Bà Beag'),
 ('Bà Brice'),
 ('Bà Bàine'),
 ('Bà Glaise'),
 ('Bà Ruaidhe'),
-
 ('Bàgh a'),
 ('Bàgh an'),
 ('Bàgh an t'),
@@ -46043,10 +45683,6 @@ VALUES
 ('Bàgh nan Toll'),
 ('Bàighe dubha'),
 ('Bàin Lic'),
-
-
-
-
 ('Bàn a Bhacain'),
 ('Bàn An'),
 ('Bàn Beag'),
@@ -46054,48 +45690,20 @@ VALUES
 ('Bàn Mhic a phì'),
 ('Bàn Na'),
 ('Bàn nam Marbh'),
-
-
-
 ('Bàrr An'),
 ('Bàrr Na'),
 ('Bàrr na h'),
 ('Bàrr Nan'),
 ('Bàrra Mhail'),
-
-
-
 ('Bàt a'),
-
 ('Bàta na Luinge'),
-
-
-('bâch'),
-('Bâl'),
-
-
-
-
 ('Bèiste Duibhe'),
-
-('Béjaïa'),
-
-
-
 ('Bò Bana'),
 ('Bò Buidhe'),
 ('Bò Maoile'),
 ('Bò Maola'),
 ('Bò Mòire'),
-('Bò Ruaidhe'),
-
-
-
-('Bôn'),
-
-
-
-('Bălți');
+('Bò Ruaidhe');
 -- Down
 DELETE FROM Placename 
 WHERE 
