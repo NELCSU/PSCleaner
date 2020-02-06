@@ -11566,6 +11566,7 @@ VALUES
 ('Linging'),
 ('Lingjiang'),
 ('Lingkapo'),
+('Lingkong'),
 ('Lingl'),
 ('Linglan'),
 ('Lingle'),

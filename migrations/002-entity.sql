@@ -100,7 +100,12 @@ VALUES
 (
   'NameRegEx', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 0, 1, 3,
-  '\b[a-zàèìòùáéíóúýâêîôûãñõäëïöüÿåæœçðóø¿¡ßăðöț]+(?:dran?|[a-z]cz[a-z]+|iute|lund|[a-z]?[àèìòùáéíóúýâêîôûãñõäëïöüÿåæœçðóø¿¡ßăðöț][a-z]{0,})\b'
+  '\b[a-z]+(?:dran?|[a-z]cz[a-z]+|iute|lund)\b'
+),
+(
+  'NameRegExAccent', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
+  1, 0, 1, 3,
+  '[a-z]*[À-ÖØ-öø-ÿãñõțũą]+[a-z]*'
 ),
 (
   'NameRegExA', '#00a0ff', 'Name', 'NAME', 'Regular expression',

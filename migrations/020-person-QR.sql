@@ -754,7 +754,6 @@ VALUES
 ('Quartu'),
 ('Quartuccio'),
 ('Quartus'),
-('Quartz'),
 ('Quary'),
 ('Quasam'),
 ('Quasar'),

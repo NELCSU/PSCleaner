@@ -15133,7 +15133,6 @@ VALUES
 ('Dockery'),
 ('Dockevicius'),
 ('Dockey'),
-('Docking'),
 ('Dockins'),
 ('Dockley'),
 ('Dockman'),

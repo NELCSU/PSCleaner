@@ -2050,7 +2050,7 @@ VALUES
 ('Nalweyiso'),
 ('Naly'),
 ('Nalyte'),
-('Nam'),
+
 ('Nama'),
 ('Namachila'),
 ('Namagala'),
@@ -2306,7 +2306,7 @@ VALUES
 ('Namyalo'),
 ('Namyoung'),
 ('Namysto'),
-('Nan'),
+
 ('Nana'),
 ('Nanaa'),
 ('Nanaabena'),
@@ -8025,7 +8025,6 @@ VALUES
 ('Newboles'),
 ('Newbolt'),
 ('Newbon'),
-('Newborn'),
 ('Newborough'),
 ('Newbould'),
 ('Newboult'),
