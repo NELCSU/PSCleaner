@@ -283,7 +283,6 @@ VALUES
 ('Pitcairn Islander'),
 ('Pitcairn Islanders'),
 ('Polish'),
-('Poles'),
 ('Portuguese'),
 ('Prydeinig'), 
 ('Puerto Rican'), 

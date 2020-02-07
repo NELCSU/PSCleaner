@@ -6,17 +6,18 @@ CREATE TABLE AppSettings (
 );
 
 CREATE TABLE Entity (
-  id        INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-  label     TEXT    NOT NULL, 
-  color     TEXT    NOT NULL, 
-  domain    TEXT    NOT NULL,
-  enabled   INTEGER NOT NULL,
-  priority  INTEGER NOT NULL,
-  discard   INTEGER NOT NULL,
-  joinable  INTEGER NOT NULL,
-  type      TEXT    NOT NULL,
-  mask      TEXT    NOT NULL,
-  reg_ex    TEXT    NOT NULL
+  id            INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  label         TEXT    NOT NULL, 
+  color         TEXT    NOT NULL, 
+  domain        TEXT    NOT NULL,
+  enabled       INTEGER NOT NULL,
+  priority      INTEGER NOT NULL,
+  discard       INTEGER NOT NULL,
+  joinable      INTEGER NOT NULL,
+  type          TEXT    NOT NULL,
+  mask          TEXT    NOT NULL,
+  reg_ex        TEXT    NOT NULL,
+  description   TEXT    NOT NULL
 );
 
 CREATE INDEX Entity_ix_type ON Entity (type);

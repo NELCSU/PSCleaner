@@ -211,6 +211,7 @@ VALUES
 ('Venezuela'),
 ('Vietnam'),
 ('Wales'),
+('West Indies'),
 ('Yemen'),
 ('Yugoslavia'),
 ('Zambia'),

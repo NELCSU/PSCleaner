@@ -77,7 +77,7 @@ export class NLP {
       cursor = end;
       if (tag.tag === "word") {
         const n: number = words.length - 1;
-        if ((isApostrophe(lastSymbol)) && (tag.value === "t" || len > 1)) {
+        if ((isApostrophe(lastSymbol)) && (tag.value === "t" || len > 1) && (words[n].end === start - 1)) {
           words[n].value += lastSymbol + tag.value;
           words[n].end = end;
           words[n].length = words[n].value.length;
