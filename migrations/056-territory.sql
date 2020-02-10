@@ -81,6 +81,7 @@ VALUES
 ('Georgia'),
 ('Germany'),
 ('Ghana'),
+('Gibraltar'),
 ('Great Britain'),
 ('Greece'),
 ('Guatemala'),

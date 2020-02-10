@@ -53757,7 +53757,6 @@ VALUES
 ('Borderie'),
 ('Borderlier'),
 ('Bordero'),
-('Borders'),
 ('Bordes'),
 ('Bordese'),
 ('Bordessa'),

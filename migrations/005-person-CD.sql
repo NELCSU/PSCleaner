@@ -7570,7 +7570,6 @@ VALUES
 ('Chalermsan'),
 ('Chales'),
 ('Chalese'),
-('Chalet'),
 ('Chaletzos'),
 ('Chalevina'),
 ('Chalfane'),

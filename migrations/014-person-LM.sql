@@ -39222,7 +39222,6 @@ VALUES
 ('Mencos'),
 ('Mencur'),
 ('Mency'),
-('Mend'),
 ('Menda'),
 ('Mendadhala'),
 ('Mendahun'),

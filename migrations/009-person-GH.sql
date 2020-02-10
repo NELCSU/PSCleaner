@@ -10390,7 +10390,6 @@ VALUES
 ('Glasphina'),
 ('Glaspie'),
 ('Glaspy'),
-('Glass'),
 ('Glassar'),
 ('Glassborow'),
 ('Glassbrook'),
