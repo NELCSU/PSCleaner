@@ -170,7 +170,7 @@ VALUES
 (
   'NameRegExG', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 0, 1, 2,
-  '\b[a-z]+g(?:aj|cz|h[ao]|i[fhi-kmoqruvwy]|ji|k[aio]|lu|ma|n[an]|o[gu]|sz|ui|we|xi|y[aeiknu]|[qz][a-z])\b',
+  '\b[a-z]+g(?:a[a-df-koqu-xz]|[bg][a-xz]|e[bcf-kpqu-xz]|h[a-ru-xz]|i[bfhi-kmoqru-z]|l[a-df-np-xz]|m[a-rt-xz]|n[a-df-rt-xz]|o[a-mo-qu-z]|r[a-df-rt-xz]|s[a-su-xz]|t[a-gi-z]|u[a-df-lo-ru-xz]|y[a-rt-z]|[cdfjkpqv-xz][a-z])\b',
   'Words of >= 4 characters ending g**'
 ),
 (
