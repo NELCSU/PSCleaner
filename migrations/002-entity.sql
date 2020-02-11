@@ -22,7 +22,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:abbey|acres?|airfield|alley|allotments?|approach|arcade|arch(?:es)?|avenue|b[ae]ck|banks?|barns?|basin|bay|beach|beacon|bog|bottoms?|boulevard|braes?|brake|bridges?|broad(?:s|way)?|brooks?|buildings?|bush(?:es)?|bypass|camp(?:us)?|canal|castle|causeway|cave|centre|channel|chapel|church|circ(?:le|us)|circular|city|cliffs?|close|clumps?|coast|colliery|commons?|coppices?|copses?|corner|cottages?|court(?:yard)?|cove(?:rts?)?|crags?|creek|crescent|crofts?|cross(?:ing)?|dales?|dam|d[iy]ke|district|ditch|docks?|downs?|drift|dr[io]ve|edge|embankment|entrance|esplanade|estates?|farms?|f[ae]lls?|fens?|ferry|fields?|flats?|fo[lr]ds?|forest|furzes?|gap|gardens?|gate(?:s|way)?|geos?|glens?|gor[gs]e|grange|grass|greens?|grounds?|groves?|gully|h[ai]lls?|hanger|harbour|hatch|haven|head|heath|hedge|heights?|high(?:way)?|hollow|holt|houses?|interchange|islands?|isles?|jetty|junctions?|la[kn]es?|lawns?|level|leys?|links?|loch|l[eo]dge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|moors?|moss|mounts?|mouth|ness|orchards?|oval|paddocks?|parade|park(?:land|s|way)?|pass(?:age)?|passageway|pastures?|path|piece|pier|pike|pit|place|plains?|ponds?|pool|point|port|priory|promenade|quad(?:rant)?|quarry|range|rd|reach|reservoir|ridge|rise|rivers?|roads?|rocks?|rough|round(?:about)?|row|sands?|sea|shore|side|skerr(?:y|ies)|sound|spa|spinneys?|springs?|spur|square|station|strand|stream|street|strip|summit|tarns?|terraces?|tor|towers?|towns?|tunnel|upper|vale|valley|views?|villas?|villages?|wal[kl]s?|water(?:s|fall)?|ways?|weald|weirs?|wharf|wold|wood(?:s|lands)?|yards?)\b',
+  '\b(?:abbey|acres?|airfield|alley|allotments?|approach|arcade|arch(?:es)?|avenue|b[ae]ck|banks?|barns?|basin|bay|beach|beacons?|bog|bottoms?|boulevard|braes?|brake|bridges?|broad(?:s|way)?|brooks?|buildings?|bush(?:es)?|bypass|camp(?:us)?|canal|castle|causeway|cave|centre|channel|chapel|church|circ(?:le|us)|circular|city|cliffs?|close|clumps?|coast|colliery|commons?|coppices?|copses?|corner|cottages?|court(?:yard)?|cove(?:rts?)?|crags?|creek|crescent|crofts?|cross(?:ing)?|dales?|dam|d[iy]ke|district|ditch|docks?|downs?|drift|dr[io]ve|edge|embankment|entrance|esplanade|estates?|farms?|f[ae]lls?|fens?|ferry|fields?|flats?|fo[lr]ds?|forest|furzes?|gap|gardens?|gate(?:s|way)?|geos?|glens?|gor[gs]e|grange|grass|greens?|grounds?|groves?|gully|h[ai]lls?|hanger|harbour|hatch|haven|head|heaths?|hedges?|heights?|high(?:way)?|hollow|holt|houses?|interchange|islands?|isles?|jetty|junctions?|la[kn]es?|lawns?|level|leys?|links?|loch|l[eo]dge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|moors?|moss|mounts?|mouth|ness|orchards?|oval|paddocks?|parade|park(?:land|s|way)?|pass(?:age)?|passageway|pastures?|path|piece|pier|pike|pit|place|plains?|ponds?|pool|point|port|priory|promenade|quad(?:rant)?|quarry|range|rd|reach|reservoir|ridge|rise|rivers?|roads?|rocks?|rough|round(?:about)?|row|sands?|sea|shore|side|skerr(?:y|ies)|sound|spa|spinneys?|springs?|spur|square|station|strand|stream|street|strip|summit|tarns?|terraces?|tor|towers?|towns?|tunnel|upper|vale|valley|views?|villas?|villages?|wal[kl]s?|water(?:s|fall)?|ways?|weald|weirs?|wharf|wold|wood(?:s|lands)?|yards?)\b',
   'Finds any combination of common location name suffixes found in the UK'
 ),
 (
@@ -128,7 +128,7 @@ VALUES
 (
   'NameRegExAccent', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 0, 1, 3,
-  '[a-z]*[À-ÖØ-öø-ÿãñõțũą]+[a-z]*',
+  '[a-z]*[À-ÖØ-öø-ÿãñõțũąğ]+[a-z]*',
   'Returns any word containing accented Latin characters (assumed to be a foreign word/name)'
 ),
 (
@@ -278,7 +278,7 @@ VALUES
 (
   'NameRegExY', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+y(?:a[dhor]|ba|c[hkz]|d[ady]|el|ga|h[ao]|i[fhijkqru-wy]|k[aio]|li|n[an]|ou|ra|s[ksz]|t[ao]|[u-z][a-z])\b',
+  '\b[a-z]+y(?:a[a-jo-rt-z]|b[a-df-xz]|c[a-z]|d[a-df-rt-z]|e[a-ce-qu-z]|l[a-df-rt-xz]|m[b-df-mo-rt-xz]|n[a-df-xz]|o[a-mo-qt-z]|p[a-df-z]|r[a-df-np-rt-z]|s[a-df-su-z]|t[a-dfgi-z]|[f-kqu-z][a-z])\b',
   'Words of >= 4 characters ending y**'
 ),
 (
