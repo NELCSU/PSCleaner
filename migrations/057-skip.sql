@@ -3,6 +3,7 @@ INSERT INTO Skip (keyword)
 VALUES
 ('A batch'),
 ('A bath'),
+('A battle'),
 ('A black belt'),
 ('A black hole'),
 ('A boulder'),
@@ -242,7 +243,6 @@ VALUES
 ('Boob'),
 ('Booth at'),
 ('Borders on'),
-('Both knuckles'),
 ('Bottles of'),
 ('Bows out'),
 ('Braai'),
@@ -695,6 +695,7 @@ VALUES
 ('Leaks row'),
 ('Leap of'),
 ('Left the trees'),
+('Left wing'),
 ('Liability clause'),
 ('Lich'),
 ('Light trucks'),

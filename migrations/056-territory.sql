@@ -192,6 +192,7 @@ VALUES
 ('Taiwan'),
 ('Tajikistan'),
 ('Tanzania'),
+('Tasmania'),
 ('Tibet'),
 ('Thailand'),
 ('Tobago'),
