@@ -92,6 +92,14 @@ export class NLP {
           words[n].value += tag.value;
           words[n].end = end;
           words[n].length += len;
+        } else if (tag.value === "'ve") {
+          lastWord = {
+            value: tag.value,
+            pos: tag.pos,
+            start: start,
+            end: end,
+            length: len
+          };
         } else if (lastModal && tag.pos.indexOf("VB") > -1) {
           // account for things like "will act"
           words.pop();
