@@ -3142,7 +3142,6 @@ VALUES
 ('New Hexthorpe'),
 ('New Hey'),
 ('New Heys'),
-('New High'),
 ('New Higham'),
 ('New Hill'),
 ('New Hill Road'),
