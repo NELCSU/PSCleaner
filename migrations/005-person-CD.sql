@@ -77,8 +77,8 @@ VALUES
 ('Cabas'),
 ('Cabasan'),
 ('Cabasis'),
-('Cabassa'),
-('Cabassi'),
+
+
 ('Cabasso'),
 ('Cabatay'),
 ('Cabatic'),
@@ -158,7 +158,7 @@ VALUES
 ('Cabiness'),
 ('Cabinfever'),
 ('Cabirol'),
-('Cabirunissa'),
+
 ('Cabitin'),
 ('Cabitta'),
 ('Cablane'),
@@ -373,7 +373,7 @@ VALUES
 ('Cadere'),
 ('Caderni'),
 ('Cadersa'),
-('Cadessa'),
+
 ('Cadete'),
 ('Cadette'),
 ('Cadevall'),
@@ -1172,7 +1172,7 @@ VALUES
 ('Calisk'),
 ('Caliskanlar'),
 ('Caliskur'),
-('Calissa'),
+
 ('Calissano'),
 ('Calisse'),
 ('Calista'),
@@ -1404,7 +1404,7 @@ VALUES
 ('Caltabiano'),
 ('Caltagirone'),
 ('Caltaltabiano'),
-('Caltarossa'),
+
 ('Caltea'),
 ('Calter'),
 ('Calthorpe'),
@@ -1435,7 +1435,7 @@ VALUES
 ('Calurand'),
 ('Calus'),
 ('Caluser'),
-('Calussi'),
+
 ('Calustus'),
 ('Calutas'),
 ('Calvache'),
@@ -1477,19 +1477,19 @@ VALUES
 ('Calvino'),
 ('Calvis'),
 ('Calvisi'),
-('Calvocoressi'),
+
 ('Calway'),
 ('Calwell'),
 ('Caly'),
 ('Calyan'),
 ('Calypso'),
-('Calyssa'),
+
 ('Calyx'),
 ('Calzadilla'),
 ('Calzadillas'),
 ('Calzado'),
 ('Calzaretta'),
-('Calzarossa'),
+
 ('Calzetta'),
 ('Calzone'),
 ('Cam'),
@@ -1548,7 +1548,7 @@ VALUES
 ('Camarla'),
 ('Camaron'),
 ('Camarote'),
-('Camarounnissa'),
+
 ('Camarut'),
 ('Camas'),
 ('Camasmie'),
@@ -1715,7 +1715,7 @@ VALUES
 ('Camire'),
 ('Camis'),
 ('Camisa'),
-('Camisassa'),
+
 ('Camish'),
 ('Camissar'),
 ('Camit'),
@@ -2084,7 +2084,7 @@ VALUES
 ('Canders'),
 ('Candert'),
 ('Candese'),
-('Candessa'),
+
 ('Candessanche'),
 ('Candeto'),
 ('Candey'),
@@ -2163,7 +2163,7 @@ VALUES
 ('Canes'),
 ('Canesar'),
 ('Canesin'),
-('Canessa'),
+
 ('Canessane'),
 ('Canestra'),
 ('Canestro'),
@@ -2199,7 +2199,7 @@ VALUES
 ('Cangoona'),
 ('Canguia'),
 ('Cangundo'),
-('Cangussu'),
+
 ('Cangy'),
 ('Canha'),
 ('Canhez'),
@@ -2353,7 +2353,7 @@ VALUES
 ('Canopoli'),
 ('Canorea'),
 ('Canos'),
-('Canossa'),
+
 ('Canovan'),
 ('Canovas'),
 ('Canowira'),
@@ -2397,7 +2397,7 @@ VALUES
 ('Cantain'),
 ('Cantal'),
 ('Cantale'),
-('Cantamessa'),
+
 ('Cantando'),
 ('Cantane'),
 ('Cantanhede'),
@@ -2504,7 +2504,6 @@ VALUES
 ('Canxia'),
 ('Cany'),
 ('Canyellas'),
-('Canyon'),
 ('Canyurt'),
 ('Canza'),
 ('Canzanella'),
@@ -2713,7 +2712,7 @@ VALUES
 ('Caporali'),
 ('Caporiccio'),
 ('Caporn'),
-('Caporossi'),
+
 ('Caporro'),
 ('Caporuscio'),
 ('Caporusso'),
@@ -3059,7 +3058,7 @@ VALUES
 ('Carcano'),
 ('Carcary'),
 ('Carcas'),
-('Carcassi'),
+
 ('Carcea'),
 ('Carcedo'),
 ('Carcel'),
@@ -3214,7 +3213,7 @@ VALUES
 ('Caresana'),
 ('Carese'),
 ('Caress'),
-('Caressa'),
+
 ('Caresse'),
 ('Carestia'),
 ('Careswell'),
@@ -3322,7 +3321,7 @@ VALUES
 ('Carisia'),
 ('Carisma'),
 ('Cariss'),
-('Carissa'),
+
 ('Carisse'),
 ('Carissimi'),
 ('Carissimo'),
@@ -3427,7 +3426,7 @@ VALUES
 ('Carlisi'),
 ('Carlisle'),
 ('Carliss'),
-('Carlissa'),
+
 ('Carlitha'),
 ('Carlito'),
 ('Carlitos'),
@@ -3923,7 +3922,7 @@ VALUES
 ('Carrisales'),
 ('Carrise'),
 ('Carrison'),
-('Carrissa'),
+
 ('Carrithers'),
 ('Carritt'),
 ('Carrius'),
@@ -3998,7 +3997,7 @@ VALUES
 ('Cartajena'),
 ('Cartan'),
 ('Cartas'),
-('Cartau'),
+
 ('Cartawick'),
 ('Carte'),
 ('Cartea'),
@@ -4016,7 +4015,7 @@ VALUES
 ('Carteroulis'),
 ('Carters'),
 ('Cartes'),
-('Cartessa'),
+
 ('Cartey'),
 ('Carth'),
 ('Cartha'),
@@ -4180,7 +4179,7 @@ VALUES
 ('Casals'),
 ('Casaluce'),
 ('Casam'),
-('Casamassa'),
+
 ('Casamassima'),
 ('Casamatta'),
 ('Casamayor'),
@@ -4228,7 +4227,7 @@ VALUES
 ('Casasempere'),
 ('Casasnovas'),
 ('Casasola'),
-('Casassa'),
+
 ('Casassus'),
 ('Casaubon'),
 ('Casaula'),
@@ -4467,12 +4466,12 @@ VALUES
 ('Casquet'),
 ('Casquete'),
 ('Casquinha'),
-('Casra'),
+
 ('Casree'),
-('Casri'),
+
 ('Casril'),
 ('Cass'),
-('Cassa'),
+
 ('Cassabare'),
 ('Cassaday'),
 ('Cassadie'),
@@ -4547,7 +4546,7 @@ VALUES
 ('Cassetty'),
 ('Casseus'),
 ('Cassey'),
-('Cassi'),
+
 ('Cassia'),
 ('Cassian'),
 ('Cassiana'),
@@ -4879,7 +4878,7 @@ VALUES
 ('Catagnus'),
 ('Cataha'),
 ('Catahina'),
-('Catak'),
+
 ('Catakli'),
 ('Catal'),
 ('Catala'),
@@ -4946,7 +4945,7 @@ VALUES
 ('Catate'),
 ('Catatina'),
 ('Catatrabia'),
-('Catau'),
+
 ('Cataudella'),
 ('Catavello'),
 ('Catavero'),
@@ -4977,7 +4976,7 @@ VALUES
 ('Caten'),
 ('Catena'),
 ('Catenaccio'),
-('Catenassi'),
+
 ('Cater'),
 ('Catera'),
 ('Caterer'),
@@ -5177,9 +5176,9 @@ VALUES
 ('Cattano'),
 ('Cattaree'),
 ('Cattarin'),
-('Cattarinussi'),
-('Cattarossi'),
-('Cattau'),
+
+
+
 ('Cattaway'),
 ('Catte'),
 ('Cattelan'),
@@ -6579,7 +6578,7 @@ VALUES
 ('Cerisier'),
 ('Cerisola'),
 ('Cerisoli'),
-('Cerissa'),
+
 ('Cerit'),
 ('Cerith'),
 ('Ceriz'),
@@ -6836,7 +6835,7 @@ VALUES
 ('Cespon'),
 ('Cespredes'),
 ('Cesrine'),
-('Cessa'),
+
 ('Cessair'),
 ('Cessare'),
 ('Cessario'),
@@ -6853,7 +6852,7 @@ VALUES
 ('Cestor'),
 ('Cestra'),
 ('Cestrone'),
-('Cestu'),
+
 ('Cesur'),
 ('Cesvette'),
 ('Cesylia'),
@@ -7330,7 +7329,7 @@ VALUES
 ('Chaitra'),
 ('Chaitrali'),
 ('Chaitram'),
-('Chaitrasri'),
+
 ('Chaitsingh'),
 ('Chaitthiwet'),
 ('Chaitud'),
@@ -8084,7 +8083,7 @@ VALUES
 ('Chandrashanker'),
 ('Chandrasingh'),
 ('Chandrasinh'),
-('Chandrasri'),
+
 ('Chandrassen'),
 ('Chandrathas'),
 ('Chandrathil'),
@@ -8270,7 +8269,7 @@ VALUES
 ('Channell'),
 ('Channen'),
 ('Channer'),
-('Channessa'),
+
 ('Channette'),
 ('Channey'),
 ('Channia'),
@@ -8348,7 +8347,7 @@ VALUES
 ('Chantarastapornchit'),
 ('Chantaruck'),
 ('Chantarugikapong'),
-('Chantasut'),
+
 ('Chantawatcharakorn'),
 ('Chantay'),
 ('Chantayapuch'),
@@ -8708,7 +8707,7 @@ VALUES
 ('Charetine'),
 ('Charette'),
 ('Chareunrath'),
-('Chareunsri'),
+
 ('Chareviciene'),
 ('Chareyron'),
 ('Charfauros'),
@@ -8755,7 +8754,7 @@ VALUES
 ('Charisios'),
 ('Charisis'),
 ('Chariss'),
-('Charissa'),
+
 ('Charisse'),
 ('Charistoula'),
 ('Charit'),
@@ -8974,7 +8973,7 @@ VALUES
 ('Charnu'),
 ('Charny'),
 ('Charnyque'),
-('Charoenchasri'),
+
 ('Charoenchit'),
 ('Charoenitterat'),
 ('Charoenkhunathorn'),
@@ -8982,7 +8981,7 @@ VALUES
 ('Charoenpanit'),
 ('Charoenporn'),
 ('Charoensook'),
-('Charoensri'),
+
 ('Charoensukawatana'),
 ('Charoensutammas'),
 ('Charoenyingpaisal'),
@@ -9029,7 +9028,7 @@ VALUES
 ('Charris'),
 ('Charrisa'),
 ('Charrison'),
-('Charrissa'),
+
 ('Charrito'),
 ('Charrity'),
 ('Charrlotte'),
@@ -9165,7 +9164,7 @@ VALUES
 ('Chaston'),
 ('Chastree'),
 ('Chasty'),
-('Chasya'),
+
 ('Chatagner'),
 ('Chatagnier'),
 ('Chataigne'),
@@ -9473,7 +9472,7 @@ VALUES
 ('Chavelas'),
 ('Chavelys'),
 ('Chaven'),
-('Chavengsub'),
+
 ('Chavera'),
 ('Chaverlair'),
 ('Chavero'),
@@ -10369,7 +10368,7 @@ VALUES
 ('Cherise'),
 ('Cherish'),
 ('Cheriss'),
-('Cherissa'),
+
 ('Cherisse'),
 ('Cherith'),
 ('Cheriton'),
@@ -10606,7 +10605,7 @@ VALUES
 ('Chesover'),
 ('Chesquiere'),
 ('Chess'),
-('Chessa'),
+
 ('Chessar'),
 ('Chessarie'),
 ('Chesse'),
@@ -10652,7 +10651,7 @@ VALUES
 ('Cheswright'),
 ('Chet'),
 ('Cheta'),
-('Chetak'),
+
 ('Chetal'),
 ('Chetalee'),
 ('Chetali'),
@@ -10747,7 +10746,7 @@ VALUES
 ('Chevarie'),
 ('Chevarne'),
 ('Chevas'),
-('Chevassut'),
+
 ('Cheved'),
 ('Chevel'),
 ('Chevelia'),
@@ -11102,7 +11101,7 @@ VALUES
 ('Chicooree'),
 ('Chicoria'),
 ('Chicos'),
-('Chicossi'),
+
 ('Chicot'),
 ('Chicote'),
 ('Chicurel'),
@@ -11998,7 +11997,7 @@ VALUES
 ('Chiorean'),
 ('Chiose'),
 ('Chiosea'),
-('Chiossi'),
+
 ('Chiosso'),
 ('Chiostergi'),
 ('Chiotea'),
@@ -12263,17 +12262,17 @@ VALUES
 ('Chisu'),
 ('Chisum'),
 ('Chisvin'),
-('Chisvo'),
-('Chiswe'),
+
+
 ('Chiswel'),
 ('Chiswell'),
 ('Chiswick'),
-('Chiswo'),
-('Chisya'),
+
+
 ('Chit'),
-('Chitac'),
+
 ('Chitaiad'),
-('Chitak'),
+
 ('Chitakhyan'),
 ('Chitala'),
 ('Chitale'),
@@ -12629,7 +12628,7 @@ VALUES
 ('Choeden'),
 ('Choedon'),
 ('Choekyi'),
-('Choenkwansri'),
+
 ('Choepon'),
 ('Choesang'),
 ('Choeyang'),
@@ -13301,14 +13300,14 @@ VALUES
 ('Chrisrina'),
 ('Chrisropher'),
 ('Chriss'),
-('Chrissa'),
+
 ('Chrissan'),
 ('Chrissanth'),
 ('Chrisse'),
 ('Chrissela'),
 ('Chrissen'),
 ('Chrissey'),
-('Chrissi'),
+
 ('Chrissie'),
 ('Chrissim'),
 ('Chrissis'),
@@ -13469,7 +13468,7 @@ VALUES
 ('Christivis'),
 ('Christiyan'),
 ('Christjose'),
-('Christl'),
+
 ('Christle'),
 ('Christleena'),
 ('Christler'),
@@ -13709,12 +13708,12 @@ VALUES
 ('Chrysovalantis'),
 ('Chrysovalanto'),
 ('Chrysovergi'),
-('Chryssa'),
+
 ('Chryssafis'),
 ('Chryssanthi'),
 ('Chryssanthopoulos'),
 ('Chryssanthy'),
-('Chryssi'),
+
 ('Chrysso'),
 ('Chryssochoidis'),
 ('Chryssoula'),
@@ -13817,7 +13816,7 @@ VALUES
 ('Chue'),
 ('Chuenchomnoi'),
 ('Chueng'),
-('Chuenjidpitak'),
+
 ('Chuenprayoon'),
 ('Chuet'),
 ('Chuey'),
@@ -14000,7 +13999,7 @@ VALUES
 ('Chummon'),
 ('Chumney'),
 ('Chumphukam'),
-('Chumpitaz'),
+
 ('Chumpol'),
 ('Chumroo'),
 ('Chumy'),
@@ -14149,10 +14148,10 @@ VALUES
 ('Chusid'),
 ('Chusney'),
 ('Chusonis'),
-('Chusra'),
-('Chusri'),
+
+
 ('Chust'),
-('Chustz'),
+
 ('Chut'),
 ('Chutamas'),
 ('Chutarat'),
@@ -14363,7 +14362,7 @@ VALUES
 ('Ciarfaglia'),
 ('Ciarian'),
 ('Ciarin'),
-('Ciarissa'),
+
 ('Ciarke'),
 ('Ciarla'),
 ('Ciarlet'),
@@ -14600,7 +14599,7 @@ VALUES
 ('Ciervo'),
 ('Ciesciow'),
 ('Ciesiar'),
-('Ciesielsui'),
+
 ('Ciesiunaite'),
 ('Cieslac'),
 ('Cieslar'),
@@ -15006,7 +15005,7 @@ VALUES
 ('Ciorun'),
 ('Cios'),
 ('Ciot'),
-('Ciotau'),
+
 ('Ciotir'),
 ('Ciotire'),
 ('Ciotlaos'),
@@ -15216,11 +15215,11 @@ VALUES
 ('Cissel'),
 ('Cissell'),
 ('Cissella'),
-('Cissi'),
+
 ('Cissie'),
 ('Cisson'),
 ('Cissy'),
-('Cistac'),
+
 ('Cistakous'),
 ('Cistececan'),
 ('Cistelecan'),
@@ -15238,7 +15237,7 @@ VALUES
 ('Cisy'),
 ('Citabria'),
 ('Citadel'),
-('Citak'),
+
 ('Cital'),
 ('Citalois'),
 ('Citan'),
@@ -15398,7 +15397,7 @@ VALUES
 ('Ciurylaite'),
 ('Cius'),
 ('Ciustea'),
-('Ciutac'),
+
 ('Ciutas'),
 ('Ciuteikyte'),
 ('Ciutiene'),
@@ -15564,12 +15563,12 @@ VALUES
 ('Clairette'),
 ('Clairicia'),
 ('Clairie'),
-('Clairissa'),
+
 ('Clairlouise'),
 ('Clairmond'),
 ('Clairmont'),
 ('Clairns'),
-('Clairrissa'),
+
 ('Clairson'),
 ('Claisse'),
 ('Clait'),
@@ -15681,7 +15680,7 @@ VALUES
 ('Clares'),
 ('Claresa'),
 ('Clarese'),
-('Claressa'),
+
 ('Claresta'),
 ('Clarestine'),
 ('Claret'),
@@ -15727,7 +15726,7 @@ VALUES
 ('Clarise'),
 ('Clarislene'),
 ('Clariss'),
-('Clarissa'),
+
 ('Clarisse'),
 ('Clarissey'),
 ('Clarissia'),
@@ -15764,7 +15763,7 @@ VALUES
 ('Clarridge'),
 ('Clarrinsa'),
 ('Clarrisa'),
-('Clarrissa'),
+
 ('Clarry'),
 ('Clarson'),
 ('Clartis'),
@@ -15788,7 +15787,7 @@ VALUES
 ('Clasquin'),
 ('Classen'),
 ('Classey'),
-('Classi'),
+
 ('Classidel'),
 ('Classie'),
 ('Classon'),
@@ -16568,7 +16567,7 @@ VALUES
 ('Clorindo'),
 ('Clorine'),
 ('Clorise'),
-('Clorissa'),
+
 ('Clorley'),
 ('Clorofina'),
 ('Clory'),
@@ -17393,7 +17392,7 @@ VALUES
 ('Colado'),
 ('Colafemmina'),
 ('Colageo'),
-('Colagrossi'),
+
 ('Colaine'),
 ('Colaire'),
 ('Colalillo'),
@@ -17402,7 +17401,7 @@ VALUES
 ('Colam'),
 ('Colamarino'),
 ('Colambahbwage'),
-('Colamussi'),
+
 ('Colan'),
 ('Colander'),
 ('Colando'),
@@ -17428,7 +17427,7 @@ VALUES
 ('Colaric'),
 ('Colarieti'),
 ('Colarina'),
-('Colarossi'),
+
 ('Colarte'),
 ('Colarusso'),
 ('Colas'),
@@ -17437,7 +17436,7 @@ VALUES
 ('Colasuonno'),
 ('Colasurdo'),
 ('Colata'),
-('Colatau'),
+
 ('Colatosti'),
 ('Colatrella'),
 ('Colavecchio'),
@@ -17703,7 +17702,7 @@ VALUES
 ('Colliins'),
 ('Collin'),
 ('Collina'),
-('Collinassi'),
+
 ('Collinbus'),
 ('Collinder'),
 ('Colline'),
@@ -17734,7 +17733,7 @@ VALUES
 ('Collishaw'),
 ('Collison'),
 ('Colliss'),
-('Collissa'),
+
 ('Collister'),
 ('Collitea'),
 ('Colliton'),
@@ -17840,7 +17839,7 @@ VALUES
 ('Colorina'),
 ('Colosi'),
 ('Colosimo'),
-('Colossi'),
+
 ('Colot'),
 ('Colotin'),
 ('Colover'),
@@ -17912,7 +17911,7 @@ VALUES
 ('Columbres'),
 ('Columbus'),
 ('Colus'),
-('Colussi'),
+
 ('Colusso'),
 ('Colvard'),
 ('Colven'),
@@ -18117,7 +18116,7 @@ VALUES
 ('Comparin'),
 ('Comparone'),
 ('Compas'),
-('Compassi'),
+
 ('Compasso'),
 ('Compau'),
 ('Compaz'),
@@ -18166,7 +18165,7 @@ VALUES
 ('Comruk'),
 ('Comrul'),
 ('Comrun'),
-('Comrunnessa'),
+
 ('Comsia'),
 ('Comsie'),
 ('Comsina'),
@@ -18761,7 +18760,7 @@ VALUES
 ('Cont'),
 ('Conta'),
 ('Contabile'),
-('Contac'),
+
 ('Contance'),
 ('Contant'),
 ('Contantin'),
@@ -18793,9 +18792,9 @@ VALUES
 ('Conterras'),
 ('Contes'),
 ('Contesa'),
-('Contessa'),
+
 ('Contesse'),
-('Contessi'),
+
 ('Contessia'),
 ('Contestabile'),
 ('Contesti'),
@@ -19486,12 +19485,12 @@ VALUES
 ('Coriolan'),
 ('Corion'),
 ('Corippo'),
-('Corirossi'),
+
 ('Coris'),
 ('Corisande'),
 ('Corish'),
 ('Corisi'),
-('Corissa'),
+
 ('Corisse'),
 ('Coriston'),
 ('Coritar'),
@@ -19550,7 +19549,7 @@ VALUES
 ('Corline'),
 ('Corlis'),
 ('Corliss'),
-('Corlissa'),
+
 ('Corlito'),
 ('Corll'),
 ('Corlouer'),
@@ -19759,7 +19758,7 @@ VALUES
 ('Cororeia'),
 ('Corosan'),
 ('Corosiniti'),
-('Corossi'),
+
 ('Corotas'),
 ('Corothers'),
 ('Corouge'),
@@ -19921,7 +19920,7 @@ VALUES
 ('Corsun'),
 ('Cort'),
 ('Cortabarria'),
-('Cortac'),
+
 ('Cortacans'),
 ('Cortado'),
 ('Cortail'),
@@ -19933,7 +19932,7 @@ VALUES
 ('Cortel'),
 ('Cortell'),
 ('Cortella'),
-('Cortellessa'),
+
 ('Cortellia'),
 ('Corten'),
 ('Cortens'),
@@ -19970,7 +19969,7 @@ VALUES
 ('Corto'),
 ('Corton'),
 ('Cortoos'),
-('Cortopassi'),
+
 ('Cortorreal'),
 ('Cortright'),
 ('Corts'),
@@ -20141,7 +20140,7 @@ VALUES
 ('Cospito'),
 ('Cosquer'),
 ('Coss'),
-('Cossa'),
+
 ('Cossaboom'),
 ('Cossaboon'),
 ('Cossack'),
@@ -20165,7 +20164,7 @@ VALUES
 ('Cossette'),
 ('Cossey'),
 ('Cossgrove'),
-('Cossi'),
+
 ('Cossick'),
 ('Cossie'),
 ('Cossill'),
@@ -20182,7 +20181,7 @@ VALUES
 ('Cossor'),
 ('Cossoul'),
 ('Cosstick'),
-('Cossu'),
+
 ('Cossutta'),
 ('Cossy'),
 ('Costa'),
@@ -20292,7 +20291,7 @@ VALUES
 ('Costoulla'),
 ('Costras'),
 ('Costrasel'),
-('Costu'),
+
 ('Costumero'),
 ('Cosula'),
 ('Coswatte'),
@@ -20302,9 +20301,9 @@ VALUES
 ('Coswin'),
 ('Cosworth'),
 ('Cot'),
-('Cotaa'),
+
 ('Cotabastos'),
-('Cotac'),
+
 ('Cotalin'),
 ('Cotan'),
 ('Cotant'),
@@ -20323,7 +20322,7 @@ VALUES
 ('Cotelea'),
 ('Cotelesse'),
 ('Cotella'),
-('Cotellessa'),
+
 ('Coteman'),
 ('Coten'),
 ('Cotena'),
@@ -20628,7 +20627,7 @@ VALUES
 ('Countee'),
 ('Counterman'),
 ('Countess'),
-('Countessa'),
+
 ('Countis'),
 ('Countiss'),
 ('Countreras'),
@@ -20787,7 +20786,7 @@ VALUES
 ('Cousland'),
 ('Cousley'),
 ('Couson'),
-('Coussa'),
+
 ('Coussay'),
 ('Coussell'),
 ('Coussement'),
@@ -20925,7 +20924,6 @@ VALUES
 ('Cowans'),
 ('Cowardin'),
 ('Cowart'),
-('Cowboy'),
 ('Cowburn'),
 ('Cowbury'),
 ('Cowcher'),
@@ -21583,7 +21581,7 @@ VALUES
 ('Cresus'),
 ('Creswell'),
 ('Creswick'),
-('Cresyl'),
+
 ('Cret'),
 ('Creta'),
 ('Cretal'),
@@ -21602,7 +21600,7 @@ VALUES
 ('Cretsia'),
 ('Cretsinger'),
 ('Cretskens'),
-('Crettaz'),
+
 ('Crette'),
 ('Cretten'),
 ('Cretton'),
@@ -21824,7 +21822,7 @@ VALUES
 ('Criss'),
 ('Crissell'),
 ('Crissey'),
-('Crissi'),
+
 ('Crissia'),
 ('Crissiana'),
 ('Crissie'),
@@ -21837,7 +21835,7 @@ VALUES
 ('Crissup'),
 ('Crisswell'),
 ('Crissy'),
-('Crissya'),
+
 ('Crist'),
 ('Crista'),
 ('Cristabel'),
@@ -21861,7 +21859,7 @@ VALUES
 ('Cristano'),
 ('Cristantiello'),
 ('Cristatian'),
-('Cristau'),
+
 ('Cristaudo'),
 ('Criste'),
 ('Cristea'),
@@ -21938,12 +21936,10 @@ VALUES
 ('Cristopherd'),
 ('Cristos'),
 ('Cristtian'),
-('Cristu'),
 ('Cristurean'),
 ('Cristy'),
 ('Crisu'),
 ('Criswell'),
-('Crisxi'),
 ('Crisztina'),
 ('Critch'),
 ('Critchard'),
@@ -22006,7 +22002,7 @@ VALUES
 ('Croatt'),
 ('Croawell'),
 ('Crobet'),
-('Crocefissa'),
+
 ('Crocer'),
 ('Crocetta'),
 ('Crocher'),
@@ -22199,7 +22195,7 @@ VALUES
 ('Croslow'),
 ('Crosman'),
 ('Croson'),
-('Crossa'),
+
 ('Crossan'),
 ('Crossbourne'),
 ('Crosscup'),
@@ -22241,7 +22237,7 @@ VALUES
 ('Croswell'),
 ('Crosweller'),
 ('Croswhite'),
-('Crotaz'),
+
 ('Crotch'),
 ('Crote'),
 ('Crother'),
@@ -22675,7 +22671,7 @@ VALUES
 ('Csordas'),
 ('Csorgo'),
 ('Csougor'),
-('Csug'),
+
 ('Csuhran'),
 ('Csuhta'),
 ('Csukardi'),
@@ -22686,7 +22682,7 @@ VALUES
 ('Csupor'),
 ('Csurgo'),
 ('Csuri'),
-('Csutak'),
+
 ('Csutor'),
 ('Csutoras'),
 ('Ctalin'),
@@ -23123,7 +23119,7 @@ VALUES
 ('Cumar'),
 ('Cumarasamy'),
 ('Cumbass'),
-('Cumbassa'),
+
 ('Cumbee'),
 ('Cumber'),
 ('Cumberbache'),
@@ -23531,7 +23527,7 @@ VALUES
 ('Curston'),
 ('Curt'),
 ('Curtasia'),
-('Curtaz'),
+
 ('Curte'),
 ('Curteis'),
 ('Curtes'),
@@ -23547,7 +23543,7 @@ VALUES
 ('Curtis'),
 ('Curtish'),
 ('Curtiss'),
-('Curtissa'),
+
 ('Curtit'),
 ('Curtius'),
 ('Curtland'),
@@ -23679,7 +23675,7 @@ VALUES
 ('Custy'),
 ('Cusumano'),
 ('Cusworth'),
-('Cutaj'),
+
 ('Cutamora'),
 ('Cutando'),
 ('Cutania'),
@@ -23747,7 +23743,7 @@ VALUES
 ('Cutshaw'),
 ('Cutsinger'),
 ('Cutt'),
-('Cuttaj'),
+
 ('Cuttance'),
 ('Cuttell'),
 ('Cutten'),
@@ -24015,7 +24011,7 @@ VALUES
 ('Cyruss'),
 ('Cyruz'),
 ('Cysbert'),
-('Cyssi'),
+
 ('Cystalbel'),
 ('Cyster'),
 ('Cythnia'),
@@ -24106,7 +24102,7 @@ VALUES
 ('Czeschin'),
 ('Czeslaw'),
 ('Czestan'),
-('Czestaw'),
+
 ('Czibere'),
 ('Cziboka'),
 ('Czibola'),
@@ -24251,7 +24247,7 @@ VALUES
 ('Dabbert'),
 ('Dabbour'),
 ('Dabbous'),
-('Dabboussi'),
+
 ('Dabboussy'),
 ('Dabbraccio'),
 ('Dabburi'),
@@ -24313,7 +24309,7 @@ VALUES
 ('Daborn'),
 ('Dabos'),
 ('Dabous'),
-('Daboussi'),
+
 ('Dabout'),
 ('Daboval'),
 ('Dabozinskaite'),
@@ -24368,7 +24364,7 @@ VALUES
 ('Dacey'),
 ('Dach'),
 ('Dacha'),
-('Dachakaisya'),
+
 ('Dachanel'),
 ('Dachapally'),
 ('Dachary'),
@@ -24777,7 +24773,7 @@ VALUES
 ('Dahanuwala'),
 ('Daharee'),
 ('Daharsh'),
-('Dahasahasra'),
+
 ('Dahash'),
 ('Dahat'),
 ('Dahay'),
@@ -24891,7 +24887,7 @@ VALUES
 ('Dahse'),
 ('Dahsene'),
 ('Dahshimal'),
-('Dahsra'),
+
 ('Dahun'),
 ('Dahunsi'),
 ('Dahut'),
@@ -25321,7 +25317,7 @@ VALUES
 ('Dales'),
 ('Dalesman'),
 ('Dalessandris'),
-('Dalessi'),
+
 ('Dalesta'),
 ('Dalete'),
 ('Daleth'),
@@ -25378,7 +25374,7 @@ VALUES
 ('Daliea'),
 ('Daliege'),
 ('Daliel'),
-('Daliessi'),
+
 ('Daligand'),
 ('Dalila'),
 ('Dalilath'),
@@ -25434,7 +25430,7 @@ VALUES
 ('Dallafior'),
 ('Dallagnol'),
 ('Dallago'),
-('Dallagrassa'),
+
 ('Dallain'),
 ('Dallaire'),
 ('Dallali'),
@@ -25937,7 +25933,7 @@ VALUES
 ('Damour'),
 ('Damours'),
 ('Damous'),
-('Damoussi'),
+
 ('Dampare'),
 ('Dampeer'),
 ('Damper'),
@@ -26207,7 +26203,7 @@ VALUES
 ('Daneshwarlall'),
 ('Daneshy'),
 ('Danesin'),
-('Danessa'),
+
 ('Danet'),
 ('Daneth'),
 ('Danethea'),
@@ -26423,7 +26419,7 @@ VALUES
 ('Danison'),
 ('Danisor'),
 ('Daniss'),
-('Danissa'),
+
 ('Danist'),
 ('Danister'),
 ('Danisyte'),
@@ -26746,7 +26742,7 @@ VALUES
 ('Daouphars'),
 ('Daour'),
 ('Daous'),
-('Daoussi'),
+
 ('Daoust'),
 ('Daovia'),
 ('Daoze'),
@@ -27602,7 +27598,7 @@ VALUES
 ('Dasqupta'),
 ('Dasruth'),
 ('Dass'),
-('Dassa'),
+
 ('Dassaklis'),
 ('Dassama'),
 ('Dassanayake'),
@@ -27617,7 +27613,7 @@ VALUES
 ('Dassen'),
 ('Dassereto'),
 ('Dassgupta'),
-('Dassi'),
+
 ('Dassia'),
 ('Dassie'),
 ('Dassieu'),
@@ -27633,7 +27629,7 @@ VALUES
 ('Dassos'),
 ('Dassot'),
 ('Dassouli'),
-('Dassuj'),
+
 ('Dassy'),
 ('Dasta'),
 ('Dastagair'),
@@ -27986,7 +27982,7 @@ VALUES
 ('Dauswell'),
 ('Dausynaite'),
 ('Daut'),
-('Dautaj'),
+
 ('Dautare'),
 ('Dautarim'),
 ('Dautartaite'),
@@ -28787,7 +28783,7 @@ VALUES
 ('Debasis'),
 ('Debasish'),
 ('Debasree'),
-('Debasri'),
+
 ('Debast'),
 ('Debata'),
 ('Debatisse'),
@@ -28891,7 +28887,7 @@ VALUES
 ('Debinder'),
 ('Debins'),
 ('Debiso'),
-('Debissa'),
+
 ('Debisschop'),
 ('Debiswas'),
 ('Debitora'),
@@ -29511,7 +29507,7 @@ VALUES
 ('Deepuk'),
 ('Deepun'),
 ('Deera'),
-('Deerajlataa'),
+
 ('Deeran'),
 ('Deeraphat'),
 ('Deeravath'),
@@ -29809,7 +29805,7 @@ VALUES
 ('Degrange'),
 ('Degrass'),
 ('Degrasse'),
-('Degrassi'),
+
 ('Degrate'),
 ('Degrave'),
 ('Degraw'),
@@ -30274,7 +30270,7 @@ VALUES
 ('Dekret'),
 ('Dekretser'),
 ('Dekrey'),
-('Dekrissh'),
+
 ('Deksniene'),
 ('Deksnis'),
 ('Deksnys'),
@@ -30424,7 +30420,7 @@ VALUES
 ('Delanty'),
 ('Delany'),
 ('Delanyo'),
-('Delaossa'),
+
 ('Delaour'),
 ('Delap'),
 ('Delapaz'),
@@ -30686,7 +30682,7 @@ VALUES
 ('Delesire'),
 ('Delesline'),
 ('Delespaul'),
-('Delessa'),
+
 ('Delest'),
 ('Delesto'),
 ('Deleston'),
@@ -30752,7 +30748,7 @@ VALUES
 ('Delgndo'),
 ('Delgrande'),
 ('Delgrego'),
-('Delgrossi'),
+
 ('Delgrosso'),
 ('Delguercio'),
 ('Delguidice'),
@@ -30862,7 +30858,7 @@ VALUES
 ('Deliso'),
 ('Delison'),
 ('Deliss'),
-('Delissa'),
+
 ('Delisser'),
 ('Delissia'),
 ('Delistan'),
@@ -30942,7 +30938,7 @@ VALUES
 ('Dellarmi'),
 ('Dellarno'),
 ('Dellarose'),
-('Dellarossa'),
+
 ('Dellarte'),
 ('Dellas'),
 ('Dellasala'),
@@ -31133,7 +31129,7 @@ VALUES
 ('Delosrios'),
 ('Delossanto'),
 ('Delossantos'),
-('Delossi'),
+
 ('Delost'),
 ('Delotto'),
 ('Deloughery'),
@@ -31214,7 +31210,7 @@ VALUES
 ('Delrick'),
 ('Delrie'),
 ('Delrio'),
-('Delrissa'),
+
 ('Delrivero'),
 ('Delrivo'),
 ('Delrocio'),
@@ -31225,7 +31221,7 @@ VALUES
 ('Delrosario'),
 ('Delrose'),
 ('Delross'),
-('Delrossi'),
+
 ('Delrosso'),
 ('Delrowson'),
 ('Delroy'),
@@ -31253,7 +31249,7 @@ VALUES
 ('Delsoos'),
 ('Delsordo'),
 ('Delston'),
-('Delsuc'),
+
 ('Delteil'),
 ('Deltenre'),
 ('Deltgen'),
@@ -31289,7 +31285,7 @@ VALUES
 ('Delury'),
 ('Delusia'),
 ('Delussey'),
-('Delussu'),
+
 ('Delutis'),
 ('Delux'),
 ('Deluxan'),
@@ -31336,7 +31332,7 @@ VALUES
 ('Delyse'),
 ('Delyser'),
 ('Delysia'),
-('Delyssa'),
+
 ('Delyth'),
 ('Delzeit'),
 ('Delzell'),
@@ -31526,7 +31522,7 @@ VALUES
 ('Demes'),
 ('Demesa'),
 ('Demesie'),
-('Demessi'),
+
 ('Demessie'),
 ('Demestihas'),
 ('Demet'),
@@ -31671,7 +31667,7 @@ VALUES
 ('Demirpolat'),
 ('Demirsar'),
 ('Demirtas'),
-('Demirustu'),
+
 ('Demiryaban'),
 ('Demis'),
 ('Demishaj'),
@@ -31808,7 +31804,7 @@ VALUES
 ('Demsse'),
 ('Demssie'),
 ('Demster'),
-('Demsua'),
+
 ('Demtrious'),
 ('Demtrius'),
 ('Demucha'),
@@ -32004,7 +32000,7 @@ VALUES
 ('Dengoney'),
 ('Dengsheng'),
 ('Dengu'),
-('Denguessi'),
+
 ('Denguet'),
 ('Denguole'),
 ('Dengyang'),
@@ -32101,9 +32097,9 @@ VALUES
 ('Denison'),
 ('Denisot'),
 ('Denisovs'),
-('Denisra'),
+
 ('Deniss'),
-('Denissa'),
+
 ('Denisse'),
 ('Denissen'),
 ('Denista'),
@@ -32286,11 +32282,11 @@ VALUES
 ('Denson'),
 ('Denston'),
 ('Densu'),
-('Densua'),
+
 ('Densum'),
 ('Densun'),
 ('Densyle'),
-('Dentaa'),
+
 ('Dentali'),
 ('Dentampol'),
 ('Dentas'),
@@ -32725,7 +32721,7 @@ VALUES
 ('Derese'),
 ('Dereskevicus'),
 ('Deresoma'),
-('Deressa'),
+
 ('Deresse'),
 ('Dereth'),
 ('Deretic'),
@@ -32760,7 +32756,7 @@ VALUES
 ('Derian'),
 ('Derias'),
 ('Deribe'),
-('Deribssa'),
+
 ('Deric'),
 ('Derica'),
 ('Derice'),
@@ -32809,7 +32805,7 @@ VALUES
 ('Derismar'),
 ('Deriso'),
 ('Deriss'),
-('Derissa'),
+
 ('Derit'),
 ('Deritch'),
 ('Deritis'),
@@ -32930,7 +32926,7 @@ VALUES
 ('Derosiers'),
 ('Deross'),
 ('Derosset'),
-('Derossi'),
+
 ('Derosso'),
 ('Derouche'),
 ('Derouchey'),
@@ -32950,7 +32946,7 @@ VALUES
 ('Derran'),
 ('Derrane'),
 ('Derras'),
-('Derrassi'),
+
 ('Derrayal'),
 ('Derre'),
 ('Derreberry'),
@@ -33526,17 +33522,17 @@ VALUES
 ('Desput'),
 ('Despy'),
 ('Desquare'),
-('Desra'),
+
 ('Desrae'),
 ('Desrat'),
 ('Desravines'),
 ('Desrayaud'),
-('Desre'),
+
 ('Desree'),
 ('Desreen'),
 ('Desrena'),
 ('Desrene'),
-('Desri'),
+
 ('Desrie'),
 ('Desriee'),
 ('Desriele'),
@@ -33552,9 +33548,9 @@ VALUES
 ('Desrosiers'),
 ('Desroy'),
 ('Desrues'),
-('Desry'),
+
 ('Dess'),
-('Dessa'),
+
 ('Dessaghen'),
 ('Dessain'),
 ('Dessaint'),
@@ -33586,7 +33582,7 @@ VALUES
 ('Desserrey'),
 ('Dessery'),
 ('Dessey'),
-('Dessi'),
+
 ('Dessie'),
 ('Dessigen'),
 ('Dessigie'),
@@ -33607,11 +33603,11 @@ VALUES
 ('Dessouky'),
 ('Dessources'),
 ('Dessous'),
-('Dessu'),
+
 ('Dessurne'),
 ('Dessus'),
 ('Dessy'),
-('Dessye'),
+
 ('Dessyline'),
 ('Dest'),
 ('Desta'),
@@ -33677,8 +33673,8 @@ VALUES
 ('Deswarte'),
 ('Deswood'),
 ('Desy'),
-('Desya'),
-('Desye'),
+
+
 ('Desyllas'),
 ('Deta'),
 ('Detaeye'),
@@ -33797,7 +33793,7 @@ VALUES
 ('Dettwiler'),
 ('Dettwiller'),
 ('Detty'),
-('Detudomsut'),
+
 ('Deturk'),
 ('Deturris'),
 ('Detwane'),
@@ -33982,7 +33978,7 @@ VALUES
 ('Devasundaram'),
 ('Devasunder'),
 ('Devasy'),
-('Devasya'),
+
 ('Devata'),
 ('Devatha'),
 ('Devathi'),
@@ -34095,7 +34091,7 @@ VALUES
 ('Deveshwar'),
 ('Deveson'),
 ('Deveston'),
-('Devetak'),
+
 ('Devetta'),
 ('Devex'),
 ('Devey'),
@@ -34717,7 +34713,7 @@ VALUES
 ('Dhanasrie'),
 ('Dhanasundar'),
 ('Dhanasunthorn'),
-('Dhanaswi'),
+
 ('Dhanawade'),
 ('Dhanbala'),
 ('Dhand'),
@@ -35027,7 +35023,7 @@ VALUES
 ('Dherde'),
 ('Dhere'),
 ('Dheresh'),
-('Dheressa'),
+
 ('Dherin'),
 ('Dheripre'),
 ('Dherkhadiwala'),
@@ -35137,7 +35133,7 @@ VALUES
 ('Dhirina'),
 ('Dhirosten'),
 ('Dhiru'),
-('Dhissi'),
+
 ('Dhital'),
 ('Dhivyan'),
 ('Dhiyan'),
@@ -35625,7 +35621,7 @@ VALUES
 ('Dibora'),
 ('Dibos'),
 ('Diboto'),
-('Diboussi'),
+
 ('Dibra'),
 ('Dibrell'),
 ('Dibrino'),
@@ -36052,10 +36048,10 @@ VALUES
 ('Diesinger'),
 ('Diesner'),
 ('Diess'),
-('Diessa'),
+
 ('Diessel'),
 ('Diesseli'),
-('Diessl'),
+
 ('Diessner'),
 ('Diesso'),
 ('Diesta'),
@@ -36779,12 +36775,12 @@ VALUES
 ('Dimas'),
 ('Dimascio'),
 ('Dimase'),
-('Dimassa'),
-('Dimassi'),
+
+
 ('Dimassimo'),
 ('Dimasso'),
 ('Dimatar'),
-('Dimatatac'),
+
 ('Dimattei'),
 ('Dimattia'),
 ('Dimattina'),
@@ -36858,7 +36854,7 @@ VALUES
 ('Dimital'),
 ('Dimitar'),
 ('Dimitare'),
-('Dimitaz'),
+
 ('Dimiter'),
 ('Dimiterios'),
 ('Dimith'),
@@ -37297,7 +37293,7 @@ VALUES
 ('Dinsmore'),
 ('Dinsnore'),
 ('Dinson'),
-('Dinstl'),
+
 ('Dinta'),
 ('Dintakurthi'),
 ('Dintakurti'),
@@ -37375,7 +37371,7 @@ VALUES
 ('Diomando'),
 ('Diomar'),
 ('Diomario'),
-('Diomassi'),
+
 ('Diomede'),
 ('Diomedes'),
 ('Diomedous'),
@@ -37610,7 +37606,7 @@ VALUES
 ('Dipsingh'),
 ('Dipson'),
 ('Dipta'),
-('Diptasri'),
+
 ('Dipte'),
 ('Diptee'),
 ('Diptendu'),
@@ -37807,7 +37803,7 @@ VALUES
 ('Disarno'),
 ('Disarro'),
 ('Disarufino'),
-('Disassa'),
+
 ('Disbery'),
 ('Disbray'),
 ('Disbrey'),
@@ -37839,7 +37835,7 @@ VALUES
 ('Disephemugh'),
 ('Diserens'),
 ('Diserio'),
-('Disessa'),
+
 ('Diseth'),
 ('Diseye'),
 ('Dishaanth'),
@@ -37923,7 +37919,7 @@ VALUES
 ('Disreal'),
 ('Disrud'),
 ('Diss'),
-('Dissa'),
+
 ('Dissan'),
 ('Dissanayakage'),
 ('Dissanayake'),
@@ -37937,7 +37933,7 @@ VALUES
 ('Disser'),
 ('Disset'),
 ('Dissette'),
-('Dissi'),
+
 ('Dissing'),
 ('Dissinger'),
 ('Dissmore'),
@@ -37946,7 +37942,7 @@ VALUES
 ('Dissoria'),
 ('Disspain'),
 ('Disston'),
-('Dissu'),
+
 ('Dissy'),
 ('Distafano'),
 ('Distaffen'),
@@ -37974,7 +37970,7 @@ VALUES
 ('Ditaranto'),
 ('Ditartas'),
 ('Ditas'),
-('Ditau'),
+
 ('Ditauskaite'),
 ('Ditch'),
 ('Ditchburn'),
@@ -38231,14 +38227,14 @@ VALUES
 ('Divyashree'),
 ('Divyasingh'),
 ('Divyasree'),
-('Divyasri'),
+
 ('Divyata'),
 ('Divyatha'),
 ('Divyauant'),
 ('Divyes'),
 ('Divyesh'),
 ('Divyeshkumar'),
-('Divyessh'),
+
 ('Diwahang'),
 ('Diwakaran'),
 ('Diwaker'),
@@ -38419,7 +38415,7 @@ VALUES
 ('Djasman'),
 ('Djasmin'),
 ('Djasse'),
-('Djassi'),
+
 ('Djassy'),
 ('Djasur'),
 ('Djasuretdin'),
@@ -38465,7 +38461,7 @@ VALUES
 ('Djela'),
 ('Djelaleddin'),
 ('Djelaledin'),
-('Djelassi'),
+
 ('Djeli'),
 ('Djelid'),
 ('Djellab'),
@@ -38522,9 +38518,9 @@ VALUES
 ('Djerry'),
 ('Djesmin'),
 ('Djeson'),
-('Djessa'),
+
 ('Djesse'),
-('Djessi'),
+
 ('Djessy'),
 ('Djestina'),
 ('Djeta'),
@@ -38621,24 +38617,24 @@ VALUES
 ('Djosimar'),
 ('Djosymario'),
 ('Djouama'),
-('Djoubissi'),
+
 ('Djoud'),
 ('Djoudar'),
 ('Djouder'),
 ('Djoufenlkit'),
 ('Djoufer'),
 ('Djouhaina'),
-('Djouhassi'),
+
 ('Djouhdali'),
 ('Djouher'),
 ('Djouhri'),
 ('Djouma'),
 ('Djoumana'),
-('Djoumessi'),
+
 ('Djoumin'),
 ('Djourder'),
 ('Djourna'),
-('Djoussi'),
+
 ('Djovan'),
 ('Djovana'),
 ('Djovany'),
@@ -39237,7 +39233,7 @@ VALUES
 ('Dokes'),
 ('Dokey'),
 ('Dokhane'),
-('Dokhesya'),
+
 ('Dokhi'),
 ('Dokht'),
 ('Dokiso'),
@@ -39812,7 +39808,7 @@ VALUES
 ('Donadio'),
 ('Donado'),
 ('Donadon'),
-('Donadussi'),
+
 ('Donae'),
 ('Donafee'),
 ('Donaghey'),
@@ -40437,7 +40433,7 @@ VALUES
 ('Dorathea'),
 ('Dorathy'),
 ('Doratiotto'),
-('Doratotaj'),
+
 ('Dorawala'),
 ('Doray'),
 ('Dorban'),
@@ -40934,7 +40930,7 @@ VALUES
 ('Dospoly'),
 ('Dosreis'),
 ('Doss'),
-('Dossa'),
+
 ('Dossabhoy'),
 ('Dossantos'),
 ('Dossantosdelgadinh'),
@@ -40944,7 +40940,7 @@ VALUES
 ('Dossetor'),
 ('Dossetter'),
 ('Dossey'),
-('Dossi'),
+
 ('Dossie'),
 ('Dossin'),
 ('Dossing'),
@@ -40954,7 +40950,7 @@ VALUES
 ('Dossor'),
 ('Dossot'),
 ('Dossous'),
-('Dossu'),
+
 ('Dossy'),
 ('Dost'),
 ('Dostain'),
@@ -40976,9 +40972,9 @@ VALUES
 ('Dostukheel'),
 ('Dosunmi'),
 ('Dosunmu'),
-('Dosuy'),
+
 ('Doswell'),
-('Dosyo'),
+
 ('Dosztal'),
 ('Dot'),
 ('Dotan'),
@@ -41244,7 +41240,7 @@ VALUES
 ('Dousseaud'),
 ('Dousset'),
 ('Doussin'),
-('Doussu'),
+
 ('Doust'),
 ('Doustaly'),
 ('Dousteyssier'),
@@ -41316,7 +41312,7 @@ VALUES
 ('Doverney'),
 ('Dovers'),
 ('Doverspike'),
-('Doverstav'),
+
 ('Doverton'),
 ('Doverty'),
 ('Doveston'),
@@ -41353,7 +41349,7 @@ VALUES
 ('Doviltis'),
 ('Dovin'),
 ('Dovisiti'),
-('Dovissi'),
+
 ('Dovleae'),
 ('Dovlet'),
 ('Dovlete'),
@@ -42047,7 +42043,7 @@ VALUES
 ('Driane'),
 ('Driano'),
 ('Driant'),
-('Driassa'),
+
 ('Driat'),
 ('Dribbell'),
 ('Drica'),
@@ -42168,9 +42164,9 @@ VALUES
 ('Drislane'),
 ('Drisona'),
 ('Driss'),
-('Drissa'),
+
 ('Drissel'),
-('Drissi'),
+
 ('Drissialemoy'),
 ('Dristas'),
 ('Dristi'),
@@ -42250,9 +42246,7 @@ VALUES
 ('Dromnes'),
 ('Dromundo'),
 ('Dron'),
-('Drone'),
 ('Dronen'),
-('Drones'),
 ('Dronet'),
 ('Droney'),
 ('Dronfield'),
@@ -42510,7 +42504,7 @@ VALUES
 ('Drymer'),
 ('Drymluch'),
 ('Drymon'),
-('Drymoussi'),
+
 ('Drynda'),
 ('Dryne'),
 ('Drysdale'),
@@ -42564,9 +42558,9 @@ VALUES
 ('Duangrudee'),
 ('Duangruedee'),
 ('Duangrut'),
-('Duangsri'),
+
 ('Duangtida'),
-('Duangwongsri'),
+
 ('Duanjinyu'),
 ('Duany'),
 ('Duanyang'),
@@ -42580,7 +42574,7 @@ VALUES
 ('Duartes'),
 ('Duartina'),
 ('Duasing'),
-('Duassi'),
+
 ('Duate'),
 ('Duatin'),
 ('Duault'),
@@ -42593,7 +42587,7 @@ VALUES
 ('Dubagunta'),
 ('Dubail'),
 ('Dubainer'),
-('Dubaissi'),
+
 ('Dubakiene'),
 ('Dubakovaite'),
 ('Dubal'),
@@ -42878,7 +42872,7 @@ VALUES
 ('Ducruet'),
 ('Ducruy'),
 ('Ducsay'),
-('Ductak'),
+
 ('Ductan'),
 ('Ductor'),
 ('Ducure'),
@@ -43228,7 +43222,7 @@ VALUES
 ('Duhigg'),
 ('Duhina'),
 ('Duhirwe'),
-('Duhitaz'),
+
 ('Duhme'),
 ('Duhod'),
 ('Duhon'),
@@ -44526,7 +44520,7 @@ VALUES
 ('Dusoulier'),
 ('Dusprit'),
 ('Duss'),
-('Dussa'),
+
 ('Dussadee'),
 ('Dussain'),
 ('Dussan'),
@@ -44552,8 +44546,8 @@ VALUES
 ('Dusso'),
 ('Dussol'),
 ('Dussot'),
-('Dussu'),
-('Dussud'),
+
+
 ('Dussuyer'),
 ('Dustagheer'),
 ('Dustagheir'),
@@ -45194,7 +45188,7 @@ VALUES
 ('Dzenyo'),
 ('Dzera'),
 ('Dzeraldas'),
-('Dzerassa'),
+
 ('Dzerins'),
 ('Dzerkale'),
 ('Dzero'),
@@ -45377,7 +45371,7 @@ VALUES
 ('Dziovaliene'),
 ('Dzirkalis'),
 ('Dzisyak'),
-('Dzitac'),
+
 ('Dzite'),
 ('Dzitenovs'),
 ('Dzitornu'),
@@ -45461,8 +45455,7 @@ VALUES
 ('Dzuver'),
 ('Dzwigala'),
 ('Dzyngel'),
-('Dzyriene'),
-('Dzyuba');
+('Dzyriene');
 -- Down
 DELETE FROM Name 
 WHERE 

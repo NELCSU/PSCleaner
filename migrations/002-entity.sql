@@ -22,7 +22,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:abbey|acres?|airfield|alley|allotments?|approach|arcade|arch(?:es)?|avenue|b[ae]ck|banks?|barns?|basin|bay|beach|beacons?|bog|bottoms?|boulevard|braes?|brake|bridges?|broad(?:s|way)?|brooks?|buildings?|bush(?:es)?|bypass|camp(?:us)?|canal|castle|causeway|cave|centre|channel|chapel|church|circ(?:le|us)|circular|city|cliffs?|close|clumps?|coast|colliery|commons?|coppices?|copses?|corner|cottages?|court(?:yard)?|cove(?:rts?)?|crags?|creek|crescent|crest|crofts?|cross(?:ing)?|dales?|dam|d[iy]ke|district|ditch|docks?|downs?|drift|dr[io]ve|edge|embankment|entrance|esplanade|estates?|farms?|f[ae]lls?|fens?|ferry|field|flats?|fo[lr]ds?|forest|furzes?|gap|gardens?|gate(?:s|way)?|geos?|glens?|gor[gs]e|grange|grass|greens?|grounds?|groves?|gully|h[ai]lls?|hanger|harbour|hatch|haven|head|heaths?|hedges?|heights?|high(?:way)?|hollow|holt|houses?|interchange|islands?|isles?|jetty|junctions?|la[kn]es?|lawns?|level|leys?|links?|loch|l[eo]dge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|moors?|moss|mounts?|mouth|ness|orchards?|oval|paddocks?|parade|park(?:land|s|way)?|pass(?:age)?|passageway|pastures?|path|piece|pier|pike|pit|place|plains?|ponds?|pools?|point|port|priory|promenade|quad(?:rant)?|quarry|range|rd|reach|reservoir|ridge|ri[ds]e|rivers?|roads?|rocks?|rough|round(?:about)?|row|sands?|sea|sh[io]re|side|skerr(?:y|ies)|sound|spa|spinneys?|springs?|spur|square|station|strand|stream|street|strip|summit|tarns?|terraces?|to[pr]s?|towers?|towns?|tunnel|upper|vale|valley|views?|villas?|villages?|wal[kl]s?|water(?:s|fall)?|ways?|weald|weirs?|wharf|wold|wood(?:s|lands)?|yards?)\b',
+  '\b(?:abbey|acres?|airfield|alley|allotments?|approach|arcade|arch(?:es)?|avenue|b[ae]ck|banks?|barns?|basin|bay|beach|beacons?|bog|bottoms?|boulevard|braes?|brake|bridges?|broad(?:s|way)?|brooks?|buildings?|bush(?:es)?|bypass|camp(?:us)?|canal|castle|causeway|cave|centre|channel|chapel|church|circ(?:le|us)|circular|city|cliffs?|close|clumps?|coast|colliery|commons?|coppices?|copses?|corner|cottages?|court(?:yard)?|cove(?:rts?)?|crags?|creek|crescent|crest|crofts?|cross(?:ing)?|dales?|dam|d[iy]ke|district|ditch|docks?|downs?|drift|dr[io]ve|edge|embankment|entrance|esplanade|estates?|farms?|f[ae]lls?|fens?|ferry|field|flats?|fo[lr]ds?|forest|furzes?|gap|gardens?|gate(?:s|way)?|geos?|glens?|gor[gs]e|grange|grass|greens?|grounds?|groves?|gully|h[ai]lls?|hanger|harbour|hatch|haven|head|heaths?|hedges?|heights?|high(?:way)?|hollow|holt|houses?|interchange|islands?|isles?|jetty|junctions?|la[kn]es?|lawns?|level|leys?|links?|loch|l[eo]dge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|moors?|moss|mounts?|mouth|ness|orchards?|oval|paddocks?|parade|park(?:land|s|way)?|pass(?:age)?|passageway|pastures?|path|piece|pier|p[iy]ke|pit|place|plains?|ponds?|pools?|point|port|priory|promenade|quad(?:rant)?|quarry|range|rd|reach|reservoir|ridge|ri[ds]e|rivers?|roads?|rocks?|rough|round(?:about)?|row|sands?|sea|sh[io]re|side|skerr(?:y|ies)|sound|spa|spinneys?|springs?|spur|square|station|strand|stream|street|strip|summit|tarns?|terraces?|to[pr]s?|towers?|towns?|tunnel|upper|vale|valley|views?|villas?|villages?|wal[kl]s?|water(?:s|falls?)?|ways?|weald|weirs?|wharf|wold|wood(?:s|lands)?|yards?)\b',
   'Finds any combination of common location name suffixes found in the UK'
 ),
 (
@@ -242,19 +242,19 @@ VALUES
 (
   'NameRegExS', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+s(?:a[a-df-ko-quvxz]|c[a-df-rt-z]|e[bf-kmo-qu-wz]|h[a-xz]|i[bf-ko-ru-z]|k[a-rt-z]|l[a-df-xz]|m[b-rt-xz]|n[a-su-z]|p[a-rt-xz]|o[a-koqu-z]|sz|uk|wa|y[kn]|[bdfgjz][a-z])\b',
+  '\b[a-z]+s(?:a[a-df-ko-quvxz]|c[a-df-rt-z]|e[bf-kmo-qu-wz]|h[a-xz]|i[bf-ko-ru-z]|k[a-rt-z]|l[a-df-xz]|m[b-rt-xz]|n[a-su-z]|o[a-koqu-z]|p[a-rt-xz]|s[a-df-np-xz]|t[b-df-hj-np-rt-xz]|u[a-df-koqt-z]|y[a-rt-z]|[bdfgjqrvwxz][a-z])\b',
   'Words of >= 4 characters ending s**'
 ),
 (
   'NameRegExT', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+t(?:a[dhio]|c[a-gi-z]|e[bcfghjkoqu-wz]|h[b-df-hj-ln-rt-xz]|i[bfhijkqu-z]|l[a-df-xz]|o[a-df-ktuvz]|r[b-df-np-su-xz]|s[a-fg-tv-xz]|t[b-df-np-rt-xz]|u[acf-oqt-z]|[bdfgjkmnpqv-z][a-z])\b',
+  '\b[a-z]+t(?:a[acdfh-koqu-wz]|c[a-gi-z]|e[bcf-hjkoqu-wz]|h[b-df-hj-ln-rt-xz]|i[bfhi-kqu-z]|l[a-df-xz]|o[a-df-ktuvz]|r[b-df-np-su-xz]|s[a-fg-tv-xz]|t[b-df-np-rt-xz]|u[acf-oqt-z]|[bdfgjkmnpqv-z][a-z])\b',
   'Words of >= 4 characters ending t**'
 ),
 (
   'NameRegExU', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+u(?:a[a-df-km-su-xz]|b[a-df-ru-xz]|c[b-dfgijl-su-xz]|d[a-df-np-rt-xz]|e[a-cf-km-qu-xz]|f[a-eg-ru-z]|g[a-dfgi-rt-xz]|h[a-rt-z]|i[fh-kqru-y]|k[a-df-xz]|l[cghjmnqru-xz]|m[cdf-moqru-xz]|n[bcfh-jl-ru-xz]|o[a-qt-xz]|p[a-df-ru-xz]|r[acghjqv-xz]|s[bdfgijl-ru-xz]|t[a-dfgi-ru-xz]|u[a-ln-z]|v[a-df-rt-xz]|y[a-rt-z]|[jqwxz][a-z])\b',
+  '\b[a-z]+u(?:a[a-df-km-su-xz]|b[a-df-ru-xz]|c[b-dfgijl-su-xz]|d[a-df-np-rt-xz]|e[a-cf-km-qu-xz]|f[a-eg-ru-z]|g[a-dfgi-rt-xz]|[hy][a-rt-z]|i[fh-kqru-y]|k[a-df-xz]|l[cghjmnqru-xz]|m[cdf-moqru-xz]|n[bcfh-jl-ru-xz]|o[a-qt-xz]|p[a-df-ru-xz]|r[acghjqv-xz]|s[bdfgijl-ru-xz]|t[a-dfgi-ru-xz]|u[a-ln-z]|v[a-df-rt-xz]|[jqwxz][a-z])\b',
   'Words of >= 4 characters ending u**'
 ),
 (
