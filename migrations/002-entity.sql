@@ -22,7 +22,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:abbey|acres?|airfield|alley|allotments?|approach|arcade|arch(?:es)?|avenue|b[ae]ck|banks?|barns?|basin|bay|beach|beacons?|bog|bottoms?|boulevard|braes?|brake|bridges?|broad(?:s|way)?|brooks?|buildings?|bush(?:es)?|bypass|camp(?:us)?|canal|castle|causeway|cave|centre|channel|chapel|church|circ(?:le|us)|circular|city|cliffs?|close|clumps?|coast|colliery|commons?|convent|coppices?|copses?|corner|cottages?|court(?:yard)?|cove(?:rts?)?|crags?|creek|crescent|crest|crofts?|cross(?:ing)?|dales?|dam|d[iy]ke|district|ditch|docks?|downs?|drift|dr[io]ve|edge|embankment|entrance|esplanade|estates?|farms?|f[ae]lls?|fens?|ferry|field|flats?|fo[lr]ds?|forest|furzes?|gap|gardens?|gate(?:s|way)?|geos?|glens?|gor[gs]e|grange|grass|great|greens?|grounds?|groves?|gully|h[ai]lls?|hanger|harbour|hatch|haven|head|heaths?|hedges?|heights?|high(?:way)?|hollow|holt|houses?|interchange|islands?|isles?|jetty|junctions?|la[kn]es?|lawns?|level|leys?|links?|little|loch|l[eo]dge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|moors?|moss|mounts?|mouth|ness|orchards?|oval|paddocks?|parade|park(?:land|s|way)?|pass(?:age)?|passageway|pastures?|path|piece|pier|p[iy]ke|pit|place|plains?|ponds?|pools?|point|port|priory|promenade|quad(?:rant)?|quarry|range|rd|reach|reservoir|ridges?|ri[ds]e|rivers?|roads?|rocks?|rough|round(?:about)?|row|sands?|sea|sh[io]re|side|skerr(?:y|ies)|sound|spa|spinneys?|springs?|spur|square|station|strand|stream|street|strip|summit|tarns?|terraces?|to[pr]s?|towers?|towns?|tunnel|upper|vale|valley|views?|villas?|villages?|wal[kl]s?|water(?:s|falls?)?|ways?|weald|well|weirs?|wharf|wold|wood(?:s|lands)?|yards?)\b',
+  '\b(?:abbey|acres?|airfield|alley|allotments?|approach|arcade|arch(?:es)?|avenue|b[ae]ck|banks?|barns?|basin|bay|beach|beacons?|bog|bottoms?|boulevard|braes?|brake|bridges?|broads?|brooks?|buildings?|bush(?:es)?|bypass|camp(?:us)?|canal|castle|causeway|cave|centre|channel|chapel|church|circ(?:le|us)|circular|city|cliffs?|close|clumps?|coast|colliery|commons?|convent|coppices?|copses?|corner|cottages?|court(?:yard)?|cove(?:rts?)?|crags?|creek|crescent|crest|crofts?|cross(?:ing)?|dales?|dam|d[iy]ke|district|ditch|docks?|downs?|drift|dr[io]ve|edge|embankment|entrance|esplanade|estates?|farms?|f[ae]lls?|fens?|ferry|field|flats?|fo[lr]ds?|forest|furzes?|gap|gardens?|gate(?:s|way)?|geos?|glens?|gorse|grange|grass|great|greens?|grounds?|groves?|gully|h[ai]lls?|hanger|harbour|hatch|haven|head|heaths?|hedges?|heights?|high(?:way)?|hollow|holt|houses?|interchange|islands?|isles?|jetty|junctions?|la[kn]es?|lawns?|level|leys?|links?|little|loch|l[eo]dge|lower|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|moors?|moss|mounts?|mouth|ness|orchards?|oval|paddocks?|parade|park(?:land|s|way)?|pass(?:age)?|passageway|pastures?|path|piece|pier|p[iy]ke|pit|place|plains?|ponds?|pools?|point|port|priory|promenade|quad(?:rant)?|quarry|quays?|range|rd|reach|reservoir|ridges?|ri[ds]e|rivers?|roads?|rocks?|rough|round(?:about)?|row|sands?|sea|sh[io]re|side|skerr(?:y|ies)|sound|spa|spinneys?|springs?|spur|square|station|strand|stream|street|strip|summit|tarns?|terraces?|to[pr]s?|towers?|towns?|tunnel|upper|vale|valley|views?|villas?|villages?|wal[kl]s?|water(?:s|falls?)?|ways?|weald|well|weirs?|wharf|wold|wood(?:s|lands)?|yards?)\b',
   'Finds any combination of common location name suffixes found in the UK'
 ),
 (
@@ -224,7 +224,7 @@ VALUES
 (
   'NameRegExP', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+p(?:cz|ho|i[fhijkqruvwy]|k[io]|nn|ou|sz|ur|y[kn]|z[a-z])\b',
+  '\b[a-z]+p(?:a[a-cfgi-ko-quv]|e[bcfh-kopuvz]|h[b-df-rt-xz]|i[bf-kp-ru-wyz]|l[a-df-hj-xz]|o[a-ce-lqu-wyz]|p[a-df-np-rt-xz]|r[a-df-np-xz]|s[a-df-np-xz]|t[a-gj-np-rtv-xz]|u[a-ce-moqru-z]|y[a-kn-qt-z]|[b-dfgjkmnqvwxz][a-z])\b',
   'Words of >= 4 characters ending p**'
 ),
 (
@@ -323,7 +323,7 @@ VALUES
 (
   'SkipLeadingNumberRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',
   1, 1, 0, 1, 
-  '[\d,\.]+(?:st|nd|rd|th)?[\s\-\\\/]{1,2}(?:acre|autumn|beer|count|crew|crime|day|fairway|hour|mile|page|pence|place|pound|metre|min|murder|story|student|summer|time|week|winter|yard|yr|year)s?',
+  '[\d,\.]+(?:st|nd|rd|th)?[\s\-\\\/]{1,2}(?:acre|autumn|beer|count|crew|crime|day|fairway|hour|mile|page|pence|place|pound|metre|min|murder|star|story|student|summer|time|week|winter|yard|yr|year)s?',
   'Example: 23 acres'
 ),
 (
@@ -335,7 +335,7 @@ VALUES
 (
   'SkipWordDurationRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',
   1, 1, 0, 1, 
-  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten|hundred)[\s\-\\/]{1,2}(?:acre|autumn|beer|count|crew|crime|daughter|day|hour|mile|metre|murder|page|pence|place|pound|son|story|student|summer|time|week|winter|year)s?\b',
+  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten|hundred)[\s\-\\/]{1,2}(?:acre|autumn|beer|count|crew|crime|daughter|day|hour|mile|metre|murder|page|pence|place|pound|son|star|story|student|summer|time|week|winter|year)s?\b',
   'Example: Four beers'
 ),
 (
