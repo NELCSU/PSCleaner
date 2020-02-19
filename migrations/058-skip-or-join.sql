@@ -308,6 +308,7 @@ VALUES
 ('Males'),
 ('Mam'),
 ('Manic'),
+('Manifesto'),
 ('Mantra'),
 ('Maths'),
 ('Mats'),

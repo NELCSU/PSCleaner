@@ -323,7 +323,7 @@ VALUES
 (
   'SkipLeadingNumberRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',
   1, 1, 0, 1, 
-  '[\d,\.]+(?:st|nd|rd|th)?[\s\-\\\/]{1,2}(?:acre|autumn|beer|count|crew|crime|day|fairway|hour|mile|page|pence|place|pound|metre|min|murder|star|story|student|summer|time|week|winter|yard|yr|year)s?',
+  '[\d,\.]+(?:st|nd|rd|th)?[\s\-\\\/]{1,2}(?:acre|autumn|beer|count|crew|crime|day|fairway|hour|mile|page|pence|place|point|pound|metre|min|murder|star|story|student|summer|time|week|winter|yard|yr|year)s?',
   'Example: 23 acres'
 ),
 (
@@ -335,7 +335,7 @@ VALUES
 (
   'SkipWordDurationRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',
   1, 1, 0, 1, 
-  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten|hundred)[\s\-\\/]{1,2}(?:acre|autumn|beer|count|crew|crime|daughter|day|hour|mile|metre|murder|page|pence|place|pound|son|star|story|student|summer|time|week|winter|year)s?\b',
+  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten|hundred)[\s\-\\/]{1,2}(?:acre|autumn|beer|count|crew|crime|daughter|day|hour|mile|metre|murder|page|pence|place|point|pound|son|star|story|student|summer|time|week|winter|year)s?\b',
   'Example: Four beers'
 ),
 (
