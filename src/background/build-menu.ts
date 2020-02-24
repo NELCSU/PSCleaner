@@ -2,7 +2,7 @@ import { app, Menu, shell } from "electron";
 import config from "./views";
 
 export class AppMenu {
-  private _parent: any;
+  #parent: any;
   
   public menu: Menu;
 
@@ -10,7 +10,7 @@ export class AppMenu {
    * @param parent - reference to main process
    */
   constructor(parent: any) {
-    this._parent = parent;
+    this.#parent = parent;
     const def: any = require(config.menu);
     def.menu.forEach((menu: any) => {
       if (menu.submenu) {
@@ -50,15 +50,15 @@ export class AppMenu {
   }
 
   public close(): void {
-    this._parent.hardClose();
+    this.#parent.hardClose();
   }
 
   public showDevTools(): void {
-    this._parent.mainWindow.webContents.toggleDevTools();
+    this.#parent.mainWindow.webContents.toggleDevTools();
   }
 
   public showEntities(): void {
-    this._parent.mainWindow.loadURL(config.pages.get("entities"));
+    this.#parent.mainWindow.loadURL(config.pages.get("entities"));
   }
 
   public showHelp(url: string): void {
@@ -66,15 +66,15 @@ export class AppMenu {
   }
 
   public showSettings(): void {
-    this._parent.mainWindow.loadURL(config.pages.get("settings"));
+    this.#parent.mainWindow.loadURL(config.pages.get("settings"));
   }
 
   public showTemplates(): void {
-    this._parent.mainWindow.loadURL(config.pages.get("templates"));
+    this.#parent.mainWindow.loadURL(config.pages.get("templates"));
   }
 
   public showTrainingData(): void {
-    this._parent.mainWindow.loadURL(config.pages.get("training"));
+    this.#parent.mainWindow.loadURL(config.pages.get("training"));
   }
 
   public showVersion(): string {

@@ -11,7 +11,7 @@ import { isRootOrDriveLetter } from "./util/path";
  * ### Wrapper for Node's FileSystem library
  */
 export class FileManager {
-  private _folder!: string;
+  #folder!: string;
   
   public events = new EventEmitter();
   public get fileCount(): Promise<number> {
@@ -19,16 +19,16 @@ export class FileManager {
   }
   public filter!: string;
   public get folder(): string {
-    return this._folder;
+    return this.#folder;
   }
   public set folder(value: string) {
-    this._folder = value;
-    fs.pathExists(this._folder)
+    this.#folder = value;
+    fs.pathExists(this.#folder)
       .then(found => {
         if (found) {
           this.init();
         } else {
-          makeDir(this._folder)
+          makeDir(this.#folder)
             .then(_ => this.init());
         }
       });

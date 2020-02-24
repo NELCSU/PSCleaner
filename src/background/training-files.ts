@@ -4,7 +4,7 @@ import { join } from "path";
 import DB from "sqlite3-helper";
 import uuidv1 from "uuid/v1";
 import { FileManager } from "./file-manager";
-import { ReadFileAction } from "../typings/PSCleaner";
+import type { ReadFileAction } from "../typings/PSCleaner";
 
 /**
  * ### Manages files stored in watched folder.

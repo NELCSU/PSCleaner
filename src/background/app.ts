@@ -22,7 +22,7 @@ import fs from "fs";
 import config from "./views";
 
 class Main {
-  private _initDB: boolean = false;
+  #initDB: boolean = false;
 
   public app: App;
   public isQuitting = false;
@@ -128,7 +128,7 @@ class Main {
     return (async _ => {
       try {
         await DB().connection();
-        this._initDB = true;
+        this.#initDB = true;
       } catch (err) {
         console.log(err);
       }
@@ -147,7 +147,7 @@ class Main {
   }
 
   public run = () => {
-    if (!this._initDB || !this.trainingFiles.ready ||
+    if (!this.#initDB || !this.trainingFiles.ready ||
       !this.importFiles.ready || !this.exportFiles.ready ||
       !this.processFiles.ready) {
       setTimeout(_ => this.run(), 1000);

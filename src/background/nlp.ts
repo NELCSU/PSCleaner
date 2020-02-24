@@ -1,6 +1,6 @@
 import DB, { DataObject } from "sqlite3-helper";
 import posTagger from "wink-pos-tagger";
-import { Entity, MatchedEntity, SearchTermResult, WordPosition } from "../typings/PSCleaner";
+import type { Entity, MatchedEntity, SearchTermResult, WordPosition } from "../typings/PSCleaner";
 import { Entities } from "./entities";
 import { deepCopy } from "./util/deepCopy";
 import { isApostrophe } from "./util/text";

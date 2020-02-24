@@ -3,7 +3,7 @@ import stringify from "json-stringify-pretty-compact";
 import { join } from "path";
 import DB from "sqlite3-helper";
 import { FileManager } from "./file-manager";
-import { CSVTemplate, ReadFileAction } from "../typings/PSCleaner";
+import type { CSVTemplate, ReadFileAction } from "../typings/PSCleaner";
 
 /**
  * ### Manages files stored in watched folder.
@@ -24,15 +24,15 @@ import { CSVTemplate, ReadFileAction } from "../typings/PSCleaner";
  * set-template-folder     -> template-folder-error
  */
 export class TemplateFiles {
-  private _error?: string;
+  #error?: string;
 
   public get error(): string | undefined {
-    return this._error;
+    return this.#error;
   }
   public set error(message: string | undefined) {
-    this._error = message;
-    if (this._error) {
-      console.log(this._error);
+    this.#error = message;
+    if (this.#error) {
+      console.log(this.#error);
     }
   }
   public fields: Map<string, boolean> = new Map<string, boolean>();

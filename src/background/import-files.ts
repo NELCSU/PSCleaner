@@ -28,7 +28,7 @@ export class ImportFiles {
         .then(
           _ => {
             this.fm.folder = path;
-            e.reply("import-folder", this.fm.folder)
+            e.reply("import-folder", this.fm.folder);
           },
           _ => e.reply("import-folder-error", this.fm.folder)
         );
@@ -58,7 +58,7 @@ export class ImportFiles {
           return row.value;
         } else {
           const loc: string = join(app.getPath("home"), "Documents", app.getName(), "import");
-          await DB().insert("AppSettings", { field: "IMPORT_FOLDER", value: loc })
+          await DB().insert("AppSettings", { field: "IMPORT_FOLDER", value: loc });
           return loc;
         }
       })
@@ -71,8 +71,7 @@ export class ImportFiles {
 
   /**
    * Moves one file from folder to sendTo location
-   * @param {string} folder - path to target folder
-   * @return {Promise<ImportResponse>}
+   * @param folder - path to target folder
    */
   public moveOne(folder?: string): Promise<ImportResponse> {
     if (folder) {
@@ -87,6 +86,6 @@ export class ImportFiles {
             ).then(() => Promise.resolve("imported"))
              .catch(() => Promise.reject("stop-import"))
           : Promise.reject("stop-import")
-      )
+      );
   }
 }

@@ -14,7 +14,7 @@ const windowDefault: any = {
  * ### Manages creation of browser window
  */
 export class AppWindow extends BrowserWindow {
-  private _wsk: any;
+  #wsk: any;
 
   public data: any;
   public get hideWhenMinimised(): boolean {
@@ -37,16 +37,16 @@ export class AppWindow extends BrowserWindow {
     const cursorPos: Point = screen.getCursorScreenPoint();
     const { width, height } = screen.getDisplayNearestPoint(cursorPos).workAreaSize;
 
-    this._wsk = windowStateKeeper({
+    this.#wsk = windowStateKeeper({
       defaultWidth: width,
       defaultHeight: height
     });
 
     this.setBounds({
-      x: this._wsk.x || 0,
-      y: this._wsk.y || 0,
-      width: this._wsk.width,
-      height: this._wsk.height
+      x: this.#wsk.x || 0,
+      y: this.#wsk.y || 0,
+      width: this.#wsk.width,
+      height: this.#wsk.height
     });
 
     this.loadURL(file);
@@ -56,6 +56,6 @@ export class AppWindow extends BrowserWindow {
     this.webContents.on("crashed", (e: Event) => console.log(e));
     this.on("unresponsive", (e: Event) => console.log(e));
 
-    this._wsk.manage(this);
+    this.#wsk.manage(this);
   }
 }

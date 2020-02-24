@@ -1,6 +1,6 @@
 import { ipcMain as ipc } from "electron";
 import DB, { DataObject } from "sqlite3-helper";
-import { Entity, EntityResponse, EntityType } from "../typings/PSCleaner";
+import type { Entity, EntityResponse, EntityType } from "../typings/PSCleaner";
 
 /**
  * ### Manages entities
