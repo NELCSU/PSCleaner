@@ -25901,7 +25901,6 @@ VALUES
 ('Dartford'),
 ('Darth'),
 ('Darthard'),
-('Darting'),
 ('Dartington'),
 ('Dartino'),
 ('Dartnall'),

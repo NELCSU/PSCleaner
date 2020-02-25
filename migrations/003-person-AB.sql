@@ -17584,7 +17584,6 @@ VALUES
 ('Angelous'),
 ('Angelovics'),
 ('Angelpreet'),
-('Angels'),
 ('Angelson'),
 ('Angelstar'),
 ('Angelula'),
@@ -52067,7 +52066,6 @@ VALUES
 ('Brakeman'),
 ('Braker'),
 ('Brakeris'),
-('Brakes'),
 ('Brakewell'),
 ('Brakey'),
 ('Brakhage'),
@@ -56191,7 +56189,6 @@ VALUES
 ('Buffenbarger'),
 ('Buffer'),
 ('Buffery'),
-
 ('Buffetta'),
 ('Buffey'),
 ('Buffin'),
