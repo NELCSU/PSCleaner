@@ -8653,7 +8653,6 @@ VALUES
 ('Chasapidis'),
 ('Chasapis'),
 ('Chasar'),
-('Chase'),
 ('Chasel'),
 ('Chaseling'),
 ('Chasen'),

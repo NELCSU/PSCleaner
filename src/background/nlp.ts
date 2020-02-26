@@ -181,7 +181,10 @@ export class NLP {
   }
 
   private _joinable(curr: MatchedEntity, next: MatchedEntity): boolean {
-    return (next.start > curr.end && next.start <= (curr.end + 2) && next.entity.domain === curr.entity.domain && curr.entity.joinable === 1);
+    const matchingDomains: boolean = next.entity.domain === curr.entity.domain;
+    const currIsJoinable: boolean = curr.entity.joinable === 1;
+    const alignedInText: boolean = (next.start > curr.end) && (next.start <= (curr.end + 2));
+    return alignedInText && matchingDomains && currIsJoinable;
   }
 
   private _queryMultipleTerms(words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {

@@ -302,6 +302,7 @@ VALUES
 ('Sao Tomeans'), 
 ('Saudi Arabian'),
 ('Saudi Arabians'),
+('Scandanavian'),
 ('Scottish'),
 ('Scots'),
 ('Senegalese'),

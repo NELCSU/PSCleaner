@@ -14892,7 +14892,6 @@ VALUES
 ('Pouncey'),
 ('Pouncil'),
 ('Pouncy'),
-('Pound'),
 ('Poundass'),
 ('Pounde'),
 ('Pounder'),

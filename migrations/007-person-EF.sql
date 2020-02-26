@@ -309,7 +309,6 @@ VALUES
 ('Eastell'),
 ('Easten'),
 ('Eastep'),
-('Easter'),
 ('Easterbrook'),
 ('Easterbrooke'),
 ('Easterbrooks'),

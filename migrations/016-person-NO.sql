@@ -12044,7 +12044,6 @@ VALUES
 ('Notarstefano'),
 ('Notas'),
 ('Notay'),
-('Notch'),
 ('Notcutt'),
 ('Notea'),
 ('Noteboom'),
@@ -14952,7 +14951,7 @@ VALUES
 ('Obriant'),
 ('Obrie'),
 ('Obriel'),
-('Obrien'),
+
 ('Obriern'),
 ('Obrigewitch'),
 ('Obright'),
