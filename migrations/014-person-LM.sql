@@ -41484,7 +41484,6 @@ VALUES
 ('Minoprio'),
 ('Minora'),
 ('Minore'),
-('Minors'),
 ('Minorva'),
 ('Minos'),
 ('Minosh'),

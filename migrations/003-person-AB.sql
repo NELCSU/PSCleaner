@@ -32997,7 +32997,6 @@ VALUES
 ('Bancroft'),
 ('Bancy'),
 ('Banda'),
-('Bandage'),
 ('Bandala'),
 ('Bandalac'),
 ('Bandalage'),

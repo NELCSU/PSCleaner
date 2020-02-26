@@ -14940,7 +14940,6 @@ VALUES
 ('Warchus'),
 ('Warcon'),
 ('Warcup'),
-('Ward'),
 ('Wardach'),
 ('Wardack'),
 ('Wardal'),

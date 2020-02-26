@@ -9153,7 +9153,6 @@ VALUES
 ('Nikvlin'),
 ('Nikwigize'),
 ('Niky'),
-('Nil'),
 ('Nila'),
 ('Nilab'),
 ('Nilabahen'),
