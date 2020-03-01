@@ -77,7 +77,7 @@ VALUES
 ('Gadbridge Lane'),
 ('Gadbridge Road'),
 ('Gadbrook'),
-('Gadbrook Copse'),
+('Gadbrook'),
 ('Gadbrook Grove'),
 ('Gadbrook Park'),
 ('Gadbrook Road'),
@@ -201,8 +201,6 @@ VALUES
 ('Gaiafields Road'),
 ('Gaialands Crescent'),
 ('Gaiastowe'),
-
-
 ('Gaibhre Idhre'),
 ('Gaibhre Ruaidhe'),
 ('Gaick'),
@@ -220,7 +218,6 @@ VALUES
 ('Gailey'),
 ('Gaillin'),
 ('Gaills'),
-
 ('Gaimhnean'),
 ('Gain And Shankburn'),
 ('Gain Bank'),
@@ -536,10 +533,10 @@ VALUES
 ('Gallants Farm'),
 ('Gallants Lane'),
 ('Gallards Hill'),
-('Gallaries Copse'),
+('Gallaries'),
 ('Gallary Pightle'),
 ('Gallatown'),
-('Galldrops Copse'),
+('Galldrops'),
 ('Gallentreath'),
 ('Galleny Force'),
 ('Galleons Drive'),
@@ -762,7 +759,6 @@ VALUES
 ('Galmpton Strip'),
 ('Galowras'),
 ('Galpharm Way'),
-
 ('Galphay Lane'),
 ('Galphay Moor'),
 ('Galpin Close'),
@@ -952,7 +948,7 @@ VALUES
 ('Gander Hill'),
 ('Gander Lane'),
 ('Ganderdown'),
-('Ganderdown Copse'),
+('Ganderdown'),
 ('Ganders Ash'),
 ('Ganders Close'),
 ('Ganders Green'),
@@ -1126,7 +1122,7 @@ VALUES
 ('Garage Road'),
 ('Garage Street'),
 ('Garage Wood'),
-('Garaland Copse'),
+('Garaland'),
 ('Garamonde Drive'),
 ('Garanhuns'),
 ('Garasdale'),
@@ -1248,7 +1244,7 @@ VALUES
 ('Gardenfields Close'),
 ('Gardenfold Way'),
 ('Gardenfoot Pool'),
-('Gardenground Copse'),
+('Gardenground'),
 ('Gardenhall'),
 ('Gardenhall Court'),
 ('Gardenhouse'),
@@ -1369,7 +1365,7 @@ VALUES
 ('Gareth Drive'),
 ('Gareth Edwards'),
 ('Gareth Grove'),
-('Garetts Copse'),
+('Garetts'),
 ('Garfield Avenue'),
 ('Garfield Close'),
 ('Garfield Crescent'),
@@ -1741,12 +1737,12 @@ VALUES
 ('Garret Hostel'),
 ('Garret Place'),
 ('Garret'),
-('Garrets Copse'),
+('Garrets'),
 ('Garrets Hill'),
 ('Garrett Anderson'),
 ('Garrettlands'),
 ('Garretts Close'),
-('Garretts Copse'),
+('Garretts'),
 ('Garretts Green'),
 ('Garretts Lane'),
 ('Garrick Avenue'),
@@ -2074,7 +2070,7 @@ VALUES
 ('Garvald Way'),
 ('Garvally Crescent'),
 ('Garvalt Hill'),
-('Garvards Copse'),
+('Garvards'),
 ('Garvary Road'),
 ('Garve Avenue'),
 ('Garve Road'),
@@ -2177,12 +2173,12 @@ VALUES
 ('Gascoyne Road'),
 ('Gascoyne Way'),
 ('Gasdale'),
-('Gasden Copse'),
+('Gasden'),
 ('Gasden Drive'),
 ('Gasden Lane'),
 ('Gaseg Wen'),
 ('Gaselee'),
-('Gasen Copse'),
+('Gasen'),
 ('Gasferry Lane'),
 ('Gasferry Road'),
 ('Gasgain'),
@@ -2230,7 +2226,7 @@ VALUES
 ('Gassiot Road'),
 ('Gassiot Way'),
 ('Gassocks Covert'),
-('Gasson Copse'),
+('Gasson'),
 ('Gasson Road'),
 ('Gassons'),
 ('Gassons Coppice'),
@@ -2317,7 +2313,7 @@ VALUES
 ('Gatehope Drive'),
 ('Gatehouse Avenue'),
 ('Gatehouse Close'),
-('Gatehouse Copse'),
+('Gatehouse'),
 ('Gatehouse Court'),
 ('Gatehouse Hill'),
 ('Gatehouse Lane'),
@@ -2385,7 +2381,6 @@ VALUES
 ('Gatesgarth Grove'),
 ('Gatesgarth Road'),
 ('Gatesgill'),
-
 ('Gateshaw Rig'),
 ('Gateshead'),
 ('Gateshead Close'),
@@ -2420,7 +2415,7 @@ VALUES
 ('Gateway'),
 ('Gateways'),
 ('Gatewick Close'),
-('Gatewick Copse'),
+('Gatewick'),
 ('Gatewick Lane'),
 ('Gatewood Hill'),
 ('Gatewood Lane'),
@@ -2450,7 +2445,7 @@ VALUES
 ('Gatling Avenue'),
 ('Gatling Road'),
 ('Gatmeres Road'),
-('Gatmore Copse'),
+('Gatmore'),
 ('Gatney Spring'),
 ('Gatni Geos'),
 ('Gator Court'),
@@ -2472,7 +2467,7 @@ VALUES
 ('Gattonside'),
 ('Gattonside Moss'),
 ('Gattrells Bottom'),
-('Gattrells Copse'),
+('Gattrells'),
 ('Gatty Road'),
 ('Gatward Avenue'),
 ('Gatward Close'),
@@ -2507,7 +2502,6 @@ VALUES
 ('Gaugemaster Way'),
 ('Gaugers Bush'),
 ('Gaugers Loup'),
-
 ('Gaughey Hill'),
 ('Gaukroger Lane'),
 ('Gaul Field'),
@@ -2645,7 +2639,7 @@ VALUES
 ('Gaviots Way'),
 ('Gavnas Point'),
 ('Gavray Drive'),
-('Gavrick Copse'),
+('Gavrick'),
 ('Gaw Glen'),
 ('Gaw Hill'),
 ('Gaw Lane'),
@@ -2717,7 +2711,7 @@ VALUES
 ('Gayal Croft'),
 ('Gaybeech Close'),
 ('Gayden Coppice'),
-('Gaydens Copse'),
+('Gaydens'),
 ('Gaydon Close'),
 ('Gaydon Coppice'),
 ('Gaydon Covert'),
@@ -3019,7 +3013,6 @@ VALUES
 ('Geldeston Hill'),
 ('Geldeston Marshes'),
 ('Geldeston Road'),
-
 ('Geldi Geo'),
 ('Geldibist'),
 ('Geldie'),
@@ -3068,7 +3061,6 @@ VALUES
 ('Gelliglas'),
 ('Gelligron'),
 ('Gelligyflog'),
-
 ('Gellionen'),
 ('Gellionnen'),
 ('Gellir yn'),
@@ -3228,7 +3220,6 @@ VALUES
 ('Gentles Copse'),
 ('Gentles Entry'),
 ('Gentles Lane'),
-
 ('Gentleshaw Hill'),
 ('Gentleshaw Lane'),
 ('Gentry Close'),
@@ -3444,7 +3435,7 @@ VALUES
 ('Gerbera Close'),
 ('Gerbera Drive'),
 ('Gerbera Way'),
-('Gerbeston Copse'),
+('Gerbeston'),
 ('Gerbestone Lane'),
 ('Gerda Baa'),
 ('Gerda Road'),
@@ -3480,7 +3471,7 @@ VALUES
 ('Germander Drive'),
 ('Germander Place'),
 ('Germander Way'),
-('Germanleith Copse'),
+('Germanleith'),
 ('Germans and Landulph'),
 ('Germans Lane'),
 ('Germans Place'),
@@ -3648,7 +3639,6 @@ VALUES
 ('Ghabhain'),
 ('Ghabhalach'),
 ('Ghaduiche'),
-
 ('Ghaiche'),
 ('Ghaidhil'),
 ('Ghaidhlig Inbhir Nis'),
@@ -3670,7 +3660,6 @@ VALUES
 ('Ghallagain'),
 ('Ghallain'),
 ('Ghaltair'),
-
 ('Ghamhna Chean fhinn'),
 ('Ghamhnain'),
 ('Ghamhsgail'),
@@ -3793,12 +3782,10 @@ VALUES
 ('Ghleannain'),
 ('Ghleannain Shalaich'),
 ('Ghlinnein'),
-
 ('Ghloine Ceabhair'),
 ('Ghluair'),
 ('Ghluasaid'),
 ('Ghoaith'),
-
 ('Ghob Sheilich'),
 ('Ghobhail'),
 ('Ghobhain'),
@@ -3867,7 +3854,6 @@ VALUES
 ('Ghruineart'),
 ('Ghrulin'),
 ('Ghrunnda'),
-
 ('Ghuail'),
 ('Ghual'),
 ('Ghuanach'),
@@ -4013,7 +3999,7 @@ VALUES
 ('Gidleigh'),
 ('Gidleigh Common'),
 ('Gidleigh Tor'),
-('Gidley Copse'),
+('Gidley'),
 ('Gidley Lane'),
 ('Gidley Way'),
 ('Gidleys Meadow'),
@@ -4046,7 +4032,7 @@ VALUES
 ('Giffordgate'),
 ('Giffords'),
 ('Giffords Close'),
-('Giffords Copse'),
+('Giffords'),
 ('Giffords Covert'),
 ('Giffords Croft'),
 ('Giffords Cross'),
@@ -4076,7 +4062,6 @@ VALUES
 ('Giggetty Lane'),
 ('Giggleswick'),
 ('Giggleswick Common'),
-
 ('Gighill Road'),
 ('Gight'),
 ('Gigmill'),
@@ -4215,7 +4200,7 @@ VALUES
 ('Gilesgate Moor'),
 ('Gilesgate Road'),
 ('Giless'),
-('Giless Copse'),
+('Giless'),
 ('Giless Court'),
 ('Giless Croft'),
 ('Giless Hill'),
@@ -4253,7 +4238,7 @@ VALUES
 ('Gilgarran View'),
 ('Gilhams'),
 ('Gilhams Avenue'),
-('Gilhams Copse'),
+('Gilhams'),
 ('Gilhespy Way'),
 ('Gilhill'),
 ('Gilhouse Avenue'),
@@ -4364,11 +4349,11 @@ VALUES
 ('Gillet Close'),
 ('Gillet Drive'),
 ('Gillet Hill'),
-('Gillets Copse'),
+('Gillets'),
 ('Gillets Hill'),
 ('Gillette Close'),
 ('Gillette Way'),
-('Gilletts Copse'),
+('Gilletts'),
 ('Gilletts Hill'),
 ('Gilletts Lane'),
 ('Gillevat'),
@@ -4390,7 +4375,7 @@ VALUES
 ('Gillhams'),
 ('Gillhams Lane'),
 ('Gillhams Moor'),
-('Gillhays Copse'),
+('Gillhays'),
 ('Gillhead'),
 ('Gillhill'),
 ('Gillhope Bank'),
@@ -4463,7 +4448,6 @@ VALUES
 ('Gillis Craig'),
 ('Gillis Field'),
 ('Gillis Square'),
-
 ('Gillison Close'),
 ('Gillitts Road'),
 ('Gillity Avenue'),
@@ -4512,7 +4496,6 @@ VALUES
 ('Gillsbreck'),
 ('Gillscroft Road'),
 ('Gillsgrassing'),
-
 ('Gillshill Road'),
 ('Gillside'),
 ('Gillsland'),
@@ -4722,7 +4705,7 @@ VALUES
 ('Ginders Covert'),
 ('Gindhill Lane'),
 ('Gindie Geos'),
-('Gines Copse'),
+('Gines'),
 ('Ginge'),
 ('Ginge Brook'),
 ('Ginge Close'),
@@ -4920,7 +4903,7 @@ VALUES
 ('Gisors Road'),
 ('Gissage Hill'),
 ('Gissage View'),
-('Gissagehill Copse'),
+('Gissagehill'),
 ('Gissing Common'),
 ('Gissing Road'),
 ('Gissons'),
@@ -4934,7 +4917,6 @@ VALUES
 ('Gittens Drive'),
 ('Gittin'),
 ('Gittins Hill'),
-
 ('Gittos Lane'),
 ('Giubhais'),
 ('Giubhas'),
@@ -5240,7 +5222,7 @@ VALUES
 ('Glanderston Drive'),
 ('Glanderston Gate'),
 ('Glanderston Road'),
-('Glandfields Copse'),
+('Glandfields'),
 ('Glandford'),
 ('Glandford Road'),
 ('Glandford Way'),
@@ -5283,7 +5265,6 @@ VALUES
 ('Glanhwfa Road'),
 ('Glanlay'),
 ('Glanleam Road'),
-
 ('Glanmead'),
 ('Glanmerin'),
 ('Glanmire'),
@@ -5428,14 +5409,14 @@ VALUES
 ('Glasserton Road'),
 ('Glasses Mead'),
 ('Glasseys Lane'),
-('Glassfield Copse'),
+('Glassfield'),
 ('Glassfield Road'),
 ('Glassford Drive'),
 ('Glassford Road'),
 ('Glassford Square'),
 ('Glassgreen'),
 ('Glassgreen Place'),
-('Glasshanger Copse'),
+('Glasshanger'),
 ('Glasshill'),
 ('Glasshoughton'),
 ('Glasshouse'),
@@ -5529,7 +5510,7 @@ VALUES
 ('Glazertbank'),
 ('Glazier Drive'),
 ('Glazier Road'),
-('Glaziers Copse'),
+('Glaziers'),
 ('Glaziers Lane'),
 ('Glazon Way'),
 ('Glead'),
@@ -6430,7 +6411,6 @@ VALUES
 ('Glenshamrock Drive'),
 ('Glenshant Hill'),
 ('Glenshauch'),
-
 ('Glenshee Close'),
 ('Glenshee Court'),
 ('Glenshee Crescent'),
@@ -6661,7 +6641,6 @@ VALUES
 ('Glissons'),
 ('Glistening'),
 ('Glisters'),
-
 ('Gliwice'),
 ('Gliwice Way'),
 ('Gllmoor Garth'),
@@ -6771,7 +6750,6 @@ VALUES
 ('Gloveclose'),
 ('Glovers'),
 ('Glovers Loom'),
-
 ('Gloves Lane'),
 ('Glowarth Koth'),
 ('Gloweth'),
@@ -6887,7 +6865,7 @@ VALUES
 ('Glynstell'),
 ('Glynswood'),
 ('Glyntaff'),
-('Glynteg'),
+
 ('Glyntirion'),
 ('Glyntraean'),
 ('Glyntraian'),
@@ -6987,7 +6965,7 @@ VALUES
 ('Goathorn'),
 ('Goathorn Close'),
 ('Goathorn Point'),
-('Goathouse Copse'),
+('Goathouse'),
 ('Goathouse Dingle'),
 ('Goathouse Glen'),
 ('Goathouse Lane'),
@@ -7053,7 +7031,7 @@ VALUES
 ('Goblins Lane'),
 ('Goblins Pit'),
 ('Gobowen Road'),
-('Gobsore Copse'),
+('Gobsore'),
 ('Gockstane'),
 ('Gockston'),
 ('Gockston Road'),
@@ -7091,7 +7069,7 @@ VALUES
 ('Goddards'),
 ('Goddards Cleeve'),
 ('Goddards Close'),
-('Goddards Copse'),
+('Goddards'),
 ('Goddards Corner'),
 ('Goddards Court'),
 ('Goddards Firs'),
@@ -7145,7 +7123,7 @@ VALUES
 ('Godfreys'),
 ('Godfreys Close'),
 ('Godfreys Common'),
-('Godfreys Copse'),
+('Godfreys'),
 ('Godfreys Gardens'),
 ('Godfreys Hill'),
 ('Godfreys Lane'),
@@ -7178,7 +7156,7 @@ VALUES
 ('Godley Road'),
 ('Godleybarn Lane'),
 ('Godleybrook'),
-('Godleys Copse'),
+('Godleys'),
 ('Godleys Green'),
 ('Godlings Way'),
 ('Godlingston'),
@@ -7285,7 +7263,7 @@ VALUES
 ('Goffins Lane'),
 ('Goffs'),
 ('Goffs Close'),
-('Goffs Copse'),
+('Goffs'),
 ('Goffs Crescent'),
 ('Goffs Lane'),
 ('Goffs Oak'),
@@ -7373,7 +7351,6 @@ VALUES
 ('Golcar'),
 ('Golcar Flat'),
 ('Golch'),
-
 ('Gold Court'),
 ('Gold Crest'),
 ('Gold Finch'),
@@ -7484,7 +7461,7 @@ VALUES
 ('Goldenhayes Park'),
 ('Goldenhill'),
 ('Goldenhill Avenue'),
-('Goldenhill Copse'),
+('Goldenhill'),
 ('Goldenhill Court'),
 ('Goldenhill Lane'),
 ('Goldenhill Road'),
@@ -7539,7 +7516,6 @@ VALUES
 ('Goldhawk Road'),
 ('Goldhay Way'),
 ('Goldhaze Close'),
-
 ('Goldhill Gardens'),
 ('Goldhill Lane'),
 ('Goldhill Road'),
@@ -7584,7 +7560,7 @@ VALUES
 ('Goldingbank'),
 ('Goldings'),
 ('Goldings Close'),
-('Goldings Copse'),
+('Goldings'),
 ('Goldings Crescent'),
 ('Goldings Hill'),
 ('Goldings Lane'),
@@ -7675,7 +7651,7 @@ VALUES
 ('Goldsmiths Avenue'),
 ('Goldsmiths Bottom'),
 ('Goldsmiths Close'),
-('Goldsmiths Copse'),
+('Goldsmiths'),
 ('Goldsmiths Covert'),
 ('Goldsmiths Lane'),
 ('Goldsmiths Row'),
@@ -7804,7 +7780,7 @@ VALUES
 ('Gollands Close'),
 ('Gollands Lane'),
 ('Gollanhead Avenue'),
-('Gollard Copse'),
+('Gollard'),
 ('Gollawater'),
 ('Golledge Close'),
 ('Gollen Court'),
@@ -7828,7 +7804,7 @@ VALUES
 ('Golspie Way'),
 ('Goltho Lake'),
 ('Goltho Views'),
-('Golts Copse'),
+('Golts'),
 ('Golval Hill'),
 ('Golvers Hill'),
 ('Golwg Deg'),
@@ -7850,7 +7826,7 @@ VALUES
 ('Golygfar Eglwys'),
 ('Golygfor'),
 ('Golynos'),
-('Gomans Copse'),
+('Gomans'),
 ('Gombards'),
 ('Gomeldon'),
 ('Gomeldon Avenue'),
@@ -7929,7 +7905,7 @@ VALUES
 ('Goodber Common'),
 ('Goodber Fell'),
 ('Goodbody Road'),
-('Goodboys Copse'),
+('Goodboys'),
 ('Goodboys Lane'),
 ('Goodburn Place'),
 ('Goodbury Road'),
@@ -8113,7 +8089,6 @@ VALUES
 ('Goodsall Road'),
 ('Goodsburn Road'),
 ('Goodsell Close'),
-
 ('Goodshawfold Close'),
 ('Goodshelter'),
 ('Goodships'),
@@ -8309,7 +8284,7 @@ VALUES
 ('Gooseberry Lane'),
 ('Gooseberry Pool'),
 ('Gooseberryhall'),
-('Goosebradon Copse'),
+('Goosebradon'),
 ('Goosebrook Close'),
 ('Goosebrook Lane'),
 ('Goosebutt'),
@@ -8364,7 +8339,7 @@ VALUES
 ('Goosenook Lane'),
 ('Goosepastures'),
 ('Goosepool'),
-('Goosepool Copse'),
+('Goosepool'),
 ('Goosepool Drive'),
 ('Goosepool Way'),
 ('Gooseport'),
@@ -8567,7 +8542,6 @@ VALUES
 ('Gorllewin Llanllwchaearn'),
 ('Gorllewin Rhisga'),
 ('Gorllewin Twthill'),
-
 ('Gorm a Chrom Alltain'),
 ('Gorm Bun a Ghlinne'),
 ('Gorm Chiorabhal'),
@@ -8601,7 +8575,6 @@ VALUES
 ('Gornant'),
 ('Gornel'),
 ('Gornel Avenue'),
-
 ('Gornoeth'),
 ('Gorof'),
 ('Gorof Road'),
@@ -8793,7 +8766,7 @@ VALUES
 ('Gosbury'),
 ('Gosceline'),
 ('Goschen'),
-('Goscombs Copse'),
+('Goscombs'),
 ('Goscombs Lane'),
 ('Goscote'),
 ('Goscote Close'),
@@ -8809,7 +8782,7 @@ VALUES
 ('Gosden Green'),
 ('Gosden Hill'),
 ('Gosden Road'),
-('Gosdens Copse'),
+('Gosdens'),
 ('Gosdens Heath'),
 ('Gosdensheath'),
 ('Gosditch'),
@@ -8864,7 +8837,7 @@ VALUES
 ('Gosling Walk'),
 ('Gosling Way'),
 ('Goslings'),
-('Goslings Copse'),
+('Goslings'),
 ('Goslings Croft'),
 ('Goslings Drove'),
 ('Goslings Turning'),
@@ -8873,7 +8846,7 @@ VALUES
 ('Goslipgate'),
 ('Gosmoor Lane'),
 ('Gosmor'),
-('Gosmore Copse'),
+('Gosmore'),
 ('Gosmore Road'),
 ('Gosnell Close'),
 ('Gosney Fields'),
@@ -8890,7 +8863,7 @@ VALUES
 ('Gospel Oak'),
 ('Gospelash'),
 ('Gospelgate'),
-('Gospelgreen Copse'),
+('Gospelgreen'),
 ('Gospenheale'),
 ('Gospond Road'),
 ('Gosport'),
@@ -8916,7 +8889,7 @@ VALUES
 ('Gosshill Road'),
 ('Gossi Geo'),
 ('Gosside Grove'),
-('Gossiford Copse'),
+('Gossiford'),
 ('Gossington Close'),
 ('Gossips'),
 ('Gossips Moor'),
@@ -9364,7 +9337,6 @@ VALUES
 ('Gozzards Ford'),
 ('Grab Lane'),
 ('Graban Road'),
-
 ('Grabbist'),
 ('Grabbist Coppice'),
 ('Grabbist Hill'),
@@ -10408,14 +10380,12 @@ VALUES
 ('Arundell'),
 ('Asby'),
 ('Asby Scar'),
-
 ('Ashfield'),
 ('Ashley'),
 ('Aster Marsh'),
 ('Augur'),
 ('Auk'),
 ('Austins'),
-
 ('Aycliffe'),
 ('Ayton'),
 ('Baddow'),
@@ -10460,7 +10430,6 @@ VALUES
 ('Binfields'),
 ('Great Birch'),
 ('Great Birch Holt'),
-
 ('Birchcleeve'),
 ('Birchfield'),
 ('Birkhouse'),
@@ -10470,7 +10439,6 @@ VALUES
 ('Blackmole'),
 ('Blackstubbs'),
 ('Blakelands'),
-
 ('Blaythorn'),
 ('Blencow'),
 ('Bodnage'),
@@ -10479,7 +10447,6 @@ VALUES
 ('Boldearns'),
 ('Boleness'),
 ('Bolton'),
-
 ('Borne'),
 ('Bosullow'),
 ('Botley'),
@@ -10496,7 +10463,6 @@ VALUES
 ('Bradwins'),
 ('Braitch'),
 ('Great Brake'),
-
 ('Brampton'),
 ('Great Brand'),
 ('Braxted'),
@@ -10543,7 +10509,6 @@ VALUES
 ('Burwood'),
 ('Busby'),
 ('Buscombe'),
-
 ('Bushywarren'),
 ('Great Butterly'),
 ('Byards Sale'),
@@ -10585,7 +10550,6 @@ VALUES
 ('Chawl'),
 ('Checkhill'),
 ('Great Cheese'),
-
 ('Chell'),
 ('Cheriton'),
 ('Chertsey'),
@@ -10621,7 +10585,6 @@ VALUES
 ('Coll'),
 ('Collens'),
 ('Collins'),
-
 ('Colman'),
 ('Colmore'),
 ('Combe'),
@@ -10651,8 +10614,6 @@ VALUES
 ('Crakehall'),
 ('Cranford'),
 ('Cransley'),
-
-
 ('Crested'),
 ('Crimbles'),
 ('Crosby'),
@@ -10677,7 +10638,6 @@ VALUES
 ('Great Deep'),
 ('Dell'),
 ('Delph'),
-
 ('Dennis'),
 ('Denniss'),
 ('Denson'),
@@ -10702,7 +10662,6 @@ VALUES
 ('Dummacks'),
 ('Dumpers'),
 ('Dun'),
-
 ('Dunmow'),
 ('Dunnow'),
 ('Dunns'),
@@ -10720,7 +10679,6 @@ VALUES
 ('Edstone'),
 ('Egerton'),
 ('Eggles Hope'),
-
 ('Ellshams'),
 ('Great Elm'),
 ('Great Elms'),
@@ -10762,7 +10720,6 @@ VALUES
 ('Great Fox'),
 ('Foxmoor'),
 ('Francis'),
-
 ('Freeman'),
 ('Frenchays'),
 ('Friars'),
@@ -10801,7 +10758,6 @@ VALUES
 ('Gill'),
 ('Gipping'),
 ('Givendale'),
-
 ('Gnats Head'),
 ('Great God'),
 ('Godalming'),
@@ -10826,7 +10782,6 @@ VALUES
 ('Gunnel'),
 ('Great Gutter'),
 ('Habton'),
-
 ('Hagg'),
 ('Haldens'),
 ('Great Hale'),
@@ -10898,7 +10853,6 @@ VALUES
 ('Hinton'),
 ('Hivings'),
 ('Hoaths'),
-
 ('Hockings'),
 ('Hoggett'),
 ('Hograh'),
@@ -11034,7 +10988,6 @@ VALUES
 ('Marshall'),
 ('Martins'),
 ('Marton'),
-
 ('Mattiscombe'),
 ('Matts'),
 ('Maxfield'),
@@ -11064,7 +11017,6 @@ VALUES
 ('Mollington'),
 ('Molloms'),
 ('Molunan'),
-
 ('Great Monk'),
 ('Great Monks'),
 ('Moodys'),
@@ -11146,7 +11098,6 @@ VALUES
 ('Pentle'),
 ('Great Peppers'),
 ('Percy'),
-
 ('Perhaver'),
 ('Perlea'),
 ('Perry'),
@@ -11231,7 +11182,6 @@ VALUES
 ('Sankey'),
 ('Saredon'),
 ('Saughall'),
-
 ('Sca'),
 ('Scalling'),
 ('Great Scar'),
@@ -11250,7 +11200,6 @@ VALUES
 ('Shacklow'),
 ('Shaftesbury'),
 ('Shaugh'),
-
 ('Great Shear'),
 ('Sheardley'),
 ('Shefford'),
@@ -11260,7 +11209,6 @@ VALUES
 ('Shell Corner'),
 ('Shelley'),
 ('Sherwood'),
-
 ('Shilstone'),
 ('Great Ship'),
 ('Great Shoal of Mackerel'),
@@ -11288,7 +11236,6 @@ VALUES
 ('Somerford'),
 ('Sorrells'),
 ('Soudley'),
-
 ('Southfield'),
 ('Southsea'),
 ('Sowdens'),
@@ -11363,7 +11310,6 @@ VALUES
 ('Torrington'),
 ('Torrington Bluecoat'),
 ('Tosson'),
-
 ('Tott'),
 ('Towers Fen'),
 ('Townley'),
@@ -11396,17 +11342,13 @@ VALUES
 ('Vaynor'),
 ('Velliford'),
 ('Vellow'),
-
 ('Vinels'),
 ('Great Vineyard'),
 ('Vintcombe'),
-
 ('Wakering'),
 ('Waldingfield'),
 ('Great Wall'),
 ('Wallop'),
-
-
 ('Wanney'),
 ('Warford'),
 ('Warley'),
@@ -11414,9 +11356,7 @@ VALUES
 ('Great Watch'),
 ('Watersend'),
 ('Weeke'),
-
 ('Wenallt'),
-
 ('Werrar'),
 ('West New'),
 ('Westbrook'),
@@ -11426,7 +11366,6 @@ VALUES
 ('Wheal Busy'),
 ('Wheatley'),
 ('Great Wheel'),
-
 ('Whernside'),
 ('Great Whin'),
 ('Whinscale'),
@@ -11438,10 +11377,8 @@ VALUES
 ('Whyte'),
 ('Wichelo'),
 ('Wickheath'),
-
 ('Widmoor'),
 ('Wigborough'),
-
 ('Wilderness'),
 ('Wildgoose'),
 ('Wilne'),
@@ -11450,7 +11387,6 @@ VALUES
 ('Great Windmill'),
 ('Wingletang'),
 ('Wishford'),
-
 ('Witcombe'),
 ('Withy'),
 ('Withybed'),
@@ -11463,7 +11399,6 @@ VALUES
 ('Woodcote'),
 ('Great Wooden'),
 ('Woodford'),
-
 ('Woolden'),
 ('Woolstone'),
 ('Wootton'),
@@ -11479,7 +11414,6 @@ VALUES
 ('Wytheford'),
 ('Yarlside'),
 ('Yarmouth'),
-
 ('Yews'),
 ('Yorkshire'),
 ('Youldon'),
@@ -11870,7 +11804,6 @@ VALUES
 ('Greenhart'),
 ('Greenhaugh'),
 ('Greenhaven'),
-
 ('Greenhayes'),
 ('Greenhays Rise'),
 ('Greenhaze Lane'),
@@ -11881,7 +11814,6 @@ VALUES
 ('Greenheath Way'),
 ('Greenhedges'),
 ('Greenheugh Point'),
-
 ('Greenhey Lane'),
 ('Greenhey Place'),
 ('Greenheys'),
@@ -12415,7 +12347,7 @@ VALUES
 ('Greta Meek'),
 ('Gretdale'),
 ('Gretenhow'),
-('Gretna'),
+
 ('Gretna Loaning'),
 ('Greton'),
 ('Gretton'),
@@ -12692,7 +12624,6 @@ VALUES
 ('Griggfield Walk'),
 ('Grigghall'),
 ('Griggsgreen Copse'),
-
 ('Grighay Coppice'),
 ('Grigor Avenue'),
 ('Grigor Drive'),
@@ -12735,7 +12666,6 @@ VALUES
 ('Grimes Moor'),
 ('Grimescar'),
 ('Grimescar Road'),
-
 ('Grimeshaw Lane'),
 ('Grimeshill Park'),
 ('Grimesmoor Road'),
@@ -13538,7 +13468,6 @@ VALUES
 ('Guadaloupe Avenue'),
 ('Guadaloupe Road'),
 ('Guadeloupe Road'),
-
 ('Guail'),
 ('Guaillean'),
 ('Guala'),
@@ -14351,7 +14280,6 @@ VALUES
 ('Gwaith Brics'),
 ('Gwaith Dur'),
 ('Gwaith Glo'),
-
 ('Gwalch'),
 ('Gwalia'),
 ('Gwalia Avenue'),
@@ -14386,7 +14314,6 @@ VALUES
 ('Gwarth An Drae'),
 ('Gwarth An Dre'),
 ('Gwartha'),
-
 ('Gwas'),
 ('Gwas Road'),
 ('Gwash Close'),
@@ -14434,7 +14361,6 @@ VALUES
 ('gweirog'),
 ('Gweision'),
 ('gweision isaf'),
-
 ('Gwel'),
 ('Gwel Afon'),
 ('Gwel An Garrek'),
@@ -14632,7 +14558,6 @@ VALUES
 ('Gwrddon'),
 ('Gwredog'),
 ('Gwrgan'),
-
 ('Gwrhyd'),
 ('Gwrychion'),
 ('Gwter'),
@@ -14861,7 +14786,6 @@ VALUES
 ('Habrough Lane'),
 ('Habrough Road'),
 ('Habs'),
-
 ('Habshield Pool'),
 ('Habton Lane'),
 ('Habton Road'),
@@ -15234,7 +15158,6 @@ VALUES
 ('Haggie Hill'),
 ('Haggie Knowe'),
 ('Haggies'),
-
 ('Haggin Hope'),
 ('Hagginton Beach'),
 ('Hagginton Hill'),
@@ -16098,7 +16021,6 @@ VALUES
 ('Hallings Lane'),
 ('Hallington Close'),
 ('Hallington Drive'),
-
 ('Hallival'),
 ('Halliwell Avenue'),
 ('Halliwell Banks'),
@@ -17394,7 +17316,6 @@ VALUES
 ('Hangings Lane'),
 ('Hangings Spinney'),
 ('Hangings Wood'),
-
 ('Hangingshaw Hill'),
 ('Hangingshaw Moss'),
 ('Hangingside'),
@@ -17932,7 +17853,6 @@ VALUES
 ('Hardengreen'),
 ('Hardenhuish'),
 ('Hardens'),
-
 ('Hardenside'),
 ('Hardenwick'),
 ('Harders Road'),
@@ -18046,7 +17966,6 @@ VALUES
 ('Hardrow'),
 ('Hardrush'),
 ('Hards Lane'),
-
 ('Hardsough'),
 ('Hardstoft'),
 ('Hardstone'),
@@ -18347,7 +18266,6 @@ VALUES
 ('Haresfoot Close'),
 ('Haresfoot Park'),
 ('Haresgarden'),
-
 ('Hareshaw Bank'),
 ('Hareshaw Close'),
 ('Hareshaw Common'),
@@ -18842,7 +18760,6 @@ VALUES
 ('Harpswood'),
 ('Harpton'),
 ('Harptree'),
-
 ('Harpurs'),
 ('Harpurs Downs'),
 ('Harpway'),
@@ -19360,8 +19277,6 @@ VALUES
 ('Hartsgrove Close'),
 ('Hartsgrove Hanger'),
 ('Hartshall Lane'),
-
-
 ('Hartshay Close'),
 ('Hartshay Hill'),
 ('Hartshead'),
@@ -20019,7 +19934,6 @@ VALUES
 ('Hathersage Rise'),
 ('Hathersage Road'),
 ('Hathersage Way'),
-
 ('Hathershaw Lane'),
 ('Hathershelf'),
 ('Hathershelf Lane'),
@@ -21886,7 +21800,6 @@ VALUES
 ('Hazels'),
 ('Hazels Lane'),
 ('Hazels Paddock'),
-
 ('Hazelshaw'),
 ('Hazelsike'),
 ('Hazelslack'),
@@ -22241,7 +22154,6 @@ VALUES
 ('Heads Strip'),
 ('Heads Taing'),
 ('Heads Wood'),
-
 ('Headshaw Haugh'),
 ('Headshill'),
 ('Headshope'),
@@ -24772,7 +24684,6 @@ VALUES
 ('Hernes Oak'),
 ('Hernes Road'),
 ('Hernes Spring'),
-
 ('Hernewell'),
 ('Hernhill'),
 ('Herniss'),
@@ -24905,7 +24816,6 @@ VALUES
 ('Heronsford'),
 ('Heronsgate'),
 ('Heronsgate Road'),
-
 ('Heronshill'),
 ('Heronslade'),
 ('Heronslea'),
@@ -25528,7 +25438,6 @@ VALUES
 ('Heyscroft'),
 ('Heysdal'),
 ('Heyshams Spring'),
-
 ('Heyshaw Moor'),
 ('Heyshaw Road'),
 ('Heyshott'),
@@ -25789,7 +25698,6 @@ VALUES
 ('Higgins Square'),
 ('Higgins Walk'),
 ('Higgins Way'),
-
 ('Higginshaw Lane'),
 ('Higginshaw Road'),
 ('Higginsmoor'),
@@ -25846,7 +25754,6 @@ VALUES
 ('High Kiln'),
 ('High King'),
 ('Langdale'),
-
 ('High Larches'),
 ('High Lathe'),
 ('Latterhead'),
@@ -25859,7 +25766,6 @@ VALUES
 ('Legh'),
 ('Leigh'),
 ('Leir'),
-
 ('High Levels'),
 ('Levels Bank'),
 ('Leven'),
@@ -25885,7 +25791,6 @@ VALUES
 ('Marishes'),
 ('Marks Brake'),
 ('Marley'),
-
 ('Matlock'),
 ('Maybole'),
 ('Maynard'),
@@ -25900,12 +25805,9 @@ VALUES
 ('Moralee'),
 ('Mowthorpe'),
 ('Muldown'),
-
 ('Nash'),
 ('Neb'),
-
 ('Newbiggin'),
-
 ('Newport'),
 ('Newton'),
 ('Newton by the Sea'),
@@ -25916,7 +25818,6 @@ VALUES
 ('Northdale'),
 ('Northgate'),
 ('Northsceugh'),
-
 ('High Oaks'),
 ('Offley'),
 ('Ongar'),
@@ -25983,7 +25884,6 @@ VALUES
 ('Rodingbury'),
 ('Roothing'),
 ('Roseland'),
-
 ('Royd'),
 ('Royds'),
 ('Ruckles'),
@@ -26005,7 +25905,6 @@ VALUES
 ('Sellafield'),
 ('Sewerby'),
 ('Sharpley'),
-
 ('Shaws'),
 ('High Shields'),
 ('Shincliffe'),
@@ -26036,7 +25935,6 @@ VALUES
 ('Stennerley'),
 ('Stephens'),
 ('High Stile'),
-
 ('Stobhill'),
 ('High Stone'),
 ('Stonecroft'),
@@ -26059,7 +25957,6 @@ VALUES
 ('Sweden'),
 ('Swinburne'),
 ('Swinton'),
-
 ('High Target'),
 ('High Team'),
 ('Tenterfell'),
@@ -26110,16 +26007,14 @@ VALUES
 ('Westwood'),
 ('Wether Howe'),
 ('Wethersell'),
-
 ('Wheatley'),
 ('Wheeldon'),
 ('Whin Fold'),
-('Whitby'),
+
 ('White Stones'),
 ('Whitehills'),
 ('Wicken'),
 ('Wickfield'),
-
 ('Wiend'),
 ('Willhays'),
 ('Wincobank'),
@@ -26232,7 +26127,6 @@ VALUES
 ('Ainsworth'),
 ('Albert'),
 ('Alderbere'),
-
 ('Aller'),
 ('Anderton'),
 ('Ansty'),
@@ -26252,7 +26146,6 @@ VALUES
 ('Ballam'),
 ('Barley'),
 ('Barlow'),
-
 ('Bartle'),
 ('Batson'),
 ('Baxenden'),
@@ -26262,7 +26155,6 @@ VALUES
 ('Bedlands'),
 ('Beeny'),
 ('Higher Beer'),
-
 ('Higher Belt'),
 ('Bents'),
 ('Berry End'),
@@ -26282,7 +26174,6 @@ VALUES
 ('Blagrove'),
 ('Blandford'),
 ('Boarsgreave'),
-
 ('Bocaddon'),
 ('Bockhampton'),
 ('Bodinar'),
@@ -26303,7 +26194,6 @@ VALUES
 ('Brightor'),
 ('Brill'),
 ('Brimley'),
-
 ('Higher Broad'),
 ('Broadhalgh'),
 ('Brockwell'),
@@ -26342,18 +26232,15 @@ VALUES
 ('Charlecombe'),
 ('Charlwood'),
 ('Charminster'),
-
 ('Higher Cheap'),
 ('Cheglinch'),
 ('Chelburn'),
 ('Cheriton'),
-
 ('Chilcott'),
 ('Chillington'),
 ('Chisworth'),
 ('Chuggaton'),
 ('Churchway'),
-
 ('Clarence'),
 ('Clatcombe'),
 ('Cleaverfield'),
@@ -26381,7 +26268,6 @@ VALUES
 ('Coryton'),
 ('Cotteylands'),
 ('Crackington'),
-
 ('Crossbank'),
 ('Higher Crossings'),
 ('Crumpsall'),
@@ -26391,11 +26277,9 @@ VALUES
 ('Daws'),
 ('Higher Days'),
 ('Dean'),
-
 ('Dimson'),
 ('Dinting'),
 ('Disley'),
-
 ('Doatshayne'),
 ('Doe Hey'),
 ('Doghill'),
@@ -26434,7 +26318,6 @@ VALUES
 ('Higher French'),
 ('Fullwood'),
 ('Furlong'),
-
 ('Furzey'),
 ('Furzhill'),
 ('Fyldon'),
@@ -26463,12 +26346,10 @@ VALUES
 ('Hareston'),
 ('Hartland'),
 ('Hartley'),
-
 ('Henry'),
 ('Hewish'),
 ('Heyes'),
 ('Heys'),
-
 ('Hillgate'),
 ('Hobbs'),
 ('Hodder'),
@@ -26505,7 +26386,6 @@ VALUES
 ('Knutsford'),
 ('Higher Land'),
 ('Langdon'),
-
 ('Lank'),
 ('Lanseague'),
 ('Lariggan'),
@@ -26564,7 +26444,6 @@ VALUES
 ('Netherton'),
 ('Newclose'),
 ('Newford'),
-
 ('Newmarket'),
 ('Ninnes'),
 ('Ninnis'),
@@ -26573,7 +26452,6 @@ VALUES
 ('Nyland'),
 ('Oakfield'),
 ('Ogden'),
-
 ('Ormond'),
 ('Oswald'),
 ('Palmerston'),
@@ -26588,7 +26466,6 @@ VALUES
 ('Penpoll'),
 ('Penponds'),
 ('Penventinue'),
-
 ('Perry'),
 ('Pertwood'),
 ('Peverell'),
@@ -26597,14 +26474,12 @@ VALUES
 ('Pitt'),
 ('Polmassick'),
 ('Polscoe'),
-
 ('Polsue'),
 ('Porthmeor'),
 ('Porthpean'),
 ('Poynton'),
 ('Predannack'),
 ('Higher Preserve'),
-
 ('Prestacott'),
 ('Prospidnick'),
 ('Radnidge'),
@@ -26625,7 +26500,6 @@ VALUES
 ('Higher Ridgeway'),
 ('Higher Ridings'),
 ('Ringmore'),
-
 ('Roborough'),
 ('Rocombe'),
 ('Roddlesworth'),
@@ -26677,7 +26551,6 @@ VALUES
 ('Stewardstone'),
 ('Sticklepath'),
 ('Stockclough'),
-
 ('Stockley'),
 ('Higher Stone'),
 ('Higher Stony'),
@@ -26685,10 +26558,8 @@ VALUES
 ('Stubbin'),
 ('Summerseat'),
 ('Higher Swan'),
-
 ('Higher Tale'),
 ('Higher Tame'),
-
 ('Tentre'),
 ('Higher Thorn'),
 ('Thorndown'),
@@ -26760,7 +26631,6 @@ VALUES
 ('Whiteleigh'),
 ('Whiterock'),
 ('Whitley'),
-
 ('Winsford'),
 ('Witton'),
 ('Woodcroft'),
@@ -27715,7 +27585,6 @@ VALUES
 ('Hillsend'),
 ('Hillsfield'),
 ('Hillsford'),
-
 ('Hillshaw Foot'),
 ('Hillshaw Parkway'),
 ('Hillshott'),
@@ -27841,7 +27710,6 @@ VALUES
 ('Hillylands Road'),
 ('Hillymead'),
 ('Hillymeadows'),
-
 ('Hilmanton'),
 ('Hilmar Drive'),
 ('Hilmarton'),
@@ -28151,7 +28019,6 @@ VALUES
 ('Hinksford'),
 ('Hinksford Gardens'),
 ('Hinksford Lane'),
-
 ('Hinkshay Road'),
 ('Hinksley Road'),
 ('Hinkson Close'),
@@ -28574,7 +28441,6 @@ VALUES
 ('Hobbiton Hill'),
 ('Hobbiton Road'),
 ('Hobble End'),
-
 ('Hobbledy Belt'),
 ('Hobbles Green'),
 ('Hobbs Croft Lake'),
@@ -28889,7 +28755,6 @@ VALUES
 ('Hodwell'),
 ('Hoe'),
 ('Hoe Beg'),
-
 ('Combe'),
 ('Nook'),
 ('Hoe Rape'),
@@ -29112,7 +28977,6 @@ VALUES
 ('Hogsdell Lane'),
 ('Hogsdown Copse'),
 ('Hogsea Lane'),
-
 ('Hogshaw Drive'),
 ('Hogshaw Road'),
 ('Hogshaw Villas'),
@@ -29771,10 +29635,8 @@ VALUES
 ('Hollingwood'),
 ('Hollingworthhall'),
 ('Hollinhall'),
-
 ('Hollinhead'),
 ('Hollinhead Crescent'),
-
 ('Hollinhey Close'),
 ('Hollinhey Terrace'),
 ('Hollinhill'),
@@ -30039,7 +29901,6 @@ VALUES
 ('Hollygrove'),
 ('Hollyguest'),
 ('Hollyhedge'),
-
 ('Hollyhill'),
 ('Hollyhock'),
 ('Hollyhocks'),
@@ -30084,7 +29945,6 @@ VALUES
 ('Hollys Grove'),
 ('Hollys House'),
 ('Hollys Road'),
-
 ('Hollyshaw Close'),
 ('Hollyshaw Crescent'),
 ('Hollyshaw Grove'),
@@ -31238,7 +31098,6 @@ VALUES
 ('Hoole Way'),
 ('Hoolehouse Road'),
 ('Hooles Planting'),
-
 ('Hoolgrave'),
 ('Hoolpool'),
 ('Hools'),
@@ -31253,7 +31112,6 @@ VALUES
 ('Hoon Mount'),
 ('Hoon Ridge'),
 ('Hoon Road'),
-
 ('Hoonisdale'),
 ('Hoonwell Lane'),
 ('Hoop End'),
@@ -31438,7 +31296,6 @@ VALUES
 ('Hopesay'),
 ('Hopescross'),
 ('Hopesgate'),
-
 ('Hopeshill'),
 ('Hopesike'),
 ('Hopesmoor'),
@@ -32028,7 +31885,6 @@ VALUES
 ('Hornscroft Road'),
 ('Hornsea'),
 ('Hornsfield'),
-
 ('Hornshayne Road'),
 ('Hornshill'),
 ('Hornshill Drive'),
@@ -32063,7 +31919,6 @@ VALUES
 ('Horrace'),
 ('Horrace Hill'),
 ('Horragay'),
-
 ('Horrasdail'),
 ('Horrell Court'),
 ('Horrell Road'),
@@ -32323,7 +32178,6 @@ VALUES
 ('Horseguards Way'),
 ('Horsehams Lane'),
 ('Horsehaven Mews'),
-
 ('Horsehay Common'),
 ('Horsehay Pool'),
 ('Horsehead Drove'),
@@ -34384,7 +34238,6 @@ VALUES
 ('Hunsdon Manor'),
 ('Hunsdon Road'),
 ('Hunsdonbury'),
-
 ('Hunshelf'),
 ('Hunshelf Bank'),
 ('Hunshelf Hall'),
@@ -34779,7 +34632,6 @@ VALUES
 ('Huntsgate'),
 ('Huntsgreen'),
 ('Huntsgreen Copse'),
-
 ('Huntshaw Avenue'),
 ('Huntshaw Hill'),
 ('Huntshaw Moor'),
@@ -35415,7 +35267,6 @@ VALUES
 ('Hyndland'),
 ('Hyndlee'),
 ('Hyndloup'),
-
 ('Hynesbury'),
 ('Hynetown'),
 ('Hyning'),

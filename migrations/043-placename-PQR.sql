@@ -1345,7 +1345,6 @@ VALUES
 ('Parcevall Drive'),
 ('Parcffordd Glyn Ebwy'),
 ('Parcgweydd Hill'),
-
 ('Parchment Close'),
 ('Parchment Drive'),
 ('Parchmore Road'),
@@ -1366,7 +1365,6 @@ VALUES
 ('Pardovan Place'),
 ('Pardown'),
 ('Pardown Copse'),
-
 ('Pardshaw Hall'),
 ('Pared'),
 ('Pared Llechymenyn'),
@@ -1817,7 +1815,6 @@ VALUES
 ('Parksail'),
 ('Parksail Drive'),
 ('Parksgate Avenue'),
-
 ('Parkshiel'),
 ('Parkshill Court'),
 ('Parkshot'),
@@ -2624,7 +2621,7 @@ VALUES
 ('Pattersons'),
 ('Patterton'),
 ('Patteson'),
-('Patti'),
+
 ('Patticroft'),
 ('Pattiesbank'),
 ('Pattiesthorn'),
@@ -4520,8 +4517,6 @@ VALUES
 ('Penbicas'),
 ('Penbidwal'),
 ('Penbont'),
-
-
 ('Penbrea'),
 ('Penbreck'),
 ('Penbrey'),
@@ -4532,7 +4527,6 @@ VALUES
 ('Penbrynglas'),
 ('Penbugle'),
 ('Penbury'),
-
 ('Pencader'),
 ('Pencae'),
 ('Pencaer Helm'),
@@ -5105,7 +5099,6 @@ VALUES
 ('Penlon'),
 ('Penlow'),
 ('Penluke'),
-
 ('Penmadown'),
 ('Penmaenpool'),
 ('Penmaesglas'),
@@ -5611,7 +5604,6 @@ VALUES
 ('Pensford Way'),
 ('Pensgreave Road'),
 ('Penshannel'),
-
 ('Penshaw Avenue'),
 ('Penshaw Close'),
 ('Penshaw Court'),
@@ -5789,7 +5781,6 @@ VALUES
 ('Pentrer'),
 ('Pentrer Cwrt'),
 ('Pentrer Felin'),
-
 ('Pentrevah Road'),
 ('Pentrichlane End'),
 ('Pentridge'),
@@ -6054,7 +6045,6 @@ VALUES
 ('Pepperdon Down'),
 ('Pepperdon Hall'),
 ('Peppergarth'),
-
 ('Pepperhill Lane'),
 ('Pepperhill Road'),
 ('Pepperidge Way'),
@@ -6570,7 +6560,7 @@ VALUES
 ('Perth Terrace'),
 ('Perth Way'),
 ('Perthewig'),
-('Perthi'),
+
 ('Perthi Bach'),
 ('Perthi Common'),
 ('Perthigleision'),
@@ -7118,7 +7108,6 @@ VALUES
 ('Pezenas'),
 ('Phabaigh'),
 ('Phabail'),
-
 ('Phadrig'),
 ('Phadruig'),
 ('Phaeton Close'),
@@ -7889,7 +7878,6 @@ VALUES
 ('Piggery Lane'),
 ('Piggford Moor'),
 ('Pigginer Lane'),
-
 ('Piggot Avenue'),
 ('Piggots'),
 ('Piggots Bottom'),
@@ -8027,7 +8015,6 @@ VALUES
 ('Pikes Pool'),
 ('Pikes Walk'),
 ('Pikes Wood'),
-
 ('Pikeshaw Way'),
 ('Pikeshill'),
 ('Pikestol Lane'),
@@ -8712,7 +8699,6 @@ VALUES
 ('Pinegrove Road'),
 ('Pinehall Drive'),
 ('Pineheath Road'),
-
 ('Pinehill'),
 ('Pinehill Rise'),
 ('Pinehill Road'),
@@ -9290,7 +9276,6 @@ VALUES
 ('Pipers Way'),
 ('Pipers Wood'),
 ('Pipers Yard'),
-
 ('Pipershill Common'),
 ('Pipershill'),
 ('Piperspool'),
@@ -9606,7 +9591,6 @@ VALUES
 ('Pitglassie'),
 ('Pitgreen Lane'),
 ('Pithall Road'),
-
 ('Pithay Court'),
 ('Pithead Heights'),
 ('Pitheavlis'),
@@ -10412,7 +10396,6 @@ VALUES
 ('Plenmeller Road'),
 ('Plens View'),
 ('Plenshin Court'),
-
 ('Pleshey Close'),
 ('Pleshey Road'),
 ('Plesman Way'),
@@ -11889,7 +11872,7 @@ VALUES
 ('Pontlarge'),
 ('Pontllan fraith'),
 ('Pontllanfraith'),
-('Pontlottyn'),
+
 ('Pontmorlais'),
 ('Pontoon Dock'),
 ('Pontop'),
@@ -13012,7 +12995,6 @@ VALUES
 ('Pottersfield'),
 ('Pottersheath'),
 ('Pottersheath Road'),
-
 ('Potterspury'),
 ('Potterston'),
 ('Potterstreet Hill'),
@@ -13695,7 +13677,6 @@ VALUES
 ('Preservine Walk'),
 ('Preshal Beg'),
 ('Preshal More'),
-
 ('Preshaw Close'),
 ('Preshaw Down'),
 ('Preshute'),
@@ -13914,7 +13895,6 @@ VALUES
 ('Prickly Bank'),
 ('Prickly Grove'),
 ('Prickmoor'),
-
 ('Prickshaw Dams'),
 ('Prickshaw Lane'),
 ('Prickslade'),
@@ -13969,7 +13949,6 @@ VALUES
 ('Priestgate'),
 ('Priestgill'),
 ('Priestgill Rig'),
-
 ('Priesthead Hill'),
 ('Priesthill'),
 ('Priesthill and Darnley'),
@@ -15825,7 +15804,6 @@ VALUES
 ('Pyat Knowe'),
 ('Pyatknowe Hill'),
 ('Pyats'),
-
 ('Pyatshaw Road'),
 ('Pyatshaws Rig'),
 ('Pyatts Corner'),
@@ -16067,7 +16045,6 @@ VALUES
 ('Pyxe Court'),
 ('Płock'),
 ('Qalat Sukkar'),
-
 ('Qazvin'),
 ('Qena'),
 ('Qianjiang'),
@@ -16880,7 +16857,6 @@ VALUES
 ('Rackfield Place'),
 ('Rackford Road'),
 ('Rackhams Grove'),
-
 ('Rackheath'),
 ('Rackheath Lane'),
 ('Rackheath Park'),
@@ -17182,7 +17158,6 @@ VALUES
 ('Raemoss Road'),
 ('Raemurrack'),
 ('Raeric Road'),
-
 ('Raeshaw Fell'),
 ('Raeside Avenue'),
 ('Raeside Close'),
@@ -17589,7 +17564,6 @@ VALUES
 ('Rainsford Lane'),
 ('Rainsford Road'),
 ('Rainsford Way'),
-
 ('Rainshaw Lane'),
 ('Rainsough'),
 ('Rainstorth'),
@@ -17666,7 +17640,6 @@ VALUES
 ('Raith Terrace'),
 ('Raithburn Avenue'),
 ('Raithburn Road'),
-
 ('Raithby Avenue'),
 ('Raithby by Spilsby'),
 ('Raithby Close'),
@@ -18973,7 +18946,6 @@ VALUES
 ('Ravenshall'),
 ('Ravenshall Point'),
 ('Ravenshall Road'),
-
 ('Ravenshaw Close'),
 ('Ravenshaw Lane'),
 ('Ravenshaw Road'),
@@ -19128,7 +19100,6 @@ VALUES
 ('Rawgreen'),
 ('Rawhall'),
 ('Rawhall Lane'),
-
 ('Rawkin Close'),
 ('Rawle Close'),
 ('Rawlence Road'),
@@ -21176,7 +21147,6 @@ VALUES
 ('Renhold'),
 ('Renhold Road'),
 ('Renish Point'),
-
 ('Renishaw Avenue'),
 ('Renishaw Drive'),
 ('Renishaw Lake'),
@@ -21670,7 +21640,6 @@ VALUES
 ('Rhapsody Crescent'),
 ('Rhaslas Pond'),
 ('Rhath'),
-
 ('Rhayader'),
 ('Rhayader Road'),
 ('Rhdfoa Sain Finsent'),
@@ -22152,7 +22121,6 @@ VALUES
 ('Rhydymynach'),
 ('Rhydynos'),
 ('Rhydyrafon'),
-
 ('Rhydyronen'),
 ('Rhydywrach'),
 ('Rhyg'),
@@ -22195,7 +22163,6 @@ VALUES
 ('Airigh'),
 ('Riabhach na Greighe'),
 ('Riabhachain'),
-
 ('Riach Gardens'),
 ('Riadhailt'),
 ('Riadhain'),
@@ -22321,7 +22288,6 @@ VALUES
 ('Richardcairn'),
 ('Richardland Place'),
 ('Richardland Road'),
-
 ('Richardsons'),
 ('Richbell Close'),
 ('Richbell Place'),
@@ -23074,7 +23040,6 @@ VALUES
 ('Rillston'),
 ('Rillstone'),
 ('Rillwood'),
-
 ('Rilston'),
 ('Rilstone'),
 ('Rimbach'),
@@ -23195,7 +23160,6 @@ VALUES
 ('Ringfield Drive'),
 ('Ringford'),
 ('Ringford Road'),
-
 ('Ringhill'),
 ('Ringhills Road'),
 ('Ringie Geo'),
@@ -23337,7 +23301,6 @@ VALUES
 ('Rio Preto'),
 ('Rio Verde'),
 ('Riobabhat'),
-
 ('Riobhagan Mhidhinis'),
 ('Riohacha'),
 ('Riosaigh'),
@@ -24407,7 +24370,6 @@ VALUES
 ('Rocks of Smeargeo'),
 ('Rocksand'),
 ('Rocksavage'),
-
 ('Rockshill'),
 ('Rockside'),
 ('Rockside Steps'),
@@ -25294,8 +25256,6 @@ VALUES
 ('Ronalds Way'),
 ('Ronaldsay'),
 ('Ronaldsay Spur'),
-
-
 ('Ronaldshay Close'),
 ('Ronaldshay Crescent'),
 ('Ronaldshay Drive'),
@@ -26326,7 +26286,7 @@ VALUES
 ('Rossers'),
 ('Rosset'),
 ('Rosseter'),
-('Rossetti'),
+
 ('Rossfield'),
 ('Rossfold'),
 ('Rossgarth'),
@@ -26490,7 +26450,6 @@ VALUES
 ('Rothaid'),
 ('Rothamsted'),
 ('Rothamsted Avenue'),
-
 ('Rothay Avenue'),
 ('Rothay Close'),
 ('Rothay Court'),
@@ -26716,7 +26675,6 @@ VALUES
 ('Tallis Ride'),
 ('Rough Ten Acres'),
 ('Rough Tongue'),
-
 ('Roughbank'),
 ('Roughbeech'),
 ('Roughbirchworth'),
@@ -26925,7 +26883,6 @@ VALUES
 ('Roundfields'),
 ('Roundhams Hanger'),
 ('Roundhaven'),
-
 ('Roundhay Avenue'),
 ('Roundhay Close'),
 ('Roundhay Crescent'),
@@ -26946,7 +26903,6 @@ VALUES
 ('Roundheads End'),
 ('Roundhedge Hill'),
 ('Roundhedge Way'),
-
 ('Roundhill Avenue'),
 ('Roundhill Close'),
 ('Roundhill Coppice'),
@@ -27033,7 +26989,6 @@ VALUES
 ('Rounds Wood'),
 ('Roundsea Tarn'),
 ('Roundsell'),
-
 ('Roundshaw Park'),
 ('Roundshead Drive'),
 ('Roundshill'),
@@ -27355,7 +27310,6 @@ VALUES
 ('Rowgate Hill'),
 ('Rowgate Road'),
 ('Rowgill'),
-
 ('Rowhay Lane'),
 ('Rowhead Terrace'),
 ('Rowheath Road'),
@@ -27572,7 +27526,6 @@ VALUES
 ('Rowse Gardens'),
 ('Rowsel'),
 ('Rowsells Lane'),
-
 ('Rowsley'),
 ('Rowsley Avenue'),
 ('Rowsley Court'),
@@ -27766,7 +27719,6 @@ VALUES
 ('Royley'),
 ('Roynton'),
 ('Royse Grove'),
-
 ('Royston Mains'),
 ('Royston Meridian'),
 ('Roystonhill'),
@@ -27805,7 +27757,6 @@ VALUES
 ('Ruabon Mountain'),
 ('Ruabon Road'),
 ('Ruadail'),
-
 ('Ruadhlag'),
 ('Ruagain'),
 ('Ruaidh Bhig'),
@@ -28079,7 +28030,6 @@ VALUES
 ('Rudgwick Drive'),
 ('Rudgwick Road'),
 ('Rudha nam Maorach'),
-
 ('Rudhall Close'),
 ('Rudhall Grove'),
 ('Rudhall Meadow'),
@@ -29138,7 +29088,7 @@ VALUES
 ('Rutherwyk'),
 ('Rutherwyke'),
 ('Ruthery'),
-('Ruthi'),
+
 ('Ruthin'),
 ('Ruthin North Link'),
 ('Ruthrie'),

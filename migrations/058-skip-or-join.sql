@@ -141,6 +141,8 @@ VALUES
 ('Clinging'),
 ('Clues'),
 ('Cocking'),
+('Copse'),
+('Copses'),
 ('Corking'),
 ('College'),
 ('Constable'),

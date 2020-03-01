@@ -5,7 +5,6 @@ VALUES
 ('Iacabhat'),
 ('Iachino'),
 ('Iadain'),
-
 ('Iain Bhain'),
 ('Iain Bhuidhe'),
 ('Iain Deirg'),
@@ -173,7 +172,6 @@ VALUES
 ('Ickley Close'),
 ('Icklingham Belt'),
 ('Icknield'),
-
 ('Ickornshaw Moor'),
 ('Ickwell'),
 ('Ickwell Green'),
@@ -234,7 +232,6 @@ VALUES
 ('Ides Copse'),
 ('Idewell Road'),
 ('Idhanis'),
-
 ('Idle and Thackley'),
 ('Idle Bank'),
 ('Idle Court'),
@@ -258,7 +255,6 @@ VALUES
 ('Idonia'),
 ('Idover'),
 ('Idovers'),
-
 ('Idrigill'),
 ('Idsall'),
 ('Idston'),
@@ -410,7 +406,6 @@ VALUES
 ('Illogan Downs'),
 ('Illogan Park'),
 ('Illona Drive'),
-
 ('Illshaw Close'),
 ('Illshaw Heath'),
 ('Illsley Road'),
@@ -693,7 +688,6 @@ VALUES
 ('Inchmurrin Drive'),
 ('Inchmurrin Gardens'),
 ('Inchmurrin Place'),
-
 ('Inchnabobart'),
 ('Inchnadamph'),
 ('Inchnagour'),
@@ -888,7 +882,6 @@ VALUES
 ('Inghamwood Close'),
 ('Inghead Road'),
 ('Inghinn a Ruaidha'),
-
 ('Ingie Geo'),
 ('Ingland Court'),
 ('Inglands Bank'),
@@ -1271,7 +1264,6 @@ VALUES
 ('Inmarsh Lane'),
 ('Inmead'),
 ('Inmoor Road'),
-
 ('Inn Down'),
 ('Inn Fach'),
 ('Inn Farm'),
@@ -2300,7 +2292,6 @@ VALUES
 ('Isley Walton'),
 ('Isleys Court'),
 ('Isleys Geo'),
-
 ('Islington'),
 ('Islington Row Middleway'),
 ('Islingword'),
@@ -2863,7 +2854,6 @@ VALUES
 ('Jaffray Court'),
 ('Jaffray Lane'),
 ('Jaffray Road'),
-
 ('Jaggar Lane'),
 ('Jaggard View'),
 ('Jaggard Way'),
@@ -4087,7 +4077,6 @@ VALUES
 ('Johnny Walkers Ride'),
 ('Johnnygate Lane'),
 ('Johnnys Rock'),
-
 ('Johns Belt'),
 ('Johns Boat'),
 ('Johns Brake'),
@@ -4105,9 +4094,7 @@ VALUES
 ('Johns Roads'),
 ('Johns Stone'),
 ('Johns Town of Dalry'),
-
 ('Johns West Gates'),
-
 ('Johnsburn'),
 ('Johnscliffe'),
 ('Johnsdale'),
@@ -4786,7 +4773,6 @@ VALUES
 ('Kates Bench'),
 ('Katescroft'),
 ('Katesgrove'),
-
 ('Katesmill'),
 ('Katesway'),
 ('Kateswell'),
@@ -6252,7 +6238,6 @@ VALUES
 ('Kensall'),
 ('Kensey Road'),
 ('Kensgriff'),
-
 ('Kenshot'),
 ('Kenside'),
 ('Kensingnton'),
@@ -6536,7 +6521,6 @@ VALUES
 ('Kerly Close'),
 ('Kerman Close'),
 ('Kermans'),
-
 ('Kerminies'),
 ('Kermishaw Nook'),
 ('Kermoor Avenue'),
@@ -7426,7 +7410,6 @@ VALUES
 ('Kieran Maxwell'),
 ('Kierhill'),
 ('Kiery'),
-
 ('Kiffards'),
 ('Kigali'),
 ('Kighill'),
@@ -8204,7 +8187,6 @@ VALUES
 ('Kime Mews'),
 ('Kimerley'),
 ('Kimes Lane'),
-
 ('Kimlers Way'),
 ('Kimmer Lough'),
 ('Kimmerghame Drive'),
@@ -10488,7 +10470,6 @@ VALUES
 ('Knapp Pitch'),
 ('Knappers Way'),
 ('Knappert Hillock'),
-
 ('Knapperty Hill'),
 ('Knapperty Hillock'),
 ('Knapphill'),
@@ -11393,7 +11374,6 @@ VALUES
 ('Knuston'),
 ('Knutley Copse'),
 ('Knutsford'),
-
 ('Knutswood Close'),
 ('Knutton Crescent'),
 ('Knutton Lane'),

@@ -526,7 +526,6 @@ VALUES
 ('Ladywoodedge Moss'),
 ('Laelia Drive'),
 ('Laertes Grove'),
-
 ('laethog'),
 ('Lafaiete'),
 ('Lafan'),
@@ -765,7 +764,6 @@ VALUES
 ('Lainlock Place'),
 ('Lainnas Geo'),
 ('Lains Row'),
-
 ('Lainshaw Avenue'),
 ('Lainshaw Drive'),
 ('Lainsley Hill'),
@@ -1175,7 +1173,6 @@ VALUES
 ('Lambgarth'),
 ('Lambgates'),
 ('Lambgates Lane'),
-
 ('Lambhay Hill'),
 ('Lambhellia cuddies'),
 ('Lambhill'),
@@ -1474,7 +1471,6 @@ VALUES
 ('Lampeter Road'),
 ('Lampeter Vale'),
 ('Lampeter Velfrey'),
-
 ('Lamphey Close'),
 ('Lamphey Park'),
 ('Lamphill'),
@@ -1914,7 +1910,6 @@ VALUES
 ('Lanescourt'),
 ('Lanesend'),
 ('Lanesfield'),
-
 ('Laneside'),
 ('Laneside Hollow'),
 ('Laneskin'),
@@ -2388,7 +2383,6 @@ VALUES
 ('Langtreemoor'),
 ('Langvout'),
 ('Langwade'),
-
 ('Langweath'),
 ('Langwell Hydro'),
 ('Langwells'),
@@ -2404,7 +2398,6 @@ VALUES
 ('Langyards'),
 ('Lanhainsworth'),
 ('Lanhams'),
-
 ('Lanhenvor'),
 ('Lanheriott'),
 ('Lanherriot'),
@@ -4662,7 +4655,6 @@ VALUES
 ('Leasgeary Road'),
 ('Leasgill'),
 ('Leash Fen'),
-
 ('Leashaw Road'),
 ('Leaside'),
 ('Leaside Avenue'),
@@ -5202,7 +5194,6 @@ VALUES
 ('Leesfield Gardens'),
 ('Leesfield Road'),
 ('Leeshall'),
-
 ('Leeside'),
 ('Leeside Avenue'),
 ('Leeside Close'),
@@ -5539,7 +5530,6 @@ VALUES
 ('Leithies'),
 ('Leithland Avenue'),
 ('Leithland Road'),
-
 ('Leithope'),
 ('Leithy'),
 ('Leitir'),
@@ -8246,7 +8236,6 @@ VALUES
 ('Lingforest'),
 ('Linghall'),
 ('Linghams'),
-
 ('Lingheath'),
 ('Linghills'),
 ('Linghope'),
@@ -8306,7 +8295,6 @@ VALUES
 ('Lings View'),
 ('Lings Walk'),
 ('Lings Way'),
-
 ('Lingside'),
 ('Lingside Crescent'),
 ('Lingstack Grove'),
@@ -8338,7 +8326,6 @@ VALUES
 ('Lingyclose'),
 ('Lingyclose Road'),
 ('Lingyrigg Bottom'),
-
 ('Linhay Close'),
 ('Linhay Drive'),
 ('Linhay Lane'),
@@ -8403,7 +8390,6 @@ VALUES
 ('Linkfoot Lane'),
 ('Linkhall Hill'),
 ('Linkhall Moor'),
-
 ('Linkhill'),
 ('Linkhouse'),
 ('Linklea'),
@@ -8556,7 +8542,6 @@ VALUES
 ('Linnwood Court'),
 ('Linnwood Drive'),
 ('Linnwood Gardens'),
-
 ('Linnyshaw Close'),
 ('Linnyshaw Moss'),
 ('Linom Road'),
@@ -9276,7 +9261,6 @@ VALUES
 ('Audle'),
 ('Austens'),
 ('Austins'),
-('Autby'),
 
 ('Avercombe'),
 ('Awfell'),
@@ -9284,7 +9268,6 @@ VALUES
 ('Ayre'),
 ('Ayton'),
 ('Baa'),
-
 ('Bachehouse'),
 ('Little Bacon'),
 ('Baddow'),
@@ -9313,7 +9296,6 @@ VALUES
 ('Barnett'),
 ('Barney'),
 ('Barnfield'),
-
 ('Little Barns'),
 ('Little Barnyard'),
 ('Barr'),
@@ -9334,7 +9316,6 @@ VALUES
 ('Little Battle'),
 ('Bavington'),
 ('Bawdley'),
-
 ('Bayshill'),
 ('Beachborough'),
 ('Bealings'),
@@ -9398,7 +9379,6 @@ VALUES
 ('Birriers'),
 ('Little Bishop'),
 ('Little Bishops'),
-
 ('Little Bitch'),
 ('Bitchneaves'),
 ('Bitthams'),
@@ -9410,7 +9390,6 @@ VALUES
 ('Blagton'),
 ('Blairim'),
 ('Blakelands'),
-
 ('Bleak Law'),
 ('Blee'),
 ('Blencow'),
@@ -9432,7 +9411,6 @@ VALUES
 ('Little Bongs'),
 ('Bonnings'),
 ('Bookerslee'),
-
 ('Bornes'),
 ('Borough'),
 ('Boscombe Down'),
@@ -9456,7 +9434,6 @@ VALUES
 ('Bradford'),
 ('Bradley'),
 ('Little Brake'),
-
 ('Brampton'),
 ('Brampton Rodd'),
 ('Little Brand'),
@@ -9526,13 +9503,11 @@ VALUES
 ('Bury'),
 ('Busby'),
 ('Little Bush'),
-
 ('Little Bushy'),
 ('Bushywarren'),
 ('Little Butterly'),
 ('Butts'),
 ('Byrips'),
-
 ('Cadman'),
 ('Cairn Kinny'),
 ('Cairn Table'),
@@ -9585,7 +9560,6 @@ VALUES
 ('Little Cedar'),
 ('Little Cedars'),
 ('Cefn dinas'),
-
 ('Chalfield'),
 ('Chalfont'),
 ('Challoch'),
@@ -9666,7 +9640,6 @@ VALUES
 ('Collar Law'),
 ('Colliers'),
 ('Collins'),
-
 ('Colonsay'),
 ('Colp'),
 ('Combe'),
@@ -9725,9 +9698,7 @@ VALUES
 ('Crawley'),
 ('Crays'),
 ('Creaton'),
-
 ('Creeb'),
-
 ('Creuch'),
 ('Crimbles'),
 ('Cringlebarrow'),
@@ -9792,7 +9763,6 @@ VALUES
 ('Dilkes'),
 ('Dimocks'),
 ('Dinas'),
-
 ('Dippers'),
 ('Ditton'),
 ('Divan'),
@@ -9812,7 +9782,6 @@ VALUES
 ('Doward'),
 ('Dowgate'),
 ('Dowles'),
-
 ('Downhams'),
 ('Downhays'),
 ('Little Dragons'),
@@ -9831,7 +9800,6 @@ VALUES
 ('Little Dumplings'),
 ('Dun'),
 ('Dundale'),
-
 ('Dunkeld'),
 ('Dunman'),
 ('Dunmow'),
@@ -9865,12 +9833,10 @@ VALUES
 ('Elborow'),
 ('Elias'),
 ('Ellicombe'),
-
 ('Little Elm'),
 ('Elmbridge'),
 ('Little Elms'),
 ('Elrick'),
-
 ('English Island'),
 ('English Island Ledge'),
 ('English Island Neck'),
@@ -9889,7 +9855,6 @@ VALUES
 ('Eyton Fold'),
 ('Little Factory'),
 ('Fairmans'),
-
 ('Little Fall Pool'),
 ('Little Fallow'),
 ('Little Fallows'),
@@ -9899,7 +9864,6 @@ VALUES
 ('Farley'),
 ('Farleys'),
 ('Farm Linton'),
-
 ('Farrochie'),
 ('Farthing'),
 ('Fauld'),
@@ -9943,8 +9907,6 @@ VALUES
 ('Fraigheach'),
 ('France'),
 ('Francis'),
-
-
 ('Frederick'),
 ('Little Free'),
 ('Frenchies'),
@@ -10006,7 +9968,6 @@ VALUES
 ('Givendale'),
 ('Glas'),
 ('Glebe'),
-
 ('Glovers'),
 ('Gnats'),
 ('Little Goat'),
@@ -10015,7 +9976,6 @@ VALUES
 ('Gomms'),
 ('Goosehill'),
 ('Gordale'),
-
 ('Gorrashill'),
 ('Gorsley'),
 ('Gorway'),
@@ -10024,7 +9984,6 @@ VALUES
 ('Goswell'),
 ('Goular'),
 ('Gowder Crag'),
-
 ('Little Grain'),
 ('Grain Noddle'),
 ('Grandsden'),
@@ -10055,7 +10014,6 @@ VALUES
 ('Habton'),
 ('Hackets'),
 ('Little Haddock'),
-
 ('Little Hag'),
 ('Haggs'),
 ('Hailey'),
@@ -10156,7 +10114,6 @@ VALUES
 ('Little Hen'),
 ('Henbeer'),
 ('Henfaes'),
-
 ('Henniker'),
 ('Henny'),
 ('Herberts'),
@@ -10189,7 +10146,6 @@ VALUES
 ('Hivings'),
 ('Hoaths'),
 ('Hocketts'),
-
 ('Hoddington'),
 ('Hodds'),
 ('Hograh'),
@@ -10261,7 +10217,6 @@ VALUES
 ('Huskisson'),
 ('Little Hut'),
 ('Hutton'),
-
 ('Hyde'),
 ('Hyden'),
 ('Hythe'),
@@ -10283,13 +10238,11 @@ VALUES
 ('Little Jockeys'),
 ('John'),
 ('John Lakes'),
-
 ('Johnsons'),
 ('Little Joiners'),
 ('Little Jolly'),
 ('Judds'),
 ('Julians'),
-
 ('Kelk'),
 ('Kendals'),
 ('Kenmure'),
@@ -10402,7 +10355,6 @@ VALUES
 ('Lobbs'),
 ('Lobust'),
 ('Loch Broom'),
-
 ('Loch of Linga'),
 ('Loch of Lunnister'),
 ('Scye'),
@@ -10464,7 +10416,6 @@ VALUES
 ('Marvens'),
 ('Little Mason'),
 ('Little Masons'),
-
 ('Matlock'),
 ('Mattiscombe'),
 ('Matts'),
@@ -10482,7 +10433,6 @@ VALUES
 ('Merrible'),
 ('Merrick'),
 ('Merthyr'),
-
 ('Mew Stone'),
 ('Michael'),
 ('Little Middle'),
@@ -10510,7 +10460,6 @@ VALUES
 ('Molleston'),
 ('Molloms'),
 ('Molunan'),
-
 ('Little Monk'),
 ('Monkreed'),
 ('Little Monks'),
@@ -10549,7 +10498,6 @@ VALUES
 ('Newcastle'),
 ('Newlands'),
 ('Newport'),
-
 ('Newton'),
 ('Nightingales'),
 ('Nine Wells'),
@@ -10567,7 +10515,6 @@ VALUES
 ('Noup Head'),
 ('Little Nursery'),
 ('Oaken'),
-
 ('Oakley'),
 ('Little Oaks'),
 ('Little Oath'),
@@ -10587,7 +10534,6 @@ VALUES
 ('Osier Bed'),
 ('Ossa'),
 ('Little Otters'),
-
 ('Ouse'),
 ('Ouseburn'),
 ('Out Skear'),
@@ -10599,7 +10545,6 @@ VALUES
 ('Little Oxen'),
 ('Oxenbold'),
 ('Oxendon'),
-
 ('Oxley'),
 ('Oxney'),
 ('Packington'),
@@ -10645,7 +10590,6 @@ VALUES
 ('Pentle'),
 ('Little Peppers'),
 ('Perch Lake'),
-
 ('Perhaver'),
 ('Perlea'),
 ('Perlieu'),
@@ -10686,7 +10630,6 @@ VALUES
 ('Ponton'),
 ('Poo Craig'),
 ('Poors'),
-
 ('Popplestones'),
 ('Porth'),
 ('Portland'),
@@ -10810,7 +10753,6 @@ VALUES
 ('Sarnesfield'),
 ('Saughall'),
 ('Saughen'),
-
 ('Says Law'),
 ('Sca'),
 ('Scaalie'),
@@ -10831,7 +10773,7 @@ VALUES
 ('Scoska'),
 ('Scotland'),
 ('Scotney'),
-('Scratby'),
+
 ('Scrivens'),
 ('Scubbs'),
 ('Seabrook'),
@@ -10852,7 +10794,6 @@ VALUES
 ('Shambles'),
 ('Shardeloes'),
 ('Sharsted'),
-
 ('Shaws'),
 ('Little Shear'),
 ('Sheardley'),
@@ -10947,7 +10888,6 @@ VALUES
 ('Stonegate'),
 ('Stonehedge'),
 ('Little Stones'),
-
 ('Little Stony Dean'),
 ('Little Stony Leas'),
 ('Storeton'),
@@ -11028,7 +10968,6 @@ VALUES
 ('Torboll'),
 ('Torrington'),
 ('Tortworth'),
-
 ('Towers Fen'),
 ('Townsend'),
 ('Toyd'),
@@ -11095,16 +11034,13 @@ VALUES
 ('Voe'),
 ('Vro'),
 ('Wade'),
-
 ('Wakering'),
 ('Wakering Creek'),
 ('Wakering Hall'),
 ('Walden'),
 ('Waldingfield'),
 ('Little Wallop'),
-
 ('Walstead'),
-
 ('Walton'),
 ('Wapping'),
 ('Ward Law'),
@@ -11122,10 +11058,8 @@ VALUES
 ('Weighton'),
 ('Weighton Rowley'),
 ('Wellington'),
-
 ('Welton'),
 ('Wenallt'),
-
 ('Wenlock'),
 ('Werrar'),
 ('West New'),
@@ -11138,7 +11072,6 @@ VALUES
 ('Westwood'),
 ('Wheatley'),
 ('Wheatley Chase'),
-
 ('Whernside'),
 ('Whick Hope'),
 ('Whin'),
@@ -11151,15 +11084,12 @@ VALUES
 ('Whitemoor'),
 ('Whiterock'),
 ('Little Whites'),
-
 ('Whittington'),
 ('Whyte'),
 ('Wick'),
 ('Widbury'),
-
 ('Wigborough'),
 ('Wigmore'),
-
 ('Wildgoose'),
 ('Wildwood'),
 ('Willicote'),
@@ -11170,13 +11100,10 @@ VALUES
 ('Wisels'),
 ('Wishford'),
 ('Wissage'),
-
 ('Witchmoss'),
 ('Witcombe'),
-
 ('Withy'),
 ('Witley'),
-
 ('Witter Belt'),
 ('Wiveliscombe'),
 ('Wix'),
@@ -11189,7 +11116,6 @@ VALUES
 ('Woodbury'),
 ('Woodcote'),
 ('Woodfalls'),
-
 ('Woodhouse'),
 ('Little Woodlands'),
 ('Woolden'),
@@ -11210,7 +11136,6 @@ VALUES
 ('Wytheford'),
 ('Wyvis'),
 ('Yarlside'),
-
 ('Yews'),
 ('Yoags Haven'),
 ('York'),
@@ -11261,7 +11186,6 @@ VALUES
 ('Littlegill'),
 ('Littlegreen'),
 ('Littlegrove'),
-
 ('Littlehall'),
 ('Littlehampton'),
 ('Littleharle Tower'),
@@ -11515,7 +11439,6 @@ VALUES
 ('Lizzies Lane'),
 ('Ljubljana'),
 ('Lladron'),
-
 ('Llafar'),
 ('Llagi'),
 ('Llai a Pontblyddyn'),
@@ -11601,7 +11524,6 @@ VALUES
 ('Llanarth Court'),
 ('Llanarth Road'),
 ('Llanarth Square'),
-
 ('Llanarthney'),
 ('Llanaway Close'),
 ('Llanaway Road'),
@@ -11705,7 +11627,6 @@ VALUES
 ('Llandilo Close'),
 ('Llandilo Common'),
 ('Llandinshop'),
-
 ('Llandoche'),
 ('Llandore Close'),
 ('Llandouche'),
@@ -11791,7 +11712,6 @@ VALUES
 ('Llanfaelog'),
 ('Llanfaelrhys'),
 ('Llanfaenor'),
-
 ('Llanfaglan'),
 ('Llanfair'),
 ('Llanfair ar'),
@@ -11855,7 +11775,6 @@ VALUES
 ('Llanfor'),
 ('Llanforda Close'),
 ('Llanforda Rise'),
-
 ('Llanfrechfa Grange'),
 ('Llanfrechfa Way'),
 ('Llanfrothen'),
@@ -12204,7 +12123,6 @@ VALUES
 ('Llech Lydan'),
 ('Llech Sychryd'),
 ('Llechach'),
-
 ('Llechau Bara'),
 ('Llechaucochion'),
 ('Llechen'),
@@ -12233,7 +12151,7 @@ VALUES
 ('Ller Hen Ysgol'),
 ('Llest'),
 ('Lletgwial'),
-('Llethi'),
+
 ('Llethr moel'),
 ('Llethri Road'),
 ('Llethyr Bryn'),
@@ -12576,7 +12494,6 @@ VALUES
 ('Lobheir'),
 ('Lobhill'),
 ('Lobhillcross'),
-
 ('Lobins Pool'),
 ('Lobley Close'),
 ('Lobley Gardens'),
@@ -12710,7 +12627,6 @@ VALUES
 ('Lochat Road'),
 ('Lochavullin Drive'),
 ('Lochavullin Road'),
-
 ('Lochay Drive'),
 ('Lochay Place'),
 ('Lochay Road'),
@@ -13452,7 +13368,6 @@ VALUES
 ('Loftos Avenue'),
 ('Loftrans'),
 ('Loftrans Lane'),
-
 ('Loftshaw Bottom'),
 ('Loftshaw Moss'),
 ('Loftsome'),
@@ -14242,7 +14157,6 @@ VALUES
 ('Cutt'),
 ('Cutts'),
 ('Long Dales'),
-
 ('Long Dam'),
 ('Long Deacon'),
 ('Deans'),
@@ -14319,7 +14233,6 @@ VALUES
 ('Innage'),
 ('Itchington'),
 ('John Belt'),
-
 ('Long Kettles'),
 ('Long Kiln'),
 ('Kist'),
@@ -14497,7 +14410,6 @@ VALUES
 ('Long Waste'),
 ('Westland'),
 ('Whatton'),
-
 ('Long Wools'),
 ('Wynd'),
 ('Wyre'),
@@ -14807,7 +14719,6 @@ VALUES
 ('Longhedge Drove'),
 ('Longhedge Lane'),
 ('Longhedges'),
-
 ('Longhey Road'),
 ('Longhill'),
 ('Longhill Avenue'),
@@ -15572,7 +15483,6 @@ VALUES
 ('Lordens Close'),
 ('Lordens Hill'),
 ('Lordens Road'),
-
 ('Lordenshaw Drive'),
 ('Lordfield'),
 ('Lordfolds Lane'),
@@ -16061,7 +15971,6 @@ VALUES
 ('Loughmill Road'),
 ('Loughor'),
 ('Loughrigg'),
-
 ('Loughwood'),
 ('Louie Close'),
 ('Louie Pollard'),
@@ -16092,7 +16001,6 @@ VALUES
 ('Loundon'),
 ('Loundrain'),
 ('Lounds'),
-
 ('Loundsley'),
 ('Loundyes'),
 ('Lounsdale'),
@@ -16355,7 +16263,6 @@ VALUES
 ('Beechburn'),
 ('Bell End'),
 ('Benbrack'),
-
 ('Bentley'),
 ('Benwell'),
 ('Biggins'),
@@ -16376,10 +16283,8 @@ VALUES
 ('Bowling'),
 ('Bradfield'),
 ('Bradley'),
-
 ('Braithwaite'),
 ('Breary'),
-
 ('Low Broad'),
 ('Broadlie'),
 ('Low Brow'),
@@ -16391,7 +16296,6 @@ VALUES
 ('Bungay'),
 ('Burgage'),
 ('Burnhall'),
-
 ('Burnigill'),
 ('Burnside'),
 ('Burswell'),
@@ -16501,7 +16405,6 @@ VALUES
 ('Hallburn'),
 ('Low Ham'),
 ('Ham Drove'),
-
 ('Hangers'),
 ('Harker'),
 ('Harley'),
@@ -16547,7 +16450,6 @@ VALUES
 ('Lambton'),
 ('Low Land'),
 ('Low Lands'),
-
 ('Langstaffe'),
 ('Langton'),
 ('Lea'),
@@ -16570,7 +16472,6 @@ VALUES
 ('Low Main'),
 ('Low March'),
 ('Marishes'),
-
 ('Matlock'),
 ('Maynard'),
 ('Meathop'),
@@ -16660,7 +16561,6 @@ VALUES
 ('Swainston'),
 ('Sweden'),
 ('Swinton'),
-
 ('Low Team'),
 ('Tharston'),
 ('Low Thatch'),
@@ -17365,7 +17265,6 @@ VALUES
 ('Luachrach Loch'),
 ('Luain'),
 ('Luaisgeach'),
-
 ('Luanshya'),
 ('Luaragain'),
 ('Luard'),
@@ -18347,7 +18246,6 @@ VALUES
 ('Luxfords'),
 ('Luxfords Lane'),
 ('Luxgrove'),
-
 ('Luxhay Close'),
 ('Luxland View'),
 ('Luxmoore Way'),
@@ -18645,9 +18543,7 @@ VALUES
 ('Lyminton'),
 ('Lymister'),
 ('Lymley'),
-
 ('Lymmington'),
-
 ('Lympscott'),
 ('Lympstone'),
 ('Lymsey'),
@@ -19410,7 +19306,6 @@ VALUES
 ('Mackerels Common'),
 ('Mackerels Rocks'),
 ('Mackeridge Lane'),
-
 ('Mackerston Place'),
 ('Mackerye End'),
 ('Mackeson Drive'),
@@ -19966,7 +19861,6 @@ VALUES
 ('Maesymynach'),
 ('Maesyrafon'),
 ('Maesyrawel'),
-
 ('Maesyrhaf Place'),
 ('Maesyroffeiriad'),
 ('Maesywerin'),
@@ -19974,7 +19868,6 @@ VALUES
 ('Maesywern Road'),
 ('Maethlon'),
 ('Maethlon Close'),
-
 ('Mafeking'),
 ('Mafeking Avenue'),
 ('Mafeking Close'),
@@ -21027,7 +20920,7 @@ VALUES
 ('Maltbarns'),
 ('Maltby Colliery'),
 ('Maltby Far'),
-('Maltby'),
+
 ('Maltdub'),
 ('Malten'),
 ('Maltese Cross Close'),
@@ -21348,7 +21241,6 @@ VALUES
 ('Manhattan Drive'),
 ('Manhattan Gardens'),
 ('Manhattan Way'),
-
 ('Manhood Lane'),
 ('Maniards Green'),
 ('Manica Close'),
@@ -21496,7 +21388,6 @@ VALUES
 ('Manorfields'),
 ('Manorford'),
 ('Manorgate'),
-
 ('Manorhill Copse'),
 ('Manorhill Road'),
 ('Manorhouse'),
@@ -21621,8 +21512,6 @@ VALUES
 ('Mansfields'),
 ('Mansford'),
 ('Mansgate'),
-
-
 ('Manshead'),
 ('Manship'),
 ('Manships'),
@@ -22035,7 +21924,6 @@ VALUES
 ('Marazan Road'),
 ('Marazanvose'),
 ('Marazion'),
-
 ('Marble Alley'),
 ('Marble Arch'),
 ('Marble Avenue'),
@@ -22329,7 +22217,6 @@ VALUES
 ('Maregreen Road'),
 ('Mareham le Fen'),
 ('Mareham on the'),
-
 ('Marehill'),
 ('Mareilian Avenue'),
 ('Mareland Copse'),
@@ -23062,7 +22949,6 @@ VALUES
 ('Marnock Square'),
 ('Marnock Terrace'),
 ('Marns Hey'),
-
 ('Marnwood Road'),
 ('Maromme Square'),
 ('Marondale Avenue'),
@@ -23282,7 +23168,6 @@ VALUES
 ('Marshalswick Lane'),
 ('Marshams'),
 ('Marshams Court'),
-
 ('Marshaw Close'),
 ('Marshaw Fell'),
 ('Marshaw Place'),
@@ -23592,7 +23477,6 @@ VALUES
 ('Martinsend Lane'),
 ('Martinsfield Close'),
 ('Martinsfields'),
-
 ('Martinshaw Close'),
 ('Martinshaw Lane'),
 ('Martinside'),
@@ -24337,7 +24221,6 @@ VALUES
 ('Maufe Road'),
 ('Maufe Way'),
 ('Mauger Pool'),
-
 ('Maugersbury'),
 ('Maugersbury Grove'),
 ('Maugersbury Hill'),
@@ -26273,7 +26156,6 @@ VALUES
 ('Meere Close'),
 ('Meeres Court'),
 ('Meeres Lane'),
-
 ('Meerhay Lane'),
 ('Meerhill Avenue'),
 ('Meering Avenue'),
@@ -26840,7 +26722,6 @@ VALUES
 ('Melvina Road'),
 ('Melvinhall Road'),
 ('Melvinia Crescent'),
-
 ('Melvyn Close'),
 ('Melvyn Crescent'),
 ('Melvyn Drive'),
@@ -28169,7 +28050,6 @@ VALUES
 ('Mhaolach Coire'),
 ('Mhaolagain'),
 ('Mhaolmhoire'),
-
 ('Mharagach'),
 ('Mharaiche'),
 ('Mharasaid'),
@@ -28435,7 +28315,6 @@ VALUES
 ('Michaelstowe Drive'),
 ('Michaelwood'),
 ('Michaelwood Close'),
-
 ('Michean'),
 ('Micheldever'),
 ('Micheldever Close'),
@@ -29145,7 +29024,6 @@ VALUES
 ('Middleham Low Moor'),
 ('Middlehay Court'),
 ('Middleheath Copse'),
-
 ('Middlehey Avenue'),
 ('Middlehill'),
 ('Middlehill Down'),
@@ -29246,7 +29124,6 @@ VALUES
 ('Middlesex Road'),
 ('Middleshade Road'),
 ('Middleshank'),
-
 ('Middleshaw Hill'),
 ('Middleshot'),
 ('Middleshot Road'),
@@ -30314,8 +30191,6 @@ VALUES
 ('Millhaugh Lane'),
 ('Millhaven Avenue'),
 ('Millhaven Close'),
-
-
 ('Millhayes'),
 ('Millhayes Farm'),
 ('Millhayes Road'),
@@ -30502,7 +30377,6 @@ VALUES
 ('Millsail'),
 ('Millsands'),
 ('Millseat'),
-
 ('Millshaw Mount'),
 ('Millshaw Park'),
 ('Millshaw Road'),
@@ -30673,7 +30547,6 @@ VALUES
 ('Milnrow Road'),
 ('Milnroy Road'),
 ('Milnsbridge'),
-
 ('Milnshaw Gardens'),
 ('Milnshaw Lane'),
 ('Milntack Hill'),
@@ -30845,7 +30718,6 @@ VALUES
 ('Minchingtons Close'),
 ('Minchinhampton'),
 ('Minchinhampton Common'),
-
 ('Minchins Close'),
 ('Minchmoor Road'),
 ('Mincie Moss'),
@@ -33007,7 +32879,6 @@ VALUES
 ('Moorhams'),
 ('Moorhaven'),
 ('Moorhawes'),
-
 ('Moorhayes'),
 ('Moorhayes Copse'),
 ('Moorhayes Drive'),
@@ -33035,7 +32906,6 @@ VALUES
 ('Moorhen Street'),
 ('Moorhen Way'),
 ('Moorhens'),
-
 ('Moorhey Crescent'),
 ('Moorhey Drive'),
 ('Moorhey Flat'),
@@ -34493,7 +34363,6 @@ VALUES
 ('Moulsford Bottom'),
 ('Moulsford Downs'),
 ('Moulsham Thrift'),
-
 ('Moult Avenue'),
 ('Moult Hill'),
 ('Moult Road'),
@@ -34724,7 +34593,6 @@ VALUES
 ('Mountjoys'),
 ('Mountlea'),
 ('Mountlee'),
-
 ('Mountleigh'),
 ('Mountmorres'),
 ('Mountnessing'),
@@ -34944,7 +34812,6 @@ VALUES
 ('Mowfen Road'),
 ('Mowforth Close'),
 ('Mowground Lane'),
-
 ('Mowhay Close'),
 ('Mowhay Lane'),
 ('Mowhay Meadow'),
@@ -35840,7 +35707,6 @@ VALUES
 ('Murdermoss'),
 ('Murdies Covert'),
 ('Murdieston'),
-
 ('Murdiston'),
 ('Murdochcairnie'),
 ('Murdochs'),
@@ -36164,7 +36030,6 @@ VALUES
 ('Mutford'),
 ('Mutford Big'),
 ('Mutfordwood'),
-
 ('Muthill'),
 ('Muthill Road'),
 ('Mutimer Close'),
@@ -36320,7 +36185,6 @@ VALUES
 ('Mynach Falls'),
 ('Mynach Isaf'),
 ('Mynach Road'),
-
 ('Mynachdy Pitch'),
 ('Mynachdy Road'),
 ('Mynachlog'),
