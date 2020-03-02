@@ -7775,7 +7775,6 @@ VALUES
 ('Epiphanio'),
 ('Epiphanios'),
 ('Epiphanise'),
-('Epiphany'),
 ('Epiphette'),
 ('Epipia'),
 ('Epirot'),

@@ -41391,6 +41391,7 @@ VALUES
 ('Kusungana'),
 ('Kusur'),
 ('Kusy'),
+('Kuszell'),
 ('Kuszenda'),
 ('Kuszer'),
 ('Kuszmar'),

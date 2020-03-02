@@ -22,7 +22,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:allotments?|approach|avenue|back|banks?|barns?|basin|bay|beach|beacons?|belt|bottoms?|boulevard|braes?|brake|bridges?|broads?|brooks?|bush(?:es)?|bypass|camp(?:us)?|canal|causeway|cave|circle|circular|city|cliff(?:e|s)?|close|clumps?|coast|colliery|commons?|convent|coppices?|corner|cottages?|court(?:yard)?|cove(?:rts?)?|creek|crescent|crofts?|cross(?:ing)?|dales?|dam|d[iy]ke|district|docks?|downs?|drift|dr[io]ve|edge|embankment|entrance|esplanade|estates?|farms?|f[ae]lls?|fens?|ferry|field|flats?|fo[lr]ds?|folly|furzes?|gap|gardens?|gate(?:s|way)?|geos?|glade|glens?|gorse|grange|grass|greens|grounds?|groves?|gully|h[ai]lls?|hanger|harbour|hatch|haven|head|heaths?|hedges?|heights?|highways?|hollow|hole|houses?|interchange|islands?|isles?|jetty|junctions?|la[kn]es?|lawns?|level|leys?|links?|loan|lochs?|l[eo]dge|mains|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|moors?|moss|mounts?|mouth|ness|orchards?|oval|paddocks?|parade|park(?:land|s|way)?|pass(?:age)?|passageway|pastures?|patch|path|peak|p[iy]ke|pit|place|plains?|ponds?|pools?|point|porth?|priory|promenade|quad(?:rant)?|quarry|quays?|range|rd|reach|reservoir|ri[ds]e|rivers?|roads?|rocks?|rough|round(?:about)?|row|sand|sea|sh[io]re|side|sound|spa|springs?|spur|square|station|strand|stream|street|strip|summit|tarns?|terraces?|to[pr]s?|towers?|towns?|track|trail|tunnel|vale|valleys?|views?|villas?|villages?|walks?|ways?|weald|weirs?|wick|wood(?:s|lands)?|yards?)\b',
+  '\b(?:allotments?|approach|avenue|back|banks?|barns?|bay|beach|beacons?|bottoms?|boulevard|braes?|brake|bridges?|broads?|brooks?|bush(?:es)?|bypass|camp(?:us)?|canal|cave|circle|circular|city|cliff(?:e|s)?|close|clumps?|coast|colliery|commons?|convent|corner|cottages?|court(?:yard)?|creek|crescent|crofts?|cross(?:ing)?|dales?|dam|d[iy]ke|district|docks?|downs?|drift|dr[io]ve|edge|embankment|entrance|esplanade|estates?|farms?|f[ae]lls?|fens?|ferry|field|flats?|fo[lr]ds?|folly|furzes?|gap|gardens?|gate(?:s|way)?|geos?|glade|glens?|gorse|grange|grass|greens|grounds?|groves?|h[ai]lls?|hanger|harbour|hatch|head|heaths?|heights?|highways?|hollow|hole|houses?|interchange|islands?|isles?|jetty|junctions?|la[kn]es?|lawns?|level|leys?|links?|loan|lochs?|l[eo]dge|mains|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|mounts?|mouth|ness|orchards?|oval|paddocks?|parade|park(?:land|s|way)?|pass(?:age)?|passageway|pastures?|patch|path|peak|p[iy]ke|pit|place|plains?|ponds?|pools?|point|porth?|priory|promenade|quad(?:rant)?|quays?|range|rd|reach|reservoir|ri[ds]e|rivers?|roads?|rocks?|rough|round(?:about)?|row|sand|sea|sh[io]re|side|sound|spa|springs?|spur|square|station|strand|stream|street|strip|summit|tarns?|terraces?|to[pr]s?|towers?|towns?|track|trail|tunnel|vale|valleys?|views?|villas?|villages?|walks?|ways?|weirs?|wick|wood(?:s|lands)?|yards?)\b',
   'Finds any combination of common location name suffixes found in the UK'
 ),
 (
@@ -64,13 +64,13 @@ VALUES
 (
   'Currency1', '#334320', 'Currency', 'CURRENCY', 'Regular expression',
   1, 0, 0, 2,
-  '[$£€]\s*\d[\d,]*(?:\.\d{1,2})?(?:\s?[billion|k|m|million|trillion])?\b',
+  '[$£€]\s*\d[\d,]*(?:\.\d{1,2})?(?:\s?(?:b|m|tr)illion|bn|k|m)?\b',
   'Example: £23,000 or $30k'
 ),
 (
   'Currency2', '#334320', 'Currency', 'CURRENCY', 'Regular expression', 
   1, 0, 0, 2,
-  '\d[\d,\.]*(?:\s[b|m|tr]illion|k|p)?\s?(?:pounds?|pence|euros?|dollars?|cents?)\b',
+  '\d[\d,\.]*(?:\s(?:b|m|tr)illion|bn|k|m|p)?\s?(?:pounds?|pence|euros?|dollars?|cents?)\b',
   'Example: 3.2 million dollars'
 ),
 (
@@ -359,7 +359,7 @@ VALUES
 (
   'SkipLeadingNumberRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',
   1, 1, 0, 1, 
-  '[\d,\.]+(?:st|nd|rd|th)?[\s\-\\\/]{1,2}(?:acre|autumn|beer|count|crew|crime|day|fairway|hour|mile|page|pence|place|point|pound|metre|min|murder|star|steward|story|student|summer|time|week|winter|yard|yr|year)s?',
+  '[\d,\.]+(?:st|nd|rd|th)?[\s\-\\\/]{1,2}(?:acre|autumn|beer|count|crew|crime|day|fairway|hour|mile|page|pence|place|point|pound|metre|min|murder|star|steward|storey|student|summer|time|week|winter|yard|yr|year)s?',
   'Example: 23 acres'
 ),
 (
@@ -371,7 +371,7 @@ VALUES
 (
   'SkipWordDurationRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',
   1, 1, 0, 1, 
-  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten|hundred)[\s\-\\/]{1,2}(?:acre|autumn|beer|count|crew|crime|daughter|day|hour|mile|metre|murder|page|pence|place|point|pound|son|star|steward|story|student|summer|time|week|winter|year)s?\b',
+  '\b(?:one|first|two|second|three|third|four|forth|five|fifth|six|seven|eight|nine|ten|hundred)[\s\-\\/]{1,2}(?:acre|autumn|beer|count|crew|crime|daughter|day|hour|mile|metre|murder|page|pence|place|point|pound|son|star|steward|storey|student|summer|time|week|winter|year)s?\b',
   'Example: Four beers'
 ),
 (
