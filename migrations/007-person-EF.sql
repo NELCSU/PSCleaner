@@ -19764,7 +19764,6 @@ VALUES
 ('Followill'),
 ('Followwill'),
 ('Follweiler'),
-('Folly'),
 ('Folmar'),
 ('Folmer'),
 ('Folmsbee'),

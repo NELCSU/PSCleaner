@@ -10703,7 +10703,6 @@ VALUES
   ('Loch Strathy'),
   ('Loch Tree'),
   ('Loch Turret'),
-  ('Loch Winter'),
   ('Locha'),
   ('Lochaber'),
   ('Lochabhat'),

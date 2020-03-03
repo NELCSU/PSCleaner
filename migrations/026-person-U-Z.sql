@@ -19521,7 +19521,6 @@ VALUES
 ('Winternheimer'),
 ('Winterringer'),
 ('Winterroth'),
-('Winters'),
 ('Wintersgill'),
 ('Wintershausen'),
 ('Wintershoven'),
