@@ -1,11 +1,7 @@
 -- Up
 
 INSERT INTO Entity 
-(
-  label, color, domain, mask, type, 
-  enabled, discard, joinable, priority,
-  reg_ex, description
-) 
+( label, color, domain, mask, type, enabled, discard, joinable, priority, reg_ex, description ) 
 VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
@@ -22,7 +18,7 @@ VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',
   1, 1, 1, 2,
-  '\b(?:bottoms?|bridges?|broads?|brooks?|bush(?:es)?|bypass|camp(?:us)?|canal|cave|circle|circular|city|cliff(?:e|s)?|close|clumps?|coast|colliery|commons?|convent|corner|cottages?|court(?:yard)?|creek|crescent|crofts?|cross(?:ing)?|dales?|dam|d[iy]ke|district|docks?|downs?|drift|dr[io]ve|edge|embankment|entrance|esplanade|estates?|farms?|ferry|field|flats?|fo[lr]ds?|gardens?|gate(?:s|way)?|geos?|glade|glens?|gorse|grange|grass|grounds?|groves?|h[ai]lls?|hanger|harbour|hatch|head|heaths?|heights?|highways?|hollow|hole|houses?|interchange|islands?|isles?|jetty|junctions?|la[kn]es?|lawns?|level|leys?|links?|loan|lochs?|l[eo]dge|mains|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|mounts?|mouth|ness|orchards?|oval|paddocks?|parade|park(?:land|s|way)?|pass(?:age)?|passageway|pastures?|patch|path|peak|p[iy]ke|pit|place|plains?|ponds?|pools?|point|porth?|priory|promenade|quad(?:rant)?|quays?|range|rd|reach|reservoir|ri[ds]e|rivers?|roads?|rocks?|rough|round(?:about)?|row|sand|sea|sh[io]re|side|sound|spa|springs?|spur|square|station|strand|stream|street|strip|summit|tarns?|terraces?|towers?|towns?|track|trail|tunnel|vale|valleys?|views?|villas?|villages?|walks?|ways?|weirs?|wick|wood(?:s|lands)?|yards?)\b',
+  '\b(?:bottoms?|bridges?|broads?|brooks?|bush(?:es)?|camp(?:us)?|circular|cliff(?:e|s)?|close|clumps?|coast|colliery|commons?|convent|corner|cottages?|court(?:yard)?|creek|crescent|crofts?|cross(?:ing)?|dales?|dam|d[iy]ke|district|docks?|downs?|drift|dr[io]ve|edge|embankment|entrance|esplanade|estates?|farms?|ferry|field|flats?|fo[lr]ds?|gardens?|gate(?:s|way)?|geos?|glade|glens?|gorse|grange|grass|grounds?|groves?|halls?|hanger|harbour|hatch|head|heaths?|heights?|highways?|hollow|hole|houses?|interchange|islands?|isles?|jetty|junctions?|la[kn]es?|lawns?|level|leys?|links?|loan|lochs?|l[eo]dge|mains|manor|market|marsh(?:es)?|meadows?|meade?s?|mere|mews|m[ai]lls?|moat|mounts?|mouth|ness|orchards?|oval|paddocks?|parade|park(?:land|s|way)?|pass(?:age)?|passageway|pastures?|patch|path|peak|p[iy]ke|pit|place|plains?|ponds?|pools?|point|porth?|priory|promenade|quad(?:rant)?|quays?|range|rd|reach|reservoir|ri[ds]e|rivers?|roads?|rocks?|rough|round(?:about)?|row|sand|sea|sh[io]re|side|sound|spa|springs?|spur|square|station|strand|stream|street|strip|summit|tarns?|terraces?|towers?|towns?|track|trail|tunnel|vale|valleys?|views?|villas?|villages?|walks?|ways?|weirs?|wick|wood(?:s|lands)?|yards?)\b',
   'Finds any combination of common location name suffixes found in the UK'
 ),
 (

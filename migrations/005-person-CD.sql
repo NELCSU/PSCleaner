@@ -1841,7 +1841,6 @@ VALUES
 ('Canagassababady'),
 ('Canagia'),
 ('Canagon'),
-('Canal'),
 ('Canalas'),
 ('Canale'),
 ('Canalella'),
