@@ -2430,7 +2430,6 @@ VALUES
 ('Capece'),
 ('Capehart'),
 ('Capehorn'),
-('Capel'),
 ('Capela'),
 ('Capelan'),
 ('Capeles'),
