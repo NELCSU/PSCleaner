@@ -260,7 +260,6 @@ VALUES
 ('Gach'),
 ('Gacha'),
 ('Gachassin'),
-
 ('Gache'),
 ('Gachen'),
 ('Gachengo'),
@@ -364,7 +363,6 @@ VALUES
 ('Gadintshware'),
 ('Gadio'),
 ('Gadioli'),
-
 ('Gadire'),
 ('Gadirzade'),
 ('Gadis'),
@@ -838,7 +836,6 @@ VALUES
 ('Gajangi'),
 ('Gajaniga'),
 ('Gajanisan'),
-
 ('Gajapathy'),
 ('Gajardo'),
 ('Gajaria'),
@@ -944,7 +941,6 @@ VALUES
 ('Galapito'),
 ('Galapo'),
 ('Galapon'),
-
 ('Galappaththige'),
 ('Galaputh'),
 ('Galar'),
@@ -1641,21 +1637,17 @@ VALUES
 ('Gamy'),
 ('Gan'),
 ('Gana'),
-
 ('Ganachaud'),
 ('Ganaden'),
 ('Ganadin'),
 ('Ganado'),
 ('Ganagbnoa'),
-
 ('Ganakumar'),
 ('Ganal'),
 ('Ganalingam'),
 ('Ganama'),
 ('Gananath'),
 ('Ganancial'),
-
-
 ('Ganapathippilla'),
 ('Ganapathisubramanian'),
 ('Ganapathula'),
@@ -1718,7 +1710,6 @@ VALUES
 ('Gandharva'),
 ('Gandhary'),
 ('Gandhewar'),
-
 ('Gandhimathy'),
 ('Gandia'),
 ('Gandiappalasami'),
@@ -1738,7 +1729,6 @@ VALUES
 ('Gandotra'),
 ('Gandour'),
 ('Gandras'),
-
 ('Ganduglia'),
 ('Ganduri'),
 ('Gandy'),
@@ -1764,7 +1754,6 @@ VALUES
 ('Ganesa'),
 ('Ganesaguru'),
 ('Ganesalingam'),
-
 ('Ganesamoorthy'),
 ('Ganesan'),
 ('Ganesaperumal'),
@@ -2011,7 +2000,6 @@ VALUES
 ('Ganthony'),
 ('Ganthula'),
 ('Gantides'),
-
 ('Gantley'),
 ('Gantly'),
 ('Gantman'),
@@ -2102,7 +2090,6 @@ VALUES
 ('Garaicoechea'),
 ('Garais'),
 ('Garajayeve'),
-
 ('Garala'),
 ('Garald'),
 ('Garam'),
@@ -2471,7 +2458,6 @@ VALUES
 ('Garippo'),
 ('Garis'),
 ('Garisan'),
-
 ('Garish'),
 ('Garison'),
 ('Gariss'),
@@ -3126,7 +3112,6 @@ VALUES
 ('Gatis'),
 ('Gatison'),
 ('Gatiss'),
-
 ('Gatiyatulina'),
 ('Gatland'),
 ('Gatley'),
@@ -3579,7 +3564,6 @@ VALUES
 ('Gayanilo'),
 ('Gayanth'),
 ('Gayantha'),
-
 ('Gayardo'),
 ('Gayas'),
 ('Gayathery'),
@@ -8754,7 +8738,6 @@ VALUES
 ('Girietyte'),
 ('Girigan'),
 ('Giriharan'),
-
 ('Girijesh'),
 ('Girijotiene'),
 ('Girillo'),
@@ -10163,7 +10146,6 @@ VALUES
 ('Gnanago'),
 ('Gnanaguru'),
 ('Gnanajeevan'),
-
 ('Gnanakumar'),
 ('Gnanakumur'),
 ('Gnanalatha'),
@@ -10407,7 +10389,6 @@ VALUES
 ('Godas'),
 ('Godase'),
 ('Godat'),
-
 ('Godavarthy'),
 ('Godawarie'),
 ('Godawaththaliyanage'),
@@ -11353,7 +11334,6 @@ VALUES
 ('Gomat'),
 ('Gomatam'),
 ('Gomathe'),
-
 ('Gomathinayagam'),
 ('Gomathy'),
 ('Gomazkovas'),
@@ -11924,7 +11904,6 @@ VALUES
 ('Gopalsate'),
 ('Gopana'),
 ('Gopar'),
-
 ('Gopaul'),
 ('Gopawar'),
 ('Gope'),
@@ -12140,7 +12119,6 @@ VALUES
 ('Gorintin'),
 ('Gorio'),
 ('Goriola'),
-
 ('Goriparthy'),
 ('Goris'),
 ('Gorisse'),
@@ -12271,7 +12249,6 @@ VALUES
 ('Gorter'),
 ('Gortes'),
 ('Gorth'),
-
 ('Gorthorn'),
 ('Gorthy'),
 ('Gortmaker'),
@@ -12469,7 +12446,6 @@ VALUES
 ('Gothelf'),
 ('Gothen'),
 ('Gotheridge'),
-
 ('Gothier'),
 ('Gothman'),
 ('Gothold'),
@@ -16881,7 +16857,6 @@ VALUES
 ('Guite'),
 ('Guiter'),
 ('Guith'),
-
 ('Guiti'),
 ('Guitian'),
 ('Guiton'),
@@ -16915,7 +16890,6 @@ VALUES
 ('Guj'),
 ('Gujadhur'),
 ('Gujaphur'),
-
 ('Gujare'),
 ('Gujiene'),
 ('Gujjeti'),
@@ -18163,12 +18137,10 @@ VALUES
 ('Gurudaran'),
 ('Gurudas'),
 ('Gurudeep'),
-
 ('Guruduthsing'),
 ('Gurudutt'),
 ('Gurudutta'),
 ('Guruge'),
-
 ('Gurukkal'),
 ('Gurukkalavida'),
 ('Gurukumar'),
@@ -18385,7 +18357,6 @@ VALUES
 ('Gutheil'),
 ('Gutherie'),
 ('Guthery'),
-
 ('Guthier'),
 ('Guthkelch'),
 ('Guthlac'),
@@ -19516,7 +19487,6 @@ VALUES
 ('Hadeer'),
 ('Hadees'),
 ('Hadeesa'),
-
 ('Hadeeur'),
 ('Hadege'),
 ('Hadel'),
@@ -20973,7 +20943,6 @@ VALUES
 ('Halmos'),
 ('Halmosi'),
 ('Halmstead'),
-
 ('Halnon'),
 ('Halo'),
 ('Halog'),
@@ -21030,7 +20999,6 @@ VALUES
 ('Halub'),
 ('Haluca'),
 ('Haluch'),
-
 ('Halula'),
 ('Halus'),
 ('Halvard'),
@@ -21683,7 +21651,6 @@ VALUES
 ('Handson'),
 ('Handuca'),
 ('Handule'),
-
 ('Handurugamage'),
 ('Handuwalage'),
 ('Handwerger'),
@@ -22226,7 +22193,6 @@ VALUES
 ('Haoshui'),
 ('Haoshun'),
 ('Haosong'),
-
 ('Haotian'),
 ('Haoting'),
 ('Haotong'),
@@ -22657,7 +22623,6 @@ VALUES
 ('Hareesh'),
 ('Hareeshkumar'),
 ('Hareeson'),
-
 ('Haregewain'),
 ('Haregewin'),
 ('Haregewoin'),
@@ -23741,7 +23706,6 @@ VALUES
 ('Hasanpour'),
 ('Hasant'),
 ('Hasantha'),
-
 ('Hasanual'),
 ('Hasanut'),
 ('Hasanuzzaman'),
@@ -24179,7 +24143,6 @@ VALUES
 ('Hastert'),
 ('Hastey'),
 ('Hastfnrath'),
-
 ('Hasti'),
 ('Hastick'),
 ('Hastie'),
@@ -24280,7 +24243,6 @@ VALUES
 ('Hatherly'),
 ('Hatheway'),
 ('Hathhorn'),
-
 ('Hathila'),
 ('Hathiwala'),
 ('Hathon'),
@@ -24678,7 +24640,6 @@ VALUES
 ('Havert'),
 ('Haverty'),
 ('Havery'),
-('Haves'),
 ('Havet'),
 ('Havey'),
 ('Haviar'),
@@ -26657,7 +26618,6 @@ VALUES
 ('Hemant'),
 ('Hemanth'),
 ('Hemantha'),
-
 ('Hemantkomar'),
 ('Hemantkumar'),
 ('Hemapala'),
@@ -26676,7 +26636,6 @@ VALUES
 ('Hematmand'),
 ('Hemauer'),
 ('Hemavat'),
-
 ('Hemavathy'),
 ('Hemawantee'),
 ('Hemawate'),
@@ -28815,7 +28774,6 @@ VALUES
 ('Hieng'),
 ('Hienonen'),
 ('Hiens'),
-
 ('Hiepler'),
 ('Hier'),
 ('Hierbana'),
@@ -29734,7 +29692,6 @@ VALUES
 ('Hirano'),
 ('Hiranth'),
 ('Hirantha'),
-
 ('Hiranuma'),
 ('Hiraoka'),
 ('Hirapuri'),
@@ -31751,7 +31708,6 @@ VALUES
 ('Hongsukpant'),
 ('Hongtheamthong'),
 ('Hongtheamtong'),
-
 ('Hongtian'),
 ('Honguin'),
 ('Hongxia'),
@@ -32641,7 +32597,6 @@ VALUES
 ('Hothem'),
 ('Hother'),
 ('Hothersall'),
-
 ('Hotiana'),
 ('Hotin'),
 ('Hotkhel'),
@@ -33210,7 +33165,6 @@ VALUES
 ('Hrior'),
 ('Hripsime'),
 ('Hris'),
-
 ('Hriscan'),
 ('Hrishikesa'),
 ('Hrishikesh'),
@@ -33654,7 +33608,6 @@ VALUES
 ('Hueter'),
 ('Hueth'),
 ('Huether'),
-
 ('Hueting'),
 ('Huette'),
 ('Huettel'),
@@ -35109,7 +35062,6 @@ VALUES
 ('Hymans'),
 ('Hymanson'),
 ('Hymas'),
-
 ('Hymel'),
 ('Hymen'),
 ('Hymer'),
