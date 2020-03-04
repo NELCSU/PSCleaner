@@ -1,11 +1,7 @@
 -- Up
 
 INSERT INTO Entity 
-(
-  label, color, domain, mask, type, 
-  enabled, discard, joinable, priority,
-  reg_ex, description
-) 
+( label, color, domain, mask, type, enabled, discard, joinable, priority, reg_ex, description ) 
 VALUES
 (
   'Address', '#80ff70', 'Name', 'LOCATION', 'Regular expression',

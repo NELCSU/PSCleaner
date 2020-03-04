@@ -211,7 +211,7 @@ VALUES
 ('Uruguay'),
 ('USSR'),
 ('Uzbekistan'),
-('Vatican City'),
+('Vatican'),
 ('Venezuela'),
 ('Vietnam'),
 ('Wales'),
