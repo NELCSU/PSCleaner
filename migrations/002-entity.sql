@@ -114,7 +114,7 @@ VALUES
 (
   'DateYear', '#e800e8', 'DateTime', 'DATETIME', 'Regular expression',
   1, 0, 0, 2,
-  '\b(?<=(?:after|and|before|between|during|in|on)\s)[12]\d\d\d\b',
+  '\b(?<=(?:after|and|before|between|during|early|in|late|on)\s)[12]\d\d\d\b',
   'Example: After 1972'
 ),
 (

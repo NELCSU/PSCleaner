@@ -43339,8 +43339,6 @@ VALUES
 ('Bishokarama'),
 ('Bishokarma'),
 ('Bishon'),
-('Bishop'),
-('Bishops'),
 ('Bishopton'),
 ('Bishow'),
 ('Bishowjet'),

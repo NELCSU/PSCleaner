@@ -6505,7 +6505,6 @@ VALUES
 ('Leister'),
 ('Leistner'),
 ('Leistrumaite'),
-('Leisure'),
 ('Leisy'),
 ('Leisyte'),
 ('Leitan'),
