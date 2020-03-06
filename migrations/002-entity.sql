@@ -16,10 +16,16 @@ VALUES
   'Extracts a number/letter combination if followed by a word atleast 3 characters in length'
 ),
 (
-  'AgeRegEx', '#cc33ee', 'Age', 'PERSON', 'Regular expression',
+  'AgeRegEx1', '#cc33ee', 'Age', 'PERSON', 'Regular expression',
   1, 0, 0, 2,
   '(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d{1,3})[\s\-](?:years?|month)[\s\-]old\b',
   'Example: 17 years old'
+),
+(
+  'AgeRegEx2', '#cc33ee', 'Age', 'PERSON', 'Regular expression',
+  1, 0, 0, 2,
+  '\baged?\s(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d{1,3})(?:\sand\s(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d{1,3}))?',
+  'Example: aged 16 and 15'
 ),
 (
   'Banking1', '#994320', 'Mastercard', 'CURRENCY', 'Regular expression',

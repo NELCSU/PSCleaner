@@ -45835,7 +45835,6 @@ VALUES
 ('Mosuru'),
 ('Moswala'),
 ('Moszer'),
-('Mot'),
 ('Motaair'),
 ('Motabar'),
 ('Motaghian'),
