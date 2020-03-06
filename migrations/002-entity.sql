@@ -154,7 +154,7 @@ VALUES
 (
   'NameRegExAccent', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 0, 1, 3,
-  '[a-z]*[À-ÖØ-öø-ÿãñõțũąğňōıŚạ]+[a-z]*',
+  '[a-z]*[À-ÖØ-öø-ÿãñõțũąğňōıŚạşă]+[a-z]*',
   'Returns any word containing accented Latin characters (assumed to be a foreign word/name)'
 ),
 (
