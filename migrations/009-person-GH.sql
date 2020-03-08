@@ -4657,7 +4657,6 @@ VALUES
 ('Gelosi'),
 ('Gelot'),
 ('Gelow'),
-('Gels'),
 ('Gelsey'),
 ('Gelsinger'),
 ('Gelsomena'),

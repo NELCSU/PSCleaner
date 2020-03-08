@@ -21569,7 +21569,6 @@ VALUES
 ('Curello'),
 ('Curelusa'),
 ('Curenton'),
-('Cures'),
 ('Curet'),
 ('Cureton'),
 ('Curey'),
