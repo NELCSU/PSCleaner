@@ -1,4 +1,5 @@
 import { ipcMain as ipc } from "electron";
+import { EventEmitter } from "events";
 import DB, { DataObject } from "sqlite3-helper";
 import type { Entity, EntityResponse, EntityType } from "../typings/PSCleaner";
 
@@ -13,11 +14,18 @@ import type { Entity, EntityResponse, EntityType } from "../typings/PSCleaner";
  * 6. save-entity   -> entity-save-error
  */
 export class Entities {
+  public events: EventEmitter;
+
   constructor() {
+    this.events = new EventEmitter();
+
     ipc.on("save-entity", (e, data) => {
       Entities.save(data)
         .then(
-          success => e.reply("entity-saved", success),
+          success => {
+            this.events.emit("entity-update");
+            e.reply("entity-saved", success);
+          },
           failure => e.reply(failure, null)
         );
     });
@@ -25,7 +33,10 @@ export class Entities {
     ipc.on("delete-entity", (e, key: number) => {
       Entities.delete(key)
         .then(
-          success => e.reply(success, key),
+          success => {
+            this.events.emit("entity-update");
+            e.reply(success, key);
+          },
           failure => e.reply(failure, key)
         );
     });

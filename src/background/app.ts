@@ -1,6 +1,7 @@
 import {
   App, app, ipcMain as ipc, IpcMainEvent, protocol
 } from "electron";
+import { EventEmitter } from "events";
 import DB from "sqlite3-helper";
 
 require("dotenv").config();
@@ -23,6 +24,7 @@ import config from "./views";
 
 class Main {
   #initDB: boolean = false;
+  #eventEmitter: EventEmitter;
 
   public app: App;
   public isQuitting = false;
@@ -37,6 +39,8 @@ class Main {
   public tray: any;
 
   constructor() {
+    this.#eventEmitter = new EventEmitter();
+
     this.app = app;
     const lock: boolean = this.app.requestSingleInstanceLock();
 
@@ -63,6 +67,10 @@ class Main {
           this.importFiles = new ImportFiles();
           this.exportFiles = new ExportFiles();
           this.processFiles = new ProcessFiles();
+
+          this.entities.events.on("entity-update", async () => {
+            await nlp.init();
+          });
 
           ipc.on("NLP-request", async (e: IpcMainEvent, text: string) => {
             (async (t) => await nlp.evaluate(t))(text)

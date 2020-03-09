@@ -1,6 +1,6 @@
 import DB, { DataObject } from "sqlite3-helper";
 import posTagger from "wink-pos-tagger";
-import type { Entity, MatchedEntity, SearchTermResult, WordPosition } from "../typings/PSCleaner";
+import type { Entity, MatchedEntity, RegExpEntity, SearchTermResult, WordPosition } from "../typings/PSCleaner";
 import { Entities } from "./entities";
 import { deepCopy } from "./util/deepCopy";
 import { isApostrophe } from "./util/text";
@@ -18,14 +18,20 @@ export class NLP {
     DB().run("UPDATE AppSettings SET value = ? WHERE field = 'NLP_TRACE'", this._trace);
   }
 
+  private _ent_mt: Entity[] = [];
+  private _ent_re: RegExpEntity[] = [];
+  private _ent_st: Entity[] = [];
+  private _names: Map<string, number> = new Map();
   private _pos: posTagger;
   private _trace: boolean = true;
 
   constructor() {
     this._pos = posTagger();
 
+    this.init();
+
     DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field = 'NLP_TRACE'`)
-      .then(async row => {
+      .then(async (row: any) => {
         if (row) {
           this._trace = row.value === "1" ? true : false;
         } else {
@@ -39,15 +45,13 @@ export class NLP {
    * @param data - body of text to evaluate
    */
   public async evaluate(data: string): Promise<MatchedEntity[]> {
-    const ent_re = await Entities.getList("Regular expression");
-    const ent_st = await Entities.getList("Single term");
-    const ent_mt = await Entities.getList("Multiple term");
+    
     const words: WordPosition[] = await this.getWordPositions(data);
-    return Promise.all([ent_re, ent_st, ent_mt, words])
+    return Promise.all([words])
       .then(async entities => {
-        const match_re = await this._runRegExpressions(data, entities[0]);
-        const match_st = await this._runTerms(data, entities[3], entities[1]);
-        const match_mt = await this._runTerms(data, entities[3], entities[2]);
+        const match_re = await this._runRegExpressions(data);
+        const match_st = await this._runTerms(data, entities[0], this._ent_st);
+        const match_mt = await this._runTerms(data, entities[0], this._ent_mt);
         return Promise.all([match_re, match_st, match_mt])
           .then((matches: MatchedEntity[][]) => {
             const mt: MatchedEntity[] = [];
@@ -74,6 +78,7 @@ export class NLP {
       const start: number = data.indexOf(tag.value, cursor);
       const len: number = tag.value.length;
       const end: number = start + len - 1;
+      const predicate: string = tag.value.replace(/[\'\’\`]/g, "").toLowerCase();
       cursor = end;
       if (tag.tag === "word") {
         const n: number = words.length - 1;
@@ -96,6 +101,7 @@ export class NLP {
           lastWord = {
             value: tag.value,
             pos: tag.pos,
+            predicate: predicate,
             start: start,
             end: end,
             length: len
@@ -106,6 +112,7 @@ export class NLP {
           lastWord = {
             value: tag.value,
             pos: tag.pos,
+            predicate: predicate,
             start: start,
             end: end,
             length: len
@@ -116,6 +123,7 @@ export class NLP {
             lastWord = {
               value: tag.value,
               pos: tag.pos,
+              predicate: predicate,
               start: start,
               end: end,
               length: len
@@ -134,6 +142,7 @@ export class NLP {
           lastWord = {
             value: tag.value,
             pos: tag.pos,
+            predicate: predicate,
             start: start,
             end: end,
             length: len
@@ -145,6 +154,36 @@ export class NLP {
       }
     });
     return words;
+  }
+
+  /**
+   * Refreshes internal data structures
+   */
+  public async init(): Promise<void> {
+    await Entities.getList("Regular expression")
+      .then(ent => {
+        this._ent_re = [];
+        ent.forEach(async (ent: Entity) => {
+          if (ent.enabled === 1) {
+            let re = new RegExp(ent.reg_ex, "gmi");
+            this._ent_re.push({
+              entity: deepCopy(ent),
+              re: re
+            });
+          }
+        });
+      });
+    
+    this._ent_st = await Entities.getList("Single term");
+    this._ent_mt = await Entities.getList("Multiple term");
+
+    const qry: string = `SELECT id, keyword FROM "SkipOrJoin"`;
+    DB().query(qry)
+      .then(rows => {
+        rows.forEach(r => {
+          this._names.set(r.keyword.toLowerCase(), r.id);
+        });
+      });
   }
   
   /**
@@ -187,6 +226,22 @@ export class NLP {
     return alignedInText && matchingDomains && currIsJoinable;
   }
 
+  private _queryMap(words: WordPosition[]): Promise<SearchTermResult[]> {
+    const result: SearchTermResult[] = [];
+    words.forEach(word => {
+      const r: any = this._names.get(word.predicate);
+      if (r) {        
+        result.push({
+          id: r?.id,
+          keyword: word.value.replace(/[\'\’\`]/g, "''"),
+          start: word.start,
+          pos: word.pos
+        });
+      }    
+    });
+    return Promise.resolve(result);
+  }
+
   private _queryMultipleTerms(words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
@@ -194,7 +249,6 @@ export class NLP {
         .replace(/[\'\’\`]/g, "")
         .replace(/_/g, "~_")
         .replace(/%/g, "~%") + " %";
-      let p2 = word.value.replace(/[\'\’\`]/g, "");
       const qry: string = `SELECT
           id,
           '${word.value.replace(/[\'\’\`]/g, "''")}' AS original_term,
@@ -203,7 +257,7 @@ export class NLP {
           '${word.pos}' AS pos
         FROM "${entity.label}" 
         WHERE keyword LIKE ? ESCAPE '~' OR keyword = ?`;
-      queue.push(DB().query(qry, [p1, p2]));
+      queue.push(DB().query(qry, [p1, word.predicate]));
     });
     const result: SearchTermResult[] = [];
     return Promise.all(queue)
@@ -222,14 +276,13 @@ export class NLP {
   private _querySingleTerms(words: WordPosition[], entity: Entity): Promise<SearchTermResult[]> {
     const queue: Promise<DataObject[] | null>[] = [];
     words.forEach(word => {
-      const predicate: string = word.value.replace(/[\'\’\`]/g, "");
       const qry: string = `SELECT 
           id,
           '${word.value.replace(/[\'\’\`]/g, "''")}' AS keyword, 
           ${word.start} AS start,
           '${word.pos}' AS pos
         FROM "${entity.label}" WHERE keyword = ?`;
-      queue.push(DB().queryFirstRow(qry, predicate));
+      queue.push(DB().queryFirstRow(qry, word.predicate));
     });
     const result: SearchTermResult[] = [];
     return Promise.all(queue)
@@ -243,24 +296,21 @@ export class NLP {
       });
   }
 
-  private async _runRegExpressions(data: string, entities: Entity[]): Promise<MatchedEntity[]> {
+  private async _runRegExpressions(data: string): Promise<MatchedEntity[]> {
     const r: MatchedEntity[] = [];
-    await entities.forEach(async (ent: Entity) => {
-      if (ent.enabled === 1) {
-        let re = new RegExp(ent.reg_ex, "gmi");
-        let m: RegExpExecArray | null;
-        while ((m = re.exec(data)) !== null) {
-          r.push({
-            entity: deepCopy(ent),
-            id: 0,
-            value: m[0],
-            start: m.index,
-            pos: "regex",
-            end: m.index + m[0].length - 1,
-            length: m[0].length
-          });
-        }
-      }
+    await this._ent_re.forEach(async (ent: RegExpEntity) => {
+      let m: RegExpExecArray | null;
+      while ((m = ent.re.exec(data)) !== null) {
+        r.push({
+          entity: deepCopy(ent.entity),
+          id: 0,
+          value: m[0],
+          start: m.index,
+          pos: "regex",
+          end: m.index + m[0].length - 1,
+          length: m[0].length
+        });
+      }      
     });
     return Promise.resolve(r);
   }
@@ -283,7 +333,9 @@ export class NLP {
   private async _searchTerms(data: string, words: WordPosition[], entity: Entity): Promise<any> {
     let searchTerms: SearchTermResult[];
     searchTerms = (entity.type === "Single term")
-      ? await this._querySingleTerms(words, entity)
+      ? (entity.label === "SkipOrJoin")
+          ? await this._queryMap(words)
+          : await this._querySingleTerms(words, entity)
       : await this._queryMultipleTerms(words, entity);
     const r: MatchedEntity[] = [];
     let test: string = data.toLowerCase().replace(/-/g, " ").replace(/[\’\`]/g, "'");

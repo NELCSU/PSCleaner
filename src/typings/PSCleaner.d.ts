@@ -12,20 +12,20 @@ export type Entity = {
   mask: string,
   reg_ex: string,
   type: EntityType
-}
+};
 
 export type CSVField = [string, boolean];
 
 export type CSVTemplate = {
   header: boolean;
   fields: CSVField[]
-}
+};
 
 export type ReadFileAction = {
   data?: string,
   fn?: string,
   status: TrainingFileResponse | TemplateFileResponse
-}
+};
 
 export type EntityRequest = "delete-entity" | "get-entities" | "save-entity";  
 export type EntityResponse = "entity-deleted" | "entity-deletion-error" | "entity-list" | "entity-list-error" | "entity-saved" | "entity-save-error";
@@ -62,7 +62,7 @@ export type SearchTermResult = {
   original_term?: string,
   pos?: string,
   start: number
-}
+};
 
 export type MatchedEntity = {
   entity: Entity,
@@ -72,12 +72,18 @@ export type MatchedEntity = {
   pos?: string,
   end: number,
   length: number
-}
+};
+
+export type RegExpEntity = {
+  entity: Entity,
+  re: RegExp
+};
 
 export type WordPosition = {
   pos?: string,
+  predicate: string,
   value: string,
   start: number,
   end: number,
   length: number
-}
+};

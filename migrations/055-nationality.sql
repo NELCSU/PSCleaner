@@ -161,6 +161,7 @@ VALUES
 ('Haitian'),
 ('Hawaiian'),
 ('Herzegovinan'),
+('Himalayan'),
 ('Honduran'),
 ('Hungarian'), 
 ('Hungarians'), 
