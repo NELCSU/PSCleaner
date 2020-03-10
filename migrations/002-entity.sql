@@ -154,7 +154,7 @@ VALUES
 (
   'NameRegEx', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 0, 1, 3,
-  '\b[a-z]+(?:dran?|[a-z]cz[a-z]+|iute|lund)\b',
+  '\b[a-z]+(?:aard|deep|dran?|[a-z]cz[a-z]+|hury|iute|lund)\b',
   'Example: Bendran | Czerero | Biute | Haagelund'
 ),
 (
@@ -166,7 +166,7 @@ VALUES
 (
   'NameRegExA', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+a(?:c[a-df-gijl-ru-xz]|d[a-df-np-rtu-xz]|e[a-ce-z]|f[a-dg-ru-xz]|g[a-df-hj-np-rt-xz]|h[b-rt-z]|i[abef-ko-qu-z]|[ajq][a-z]|k[a-df-rt-xz]|l[bcghjnqru-xz]|m[cdf-hj-mqru-xz]|n[bcfhijl-np-ru-xz]|[boy][a-rt-z]|p[a-dfgi-np-ru-xz]|r[acg-joqu-xz]|s[a-dfgijloqru-xz]|t[b-dfgi-ru-xz]|u[a-ce-km-qu-z]|v[b-df-np-xz]|w[a-jmo-qrt-z]|x[a-xz]|z[a-df-xz])\b',
+  '\b[a-z]+a(?:c[a-df-gijl-ru-xz]|d[a-df-np-rtu-xz]|e[a-ce-z]|f[a-dg-ru-xz]|g[a-df-hj-np-rt-xz]|h[b-rt-z]|i[abef-ko-qu-z]|[ajq][a-z]|k[a-df-rt-xz]|l[bcghjnqru-xz]|m[cdf-hj-mqru-xz]|n[bcfhijl-np-ru-xz]|[boy][a-rt-z]|p[a-dfgi-np-ru-xz]|r[acg-joqu-xz]|s[a-dfgijloqru-xz]|t[b-dfgi-rt-xz]|u[a-ce-km-qu-z]|v[b-df-np-xz]|w[a-jmo-qrt-z]|x[a-xz]|z[a-df-xz])\b',
   'Words of >= 4 characters ending a**'
 ),
 (
@@ -238,7 +238,7 @@ VALUES
 (
   'NameRegExM', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+m(?:a[a-kmoqu-wyz]|[bn][a-rt-z]|e[a-ce-kmo-qu-z]|i[bf-kmo-ru-z]|l[a-xz]|m[b-df-xz]|o[a-lo-qt-wz]|p[a-gj-nru-xz]|u[a-ln-pu-wyz]|y[a-km-z]|[cdf-hjkqr-tv-xz][a-z])\b',
+  '\b[a-z]+m(?:a[a-kmoqru-wyz]|[bn][a-rt-z]|e[a-ce-kmo-qu-z]|i[bf-kmo-ru-z]|l[a-xz]|m[b-df-xz]|o[a-lo-qt-wz]|p[a-gj-nru-xz]|u[a-ln-pu-wyz]|y[a-km-z]|[cdf-hjkqr-tv-xz][a-z])\b',
   'Words of >= 4 characters ending m**'
 ),
 (
@@ -355,13 +355,13 @@ VALUES
 (
   'SkipLeadingNumberRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',
   1, 1, 0, 1, 
-  '[\d,\.]+(?:st|nd|rd|th)?[\s\-\\\/]{1,2}(?:acre|autumn|beer|count|crew|crime|day|fairway|hour|mile|page|pence|place|point|pound|metre|min|murder|star|steward|storey|student|summer|time|week|winter|yard|yr|year)s?',
+  '[\d,\.]+(?:st|nd|rd|th)?[\s\-\\\/]{1,2}(?:acre|autumn|beer|british|count|crew|crime|day|fairway|hour|mile|page|pence|place|point|pound|metre|min|murder|star|steward|storey|student|summer|time|week|winter|yard|yr|year)s?',
   'Example: 23 acres'
 ),
 (
   'SkipTrailingNumberRegEx', '#ccddee', 'Skip', 'SKIP', 'Regular expression',
   1, 1, 0, 1, 
-  '(?:clause|least|page|para|top)\s[\d]+',
+  '(?:clause|early|least|page|para|top)\s[\d]+',
   'Example: Page 3'
 ),
 (

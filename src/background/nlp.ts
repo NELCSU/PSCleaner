@@ -78,12 +78,12 @@ export class NLP {
       const start: number = data.indexOf(tag.value, cursor);
       const len: number = tag.value.length;
       const end: number = start + len - 1;
-      const predicate: string = tag.value.replace(/[\'\’\`]/g, "").toLowerCase();
       cursor = end;
       if (tag.tag === "word") {
         const n: number = words.length - 1;
         if ((isApostrophe(lastSymbol)) && (tag.value === "t" || len > 1) && (words[n].end + 1 === start - 1)) {
           words[n].value += lastSymbol + tag.value;
+          words[n].predicate = words[n].value.replace(/[\'\’\`]/g, "").toLowerCase();
           words[n].end = end;
           words[n].length = words[n].value.length;
         } else if (lastSymbol && len === 1 && (
@@ -91,17 +91,19 @@ export class NLP {
           words[n].value.indexOf("&") > -1
         )) {
           words[n].value += tag.value;
+          words[n].predicate = words[n].value.replace(/[\'\’\`]/g, "").toLowerCase();
           words[n].end = end;
           words[n].length += len;
         } else if (tag.pos === "RB" && lastWord && (lastWord.end + 1) === start) {
           words[n].value += tag.value;
+          words[n].predicate = words[n].value.replace(/[\'\’\`]/g, "").toLowerCase();
           words[n].end = end;
           words[n].length += len;
         } else if (tag.value === "'ve") {
           lastWord = {
             value: tag.value,
             pos: tag.pos,
-            predicate: predicate,
+            predicate: tag.value.replace(/[\'\’\`]/g, "").toLowerCase(),
             start: start,
             end: end,
             length: len
@@ -112,7 +114,7 @@ export class NLP {
           lastWord = {
             value: tag.value,
             pos: tag.pos,
-            predicate: predicate,
+            predicate: tag.value.replace(/[\'\’\`]/g, "").toLowerCase(),
             start: start,
             end: end,
             length: len
@@ -123,7 +125,7 @@ export class NLP {
             lastWord = {
               value: tag.value,
               pos: tag.pos,
-              predicate: predicate,
+              predicate: tag.value.replace(/[\'\’\`]/g, "").toLowerCase(),
               start: start,
               end: end,
               length: len
@@ -137,12 +139,13 @@ export class NLP {
         if (lastWord && lastWord.length < 3) {
           const n: number = words.length - 1;
           words[n].value += tag.value;
+          words[n].predicate = words[n].value.replace(/[\'\’\`]/g, "").toLowerCase();
           words[n].end = end;
           words[n].length += len;
           lastWord = {
             value: tag.value,
             pos: tag.pos,
-            predicate: predicate,
+            predicate: tag.value.replace(/[\'\’\`]/g, "").toLowerCase(),
             start: start,
             end: end,
             length: len

@@ -45,6 +45,7 @@ VALUES
 ('Belgians'),
 ('Belizean'),
 ('Belizeans'),
+('Bengali'),
 ('Beninese'), 
 ('Bermudian'),
 ('Bermudians'),
