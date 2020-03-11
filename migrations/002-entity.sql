@@ -19,7 +19,7 @@ VALUES
   'AgeRegEx1', '#cc33ee', 'Age', 'PERSON', 'Regular expression',
   1, 0, 0, 2,
   '(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d{1,3})[\s\-](?:years?|month)[\s\-]old\b',
-  'Example: 17 years old'
+  'Example: 17 years'
 ),
 (
   'AgeRegEx2', '#cc33ee', 'Age', 'PERSON', 'Regular expression',
@@ -154,19 +154,19 @@ VALUES
 (
   'NameRegEx', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 0, 1, 3,
-  '\b[a-z]+(?:aard|deep|dran?|[a-z]cz[a-z]+|hury|iute|lund)\b',
+  '\b[a-z]+(?:aard|deep|dran?|[a-z]cz[a-z]+|hong|hury|iute|lund)\b',
   'Example: Bendran | Czerero | Biute | Haagelund'
 ),
 (
   'NameRegExAccent', '#00a0ff', 'Name', 'NAME', 'Regular expression', 
   1, 0, 1, 3,
-  '[a-z]*[À-ÖØ-öø-ÿãñõțũąğňōıŚạşă]+[a-z]*',
+  '[a-z]*[À-ÖØ-öø-ÿãñõțũąğňōıŚạşăầẩếšả]+[a-z]*',
   'Returns any word containing accented Latin characters (assumed to be a foreign word/name)'
 ),
 (
   'NameRegExA', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+a(?:c[a-df-gijl-ru-xz]|d[a-df-np-rtu-xz]|e[a-ce-z]|f[a-dg-ru-xz]|g[a-df-hj-np-rt-xz]|h[b-rt-z]|i[abef-ko-qu-z]|[ajq][a-z]|k[a-df-rt-xz]|l[bcghjnqru-xz]|m[cdf-hj-mqru-xz]|n[bcfhijl-np-ru-xz]|[boy][a-rt-z]|p[a-dfgi-np-ru-xz]|r[acg-joqu-xz]|s[a-dfgijloqru-xz]|t[b-dfgi-rt-xz]|u[a-ce-km-qu-z]|v[b-df-np-xz]|w[a-jmo-qrt-z]|x[a-xz]|z[a-df-xz])\b',
+  '\b[a-z]+a(?:c[a-df-gijl-ru-xz]|d[a-df-np-rtu-xz]|e[a-ce-z]|f[a-dg-ru-xz]|g[a-df-hj-np-rt-xz]|h[b-rt-z]|i[abef-ko-qu-z]|[ajq][a-z]|k[a-df-rt-xz]|l[a-cghjnqru-xz]|m[cdf-hj-mqru-xz]|n[a-cfhijl-np-ru-xz]|[boy][a-rt-z]|p[a-dfgi-np-ru-xz]|r[acg-joqu-xz]|s[a-dfgijloqru-xz]|t[b-dfgi-rt-xz]|u[a-ce-km-qu-z]|v[b-df-np-xz]|w[a-jmo-qrt-z]|x[a-xz]|z[a-df-xz])\b',
   'Words of >= 4 characters ending a**'
 ),
 (
@@ -196,7 +196,7 @@ VALUES
 (
   'NameRegExF', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+f(?:a[a-mo-qu-wyz]|e[a-cf-mo-qt-vxz]|f[a-df-rt-xz]|i[e-kqru-wy]|l[a-df-tv-xz]|o[a-fh-lo-qt-z]|r[a-xz]|t[a-gi-rt-xz]|u[a-km-qt-z]|[b-dghjkmnpqsv-z][a-z])\b',
+  '\b[a-z]+f(?:a[a-mo-qu-wyz]|e[a-cf-mo-qt-vxz]|f[a-rt-xz]|i[e-kqru-wy]|l[a-df-tv-xz]|o[a-fh-lo-qt-z]|r[a-xz]|t[a-gi-rt-xz]|u[a-km-qt-z]|[b-dghjkmnpqsv-z][a-z])\b',
   'Words of >= 4 characters ending f**'
 ),
 (
@@ -214,13 +214,13 @@ VALUES
 (
   'NameRegExI', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+i(?:a[abf-kmo-qu-z]|b[a-df-rt-z]|c[b-df-jl-ru-xz]|d[b-df-np-rt-xz]|e[a-ceg-kno-qvyz]|f[a-dghj-ru-xz]|g[b-dfgij-lp-rt-xz]|k[a-df-rt-xz]|l[bcg-ju-xz]|m[cdf-hj-nqrt-xz]|n[bfhijlmnp-ru-wz]|o[a-ce-ko-qu-z]|p[a-df-hj-ru-xz]|r[a-cf-jqou-xz]|s[bdfgijlqrv-xz]|t[acdgjl-npru-xz]|u[a-ln-rt-z]|v[b-df-rt-xz]|[hijqwxy][a-z]|z[a-df-y])\b',
+  '\b[a-z]+i(?:a[abf-kmo-qu-z]|b[a-df-rt-z]|c[b-df-jl-ru-xz]|d[b-df-np-rt-xz]|e[a-ceg-kno-qvyz]|f[a-dghj-ru-xz]|g[b-dfgij-lp-rt-xz]|k[a-df-rt-xz]|l[bcg-ju-xz]|m[cdf-hj-nqrt-xz]|n[bfhijlm-ru-wz]|o[a-ce-ko-qu-z]|p[a-df-hj-ru-xz]|r[a-cf-jqou-xz]|s[bdfgijlqrv-xz]|t[acdgjl-nprt-xz]|u[a-ln-z]|v[b-df-rt-xz]|[hijqwxy][a-z]|z[a-df-y])\b',
   'Words of >= 4 characters ending i**'
 ),
 (
   'NameRegExJ', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+j(?:[a-df-z][a-z]|e[a-su-z])\b',
+  '\b[a-z]+j[a-z][a-z]\b',
   'Words of >= 4 characters ending j**'
 ),
 (
@@ -250,7 +250,7 @@ VALUES
 (
   'NameRegExO', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+o(?:a[a-cg-joqu-z]|b[a-df-rt-z]|c[a-jl-ru-z]|e[bce-qs-xz]|f[a-ru-xz]|i[be-kmo-qu-z]|j[a-z]|l[bcghjm-ru-xz]|m[cf-rt-xz]|n[bcfhijl-ru-xz]|o[a-ceg-joqu-z]|[kp][b-df-rt-xz]|q[a-z]|r[cf-jlo-ru-wz]|s[a-dfgj-ln-ru-xz]|t[a-dfgi-np-ru-xz]|u[a-ce-km-oqu-z]|[dv][a-df-rt-xz]|w[a-df-kmo-rt-xz]|[gx][a-rt-xz]|[hy][a-rt-z]|z[a-df-xz])\b',
+  '\b[a-z]+o(?:a[a-cg-joqu-z]|b[a-df-rt-z]|c[a-jl-ru-z]|e[bce-qs-xz]|f[a-ru-xz]|i[be-kmo-qu-z]|j[a-z]|l[bcghjm-ru-xz]|m[cf-rt-xz]|n[bcfhijl-ru-xz]|o[a-ceg-joqu-z]|[kp][b-df-rt-xz]|q[a-z]|r[cf-jlo-ru-wz]|s[a-dfgj-ln-ru-xz]|t[a-dfgi-np-ru-xz]|u[a-ce-km-oqu-z]|[dvz][a-df-xz]|w[a-df-kmo-rt-xz]|[gx][a-rt-xz]|[hy][a-rt-z])\b',
   'Words of >= 4 characters ending o**'
 ),
 (
@@ -280,13 +280,13 @@ VALUES
 (
   'NameRegExT', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+t(?:a[acdfh-koqu-wz]|c[a-gi-z]|e[bcf-hjkoqu-wz]|h[b-df-ln-rt-xz]|i[bfhi-kqu-z]|l[a-df-xz]|o[a-df-ktuvz]|r[b-df-np-su-xz]|s[a-fg-tv-xz]|t[b-df-np-rt-xz]|u[acf-oqt-z]|[bdfgjkmnpqv-z][a-z])\b',
+  '\b[a-z]+t(?:a[acdfh-koqu-wz]|c[a-gi-z]|e[bcf-hjkoqu-wz]|h[b-df-ln-rt-xz]|i[bfhi-kqu-z]|l[a-df-xz]|o[a-df-ktuvz]|r[b-df-np-su-xz]|s[a-fg-tv-xz]|t[a-df-rt-xz]|u[acf-oqt-z]|[bdfgjkmnpqv-z][a-z])\b',
   'Words of >= 4 characters ending t**'
 ),
 (
   'NameRegExU', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+u(?:a[a-df-km-su-xz]|b[a-df-ru-xz]|c[b-dfgijl-su-xz]|d[a-df-np-rt-xz]|e[a-cf-km-qu-xz]|f[a-eg-ru-z]|g[a-dfgi-rt-xz]|[hy][a-rt-z]|i[fh-kqru-y]|k[a-df-xz]|l[cghjmnqru-xz]|m[cdf-moqru-xz]|n[bcfh-jl-ru-xz]|o[a-qt-xz]|p[a-df-ru-xz]|r[acghjqv-xz]|s[bdfgijl-ru-xz]|t[a-dfgi-ru-xz]|u[a-ln-z]|v[a-df-rt-xz]|[jqwxz][a-z])\b',
+  '\b[a-z]+u(?:a[a-df-km-su-xz]|b[a-df-ru-xz]|c[b-dfgijl-su-xz]|d[a-df-np-rt-xz]|e[a-cf-km-qu-xz]|f[a-eg-ru-z]|[gt][a-dfgi-rt-xz]|[hy][a-rt-z]|i[fh-kqru-y]|k[a-df-xz]|l[cghjmnqru-xz]|m[cdf-moqru-xz]|n[bcfh-jl-ru-xz]|o[a-qt-xz]|p[a-df-ru-xz]|r[acghjlqv-xz]|s[bdfgijl-ru-xz]|u[a-ln-z]|v[a-df-rt-xz]|[jqwxz][a-z])\b',
   'Words of >= 4 characters ending u**'
 ),
 (
@@ -316,7 +316,7 @@ VALUES
 (
   'NameRegExZ', '#00a0ff', 'Name', 'NAME', 'Regular expression',
   1, 0, 1, 2,
-  '\b[a-z]+z(?:[ai][a-rt-z]|[b-df-hjkmnp-z][a-z]|e[a-ce-mo-qt-z]|l[a-df-z]|o[b-rt-z])\b',
+  '\b[a-z]+z(?:a[a-rt-z]|[b-df-kmnp-z][a-z]|e[a-ce-mo-qt-z]|l[a-df-z]|o[b-rt-z])\b',
   'Words of >= 4 characters ending z**'
 ),
 (
