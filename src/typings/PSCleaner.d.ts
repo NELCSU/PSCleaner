@@ -56,22 +56,22 @@ export type TrainingFileResponse = "training-file-deleted" | "training-file-dele
 export type TrainingFolderRequest = "get-training-folder" | "set-training-folder";
 export type TrainingFolderResponse = "training-folder" | "training-file-count" | "training-folder-error";
 
+export type SearchTerm = {
+  allow_suffix: number,
+  id: number,
+  keyword: string
+};
+
 export type SearchTermResult = {
+  allow_suffix: number,
   id: number,
   keyword: string,
-  original_term?: string,
-  pos?: string,
-  start: number
+  word: WordPosition
 };
 
 export type MatchedEntity = {
   entity: Entity,
-  id: number,
-  value: string,
-  start: number,
-  pos?: string,
-  end: number,
-  length: number
+  search_value: SearchTermResult
 };
 
 export type RegExpEntity = {

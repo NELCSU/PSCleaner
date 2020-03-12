@@ -4583,7 +4583,6 @@ VALUES
 ('Footways'),
 ('Fop'),
 ('Fopston'),
-('for'),
 ('Foradale'),
 ('Foraness'),
 ('Forb'),

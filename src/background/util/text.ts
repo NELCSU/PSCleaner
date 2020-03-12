@@ -17,5 +17,5 @@ export function cleanText(text: string): string {
  * @param text - text to test for apostrophe character
  */
 export function isApostrophe(text: string): boolean {
-  return text === "'" || text === "’" || text === "`";
+  return text === "'" || text === "‘" || text === "’" || text === "`";
 }
