@@ -1,20 +1,30 @@
 export const Religion: string[] = [
 // A
-"animism", "animist", "armenian apostolic",
+"anglican", "animism", "animist", "anito", "anitist", "armenian apostolic",
+// B
+"batak", "bathouism", "buddhism", "bulgarian orthodox",
 // C
 "calvinism", "calvinist", "catholic", "catholicism", "christian", "christianity",
 // E
 "eastern orthodox", "ethiopian orthodox",
 // H
-"hindu", "hinduism",
+"hanafi", "hindu", "hinduism",
 // I
-"islam",
+"islam", "isma",
+// L
+"lisu", "lutheran",
+// M
+"moism",
+// N
+"native american",
 // P
 "protestant",
+// R
+"russian orthodox",
 // S
-"sunni",
+"sarnaism", "shia", "sunni",
 // T
-"tewahedo",
+"tewahedo", "theravada", "traditional african",
 // W
 "west african vodun"
 ];

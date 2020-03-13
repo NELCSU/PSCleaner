@@ -2,8 +2,8 @@ import DB, { DataObject } from "sqlite3-helper";
 import type { Entity, MatchedEntity, RegExpEntity, SearchTerm, SearchTermResult, WordPosition } from "../typings/PSCleaner";
 import { Entities } from "./entities";
 import { deepCopy } from "./util/deepCopy";
-import { LocationDesignations } from "./rules/location-designation";
-import { Territories } from "./rules/territory";
+import { LocationDesignator } from "./rules/location-designation";
+import { Territory } from "./rules/territory";
 import { isApostrophe } from "./util/text";
 
 /**
