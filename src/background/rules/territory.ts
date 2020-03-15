@@ -82,9 +82,71 @@ export const Territory: string[] = [
 South Sulawesi 
 Gilgit-Baltistan
 Buton
+Hezhou
+Gujarat
+Darién
+Kogi State 
+Guizhou
+Székely
+Felvidék
+Kivu
+Burundi
+Sarawak
+Cagayan
+Southern Schleswig
+Bandiagara
+Dagestan
+Jammu Division
+Gondwana
+Gorontalo
+Brong-Ahafo, Volta
+Misiones
+Benishangul-Gumuz
+Guragia
+Gurmaland
+Hadiya
+Yunnan
+Hararia
+Hausaland
+Hawaii
+Hazarajat
+Hereroland
+Budjak
+Galicia
+Buganda
+Saint Vincent and the Grenadines
+Garo Hills
+Bener Meriah
+Gedeo Zone
+Guizhou
+Aceh
+Gayo Lues
+Chuuk Lagoon
+Esanland
+Río Muni
+Greater Accra
+Gagauzia
+Fiji
+Flanders
+Dahomey
+Romandy 
+Aosta Valley 
+Frisia
+Friuli
+Damaraland
+Cornwall
+Corsica
+Cuyo Archipelago
+Kingdom of Dagbon
+Alberta, Saskatchewan, Manitoba, Ontario, Quebec, Newfoundland, Labrador
+Circassia
+Chittagong
+Chuvashia
 Mariana Islands
 Champa
 Chechnya
 North Carolina
+Alabama,Florida, Mississippi,Louisiana
+Chin State
 Tennessee
 */

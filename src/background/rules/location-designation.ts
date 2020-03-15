@@ -33,7 +33,7 @@ export const LocationDesignator: string[] = [
 "gill", "gills", "glacier", "glade", "glades", "glen", "glens", "gorge", "gorse", "grange", "grass", "grave",
 "green", "greens", "ground", "grounds", "grove", "groves",
 // H
-"hall", "halls","halt",  "hangar", "hanger", "harbour", "hatch", "haven", "head", "heads", "heath", "heaths",
+"hall", "halls", "halt", "hangar", "hanger", "harbour", "hatch", "haven", "head", "heads", "heath", "heaths",
 "heavens", "hedge", "hedges", "heights", "heliport", "highway", "highways", "hill", "hillock", "hillocks",
 "hills", "hole", "holes", "hollow", "hollows", "home", "hospice", "hospital", "hotel", "house", "houses",
 // I

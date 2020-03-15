@@ -17,6 +17,7 @@
     "jschardet": "^2.1.1",
     "json-stringify-pretty-compact": "^2.0.0",
     "make-dir": "^3.0.2",
+    "minimist": "^1.2.5",
     "node-abi": "^2.15.0",
     "node-pre-gyp": "^0.14.0",
     "sqlite3": "^4.1.1",

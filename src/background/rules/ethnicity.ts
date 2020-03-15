@@ -7,26 +7,27 @@ export const Ethnicity: string[] = [
 "acholi", "adjoukrou", 
 "afar", "afemai", "african", "afrikaner", "afshar", "agaw", "aguri", "ahafo", "ahanta", "ahom", "aimaq", "aja", 
 "akan", "akha", "akhdam", "akuapem", "akwamu", "akyem", "al balushi", "alawite", "albanian", "albayanon", "algerian", 
-"alur", "amarar", "ambonese", "ambundu", "american", "amhara", "amis", "anaang", "aneuk jamee", "angolar", 
+"alur", "amarar", "ambonese", "ambundu", "american", "amhara", "amis", "anaang", "andorran", "aneuk jamee", "angolar", 
 "angkola", 
-"antiguan", "anyi", "anuak", "aowin", "apache", "arab", "argobba", "armeno-tat", "armenian", "aromanian", 
-"arvanite", "ashanti", "askani", "assin", "assyrian", "atoni", "attie", "atyap", "austrian", "avar", 
-"avatime", "avikam", "awadhi", "awi", "awjila", "aymara", "ayrum", "azerbaijani",
+"antiguan", "anyi", "anuak", "aowin", "apache", 
+"arab", "argobba", "armeno-tat", "armenian", "aromanian", "arvanite", 
+"ashanti", "askani", "assin", "assyrian", "atoni", "attie", "atyap", "austrian", 
+"avar", "avatime", "avikam", "awadhi", "awi", "awjila", "aymara", "ayrum", "azerbaijani",
 // B
 "bagdi", "baggara", "bahamian", "bahnar", "bahraini", "bai", "baidya", "baishya", "bakossi", "bali aga", 
 "balinese", "balanta", "balti", "bajkani", "bakati", "balkar", "baloch", "bamar", "bambara", "bamileke", "bamum", 
-"banda", "i", "bangulzai", "banjarese", 
-"baoulé", "baoule", "barazani", "barbadian", "barbudan", "barda", "barhai", "bari", "bariba", "barujibi", 
-"bashkir", "basque", "bassa", "baster", "batak", "bauri", "bayat", "bedouin", "beja", "belarusian", 
-"belizean", "bemba", "bembe", "beni-amer", "bengali",
+"banda", "i", "bangulzai", "banjarese", "baoulé", "baoule", "barazani", "barbadian", "barbudan", "barda", 
+"barhai", "bari", "bariba", "barujibi", "bashkir", "basque", "bassa", "baster", "batak", "bauri", "bayat", 
+"bedouin", "beja", "balearic", "belarusian", "belizean", "bemba", "bembe", "beni-amer", "bengali",
 "berber", "berom", "berta", "betawi", "beti", "bhadralok", "bhagalia", "bhil", "bhilala", 
 "bhojpuri", "bhumij", "bhurgari", "biatah", "bicolano", "bidayuh", "bilala", "bilen", "bishari", 
 "bishnupriya manipuri", "bissa", "blaan", "boa", "bodo", "boer", 
 "bolivian", "bosniak", "bosnian", "botswanan", "bouyei", "bozo", "braber", "brahmin", "brahui", "brazilian", 
 "breton", "brong", "bru", "budu", "buduma", "buginese", "bugti", "bukar sadong", "buledi", "bulgarian", "burmese",
+"burusho", "butonese", "bwa",
 // C
-"catandunganon", "chandio", "chakosi", "chaldean", "cham", "chaoui", "chaudhri", "chenoua", "cherkesogai", 
-"chiricahua", "chunaru", "comorian", "creole", "curaçaoan", "curacaoan",
+"catandunganon", "catalan", "chandio", "chakosi", "chaldean", "cham", "chamorro", "chaoui", "chaudhri", 
+"chechen", "chenoua", "cherkesogai", "cherokee", "chiricahua", "chunaru", "comorian", "creole", "curaçaoan", "curacaoan",
 // D
 "damor", "danu", "darzada", "dehwar", "dhofari", "dholi", "dodai", "dombki", "dominican", "doms", 
 "druze", "dungri", "dutch",
@@ -48,7 +49,7 @@ export const Ethnicity: string[] = [
 // K
 "kabyle", "kakwa", "kalmati", "kansabanik", "kapali", "karabakhi", "karadaghi", "karmakar", "karo", 
 "katanga", "kataria", "kayastha", "kembayan", "kendayan",
-"khetran", "kimbundu", "kipchak", "kosovar", 
+"khetran", "kimbundu", "kipchak", "kist", "kosovar", 
 "küresünni", "kuku", "kluet", "kunara", "kuresunni", "kuwaiti",
 // L
 "langhani", "lango", "lara", "lashkrani", "luapula", "lebanese", "liberian", "libyan", "lipan", "loharani", "lund",
@@ -80,7 +81,7 @@ export const Ethnicity: string[] = [
 // U
 "umrani",
 // V
-"vasava",
+"valencian", "vasava",
 // W
 "wassa", "white",
 // X
@@ -90,344 +91,306 @@ export const Ethnicity: string[] = [
 // Z
 "zagar", "zakria zae", "zanzibari", "zardari"
 /*
-Burusho
-Butonese
-Bwa
-Catalans
-Valencians
-Balearics
-Andorrans
-Chamorro
-Chams
-Chechens
-Kists
-Cherokee
-
-<td><title="Chin people">Chin
-<a href="/wiki/Kuki-Chin%E2%80%93Naga_languages" title="Kuki-Chin–Naga languages">Kuki-Chin–Naga<sup id="cite_ref-Chin–Naga_95-0"><a href="#cite_note-Chin–Naga-95"></sup><title="Chin State">Chin State ()
-<title="Thadou people">Thadou, <title="Paite people">Paite, <title="Simte people">Simte, <title="Zou people">Zou, <title="Lamkang language">Lamkang, <a href="/wiki/Kom_people_(Manipur)" title="Kom people (Manipur)">Kom, <title="Lushai">Lushai, <title="Hmar people">Hmar, <title="Koireng">Koireng, <title="Mizo people">Mizo, <title="Aimol people">Aimol, <a href="/wiki/Mru_people_(Awa_Khami)" title="Mru people (Awa Khami)">Mru, <a href="/wiki/Mru_people_(Mrucha)" title="Mru people (Mrucha)">Mrucha (including <title="Anu-Hkongso language">Anu-Hkongso), <title="Bawm people">Bawm, <title="Biate people">Biate, <title="Asho Chin people">Asho
-
-<td><title="Choctaw">Choctaw<title="Muskogean languages">Muskogean → <title="Choctaw language">Choctaw
-United States (<title="Alabama">Alabama, <title="Florida">Florida, <title="Mississippi">Mississippi, <title="Louisiana">Louisiana)
-<sup><title="Native American religion">Native American religion
-
-<td><title="Chokwe people">Chokwe
-<title="Chokwe language">Chokwe, ,Zambia
-
-<td><title="Chutiya people">Chutiya
-<title="Deori language">Deori
-<title="Assam">Assam ()
-<title="Deori people">Deori
-
-<td><title="Chuukese people">Chuukese
-<title="Micronesian languages">Micronesian → <title="Chuukese language">Chuukese<title="Chuuk Lagoon">Chuuk Lagoon (<title="Federated States of Micronesia">Federated States of Micronesia)
-
-<td><title="Chuvash people">Chuvash
-<title="Oghur languages">Oghur → <title="Chuvash language">Chuvash<title="Chuvashia">Chuvashia ()
-<title="Virjal">Virjal, <title="Anatri">Anatri
-
-<td><title="Circassians">Circassians<title="Northwest Caucasian languages">Northwest Caucasian → <title="Circassian languages">Circassian
-<title="Circassia">Circassia ()
-<title="Adyghe people">Adygeans, <title="Kabardians">Kabardians, <title="Cherkess">Cherkess, <title="Shapsugs">Shapsugs
-
-<td><title="Chakma people">Chakmas
-<title="Chakma language">Chakma<title="Chittagong Hill Tracts">Chittagong Hill Tracts ()
-
-<td><title="Chewa people">Chewa
-<title="Chewa language">Chewa<title="Malawi">Malawi,Zambia, Zimbabwe, <title="Mozambique">Mozambique
-
-<td><title="Copts">Copts
-<title="Coptic language">Coptic<sup ></sup><title="Egypt">Egypt
-15-<title="Sudan">Sudan and <title="Libya">Libya along with <title="Coptic diaspora">significant populations in United States, Canada and <title="Australia">Australia
-→ <title="Coptic Orthodox Church of Alexandria">Coptic Orthodoxy
-
-<td><title="Cornish people">Cornish
-<title="Celtic languages">Celtic → <title="Cornish language">Cornish
-<title="Cornwall">Cornwall (<title="United Kingdom">United Kingdom)
-<title="Cornish diaspora">Significant populations in the <title="Cornish Americans">United States and <title="Cornish Australians">Australia
-
-<td><title="Corsicans">Corsicans
-<title="Corsican language">Corsican
-<title="Corsica">Corsica (France)
-
-<td><title="Cree">Cree
-<title="Algonquian languages">Algonquian → <title="Cree language">Cree
-Canada (<title="Alberta">Alberta, <title="Saskatchewan">Saskatchewan, <title="Manitoba">Manitoba, <title="Ontario">Ontario, <title="Quebec">Quebec, <title="Newfoundland and Labrador">Newfoundland and Labrador)
-<title="Innu">Innu, <title="Naskapi">Naskapi, <title="Atikamekw">Atikamekw, <title="Grand Council of the Crees">James Bay Cree, <title="Moose Cree">Moose Cree, <title="Swampy Cree">Swampy Cree, <title="Woods Cree">Woods Cree, <title="Plains Cree">Plains Cree, <a href="/wiki/M%C3%A9tis" title="Métis">Métis (including <a href="/wiki/M%C3%A9tis_in_Canada" title="Métis in Canada">Métis in Canada), <title="Oji-Cree">Oji-Cree
-
-<td><title="Croats">Croats
-<title="Croatian language">Croatian<title="Croatia">Croatia, <title="Federation of Bosnia and Herzegovina">Federation of Bosnia and Herzegovina (<title="Bosnia and Herzegovina">Bosnia and Herzegovina)
-<title="Bunjevci">Bunjevci, <title="Krashovani">Krashovani, <title="Janjevci">Janjevci, <title="Sokci">Sokci, <title="Croats of Bosnia and Herzegovina">Bosnian Croats, along with <title="Croatian diaspora">significant populations in <title="Croats of Italy">Italy (including <title="Molise Croats">Molise Croats), <title="Burgenland Croats">Austria, <title="Croatian Americans">United States, <title="Croatian Chileans">Chile, <title="Croatian Argentines">Argentina, <title="Croats in Germany">Germany, <title="Croatian Australians">Australia and <title="Croatian Canadians">Canada
-
-<td><title="Cuyunon people">Cuyunon
-<title="Visayan languages">Visayan → <title="Cuyonon language">Cuyonon<title="Cuyo Archipelago">Cuyo Archipelago ()
-
-<td><title="Czechs">Czechs
-<title="Czech language">Czech<title="Czech Republic">Czech Republic
-<title="Bohemian">Bohemians, <title="Moravians">Moravians, <title="Czech Silesia">Silesians, along with <title="Czech diaspora">significant populations in <title="Czech Americans">United States and <title="Czech Canadians">Canada
-
-<td><title="Dagaaba people">Dagaaba
-<title="Dagaare language">Dagaare<title="Ghana">Ghana, 
-
-<td><title="Dagomba people">Dagombas
-<title="Dagbani language">Dagbani<title="Kingdom of Dagbon">Kingdom of Dagbon (<title="Ghana">Ghana)
-
-<td><title="Damara people">Damara<title="Khoe languages">Khoe → <title="Khoekhoe language">Khoekhoe<title="Damaraland">Damaraland ()
-
-<td><title="Danes">Danes
-<title="North Germanic languages">Nordic → <title="Danish language">Danish<title="Denmark">Denmark
-Significant populations in the <title="Danish Americans">United States, <title="Danish Canadians">Canada, <title="Danish people in Greenland">Greenland, and <title="Danish minority of Southern Schleswig">Germany.
-
-<td><title="Dargins">Dargins
-<title="Dargwa language">Dargwa<title="Dagestan">Dagestan ()
-<title="Kajtak language">Kajtak, <title="Kubachi language">Kubachi, <title="Itsari language">Itsari, <title="Chirag language">Chirag
-
-<td><title="Dinka people">Dinka
-<title="Dinka language">Dinka<title="South Sudan">South Sudan
-
-<td><title="Dogon people">Dogon
-<title="Dogon languages">Dogon
-<title="Bandiagara Escarpment">Bandiagara Escarpment (<title="Mali">Mali)
-<sup id="cite_ref-John_A._Shoup_III_119-0"><a href="#cite_note-John_A._Shoup_III-119"></sup><title="Ampari Dogon">Ampari Dogon
-
-<td><title="Dogra">Dogra
-<title="Dogri language">Dogri<title="Jammu Division">Jammu Division ()
-
-
-<td><title="Dongxiangs">Dongxiangs<title="Mongolic languages">Mongolic → <title="Santa language">Santa<title="Linxia Hui Autonomous Prefecture">Hezhou (China)
-<title="Islam in China">Sunni Islam
-
-<td><title="Dubla">Dubla
-<title="Bhil languages">Bhil → <title="Dubli language">Dubli<sup ></sup><title="Gujarat">Gujarat ()
-
-
-<td><title="Dutch people">Dutch
-<title="Dutch language">Dutch<title="Netherlands">Netherlands
-<a href="/wiki/Groningen_(province)" title="Groningen (province)">Gronings, <title="Demographics of Aruba">Arubans, <title="Bonaire">Bonairians, <a href="/wiki/Cura%C3%A7ao" title="Curaçao">Curaçaoans, <title="Saba">Sabans, <title="Sint Maarten">St. Maarteners, <title="Sint Eustatius">St. Eustatians, <title="Surinamese people">Surinamese, <title="Mennonites">Mennonites (including <title="Russian Mennonite">Russian Mennonites), <title="Indo people">Indos, <title="Dutch Burghers">Dutch Burghers, along with <title="Dutch diaspora">significant populations in the <title="Dutch Americans">United States, <title="Dutch Canadians">Canada, <title="Dutch Australians">Australia, and <title="Dutch New Zealanders">New Zealand
-
-<td><title="Dyula people">Dyula
-<title="Dyula language">Dyula, <title="Ivory Coast">Ivory Coast, <title="Mali">Mali
-
-<td><title="Ebira people">Ebira
-<title="Nupoid languages">Nupoid → <title="Ebira language">Ebira<title="Kogi State">Kogi State ()
-
-<td><title="Edo people">Edo
-<title="Edoid languages">Edoid → <title="Edo language">Edo<title="Edo State">Edo State ()
-<title="Ika people">Ika, <title="Emai people">Emai
-
-<td><title="Efik people">Efik
-<title="Efik language">Efik<title="Cross River State">Cross River State ()
-[<i><span title=" (June 2019)">
-
-<td><title="Ekoi people">Ekoi
-<title="Jagham language">Ekoi, <title="Cameroon">Cameroon
-[<i><span title=" (June 2019)">
-
-<td><a href="/wiki/Ember%C3%A1" title="Emberá">Emberá<title="Choco languages">Choco → <title="Embera language">Embera<a href="/wiki/Choc%C3%B3_Department" title="Chocó Department">Chocó Department (<title="Colombia">Colombia), <title="Panama">Panama (<a href="/wiki/Dari%C3%A9n_Province" title="Darién Province">Darién, <a href="/wiki/Comarca_Ember%C3%A1-Wounaan" title="Comarca Emberá-Wounaan">Emberá)
-<title="Shamanism">Shamanism
-
-<td><title="English people">English
-<title="English language">English<title="England">England (<title="United Kingdom">United Kingdom)<sup ></sup>
-<title="British Empire">numerous colonial descendants such as <title="Americans">Americans, <title="Canadians">Canadians, <title="Australians">Australians, <title="New Zealanders">New Zealanders, <title="White Bahamian">White Bahamians, <title="White Barbadian">White Barbadians, <title="Demographics of the Cayman Islands">Cayman Islanders, <a href="/wiki/White_Dominican_(Dominica)" title="White Dominican (Dominica)">White Dominiquais, <title="White Jamaicans">White Jamaicans, <title="White people in Botswana">White Botswanans, <title="White people in Kenya">White Kenyans, <title="White Saint Helenians">White Saint Helenians, <title="White people in Zambia">White Zambians, <title="White people in Zimbabwe">White Zimbabweans, <title="Anglo-Burmese people">Anglo-Burmese, <title="Anglo-Indian">Anglo-Indians, <title="Britons in Hong Kong">British Hongkongers, and <title="Europeans in Pakistan">White Pakistanis
-
-<td><title="Esan people">Esan
-<title="Edoid languages">Edoid → <title="Esan language">Esan<title="Esanland">Esanland ()
-
-<td><title="Estonians">Estonians<title="Uralic languages">Uralic → <title="Finnic languages">Finnic → <title="Estonian language">Estonian<title="Estonia">Estonia
-<a href="/wiki/V%C3%B5ros" title="Võros">Võros, <title="Setos">Setos
-
-<td><title="Ewe people">Ewe
-<title="Ewe language">Ewe<title="Togo">Togo, <title="Ghana">Ghana
-<title="Anlo Ewe">Anlo Ewe, <title="Waci language">Waci
-
-<td><title="Fang people">Fang
-<title="Beti language">Beti → <title="Fang language">Fang<a href="/wiki/R%C3%ADo_Muni" title="Río Muni">Río Muni (<title="Equatorial Guinea">Equatorial Guinea), <title="Gabon">Gabon
-
-<td><title="Fijians">Fijians
-<title="Fijian language">Fijian<title="Fiji">Fiji
-→ <title="Methodism">Protestantism
-
-<td><title="Finns">Finns<title="Uralic languages">Uralic → <title="Finnic languages">Finnic → <title="Finnish language">Finnish<title="Finland">Finland
-<title="Kvens">Kvens, <title="Forest Finns">Forest Finns, <title="Tornedalians">Tornedalians, <title="Ingrian Finns">Ingrian Finns, along with significant populations in <title="Sweden Finns">Sweden, <title="Finnish Americans">United States, and <title="Finnish Canadians">Canada.
-
-<td><title="Flemish people">Flemings
-<title="Dutch language">Dutch<title="Flanders">Flanders ()
-
-<td><title="Fon people">Fon
-<title="Fon language">Fon<title="Dahomey">Dahomey (<title="Benin">Benin)
-<title="Ogu people">Egun
-
-<td><title="French people">French
-<title="French language">FrenchFrance, <title="Romandy">Romandy (<title="Switzerland">Switzerland), <title="Aosta Valley">Aosta Valley (<title="Italy">Italy)
-<title="Arpitania">Arpitans, <title="Burgundy">Burgundians, <title="Champenois language">Champenois, <a href="/wiki/Franche-Comt%C3%A9" title="Franche-Comté">Free Countians, <title="Gallo language">Gallo, <title="Lorraine">Lorrainers, <title="Normandy">Normans (including <title="Channel Islands">Channel Islanders), <title="Picardy">Picards, <title="Poitou">Poitevins (including <title="Saintonge">Saintongeais), <a href="/wiki/Saint_Barth%C3%A9lemy" title="Saint Barthélemy">Barthélemoise, <title="Collectivity of Saint Martin">Saint-Martinois, <title="Demographics of French Guiana">French Guianese, <title="Caldoche">Caldoche, <a href="/wiki/R%C3%A9union" title="Réunion">Réunionese (including <title="Zoreilles">Zoreilles), <title="Demographics of Saint Pierre and Miquelon">Saint-Pierrais, along with <title="French diaspora">numerous colonial descendants such as <title="Pied-Noir">Pieds-Noirs, <title="French Canadians">French Canadians (including <a href="/wiki/Qu%C3%A9b%C3%A9cois_people" title="Québécois people">Quebecers, <title="Acadians">Acadians, and <a href="/wiki/M%C3%A9tis" title="Métis">Métis), <title="Louisiana Creole people">Louisianians (including <title="Creoles of color">Creoles of color and <title="Cajuns">Cajuns), <title="French Haitians">French Haitians, <title="French people in Madagascar">French Malagasy, <title="Mauritian of French origin">Franco-Mauritians, and <title="Franco-Seychellois">Franco-Seychellois
-
-<td><title="Frisians">Frisians
-<title="Frisian languages">Frisian
-<title="Frisia">Frisia (<title="Netherlands">Netherlands, <title="Germany">Germany)
-<title="West Frisians">West Frisians, <title="East Frisians">East Frisians, <title="North Frisians">North Frisians
-
-<td><title="Friulians">Friulians
-<title="Friulian language">Friulian<title="Friuli">Friuli (<title="Italy">Italy)
-
-<td><title="Fula people">Fula
-<title="Fula language">Fula<title="West Africa">West Africa (, , <title="Mali">Mali, <title="Mauritania">Mauritania, , <title="Cameroon">Cameroon, <title="Niger">Niger, , <title="Benin">Benin, <title="Chad">Chad)
-20–<title="Wodaabe">Wodaabe, <title="Haratin">Haratin, <title="Fouta Djallon">Fula Jalon, <title="Futa Tooro">Fulakunda, <title="Maasina Fulfulde">Maasina Fulfulde
-
+Thadou
+Paite
+Simte
+Zou
+Lamkang
+Kom
+Lushai
+Hmar
+Koireng
+Mizo
+Aimol
+Mru
+Mrucha
+Bawm
+Biate
+Asho
+Choctaw
+Chokwe
+Chutiya
+Deori
+Chuukese
+Chuvash
+Virjal
+>Anatri
+Circassian
+Adygean
+Kabardian
+Cherkes
+Shapsug
+Chakma
+Chewa
+Copt
+Cornish
+Corsican
+Cree
+Innu
+Naskapi
+Atikamekw
+James Bay Cree
+Moose Cree
+Swampy Cree
+Woods Cree
+Plains Cree
+Métis
+Oji-Cree
+Croats
+Bunjevci
+Krashovani
+Janjevci
+Sokci
+Molise
+Cuyunon
+Czech
+Bohemian
+Moravian
+Silesian
+Dagaaba
+Dagomba
+Damara
+Dane, Danish
+Dargin
+Dinka
+Dogon
+Dogra
+Dongxiang
+Dubla
+Dutch
+Groning
+Aruban
+Bonairian
+Curaçaoan
+Saban
+St Maartener
+St Eustatian
+Surinamese
+Mennonite
+Dyula
+Ebira
+Edo
+Ika
+Emai
+Efik
+Ekoi
+Emberá
+English
+Cayman Islander
+Dominiquai
+Jamaican
+Botswanan
+Kenyan
+Saint Helenian
+Zambian
+Burmese
+Indian
+Hongkonger
+Pakistani
+Esan
+Estonian
+Võros
+Setos
+Ewe
+Fang
+Fijian
+Finn
+Finnish
+Kven
+Forest Finn
+Tornedalian
+Ingrian Finn
+Flemish
+Fon
+Egun
+French
+Arpitan
+Burgundian
+Lorrainer
+Norman
+Channel Islander
+Picard
+Poitevin
+Saintongeais
+Barthélemoise
+Saint-Martinois
+French Guianese
+Caldoche
+Réunionese
+Zoreilles
+Haitian
+Malagasy
+Mauritian
+Seychellois
+Frisian
+Friulian
+Fula
+Wodaabe
+Haratin
+Fula Jalon
+Fulakunda
+Maasina Fulfulde
 Ga-Adangbe
-<a href="/wiki/Ga%E2%80%93Dangme_languages" title="Ga–Dangme languages">Ga–Dangme
-<title="Greater Accra">Greater Accra (<title="Ghana">Ghana)
-<title="Ga language">Ga, <title="Dangme language">Adangbe
+Gagauz
+Galician
+Ganda
+Abayudaya
+Garifuna
+Carib
+Garo
+Gayonese
+Gbagyi
+Gbaya
+Mandja
+Gedeo
+Gelao
+Georgian
+Adjarian
+Mingrelian
+Svan
+Tushetian
+Batsbi
+Meskhetian
+German
+Franconian
+Hessian
+Hunsrik
+Saxon
+Swabian
+Danube Swabian
+Rhinelander
+Colognian
+Alsatian
+Liechtensteiner
+Pomeranian
+Volga German
+Baltic
+Silesian
+Carpathian German
+Transylvanian
+Amish
+Hutterite
+Mennonite
+Gola
+Gondi
+Muria
+Koya
+Gorontaloan
+Greek
+Cypriot
+Pontic
+Cappadocian
+Sarakatsani
+Urum
+Griko
+Macedonian 
+Guan
+Gonja
+Kyode
+Cherepon
+Efutu
+Guaraní
+Chiriguano
+Mestizo
+Paraguayan
+Gujarati
+Koli
+Bharwad
+Khoja
+Patidar
+Sunni Bohra
+Lohana
+Vagri
+Kharva
+Charan
+Baria
+Momna
+Ghanchi
+Shenva
+Bhambi Khalpa
+Zarabes
+Bhoi
+Gumuz
+Gurage
+Zay
+Gurma
+Bimoba
+Gurunsi
+Kabye
+Tem
+Lamba
+Nuna
+Kassena
+Hadiya
+Han
+Subei
+Cantonese
+Taishanese
+Hongkonger
+Tanka
+Chuanqing
+Macanese
+Hui
+Fujianese
+Fuzhounese
+Hainanese
+Hoklo
+Hui'an
+Putianese
+Teochew
+Gaoshan
+Hakka
+Ngái
+Hebei
+Hunanese
+Jianghuai
+Shandong
+Sichuanese
+Wu
+Shanghainese
+Ningbonese
+Wenzhou
+Taiwanese
+Peranakan
+Singaporean
+Thai
+Indonesian
+Sangley
+Peruvian
+Australian
+Hoa
+Japanese
+Laotian
+Hani
+Harari
+Hausa
+Hawaiian
+Hazara
+Herero
+OvaHimba
+Ovambanderu
+Hmong
+A-Hmao
+Gha-Mu
+Huli
+Hungarian
+Jasz
+Palóc
+Székely
+Csango
+Hutu
+Iban
+Dayak Mualang
+Ibanag
 
-<td><title="Gagauz people">Gagauz
-<title="Gagauz language">Gagauz<title="Gagauzia">Gagauzia (<title="Moldova">Moldova), <title="Budjak">Budjak (<title="Ukraine">Ukraine)
 
-
-<td><title="Galicians">Galicians
-<title="Galician language">Galician<a href="/wiki/Galicia_(Spain)" title="Galicia (Spain)">Galicia (<title="Spain">Spain)
-
-
-<td><title="Baganda">Ganda
-<title="Great Lakes Bantu languages">Great Lakes → <title="Luganda">Luganda<title="Buganda">Buganda (<title="Uganda">Uganda)
-<title="Abayudaya">Abayudaya
-
-<td><title="Garifuna">Garifuna<title="Arawakan languages">Arawakan → <title="Ta-Arawakan languages">Ta-Arawakan → <title="Garifuna language">Garifuna<sup ></sup><title="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines<sup ></sup>
-[<i><span title=" (June 2019)"><title="Black Carib">Black Caribs
-
-<td><title="Garo people">Garos
-<title="Garo language">Garo<title="Garo Hills">Garo Hills ()
-
-<td><title="Gayonese">Gayonese
-<a href="/wiki/Northwest_Sumatra%E2%80%93Barrier_Islands_languages" title="Northwest Sumatra–Barrier Islands languages">Northwest Sumatra–Barrier Islands → <title="Gayo language">Gayo (<title="Bener Meriah Regency">Bener Meriah, <title="Central Aceh Regency">Central Aceh, and <title="Gayo Lues Regency">Gayo Lues Regencies)
-
-<td><title="Gbagyi people">Gbagyi
-<title="Nupoid languages">Nupoid → <title="Gwari language">Gwari
-
-
-<td><title="Gbaya people">Gbaya
-<title="Gbaya languages">Gbaya
-<title="Central African Republic">Central African Republic, <title="Cameroon">Cameroon
-<sup id="cite_ref-The_Peoples_of_Africa:_An_Ethnohistorical_Dictionary_148-0"><a href="#cite_note-The_Peoples_of_Africa:_An_Ethnohistorical_Dictionary-148"></sup><title="Bokoto language">Bokoto, <title="Northwest Gbaya language">Kàrà, <title="Biyanda-Buli language">Buli (including <title="Toongo language">Toongo), <title="Ali language">Ali, <title="Mandja people">Mandja, <title="Gbeya language">Gbaya-Bossangoa, <title="Bozom language">Bozom, <title="Mbodomo language">Mbodomo, <title="Gbanu language">Gbanu, <title="Bangandu language">Bangandu
-
-<td><title="Gedeo people">Gedeo
- → <title="Gedeo language">Gedeo<title="Gedeo Zone">Gedeo Zone (
-Ethiopia)
-→ <a href="/wiki/P%27ent%27ay" title="P'ent'ay">Protestantism
-
-<td><title="Gelao people">Gelao<a href="/wiki/Kra%E2%80%93Dai_languages" title="Kra–Dai languages">Kra–Dai → <title="Kra languages">Kra → <title="Gelao language">Gelao<sup ></sup><title="Guizhou">Guizhou (China)
-<title="Taoism">Taoism
-
-<td><title="Georgians">Georgians<title="Kartvelian languages">Kartvelian → <title="Georgian language">Georgian<a href="/wiki/Georgia_(country)" title="Georgia (country)">Georgia
-<title="Adjarians">Adjarians, <title="Mingrelians">Mingrelians, <title="Svans">Svans, <title="Tushetians">Tushetians (including <title="Bats people">Bats), <title="Meskhetians">Meskhetians
-→ <title="Georgian Orthodox Church">Eastern Orthodoxy
-
-<td><title="Germans">Germans
-<title="German language">German<title="Germany">Germany, <title="Switzerland">Switzerland, <title="Liechtenstein">Liechtenstein
-100–<title="Bavarians">Bavarians, <title="Franconia">Franconians, <title="Hessian dialects">Hessians, <a href="/wiki/Hunsr%C3%BCck" title="Hunsrück">Hunsriks, <title="Saxony">Upper Saxons, <title="Lower Saxony">Lower Saxons, <title="Swabians">Swabians (including <title="Danube Swabians">Danube Swabians), <title="Rhineland">Rhinelanders (including <title="Cologne">Colognians), <title="Alsace">Alsatians, <title="German-speaking Switzerland">German Swiss, <title="Liechtensteiners">Liechtensteiners, <a href="/wiki/Pomeranians_(German_people)" title="Pomeranians (German people)">Pomeranians, <title="Volga Germans">Volga Germans, <title="Baltic Germans">Baltic Germans, <title="Silesian German">Silesian Germans, <title="Carpathian Germans">Carpathian Germans, <title="North Schleswig Germans">North Schleswig Germans, <title="German-speaking Community of Belgium">Eastern Belgians, <title="Transylvanian Saxons">Transylvanian Saxons, <title="Amish">Amish (including <title="Pennsylvania Dutch">Pennsylvania Dutch), <title="Hutterites">Hutterites, <title="Mennonites">Mennonites (including <title="Russian Mennonite">Russian Mennonites), along with <title="German diaspora">significant populations in the <title="German Americans">United States (including <title="German Texan">German Texans), <title="German Brazilians">Brazil, <title="German Mexicans">Mexico, <title="German Argentine">Argentina, <title="German Canadians">Canada, <title="German Chileans">Chile, <title="Kazakhstan Germans">Kazakhstan, <title="German Australians">Australia, and <title="German New Zealanders">New Zealand.
-
-<td><title="Gola people">Gola
-<title="Gola language">Gola<title="Liberia">Liberia, 
-
-<td><title="Gondi people">Gonds<title="Gondi language">Gondi<sup ></sup><a href="/wiki/Gondwana_(India)" title="Gondwana (India)">Gondwana ()
-<title="Godha">Godha, <title="Madia Gond">Madia Gonds, <title="Muria people">Muria, <a href="/wiki/Koya_(tribe)" title="Koya (tribe)">Koya
-
-<td><title="Gorontaloan people">Gorontaloans
-<title="Gorontalo language">Gorontaloan<title="Gorontalo">Gorontalo 
-
-<td><title="Greeks">Greeks
-<title="Greek language">Greek<title="Greece">Greece, <title="Cyprus">Cyprus
-<title="Greek Cypriots">Greek Cypriots, <title="Pontic Greeks">Pontic Greeks, <title="Cappadocian Greeks">Cappadocian Greeks, <title="Sarakatsani">Sarakatsani, <title="Urums">Urums, <title="Griko people">Griko, <a href="/wiki/Macedonians_(Greeks)" title="Macedonians (Greeks)">Macedonian Greeks, along with <title="Greek diaspora">significant populations in <title="Greeks in Albania">Albania (including <title="Northern Epirus">Northern Epirotes), <title="Greeks in Ukraine">Ukraine, <title="Greeks in Georgia">Georgia, <title="Greek Americans">the United States, the <title="Greeks in the United Kingdom">United Kingdom, <title="Greeks in Germany">Germany, <title="Greek Australians">Australia, and <title="Greek Canadians">Canada
-→ <title="Greek Orthodox Church">Eastern Orthodoxy
-
-<td><title="Guang people">Guan
-<title="Guang languages">Guang
-<title="Ghana">Ghana (<title="Brong-Ahafo Region">Brong-Ahafo and <title="Volta Region">Volta Regions)
-<title="Gonja people">Gonja, <title="Kyode people">Kyode, <title="Cherepon language">Cherepon, <title="Efutu people">Efutu, <title="Ginyanga language">Anyanga, <title="Larteh language">Larteh, <title="Chumburung language">Chumburung, <title="Krache language">Krache, <title="Gua language">Anum-Boso
-
-<td><a href="/wiki/Guaran%C3%AD_people" title="Guaraní people">Guaraní<title="Tupian languages">Tupian → <title="Guarani language">Guarani<title="Paraguay">Paraguay, <title="Misiones Province">Misiones (<title="Argentina">Argentina), 
-<a href="/wiki/Eastern_Bolivian_Guaran%C3%AD" title="Eastern Bolivian Guaraní">Chiriguanos, along with <title="Mestizo">Mestizos such as <title="Demographics of Paraguay">Paraguayans
-
-<td><title="Gujarati people">Gujarati
-<title="Gujarati language">Gujarati<title="Gujarat">Gujarat ()
-<title="Koli people">Koli, <title="Bharwad">Bharwad, <title="Khoja">Khoja, <title="Patidar">Patidar, <title="Sunni Bohra">Sunni Bohra, <title="Lohana">Lohana, <title="Vagri">Vagri, <title="Kharwa caste">Kharva, <title="Charan">Charan, <title="Baria caste">Baria, <title="Momna">Momna, <a href="/wiki/Ghanchi_(Muslim)" title="Ghanchi (Muslim)">Ghanchi, <title="Shenva">Shenva, <title="Bhambi Khalpa">Bhambi Khalpa, <title="Zarabes">Zarabes, <title="Bhoi">Bhoi, <title="Luso-Indian">Luso-Indians, <title="Gujarati Americans">Gujarati Americans
-
-<td><title="Gumuz people">Gumuz
-<title="Gumuz language">Gumuz<title="Benishangul-Gumuz Region">Benishangul-Gumuz Region (
-Ethiopia)
-<title="Traditional African religion">Traditional African religion
-
-<td><title="Gurage people">Gurage
-<title="Gurage languages">Gurage
-<title="Gurage Zone">Guragia (
-Ethiopia)
-<title="Soddo language">Kistane, <title="Zay people">Zay, <title="Inor language">Inor, <title="Mesqan language">Mesqan, <title="Sebat Bet Gurage language">Sebat Bet (including <title="Chaha language">Chaha and <title="Muher language">Muher)
-
-<td><title="Gurma people">Gurma
-<a href="/wiki/Gourmanch%C3%A9_language" title="Gourmanché language">Gourmanché<title="Gourma Province">Gurmaland (, <title="Ghana">Ghana)
-<title="Ntcham language">Ntcham, <title="Bimoba people">Bimoba
-
-<td><title="Gurunsi peoples">Gurunsi
-<title="Gurunsi languages">Gurunsi
-, <title="Ghana">Ghana, <title="Togo">Togo
-<title="Lukpa language">Lukpa, <title="Kabye people">Kabye, <title="Tem people">Tem, <title="Lamba people">Lamba, <title="Delo language">Delo, <title="Bago-Kusuntu language">Bago-Kusuntu, <title="Chala language">Chala, <a href="/wiki/Ly%C3%A9l%C3%A9_language" title="Lyélé language">Lyélé, <title="Nuna people">Nuna, <a href="/wiki/Kalams%C3%A9_language" title="Kalamsé language">Kalamsé, <a href="/wiki/Pana_language_(Gur)" title="Pana language (Gur)">Pana, <title="Kassena">Kassena, <title="Winye language">Winye, <title="Deg language">Deg, <title="Puguli language">Puguli, <title="Paasaal language">Paasaal, <title="Sisaala language">Sisaala, <title="Chakali language">Chakali, <title="Siti language">Siti, <title="Tamprusi language">Tamprusi, <title="Vagla language">Vagla
-
-<td><title="Hadiya people">Hadiya
- → <title="Hadiyya language">Hadiyya<title="Hadiya Zone">Hadiya (
-Ethiopia)
-
-<td><title="Han Chinese">Han Chinese
-<title="Chinese language">ChineseChina
-1,<sup id="cite_ref-Ethnic_Groups_of_North,_East,_and_Central_Asia:_An_Encyclopedia_159-0"><a href="#cite_note-Ethnic_Groups_of_North,_East,_and_Central_Asia:_An_Encyclopedia-159"></sup><title="Subei people">Subei, <title="Cantonese people">Cantonese (including <title="Taishanese people">Taishanese, <title="Hong Kong people">Hongkongers, <title="Tanka people">Tankas, <title="Chuanqing people">Chuanqing and <title="Macanese people">Macanese), <title="Hui people">Hui, <title="Min Chinese speakers">Fujianese (including <title="Fuzhou people">Fuzhounese, <title="Hainan people">Hainanese, <title="Hoklo people">Hoklo, <a href="/wiki/Hui%27an_maidens" title="Hui'an maidens">Hui'an maidens, <title="Putian people">Putianese, and <title="Teochew people">Teochew), <title="Gaoshan Han">Gaoshan Han, <title="Gan Chinese-speaking people">Gan, <title="Hakka people">Hakka (including <a href="/wiki/Ng%C3%A1i_people" title="Ngái people">Ngái), <title="Hebei people">Hebei, <title="Hunanese people">Hunanese, <title="Jianghuai people">Jianghuai, <title="Shandong people">Shandong, <title="Sichuanese people">Sichuanese, <title="Wu Chinese-speaking people">Wu (including <title="Shanghainese people">Shanghainese, <title="Ningbonese people">Ningbonese, and <title="Wenzhou people">Wenzhou), <title="Han Taiwanese">Han Taiwanese, along with <title="Overseas Chinese">significant populations in the <title="Chinese Americans">United States, <title="Malaysian Chinese">Malaysia (including <title="Peranakan">Peranakan), <title="Chinese Singaporeans">Singapore, <title="Thai Chinese">Thailand, <title="Chinese Indonesians">Indonesia, <title="Chinese people in Myanmar">Myanmar, <title="Chinese Canadians">Canada, the <title="Chinese Filipino">Philippines (including <title="Sangley">Sangleys), <title="Chinese Peruvians">Peru, <title="Chinese Australians">Australia, <title="Hoa people">Vietnam, <title="Chinese people in Japan">Japan, <title="Ethnic Chinese in Russia">Russia, <title="Chinese diaspora in France">France (including <a href="/wiki/Chinois_(R%C3%A9union)" title="Chinois (Réunion)">Chinois), the <title="British Chinese">United Kingdom, <title="Chinese South Africans">South Africa, <title="Chinese people in Italy">Italy, <title="Chinese people in Germany">Germany, <title="Chinese people in Korea">Korea, <title="Chinese people in Spain">Spain, <title="Chinese community in India">India, <title="Laotian Chinese">Laos, <title="Chinese Brazilians">Brazil, the <title="Chinese people in the Netherlands">Netherlands, <title="Ethnic Chinese in Panama">Panama, and <title="Chinese New Zealanders">New Zealand<title="Chinese folk religion">Chinese folk religion
-
-<td><title="Hani people">Hani
-<title="Hani language">Hani<title="Yunnan">Yunnan (China)
-
-<td><title="Harari people">Harari
-<title="Harari language">Harari<title="Harari Region">Hararia (
-Ethiopia)
-
-<td><title="Hausa people">Hausa
-<title="Hausa language">Hausa<a href="/wiki/North_West_(Nigeria)" title="North West (Nigeria)">Hausaland (<title="Niger">Niger, )
-
-<td><title="Native Hawaiians">Hawaiians
-<title="Polynesian languages">Polynesian → <title="Hawaiian language">Hawaiian<sup ></sup><title="Hawaii">Hawaii (United States)
-
-<td><title="Hazaras">Hazaras
-<title="Persian language">Persian → <title="Hazaragi dialect">Hazaragi<title="Hazarajat">Hazarajat (<title="Afghanistan">Afghanistan)
-5–<sup id="cite_ref-Ethnic_Groups_of_North,_East,_and_Central_Asia:_An_Encyclopedia_159-1"><a href="#cite_note-Ethnic_Groups_of_North,_East,_and_Central_Asia:_An_Encyclopedia-159"></sup><title="Aimaq Hazara">Aimaq Hazara, <title="Hazara Australians">Hazara Australians
-<title="Twelver">Shia Islam
-
-<td><title="Herero people">Herero
-<title="Herero language">Herero<title="Hereroland">Hereroland (), 
-<title="Himba people">OvaHimba, <title="Mbanderu people">Ovambanderu
-
-<td><title="Hmong people">Hmong
-<title="Hmongic languages">Hmongic
-<title="Guizhou">Guizhou (China)<sup ></sup>
-14–<title="A-Hmao">A-Hmao, <title="Gha-Mu people">Gha-Mu, <title="Xong language">Xong, <title="Pa-Hng language">Pa-Hng, <title="Hmong Americans">Hmong Americans<title="Hmong folk religion">Hmong folk religion
-
-<td><title="Huli people">Huli<a href="/wiki/Trans%E2%80%93New_Guinea_languages" title="Trans–New Guinea languages">Trans–New Guinea → <title="Engan languages">Engan  → <title="Huli language">Huli<title="Southern Highlands Province">Southern Highlands Province (<title="Papua New Guinea">Papua New Guinea)
-
-<td><title="Hungarians">Hungarians<title="Uralic languages">Uralic → <title="Ugric languages">Ugric → <title="Hungarian language">Hungarian<title="Hungary">Hungary, <a href="/wiki/Sz%C3%A9kely_Land" title="Székely Land">Székely Land (<title="Romania">Romania), <title="Upper Hungary">Felvidék (<title="Slovakia">Slovakia)
-<title="Jasz people">Jasz, <a href="/wiki/Pal%C3%B3c" title="Palóc">Palóc, along with <title="Hungarian diaspora">significant populations in <title="Hungarians in Romania">Romania (including <a href="/wiki/Sz%C3%A9kelys" title="Székelys">Székelys and <title="Csangos">Csangos), <title="Hungarians in Slovakia">Slovakia, <title="Hungarians in Serbia">Serbia, <title="Hungarians in Ukraine">Ukraine, <title="Hungarians of Croatia">Croatia, <title="Hungarians in Slovenia">Slovenia, <title="Hungarians in Germany">Germany, the <title="Hungarian Americans">United States, and <title="Hungarian Canadians">Canada
-→ <title="Roman Catholicism in Hungary">Catholicism
-
-<td><title="Hutu">Hutu
-<title="Great Lakes Bantu languages">Great Lakes → <title="Rwanda-Rundi">Rwanda-Rundi<sup id="cite_ref-Hutu,_Tutsi,_Twa_168-0"><a href="#cite_note-Hutu,_Tutsi,_Twa-168"></sup><title="Rwanda">Rwanda, <title="Burundi">Burundi, <title="Kivu">Kivu ()
-
-<td><title="Iban people">Iban
-<title="Iban language">Iban<title="Sarawak">Sarawak (<title="Malaysia">Malaysia)
-<title="Dayak Mualang">Mualang
-
-<td><title="Ibanag people">Ibanag
-<title="Northern Luzon languages">Cordilleran → <title="Ibanag language">Ibanag (<a href="/wiki/Isabela_(province)" title="Isabela (province)">Isabela, <title="Cagayan">Cagayan)
-
-<td><title="Ibibio people">Ibibio
+Ibibio
 <title="Ibibio language">Ibibio<title="Akwa Ibom State">Akwa Ibom State ()
 <title="Eket">Eket, <title="Aro people">Aro
 
 <td><title="Icelanders">Icelanders
-<title="North Germanic languages">Nordic → <title="Icelandic language">Icelandic<title="Iceland">Iceland
-[<i><span title=" (June 2019)">
+<title="Icelandic language">Icelandic<title="Iceland">Iceland
+
 
 <td><title="Idoma people">Idoma
 <title="Idomoid languages">Idomoid → <title="Idoma language">Idoma<title="Benue State">Benue State ()
@@ -439,7 +402,7 @@ Ethiopia)
 
 <td><title="Igede">Igede
 <title="Idomoid languages">Idomoid → <title="Igede language">Igede<title="Benue State">Benue State ()
-[<i><span title=" (June 2019)">
+
 
 <td><title="Igorot people">Igorot
 <title="Northern Luzon languages">Cordilleran
@@ -452,7 +415,7 @@ Ethiopia)
 <sup id="cite_ref-John_A._Shoup_III_119-1"><a href="#cite_note-John_A._Shoup_III-119"></sup><title="Bille tribe">Bille, <title="Engenni people">Engenni, <title="Ibani tribe">Ibani, <title="Kalabari tribe">Kalabari, <a href="/wiki/Kula_tribe_(Rivers_State)" title="Kula tribe (Rivers State)">Kula, <title="Nkoro tribe">Nkoro, <title="Nkoroo people">Nkoroo, <title="Obolo people">Obolo
 
 <td><title="Ilocano people">Ilocano
-<title="Northern Luzon languages">Cordilleran → <title="Ilocano language">Ilocano<title="Ilocos Region">Ilocos Region ()
+ <title="Ilocano language">Ilocano<title="Ilocos Region">Ilocos Region ()
 
 <td><title="Ingush people">Ingush
 <title="Ingush language">Ingush<title="Ingushetia">Ingushetia ()
@@ -463,33 +426,33 @@ Ethiopia)
 
 <td><title="Iranun people">Iranun
 <title="Iranun language">Iranun<title="Mindanao">Mindanao ()
-[<i><span title=" (June 2019)">
+
 
 <td><title="Irish people">Irish
 <title="Celtic languages">Celtic → <title="Irish language">Irish
-<title="Ireland">Ireland (<title="Republic of Ireland">Republic of Ireland, <title="United Kingdom">United Kingdom)<sup ></sup>
+<title="Ireland">Ireland (<title="Republic of Ireland">Republic of Ireland, <title="United Kingdom">United Kingdom)
 <sup id="cite_ref-ceu@scotland.gsi.gov.uk_179-0"><a href="#cite_note-ceu@scotland.gsi.gov.uk-179"></sup><title="Irish Travellers">Irish Travellers, <title="Ulster Irish">Ulster Irish, along with <title="Irish diaspora">significant populations in the <title="Irish Americans">United States, <title="Irish Australians">Australia, <title="Irish Canadians">Canada, <title="Irish Argentine">Argentina, <title="Irish immigration to Mexico">Mexico and <title="Irish New Zealanders">New Zealand
 → <title="Roman Catholicism in Ireland">Catholicism
 
-<td><title="Iroquois">Iroquois<title="Iroquoian languages">Iroquoian<sup ></sup>United States, Canada
+<td><title="Iroquois">Iroquois<title="Iroquoian languages">IroquoianUnited States, Canada
 <sup id="cite_ref-American_Indian/First_Nation_181-0"><a href="#cite_note-American_Indian/First_Nation-181"></sup><title="Mohawk people">Mohawk, <title="Oneida people">Oneida, <title="Onondaga people">Onondaga, <title="Cayuga people">Cayuga, <title="Seneca people">Seneca, <title="Tuscarora people">Tuscarora<title="Longhouse Religion">Longhouse Religion
 
-<td><title="Isan people">Isan<a href="/wiki/Kra%E2%80%93Dai_languages" title="Kra–Dai languages">Kra–Dai → <title="Lao language">Lao → <title="Isan language">Isan<title="Isan">Isan (<title="Thailand">Thailand)
+<td><title="Isan people">Isan<title="Lao language">Lao → <title="Isan language">Isan<title="Isan">Isan (<title="Thailand">Thailand)
 
 <td><title="Isoko people">Isoko
-<title="Edoid languages">Edoid → <title="Isoko language">Isoko<title="Isoko region">Isoko region ()
-[<i><span title=" (June 2019)">
+<title="Isoko language">Isoko<title="Isoko region">Isoko region ()
+
 
 <td><title="Italians">Italians
-<title="Italian language">Italian<title="Italy">Italy, <title="Ticino">Ticino (<title="Switzerland">Switzerland)
+<title="Italian language">Italian<title="Italy">Italy, <title="Ticino">Ticino 
 69–<title="Sicilians">Sicilians, <title="Waldensians">Waldensians, <title="Lazio">Lazians, <title="Marche">Marchigianos, <title="Tuscany">Tuscans, <title="Umbria">Umbrians, <title="Emilian dialect">Emilian, <title="Romagnol dialect">Romagnol (including <title="Demographics of San Marino">Sanmarinese), <title="Trentino">Trentinis, <a href="/wiki/Ligurian_(Romance_language)" title="Ligurian (Romance language)">Ligurians (including <title="Demographics of Monaco">Monégasque), <title="Lombardy">Lombards, <title="Piedmont">Piedmontese, <title="Apulia">Apulians, <title="Calabria">Calabrians, <title="Neapolitan language">Neapolitans (including <title="Abruzzo">Abruzzans, <title="Molise">Molisans, <title="Basilicata">Basilicatans, and <title="Campania">Campanians), <title="Veneto">Venetians along with <title="Italian diaspora">significant populations in <title="Italian Argentines">Argentina, <title="Italian Brazilians">Brazil, the <title="Italian Americans">United States, <title="Italo-Venezuelans">Venezuela, <title="Italian Canadians">Canada, <title="Italians in France">France, <title="Italian Peruvians">Peru, <title="Italian Uruguayans">Uruguay, <title="Italian Australians">Australia, <title="Italians in Germany">Germany, <title="Italian Chileans">Chile and the <title="Italians in the United Kingdom">United Kingdom
 
 <td><title="Itawes">Itawes
-<title="Northern Luzon languages">Cordilleran → <title="Itawis language">Itawis<title="Cagayan Valley">Cagayan Valley ()
-[<i><span title=" (June 2019)">
+ <title="Itawis language">Itawis<title="Cagayan Valley">Cagayan Valley ()
+
 
 <td><title="Japanese people">Japanese<title="Japonic languages">Japonic → <title="Japanese language">Japanese<title="Japan">Japan
-<a href="/wiki/Kant%C5%8D_dialect" title="Kantō dialect">Kantō, <title="Kansai dialect">Kansai, <title="Hokkaido dialects">Hokkaido, <a href="/wiki/T%C5%8Dhoku_dialect" title="Tōhoku dialect">Tōhoku, <a href="/wiki/H%C5%8Dnichi_dialect" title="Hōnichi dialect">Hōnichi, <title="Kagoshima dialect">Satsugū, <a href="/wiki/Ch%C5%ABgoku_dialect" title="Chūgoku dialect">Chūgoku, <title="Niigata Prefecture">Echigo, <a href="/wiki/T%C5%8Dkai_region" title="Tōkai region">Tōkai, <a href="/wiki/Shin%27etsu_region" title="Shin'etsu region">Shinshuu, <title="Hokuriku dialect">Hokuriku, <a href="/wiki/Hachij%C5%8D_language" title="Hachijō language">Hachijō, along with <title="Japanese diaspora">significant populations in <title="Japanese Brazilians">Brazil, the <title="Japanese Americans">United States and the <title="Japanese in the Philippines">Philippines.<title="Shinto">Shinto<sup ></sup>
+<a href="/wiki/Kant%C5%8D_dialect" title="Kantō dialect">Kantō, <title="Kansai dialect">Kansai, <title="Hokkaido dialects">Hokkaido, <a href="/wiki/T%C5%8Dhoku_dialect" title="Tōhoku dialect">Tōhoku, <a href="/wiki/H%C5%8Dnichi_dialect" title="Hōnichi dialect">Hōnichi, <title="Kagoshima dialect">Satsugū, <a href="/wiki/Ch%C5%ABgoku_dialect" title="Chūgoku dialect">Chūgoku, <title="Niigata Prefecture">Echigo, <a href="/wiki/T%C5%8Dkai_region" title="Tōkai region">Tōkai, <a href="/wiki/Shin%27etsu_region" title="Shin'etsu region">Shinshuu, <title="Hokuriku dialect">Hokuriku, <a href="/wiki/Hachij%C5%8D_language" title="Hachijō language">Hachijō, along with <title="Japanese diaspora">significant populations in <title="Japanese Brazilians">Brazil, the <title="Japanese Americans">United States and the <title="Japanese in the Philippines">Philippines.<title="Shinto">Shinto
 
 <td><title="Jarai people">Jarai
 <title="Jarai language">Jarai
@@ -499,7 +462,7 @@ Ethiopia)
 <title="Cirebonese">Cirebonese, <title="Osing people">Osing, <title="Tenggerese people">Tenggerese, <title="Boyanese">Boyanese, <title="Samin people">Samin, <title="Banyumasan people">Banyumasan, along with significant populations in <title="Javanese Malaysians">Malaysia, <title="Javanese Surinamese">Suriname, <title="Indonesians in Hong Kong">China, and <title="Indonesians in Saudi Arabia">Saudi Arabia
 
 <td><title="Jews">Jews
-<title="Hebrew language">Hebrew<sup ></sup><title="Israel">Israel<sup ></sup>
+<title="Hebrew language">Hebrew<title="Israel">Israel
 <title="Ashkenazi Jews">Ashkenazim, <title="Sephardi Jews">Sephardim (including <title="Moroccan Jews">Moroccan Jews, <title="History of the Jews in Tunisia">Tunisian Jews, and <title="Berber Jews">Toshavim), <title="Mizrahi Jews">Mizrahim (including <title="Syrian Jews">Syrian and <title="Bukharan Jews">Bukharan Jews), <title="Yemenite Jews">Teimanim, <title="Beta Israel">Beta Israel, <title="Italian Jews">Italkim, <title="Romaniote Jews">Romaniotes, <title="Mountain Jews">Juhurim, <title="Krymchaks">Krymchaks, <title="Bene Israel">Bene Israel, <title="Cochin Jews">Cochin, <title="Lishanid Noshan">Lishanid Noshan, <title="Israelis">Israelis, along with <title="Jewish diaspora">significant populations in the <title="American Jews">United States, <title="History of the Jews in France">France, <title="History of the Jews in Canada">Canada, the <title="British Jews">United Kingdom, <title="History of the Jews in Argentina">Argentina, <title="History of the Jews in Russia">Russia, <title="History of the Jews in Germany">Germany, and <title="History of the Jews in Australia">Australia<title="Judaism">Judaism
 
 <td><title="Jingpo people">Jingpo
@@ -511,7 +474,7 @@ Ethiopia)
 <title="Bandial language">Banjaal, <title="Bayot language">Bayot, <title="Jola-Fonyi language">Fogni, <title="Gusilay language">Gusilay, <title="Karon language">Karon, <title="Kasa language">Kasa, <title="Kwatay language">Kuwaataay, <title="Mlomp language">Mlomp
 
 <td><a href="/wiki/Jukun_people_(West_Africa)" title="Jukun people (West Africa)">Jukun
-<title="Jukun Takum language">Jukun Takum<sup ></sup><title="Wukari Federation">Wukari ()
+<title="Jukun Takum language">Jukun Takum<title="Wukari Federation">Wukari ()
 <title="Wannu language">Wannu
 
 <td><title="Kadazan-Dusun">Kadazan-Dusun
@@ -520,7 +483,7 @@ Ethiopia)
 <title="Kadazan people">Kadazan, <title="Dusun people">Dusun, <title="Dumpas">Dumpas, <a href="/wiki/Ida%27an" title="Ida'an">Ida'an, <title="Kwijau">Kwijau, <title="Lotud">Lotud, <a href="/wiki/Mangka%27ak" title="Mangka'ak">Mangka'ak, <title="Maragang">Maragang, <title="Minokok">Minokok, <title="Orang Sungai">Orang Sungai, <title="Rumanau people">Rumanau, <title="Rungus people">Rungus, <title="Tambanuo people">Tambanuo
 
 <td><title="Kalanga people">Kalanga
-<title="Shona language">Shona → <title="Kalanga language">KalangaZimbabwe, <title="Botswana">Botswana
+<title="Shona language">Shona → <title="Kalanga language">Kalanga, <title="Botswana">Botswana
 <title="Nambya people">Nambya
 
 <td><title="Kalenjin people">Kalenjin
@@ -528,7 +491,7 @@ Ethiopia)
 <title="Rift Valley Province">Rift Valley Province ()
 <title="Keiyo people">Keiyo, <title="Tugen people">Tugen, <title="Marakwet people">Marakwet, <title="Nandi people">Nandi, <title="Kipsigis people">Kipsigis, <title="Sabaot people">Sabaot, <title="Pokot people">Pökoot, <title="Okiek people">Okiek, <title="Terik people">Terik
 
-<td><title="Kalinago people">Kalinago<title="Macro-Arawakan languages">Macro-Arawakan languages → <title="Arawakan languages">Arawakan → <title="Kalinago">Kalinago<title="Lesser Antilles">Lesser Antilles
+<td><title="Kalinago people">Kalinago<title="Macro-Arawakan languages">Macro-Arawakan languages → <title="Kalinago">Kalinago<title="Lesser Antilles">Lesser Antilles
 <title="Black Carib">Black Caribs
 → <title="Catholicism">Catholicism
 
@@ -553,7 +516,7 @@ Ethiopia)
 
 <td><title="Kapsiki people">Kapsiki
 <a href="/wiki/Psiky%C9%9B_dialect" title="Psikyɛ dialect">Kapsiki<title="Mandara Mountains">Mandara Mountains (, <title="Cameroon">Cameroon)
-[<i><span title=" (June 2019)">
+
 
 <td><title="Karachays">Karachays
 <title="Karachay-Balkar language">Karachay<title="Karachay-Cherkessia">Karachay-Cherkessia ()
@@ -613,9 +576,9 @@ Buddhism → <title="Buddhism in Cambodia">Theravada Buddhism
 
 <td><title="Kofyar people">Kofyar
 <title="Kofyar language">Kofyar<title="Plateau State">Plateau State ()
-[<i><span title=" (June 2019)">
 
-<td><title="Komi peoples">Komi<title="Uralic languages">Uralic → <title="Permic languages">Permic → <title="Komi language">Komi (<title="Komi Republic">Komi Republic, <title="Komi-Permyak Okrug">Permyakia)
+
+<td><title="Komi peoples">Komi<title="Permic languages">Permic → <title="Komi language">Komi (<title="Komi Republic">Komi Republic, <title="Komi-Permyak Okrug">Permyakia)
 <title="Komi-Zyrian language">Komi-Zyrians, <title="Komi-Permyak language">Komi-Permyaks, <title="Izhma Komi">Izhma Komi
 → <title="Eastern Orthodox Church">Eastern Orthodox
 
@@ -644,7 +607,7 @@ Ethiopia)
 
 
 <td><title="Kposo people">Kposo
-<a href="/wiki/Ghana%E2%80%93Togo_Mountain_languages" title="Ghana–Togo Mountain languages">Ghana–Togo Mountain → <title="Kposo language">Kposo<a href="/wiki/Plateaux_Region,_Togo" title="Plateaux Region, Togo">Plateaux (<title="Togo">Togo), <title="Ghana">Ghana
+<a href="/wiki/Ghana%E2%80%93Togo_Mountain_languages" title="Ghana–Togo Mountain languages">Ghana–Togo Mountain → <title="Kposo language">Kposo<a href="/wiki/Plateaux_Region,_Togo" title="Plateaux Region, Togo">Plateaux (<title="Togo">Togo), 
 
 <td><title="Kru people">Kru
 <title="Kru languages">Kru
@@ -680,18 +643,18 @@ Ethiopia
 
 <td><title="Lamaholot people">Lamaholot
 <a href="/wiki/Flores%E2%80%93Lembata_languages" title="Flores–Lembata languages">Flores–Lembata → <title="Lamaholot language">Lamaholot<title="Solor">Solor 
-[<i><span title=" (June 2019)">
+
 
 <td><title="Lampung people">Lampungs
 <title="Lampung language">Lampung<title="Lampung">Lampung 
 
-<td><title="Lao people">Lao<a href="/wiki/Kra%E2%80%93Dai_languages" title="Kra–Dai languages">Kra–Dai → <title="Lao language">Lao<title="Laos">Laos
+<td><title="Lao people">Lao<title="Lao language">Lao<title="Laos">Laos
 
 <td><title="Latvians">Latvians
 <title="Baltic languages">Baltic → <title="Latvian language">Latvian<title="Latvia">Latvia
 <a href="/wiki/Latgalians_(modern)" title="Latgalians (modern)">Latgalians, <title="Kursenieki">Kursenieki, <title="Selonia">Selonians
 
-<td><title="Laz people">Laz<title="Kartvelian languages">Kartvelian → <title="Laz language">Laz<sup ></sup><title="Lazistan Sanjak">Lazistan (<title="Turkey">Turkey, <a href="/wiki/Georgia_(country)" title="Georgia (country)">Georgia)
+<td><title="Laz people">Laz<title="Laz language">Laz<title="Lazistan Sanjak">Lazistan (<title="Turkey">Turkey, <a href="/wiki/Georgia_(country)" title="Georgia (country)">Georgia)
 <title="Laz people in Turkey">Turkish Laz, <title="Laz people in Georgia">Georgian Laz
 
 <td><title="Lega people">Lega
@@ -701,7 +664,7 @@ Ethiopia
 <td><title="Lezgins">Lezgins
 <title="Lezgic languages">Lezgic → <title="Lezgian language">Lezgian<title="Lezgistan">Lezgistan (, <title="Azerbaijan">Azerbaijan)
 
-<td><title="Hlai people">Li<a href="/wiki/Kra%E2%80%93Dai_languages" title="Kra–Dai languages">Kra–Dai → <title="Hlai languages">Hlai
+<td><title="Hlai people">Li<title="Hlai languages">Hlai
 <title="Hainan">Hainan (China)
 
 <td><a href="/wiki/Limba_people_(Sierra_Leone)" title="Limba people (Sierra Leone)">Limba
@@ -749,7 +712,7 @@ Significant populations in <title="Luxembourgish Brazilians">Brazil and the <tit
 
 
 <td><title="Madurese people">Madurese
-<title="Madurese language">Madurese<title="Madura Island">Madura <sup ></sup>
+<title="Madurese language">Madurese<title="Madura Island">Madura 
 <title="Bawean">Boyanese
 <title="Nahdlatul Ulama">Sunni Islam
 
@@ -761,7 +724,7 @@ Significant populations in <title="Luxembourgish Brazilians">Brazil and the <tit
 
 
 <td><title="Magars">Magars
-<title="Magar language">Magar<sup ></sup>
+<title="Magar language">Magar
 
 
 <td><title="Maguindanao people">Maguindanao
@@ -775,11 +738,11 @@ Significant populations in <title="Luxembourgish Brazilians">Brazil and the <tit
 <title="South Sulawesi languages">South Sulawesi → <title="Makassarese language">Makassarese<title="South Sulawesi">South Sulawesi 
 
 <td><title="Makonde people">Makonde
-<title="Makonde language">Makonde<title="Tanzania">Tanzania, <title="Mueda Plateau">Mueda Plateau (<title="Mozambique">Mozambique)
+<title="Makonde language">Makonde<title="Tanzania">Tanzania, <title="Mueda Plateau">Mueda Plateau ()
 <title="Machinga people">Machinga
 
 <td><title="Makua people">Makua
-<title="Makhuwa language">Makhuwa<title="Mozambique">Mozambique
+<title="Makhuwa language">Makhuwa
 <title="Lomwe people">Lomwe, <title="Chuwabu language">Chuwabu, <title="Moniga language">Moniga, <title="Koti language">Koti, <title="Nathembo language">Nathembo
 
 <td><title="Malagasy people">Malagasy
@@ -815,21 +778,21 @@ Significant populations in <title="Luxembourgish Brazilians">Brazil and the <tit
 <td><title="Mandinka people">Mandinka
 <title="Manding languages">Manding
 <title="Mali">Mali, , , 
-13<sup id="cite_ref-The_Peoples_of_Africa:_An_Ethnohistorical_Dictionary_148-1"><a href="#cite_note-The_Peoples_of_Africa:_An_Ethnohistorical_Dictionary-148"></sup>–<title="Bolon language">Bolon, along with <title="African diaspora">numerous slave descendants such as <title="Demographics of Montserrat">Montserratians, <title="Cape Verdeans">Cape Verdeans, and <title="Demographics of Martinique">Martinicans, <title="African Americans">African Americans, <title="Afro-Bahamian">Afro-Bahamians, <title="Afro-Barbadian">Afro-Barbadians, <title="Afro-Brazilians">Afro-Brazilians, <title="Afro-Dominicans">Afro-Dominicans, <title="Afro-Haitians">Afro-Haitians, <title="Afro-Saint Lucian">Afro-Saint Lucians, <title="Afro-Trinidadians and Tobagonians">Afro-Trinbagonians, <title="Americo-Liberians">Americo-Liberians, <title="Belizean Creole people">Belizean Creoles
+13<sup id="cite_ref-The_Peoples_of_Africa:_An_Ethnohistorical_Dictionary_148-1">–<title="Bolon language">Bolon, along with <title="African diaspora">numerous slave descendants such as <title="Demographics of Montserrat">Montserratians, <title="Cape Verdeans">Cape Verdeans, and <title="Demographics of Martinique">Martinicans, <title="African Americans">African Americans, <title="Afro-Bahamian">Afro-Bahamians, <title="Afro-Barbadian">Afro-Barbadians, <title="Afro-Brazilians">Afro-Brazilians, <title="Afro-Dominicans">Afro-Dominicans, <title="Afro-Haitians">Afro-Haitians, <title="Afro-Saint Lucian">Afro-Saint Lucians, <title="Afro-Trinidadians and Tobagonians">Afro-Trinbagonians, <title="Americo-Liberians">Americo-Liberians, <title="Belizean Creole people">Belizean Creoles
 
 <td><title="Manggarai people">Manggarai
 <a href="/wiki/Sumba%E2%80%93Flores_languages" title="Sumba–Flores languages">Sumba–Flores → <title="Manggarai language">Manggarai<title="Manggarai Regency">Manggarai 
-[<i><span title=" (June 2019)">
+
 
 <td><title="Manjak people">Manjak
 <title="Manjak language">Manjak<title="Guinea-Bissau">Guinea-Bissau, 
 
 
 <td><a href="/wiki/M%C4%81ori_people" title="Māori people">Māori
-<title="Polynesian languages">Polynesian → <a href="/wiki/M%C4%81ori_language" title="Māori language">Māori<sup ></sup><title="New Zealand">New Zealand
+<a href="/wiki/M%C4%81ori_language" title="Māori language">Māori<title="New Zealand">New Zealand
 <title="Cook Islanders">Cook Islanders
 
-<td><title="Mapuche">Mapuche<title="Mapuche language">Mapudungun<sup ></sup><a href="/wiki/Araucan%C3%ADa_(historic_region)" title="Araucanía (historic region)">Araucanía (<title="Chile">Chile, <title="Argentina">Argentina)
+<td><title="Mapuche">Mapuche<title="Mapuche language">Mapudungun<a href="/wiki/Araucan%C3%ADa_(historic_region)" title="Araucanía (historic region)">Araucanía (<title="Chile">Chile, <title="Argentina">Argentina)
 <title="Huilliche people">Huilliche, along with <title="Mestizo">Mestizos such as <title="Chileans">Chileans
 
 <td><title="Maranao people">Maranao
@@ -839,7 +802,7 @@ Significant populations in <title="Luxembourgish Brazilians">Brazil and the <tit
 <title="Marathi language">Marathi<title="Maharashtra">Maharashtra ()
 <title="Mahar">Mahar, <title="Maratha">Maratha, <title="Kunbi">Kunbi, <title="Dhangar">Dhangar, <title="Bhoi">Bhoi
 
-<td><title="Mari people">Mari<title="Uralic languages">Uralic → <title="Mari language">Mari<title="Mari El">Mari El ()
+<td><title="Mari people">Mari<title="Mari language">Mari<title="Mari El">Mari El ()
 <title="Meadow Mari language">Meadow Mari, <title="Hill Mari language">Hill Mari
 
 
@@ -879,7 +842,7 @@ Significant populations in <title="Luxembourgish Brazilians">Brazil and the <tit
 
 
 <td><a href="/wiki/Mi%EA%9E%8Ckmaq" title="Miꞌkmaq">Miꞌkmaq
-<title="Algonquian languages">Algonquian → <a href="/wiki/Mi%EA%9E%8Ckmaq_language" title="Miꞌkmaq language">Miꞌkmaq
+<a href="/wiki/Mi%EA%9E%8Ckmaq_language" title="Miꞌkmaq language">Miꞌkmaq
 <a href="/wiki/Mi%27kma%27ki" title="Mi'kma'ki">Mi'kma'ki (Canada)
 
 <td><title="Yao people">Mien
@@ -934,7 +897,7 @@ Buddhism → <title="Tibetan Buddhism">Tibetan Buddhism
 Significant populations in <title="Montenegrins of Serbia">Serbia and the <title="Montenegrin Americans">United States
 → <title="Serbian Orthodox Church">Eastern Orthodoxy
 
-<td><title="Mordvins">Mordvins<title="Uralic languages">Uralic → <title="Mordvinic languages">Mordvinic
+<td><title="Mordvins">Mordvins<title="Mordvinic languages">Mordvinic
 <title="Mordovia">Mordovia ()
 <title="Erzya language">Erzyas, <title="Mokshas">Mokshas, <title="Qaratays">Qaratays
 
@@ -960,9 +923,9 @@ Significant populations in <title="Montenegrins of Serbia">Serbia and the <title
 <title="Interior Division">Murutia (<title="Malaysia">Malaysia)
 <title="Okolod language">Okolod, <title="Keningau Murut language">Keningau, <title="Tagal Murut language">Tagal, <title="Paluan language">Paluan, <title="Selungai Murut language">Selungai, <title="Timugon language">Timugon, <title="Serudung language">Serudung, <title="Sembakung language">Sembakung, <title="Tidong people">Tidong, <title="Kalabakan language">Kalabakan, <title="Bulungan">Bulungan, <title="Bookan language">Bookan
 
-<td><title="Muscogee">Muscogee<title="Muskogean languages">Muskogean → <title="Muscogee language">Muscogee
+<td><title="Muscogee">Muscogee<title="Muscogee language">Muscogee
 United States (<title="Alabama">Alabama, <title="Tennessee">Tennessee, <a href="/wiki/Georgia_(U.S._state)" title="Georgia (U.S. state)">Georgia)
-<sup><title="Coushatta">Coushatta, <title="Alabama people">Alibamu, <title="Hitchiti">Hitchiti, <title="Natchez Nation">Natchez, <title="Seminole">Seminoles (including <title="Black Seminoles">Black Seminoles), <title="Yuchi people">Yuchi, <title="Shawnee people">Shawnee, <title="Creoles of color">Creoles of color, <title="Miccosukee">Miccosukee<title="Native American religion">Native American religion → <title="Creek mythology">Creek mythology
+<sup><title="Coushatta">Coushatta, <title="Alabama people">Alibamu, <title="Hitchiti">Hitchiti, <title="Natchez Nation">Natchez, <title="Seminole">Seminoles (including <title="Black Seminoles">Black Seminoles), <title="Yuchi people">Yuchi, <title="Shawnee people">Shawnee, <title="Creoles of color">Creoles of color, <title="Miccosukee">Miccosukee → <title="Creek mythology">Creek mythology
 
 <td><title="Musgum people">Musgum
 <title="Musgu language">Musgu<a href="/wiki/Far_North_Region,_Cameroon" title="Far North Region, Cameroon">Far North Region (<title="Cameroon">Cameroon), <title="Chad">Chad (<a href="/wiki/Chari-Baguirmi_(region)" title="Chari-Baguirmi (region)">Chari-Baguirmi, <title="Mayo-Kebbi Est">Mayo-Kebbi Est)
@@ -981,7 +944,7 @@ United States (<title="Alabama">Alabama, <title="Tennessee">Tennessee, <a href="
 <td><title="Nahuas">Nahuas<title="Uto-Aztecan languages">Uto-Aztecan → <title="Nahuatl">Nahuatl<title="Mexico">Mexico
 <title="Huasteca Nahuatl">Huasteca Nahuas, <title="Mexicaneros">Mexicaneros, <title="Sierra Puebla Nahuatl">Sierra Puebla Nahuas, <title="Guerrero Nahuatl">Guerrero Nahuas, <title="Orizaba Nahuatl">Orizaba Nahuas, <a href="/wiki/Tehuacan%E2%80%93Zongolica_Nahuatl" title="Tehuacan–Zongolica Nahuatl">Southeastern Puebla Nahuas, <a href="/wiki/Tlaxcala%E2%80%93Puebla_Nahuatl" title="Tlaxcala–Puebla Nahuatl">Central Nahuas, <title="Pipil people">Pipil, along with <title="Mestizo">Mestizos such as <title="Mexicans">Mexicans
 
-<td><title="Nama people">Nama<title="Khoe languages">Khoe → <title="Khoekhoe language">Khoekhoe<title="Namaland">Namaland (), <title="South Africa">South Africa
+<td><title="Nama people">Nama<title="Khoekhoe language">Khoekhoe<title="Namaland">Namaland (), <title="South Africa">South Africa
 
 <td><title="Navajo">Navajo
 Apachean → <title="Navajo language">Navajo<title="Navajo Nation">Navajo Nation (United States)
@@ -1005,14 +968,14 @@ Buddhism → <title="Tibetan Buddhism">Tibetan Buddhism
 <title="Yakoma people">Yakoma
 
 <td><title="Nias people">Nias
-<a href="/wiki/Northwest_Sumatra%E2%80%93Barrier_Islands_languages" title="Northwest Sumatra–Barrier Islands languages">Northwest Sumatra–Barrier Islands → <title="Nias language">Nias<title="Nias">Nias 
+<title="Nias language">Nias<title="Nias">Nias 
 
 <td><title="Nogais">Nogais
 <title="Nogai language">Nogai (<title="Stavropol Krai">Stavropol Krai, <title="Dagestan">Dagestan)
 <title="Ak Nogai">Ak Nogai, <title="Karagash">Karagash
 
 <td><title="Norwegians">Norwegians
-<title="North Germanic languages">Nordic → <title="Norwegian language">Norwegian<title="Norway">Norway
+<title="Norwegian language">Norwegian<title="Norway">Norway
 <title="Norwegian diaspora">Significant populations in the <title="Norwegian Americans">United States, and <title="Norwegian Canadians">Norwegian Canadians
 
 <td><title="Nubians">Nubians
@@ -1024,7 +987,7 @@ Buddhism → <title="Tibetan Buddhism">Tibetan Buddhism
 <title="Nuer language">Nuer<title="Nuerland">Nuerland (<title="South Sudan">South Sudan)
 
 
-<td><a href="/wiki/N%C3%B9ng_people" title="Nùng people">Nùng<a href="/wiki/Kra%E2%80%93Dai_languages" title="Kra–Dai languages">Kra–Dai → <title="Zhuang languages">Zhuang → <a href="/wiki/Nung_language_(Tai)" title="Nung language (Tai)">Nung, <title="Guangxi">Guangxi (China)
+<td><a href="/wiki/N%C3%B9ng_people" title="Nùng people">Nùng<title="Zhuang languages">Zhuang → <a href="/wiki/Nung_language_(Tai)" title="Nung language (Tai)">Nung, <title="Guangxi">Guangxi (China)
 
 <td><title="Nuristanis">Nuristanis
 <title="Nuristani languages">Nuristani
@@ -1049,7 +1012,7 @@ Buddhism → <title="Tibetan Buddhism">Tibetan Buddhism
 <title="Baan language">Baan, <title="Eleme people">Eleme, <title="Gokana language">Gokana, <title="Tee language">Tẹẹ
 
 <td><title="Ojibwe">Ojibwe
-<title="Algonquian languages">Algonquian → <title="Ojibwe language">Ojibwe<sup ></sup><title="Anishinaabe tribal political organizations">Anishinaabeland (Canada, United States)
+<title="Ojibwe language">Ojibwe<title="Anishinaabe tribal political organizations">Anishinaabeland (Canada, United States)
 <sup id="cite_ref-American_Indian/First_Nation_181-1"><a href="#cite_note-American_Indian/First_Nation-181"></sup><title="Oji-Cree">Oji-Cree, <title="Odawa">Odawa, <title="Potawatomi">Potawatomi, <title="Mississaugas">Mississaugas<title="Midewiwin">Midewiwin
 
 <td><title="Oromo people">Oromo
@@ -1063,7 +1026,7 @@ Ethiopia),
 
 <td><title="Ot Danum people">Ot Danum
 <title="Ot Danum language">Ot Danum (<title="West Kalimantan">West and <title="Central Kalimantan">Central Kalimantan)
-[<i><span title=" (June 2019)"><title="Lawangan people">Lawangan, <a href="/wiki/Ma%27anyan_people" title="Ma'anyan people">Ma'anyan<title="Kaharingan">Kaharingan
+<title="Lawangan people">Lawangan, <a href="/wiki/Ma%27anyan_people" title="Ma'anyan people">Ma'anyan<title="Kaharingan">Kaharingan
 
 <td><title="Otomi">Otomi
 <title="Otomi language">Otomi
@@ -1077,7 +1040,7 @@ Ethiopia),
 <title="Umbundu">Umbundu
 <td><a href="/wiki/Pa%27O_people" title="Pa'O people">Pa'O
 <title="Karenic languages">Karenic → <a href="/wiki/Pa%27O_language" title="Pa'O language">Pa'O<title="Shan State">Shan State ()
-[<i><span title=" (June 2019)">
+
 
 <td><title="Pamiris">Pamiris
 <title="Pamir languages">Pamir
@@ -1093,7 +1056,7 @@ Ethiopia),
 
 <td><title="Pare people">Pare
 <title="Pare language">Pare<title="Pare Mountains">Pare Mountains (<title="Tanzania">Tanzania)
-[<i><span title=" (June 2019)">
+
 
 <td><title="Pashayi people">Pashayi
 <title="Dardic languages">Dardic → <title="Pashayi languages">Pashayi
@@ -1142,15 +1105,18 @@ Ethiopia),
 <td><title="Rade people">Rade
 <title="Rade language">Rade
 
-<td><title="Rajasthani people">Rajasthanis
+
+Rajasthanis
 <title="Hindustani language">Hindustani → <title="Rajasthani language">Rajasthani<title="Rajasthan">Rajasthan ()
 <title="Banjara">Banjara, <title="Gurjar">Gurjars, <title="Rajput">Rajputs (including <title="Mahyavanshi">Mahyavanshi, <a href="/wiki/Chandel_(Rajput_clan)" title="Chandel (Rajput clan)">Chandels, and <title="Molesalam Rajput">Molesalam), <title="Marwari people">Marwari, <title="Charan">Charan, <a href="/wiki/Kachhi_(caste)" title="Kachhi (caste)">Kachhi, <title="Meena">Meena<title="Hindusim">Hindusim
 
-<td><title="Rajbongshi people">Rajbongshi
+
+Rajbongshi
 <title="Kamtapuri language">Kamtapuri (<title="Assam">Assam, <title="West Bengal">West Bengal), 
 <title="Hindusim">Hindusim
 
-<td><title="Rakhine people">Rakhine
+
+Rakhine
 Burmese → <title="Arakanese language">Arakanese<title="Rakhine State">Rakhine State ()
 <title="Marma people">Marma
 
@@ -1173,11 +1139,11 @@ Burmese → <title="Arakanese language">Arakanese<title="Rakhine State">Rakhine 
 <title="Russian language">Russian
 <title="Cossacks">Cossacks, <title="Pomors">Pomors, <title="Lipovans">Lipovans, along with <title="Russian diaspora">significant populations in <title="Russians in Ukraine">Ukraine, <title="Russians in Kazakhstan">Kazakhstan, <title="Russians in Germany">Germany, the <title="Russian Americans">United States, <title="Russians in Uzbekistan">Uzbekistan, <title="Russians in Israel">Israel, <title="Russian Brazilians">Brazil, <title="Russians in Belarus">Belarus, <title="Russian Canadians">Canada, <title="Russians in Latvia">Latvia, <title="Russians in Kyrgyzstan">Kyrgyzstan, <title="Russians in Moldova">Moldova, <title="Russians in Estonia">Estonia, <title="Russians in Turkmenistan">Turkmenistan, <title="Russians in France">France, <title="Russians in Lithuania">Lithuania and <title="Russians in Azerbaijan">Azerbaijan.
 
-<td><title="Ryukyuan people">Ryukyuans<title="Japonic languages">Japonic → <title="Ryukyuan languages">Ryukyuan<sup ></sup><title="Ryukyu Islands">Ryukyu Islands (<title="Japan">Japan)
+<td><title="Ryukyuan people">Ryukyuans<title="Japonic languages">Japonic → <title="Ryukyuan languages">Ryukyuan<title="Ryukyu Islands">Ryukyu Islands (<title="Japan">Japan)
 <title="Amami Islands">Amami (including <title="Kikaijima">Kikai, <a href="/wiki/Amami_%C5%8Cshima" title="Amami Ōshima">Amami Ōshima, <title="Tokunoshima">Tokunoshima, <title="Okinoerabujima">Okinoerabu, and <title="Yoronjima">Yoron), <title="Okinawa Islands">Okinawan (including <title="Kunigami language">Kunigami) <title="Miyako Islands">Miyako, <title="Yaeyama Islands">Yaeyama, <title="Yonaguni">Yonaguni<title="Ryukyuan religion">Ryukyuan religion
 
 <td><title="Rusyns">Rusyns
-<title="Rusyn language">Rusyn<title="Carpathian Ruthenia">Carpathian Ruthenia (<title="Ukraine">Ukraine, <title="Slovakia">Slovakia, <title="Poland">Poland)<sup ></sup>
+<title="Rusyn language">Rusyn<title="Carpathian Ruthenia">Carpathian Ruthenia (<title="Ukraine">Ukraine, <title="Slovakia">Slovakia, <title="Poland">Poland)
 <title="Pannonian Rusyns">Pannonian Rusyns, <title="Lemkos">Lemkos, <title="Hutsuls">Hutsuls, <title="Boykos">Boykos
 
 <td><title="Saho people">Saho
@@ -1197,12 +1163,12 @@ Burmese → <title="Arakanese language">Arakanese<title="Rakhine State">Rakhine 
 <title="Zambales">Zambales ()
 <title="Bolinao language">Bolinao, <title="Botolan language">Botolan (including <title="Banguingui people">Banguingui)
 
-<td><a href="/wiki/S%C3%A1mi_people" title="Sámi people">Sámi<title="Uralic languages">Uralic → <title="Sami languages">Sami
+<td><a href="/wiki/S%C3%A1mi_people" title="Sámi people">Sámi<title="Sami languages">Sami
 <a href="/wiki/S%C3%A1pmi" title="Sápmi">Sápmi (<title="Norway">Norway, <title="Sweden">Sweden, <title="Finland">Finland, )
 <title="Inari Sami people">Inari Sami, <title="Kildin Sami">Kildin Sami, <title="Lule Sami">Lule Sami, <title="Northern Sami">Northern Sami, <title="Pite Sami">Pite Sami, <title="Skolts">Skolt Sami, <title="Southern Sami">Southern Sami, <title="Ter Sami">Ter Sami, <title="Ume Sami">Ume Sami
 
 <td><title="Samoans">Samoans
-<title="Polynesian languages">Polynesian → <title="Samoan language">Samoan<title="Samoan Islands">Samoan Islands (<title="Samoa">Samoa, <title="American Samoa">American Samoa)
+<title="Samoan language">Samoan<title="Samoan Islands">Samoan Islands (<title="Samoa">Samoa, <title="American Samoa">American Samoa)
 <title="Demographics of American Samoa">American Samoans
 
 <td><title="Sangirese people">Sangirese
@@ -1217,7 +1183,7 @@ Burmese → <title="Arakanese language">Arakanese<title="Rakhine State">Rakhine 
 <title="Ngambay language">Ngambay, <title="Doba language">Doba, <title="Laka language">Laka, <title="Kabba language">Kabba, <title="Sar language">Sar, <title="Mbay language">Mbay, <title="Ngam language">Ngam, <title="Dagba language">Dagba, <title="Gulay language">Gulay
 
 <td><title="Sardinian people">Sardinians
-<title="Sardinian language">Sardinian<title="Sardinia">Sardinia (<title="Italy">Italy)
+<title="Sardinian language">Sardinian<title="Sardinia">Sardinia 
 
 <td><title="Sasak people">Sasak
 <title="Sasak language">Sasak<title="Lombok">Lombok 
@@ -1237,7 +1203,7 @@ Burmese → <title="Arakanese language">Arakanese<title="Rakhine State">Rakhine 
 <title="Nafana people">Nafana, <title="Minyanka language">Minyanka
 
 <td><title="Serbs">Serbs
-<title="Serbian language">Serbian<title="Serbia">Serbia, <title="Republika Srpska">Republika Srpska (<title="Bosnia and Herzegovina">Bosnia and Herzegovina)
+<title="Serbian language">Serbian<title="Serbia">Serbia, <title="Republika Srpska">Republika Srpska ()
 11.5–12.<title="Kosovo Serbs">Kosovo Serbs, <title="Triestine Serbs">Triestine Serbs, along with <title="Serbian diaspora">significant populations in <title="Serbs of Croatia">Croatia, <title="Serbs in Germany">Germany, <title="Serbs in Austria">Austria, <title="Serbs in France">France, and <title="Swedish Serbs">Sweden
 → <title="Serbian Orthodox Church">Eastern Orthodoxy
 
@@ -1245,22 +1211,22 @@ Burmese → <title="Arakanese language">Arakanese<title="Rakhine State">Rakhine 
 <title="Serer language">Serer
 <title="Serer-Laalaa">Laalaa, <title="Serer-Ndut people">Ndut, <title="Niominka people">Niominka, <title="Serer-Noon">Serer-Noon, <title="Palor people">Palor, <title="Saafi people">Saafi
 
-<td><title="Shan people">Shan<a href="/wiki/Kra%E2%80%93Dai_languages" title="Kra–Dai languages">Kra–Dai → <title="Shan language">Shan<title="Shan State">Shan State ()
+<td><title="Shan people">Shan<title="Shan language">Shan<title="Shan State">Shan State ()
 
 <td><title="Sharchops">Sharchops
 <title="Tshangla language">Tshangla<title="Bhutan">Bhutan (<title="Lhuntse District">Lhuntse, <title="Mongar District">Mongar, <title="Pemagatshel District">Pemagatshel, <title="Samdrup Jongkhar District">Samdrup Jongkhar, <title="Trashigang District">Trashigang, and <title="Trashiyangtse District">Trashiyangtse Districts)
-[<i><span title=" (June 2019)">
+
 Buddhism → <title="Tibetan Buddhism">Tibetan Buddhism
 
 <td><title="Sherbro people">Sherbro
 <title="Mel languages">Mel → <title="Sherbro language">Sherbro<title="Sherbro Island">Sherbro Island ()
-[<i><span title=" (June 2019)">
+
 
 <td><title="Shilluk people">Shilluk
 <title="Shilluk language">Shilluk<title="South Sudan">South Sudan
-[<i><span title=" (June 2019)"><title="Gule tribe">Gule
+<title="Gule tribe">Gule
 
-<td><title="Shona people">Shona<a href="/wiki/Niger%E2%80%93Congo_languages" title="Niger–Congo languages">Niger–Congo→ <title="Shona language">Shona<title="Mashonaland">Mashonaland (Zimbabwe)
+<td><title="Shona people">Shona<a href="/wiki/Niger%E2%80%93Congo_languages" title="Niger–Congo languages">Niger–Congo→ <title="Shona language">Shona<title="Mashonaland">Mashonaland ()
 <title="Manyika dialect">Manyika, <title="Ndau people">Ndau
 
 <td><title="Sibe people">Sibe<title="Tungusic languages">Tungusic → <title="Xibe language">Xibe
@@ -1272,7 +1238,7 @@ China (<title="Liaoning">Liaoning, <title="Jilin">Jilin, <title="Xinjiang">Xinji
 Ethiopia)
 
 <td><title="Siddi">Siddi
-<title="Swahili language">Swahili<sup ></sup><title="Pakistan">Pakistan (<title="Baluchistan">Baluchistan, <title="Sindh">Sindh),  (<title="Karnataka">Karnataka, <title="Gujarat">Gujarat, <title="Hyderabad">Hyderabad)
+<title="Swahili language">Swahili<title="Pakistan">Pakistan (<title="Baluchistan">Baluchistan, <title="Sindh">Sindh),  (<title="Karnataka">Karnataka, <title="Gujarat">Gujarat, <title="Hyderabad">Hyderabad)
 
 
 <td><title="Sika people">Sika
@@ -1295,8 +1261,8 @@ Ethiopia)
 <title="Sinhala language">Sinhala<title="Sri Lanka">Sri Lanka
 <a href="/wiki/Dewa_(people)" title="Dewa (people)">Dewa, <title="British Sri Lankans">British Sri Lankans, <title="Burgher people">Burghers (including <title="Portuguese Burghers">Portuguese Burghers and <title="Dutch Burghers">Dutch Burghers)
 
-<td><title="Sioux">Sioux<title="Siouan languages">Siouan → <title="Sioux language">Sioux<sup ></sup><title="Republic of Lakotah proposal">Lakotah (United States)
-<sup><title="Lakota people">Lakota, <title="Dakota people">Dakota, <title="Nakota">Nakota (including <a href="/wiki/Nakoda_(Stoney)" title="Nakoda (Stoney)">Nakoda and <title="Assiniboine people">Assiniboine)<title="Native American religion">Native American religion
+<td><title="Sioux">Sioux<title="Siouan languages">Siouan → <title="Sioux language">Sioux<title="Republic of Lakotah proposal">Lakotah (United States)
+<sup><title="Lakota people">Lakota, <title="Dakota people">Dakota, <title="Nakota">Nakota (including <a href="/wiki/Nakoda_(Stoney)" title="Nakoda (Stoney)">Nakoda and <title="Assiniboine people">Assiniboine)
 
 <td><title="Slovaks">Slovaks
 <title="Slovak language">Slovak<title="Slovakia">Slovakia
@@ -1330,10 +1296,10 @@ Ethiopia, <title="Djibouti">Djibouti, )
 <a href="/wiki/Sotho%E2%80%93Tswana_languages" title="Sotho–Tswana languages">Sotho–Tswana → <title="Sotho language">Sotho<title="Free State">Free State (<title="South Africa">South Africa), <title="Lesotho">Lesotho
 
 <td><title="Spaniards">Spaniards
-<title="Spanish language">Spanish<title="Spain">Spain<sup ></sup>
+<title="Spanish language">Spanish<title="Spain">Spain
  in Spain.<title="Castilians">Castilians, <title="Andalusians">Andalusians, <title="Asturians">Asturians (including <title="Vaqueiros de alzada">Vaqueiros de alzada), <title="Leonese people">Leonese, <title="Cantabrian people">Cantabrians, <title="Aragonese people">Aragonese, <title="Extremadurans">Extremadurans, <title="Mirandese language">Mirandese, <title="Canary Islanders">Canary Islanders (including <a href="/wiki/Isle%C3%B1o" title="Isleño">Isleños), <title="Criollo people">Criollos, along with <title="Spanish diaspora">numerous colonial descendants such as <title="Hispanos">Hispanos (including <title="Californio">Californios, <title="Tejano">Tejanos, and <title="Hispanos of New Mexico">Neomexicanos), <title="Mexicans">Mexicans, <title="Guatemalans">Guatemalans (including <title="Hispanic Belizean">Hispanic Belizeans), <title="Salvadorans">Salvadorans, <title="Hondurans">Hondurans, <title="Nicaraguans">Nicaraguans, <title="Costa Ricans">Costa Ricans, <title="Panamanians">Panamanians, <title="Colombians">Colombians, <title="Venezuelans">Venezuelans, <title="Ecuadorians">Ecuadorians, <title="Peruvians">Peruvians, <title="Bolivians">Bolivians, <title="Demographics of Paraguay">Paraguayans, <title="Chileans">Chileans, <title="Argentines">Argentines, <title="Uruguayans">Uruguayans, <title="Cubans">Cubans, <title="People of the Dominican Republic">Dominicans, <a href="/wiki/Zamboangue%C3%B1o_people" title="Zamboangueño people">Zamboangueños, <title="Puerto Ricans">Puerto Ricans, <title="Fernandino peoples">Fernandinos, and <title="Spanish Filipino">Spanish Filipinos
 
-<td><title="Sui people">Sui<a href="/wiki/Kra%E2%80%93Dai_languages" title="Kra–Dai languages">Kra–Dai → <a href="/wiki/Kam%E2%80%93Sui_languages" title="Kam–Sui languages">Kam–Sui → <title="Sui language">Sui<title="Sandu Shui Autonomous County">Sandu Shui Autonomous County (China)
+<td><title="Sui people">Sui<a href="/wiki/Kam%E2%80%93Sui_languages" title="Kam–Sui languages">Kam–Sui → <title="Sui language">Sui<title="Sandu Shui Autonomous County">Sandu Shui Autonomous County (China)
 
 <td><title="Sumba people">Sumba
 <a href="/wiki/Sumba%E2%80%93Flores_languages" title="Sumba–Flores languages">Sumba–Flores → <title="Sumba languages">Sumba
@@ -1346,11 +1312,11 @@ Ethiopia, <title="Djibouti">Djibouti, )
 
 <td><title="Sukuma people">Sukuma
 <title="Sukuma language">Sukuma<title="Tanzania">Tanzania
-[<i><span title=" (June 2019)">
+
 
 <td><title="Sumbawa people">Sumbawa
 <title="Sumbawa language">Sumbawa<title="Sumbawa">Sumbawa 
-[<i><span title=" (June 2019)">
+
 
 <td><title="Surma people">Surma
 <title="Surmic languages">Surmic
@@ -1362,7 +1328,7 @@ Ethiopia, <title="South Sudan">South Sudan
 <title="Susu language">Susu, <title="Kambia District">Kambia ()
 
 <td><title="Swahili people">Swahili
-<title="Swahili language">Swahili<title="Swahili coast">Swahili coast (, <title="Tanzania">Tanzania, <title="Mozambique">Mozambique, <title="Comoros">Comoros)
+<title="Swahili language">Swahili<title="Swahili coast">Swahili coast (, <title="Tanzania">Tanzania, , <title="Comoros">Comoros)
 <title="Shirazi people">Shirazi (including <title="Zanzibar">Zanzibaris, <title="Demographics of the Comoros">Comorians and <title="Mayotte">Maore)
 
 <td><title="Swazi people">Swazi
@@ -1370,7 +1336,7 @@ Ethiopia, <title="South Sudan">South Sudan
 → <title="African Zionism">African Zionism
 
 <td><title="Swedes">Swedes
-<title="North Germanic languages">Nordic → <title="Swedish language">Swedish<title="Sweden">Sweden
+<title="Swedish language">Swedish<title="Sweden">Sweden
 <title="Scania">Scanians, <title="Jamtland">Jamtish, <title="Gotland">Gutnish, along with <title="Swedish diaspora">significant populations in <title="Swedish-speaking population of Finland">Finland (including <a href="/wiki/%C3%85land_Islands" title="Åland Islands">Åland Swedes), <title="Swedish Americans">the United States, <title="Swedish Canadians">Canada, <title="Swedish Argentines">Argentina and <title="Swedes in the United Kingdom">the United Kingdom
 
 <td><title="Sylhetis">Sylhetis
@@ -1384,12 +1350,12 @@ Ethiopia, <title="South Sudan">South Sudan
 <title="Filipino Americans">Filipino Americans
 
 <td><title="Tahitians">Tahitians
-<title="Polynesian languages">Polynesian → <title="Tahitian language">Tahitian
+<title="Tahitian language">Tahitian
 <title="Tahiti">Tahiti (France)
 
 
 <td><title="Tajiks">Tajiks
-<title="Persian language">Persian → <title="Tajik language">Tajik<title="Afghanistan">Afghanistan, <title="Tajikistan">Tajikistan, <title="Uzbekistan">Uzbekistan
+<title="Tajik language">Tajik<title="Afghanistan">Afghanistan, <title="Tajikistan">Tajikistan, <title="Uzbekistan">Uzbekistan
 <title="Chagatai people">Chagatai
 
 <td><title="Talysh people">Talysh
@@ -1410,7 +1376,7 @@ Ethiopia, <title="South Sudan">South Sudan
 <title="Volga Tatars">Volga Tatars, <title="Crimean Tatars">Crimean Tatars, <title="Lipka Tatars">Lipka Tatars, <title="Siberian Tatars">Siberian Tatars, <title="Mishar Tatars">Mishar Tatars, <title="Finnish Tatars">Finnish Tatars, <title="Tatars of Romania">Dobruja Tatars, <title="Chinese Tatars">Chinese Tatars, <title="Nagaybak">Nagaybak, <title="Kryashens">Kryashens
 
 <td><a href="/wiki/Taus%C5%ABg_people" title="Tausūg people">Tausūg
-<title="Visayan languages">Visayan → <title="Tausug language">Tausug<title="Sulu Archipelago">Sulu Archipelago ()
+<title="Tausug language">Tausug<title="Sulu Archipelago">Sulu Archipelago ()
 
 <td><title="Tboli people">Tboli
 <title="Tboli language">Tboli<title="South Cotabato">South Cotabato ()
@@ -1420,7 +1386,7 @@ Ethiopia, <title="South Sudan">South Sudan
 <td><title="Temne people">Temne
 <title="Mel languages">Mel → <title="Temne language">Temne<a href="/wiki/Northern_Province,_Sierra_Leone" title="Northern Province, Sierra Leone">Northern Sierra Leone ()
 
-<td><title="Thai people">Thais<a href="/wiki/Kra%E2%80%93Dai_languages" title="Kra–Dai languages">Kra–Dai → <title="Thai language">Thai<title="Thailand">Thailand
+<td><title="Thai people">Thais<title="Thai language">Thai<title="Thailand">Thailand
 <title="Southern Thailand">Southern Thai, <title="Khorat Thai">Khorat, <title="Northern Thai people">Lanna, <a href="/wiki/Tai_L%C3%BC_language" title="Tai Lü language">Tai Lü, <title="Thai Americans">Thai Americans
 Buddhism → <title="Buddhism in Thailand">Theravada Buddhism
 
@@ -1453,7 +1419,7 @@ Ethiopia)
 <td><title="Toubou people">Toubou
 <title="Saharan languages">Saharan → <title="Tebu languages">Tebu
 <title="Tibesti Mountains">Toubouland (<title="Chad">Chad, <title="Niger">Niger, <title="Sudan">Sudan, <title="Libya">Libya)
-<sup id="cite_ref-The_Peoples_of_Africa:_An_Ethnohistorical_Dictionary_148-2"><a href="#cite_note-The_Peoples_of_Africa:_An_Ethnohistorical_Dictionary-148"></sup><title="Daza language">Daza, <title="Teda language">Teda
+<sup id="cite_ref-The_Peoples_of_Africa:_An_Ethnohistorical_Dictionary_148-2"><title="Daza language">Daza, <title="Teda language">Teda
 
 <td><title="Toucouleur people">Toucouleur
 <title="Fula language">Fula → <title="Pulaar language">Pulaar<title="Futa Tooro">Futa Tooro ()
@@ -1463,14 +1429,14 @@ Ethiopia)
 <title="Jamatia">Jamatia, <title="Murasing">Murasing
 
 <td><title="Tsonga people">Tsonga
-<title="Tsonga language">Tsonga<title="Mozambique">Mozambique (<title="Maputo">Maputo City and <title="Province">Maputo Province, <title="Gaza Province">Gaza Province), <title="South Africa">South Africa (<title="Limpopo">Limpopo, <title="Mpumalanga">Mpumalanga)
+<title="Tsonga language">Tsonga (<title="Maputo">Maputo City and <title="Province">Maputo Province, <title="Gaza Province">Gaza Province), <title="South Africa">South Africa (<title="Limpopo">Limpopo, <title="Mpumalanga">Mpumalanga)
 
 <td><title="Tswana people">Tswana
 <title="Tswana language">Tswana<title="Botswana">Botswana, <a href="/wiki/North_West_(South_African_province)" title="North West (South African province)">South Tswanaland (<title="South Africa">South Africa)
 <title="Balete people">Balete, <title="Mangwato tribe">Mangwato, <title="Bangwaketse">Bangwaketse, <title="Rolong tribe">Rolong
 
 <td><title="Tujia people">Tujia
-<title="Tujia language">Tujia<sup ></sup><title="Wuling Mountains">Wuling Mountains (China)
+<title="Tujia language">Tujia<title="Wuling Mountains">Wuling Mountains (China)
 <title="Nuo folk religion">Nuo folk religion
 
 <td><title="Tupuri people">Tupuri
@@ -1487,7 +1453,7 @@ Ethiopia)
 <title="Turkmen language">Turkmen<title="Turkmenistan">Turkmenistan
 
 <td><title="Tutsi">Tutsi
-<title="Great Lakes Bantu languages">Great Lakes → <title="Rwanda-Rundi">Rwanda-Rundi<sup id="cite_ref-Hutu,_Tutsi,_Twa_168-1"><a href="#cite_note-Hutu,_Tutsi,_Twa-168"></sup><title="Rwanda">Rwanda, <title="Burundi">Burundi, <title="Kivu">Kivu ()
+<title="Rwanda-Rundi">Rwanda-Rundi<sup id="cite_ref-Hutu,_Tutsi,_Twa_168-1"><a href="#cite_note-Hutu,_Tutsi,_Twa-168"></sup><title="Rwanda">Rwanda, <title="Burundi">Burundi, <title="Kivu">Kivu ()
 <title="Banyamulenge">Banyamulenge
 , <title="Islam">Islam
 
@@ -1496,13 +1462,13 @@ Ethiopia)
 <title="Tozhu Tuvans">Tozhu Tuvans
 Buddhism → <title="Tibetan Buddhism">Tibetan Buddhism
 
-<td><title="Udmurt people">Udmurts<title="Uralic languages">Uralic → <title="Permic languages">Permic → <title="Udmurt language">Udmurt<title="Udmurtia">Udmurtia ()
+<td><title="Udmurt people">Udmurts<title="Permic languages">Permic → <title="Udmurt language">Udmurt<title="Udmurtia">Udmurtia ()
 <title="Besermyan">Besermyan
 
 
 <td><title="Urhobo people">Urhobos
-<title="Edoid languages">Edoid → <title="Urhobo language">Urhobo<title="Delta State">Delta State ()
-[<i><span title=" (June 2019)">
+<title="Urhobo language">Urhobo<title="Delta State">Delta State ()
+
 
 <td><title="Ukrainians">Ukrainians
 <title="Ukrainian language">Ukrainian<title="Ukraine">Ukraine
@@ -1538,7 +1504,7 @@ Buddhism → <title="Mahayana">Mahayana
 Buddhism, <title="Animism">Animism
 
 <td><title="Walloons">Walloons
-<title="Walloon language">Walloon<sup ></sup><title="Wallonia">Wallonia ()
+<title="Walloon language">Walloon<title="Wallonia">Wallonia ()
 
 <td><title="Waxiang people">Waxiang
 <title="Waxiang Chinese">Waxiang Chinese<title="Hunan">Hunan (China)
@@ -1573,7 +1539,7 @@ significant populations in <title="Y Wladfa">Argentina, <title="Welsh Americans"
 
 
 <td><a href="/wiki/Yao_people_(East_Africa)" title="Yao people (East Africa)">Yao
-<title="Yao language">Yao<title="Malawi">Malawi, <title="Mozambique">Mozambique, <title="Tanzania">Tanzania (<title="Ruvuma Region">Ruvuma and <title="Mtwara Region">Mtwara Regions)
+<title="Yao language">Yao, , <title="Tanzania">Tanzania (<title="Ruvuma Region">Ruvuma and <title="Mtwara Region">Mtwara Regions)
 
 <td><title="Yi people">Yi
 <title="Loloish languages">Loloish
@@ -1596,7 +1562,7 @@ China (<title="Yunnan">Yunnan, <title="Sichuan">Sichuan, <title="Guizhou">Guizho
 <title="Oaxaca">Oaxaca (<title="Mexico">Mexico)
 <a href="/wiki/Ixtl%C3%A1n_Zapotec" title="Ixtlán Zapotec">Ixtlán
 
-<td><title="Zhuang people">Zhuang<a href="/wiki/Kra%E2%80%93Dai_languages" title="Kra–Dai languages">Kra–Dai → <title="Zhuang languages">Zhuang
+<td><title="Zhuang people">Zhuang<title="Zhuang languages">Zhuang
 <title="Guangxi Zhuang Autonomous Region">Zhuangia (China)
 <a href="/wiki/Mo_(religion)" title="Mo (religion)">Moism
 
