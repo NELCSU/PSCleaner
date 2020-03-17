@@ -1,177 +1,28 @@
-export const Language: string[] = [
-// A
-"abaza", "abazgi", "abkhaz", "abron", "abure", "acehnese", "acholi", "adja", "adjukru", "afar", "afenmai", 
-"afrikaans", "agaw", "ahom", "aimaq", "akan", "akeu", "akha", "akoose", "albanian", "alladian", "alur", 
-"amharic", "amis",
-"anaang", "anuak", "apachean", "arabic", "argobba", "armenian", "aromanian", "atyap", "avar", "awadhi", 
-"aymara", "aymaran", "azerbaijani",
-// B
-"bahnar", "bai", "balanta", "balinese", "balkar", "balochi", "balti", "bambara", "bamileke", 
-"bamum", "banda", "banjarese", "bari", "bariba", "bashkir", "basque", "bassa", "batak", "bavarian",
-"beja", "belarusian", "bemba", "bembe", "bengali", "berber", "berom", "berta", "betawian", "beti",
-"bhil", "bhojpuri", "bhumij", "bikol", "bishnupriya manipuri", "bissa", "blaan", "boa", "bodo", "bouyei",
-"bozo", "brahui", "breton", "bru", "budu",
-// D
-"dutch",
-// E
-"eton", "ewondo",
-// F
-"fe'fe",
-// G
-"german", "ghomala",
-// H
-"hani", "hindustani",
-// K
-"kwa",
-// L
-"land dayak",
-// M
-"medumba", "mengaka", "munda",
-// N
-"naba", "nda'nda", "ngiemboon", "ngomba", "ngombale", "ngwe",
-// T
-"timoric", 
-// U
-"uab meto",
-// Y
-"yemba"
-];
-
-/**
-Yedina
-Bulgarian
-Dargwa
-Kajtak, Kubachi, Itsari, Chirag
-Dinka
-Dogon
-Ampari
-Hadiyya
-Hani
-Harari
-Hungarian
-Rwanda-Rundi
-Iban
-Ibanag
-Hausa
-Hawaiian
-Hazaragi
-Persian
-Herero
-Xong
-Pa-Hng
-Huli
-Dogri
-Guarani
-Sebat Bet
-Winye
-Deg
-Puguli
-Paasaal
-Sisaala
-Chakali
-Siti
-Tamprusi
-Vagla
-Chaha
-Kalamsé
-Pana
-Muher
-Gourmanché
-Ntcham
-Gurunsi
-Lukpa
-Delo
-Bago-Kusuntu
-Chala
-Lyélé
-Gujarati
-Gumuz
-Kistane
-Gurage
-Inor
-Mesqan
-Santa
-Gwari
-Dubli
-Georgian
-Guang
-Anyanga
-Larteh
-Chumburung
-Krache
-Anum-Boso
-Tsova-Tush
-Gola
-Gondi
-Gorontaloan
-Greek
-Champenois
-Gallo
-Gelao
-Frisian
-Bokoto, Kàrà, Buli, Toongo, Ali
-Gbaya-Bossangoa, Bozom, Mbodomo, Gbanu, Bangandu
-Gedeo
-Gayo
-Friulian
-Gbaya
- Adangbe
- Galician
- Luganda
- Garifuna
- Garo
- Gagauz
- Fula
- Ga–Dangme
- Estonian
- Ewe
- Waci
- Beti
- Fang
- Fijian
- Finnish
- Fon
- French
- Dutch
- Dyula
- Ebira
- Edo
- Efik
- Ekoi
- Embera
- English
- Esan
- Buginese
- Cornish
- Corsican
- Cree
- Croatian
- Cuyonon
- Czech
- Dagaare
- Burushaski
- Dagbani
- Khoekhoe
- Danish
- Butonese
- Bwa
- Chakma
- Chewa
- Coptic
- Catalan
- Micronesia
- Deori
- Chamorro
- Cham
- Chuvash
- Chechen
- Cherokee
- Circassian
- Chinese
- Choctaw
- French
- Chuukese
- Chokwe
- Anu-Hkongso
- Kuki-Chin–Naga
- */
+export const language: string[] = [
+"ampari", "anyanga", "anum-boso", "anakalangu", "arakanese", "ali", "adangbe", "anu-hkongso", "agatu", "alago", "ajië", "arhâ", "amri", "abaza", "abazgi", "abkhaz", "abron", "abure", "acehnese", "acholi", "adja", "adjukru", "afar", "afenmai", "afrikaans", "agaw", "ahom", "aimaq", "akan", "akeu", "akha", "akoose", "albanian", "alladian", "alur", "amharic", "amis", "anaang", "anuak", "apachean", "arabic", "argobba", "armenian", "aromanian", "atyap", "avar", "awadhi", "aymara", "aymaran", "azerbaijani",
+"bahnar", "bumthang", "bookan", "bolon", "bangubangu", "bakwé", "bulgarian", "bago-kusuntu", "buli", "bokoto", "bangandu", "bozom", "buginese", "burushaski", "butonese", "bwa", "beti", "banjaal", "bayot", "bai", "balanta", "balinese", "balkar", "balochi", "balti", "bambara", "bamileke", "bamum", "banda", "banjarese", "bari", "bariba", "bashkir", "basque", "bassa", "batak", "bavarian", "beja", "belarusian", "bemba", "bembe", "bengali", "berber", "berom", "berta", "betawian", "beti", "bhil", "bhojpuri", "bhumij", "bikol", "bishnupriya manipuri", "bissa", "blaan", "boa", "bodo", "bouyei", "bozo", "brahui", "breton", "bru", "budu",
+"chirag", "chokri", "chuwabu", "chakali", "chaha", "chala", "chumburung", "champenois", "cornish", "corsican", "chakma", "chewa", "coptic", "catalan", "chuukese", "chokwe", "cree", "croatian", "cuyonon", "czech", "chamorro", "cham", "chuvash", "chechen", "cherokee", "circassian", "chinese", "choctaw", "cordilleran", "chūgoku",
+"dutch", "dongolawi", "dzongkha", "dayak", "dinka", "dogon", "dargwa", "dogri", "deg", "delo", "dubli", "dagaare", "danish", "deori", "dagbani", "dyula", "dusunic",
+"eton", "erzya", "ewondo", "ebira", "edo", "efik", "ekoi", "embera", "english", "esan", "estonian", "ewe", "emilian",
+"fe'fe", "frisian", "friulian", "fula", "fang", "fijian", "finnish", "fon", "french", "fogni",
+"german", "gaelic", "gokana", "gedeo", "gayo", "gujarati", "gumuz", "gurage", "gwari", "georgian", "guang", "gola", "gbaya-bossangoa", "gondi", "gorontaloan", "greek", "gallo", "gelao", "gbanu", "ghomala", "guarani", "gbaya", "galician", "garifuna", "garo", "gagauz", "ga–dangme", "gourmanché", "gurunsi", "gusilay",
+"hani", "hindustani", "hlai", "hindustani", "hadiyya", "hani", "harari", "hungarian", "herero", "huli", "hausa", "hawaiian", "hazaragi", "hokkaido", "hōnichi", "hachijō", "hebrew", "haveke", "haeke", "huba",
+"iban", "ishkashimi", "icelandic", "ibanag", "itsari", "inor", "ibibio", "icelandic", "idoma", "igbo", "igede", "ijaw", "ilocano", "ingush", "inuit", "iranun", "irish", "iroquoian", "isan", "isoko", "italian", "itawis",
+"japanese", "jarai", "javanese", "jingpho", "jola", "jukun takum",
+"kwa", "kodi", "khoekhoe", "khezha", "kalabakan", "kim mun", "koti", "keningau", "kyrgyz", "kuteb", "kurdish", "kurukh", "kunama", "kposo", "kru", "korean", "kpelle", "konjo", "konso", "kumyk", "kongo", "konkani", "komi", "komi-zyrian", "komi-permyaks", "kajtak", "kubachi", "kalamsé", "kistane", "krache", "kàrà", "khoekhoe", "kofyar", "kuki-chin–naga", "kantō", "kansai", "karon", "kasa", "kuwaataay", "kalanga", "kalenjin", "kalinago", "kanak", "kannada", "kapampangan", "kapsiki", "karachay", "karakalpak", "karbi", "karenic", "kashmiri", "kashubian", "kazakh", "kui", "khmer", "khorasani", "kikuyu", "kiranti", "kissi", "kanuri",
+"lukpa", "lamboya", "lakkia", "luri", "luba-katanga", "luba-kasai", "luban", "lithuanian", "lisuchina", "lipo", "limba", "lega", "lezgian", "laz", "latvian", "lamaholot", "lao", "lyélé", "larteh", "luganda", "lao", "ligurian", "lampung", "lak",
+"ma'di", "mamboru", "munji", "mattokki", "mwera", "murutic", "musgu", "muscogee", "mixe", "munanese", "mundari", "mossi", "mumuye", "mordvinic", "montenegrin", "mixtec", "mongondow", "mongo", "mising", "miskito", "minangkabau", "minahasan", "mijikenda", "miꞌkmaq", "mienic", "mende", "meitei", "melanau", "mehri", "mazatecan", "mbaka", "mocho", "mazahua", "masana", "mayan", "masalit", "mari", "marathi", "māori", "mapudungun", "maranao", "manggarai", "manjak", "manding", "manchu", "mandar", "mambila", "maltese", "maldivian", "malayalam", "malay", "malagasy", "moniga", "makonde", "makhuwa", "maithili", "makassarese", "maguindanao", "magar", "mafa", "magahi", "madurese", "medumba", "macedonian", "maasai", "mengaka", "munda", "muher", "mesqan", "mbodomo", "micronesia", "mlomp",
+"naba", "nuer", "nuristani", "nishi", "nùng", "nobiin", "nubian", "nias", "nogai", "norwegian", "ngbandi", "navajo", "newar", "ngaju", "nahuatl", "nathembo", "nda'nda", "ngiemboon", "ngomba", "ngombale", "ngwe", "ntcham", "nepali", "nande",
+"okolod", "otomi", "ovambo", "ossetian", "oromo", "occitan", "odia", "ogoni", "ojibwe",
+"persian", "pulaar", "punjabi", "purépecha", "polish", "portuguese", "pende", "pashto", "pashayi", "pangasinan", "puguli", "paasaal", "pa-hng", "pana", "paluan", "pamir",
+"qashqai", "qiangic", "quechuan",
+"rwanda-rundi", "romanian", "rusyn", "ryukyuan", "russian", "romagnol", "rade", "kamtapuri", "rejang", "rohingya", "romani",
+"sebat bet", "sylheti", "swazi", "sukuma", "sumbawa", "susu", "swahili", "sundanese", "sumba", "sumbanese", "sui", "spanish", "songhai", "soninke", "sotho", "slovak", "slovene", "soga", "somali", "silesian", "sinhala", "sioux", "silt'e", "sindhi", "sika", "swahili", "sidaama", "shilluk", "shona", "sherbro", "senufo", "serer", "serbian", "sasak", "sardinian", "santali", "sangirese", "samoan", "sámi", "sambalic", "sama–bajaw", "saho", "salarchina", "sanglechi", "sepedi", "sotho–tswana", "shughni", "sarikoli", "sisaala", "sadri", "siti", "santa", "satsugū", "shona", "sapo", "songe", "somyev", "serudung", "sembakung", "selungai",  
+"timoric", "tagalog", "tsonga", "tshivenda", "tswana", "tuvan", "tujia", "tupuri", "turkana", "turkmen", "turkish", "tebu", "temne", "tigre", "tiwa", "tlapanec", "toraja", "thai", "tigrinya", "tibetan", "talysh", "tamil", "tarok", "tatar", "tausūg", "tboli", "tama", "tahitian", "tajik", "tabasaranese", "tshangla", "tamprusi", "tsova-tush", "toongo", "tōhoku", "tonsawang", "tontemboan", "tondano", "tombulu", "tonsea", "timugon", "tagal",
+"uab meto", "udmurt", "urhobo", "ukrainian", "uyghur", "uzbek",
+"vagla", "vietnamese", "visayan",
+"winye", "waci", "wannu", "wali", "wanukaka", "walloon", "waxiang", "wolayitta", "welsh", "wolof",
+"xong", "xârâgurè", "xibe", "xhosa",
+"yemba", "yedina", "yala", "yazghulami", "yidgha", "yakö", "yoruba", "yao", "yakut", "yakan",
+"zulu", "zhuang", "zapotec", "zaghawa", "zande"
+];    

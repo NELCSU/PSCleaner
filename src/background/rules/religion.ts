@@ -1,33 +1,22 @@
 export const Religion: string[] = [
-// A
-"anglican", "animism", "animist", "anito", "anitist", "armenian apostolic",
-// B
+"anglican", "animism", "animist", "anito", "anitist", "armenian apostolic", "african zionism",
 "batak", "bathouism", "buddhism", "bulgarian orthodox",
-// C
-"calvinism", "calvinist", "catholic", "catholicism", "chinese folk religion", 
-"christian", "christianity", "coptic orthodox",
-// E
-"eastern orthodox", "ethiopian orthodox",
-// G
+"calvinism", "calvinist", "catholic", "creek mythology", "catholicism", "chinese folk religion", "christian", "christianity", "church of scotland", "coptic orthodox",
+"eastern orthodox", "eritrean orthodox", "ethiopian orthodox",
 "georgian orthodox", "greek orthodox",
-// H
 "hanafi", "hindu", "hinduism", "hmong folk religion",
-// I
 "islam", "isma",
-// L
-"lisu", "lutheran",
-// M
-"methodist", "moism",
-// N
-"native american",
-// P
-"P'ent'ay", "protestant",
-// R
-"russian orthodox",
-// S
-"sarnaism", "shamanism", "shia", "sunni",
-// T
-"taoism", "tewahedo", "theravada", "traditional african",
-// W
-"west african vodun"
+"lisu", "longhouse religion", "lutheran",
+"methodist", "moism", "macedonian orthodox", "moravian church",
+"native american", "nahdlatul ulama", "nuo folk religion",
+"ohrid archbishopric",
+"p'ent'ay", "protestant",
+"qiang folk religion",
+"russian orthodox", "ryukyuan",
+"sarnaism", "serbian orthodox", "shamanism", "shia", "shinto", "sunni",
+"taoism", "tewahedo", "theravada", "tibetan buddhism", "traditional african",
+"vaishnavism",
+"west african vodun",
+"yao folk religion",
+"zionist"
 ];
