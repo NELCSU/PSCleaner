@@ -1,4 +1,4 @@
-export type EntityType = "Regular expression" | "Single term" | "Multiple term";
+export type EntityType = "keyword" | "regular expression";
 
 export type Entity = {
   id: number,
@@ -86,4 +86,28 @@ export type WordPosition = {
   start: number,
   end: number,
   length: number
+};
+
+export type TextMatch = {
+  end: number,
+  id: number,
+  length: number,
+  start: number,
+  value: string
+};
+
+export type SimpleEntity = {
+  color: string,
+  discard: number,
+  domain: string,
+  joinable: number,
+  label: string,
+  mask: string,
+  order: number,
+  type: EntityType
+};
+
+export type SimpleMatchedEntity = {
+  entity: SimpleEntity,
+  match: TextMatch
 };

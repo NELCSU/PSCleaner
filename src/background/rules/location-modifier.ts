@@ -1,22 +1,18 @@
-export const LocationModifier: string[] = [
-  // C
-  "central",
-  // E
-  "east", "eastern",
-  // G
-  "great", "greater",
-  // I
-  "inner",
-  // L
-  "little", "lower",
-  // N
-  "north", "northern",
-  // O
-  "outer",
-  // S
-  "south", "southern",
-  // U
-  "upper",
-  // W
-  "west", "western",
-];
+export const LocationModifier: Set<string> = new Set([
+"central",
+"east", 
+"eastern",
+"great", 
+"greater",
+"inner",
+"little", 
+"lower",
+"north", 
+"northern",
+"outer",
+"south", 
+"southern",
+"upper",
+"west", 
+"western"
+]);

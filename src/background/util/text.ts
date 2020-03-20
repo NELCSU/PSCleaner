@@ -19,3 +19,7 @@ export function cleanText(text: string): string {
 export function isApostrophe(text: string): boolean {
   return text === "'" || text === "‘" || text === "’" || text === "`";
 }
+
+export function isPropercase(text: string): boolean {
+  return text[0] === text[0].toUpperCase();
+}

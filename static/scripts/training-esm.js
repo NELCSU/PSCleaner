@@ -364,7 +364,7 @@ ipc.on("NLP-response", (e, response) => {
   }
   while (response.length > 0) {
     let item = response.pop();
-    const sel = createSelection(dataEntryText.childNodes[0], item.search_value.word.start, item.search_value.word.length);
+    const sel = createSelection(dataEntryText.childNodes[0], item.match.start, item.match.length);
     addTag(sel, item.entity.label, item.entity.color);
   }
 });

@@ -11,7 +11,7 @@ if (require("electron-squirrel-startup")) { // eslint-disable-line global-requir
 
 import { AppMenu } from "./build-menu";
 import { AppTray } from "./build-tray";
-import { Entities } from "./entities";
+// import { Entities } from "./entities";
 import { TrainingFiles } from "./training-files";
 import { ImportFiles } from "./import-files";
 import { ExportFiles } from "./export-files";
@@ -23,14 +23,14 @@ import fs from "fs";
 import config from "./views";
 
 class Main {
-  #initDB: boolean = false;
+  private _initDB: boolean = false;
   #eventEmitter: EventEmitter;
 
   public app: App;
   public isQuitting = false;
   public mainWindow: any;
   public menu: any;
-  public entities!: Entities;
+  // public entities!: Entities;
   public importFiles!: ImportFiles;
   public exportFiles!: ExportFiles;
   public processFiles!: ProcessFiles;
@@ -61,16 +61,18 @@ class Main {
       this.initDB()
         .then(async _ => {
           const nlp: NLP = new NLP();
-          this.entities = new Entities();
+          // this.entities = new Entities();
           this.trainingFiles = new TrainingFiles();
           this.templateFiles = new TemplateFiles();
           this.importFiles = new ImportFiles();
           this.exportFiles = new ExportFiles();
           this.processFiles = new ProcessFiles();
 
+          /*
           this.entities.events.on("entity-update", async () => {
             await nlp.init();
           });
+          */
 
           ipc.on("NLP-request", async (e: IpcMainEvent, text: string) => {
             (async (t) => await nlp.evaluate(t))(text)
@@ -136,7 +138,7 @@ class Main {
     return (async _ => {
       try {
         await DB().connection();
-        this.#initDB = true;
+        this._initDB = true;
       } catch (err) {
         console.log(err);
       }
@@ -155,7 +157,7 @@ class Main {
   }
 
   public run = () => {
-    if (!this.#initDB || !this.trainingFiles.ready ||
+    if (!this._initDB || !this.trainingFiles.ready ||
       !this.importFiles.ready || !this.exportFiles.ready ||
       !this.processFiles.ready) {
       setTimeout(_ => this.run(), 1000);

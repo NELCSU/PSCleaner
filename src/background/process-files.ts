@@ -146,9 +146,9 @@ export class ProcessFiles {
     if (canProcess) {
       let normalised: string = cleanText(row[cell]);
       return await this.nlp.evaluate(normalised)
-        .then(async matches => {
+        .then(async (matches: any) => {
           await this.nlp.replace(normalised, matches)
-            .then(r => new Promise(resolve => resolve(row[cell] = r)));
+            .then((r: any) => new Promise(resolve => resolve(row[cell] = r)));
         });
     } else {
       return Promise.resolve(cell);
