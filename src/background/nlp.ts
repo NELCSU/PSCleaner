@@ -1,5 +1,6 @@
 import DB from "sqlite3-helper";
-import type { TextMatch, SimpleMatchedEntity, SimpleEntity } from "../typings/PSCleaner";
+import type { TextMatch, MatchedEntity, Entity } from "../typings/PSCleaner";
+import { LocationModifier, LocationModifierEntity, } from "./rules/location-modifier-set";
 import {
   AgeRegEx, AgeEntity,
   BankingRegEx, BankingEntity,
@@ -12,10 +13,17 @@ import {
   TimeRegEx, TimeEntity, 
   URLRegEx, URLEntity 
 } from "./rules/misc-regex";
-import { NamesEndingRegEx, NamesEndingEntity } from "./rules/names-ending-regex";
-import { NameSet, ProperNameSet, NameEntity } from "./rules/name-set";
+import { NamesEndingRegEx } from "./rules/name-ending-regex";
+import { NameEntity, NamesEndingEntity, TerritoryEntity } from "./rules/name-set";
+import { NameSetAD } from "./rules/name-setA-D";
+import { NameSetEH } from "./rules/name-setE-H";
+import { NameSetIL } from "./rules/name-setI-L";
+import { NameSetMP } from "./rules/name-setM-P";
+import { NameSetQT } from "./rules/name-setQ-T";
+import { NameSetUZ } from "./rules/name-setU-Z";
+import { ProperNameSet } from "./rules/name-capitalised";
 import { EthnicitySet, EthnicityEntity } from "./rules/ethnicity-set";
-import { TerritorySet, TerritoryEntity } from "./rules/territory-set";
+import { TerritorySet } from "./rules/territory-set";
 import { SkipWordSet, SkipWordEntity } from "./rules/skip-word-set";
 import { isPropercase } from "./util/text";
 
@@ -49,96 +57,110 @@ export class NLP {
    * Returns list of matched entities
    * @param data - body of text to evaluate
    */  
-  public async evaluate(data: string): Promise<SimpleMatchedEntity[]> {
-    let matches: SimpleMatchedEntity[] = [];
-    const ages: { entity: SimpleEntity, matches: TextMatch[] } = {
+  public async evaluate(data: string): Promise<MatchedEntity[]> {
+    let matches: MatchedEntity[] = [];
+    const ages: { entity: Entity, matches: TextMatch[] } = {
       entity: AgeEntity,
       matches: this.evaluateRegEx(data, AgeRegEx)
     };
-    const banking: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const banking: { entity: Entity, matches: TextMatch[] } = {
       entity: BankingEntity,
       matches: this.evaluateRegEx(data, BankingRegEx)
     };
-    const currency: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const currency: { entity: Entity, matches: TextMatch[] } = {
       entity: CurrencyEntity,
       matches: this.evaluateRegEx(data, CurrencyRegEx)
     };
-    const dates: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const dates: { entity: Entity, matches: TextMatch[] } = {
       entity: DateEntity,
       matches: this.evaluateRegEx(data, DateRegEx)
     };
-    const emails: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const emails: { entity: Entity, matches: TextMatch[] } = {
       entity: EmailEntity,
       matches: this.evaluateRegEx(data, EmailRegEx)
     };
-    const location: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const location: { entity: Entity, matches: TextMatch[] } = {
       entity: LocationEntity,
       matches: this.evaluateRegEx(data, LocationRegEx)
     };
-    const namesEnding: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const locationModifier: { entity: Entity, matches: TextMatch[] } = {
+      entity: LocationModifierEntity,
+      matches: this.evaluateKeyword(data, null, LocationModifier)
+    };
+    const namesEnding: { entity: Entity, matches: TextMatch[] } = {
       entity: NamesEndingEntity,
       matches: this.evaluateRegEx(data, NamesEndingRegEx)
     };
-    const names: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const names: { entity: Entity, matches: TextMatch[] } = {
       entity: NameEntity,
-      matches: this.evaluateKeyword(data, NameSet)
+      matches: this.evaluateKeyword(data, null, NameSetAD, NameSetEH, NameSetIL, NameSetMP, NameSetQT, NameSetUZ)
     };
-    const properName: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const properName: { entity: Entity, matches: TextMatch[] } = {
       entity: NameEntity,
-      matches: this.evaluateKeyword(data, ProperNameSet, (n: string) => !isPropercase(n))
+      matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), ProperNameSet)
     };
-    const nhs: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const nhs: { entity: Entity, matches: TextMatch[] } = {
       entity: NHSEntity,
       matches: this.evaluateRegEx(data, NHSRegEx)
     };
-    const tel: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const tel: { entity: Entity, matches: TextMatch[] } = {
       entity: TelephoneEntity,
       matches: this.evaluateRegEx(data, TelephoneRegEx)
     };
-    const times: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const times: { entity: Entity, matches: TextMatch[] } = {
       entity: TimeEntity,
       matches: this.evaluateRegEx(data, TimeRegEx)
     };
-    const url: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const url: { entity: Entity, matches: TextMatch[] } = {
       entity: URLEntity,
       matches: this.evaluateRegEx(data, URLRegEx)
     };
-    const eth: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const eth: { entity: Entity, matches: TextMatch[] } = {
       entity: EthnicityEntity,
-      matches: this.evaluateKeyword(data, EthnicitySet)
+      matches: this.evaluateKeyword(data, null, EthnicitySet)
     };
-    const territory: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const territory: { entity: Entity, matches: TextMatch[] } = {
       entity: TerritoryEntity,
-      matches: this.evaluateKeyword(data, TerritorySet)
+      matches: this.evaluateKeyword(data, null, TerritorySet)
     };
-    const skipWord: { entity: SimpleEntity, matches: TextMatch[] } = {
+    const skipWord: { entity: Entity, matches: TextMatch[] } = {
       entity: SkipWordEntity,
-      matches: this.evaluateKeyword(data, SkipWordSet)
+      matches: this.evaluateKeyword(data, null, SkipWordSet)
     };
-    matches = this._sortMatches(data, emails, dates, ages, banking, currency, location, nhs, tel, times, url, eth, namesEnding, territory, skipWord, names, properName);
+    matches = this._sortMatches(data, 
+      ages, banking, currency, dates,  emails, eth, 
+      location, locationModifier, 
+      names, namesEnding, nhs, properName, 
+      tel, territory, times, url,
+      skipWord
+    );
     return Promise.resolve(matches);
   }
 
-  public evaluateKeyword(data: string, keyword: Set<string>, testFn?: Function): TextMatch[] {
+  public evaluateKeyword(data: string, testFn?: Function | null, ...keywords: any): TextMatch[] {
     const re: RegExp = new RegExp(/[\w\'\‘\’\`]+/, "gmi");
     const result: TextMatch[] = [];
     let m: RegExpExecArray | null;
     let word: string, passed: boolean;
-    while ((m = re.exec(data)) !== null) {
-      word = m[0].replace(/[\'\‘\’\`]/g, "").toLowerCase();
-      if (keyword.has(word)) {
-        passed = true;
-        if (testFn && testFn(m[0])) {
-          passed = false;
-        }
-        if (passed) {
-          result.push({
-            end: m.index + m[0].length - 1,
-            id: this._id(m[0]),
-            length: m[0].length,
-            start: m.index,
-            value: m[0]
-          });
+    while ((m = re.exec(data)) !== null) {    
+      word = m[0].replace(/[\'\‘\’\`](?:ll|re|s)/g, "").toLowerCase().replace(/[\'\‘\’\`]/g, "");
+      let l: number = keywords.length;
+      for (let i = 0; i < l; i++) {
+        if (m && keywords[i].has(word)) {
+          passed = true;
+          if (testFn && testFn(m[0])) {
+            passed = false;
+          }
+          if (passed) {
+            result.push({
+              end: m.index + m[0].length - 1,
+              id: this._id(m[0]),
+              length: m[0].length,
+              start: m.index,
+              value: m[0]
+            });
+          }
+          break;
         }
       }
     }
@@ -173,7 +195,7 @@ export class NLP {
    * Returns text with sensitive values removed
    * @param data - body of text to match and replace 
    */
-  public replace(data: string, matches: SimpleMatchedEntity[]): Promise<string> {
+  public replace(data: string, matches: MatchedEntity[]): Promise<string> {
     return new Promise((resolve, reject) => {
       try {
         for (let i = matches.length - 1; i > -1; --i) {
@@ -197,7 +219,7 @@ export class NLP {
     return sum;
   }
 
-  private _join(curr: SimpleMatchedEntity, next: SimpleMatchedEntity, originalText: string): SimpleMatchedEntity {
+  private _join(curr: MatchedEntity, next: MatchedEntity, originalText: string): MatchedEntity {
     let conjunction: string = originalText.substr(curr.match.end + 1, next.match.start - curr.match.end - 1);
     if (conjunction === "" && curr.match.value[curr.match.length - 1] !== " " && curr.match.length === 1) {
       conjunction = " ";
@@ -210,18 +232,18 @@ export class NLP {
     return curr;
   }
 
-  private _joinable(curr: SimpleMatchedEntity, next: SimpleMatchedEntity): boolean {
+  private _joinable(curr: MatchedEntity, next: MatchedEntity): boolean {
     const matchingDomains: boolean = next.entity.domain === curr.entity.domain;
     const currIsJoinable: boolean = curr.entity.joinable === 1;
     const alignedInText: boolean = (next.match.start > curr.match.end) && (next.match.start <= (curr.match.end + 2));
     return alignedInText && matchingDomains && currIsJoinable;
   }
 
-  private _sortMatches(data: string, ...args: any): SimpleMatchedEntity[] {
-    const result: SimpleMatchedEntity[] = [];
-    const v: SimpleMatchedEntity[] = [];
+  private _sortMatches(data: string, ...args: any): MatchedEntity[] {
+    const result: MatchedEntity[] = [];
+    const v: MatchedEntity[] = [];
 
-    args.forEach((arg: { entity: SimpleEntity, matches: TextMatch[] }) => {
+    args.forEach((arg: { entity: Entity, matches: TextMatch[] }) => {
       arg.matches.forEach((match: TextMatch) => {
         v.push({ entity: arg.entity, match: match });
       });
@@ -241,10 +263,10 @@ export class NLP {
           : 0;
     });
 
-    let current: SimpleMatchedEntity, peek: SimpleMatchedEntity, cursor: number = 0;
+    let current: MatchedEntity, peek: MatchedEntity, cursor: number = 0;
 
     while (v.length > 0) {
-      current = v.shift() as SimpleMatchedEntity;
+      current = v.shift() as MatchedEntity;
       let skip: boolean = cursor >= current.match.end;
       let lookAhead: boolean = v.length > 0 && !skip;
       while (lookAhead) {

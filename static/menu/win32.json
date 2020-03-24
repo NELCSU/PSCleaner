@@ -21,10 +21,6 @@
       "label": "View",
       "submenu": [
         {
-          "label": "Entities",
-          "click": "showEntities"
-        },
-        {
           "label": "Templates",
           "click": "showTemplates"
         },

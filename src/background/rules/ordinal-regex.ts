@@ -1,4 +1,4 @@
-import type { SimpleEntity } from "../../typings/PSCleaner";
+import type { Entity } from "../../typings/PSCleaner";
 
 export const OrdinalRegEx: RegExp[] = [
   /\d+(?:st|nd|rd|th)\b/,

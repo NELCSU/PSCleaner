@@ -23,9 +23,6 @@ export class AppMenu {
             case "showDevTools":
               s.click = () => this.showDevTools();
               break;
-            case "showEntities":
-              s.click = () => this.showEntities();
-              break;
             case "showHelp":
               s.click = () => this.showHelp(s.url);
               break;
@@ -55,10 +52,6 @@ export class AppMenu {
 
   public showDevTools(): void {
     this.#parent.mainWindow.webContents.toggleDevTools();
-  }
-
-  public showEntities(): void {
-    this.#parent.mainWindow.loadURL(config.pages.get("entities"));
   }
 
   public showHelp(url: string): void {

@@ -1,19 +1,5 @@
 export type EntityType = "keyword" | "regular expression";
 
-export type Entity = {
-  id: number,
-  color: string,
-  domain: string,
-  enabled: number,
-  priority: number,
-  joinable: number,
-  discard: number,
-  label: string,
-  mask: string,
-  reg_ex: string,
-  type: EntityType
-};
-
 export type CSVField = [string, boolean];
 
 export type CSVTemplate = {
@@ -26,9 +12,6 @@ export type ReadFileAction = {
   fn?: string,
   status: TrainingFileResponse | TemplateFileResponse
 };
-
-export type EntityRequest = "delete-entity" | "get-entities" | "save-entity";  
-export type EntityResponse = "entity-deleted" | "entity-deletion-error" | "entity-list" | "entity-list-error" | "entity-saved" | "entity-save-error";
 
 export type ExportFolderRequest = "get-export-folder" | "export-file-count" | "set-export-folder";
 export type ExportFolderResponse = "export-folder" | "export-file-count" | "export-folder-error";
@@ -69,16 +52,6 @@ export type SearchTermResult = {
   word: WordPosition
 };
 
-export type MatchedEntity = {
-  entity: Entity,
-  search_value: SearchTermResult
-};
-
-export type RegExpEntity = {
-  entity: Entity,
-  re: RegExp
-};
-
 export type WordPosition = {
   pos?: string,
   predicate: string,
@@ -96,7 +69,7 @@ export type TextMatch = {
   value: string
 };
 
-export type SimpleEntity = {
+export type Entity = {
   color: string,
   discard: number,
   domain: string,
@@ -107,7 +80,7 @@ export type SimpleEntity = {
   type: EntityType
 };
 
-export type SimpleMatchedEntity = {
-  entity: SimpleEntity,
+export type MatchedEntity = {
+  entity: Entity,
   match: TextMatch
 };

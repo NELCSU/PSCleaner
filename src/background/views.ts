@@ -8,7 +8,6 @@ const images: Map<string, string> = new Map<string, string>();
 images.set("favicon", j(base, "static", "favicon.ico"));
 const view: string = j(base, "static");
 const pages: Map<string, string> = new Map<string, string>();
-pages.set("entities", fileUrl(j(view, "entities.html")));
 pages.set("index", fileUrl(j(view, "index.html")));
 pages.set("settings", fileUrl(j(view, "settings.html")));
 pages.set("training", fileUrl(j(view, "training.html")));

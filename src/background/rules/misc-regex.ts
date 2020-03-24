@@ -1,11 +1,11 @@
-import type { SimpleEntity } from "../../typings/PSCleaner";
+import type { Entity } from "../../typings/PSCleaner";
 
 export const AgeRegEx: RegExp[] = [
   new RegExp(/(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d{1,3})[\s\-](?:years?|month)[\s\-]old\b/, "gmi"),
   new RegExp(/\baged?\s(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d{1,3})(?:\sand\s(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d{1,3}))?/, "gmi")
 ];
 
-export const AgeEntity: SimpleEntity = { 
+export const AgeEntity: Entity = { 
   color: "#cc33ee", 
   discard: 0, 
   domain: "AGE", 
@@ -24,7 +24,7 @@ export const BankingRegEx: RegExp[] = [
   new RegExp(/\b(\d){2}-(\d){2}-(\d){2}\b/, "gmi")
 ];
 
-export const BankingEntity: SimpleEntity = { 
+export const BankingEntity: Entity = { 
   color: "#994320", 
   discard: 0, 
   domain: "MONEY", 
@@ -40,7 +40,7 @@ export const CurrencyRegEx: RegExp[] = [
   new RegExp(/\d[\d,\.]*(?:\s(?:b|m|tr)illion|bn|k|m|p)?\s?(?:pounds?|pence|euros?|dollars?|cents?)\b/, "gmi")
 ];
 
-export const CurrencyEntity: SimpleEntity = { 
+export const CurrencyEntity: Entity = { 
   color: "#994360", 
   discard: 0, 
   domain: "MONEY", 
@@ -52,16 +52,16 @@ export const CurrencyEntity: SimpleEntity = {
 };
 
 export const DateRegEx: RegExp[] = [
-  new RegExp(/\b(?:[0123]?\d(?:st|nd|rd|th)?)(?:[\s\-\.]{0,3}|\sof\s)?(?:jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)(?:(?:[\s\-\.]{0,3})(?:\d\d|\d\d\d\d))\b/, "gmi"),
+  new RegExp(/\b(?:[0123]?\d(?:st|nd|rd|th)?)(?:[\s\-\.]{0,3}|\sof\s)?(?:jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)(?:(?:[\s\-\.]{0,3})(?:\d\d|\d\d\d\d))?\b/, "gmi"),
   new RegExp(/\b(?:jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)(?:(?:[\s\-\.]{0,3})(?:\d\d|\d\d\d\d))(?:[\s\-\.,]{0,3}\d\d\d\d)?\b/, "gmi"),
   new RegExp(/\b(?:mon\.?|monday|tues?\.?|tuesday|wed\.?|wednesday|thurs?\.?|thursday|fri\.?|friday|sat\.?|saturday|sun\.?|sunday)\s(?:the )?(?:[0123]?\d(?:st|nd|rd|th))\b/, "gmi"),
   new RegExp(/\b[0123]?\d[\s\/]{1,3}[0123]?\d[\s\/]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\/]{1,3}[0123]?\d[\s\/]{1,3}[0123]?\d\b/, "gmi"),
   new RegExp(/\b[0123]?\d[\s\-]{1,3}[0123]?\d[\s\-]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\-]{1,3}[0123]?\d[\s\-]{1,3}[0123]?\d\b/, "gmi"),
   new RegExp(/\b[0123]?\d[\s\.]{1,3}[0123]?\d[\s\.]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\.]{1,3}[0123]?\d[\s\.]{1,3}[0123]?\d\b/, "gmi"),
-  new RegExp(/\b(?<=(?:after|and|before|between|during|early|in|late|on)\s)[12]\d\d\d\b/, "gmi")
+  new RegExp(/\b(?<=(?:after|and|before|between|during|early|in|late|on|until)\s)[12]\d\d\d\b/, "gmi")
 ];
 
-export const DateEntity: SimpleEntity = { 
+export const DateEntity: Entity = { 
   color: "#e800e8", 
   discard: 0, 
   domain: "DATETIME", 
@@ -76,7 +76,7 @@ export const EmailRegEx: RegExp[] = [
   new RegExp(/\b(?:[''\w+\-\_\.]+)@(?:[\w+\-\_\.]+)\.(?:[\w+\-\_\.]+)\b/, "gmi")
 ];
 
-export const EmailEntity: SimpleEntity = { 
+export const EmailEntity: Entity = { 
   color: "#ff8000", 
   discard: 0, 
   domain: "EMAIL", 
@@ -93,7 +93,7 @@ export const LocationRegEx: RegExp[] = [
   new RegExp(/\b(?:block|suite)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/, "gmi")
 ];
 
-export const LocationEntity: SimpleEntity = { 
+export const LocationEntity: Entity = { 
   color: "#00ff00", 
   discard: 0, 
   domain: "LOCATION", 
@@ -108,7 +108,7 @@ export const NHSRegEx: RegExp[] = [
   new RegExp(/[34679]\d\d\s?\d\d\d\s?\d\s?\d\s?\d\s?\d/, "gmi")
 ];
 
-export const NHSEntity: SimpleEntity = { 
+export const NHSEntity: Entity = { 
   color: "#0040cc", 
   discard: 0, 
   domain: "MEDICAL", 
@@ -124,7 +124,7 @@ export const TelephoneRegEx: RegExp[] = [
   new RegExp(/\(?0\)?[\s\-]?\d?[\s\-]?\d[\s\-]?\d\)?[\s\-]?\d\)?[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d?[\s\-]?\d[\s\-]?\d\d/, "gmi"),
 ];
 
-export const TelephoneEntity: SimpleEntity = { 
+export const TelephoneEntity: Entity = { 
   color: "#ff80ff", 
   discard: 0, 
   domain: "CONTACT", 
@@ -141,7 +141,7 @@ export const TimeRegEx: RegExp[] = [
   new RegExp(/\b(?:[01]\d|2[0123]|\d):[0-5]\d(?:[:.]\d{1,4})?\b/, "gmi")
 ];
 
-export const TimeEntity: SimpleEntity = { 
+export const TimeEntity: Entity = { 
   color: "#dfbfff",
   discard: 0,
   domain: "DATETIME",
@@ -156,7 +156,7 @@ export const URLRegEx: RegExp[] = [
   new RegExp(/\b(?:(?:https?:\/\/)?www.[\w\/\?~&=%\+\-:\._\d]+|https?:\/\/[\w\/\?~&=%\+\-:\._\d]+)\b/, "gmi")
 ];
 
-export const URLEntity: SimpleEntity = { 
+export const URLEntity: Entity = { 
   color: "#ffc58a",
   discard: 0,
   domain: "CONTACT",
