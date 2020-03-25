@@ -2,7 +2,7 @@ const a: string[] = [
   "abayudaya", "abaza", "abazgi", "abazin",
   "abbe",
   "abidji",
-  "abkhaz", "abkhazian",
+  "abkhazian",
   "abron", "abruzzan",
   "abure",
   "acehnese",
@@ -14,8 +14,8 @@ const a: string[] = [
   "afemai", "afenmai",
   "afghan",
   "african", "afrikaans", "afrikaner",
-  "afshar",
-  "agatu", "agaw",
+
+  "agaw",
   "ahafo", "ahanta",
   "ahom",
   "aimaq", "aimol",
@@ -24,7 +24,7 @@ const a: string[] = [
   "ajie",
   "akan", "akatek",
   "akeu",
-  "akha", "akhdam",
+  "akha",
   "akoose",
   "akuapem",
   "akwamu",
@@ -69,7 +69,7 @@ const a: string[] = [
   "antiguan",
   "anuak",
   "anyanga",
-  "anyi",
+
   "aowin",
   "apache",
   "apachean",
@@ -130,7 +130,7 @@ const a: string[] = [
   "baidya",
   "baishya",
   "bajalan",
-  "bakati",
+
   "bakhtiari",
   "bakossi",
   "bakwe",
@@ -161,7 +161,7 @@ const a: string[] = [
   "barbadian",
   "barbudan",
   "barentoo",
-  "barhai",
+
   "bari",
   "baria",
   "bariba",
@@ -193,11 +193,11 @@ const a: string[] = [
   "beti",
   "betsileo",
   "betsimisaraka",
-  "bhadralok",
+
   "bhagalia",
   "bhambi",
   "bharwad",
-  "bhil",
+
   "bhilala",
   "bhoi",
   "bhumij",
@@ -280,7 +280,7 @@ const a: string[] = [
   "chakosi",
   "chala",
   "chaldean",
-  "cham",
+
   "chamorro",
   "champenois",
   "chandio",
@@ -301,7 +301,7 @@ const a: string[] = [
   "chokri",
   "chokwe",
   "chontal",
-  "chonyi",
+
   "chuanqing",
   "chuj",
   "chumburung",
@@ -364,7 +364,7 @@ const a: string[] = [
   "digo",
   "dinka",
   "djiboutian",
-  "dodai",
+
   "dogon",
   "dogra",
   "dogri",
@@ -437,14 +437,14 @@ const a: string[] = [
   "gabol",
   "gabonese",
   "gaelic",
-  "gagauz",
+
   "galician",
   "gallo",
   "gambian",
   "gametia",
   "ganda",
   "gandarbha",
-  "gaoshan",
+
   "garasia",
   "garifuna",
   "garo",
@@ -491,7 +491,7 @@ const a: string[] = [
   "guinea bissaun",
   "guinean",
   "gujarat",
-  "gujarati",
+
   "gumuz",
   "gurage",
   "gurma",
@@ -548,7 +548,7 @@ const a: string[] = [
   "hungarian",
   "hutterite",
   "hutu",
-  "ibaloi",
+
   "iban",
   "ibanag",
   "ibibio",
@@ -580,7 +580,7 @@ const a: string[] = [
   "iroquoi",
   "iroquoian",
   "isan",
-  "ishkashimi",
+
   "isnag",
   "isoko",
   "israeli",
@@ -636,7 +636,7 @@ const a: string[] = [
   "kalanguya",
   "kalenjin",
   "kalinga",
-  "kalmati",
+
   "kamba",
   "kami",
   "kanak",
@@ -652,7 +652,7 @@ const a: string[] = [
   "kaqchikel",
   "kara",
   "karabakhi",
-  "karachay",
+
   "karadaghi",
   "karakalpak",
   "karbi",
@@ -668,7 +668,7 @@ const a: string[] = [
   "katanga",
   "kataria",
   "kazakh",
-  "kedahan",
+
   "keiyo",
   "kelantanese",
   "keningau",
@@ -686,10 +686,10 @@ const a: string[] = [
   "kikuyu",
   "kilba",
   "kimbundu",
-  "kipchak",
+
   "kipsigi",
   "kiranti",
-  "kirati",
+
   "kiribatian",
   "kisa",
   "kisan",
@@ -715,7 +715,7 @@ const a: string[] = [
   "krahn",
   "kristang",
   "kru",
-  "krymchak",
+
   "kubachi",
   "kui",
   "kuku",
@@ -786,7 +786,7 @@ const a: string[] = [
   "lulua",
   "lund",
   "luo",
-  "lushai",
+
   "lyele",
   "maasai",
   "macanese",
@@ -803,12 +803,12 @@ const a: string[] = [
   "maguindanao",
   "mahafaly",
   "mahali",
-  "mahar",
+
   "maharastra",
   "mahishya",
   "mahl",
   "mahyavanshi",
-  "maithil",
+
   "maithili",
   "makassarese",
   "makhuwa",
@@ -853,7 +853,7 @@ const a: string[] = [
   "marwari",
   "masa",
   "masalit",
-  "matmata",
+
   "mattokki",
   "mauritanian",
   "mauritian",
@@ -950,7 +950,7 @@ const a: string[] = [
   "nafusi",
   "naga",
   "nahua",
-  "nahuatl",
+
   "nair",
   "nama",
   "nambya",
@@ -993,7 +993,7 @@ const a: string[] = [
   "norman",
   "norwegian",
   "nothazai",
-  "ntcham",
+
   "nubian",
   "nuer",
   "nuna",
@@ -1014,7 +1014,7 @@ const a: string[] = [
   "ohuhu",
   "ojibwe",
   "okiek",
-  "okolod",
+
   "oneida",
   "onondaga",
   "oorlam",
@@ -1032,7 +1032,7 @@ const a: string[] = [
   "palauan",
   "palembangese",
   "palestinian",
-  "paloc",
+
   "paluan",
   "pamir",
   "pamiri",
@@ -1084,7 +1084,7 @@ const a: string[] = [
   "quechuan",
   "rade",
   "rai",
-  "rajasthan",
+
   "rajbongshi",
   "rajput",
   "rakhine",
@@ -1115,7 +1115,7 @@ const a: string[] = [
   "sabar",
   "sadgop",
   "sadozai",
-  "sadri",
+
   "saha",
   "saho",
   "sahrawi",
@@ -1182,7 +1182,7 @@ const a: string[] = [
   "shabak",
   "shahsevan",
   "shaigiya",
-  "shaikhzadah",
+
   "shandong",
   "shanghainese",
   "shapsug",
@@ -1225,7 +1225,7 @@ const a: string[] = [
   "somali",
   "somyev",
   "songe",
-  "songhai",
+
   "soninke",
   "soqotri",
   "soran",
@@ -1302,7 +1302,7 @@ const a: string[] = [
   "ticino",
   "tidong",
   "tigre",
-  "tigrinya",
+
   "tihami",
   "timorese",
   "timoric",
@@ -1396,11 +1396,11 @@ const a: string[] = [
   "welsh",
   "wenzhou",
   "white",
-  "winye",
+
   "wodaabe",
   "wolayitta",
   "wollo",
-  "wolof",
+
   "wu",
   "xamtanga",
   "xaragure",

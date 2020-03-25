@@ -100,6 +100,7 @@ const ar: string[] = [
 "cooks",
 "cope",
 "corona",
+"crack",
 "cross",
 "cruise",
 "crusher",
@@ -143,6 +144,7 @@ const ar: string[] = [
 "earl",
 "east",
 "eastern",
+"echo",
 "elms",
 "en",
 "farmer",
@@ -158,7 +160,6 @@ const ar: string[] = [
 "foster",
 "fox",
 "fresco",
-"friday",
 "fry",
 "fury",
 "gable",
@@ -230,6 +231,7 @@ const ar: string[] = [
 "husband",
 "husbands",
 "indigo",
+"jobs",
 "judge",
 "judges",
 "june",
@@ -316,6 +318,9 @@ const ar: string[] = [
 "paddock",
 "paddocks",
 "page",
+"pain",
+"painter",
+"painters",
 "parish",
 "park",
 "parks",
@@ -326,6 +331,7 @@ const ar: string[] = [
 "pines",
 "pink",
 "plant",
+"plumbers",
 "ponds",
 "pool",
 "pots",
@@ -384,6 +390,7 @@ const ar: string[] = [
 "stacks",
 "stag",
 "star",
+"stark",
 "steel",
 "stepping",
 "sterling",
@@ -466,14 +473,11 @@ const ar: string[] = [
 "young",
 "younger"
 ];
-
 const ProperNameSet: Set<string> = new Set();
 let l = ar.length;
-
 for (let i = 0; i < l; i++) {
   ProperNameSet.add(ar[i]);
 }
-
 export {
   ProperNameSet
 };
