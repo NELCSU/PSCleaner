@@ -1,17 +1,4 @@
-import type { Entity } from "../../typings/PSCleaner";
-
-const EthnicityEntity: Entity = {
-  color: "#0050ff",
-  discard: 0,
-  domain: "PERSON",
-  joinable: 1,
-  label: "Ethnicity",
-  mask: "ETHNIC",
-  order: 2,
-  type: "keyword"
-};
-
-const ar: string[] = [
+const a: string[] = [
   "abayudaya", "abaza", "abazgi", "abazin",
   "abbe",
   "abidji",
@@ -42,7 +29,7 @@ const ar: string[] = [
   "akuapem",
   "akwamu",
   "akyem",
-  "alago", 
+  "alago",
   "alawite",
   "albanian",
   "albayanon",
@@ -226,7 +213,6 @@ const ar: string[] = [
   "bishnupriya",
   "bissa",
   "boa",
-  "bodo",
   "boer",
   "bohemian",
   "bohra",
@@ -242,14 +228,12 @@ const ar: string[] = [
   "botswanan",
   "bouyei",
   "boyanese",
-  "bozo",
   "bozom",
   "braber",
   "brahmin",
   "brahui",
   "brazilian",
   "breton",
-  "british",
   "brong",
   "bru",
   "bruneian",
@@ -501,7 +485,7 @@ const ar: string[] = [
   "groning",
   "guamanian",
   "guan",
-  "guang",
+
   "guatemalan",
   "guianese",
   "guinea bissaun",
@@ -536,6 +520,7 @@ const ar: string[] = [
   "hazaragi",
   "hebei",
   "hebrew",
+  "hebridean",
   "hedareb",
   "hejazi",
   "hemba",
@@ -686,7 +671,6 @@ const ar: string[] = [
   "kedahan",
   "keiyo",
   "kelantanese",
-
   "keningau",
   "kenyan",
   "khalpa",
@@ -715,7 +699,6 @@ const ar: string[] = [
   "kittitian",
   "kluet",
   "knanaya",
-  "kodi",
   "koireng",
   "koli",
   "kom",
@@ -969,7 +952,6 @@ const ar: string[] = [
   "nahua",
   "nahuatl",
   "nair",
-  "nakoda",
   "nama",
   "nambya",
   "namibian",
@@ -1459,7 +1441,7 @@ const ar: string[] = [
   "zardari",
   "zay",
   "zaza",
-  "zhuang",
+
   "zimbabwean",
   "zou",
   "zulu"
@@ -1468,11 +1450,12 @@ const ar: string[] = [
  * @link https://en.wikipedia.org/wiki/list_of_contemporary_ethnic_groups
  */
 const EthnicitySet: Set<string> = new Set();
-const L: number = ar.length;
+const L: number = a.length;
+
 for (let i = 0; i < L; i++) {
-  EthnicitySet.add(ar[i]);
+  EthnicitySet.add(a[i]);
 }
+
 export {
-  EthnicitySet,
-  EthnicityEntity
+  EthnicitySet
 };

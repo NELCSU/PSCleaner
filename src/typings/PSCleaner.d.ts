@@ -39,28 +39,6 @@ export type TrainingFileResponse = "training-file-deleted" | "training-file-dele
 export type TrainingFolderRequest = "get-training-folder" | "set-training-folder";
 export type TrainingFolderResponse = "training-folder" | "training-file-count" | "training-folder-error";
 
-export type SearchTerm = {
-  allow_suffix: number,
-  id: number,
-  keyword: string
-};
-
-export type SearchTermResult = {
-  allow_suffix: number,
-  id: number,
-  keyword: string,
-  word: WordPosition
-};
-
-export type WordPosition = {
-  pos?: string,
-  predicate: string,
-  value: string,
-  start: number,
-  end: number,
-  length: number
-};
-
 export type TextMatch = {
   end: number,
   id: number,
@@ -77,6 +55,8 @@ export type Entity = {
   label: string,
   mask: string,
   order: number,
+  prefix: number,
+  suffix: number,
   type: EntityType
 };
 

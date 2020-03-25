@@ -1,20 +1,20 @@
 import DB from "sqlite3-helper";
 import type { TextMatch, MatchedEntity, Entity } from "../typings/PSCleaner";
-import { LocationModifier, LocationModifierEntity, } from "./rules/location-modifier-set";
+import { LocationModifierSet, LocationSuffix, LocationPrefix } from "./rules/location-modifier";
 import {
-  AgeRegEx, AgeEntity,
-  BankingRegEx, BankingEntity,
-  CurrencyRegEx, CurrencyEntity,
-  DateRegEx, DateEntity,
-  EmailRegEx, EmailEntity, 
-  LocationRegEx, LocationEntity,
-  NHSRegEx, NHSEntity,
-  TelephoneRegEx, TelephoneEntity,
-  TimeRegEx, TimeEntity, 
-  URLRegEx, URLEntity 
-} from "./rules/misc-regex";
+  AgeRegEx, BankingRegEx, CurrencyRegEx, DateRegEx, EmailRegEx, 
+  LocationRegEx, NHSRegEx, TelephoneRegEx, TimeRegEx, 
+  URLRegEx 
+} from "./rules/misc-entities";
 import { NamesEndingRegEx } from "./rules/name-ending-regex";
-import { NameEntity, NamesEndingEntity, TerritoryEntity } from "./rules/name-set";
+import {
+  AgeEntity, BankingEntity, CurrencyEntity, 
+  DateEntity, 
+  EmailEntity, EthnicityEntity,
+  LocationEntity, LocationSuffixEntity, LocationModifierEntity, LocationPrefixEntity,
+  NameEntity, NamesEndingEntity, NHSEntity, SkipWordEntity,
+  TelephoneEntity, TerritoryEntity, TimeEntity, URLEntity
+} from "./rules/entities";
 import { NameSetAD } from "./rules/name-setA-D";
 import { NameSetEH } from "./rules/name-setE-H";
 import { NameSetIL } from "./rules/name-setI-L";
@@ -22,10 +22,11 @@ import { NameSetMP } from "./rules/name-setM-P";
 import { NameSetQT } from "./rules/name-setQ-T";
 import { NameSetUZ } from "./rules/name-setU-Z";
 import { ProperNameSet } from "./rules/name-capitalised";
-import { EthnicitySet, EthnicityEntity } from "./rules/ethnicity-set";
+import { EthnicitySet } from "./rules/ethnicity";
 import { TerritorySet } from "./rules/territory-set";
-import { SkipWordSet, SkipWordEntity } from "./rules/skip-word-set";
+import { SkipWordSet } from "./rules/skip-word-set";
 import { isPropercase } from "./util/text";
+import { deepCopy } from "./util/deepCopy";
 
 /**
  * ### Natural language processing services
@@ -85,7 +86,7 @@ export class NLP {
     };
     const locationModifier: { entity: Entity, matches: TextMatch[] } = {
       entity: LocationModifierEntity,
-      matches: this.evaluateKeyword(data, null, LocationModifier)
+      matches: this.evaluateKeyword(data, null, LocationModifierSet)
     };
     const namesEnding: { entity: Entity, matches: TextMatch[] } = {
       entity: NamesEndingEntity,
@@ -123,13 +124,21 @@ export class NLP {
       entity: TerritoryEntity,
       matches: this.evaluateKeyword(data, null, TerritorySet)
     };
+    const locationSuffix: { entity: Entity, matches: TextMatch[] } = {
+      entity: LocationSuffixEntity,
+      matches: this.evaluateKeyword(data, null, LocationSuffix)
+    };
+    const locationPrefix: { entity: Entity, matches: TextMatch[] } = {
+      entity: LocationPrefixEntity,
+      matches: this.evaluateRegEx(data, LocationPrefix)
+    };
     const skipWord: { entity: Entity, matches: TextMatch[] } = {
       entity: SkipWordEntity,
       matches: this.evaluateKeyword(data, null, SkipWordSet)
     };
     matches = this._sortMatches(data, 
       ages, banking, currency, dates,  emails, eth, 
-      location, locationModifier, 
+      location, locationModifier, locationSuffix, locationPrefix,
       names, namesEnding, nhs, properName, 
       tel, territory, times, url,
       skipWord
@@ -225,7 +234,7 @@ export class NLP {
       conjunction = " ";
     }
     curr.match.value += conjunction + next.match.value;
-    curr.entity = next.entity;
+    curr.entity = deepCopy(next.entity);
     curr.entity.discard = 0;
     curr.match.length = curr.match.value.length;
     curr.match.end = next.match.end;
@@ -236,7 +245,11 @@ export class NLP {
     const matchingDomains: boolean = next.entity.domain === curr.entity.domain;
     const currIsJoinable: boolean = curr.entity.joinable === 1;
     const alignedInText: boolean = (next.match.start > curr.match.end) && (next.match.start <= (curr.match.end + 2));
-    return alignedInText && matchingDomains && currIsJoinable;
+    let outcome: boolean = alignedInText && matchingDomains && currIsJoinable;
+    if (matchingDomains && alignedInText) {
+      outcome = curr.entity.suffix === 0 && next.entity.prefix !== 1;
+    }
+    return outcome;
   }
 
   private _sortMatches(data: string, ...args: any): MatchedEntity[] {

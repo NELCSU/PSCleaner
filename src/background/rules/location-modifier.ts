@@ -1,4 +1,30 @@
-export const LocationDesignator: Set<string> = new Set([
+const LocationModifierSet: Set<string> = new Set([
+  "central",
+  "east", 
+  "eastern",
+  "great", 
+  "greater",
+  "inner",
+  "little", 
+  "long",
+  "lower",
+  "new",
+  "north", 
+  "northern",
+  "old",
+  "outer",
+  "south", 
+  "southern",
+  "upper",
+  "west", 
+  "western"
+]);
+
+const LocationPrefix: RegExp[] = [
+  new RegExp(/(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-z]?(?=\s[a-z]{3,})/, "gmi")
+];
+
+const a: string[] = [
   "academy",
   "accommodation",
   "acre",
@@ -18,6 +44,7 @@ export const LocationDesignator: Set<string> = new Set([
   "area",
   "arms",
   "ashes",
+  "authority",
   "ave",
   "avenue",
   "avenues",
@@ -251,8 +278,6 @@ export const LocationDesignator: Set<string> = new Set([
   "harbour",
   "hatch",
   "haven",
-  "head",
-  "heads",
   "heath",
   "heaths",
   "heavens",
@@ -326,8 +351,6 @@ export const LocationDesignator: Set<string> = new Set([
   "lodge",
   "lodges",
   "loop",
-  "main",
-  "mains",
   "mall",
   "malls",
   "manor",
@@ -440,6 +463,7 @@ export const LocationDesignator: Set<string> = new Set([
   "range",
   "rd",
   "reach",
+  "rectory",
   "reef",
   "reservoir",
   "retreat",
@@ -467,7 +491,6 @@ export const LocationDesignator: Set<string> = new Set([
   "roughs",
   "round",
   "roundabout",
-  "roundabouts",
   "row",
   "run",
   "sand",
@@ -534,11 +557,9 @@ export const LocationDesignator: Set<string> = new Set([
   "toll",
   "top",
   "tor",
-  "tors",
   "tower",
   "towers",
   "town",
-  "towns",
   "towpath",
   "track",
   "trail",
@@ -549,32 +570,23 @@ export const LocationDesignator: Set<string> = new Set([
   "turning",
   "turnpike",
   "turret",
-  "turrets",
   "underpass",
+  "university",
   "vale",
   "valley",
-  "valleys",
   "viaduct",
   "view",
-  "views",
   "villa",
   "village",
-  "villages",
   "villas",
   "vineyard",
   "vistas",
   "walk",
-  "walks",
   "wall",
-  "walls",
   "ward",
   "wards",
   "water",
-  "waterfall",
-  "waterfalls",
-  "waters",
   "way",
-  "ways",
   "weald",
   "weir",
   "weirs",
@@ -583,6 +595,18 @@ export const LocationDesignator: Set<string> = new Set([
   "woodland",
   "woodlands",
   "woods",
-  "yard",
-  "yards"
-]);
+  "yard"
+];
+
+const LocationSuffix: Set<string> = new Set();
+const L: number = a.length;
+
+for (let i = 0; i < L; i++) {
+  LocationSuffix.add(a[i]);
+}
+
+export {
+  LocationModifierSet,
+  LocationSuffix,
+  LocationPrefix
+};

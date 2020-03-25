@@ -1,5 +1,3 @@
-import type { Entity } from "../../typings/PSCleaner";
-
 export const OrdinalRegEx: RegExp[] = [
   /\d+(?:st|nd|rd|th)\b/,
   /\b[first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth]\b/
