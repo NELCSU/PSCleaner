@@ -1,11 +1,13 @@
 import DB from "sqlite3-helper";
 import type { TextMatch, MatchedEntity, Entity } from "../typings/PSCleaner";
-import { LocationModifierSet, LocationSuffix, LocationPrefix } from "./rules/location-modifier";
+import { 
+  LocationModifierSet, LocationSuffixSet, LocationCapitalPrefixSet, LocationCapitalSuffixSet, LocationPrefixRegEx
+} from "./rules/location-modifier";
 import {
   AgeRegEx, BankingRegEx, CurrencyRegEx, DateRegEx, EmailRegEx, 
   LocationRegEx, NHSRegEx, TelephoneRegEx, TimeRegEx, 
   URLRegEx 
-} from "./rules/misc-entities";
+} from "./rules/misc-rules";
 import { NamesEndingRegEx } from "./rules/name-ending-regex";
 import {
   AgeEntity, BankingEntity, CurrencyEntity, 
@@ -13,8 +15,8 @@ import {
   EmailEntity, EthnicityEntity,
   LocationEntity, LocationSuffixEntity, LocationModifierEntity, LocationPrefixEntity,
   NameEntity, NamesEndingEntity, NHSEntity, SkipWordEntity,
-  TelephoneEntity, TerritoryEntity, TimeEntity, URLEntity
-} from "./rules/entities";
+  TelephoneEntity, TimeEntity, URLEntity
+} from "./entities";
 import { NameSetAD } from "./rules/name-setA-D";
 import { NameSetEH } from "./rules/name-setE-H";
 import { NameSetIL } from "./rules/name-setI-L";
@@ -23,7 +25,6 @@ import { NameSetQT } from "./rules/name-setQ-T";
 import { NameSetUZ } from "./rules/name-setU-Z";
 import { ProperNameSet } from "./rules/name-capitalised";
 import { EthnicitySet } from "./rules/ethnicity";
-import { TerritorySet } from "./rules/territory-set";
 import { SkipWordSet } from "./rules/skip-word-set";
 import { isPropercase } from "./util/text";
 import { deepCopy } from "./util/deepCopy";
@@ -120,17 +121,21 @@ export class NLP {
       entity: EthnicityEntity,
       matches: this.evaluateKeyword(data, null, EthnicitySet)
     };
-    const territory: { entity: Entity, matches: TextMatch[] } = {
-      entity: TerritoryEntity,
-      matches: this.evaluateKeyword(data, null, TerritorySet)
-    };
     const locationSuffix: { entity: Entity, matches: TextMatch[] } = {
       entity: LocationSuffixEntity,
-      matches: this.evaluateKeyword(data, null, LocationSuffix)
+      matches: this.evaluateKeyword(data, null, LocationSuffixSet)
+    };
+    const locationCapitalSuffix: { entity: Entity, matches: TextMatch[] } = {
+      entity: LocationSuffixEntity,
+      matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), LocationCapitalSuffixSet)
     };
     const locationPrefix: { entity: Entity, matches: TextMatch[] } = {
       entity: LocationPrefixEntity,
-      matches: this.evaluateRegEx(data, LocationPrefix)
+      matches: this.evaluateRegEx(data, LocationPrefixRegEx)
+    };
+    const locationCapitalPrefix: { entity: Entity, matches: TextMatch[] } = {
+      entity: LocationPrefixEntity,
+      matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), LocationCapitalPrefixSet)
     };
     const skipWord: { entity: Entity, matches: TextMatch[] } = {
       entity: SkipWordEntity,
@@ -138,9 +143,11 @@ export class NLP {
     };
     matches = this._sortMatches(data, 
       ages, banking, currency, dates,  emails, eth, 
-      location, locationModifier, locationSuffix, locationPrefix,
+      location, locationModifier, 
+      locationSuffix, locationCapitalSuffix, 
+      locationPrefix, locationCapitalPrefix,
       names, namesEnding, nhs, properName, 
-      tel, territory, times, url,
+      tel, times, url,
       skipWord
     );
     return Promise.resolve(matches);
@@ -152,7 +159,7 @@ export class NLP {
     let m: RegExpExecArray | null;
     let word: string, passed: boolean;
     while ((m = re.exec(data)) !== null) {    
-      word = m[0].replace(/[\'\‘\’\`](?:ll|re|s)/g, "").toLowerCase().replace(/[\'\‘\’\`]/g, "");
+      word = m[0].replace(/[\'\‘\’\`](?:ll|re|s|ve)/g, "").toLowerCase().replace(/[\'\‘\’\`]/g, "");
       let l: number = keywords.length;
       for (let i = 0; i < l; i++) {
         if (m && keywords[i].has(word)) {

@@ -11,6 +11,7 @@ if (require("electron-squirrel-startup")) { // eslint-disable-line global-requir
 
 import { AppMenu } from "./build-menu";
 import { AppTray } from "./build-tray";
+import { Entities } from "./entities";
 import { TrainingFiles } from "./training-files";
 import { ImportFiles } from "./import-files";
 import { ExportFiles } from "./export-files";
@@ -29,6 +30,7 @@ class Main {
   public isQuitting = false;
   public mainWindow: any;
   public menu: any;
+  public entities!: Entities;
   public importFiles!: ImportFiles;
   public exportFiles!: ExportFiles;
   public processFiles!: ProcessFiles;
@@ -59,6 +61,7 @@ class Main {
       this.initDB()
         .then(async _ => {
           const nlp: NLP = new NLP();
+          this.entities = new Entities();
           this.trainingFiles = new TrainingFiles();
           this.templateFiles = new TemplateFiles();
           this.importFiles = new ImportFiles();

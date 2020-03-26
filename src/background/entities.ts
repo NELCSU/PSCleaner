@@ -1,11 +1,12 @@
-import type { Entity } from "../../typings/PSCleaner";
+import { ipcMain as ipc } from "electron";
+import type { Entity, EntityType } from "../typings/PSCleaner";
 
 export const AgeEntity: Entity = { 
   color: "#cc33ee", 
   discard: 0, 
   domain: "AGE", 
   joinable: 0, 
-  label: "Duration", 
+  label: "Age/duration", 
   mask: "DURATION",
   order: 1,
   prefix: 0,
@@ -57,7 +58,7 @@ export const EmailEntity: Entity = {
   discard: 0, 
   domain: "EMAIL", 
   joinable: 0, 
-  label: "Contact", 
+  label: "Email", 
   mask: "EMAIL",
   order: 1,
   prefix: 0,
@@ -83,7 +84,7 @@ export const LocationEntity: Entity = {
   discard: 0, 
   domain: "NAME", 
   joinable: 0, 
-  label: "Location", 
+  label: "Name", 
   mask: "LOCATION",
   order: 1,
   prefix: 0,
@@ -96,7 +97,7 @@ export const LocationSuffixEntity: Entity = {
   discard: 1,
   domain: "NAME",
   joinable: 1,
-  label: "Location",
+  label: "Name",
   mask: "LOCATION",
   order: 2,
   prefix: 0,
@@ -122,7 +123,7 @@ export const LocationPrefixEntity: Entity = {
   discard: 1,
   domain: "NAME",
   joinable: 1,
-  label: "Location",
+  label: "Name",
   mask: "LOCATION",
   order: 2,
   prefix: 1,
@@ -149,7 +150,7 @@ export const NamesEndingEntity: Entity = {
   domain: "NAME", 
   joinable: 1, 
   label: "Name", 
-  mask: "NAMEREG",
+  mask: "NAME",
   order: 2,
   prefix: 0,
   suffix: 0,
@@ -161,7 +162,7 @@ export const NHSEntity: Entity = {
   discard: 0, 
   domain: "MEDICAL", 
   joinable: 0, 
-  label: "RecordID", 
+  label: "NHS number", 
   mask: "NHS NUMBER",
   order: 1,
   prefix: 0,
@@ -174,7 +175,7 @@ export const TelephoneEntity: Entity = {
   discard: 0, 
   domain: "CONTACT", 
   joinable: 0, 
-  label: "Contact", 
+  label: "UK Tel", 
   mask: "TELEPHONE",
   order: 2,
   prefix: 0,
@@ -187,7 +188,7 @@ export const SkipWordEntity: Entity = {
   discard: 1, 
   domain: "SKIP", 
   joinable: 0, 
-  label: "Skip", 
+  label: "Skip words", 
   mask: "SKIP",
   order: 1,
   prefix: 0,
@@ -200,7 +201,7 @@ export const TerritoryEntity: Entity = {
   discard: 0,
   domain: "NAME",
   joinable: 1,
-  label: "Location",
+  label: "Territory",
   mask: "LOCATION",
   order: 2,
   prefix: 0,
@@ -233,3 +234,38 @@ export const URLEntity: Entity = {
   suffix: 0,
   type: "regular expression" 
 };
+
+/**
+ * ### Manages entities
+ * #### API  (ipc request -> response)
+ * 1. get-entities  -> entity-list - returns list of entities
+ * 2. get-entities  -> entity-list-error
+ */
+export class Entities {
+  constructor() {
+    ipc.on("get-entities", e => {
+      Entities.getList()
+        .then(
+          success => e.reply("entity-list", success),
+          failure => e.reply(failure, [])
+        );
+    });
+  }
+
+  /**
+   * returns list of entities
+   * @param filterByType - (optional) filters list by entity type
+   */
+  public static getList(filterByType?: EntityType): Promise<Entity[]> {
+    return Promise.resolve(
+      [
+        AgeEntity, BankingEntity, CurrencyEntity, 
+        DateEntity, 
+        EmailEntity, EthnicityEntity,
+        LocationEntity, LocationSuffixEntity, LocationModifierEntity, LocationPrefixEntity,
+        NameEntity, NamesEndingEntity, NHSEntity, SkipWordEntity,
+        TelephoneEntity, TerritoryEntity, TimeEntity, URLEntity
+      ].sort((a, b) => a.label > b.label ? 1 : -1)
+    );
+  }
+}

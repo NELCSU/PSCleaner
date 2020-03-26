@@ -337,7 +337,7 @@ ipc.on("entity-list", (e, response) => {
   entityMap.clear();
   response.forEach(d => {
     entityMap.set(d.id, d);
-    const el = addEntity(list, d.domain, d.color, {
+    const el = addEntity(list, d.label, d.color, {
       deletable: false,
       selectable: true
     });
