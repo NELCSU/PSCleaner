@@ -27,7 +27,8 @@ export const DateRegEx: RegExp[] = [
 ];
 
 export const EmailRegEx: RegExp[] = [
-  new RegExp(/\b(?:[''\w+\-\_\.]+)@(?:[\w+\-\_\.]+)\.(?:[\w+\-\_\.]+)\b/, "gmi")
+  new RegExp(/\b(?:[''\w+\-\_\.]+)@(?:[\w+\-\_\.]+)\.(?:[\w+\-\_\.]+)\b/, "gmi"),
+  new RegExp(/\@\w+\b/, "gmi")
 ];
 
 export const LocationRegEx: RegExp[] = [

@@ -61,88 +61,111 @@ export class NLP {
    */  
   public async evaluate(data: string): Promise<MatchedEntity[]> {
     let matches: MatchedEntity[] = [];
+
     const ages: { entity: Entity, matches: TextMatch[] } = {
       entity: AgeEntity,
       matches: this.evaluateRegEx(data, AgeRegEx)
     };
+
     const banking: { entity: Entity, matches: TextMatch[] } = {
       entity: BankingEntity,
       matches: this.evaluateRegEx(data, BankingRegEx)
     };
+
     const currency: { entity: Entity, matches: TextMatch[] } = {
       entity: CurrencyEntity,
       matches: this.evaluateRegEx(data, CurrencyRegEx)
     };
+
     const dates: { entity: Entity, matches: TextMatch[] } = {
       entity: DateEntity,
       matches: this.evaluateRegEx(data, DateRegEx)
     };
+
     const emails: { entity: Entity, matches: TextMatch[] } = {
       entity: EmailEntity,
       matches: this.evaluateRegEx(data, EmailRegEx)
     };
+
     const location: { entity: Entity, matches: TextMatch[] } = {
       entity: LocationEntity,
       matches: this.evaluateRegEx(data, LocationRegEx)
     };
+
     const locationModifier: { entity: Entity, matches: TextMatch[] } = {
       entity: LocationModifierEntity,
       matches: this.evaluateKeyword(data, null, LocationModifierSet)
     };
+
     const namesEnding: { entity: Entity, matches: TextMatch[] } = {
       entity: NamesEndingEntity,
       matches: this.evaluateRegEx(data, NamesEndingRegEx)
     };
+
     const names: { entity: Entity, matches: TextMatch[] } = {
       entity: NameEntity,
       matches: this.evaluateKeyword(data, null, NameSetAD, NameSetEH, NameSetIL, NameSetMP, NameSetQT, NameSetUZ)
     };
+
     const properName: { entity: Entity, matches: TextMatch[] } = {
       entity: NameEntity,
       matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), ProperNameSet)
     };
+
     const nhs: { entity: Entity, matches: TextMatch[] } = {
       entity: NHSEntity,
       matches: this.evaluateRegEx(data, NHSRegEx)
     };
+
     const tel: { entity: Entity, matches: TextMatch[] } = {
       entity: TelephoneEntity,
       matches: this.evaluateRegEx(data, TelephoneRegEx)
     };
+
     const times: { entity: Entity, matches: TextMatch[] } = {
       entity: TimeEntity,
       matches: this.evaluateRegEx(data, TimeRegEx)
     };
+
     const url: { entity: Entity, matches: TextMatch[] } = {
       entity: URLEntity,
       matches: this.evaluateRegEx(data, URLRegEx)
     };
+
     const eth: { entity: Entity, matches: TextMatch[] } = {
       entity: EthnicityEntity,
       matches: this.evaluateKeyword(data, null, EthnicitySet)
     };
+
     const locationSuffix: { entity: Entity, matches: TextMatch[] } = {
       entity: LocationSuffixEntity,
       matches: this.evaluateKeyword(data, null, LocationSuffixSet)
     };
+
     const locationCapitalSuffix: { entity: Entity, matches: TextMatch[] } = {
       entity: LocationSuffixEntity,
       matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), LocationCapitalSuffixSet)
     };
+
     const locationPrefix: { entity: Entity, matches: TextMatch[] } = {
       entity: LocationPrefixEntity,
       matches: this.evaluateRegEx(data, LocationPrefixRegEx)
     };
+
+    LocationPrefixEntity.order = 1;
     const locationCapitalPrefix: { entity: Entity, matches: TextMatch[] } = {
       entity: LocationPrefixEntity,
       matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), LocationCapitalPrefixSet)
     };
+
+    SkipWordEntity.order = 2;
     const skipWord: { entity: Entity, matches: TextMatch[] } = {
       entity: SkipWordEntity,
       matches: this.evaluateKeyword(data, null, SkipWordSet)
     };
+
     matches = this._sortMatches(data, 
-      ages, banking, currency, dates,  emails, eth, 
+      ages, banking, currency, dates, emails, eth, 
       location, locationModifier, 
       locationSuffix, locationCapitalSuffix, 
       locationPrefix, locationCapitalPrefix,

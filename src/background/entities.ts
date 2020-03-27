@@ -151,7 +151,7 @@ export const NamesEndingEntity: Entity = {
   joinable: 1, 
   label: "Name", 
   mask: "NAME",
-  order: 2,
+  order: 3,
   prefix: 0,
   suffix: 0,
   type: "regular expression" 
