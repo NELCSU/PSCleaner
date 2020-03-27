@@ -47,20 +47,39 @@ export type TextMatch = {
   value: string
 };
 
+/**
+ * discard = 1 - ignore this text if found
+ * joinable = 1 - text will combine with neighbouring text
+ * (if both discard and joinable = 1 - ignore text if it cant combine with neighbouring text)
+ * order = n - determines sorting priority, lower number = higher priority
+ * prefix = 1 - text cannot be last in text block
+ * suffix = 1 - text cannot be first in text block
+ */
+export type Action = {
+  discard: number;
+  joinable: number;
+  order: number;
+  prefix: number;
+  suffix: number;
+}
+
+export type Evaluation = { 
+  action: Action;
+  entity: Entity, 
+  matches: TextMatch[]
+}
+
 export type Entity = {
   color: string,
-  discard: number,
+  description: string,
   domain: string,
-  joinable: number,
   label: string,
   mask: string,
-  order: number,
-  prefix: number,
-  suffix: number,
   type: EntityType
 };
 
 export type MatchedEntity = {
+  action: Action,
   entity: Entity,
   match: TextMatch
 };

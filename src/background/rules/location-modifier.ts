@@ -1,11 +1,3 @@
-const LocationModifierSet: Set<string> = new Set([
-  "east", 
-  "middle",
-  "north", 
-  "south", 
-  "west"
-]);
-
 const LocationCapitalPrefixSet: Set<string> = new Set([
   "great", 
   "greater",
@@ -14,10 +6,12 @@ const LocationCapitalPrefixSet: Set<string> = new Set([
   "long",
   "low",
   "lower",
+  "middle",
   "new",
   "nhs",
   "old",
   "outer",
+  "queen",
   "royal",
   "st",
   "upper"
@@ -25,7 +19,7 @@ const LocationCapitalPrefixSet: Set<string> = new Set([
 
 const LocationPrefixRegEx: RegExp[] = [
   new RegExp(/\b(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-z]?(?=\s[a-z]{3,})/, "gmi"),
-  new RegExp(/\b(?:isle\sof)\b/, "gmi")
+  new RegExp(/\b(?:city|isle|ministry|university)\sof\b/, "gmi")
 ];
 
 const LocationCapitalSuffixSet: Set<string> = new Set([
@@ -153,7 +147,6 @@ const a: string[] = [
   "cave",
   "cavern",
   "caverns",
-  "cemetary",
   "center",
   "centre",
   "chalet",
@@ -170,14 +163,12 @@ const a: string[] = [
   "cliff",
   "cliffe",
   "cliffs",
-  "clinic",
   "cloister",
   "cloisters",
   "club",
   "clump",
   "clumps",
   "coast",
-  "college",
   "convent",
   "coppice",
   "coppices",
@@ -430,8 +421,6 @@ const a: string[] = [
   "place",
   "plain",
   "plains",
-  "plant",
-  "planting",
   "plateau",
   "plaza",
   "plot",
@@ -525,7 +514,6 @@ const a: string[] = [
   "stables",
   "stack",
   "stacks",
-  "stadium",
   "station",
   "steeple",
   "stone",
@@ -548,7 +536,6 @@ const a: string[] = [
   "terraces",
   "thoroughfare",
   "toll",
-  "top",
   "tor",
   "town",
   "towpath",
@@ -562,8 +549,6 @@ const a: string[] = [
   "turnpike",
   "turret",
   "underpass",
-  "university",
-  "vale",
   "valley",
   "viaduct",
   "view",
@@ -597,7 +582,6 @@ for (let i = 0; i < L; i++) {
 }
 
 export {
-  LocationModifierSet,
   LocationCapitalPrefixSet,
   LocationCapitalSuffixSet,
   LocationSuffixSet,
