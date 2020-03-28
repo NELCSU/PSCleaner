@@ -34,7 +34,8 @@ export const EmailRegEx: RegExp[] = [
 export const LocationRegEx: RegExp[] = [
   new RegExp(/\b(?:GIR|[a-zA-Z][a-zA-Z]?(?:[0-9][a-zA-Z]|[0-9]{1,2}))(?:[ ]{0,3})(?:[0-9][a-zA-Z]{2})\b/, "gmi"),
   new RegExp(/\bP\.?O\.?\sBox\s\d+\b/, "gmi"),
-  new RegExp(/\b(?:block|suite)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/, "gmi")
+  new RegExp(/\b(?:block|suite)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/, "gmi"),
+  new RegExp(/\bThe\s[A-Z][a-z]+\b/, "gm")
 ];
 
 export const NHSRegEx: RegExp[] = [
