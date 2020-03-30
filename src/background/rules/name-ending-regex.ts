@@ -21,7 +21,7 @@ export const NamesEndingRegEx: RegExp[] = [
    new RegExp(/\b[a-z]+o(?:nda|or[dt]|san|tie|urn|yle)\b/, "gmi"),
    new RegExp(/\b[a-z]+p(?:ark|ong|ool|orn)\b/, "gmi"),
    new RegExp(/\b[a-z]+r(?:ach|ell|iar|ina|ra[ms]|san|und|yde)\b/, "gmi"),
-   new RegExp(/\b[a-z]+s(?:amy|don|lea|ola|rit|son|un[dg])\b/, "gmi"),
+   new RegExp(/\b[a-z]+s(?:amy|don|lea|ola|rit|son|tin|un[dg])\b/, "gmi"),
    new RegExp(/\b[a-z]+t(?:ath|ead|oft|own|ree|urk|zer)\b/, "gmi"),
    new RegExp(/\b[a-z]+u(?:ang|ch[ae]|din|ero|eto|ill|lis|tte)\b/, "gmi"),
    new RegExp(/\b[a-z]+v(?:el[ad]|on[ay])\b/, "gmi"),

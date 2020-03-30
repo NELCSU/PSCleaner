@@ -1,8 +1,7 @@
 import DB from "sqlite3-helper";
 import type { Action, Evaluation, MatchedEntity, TextMatch } from "../typings/PSCleaner";
 import { 
-  LocationSuffixSet, LocationCapitalPrefixSet, 
-  LocationCapitalSuffixSet, LocationPrefixRegEx
+  LocationSuffixSet, LocationCapitalSuffixSet, LocationPrefixRegEx
 } from "./rules/location-modifier";
 import {
   AgeEntity, BankingEntity, CurrencyEntity, DateEntity, 
@@ -123,12 +122,6 @@ export class NLP {
       matches: this.evaluateRegEx(data, LocationPrefixRegEx)
     };
 
-    const locationCapitalPrefix: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 1, prefix: 1, suffix: 0 },
-      entity: LocationEntity,
-      matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), LocationCapitalPrefixSet)
-    };
-
     const namesEnding: Evaluation = {
       action: { discard: 0, joinable: 1, order: 3, prefix: 0, suffix: 0 },
       entity: NameRegExEntity,
@@ -191,8 +184,7 @@ export class NLP {
 
     matches = this._sortMatches(data, 
       ages, banking, currency, dates, emails, eth, 
-      location, locationSuffix, locationCapitalSuffix, 
-      locationPrefix, locationCapitalPrefix,
+      location, locationSuffix, locationCapitalSuffix, locationPrefix, 
       names, namesEnding, nhs, properName, properNameJoin, partName,
       tel, times, url,
       skipWord
