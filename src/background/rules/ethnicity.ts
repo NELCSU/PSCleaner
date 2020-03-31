@@ -1062,7 +1062,6 @@ const a: string[] = [
   "sangley",
   "sangtam",
   "sanmarinese",
-  "santa",
   "santal",
   "sapo",
   "sarawan",
