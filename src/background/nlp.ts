@@ -1,8 +1,5 @@
 import DB from "sqlite3-helper";
 import type { Action, Evaluation, MatchedEntity, TextMatch } from "../typings/PSCleaner";
-import { 
-  LocationSuffixSet, LocationCapitalSuffixSet, LocationPrefixRegEx
-} from "./rules/location-modifier";
 import {
   AgeEntity, BankingEntity, CurrencyEntity, DateEntity, 
   EmailEntity, EthnicityEntity,
@@ -12,7 +9,7 @@ import {
 } from "./entities";
 import {
   AgeRegEx, BankingRegEx, CurrencyRegEx, DateRegEx, EmailRegEx, 
-  LocationRegEx, NHSRegEx, TelephoneRegEx, TimeRegEx, 
+  LocationPrefixRegEx, LocationRegEx, NHSRegEx, TelephoneRegEx, TimeRegEx, 
   URLRegEx 
 } from "./rules/misc-rules";
 import { NamesEndingRegEx } from "./rules/name-ending-regex";
@@ -104,18 +101,6 @@ export class NLP {
       matches: this.evaluateRegEx(data, LocationRegEx)
     };
 
-    const locationSuffix: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 2, prefix: 0, suffix: 1 },
-      entity: LocationEntity,
-      matches: this.evaluateKeyword(data, null, LocationSuffixSet)
-    };
-
-    const locationCapitalSuffix: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 2, prefix: 0, suffix: 1 },
-      entity: LocationEntity,
-      matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), LocationCapitalSuffixSet)
-    };
-
     const locationPrefix: Evaluation = {
       action: { discard: 1, joinable: 1, order: 2, prefix: 1, suffix: 0 },
       entity: LocationRegExEntity,
@@ -184,7 +169,7 @@ export class NLP {
 
     matches = this._sortMatches(data, 
       ages, banking, currency, dates, emails, eth, 
-      location, locationSuffix, locationCapitalSuffix, locationPrefix, 
+      location, locationPrefix, 
       names, namesEnding, nhs, properName, properNameJoin, partName,
       tel, times, url,
       skipWord

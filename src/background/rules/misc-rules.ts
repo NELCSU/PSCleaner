@@ -31,6 +31,21 @@ export const EmailRegEx: RegExp[] = [
   new RegExp(/\@\w+\b/, "gmi")
 ];
 
+/*
+1st, 2nd, 3rd, 4th, one, two, three, four, five, six, seven, eight, nine, ten
+eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen
+twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety
+first, second, third, fourth, fifth, sixth, seventh, eighth, nineth, tenth
+eleventh, twelfth, thirteenth, fourteenth, fifteenth, sixteenth, seventeenth, eighteenth, nineteenth
+twentieth, thirtieth, fortieth, fiftieth, sixtieth, seventieth, eightieth, ninetieth
+hundred, hundredth, thousand, thousandth, million
+*/
+export const LocationPrefixRegEx: RegExp[] = [
+  new RegExp(/\b(?<!,)(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{3,})/, "gmi"),
+  new RegExp(/(?:(?:\d+(?:st|nd|rd|th))|One|First|Two|Second|Three|Third|Four(?:teenth|teen|th)?|Fort(?:ieth|y)|Five|Fift(?:eenth|een|h|ieth|y)|Six(?:teenth|teen|th|tieth|ty)?|Seven(?:teenth|teen|th|tieth|ty)?|Eight(?:eenth|een|h|ieth|y)?|Nine(?:teenth|teen|th|tieth|ty)?|Ten(?:th)?|Eleven(?:th)?|Twel(?:fth|ve)|Thirt(?:eenth|een|ieth|y)|Twent(?:|ieth|y)|Hundred(?:th)?|Thousand(?:th)?|Million(?:th)?)\b/, "gm"),
+  new RegExp(/\b(?:City|Hall|Isle|Ministry|University)\sof\b/, "gm")
+];
+
 export const LocationRegEx: RegExp[] = [
   new RegExp(/\b(?:GIR|[a-zA-Z][a-zA-Z]?(?:[0-9][a-zA-Z]|[0-9]{1,2}))(?:[ ]{0,3})(?:[0-9][a-zA-Z]{2})\b/, "gmi"),
   new RegExp(/\bP\.?O\.?\sBox\s\d+\b/, "gmi"),

@@ -5787,7 +5787,7 @@ const a: string[] = [
   "izuora",
   "izure",
   "izurieta",
-  "izutsu",
+
   "izvan",
   "izvekovas",
   "izvorel",
@@ -11937,7 +11937,7 @@ const a: string[] = [
   "jitsly",
   "jitsmy",
   "jitsopas",
-  "jitsu",
+
   "jitsy",
   "jittapon",
   "jitten",
@@ -14970,7 +14970,7 @@ const a: string[] = [
   "juton",
   "jutras",
   "jutson",
-  "jutsu",
+
   "jutsum",
   "jutting",
   "juttner",
@@ -15365,7 +15365,7 @@ const a: string[] = [
   "jodane",
   "jodies",
   "joelands",
-  "joetsu",
+
   "joggling",
   "jogram",
   "johndory",
@@ -15512,7 +15512,7 @@ const a: string[] = [
   "kadoma",
   "kaduna",
   "kaesong",
-  "kaetsu",
+
   "kagoshima",
   "kailbank",
   "kailpot",
@@ -17272,7 +17272,6 @@ const a: string[] = [
   "knotcroft",
   "knotgrass",
   "knotley",
-  "knots",
   "knottallow",
   "knotteranum",
   "knottes",
@@ -17280,7 +17279,6 @@ const a: string[] = [
   "knottingley",
   "knottocks",
   "knottsall",
-  "knotty",
   "knoulberry",
   "knoutberry",
   "knoutsie",
@@ -19997,7 +19995,7 @@ const a: string[] = [
   "kanelleas",
   "kanellis",
   "kanema",
-  "kanemitsu",
+
   "kanemune",
   "kanen",
   "kanene",
@@ -28435,7 +28433,6 @@ const a: string[] = [
   "kindoll",
   "kindon",
   "kindrat",
-  "kindred",
   "kindregan",
   "kindrick",
   "kindschy",
@@ -30933,7 +30930,7 @@ const a: string[] = [
   "koach",
   "koager",
   "koak",
-  "koakutsu",
+
   "koall",
   "koan",
   "koanain",
@@ -31525,7 +31522,7 @@ const a: string[] = [
   "kokes",
   "kokesh",
   "koketian",
-  "koketsu",
+
   "kokiel",
   "kokila",
   "kokilambal",
@@ -32270,7 +32267,7 @@ const a: string[] = [
   "konstas",
   "konstatin",
   "konstatinos",
-  "konstautin",
+
   "konstella",
   "konstiantinos",
   "konstontine",
@@ -34001,7 +33998,7 @@ const a: string[] = [
   "kpokie",
   "kpoor",
   "kpor",
-  "kportsu",
+
   "kporvie",
   "kquerick",
   "kra",
@@ -34505,7 +34502,7 @@ const a: string[] = [
   "kretser",
   "kretsinger",
   "kretsis",
-  "kretsu",
+
   "kretteis",
   "kretzinger",
   "kretzler",
@@ -36397,7 +36394,7 @@ const a: string[] = [
   "kunigonis",
   "kunigonyte",
   "kunil",
-  "kunimitsu",
+
   "kunin",
   "kunina",
   "kuning",
@@ -37078,7 +37075,7 @@ const a: string[] = [
   "kutil",
   "kutils",
   "kutima",
-  "kutin",
+
   "kutina",
   "kutis",
   "kutkevics",
@@ -39192,9 +39189,6 @@ const a: string[] = [
   "leftlake",
   "legbarrow",
   "legbrannock",
-  "legend",
-  "legendary",
-  "legends",
   "legereath",
   "legers",
   "legerton",
@@ -49082,7 +49076,7 @@ const a: string[] = [
   "letsoalo",
   "letson",
   "letsos",
-  "letsu",
+
   "letswalo",
   "letsy",
   "lettang",
@@ -52137,7 +52131,6 @@ const a: string[] = [
   "lniany",
   "lnilan",
   "lnu",
-  "lo",
   "loa",
   "loach",
   "loachamin",
@@ -53643,7 +53636,7 @@ const a: string[] = [
   "lotsas",
   "lotshove",
   "lotson",
-  "lotsu",
+
   "lottay",
   "lotte",
   "lottee",
@@ -55739,7 +55732,7 @@ const a: string[] = [
   "luticia",
   "lutifat",
   "lutifula",
-  "lutin",
+
   "lutina",
   "luting",
   "lutiria",

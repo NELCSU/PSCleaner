@@ -300,7 +300,7 @@ const a: string[] = [
   "ebeneezers",
   "ebens",
   "ebernoe",
-  "ebetsu",
+
   "ebhric",
   "ebiskeir",
   "ebley",
@@ -3332,7 +3332,7 @@ const a: string[] = [
   "efuru",
   "ega",
   "egail",
-  "egaitsu",
+
   "egal",
   "egale",
   "egambarame",
@@ -4705,7 +4705,7 @@ const a: string[] = [
   "ekunobor",
   "ekunola",
   "ekure",
-  "ekutsu",
+
   "ekvall",
   "ekvinder",
   "ekwall",
@@ -19363,7 +19363,7 @@ const a: string[] = [
   "fetscher",
   "fetscherin",
   "fetshume",
-  "fetsu",
+
   "fetsum",
   "fettach",
   "fettane",
@@ -24452,7 +24452,7 @@ const a: string[] = [
   "frutas",
   "fruth",
   "frutiger",
-  "frutin",
+
   "frutis",
   "fruton",
   "frutos",
@@ -24639,7 +24639,7 @@ const a: string[] = [
   "fukueno",
   "fukuin",
   "fukuma",
-  "fukumitsu",
+
   "fukuoka",
   "fukushima",
   "fula",
@@ -24912,7 +24912,7 @@ const a: string[] = [
   "furione",
   "furior",
   "furis",
-  "furitsu",
+
   "furjanic",
   "furk",
   "furkat",
@@ -28979,7 +28979,6 @@ const a: string[] = [
   "growcroft",
   "growland",
   "growley",
-  "grown",
   "groyne",
   "gru",
   "gruagaichean",
@@ -45067,7 +45066,7 @@ const a: string[] = [
   "gutierrex",
   "gutierriz",
   "gutila",
-  "gutin",
+
   "gutina",
   "guting",
   "gutkin",
@@ -49637,7 +49636,6 @@ const a: string[] = [
   "horgh",
   "horisary",
   "horish",
-  "horizons",
   "horkesley",
   "horksley",
   "horkstow",
@@ -55324,7 +55322,7 @@ const a: string[] = [
   "hauth",
   "hauthaler",
   "hautier",
-  "hautin",
+
   "hautman",
   "hautzinger",
   "hauver",
@@ -59903,7 +59901,7 @@ const a: string[] = [
   "hirohisa",
   "hiroka",
   "hiroleidy",
-  "hiromitsu",
+
   "hiromy",
   "hiron",
   "hirona",
@@ -59970,7 +59968,7 @@ const a: string[] = [
   "hisae",
   "hisam",
   "hisami",
-  "hisamitsu",
+
   "hisamuddin",
   "hisan",
   "hisar",
@@ -63431,6 +63429,7 @@ const a: string[] = [
   "huibin",
   "huibing",
   "huichen",
+  "huichica",
   "huicochea",
   "huida",
   "huidary",
@@ -64308,7 +64307,7 @@ const a: string[] = [
   "huthmacher",
   "huthman",
   "huthnance",
-  "hutin",
+
   "huting",
   "hutler",
   "hutley",

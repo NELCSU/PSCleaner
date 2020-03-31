@@ -23,7 +23,7 @@ export const NamesEndingRegEx: RegExp[] = [
    new RegExp(/\b[a-z]+r(?:ach|ell|iar|ina|ra[ms]|san|und|yde)\b/, "gmi"),
    new RegExp(/\b[a-z]+s(?:amy|don|lea|ola|rit|son|tin|un[dg])\b/, "gmi"),
    new RegExp(/\b[a-z]+t(?:ath|ead|oft|own|ree|urk|zer)\b/, "gmi"),
-   new RegExp(/\b[a-z]+u(?:ang|ch[ae]|din|ero|eto|ill|lis|tte)\b/, "gmi"),
+   new RegExp(/\b[a-z]+u(?:ang|ch[ae]|din|ero|eto|ill|lis|tin|tte)\b/, "gmi"),
    new RegExp(/\b[a-z]+v(?:el[ad]|on[ay])\b/, "gmi"),
    new RegExp(/\b[a-z]+w(?:[ae]ld|ang|ate|ena|ern|ick|ina|ong|ood)\b/, "gmi"),
    new RegExp(/\b[a-z]+y(?:age|ama|ang|ide|lan|sen|the)\b/, "gmi"),
@@ -308,7 +308,7 @@ export const NamesEndingRegEx: RegExp[] = [
    new RegExp(/\b[a-z]+tl[a-df-xz]\b/, "gmi"),
    new RegExp(/\b[a-z]+to[a-df-kotuvz]\b/, "gmi"),
    new RegExp(/\b[a-z]+tr[b-df-np-su-xz]\b/, "gmi"),
-   new RegExp(/\b[a-z]+ts[a-fg-tv-xz]\b/, "gmi"),
+   new RegExp(/\b[a-z]+ts[a-fg-xz]\b/, "gmi"),
    new RegExp(/\b[a-z]+tt[a-df-rt-xz]\b/, "gmi"),
    new RegExp(/\b[a-z]+tu[acf-oqt-z]\b/, "gmi"),
 
