@@ -21,5 +21,5 @@ export function isApostrophe(text: string): boolean {
 }
 
 export function isPropercase(text: string): boolean {
-  return text[0] === text[0].toUpperCase();
+  return text[0] === text[0].toUpperCase() && text[0].toLowerCase() !== text[0].toUpperCase();
 }

@@ -3,14 +3,14 @@ import type { Action, Evaluation, MatchedEntity, TextMatch } from "../typings/PS
 import {
   AgeEntity, BankingEntity, CurrencyEntity, DateEntity, 
   EmailEntity, EthnicityEntity,
-  LocationEntity, LocationRegExEntity,
+  LocationRegExEntity,
   NameEntity, NameRegExEntity, NHSEntity, SkipWordEntity,
   TelephoneEntity, TimeEntity, URLEntity
 } from "./entities";
 import {
   AgeRegEx, BankingRegEx, CurrencyRegEx, DateRegEx, EmailRegEx, 
-  LocationPrefixRegEx, LocationRegEx, NHSRegEx, TelephoneRegEx, TimeRegEx, 
-  URLRegEx 
+  LocationPrefixRegEx, LocationRegEx, NHSRegEx, 
+  SkipRegEx, TelephoneRegEx, TimeRegEx, URLRegEx 
 } from "./rules/misc-rules";
 import { NamesEndingRegEx } from "./rules/name-ending-regex";
 import { NameSetAD } from "./rules/name-setA-D";
@@ -96,43 +96,43 @@ export class NLP {
     };
 
     const location: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 2, prefix: 0, suffix: 0 },
       entity: LocationRegExEntity,
       matches: this.evaluateRegEx(data, LocationRegEx)
     };
 
     const locationPrefix: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 2, prefix: 1, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 3, prefix: 1, suffix: 0 },
       entity: LocationRegExEntity,
       matches: this.evaluateRegEx(data, LocationPrefixRegEx)
     };
 
     const namesEnding: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 3, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 1, order: 4, prefix: 0, suffix: 0 },
       entity: NameRegExEntity,
       matches: this.evaluateRegEx(data, NamesEndingRegEx)
     };
 
     const names: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 3, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 1, order: 4, prefix: 0, suffix: 0 },
       entity: NameEntity,
       matches: this.evaluateKeyword(data, null, NameSetAD, NameSetEH, NameSetIL, NameSetMP, NameSetQT, NameSetUZ)
     };
 
     const properName: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 1, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 1, order: 2, prefix: 0, suffix: 0 },
       entity: NameEntity,
       matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), ProperNameSet)
     };
 
     const properNameJoin: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 1, prefix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 2, prefix: 0, suffix: 0 },
       entity: NameEntity,
       matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), ProperNameSetJoinOnly)
     };
 
     const partName: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 4, prefix: 0, suffix: 0 },
       entity: NameEntity,
       matches: this.evaluateKeyword(data, null, NamePartSet)
     };
@@ -143,10 +143,16 @@ export class NLP {
       matches: this.evaluateRegEx(data, NHSRegEx)
     };
 
-    const skipWord: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 2, prefix: 0, suffix: 0 },
+    const skipWord1: Evaluation = {
+      action: { discard: 1, joinable: 0, order: 3, prefix: 0, suffix: 0 },
       entity: SkipWordEntity,
       matches: this.evaluateKeyword(data, null, SkipWordSet)
+    };
+
+    const skipWord2: Evaluation = {
+      action: { discard: 1, joinable: 0, order: 3, prefix: 0, suffix: 0 },
+      entity: SkipWordEntity,
+      matches: this.evaluateRegEx(data, SkipRegEx)
     };
 
     const tel: Evaluation = {
@@ -172,7 +178,7 @@ export class NLP {
       location, locationPrefix, 
       names, namesEnding, nhs, properName, properNameJoin, partName,
       tel, times, url,
-      skipWord
+      skipWord1, skipWord2
     );
     return Promise.resolve(matches);
   }
@@ -181,23 +187,24 @@ export class NLP {
     const re: RegExp = new RegExp(/[a-z\'\‘\’\`]+/, "gmi");
     const result: TextMatch[] = [];
     let m: RegExpExecArray | null;
-    let word: string, passed: boolean;
+    let word: string, fullword: string, passed: boolean;
     while ((m = re.exec(data)) !== null) {    
       word = m[0].replace(/[\'\‘\’\`](?:d|ll|re|s|ve)\b/gmi, "").toLowerCase().replace(/[\'\‘\’\`]/gmi, "");
       let l: number = keywords.length;
       for (let i = 0; i < l; i++) {
         if (m && keywords[i].has(word)) {
+          fullword = m[0].replace(/[\'\‘\’\`]/gmi, "");
           passed = true;
-          if (testFn && testFn(m[0])) {
+          if (testFn && testFn(fullword)) {
             passed = false;
           }
           if (passed) {
             result.push({
-              end: m.index + m[0].length - 1,
-              id: this._id(m[0]),
-              length: m[0].length,
+              end: m.index + fullword.length - 1,
+              id: this._id(fullword),
+              length: fullword.length,
               start: m.index,
-              value: m[0]
+              value: fullword
             });
           }
           break;

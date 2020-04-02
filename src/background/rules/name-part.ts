@@ -1,5 +1,6 @@
 const a: string[] = [
 "el",
+"et",
 "da",
 "de",
 "der",

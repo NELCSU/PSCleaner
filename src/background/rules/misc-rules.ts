@@ -23,7 +23,8 @@ export const DateRegEx: RegExp[] = [
   new RegExp(/\b[0123]?\d[\s\/]{1,3}[0123]?\d[\s\/]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\/]{1,3}[0123]?\d[\s\/]{1,3}[0123]?\d\b/, "gmi"),
   new RegExp(/\b[0123]?\d[\s\-]{1,3}[0123]?\d[\s\-]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\-]{1,3}[0123]?\d[\s\-]{1,3}[0123]?\d\b/, "gmi"),
   new RegExp(/\b[0123]?\d[\s\.]{1,3}[0123]?\d[\s\.]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\.]{1,3}[0123]?\d[\s\.]{1,3}[0123]?\d\b/, "gmi"),
-  new RegExp(/\b(?<=(?:after|and|before|between|during|early|in|late|on|until)\s)[12]\d\d\d\b/, "gmi")
+  new RegExp(/\b(?<=(?:after|and|before|between|during|early|in|late|on|until)\s)[12]\d\d\d\b/, "gmi"),
+  new RegExp(/\b(?<=(?:on)\s)(?:mon|tues|wednes|thurs|fri|satur|sun)day\b/, "gmi")
 ];
 
 export const EmailRegEx: RegExp[] = [
@@ -43,18 +44,23 @@ hundred, hundredth, thousand, thousandth, million
 export const LocationPrefixRegEx: RegExp[] = [
   new RegExp(/\b(?<!,)(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{3,})/, "gmi"),
   new RegExp(/(?:(?:\d+(?:st|nd|rd|th))|One|First|Two|Second|Three|Third|Four(?:teenth|teen|th)?|Fort(?:ieth|y)|Five|Fift(?:eenth|een|h|ieth|y)|Six(?:teenth|teen|th|tieth|ty)?|Seven(?:teenth|teen|th|tieth|ty)?|Eight(?:eenth|een|h|ieth|y)?|Nine(?:teenth|teen|th|tieth|ty)?|Ten(?:th)?|Eleven(?:th)?|Twel(?:fth|ve)|Thirt(?:eenth|een|ieth|y)|Twent(?:|ieth|y)|Hundred(?:th)?|Thousand(?:th)?|Million(?:th)?)\b/, "gm"),
-  new RegExp(/\b(?:City|Hall|Isle|Ministry|University)\sof\b/, "gm")
+  new RegExp(/\b(?:Bay|City|Hall|Isle|Ministry|University)\sof\b/, "gm")
 ];
 
 export const LocationRegEx: RegExp[] = [
   new RegExp(/\b(?:GIR|[a-zA-Z][a-zA-Z]?(?:[0-9][a-zA-Z]|[0-9]{1,2}))(?:[ ]{0,3})(?:[0-9][a-zA-Z]{2})\b/, "gmi"),
   new RegExp(/\bP\.?O\.?\sBox\s\d+\b/, "gmi"),
   new RegExp(/\b(?:block|suite)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/, "gmi"),
-  new RegExp(/(?<!\.\s)The\s[A-Z][a-z]+\b/, "gm")
+  new RegExp(/(?<![\."]\s+)The\s[A-Z][a-z]+\b/, "gm")
 ];
 
 export const NHSRegEx: RegExp[] = [
   new RegExp(/[34679]\d\d\s?\d\d\d\s?\d\s?\d\s?\d\s?\d/, "gmi")
+];
+
+export const SkipRegEx: RegExp[] = [
+  new RegExp(/\bmid\-\w+\b/, "gmi"),
+  new RegExp(/\b\w{2,}\-\d{1,2}\b/, "gmi")
 ];
 
 export const TelephoneRegEx: RegExp[] = [
