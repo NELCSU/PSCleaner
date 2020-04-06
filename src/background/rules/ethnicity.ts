@@ -344,7 +344,7 @@ const a: string[] = [
   "dusunic",
   "dutch",
   "dzongkha",
-  "ebira",
+
   "ecuadorean",
   "ecuadorian",
   "edo",
@@ -584,7 +584,7 @@ const a: string[] = [
   "karo",
   "karon",
   "kasa",
-  "kashmiri",
+
   "kashubian",
   "kassena",
   "kataria",
@@ -911,7 +911,7 @@ const a: string[] = [
   "palestinian",
   "paluan",
   "pamir",
-  "pamiri",
+
   "panamanian",
   "pangasinese",
   "papua",

@@ -23,7 +23,7 @@ export const DateRegEx: RegExp[] = [
   new RegExp(/\b[0123]?\d[\s\/]{1,3}[0123]?\d[\s\/]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\/]{1,3}[0123]?\d[\s\/]{1,3}[0123]?\d\b/, "gmi"),
   new RegExp(/\b[0123]?\d[\s\-]{1,3}[0123]?\d[\s\-]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\-]{1,3}[0123]?\d[\s\-]{1,3}[0123]?\d\b/, "gmi"),
   new RegExp(/\b[0123]?\d[\s\.]{1,3}[0123]?\d[\s\.]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\.]{1,3}[0123]?\d[\s\.]{1,3}[0123]?\d\b/, "gmi"),
-  new RegExp(/\b(?<=(?:after|and|before|between|during|early|in|late|on|until)\s)[12]\d\d\d\b/, "gmi"),
+  new RegExp(/\b(?<=(?:after|and|before|between|during|early|in|late|on|until)\s)(?:[12]\d\d\d|jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)\b/, "gmi"),
   new RegExp(/\b(?<=(?:on)\s)(?:mon|tues|wednes|thurs|fri|satur|sun)day\b/, "gmi")
 ];
 
