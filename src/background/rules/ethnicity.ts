@@ -620,7 +620,7 @@ const a: string[] = [
   "koli",
   "kom",
   "komi",
-  "kongo",
+
   "konjo",
   "konso",
   "korean",
@@ -801,7 +801,7 @@ const a: string[] = [
   "molise",
   "momna",
   "monegasque",
-  "mongo",
+
   "mongol",
   "mongolian",
   "mongondow",
@@ -1145,7 +1145,7 @@ const a: string[] = [
   "tobagonian",
   "togolese",
   "tontemboan",
-  "toongo",
+
   "toraja",
   "torbesh",
   "tornedalian",

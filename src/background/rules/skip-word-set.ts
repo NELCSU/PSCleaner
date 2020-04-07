@@ -240,6 +240,7 @@ export const SkipWordSet: Set<string> = new Set([
   "spinoff",
   "sponge",
   "spool",
+  "sprang",
   "standby",
   "standoff",
   "stimuli",
