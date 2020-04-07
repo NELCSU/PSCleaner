@@ -1795,6 +1795,7 @@ const ProperNameSetJoinOnly: Set<string> = new Set([
   "states",
   "street",
   "sunday",
+  "three",
   "thursday",
   "toll",
   "tor",

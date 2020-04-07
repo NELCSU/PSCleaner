@@ -264,6 +264,7 @@ export const SkipWordSet: Set<string> = new Set([
   "there",
   "they",
   "thou",
+  "three",
   "thru",
   "thud",
   "tightwad",
