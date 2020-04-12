@@ -938,7 +938,7 @@ const a: string[] = [
   "poqomam",
   "portuguese",
   "provencal",
-  "puerto",
+
   "punjabi",
   "purepecha",
   "putianese",
