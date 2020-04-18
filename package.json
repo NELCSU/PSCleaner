@@ -42,7 +42,7 @@
     "@types/uuid": "^7.0.2",
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.27.0",
-    "electron": "^8.2.1",
+    "electron": "^8.2.3",
     "electron-rebuild": "^1.10.1",
     "eslint": "^6.8.0",
     "eslint-plugin-jsdoc": "^23.0.0",

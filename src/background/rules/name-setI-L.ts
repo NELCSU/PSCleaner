@@ -37850,8 +37850,6 @@ const a: string[] = [
   "loxmeadow",
   "loxter",
   "loxwoodhills",
-  "loyal",
-  "loyalty",
   "loyds",
   "loyes",
   "loyne",
