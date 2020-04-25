@@ -344,7 +344,6 @@ const a: string[] = [
   "dusunic",
   "dutch",
   "dzongkha",
-
   "ecuadorean",
   "ecuadorian",
   "edo",
@@ -584,7 +583,6 @@ const a: string[] = [
   "karo",
   "karon",
   "kasa",
-
   "kashubian",
   "kassena",
   "kataria",
@@ -620,7 +618,6 @@ const a: string[] = [
   "koli",
   "kom",
   "komi",
-
   "konjo",
   "konso",
   "korean",
@@ -801,7 +798,6 @@ const a: string[] = [
   "molise",
   "momna",
   "monegasque",
-
   "mongol",
   "mongolian",
   "mongondow",
@@ -911,7 +907,6 @@ const a: string[] = [
   "palestinian",
   "paluan",
   "pamir",
-
   "panamanian",
   "pangasinese",
   "papua",
@@ -938,7 +933,6 @@ const a: string[] = [
   "poqomam",
   "portuguese",
   "provencal",
-
   "punjabi",
   "purepecha",
   "putianese",
@@ -1145,7 +1139,6 @@ const a: string[] = [
   "tobagonian",
   "togolese",
   "tontemboan",
-
   "toraja",
   "torbesh",
   "tornedalian",

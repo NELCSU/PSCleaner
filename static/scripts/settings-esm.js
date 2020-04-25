@@ -9,7 +9,7 @@ const dialogOptions = {
   buttonLabel: "Select folder",
   defaultPath: null,
   properties: ["createDirectory", "openDirectory", "promptToCreate"],
-}
+};
 const messageDelay = 3000;
 const PATH_COLLISION = "Error changing folders. Please check that each folder has a unique name.";
 

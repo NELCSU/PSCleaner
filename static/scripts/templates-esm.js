@@ -84,7 +84,7 @@ function removeFields() {
  * Deletes row in form
  */
 function deleteField(e) {
-  const row = event.target.parentNode;
+  const row = window.event.target.parentNode;
   row.parentNode.removeChild(row);
   checkForm();
 }
@@ -124,7 +124,7 @@ function saveFile() {
   const data = {
     header: headerButton.on ? true : false,
     fields: []
-  }
+  };
   const rows = Array.from(panel.querySelectorAll("div.clone"));
   rows.forEach((r) => {
     const txt = r.querySelector("nel-text-input");

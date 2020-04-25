@@ -83,7 +83,7 @@ function adjustTrace() {
 function autoDiscover() {
   ipc.send("NLP-request", dataEntryText.textContent);
   autodiscoverButton.classList.add("disabled");
-  autodiscoverButton.textContent = "Searching"
+  autodiscoverButton.textContent = "Searching";
   autodiscoverButton.classList.add("wait");
 }
 
@@ -157,7 +157,7 @@ function closeFile() {
   clearButton.classList.add("disabled");
   deleteButton.classList.add("disabled");
   saveButton.classList.add("disabled");
-  dataEntryText.textContent = ""
+  dataEntryText.textContent = "";
   fileRenameClear();
   filename.textContent = "";
   files.hidden = true;
