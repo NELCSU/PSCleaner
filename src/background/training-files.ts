@@ -2,7 +2,7 @@ import { app, ipcMain as ipc } from "electron";
 import stringify from "json-stringify-pretty-compact";
 import { join } from "path";
 import DB from "sqlite3-helper";
-import uuidv1 from "uuid/v1";
+import { v4 as uuidv4 } from "uuid";
 import { FileManager } from "./file-manager";
 import type { ReadFileAction } from "../typings/PSCleaner";
 
@@ -75,7 +75,7 @@ export class TrainingFiles {
         );
     });
 
-    ipc.on("get-temp-training-file", e => e.reply("temp-training-filename", uuidv1() + ".json"));
+    ipc.on("get-temp-training-file", e => e.reply("temp-training-filename", uuidv4() + ".json"));
   }
 
   /**

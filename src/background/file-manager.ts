@@ -2,7 +2,7 @@ import * as chok from "chokidar";
 import * as os from "os";
 import EventEmitter from "events";
 import fs from "fs-extra";
-import uuidv1 from "uuid/v1";
+import { v4 as uuidv4 } from "uuid";
 import makeDir from "make-dir";
 import { basename, join } from "path";
 import { isRootOrDriveLetter } from "./util/path";
@@ -66,7 +66,7 @@ export class FileManager {
       throw new Error("Cannot to recursively delete root");
     }
     try {
-      const pathInTemp = join(os.tmpdir(), uuidv1());
+      const pathInTemp = join(os.tmpdir(), uuidv4());
       try {
         await fs.rename(path, pathInTemp);
       } catch {
