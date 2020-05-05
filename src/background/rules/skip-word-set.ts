@@ -248,6 +248,7 @@ export const SkipWordSet: Set<string> = new Set([
   "rota",
   "rrom",
   "rsvp",
+  "saliva",
   "satisfy",
   "satnav",
   "satsuma",

@@ -1066,7 +1066,7 @@ const a: string[] = [
   "spaniard",
   "spanish",
   "sri",
-  "lankan",
+
   "helenian",
   "lucian",
   "subei",
