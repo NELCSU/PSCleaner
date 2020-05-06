@@ -11,6 +11,5 @@
     "**/node_modules": false,
   },
   "editor.tabSize": 2,
-  "editor.formatOnSave": true,
   "typescript.tsdk": "node_modules\\typescript\\lib",
 }

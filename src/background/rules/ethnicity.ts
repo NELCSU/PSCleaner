@@ -320,7 +320,7 @@ const a: string[] = [
   "dargwa",
   "debri",
   "deg",
-  "dehwar",
+
   "deori",
   "dhangar",
   "dheevara",
@@ -1077,7 +1077,7 @@ const a: string[] = [
   "sumbawa",
   "sundanese",
   "sunni",
-  "sunuwar",
+
   "surinamese",
   "surma",
   "susu",

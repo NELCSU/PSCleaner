@@ -315,6 +315,7 @@ export const SkipWordSet: Set<string> = new Set([
   "untrod",
   "unzip",
   "urethra",
+  "vat",
   "vermicelli",
   "vessels",
   "vestibule",
