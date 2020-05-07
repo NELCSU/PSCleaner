@@ -1913,7 +1913,7 @@ const a: string[] = [
   "ebitare",
   "ebitimi",
   "ebiwarebo",
-  "ebiyena",
+  
   "eblagon",
   "eble",
   "eblen",
@@ -3409,7 +3409,7 @@ const a: string[] = [
   "ehivet",
   "ehiwario",
   "ehizemen",
-  "ehizena",
+  
   "ehizode",
   "ehizokhale",
   "ehizuelen",
@@ -4766,7 +4766,7 @@ const a: string[] = [
   "elezabete",
   "elezbieta",
   "eleze",
-  "elezena",
+  
   "elezeyde",
   "elf",
   "elfadil",
@@ -10542,7 +10542,7 @@ const a: string[] = [
   "evylene",
   "evynilson",
   "evzen",
-  "evzena",
+  
   "ewa",
   "ewador",
   "ewalt",
@@ -10721,7 +10721,7 @@ const a: string[] = [
   "eyeisis",
   "eyelyne",
   "eyemisan",
-  "eyena",
+  
   "eyene",
   "eyenegin",
   "eyeolusan",
@@ -10902,7 +10902,7 @@ const a: string[] = [
   "ezema",
   "ezemie",
   "ezemma",
-  "ezena",
+  
   "ezenfis",
   "ezengin",
   "ezenia",
@@ -15048,7 +15048,7 @@ const a: string[] = [
   "faren",
   "farenden",
   "farene",
-  "farenzena",
+  
   "fareo",
   "farer",
   "farese",
@@ -28308,7 +28308,7 @@ const a: string[] = [
   "ganivszkin",
   "ganix",
   "ganjavian",
-  "ganjeraboyena",
+  
   "ganjpoor",
   "ganjpour",
   "ganjvar",
@@ -59049,7 +59049,7 @@ const a: string[] = [
   "hye",
   
   "hyelee",
-  "hyena",
+  
   "hyenes",
   "hyeonwook",
   "hyer",

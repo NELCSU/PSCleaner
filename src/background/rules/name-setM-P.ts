@@ -5552,7 +5552,7 @@ const a: string[] = [
   "magdassian",
   "magdavena",
   "magday",
-  "magdazena",
+  
   "magdelaine",
   "magdelane",
   "magdeldin",
@@ -5768,7 +5768,7 @@ const a: string[] = [
   "magnuss",
   "magnussen",
   "magny",
-  "magoazena",
+  
   "magobet",
   "magocsi",
   "magoffin",
@@ -9192,7 +9192,7 @@ const a: string[] = [
   "manzaroli",
   "manzarpour",
   "manzella",
-  "manzena",
+  
   "manzer",
   "manzhelet",
   "manzheley",
@@ -10447,7 +10447,7 @@ const a: string[] = [
   "mariymawet",
   "mariz",
   "marize",
-  "marizena",
+  
   "marizete",
   "marjaliisa",
   "marjama",
@@ -13024,7 +13024,7 @@ const a: string[] = [
   "mavungo",
   "mavy",
   "mavyreen",
-  "mavzena",
+  
   "maw",
   "mawanda",
   "mawanza",
@@ -13530,7 +13530,7 @@ const a: string[] = [
   "mazella",
   "mazelyte",
   "mazen",
-  "mazena",
+  
   "mazenco",
   "mazenge",
   "mazengera",
@@ -25026,7 +25026,7 @@ const a: string[] = [
   "mooty",
   "mooud",
   "mooyoung",
-  "moozayyena",
+  
   "moozhikunnummal",
   "mope",
   "mopera",
@@ -26735,7 +26735,7 @@ const a: string[] = [
   "mozella",
   "mozello",
   "mozelman",
-  "mozena",
+  
   "mozenge",
   "mozer",
   "mozeryte",
@@ -39637,7 +39637,7 @@ const a: string[] = [
   "nosakhare",
   "nosal",
   "nosas",
-  "nosazena",
+  
   "nosbush",
   "noscal",
   "noschese",
@@ -46645,7 +46645,7 @@ const a: string[] = [
   "omoy",
   "omoyemen",
   "omoyemwense",
-  "omoyena",
+  
   "omoyine",
   "omoyoma",
   "omoyomade",
@@ -47146,7 +47146,7 @@ const a: string[] = [
   "onyema",
   "onyemike",
   "onyems",
-  "onyena",
+  
   "onyenecherem",
   "onyenelam",
   "onyenelei",
@@ -64215,7 +64215,7 @@ const a: string[] = [
   "polyvas",
   "polyvios",
   "polyxene",
-  "polyyena",
+  
   "polyzoide",
   "polyzoides",
   "polyzois",
@@ -66763,7 +66763,7 @@ const a: string[] = [
   "priyatharsine",
   "priyatos",
   "priyatush",
-  "priyena",
+  
   "priyesh",
   "priyoma",
   "priyoman",
