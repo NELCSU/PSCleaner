@@ -924,7 +924,6 @@ const a: string[] = [
   "pitafi",
   "poitevin",
   "pokoot",
-  "pole",
   "polish",
   "pomak",
   "pomeranian",

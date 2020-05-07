@@ -20,6 +20,30 @@ export function isApostrophe(text: string): boolean {
   return text === "'" || text === "‘" || text === "’" || text === "`";
 }
 
+export function isHyphen(text: string): boolean {
+	return text.length === 1 && (text === "‐" || text === "‑" || text === "-" || text === "⁃");
+}
+
 export function isPropercase(text: string): boolean {
-  return text[0] === text[0].toUpperCase() && text[0].toLowerCase() !== text[0].toUpperCase();
+	let proper: boolean = false, wordStart: boolean = true;
+	for (let i = 0; i < text.length; i++) {
+		if (isApostrophe(text[i]) || isHyphen(text[i]) || isSpace(text[i])) {
+			wordStart = true;
+			proper = false;
+		} else if (text[i] === text[i].toLocaleLowerCase() && wordStart) {
+			proper = false;
+			break;
+		} else if (text[i] === text[i].toLocaleUpperCase() && wordStart) {
+			proper = true;
+			wordStart = false;
+		} else if (text[i] === text[i].toLocaleUpperCase() && !wordStart) {
+			proper = false;
+			break;
+		}
+	}
+  return proper;
+}
+
+export function isSpace(text: string): boolean {
+	return text.length > 0 && text.trim() === "";
 }

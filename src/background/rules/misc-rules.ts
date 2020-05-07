@@ -60,7 +60,8 @@ export const NHSRegEx: RegExp[] = [
 
 export const SkipRegEx: RegExp[] = [
   new RegExp(/\bmid\-\w+\b/, "gmi"),
-  new RegExp(/\b\w{2,}\-\d{1,2}\b/, "gmi")
+  new RegExp(/\b\w{2,}\-\d{1,2}\b/, "gmi"),
+  new RegExp(/\b(?:ED|PEARL|PERLA|ROM)\b/, "gm")
 ];
 
 export const TelephoneRegEx: RegExp[] = [
@@ -70,7 +71,8 @@ export const TelephoneRegEx: RegExp[] = [
 
 export const TimeRegEx: RegExp[] = [
   new RegExp(/\b(?:[1-9]|1[0-2])\s?o[''\s]{1,2}clock\b/, "gmi"),
-  new RegExp(/(?:[12]?\d[\.:][0-5]\d|[1-9]|1[0-2])\s?[ap]\.?m\.?/, "gmi"),
+  new RegExp(/(?:[1-9]|1[0-2])\s?[ap]\.?m\.?/, "gmi"),
+  new RegExp(/(?:[12]?\d[\.:][0-5]\d)(?:\s?[ap]\.?m\.?)?/, "gmi"),
   new RegExp(/\b(?:[01]\d|2[0123]|\d):[0-5]\d(?:[:.]\d{1,4})?\b/, "gmi")
 ];
 
