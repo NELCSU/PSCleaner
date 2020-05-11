@@ -61,7 +61,7 @@ export const NHSRegEx: RegExp[] = [
 export const SkipRegEx: RegExp[] = [
   new RegExp(/\bmid\-\w+\b/, "gmi"),
   new RegExp(/\b\w{2,}\-\d{1,2}\b/, "gmi"),
-  new RegExp(/\b(?:ED|PEARL|PERLA|ROM)\b/, "gm")
+  new RegExp(/\b(?:DIB|ED|LAT|MUA|PANP|PEARL|PERLA|ROM|SOB|UTI)\b/, "gm")
 ];
 
 export const TelephoneRegEx: RegExp[] = [
