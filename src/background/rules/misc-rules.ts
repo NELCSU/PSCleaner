@@ -20,9 +20,12 @@ export const DateRegEx: RegExp[] = [
   new RegExp(/\b(?:[0123]?\d(?:st|nd|rd|th)?)(?:[\s\-\.]{0,3}|\sof\s)?(?:jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)(?:(?:[\s\-\.,]{0,3})(?:\d\d|\d\d\d\d))?\b/, "gmi"),
   new RegExp(/\b(?:jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)(?:(?:[\s\-\.,]{0,3})(?:\d\d|\d\d\d\d))(?:[\s\-\.,]{0,3}\d\d\d\d)?\b/, "gmi"),
   new RegExp(/\b(?:mon\.?|monday|tues?\.?|tuesday|wed\.?|wednesday|thurs?\.?|thursday|fri\.?|friday|sat\.?|saturday|sun\.?|sunday|jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)\s(?:the )?(?:[0123]?\d(?:st|nd|rd|th))\b/, "gmi"),
-  new RegExp(/\b[0123]?\d[\s\/]{1,3}[0123]?\d[\s\/]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\/]{1,3}[0123]?\d[\s\/]{1,3}[0123]?\d\b/, "gmi"),
-  new RegExp(/\b[0123]?\d[\s\-]{1,3}[0123]?\d[\s\-]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\-]{1,3}[0123]?\d[\s\-]{1,3}[0123]?\d\b/, "gmi"),
-  new RegExp(/\b[0123]?\d[\s\.]{1,3}[0123]?\d[\s\.]{1,3}\d\d(?:\d\d)?|\d\d(?:\d\d)?[\s\.]{1,3}[0123]?\d[\s\.]{1,3}[0123]?\d\b/, "gmi"),
+  
+  // dd mm yy(yy)
+  new RegExp(/\b(?:0?[1-9]|[12]\d|3[01])[\s\.\/\-]{1,3}(?:0?[1-9]|[12]\d|3[01])[\s\.\/\-]{1,3}\d\d(?:\d\d)?\b/,"gmi"),
+  // yy(yy) mm dd
+  new RegExp(/\b\d\d(?:\d\d)?[\s\.\/\-]{1,3}(?:0?[1-9]|[12]\d|3[01])[\s\.\/\-]{1,3}(?:0?[1-9]|[12]\d|3[01])\b/,"gmi"),
+
   new RegExp(/\b(?<=(?:after|and|before|between|during|early|in|in the|late|on|until)\s)(?:[12]\d\d\d|Jan\.?|Janu?a?ry|Feb\.?|Febr?ua?ry|Mar\.?|March|Apr\.?|April|May|Jun\.?|June|Jul\.?|July|Aug\.?|August|Sept?\.?|September|Oct\.?|October|Nov\.?|November|Dec\.?|December)\b/, "gm"),
   new RegExp(/\b(?<=(?:on)\s)(?:mon|tues|wednes|thurs|fri|satur|sun)day\b/, "gmi")
 ];
@@ -61,6 +64,7 @@ export const NHSRegEx: RegExp[] = [
 export const SkipRegEx: RegExp[] = [
   new RegExp(/\bmid\-\w+\b/, "gmi"),
   new RegExp(/\b\w{2,}\-\d{1,2}\b/, "gmi"),
+  new RegExp(/\b\d+(?:g|mg|ml)\b/, "gm"),
   new RegExp(/\b(?:DIB|ED|LAT|MUA|PANP|PEARL|PERLA|ROM|SOB|UTI)\b/, "gm")
 ];
 

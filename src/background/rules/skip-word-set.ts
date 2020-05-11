@@ -1,4 +1,5 @@
 export const SkipWordSet: Set<string> = new Set([
+  "abd",
   "addr",
   "adds",
   "adhd",
@@ -71,6 +72,7 @@ export const SkipWordSet: Set<string> = new Set([
   "corf",
   "couldnt",
   "counterfeit",
+  "coyzal",
   "critique",
   "crowd",
   "cssu",
@@ -183,6 +185,7 @@ export const SkipWordSet: Set<string> = new Set([
   "maxi",
   "mayhap",
   "mcpj",
+  "methotrexate",
   "midi",
   "mini",
   "mishap",
@@ -228,6 +231,7 @@ export const SkipWordSet: Set<string> = new Set([
   "paralyze",
   "paronychia",
   "passersby",
+  "patela",
   "paye",
   "payee",
   "payoff",
@@ -342,6 +346,7 @@ export const SkipWordSet: Set<string> = new Set([
   "three",
   "thru",
   "thud",
+  "tibula",
   "tightwad",
   "tikTok",
   "tiptoes",
@@ -362,6 +367,7 @@ export const SkipWordSet: Set<string> = new Set([
   "urethra",
   "vat",
   "vermicelli",
+  "verucca",
   "vessels",
   "vestibule",
   "video",
@@ -380,5 +386,6 @@ export const SkipWordSet: Set<string> = new Set([
   "wouldnt",
   "wrath",
   "writeoff",
+  "yoga",
   "yougov"
 ]);
