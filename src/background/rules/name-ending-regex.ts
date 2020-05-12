@@ -1,6 +1,8 @@
 export const NamesEndingRegEx: RegExp[] = [
    new RegExp(/[a-z]*[À-ÖØ-öø-ÿãñõțũąğịňōıŚạşęăầẩőếšảłộơńėəţș]+[a-z]*/, "gmi"),
 
+   new RegExp(/\b[A-Z][A-Z][a-z]+\b/, "gm"), // JSmith
+
    new RegExp(/\bSt\./, "gm"),
 
    new RegExp(/\b[a-z]+borough\b/, "gmi"),

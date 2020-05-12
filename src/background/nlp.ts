@@ -23,8 +23,11 @@ import { ProperNameSet, ProperNameSetJoinOnly } from "./rules/name-capitalised";
 import { NamePartSet } from "./rules/name-part";
 import { EthnicitySet } from "./rules/ethnicity";
 import { SkipWordSet } from "./rules/skip-word-set";
-import { isPropercase } from "./util/text";
 import { deepCopy } from "./util/deepCopy";
+
+const r = require("esm")(module);
+const t = r("@buckneri/string");
+const isPropercase = t.isPropercase;
 
 /**
  * ### Natural language processing services
