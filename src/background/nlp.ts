@@ -1,4 +1,3 @@
-import DB from "sqlite3-helper";
 import type { Action, Evaluation, MatchedEntity, TextMatch } from "../typings/PSCleaner";
 import {
   AgeEntity, BankingEntity, CurrencyEntity, DateEntity, 
@@ -39,20 +38,20 @@ export class NLP {
 
   public set trace(n: boolean) {
     this._trace = n;
-    DB().run("UPDATE AppSettings SET value = ? WHERE field = 'NLP_TRACE'", this._trace);
+    this._store.set("NLP_TRACE", this._trace ? "1" : "0");
   }
 
+  private _store: any;
   private _trace: boolean = true;
 
-  constructor() {
-    DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field = 'NLP_TRACE'`)
-      .then(async (row: any) => {
-        if (row) {
-          this._trace = row.value === "1" ? true : false;
-        } else {
-          DB().insert("AppSettings", { field: "NLP_TRACE", value: this._trace });
-        }
-      });
+  constructor(store: any) {
+    let trace = store.get("NLP_TRACE");
+    if (!trace) {
+      trace = "1";
+      store.set("NLP_TRACE", trace);
+    }
+    this._store = store;
+    this._trace = trace === "1" ? true : false;
   }
 
   /**

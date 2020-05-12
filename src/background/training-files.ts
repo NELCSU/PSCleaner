@@ -1,7 +1,6 @@
 import { app, ipcMain as ipc } from "electron";
 import stringify from "json-stringify-pretty-compact";
 import { join } from "path";
-import DB from "sqlite3-helper";
 import { v4 as uuidv4 } from "uuid";
 import { FileManager } from "./file-manager";
 import type { ReadFileAction } from "../typings/PSCleaner";
@@ -25,10 +24,17 @@ import type { ReadFileAction } from "../typings/PSCleaner";
  */
 export class TrainingFiles {
   public fm!: FileManager;
-  public ready: boolean = false;
 
-  constructor() {
-    this.init();
+  private _store: any;
+
+  constructor(store: any) {
+    let folder = store.get("TRAINING_FOLDER");
+    if (!folder) {
+      folder = join(app.getPath("home"), "Documents", app.getName(), "training");
+      store.set("TRAINING_FOLDER", folder);
+    }
+    this._store = store;
+    this.fm = new FileManager(folder);
 
     ipc.on("save-training-file", (e, file, data) => {
       this.save(file, data)
@@ -49,14 +55,13 @@ export class TrainingFiles {
     ipc.on("get-training-folder", e => e.reply("training-folder", this.fm.folder));
 
     ipc.on("set-training-folder", (e, path) => {
-      DB().update("AppSettings", { field: "TRAINING_FOLDER", value: path }, { field: "TRAINING_FOLDER" })
-        .then(
-          _ => {
-            this.fm.folder = path;
-            e.reply("training-folder", this.fm.folder);
-          },
-          _ => e.reply("training-folder-error", this.fm.folder)
-        );
+      try {
+        this._store.set("TRAINING_FOLDER", path);
+        this.fm.folder = path;
+        e.reply("training-folder", this.fm.folder);
+      } catch {
+        e.reply("training-folder-error", this.fm.folder);
+      }
     });
 
     ipc.on("delete-training-file", (e, file) => {
@@ -158,25 +163,5 @@ export class TrainingFiles {
         _ => Promise.resolve({ status: "training-file-saved" }),
         _ => Promise.reject({ status: "training-file-save-error" })
       );
-  }
-
-  /**
-   * Class initialiser and creates the folder path setting if missing
-   */
-  public async init(): Promise<void> {
-    await DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field='TRAINING_FOLDER'`)
-      .then(async row => {
-        if (row) {
-          return row.value;
-        } else {
-          const loc: string = join(app.getPath("home"), "Documents", app.getName(), "training");
-          await DB().insert("AppSettings", { field: "TRAINING_FOLDER", value: loc });
-          return loc;
-        }
-      })
-      .then((location: string) => {
-        this.fm = new FileManager(location);
-        this.ready = true;
-      });
   }
 }

@@ -2,9 +2,7 @@ import { app, ipcMain as ipc } from "electron";
 import EventEmitter from "events";
 import * as csv from "fast-csv";
 import { FileManager } from "./file-manager";
-import { NLP } from "./nlp.js";
 import { join, parse } from "path";
-import DB from "sqlite3-helper";
 import { cleanText } from "./util/text";
 import { TemplateFiles } from "./template-files";
 import jschardet from "jschardet";
@@ -23,53 +21,39 @@ import jschardet from "jschardet";
 export class ProcessFiles {
   public events = new EventEmitter();
   public fm!: FileManager;  
-  public nlp: NLP;
-  public ready: boolean = false;
+  public nlp: any;
   public sendTo: string = "";
-  
-  constructor() {
-    this.init();
 
-    this.nlp = new NLP();
+  private _store: any;
+  
+  constructor(store: any, nlp: any) {
+    let folder = store.get("PROCESSING_FOLDER");
+    if (!folder) {
+      folder = join(app.getPath("home"), "Documents", app.getName(), "processing");
+      store.set("PROCESSING_FOLDER", folder);
+    }
+    this._store = store;
+    this.fm = new FileManager(folder);
+    this.fm.filter = "csv";
+
+    this.nlp = nlp;
 
     ipc.on("get-processing-folder", e => e.reply("processing-folder", this.fm.folder));
 
     ipc.on("set-processing-folder", (e, path) => {
-      DB().update("AppSettings", { field: "PROCESSING_FOLDER", value: path }, { field: "PROCESSING_FOLDER" })
-        .then(
-          _ => {
-            this.fm.folder = path;
-            e.reply("processing-folder", this.fm.folder);
-          },
-          _ => e.reply("processing-folder-error", `${this.fm.folder} cannot be opened`)
-        );
+      try {
+        this._store.set("PROCESSING_FOLDER", path);
+        this.fm.folder = path;
+        e.reply("processing-folder", this.fm.folder);
+      } catch {
+        e.reply("processing-folder-error", this.fm.folder);
+      }
     });
 
     ipc.on("processing-file-count", e => {
       this.fm.fileCount
         .then(n => e.reply("processing-file-count", n));
     });
-  }
-
-  /**
-   * Class initialiser and creates the folder path setting if missing
-   */
-  public async init(): Promise<void> {
-    await DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field='PROCESSING_FOLDER'`)
-      .then(async row => {
-        if (row) {
-          return row.value;
-        } else {
-          const loc: string = join(app.getPath("home"), "Documents", app.getName(), "processing");
-          await DB().insert("AppSettings", { field: "PROCESSING_FOLDER", value: loc });
-          return loc;
-        }
-      })
-      .then((location: string) => {
-        this.fm = new FileManager(location);
-        this.fm.filter = "csv";
-        this.ready = true;
-      });
   }
 
   /**

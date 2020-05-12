@@ -2,7 +2,7 @@ import {
   App, app, ipcMain as ipc, IpcMainEvent, protocol
 } from "electron";
 import { EventEmitter } from "events";
-import DB from "sqlite3-helper";
+import Store from "electron-store";
 
 require("dotenv").config();
 if (require("electron-squirrel-startup")) { // eslint-disable-line global-require
@@ -23,8 +23,9 @@ import fs from "fs";
 import config from "./views";
 
 class Main {
-  private _initDB: boolean = false;
   #eventEmitter: EventEmitter;
+
+  private _store: any;
 
   public app: App;
   public isQuitting = false;
@@ -58,51 +59,47 @@ class Main {
     if (!lock) {
       this.app.quit();
     } else {
-      this.initDB()
-        .then(async _ => {
-          const nlp: NLP = new NLP();
-          this.entities = new Entities();
-          this.trainingFiles = new TrainingFiles();
-          this.templateFiles = new TemplateFiles();
-          this.importFiles = new ImportFiles();
-          this.exportFiles = new ExportFiles();
-          this.processFiles = new ProcessFiles();
+      this._store = new Store();
 
-          ipc.on("NLP-request", async (e: IpcMainEvent, text: string) => {
-            (async (t) => await nlp.evaluate(t))(text)
-              .then(result => {
-                this.mainWindow.webContents.send("NLP-response", result);
-              });
+      const nlp: NLP = new NLP(this._store);
+      this.entities = new Entities();
+      this.trainingFiles = new TrainingFiles(this._store);
+      this.templateFiles = new TemplateFiles(this._store);
+      this.importFiles = new ImportFiles(this._store);
+      this.exportFiles = new ExportFiles(this._store);
+      this.processFiles = new ProcessFiles(this._store, nlp);
+
+      ipc.on("NLP-request", async (e: IpcMainEvent, text: string) => {
+        (async (t) => await nlp.evaluate(t))(text)
+          .then(result => {
+            this.mainWindow.webContents.send("NLP-response", result);
           });
+      });
 
-          ipc.on("NLP-trace", (e: IpcMainEvent, n?: boolean) => {
-            if (n === undefined) {
-              this.mainWindow.webContents.send("NLP-trace", nlp.trace);
-            } else {
-              nlp.trace = n;
-            }
-          });
+      ipc.on("NLP-trace", (e: IpcMainEvent, n?: boolean) => {
+        if (n === undefined) {
+          this.mainWindow.webContents.send("NLP-trace", nlp.trace);
+        } else {
+          nlp.trace = n;
+        }
+      });
 
-          ipc.on("start-processing", async e => {
-            try {
-              if (!this.templateFiles.ready) {
-                throw new Error(this.templateFiles.error);
+      ipc.on("start-processing", async e => {
+        try {
+          this.processFiles.fm.listFiles()
+            .then(files => {
+              if (files.length > 0) {
+                this.processFiles.processFile(files[0], this.templateFiles);
+                this.processFiles.events.on("file-processed", _ => e.reply("processed"));
+              } else {
+                this.processFiles.events.on("file-processing-error", _ => e.reply("stop-processing"));
+                e.reply("stop-processing");
               }
-              this.processFiles.fm.listFiles()
-                .then(files => {
-                  if (files.length > 0) {
-                    this.processFiles.processFile(files[0], this.templateFiles);
-                    this.processFiles.events.on("file-processed", _ => e.reply("processed"));
-                  } else {
-                    this.processFiles.events.on("file-processing-error", _ => e.reply("stop-processing"));
-                    e.reply("stop-processing");
-                  }
-                });
-            } catch (err) {
-              e.reply("processing-folder-error", err.message);
-            }
-          });
-        });
+            });
+        } catch (err) {
+          e.reply("processing-folder-error", err.message);
+        }
+      });
 
       this.app.on("second-instance", _ => {
         if (this.mainWindow) {
@@ -128,17 +125,6 @@ class Main {
     this.app.quit();
   }
 
-  public initDB(): Promise<void> {
-    return (async _ => {
-      try {
-        await DB().connection();
-        this._initDB = true;
-      } catch (err) {
-        console.log(err);
-      }
-    })();
-  }
-
   public show() {
     this.mainWindow.show();
   }
@@ -151,13 +137,6 @@ class Main {
   }
 
   public run = () => {
-    if (!this._initDB || !this.trainingFiles.ready ||
-      !this.importFiles.ready || !this.exportFiles.ready ||
-      !this.processFiles.ready) {
-      setTimeout(_ => this.run(), 1000);
-      return;
-    }
-
     this.importFiles.sendTo = this.processFiles.fm.folder;
     this.processFiles.sendTo = this.exportFiles.fm.folder;
 

@@ -1,6 +1,5 @@
 import { app, ipcMain as ipc } from "electron";
 import { FileManager } from "./file-manager";
-import DB from "sqlite3-helper";
 import { join } from "path";
 import { ImportResponse } from "../typings/PSCleaner";
 
@@ -17,21 +16,29 @@ import { ImportResponse } from "../typings/PSCleaner";
 export class ImportFiles {
   public sendTo: string = "";
   public fm!: FileManager;
-  public ready: boolean = false;
 
-  constructor() {
-    this.init();
+  private _store: any;
+
+  constructor(store: any) {
+    let folder = store.get("IMPORT_FOLDER");
+    if (!folder) {
+      folder = join(app.getPath("home"), "Documents", app.getName(), "import");
+      store.set("IMPORT_FOLDER", folder);
+    }
+    this._store = store;
+    this.fm = new FileManager(folder);
+    this.fm.filter = "csv";
+
     ipc.on("get-import-folder", e => e.reply("import-folder", this.fm.folder));
 
     ipc.on("set-import-folder", (e, path) => {
-      DB().update("AppSettings", { field: "IMPORT_FOLDER", value: path }, { field: "IMPORT_FOLDER" })
-        .then(
-          _ => {
-            this.fm.folder = path;
-            e.reply("import-folder", this.fm.folder);
-          },
-          _ => e.reply("import-folder-error", this.fm.folder)
-        );
+      try {
+        this._store.set("IMPORT_FOLDER", path);
+        this.fm.folder = path;
+        e.reply("import-folder", this.fm.folder);
+      } catch {
+        e.reply("import-folder-error", this.fm.folder);
+      }
     });
 
     ipc.on("import-file-count", e => {
@@ -46,27 +53,6 @@ export class ImportFiles {
           (fail: ImportResponse) => e.reply(fail)
         );
     });
-  }
-
-  /**
-   * Class initialiser and creates the folder path setting if missing
-   */
-  public async init(): Promise<void> {
-    await DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field='IMPORT_FOLDER'`)
-      .then(async row => {
-        if (row) {
-          return row.value;
-        } else {
-          const loc: string = join(app.getPath("home"), "Documents", app.getName(), "import");
-          await DB().insert("AppSettings", { field: "IMPORT_FOLDER", value: loc });
-          return loc;
-        }
-      })
-      .then((location: string) => {
-        this.fm = new FileManager(location);
-        this.fm.filter = "csv";
-        this.ready = true;
-      });
   }
 
   /**

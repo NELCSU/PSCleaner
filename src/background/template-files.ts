@@ -1,7 +1,6 @@
 import { app, ipcMain as ipc } from "electron";
 import stringify from "json-stringify-pretty-compact";
 import { join } from "path";
-import DB from "sqlite3-helper";
 import { FileManager } from "./file-manager";
 import type { CSVTemplate, ReadFileAction } from "../typings/PSCleaner";
 
@@ -38,10 +37,17 @@ export class TemplateFiles {
   public fields: Map<string, boolean> = new Map<string, boolean>();
   public fm!: FileManager;
   public header: boolean = false;
-  public ready: boolean = false;
 
-  constructor() {
-    this.init();
+  private _store: any;
+
+  constructor(store: any) {
+    let folder = store.get("TEMPLATE_FOLDER");
+    if (!folder) {
+      folder = join(app.getPath("home"), "Documents", app.getName(), "template");
+      store.set("TEMPLATE_FOLDER", folder);
+    }
+    this._store = store;
+    this.fm = new FileManager(folder);
 
     ipc.on("clear-template-file", () => this.clear());
 
@@ -56,14 +62,13 @@ export class TemplateFiles {
     ipc.on("get-template-folder", e => e.reply("template-folder", this.fm.folder));
 
     ipc.on("set-template-folder", (e, path) => {
-      DB().update("AppSettings", { field: "TEMPLATE_FOLDER", value: path }, { field: "TEMPLATE_FOLDER" })
-        .then(
-          _ => {
-            this.fm.folder = path;
-            e.reply("template-folder", this.fm.folder);
-          },
-          _ => e.reply("template-folder-error", this.fm.folder)
-        );
+      try {
+        this._store.set("TEMPLATE_FOLDER", path);
+        this.fm.folder = path;
+        e.reply("template-folder", this.fm.folder);
+      } catch {
+        e.reply("template-folder-error", this.fm.folder);
+      }
     });
 
     ipc.on("delete-template-file", (e, file) => {
@@ -174,25 +179,5 @@ export class TemplateFiles {
         _ => Promise.resolve({ status: "template-file-saved" }),
         _ => Promise.reject({ status: "template-file-save-error" })
       );
-  }
-
-  /**
-   * Class initialiser and creates the folder path setting if missing
-   */
-  public async init(): Promise<void> {
-    await DB().queryFirstRow(`SELECT value FROM AppSettings WHERE field='TEMPLATE_FOLDER'`)
-      .then(async row => {
-        if (row) {
-          return row.value;
-        } else {
-          const loc: string = join(app.getPath("home"), "Documents", app.getName(), "template");
-          await DB().insert("AppSettings", { field: "TEMPLATE_FOLDER", value: loc });
-          return loc;
-        }
-      })
-      .then((location: string) => {
-        this.fm = new FileManager(location);
-        this.ready = true;
-      });
   }
 }
