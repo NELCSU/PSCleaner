@@ -2,7 +2,7 @@ import { app, ipcMain as ipc } from "electron";
 import stringify from "json-stringify-pretty-compact";
 import { join } from "path";
 import { FileManager } from "./file-manager";
-import type { CSVTemplate, ReadFileAction } from "../typings/PSCleaner";
+import type { CSVTemplate, ReadFileAction } from "./typings/PSCleaner";
 
 /**
  * ### Manages files stored in watched folder.

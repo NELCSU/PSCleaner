@@ -3,7 +3,7 @@ import stringify from "json-stringify-pretty-compact";
 import { join } from "path";
 import { v4 as uuidv4 } from "uuid";
 import { FileManager } from "./file-manager";
-import type { ReadFileAction } from "../typings/PSCleaner";
+import type { ReadFileAction } from "./typings/PSCleaner";
 
 /**
  * ### Manages files stored in watched folder.

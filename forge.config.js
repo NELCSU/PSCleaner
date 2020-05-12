@@ -10,9 +10,9 @@ module.exports = {
       name: "@electron-forge/maker-squirrel",
       config: {
         name: "PSCleaner",
-        iconUrl: "https://github.com/NELCSU/PSCleaner/blob/master/static/favicon.ico?raw=true",
-        loadingGif: "./static/images/loading.gif",
-        setupIcon: "./static/favicon.ico"
+        iconUrl: "https://github.com/NELCSU/PSCleaner/blob/master/client/favicon.ico?raw=true",
+        loadingGif: "./client/images/loading.gif",
+        setupIcon: "./client/favicon.ico"
       }
     },
     {

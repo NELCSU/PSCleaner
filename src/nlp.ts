@@ -1,4 +1,4 @@
-import type { Action, Evaluation, MatchedEntity, TextMatch } from "../typings/PSCleaner";
+import type { Action, Evaluation, MatchedEntity, TextMatch } from "./typings/PSCleaner";
 import {
   AgeEntity, BankingEntity, CurrencyEntity, DateEntity, 
   EmailEntity, EthnicityEntity,

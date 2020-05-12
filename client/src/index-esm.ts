@@ -1,32 +1,30 @@
 import { ipcRenderer as ipc, shell } from "electron";
+import { showError } from "./util-esm";
 
-const importBadge = document.getElementById("statPending");
-const processingBadge = document.getElementById("statProcessing");
-const exportBadge = document.getElementById("statComplete");
-const modalView = document.getElementById("modalView");
-const modalMessage = document.querySelector(".modal-message");
-const runButton = document.getElementById("btnProcessFiles");
-const progressBar = document.getElementById("stProcessFiles");
-const timeLabel = document.getElementById("lblTime");
-const templateList = document.getElementById("listTemplate");
-const messageDelay = 3000;
+const importBadge = document.getElementById("statPending") as HTMLElement;
+const processingBadge = document.getElementById("statProcessing") as HTMLElement;
+const exportBadge = document.getElementById("statComplete") as HTMLElement;
+const runButton = document.getElementById("btnProcessFiles") as HTMLButtonElement;
+const progressBar = document.getElementById("stProcessFiles") as HTMLProgressElement;
+const timeLabel = document.getElementById("lblTime") as HTMLLabelElement;
 const FILES_REQUIRED = "Click on QUEUED to view the import folder. CSV files are required.";
 let importFiles = 0;
 let processingFiles = 0;
 let exportFiles = 0;
 let running = false;
-let timeStart, timer;
+let timeStart = 0;
+let timer: any;
 
 /**
  * Displays timestamp as hh:mm:ss
- * @param {number?} start - milliseconds
- * @param {number?} end - milliseconds
+ * @param start - milliseconds
+ * @param end - milliseconds
  */
-function formatTime(start, end) {
-  if (start === null) {
+function formatTime(start?: number, end?: number) {
+  if (start === undefined) {
     start = Date.now();
   }
-  if (end === null) {
+  if (end === undefined) {
     end = Date.now();
   }
   const raw = (end - start) / 1000;
@@ -49,24 +47,14 @@ function setUpProgressBar() {
  * Starts timer
  */
 function setUpTimer() {
+  const tl = document.getElementById("listTemplate") as HTMLSelectElement;
   runButton.textContent = "Stop";
-  templateList.classList.add("disabled");
+  tl.classList.add("disabled");
   timeStart = Date.now();
   timeLabel.innerHTML = "starting " + formatTime(timeStart, Date.now());
   timer = setInterval(() => {
     timeLabel.innerHTML = "in progress " + formatTime(timeStart, Date.now());
   }, 1000);
-}
-
-/**
- * Displays error message to user
- * @param {string} msg - message to display
- */
-function showError(msg) {
-  console.log(msg);
-  modalMessage.innerHTML = msg;
-  modalView.open = true;
-  setTimeout(() => modalView.open = false, messageDelay);
 }
 
 /**
@@ -79,9 +67,10 @@ function teardownProgressBar() {
 
 /**
  * Shuts down timer
- * @param {boolean} halt - stop timer immediately if true
+ * @param halt - stop timer immediately if true
  */
-function teardownTimer(halt) {
+function teardownTimer(halt: boolean): void {
+  const tl = document.getElementById("listTemplate") as HTMLSelectElement;
   clearInterval(timer);
   if (processingFiles > 0 && !halt) {
     runButton.classList.add("disabled");
@@ -92,7 +81,7 @@ function teardownTimer(halt) {
     }, 1000);
   } else {
     runButton.classList.remove("disabled");
-    templateList.classList.remove("disabled");
+    tl.classList.remove("disabled");
     runButton.textContent = "Start";
     timeLabel.innerHTML = "Run completed " + formatTime(timeStart, Date.now());
   }
@@ -100,7 +89,7 @@ function teardownTimer(halt) {
 
 /**
  * Starts/stops processing
- * @param {boolean} halt - stop timer and processing immediately if true
+ * @param halt - stop timer and processing immediately if true
  */
 function toggleRun(halt = false) {
   running = !running;
@@ -143,8 +132,9 @@ function startImport() {
 }
 
 function selectTemplate() {
-  if (templateList.selectedIndex > 0) {
-    ipc.send("get-template-file", templateList.options[templateList.selectedIndex].text);
+  const tl = document.getElementById("listTemplate") as HTMLSelectElement;
+  if (tl.selectedIndex > 0) {
+    ipc.send("get-template-file", tl.options[tl.selectedIndex].text);
     runButton.classList.remove("disabled");
   } else {
     ipc.send("clear-template-file");
@@ -153,34 +143,34 @@ function selectTemplate() {
 }
 
 runButton.addEventListener("click", _ => toggleRun());
-templateList.addEventListener("change", selectTemplate);
+(document.getElementById("listTemplate") as HTMLSelectElement).addEventListener("change", selectTemplate);
 
 //** opens explorer view for each folder via badge click
 importBadge.addEventListener("click", _ => ipc.send("get-import-folder"));
 processingBadge.addEventListener("click", _ => ipc.send("get-processing-folder"));
 exportBadge.addEventListener("click", _ => ipc.send("get-export-folder"));
-ipc.on("import-folder", (_, path) => shell.openItem(path));
-ipc.on("processing-folder", (_, path) => shell.openItem(path));
-ipc.on("export-folder", (_, path) => shell.openItem(path));
+ipc.on("import-folder", (_: any, path: string) => shell.openItem(path));
+ipc.on("processing-folder", (_: any, path: string) => shell.openItem(path));
+ipc.on("export-folder", (_: any, path: string) => shell.openItem(path));
 
 //** initialisation of badge counts
 ipc.send("import-file-count");
-ipc.on("import-file-count", (_, data) => {
+ipc.on("import-file-count", (_: any, data: number) => {
   importFiles = data;
-  importBadge.textContent = importFiles;
+  importBadge.textContent = importFiles + "";
 });
 ipc.send("processing-file-count");
-ipc.on("processing-file-count", (_, data) => {
+ipc.on("processing-file-count", (_: any, data: number) => {
   processingFiles = data;
-  processingBadge.textContent = processingFiles;
+  processingBadge.textContent = processingFiles + "";
   if (running && processingFiles > 0) {
     ipc.send("start-processing");
   }
 });
 ipc.send("export-file-count");
-ipc.on("export-file-count", (_, data) => {
+ipc.on("export-file-count", (_: any, data: number) => {
   exportFiles = data;
-  exportBadge.textContent = exportFiles;
+  exportBadge.textContent = exportFiles + "";
   if (running) {
     progressBar.value = exportFiles;
     startImport();
@@ -188,27 +178,28 @@ ipc.on("export-file-count", (_, data) => {
 });
 
 ipc.send("get-template-files");
-ipc.on("template-files", (e, files) => {
-  Array.from(templateList.options)
+ipc.on("template-files", (e: any, files: string[]) => {
+  const tl = document.getElementById("listTemplate") as HTMLSelectElement;
+  Array.from(tl.options as HTMLOptionsCollection)
     .forEach((option, i) => {
       if (i > 0) {
-        templateList.removeChild(option);
+        tl.removeChild(option);
       }
     });
-  files.forEach((file, i) => {
+  files.forEach((file: string, i: number) => {
     const option = document.createElement("option");
     option.value = file;
     option.text = file.replace(/\.json/, "");
-    templateList.appendChild(option);
+    tl.appendChild(option);
   });
 });
 
 //** Error handling
-ipc.on("import-folder-error", (_, err) => showError(`An error occurred with the import folder ${err}`));
-ipc.on("processing-folder-error", (_, err) => {
+ipc.on("import-folder-error", (_: any, err: string) => showError(`An error occurred with the import folder ${err}`));
+ipc.on("processing-folder-error", (_: any, err: string) => {
   showError(err);
   if (running) {
     toggleRun(true);
   }
 });
-ipc.on("export-folder-error", (_, err) => showError(`An error occurred with the export folder: ${err}`));
+ipc.on("export-folder-error", (_: any, err: string) => showError(`An error occurred with the export folder: ${err}`));

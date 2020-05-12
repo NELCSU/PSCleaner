@@ -52,7 +52,7 @@
     "typescript"
   ],
   "license": "MIT",
-  "main": "dist/background/app.js",
+  "main": "backend/app.js",
   "name": "pscleaner",
   "productName": "PSCleaner",
   "homepage": "https://github.com/NELCSU/PSCleaner",
@@ -73,11 +73,11 @@
     "start": "electron-forge start",
     "update-all": "npm run update-elec && npm run wipe-webc && npm run update-webc",
     "update-elec": ".\\node_modules\\.bin\\electron-rebuild.cmd && npm rebuild",
-    "update-webc": "ncp node_modules/@buckneri/web-components static/lib/web-components",
+    "update-webc": "ncp node_modules/@buckneri/web-components client/lib/web-components",
     "watch": "tsc -w",
     "wipe-all": "npm run wipe-out && npm run wipe-webc",
     "wipe-out": "rimraf out",
-    "wipe-webc": "rimraf static/lib/web-components"
+    "wipe-webc": "rimraf client/lib/web-components"
   },
   "version": "0.8.0",
   "bugs": {

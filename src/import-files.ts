@@ -1,7 +1,7 @@
 import { app, ipcMain as ipc } from "electron";
 import { FileManager } from "./file-manager";
 import { join } from "path";
-import { ImportResponse } from "../typings/PSCleaner";
+import { ImportResponse } from "./typings/PSCleaner";
 
 /**
  * ### Manages files stored in watched folder.

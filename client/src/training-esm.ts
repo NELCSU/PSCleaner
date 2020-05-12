@@ -1,41 +1,41 @@
-import db from "debounce";
-import he from "he";
+import * as db from "debounce";
+import * as he from "he";
 import validFilename from "valid-filename";
 import { clipboard, ipcRenderer as ipc, remote } from "electron";
 import {
   rangeContiguous, rangeEmpty, selectionTrim
 } from "@buckneri/js-lib-selection";
 
-const cancelEntityButton = document.getElementById("btnEntityTagger");
-const closeButton = document.getElementById("btnCloseFile");
-const clearButton = document.getElementById("btnClearTags");
-const dataEntryText = document.getElementById("txtAddText");
-const deleteButton = document.getElementById("btnDeleteTextFile");
-const files = document.getElementById("pnlFileName");
-const filename = document.getElementById("lblFilename");
-const list = document.getElementById("lstEntityTagger");
-const modal = document.getElementById("mvEntityTagger");
-const openButton = document.getElementById("btnOpenText");
-const renameFileText = document.getElementById("lblRenameFile");
-const renameFileTickbox = document.getElementById("chkFileRename");
-const renameFileSave = document.getElementById("btnFileRename");
-const saveButton = document.getElementById("btnAddText");
-const traceButton = document.getElementById("btnTrace");
-const autodiscoverButton = document.getElementById("btnAutodiscover");
+const cancelEntityButton = document.getElementById("btnEntityTagger") as HTMLButtonElement;
+const closeButton = document.getElementById("btnCloseFile") as HTMLButtonElement;
+const clearButton = document.getElementById("btnClearTags") as HTMLButtonElement;
+const dataEntryText = document.getElementById("txtAddText") as HTMLElement;
+const deleteButton = document.getElementById("btnDeleteTextFile") as HTMLButtonElement;
+const files = document.getElementById("pnlFileName") as HTMLElement;
+const filename = document.getElementById("lblFilename") as HTMLLabelElement;
+const list = document.getElementById("lstEntityTagger") as HTMLSelectElement;
+const modal = document.getElementById("mvEntityTagger") as any;
+const openButton = document.getElementById("btnOpenText") as HTMLButtonElement;
+const renameFileText = document.getElementById("lblRenameFile") as HTMLInputElement;
+const renameFileTickbox = document.getElementById("chkFileRename") as HTMLInputElement;
+const renameFileSave = document.getElementById("btnFileRename") as HTMLButtonElement;
+const saveButton = document.getElementById("btnAddText") as HTMLButtonElement;
+const traceButton = document.getElementById("btnTrace") as any;
+const autodiscoverButton = document.getElementById("btnAutodiscover") as HTMLButtonElement;
 
-let activeFile = null;
-let tag = null;
+let activeFile: string | null = null;
+let tag: any = null;
 let entityMap = new Map();
 
 /**
  * Adds child element to list
- * @param {HTMLElement} list - list to append item to
- * @param {string} label - annotation label
- * @param {string} color - CSS color spec
- * @param {object} options - custom attributes for <nel-list-item>
+ * @param list - list to append item to
+ * @param label - annotation label
+ * @param color - CSS color spec
+ * @param options - custom attributes for <nel-list-item>
  */
-function addEntity(list, label, color, options) {
-  const item = document.createElement("nel-list-item");
+function addEntity(list: HTMLElement, label: string, color: string, options: any) {
+  const item = document.createElement("nel-list-item") as any;
   item.setAttribute("color", color);
   item.selectable = options.selectable;
   item.deletable = options.deletable;
@@ -46,24 +46,26 @@ function addEntity(list, label, color, options) {
 
 /**
  * Adds <nel-text-tag> to selected text in DOM
- * @param {Selection} selection - DOM text selection
- * @param {string} label - text annotation
- * @param {string} color - CSS color spec
+ * @param selection - DOM text selection
+ * @param label - text annotation
+ * @param color - CSS color spec
  */
-function addTag(selection, label, color) {
+function addTag(selection: Selection, label?: string, color?: string) {
   const rng = selection.getRangeAt(0);
-  const mark = document.createElement("nel-text-tag");
+  const mark = document.createElement("nel-text-tag") as any;
   mark.setAttribute("label", label ? label : "Not defined");
   mark.setAttribute("color", color ? color : "#cccccc");
   mark.selectable = true;
   mark.deletable = true;
-  mark.addEventListener("deleting", ev => ev.detail.delete());
-  mark.addEventListener("click", e => {
+  mark.addEventListener("deleting", (ev: CustomEvent) => ev.detail.delete());
+  mark.addEventListener("click", (e: MouseEvent) => {
     if (e.button !== 0) {
       e.stopPropagation();
     }
     const sel = window.getSelection();
-    sel.removeAllRanges();
+    if (sel) {
+      sel.removeAllRanges();
+    }
   });
   rng.surroundContents(mark);
   selection.removeAllRanges();
@@ -99,13 +101,14 @@ function cancelEntityChoice() {
  * Checks new text entered into text window
  */
 function checkInput() {
-  if (dataEntryText.textContent.length > 0) {
+  if (dataEntryText.textContent && dataEntryText.textContent.length > 0) {
     window.dispatchEvent(new CustomEvent("NewTrainingData"));
     const restore = insertionPoint();
     if (dataEntryText.childNodes.length > 1) {
       Array.from(dataEntryText.childNodes)
-        .forEach(n => {
-          n.textContent = n.textContent.replace(/&nbsp;/gm, " ");
+        .forEach((n: Node) => {
+          let txt = n.textContent || "";
+          n.textContent = txt.replace(/&nbsp;/gm, " ");
         });
       dataEntryText.normalize();
       restore();
@@ -115,10 +118,10 @@ function checkInput() {
 
 /**
  * If filename is valid, enable the save button
- * @param {Event} e 
+ * @param e 
  */
-function checkInputFileRename(e) {
-  if (validFilename(e.target.value.trim())) {
+function checkInputFileRename(e: Event) {
+  if (validFilename((e.target as HTMLInputElement).value.trim())) {
     renameFileSave.classList.remove("disabled");
   } else {
     renameFileSave.classList.add("disabled");
@@ -127,9 +130,9 @@ function checkInputFileRename(e) {
 
 /**
  * Removes artificats from text that will impede recognition
- * @param {string} text
+ * @param text
  */
-function cleanText(text) {
+function cleanText(text: string): string {
   text = text.replace(/(?:\r\n|\r|\n)/g, "<br>");
   text = text.replace(/\s+/g, " ");
   text = text.replace(/\s?[\-]\s?/g, "-");
@@ -143,7 +146,9 @@ function cleanText(text) {
  * Removes entity tags from the text editor
  */
 function clearTags() {
-  dataEntryText.innerHTML = dataEntryText.textContent;
+  if (dataEntryText) {
+    dataEntryText.innerHTML = dataEntryText.textContent as string;
+  }
   clearButton.classList.add("disabled");
 }
 
@@ -166,15 +171,15 @@ function closeFile() {
 
 /**
  * Returns a DOM text selection
- * @param {Node} node 
- * @param {number} start 
- * @param {number} length 
+ * @param node 
+ * @param start 
+ * @param length 
  */
-function createSelection(node, start, length) {
+function createSelection(node: Node, start: number, length: number): Selection {
   const range = document.createRange();
   range.setStart(node, start);
   range.setEnd(node, start + length);
-  const sel = window.getSelection();
+  const sel = window.getSelection() as Selection;
   sel.removeAllRanges();
   sel.addRange(range);
   return sel;
@@ -185,7 +190,7 @@ function createSelection(node, start, length) {
  * If yes, sends IPC request to delete file
  */
 function deleteFile() {
-  const choice = remote.dialog.showMessageBoxSync(null, {
+  const choice = remote.dialog.showMessageBoxSync(null as any, {
     type: "warning",
     buttons: ["Delete", "Cancel"],
     title: "Warning, delete file operation detected",
@@ -210,8 +215,8 @@ function fileRenameClear() {
 /**
  * Reposition cursor insertion point back point of text entry
  */
-function insertionPoint() {
-  let sel = window.getSelection();
+function insertionPoint(): Function {
+  let sel = window.getSelection() as Selection;
   const node = sel.focusNode;
   const offset = sel.focusOffset;
   return function restore() {
@@ -229,16 +234,16 @@ function openFile() {
 
 /**
  * Pastes text from clipboard into text editor
- * @param {Event} e 
+ * @param e 
  */
-function pasteText(e) {
+function pasteText(e?: Event) {
   if (e) {
     e.preventDefault();
     e.stopPropagation();
   }
   let paste = clipboard.readText();
   paste = cleanText(paste);
-  const sel = window.getSelection();
+  const sel = window.getSelection() as Selection;
   if (!sel.rangeCount) {
     dataEntryText.normalize();
     return false;
@@ -256,7 +261,7 @@ function resetTextSelection() {
   const re = />$/;
   const match = dataEntryText.innerHTML.match(re);
   if (match) {
-    const sel = window.getSelection();
+    const sel = window.getSelection() as Selection;
     const nbsp = document.createTextNode("\u00A0");
     dataEntryText.appendChild(nbsp);
     if (sel.focusNode === null) {
@@ -270,21 +275,23 @@ function resetTextSelection() {
  */
 function saveFile() {
   dataEntryText.normalize();
+  const ent: any[] = [];
   const data = {
     text: dataEntryText.textContent,
-    entities: []
+    entities: ent
   };
   let markUp = he.decode(dataEntryText.innerHTML);
-  const tags = Array.from(dataEntryText.children);
+  const tags: Element[] = Array.from(dataEntryText.children);
   while (tags.length > 0) {
     let i = markUp.indexOf("<nel-text-tag");
+    const item = tags[0] as any;
     data.entities.push({
       start: i,
-      length: tags[0].textContent.length,
-      label: tags[0].label,
-      color: tags[0].color
+      length: item.textContent ? item.textContent.length : 0,
+      label: item.label,
+      color: item.color
     });
-    markUp = markUp.replace(/<nel-text-tag.+?<\/nel-text-tag>/m, tags[0].textContent);
+    markUp = markUp.replace(/<nel-text-tag.+?<\/nel-text-tag>/m, item.textContent || "");
     tags.splice(0, 1);
   }
   ipc.send("save-training-file", filename.textContent, data);
@@ -292,9 +299,9 @@ function saveFile() {
 
 /**
  * Saves file as new filename
- * @param {Event} e 
+ * @param e 
  */
-function saveNewFileName(e) {
+function saveNewFileName(e: Event) {
   let newFilename = renameFileText.value.trim();
   newFilename = newFilename.replace(/\.json/, "");
   newFilename = `${newFilename}.json`;
@@ -303,13 +310,14 @@ function saveNewFileName(e) {
 
 /**
  * Enables/disables file rename panel
- * @param {Event} e 
+ * @param e 
  */
-function toggleRenameFile(e) {
-  e.target.checked
+function toggleRenameFile(e: Event) {
+  const el: HTMLInputElement = e.target as HTMLInputElement;
+  el.checked
     ? renameFileText.classList.remove("disabled")
     : renameFileText.classList.add("disabled");
-  if (!e.target.checked) {
+  if (!el.checked) {
     renameFileText.value = "";
     renameFileSave.classList.add("disabled");
   } else {
@@ -332,7 +340,7 @@ renameFileSave.addEventListener("click", saveNewFileName);
 saveButton.addEventListener("click", saveFile);
 traceButton.addEventListener("input", adjustTrace);
 
-ipc.on("entity-list", (e, response) => {
+ipc.on("entity-list", (e: Event, response: any[]) => {
   list.innerHTML = "";
   entityMap.clear();
   response.forEach(d => {
@@ -341,11 +349,12 @@ ipc.on("entity-list", (e, response) => {
       deletable: false,
       selectable: true
     });
-    el.addEventListener("click", e => {
+    el.addEventListener("click", (e: Event) => {
+      const item = e.target as any;
       window.dispatchEvent(new CustomEvent("UpdateTag", {
         detail: {
-          color: e.target.color,
-          label: e.target.textContent
+          color: item.color,
+          label: item.textContent
         }
       }));
       modal.removeAttribute("open");
@@ -354,11 +363,11 @@ ipc.on("entity-list", (e, response) => {
   });
 });
 
-ipc.on("NLP-response", (e, response) => {
+ipc.on("NLP-response", (e: Event, response: any) => {
   autodiscoverButton.textContent = "Autodiscover";
   autodiscoverButton.classList.remove("disabled");
   autodiscoverButton.classList.remove("wait");
-  dataEntryText.innerHTML = he.encode(dataEntryText.textContent);
+  dataEntryText.innerHTML = he.encode(dataEntryText.textContent || "");
   if (response.length > 0) {
     window.dispatchEvent(new CustomEvent("NewTrainingData"));
   }
@@ -369,13 +378,13 @@ ipc.on("NLP-response", (e, response) => {
   }
 });
 
-ipc.on("temp-training-filename", (_, response) => {
+ipc.on("temp-training-filename", (_: any, response: any) => {
   activeFile = response;
   filename.textContent = response;
   files.hidden = false;
 });
 
-ipc.on("training-file", (_, file, dt) => {
+ipc.on("training-file", (_: any, file: string, dt: any) => {
   activeFile = file;
   filename.textContent = file;
   files.hidden = false;
@@ -394,11 +403,11 @@ ipc.on("training-file", (_, file, dt) => {
   window.dispatchEvent(new CustomEvent("NewTrainingData"));
 });
 
-ipc.on("training-file-deleted", _ => closeButton.click());
-ipc.on("training-file-saved", _ => saveButton.classList.add("disabled"));
+ipc.on("training-file-deleted", (_: any) => closeButton.click());
+ipc.on("training-file-saved", (_: any) => saveButton.classList.add("disabled"));
 
-ipc.on("training-file-rename-warning", (_, response) => {
-  const choice = remote.dialog.showMessageBoxSync(null, {
+ipc.on("training-file-rename-warning", (_: any, response: any) => {
+  const choice = remote.dialog.showMessageBoxSync(null as any, {
     type: "warning",
     buttons: ["Overwrite", "Cancel"],
     title: "Warning, overwrite file operation detected",
@@ -410,28 +419,28 @@ ipc.on("training-file-rename-warning", (_, response) => {
   }
 });
 
-ipc.on("training-file-renamed", (_, file) => {
+ipc.on("training-file-renamed", (_: any, file: string) => {
   activeFile = file;
   filename.textContent = file;
   fileRenameClear();
 });
 
-ipc.on("training-folder", (_, folder) => {
-  remote.dialog.showOpenDialog(null, {
+ipc.on("training-folder", (_: any, folder: string) => {
+  remote.dialog.showOpenDialog(null as any, {
     title: "Select a file",
     buttonLabel: "Select training data",
     defaultPath: folder,
     properties: ["openFile"],
-  }).then(f => {
+  }).then((f: any) => {
     if (f.filePaths === undefined || f.filePaths[0] === undefined) {
       openButton.classList.remove("disabled");
       return;
     }
     ipc.send("get-training-file", f.filePaths[0]);
-  }).catch(err => console.log(err));
+  }).catch((err: string) => console.log(err));
 });
 
-ipc.on("NLP-trace", (_, n) => traceButton.on = n);
+ipc.on("NLP-trace", (_: any, n: boolean) => traceButton.on = n);
 
 ipc.send("get-entities");
 ipc.send("NLP-trace");
@@ -440,10 +449,10 @@ window.addEventListener("CancelNewEntityCreation", _ => tag.delete());
 
 window.addEventListener("contextmenu", e => {
   const contextMenu = new remote.Menu();
-  const sel = window.getSelection();
+  const sel = window.getSelection() as Selection;
   selectionTrim(sel);
   const rng = sel.rangeCount > 0 ? sel.getRangeAt(0) : null;
-  const el = e.target;
+  const el = e.target as HTMLElement;
   let displayMenu = false;
 
   if (el.tagName === "NEL-TEXT-TAG") {
@@ -507,7 +516,7 @@ window.addEventListener("ShowModalEntityPicker", _ => {
   modal.setAttribute("open", "open");
 });
 
-window.addEventListener("UpdateTag", e => {
+window.addEventListener("UpdateTag", (e: any) => {
   tag.color = e.detail.color;
   tag.label = e.detail.label;
 });

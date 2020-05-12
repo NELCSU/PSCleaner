@@ -1,5 +1,5 @@
 import { ipcMain as ipc } from "electron";
-import type { Entity, EntityType } from "../typings/PSCleaner";
+import type { Entity, EntityType } from "./typings/PSCleaner";
 
 export const AgeEntity: Entity = { 
   color: "#cc33ee", 

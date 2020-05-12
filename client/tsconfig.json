@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": false,
+    "lib": [ "dom", "es5" ],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "scripts",
+    "removeComments": true,
+    "sourceMap": false,
+    "strict": true,
+    "target": "es5",
+    "typeRoots": ["./node_modules/@types", "./src/typings"],
+    "watch": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

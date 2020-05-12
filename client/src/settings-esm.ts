@@ -1,33 +1,26 @@
 import { ipcRenderer as ipc, remote } from "electron";
+import { showError } from "./util-esm";
 
 let importFolder = "", processingFolder = "";
 let exportFolder = "", templateFolder = "", trainingFolder = "";
-const modalView = document.getElementById("modalView");
-const modalMessage = document.querySelector(".modal-message");
+const mv_settings = document.getElementById("modalView") as any;
+const mm_settings = document.querySelector(".modal-message") as HTMLElement;
 const dialogOptions = {
   title: "Select a folder",
   buttonLabel: "Select folder",
   defaultPath: null,
   properties: ["createDirectory", "openDirectory", "promptToCreate"],
 };
-const messageDelay = 3000;
 const PATH_COLLISION = "Error changing folders. Please check that each folder has a unique name.";
 
-function showError(msg) {
-  console.log(msg);
-  modalMessage.innerHTML = msg;
-  modalView.open = true;
-  setTimeout(() => modalView.open = false, messageDelay);
-}
-
 (function ChooseImportFolder() {
-  const browse = document.getElementById("btnImportSelection");
-  const label = document.getElementById("lblImportFilePath");
+  const browse = document.getElementById("btnImportSelection") as HTMLButtonElement;
+  const label = document.getElementById("lblImportFilePath") as HTMLLabelElement;
 
   browse.addEventListener("click", _ => {
-    dialogOptions.defaultPath = importFolder;
-    remote.dialog.showOpenDialog(null, dialogOptions)
-      .then(f => {
+    dialogOptions.defaultPath = importFolder as any;
+    remote.dialog.showOpenDialog(null as any, dialogOptions as any)
+      .then((f: any) => {
         if (f.filePaths.length > 0) {
           if (f.filePaths[0] !== processingFolder && f.filePaths[0] !== exportFolder && f.filePaths[0] !== trainingFolder) {
             importFolder = f.filePaths[0];
@@ -40,10 +33,10 @@ function showError(msg) {
           }
         }
       })
-      .catch(err => showError(err));
+      .catch((err: string) => showError(err));
   });
 
-  ipc.on("import-folder", (_, path) => {
+  ipc.on("import-folder", (_: any, path: string) => {
     importFolder = path;
     label.textContent = importFolder ? importFolder : "Not specified";
   });
@@ -52,13 +45,13 @@ function showError(msg) {
 })();
 
 (function ChooseProcessingFolder() {
-  const browse = document.getElementById("btnProcessingSelection");
-  const label = document.getElementById("lblProcessingFilePath");
+  const browse = document.getElementById("btnProcessingSelection") as HTMLButtonElement;
+  const label = document.getElementById("lblProcessingFilePath") as HTMLLabelElement;
 
   browse.addEventListener("click", _ => {
-    dialogOptions.defaultPath = processingFolder;
-    remote.dialog.showOpenDialog(null, dialogOptions)
-      .then(f => {
+    dialogOptions.defaultPath = processingFolder as any;
+    remote.dialog.showOpenDialog(null as any, dialogOptions as any)
+      .then((f: any) => {
         if (f.filePaths.length > 0) {
           if (f.filePaths[0] !== importFolder && f.filePaths[0] !== exportFolder && f.filePaths[0] !== trainingFolder) {
             processingFolder = f.filePaths[0];
@@ -71,10 +64,10 @@ function showError(msg) {
           }
         }
       })
-      .catch(err => showError(err));
+      .catch((err: string) => showError(err));
   });
 
-  ipc.on("processing-folder", (_, path) => {
+  ipc.on("processing-folder", (_: any, path: string) => {
     processingFolder = path;
     label.textContent = processingFolder ? processingFolder : "Not specified";
   });
@@ -83,13 +76,13 @@ function showError(msg) {
 })();
 
 (function ChooseExportFolder() {
-  const browse = document.getElementById("btnExportSelection");
-  const label = document.getElementById("lblExportFilePath");
+  const browse = document.getElementById("btnExportSelection") as HTMLButtonElement;
+  const label = document.getElementById("lblExportFilePath") as HTMLLabelElement;
 
   browse.addEventListener("click", _ => {
-    dialogOptions.defaultPath = exportFolder;
-    remote.dialog.showOpenDialog(null, dialogOptions)
-      .then(f => {
+    dialogOptions.defaultPath = exportFolder as any;
+    remote.dialog.showOpenDialog(null as any, dialogOptions as any)
+      .then((f: any) => {
         if (f.filePaths.length > 0) {
           if (f.filePaths[0] !== importFolder && f.filePaths[0] !== processingFolder && f.filePaths[0] !== trainingFolder) {
             exportFolder = f.filePaths[0];
@@ -102,10 +95,10 @@ function showError(msg) {
           }
         }
       })
-      .catch(err => showError(err));
+      .catch((err: string) => showError(err));
   });
 
-  ipc.on("export-folder", (_, path) => {
+  ipc.on("export-folder", (_: any, path: string) => {
     exportFolder = path;
     label.textContent = exportFolder ? exportFolder : "Not specified";
   });
@@ -114,13 +107,13 @@ function showError(msg) {
 })();
 
 (function ChooseTemplateFolder() {
-  const browse = document.getElementById("btnTemplateSelection");
-  const label = document.getElementById("lblTemplateFilePath");
+  const browse = document.getElementById("btnTemplateSelection") as HTMLButtonElement;
+  const label = document.getElementById("lblTemplateFilePath") as HTMLLabelElement;
 
   browse.addEventListener("click", _ => {
-    dialogOptions.defaultPath = templateFolder;
-    remote.dialog.showOpenDialog(null, dialogOptions)
-      .then(f => {
+    dialogOptions.defaultPath = templateFolder as any;
+    remote.dialog.showOpenDialog(null as any, dialogOptions as any)
+      .then((f: any) => {
         if (f.filePaths.length > 0) {
           if (f.filePaths[0] !== importFolder && f.filePaths[0] !== processingFolder && f.filePaths[0] !== exportFolder) {
             templateFolder = f.filePaths[0];
@@ -133,10 +126,10 @@ function showError(msg) {
           }
         }
       })
-      .catch(err => showError(err));
+      .catch((err: string) => showError(err));
   });
 
-  ipc.on("template-folder", (_, path) => {
+  ipc.on("template-folder", (_: any, path: string) => {
     templateFolder = path;
     label.textContent = templateFolder ? templateFolder : "Not specified";
   });
@@ -145,13 +138,13 @@ function showError(msg) {
 })();
 
 (function ChooseTrainingDataFolder() {
-  const browse = document.getElementById("btnTrainingDataSelection");
-  const label = document.getElementById("lblTrainingFilePath");
+  const browse = document.getElementById("btnTrainingDataSelection") as HTMLButtonElement;
+  const label = document.getElementById("lblTrainingFilePath") as HTMLLabelElement;
 
   browse.addEventListener("click", _ => {
-    dialogOptions.defaultPath = trainingFolder;
-    remote.dialog.showOpenDialog(null, dialogOptions)
-      .then(f => {
+    dialogOptions.defaultPath = trainingFolder as any;
+    remote.dialog.showOpenDialog(null as any, dialogOptions as any)
+      .then((f: any) => {
         if (f.filePaths.length > 0) {
           if (f.filePaths[0] !== importFolder && f.filePaths[0] !== processingFolder && f.filePaths[0] !== exportFolder) {
             trainingFolder = f.filePaths[0];
@@ -164,10 +157,10 @@ function showError(msg) {
           }
         }
       })
-      .catch(err => showError(err));
+      .catch((err: string) => showError(err));
   });
 
-  ipc.on("training-folder", (_, path) => {
+  ipc.on("training-folder", (_: any, path: string) => {
     trainingFolder = path;
     label.textContent = trainingFolder ? trainingFolder : "Not specified";
   });

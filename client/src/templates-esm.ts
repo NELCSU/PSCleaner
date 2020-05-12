@@ -1,29 +1,26 @@
 import validFilename from "valid-filename";
 import { ipcRenderer as ipc, remote } from "electron";
-import db from "debounce";
+import * as db from "debounce";
 
-const clearButton = document.getElementById("btnClear");
-const deleteButton = document.getElementById("btnDelete");
-const saveButton = document.getElementById("btnSave");
-const addFieldButton = document.getElementById("btnAddField");
-const fileName = document.getElementById("txtFilename");
-const templateList = document.getElementById("listTemplate");
-const headerButton = document.getElementById("btnHeader");
-const panel = document.getElementById("pnlAddTemplate");
-const insertHere = document.getElementById("insertionPoint");
-const modalView = document.getElementById("modalView");
-const modalMessage = document.querySelector(".modal-message");
+const clearButton = document.getElementById("btnClear") as HTMLButtonElement;
+const deleteButton = document.getElementById("btnDelete") as HTMLButtonElement;
+const saveButton = document.getElementById("btnSave") as HTMLButtonElement;
+const addFieldButton = document.getElementById("btnAddField") as HTMLButtonElement;
+const fileName = document.getElementById("txtFilename") as HTMLInputElement;
+const headerButton = document.getElementById("btnHeader") as any;
+const panel = document.getElementById("pnlAddTemplate") as HTMLElement;
+const insertHere = document.getElementById("insertionPoint") as HTMLElement;
 
 /**
  * Adds another column to the document
  */
-function addField(fieldName, selected) {
+function addField(fieldName?: string, selected?: boolean) {
   const count = document.querySelectorAll("div.clone").length;
-  const clone = document.getElementById("clone");
-  const newField = clone.cloneNode(true);
-  const txt = newField.querySelector("nel-text-input");
-  const btn = newField.querySelector("nel-on-off");
-  const del = newField.querySelector("#btnDelField");
+  const clone = document.getElementById("clone") as HTMLDivElement;
+  const newField = clone.cloneNode(true) as HTMLElement;
+  const txt = newField.querySelector("nel-text-input") as HTMLInputElement;
+  const btn = newField.querySelector("nel-on-off") as any;
+  const del = document.getElementById("btnDelField") as HTMLButtonElement;
   newField.id = `field_${count}`;
   txt.value = fieldName || "";
   btn.on = selected;
@@ -43,12 +40,12 @@ function checkForm() {
   if (!validFilename(fileName.value)) {
     return;
   }
-  const fields = Array.from(panel.querySelectorAll("nel-text-input.clone"));
+  const fields: HTMLInputElement[] = Array.from(panel.querySelectorAll("nel-text-input.clone"));
   if (fields.length === 0) {
     return;
   }
   let valid = true;
-  fields.forEach((el) => {
+  fields.forEach((el: HTMLInputElement) => {
     if (el.value === "") {
       valid = false;
     }
@@ -62,10 +59,11 @@ function checkForm() {
  * Clear the form
  */
 function clear() {
+  const tl = document.getElementById("listTemplate") as HTMLSelectElement;
   deleteButton.classList.add("disabled");
   saveButton.classList.add("disabled");
   fileName.value = "";
-  templateList.selectedIndex = 0;
+  tl.selectedIndex = 0;
   removeFields();
 }
 
@@ -83,9 +81,11 @@ function removeFields() {
 /**
  * Deletes row in form
  */
-function deleteField(e) {
-  const row = window.event.target.parentNode;
-  row.parentNode.removeChild(row);
+function deleteField() {
+  const row = (window.event?.target as HTMLElement).parentNode as Node;
+  if (row) {
+    row.parentNode?.removeChild(row);
+  }
   checkForm();
 }
 
@@ -93,7 +93,7 @@ function deleteField(e) {
  * Displays screen prompt to confirm file deletion
  */
 function deleteFile() {
-  const choice = remote.dialog.showMessageBoxSync(null, {
+  const choice = remote.dialog.showMessageBoxSync(null as any, {
     type: "warning",
     buttons: ["Delete", "Cancel"],
     title: "Warning, delete file operation detected",
@@ -101,18 +101,19 @@ function deleteFile() {
     defaultId: 1
   });
   if (choice === 0) {
-    ipc.send("delete-template-file", templateList.options[templateList.selectedIndex].value);
+    const tl = document.getElementById("listTemplate") as HTMLSelectElement;
+    ipc.send("delete-template-file", tl.options[tl.selectedIndex].value);
   }
 }
 
 /**
  * Load form from template data
  */
-function loadForm(file, data) {
+function loadForm(file: string, data: any) {
   deleteButton.classList.remove("disabled");
   fileName.value = file;
   headerButton.on = data.header;
-  data.fields.forEach(field => {
+  data.fields.forEach((field: [string, boolean]) => {
     addField(field[0], field[1]);
   });
 }
@@ -121,14 +122,15 @@ function loadForm(file, data) {
  * Saves template
  */
 function saveFile() {
+  const flds: [string, boolean][] = [];
   const data = {
     header: headerButton.on ? true : false,
-    fields: []
+    fields: flds
   };
   const rows = Array.from(panel.querySelectorAll("div.clone"));
   rows.forEach((r) => {
-    const txt = r.querySelector("nel-text-input");
-    const sen = r.querySelector("nel-on-off");
+    const txt = r.querySelector("nel-text-input") as HTMLInputElement;
+    const sen = r.querySelector("nel-on-off") as any;
     data.fields.push([txt.value, sen.on ? true : false]);
   });
   let newFilename = fileName.value.trim();
@@ -141,22 +143,12 @@ function saveFile() {
  * Send request for file to be loaded
  */
 function selectFile() {
-  if (templateList.selectedIndex > 0) {
-    ipc.send("get-template-file", templateList.options[templateList.selectedIndex].value);
+  const tl = document.getElementById("listTemplate") as HTMLSelectElement;
+  if (tl.selectedIndex > 0) {
+    ipc.send("get-template-file", tl.options[tl.selectedIndex].value);
   } else {
     clear();
   }
-}
-
-/**
- * Displays error message to user
- * @param {string} msg - message to display
- */
-function showError(msg) {
-  console.log(msg);
-  modalMessage.innerHTML = msg;
-  modalView.open = true;
-  setTimeout(() => modalView.open = false, messageDelay);
 }
 
 addFieldButton.addEventListener("click", () => addField());
@@ -164,41 +156,42 @@ clearButton.addEventListener("click", clear);
 deleteButton.addEventListener("click", deleteFile);
 fileName.addEventListener("input", db(checkForm, 750));
 saveButton.addEventListener("click", saveFile);
-templateList.addEventListener("change", selectFile);
+(document.getElementById("listTemplate") as HTMLElement).addEventListener("change", selectFile);
 
-ipc.on("template-file", (e, file, data) => {
+ipc.on("template-file", (e: any, file: string, data: any) => {
   removeFields();
   loadForm(file, data);
 });
 
-ipc.on("template-files", (e, files) => {
-  Array.from(templateList.options)
+ipc.on("template-files", (e: any, files: string[]) => {
+  const tl = document.getElementById("listTemplate") as HTMLSelectElement;
+  Array.from(tl.options)
     .forEach((option, i) => {
       if (i > 0) {
-        templateList.removeChild(option);
+        tl.removeChild(option);
       }
     });
   let value = "";
-  files.forEach((file, i) => {
+  files.forEach((file: string) => {
     const option = document.createElement("option");
     option.value = file;
     option.text = file.replace(/\.json/, "");
     if (option.text === fileName.value) {
       value = option.text;
     }
-    templateList.appendChild(option);
+    tl.appendChild(option);
   });
   if (value) {
-    templateList.value = value;
+    tl.value = value;
   }
 });
 
-ipc.on("template-file-deleted", _ => {
+ipc.on("template-file-deleted", (_: any) => {
   clear();
   ipc.send("get-template-files");
 });
 
-ipc.on("template-file-saved", _ => {
+ipc.on("template-file-saved", (_: any) => {
   saveButton.classList.add("disabled");
   ipc.send("get-template-files");
 });

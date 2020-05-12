@@ -7,7 +7,7 @@
     "lib": [ "dom", "es6", "es2016", "es2017", "es2018", "es2019" ],
     "module": "commonjs",
     "moduleResolution": "node",
-    "outDir": "dist",
+    "outDir": "backend",
     "removeComments": true,
     "rootDir": "src",
     "sourceMap": true,
