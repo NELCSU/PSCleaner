@@ -1,0 +1,50 @@
+{
+  "extends": "../tsconfig-base",
+  "compilerOptions": {
+    "declarationDir": "build",
+    "outDir": "build",
+    "rootDir": "src",
+    "typeRoots": [
+      "../node_modules/@types",
+      "./backend/types"
+    ],
+    "types": [
+      "../node_modules/electron",
+      "../node_modules/electron-store",
+    ]
+  },
+  "files": [
+    "src/app.ts",
+    "src/build-menu.ts",
+    "src/build-tray.ts",
+    "src/entities.ts",
+    "src/export-files.ts",
+    "src/file-manager.ts",
+    "src/import-files.ts",
+    "src/nlp.ts",
+    "src/process-files.ts",
+    "src/template-files.ts",
+    "src/training-files.ts",
+    "src/views.ts",
+    "src/window.ts",
+
+    "src/rules/ethnicity.ts",
+    "src/rules/misc-rules.ts",
+    "src/rules/name-capitalised.ts",
+    "src/rules/name-ending-regex.ts",
+    "src/rules/name-part.ts",
+    "src/rules/name-setA-D.ts",
+    "src/rules/name-setE-H.ts",
+    "src/rules/name-setI-L.ts",
+    "src/rules/name-setM-P.ts",
+    "src/rules/name-setQ-T.ts",
+    "src/rules/name-setU-Z.ts",
+    "src/rules/skip-word-set.ts",
+
+    "src/util/charCode.ts",
+    "src/util/deepCopy.ts",
+    "src/util/path.ts",
+    "src/util/platform.ts",
+    "src/util/text.ts"
+  ]
+}

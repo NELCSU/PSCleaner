@@ -1,9 +1,10 @@
 .buildcache
+tsconfig.tsbuildinfo
 .env
 
 npm-debug.log
 
-backend
+build
 client/lib/web-components
 node_modules
 out
