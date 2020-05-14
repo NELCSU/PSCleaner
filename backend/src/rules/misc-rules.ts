@@ -65,7 +65,7 @@ export const SkipRegEx: RegExp[] = [
   new RegExp(/\bmid\-\w+\b/, "gmi"),
   new RegExp(/\b\w{2,}\-\d{1,2}\b/, "gmi"),
   new RegExp(/\b\d+(?:g|mg|ml)\b/, "gm"),
-  new RegExp(/\b(?:BIBA|CAMHS|CAMS|DIB|DOB|ED|EMAS|LAT|MUA|NIC|NLWC|PANP|PEARL|PERLA|ROM|SOB|UTI)\b/, "gm")
+  new RegExp(/\b(?:BIBA|CAMHS|CAMS|DIB|DOB|ED|EMAS|LAT|MUA|NIC|NLOC|NLWC|PANP|PEARL|PERLA|ROM|SOB|UTI)\b/, "gm")
 ];
 
 export const TelephoneRegEx: RegExp[] = [
