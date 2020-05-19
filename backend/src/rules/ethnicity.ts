@@ -716,7 +716,7 @@ const a: string[] = [
 "malagasy",
 "malawian",
 "malay",
-"malayalam",
+
 "malaysian",
 "maldivian",
 "malian",
