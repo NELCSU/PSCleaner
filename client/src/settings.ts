@@ -1,4 +1,4 @@
-import { ipcRenderer as ipc, remote } from "electron";
+import { ipcRenderer as ipc } from "electron";
 import { showError } from "./util";
 
 let importFolder = "", processingFolder = "";
@@ -17,7 +17,7 @@ const PATH_COLLISION = "Error changing folders. Please check that each folder ha
 
   browse.addEventListener("click", _ => {
     dialogOptions.defaultPath = importFolder as any;
-    remote.dialog.showOpenDialog(null as any, dialogOptions as any)
+    ipc.invoke("show-modal-open", dialogOptions as any)
       .then((f: any) => {
         if (f.filePaths.length > 0) {
           if (f.filePaths[0] !== processingFolder && f.filePaths[0] !== exportFolder && f.filePaths[0] !== trainingFolder) {
@@ -48,7 +48,7 @@ const PATH_COLLISION = "Error changing folders. Please check that each folder ha
 
   browse.addEventListener("click", _ => {
     dialogOptions.defaultPath = processingFolder as any;
-    remote.dialog.showOpenDialog(null as any, dialogOptions as any)
+    ipc.invoke("show-modal-open", dialogOptions as any)
       .then((f: any) => {
         if (f.filePaths.length > 0) {
           if (f.filePaths[0] !== importFolder && f.filePaths[0] !== exportFolder && f.filePaths[0] !== trainingFolder) {
@@ -79,7 +79,7 @@ const PATH_COLLISION = "Error changing folders. Please check that each folder ha
 
   browse.addEventListener("click", _ => {
     dialogOptions.defaultPath = exportFolder as any;
-    remote.dialog.showOpenDialog(null as any, dialogOptions as any)
+    ipc.invoke("show-modal-open", dialogOptions as any)
       .then((f: any) => {
         if (f.filePaths.length > 0) {
           if (f.filePaths[0] !== importFolder && f.filePaths[0] !== processingFolder && f.filePaths[0] !== trainingFolder) {
@@ -110,7 +110,7 @@ const PATH_COLLISION = "Error changing folders. Please check that each folder ha
 
   browse.addEventListener("click", _ => {
     dialogOptions.defaultPath = templateFolder as any;
-    remote.dialog.showOpenDialog(null as any, dialogOptions as any)
+    ipc.invoke("show-modal-open", dialogOptions as any)
       .then((f: any) => {
         if (f.filePaths.length > 0) {
           if (f.filePaths[0] !== importFolder && f.filePaths[0] !== processingFolder && f.filePaths[0] !== exportFolder) {
@@ -141,7 +141,7 @@ const PATH_COLLISION = "Error changing folders. Please check that each folder ha
 
   browse.addEventListener("click", _ => {
     dialogOptions.defaultPath = trainingFolder as any;
-    remote.dialog.showOpenDialog(null as any, dialogOptions as any)
+    ipc.invoke("show-modal-open", dialogOptions as any)
       .then((f: any) => {
         if (f.filePaths.length > 0) {
           if (f.filePaths[0] !== importFolder && f.filePaths[0] !== processingFolder && f.filePaths[0] !== exportFolder) {

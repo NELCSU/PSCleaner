@@ -18,7 +18,6 @@
     "preserveConstEnums": true,
     "pretty": true,
     "skipLibCheck": true,
-    "sourceMap": false,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
     "target": "es6",

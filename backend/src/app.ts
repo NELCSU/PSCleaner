@@ -1,5 +1,5 @@
 import {
-  App, app, ipcMain as ipc, IpcMainEvent, protocol
+  App, app, dialog, ipcMain as ipc, IpcMainEvent, protocol
 } from "electron";
 import * as EventEmitter from "events";
 import * as Store from "electron-store";
@@ -65,6 +65,14 @@ class Main {
       this.importFiles = new ImportFiles(this._store);
       this.exportFiles = new ExportFiles(this._store);
       this.processFiles = new ProcessFiles(this._store, nlp);
+
+      ipc.handle("show-modal-input", async (_: any, options: Electron.MessageBoxOptions) => {
+        return dialog.showMessageBoxSync(null as any, options);
+      });
+
+      ipc.handle("show-modal-open", async (_: any, options: Electron.OpenDialogOptions) => {
+        return dialog.showOpenDialog(null as any, options);
+      });
 
       ipc.on("NLP-request", async (_: IpcMainEvent, text: string) => {
         (async (t) => await nlp.evaluate(t))(text)

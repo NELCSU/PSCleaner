@@ -149,9 +149,9 @@ runButton.addEventListener("click", _ => toggleRun());
 importBadge.addEventListener("click", _ => ipc.send("get-import-folder"));
 processingBadge.addEventListener("click", _ => ipc.send("get-processing-folder"));
 exportBadge.addEventListener("click", _ => ipc.send("get-export-folder"));
-ipc.on("import-folder", (_: any, path: string) => shell.openItem(path));
-ipc.on("processing-folder", (_: any, path: string) => shell.openItem(path));
-ipc.on("export-folder", (_: any, path: string) => shell.openItem(path));
+ipc.on("import-folder", (_: any, path: string) => shell.openPath(path));
+ipc.on("processing-folder", (_: any, path: string) => shell.openPath(path));
+ipc.on("export-folder", (_: any, path: string) => shell.openPath(path));
 
 //** initialisation of badge counts
 ipc.send("import-file-count");

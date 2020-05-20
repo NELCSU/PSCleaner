@@ -1,5 +1,5 @@
 import validFilename from "valid-filename";
-import { ipcRenderer as ipc, remote } from "electron";
+import { ipcRenderer as ipc } from "electron";
 import * as db from "debounce";
 
 const clearButton = document.getElementById("btnClear") as HTMLButtonElement;
@@ -92,14 +92,15 @@ function deleteField() {
 /**
  * Displays screen prompt to confirm file deletion
  */
-function deleteFile() {
-  const choice = remote.dialog.showMessageBoxSync(null as any, {
+async function deleteFile() {
+  const choice = await ipc.invoke("show-modal-input", {
     type: "warning",
     buttons: ["Delete", "Cancel"],
     title: "Warning, delete file operation detected",
     message: "Are you sure you wish to delete this file?",
     defaultId: 1
   });
+
   if (choice === 0) {
     const tl = document.getElementById("listTemplate") as HTMLSelectElement;
     ipc.send("delete-template-file", tl.options[tl.selectedIndex].value);

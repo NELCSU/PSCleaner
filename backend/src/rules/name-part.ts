@@ -7,6 +7,9 @@ const a: string[] = [
 "la",
 "le",
 "los",
+"st",
+"van",
+"von"
 ];
 
 const NamePartSet: Set<string> = new Set();
@@ -16,6 +19,11 @@ for (let i = 0; i < L; i++) {
   NamePartSet.add(a[i]);
 }
 
+const NameInitialRegEx: RegExp[] = [
+  new RegExp(/\b(?<![\\\/])[A-Z]\./, "gm")
+];
+
 export {
+  NameInitialRegEx,
   NamePartSet
 };

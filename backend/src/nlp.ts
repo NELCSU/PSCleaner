@@ -19,7 +19,7 @@ import { NameSetMP } from "./rules/name-setM-P";
 import { NameSetQT } from "./rules/name-setQ-T";
 import { NameSetUZ } from "./rules/name-setU-Z";
 import { ProperNameSet, ProperNameSetJoinOnly } from "./rules/name-capitalised";
-import { NamePartSet } from "./rules/name-part";
+import { NameInitialRegEx, NamePartSet } from "./rules/name-part";
 import { EthnicitySet } from "./rules/ethnicity";
 import { SkipWordSet } from "./rules/skip-word-set";
 import { deepCopy } from "./util/deepCopy";
@@ -133,6 +133,12 @@ export class NLP {
       matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), ProperNameSetJoinOnly)
     };
 
+    const nameInitials: Evaluation = {
+      action: { discard: 1, joinable: 1, order: 3, prefix: 1, suffix: 0 },
+      entity: NameRegExEntity,
+      matches: this.evaluateRegEx(data, NameInitialRegEx)
+    };
+
     const partName: Evaluation = {
       action: { discard: 1, joinable: 1, order: 4, prefix: 0, suffix: 0 },
       entity: NameEntity,
@@ -177,8 +183,9 @@ export class NLP {
 
     matches = this._sortMatches(data, 
       ages, banking, currency, dates, emails, eth, 
-      location, locationPrefix, 
-      names, namesEnding, nhs, properName, properNameJoin, partName,
+      location, locationPrefix,
+      nameInitials, names, namesEnding, nhs,
+      properName, properNameJoin, partName,
       tel, times, url,
       skipWord1, skipWord2
     );

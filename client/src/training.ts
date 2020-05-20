@@ -189,14 +189,15 @@ function createSelection(node: Node, start: number, length: number): Selection {
  * Displays a confirmation window prompting to delete file
  * If yes, sends IPC request to delete file
  */
-function deleteFile() {
-  const choice = remote.dialog.showMessageBoxSync(null as any, {
+async function deleteFile() {
+  const choice = await ipc.invoke("show-modal-input", {
     type: "warning",
     buttons: ["Delete", "Cancel"],
     title: "Warning, delete file operation detected",
     message: "Are you sure you wish to delete this file?",
     defaultId: 1
   });
+
   if (choice === 0) {
     ipc.send("delete-training-file", filename.textContent);
   }
@@ -405,14 +406,15 @@ ipc.on("training-file", (_: any, file: string, dt: any) => {
 ipc.on("training-file-deleted", (_: any) => closeButton.click());
 ipc.on("training-file-saved", (_: any) => saveButton.classList.add("disabled"));
 
-ipc.on("training-file-rename-warning", (_: any, response: any) => {
-  const choice = remote.dialog.showMessageBoxSync(null as any, {
+ipc.on("training-file-rename-warning", async (_: any, response: any) => {
+  const choice = await ipc.invoke("show-modal-input", {
     type: "warning",
     buttons: ["Overwrite", "Cancel"],
     title: "Warning, overwrite file operation detected",
     message: "Warning, a file with the same name already exists",
     defaultId: 1
   });
+
   if (choice !== 1) {
     ipc.send("rename-training-file", activeFile, response, true);
   }
@@ -425,7 +427,7 @@ ipc.on("training-file-renamed", (_: any, file: string) => {
 });
 
 ipc.on("training-folder", (_: any, folder: string) => {
-  remote.dialog.showOpenDialog(null as any, {
+  ipc.invoke("show-modal-open", {
     title: "Select a file",
     buttonLabel: "Select training data",
     defaultPath: folder,
