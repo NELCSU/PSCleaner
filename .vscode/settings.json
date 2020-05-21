@@ -9,5 +9,5 @@
     "**/node_modules": false,
   },
   "editor.tabSize": 2,
-  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.tsdk": "node_modules/typescript/lib",
 }
