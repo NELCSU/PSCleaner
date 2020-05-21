@@ -26,13 +26,13 @@ export const DateRegEx: RegExp[] = [
   // yy(yy) mm dd
   new RegExp(/\b\d\d(?:\d\d)?[\s\.\/\-]{1,3}(?:0?[1-9]|[12]\d|3[01])[\s\.\/\-]{1,3}(?:0?[1-9]|[12]\d|3[01])\b/,"gmi"),
 
-  new RegExp(/\b(?<=(?:after|and|before|between|during|early|in|in the|late|on|until)\s)(?:[12]\d\d\d|Jan\.?|Janu?a?ry|Feb\.?|Febr?ua?ry|Mar\.?|March|Apr\.?|April|May|Jun\.?|June|Jul\.?|July|Aug\.?|August|Sept?\.?|September|Oct\.?|October|Nov\.?|November|Dec\.?|December)\b/, "gm"),
-  new RegExp(/\b(?<=(?:on)\s)(?:mon|tues|wednes|thurs|fri|satur|sun)day\b/, "gmi")
+  new RegExp(/\b(?<=(?:after|and|before|between|during|early|in|in the|last|late|on|until)\s)(?:[12]\d\d\d|Jan\.?|Janu?a?ry|Feb\.?|Febr?ua?ry|Mar\.?|March|Apr\.?|April|May|Jun\.?|June|Jul\.?|July|Aug\.?|August|Sept?\.?|September|Oct\.?|October|Nov\.?|November|Dec\.?|December)\b/, "gm"),
+  new RegExp(/\b(?<=(?:on|last)\s)(?:mon|tues|wednes|thurs|fri|satur|sun)day\b/, "gmi")
 ];
 
 export const EmailRegEx: RegExp[] = [
   new RegExp(/\b(?:[''\w+\-\_\.]+)@(?:[\w+\-\_\.]+)\.(?:[\w+\-\_\.]+)\b/, "gmi"),
-  new RegExp(/\@\w+\b/, "gmi")
+  new RegExp(/\@[a-z]\w+\b/, "gmi")
 ];
 
 /*
@@ -51,7 +51,7 @@ export const LocationPrefixRegEx: RegExp[] = [
 ];
 
 export const LocationRegEx: RegExp[] = [
-  new RegExp(/\b(?:GIR|[a-zA-Z][a-zA-Z]?(?:[0-9][a-zA-Z]|[0-9]{1,2}))(?:[ ]{0,3})(?:[0-9][a-zA-Z]{2})\b/, "gmi"),
+  new RegExp(/\b(?:GIR|[a-pr-uwyz][a-hk-y]?(?:[0-9][a-z]|[0-9]{1,2}))\s{0,3}[0-9][a-z]{2}\b/, "gmi"),
   new RegExp(/\bP\.?O\.?\sBox\s\d+\b/, "gmi"),
   new RegExp(/\b(?:apartment|block|suite|unit)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/, "gmi"),
   new RegExp(/(?<![\."]\s+)The\s[A-Z][a-z]+\b/, "gm"),

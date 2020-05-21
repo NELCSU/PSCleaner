@@ -7,7 +7,6 @@ const a: string[] = [
 "la",
 "le",
 "los",
-"st",
 "van",
 "von"
 ];
