@@ -1959,7 +1959,6 @@ const a: string[] = [
 "metrocentre",
 "metrolink",
 "metropole",
-"metropolitan",
 "metsons",
 "metuchen",
 "meudon",
