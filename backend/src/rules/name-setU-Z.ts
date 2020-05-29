@@ -21477,7 +21477,6 @@ const a: string[] = [
 "yearlings",
 "yearlstone",
 "yearngill",
-"yearning",
 "yearnor",
 "yearnslow",
 "yearsleys",
