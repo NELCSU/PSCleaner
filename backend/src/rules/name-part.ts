@@ -22,7 +22,12 @@ const NameInitialRegEx: RegExp[] = [
   new RegExp(/\b(?<![\\\/])[A-Z]\./, "gm")
 ];
 
+const NamePuralRegEx: RegExp[] = [
+  new RegExp(/(?<=[a-z][a-z])[\'\‘\’\`]s\b/, "gm")
+];
+
 export {
   NameInitialRegEx,
-  NamePartSet
+  NamePartSet,
+  NamePuralRegEx
 };

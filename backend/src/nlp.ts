@@ -19,7 +19,7 @@ import { NameSetMP } from "./rules/name-setM-P";
 import { NameSetQT } from "./rules/name-setQ-T";
 import { NameSetUZ } from "./rules/name-setU-Z";
 import { ProperNameSet, ProperNameSetJoinOnly } from "./rules/name-capitalised";
-import { NameInitialRegEx, NamePartSet } from "./rules/name-part";
+import { NameInitialRegEx, NamePartSet, NamePuralRegEx } from "./rules/name-part";
 import { EthnicitySet } from "./rules/ethnicity";
 import { SkipWordSet } from "./rules/skip-word-set";
 import { deepCopy } from "./util/deepCopy";
@@ -134,9 +134,15 @@ export class NLP {
     };
 
     const nameInitials: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 1, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 3, prefix: 0, suffix: 0 },
       entity: NameRegExEntity,
       matches: this.evaluateRegEx(data, NameInitialRegEx)
+    };
+
+    const namePlural: Evaluation = {
+      action: { discard: 1, joinable: 1, order: 3, prefix: 0, suffix: 1 },
+      entity: NameRegExEntity,
+      matches: this.evaluateRegEx(data, NamePuralRegEx)
     };
 
     const partName: Evaluation = {
@@ -185,7 +191,7 @@ export class NLP {
       ages, banking, currency, dates, emails, eth, 
       location, locationPrefix,
       nameInitials, names, namesEnding, nhs,
-      properName, properNameJoin, partName,
+      properName, properNameJoin, partName, namePlural,
       tel, times, url,
       skipWord1, skipWord2
     );
@@ -197,7 +203,7 @@ export class NLP {
     const result: TextMatch[] = [];
     let m: RegExpExecArray | null;
     let word: string, fullword: string, passed: boolean;
-    while ((m = re.exec(data)) !== null) {    
+    while ((m = re.exec(data)) !== null) {
       word = m[0].replace(/[\'\‘\’\`](?:d|ll|re|s|ve)\b/gmi, "").toLowerCase().replace(/[\'\‘\’\`]/gmi, "");
       let l: number = keywords.length;
       for (let i = 0; i < l; i++) {
