@@ -215,11 +215,11 @@ export class NLP {
           }
           if (passed) {
             result.push({
-              end: m.index + fullword.length - 1,
-              id: this._id(fullword),
-              length: fullword.length,
+              end: m.index + m[0].length - 1,
+              id: this._id(m[0]),
+              length: m[0].length,
               start: m.index,
-              value: fullword
+              value: m[0]
             });
           }
           break;
