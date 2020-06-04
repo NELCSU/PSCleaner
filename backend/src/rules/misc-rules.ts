@@ -21,8 +21,12 @@ export const DateRegEx: RegExp[] = [
   new RegExp(/\b(?:jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)(?:(?:[\s\-\.,]{0,3})(?:\d\d|\d\d\d\d))(?:[\s\-\.,]{0,3}\d\d\d\d)?\b/, "gmi"),
   new RegExp(/\b(?:mon\.?|monday|tues?\.?|tuesday|wed\.?|wednesday|thurs?\.?|thursday|fri\.?|friday|sat\.?|saturday|sun\.?|sunday|jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)\s(?:the )?(?:[0123]?\d(?:st|nd|rd|th))\b/, "gmi"),
   
+  //MM dd, yyyy
+  new RegExp(/\b(?:jan|feb|mar|apr|may|jun|jul|aug|sept?|oct|nov|dec)\s[0-3]?\d,\s\d\d\d\d\b/,"gmi"),
+
   // dd mm yy(yy)
   new RegExp(/\b(?:0?[1-9]|[12]\d|3[01])[\s\.\/\-]{1,3}(?:0?[1-9]|[12]\d|3[01])[\s\.\/\-]{1,3}\d\d(?:\d\d)?\b/,"gmi"),
+
   // yy(yy) mm dd
   new RegExp(/\b\d\d(?:\d\d)?[\s\.\/\-]{1,3}(?:0?[1-9]|[12]\d|3[01])[\s\.\/\-]{1,3}(?:0?[1-9]|[12]\d|3[01])\b/,"gmi"),
 

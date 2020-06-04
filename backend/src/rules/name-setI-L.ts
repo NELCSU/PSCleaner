@@ -11723,6 +11723,7 @@ const a: string[] = [
 "joris",
 "jorisa",
 "jorissen",
+"jorit",
 "joriz",
 "jorkabel",
 "jorlade",

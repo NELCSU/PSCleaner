@@ -9,6 +9,7 @@ export const SkipWordSet: Set<string> = new Set([
 "albeit",
 "albino",
 "album",
+"alien",
 "aloe",
 "alopecia",
 "also",

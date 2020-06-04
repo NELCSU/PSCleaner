@@ -13013,8 +13013,6 @@ const a: string[] = [
 "framwellgate",
 "francemary",
 "franche",
-"franchise",
-"franchises",
 "franchisestone",
 "franchlan",
 "francomes",
