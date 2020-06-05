@@ -8,7 +8,7 @@ import {
 } from "./entities";
 import {
   AgeRegEx, BankingRegEx, CurrencyRegEx, DateRegEx, EmailRegEx, 
-  LocationPrefixRegEx, LocationRegEx, NHSRegEx, 
+  LocationPrefixRegEx, LocationRegEx, NameMidfixRegEx, NHSRegEx, 
   SkipRegEx, TelephoneRegEx, TimeRegEx, URLRegEx 
 } from "./rules/misc-rules";
 import { NamesEndingRegEx } from "./rules/name-ending-regex";
@@ -62,134 +62,140 @@ export class NLP {
     let matches: MatchedEntity[] = [];
 
     const ages: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: AgeEntity,
       matches: this.evaluateRegEx(data, AgeRegEx)
     };
 
     const banking: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: BankingEntity,
       matches: this.evaluateRegEx(data, BankingRegEx)
     };
 
     const currency: Evaluation = {      
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: CurrencyEntity,
       matches: this.evaluateRegEx(data, CurrencyRegEx)
     };
 
     const dates: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: DateEntity,
       matches: this.evaluateRegEx(data, DateRegEx)
     };
 
     const emails: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: EmailEntity,
       matches: this.evaluateRegEx(data, EmailRegEx)
     };
 
     const eth: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 2, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 1, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: EthnicityEntity,
       matches: this.evaluateKeyword(data, null, EthnicitySet)
     };
 
     const location: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 2, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: LocationRegExEntity,
       matches: this.evaluateRegEx(data, LocationRegEx)
     };
 
     const locationPrefix: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 1, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 3, prefix: 1, midfix: 0, suffix: 0 },
       entity: LocationRegExEntity,
       matches: this.evaluateRegEx(data, LocationPrefixRegEx)
     };
 
+    const nameMidfix: Evaluation = {
+      action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 1, suffix: 0 },
+      entity: LocationRegExEntity,
+      matches: this.evaluateRegEx(data, NameMidfixRegEx)
+    };
+
     const namesEnding: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 4, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 1, order: 4, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameRegExEntity,
       matches: this.evaluateRegEx(data, NamesEndingRegEx)
     };
 
     const names: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 4, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 1, order: 4, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
       matches: this.evaluateKeyword(data, null, NameSetAD, NameSetEH, NameSetIL, NameSetMP, NameSetQT, NameSetUZ)
     };
 
     const properName: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 2, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 1, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
       matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), ProperNameSet)
     };
 
     const properNameJoin: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 2, prefix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
       matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), ProperNameSetJoinOnly)
     };
 
     const nameInitials: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameRegExEntity,
       matches: this.evaluateRegEx(data, NameInitialRegEx)
     };
 
     const namePlural: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 0, suffix: 1 },
+      action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 0, suffix: 1 },
       entity: NameRegExEntity,
       matches: this.evaluateRegEx(data, NamePuralRegEx)
     };
 
     const partName: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 4, prefix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 4, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
       matches: this.evaluateKeyword(data, null, NamePartSet)
     };
 
     const nhs: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: NHSEntity,
       matches: this.evaluateRegEx(data, NHSRegEx)
     };
 
     const skipWord1: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 3, prefix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 0, order: 3, prefix: 0, midfix: 0, suffix: 0 },
       entity: SkipWordEntity,
       matches: this.evaluateKeyword(data, null, SkipWordSet)
     };
 
     const skipWord2: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 3, prefix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 0, order: 3, prefix: 0, midfix: 0, suffix: 0 },
       entity: SkipWordEntity,
       matches: this.evaluateRegEx(data, SkipRegEx)
     };
 
     const tel: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 2, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: TelephoneEntity,
       matches: this.evaluateRegEx(data, TelephoneRegEx)
     };
 
     const times: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: TimeEntity,
       matches: this.evaluateRegEx(data, TimeRegEx)
     };
 
     const url: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: URLEntity,
       matches: this.evaluateRegEx(data, URLRegEx)
     };
 
     matches = this._sortMatches(data, 
       ages, banking, currency, dates, emails, eth, 
-      location, locationPrefix,
+      location, locationPrefix, nameMidfix,
       nameInitials, names, namesEnding, nhs,
       properName, properNameJoin, partName, namePlural,
       tel, times, url,
@@ -307,6 +313,28 @@ export class NLP {
     return outcome;
   }
 
+  private _removeIsolatedMidfixes(list: MatchedEntity[]) {
+    let pre: MatchedEntity | undefined, mid: MatchedEntity | undefined, suf: MatchedEntity | undefined;
+    let i = list.length - 1;
+    while (i > -1) {
+      suf = list[i];
+      mid = i - 1 > -1 ? list[i-1] : undefined;
+      pre = i - 2 > -1 ? list[i-2] : undefined;
+      if (suf.action.midfix) {
+        list.splice(i, 1);
+      } else if (pre && mid) {
+        if (mid.action.midfix) {
+          if (mid.match.end + 2 === suf.match.start && pre.match.end + 2 === mid.match.start && pre.action.midfix === 0) {
+            --i;
+          } else {
+            list.splice(i -1, 1);
+          }
+        }
+      }
+      --i;
+    }
+  }
+
   private _sortMatches(data: string, ...args: any): MatchedEntity[] {
     const result: MatchedEntity[] = [];
     const v: MatchedEntity[] = [];
@@ -344,7 +372,7 @@ export class NLP {
           // is cursor beyond start of current entity? Yes => skip
           skip = true;
         } else if (peek.match.start === current.match.start && peek.match.end === current.match.end) {
-          if (current.entity.type === "regular expression") {
+          if (current.entity.type === "regular expression" && peek.entity.type !== "regular expression") {
             skip = true;
           } else {
             v.shift();
@@ -368,6 +396,8 @@ export class NLP {
         }
       }
     }
+
+    this._removeIsolatedMidfixes(result);
 
     if (result.length > 1) {
       for (let i = result.length - 1; i > 0; i--) {

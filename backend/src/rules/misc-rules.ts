@@ -50,8 +50,7 @@ hundred, hundredth, thousand, thousandth, million
 */
 export const LocationPrefixRegEx: RegExp[] = [
   new RegExp(/\b(?<![,\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{3,})/, "gmi"),
-  new RegExp(/(?:(?:\d+(?:st|nd|rd|th))|One|First|Two|Second|Three|Third|Four(?:teenth|teen|th)?|Fort(?:ieth|y)|Five|Fift(?:eenth|een|h|ieth|y)|Six(?:teenth|teen|th|tieth|ty)?|Seven(?:teenth|teen|th|tieth|ty)?|Eight(?:eenth|een|h|ieth|y)?|Nine(?:teenth|teen|th|tieth|ty)?|Ten(?:th)?|Eleven(?:th)?|Twel(?:fth|ve)|Thirt(?:eenth|een|ieth|y)|Twent(?:|ieth|y)|Hundred(?:th)?|Thousand(?:th)?|Million(?:th)?)\b/, "gm"),
-  new RegExp(/\b(?:Bay|City|Hall|Isle|Ministry|University)\sof\b/, "gm")
+  new RegExp(/(?:(?:\d+(?:st|nd|rd|th))|One|First|Two|Second|Three|Third|Four(?:teenth|teen|th)?|Fort(?:ieth|y)|Five|Fift(?:eenth|een|h|ieth|y)|Six(?:teenth|teen|th|tieth|ty)?|Seven(?:teenth|teen|th|tieth|ty)?|Eight(?:eenth|een|h|ieth|y)?|Nine(?:teenth|teen|th|tieth|ty)?|Ten(?:th)?|Eleven(?:th)?|Twel(?:fth|ve)|Thirt(?:eenth|een|ieth|y)|Twent(?:|ieth|y)|Hundred(?:th)?|Thousand(?:th)?|Million(?:th)?)\b/, "gm")
 ];
 
 export const LocationRegEx: RegExp[] = [
@@ -60,7 +59,13 @@ export const LocationRegEx: RegExp[] = [
   new RegExp(/\b(?:apartment|block|suite|unit)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/, "gmi"),
   new RegExp(/(?<![\."]\s+)The\s[A-Z][a-z]+\b/, "gm"),
   new RegExp(/\-on\-sea\b/, "gmi"),
-  new RegExp(/\-on\-the\-wall\b/, "gmi"),
+  new RegExp(/\-on\-the\-wall\b/, "gmi")
+];
+
+export const NameMidfixRegEx: RegExp[] = [
+  new RegExp(/\bfor\b/, "gmi"),
+  new RegExp(/\bof\b/, "gmi"),
+  new RegExp(/\bof\sthe\b/, "gmi"),
   new RegExp(/\-y\-/, "gmi")
 ];
 
