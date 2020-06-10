@@ -12227,7 +12227,6 @@ const a: string[] = [
 "joyeuse",
 "joyfrancis",
 "joyfred",
-"joyful",
 "joyfull",
 "joygopaul",
 "joygun",

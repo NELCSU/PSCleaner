@@ -23053,7 +23053,6 @@ const a: string[] = [
 "yems",
 "yemson",
 "yemula",
-"yen",
 "yena",
 "yenal",
 "yenande",

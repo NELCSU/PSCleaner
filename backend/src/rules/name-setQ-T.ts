@@ -17750,7 +17750,6 @@ const a: string[] = [
 "scampston",
 "scamridge",
 "scanbeck",
-"scandal",
 "scandinavia",
 "scandinavian",
 "scaniclift",
