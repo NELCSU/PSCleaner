@@ -12792,8 +12792,6 @@ const a: string[] = [
 "windhouse",
 "windhover",
 "windiegoat",
-"winding",
-"windings",
 "windlass",
 "windlaw",
 "windlea",
