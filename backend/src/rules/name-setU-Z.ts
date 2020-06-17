@@ -300,7 +300,6 @@ const a: string[] = [
 "uruickein",
 "uruisgean",
 "uryside",
-"usage",
 "usail",
 "usan",
 "usk",

@@ -205,6 +205,7 @@ export class NLP {
   }
 
   public evaluateKeyword(data: string, testFn?: Function | null, ...keywords: any): TextMatch[] {
+    data = data.replace("_", " ");
     const re: RegExp = new RegExp(/[a-z\'\‘\’\`]+/, "gmi");
     const result: TextMatch[] = [];
     let m: RegExpExecArray | null;
