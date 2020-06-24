@@ -17649,7 +17649,6 @@ const a: string[] = [
 "mena",
 "menabit",
 "menabue",
-"menace",
 "menacer",
 "menaceur",
 "menache",
