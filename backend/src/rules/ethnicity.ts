@@ -441,7 +441,7 @@ const a: string[] = [
 "guianese",
 "guinea",
 "bissaun",
-"guinean",
+"guineans",
 "gurage",
 "gurma",
 "gurunsi",

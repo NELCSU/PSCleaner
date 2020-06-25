@@ -31712,6 +31712,7 @@ const a: string[] = [
 "nakaliisa",
 "nakalule",
 "nakamatte",
+"nakamise",
 "nakanda",
 "nakase",
 "nakashima",
