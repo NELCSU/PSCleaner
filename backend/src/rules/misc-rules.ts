@@ -60,7 +60,7 @@ export const LocationRegEx: RegExp[] = [
   new RegExp(/(?<![\."]\s+)The\s[A-Z][a-z]+\b/, "gm"),
   new RegExp(/\-on\-sea\b/, "gmi"),
   new RegExp(/\-on\-the\-wall\b/, "gmi"),
-  new RegExp(/\b(?:UK|USA?)\b/, "gm"),
+  new RegExp(/\b(?:NHS|UK|USA?)\b/, "gm"),
 ];
 
 export const NameMidfixRegEx: RegExp[] = [
