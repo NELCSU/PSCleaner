@@ -15,7 +15,7 @@
     "file-url": "^3.0.0",
     "fs-extra": "^9.0.1",
     "he": "^1.2.0",
-    "jschardet": "^2.1.1",
+    "jschardet": "^2.2.1",
     "json-stringify-pretty-compact": "^2.0.0",
     "make-dir": "^3.1.0",
     "minimist": "^1.2.5",
@@ -26,9 +26,9 @@
   },
   "description": "Process CSV files by identifying and removing personal sensitive text",
   "devDependencies": {
-    "@electron-forge/cli": "^6.0.0-beta.51",
-    "@electron-forge/maker-rpm": "^6.0.0-beta.51",
-    "@electron-forge/maker-squirrel": "^6.0.0-beta.51",
+    "@electron-forge/cli": "^6.0.0-beta.52",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.52",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.52",
     "@electron/typescript-definitions": "^8.7.4",
     "@types/bluebird": "^3.5.32",
     "@types/chokidar": "^2.1.3",
@@ -37,8 +37,8 @@
     "@types/he": "^1.1.1",
     "@types/node": "^12.12.47",
     "@types/uuid": "^8.0.0",
-    "@typescript-eslint/eslint-plugin": "^3.4.0",
-    "@typescript-eslint/parser": "^3.4.0",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
     "electron": "^9.0.5",
     "electron-rebuild": "^1.11.0",
     "eslint": "^7.3.1",
@@ -82,7 +82,7 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf client/lib/web-components"
   },
-  "version": "0.8.4",
+  "version": "0.8.5",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }

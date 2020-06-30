@@ -59,7 +59,8 @@ export const LocationRegEx: RegExp[] = [
   new RegExp(/\b(?:apartment|block|suite|unit)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/, "gmi"),
   new RegExp(/(?<![\."]\s+)The\s[A-Z][a-z]+\b/, "gm"),
   new RegExp(/\-on\-sea\b/, "gmi"),
-  new RegExp(/\-on\-the\-wall\b/, "gmi")
+  new RegExp(/\-on\-the\-wall\b/, "gmi"),
+  new RegExp(/\b(?:UK|USA?)\b/, "gm"),
 ];
 
 export const NameMidfixRegEx: RegExp[] = [
