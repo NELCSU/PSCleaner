@@ -3762,7 +3762,7 @@ const a: string[] = [
 "iruayenama",
 "iruegas",
 "iruine",
-"irukuvajjula",
+
 "irum",
 "irune",
 "irunel",
@@ -16398,7 +16398,7 @@ const a: string[] = [
 "kajtor",
 "kajuarn",
 "kajubelee",
-"kajula",
+
 "kajuuran",
 "kajwast",
 "kajzer",
@@ -17304,7 +17304,7 @@ const a: string[] = [
 "kamishetty",
 "kamiston",
 "kamith",
-"kamjula",
+
 "kamkarfar",
 "kamlawatee",
 "kamlawtee",
@@ -18660,7 +18660,7 @@ const a: string[] = [
 "kariyawasam",
 "kariz",
 "karjalainen",
-"karjula",
+
 "kark",
 "karkalas",
 "karkaletsos",
@@ -19285,7 +19285,7 @@ const a: string[] = [
 "kasirovas",
 "kasisopa",
 "kasiulynas",
-"kasivarjula",
+
 "kask",
 "kaskanis",
 "kaskein",
@@ -19884,7 +19884,7 @@ const a: string[] = [
 "kattadige",
 "kattalin",
 "kattan",
-"kattavarjula",
+
 "kattavenos",
 "katte",
 "kattein",
@@ -49353,7 +49353,6 @@ const a: string[] = [
 "lural",
 "lurand",
 "lurb",
-"lurch",
 "lurcook",
 "lurcuck",
 "lurd",

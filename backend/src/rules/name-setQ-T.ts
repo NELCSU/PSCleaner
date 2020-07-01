@@ -5580,7 +5580,7 @@ const a: string[] = [
 "rajuel",
 "rajuid",
 "rajuinder",
-"rajula",
+
 "rajuncas",
 "rajunsee",
 "rajupalem",
@@ -5796,7 +5796,7 @@ const a: string[] = [
 "ramanayake",
 "ramanhal",
 "ramania",
-"ramanjula",
+
 "ramankant",
 "ramankutty",
 "ramanodge",
@@ -6491,7 +6491,7 @@ const a: string[] = [
 "ranjithavathany",
 "ranjitsing",
 "ranjkesh",
-"ranjula",
+
 "rankaitis",
 "rankeillor",
 "rankel",
@@ -8998,7 +8998,7 @@ const a: string[] = [
 "rejoul",
 "rejstrand",
 "rejtinger",
-"rejula",
+
 "rejulesh",
 "rek",
 "rekart",
@@ -15833,7 +15833,7 @@ const a: string[] = [
 "rujner",
 "rujney",
 "rujorn",
-"rujula",
+
 "rujully",
 "rujutabahen",
 "rujwunt",
@@ -25724,7 +25724,6 @@ const a: string[] = [
 "salesa",
 "salese",
 "salesh",
-"salesman",
 "salesneto",
 "salesses",
 "salet",
@@ -27200,7 +27199,7 @@ const a: string[] = [
 "sanjose",
 "sanjpreet",
 "sanjrrva",
-"sanjula",
+
 "sanjush",
 "sankalp",
 "sankaradas",
@@ -45433,7 +45432,7 @@ const a: string[] = [
 "somawathe",
 "somawathy",
 "somaweera",
-"somayajula",
+
 "somayor",
 "sombath",
 "sombathy",
@@ -62009,7 +62008,6 @@ const a: string[] = [
 "taxel",
 "taxiarchis",
 "taxiarchoula",
-"taxis",
 "taxter",
 "tay",
 "tayaban",
@@ -62258,7 +62256,7 @@ const a: string[] = [
 "teather",
 "teatheredge",
 "teator",
-"teats",
+"teatro",
 "teauna",
 "teb",
 "teba",

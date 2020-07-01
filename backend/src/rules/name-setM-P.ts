@@ -7862,7 +7862,7 @@ const a: string[] = [
 "manaigo",
 "manaila",
 "manaim",
-"manajula",
+
 "manaker",
 "manakongnon",
 "manaksher",
@@ -7958,7 +7958,7 @@ const a: string[] = [
 "manching",
 "manchinim",
 "manchip",
-"manchojula",
+
 "manchoon",
 "manchot",
 "manchoulas",
@@ -8471,7 +8471,7 @@ const a: string[] = [
 "manjoth",
 "manjube",
 "manjukesh",
-"manjula",
+
 "manjulaban",
 "manjulam",
 "manjulamma",
@@ -22243,7 +22243,7 @@ const a: string[] = [
 "moayyed",
 "moazaldian",
 "moazen",
-"moazenijula",
+
 "moazes",
 "mobae",
 "mobaolorunduro",
@@ -31607,7 +31607,7 @@ const a: string[] = [
 "najnim",
 "najnin",
 "najnine",
-"najula",
+
 "najurally",
 "najwer",
 "nak",
@@ -45867,7 +45867,7 @@ const a: string[] = [
 "onufade",
 "onufer",
 "onufrey",
-"onujula",
+
 "onukwube",
 "onukwufor",
 "onukwume",
@@ -53999,7 +53999,7 @@ const a: string[] = [
 "pampuch",
 "pampus",
 "pamson",
-"pamujula",
+
 "pamukon",
 "pamula",
 "pamulaklakin",
@@ -54720,7 +54720,6 @@ const a: string[] = [
 "paracuelles",
 "paraday",
 "paradello",
-"parades",
 "paradice",
 "paradies",
 "paradine",

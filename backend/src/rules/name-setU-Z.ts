@@ -1711,7 +1711,7 @@ const a: string[] = [
 "urjila",
 "urjona",
 "urjoon",
-"urjula",
+
 "urker",
 "urkesh",
 "urkmezgil",
