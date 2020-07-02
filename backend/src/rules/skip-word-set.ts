@@ -357,6 +357,7 @@ export const SkipWordSet: Set<string> = new Set([
 "premix",
 "pretext",
 "prev",
+"prodigy",
 "profane",
 "pronoun",
 "propane",

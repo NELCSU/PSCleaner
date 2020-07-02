@@ -604,7 +604,7 @@ const a: string[] = [
 "kikuyu",
 "kilba",
 "kimbundu",
-"kipsigi",
+
 "kiranti",
 "kiribatian",
 "kisa",
