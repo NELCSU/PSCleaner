@@ -488,7 +488,7 @@ const a: string[] = [
 "udd",
 "uddgren",
 "uddhava",
-"uddhin",
+
 "uddian",
 "uddine",
 "udding",
@@ -513,7 +513,7 @@ const a: string[] = [
 "udezenwannia",
 "udhams",
 "udhas",
-"udhin",
+
 "udhramaney",
 "udi",
 "udia",
@@ -2447,7 +2447,6 @@ const a: string[] = [
 "varthen",
 "vartry",
 "varve",
-"vary",
 "vasart",
 "vassancro",
 "vassary",
@@ -4531,7 +4530,6 @@ const a: string[] = [
 "vaniglia",
 "vanil",
 "vanila",
-"vanilla",
 "vanilson",
 "vaniman",
 "vanin",
@@ -7238,7 +7236,7 @@ const a: string[] = [
 "vezelis",
 "vezentan",
 "vezer",
-"vezhin",
+
 "vezhnevets",
 "vezos",
 "vezuina",
@@ -19217,7 +19215,7 @@ const a: string[] = [
 "wisa",
 "wisal",
 "wisam",
-"wisawayodhin",
+
 "wisanuyothin",
 "wisbey",
 "wiscarson",
@@ -19705,8 +19703,8 @@ const a: string[] = [
 "woldehaimanot",
 "woldehiwot",
 "woldekiros",
-"woldemdhin",
-"woldemedhin",
+
+
 "woldemeskel",
 "woldemicheal",
 "woldemichel",
@@ -22596,7 +22594,7 @@ const a: string[] = [
 "yazen",
 "yazfan",
 "yazgun",
-"yazhin",
+
 "yazicilar",
 "yazied",
 "yazimine",
@@ -29253,7 +29251,7 @@ const a: string[] = [
 "zimbabwe"
 ];
 const NameSetUZ: Set<string> = new Set();
-let l: number = a.length;
+const l: number = a.length;
 for (let i = 0; i < l; i++) {
 NameSetUZ.add(a[i]);
 }

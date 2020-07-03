@@ -64,6 +64,7 @@ export const LocationRegEx: RegExp[] = [
 ];
 
 export const NameMidfixRegEx: RegExp[] = [
+  new RegExp(/\band\b/, "gmi"),
   new RegExp(/\bfor\b/, "gmi"),
   new RegExp(/\bof\b/, "gmi"),
   new RegExp(/\bof\sthe\b/, "gmi"),

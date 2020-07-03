@@ -175,7 +175,7 @@ export function normalize(path: string): string {
   }
 }
 
-export function normalizeString(path: string, allowAboveRoot: boolean, separator: string, isPathSeparator: (code?: number) => boolean) {
+export function normalizeString(path: string, allowAboveRoot: boolean, separator: string, isPathSeparator: (code?: number) => boolean): string {
   let res = "";
   let lastSegmentLength = 0;
   let lastSlash = -1;

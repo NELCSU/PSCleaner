@@ -3,12 +3,15 @@
  * @param text - text to clean up
  * @returns
  */
-export function cleanText(text: string): string {
-  let r: string = text.replace(/(?:\r\n|\r|\n)/g, "<br>");
-  r = r.replace(/[ \t]+/g, " ");
+async function normalize(text: string): Promise<string> {
+  let r: string = text.replace(/[ \t]+/gm, " ");
+  r = r.replace(/(\r\n|\r|\n)+/g, "$1");
   r = r.replace(/\s?[\-]\s?/g, "-");
   r = r.replace(/\s?[\/]\s?/g, "/");
   r = r.replace(/\s?[\\]\s?/g, "\\");
-  r = r.replace(/<br>/g, "  ");
   return r;
 }
+
+export {
+  normalize
+};

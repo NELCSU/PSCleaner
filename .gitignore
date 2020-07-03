@@ -1,6 +1,5 @@
 .buildcache
 tsconfig.tsbuildinfo
-.env
 
 npm-debug.log
 

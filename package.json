@@ -46,6 +46,7 @@
     "jsdoc": "^3.6.4",
     "node-abi": "^2.18.0",
     "npm-run-all": "^4.1.5",
+    "tslib": "^2.0.0",
     "typescript": "^3.9.6"
   },
   "keywords": [
@@ -62,9 +63,10 @@
     "url": "git+https://github.com/NELCSU/pscleaner.git"
   },
   "scripts": {
-    "build": "npm-run-all --parallel build-client build-backend",
+    "build": "npm-run-all --parallel build-client build-backend build-fx",
     "build-backend": "tsc --project ./backend/tsconfig.json",
     "build-client": "tsc --project ./client/tsconfig.json",
+    "build-fx": "tsc --project ./functions/tsconfig.json",
     "eslint": "eslint -c .eslintrc.json --ext .ts --ext .js ./src",
     "make": "npm run wipe-all && npm run update-webc && npm run make-w32 && npm run make-w64",
     "make-w32": "electron-forge make --platform=win32 --arch=ia32",

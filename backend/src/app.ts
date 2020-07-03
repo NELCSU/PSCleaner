@@ -170,7 +170,7 @@ class Main {
       icon: config.images.get("favicon"),
     });
 
-    if (process.env.NODE_ENV === "Development") {
+    if (process.env.NODE_ENV === "development") {
       this.mainWindow.webContents.on("did-frame-finish-load", () => {
         this.mainWindow.webContents.once("devtools-opened", () => this.mainWindow.focus());
         this.mainWindow.webContents.openDevTools();

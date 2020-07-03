@@ -1,13 +1,17 @@
 {
- "search.exclude": {
-    "**/node_modules": true
-  },
+  "azureFunctions.deploySubpath": "functions",
+  "azureFunctions.projectLanguage": "TypeScript",
+  "azureFunctions.projectRuntime": "~3",
+  "debug.internalConsoleOptions": "neverOpen",
+  "editor.tabSize": 2,
   "files.exclude": {
     "**/.git": true,
     "**/.hg": true,
     "**/.DS_Store": true,
     "**/node_modules": false,
   },
-  "editor.tabSize": 2,
+  "search.exclude": {
+    "**/node_modules": true
+  },
   "typescript.tsdk": "node_modules/typescript/lib",
 }

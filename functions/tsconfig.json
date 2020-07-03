@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig-base",
+  "compilerOptions": {
+    "declarationDir": "build",
+    "outDir": "build",
+    "rootDir": ".",
+    "sourceMap": true,
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  }
+}

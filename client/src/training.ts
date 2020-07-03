@@ -134,11 +134,11 @@ function checkInputFileRename(e: Event) {
  */
 function cleanText(text: string): string {
   text = text.replace(/(?:\r\n|\r|\n)/g, "<br>");
-  text = text.replace(/\s+/g, " ");
+  text = text.replace(/[ \t]+/g, " ");
   text = text.replace(/\s?[\-]\s?/g, "-");
   text = text.replace(/\s?[\/]\s?/g, "/");
   text = text.replace(/\s?[\\]\s?/g, "\\");
-  text = text.replace(/<br>/g, "  ");
+  text = text.replace(/<br>/g, "\n");
   return text;
 }
 

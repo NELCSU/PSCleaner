@@ -127,6 +127,7 @@ export const NamesEndingRegEx: RegExp[] = [
    new RegExp(/\b[a-z]+[x-z]hen\b/, "gmi"),
    new RegExp(/\b[a-z]+[ax-z]hid\b/, "gmi"),
    new RegExp(/\b[a-z]+[dx-z]him\b/, "gmi"),
+   new RegExp(/\b[a-z]+[dx-z]hin\b/, "gmi"),
    new RegExp(/\b[a-z]+[cx-z]hit\b/, "gmi"),
    new RegExp(/\b[a-z]+[a-cnx-z]hoe\b/, "gmi"),
    new RegExp(/\b[a-z]+[cx-z]hon\b/, "gmi"),

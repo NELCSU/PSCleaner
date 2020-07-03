@@ -9,7 +9,7 @@ export class AppMenu {
   /**
    * @param parent - reference to main process
    */
-  constructor(parent: any) {
+  constructor(parent: unknown) {
     this.#parent = parent;
     const def: any = require(config.menu);
     def.menu.forEach((menu: any) => {
