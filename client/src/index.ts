@@ -11,6 +11,7 @@ const FILES_REQUIRED = "Click on QUEUED to view the import folder. CSV files are
 let importFiles = 0;
 let processingFiles = 0;
 let exportFiles = 0;
+let rowCount = 0;
 let running = false;
 let timeStart = 0;
 let timer: any;
@@ -52,8 +53,9 @@ function setUpTimer() {
   tl.classList.add("disabled");
   timeStart = Date.now();
   timeLabel.innerHTML = "starting " + formatTime(timeStart, Date.now());
+  ipc.on("row-processed", (_: any) => ++rowCount);
   timer = setInterval(() => {
-    timeLabel.innerHTML = "in progress " + formatTime(timeStart, Date.now());
+    timeLabel.innerHTML = "in progress " + formatTime(timeStart, Date.now()) + `<br>${rowCount} row(s) read`;
   }, 1000);
 }
 
@@ -122,6 +124,7 @@ function startImport() {
     if (importFiles === 0) {
       toggleRun();
     } else {
+      rowCount = 0;
       ipc.send("start-import");
     }
   } else if (processingFiles > 0) {

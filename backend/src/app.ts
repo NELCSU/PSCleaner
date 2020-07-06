@@ -96,6 +96,7 @@ class Main {
               if (files.length > 0) {
                 this.processFiles.processFile(files[0], this.templateFiles);
                 this.processFiles.events.on("file-processed", (_: any) => e.reply("processed"));
+                this.processFiles.events.on("row-processed", (_: any) => e.reply("row-processed"));
               } else {
                 this.processFiles.events.on("file-processing-error", (_: any) => e.reply("stop-processing"));
                 e.reply("stop-processing");

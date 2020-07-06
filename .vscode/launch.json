@@ -11,12 +11,19 @@
         "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
       },
       "runtimeArgs": [
-        "${workspaceFolder}",
+        "${workspaceFolder}"
       ],
       "cwd": "${workspaceFolder}"
     },
     {
       "name": "Attach to Functions",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "preLaunchTask": "func: host start"
+    },
+    {
+      "name": "Attach to Node Functions",
       "type": "node",
       "request": "attach",
       "port": 9229,

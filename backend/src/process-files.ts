@@ -94,14 +94,21 @@ export class ProcessFiles {
   
       csv.parseFile(from, {
         encoding: isUTF8 ? "utf-8" : text.encoding,
-        headers: templates.header
+        headers: templates.header,
+        strictColumnHandling: true
       })
         .on("data", async (row: any) => {
-          await rows.push(this._processRow(row, stream, templates.fields));
+          const r = this._processRow(row, stream, templates.fields);
+          this.events.emit("row-processed");
+          rows.push(r);
+        })
+        .on("data-invalid", (row, rowNumber) => {
+          console.log(`Invalid [rowNumber=${rowNumber}] [row=${JSON.stringify(row)}]`);
         })
         .on("end", () => {
           Promise.all(rows)
             .then(_ => {
+              console.log(rows.length);
               stream.end();
               Promise.all([
                 this.fm.fs.move(temp, to),
@@ -113,10 +120,13 @@ export class ProcessFiles {
     });
   }
 
-  private _processRow(row: any, stream: any, fields: Map<string, boolean>): Promise<any> {
+  private async _processRow(row: any, stream: any, fields: Map<string, boolean>): Promise<any> {
     const cellQ: any[] = [];
     for (let cell in row) {
-      cellQ.push(this._processCell(cell, row, fields));
+      let canProcess: boolean = fields.get(cell) || false;
+      if (canProcess) {
+        cellQ.push(await this._processCell(cell, row));
+      }
     }
     return Promise.all(cellQ)
       .then(_ => {
@@ -125,17 +135,12 @@ export class ProcessFiles {
       });
   }
 
-  private async _processCell(cell: any, row: any[], fields: Map<string, boolean>): Promise<any> {
-    let canProcess: boolean = fields.get(cell) || false;
-    if (canProcess) {
-      let normalised: string = cleanText(row[cell]);
-      return await this.nlp.evaluate(normalised)
-        .then(async (matches: any) => {
-          await this.nlp.replace(normalised, matches)
-            .then((r: any) => new Promise(resolve => resolve(row[cell] = r)));
-        });
-    } else {
-      return Promise.resolve(cell);
-    }
+  private async _processCell(cell: any, row: any[]): Promise<any> {
+    let normalised: string = cleanText(row[cell]);
+    return await this.nlp.evaluate(normalised)
+      .then(async (matches: any) => {
+        await this.nlp.replace(normalised, matches)
+          .then((r: any) => new Promise(resolve => resolve(row[cell] = r)));
+      });
   }
 }

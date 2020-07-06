@@ -17,5 +17,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../build/text-normalize/index.js"
+  "scriptFile": "../dist/nel-text-normalize/index.js"
 }

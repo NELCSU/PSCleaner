@@ -4,11 +4,10 @@
  * @returns
  */
 async function normalize(text: string): Promise<string> {
-  let r: string = text.replace(/[ \t]+/gm, " ");
-  r = r.replace(/(\r\n|\r|\n)+/g, "$1");
+  let r: string = text.replace(/(?:\r\n|\r|\n)/g, "<br>");
+  r = r.replace(/[ \t]+/g, " ");
   r = r.replace(/\s?[\-]\s?/g, "-");
-  r = r.replace(/\s?[\/]\s?/g, "/");
-  r = r.replace(/\s?[\\]\s?/g, "\\");
+  r = r.replace(/<br>/g, "  ");
   return r;
 }
 

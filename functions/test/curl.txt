@@ -1,11 +1,11 @@
 DEV
 
-curl --data-binary "@normalize.txt" -X POST http://localhost:7071/api/normalize > result.txt
+curl --data-binary "@normalize.txt" -X POST http://localhost:7071/api/normalize
 
-curl http://localhost:7071/api/normalize?text=Hello%20%20%20wORLD%0A%0ANiceToBeHere > result.txt
+curl http://localhost:7071/api/normalize?text=Hello%20%20%20wORLD%0A%0ANiceToBeHere
 
 PROD
 
 
 
-curl --data-binary "@normalize.txt" -X POST https://nel-text-services.azurewebsites.net/api/normalize
+curl --data-binary "@normalize.txt" -X POST http://nel-text-processing.azurewebsites.net/api/nel-text-normalize
