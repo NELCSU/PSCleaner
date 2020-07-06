@@ -488,7 +488,6 @@ const a: string[] = [
 "udd",
 "uddgren",
 "uddhava",
-
 "uddian",
 "uddine",
 "udding",
@@ -513,7 +512,6 @@ const a: string[] = [
 "udezenwannia",
 "udhams",
 "udhas",
-
 "udhramaney",
 "udi",
 "udia",
@@ -2232,7 +2230,6 @@ const a: string[] = [
 "uyioghusa",
 "uyosue",
 "uyoyoghene",
-"uyrun",
 "uys",
 "uysal",
 "uytman",
@@ -5208,7 +5205,6 @@ const a: string[] = [
 "vartis",
 "vartkessian",
 "vartman",
-"vartoukian",
 "vartparonian",
 "vartukapteinis",
 "varty",
@@ -7236,7 +7232,6 @@ const a: string[] = [
 "vezelis",
 "vezentan",
 "vezer",
-
 "vezhnevets",
 "vezos",
 "vezuina",
@@ -9045,7 +9040,6 @@ const a: string[] = [
 "vivies",
 "vivieth",
 "viviette",
-"viviian",
 "vivin",
 "vivinash",
 "vivine",
@@ -18055,7 +18049,6 @@ const a: string[] = [
 "wiesen",
 "wiesendanger",
 "wiesener",
-"wiesengrun",
 "wiesenhutter",
 "wiesenthal",
 "wiesepape",
@@ -19215,7 +19208,6 @@ const a: string[] = [
 "wisa",
 "wisal",
 "wisam",
-
 "wisanuyothin",
 "wisbey",
 "wiscarson",
@@ -19703,7 +19695,6 @@ const a: string[] = [
 "woldehaimanot",
 "woldehiwot",
 "woldekiros",
-
 
 "woldemeskel",
 "woldemicheal",
@@ -22594,7 +22585,6 @@ const a: string[] = [
 "yazen",
 "yazfan",
 "yazgun",
-
 "yazicilar",
 "yazied",
 "yazimine",
@@ -23837,7 +23827,6 @@ const a: string[] = [
 "yokesh",
 "yokeswary",
 "yokhved",
-"yokian",
 "yokiel",
 "yokley",
 "yoktan",
@@ -25127,7 +25116,6 @@ const a: string[] = [
 "zadid",
 "zadigue",
 "zadiguian",
-"zadikian",
 "zadkiel",
 "zadmoghadas",
 "zadnorny",
@@ -25501,7 +25489,6 @@ const a: string[] = [
 "zakher",
 "zakhnin",
 "zakhour",
-"zakian",
 "zakias",
 "zakie",
 "zakiel",

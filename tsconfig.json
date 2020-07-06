@@ -3,7 +3,6 @@
   "include": [],
   "references": [
     { "path": "./backend" },
-    { "path": "./client" },
-    { "path": "./functions" }
+    { "path": "./client" }
   ]
 }

@@ -916,7 +916,7 @@ const a: string[] = [
 "pashtun",
 "patidar",
 "pende",
-"perakian",
+
 "persian",
 "peruvian",
 "picard",
