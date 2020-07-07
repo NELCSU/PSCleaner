@@ -3,7 +3,7 @@
  * @param text - text to clean up
  * @returns
  */
-async function normalize(text: string): Promise<string> {
+function normalize(text: string): string {
   let r: string = text.replace(/(?:\r\n|\r|\n)/g, "<br>");
   r = r.replace(/[ \t]+/g, " ");
   r = r.replace(/\s?[\-]\s?/g, "-");

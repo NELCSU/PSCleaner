@@ -32,6 +32,7 @@
     "src/rules/ethnicity.ts",
     "src/rules/misc-rules.ts",
     "src/rules/name-capitalised.ts",
+    "src/rules/name-capitalised-and.ts",
     "src/rules/name-ending-regex.ts",
     "src/rules/name-part.ts",
     "src/rules/name-setA-D.ts",

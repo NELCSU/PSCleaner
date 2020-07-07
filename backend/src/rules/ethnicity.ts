@@ -4,7 +4,6 @@ const a: string[] = [
 "abazin",
 "abbe",
 "abidji",
-
 "abron",
 "abure",
 "acehnese",
@@ -249,7 +248,6 @@ const a: string[] = [
 "cappadocian",
 "castilian",
 "catalan",
-
 "cayuga",
 "chadian",
 "chaha",
@@ -279,7 +277,6 @@ const a: string[] = [
 "chunaru",
 "chutiya",
 "chuukese",
-
 "chuwabu",
 "chūgoku",
 "circassian",
@@ -303,7 +300,6 @@ const a: string[] = [
 "croatian",
 "cuban",
 "curacaoan",
-
 "cuyunon",
 "cymro",
 "cypriot",
@@ -320,7 +316,6 @@ const a: string[] = [
 "dargwa",
 "debri",
 "deg",
-
 "deori",
 "dhangar",
 "dheevara",
@@ -375,7 +370,6 @@ const a: string[] = [
 "fante",
 "faroese",
 "feyli",
-
 "filipino",
 "finn",
 "finnish",
@@ -471,7 +465,6 @@ const a: string[] = [
 "hedareb",
 "hemba",
 "hemshin",
-
 "hessian",
 "hlai",
 "hmar",
@@ -604,7 +597,6 @@ const a: string[] = [
 "kikuyu",
 "kilba",
 "kimbundu",
-
 "kiranti",
 "kiribatian",
 "kisa",
@@ -663,7 +655,6 @@ const a: string[] = [
 "latgalian",
 "latvian",
 "laz",
-
 "lebanese",
 "lega",
 "leonese",
@@ -716,7 +707,6 @@ const a: string[] = [
 "malagasy",
 "malawian",
 "malay",
-
 "malaysian",
 "maldivian",
 "malian",
@@ -916,7 +906,6 @@ const a: string[] = [
 "pashtun",
 "patidar",
 "pende",
-
 "persian",
 "peruvian",
 "picard",
@@ -947,7 +936,6 @@ const a: string[] = [
 "rajbongshi",
 "rajput",
 "rakhine",
-
 "rejangese",
 "reunionese",
 "rhinelander",
@@ -1065,7 +1053,6 @@ const a: string[] = [
 "spaniard",
 "spanish",
 "sri",
-
 "helenian",
 "lucian",
 "subei",
@@ -1076,7 +1063,6 @@ const a: string[] = [
 "sumbawa",
 "sundanese",
 "sunni",
-
 "surinamese",
 "surma",
 "susu",
@@ -1127,7 +1113,6 @@ const a: string[] = [
 "tibetan",
 "ticino",
 "tigre",
-
 "timorese",
 "timoric",
 "timugon",

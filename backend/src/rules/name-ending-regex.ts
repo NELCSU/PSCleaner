@@ -302,6 +302,7 @@ export const NamesEndingRegEx: RegExp[] = [
    new RegExp(/\b[a-z]+[a-cf-npqsu-z]war\b/, "gmi"),
    new RegExp(/\b[a-z]+[au-z]wel\b/, "gmi"),
    new RegExp(/\b[a-z]+[kx-z]won\b/, "gmi"),
+   new RegExp(/\b[a-z]+[aeiux-z]wse\b/, "gmi"),
    new RegExp(/\b[a-z]+[ainx-z]yam\b/, "gmi"),
    new RegExp(/\b[a-z]+ryde\b/, "gmi"),
    new RegExp(/\b[a-z]+[n-rx-z]yle\b/, "gmi"),

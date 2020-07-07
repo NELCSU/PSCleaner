@@ -68,6 +68,7 @@ export const NameMidfixRegEx: RegExp[] = [
   new RegExp(/\bfor\b/, "gmi"),
   new RegExp(/\bof\b/, "gmi"),
   new RegExp(/\bof\sthe\b/, "gmi"),
+  new RegExp(/\bthe\b/, "gmi"),
   new RegExp(/\-y\-/, "gmi")
 ];
 

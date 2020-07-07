@@ -17,6 +17,7 @@ export const SkipWordSet: Set<string> = new Set([
 "amoxiclav",
 "analyze",
 "anti",
+"apartheid",
 "applaud",
 "approx",
 "appt",

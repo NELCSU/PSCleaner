@@ -7,8 +7,9 @@ const httpTrigger: AzureFunction = async function (context: Context): Promise<vo
     : context.req?.body && context.req.body.text
       ? context.req.body.text
       : context.req?.body;
-  const responseMessage = normalize(t);
+  const responseMessage: string = normalize(t);
   context.res = {
+    // default is status: 200,
     body: responseMessage
   };
   context.done();
