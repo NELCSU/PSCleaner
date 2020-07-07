@@ -9036,6 +9036,7 @@ const a: string[] = [
 "estacion",
 "estades",
 "estadilla",
+"estado",
 "estafania",
 "estafanous",
 "estafnous",

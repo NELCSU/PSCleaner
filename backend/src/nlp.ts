@@ -328,11 +328,28 @@ export class NLP {
           if (mid.match.end + 2 === suf.match.start && pre.match.end + 2 === mid.match.start && pre.action.midfix === 0) {
             --i;
           } else {
-            list.splice(i -1, 1);
+            list.splice(i - 1, 1);
           }
         }
       }
       --i;
+    }
+  }
+
+  private _removeIsolatedPrefixes(list: MatchedEntity[]) {
+    let pre: MatchedEntity | undefined, mid: MatchedEntity | undefined;
+    let i = 0;
+    while (i < list.length) {
+      mid = i + 1 < list.length ? list[i + 1] : undefined;
+      pre = list[i];
+      if (mid && pre.action.prefix) {
+        if (pre.match.end + 2 !== mid.match.start) {
+          list.splice(i, 1);
+        }
+      } else if (pre.action.prefix) {
+        list.splice(i, 1);
+      }
+      ++i;
     }
   }
 
@@ -398,6 +415,7 @@ export class NLP {
       }
     }
 
+    this._removeIsolatedPrefixes(result);
     this._removeIsolatedMidfixes(result);
 
     if (result.length > 1) {
