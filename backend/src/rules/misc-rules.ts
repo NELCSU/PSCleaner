@@ -57,7 +57,6 @@ export const LocationRegEx: RegExp[] = [
   new RegExp(/\b(?:GIR|[a-pr-uwyz][a-hk-y]?(?:[0-9][a-z]|[0-9]{1,2}))\s{0,3}[0-9][a-z]{2}\b/, "gmi"),
   new RegExp(/\bP\.?O\.?\sBox\s\d+\b/, "gmi"),
   new RegExp(/\b(?:apartment|block|suite|unit)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/, "gmi"),
-  new RegExp(/(?<![\."]\s+)The\s[A-Z][a-z]+\b/, "gm"),
   new RegExp(/\-on\-sea\b/, "gmi"),
   new RegExp(/\-on\-the\-wall\b/, "gmi"),
   new RegExp(/\b(?:NHS|UK|USA?)\b/, "gm"),
