@@ -25,8 +25,6 @@ import { EthnicitySet } from "./rules/ethnicity";
 import { SkipWordSet } from "./rules/skip-word-set";
 import { deepCopy } from "./util/deepCopy";
 
-import * as fs from "fs";
-
 const r = require("esm")(module);
 const t = r("@buckneri/string");
 const isPropercase = t.isPropercase;
@@ -55,14 +53,6 @@ export class NLP {
     }
     this._store = store;
     this._trace = trace === "1" ? true : false;
-
-    const sorted: string[] = [];
-
-    for (let item of NameSetUZ.keys()) {
-      sorted.push(`"${item}"`);
-    }
-
-    fs.writeFile("c:\\users\\merl\\desktop\\sort.txt", sorted.sort((a, b) => a > b ? 1 : -1), () => {});
   }
 
   /**
