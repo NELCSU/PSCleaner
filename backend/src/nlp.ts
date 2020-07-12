@@ -58,7 +58,7 @@ export class NLP {
 
     const sorted: string[] = [];
 
-    for (let item of NameSetMP.keys()) {
+    for (let item of NameSetUZ.keys()) {
       sorted.push(`"${item}"`);
     }
 

@@ -1920,7 +1920,6 @@ const a: string[] = [
 "imil",
 "imilia",
 "imin",
-
 "imireach",
 "imireachean",
 "imirean",
@@ -2906,6 +2905,7 @@ const a: string[] = [
 "inusa",
 "inutorise",
 "inval",
+"invalides",
 "invanete",
 "invaniesa",
 "invar",
@@ -21537,7 +21537,6 @@ const a: string[] = [
 "khaindrava",
 "khaine",
 "khaing",
-
 "khaion",
 "khair",
 "khairannisa",
@@ -24327,7 +24326,6 @@ const a: string[] = [
 "kinyange",
 "kinying",
 "kinyogoli",
-
 "kinzalow",
 "kinzer",
 "kinzinger",
@@ -41342,7 +41340,6 @@ const a: string[] = [
 "libier",
 "libietis",
 "libin",
-
 "libischer",
 "liblin",
 "liblinc",
@@ -43007,7 +43004,6 @@ const a: string[] = [
 "liny",
 "linyard",
 "linyer",
-
 "linzalone",
 "linzees",
 "linzenbold",
@@ -47267,7 +47263,6 @@ const a: string[] = [
 "lubin",
 "lubing",
 "lubins",
-
 "lubis",
 "lubkeman",
 "lubker",

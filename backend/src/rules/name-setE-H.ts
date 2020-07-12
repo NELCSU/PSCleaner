@@ -18258,6 +18258,7 @@ const a: string[] = [
 "fontanel",
 "fontanella",
 "fontanes",
+"fontanet",
 "fontanieu",
 "fontanilla",
 "fontanilles",
@@ -22529,7 +22530,6 @@ const a: string[] = [
 "gainsmore",
 "gaint",
 "gainullin",
-
 "gaiolas",
 "gaioli",
 "gair",
@@ -45481,6 +45481,7 @@ const a: string[] = [
 "hautbois",
 "hautboy",
 "hautcoeur",
+"haute",
 "hautekiet",
 "hauter",
 "hauth",
