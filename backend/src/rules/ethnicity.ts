@@ -344,7 +344,6 @@ const a: string[] = [
 "ecuadorean",
 "ecuadorian",
 "edo",
-
 "efutu",
 "egun",
 "egyptian",
@@ -571,7 +570,6 @@ const a: string[] = [
 "kara",
 "karabakhi",
 "karadaghi",
-
 "karbi",
 "karenic",
 "karko",
@@ -579,7 +577,6 @@ const a: string[] = [
 "karon",
 "kasa",
 "kashubian",
-
 "kataria",
 "kazakh",
 "keiyo",
@@ -753,7 +750,6 @@ const a: string[] = [
 "mbaka",
 "mbodomo",
 "medumba",
-
 "meitei",
 "mende",
 "mengaka",
@@ -814,7 +810,6 @@ const a: string[] = [
 "munji",
 "muria",
 "mursi",
-
 "murutic",
 "muscogee",
 "muscovite",
@@ -892,7 +887,6 @@ const a: string[] = [
 "ovambanderu",
 "ovambo",
 "ovimbundu",
-
 "palauan",
 "palembangese",
 "palestinian",
@@ -925,7 +919,6 @@ const a: string[] = [
 "punjabi",
 "purepecha",
 "putianese",
-
 "qaratay",
 "qatari",
 "qemant",
@@ -1210,7 +1203,6 @@ const a: string[] = [
 "yidgha",
 "yimchunger",
 "yoruba",
-
 "yuchi",
 "zafimaniry",
 "zagar",
