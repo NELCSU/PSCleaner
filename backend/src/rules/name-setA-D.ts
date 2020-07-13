@@ -17760,7 +17760,6 @@ const a: string[] = [
 "artemida",
 "artemios",
 "artemis",
-"artemisia",
 "artemus",
 "artemy",
 "arten",

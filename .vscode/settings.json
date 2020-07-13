@@ -1,7 +1,4 @@
 {
-  "azureFunctions.deploySubpath": "functions",
-  "azureFunctions.projectLanguage": "TypeScript",
-  "azureFunctions.projectRuntime": "~3",
   "debug.internalConsoleOptions": "neverOpen",
   "editor.tabSize": 2,
   "files.exclude": {

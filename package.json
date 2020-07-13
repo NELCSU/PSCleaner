@@ -26,7 +26,6 @@
   },
   "description": "Process CSV files by identifying and removing personal sensitive text",
   "devDependencies": {
-    "@azure/functions": "^1.2.2",
     "@electron-forge/cli": "^6.0.0-beta.52",
     "@electron-forge/maker-rpm": "^6.0.0-beta.52",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.52",
@@ -63,10 +62,9 @@
     "url": "git+https://github.com/NELCSU/pscleaner.git"
   },
   "scripts": {
-    "build": "npm-run-all --parallel build-client build-backend build-fx",
+    "build": "npm-run-all --parallel build-client build-backend",
     "build-backend": "tsc --project ./backend/tsconfig.json",
     "build-client": "tsc --project ./client/tsconfig.json",
-    "build-fx": "tsc --project ./functions/tsconfig.json",
     "eslint": "eslint -c .eslintrc.json --ext .ts --ext .js ./src",
     "make": "npm run wipe-all && npm run update-webc && npm run make-w32 && npm run make-w64",
     "make-w32": "electron-forge make --platform=win32 --arch=ia32",
@@ -78,14 +76,14 @@
     "start": "electron-forge start",
     "toolkit": "npm install --latest-npm",
     "update-all": "npm run update-elec && npm run wipe-webc && npm run update-webc",
-    "update-elec": ".\\node_modules\\.bin\\electron-rebuild.cmd && npm rebuild",
+    "update-elec": "./node_modules/.bin/electron-rebuild.cmd && npm rebuild",
     "update-webc": "ncp node_modules/@buckneri/web-components client/lib/web-components",
     "watch": "tsc -w",
     "wipe-all": "npm run wipe-out && npm run wipe-webc",
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf client/lib/web-components"
   },
-  "version": "0.8.7",
+  "version": "0.8.8",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }
