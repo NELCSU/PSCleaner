@@ -1233,7 +1233,7 @@ const a: string[] = [
 "unluyasar",
 "unmack",
 "unmesh",
-"unnar",
+
 "unndalain",
 "unnea",
 "unneland",
@@ -1419,7 +1419,7 @@ const a: string[] = [
 "uppergate",
 "upperhead",
 "upperhouse",
-"upperkirk",
+
 "upperkirkgate",
 "upperlands",
 "upperman",
@@ -1982,7 +1982,6 @@ const a: string[] = [
 "utas",
 "utassy",
 "utber",
-"utc",
 "ute",
 "utea",
 "utech",
@@ -2118,7 +2117,7 @@ const a: string[] = [
 "uvidia",
 "uvie",
 "uviebinene",
-"uvilla",
+
 "uvin",
 "uvine",
 "uvis",
@@ -3211,7 +3210,7 @@ const a: string[] = [
 "valman",
 "valmantas",
 "valmas",
-"valmeade",
+
 "valmire",
 "valmis",
 "valmon",
@@ -3449,7 +3448,7 @@ const a: string[] = [
 "vanbuel",
 "vanburen",
 "vanburn",
-"vanbuskirk",
+
 "vanbussel",
 "vancamp",
 "vancampen",
@@ -4029,7 +4028,7 @@ const a: string[] = [
 "vankeulen",
 "vankeuren",
 "vankilsdonk",
-"vankirk",
+
 "vanklaveren",
 "vankleeck",
 "vankleef",
@@ -4113,7 +4112,7 @@ const a: string[] = [
 "vannet",
 "vannette",
 "vannevel",
-"vannewkirk",
+
 "vanney",
 "vanneyre",
 "vanngel",
@@ -5178,7 +5177,7 @@ const a: string[] = [
 "vazhakalayilkurian",
 "vazhappilly",
 "vazhaveetil",
-"vazhavilla",
+
 "vazhenina",
 "vazhuthanappally",
 "vazifdar",
@@ -9172,7 +9171,7 @@ const a: string[] = [
 "voirin",
 "voirol",
 "voirrey",
-"voisa",
+
 "voise",
 "voisey",
 "voisin",
@@ -12309,7 +12308,7 @@ const a: string[] = [
 "waterlow",
 "waterman",
 "watermans",
-"watermeade",
+
 "watermeadow",
 "watermeadows",
 "watermeet",
@@ -13619,7 +13618,7 @@ const a: string[] = [
 "wellmaker",
 "wellman",
 "wellmans",
-"wellmeade",
+
 "wellmeadow",
 "wellmeadows",
 "wellmeads",
@@ -14318,7 +14317,7 @@ const a: string[] = [
 "westerink",
 "westerkamp",
 "westerker",
-"westerkirk",
+
 "westerland",
 "westerlands",
 "westerlea",
@@ -14390,7 +14389,7 @@ const a: string[] = [
 "westing",
 "westinghouse",
 "westingway",
-"westkirk",
+
 "westknowe",
 "westlain",
 "westlake",
@@ -14426,7 +14425,7 @@ const a: string[] = [
 "westmarch",
 "westmarden",
 "westmark",
-"westmeade",
+
 "westmeadow",
 "westmeads",
 "westmeare",
@@ -15363,7 +15362,7 @@ const a: string[] = [
 "whitekeld",
 "whiteker",
 "whitekiller",
-"whitekirk",
+
 "whiteknights",
 "whiteknowe",
 "whiteladies",
@@ -15541,7 +15540,7 @@ const a: string[] = [
 "whitis",
 "whitish",
 "whitker",
-"whitkirk",
+
 "whitlam",
 "whitland",
 "whitlands",
@@ -16955,7 +16954,7 @@ const a: string[] = [
 "willowlands",
 "willowleaze",
 "willowlees",
-"willowmeade",
+
 "willowmore",
 "willowmoss",
 "willowpit",
@@ -19039,7 +19038,7 @@ const a: string[] = [
 "woodit",
 "woodiwiss",
 "woodkind",
-"woodkirk",
+
 "woodknoll",
 "woodknot",
 "woodlaithes",
@@ -19082,7 +19081,7 @@ const a: string[] = [
 "woodmarket",
 "woodmarketgate",
 "woodmass",
-"woodmeade",
+
 "woodmeadow",
 "woodmer",
 "woodmills",
@@ -20231,7 +20230,7 @@ const a: string[] = [
 "wynands",
 "wynans",
 "wynant",
-"wynar",
+
 "wynards",
 "wynash",
 "wynbank",
@@ -22659,7 +22658,7 @@ const a: string[] = [
 "yevgeny",
 "yevgine",
 "yevhen",
-"yevilla",
+
 "yevnine",
 "yevpatoria",
 "yevseyer",
@@ -25280,6 +25279,7 @@ const a: string[] = [
 "zanettis",
 "zanettos",
 "zanex",
+"zanfaly",
 "zanfer",
 "zanfina",
 "zanforlin",
@@ -25693,7 +25693,7 @@ const a: string[] = [
 "zavid",
 "zaviear",
 "zaviera",
-"zavilla",
+
 "zavinia",
 "zavion",
 "zavis",
@@ -28296,7 +28296,7 @@ const a: string[] = [
 "zuker",
 "zukeran",
 "zukerman",
-"zukhal",
+
 "zukhrob",
 "zukhrusa",
 "zukin",

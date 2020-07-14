@@ -28,8 +28,14 @@
 
   <div class="flex-r vcenter">
     <a href="#" id="btnProcessFiles" data-status="inactive" class="btn-link action disabled">Start</a>
-    <progress id="stProcessFiles" max="100" value="0" hidden></progress>
-    <div id="lblTime"></div>
+    <div class="flex-c vcenter">
+      <progress id="stProcessFiles" max="1" value="0" hidden></progress>
+      <progress id="stProcessFileRows" max="1" value="0" hidden></progress>
+    </div>
+    <div class="flex-c vcenter">
+      <div id="lblTime"></div>
+      <div id="lblRows"></div>
+    </div>
   </div>
 
   <select id="listTemplate">

@@ -5,6 +5,7 @@ import { clipboard, ipcRenderer as ipc, remote } from "electron";
 import {
   rangeContiguous, rangeEmpty, selectionTrim
 } from "@buckneri/js-lib-selection";
+import { normalize } from "@buckneri/string";
 
 const cancelEntityButton = document.getElementById("btnEntityTagger") as HTMLButtonElement;
 const closeButton = document.getElementById("btnCloseFile") as HTMLButtonElement;
@@ -129,20 +130,6 @@ function checkInputFileRename(e: Event) {
 }
 
 /**
- * Removes artificats from text that will impede recognition
- * @param text
- */
-function cleanText(text: string): string {
-  text = text.replace(/(?:\r\n|\r|\n)/g, "<br>");
-  text = text.replace(/[ \t]+/g, " ");
-  text = text.replace(/\s?[\-]\s?/g, "-");
-  text = text.replace(/\s?[\/]\s?/g, "/");
-  text = text.replace(/\s?[\\]\s?/g, "\\");
-  text = text.replace(/<br>/g, "\n");
-  return text;
-}
-
-/**
  * Removes entity tags from the text editor
  */
 function clearTags() {
@@ -243,7 +230,7 @@ function pasteText(e?: Event) {
     e.stopPropagation();
   }
   let paste = clipboard.readText();
-  paste = cleanText(paste);
+  paste = normalize(paste);
   const sel = window.getSelection() as Selection;
   if (!sel.rangeCount) {
     dataEntryText.normalize();

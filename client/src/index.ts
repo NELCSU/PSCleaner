@@ -5,13 +5,14 @@ const importBadge = document.getElementById("statPending") as HTMLElement;
 const processingBadge = document.getElementById("statProcessing") as HTMLElement;
 const exportBadge = document.getElementById("statComplete") as HTMLElement;
 const runButton = document.getElementById("btnProcessFiles") as HTMLButtonElement;
-const progressBar = document.getElementById("stProcessFiles") as HTMLProgressElement;
+const progressBarFiles = document.getElementById("stProcessFiles") as HTMLProgressElement;
+const progressBarFileRows = document.getElementById("stProcessFileRows") as HTMLProgressElement;
 const timeLabel = document.getElementById("lblTime") as HTMLLabelElement;
+const rowLabel = document.getElementById("lblRows") as HTMLLabelElement;
 const FILES_REQUIRED = "Click on QUEUED to view the import folder. CSV files are required.";
 let importFiles = 0;
 let processingFiles = 0;
 let exportFiles = 0;
-let rowCount = 0;
 let running = false;
 let timeStart = 0;
 let timer: any;
@@ -36,12 +37,21 @@ function formatTime(start?: number, end?: number) {
 }
 
 /**
- * Starts progress bar
+ * Starts progress bar for file queue
  */
-function setUpProgressBar() {
-  progressBar.value = 0;
-  progressBar.max = importFiles + processingFiles + exportFiles;
-  progressBar.hidden = false;
+function setUpProgressBarFiles() {
+  progressBarFiles.value = 0;
+  progressBarFiles.max = importFiles + processingFiles + exportFiles;
+  progressBarFiles.hidden = false;
+}
+
+/**
+ * Starts progress bar for file rows
+ */
+function setUpProgressBarFileRows() {
+  progressBarFileRows.value = 0;
+  progressBarFileRows.max = 1000000;
+  progressBarFileRows.hidden = false;
 }
 
 /**
@@ -53,18 +63,27 @@ function setUpTimer() {
   tl.classList.add("disabled");
   timeStart = Date.now();
   timeLabel.innerHTML = "starting " + formatTime(timeStart, Date.now());
-  ipc.on("row-processed", (_: any) => ++rowCount);
   timer = setInterval(() => {
-    timeLabel.innerHTML = "in progress " + formatTime(timeStart, Date.now()) + `<br>${rowCount} row(s) read`;
+    timeLabel.innerHTML = "in progress " + formatTime(timeStart, Date.now());
   }, 1000);
 }
 
 /**
- * Shuts down progress bar
+ * Shuts down progress bar for file queue
  */
-function teardownProgressBar() {
-  progressBar.max = 0;
-  progressBar.hidden = true;
+function teardownProgressBarFiles() {
+  progressBarFiles.max = 1;
+  progressBarFiles.value = 0;
+  progressBarFiles.hidden = true;
+}
+
+/**
+ * Shuts down progress bar for file rows
+ */
+function teardownProgressBarFileRows() {
+  progressBarFileRows.max = 1;
+  progressBarFileRows.value = 0;
+  progressBarFileRows.hidden = true;
 }
 
 /**
@@ -86,6 +105,7 @@ function teardownTimer(halt: boolean): void {
     tl.classList.remove("disabled");
     runButton.textContent = "Start";
     timeLabel.innerHTML = "Run completed " + formatTime(timeStart, Date.now());
+    rowLabel.innerHTML = "";
   }
 }
 
@@ -98,7 +118,8 @@ function toggleRun(halt = false) {
   running ? setUpTimer() : teardownTimer(halt);
   if (running) {
     if (importFiles > 0 || processingFiles > 0) {
-      setUpProgressBar();
+      setUpProgressBarFiles();
+      setUpProgressBarFileRows();
       if (processingFiles > 0) {
         ipc.send("start-processing");
       } else {
@@ -106,12 +127,14 @@ function toggleRun(halt = false) {
       }
     } else {
       running = false;
-      teardownProgressBar();
+      teardownProgressBarFiles();
+      teardownProgressBarFileRows();
       teardownTimer(halt);
       showError(FILES_REQUIRED);
     }
   } else {
-    teardownProgressBar();
+    teardownProgressBarFiles();
+    teardownProgressBarFileRows();
     teardownTimer(halt);
   }
 }
@@ -124,7 +147,6 @@ function startImport() {
     if (importFiles === 0) {
       toggleRun();
     } else {
-      rowCount = 0;
       ipc.send("start-import");
     }
   } else if (processingFiles > 0) {
@@ -175,9 +197,18 @@ ipc.on("export-file-count", (_: any, data: number) => {
   exportFiles = data;
   exportBadge.textContent = exportFiles + "";
   if (running) {
-    progressBar.value = exportFiles;
+    progressBarFiles.value = exportFiles;
     startImport();
   }
+});
+
+ipc.on("row-completed", (_ :any, rows: number) => {
+  progressBarFileRows.value = rows;
+  rowLabel.innerHTML = `${rows} row(s) read`;
+});
+
+ipc.on("row-count", (_ :any, rows: number) => {
+  progressBarFileRows.max = rows;
 });
 
 ipc.send("get-template-files");
