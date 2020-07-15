@@ -35,8 +35,7 @@ export const DateRegEx: RegExp[] = [
 ];
 
 export const EmailRegEx: RegExp[] = [
-  new RegExp(/\b(?:[''\w+\-\_\.]+)@(?:[\w+\-\_\.]+)\.(?:[\w+\-\_\.]+)\b/, "gmi"),
-  new RegExp(/\@[a-z]\w+\b/, "gmi")
+  new RegExp(/\b(?:[''\w+\-\_\.]+)@(?:[\w+\-\_\.]+)\.(?:[\w+\-\_\.]+)\b/, "gmi")
 ];
 
 /*
@@ -59,7 +58,7 @@ export const LocationRegEx: RegExp[] = [
   new RegExp(/\b(?:apartment|block|suite|unit)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/, "gmi"),
   new RegExp(/\-on\-sea\b/, "gmi"),
   new RegExp(/\-on\-the\-wall\b/, "gmi"),
-  new RegExp(/\b(?:NHS|UK|USA?)\b/, "gm"),
+  new RegExp(/\b(?:UK|USA?)\b/, "gm"),
 ];
 
 export const NameMidfixRegEx: RegExp[] = [
@@ -82,7 +81,8 @@ export const SkipRegEx: RegExp[] = [
   new RegExp(/\b\w{2,}\-\d{1,2}\b/, "gmi"),
   new RegExp(/\b\d+(?:g|mg|ml)\b/, "gm"),
   new RegExp(/\b(?:x-ray(?:ed|s)?)\b/, "gmi"),
-  new RegExp(/\b(?:BIBA|CAMHS|CAMS|DIB|DOB|ED|EMAS|LAT|MUA|NIC|NLOC|NLWC|PANP|PEARL|PERLA|ROM|SOB|UTI)\b/, "gm")
+  new RegExp(/\b(?:ED)\b/, "gm"),
+  new RegExp(/\b(?:play(?:ed|ing|s)?\srugby)\b/, "gmi")
 ];
 
 export const TelephoneRegEx: RegExp[] = [
