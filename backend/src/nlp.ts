@@ -7,9 +7,9 @@ import {
   TelephoneEntity, TimeEntity, URLEntity
 } from "./entities";
 import {
-  AgeRegEx, BankingRegEx, CurrencyRegEx, DateRegEx, EmailRegEx, 
-  LocationPrefixRegEx, LocationRegEx, NameMidfixRegEx, NHSRegEx, 
-  SkipRegEx, TelephoneRegEx, TimeRegEx, URLRegEx 
+  AgeRegEx, BankingRegEx, DateRegEx, 
+  LocationPrefixRegEx, LocationRegEx, NameMidfixRegEx, 
+  SkipRegEx, TimeRegEx
 } from "./rules/misc-rules";
 import { NamesEndingRegEx } from "./rules/name-ending-regex";
 import { NameSetAD } from "./rules/name-setA-D";
@@ -20,7 +20,7 @@ import { NameSetQT } from "./rules/name-setQ-T";
 import { NameSetUZ } from "./rules/name-setU-Z";
 import { ProperNameSet } from "./rules/name-capitalised";
 import { ProperNameSetJoinOnly } from "./rules/name-capitalised-and";
-import { NameInitialRegEx, NamePartSet, NamePuralRegEx } from "./rules/name-part";
+import { NameInitialRegEx, NameMiddleInitialRegEx, NamePartSet, NamePuralRegEx } from "./rules/name-part";
 import { EthnicitySet } from "./rules/ethnicity";
 import { SkipWordSet } from "./rules/skip-word-set";
 import { deepCopy } from "./util/deepCopy";
@@ -28,6 +28,12 @@ import { deepCopy } from "./util/deepCopy";
 const r = require("esm")(module);
 const t = r("@buckneri/string");
 const isPropercase = t.isPropercase;
+const findEmail = t.findEmail;
+const findNHSNumber = t.findNHSNumber;
+const findCurrency = t.findCurrency;
+const findUKTelephone = t.findUKTelephone;
+const findURL = t.findURL;
+const findUKPostcode = t.findUKPostcode;
 
 /**
  * ### Natural language processing services
@@ -77,7 +83,7 @@ export class NLP {
     const currency: Evaluation = {      
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: CurrencyEntity,
-      matches: this.evaluateRegEx(data, CurrencyRegEx)
+      matches: this.evaluateRegEx(data, findCurrency)
     };
 
     const dates: Evaluation = {
@@ -89,7 +95,7 @@ export class NLP {
     const emails: Evaluation = {
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: EmailEntity,
-      matches: this.evaluateRegEx(data, EmailRegEx)
+      matches: this.evaluateRegEx(data, findEmail)
     };
 
     const eth: Evaluation = {
@@ -102,6 +108,12 @@ export class NLP {
       action: { discard: 0, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: LocationRegExEntity,
       matches: this.evaluateRegEx(data, LocationRegEx)
+    };
+
+    const postcode: Evaluation = {
+      action: { discard: 0, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
+      entity: LocationRegExEntity,
+      matches: this.evaluateRegEx(data, findUKPostcode)
     };
 
     const locationPrefix: Evaluation = {
@@ -141,9 +153,15 @@ export class NLP {
     };
 
     const nameInitials: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 3, prefix: 1, midfix: 0, suffix: 0 },
       entity: NameRegExEntity,
       matches: this.evaluateRegEx(data, NameInitialRegEx)
+    };
+
+    const nameMiddleInitials: Evaluation = {
+      action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 1, suffix: 0 },
+      entity: NameRegExEntity,
+      matches: this.evaluateRegEx(data, NameMiddleInitialRegEx)
     };
 
     const namePlural: Evaluation = {
@@ -161,7 +179,7 @@ export class NLP {
     const nhs: Evaluation = {
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: NHSEntity,
-      matches: this.evaluateRegEx(data, NHSRegEx)
+      matches: this.evaluateRegEx(data, findNHSNumber)
     };
 
     const skipWord1: Evaluation = {
@@ -179,7 +197,7 @@ export class NLP {
     const tel: Evaluation = {
       action: { discard: 0, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: TelephoneEntity,
-      matches: this.evaluateRegEx(data, TelephoneRegEx)
+      matches: this.evaluateRegEx(data, findUKTelephone)
     };
 
     const times: Evaluation = {
@@ -191,15 +209,15 @@ export class NLP {
     const url: Evaluation = {
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: URLEntity,
-      matches: this.evaluateRegEx(data, URLRegEx)
+      matches: this.evaluateRegEx(data, findURL)
     };
 
     matches = this._sortMatches(data, 
       ages, banking, currency, dates, emails, eth, 
       location, locationPrefix, nameMidfix,
-      nameInitials, names, namesEnding, nhs,
+      nameInitials, nameMiddleInitials, names, namesEnding, nhs,
       properName, properNameJoin, partName, namePlural,
-      tel, times, url,
+      tel, times, url, postcode,
       skipWord1, skipWord2
     );
     return Promise.resolve(matches);
@@ -237,11 +255,10 @@ export class NLP {
     return result;
   }
 
-  public evaluateRegEx(data: string, re: RegExp[]): TextMatch[] {
+  public evaluateRegEx(data: string, re: any): TextMatch[] {
     const result: any[] = [];
-    re.forEach((r: RegExp) => {
-      let m: RegExpExecArray | null;
-      while ((m = r.exec(data)) !== null) {
+    if (typeof re === "function") {
+      re(data).forEach((m: RegExpExecArray) => {
         result.push({
           end: m.index + m[0].length - 1,
           id: this._id(m[0]),
@@ -249,8 +266,21 @@ export class NLP {
           start: m.index,
           value: m[0]
         });
-      }
-    });
+      });
+    } else {
+      re.forEach((r: RegExp) => {
+        let m: RegExpExecArray | null;
+        while ((m = r.exec(data)) !== null) {
+          result.push({
+            end: m.index + m[0].length - 1,
+            id: this._id(m[0]),
+            length: m[0].length,
+            start: m.index,
+            value: m[0]
+          });
+        }
+      });
+    }
     return result;
   }
 

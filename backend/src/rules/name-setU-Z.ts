@@ -131,7 +131,7 @@ const a: string[] = [
 "ucheoma",
 "ucher",
 "uchida",
-"uchima",
+
 "uchindami",
 "uchitel",
 "uchman",
@@ -1463,7 +1463,7 @@ const a: string[] = [
 "upway",
 "upways",
 "upwell",
-"uquessim",
+
 "ura",
 "urabug",
 "urace",
@@ -1534,7 +1534,6 @@ const a: string[] = [
 "urdiales",
 "urdirat",
 "ure",
-"urea",
 "urech",
 "ureche",
 "uredo",
@@ -1762,7 +1761,7 @@ const a: string[] = [
 "urtson",
 "uru",
 "uruapan",
-"uruchima",
+
 "uruegerue",
 "urueta",
 "uruguay",
@@ -4915,7 +4914,7 @@ const a: string[] = [
 "vassillios",
 "vassillis",
 "vassily",
-"vassim",
+
 "vassimon",
 "vassin",
 "vassis",
@@ -6596,7 +6595,7 @@ const a: string[] = [
 "versen",
 "verser",
 "versey",
-"vershima",
+
 "vershinina",
 "versics",
 "versier",
@@ -7128,7 +7127,7 @@ const a: string[] = [
 "vidas",
 "vidaure",
 "viddal",
-"viddhima",
+
 "vide",
 "videan",
 "videl",
@@ -7577,7 +7576,7 @@ const a: string[] = [
 "vilcan",
 "vilcane",
 "vilcans",
-"vilcassim",
+
 "vilcea",
 "vilcheck",
 "vilches",
@@ -12077,7 +12076,7 @@ const a: string[] = [
 "wassilla",
 "wassillie",
 "wassily",
-"wassim",
+
 "wassima",
 "wassinger",
 "wassink",
@@ -21597,7 +21596,7 @@ const a: string[] = [
 "yashica",
 "yashid",
 "yashim",
-"yashima",
+
 "yashimabet",
 "yashin",
 "yashina",
@@ -21683,7 +21682,7 @@ const a: string[] = [
 "yasset",
 "yassibas",
 "yassica",
-"yassim",
+
 "yassin",
 "yassine",
 "yassing",
@@ -22499,7 +22498,7 @@ const a: string[] = [
 "yesser",
 "yessica",
 "yesside",
-"yessim",
+
 "yessin",
 "yessine",
 "yessios",
@@ -22699,7 +22698,7 @@ const a: string[] = [
 "yicheal",
 "yichen",
 "yichiel",
-"yichima",
+
 "yick",
 "yictarin",
 "yictor",
@@ -24702,7 +24701,7 @@ const a: string[] = [
 "zahied",
 "zahier",
 "zahim",
-"zahima",
+
 "zahin",
 "zahina",
 "zahirabbas",
@@ -25390,7 +25389,7 @@ const a: string[] = [
 "zarger",
 "zarges",
 "zarghauna",
-"zarghima",
+
 "zarghon",
 "zarghoona",
 "zarghoul",
@@ -26743,7 +26742,7 @@ const a: string[] = [
 "zhilin",
 "zhiling",
 "zhilla",
-"zhima",
+
 "zhiman",
 "zhimin",
 "zhiming",
@@ -27883,7 +27882,7 @@ const a: string[] = [
 "zose",
 "zosel",
 "zoshim",
-"zoshima",
+
 "zosia",
 "zosim",
 "zosima",
@@ -27891,7 +27890,7 @@ const a: string[] = [
 "zosmer",
 "zoss",
 "zossel",
-"zossim",
+
 "zotan",
 "zothile",
 "zotiades",

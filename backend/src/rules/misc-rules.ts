@@ -11,11 +11,6 @@ export const BankingRegEx: RegExp[] = [
   new RegExp(/\b(\d){2}-(\d){2}-(\d){2}\b/, "gmi")
 ];
 
-export const CurrencyRegEx: RegExp[] = [
-  new RegExp(/[$£€]\s*\d[\d,]*(?:\.\d{1,2})?(?:\s?(?:b|m|tr)illion|bn|k|m)?\b/, "gmi"),
-  new RegExp(/\d[\d,\.]*(?:\s(?:b|m|tr)illion|bn|k|m|p)?\s?(?:pounds?|pence|euros?|dollars?|cents?)\b/, "gmi")
-];
-
 export const DateRegEx: RegExp[] = [
   new RegExp(/\b(?:[0123]?\d(?:st|nd|rd|th)?)(?:[\s\-\.]{0,3}|\sof\s)?(?:jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)(?:(?:[\s\-\.,]{0,3})(?:\d\d|\d\d\d\d))?\b/, "gmi"),
   new RegExp(/\b(?:jan\.?|janu?a?ry|feb\.?|febr?ua?ry|mar\.?|march|apr\.?|april|may|jun\.?|june|jul\.?|july|aug\.?|august|sept?\.?|september|oct\.?|october|nov\.?|november|dec\.?|december)(?:(?:[\s\-\.,]{0,3})(?:\d\d|\d\d\d\d))(?:[\s\-\.,]{0,3}\d\d\d\d)?\b/, "gmi"),
@@ -34,10 +29,6 @@ export const DateRegEx: RegExp[] = [
   new RegExp(/\b(?<=(?:on|last)\s)(?:mon|tues|wednes|thurs|fri|satur|sun)day\b/, "gmi")
 ];
 
-export const EmailRegEx: RegExp[] = [
-  new RegExp(/\b(?:[''\w+\-\_\.]+)@(?:[\w+\-\_\.]+)\.(?:[\w+\-\_\.]+)\b/, "gmi")
-];
-
 /*
 1st, 2nd, 3rd, 4th, one, two, three, four, five, six, seven, eight, nine, ten
 eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen
@@ -53,7 +44,6 @@ export const LocationPrefixRegEx: RegExp[] = [
 ];
 
 export const LocationRegEx: RegExp[] = [
-  new RegExp(/\b(?:GIR|[a-pr-uwyz][a-hk-y]?(?:[0-9][a-z]|[0-9]{1,2}))\s{0,3}[0-9][a-z]{2}\b/, "gmi"),
   new RegExp(/\bP\.?O\.?\sBox\s\d+\b/, "gmi"),
   new RegExp(/\b(?:apartment|block|suite|unit)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/, "gmi"),
   new RegExp(/\-on\-sea\b/, "gmi"),
@@ -72,22 +62,13 @@ export const NameMidfixRegEx: RegExp[] = [
   new RegExp(/\-y\-/, "gmi")
 ];
 
-export const NHSRegEx: RegExp[] = [
-  new RegExp(/[34679]\d\d\s?\d\d\d\s?\d\s?\d\s?\d\s?\d/, "gmi")
-];
-
 export const SkipRegEx: RegExp[] = [
   new RegExp(/\bmid\-\w+\b/, "gmi"),
   new RegExp(/\b\w{2,}\-\d{1,2}\b/, "gmi"),
   new RegExp(/\b\d+(?:g|mg|ml)\b/, "gm"),
   new RegExp(/\b(?:x-ray(?:ed|s)?)\b/, "gmi"),
-  new RegExp(/\b(?:ED)\b/, "gm"),
+  new RegExp(/\b(?:ED|NIC)\b/, "gm"),
   new RegExp(/\b(?:play(?:ed|ing|s)?\srugby)\b/, "gmi")
-];
-
-export const TelephoneRegEx: RegExp[] = [
-  new RegExp(/(?:\+?\(?44\)?|0044\s?)\s?\(?0?\)?\s?\d\s?\d\)?[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d?/, "gmi"),
-  new RegExp(/\(?0\)?[\s\-]?\d?[\s\-]?\d[\s\-]?\d\)?[\s\-]?\d\)?[\s\-]?\d[\s\-]?\d[\s\-]?\d[\s\-]?\d?[\s\-]?\d[\s\-]?\d\d/, "gmi"),
 ];
 
 export const TimeRegEx: RegExp[] = [
@@ -96,8 +77,4 @@ export const TimeRegEx: RegExp[] = [
   new RegExp(/(?:[12]?\d[\.:][0-5]\d)(?:\s?[ap]\.?m\.?)?/, "gmi"),
   new RegExp(/\b(?:[01]\d|2[0123]|\d):[0-5]\d(?:[:.]\d{1,4})?\b/, "gmi"),
   new RegExp(/(?:on|at|@)\s?(?:[01]\d|2[0123]|\d)[0-5]\d\b/, "gmi") // @1700
-];
-
-export const URLRegEx: RegExp[] = [
-  new RegExp(/\b(?:(?:https?:\/\/)?www.[\w\/\?~&=%\+\-:\._\d]+|https?:\/\/[\w\/\?~&=%\+\-:\._\d]+)\b/, "gmi")
 ];
