@@ -2921,6 +2921,7 @@ const a: string[] = [
 "gypsies",
 "gypsum",
 "gypsy",
+"ha",
 "haberdasher",
 "haberdashers",
 "habitat",
