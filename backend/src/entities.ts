@@ -65,7 +65,7 @@ export const LocationEntity: Entity = {
 };
 
 export const LocationRegExEntity: Entity = { 
-  color: "#00ff00", 
+  color: "#00ee00", 
   description: "Location identifier via pattern match",
   domain: "NAME", 
   label: "Name", 

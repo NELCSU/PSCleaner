@@ -7,7 +7,7 @@ import {
   TelephoneEntity, TimeEntity, URLEntity
 } from "./entities";
 import {
-  AgeRegEx, BankingRegEx, DateRegEx, 
+  AgeRegEx, BankingRegEx, 
   LocationPrefixRegEx, LocationRegEx, NameMidfixRegEx, 
   SkipRegEx, TimeRegEx
 } from "./rules/misc-rules";
@@ -34,6 +34,7 @@ const findCurrency = t.findCurrency;
 const findUKTelephone = t.findUKTelephone;
 const findURL = t.findURL;
 const findUKPostcode = t.findUKPostcode;
+const findDate = t.findDate;
 
 /**
  * ### Natural language processing services
@@ -89,7 +90,7 @@ export class NLP {
     const dates: Evaluation = {
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: DateEntity,
-      matches: this.evaluateRegEx(data, DateRegEx)
+      matches: this.evaluateRegEx(data, findDate)
     };
 
     const emails: Evaluation = {

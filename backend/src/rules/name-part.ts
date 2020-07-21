@@ -20,7 +20,7 @@ for (let i = 0; i < L; i++) {
 }
 
 const NameInitialRegEx: RegExp[] = [
-  new RegExp(/\b(?<![\\\/])[A-Z]\./, "gm"),
+  new RegExp(/\b(?<![\\\/\&])[A-Z]\./, "gm"),
   new RegExp(/\bO[\'\‘\’\`]/, "gm"),
   new RegExp(/\b(?:dr|mr|mrs|ms|sir|st)\b/, "gmi")
 ];
