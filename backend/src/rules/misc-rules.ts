@@ -50,7 +50,9 @@ export const SkipRegEx: RegExp[] = [
   new RegExp(/\b\d+(?:g|mg|ml)\b/, "gm"),
   new RegExp(/\b(?:x-ray(?:ed|s)?)\b/, "gmi"),
   new RegExp(/\b(?:ED|NIC)\b/, "gm"),
-  new RegExp(/\b(?:play(?:ed|ing|s)?\srugby)\b/, "gmi")
+  new RegExp(/\b(?:play(?:ed|ing|s)?\srugby)\b/, "gmi"),
+  new RegExp(/[a-z]+n[\'\‘\’\`]t/, "gmi"),
+  new RegExp(/[a-z]+[\'\‘\’\`](?:ll|re|ve)/, "gmi"),
 ];
 
 export const TimeRegEx: RegExp[] = [

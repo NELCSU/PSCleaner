@@ -20,7 +20,9 @@ import { NameSetQT } from "./rules/name-setQ-T";
 import { NameSetUZ } from "./rules/name-setU-Z";
 import { ProperNameSet } from "./rules/name-capitalised";
 import { ProperNameSetJoinOnly } from "./rules/name-capitalised-and";
-import { NameInitialRegEx, NameMiddleInitialRegEx, NamePartSet, NamePuralRegEx } from "./rules/name-part";
+import { 
+  NameInitialRegEx, NameMiddleInitialRegEx, NamePartSet, 
+  NamePrefixRegEx, NamePuralRegEx } from "./rules/name-part";
 import { EthnicitySet } from "./rules/ethnicity";
 import { SkipWordSet } from "./rules/skip-word-set";
 import { deepCopy } from "./util/deepCopy";
@@ -153,6 +155,12 @@ export class NLP {
       matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), ProperNameSetJoinOnly)
     };
 
+    const namePrefix: Evaluation = {
+      action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 0, suffix: 0 },
+      entity: NameRegExEntity,
+      matches: this.evaluateRegEx(data, NamePrefixRegEx)
+    };
+
     const nameInitials: Evaluation = {
       action: { discard: 1, joinable: 1, order: 3, prefix: 1, midfix: 0, suffix: 0 },
       entity: NameRegExEntity,
@@ -215,7 +223,7 @@ export class NLP {
 
     matches = this._sortMatches(data, 
       ages, banking, currency, dates, emails, eth, 
-      location, locationPrefix, nameMidfix,
+      location, locationPrefix, namePrefix, nameMidfix,
       nameInitials, nameMiddleInitials, names, namesEnding, nhs,
       properName, properNameJoin, partName, namePlural,
       tel, times, url, postcode,
@@ -226,16 +234,16 @@ export class NLP {
 
   public evaluateKeyword(data: string, testFn?: Function | null, ...keywords: any): TextMatch[] {
     data = data.replace("_", " ");
-    const re: RegExp = new RegExp(/[a-z\'\‘\’\`]+/, "gmi");
+    const re: RegExp = new RegExp(/\b[a-z]+\b/, "gmi");
     const result: TextMatch[] = [];
     let m: RegExpExecArray | null;
     let word: string, fullword: string, passed: boolean;
     while ((m = re.exec(data)) !== null) {
-      word = m[0].replace(/[\'\‘\’\`](?:d|ll|re|s|ve)\b/gmi, "").toLowerCase().replace(/[\'\‘\’\`]/gmi, "");
+      word = m[0].toLowerCase();
       let l: number = keywords.length;
       for (let i = 0; i < l; i++) {
         if (m && keywords[i].has(word)) {
-          fullword = m[0].replace(/[\'\‘\’\`]/gmi, "");
+          fullword = m[0];
           passed = true;
           if (testFn && testFn(fullword)) {
             passed = false;

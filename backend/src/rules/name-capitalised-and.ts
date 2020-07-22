@@ -1031,6 +1031,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "muslin",
 "mustache",
 "muzzle",
+"myth",
 "naevus",
 "nail",
 "nails",
