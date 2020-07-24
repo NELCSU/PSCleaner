@@ -126,7 +126,6 @@ export class ProcessFiles {
           Promise.all(rows)
             .then(_ => {
               stream.end();
-              stream.unpipe();
               Promise.all([
                 this.fm.fs.move(temp, to),
                 this.fm.delete(from)

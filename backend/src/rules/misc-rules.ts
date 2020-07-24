@@ -48,8 +48,6 @@ export const SkipRegEx: RegExp[] = [
   new RegExp(/\bmid\-\w+\b/, "gmi"),
   new RegExp(/\b\w{2,}\-\d{1,2}\b/, "gmi"),
   new RegExp(/\b\d+(?:g|mg|ml)\b/, "gm"),
-  new RegExp(/\b(?:x-ray(?:ed|s)?)\b/, "gmi"),
-  new RegExp(/\b(?:ED|NIC)\b/, "gm"),
   new RegExp(/\b(?:play(?:ed|ing|s)?\srugby)\b/, "gmi"),
   new RegExp(/[a-z]+n[\'\‘\’\`]t/, "gmi"),
   new RegExp(/[a-z]+[\'\‘\’\`](?:ll|re|ve)/, "gmi"),
@@ -57,8 +55,8 @@ export const SkipRegEx: RegExp[] = [
 
 export const TimeRegEx: RegExp[] = [
   new RegExp(/\b(?:[1-9]|1[0-2])\s?o[''\s]{1,2}clock\b/, "gmi"),
-  new RegExp(/(?:[1-9]|1[0-2])\s?[ap]\.?m\.?/, "gmi"),
-  new RegExp(/(?:[12]?\d[\.:][0-5]\d)(?:\s?[ap]\.?m\.?)?/, "gmi"),
+  new RegExp(/(?:[1-9]|1[0-2])\s?[ap]\.?m\.?(?:\sBST\b)?/, "gmi"),
+  new RegExp(/(?:[12]?\d[\.:][0-5]\d)(?:\s?[ap]\.?m\.?)?(?:\sBST\b)?/, "gmi"),
   new RegExp(/\b(?:[01]\d|2[0123]|\d):[0-5]\d(?:[:.]\d{1,4})?\b/, "gmi"),
-  new RegExp(/(?:on|at|@)\s?(?:[01]\d|2[0123]|\d)[0-5]\d\b/, "gmi") // @1700
+  new RegExp(/\b(?:on|at|@)\s?(?:[01]\d|2[0123]|\d)[0-5]\d\b/, "gmi") // @1700
 ];

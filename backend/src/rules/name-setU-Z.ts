@@ -1216,7 +1216,6 @@ const a: string[] = [
 "unkel",
 "unketts",
 "unkle",
-"unknow",
 "unland",
 "unlawater",
 "unler",
@@ -5315,7 +5314,7 @@ const a: string[] = [
 "veerasami",
 "veerasamie",
 "veerasammy",
-"veeraswamy",
+
 "veerdhaval",
 "veeren",
 "veerendar",
@@ -5587,7 +5586,7 @@ const a: string[] = [
 "vellacherry",
 "vellacotts",
 "vellaichamy",
-"vellaiswamy",
+
 "vellam",
 "vellamo",
 "velland",
@@ -5657,7 +5656,7 @@ const a: string[] = [
 "velshod",
 "velson",
 "velsor",
-"velswamy",
+
 "velt",
 "veltan",
 "veltean",
@@ -5686,7 +5685,7 @@ const a: string[] = [
 "velumnylin",
 "velumyl",
 "veluppillar",
-"veluswamy",
+
 "velvelt",
 "velven",
 "velver",
@@ -5904,7 +5903,7 @@ const a: string[] = [
 "venkatasubash",
 "venkatasubramanian",
 "venkatasuresh",
-"venkataswamy",
+
 "venkatensan",
 "venkates",
 "venkatesa",
@@ -5915,7 +5914,7 @@ const a: string[] = [
 "venkatram",
 "venkatrama",
 "venkatrami",
-"venkatswamy",
+
 "venkdesh",
 "venker",
 "venket",
@@ -8513,7 +8512,6 @@ const a: string[] = [
 "visocky",
 "visockyte",
 "visomirskyte",
-"vison",
 "visona",
 "visone",
 "visontay",

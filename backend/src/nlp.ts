@@ -2,7 +2,7 @@ import type { Action, Evaluation, MatchedEntity, TextMatch } from "../types/PSCl
 import {
   AgeEntity, BankingEntity, CurrencyEntity, DateEntity, 
   EmailEntity, EthnicityEntity,
-  LocationRegExEntity,
+  LocationRegExEntity, MedicalEntity,
   NameEntity, NameRegExEntity, NHSEntity, SkipWordEntity,
   TelephoneEntity, TimeEntity, URLEntity
 } from "./entities";
@@ -11,6 +11,10 @@ import {
   LocationPrefixRegEx, LocationRegEx, NameMidfixRegEx, 
   SkipRegEx, TimeRegEx
 } from "./rules/misc-rules";
+import { HouseholdItemRegEx } from "./rules/household-items";
+import { MedicalAbbrRegEx } from "./rules/medical-abbreviations";
+import { MedicalTermRegEx } from "./rules/medical-terms";
+import { MedicationRegEx } from "./rules/medication";
 import { NamesEndingRegEx } from "./rules/name-ending-regex";
 import { NameSetAD } from "./rules/name-setA-D";
 import { NameSetEH } from "./rules/name-setE-H";
@@ -107,6 +111,12 @@ export class NLP {
       matches: this.evaluateKeyword(data, null, EthnicitySet)
     };
 
+    const householdItem: Evaluation = {
+      action: { discard: 1, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      entity: SkipWordEntity,
+      matches: this.evaluateRegEx(data, HouseholdItemRegEx)
+    };
+
     const location: Evaluation = {
       action: { discard: 0, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: LocationRegExEntity,
@@ -153,6 +163,24 @@ export class NLP {
       action: { discard: 1, joinable: 1, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
       matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), ProperNameSetJoinOnly)
+    };
+
+    const medicalAbbr: Evaluation = {
+      action: { discard: 1, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      entity: MedicalEntity,
+      matches: this.evaluateRegEx(data, MedicalAbbrRegEx)
+    };
+
+    const medicalTerm: Evaluation = {
+      action: { discard: 1, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      entity: MedicalEntity,
+      matches: this.evaluateRegEx(data, MedicalTermRegEx)
+    };
+
+    const medication: Evaluation = {
+      action: { discard: 1, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      entity: MedicalEntity,
+      matches: this.evaluateRegEx(data, MedicationRegEx)
     };
 
     const namePrefix: Evaluation = {
@@ -222,11 +250,13 @@ export class NLP {
     };
 
     matches = this._sortMatches(data, 
-      ages, banking, currency, dates, emails, eth, 
-      location, locationPrefix, namePrefix, nameMidfix,
-      nameInitials, nameMiddleInitials, names, namesEnding, nhs,
-      properName, properNameJoin, partName, namePlural,
-      tel, times, url, postcode,
+      ages, banking, currency, dates, 
+      emails, eth, householdItem,
+      location, locationPrefix, 
+      medication, medicalAbbr, medicalTerm,
+      namePrefix, nameMidfix, nameInitials, nameMiddleInitials, namePlural, names, namesEnding, nhs,
+      postcode, properName, properNameJoin, partName,
+      tel, times, url,
       skipWord1, skipWord2
     );
     return Promise.resolve(matches);
@@ -430,12 +460,8 @@ export class NLP {
           // is cursor beyond start of current entity? Yes => skip
           skip = true;
         } else if (peek.match.start === current.match.start && peek.match.end === current.match.end) {
-          if (current.entity.type === "regular expression" && peek.entity.type !== "regular expression") {
-            skip = true;
-          } else {
-            v.shift();
-            lookAhead = v.length > 0;
-          }
+          v.shift();
+          lookAhead = v.length > 0;
         } else if (peek.match.start >= current.match.start && peek.match.start <= current.match.end) {
           // two adjacent entities have some overlap ...
           if (peek.match.length > current.match.length) {

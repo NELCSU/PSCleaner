@@ -73,6 +73,15 @@ export const LocationRegExEntity: Entity = {
   type: "regular expression" 
 };
 
+export const MedicalEntity: Entity = { 
+  color: "#cccccc", 
+  description: "Medical terms and medication",
+  domain: "SKIP", 
+  label: "Medical", 
+  mask: "MEDICAL",
+  type: "regular expression" 
+};
+
 export const NameEntity: Entity = {
   color: "#00a0ff",
   description: "List of names",

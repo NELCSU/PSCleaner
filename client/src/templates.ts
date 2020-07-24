@@ -19,16 +19,20 @@ function addField(fieldName?: string, selected?: boolean) {
   const clone = document.getElementById("clone") as HTMLDivElement;
   const newField = clone.cloneNode(true) as HTMLElement;
   const txt = newField.querySelector("nel-text-input") as HTMLInputElement;
-  const btn = newField.querySelector("nel-on-off") as any;
-  const del = document.getElementById("btnDelField") as HTMLButtonElement;
+  const onoff = newField.querySelector("nel-on-off") as any;
+  const del = newField.querySelector("img.delete") as HTMLButtonElement;
+  const up = newField.querySelector("img.move-up") as HTMLButtonElement;
+  const down = newField.querySelector("img.move-down") as HTMLButtonElement;
   newField.id = `field_${count}`;
   txt.value = fieldName || "";
-  btn.on = selected;
+  onoff.on = selected;
   insertHere.insertAdjacentElement("beforebegin", newField);
   newField.classList.remove("hidden");
   txt.addEventListener("input", db(checkForm, 750));
   del.addEventListener("click", deleteField);
-  btn.addEventListener("click", checkForm);
+  up.addEventListener("click", moveFieldUp);
+  down.addEventListener("click", moveFieldDown);
+  onoff.addEventListener("click", checkForm);
   return newField;
 }
 
@@ -87,6 +91,26 @@ function deleteField() {
     row.parentNode?.removeChild(row);
   }
   checkForm();
+}
+
+/**
+ * Moves row up in form
+ */
+function moveFieldUp() {
+  const row = (window.event?.target as HTMLElement).parentNode as Node;
+  if (row && row.parentNode && row.previousSibling) {
+    row.parentNode.insertBefore(row, row.previousSibling);
+  }
+}
+
+/**
+ * Moves row down in form
+ */
+function moveFieldDown() {
+  const row = (window.event?.target as HTMLElement).parentNode as Node;
+  if (row && row.parentNode && row.nextSibling) {
+    row.parentNode.insertBefore(row.nextSibling, row);
+  }
 }
 
 /**

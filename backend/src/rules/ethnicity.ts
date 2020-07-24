@@ -197,7 +197,7 @@ const a: string[] = [
 "bidayuh",
 "bikol",
 "bilen",
-"bimoba",
+
 "bishari",
 "bishnupriya",
 "bissa",
@@ -450,7 +450,6 @@ const a: string[] = [
 "hainanese",
 "haitian",
 "hakka",
-"han",
 "harari",
 "haratin",
 "hari",
@@ -1109,7 +1108,7 @@ const a: string[] = [
 "tiriki",
 "tiwa",
 "tlapanec",
-"toba",
+
 "tobagonian",
 "togolese",
 "tontemboan",
@@ -1150,7 +1149,7 @@ const a: string[] = [
 "ukrainian",
 "umbrian",
 "umbundu",
-"urhobo",
+
 "uruguayan",
 "urum",
 "uspantek",
