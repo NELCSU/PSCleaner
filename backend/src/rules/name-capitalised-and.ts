@@ -1896,6 +1896,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "windy",
 "winners",
 "winning",
+"wires",
 "wooded",
 "wooden",
 "world",

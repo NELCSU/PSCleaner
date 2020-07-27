@@ -5,12 +5,13 @@ const a: RegExp[] = [
   /\bfishing\shook\b/gmi,
   /\bhot\swater\sbottle\b/gmi,
   /\bhover\sboard\b/gmi,
+  /\bpiggy\sback\b/gmi,
   /\bskate\spark\b/gmi,
   /\btennis\srackett?\b/gmi,
   /\btrampol(?:ine)?\b/gmi
 ];
-const HouseholdItemRegEx: Set<RegExp> = new Set();
-a.forEach(term => HouseholdItemRegEx.add(term));
+const RospaRegEx: Set<RegExp> = new Set();
+a.forEach(term => RospaRegEx.add(term));
 export {
-  HouseholdItemRegEx
+  RospaRegEx
 };

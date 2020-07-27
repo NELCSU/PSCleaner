@@ -19,7 +19,7 @@ const a: RegExp[] = [
   /\b[a-z]+zomib\b/gmi,
   /\b[a-z]+zumab\b/gmi,
 
-  /\b(?:co\-?)?amoxiclav\b/gmi,
+  /\b(?:co\-?)?amox?iclav\b/gmi,
   /\bavigan\b/gmi,
   /\bbenodryl\b/gmi,
   /\bcal?pol\b/gmi,
@@ -33,6 +33,7 @@ const a: RegExp[] = [
   /\bfluclox\b/gmi,
   /\bfluox[ei]tie?ne\b/gmi,
   /\bmethotrexate\b/gmi,
+  /\bnicorette\b/gmi,
   /\bparacet[aeo]?ma?ol\b/gmi,
   /\bprozac\b/gmi,
   /\bsalbut?amol\b/gmi

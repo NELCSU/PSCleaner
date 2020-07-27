@@ -7,11 +7,10 @@ import {
   TelephoneEntity, TimeEntity, URLEntity
 } from "./entities";
 import {
-  AgeRegEx, BankingRegEx, 
-  LocationPrefixRegEx, LocationRegEx, NameMidfixRegEx, 
-  SkipRegEx, TimeRegEx
+  AgeRegEx, BankingRegEx, LocationPrefixRegEx, LocationRegEx, 
+  NameMidfixRegEx, SkipRegEx
 } from "./rules/misc-rules";
-import { HouseholdItemRegEx } from "./rules/household-items";
+import { RospaRegEx } from "./rules/rospa";
 import { MedicalAbbrRegEx } from "./rules/medical-abbreviations";
 import { MedicalTermRegEx } from "./rules/medical-terms";
 import { MedicationRegEx } from "./rules/medication";
@@ -41,6 +40,7 @@ const findUKTelephone = t.findUKTelephone;
 const findURL = t.findURL;
 const findUKPostcode = t.findUKPostcode;
 const findDate = t.findDate;
+const findTime = t.findTime;
 
 /**
  * ### Natural language processing services
@@ -114,7 +114,7 @@ export class NLP {
     const householdItem: Evaluation = {
       action: { discard: 1, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: SkipWordEntity,
-      matches: this.evaluateRegEx(data, HouseholdItemRegEx)
+      matches: this.evaluateRegEx(data, RospaRegEx)
     };
 
     const location: Evaluation = {
@@ -240,7 +240,7 @@ export class NLP {
     const times: Evaluation = {
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: TimeEntity,
-      matches: this.evaluateRegEx(data, TimeRegEx)
+      matches: this.evaluateRegEx(data, findTime)
     };
 
     const url: Evaluation = {
