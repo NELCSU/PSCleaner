@@ -1142,6 +1142,7 @@ const a: string[] = [
 "tzeltal",
 "udmurt",
 "ugandan",
+"uighur",
 "ukrainian",
 "umbrian",
 "umbundu",

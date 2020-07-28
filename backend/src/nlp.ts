@@ -6,10 +6,8 @@ import {
   NameEntity, NameRegExEntity, NHSEntity, SkipWordEntity,
   TelephoneEntity, TimeEntity, URLEntity
 } from "./entities";
-import {
-  AgeRegEx, BankingRegEx, LocationPrefixRegEx, LocationRegEx, 
-  NameMidfixRegEx, SkipRegEx
-} from "./rules/misc-rules";
+import { LocationPrefixRegEx, LocationRegEx, LocationMidfixRegEx } from "./rules/location";
+import { AgeRegEx, BankingRegEx } from "./rules/misc-rules";
 import { RospaRegEx } from "./rules/rospa";
 import { MedicalAbbrRegEx } from "./rules/medical-abbreviations";
 import { MedicalTermRegEx } from "./rules/medical-terms";
@@ -27,6 +25,7 @@ import {
   NameInitialRegEx, NameMiddleInitialRegEx, NamePartSet, 
   NamePrefixRegEx, NamePuralRegEx } from "./rules/name-part";
 import { EthnicitySet } from "./rules/ethnicity";
+import { SkipGrammarRegEx } from "./rules/skip-grammar";
 import { SkipWordSet } from "./rules/skip-word-set";
 import { deepCopy } from "./util/deepCopy";
 
@@ -138,7 +137,7 @@ export class NLP {
     const nameMidfix: Evaluation = {
       action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 1, suffix: 0 },
       entity: LocationRegExEntity,
-      matches: this.evaluateRegEx(data, NameMidfixRegEx)
+      matches: this.evaluateRegEx(data, LocationMidfixRegEx)
     };
 
     const namesEnding: Evaluation = {
@@ -219,16 +218,16 @@ export class NLP {
       matches: this.evaluateRegEx(data, findNHSNumber)
     };
 
-    const skipWord1: Evaluation = {
+    const skipGrammar: Evaluation = {
+      action: { discard: 1, joinable: 0, order: 3, prefix: 0, midfix: 0, suffix: 0 },
+      entity: SkipWordEntity,
+      matches: this.evaluateRegEx(data, SkipGrammarRegEx)
+    };
+
+    const skipWord: Evaluation = {
       action: { discard: 1, joinable: 0, order: 3, prefix: 0, midfix: 0, suffix: 0 },
       entity: SkipWordEntity,
       matches: this.evaluateKeyword(data, null, SkipWordSet)
-    };
-
-    const skipWord2: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 3, prefix: 0, midfix: 0, suffix: 0 },
-      entity: SkipWordEntity,
-      matches: this.evaluateRegEx(data, SkipRegEx)
     };
 
     const tel: Evaluation = {
@@ -257,7 +256,7 @@ export class NLP {
       namePrefix, nameMidfix, nameInitials, nameMiddleInitials, namePlural, names, namesEnding, nhs,
       postcode, properName, properNameJoin, partName,
       tel, times, url,
-      skipWord1, skipWord2
+      skipGrammar, skipWord
     );
     return Promise.resolve(matches);
   }

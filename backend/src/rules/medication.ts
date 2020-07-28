@@ -1,4 +1,6 @@
 const a: RegExp[] = [
+  /\b\d+(?:g|mg|ml|mmol)\b/gm,
+
   // https://en.wikipedia.org/wiki/Drug_nomenclature
   /\b[a-z]+axine\b/gmi,
   /\b[a-z]+ciclib\b/gmi,
@@ -24,6 +26,7 @@ const a: RegExp[] = [
   /\bbenodryl\b/gmi,
   /\bcal?pol\b/gmi,
   /\bcefuroxime\b/gmi,
+  /\bcodiene\b/gmi,
   /\b(?:co\-?)?cod[ao]mol\b/gmi,
   /\b(?:co\-?)?dyd?ramol\b/gmi,
   /\bcorazol\b/gmi,

@@ -30,6 +30,7 @@
     "src/window.ts",
 
     "src/rules/ethnicity.ts",
+    "src/rules/location.ts",
     "src/rules/medical-abbreviations.ts",
     "src/rules/medical-terms.ts",
     "src/rules/medication.ts",
@@ -45,6 +46,7 @@
     "src/rules/name-setQ-T.ts",
     "src/rules/name-setU-Z.ts",
     "src/rules/rospa.ts",
+    "src/rules/skip-grammar.ts",
     "src/rules/skip-word-set.ts",
 
     "src/util/charCode.ts",
