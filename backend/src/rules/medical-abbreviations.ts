@@ -14,6 +14,7 @@ const a: RegExp[] = [
   /\bhaem\b/gmi,
   /\bhosp\b/gmi,
   /\bhypo\b/gmi,
+  /\blac\b/gmi,
   /\bibup\b/gmi,
   /\binhib\b/gmi,
   /\bivab\b/gmi,

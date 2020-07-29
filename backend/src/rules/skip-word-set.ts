@@ -1,4 +1,4 @@
-export const SkipWordSet: Set<string> = new Set([
+const a: string[] = [
 "abd",
 "abod",
 "activly",
@@ -14,6 +14,7 @@ export const SkipWordSet: Set<string> = new Set([
 "also",
 "among",
 "analyze",
+"angio",
 "anti",
 "apartheid",
 "applaud",
@@ -219,6 +220,7 @@ export const SkipWordSet: Set<string> = new Set([
 "inhumane",
 "insitu",
 "instead",
+"interim",
 "interviewee",
 "into",
 "ipda",
@@ -521,5 +523,9 @@ export const SkipWordSet: Set<string> = new Set([
 "wrath",
 "writeoff",
 "yoga",
-"yougov"
-]);
+"yougov",
+"yuan"
+];
+const SkipWordSet: Set<string> = new Set();
+a.forEach(i => SkipWordSet.add(i));
+export { SkipWordSet };

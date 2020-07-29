@@ -573,7 +573,7 @@ const a: string[] = [
 "karenic",
 "karko",
 "karo",
-"karon",
+
 "kasa",
 "kashubian",
 "kataria",
@@ -858,7 +858,7 @@ const a: string[] = [
 "nuer",
 "nuna",
 "nunatukavut",
-"nunavik",
+
 "nung",
 "nyadu",
 "nyangwara",
@@ -977,7 +977,7 @@ const a: string[] = [
 "sarki",
 "sarnaism",
 "sasak",
-"sasoli",
+
 "satsugū",
 "saudi",
 "savu",

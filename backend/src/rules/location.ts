@@ -8,7 +8,7 @@ twentieth, thirtieth, fortieth, fiftieth, sixtieth, seventieth, eightieth, ninet
 hundred, hundredth, thousand, thousandth, million
 */
 export const LocationPrefixRegEx: RegExp[] = [
-  new RegExp(/\b(?<![,\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{3,})/, "gmi"),
+  new RegExp(/\b(?<![,\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{2,})/, "gmi"),
   new RegExp(/(?:(?:\d+(?:st|nd|rd|th))|One|First|Two|Second|Three|Third|Four(?:teenth|teen|th)?|Fort(?:ieth|y)|Five|Fift(?:eenth|een|h|ieth|y)|Six(?:teenth|teen|th|tieth|ty)?|Seven(?:teenth|teen|th|tieth|ty)?|Eight(?:eenth|een|h|ieth|y)?|Nine(?:teenth|teen|th|tieth|ty)?|Ten(?:th)?|Eleven(?:th)?|Twel(?:fth|ve)|Thirt(?:eenth|een|ieth|y)|Twent(?:|ieth|y)|Hundred(?:th)?|Thousand(?:th)?|Million(?:th)?)\b/, "gm")
 ];
 
@@ -18,7 +18,7 @@ export const LocationMidfixRegEx: RegExp[] = [
   new RegExp(/\bof\b/, "gmi"),
   new RegExp(/\bof\sthe\b/, "gmi"),
   new RegExp(/\bon\b/, "gmi"),
-  new RegExp(/\bon\sthe\b/, "gmi"),
+  new RegExp(/\b[io]n\sthe\b/, "gmi"),
   new RegExp(/\bthe\b/, "gmi"),
   new RegExp(/\-y\-/, "gmi")
 ];
@@ -28,7 +28,7 @@ const a: RegExp[] = [
   /\b(?:apartment|block|suite|unit)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/gmi,
   /\-on\-sea\b/gmi,
   /\-on\-the\-wall\b/gmi,
-  /\b(?:HMS|UK|USA?)\b/gm,
+  /\b(?:UK|USA?)\b/gm,
 
   /\babdication\swood\b/gmi,
   /\babundant\sgrace\b/gmi,
@@ -43,19 +43,26 @@ const a: RegExp[] = [
   /\baggregate\swalk\b/gmi,
   /\bagony\spoint\b/gmi,
   /\baircraft\s(?:esplanade|way)\b/gmi,
+  /\b(?:east|glyne|west)\sascent\b/gmi,
   /\bback\so['f]?\sthe\sworld\b/gmi,
   /\bbleaching\s(?:hill|rocks)\b/gmi,
   /\bbrother\s(?:hills|isle|loch)\b/gmi,
+  /\bcabinet\s(?:close|way|wood)\b/gmi,
   /\bcoesau[\s\-]whips\b/gmi,
   /\bcommonwealth\s(?:avenue|close|drive|road|view|way)\b/gmi,
+  /\bframe\s(?:green|heath|lane|wood)\b/gmi,
   /\bfunny[\s\-]shaped\swood\b/gmi,
   /\bheight\sof\sthe\sworld\b/gmi,
   /\bhockey\s(?:close|fields|hill)\b/gmi,
   /\bice\s(?:cleugh|drove|hill|house|pond|street)\b/gmi,
   /\bloading\s(?:bay|hope)\b/gmi,
+  /\bmetal\s(?:box\sway|bridge|street)\b/gmi,
   /\bplatform\s(?:\d+|drive|road|street)\b/gmi,
+  /\bpolice\s(?:convalescent|drive|lane|pit|road|row|square|station|street)\b/gmi,
   /\bporpoise\shill\b/gmi,
   /\bporridge\s(?:bottom|cairn|green|pot\salley)\b/gmi,
+  /\bpublic\s(?:hall|garden|park|wood)\b/gmi,
+  /\brocking\s(?:moor|stone)\b/gmi,
   /\bskating\spond\b/gmi,
   /\bswinging\sbasin\b/gmi,
   /\btaxi\sway\b/gmi,
@@ -63,7 +70,14 @@ const a: RegExp[] = [
   /\btearing\sledge\b/gmi,
   /\btechnical\s(?:college|street)\b/gmi,
   /\btechnology\s(?:avenue|building|close|college|drive|road)\b/gmi,
+  /\btradesman\swalk\b/gmi,
+  /\btrainers\sbrae\b/gmi,
+  /\btransforming\sstation\b/gmi,
+  /\btransport\s(?:avenue|lane|plantation|road)\b/gmi,
+  /\btripping\sgreen\b/gmi,
   /\bThe\s(?:Waterwheel)\b/gm,
+  /\bunnamed\s(?:rd|road)\b/gmi,
+  /\buniversity\s(?:academy|avenue|barns|boulevard|campus|center|centre|close|college|court|crescent|drive|farm|garden|hospital|house|parks?|parkway|place|quays|road|street|terrace|walk|way|wood)\b/gmi,
   /\bwaterwheel\s(?:close|court|lane|rise|way)\b/gmi,
   /\bwatery\s(?:bottom|brake|close|combe|dyke|gate|geo|grove|haven|hill|knowe|lane|marsh|orchard|pots|road|street|way|wood)\b/gmi,
   /\bwealth\s(?:hole|of\swaters)\b/gmi,

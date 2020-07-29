@@ -7,7 +7,7 @@ import {
   TelephoneEntity, TimeEntity, URLEntity
 } from "./entities";
 import { LocationPrefixRegEx, LocationRegEx, LocationMidfixRegEx } from "./rules/location";
-import { AgeRegEx, BankingRegEx } from "./rules/misc-rules";
+import { AgeRegEx } from "./rules/misc-rules";
 import { RospaRegEx } from "./rules/rospa";
 import { MedicalAbbrRegEx } from "./rules/medical-abbreviations";
 import { MedicalTermRegEx } from "./rules/medical-terms";
@@ -34,6 +34,7 @@ const t = r("@buckneri/string");
 const isPropercase = t.isPropercase;
 const findEmail = t.findEmail;
 const findNHSNumber = t.findNHSNumber;
+const findBankingNumbers = t.findBankingNumbers;
 const findCurrency = t.findCurrency;
 const findUKTelephone = t.findUKTelephone;
 const findURL = t.findURL;
@@ -83,7 +84,7 @@ export class NLP {
     const banking: Evaluation = {
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: BankingEntity,
-      matches: this.evaluateRegEx(data, BankingRegEx)
+      matches: this.evaluateRegEx(data, findBankingNumbers)
     };
 
     const currency: Evaluation = {      
@@ -369,6 +370,7 @@ export class NLP {
     curr.action = d;
     curr.match.length = curr.match.value.length;
     curr.match.end = next.match.end;
+    curr.action.prefix = curr.action.midfix = curr.action.suffix = 0;
     return curr;
   }
 

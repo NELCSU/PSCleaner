@@ -2,7 +2,7 @@
   "author": "NEL",
   "dependencies": {
     "@buckneri/js-lib-selection": "0.0.6",
-    "@buckneri/string": "^0.5.1",
+    "@buckneri/string": "^0.5.4",
     "@buckneri/web-components": "^0.3.2",
     "chokidar": "^3.4.1",
     "debounce": "^1.2.0",
@@ -39,7 +39,7 @@
     "@types/uuid": "^8.0.0",
     "@typescript-eslint/eslint-plugin": "^3.7.1",
     "@typescript-eslint/parser": "^3.7.1",
-    "electron": "^9.1.1",
+    "electron": "^9.1.2",
     "electron-rebuild": "^1.11.0",
     "eslint": "^7.5.0",
     "eslint-plugin-jsdoc": "^30.0.3",
