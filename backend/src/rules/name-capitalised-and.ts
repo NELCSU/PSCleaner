@@ -776,6 +776,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "height",
 "heights",
 "helmet",
+"herald",
 "hey",
 "hide",
 "high",

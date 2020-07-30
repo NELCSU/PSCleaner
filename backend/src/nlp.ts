@@ -396,7 +396,11 @@ export class NLP {
         list.splice(i, 1);
       } else if (pre && mid) {
         if (mid.action.midfix) {
-          if (mid.match.end + 2 === suf.match.start && pre.match.end + 2 === mid.match.start && pre.action.midfix === 0) {
+          if (mid.match.end + 2 === suf.match.start
+              && pre.match.end + 2 === mid.match.start
+              && pre.action.midfix === 0
+              && mid.entity.domain === suf.entity.domain
+              && mid.entity.domain === pre.entity.domain) {
             --i;
           } else {
             list.splice(i - 1, 1);

@@ -554,7 +554,7 @@ export const NamesEndingRegEx: RegExp[] = [
    new RegExp(/\b[a-z]+nn[a-fh-rt-xz]\b/, "gmi"),
    new RegExp(/\b[a-z]+no[cf-ko-quvz]\b/, "gmi"),
    new RegExp(/\b[a-z]+nr[a-df-xz]\b/, "gmi"),
-   new RegExp(/\b[a-z]+ns[a-df-su-xz]\b/, "gmi"),
+   new RegExp(/\b[a-z]+ns[a-df-suvxz]\b/, "gmi"),
    new RegExp(/\b[a-z]+nt[a-gi-rt-xz]\b/, "gmi"),
    new RegExp(/\b[a-z]+nu[a-df-knoqru-z]\b/, "gmi"),
    new RegExp(/\b[a-z]+ny[a-kn-z]\b/, "gmi"),
