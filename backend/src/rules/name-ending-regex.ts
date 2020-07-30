@@ -1,5 +1,5 @@
 export const NamesEndingRegEx: RegExp[] = [
-   new RegExp(/[a-z]*[À-ÖØ-öø-ÿãñõțũąğịňōıŚạşęăầẩőếšảłộơńėəāţș]+[a-z]*/, "gmi"),
+   new RegExp(/[a-z]*[À-ÖØ-öø-ÿãñõțũąğịňōıŚạşęăầẩőếěšảłộơńėəāţș]+[a-z]*/, "gmi"),
 
    new RegExp(/\bSt\./, "gm"),
 
@@ -78,6 +78,7 @@ export const NamesEndingRegEx: RegExp[] = [
    new RegExp(/\b[a-z]+[ix-z]cot\b/, "gmi"),
    new RegExp(/\b[a-z]+[bsx-z]dal\b/, "gmi"),
    new RegExp(/\b[a-z]+[adhx-z]dar\b/, "gmi"),
+   new RegExp(/\b[a-z]+adat\b/, "gmi"),
    new RegExp(/\b[a-z]+[ax-z]dee\b/, "gmi"),
    new RegExp(/\b[a-z]+[deru-z]din\b/, "gmi"),
    new RegExp(/\b[a-z]+[h-kr-z]dis\b/, "gmi"),
@@ -384,9 +385,10 @@ export const NamesEndingRegEx: RegExp[] = [
    new RegExp(/\b[a-z]+bv[a-rt-z]\b/, "gmi"),
 
    new RegExp(/\b[a-z]+ca[acdg-koquvz]\b/, "gmi"),
-   new RegExp(/\b[a-z]+c[b-dfgjmqsvwx][a-z]\b/, "gmi"),
+   new RegExp(/\b[a-z]+c[bcfgjmqsvwx][a-z]\b/, "gmi"),
+   new RegExp(/\b[a-z]+cd[abd-z]\b/, "gmi"),
    new RegExp(/\b[a-z]+ce[bcf-kmoqu-xz]\b/, "gmi"),
-   new RegExp(/\b[a-z]+ch[b-df-rt-xz]\b/, "gmi"),
+   new RegExp(/\b[a-z]+ch[b-dg-rt-xz]\b/, "gmi"),
    new RegExp(/\b[a-z]+ci[bf-kqru-z]\b/, "gmi"),
    new RegExp(/\b[a-z]+ck[a-ot-xz]\b/, "gmi"),
    new RegExp(/\b[a-z]+c[lr][b-df-np-xz]\b/, "gmi"),

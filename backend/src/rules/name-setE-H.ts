@@ -549,7 +549,7 @@ const a: string[] = [
 "eba",
 "ebacher",
 "eback",
-"ebadat",
+
 "ebadian",
 "ebado",
 "ebadollahzade",
@@ -1829,7 +1829,7 @@ const a: string[] = [
 "effart",
 "effat",
 "effath",
-"effatosadat",
+
 "effegene",
 "effendy",
 "effeny",
@@ -6959,7 +6959,7 @@ const a: string[] = [
 "eraclides",
 "eraclis",
 "eradaejire",
-"eradat",
+
 "erade",
 "eradeth",
 "eradian",
@@ -8307,7 +8307,7 @@ const a: string[] = [
 "esman",
 "esmangil",
 "esmat",
-"esmatalsadat",
+
 "esmaylin",
 "esmel",
 "esmelealem",
@@ -10366,7 +10366,7 @@ const a: string[] = [
 "ezaquiel",
 "ezard",
 "ezatnesa",
-"ezatosadat",
+
 "ezavin",
 "ezdekiel",
 "eze",
@@ -11613,7 +11613,6 @@ const a: string[] = [
 "famulare",
 "famusudo",
 "famy",
-"fan",
 "fanacha",
 "fanache",
 "fanacurt",
@@ -43887,6 +43886,7 @@ const a: string[] = [
 "hartgen",
 "hartgerink",
 "hartgers",
+"hartges",
 "hartgill",
 "hartgrave",
 "hartgraves",
@@ -53427,7 +53427,7 @@ const a: string[] = [
 "hosquet",
 "hoss",
 "hossack",
-"hossadat",
+
 "hossainpour",
 "hossains",
 "hossaint",

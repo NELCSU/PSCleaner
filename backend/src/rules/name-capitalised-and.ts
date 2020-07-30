@@ -977,6 +977,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "logic",
 "logistics",
 "lonely",
+"lonesome",
 "long",
 "longtail",
 "lorry",
