@@ -43965,7 +43965,7 @@ const a: string[] = [
 "onute",
 "onuzans",
 "onuzulike",
-"onw",
+"onwardi",
 "onweather",
 "onweller",
 "onwenu",

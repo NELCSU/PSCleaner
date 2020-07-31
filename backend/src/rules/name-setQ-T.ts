@@ -3100,6 +3100,7 @@ const a: string[] = [
 "rambin",
 "rambinas",
 "rambissoon",
+"ramblas",
 "rambledown",
 "rambodavilage",
 "rambone",
@@ -69831,7 +69832,7 @@ const a: string[] = [
 "tyny",
 "tynycastell",
 "tynycymmer",
-"tynyddol",
+
 "tynygarn",
 "tynygilfach",
 "tynyreithin",

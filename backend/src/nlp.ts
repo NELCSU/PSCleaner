@@ -456,7 +456,7 @@ export class NLP {
 
     while (v.length > 0) {
       current = v.shift() as MatchedEntity;
-      let skip: boolean = cursor >= current.match.end;
+      let skip: boolean = cursor === current.match.start ? false : cursor >= current.match.end;
       let lookAhead: boolean = v.length > 0 && !skip;
       while (lookAhead) {
         lookAhead = false;

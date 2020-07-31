@@ -43327,9 +43327,10 @@ const a: string[] = [
 "llanellen",
 "llanelltud",
 "llanelly",
+"llanera",
 "llanerch",
 "llanerchaeron",
-"llanerchyddol",
+
 "llanerchydol",
 "llanes",
 "llanet",

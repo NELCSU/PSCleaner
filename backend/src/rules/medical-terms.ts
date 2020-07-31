@@ -45,7 +45,7 @@ const a: RegExp[] = [
   /\bpartum\b/gmi,
   /\bpatela\b/gmi,
   /\bpelvic\b/gmi,
-  /\b(?:neck|back)[\-\s]pain\b/gmi,
+  /\b(?:arm|neck|back)[\-\s]pain\b/gmi,
   /\bpetechia\b/gmi,
   /\bpityriasis\srosea\b/gmi,
   /\bplaster\sof\sparis\b/gmi,
