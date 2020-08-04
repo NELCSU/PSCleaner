@@ -21,6 +21,7 @@ const a: RegExp[] = [
   /\b[a-z]+zomib\b/gmi,
   /\b[a-z]+zumab\b/gmi,
 
+  /\baciclovir\b/gmi,
   /\b(?:co\-?)?amox?iclav\b/gmi,
   /\bavigan\b/gmi,
   /\bbenodryl\b/gmi,
@@ -30,6 +31,7 @@ const a: RegExp[] = [
   /\b(?:co\-?)?cod[ao]mol\b/gmi,
   /\b(?:co\-?)?dyd?ramol\b/gmi,
   /\bcorazol\b/gmi,
+  /\bdermol\b/gmi,
   /\bdiclofenac\b/gmi,
   /\bdioral[ty]{2}e\b/gmi,
   /\bfavipiravir\b/gmi,
@@ -39,7 +41,9 @@ const a: RegExp[] = [
   /\bnicorette\b/gmi,
   /\bparacet[aeo]?ma?ol\b/gmi,
   /\bprozac\b/gmi,
-  /\bsalbut?amol\b/gmi
+  /\bremdesivir\b/gmi,
+  /\bsalbut?amol\b/gmi,
+  /\bviagra\b/gmi
 ];
 const MedicationRegEx: Set<RegExp> = new Set();
 a.forEach(term => MedicationRegEx.add(term));

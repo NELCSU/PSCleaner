@@ -41,6 +41,7 @@ const findURL = t.findURL;
 const findUKPostcode = t.findUKPostcode;
 const findDate = t.findDate;
 const findTime = t.findTime;
+const findOrdinal = t.findOrdinal;
 
 /**
  * ### Natural language processing services
@@ -129,10 +130,16 @@ export class NLP {
       matches: this.evaluateRegEx(data, findUKPostcode)
     };
 
-    const locationPrefix: Evaluation = {
+    const locationPrefix1: Evaluation = {
       action: { discard: 1, joinable: 1, order: 3, prefix: 1, midfix: 0, suffix: 0 },
       entity: LocationRegExEntity,
       matches: this.evaluateRegEx(data, LocationPrefixRegEx)
+    };
+
+    const locationPrefix2: Evaluation = {
+      action: { discard: 1, joinable: 1, order: 3, prefix: 1, midfix: 0, suffix: 0 },
+      entity: LocationRegExEntity,
+      matches: this.evaluateRegEx(data, findOrdinal, (n: string) => isPropercase(n))
     };
 
     const nameMidfix: Evaluation = {
@@ -156,13 +163,13 @@ export class NLP {
     const properName: Evaluation = {
       action: { discard: 0, joinable: 1, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
-      matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), ProperNameSet)
+      matches: this.evaluateKeyword(data, (n: string) => isPropercase(n), ProperNameSet)
     };
 
     const properNameJoin: Evaluation = {
       action: { discard: 1, joinable: 1, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
-      matches: this.evaluateKeyword(data, (n: string) => !isPropercase(n), ProperNameSetJoinOnly)
+      matches: this.evaluateKeyword(data, (n: string) => isPropercase(n), ProperNameSetJoinOnly)
     };
 
     const medicalAbbr: Evaluation = {
@@ -252,7 +259,7 @@ export class NLP {
     matches = this._sortMatches(data, 
       ages, banking, currency, dates, 
       emails, eth, householdItem,
-      location, locationPrefix, 
+      location, locationPrefix1, locationPrefix2, 
       medication, medicalAbbr, medicalTerm,
       namePrefix, nameMidfix, nameInitials, nameMiddleInitials, namePlural, names, namesEnding, nhs,
       postcode, properName, properNameJoin, partName,
@@ -275,8 +282,8 @@ export class NLP {
         if (m && keywords[i].has(word)) {
           fullword = m[0];
           passed = true;
-          if (testFn && testFn(fullword)) {
-            passed = false;
+          if (testFn) {
+            passed = testFn(fullword);
           }
           if (passed) {
             result.push({
@@ -294,22 +301,16 @@ export class NLP {
     return result;
   }
 
-  public evaluateRegEx(data: string, re: any): TextMatch[] {
+  public evaluateRegEx(data: string, re: any, testFn?: Function | null): TextMatch[] {
     const result: any[] = [];
+    let passed: boolean;
     if (typeof re === "function") {
       re(data).forEach((m: RegExpExecArray) => {
-        result.push({
-          end: m.index + m[0].length - 1,
-          id: this._id(m[0]),
-          length: m[0].length,
-          start: m.index,
-          value: m[0]
-        });
-      });
-    } else {
-      re.forEach((r: RegExp) => {
-        let m: RegExpExecArray | null;
-        while ((m = r.exec(data)) !== null) {
+        passed = true;
+        if (testFn) {
+          passed = testFn(m[0]);
+        }
+        if (passed) {
           result.push({
             end: m.index + m[0].length - 1,
             id: this._id(m[0]),
@@ -317,6 +318,25 @@ export class NLP {
             start: m.index,
             value: m[0]
           });
+        }
+      });
+    } else {
+      re.forEach((r: RegExp) => {
+        let m: RegExpExecArray | null;
+        while ((m = r.exec(data)) !== null) {
+          passed = true;
+          if (testFn) {
+            passed = testFn(m[0]);
+          }
+          if (passed) {
+            result.push({
+              end: m.index + m[0].length - 1,
+              id: this._id(m[0]),
+              length: m[0].length,
+              start: m.index,
+              value: m[0]
+            });
+          }
         }
       });
     }
