@@ -1,5 +1,7 @@
 const a: RegExp[] = [
+  /\bbali\sbreeze\b/gmi,
   /\bball\sbearing\b/gmi,
+  /\bariel\s(?:liquitab|tablets?|washing)\b/gmi,
   /\bbent\s(?:down|inwards|over)\b/gmi,
   /\bbunk\sbed\b/gmi,
   /\bcandle\swax\b/gmi,

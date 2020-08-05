@@ -33,7 +33,8 @@ const NameMiddleInitialRegEx: RegExp[] = [
 ];
 
 const NamePuralRegEx: RegExp[] = [
-  new RegExp(/(?<=[a-z][a-z])[\'\‘\’\`]s\b/, "gm")
+  new RegExp(/(?<=[a-z]{2})[\'\‘\’\`]s\b/, "gmi"),
+  new RegExp(/(?<=[a-z]s)[\'\‘\’\`]/, "gmi")
 ];
 
 export {

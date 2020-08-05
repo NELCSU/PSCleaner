@@ -27,6 +27,7 @@ const a: RegExp[] = [
   /\bbenodryl\b/gmi,
   /\bcal?pol\b/gmi,
   /\bcefuroxime\b/gmi,
+  /\bcetiri?zine\b/gmi,
   /\bcodiene\b/gmi,
   /\b(?:co\-?)?cod[ao]mol\b/gmi,
   /\b(?:co\-?)?dyd?ramol\b/gmi,

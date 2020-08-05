@@ -510,22 +510,20 @@ export class NLP {
     this._removeIsolatedMidfixes(result);
 
     if (result.length > 1) {
-      for (let i = result.length - 1; i > 0; i--) {
-        let peek = result[i];
-        let current = result[i - 1];
+      let i = 0;
+      while (i < result.length - 1) {
+        let peek = result[i + 1];
+        let current = result[i];
         const canJoin: boolean = this._joinable(current, peek);
-        if (canJoin && peek.match.length > 1) {
-          result[i - 1] = this._join(current, peek, data);
+        if (canJoin) {
+          result[i + 1] = this._join(current, peek, data);
           result.splice(i, 1);
-          if (result[i - 1].action.joinable !== 1 && result[i - 1].action.discard !== 1) {
-            --i;
-          }
-        } else if (peek.action.discard === 1) {
+          continue;
+        } else if (current.action.discard) {
           result.splice(i, 1);
+          continue;
         }
-      }
-      if (result[0].action.discard === 1) {
-        result.splice(0, 1);
+        ++i;
       }
     } else if (result.length === 1) {
       if (result[0].action.discard === 1) {

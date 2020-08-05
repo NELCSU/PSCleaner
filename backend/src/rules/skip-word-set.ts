@@ -77,6 +77,7 @@ const a: string[] = [
 "camra",
 "capita",
 "caravan",
+"cardigan",
 "carpark",
 "carte",
 "carton",
@@ -124,6 +125,7 @@ const a: string[] = [
 "deem",
 "defra",
 "defraud",
+"delicatessen",
 "deluge",
 "demur",
 "desire",
@@ -144,6 +146,7 @@ const a: string[] = [
 "ebay",
 "echo",
 "echoes",
+"eerie",
 "effet",
 "effort",
 "eggs",
@@ -237,6 +240,7 @@ const a: string[] = [
 "kiwi",
 "lapd",
 "laugh",
+"lessen",
 "lesson",
 "lgbt",
 "limbo",
@@ -407,6 +411,7 @@ const a: string[] = [
 "shisha",
 "shoddy",
 "shoes",
+"silos",
 "skatepark",
 "slang",
 "slim",
@@ -535,7 +540,8 @@ const a: string[] = [
 "writeoff",
 "yoga",
 "yougov",
-"yuan"
+"yuan",
+"zigzag"
 ];
 const SkipWordSet: Set<string> = new Set();
 a.forEach(i => SkipWordSet.add(i));

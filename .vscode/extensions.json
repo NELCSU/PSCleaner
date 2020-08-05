@@ -5,6 +5,7 @@
     "bashmish.es6-string-css",
     "DavidAnson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
+    "github.vscode-pull-request-github",
     "hookyqr.beautify",
     "tobermory.es6-string-html"
   ]
