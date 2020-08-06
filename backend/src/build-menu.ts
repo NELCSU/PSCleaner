@@ -26,11 +26,8 @@ export class AppMenu {
             case "showHelp":
               s.click = () => this.showHelp(s.url);
               break;
-            case "showTemplates":
-              s.click = () => this.showTemplates();
-              break;
-            case "showTrainingData":
-              s.click = () => this.showTrainingData();
+            case "showTagViewer":
+              s.click = () => this.showTagViewer();
               break;
             case "showSettings":
               s.click = () => this.showSettings();
@@ -62,12 +59,8 @@ export class AppMenu {
     this.#parent.mainWindow.loadURL(config.pages.get("settings"));
   }
 
-  public showTemplates(): void {
-    this.#parent.mainWindow.loadURL(config.pages.get("templates"));
-  }
-
-  public showTrainingData(): void {
-    this.#parent.mainWindow.loadURL(config.pages.get("training"));
+  public showTagViewer(): void {
+    this.#parent.mainWindow.loadURL(config.pages.get("viewer"));
   }
 
   public showVersion(): string {

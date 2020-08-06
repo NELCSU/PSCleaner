@@ -20,7 +20,8 @@ const a: RegExp[] = [
   /\bglass\s(?:cut|table)\b/gmi,
   /\bhair\sdryer\b/gmi,
   /\bhead\sinj(?:ury)?\b/gmi,
-  /\bhot\swater\sbottle\b/gmi,
+  /\b(?:bleach|(?:hot\s)?water)\sbottle\b/gmi,
+  /\bbottle\sof\s(?:bleach|(?:hot\s)?water)\b/gmi,
   /\bhover\sboard\b/gmi,
   /\blower\sleg\b/gmi,
   /\bkick\sthe\sball\b/gmi,
@@ -37,7 +38,7 @@ const a: RegExp[] = [
   /\bthe\sbath\b/gmi,
   /\btrampol(?:ine)?\b/gmi,
   /\btrod\son\b/gmi,
-  /\bwater\sbottle\b/gmi,
+  /\bwhite\sspirit\b/gmi,
   /\bwindow\ssill\b/gmi,
   /\bwooden\sdoor\b/gmi,
   /\bzimmer\sframe\b/gmi

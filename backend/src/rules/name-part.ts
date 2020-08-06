@@ -9,7 +9,8 @@ const a: string[] = [
 "le",
 "los",
 "van",
-"von"
+"von",
+"y"
 ];
 
 const NamePartSet: Set<string> = new Set();

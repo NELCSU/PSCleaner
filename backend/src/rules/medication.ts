@@ -23,6 +23,7 @@ const a: RegExp[] = [
 
   /\baciclovir\b/gmi,
   /\b(?:co\-?)?amox?iclav\b/gmi,
+  /\baugment[iu]m\b/gmi,
   /\bavigan\b/gmi,
   /\bbenodryl\b/gmi,
   /\bcal?pol\b/gmi,

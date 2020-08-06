@@ -85,6 +85,14 @@ nel-text-input, select {
   justify-content: flex-end
 }
 
+.link {
+  color: #005eb8;
+  font-weight: 500;
+  margin-top: 0.25rem;
+  padding: 0.25rem;
+  user-select: none
+}
+
 .vcenter { align-items: center }
 
 .hleft { justify-content: flex-start }

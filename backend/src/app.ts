@@ -12,7 +12,6 @@ if (require("electron-squirrel-startup")) { // eslint-disable-line global-requir
 import { AppMenu } from "./build-menu";
 import { AppTray } from "./build-tray";
 import { Entities } from "./entities";
-import { TrainingFiles } from "./training-files";
 import { ImportFiles } from "./import-files";
 import { ExportFiles } from "./export-files";
 import { ProcessFiles } from "./process-files";
@@ -35,7 +34,6 @@ class Main {
   public exportFiles!: ExportFiles;
   public processFiles!: ProcessFiles;
   public templateFiles!: TemplateFiles;
-  public trainingFiles!: TrainingFiles;
   public tray: any;
 
   constructor() {
@@ -60,7 +58,6 @@ class Main {
 
       const nlp: NLP = new NLP(this._store);
       this.entities = new Entities();
-      this.trainingFiles = new TrainingFiles(this._store);
       this.templateFiles = new TemplateFiles(this._store);
       this.importFiles = new ImportFiles(this._store);
       this.exportFiles = new ExportFiles(this._store);

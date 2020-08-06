@@ -1,13 +1,12 @@
 import type { Action, Evaluation, MatchedEntity, TextMatch } from "../types/PSCleaner";
 import {
-  AgeEntity, BankingEntity, CurrencyEntity, DateEntity, 
+  BankingEntity, CurrencyEntity, DateEntity, 
   EmailEntity, EthnicityEntity,
   LocationRegExEntity, MedicalEntity,
   NameEntity, NameRegExEntity, NHSEntity, SkipWordEntity,
   TelephoneEntity, TimeEntity, URLEntity
 } from "./entities";
 import { LocationPrefixRegEx, LocationRegEx, LocationMidfixRegEx } from "./rules/location";
-import { AgeRegEx } from "./rules/misc-rules";
 import { RospaRegEx } from "./rules/rospa";
 import { MedicalAbbrRegEx } from "./rules/medical-abbreviations";
 import { MedicalTermRegEx } from "./rules/medical-terms";
@@ -75,12 +74,6 @@ export class NLP {
    */  
   public async evaluate(data: string): Promise<MatchedEntity[]> {
     let matches: MatchedEntity[] = [];
-
-    const ages: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
-      entity: AgeEntity,
-      matches: this.evaluateRegEx(data, AgeRegEx)
-    };
 
     const banking: Evaluation = {
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
@@ -257,7 +250,7 @@ export class NLP {
     };
 
     matches = this._sortMatches(data, 
-      ages, banking, currency, dates, 
+      banking, currency, dates, 
       emails, eth, householdItem,
       location, locationPrefix1, locationPrefix2, 
       medication, medicalAbbr, medicalTerm,
@@ -524,6 +517,9 @@ export class NLP {
           continue;
         }
         ++i;
+      }
+      if (result[result.length - 1].action.discard) {
+        result.pop();
       }
     } else if (result.length === 1) {
       if (result[0].action.discard === 1) {

@@ -18,21 +18,12 @@
       ]
     },
     {
-      "label": "View",
-      "submenu": [
-        {
-          "label": "Templates",
-          "click": "showTemplates"
-        },
-        {
-          "label": "Training data",
-          "click": "showTrainingData"
-        }
-      ]
-    },
-    {
       "label": "Developer",
       "submenu": [
+        {
+          "label": "Tag viewer",
+          "click": "showTagViewer"
+        },
         {
           "label": "Show/hide DevTools",
           "accelerator": "Shift+Ctrl+I",

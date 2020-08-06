@@ -1,15 +1,6 @@
 import { ipcMain as ipc } from "electron";
 import type { Entity } from "../types/PSCleaner";
 
-export const AgeEntity: Entity = { 
-  color: "#cc33ee", 
-  description: "Person's age via pattern match",
-  domain: "AGE", 
-  label: "Age/duration", 
-  mask: "DURATION",
-  type: "regular expression" 
-};
-
 export const BankingEntity: Entity = { 
   color: "#994320", 
   description: "UK banking identitfiers via pattern match",
@@ -168,7 +159,7 @@ export class Entities {
   public static getList(): Promise<Entity[]> {
     return Promise.resolve(
       [
-        AgeEntity, BankingEntity, CurrencyEntity, 
+        BankingEntity, CurrencyEntity, 
         DateEntity, EmailEntity, EthnicityEntity,
         LocationEntity, LocationRegExEntity,
         NameEntity, NHSEntity, SkipWordEntity,

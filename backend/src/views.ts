@@ -10,7 +10,7 @@ const view: string = j(base, "client");
 const pages: Map<string, string> = new Map<string, string>();
 pages.set("index", fileUrl(j(view, "index.html")));
 pages.set("settings", fileUrl(j(view, "settings.html")));
-pages.set("training", fileUrl(j(view, "training.html")));
+pages.set("viewer", fileUrl(j(view, "viewer.html")));
 pages.set("templates", fileUrl(j(view, "templates.html")));
 
 export default {

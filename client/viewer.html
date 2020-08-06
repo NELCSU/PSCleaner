@@ -9,7 +9,7 @@
     content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src-elem 'self' 'unsafe-inline' es6: blob:;">
   <title>PSCleaner</title>
   <link rel="stylesheet" href="./css/shared.css">
-  <link rel="stylesheet" href="./css/training.css">
+  <link rel="stylesheet" href="./css/viewer.css">
   <script type="module" src="es6://lib/web-components/dist/web-components/web-components.esm.js"></script>
 </head>
 
@@ -17,7 +17,7 @@
   <nel-network-connection>
     <div class="network flex-r vcenter hleft"><span class="message">Application is offline</span></div>
   </nel-network-connection>
-  <h2><a href="./index.html">Home</a> &gt; Manage training data</h2>
+  <h2><a href="./index.html">Home</a> &gt; Tag viewer</h2>
 
   <nel-modal-view id="mvEntityTagger">
     <div class="modal-message">
@@ -35,14 +35,10 @@
     <div id="txtAddText" contentEditable aria-describedby="hintAddText"></div>
 
     <div class="flex-r vcenter pad">
-      <a href="#" id="btnOpenText" class="btn-link action" title="Open file">Open</a>
-      <a href="#" id="btnAddText" class="btn-link action disabled" title="Save file">Save</a>
-      <a href="#" id="btnCloseFile" class="btn-link action disabled" title="Close file">Close</a>
-      <a href="#" id="btnAutodiscover" class="btn-link action disabled"
-        title="Runs entity recognition process">Autodiscover</a>
-      <a href="#" id="btnClearTags" class="btn-link action disabled" title="Remove any existing entity tags">Clear</a>
+      <a href="#" id="btnAutodiscover" class="btn-link action disabled" title="Runs entity recognition process">Autodiscover</a>
       <div class="flex-r vcenter hright" id="pnlDelete">
-        <a href="#" id="btnDeleteTextFile" class="btn-link action disabled warn" title="Delete file">Delete file</a>
+        <a href="#" id="btnClearTags" class="btn-link action disabled" title="Remove any existing entity tags">Undo</a>
+        <a href="#" id="btnClearAll" class="btn-link warn action disabled" title="Close file">Erase</a>
       </div>
     </div>
 
@@ -50,19 +46,8 @@
       Trace &nbsp;
       <span title="Toggle trace feature. If on, a trackable number is appended to the redaccted text placeholder."><nel-on-off id="btnTrace" size="3"></nel-on-off></span>
     </div>
-
-    <div id="pnlFileName" hidden>
-      <hr>
-      File name: <span id="lblFilename" class="file-path"></span>
-      <div class="panel flex-r vcenter">
-        <input id="chkFileRename" type="checkbox" />
-        <label for="chkFileRename">Rename</label>
-        <input class="disabled" placeholder="Enter a new filename" type="text" id="lblRenameFile" />
-        <a href="#" id="btnFileRename" class="btn-link action disabled">Save</a>
-      </div>
-    </div>
   </div>
-  <script src="./esm-loaders/training.js"></script>
+  <script src="./esm-loaders/viewer.js"></script>
 </body>
 
 </html>

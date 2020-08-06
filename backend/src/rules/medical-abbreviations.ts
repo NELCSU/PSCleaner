@@ -3,7 +3,8 @@ const a: RegExp[] = [
   /\badhd\b/gmi,
   /\bantibac\b/gmi,
   /\bALTE\b/gm,
-  /\bbiba\b/gmi,
+  /\bBIB\b/gm,   // brought in by
+  /\bbiba\b/gmi, // brought in by ambulance
   /\bcopd\b/gmi,
   /\bcssu\b/gmi,
   /\bdatix\b/gmi,

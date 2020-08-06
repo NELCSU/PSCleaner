@@ -10,7 +10,7 @@ export type CSVTemplate = {
 export type ReadFileAction = {
   data?: string,
   fn?: string,
-  status: TrainingFileResponse | TemplateFileResponse
+  status: TemplateFileResponse
 };
 
 export type ExportFolderRequest = "get-export-folder" | "export-file-count" | "set-export-folder";
@@ -32,12 +32,6 @@ export type TemplateFileResponse = "template-file-deleted" | "template-file-dele
 
 export type TemplateFolderRequest = "get-template-folder" | "set-template-folder";
 export type TemplateFolderResponse = "template-folder" | "template-file-count" | "template-folder-error";
-
-export type TrainingFileRequest = "delete-training-file" | "get-temp-training-file" | "get-training-file" | "rename-training-file" | "save-training-file";
-export type TrainingFileResponse = "training-file-deleted" | "training-file-deletion-error" | "temp-training-filename" | "training-file" | "training-file-error" | "training-file-rename-error" | "training-file-rename-warning" | "training-file-renamed" | "training-file-save-error" | "training-file-saved";
-
-export type TrainingFolderRequest = "get-training-folder" | "set-training-folder";
-export type TrainingFolderResponse = "training-folder" | "training-file-count" | "training-folder-error";
 
 export type TextMatch = {
   end: number,

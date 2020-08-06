@@ -14,7 +14,7 @@
     "src/index.ts",
     "src/settings.ts",
     "src/templates.ts",
-    "src/training.ts",
+    "src/viewer.ts",
     "src/util.ts"
   ]
 }

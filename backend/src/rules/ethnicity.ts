@@ -328,7 +328,7 @@ const a: string[] = [
 "dogon",
 "dogra",
 "dogri",
-"dombki",
+
 "dominican",
 "dominiquai",
 "dongolawi",
@@ -391,7 +391,7 @@ const a: string[] = [
 "gambian",
 "gametia",
 "ganda",
-"gandarbha",
+
 "garasia",
 "garo",
 "gascon",
@@ -520,7 +520,7 @@ const a: string[] = [
 "itsari",
 "ivorian",
 "ixil",
-"izhma",
+
 "izzi",
 "jagoi",
 "jakaltek",
@@ -545,7 +545,7 @@ const a: string[] = [
 "juhurim",
 "jukun",
 "kabardian",
-"kabye",
+
 "kabyle",
 "kadaru",
 "kaibarta",
@@ -816,7 +816,7 @@ const a: string[] = [
 "nahua",
 "nair",
 "nama",
-"nambya",
+
 "namibian",
 "nande",
 "nandi",
@@ -866,7 +866,7 @@ const a: string[] = [
 "ogoni",
 "ohafia",
 "ohuhu",
-"ojibwe",
+
 "okiek",
 "oneida",
 "oorlam",
@@ -1212,10 +1212,5 @@ const a: string[] = [
  * @link https://en.wikipedia.org/wiki/list_of_contemporary_ethnic_groups
  */
 const EthnicitySet: Set<string> = new Set();
-const L: number = a.length;
-for (let i = 0; i < L; i++) {
-EthnicitySet.add(a[i]);
-}
-export {
-EthnicitySet
-};
+a.forEach(i => EthnicitySet.add(i));
+export { EthnicitySet };

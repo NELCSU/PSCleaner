@@ -25,7 +25,6 @@
     "src/nlp.ts",
     "src/process-files.ts",
     "src/template-files.ts",
-    "src/training-files.ts",
     "src/views.ts",
     "src/window.ts",
 
@@ -34,7 +33,6 @@
     "src/rules/medical-abbreviations.ts",
     "src/rules/medical-terms.ts",
     "src/rules/medication.ts",
-    "src/rules/misc-rules.ts",
     "src/rules/name-capitalised.ts",
     "src/rules/name-capitalised-and.ts",
     "src/rules/name-ending-regex.ts",

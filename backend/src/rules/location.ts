@@ -1,5 +1,6 @@
 export const LocationPrefixRegEx: RegExp[] = [
-  new RegExp(/\b(?<![,\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{2,})/, "gmi")
+  new RegExp(/\b(?<![,\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{2}\s[a-z]{3,})/, "gmi"),
+  new RegExp(/\b(?<![,\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{6,})/, "gmi")
 ];
 
 export const LocationMidfixRegEx: RegExp[] = [
@@ -40,12 +41,16 @@ const a: RegExp[] = [
   /\bassociation\s(?:road|street|way)\b/gmi,
   /\bback\so['f]?\sthe\sworld\b/gmi,
   /\bbleaching\s(?:hill|rocks)\b/gmi,
+  /\bbleeding\s(?:heart\syard|wolf\slane)\b/gmi,
   /\bbrother\s(?:hills|isle|loch)\b/gmi,
   /\bbusiness\s(?:centre|court|park)\b/gmi,
   /\bcabinet\s(?:close|way|wood)\b/gmi,
   /\bcoesau[\s\-]whips\b/gmi,
   /\bcommonwealth\s(?:avenue|close|drive|road|view|way)\b/gmi,
+  /\b(?:bird|cross|heart)\sin\shand\s(?:church|lane|road|street|yard)\b/gmi,
   /\bdefence\s(?:academy|close|street)\b/gmi,
+  /\bhand\s(?:avenue|bank|causeway|close|copse|court|dale|farm|green|lake|lane|marsh|street|trough|wood)\b/gmi,
+  /\b(?:hand\sand\spen|crossway\shand|the\sawful\shand)\b/gmi,
   /\bholy\sfamily\b/gmi,
   /\bFamily\s(?:hub|pond|school)\b/gm,
   /\bSixth\sForm\b/gm,

@@ -2,7 +2,7 @@ import { ipcRenderer as ipc } from "electron";
 import { showError } from "./util";
 
 let importFolder = "", processingFolder = "";
-let exportFolder = "", templateFolder = "", trainingFolder = "";
+let exportFolder = "", templateFolder = "";
 const dialogOptions = {
   title: "Select a folder",
   buttonLabel: "Select folder",
@@ -20,7 +20,7 @@ const PATH_COLLISION = "Error changing folders. Please check that each folder ha
     ipc.invoke("show-modal-open", dialogOptions as any)
       .then((f: any) => {
         if (f.filePaths.length > 0) {
-          if (f.filePaths[0] !== processingFolder && f.filePaths[0] !== exportFolder && f.filePaths[0] !== trainingFolder) {
+          if (f.filePaths[0] !== processingFolder && f.filePaths[0] !== exportFolder) {
             importFolder = f.filePaths[0];
             label.textContent = importFolder ? importFolder : "Not specified";
             if (importFolder) {
@@ -51,7 +51,7 @@ const PATH_COLLISION = "Error changing folders. Please check that each folder ha
     ipc.invoke("show-modal-open", dialogOptions as any)
       .then((f: any) => {
         if (f.filePaths.length > 0) {
-          if (f.filePaths[0] !== importFolder && f.filePaths[0] !== exportFolder && f.filePaths[0] !== trainingFolder) {
+          if (f.filePaths[0] !== importFolder && f.filePaths[0] !== exportFolder) {
             processingFolder = f.filePaths[0];
             label.textContent = processingFolder ? processingFolder : "Not specified";
             if (processingFolder) {
@@ -82,7 +82,7 @@ const PATH_COLLISION = "Error changing folders. Please check that each folder ha
     ipc.invoke("show-modal-open", dialogOptions as any)
       .then((f: any) => {
         if (f.filePaths.length > 0) {
-          if (f.filePaths[0] !== importFolder && f.filePaths[0] !== processingFolder && f.filePaths[0] !== trainingFolder) {
+          if (f.filePaths[0] !== importFolder && f.filePaths[0] !== processingFolder) {
             exportFolder = f.filePaths[0];
             label.textContent = exportFolder ? exportFolder : "Not specified";
             if (exportFolder) {
@@ -133,35 +133,4 @@ const PATH_COLLISION = "Error changing folders. Please check that each folder ha
   });
 
   ipc.send("get-template-folder");
-})();
-
-(function ChooseTrainingDataFolder() {
-  const browse = document.getElementById("btnTrainingDataSelection") as HTMLButtonElement;
-  const label = document.getElementById("lblTrainingFilePath") as HTMLLabelElement;
-
-  browse.addEventListener("click", _ => {
-    dialogOptions.defaultPath = trainingFolder as any;
-    ipc.invoke("show-modal-open", dialogOptions as any)
-      .then((f: any) => {
-        if (f.filePaths.length > 0) {
-          if (f.filePaths[0] !== importFolder && f.filePaths[0] !== processingFolder && f.filePaths[0] !== exportFolder) {
-            trainingFolder = f.filePaths[0];
-            label.textContent = trainingFolder ? trainingFolder : "Not specified";
-            if (trainingFolder) {
-              ipc.send("set-training-folder", trainingFolder);
-            }
-          } else {
-            showError(PATH_COLLISION);
-          }
-        }
-      })
-      .catch((err: string) => showError(err));
-  });
-
-  ipc.on("training-folder", (_: any, path: string) => {
-    trainingFolder = path;
-    label.textContent = trainingFolder ? trainingFolder : "Not specified";
-  });
-
-  ipc.send("get-training-folder");
 })();
