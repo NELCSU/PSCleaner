@@ -4,6 +4,7 @@ tsconfig.tsbuildinfo
 npm-debug.log
 
 build
+!client/lib/
 client/lib/web-components
 node_modules
 out
