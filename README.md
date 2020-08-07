@@ -11,11 +11,8 @@ The [wiki](https://github.com/NELCSU/PSCleaner/wiki) linked to this project has 
 
 ## Development
 
-Once you have copied the project, [npm-check](https://www.npmjs.com/package/npm-check) is a useful tool to check all the project dependencies are installed'),
-('up-to-date.
+Once you have copied the project, [npm-check](https://www.npmjs.com/package/npm-check) is a useful tool to check all the project dependencies are installed and up-to-date.
 
-After doing that, run *npm run update-all* to ensure both Electron'),
-('SQLite are fitted to your system. You may require the Python runtime (required by sqlite3)'),
-('C++ build tools to be installed. The console messages do a good job of prompting you for what might be required for your system.
+After doing that, run *npm run update-all* to ensure that Electron is configured to your system.
 
-Once updated, run *npm run build* to start the Typescript compiler. Lastly run the program in debug mode by pressing **F5**.
+Once updated, run *npm run build* to create a working development copy of the software. This can be run on an ad hoc basis via **F5** in VS Code.

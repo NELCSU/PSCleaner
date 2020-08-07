@@ -59,6 +59,8 @@ const a: RegExp[] = [
   /\bfrying\span\spond\b/gmi,
   /\bfunny[\s\-]shaped\swood\b/gmi,
   /\bgovernors?\s(?:drive|close|marsh|mews|road|wood|yard)\b/gmi,
+  /\bhealth\s(?:centre\sroad|place|street)\b/gmi,
+  /\bvale\sof\shealth\b/,
   /\bheight\sof\sthe\sworld\b/gmi,
   /\b(?:cove\ship|hip\s(?:crescent|lane|walk))\b/gmi,
   /\bhockey\s(?:close|fields|hill)\b/gmi,
