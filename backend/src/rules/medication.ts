@@ -41,7 +41,7 @@ const a: RegExp[] = [
   /\bfluox[ei]tie?ne\b/gmi,
   /\bmethotrexate\b/gmi,
   /\bnicorette\b/gmi,
-  /\bparacet[aeo]?ma?ol\b/gmi,
+  /\bparac[ae]t[aeo]?ma?ol\b/gmi,
   /\bprozac\b/gmi,
   /\bremdesivir\b/gmi,
   /\bsalbut?amol\b/gmi,

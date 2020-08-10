@@ -4,7 +4,6 @@
     "declarationDir": "build",
     "outDir": "build",
     "rootDir": "src",
-    "sourceMap": true,
     "typeRoots": [
       "../node_modules/@types",
       "../backend/types"

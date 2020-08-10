@@ -26,6 +26,7 @@ const a: RegExp[] = [
   /\blower\sleg\b/gmi,
   /\bkick\sthe\sball\b/gmi,
   /\bkitchen\sknife\b/gmi,
+  /\bmoses\sbasket\b/gmi,
   /\bmuddy\sfield\b/gmi,
   /\bon\s(?:shelf|table)\b/gmi,
   /\bpiggy\sback\b/gmi,
@@ -40,7 +41,7 @@ const a: RegExp[] = [
   /\btrod\son\b/gmi,
   /\bwhite\sspirit\b/gmi,
   /\bwindow\ssill\b/gmi,
-  /\bwooden\sdoor\b/gmi,
+  /\bwooden\s(?:door|floor)\b/gmi,
   /\bzimmer\sframe\b/gmi
 ];
 const RospaRegEx: Set<RegExp> = new Set();

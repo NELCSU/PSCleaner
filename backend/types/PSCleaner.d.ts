@@ -35,6 +35,7 @@ export type TemplateFolderResponse = "template-folder" | "template-file-count" |
 
 export type TextMatch = {
   end: number,
+  how: string | "keyword" | "regex",
   id: number,
   length: number,
   start: number,

@@ -8,6 +8,7 @@ const a: string[] = [
 "la",
 "le",
 "los",
+"un",
 "van",
 "von",
 "y"

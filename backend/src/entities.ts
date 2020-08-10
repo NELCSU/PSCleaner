@@ -100,6 +100,15 @@ export const NHSEntity: Entity = {
   type: "regular expression" 
 };
 
+export const PostcodeEntity: Entity = { 
+  color: "#00dd00", 
+  description: "Postcode via pattern match",
+  domain: "LOCATION", 
+  label: "Postcode", 
+  mask: "POSTCODE",
+  type: "regular expression" 
+};
+
 export const SkipWordEntity: Entity = { 
   color: "#0050ff", 
   description: "List of words",
@@ -162,7 +171,7 @@ export class Entities {
         BankingEntity, CurrencyEntity, 
         DateEntity, EmailEntity, EthnicityEntity,
         LocationEntity, LocationRegExEntity,
-        NameEntity, NHSEntity, SkipWordEntity,
+        NameEntity, NHSEntity, PostcodeEntity, SkipWordEntity,
         TelephoneEntity, TimeEntity, URLEntity
       ].sort((a, b) => a.label > b.label ? 1 : -1)
     );

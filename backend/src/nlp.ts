@@ -3,7 +3,8 @@ import {
   BankingEntity, CurrencyEntity, DateEntity, 
   EmailEntity, EthnicityEntity,
   LocationRegExEntity, MedicalEntity,
-  NameEntity, NameRegExEntity, NHSEntity, SkipWordEntity,
+  NameEntity, NameRegExEntity, NHSEntity, 
+  PostcodeEntity, SkipWordEntity,
   TelephoneEntity, TimeEntity, URLEntity
 } from "./entities";
 import { LocationPrefixRegEx, LocationRegEx, LocationMidfixRegEx } from "./rules/location";
@@ -119,7 +120,7 @@ export class NLP {
 
     const postcode: Evaluation = {
       action: { discard: 0, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
-      entity: LocationRegExEntity,
+      entity: PostcodeEntity,
       matches: this.evaluateRegEx(data, findUKPostcode)
     };
 
@@ -281,6 +282,7 @@ export class NLP {
           if (passed) {
             result.push({
               end: m.index + m[0].length - 1,
+              how: "keyword",
               id: this._id(m[0]),
               length: m[0].length,
               start: m.index,
@@ -306,6 +308,7 @@ export class NLP {
         if (passed) {
           result.push({
             end: m.index + m[0].length - 1,
+            how: re.name,
             id: this._id(m[0]),
             length: m[0].length,
             start: m.index,
@@ -324,6 +327,7 @@ export class NLP {
           if (passed) {
             result.push({
               end: m.index + m[0].length - 1,
+              how: re.source,
               id: this._id(m[0]),
               length: m[0].length,
               start: m.index,

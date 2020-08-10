@@ -752,6 +752,7 @@ const a: string[] = [
 "mescalero",
 "meskhetian",
 "mestizo",
+"mestizos",
 "mewasi",
 "mexican",
 "mgbo",
