@@ -22,10 +22,11 @@ const a: RegExp[] = [
   /\b[a-z]+zumab\b/gmi,
 
   /\baciclovir\b/gmi,
+  /\balimentum\b/gmi,
   /\b(?:co\-?)?amox?iclav\b/gmi,
   /\baugment[iu]m\b/gmi,
   /\bavigan\b/gmi,
-  /\bbenodryl\b/gmi,
+  /\bben[ao]dryl\b/gmi,
   /\bcal?pol\b/gmi,
   /\bcefuroxime\b/gmi,
   /\bcetiri?zine\b/gmi,
@@ -41,10 +42,12 @@ const a: RegExp[] = [
   /\bfluox[ei]tie?ne\b/gmi,
   /\bmethotrexate\b/gmi,
   /\bnicorette\b/gmi,
+  /\bomeprazoel\b/gmi,
   /\bparac[ae]t[aeo]?ma?ol\b/gmi,
   /\bprozac\b/gmi,
   /\bremdesivir\b/gmi,
-  /\bsalbut?amol\b/gmi,
+  /\bsalbut?[ao]mol\b/gmi,
+  /\btrimethopr[io]m\b/gmi,
   /\bviagra\b/gmi
 ];
 const MedicationRegEx: Set<RegExp> = new Set();
