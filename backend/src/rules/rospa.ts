@@ -5,6 +5,7 @@ const a: RegExp[] = [
   /\bbent\s(?:down|inwards|over)\b/gmi,
   /\bbunk\sbed\b/gmi,
   /\bcandle\swax\b/gmi,
+  /\bcheddar\scheese\b/gmi,
   /\bcuticura\shand\b/gmi,
   /\bclimbing\sframe\b/gmi,
   /\bdining\sroom\b/gmi,

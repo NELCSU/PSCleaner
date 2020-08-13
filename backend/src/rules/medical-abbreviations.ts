@@ -29,7 +29,6 @@ const a: RegExp[] = [
   /\bNSTEMI\b/gm,
   /\bortho\b/gmi,
   /\bperla\b/gmi,
-  /\bphysio\b/gmi,
   /\bpmhx?\b/gmi,
   /\bpreg\b/gmi,
   /\bpssu\b/gmi,
