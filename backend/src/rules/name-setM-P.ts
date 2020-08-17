@@ -1714,7 +1714,7 @@ const a: string[] = [
 "mageto",
 "magette",
 "magfur",
-"maggam",
+
 "magganas",
 "maggard",
 "maggart",
@@ -59641,7 +59641,6 @@ const a: string[] = [
 "potase",
 "potasnick",
 "potassels",
-"potatoe",
 "potayre",
 "potcharapon",
 "potchman",

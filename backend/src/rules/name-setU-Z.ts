@@ -15720,7 +15720,7 @@ const a: string[] = [
 "wigfull",
 "wiggains",
 "wiggall",
-"wiggam",
+
 "wiggan",
 "wiggans",
 "wiggaton",

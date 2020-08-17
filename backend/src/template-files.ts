@@ -2,7 +2,7 @@ import { app, ipcMain as ipc } from "electron";
 import * as stringify from "json-stringify-pretty-compact";
 import { join } from "path";
 import { FileManager } from "./file-manager";
-import type { CSVTemplate, ReadFileAction } from "../types/PSCleaner";
+import type { CSVField, CSVTemplate, ReadFileAction } from "../types/PSCleaner";
 
 /**
  * ### Manages files stored in watched folder.
@@ -34,7 +34,7 @@ export class TemplateFiles {
       console.log(this.#error);
     }
   }
-  public fields: Map<string, boolean> = new Map<string, boolean>();
+  public fields: Map<string, CSVField> = new Map<string, CSVField>();
   public fm!: FileManager;
   public header: boolean = false;
 
@@ -88,10 +88,14 @@ export class TemplateFiles {
               this.error = undefined;
               this.clear();
               this.header = data.header;
-              data.fields.forEach((field: [string, boolean]) => {
-                this.fields.set(field[0], field[1]);
+              data.fields.forEach((field: any, n: number) => {
+                if (Array.isArray(field)) { // legacy file
+                  this.fields.set(field[0], { label: field[0], enabled: field[1], rules: undefined, seq: n });
+                } else {
+                  this.fields.set(data.header ? field.label : `${field.seq}`, field);
+                }
               });
-              e.reply(success.status, success.fn, data);
+              e.reply(success.status, success.fn, { header: data.header, fields: Array.from(this.fields.values()) });
             } else {
               e.reply(this.error);
             }
@@ -122,8 +126,7 @@ export class TemplateFiles {
       this.error = "Processing template is missing header specification";
       return false;
     }
-    if (template.fields === undefined || !Array.isArray(template.fields) ||
-      (template.fields.length > 0 && !Array.isArray(template.fields[0]))) {
+    if (template.fields === undefined || !Array.isArray(template.fields) || template.fields.length === 0) {
       this.error = "Processing template is missing fields specification";
       return false;
     }

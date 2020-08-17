@@ -1,6 +1,11 @@
 export type EntityType = "keyword" | "regular expression";
 
-export type CSVField = [string, boolean];
+export type CSVField = {
+  label: string,
+  enabled: boolean,
+  rules: any,
+  seq: number
+};
 
 export type CSVTemplate = {
   header: boolean;

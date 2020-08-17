@@ -6,6 +6,7 @@ import { join, parse } from "path";
 import { TemplateFiles } from "./template-files";
 import * as jschardet from "jschardet";
 import * as readline from "readline";
+import type { CSVField } from "../types/PSCleaner";
 
 const r = require("esm")(module);
 const t = r("@buckneri/string");
@@ -113,7 +114,7 @@ export class ProcessFiles {
         strictColumnHandling: true
       })
         .on("data", async (row: any) => {
-          const r = this._processRow(row, stream, templates.fields);
+          const r = this._processRow(row, stream, templates);
           r.then(() => {
             this.events.emit("row-processed", ++rowCount);
           });
@@ -136,10 +137,13 @@ export class ProcessFiles {
     });
   }
 
-  private async _processRow(row: any, stream: any, fields: Map<string, boolean>): Promise<any> {
+  private async _processRow(row: any, stream: any, template: TemplateFiles): Promise<any> {
+    const fields: Map<string, CSVField> = template.fields;
     const cellQ: any[] = [];
+    let n = 0;
     for (let cell in row) {
-      let canProcess: boolean = fields.get(cell) || false;
+      const field: CSVField | undefined = template.header ? fields.get(cell) : fields.get(`${n++}`); 
+      let canProcess: boolean = field && field.enabled || false;
       if (canProcess) {
         cellQ.push(await this._processCell(cell, row));
       }

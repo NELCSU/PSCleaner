@@ -1,6 +1,7 @@
 import validFilename from "valid-filename";
 import { ipcRenderer as ipc } from "electron";
 import * as db from "debounce";
+import { CSVField, CSVTemplate } from "../../backend/types/PSCleaner";
 
 const clearButton = document.getElementById("btnClear") as HTMLButtonElement;
 const deleteButton = document.getElementById("btnDelete") as HTMLButtonElement;
@@ -100,6 +101,7 @@ function moveFieldUp() {
   const row = (window.event?.target as HTMLElement).parentNode as Node;
   if (row && row.parentNode && row.previousSibling) {
     row.parentNode.insertBefore(row, row.previousSibling);
+    checkForm();
   }
 }
 
@@ -110,6 +112,7 @@ function moveFieldDown() {
   const row = (window.event?.target as HTMLElement).parentNode as Node;
   if (row && row.parentNode && row.nextSibling) {
     row.parentNode.insertBefore(row.nextSibling, row);
+    checkForm();
   }
 }
 
@@ -134,12 +137,12 @@ async function deleteFile() {
 /**
  * Load form from template data
  */
-function loadForm(file: string, data: any) {
+function loadForm(file: string, data: CSVTemplate) {
   deleteButton.classList.remove("disabled");
   fileName.value = file;
   headerButton.on = data.header;
-  data.fields.forEach((field: [string, boolean]) => {
-    addField(field[0], field[1]);
+  data.fields.forEach((field: CSVField) => {
+    addField(field.label, field.enabled);
   });
 }
 
@@ -147,16 +150,21 @@ function loadForm(file: string, data: any) {
  * Saves template
  */
 function saveFile() {
-  const flds: [string, boolean][] = [];
-  const data = {
+  const flds: any[] = [];
+  const data: CSVTemplate = {
     header: headerButton.on ? true : false,
     fields: flds
   };
   const rows = Array.from(panel.querySelectorAll("div.clone"));
-  rows.forEach((r) => {
+  rows.forEach((r: any, n: number) => {
     const txt = r.querySelector("nel-text-input") as HTMLInputElement;
     const sen = r.querySelector("nel-on-off") as any;
-    data.fields.push([txt.value, sen.on ? true : false]);
+    data.fields.push({
+      enabled: sen.on ? true : false,
+      label: txt.value,
+      rules: undefined,
+      seq: n
+    });
   });
   let newFilename = fileName.value.trim();
   newFilename = newFilename.replace(/\.json/, "");
@@ -180,6 +188,7 @@ addFieldButton.addEventListener("click", () => addField());
 clearButton.addEventListener("click", clear);
 deleteButton.addEventListener("click", deleteFile);
 fileName.addEventListener("input", db(checkForm, 750));
+headerButton.addEventListener("click", checkForm);
 saveButton.addEventListener("click", saveFile);
 (document.getElementById("listTemplate") as HTMLElement).addEventListener("change", selectFile);
 
