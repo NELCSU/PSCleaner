@@ -3,6 +3,7 @@
   // for the documentation about the extensions.json format
   "recommendations": [
     "bashmish.es6-string-css",
+    "chrmarti.regex",
     "DavidAnson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
     "github.vscode-pull-request-github",

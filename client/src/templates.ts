@@ -28,13 +28,15 @@ function addField(fieldName?: string, selected?: boolean) {
   newField.id = `field_${count}`;
   txt.value = fieldName || "";
   onoff.on = selected;
-  insertHere.insertAdjacentElement("beforebegin", newField);
+  insertHere.appendChild(newField);
   newField.classList.remove("hidden");
   txt.addEventListener("input", db(checkForm, 750));
   del.addEventListener("click", deleteField);
   up.addEventListener("click", moveFieldUp);
   down.addEventListener("click", moveFieldDown);
   onoff.addEventListener("click", checkForm);
+  recalcUpDownControls();
+  checkForm();
   return newField;
 }
 
@@ -80,10 +82,7 @@ function clear() {
  */
 function removeFields() {
   headerButton.on = true;
-  const remove = Array.from(panel.querySelectorAll("div.clone"));
-  for (let i = remove.length - 1; i > -1; i--) {
-    panel.removeChild(remove[i]);
-  }
+  Array.from(insertHere.children).forEach((e) => insertHere.removeChild(e));
 }
 
 /**
@@ -94,6 +93,7 @@ function deleteField() {
   if (row) {
     row.parentNode?.removeChild(row);
   }
+  recalcUpDownControls();
   checkForm();
 }
 
@@ -102,23 +102,9 @@ function deleteField() {
  */
 function moveFieldUp() {
   const row = (window.event?.target as HTMLElement).parentNode as HTMLElement;
-  const up = row.querySelector(".move-up") as HTMLElement;
-  const down = row.querySelector(".move-down") as HTMLElement;
-  up.classList.remove("disabled");
-  down.classList.remove("disabled");
   if (row && row.parentNode && row.previousSibling) {
-    let prev = row.previousSibling as HTMLElement;
-    const prev_up = prev.querySelector(".move-up") as HTMLElement;
-    const prev_down = prev.querySelector(".move-down") as HTMLElement;
-    prev_up.classList.remove("disabled");
-    prev_down.classList.remove("disabled");
-    if (prev.classList.contains("clone")) {
-      row.parentNode.insertBefore(row.previousSibling, row);
-      prev = row.previousSibling as HTMLElement;
-      if (prev && !prev.classList.contains("clone")) {
-        down.classList.add("disabled");
-      }
-    }
+    row.parentNode.insertBefore(row, row.previousSibling);
+    recalcUpDownControls();
     checkForm();
   }
 }
@@ -128,23 +114,9 @@ function moveFieldUp() {
  */
 function moveFieldDown() {
   const row = (window.event?.target as HTMLElement).parentNode as HTMLElement;
-  const up = row.querySelector(".move-up") as HTMLElement;
-  const down = row.querySelector(".move-down") as HTMLElement;
-  up.classList.remove("disabled");
-  down.classList.remove("disabled");
   if (row && row.parentNode && row.nextSibling) {
-    let next = row.nextSibling as HTMLElement;
-    const next_up = next.querySelector(".move-up") as HTMLElement;
-    const next_down = next.querySelector(".move-down") as HTMLElement;
-    next_up.classList.remove("disabled");
-    next_down.classList.remove("disabled");
-    if (next.classList.contains("clone")) {
-      row.parentNode.insertBefore(row.nextSibling, row);
-      next = row.nextSibling as HTMLElement;
-      if (next && !next.classList.contains("clone")) {
-        down.classList.add("disabled");
-      }
-    }
+    row.parentNode.insertBefore(row.nextSibling, row);
+    recalcUpDownControls();
     checkForm();
   }
 }
@@ -177,6 +149,21 @@ function loadForm(file: string, data: CSVTemplate) {
   traceButton.on = data.trace;
   data.fields.forEach((field: CSVField) => {
     addField(field.label, field.enabled);
+  });
+}
+
+function recalcUpDownControls() {
+  Array.from(insertHere.children).forEach((e, i) => {
+    if (i === 0) {
+      e.querySelector(".move-up")?.classList.add("disabled");
+      e.querySelector(".move-down")?.classList.remove("disabled");
+    } else if (e.nextSibling === null) {
+      e.querySelector(".move-up")?.classList.remove("disabled");
+      e.querySelector(".move-down")?.classList.add("disabled");
+    } else {
+      e.querySelector(".move-up")?.classList.remove("disabled");
+      e.querySelector(".move-down")?.classList.remove("disabled");
+    }
   });
 }
 
