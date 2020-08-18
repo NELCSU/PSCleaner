@@ -8,8 +8,9 @@ export type CSVField = {
 };
 
 export type CSVTemplate = {
+  fields: CSVField[];
   header: boolean;
-  fields: CSVField[]
+  trace: boolean;
 };
 
 export type ReadFileAction = {

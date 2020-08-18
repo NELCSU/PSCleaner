@@ -37,6 +37,7 @@ export class TemplateFiles {
   public fields: Map<string, CSVField> = new Map<string, CSVField>();
   public fm!: FileManager;
   public header: boolean = false;
+  public trace: boolean = true;
 
   private _store: any;
 
@@ -88,6 +89,7 @@ export class TemplateFiles {
               this.error = undefined;
               this.clear();
               this.header = data.header;
+              this.trace = data.trace;
               data.fields.forEach((field: any, n: number) => {
                 if (Array.isArray(field)) { // legacy file
                   this.fields.set(field[0], { label: field[0], enabled: field[1], rules: undefined, seq: n });
@@ -95,7 +97,11 @@ export class TemplateFiles {
                   this.fields.set(data.header ? field.label : `${field.seq}`, field);
                 }
               });
-              e.reply(success.status, success.fn, { header: data.header, fields: Array.from(this.fields.values()) });
+              e.reply(success.status, success.fn, { 
+                fields: Array.from(this.fields.values()),
+                header: data.header,
+                trace: data.trace
+              });
             } else {
               e.reply(this.error);
             }
@@ -114,6 +120,10 @@ export class TemplateFiles {
             e.reply("template-files", success);
           }
         );
+    });
+
+    ipc.on("get-trace-status", (e) => {
+      e.reply("trace-status", this.trace);
     });
   }
 
@@ -138,6 +148,7 @@ export class TemplateFiles {
    */
   public clear(): void {
     this.header = false;
+    this.trace = true;
     this.fields.clear();
   }
 

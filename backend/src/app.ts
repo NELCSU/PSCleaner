@@ -56,7 +56,7 @@ class Main {
     } else {
       this._store = new Store();
 
-      const nlp: NLP = new NLP(this._store);
+      const nlp: NLP = new NLP();
       this.entities = new Entities();
       this.templateFiles = new TemplateFiles(this._store);
       this.importFiles = new ImportFiles(this._store);
@@ -78,19 +78,12 @@ class Main {
           });
       });
 
-      ipc.on("NLP-trace", (_: IpcMainEvent, n?: boolean) => {
-        if (n === undefined) {
-          this.mainWindow.webContents.send("NLP-trace", nlp.trace);
-        } else {
-          nlp.trace = n;
-        }
-      });
-
       ipc.on("start-processing", async (e: any) => {
         try {
           this.processFiles.fm.listFiles()
             .then(files => {
               if (files.length > 0) {
+                nlp.trace = this.templateFiles.trace;
                 this.processFiles.processFile(files[0], this.templateFiles);
                 this.processFiles.events.on("file-processed", (_: any) => e.reply("processed"));
                 this.processFiles.events.on("row-processed", (rows: number) => e.reply("row-completed", rows));

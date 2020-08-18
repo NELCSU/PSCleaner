@@ -38,11 +38,16 @@
         <option value="New" selected>Create a new template</option>
       </select>
     </div>
-    <hr>
 
-    <div class="flex-r vcenter pad3">
-      <label class="wide" for="txtHeader">CSV file has a header row</label>
-      <div class="grow"><nel-on-off id="btnHeader" size="3" on></nel-on-off></div>
+    <hr>
+    <div class="flex-r vcenter pad">
+      <div class="wide"><label for="btnTrace" title="Toggle trace feature. If on, a trackable number is appended to the redaccted text placeholder.">Add trace id</label></div>
+      <div class="grow"><nel-on-off id="btnTrace" size="3"></nel-on-off></div>
+    </div>
+
+    <div class="flex-r vcenter pad">
+      <div class="wide"><label for="txtHeader">CSV file has a header row</label></div>
+      <div class="grow"><nel-on-off id="btnHeader" size="3"></nel-on-off></div>
     </div>
 
     <hr>

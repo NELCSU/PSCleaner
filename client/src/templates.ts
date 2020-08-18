@@ -11,6 +11,7 @@ const fileName = document.getElementById("txtFilename") as HTMLInputElement;
 const headerButton = document.getElementById("btnHeader") as any;
 const panel = document.getElementById("pnlAddTemplate") as HTMLElement;
 const insertHere = document.getElementById("insertionPoint") as HTMLElement;
+const traceButton = document.getElementById("btnTrace") as any;
 
 /**
  * Adds another column to the document
@@ -67,6 +68,8 @@ function clear() {
   const tl = document.getElementById("listTemplate") as HTMLSelectElement;
   deleteButton.classList.add("disabled");
   saveButton.classList.add("disabled");
+  traceButton.on = false;
+  headerButton.on = false;
   fileName.value = "";
   tl.selectedIndex = 0;
   removeFields();
@@ -98,9 +101,24 @@ function deleteField() {
  * Moves row up in form
  */
 function moveFieldUp() {
-  const row = (window.event?.target as HTMLElement).parentNode as Node;
+  const row = (window.event?.target as HTMLElement).parentNode as HTMLElement;
+  const up = row.querySelector(".move-up") as HTMLElement;
+  const down = row.querySelector(".move-down") as HTMLElement;
+  up.classList.remove("disabled");
+  down.classList.remove("disabled");
   if (row && row.parentNode && row.previousSibling) {
-    row.parentNode.insertBefore(row, row.previousSibling);
+    let prev = row.previousSibling as HTMLElement;
+    const prev_up = prev.querySelector(".move-up") as HTMLElement;
+    const prev_down = prev.querySelector(".move-down") as HTMLElement;
+    prev_up.classList.remove("disabled");
+    prev_down.classList.remove("disabled");
+    if (prev.classList.contains("clone")) {
+      row.parentNode.insertBefore(row.previousSibling, row);
+      prev = row.previousSibling as HTMLElement;
+      if (prev && !prev.classList.contains("clone")) {
+        down.classList.add("disabled");
+      }
+    }
     checkForm();
   }
 }
@@ -109,9 +127,24 @@ function moveFieldUp() {
  * Moves row down in form
  */
 function moveFieldDown() {
-  const row = (window.event?.target as HTMLElement).parentNode as Node;
+  const row = (window.event?.target as HTMLElement).parentNode as HTMLElement;
+  const up = row.querySelector(".move-up") as HTMLElement;
+  const down = row.querySelector(".move-down") as HTMLElement;
+  up.classList.remove("disabled");
+  down.classList.remove("disabled");
   if (row && row.parentNode && row.nextSibling) {
-    row.parentNode.insertBefore(row.nextSibling, row);
+    let next = row.nextSibling as HTMLElement;
+    const next_up = next.querySelector(".move-up") as HTMLElement;
+    const next_down = next.querySelector(".move-down") as HTMLElement;
+    next_up.classList.remove("disabled");
+    next_down.classList.remove("disabled");
+    if (next.classList.contains("clone")) {
+      row.parentNode.insertBefore(row.nextSibling, row);
+      next = row.nextSibling as HTMLElement;
+      if (next && !next.classList.contains("clone")) {
+        down.classList.add("disabled");
+      }
+    }
     checkForm();
   }
 }
@@ -141,6 +174,7 @@ function loadForm(file: string, data: CSVTemplate) {
   deleteButton.classList.remove("disabled");
   fileName.value = file;
   headerButton.on = data.header;
+  traceButton.on = data.trace;
   data.fields.forEach((field: CSVField) => {
     addField(field.label, field.enabled);
   });
@@ -152,8 +186,9 @@ function loadForm(file: string, data: CSVTemplate) {
 function saveFile() {
   const flds: any[] = [];
   const data: CSVTemplate = {
+    fields: flds,
     header: headerButton.on ? true : false,
-    fields: flds
+    trace: traceButton.on ? true : false
   };
   const rows = Array.from(panel.querySelectorAll("div.clone"));
   rows.forEach((r: any, n: number) => {
@@ -190,6 +225,7 @@ deleteButton.addEventListener("click", deleteFile);
 fileName.addEventListener("input", db(checkForm, 750));
 headerButton.addEventListener("click", checkForm);
 saveButton.addEventListener("click", saveFile);
+traceButton.addEventListener("input", checkForm);
 (document.getElementById("listTemplate") as HTMLElement).addEventListener("change", selectFile);
 
 ipc.on("template-file", (_: any, file: string, data: any) => {

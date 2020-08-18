@@ -7,7 +7,6 @@ import { normalize } from "@buckneri/string";
 const clearAllButton = document.getElementById("btnClearAll") as HTMLButtonElement;
 const clearTagsButton = document.getElementById("btnClearTags") as HTMLButtonElement;
 const dataEntryText = document.getElementById("txtAddText") as HTMLElement;
-const traceButton = document.getElementById("btnTrace") as any;
 const autodiscoverButton = document.getElementById("btnAutodiscover") as HTMLButtonElement;
 
 let tag: any = null;
@@ -38,13 +37,6 @@ function addTag(selection: Selection, label?: string, color?: string) {
   rng.surroundContents(mark);
   selection.removeAllRanges();
   return mark;
-}
-
-/**
- * Sends IPC request for current trace setting
- */
-function adjustTrace() {
-  ipc.send("NLP-trace", traceButton.on);
 }
 
 /**
@@ -168,7 +160,6 @@ clearAllButton.addEventListener("click", clearAll);
 dataEntryText.addEventListener("click", resetTextSelection);
 dataEntryText.addEventListener("input", db(checkInput, 700));
 dataEntryText.addEventListener("paste", pasteText);
-traceButton.addEventListener("input", adjustTrace);
 
 ipc.on("NLP-response", (_: Event, response: any) => {
   autodiscoverButton.textContent = "Autodiscover";
@@ -185,10 +176,7 @@ ipc.on("NLP-response", (_: Event, response: any) => {
   }
 });
 
-ipc.on("NLP-trace", (_: any, n: boolean) => traceButton.on = n);
-
 ipc.send("get-entities");
-ipc.send("NLP-trace");
 
 window.addEventListener("contextmenu", e => {
   const contextMenu = new remote.Menu();

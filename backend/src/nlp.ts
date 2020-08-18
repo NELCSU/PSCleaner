@@ -47,28 +47,8 @@ const findOrdinal = t.findOrdinal;
  * ### Natural language processing services
  */
 export class NLP {
-  public get trace(): boolean {
-    return this._trace;
-  }
-
-  public set trace(n: boolean) {
-    this._trace = n;
-    this._store.set("NLP_TRACE", this._trace ? "1" : "0");
-  }
-
-  private _store: any;
-  private _trace: boolean = true;
-
-  constructor(store: any) {
-    let trace = store.get("NLP_TRACE");
-    if (!trace) {
-      trace = "1";
-      store.set("NLP_TRACE", trace);
-    }
-    this._store = store;
-    this._trace = trace === "1" ? true : false;
-  }
-
+  public trace: boolean = true;
+  
   /**
    * Returns list of matched entities
    * @param data - body of text to evaluate
@@ -79,175 +59,175 @@ export class NLP {
     const banking: Evaluation = {
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: BankingEntity,
-      matches: this.evaluateRegEx(data, findBankingNumbers)
+      matches: this._evalRegEx(data, findBankingNumbers)
     };
 
     const currency: Evaluation = {      
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: CurrencyEntity,
-      matches: this.evaluateRegEx(data, findCurrency)
+      matches: this._evalRegEx(data, findCurrency)
     };
 
     const dates: Evaluation = {
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: DateEntity,
-      matches: this.evaluateRegEx(data, findDate)
+      matches: this._evalRegEx(data, findDate)
     };
 
     const emails: Evaluation = {
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: EmailEntity,
-      matches: this.evaluateRegEx(data, findEmail)
+      matches: this._evalRegEx(data, findEmail)
     };
 
     const eth: Evaluation = {
       action: { discard: 0, joinable: 1, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: EthnicityEntity,
-      matches: this.evaluateKeyword(data, null, EthnicitySet)
+      matches: this._evalKeyword(data, null, EthnicitySet)
     };
 
     const householdItem: Evaluation = {
       action: { discard: 1, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: SkipWordEntity,
-      matches: this.evaluateRegEx(data, RospaRegEx)
+      matches: this._evalRegEx(data, RospaRegEx)
     };
 
     const location: Evaluation = {
       action: { discard: 0, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: LocationRegExEntity,
-      matches: this.evaluateRegEx(data, LocationRegEx)
+      matches: this._evalRegEx(data, LocationRegEx)
     };
 
     const postcode: Evaluation = {
       action: { discard: 0, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: PostcodeEntity,
-      matches: this.evaluateRegEx(data, findUKPostcode)
+      matches: this._evalRegEx(data, findUKPostcode)
     };
 
     const locationPrefix1: Evaluation = {
       action: { discard: 1, joinable: 1, order: 3, prefix: 1, midfix: 0, suffix: 0 },
       entity: LocationRegExEntity,
-      matches: this.evaluateRegEx(data, LocationPrefixRegEx)
+      matches: this._evalRegEx(data, LocationPrefixRegEx)
     };
 
     const locationPrefix2: Evaluation = {
       action: { discard: 1, joinable: 1, order: 3, prefix: 1, midfix: 0, suffix: 0 },
       entity: LocationRegExEntity,
-      matches: this.evaluateRegEx(data, findOrdinal, (n: string) => isPropercase(n))
+      matches: this._evalRegEx(data, findOrdinal, (n: string) => isPropercase(n))
     };
 
     const nameMidfix: Evaluation = {
       action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 1, suffix: 0 },
       entity: LocationRegExEntity,
-      matches: this.evaluateRegEx(data, LocationMidfixRegEx)
+      matches: this._evalRegEx(data, LocationMidfixRegEx)
     };
 
     const namesEnding: Evaluation = {
       action: { discard: 0, joinable: 1, order: 4, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameRegExEntity,
-      matches: this.evaluateRegEx(data, NamesEndingRegEx)
+      matches: this._evalRegEx(data, NamesEndingRegEx)
     };
 
     const names: Evaluation = {
       action: { discard: 0, joinable: 1, order: 4, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
-      matches: this.evaluateKeyword(data, null, NameSetAD, NameSetEH, NameSetIL, NameSetMP, NameSetQT, NameSetUZ)
+      matches: this._evalKeyword(data, null, NameSetAD, NameSetEH, NameSetIL, NameSetMP, NameSetQT, NameSetUZ)
     };
 
     const properName: Evaluation = {
       action: { discard: 0, joinable: 1, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
-      matches: this.evaluateKeyword(data, (n: string) => isPropercase(n), ProperNameSet)
+      matches: this._evalKeyword(data, (n: string) => isPropercase(n), ProperNameSet)
     };
 
     const properNameJoin: Evaluation = {
       action: { discard: 1, joinable: 1, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
-      matches: this.evaluateKeyword(data, (n: string) => isPropercase(n), ProperNameSetJoinOnly)
+      matches: this._evalKeyword(data, (n: string) => isPropercase(n), ProperNameSetJoinOnly)
     };
 
     const medicalAbbr: Evaluation = {
       action: { discard: 1, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: MedicalEntity,
-      matches: this.evaluateRegEx(data, MedicalAbbrRegEx)
+      matches: this._evalRegEx(data, MedicalAbbrRegEx)
     };
 
     const medicalTerm: Evaluation = {
       action: { discard: 1, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: MedicalEntity,
-      matches: this.evaluateRegEx(data, MedicalTermRegEx)
+      matches: this._evalRegEx(data, MedicalTermRegEx)
     };
 
     const medication: Evaluation = {
       action: { discard: 1, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: MedicalEntity,
-      matches: this.evaluateRegEx(data, MedicationRegEx)
+      matches: this._evalRegEx(data, MedicationRegEx)
     };
 
     const namePrefix: Evaluation = {
       action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameRegExEntity,
-      matches: this.evaluateRegEx(data, NamePrefixRegEx)
+      matches: this._evalRegEx(data, NamePrefixRegEx)
     };
 
     const nameInitials: Evaluation = {
       action: { discard: 1, joinable: 1, order: 3, prefix: 1, midfix: 0, suffix: 0 },
       entity: NameRegExEntity,
-      matches: this.evaluateRegEx(data, NameInitialRegEx)
+      matches: this._evalRegEx(data, NameInitialRegEx)
     };
 
     const nameMiddleInitials: Evaluation = {
       action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 1, suffix: 0 },
       entity: NameRegExEntity,
-      matches: this.evaluateRegEx(data, NameMiddleInitialRegEx)
+      matches: this._evalRegEx(data, NameMiddleInitialRegEx)
     };
 
     const namePlural: Evaluation = {
       action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 0, suffix: 1 },
       entity: NameRegExEntity,
-      matches: this.evaluateRegEx(data, NamePuralRegEx)
+      matches: this._evalRegEx(data, NamePuralRegEx)
     };
 
     const partName: Evaluation = {
       action: { discard: 1, joinable: 1, order: 4, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
-      matches: this.evaluateKeyword(data, null, NamePartSet)
+      matches: this._evalKeyword(data, null, NamePartSet)
     };
 
     const nhs: Evaluation = {
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: NHSEntity,
-      matches: this.evaluateRegEx(data, findNHSNumber)
+      matches: this._evalRegEx(data, findNHSNumber)
     };
 
     const skipGrammar: Evaluation = {
       action: { discard: 1, joinable: 0, order: 3, prefix: 0, midfix: 0, suffix: 0 },
       entity: SkipWordEntity,
-      matches: this.evaluateRegEx(data, SkipGrammarRegEx)
+      matches: this._evalRegEx(data, SkipGrammarRegEx)
     };
 
     const skipWord: Evaluation = {
       action: { discard: 1, joinable: 0, order: 3, prefix: 0, midfix: 0, suffix: 0 },
       entity: SkipWordEntity,
-      matches: this.evaluateKeyword(data, null, SkipWordSet)
+      matches: this._evalKeyword(data, null, SkipWordSet)
     };
 
     const tel: Evaluation = {
       action: { discard: 0, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: TelephoneEntity,
-      matches: this.evaluateRegEx(data, findUKTelephone)
+      matches: this._evalRegEx(data, findUKTelephone)
     };
 
     const times: Evaluation = {
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: TimeEntity,
-      matches: this.evaluateRegEx(data, findTime)
+      matches: this._evalRegEx(data, findTime)
     };
 
     const url: Evaluation = {
       action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
       entity: URLEntity,
-      matches: this.evaluateRegEx(data, findURL)
+      matches: this._evalRegEx(data, findURL)
     };
 
     matches = this._sortMatches(data, 
@@ -263,7 +243,27 @@ export class NLP {
     return Promise.resolve(matches);
   }
 
-  public evaluateKeyword(data: string, testFn?: Function | null, ...keywords: any): TextMatch[] {
+  /**
+   * Returns text with sensitive values removed
+   * @param data - body of text to match and replace 
+   */
+  public replace(data: string, matches: MatchedEntity[]): Promise<string> {
+    return new Promise((resolve, reject) => {
+      try {
+        for (let i = matches.length - 1; i > -1; --i) {
+          let m = matches[i];
+          const mask: string = `**${m.entity.mask}` + (this.trace ? ` [${m.match.id}]` : ``) + `**`;
+          data = data.substring(0, m.match.start) + mask + data.substring(m.match.end + 1, data.length);
+        }
+        resolve(data);
+      }
+      catch (err) {
+        reject(err);
+      }
+    });
+  }
+
+  private _evalKeyword(data: string, testFn?: Function | null, ...keywords: any): TextMatch[] {
     data = data.replace("_", " ");
     const re: RegExp = new RegExp(/\b[a-z]+\b/, "gmi");
     const result: TextMatch[] = [];
@@ -296,7 +296,7 @@ export class NLP {
     return result;
   }
 
-  public evaluateRegEx(data: string, re: any, testFn?: Function | null): TextMatch[] {
+  private _evalRegEx(data: string, re: any, testFn?: Function | null): TextMatch[] {
     const result: any[] = [];
     let passed: boolean;
     if (typeof re === "function") {
@@ -338,33 +338,6 @@ export class NLP {
       });
     }
     return result;
-  }
-
-  /**
-   * Refreshes internal data structures
-   */
-  public async init(): Promise<void> {
-    return;
-  }
-
-  /**
-   * Returns text with sensitive values removed
-   * @param data - body of text to match and replace 
-   */
-  public replace(data: string, matches: MatchedEntity[]): Promise<string> {
-    return new Promise((resolve, reject) => {
-      try {
-        for (let i = matches.length - 1; i > -1; --i) {
-          let m = matches[i];
-          const mask: string = `**${m.entity.mask}` + (this.trace ? ` [${m.match.id}]` : ``) + `**`;
-          data = data.substring(0, m.match.start) + mask + data.substring(m.match.end + 1, data.length);
-        }
-        resolve(data);
-      }
-      catch (err) {
-        reject(err);
-      }
-    });
   }
 
   private _id(value: string): number {
