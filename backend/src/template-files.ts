@@ -1,13 +1,16 @@
 import { app, ipcMain as ipc } from "electron";
 import * as stringify from "json-stringify-pretty-compact";
+import * as csv from "fast-csv";
 import { join } from "path";
 import { FileManager } from "./file-manager";
+import * as jschardet from "jschardet";
 import type { CSVField, CSVTemplate, ReadFileAction } from "../types/PSCleaner";
 
 /**
  * ### Manages files stored in watched folder.
  * #### API  (ipc request  -> response)
  * clear-templete-file
+ * define-template         -> 
  * delete-templete-file    -> template-file-deleted
  * delete-template-file    -> template-file-deletion-error
  * get-template-file       -> template-file
@@ -70,6 +73,37 @@ export class TemplateFiles {
       } catch {
         e.reply("template-folder-error", this.fm.folder);
       }
+    });
+
+    ipc.on("define-template", (e, file) => {
+      const size: number = this.fm.fs.statSync(file).size;
+      if (size < 3) {
+        throw new Error("File cannot be empty");
+      }
+      const rs = this.fm.fs.createReadStream(file, { start: 0, end: size > 499 ? 499 : size });
+      rs.on("data", async (chunk: any) => {          
+        const isUTF8: boolean = chunk[0] === 239 && chunk[1] === 187 && chunk[2] === 191;
+        rs.close();
+        const text: any = jschardet.detect(chunk.toString());
+        const headers: string[] = [];
+        let rows: number = 0;
+
+        csv.parseFile(file, {
+          encoding: isUTF8 ? "utf-8" : text.encoding,
+          headers: false,
+          ignoreEmpty: true,
+          strictColumnHandling: true
+        })
+        .on("data", async (row: any) => {
+          if (rows === 0) {
+            for (let cell in row) {
+              headers.push(row[cell]);
+            }
+            rows = 1;
+            e.reply("define-template", headers);
+          }
+        });
+      });
     });
 
     ipc.on("delete-template-file", (e, file) => {

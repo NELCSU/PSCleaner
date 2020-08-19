@@ -1,4 +1,3 @@
-import { isWindows } from "./platform";
 import { CharCode } from "./charCode";
 
 const CHAR_UPPERCASE_A = 65;/* A */
@@ -13,6 +12,8 @@ const CHAR_COLON = 58; /* : */
 const posix = {
   sep: "/"
 };
+
+const isWindows: boolean = process.platform === "win32";
 
 export function isPathSeparator(code?: number): boolean {
   return code === CHAR_FORWARD_SLASH || code === CHAR_BACKWARD_SLASH;

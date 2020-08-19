@@ -235,7 +235,8 @@ export class NLP {
       emails, eth, householdItem,
       location, locationPrefix1, locationPrefix2, 
       medication, medicalAbbr, medicalTerm,
-      namePrefix, nameMidfix, nameInitials, nameMiddleInitials, namePlural, names, namesEnding, nhs,
+      namePrefix, nameMidfix, nameInitials, 
+      nameMiddleInitials, namePlural, names, namesEnding, nhs,
       postcode, properName, properNameJoin, partName,
       tel, times, url,
       skipGrammar, skipWord

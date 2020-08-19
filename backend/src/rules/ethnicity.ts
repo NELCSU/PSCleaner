@@ -450,7 +450,7 @@ const a: string[] = [
 "hebei",
 "hebrew",
 "hebridean",
-"hedareb",
+
 "helenian",
 "hemba",
 "hemshin",
@@ -673,7 +673,7 @@ const a: string[] = [
 "mafa",
 "magahi",
 "magar",
-"maghreb",
+
 "mahafaly",
 "maharastra",
 "mahishya",
@@ -1084,7 +1084,7 @@ const a: string[] = [
 "tristanian",
 "tshangla",
 "tsimihety",
-"tuareg",
+
 "tugen",
 "tujia",
 "tunisian",

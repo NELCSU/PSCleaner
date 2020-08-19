@@ -48,7 +48,6 @@
 
     "src/util/charCode.ts",
     "src/util/deepCopy.ts",
-    "src/util/path.ts",
-    "src/util/platform.ts"
+    "src/util/path.ts"
   ]
 }

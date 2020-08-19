@@ -1,12 +1,14 @@
 import validFilename from "valid-filename";
 import { ipcRenderer as ipc } from "electron";
 import * as db from "debounce";
+import { right } from "@buckneri/string";
 import { CSVField, CSVTemplate } from "../../backend/types/PSCleaner";
 
 const clearButton = document.getElementById("btnClear") as HTMLButtonElement;
 const deleteButton = document.getElementById("btnDelete") as HTMLButtonElement;
 const saveButton = document.getElementById("btnSave") as HTMLButtonElement;
-const addFieldButton = document.getElementById("btnAddField") as HTMLButtonElement;
+const addFieldButton1 = document.getElementById("btnAddField1") as HTMLButtonElement;
+const addFieldButton2 = document.getElementById("btnAddField2") as HTMLButtonElement;
 const fileName = document.getElementById("txtFilename") as HTMLInputElement;
 const headerButton = document.getElementById("btnHeader") as any;
 const panel = document.getElementById("pnlAddTemplate") as HTMLElement;
@@ -206,7 +208,8 @@ function selectFile() {
   }
 }
 
-addFieldButton.addEventListener("click", () => addField());
+addFieldButton1.addEventListener("click", () => addField());
+addFieldButton2.addEventListener("click", () => addField());
 clearButton.addEventListener("click", clear);
 deleteButton.addEventListener("click", deleteFile);
 fileName.addEventListener("input", db(checkForm, 750));
@@ -254,3 +257,24 @@ ipc.on("template-file-saved", (_: any) => {
 });
 
 ipc.send("get-template-files");
+
+ipc.on("define-template", (_, columns: string[]) => {
+  clear();
+  columns.forEach(c => {
+    addField(c, false);
+  });
+});
+
+document.addEventListener("dragover", (event) => { 
+  event.preventDefault(); 
+}); 
+
+document.addEventListener("drop", (event) => { 
+  event.preventDefault(); 
+  event.stopPropagation(); 
+  for (const f of (event.dataTransfer as any).files) {
+    if (right(f.path, 3) === "csv") {
+      ipc.send("define-template", f.path);
+    }
+  } 
+}); 
