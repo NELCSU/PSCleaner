@@ -120,7 +120,7 @@ const a: string[] = [
 "bahing",
 "bahnar",
 "bahraini",
-"bahun",
+
 "bai",
 "baidya",
 "baishya",
@@ -210,7 +210,7 @@ const a: string[] = [
 "bozom",
 "braber",
 "brahmin",
-"brahui",
+
 "brazilian",
 "breton",
 "brong",
@@ -261,12 +261,12 @@ const a: string[] = [
 "chilean",
 "chinese",
 "chirag",
-"chiricahua",
+
 "chokri",
 "chokwe",
 "chontal",
-"chuanqing",
-"chuj",
+
+
 "chumburung",
 "chunaru",
 "chutiya",
@@ -648,7 +648,7 @@ const a: string[] = [
 "lipo",
 "lipovan",
 "lisu",
-"lisuchina",
+
 "lithuanian",
 "lombard",
 "lomwe",
@@ -720,7 +720,7 @@ const a: string[] = [
 "mauritian",
 "mavchi",
 "mayombe",
-"mazahua",
+
 "mazari",
 "mazatecan",
 "mbaise",
@@ -791,7 +791,7 @@ const a: string[] = [
 "māori",
 "naba",
 "nafusi",
-"nahua",
+
 "nair",
 "nama",
 "namibian",
@@ -888,7 +888,7 @@ const a: string[] = [
 "qatari",
 "qemant",
 "qiangic",
-"quechua",
+
 "quechuan",
 "rade",
 "rai",
@@ -920,7 +920,7 @@ const a: string[] = [
 "sahrawi",
 "sakalava",
 "salale",
-"salarchina",
+
 "salinero",
 "salvadorean",
 "sambal",
@@ -1104,13 +1104,13 @@ const a: string[] = [
 "tzeltal",
 "udmurt",
 "ugandan",
-"uighur",
+
 "ukrainian",
 "umbrian",
 "umbundu",
 "uruguayan",
 "urum",
-"uyghur",
+
 "uzbek",
 "vagla",
 "vagri",
