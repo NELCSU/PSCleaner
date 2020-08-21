@@ -1,8 +1,7 @@
 import * as db from "debounce";
 import * as he from "he";
 import { clipboard, ipcRenderer as ipc, remote } from "electron";
-import { selectionTrim } from "@buckneri/js-lib-selection";
-import { normalize } from "@buckneri/string";
+import { normalize, selectionTrim } from "@buckneri/string";
 
 const clearAllButton = document.getElementById("btnClearAll") as HTMLButtonElement;
 const clearTagsButton = document.getElementById("btnClearTags") as HTMLButtonElement;
