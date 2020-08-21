@@ -564,7 +564,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "earl",
 "earls",
 "earn",
-"earth",
 "east",
 "easter",
 "echo",

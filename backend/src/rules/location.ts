@@ -58,6 +58,7 @@ const a: RegExp[] = [
   /\bdead\s(?:cow\spoint|edge|hill|lane|sea)\b/gmi,
   /\bDead\s(?:Eye|Lake|Man's|Man\sWood|Moss\sWood|Wife's|Woman's|Wood)\b/gm,
   /\bdefence\s(?:academy|close|street)\b/gmi,
+  /\bearth\s(?:copse|green|holes|holme|lane|primary|street|wall|wood)\b/gmi,
   /\beducation\sroad\b/gmi,
   /\beuropean\s(?:college|school|way)\b/gmi,
   /\bhand\s(?:avenue|bank|causeway|close|copse|court|dale|farm|green|lake|lane|marsh|street|trough|wood)\b/gmi,

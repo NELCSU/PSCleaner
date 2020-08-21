@@ -343,7 +343,7 @@ const a: string[] = [
 "ekpeye",
 "eleme",
 "emai",
-"embera",
+
 "emilian",
 "emirati",
 "engenni",
@@ -483,7 +483,7 @@ const a: string[] = [
 "igede",
 "igorot",
 "ika",
-"ikwerre",
+
 "ikwo",
 "indian",
 "indonesian",
