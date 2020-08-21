@@ -27,7 +27,6 @@ import {
 import { EthnicitySet } from "./rules/ethnicity";
 import { SkipGrammarRegEx } from "./rules/skip-grammar";
 import { SkipWordSet } from "./rules/skip-word-set";
-import { deepCopy } from "./util/deepCopy";
 
 const r = require("esm")(module);
 const t = r("@buckneri/string");
@@ -42,6 +41,9 @@ const findUKPostcode = t.findUKPostcode;
 const findDate = t.findDate;
 const findTime = t.findTime;
 const findOrdinal = t.findOrdinal;
+
+const c = r("@buckneri/collections");
+const deepCopy = c.deepCopy;
 
 /**
  * ### Natural language processing services

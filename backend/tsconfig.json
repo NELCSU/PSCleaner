@@ -47,7 +47,6 @@
     "src/rules/skip-word-set.ts",
 
     "src/util/charCode.ts",
-    "src/util/deepCopy.ts",
     "src/util/path.ts"
   ]
 }
