@@ -51,6 +51,7 @@ const a: RegExp[] = [
   /\bC\sof\sE\b/gm,
   /\bcabinet\s(?:close|way|wood)\b/gmi,
   /\b(?:hampton\scare|care\s(?:centre|hill|home|village))\b/gmi,
+  /\bcentury\s(?:avenue|belt|close|court|drive|fields|gardens|lane|lodge|mews|park|place|plantation|ponds|road|square|street|view|walk|way|wood)\b/gmi,
   /\bcoesau[\s\-]whips\b/gmi,
   /\bcommonwealth\s(?:avenue|close|drive|road|view|way)\b/gmi,
   /\bcrawl\s(?:lane|meadow|wood)\b/gmi,

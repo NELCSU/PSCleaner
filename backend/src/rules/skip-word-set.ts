@@ -274,6 +274,7 @@ const a: string[] = [
 "caddy",
 "cadenza",
 "cadet",
+"cadre",
 "cairn",
 "cairo",
 "calc",

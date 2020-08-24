@@ -956,7 +956,7 @@ const a: string[] = [
 "selungai",
 "sembakung",
 "seminole",
-"seneca",
+
 "senegalese",
 "senufo",
 "sepedi",
