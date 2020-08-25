@@ -285,7 +285,7 @@ export class NLP {
           if (passed) {
             result.push({
               end: m.index + m[0].length - 1,
-              how: "keyword",
+              how: "keyword match",
               id: this._id(m[0]),
               length: m[0].length,
               start: m.index,
@@ -330,7 +330,7 @@ export class NLP {
           if (passed) {
             result.push({
               end: m.index + m[0].length - 1,
-              how: re.source,
+              how: r.source,
               id: this._id(m[0]),
               length: m[0].length,
               start: m.index,
@@ -378,14 +378,14 @@ export class NLP {
     return outcome;
   }
 
-  private _removeIsolatedMidfixes(list: MatchedEntity[]) {
+  private _removeOrphans(list: MatchedEntity[]) {
     let pre: MatchedEntity | undefined, mid: MatchedEntity | undefined, suf: MatchedEntity | undefined;
     let i = list.length - 1;
     while (i > -1) {
       suf = list[i];
       mid = i - 1 > -1 ? list[i-1] : undefined;
       pre = i - 2 > -1 ? list[i-2] : undefined;
-      if (suf.action.midfix) {
+      if (suf.action.midfix || suf.action.prefix) {
         list.splice(i, 1);
       } else if (pre && mid) {
         if (mid.action.midfix) {
@@ -401,23 +401,6 @@ export class NLP {
         }
       }
       --i;
-    }
-  }
-
-  private _removeIsolatedPrefixes(list: MatchedEntity[]) {
-    let pre: MatchedEntity | undefined, mid: MatchedEntity | undefined;
-    let i = 0;
-    while (i < list.length) {
-      mid = i + 1 < list.length ? list[i + 1] : undefined;
-      pre = list[i];
-      if (mid && pre.action.prefix) {
-        if (pre.match.end + 2 !== mid.match.start) {
-          list.splice(i, 1);
-        }
-      } else if (pre.action.prefix) {
-        list.splice(i, 1);
-      }
-      ++i;
     }
   }
 
@@ -479,8 +462,7 @@ export class NLP {
       }
     }
 
-    this._removeIsolatedPrefixes(result);
-    this._removeIsolatedMidfixes(result);
+    this._removeOrphans(result);
 
     if (result.length > 1) {
       let i = 0;
