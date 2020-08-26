@@ -1071,7 +1071,7 @@ const a: string[] = [
 "togolese",
 "tontemboan",
 "toraja",
-"torbesh",
+
 "tornedalian",
 "toshavim",
 "toubou",

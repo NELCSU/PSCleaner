@@ -4,7 +4,7 @@ const a: RegExp[] = [
   /\b(?:first|last)\s\d+\b/gmi,
   /\bap{1,3}rox\b/gmi,
   /\bat\shome\b/gmi,
-  /\b(?:between|from|in|in\sthe|the)\s(?:January|February|March|April|May|June|July|August|September|October|November|December)\s?(?:and|to|\-)\s?(?:January|February|March|April|May|June|July|August|September|October|November|December)\b/gmi,
+  /\b(?:between|from|in|in\sthe|of|the)\s(?:January|February|March|April|May|June|July|August|September|October|November|December)\s?(?:and|through|to|\-)\s?(?:January|February|March|April|May|June|July|August|September|October|November|December)\b/gmi,
   /\bthe\seve\sof\b/gmi,
   /\bbank\sholiday\b/gmi,
   /\bchild\sof\b/gmi,
