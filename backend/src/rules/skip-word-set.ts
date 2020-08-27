@@ -1323,6 +1323,7 @@ const a: string[] = [
 "plateau",
 "plateaux",
 "plato",
+"playoff",
 "plaza",
 "pleb",
 "plexus",
