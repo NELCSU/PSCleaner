@@ -65,6 +65,7 @@ const a: RegExp[] = [
   /\bearth\s(?:copse|green|holes|holme|lane|primary|street|wall|wood)\b/gmi,
   /\beducation\sroad\b/gmi,
   /\beuropean\s(?:college|school|way)\b/gmi,
+  /\bExecutive\sBusiness\sCentre\b/gm,
   /\bhand\s(?:avenue|bank|causeway|close|copse|court|dale|farm|green|lake|lane|marsh|street|trough|wood)\b/gmi,
   /\b(?:hand\sand\spen|crossway\shand|the\sawful\shand)\b/gmi,
   /\bholy\sfamily\b/gmi,

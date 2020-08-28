@@ -2626,7 +2626,6 @@ const a: string[] = [
 "excelsior",
 "exchange",
 "exchequer",
-"executive",
 "exhibition",
 "exodus",
 "expectations",
