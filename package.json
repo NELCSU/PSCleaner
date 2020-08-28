@@ -67,7 +67,7 @@
     "build": "npm-run-all --parallel build-client build-backend",
     "build-backend": "tsc --project ./backend/tsconfig.json",
     "build-client": "tsc --project ./client/tsconfig.json",
-    "make": "npm run wipe-all && npm run update-webc && npm run make-w32 && npm run make-w64",
+    "make": "npm prune --production && npm run wipe-all && npm run update-webc && npm run make-w32 && npm run make-w64 && npm ci",
     "make-w32": "electron-forge make --platform=win32 --arch=ia32",
     "make-w64": "electron-forge make",
     "package": "npm run package-w64 && npm run package-w32",
