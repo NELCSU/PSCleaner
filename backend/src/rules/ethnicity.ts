@@ -120,7 +120,6 @@ const a: string[] = [
 "bahing",
 "bahnar",
 "bahraini",
-
 "bai",
 "baidya",
 "baishya",
@@ -210,7 +209,6 @@ const a: string[] = [
 "bozom",
 "braber",
 "brahmin",
-
 "brazilian",
 "breton",
 "brong",
@@ -261,12 +259,9 @@ const a: string[] = [
 "chilean",
 "chinese",
 "chirag",
-
 "chokri",
 "chokwe",
 "chontal",
-
-
 "chumburung",
 "chunaru",
 "chutiya",
@@ -343,7 +338,6 @@ const a: string[] = [
 "ekpeye",
 "eleme",
 "emai",
-
 "emilian",
 "emirati",
 "engenni",
@@ -356,7 +350,6 @@ const a: string[] = [
 "eton",
 "evalue",
 "ewe",
-"ezhava",
 "fante",
 "faroese",
 "feyli",
@@ -450,7 +443,6 @@ const a: string[] = [
 "hebei",
 "hebrew",
 "hebridean",
-
 "helenian",
 "hemba",
 "hemshin",
@@ -483,7 +475,6 @@ const a: string[] = [
 "igede",
 "igorot",
 "ika",
-
 "ikwo",
 "indian",
 "indonesian",
@@ -648,7 +639,6 @@ const a: string[] = [
 "lipo",
 "lipovan",
 "lisu",
-
 "lithuanian",
 "lombard",
 "lomwe",
@@ -673,7 +663,6 @@ const a: string[] = [
 "mafa",
 "magahi",
 "magar",
-
 "mahafaly",
 "maharastra",
 "mahishya",
@@ -720,7 +709,6 @@ const a: string[] = [
 "mauritian",
 "mavchi",
 "mayombe",
-
 "mazari",
 "mazatecan",
 "mbaise",
@@ -791,7 +779,6 @@ const a: string[] = [
 "māori",
 "naba",
 "nafusi",
-
 "nair",
 "nama",
 "namibian",
@@ -882,13 +869,11 @@ const a: string[] = [
 "portuguese",
 "provencal",
 "punjabi",
-"purepecha",
 "putianese",
 "qaratay",
 "qatari",
 "qemant",
 "qiangic",
-
 "quechuan",
 "rade",
 "rai",
@@ -920,7 +905,6 @@ const a: string[] = [
 "sahrawi",
 "sakalava",
 "salale",
-
 "salinero",
 "salvadorean",
 "sambal",
@@ -956,7 +940,6 @@ const a: string[] = [
 "selungai",
 "sembakung",
 "seminole",
-
 "senegalese",
 "senufo",
 "sepedi",
@@ -1071,7 +1054,6 @@ const a: string[] = [
 "togolese",
 "tontemboan",
 "toraja",
-
 "tornedalian",
 "toshavim",
 "toubou",
@@ -1084,7 +1066,6 @@ const a: string[] = [
 "tristanian",
 "tshangla",
 "tsimihety",
-
 "tugen",
 "tujia",
 "tunisian",
@@ -1104,13 +1085,11 @@ const a: string[] = [
 "tzeltal",
 "udmurt",
 "ugandan",
-
 "ukrainian",
 "umbrian",
 "umbundu",
 "uruguayan",
 "urum",
-
 "uzbek",
 "vagla",
 "vagri",
