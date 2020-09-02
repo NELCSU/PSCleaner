@@ -79,6 +79,7 @@ const a: RegExp[] = [
   /\bfrying\span\spond\b/gmi,
   /\bfunny[\s\-]shaped\swood\b/gmi,
   /\bgovernors?\s(?:drive|close|marsh|mews|road|wood|yard)\b/gmi,
+  /\bgraduate\s(?:court|lane)\b/gmi,
   /\bgrange\stherapeutic\b/gmi,
   /\bguardians\s(?:close|court|road|walk|way|wood)\b/gmi,
   /\bhealth\s(?:centre\sroad|place|street)\b/gmi,
