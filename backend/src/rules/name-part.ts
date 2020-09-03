@@ -27,7 +27,7 @@ const NameInitialRegEx: RegExp[] = [
 ];
 
 const NamePrefixRegEx: RegExp[] = [
-  new RegExp(/\b[Od][\'\‘\’\`]/, "gm")
+  new RegExp(/\b[od][\'\‘\’\`]/, "gmi")
 ];
 
 const NameMiddleInitialRegEx: RegExp[] = [

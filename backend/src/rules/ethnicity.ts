@@ -196,7 +196,6 @@ const a: string[] = [
 "bissa",
 "bissaun",
 "boer",
-"bohemian",
 "bolivian",
 "bolon",
 "bonairian",
@@ -691,7 +690,7 @@ const a: string[] = [
 "manding",
 "mandinka",
 "mandja",
-"maore",
+
 "mappila",
 "mapudungun",
 "marachi",
