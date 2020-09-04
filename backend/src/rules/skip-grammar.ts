@@ -11,6 +11,7 @@ const a: RegExp[] = [
   /\ba\sbath\b/gmi,
   /\bchief\sof\sstaff\b/gmi,
   /\bdirector[\s\-]general\b/gmi,
+  /\ben\smasse\b/gmi,
   /\b(?:as|since)\s(?:(?:early(?:\sas)?|mid|late(?:\sas)?)[\s\-])?(?:January|February|March|April|May|June|July|August|September|October|November|December)\b/gmi,
   /\b(?:end|middle|start)\sof\s(?:January|February|March|April|May|June|July|August|September|October|November|December)\b/gmi,
   /\bnew\syear[\’\‘\'\`]?s\seve\b/gmi,
