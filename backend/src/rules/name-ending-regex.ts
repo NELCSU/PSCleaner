@@ -1,8 +1,6 @@
 export const NamesEndingRegEx: RegExp[] = [
    /[a-z]*[À-ÖØ-öø-ÿãñõțũąğịňōıŚạşęăầẩőếěšảłộơńėčəāţș]+[a-z]*/gmi,
 
-   /\b(Cl|Rd|St)\./gm,
-
    /\b[a-z]+borough\b/gmi,
 
    /\b[a-z]+berger\b/gmi,

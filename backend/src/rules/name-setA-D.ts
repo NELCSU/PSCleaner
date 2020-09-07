@@ -15302,6 +15302,7 @@ const a: string[] = [
 "argents",
 "argeo",
 "arger",
+"argeres",
 "argero",
 "argeron",
 "argeros",

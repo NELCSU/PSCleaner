@@ -1,6 +1,6 @@
 export const LocationPrefixRegEx: RegExp[] = [
-  new RegExp(/\b(?<![,\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{2}\s[a-z]{3,})/, "gmi"),
-  new RegExp(/\b(?<![,\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{6,})/, "gmi")
+  /\b(?<![\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{2}\s[a-z]{3,})/gmi,
+  /\b(?<![\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{4,})/gmi
 ];
 
 export const LocationMidfixRegEx: RegExp[] = [
@@ -69,6 +69,7 @@ const a: RegExp[] = [
   /\beducation\sroad\b/gmi,
   /\beuropean\s(?:college|school|way)\b/gmi,
   /\bExecutive\sBusiness\sCentre\b/gm,
+  /\bflying\s(?:high\sacademy|bull|dingle|dutchman|fields|fox|horse|park|scotsman)\b/gmi,
   /\bhand\s(?:avenue|bank|causeway|close|copse|court|dale|farm|green|lake|lane|marsh|street|trough|wood)\b/gmi,
   /\b(?:hand\sand\spen|crossway\shand|the\sawful\shand)\b/gmi,
   /\bholy\sfamily\b/gmi,

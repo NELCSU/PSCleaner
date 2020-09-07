@@ -16230,6 +16230,7 @@ const a: string[] = [
 "sahamipour",
 "sahanas",
 "sahand",
+"sahanic",
 "saharazard",
 "sahardeed",
 "sahardid",

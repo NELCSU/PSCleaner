@@ -185,7 +185,7 @@ export class NLP {
     };
 
     const namePlural: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 0, suffix: 1 },
+      action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 1, suffix: 1 },
       entity: NameRegExEntity,
       matches: this._evalRegEx(data, NamePuralRegEx)
     };
@@ -203,7 +203,7 @@ export class NLP {
     };
 
     const skipGrammar: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 3, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
       entity: SkipWordEntity,
       matches: this._evalRegEx(data, SkipGrammarRegEx)
     };
@@ -380,27 +380,65 @@ export class NLP {
 
   private _removeOrphans(list: MatchedEntity[]) {
     let pre: MatchedEntity | undefined, mid: MatchedEntity | undefined, suf: MatchedEntity | undefined;
+
+    const neighbors = (a: MatchedEntity, b: MatchedEntity) => a.match.end + 2 >= b.match.start && a.entity.domain === b.entity.domain;
+    const nofix = (e: MatchedEntity) => e.action.prefix === 0 && e.action.midfix === 0 && e.action.suffix === 0;
+    const wipe = (e: MatchedEntity) => {
+      e.action = deepCopy(e.action);
+      e.action.prefix = e.action.midfix = e.action.suffix = 0;
+    };
+    const okPrefix  = (e: MatchedEntity) => nofix(e) || e.action.prefix;
+    const okMidfix = (e: MatchedEntity) => nofix(e) || e.action.midfix;
+    const okSuffix = (e: MatchedEntity) => nofix(e) || e.action.suffix;
+    
     let i = list.length - 1;
     while (i > -1) {
+      if (i > list.length - 1) {
+        i = list.length - 1;
+      }
       suf = list[i];
       mid = i - 1 > -1 ? list[i-1] : undefined;
       pre = i - 2 > -1 ? list[i-2] : undefined;
-      if (suf.action.midfix || suf.action.prefix) {
-        list.splice(i, 1);
-      } else if (pre && mid) {
-        if (mid.action.midfix) {
-          if (mid.match.end + 2 === suf.match.start
-              && pre.match.end + 2 === mid.match.start
-              && pre.action.midfix === 0
-              && mid.entity.domain === suf.entity.domain
-              && mid.entity.domain === pre.entity.domain) {
-            --i;
-          } else {
+      
+      if (mid && neighbors(mid, suf)) {
+        if (pre && neighbors(pre, mid)) { // evaluate a-b-c
+          if (!okSuffix(suf)) {
+            list.splice(i, 1);
+          } else if (!okMidfix(mid)) {
             list.splice(i - 1, 1);
+          } else if (!okPrefix(pre)) {
+            list.splice(i - 2, 1);
+          } else {
+            i -= 2;
+            wipe(pre);
+            wipe(mid);
+            wipe(suf);
+          }
+        } else { // evaluate b-c
+          if (nofix(suf)) {
+            if (okPrefix(mid)) {
+              i -= 2;
+              wipe(mid);
+            } else {
+              list.splice(i - 1, 1);
+              i = list.length - 1;
+            }
+          } else {
+            if (okSuffix(suf)) {
+              wipe(suf);
+            } else {
+              list.splice(i, 1);
+              i = list.length - 1;
+            }
           }
         }
+      } else {
+        if (nofix(suf)) {
+          --i;
+        } else { // c had some -fix but no neighbor
+          list.splice(i, 1);
+        }
       }
-      --i;
     }
   }
 

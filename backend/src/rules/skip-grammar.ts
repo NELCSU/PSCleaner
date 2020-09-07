@@ -31,6 +31,7 @@ const a: RegExp[] = [
   /\b(?:during|in\sthe|since|until)\s(?:(?:early|mid|late)[\s\-])?(?:January|February|March|April|May|June|July|August|September|October|November|December)\b/gmi,
   /\b(?:from|in)\s(?:(?:early|mid|late)[\s\-])?(?:January|February|April|May|June|July|August|September|October|November|December)\b/gmi,
   /\b(?:from|in)\s(?:early|mid|late)[\s\-]March\b/gmi,
+  /\b[Ss]ales\sof\s\w+\b/gm,
   /\bstepping\son\b/gmi,
   /\bsummer\scamp\b/gmi,
   /\bwent\sover\b/gmi,
