@@ -7,7 +7,10 @@ import {
   PostcodeEntity, SkipWordEntity,
   TelephoneEntity, TimeEntity, URLEntity
 } from "./entities";
-import { LocationPrefixRegEx, LocationRegEx, LocationMidfixRegEx } from "./rules/location";
+import {
+  LocationPrefixRegEx, LocationRegEx, 
+  LocationMidfixRegEx, LocationSuffixRegEx
+} from "./rules/location";
 import { RospaRegEx } from "./rules/rospa";
 import { MedicalAbbrRegEx } from "./rules/medical-abbreviations";
 import { MedicalTermRegEx } from "./rules/medical-terms";
@@ -118,10 +121,16 @@ export class NLP {
       matches: this._evalRegEx(data, findOrdinal, (n: string) => isPropercase(n))
     };
 
-    const nameMidfix: Evaluation = {
+    const locationMidfix: Evaluation = {
       action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 1, suffix: 0 },
       entity: LocationRegExEntity,
       matches: this._evalRegEx(data, LocationMidfixRegEx)
+    };
+
+    const locationSuffix: Evaluation = {
+      action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 0, suffix: 1 },
+      entity: LocationRegExEntity,
+      matches: this._evalRegEx(data, LocationSuffixRegEx)
     };
 
     const namesEnding: Evaluation = {
@@ -233,15 +242,12 @@ export class NLP {
     };
 
     matches = this._sortMatches(data, 
-      banking, currency, dates, 
-      emails, eth, householdItem,
-      location, locationPrefix1, locationPrefix2, 
+      banking, currency, dates, emails, eth, householdItem,
+      location, locationPrefix1, locationPrefix2, locationMidfix, locationSuffix,
       medication, medicalAbbr, medicalTerm,
-      namePrefix, nameMidfix, nameInitials, 
-      nameMiddleInitials, namePlural, names, namesEnding, nhs,
-      postcode, properName, properNameJoin, partName,
-      tel, times, url,
-      skipGrammar, skipWord
+      namePrefix, nameInitials, nameMiddleInitials, namePlural, names, namesEnding,
+      nhs, postcode, properName, properNameJoin, partName,
+      tel, times, url, skipGrammar, skipWord
     );
     return Promise.resolve(matches);
   }
@@ -391,51 +397,55 @@ export class NLP {
     const okMidfix = (e: MatchedEntity) => nofix(e) || e.action.midfix;
     const okSuffix = (e: MatchedEntity) => nofix(e) || e.action.suffix;
     
-    let i = list.length - 1;
-    while (i > -1) {
-      if (i > list.length - 1) {
-        i = list.length - 1;
-      }
-      suf = list[i];
-      mid = i - 1 > -1 ? list[i-1] : undefined;
-      pre = i - 2 > -1 ? list[i-2] : undefined;
+    let i = 0;
+    while (i < list.length) {
+      pre = list[i];
+      mid = i + 1 > list.length - 1 ? undefined : list[i + 1];
+      suf = i + 2 > list.length - 1 ? undefined : list[i + 2];
       
-      if (mid && neighbors(mid, suf)) {
-        if (pre && neighbors(pre, mid)) { // evaluate a-b-c
-          if (!okSuffix(suf)) {
+      if (mid && neighbors(pre, mid)) {
+        if (suf && neighbors(mid, suf)) { // evaluate a-b-c
+          if (!okPrefix(pre)) {
             list.splice(i, 1);
           } else if (!okMidfix(mid)) {
-            list.splice(i - 1, 1);
-          } else if (!okPrefix(pre)) {
-            list.splice(i - 2, 1);
+            list.splice(i + 1, 1);
+          } else if (!okSuffix(suf)) {
+            i += 1;
+            wipe(pre);
+            wipe(mid);
           } else {
-            i -= 2;
+            i += 2;
             wipe(pre);
             wipe(mid);
             wipe(suf);
           }
-        } else { // evaluate b-c
-          if (nofix(suf)) {
-            if (okPrefix(mid)) {
-              i -= 2;
+        } else { // evaluate a-b
+          if (nofix(pre)) {
+            if (okSuffix(mid)) {
+              i += 2;
               wipe(mid);
             } else {
-              list.splice(i - 1, 1);
-              i = list.length - 1;
+              list.splice(i + 1, 1);
             }
           } else {
-            if (okSuffix(suf)) {
-              wipe(suf);
+            if (okPrefix(pre)) {
+              if (okSuffix(mid) || nofix(mid)) {
+                wipe(pre);
+                wipe(mid);
+                i += 2;
+              } else {
+                list.splice(i + 1, 1);
+                --i;
+              }
             } else {
               list.splice(i, 1);
-              i = list.length - 1;
             }
           }
         }
       } else {
-        if (nofix(suf)) {
-          --i;
-        } else { // c had some -fix but no neighbor
+        if (nofix(pre)) {
+          ++i;
+        } else { // a had some -fix but no neighbor
           list.splice(i, 1);
         }
       }

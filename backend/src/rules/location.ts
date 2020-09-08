@@ -4,21 +4,24 @@ export const LocationPrefixRegEx: RegExp[] = [
 ];
 
 export const LocationMidfixRegEx: RegExp[] = [
-  new RegExp(/\band\b/, "gmi"),
-  new RegExp(/\bfor\b/, "gmi"),
-  new RegExp(/\bof\b/, "gmi"),
-  new RegExp(/\bof\sthe\b/, "gmi"),
-  new RegExp(/\bon\b/, "gmi"),
-  new RegExp(/\b[io]n\sthe\b/, "gmi"),
-  new RegExp(/\bthe\b/, "gmi"),
-  new RegExp(/\-y\-/, "gmi")
+  /\band\b/gmi,
+  /\bfor\b/gmi,
+  /\bof\b/gmi,
+  /\bof\sthe\b/gmi,
+  /\bon\b/gmi,
+  /\b[io]n\sthe\b/gmi,
+  /\bthe\b/gmi,
+  /\-y\-/gmi
+];
+
+export const LocationSuffixRegEx: RegExp[] = [
+  /[\-\s]on[\-\s]sea\b/gmi,
+  /[\-\s]on[\-\s]the[\-\s]wall\b/gmi,
 ];
 
 const a: RegExp[] = [
   /\bP\.?O\.?\sBox\s\d+\b/gmi,
   /\b(?:apartment|block|suite|unit)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/gmi,
-  /\-on\-sea\b/gmi,
-  /\-on\-the\-wall\b/gmi,
 
   /\babdication\swood\b/gmi,
   /\babundant\sgrace\b/gmi,
