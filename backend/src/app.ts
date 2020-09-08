@@ -160,6 +160,11 @@ class Main {
       backgroundColor: "#002b36",
       file: config.pages.get("index"),
       icon: config.images.get("favicon"),
+      webPreferences: {
+        enableRemoteModule: true,
+        nodeIntegration: true,
+        worldSafeExecuteJavaScript: true
+      }
     });
 
     if (process.env.NODE_ENV === "development") {

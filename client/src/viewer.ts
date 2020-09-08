@@ -3,6 +3,7 @@ import * as he from "he";
 import { clipboard, ipcRenderer as ipc, remote } from "electron";
 import { normalize, selectionTrim } from "@buckneri/string";
 
+const { Menu, MenuItem } = remote;
 const clearAllButton = document.getElementById("btnClearAll") as HTMLButtonElement;
 const clearTagsButton = document.getElementById("btnClearTags") as HTMLButtonElement;
 const dataEntryText = document.getElementById("txtAddText") as HTMLElement;
@@ -178,7 +179,7 @@ ipc.on("NLP-response", (_: Event, response: any) => {
 ipc.send("get-entities");
 
 window.addEventListener("contextmenu", e => {
-  const contextMenu = new remote.Menu();
+  const contextMenu = new Menu();
   const sel = window.getSelection() as Selection;
   selectionTrim(sel);
   const el = e.target as HTMLElement;
@@ -188,7 +189,7 @@ window.addEventListener("contextmenu", e => {
     e.stopPropagation();
     tag = el;
     contextMenu.append(
-      new remote.MenuItem({
+      new MenuItem({
         label: "Delete",
         click() {
           tag.delete();
@@ -201,7 +202,7 @@ window.addEventListener("contextmenu", e => {
     if (typeof clipboard.readText() === "string") {
       e.stopPropagation();
       contextMenu.append(
-        new remote.MenuItem({
+        new MenuItem({
           label: "Paste",
           click() {
             pasteText();
