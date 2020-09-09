@@ -60,6 +60,7 @@ export type Action = {
   discard: number;
   joinable: number;
   order: number;
+  pos: number;
   prefix: number;
   midfix: number;
   suffix: number;

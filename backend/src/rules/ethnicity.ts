@@ -402,7 +402,6 @@ const a: string[] = [
 "gorontaloan",
 "gourmanche",
 "gozitan",
-"grebo",
 "greek",
 "greenlander",
 "greenlandic",
@@ -690,7 +689,6 @@ const a: string[] = [
 "manding",
 "mandinka",
 "mandja",
-
 "mappila",
 "mapudungun",
 "marachi",
@@ -1031,7 +1029,6 @@ const a: string[] = [
 "taungyo",
 "tausūg",
 "tboli",
-"tebu",
 "teimanim",
 "tem",
 "temne",

@@ -28,6 +28,7 @@ const a: RegExp[] = [
   /\bon\sfoot\b/gmi,
   /\bon\stop\sof\b/gmi,
   /\b(?:from|on|since)\s(?:Fri|Mon|Satur|Sun|Thurs|Tues|Wednes)day\b/gmi,
+  /\b(?:Fri|Mon|Satur|Sun|Thurs|Tues|Wednes)day\sand\s(?:Fri|Mon|Satur|Sun|Thurs|Tues|Wednes)day\b/gmi,
   /\b(?:during|in\sthe|since|until)\s(?:(?:early|mid|late)[\s\-])?(?:January|February|March|April|May|June|July|August|September|October|November|December)\b/gmi,
   /\b(?:from|in)\s(?:(?:early|mid|late)[\s\-])?(?:January|February|April|May|June|July|August|September|October|November|December)\b/gmi,
   /\b(?:from|in)\s(?:early|mid|late)[\s\-]March\b/gmi,

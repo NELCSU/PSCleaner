@@ -62,181 +62,181 @@ export class NLP {
     let matches: MatchedEntity[] = [];
 
     const banking: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: BankingEntity,
       matches: this._evalRegEx(data, findBankingNumbers)
     };
 
     const currency: Evaluation = {      
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: CurrencyEntity,
       matches: this._evalRegEx(data, findCurrency)
     };
 
     const dates: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: DateEntity,
       matches: this._evalRegEx(data, findDate)
     };
 
     const emails: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: EmailEntity,
       matches: this._evalRegEx(data, findEmail)
     };
 
     const eth: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 2, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: EthnicityEntity,
       matches: this._evalKeyword(data, null, EthnicitySet)
     };
 
     const householdItem: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: SkipWordEntity,
       matches: this._evalRegEx(data, RospaRegEx)
     };
 
     const location: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: LocationRegExEntity,
       matches: this._evalRegEx(data, LocationRegEx)
     };
 
     const postcode: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: PostcodeEntity,
       matches: this._evalRegEx(data, findUKPostcode)
     };
 
     const locationPrefix1: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 1, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 1, midfix: 0, suffix: 0 },
       entity: LocationRegExEntity,
       matches: this._evalRegEx(data, LocationPrefixRegEx)
     };
 
     const locationPrefix2: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 1, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 1, midfix: 0, suffix: 0 },
       entity: LocationRegExEntity,
       matches: this._evalRegEx(data, findOrdinal, (n: string) => isPropercase(n))
     };
 
     const locationMidfix: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 1, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 0, midfix: 1, suffix: 0 },
       entity: LocationRegExEntity,
       matches: this._evalRegEx(data, LocationMidfixRegEx)
     };
 
     const locationSuffix: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 0, suffix: 1 },
+      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 0, midfix: 0, suffix: 1 },
       entity: LocationRegExEntity,
       matches: this._evalRegEx(data, LocationSuffixRegEx)
     };
 
     const namesEnding: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 4, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 1, order: 4, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameRegExEntity,
       matches: this._evalRegEx(data, NamesEndingRegEx)
     };
 
     const names: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 4, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 1, order: 4, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
       matches: this._evalKeyword(data, null, NameSetAD, NameSetEH, NameSetIL, NameSetMP, NameSetQT, NameSetUZ)
     };
 
     const properName: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 2, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
       matches: this._evalKeyword(data, (n: string) => isPropercase(n), ProperNameSet)
     };
 
     const properNameJoin: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 2, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
       matches: this._evalKeyword(data, (n: string) => isPropercase(n), ProperNameSetJoinOnly)
     };
 
     const medicalAbbr: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: MedicalEntity,
       matches: this._evalRegEx(data, MedicalAbbrRegEx)
     };
 
     const medicalTerm: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: MedicalEntity,
       matches: this._evalRegEx(data, MedicalTermRegEx)
     };
 
     const medication: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: MedicalEntity,
       matches: this._evalRegEx(data, MedicationRegEx)
     };
 
     const namePrefix: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameRegExEntity,
       matches: this._evalRegEx(data, NamePrefixRegEx)
     };
 
     const nameInitials: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 1, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 1, midfix: 0, suffix: 0 },
       entity: NameRegExEntity,
       matches: this._evalRegEx(data, NameInitialRegEx)
     };
 
     const nameMiddleInitials: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 1, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 0, midfix: 1, suffix: 0 },
       entity: NameRegExEntity,
       matches: this._evalRegEx(data, NameMiddleInitialRegEx)
     };
 
     const namePlural: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, prefix: 0, midfix: 1, suffix: 1 },
+      action: { discard: 1, joinable: 1, order: 3, pos: 1, prefix: 0, midfix: 1, suffix: 1 },
       entity: NameRegExEntity,
       matches: this._evalRegEx(data, NamePuralRegEx)
     };
 
     const partName: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 4, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 4, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: NameEntity,
       matches: this._evalKeyword(data, null, NamePartSet)
     };
 
     const nhs: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: NHSEntity,
       matches: this._evalRegEx(data, findNHSNumber)
     };
 
     const skipGrammar: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: SkipWordEntity,
       matches: this._evalRegEx(data, SkipGrammarRegEx)
     };
 
     const skipWord: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 3, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 0, order: 3, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: SkipWordEntity,
       matches: this._evalKeyword(data, null, SkipWordSet)
     };
 
     const tel: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 2, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: TelephoneEntity,
       matches: this._evalRegEx(data, findUKTelephone)
     };
 
     const times: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: TimeEntity,
       matches: this._evalRegEx(data, findTime)
     };
 
     const url: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, prefix: 0, midfix: 0, suffix: 0 },
+      action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
       entity: URLEntity,
       matches: this._evalRegEx(data, findURL)
     };
@@ -365,7 +365,9 @@ export class NLP {
     curr.match.value += conjunction + next.match.value;
     curr.entity = deepCopy(next.entity);
     const d: Action = deepCopy(curr.action);
-    d.discard = 0;
+    if (!next.action.pos) {
+      d.discard = 0;
+    }
     curr.action = d;
     curr.match.length = curr.match.value.length;
     curr.match.end = next.match.end;
@@ -412,7 +414,6 @@ export class NLP {
           } else if (!okSuffix(suf)) {
             i += 1;
             wipe(pre);
-            wipe(mid);
           } else {
             i += 2;
             wipe(pre);
