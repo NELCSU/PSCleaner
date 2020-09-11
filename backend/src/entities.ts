@@ -110,12 +110,12 @@ export const PostcodeEntity: Entity = {
 };
 
 export const SkipWordEntity: Entity = { 
-  color: "#0050ff", 
+  color: "#0050ff",
   description: "List of words",
-  domain: "SKIP", 
-  label: "Skip words", 
+  domain: "SKIP",
+  label: "Skip words",
   mask: "SKIP",
-  type: "keyword" 
+  type: "keyword"
 };
 
 export const TelephoneEntity: Entity = { 

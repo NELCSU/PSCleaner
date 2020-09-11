@@ -1,14 +1,14 @@
 import type { Action, Evaluation, MatchedEntity, TextMatch } from "../types/PSCleaner";
 import {
-  BankingEntity, CurrencyEntity, DateEntity, 
+  BankingEntity, CurrencyEntity, DateEntity,
   EmailEntity, EthnicityEntity,
   LocationRegExEntity, MedicalEntity,
-  NameEntity, NameRegExEntity, NHSEntity, 
+  NameEntity, NameRegExEntity, NHSEntity,
   PostcodeEntity, SkipWordEntity,
   TelephoneEntity, TimeEntity, URLEntity
 } from "./entities";
 import {
-  LocationPrefixRegEx, LocationRegEx, 
+  LocationPrefixRegEx, LocationRegEx,
   LocationMidfixRegEx, LocationSuffixRegEx
 } from "./rules/location";
 import { RospaRegEx } from "./rules/rospa";
@@ -404,7 +404,7 @@ export class NLP {
       pre = list[i];
       mid = i + 1 > list.length - 1 ? undefined : list[i + 1];
       suf = i + 2 > list.length - 1 ? undefined : list[i + 2];
-      
+
       if (mid && neighbors(pre, mid)) {
         if (suf && neighbors(mid, suf)) { // evaluate a-b-c
           if (!okPrefix(pre)) {

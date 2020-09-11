@@ -19,6 +19,7 @@ const a: RegExp[] = [
   /\bgood\s(?:evening|morning|night)\b/gmi,
   /\bhead\son\b/gmi,
   /\bHope\sof\b/gm,
+  /\bhunker\sdown\b/gmi,
   /\bmid\-\w+\b/gmi,
   /\bmodus\soperandi\b/gmi,
   /\bmore\son\b/gmi,
