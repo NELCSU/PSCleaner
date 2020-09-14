@@ -8,6 +8,7 @@ const a: string[] = [
 "la",
 "le",
 "los",
+"ul",
 "un",
 "van",
 "von",
@@ -27,7 +28,7 @@ const NameInitialRegEx: RegExp[] = [
 ];
 
 const NamePrefixRegEx: RegExp[] = [
-  new RegExp(/\b[od][\'\‘\’\`]/, "gmi")
+  new RegExp(/\b(?:a|aa|d|is|l|mu|na|o|ra|sa|za)[\'\‘\’\`]/, "gmi")
 ];
 
 const NameMiddleInitialRegEx: RegExp[] = [

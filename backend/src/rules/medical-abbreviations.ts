@@ -4,7 +4,7 @@ const a: RegExp[] = [
   /\bantibac\b/gmi,
   /\bALTE\b/gm,
   /\bBIB\b/gm,   // brought in by
-  /\bbiba\b/gmi, // brought in by ambulance
+  /\bBIBA\b/gm, // brought in by ambulance
   /\bcopd\b/gmi,
   /\bcssu\b/gmi,
   /\bdatix\b/gmi,
@@ -28,7 +28,7 @@ const a: RegExp[] = [
   /\bNIC\b/gm,
   /\bNSTEMI\b/gm,
   /\bortho\b/gmi,
-  /\bperla\b/gmi,
+  /\PERLA\b/gm,
   /\bpmhx?\b/gmi,
   /\bpreg\b/gmi,
   /\bpssu\b/gmi,
