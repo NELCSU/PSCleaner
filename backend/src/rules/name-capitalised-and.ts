@@ -2024,7 +2024,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "waste",
 "wastelands",
 "waster",
-"watch",
 "water",
 "waterfall",
 "waterless",
