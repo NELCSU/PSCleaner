@@ -532,7 +532,7 @@ const a: string[] = [
 "khayo",
 "khetran",
 "khezha",
-"khmer",
+
 "khoekhoe",
 "khoja",
 "kichepo",
