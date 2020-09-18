@@ -170,7 +170,7 @@ const a: RegExp[] = [
   /\bThe\s(?:Waterwheel)\b/gm,
   /\bunnamed\s(?:rd|road)\b/gmi,
   /\bunion\s(?:arcade|avenue|bank|bay|belt|brae|buildings?|castle|close|court|crescent|cross|dock|drift|drive|drove|gardens|gate|gorse|green|grove|hall|hill|house|lane|mill|mine|park|passage|place|plantation|quay|rise|road|row|spinney|square|street|terrace|view|walk|way|wynd|yard)\b/gmi,
-  /\bUnited\s(?:[Cc]ollege|[Dd]owns|[Dd]rive|[Kk]ingdom|[Rr]oad|[Ss]tates|[Ww]ay)\b/gm,
+  /\bUnited\s(?:[Aa]rab|[Cc]ollege|[Dd]owns|[Dd]rive|[Kk]ingdom|[Rr]oad|[Ss]tates|[Ww]ay)\b/gm,
   /\bunit\sroad\b/gmi,
   /\buniversity\s(?:academy|avenue|barns|boulevard|campus|centre|close|college|court|crescent|drive|farm|garden|hospital|house|parks?|parkway|place|quays|road|street|terrace|walk|way|wood)\b/gmi,
   /\bWarriors\sWay\b/gm,

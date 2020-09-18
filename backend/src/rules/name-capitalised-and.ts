@@ -1559,6 +1559,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "royalty",
 "ruin",
 "ruins",
+"rugged",
+"rule",
 "run",
 "rune",
 "rung",
