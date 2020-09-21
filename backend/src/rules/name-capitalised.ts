@@ -5411,7 +5411,6 @@ const a: string[] = [
 "paving",
 "pavlov",
 "pawns",
-"paws",
 "payer",
 "payers",
 "paymaster",

@@ -662,7 +662,6 @@ const a: string[] = [
 "marri",
 "marshallese",
 "masa",
-"masalit",
 "mattokki",
 "mauritanian",
 "mauritian",

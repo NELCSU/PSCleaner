@@ -1,6 +1,6 @@
 export const LocationPrefixRegEx: RegExp[] = [
-  /\b(?<![\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{2}\s[a-z]{3,})/gmi,
-  /\b(?<![\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{4,})/gmi
+  /\b(?<!\d[,\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{2}\s[a-z]{3,})/gmi,
+  /\b(?<!\d[,\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{4,})/gmi
 ];
 
 export const LocationMidfixRegEx: RegExp[] = [
