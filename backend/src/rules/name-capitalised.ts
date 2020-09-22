@@ -604,6 +604,7 @@ const a: string[] = [
 "berry",
 "berth",
 "beryl",
+"besot",
 "best",
 "bestir",
 "bestow",

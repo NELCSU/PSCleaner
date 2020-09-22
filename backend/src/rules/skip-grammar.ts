@@ -20,6 +20,7 @@ const a: RegExp[] = [
   /\bhead\son\b/gmi,
   /\bHope\sof\b/gm,
   /\bhunker\sdown\b/gmi,
+  /\bmea\sculpa\b/gmi,
   /\bmid\-\w+\b/gmi,
   /\bmodus\soperandi\b/gmi,
   /\bmore\son\b/gmi,
