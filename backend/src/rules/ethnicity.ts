@@ -234,7 +234,6 @@ const a: string[] = [
 "chaldean",
 "chamorro",
 "champenois",
-"chandio",
 "chaoui",
 "chechen",
 "chenoua",
