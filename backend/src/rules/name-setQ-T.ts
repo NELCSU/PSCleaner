@@ -50520,6 +50520,7 @@ const a: string[] = [
 "tamarae",
 "tamarakuro",
 "tamaral",
+"tamarama",
 "tamaramenike",
 "tamarapreye",
 "tamaray",

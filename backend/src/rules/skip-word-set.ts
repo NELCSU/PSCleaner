@@ -154,6 +154,7 @@ const a: string[] = [
 "balsa",
 "bambino",
 "banana",
+"bandana",
 "bandanna",
 "bandwidth",
 "bangkok",

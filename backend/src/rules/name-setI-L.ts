@@ -2804,6 +2804,7 @@ const a: string[] = [
 "ioerger",
 "ioewy",
 "iohannes",
+"iohannis",
 "iohastic",
 "ioi",
 "ioiaire",
