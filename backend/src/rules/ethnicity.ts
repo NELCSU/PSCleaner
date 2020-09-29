@@ -398,7 +398,6 @@ const a: string[] = [
 "gurage",
 "gurma",
 "gurunsi",
-"gusilay",
 "guyanese",
 "hachijo",
 "hadhrami",

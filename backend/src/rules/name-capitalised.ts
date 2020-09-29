@@ -949,7 +949,6 @@ const a: string[] = [
 "brick",
 "brickbat",
 "bricking",
-"bricklay",
 "bricklayer",
 "bricklayers",
 "bricks",

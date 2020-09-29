@@ -198,6 +198,7 @@ const a: string[] = [
 "bijoux",
 "bikini",
 "bilharzia",
+"biltong",
 "bimbo",
 "bingo",
 "biota",
