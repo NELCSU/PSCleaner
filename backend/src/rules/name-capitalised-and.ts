@@ -403,6 +403,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "community",
 "company",
 "compass",
+"concordat",
 "conduit",
 "confederate",
 "consort",

@@ -9,6 +9,9 @@ const clearTagsButton = document.getElementById("btnClearTags") as HTMLButtonEle
 const dataEntryText = document.getElementById("txtAddText") as HTMLElement;
 const autodiscoverButton = document.getElementById("btnAutodiscover") as HTMLButtonElement;
 
+let contextMenu = new Menu();
+let displayMenu = false;
+
 let tag: any = null;
 
 /**
@@ -178,12 +181,34 @@ ipc.on("NLP-response", (_: Event, response: any) => {
 
 ipc.send("get-entities");
 
+remote.getCurrentWindow().webContents.on('context-menu', (_, params) => {
+  if (params.dictionarySuggestions.length > 0) {
+    contextMenu.insert(0, new MenuItem({
+      label: "Spelling suggestions",
+      submenu: params.dictionarySuggestions.map(s => {
+        return {
+          label: s,
+          click: () => remote.getCurrentWindow().webContents.replaceMisspelling(s)
+        };
+      })
+    }));
+
+    contextMenu.insert(1, new MenuItem({ type: "separator" }));
+
+    displayMenu = true;
+  }
+
+  if (displayMenu) {
+    contextMenu.popup({ window: remote.getCurrentWindow() });
+  }
+});
+
 window.addEventListener("contextmenu", e => {
-  const contextMenu = new Menu();
+  contextMenu = new Menu();
   const sel = window.getSelection() as Selection;
   selectionTrim(sel);
   const el = e.target as HTMLElement;
-  let displayMenu = false;
+  displayMenu = false;
 
   if (el.tagName === "NEL-TEXT-TAG") {
     e.stopPropagation();
@@ -201,6 +226,7 @@ window.addEventListener("contextmenu", e => {
   } else if (el.id === "txtAddText") {
     if (typeof clipboard.readText() === "string") {
       e.stopPropagation();
+
       contextMenu.append(
         new MenuItem({
           label: "Paste",
@@ -211,10 +237,6 @@ window.addEventListener("contextmenu", e => {
       );
       displayMenu = true;
     }
-  }
-
-  if (displayMenu) {
-    contextMenu.popup({ window: remote.getCurrentWindow() });
   }
 }, false);
 

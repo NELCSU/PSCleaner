@@ -412,6 +412,7 @@ const a: string[] = [
 "conceit",
 "concerti",
 "concerto",
+"concordat",
 "conferva",
 "confetti",
 "confidante",

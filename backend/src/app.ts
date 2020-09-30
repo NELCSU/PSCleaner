@@ -163,6 +163,7 @@ class Main {
       webPreferences: {
         enableRemoteModule: true,
         nodeIntegration: true,
+        spellcheck: true,
         worldSafeExecuteJavaScript: true
       }
     });
