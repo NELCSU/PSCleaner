@@ -518,6 +518,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "decree",
 "deep",
 "delay",
+"delta",
 "deluxe",
 "dementia",
 "democratic",
