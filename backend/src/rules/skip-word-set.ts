@@ -508,7 +508,6 @@ const a: string[] = [
 "deplete",
 "desiderata",
 "desideratum",
-"desire",
 "detente",
 "diamante",
 "diaphragm",

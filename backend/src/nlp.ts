@@ -436,7 +436,9 @@ export class NLP {
                 i += 2;
               } else {
                 list.splice(i + 1, 1);
-                --i;
+                if (i > 0) {
+                  --i;
+                }
               }
             } else {
               list.splice(i, 1);
@@ -491,6 +493,8 @@ export class NLP {
           skip = true;
         } else if (peek.match.start === current.match.start && peek.match.end === current.match.end) {
           v.shift();
+          current.debug = `Collision detected for keyword: "${current.match.value}".
+          [1]: ${current.match.how} in ${current.entity.label} [2]: ${peek.match.how} in ${peek.entity.label}`;
           lookAhead = v.length > 0;
         } else if (peek.match.start >= current.match.start && peek.match.start <= current.match.end) {
           // two adjacent entities have some overlap ...

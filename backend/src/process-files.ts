@@ -7,6 +7,7 @@ import { TemplateFiles } from "./template-files";
 import * as jschardet from "jschardet";
 import * as readline from "readline";
 import type { CSVField } from "../types/PSCleaner";
+import type { ReadStream, WriteStream } from "fs";
 
 const r = require("esm")(module);
 const t = r("@buckneri/string");
@@ -83,7 +84,7 @@ export class ProcessFiles {
       rs.close();
       const text: any = jschardet.detect(chunk.toString());
 
-      const fs = this.fm.fs.createReadStream(from);
+      const fs = this.fm.fs.createReadStream(from) as ReadStream;
       const rl = readline.createInterface({
         input: fs,
         crlfDelay: Infinity
@@ -99,26 +100,29 @@ export class ProcessFiles {
         }
       }
 
-      const stream = csv.format({
+      const writeCSV = csv.format({
         headers: templates.header,
         writeBOM: isUTF8 ? true : false
-      });
-      const writeStream = this.fm.fs.createWriteStream(temp);
-      stream.pipe(writeStream);
+      }) as csv.CsvFormatterStream<any, any>;
+      const writeStream = this.fm.fs.createWriteStream(temp, { highWaterMark: 64 * 1024 }) as WriteStream;
+      writeCSV.pipe(writeStream);
       const rows: Promise<any>[] = [];
-  
-      csv.parseFile(from, {
+
+      const readCSV = this.fm.fs.createReadStream(from, { highWaterMark: 512 }) as ReadStream;
+
+      csv.parseStream(readCSV, {
         encoding: isUTF8 ? "utf-8" : text.encoding,
         headers: templates.header,
         ignoreEmpty: true,
         strictColumnHandling: true
       })
         .on("data", async (row: any) => {
-          const r = this._processRow(row, stream, templates);
-          r.then(() => {
-            this.events.emit("row-processed", ++rowCount);
-          });
-          rows.push(r);
+          rows.push(
+            this._processRow(row, writeCSV, templates)
+              .then(() => {
+                this.events.emit("row-processed", ++rowCount);
+              })
+          );
         })
         .on("data-invalid", (row, rowNumber) => {
           console.log(`Invalid [rowNumber=${rowNumber}] [row=${JSON.stringify(row)}]`);
@@ -126,7 +130,7 @@ export class ProcessFiles {
         .on("end", () => {
           Promise.all(rows)
             .then(_ => {
-              stream.end();
+              writeCSV.end();
               Promise.all([
                 this.fm.fs.move(temp, to),
                 this.fm.delete(from)
@@ -152,6 +156,9 @@ export class ProcessFiles {
       .then(_ => {
         stream.write(row);
         return Promise.resolve(row);
+      })
+      .catch((err: any) => {
+        console.log(err);
       });
   }
 
@@ -160,7 +167,15 @@ export class ProcessFiles {
     return await this.nlp.evaluate(normalised)
       .then(async (matches: any) => {
         await this.nlp.replace(normalised, matches)
-          .then((r: any) => new Promise(resolve => resolve(row[cell] = r)));
+          .then((r: any) => {
+            return new Promise(resolve => resolve(row[cell] = r));
+          })
+          .catch((err: any) => {
+            console.log(err);
+          });
+      })
+      .catch((err: any) => {
+        console.log(err);
       });
   }
 }

@@ -83,6 +83,7 @@ export type Entity = {
 
 export type MatchedEntity = {
   action: Action,
+  debug?: string,
   entity: Entity,
   match: TextMatch
 };

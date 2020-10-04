@@ -8,6 +8,7 @@ const clearAllButton = document.getElementById("btnClearAll") as HTMLButtonEleme
 const clearTagsButton = document.getElementById("btnClearTags") as HTMLButtonElement;
 const dataEntryText = document.getElementById("txtAddText") as HTMLElement;
 const autodiscoverButton = document.getElementById("btnAutodiscover") as HTMLButtonElement;
+const debugText = document.getElementById("txtDebug") as HTMLElement;
 
 let contextMenu = new Menu();
 let displayMenu = false;
@@ -50,6 +51,7 @@ function autoDiscover() {
   autodiscoverButton.classList.add("disabled");
   autodiscoverButton.textContent = "Searching";
   autodiscoverButton.classList.add("wait");
+  debugText.innerHTML = "debug<br>-----<br>";
 }
 
 /**
@@ -78,6 +80,7 @@ function clearTags() {
   if (dataEntryText) {
     dataEntryText.innerHTML = dataEntryText.textContent as string;
   }
+  debugText.innerHTML = "debug<br>-----<br>";
   clearTagsButton.classList.add("disabled");
 }
 
@@ -89,6 +92,7 @@ function clearAll() {
   clearAllButton.classList.add("disabled");
   clearTagsButton.classList.add("disabled");
   dataEntryText.textContent = "";
+  debugText.innerHTML = "debug<br>-----<br>";
 }
 
 /**
@@ -176,6 +180,10 @@ ipc.on("NLP-response", (_: Event, response: any) => {
     let item = response.pop();
     const sel = createSelection(dataEntryText.childNodes[0], item.match.start, item.match.length);
     addTag(sel, item.entity.label, item.entity.color);
+
+    if (item.debug) {
+      debugText.innerHTML += `<div>${item.debug}</div>`;
+    }
   }
 });
 

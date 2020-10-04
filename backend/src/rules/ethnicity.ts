@@ -776,7 +776,6 @@ const a: string[] = [
 "ohuhu",
 "okiek",
 "oneida",
-"oorlam",
 "orcadian",
 "oromo",
 "osing",

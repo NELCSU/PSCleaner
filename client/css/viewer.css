@@ -35,4 +35,15 @@ nel-item-collection {
 
 #pnlDelete { width: 100% }
 
+h3 { color: #005eb8 }
 h4[slot=title] { margin: 0 0 0 0.75rem }
+
+#txtDebug {
+  background-color: #444;
+  color: #fff;
+  font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+  font-size: 0.8em;
+  min-height: 3em;
+  overflow-y: auto;
+  padding: 5px;
+}

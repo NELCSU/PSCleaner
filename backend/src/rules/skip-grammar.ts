@@ -2,6 +2,7 @@ const a: RegExp[] = [
   /\b\w{2,}\-\d{1,2}\b/gmi,
   /\b\d+\s(?:mile|kilometer|km|steps)s?\b/gmi,
   /\b(?:first|last)\s\d+\b/gmi,
+  /\bd+\sout\sof\s\d+\b/gmi,
   /\bap{1,3}rox\b/gmi,
   /\bat\shome\b/gmi,
   /\b(?:between|from|in|in\sthe|of|the)\s(?:January|February|March|April|May|June|July|August|September|October|November|December)\s?(?:and|through|to|\-)\s?(?:(?:early|mid|late)[\s\-])?(?:January|February|March|April|May|June|July|August|September|October|November|December)\b/gmi,
