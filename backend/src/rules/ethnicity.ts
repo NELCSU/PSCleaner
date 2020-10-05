@@ -452,7 +452,6 @@ const a: string[] = [
 "inor",
 "inughuit",
 "inuktitut",
-"inupiat",
 "iranian",
 "iranun",
 "iraqi",
