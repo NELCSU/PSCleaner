@@ -51,6 +51,7 @@ const a: RegExp[] = [
   /\bprozac\b/gmi,
   /\bremdesivir\b/gmi,
   /\bsalbut?[ao]mol\b/gmi,
+  /\btramadol\b/gmi,
   /\btrimethopr[io]m\b/gmi,
   /\bviagra\b/gmi
 ];

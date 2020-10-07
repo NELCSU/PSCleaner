@@ -926,7 +926,6 @@ const a: string[] = [
 "sotho",
 "spaniard",
 "spanish",
-"sri",
 "subei",
 "sudanese",
 "sui",

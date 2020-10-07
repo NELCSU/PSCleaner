@@ -25,7 +25,7 @@ for (let i = 0; i < L; i++) {
 
 const NameInitialRegEx: RegExp[] = [
   /\b(?<![\\\/\&])[A-Z]\./gm,
-  /\b(?:dr|mr|mrs|ms|mt|rt|sir|st)\.?(?=\s)/gmi
+  /\b(?:dr|mr|mrs|ms|mt|rt|st)\.?(?=\s)/gmi
 ];
 
 const NamePrefixRegEx: RegExp[] = [
