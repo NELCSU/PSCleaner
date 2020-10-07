@@ -1,6 +1,6 @@
 const a: RegExp[] = [
   /\b\w{2,}\-\d{1,2}\b/gmi,
-  /\b\d+\s(?:mile|kilometer|km|steps)s?\b/gmi,
+  /\b\d+\s(?:mile|kilometer|km|step|week)s?\b/gmi,
   /\b(?:first|last)\s\d+\b/gmi,
   /\bd+\sof\b/gmi,
   /\bd+\s(?:out)?\sof\s\d+\b/gmi,
@@ -31,10 +31,10 @@ const a: RegExp[] = [
   /\bmodus\soperandi\b/gmi,
   /\bmore\son\b/gmi,
   /\bnon\-\w+\b/gmi,
-  /\bnext\sdoor\b/gmi,
   /\bone\sof\sthe\b/gmi,
   /\bon\sfoot\b/gmi,
   /\bon\stop\sof\b/gmi,
+  /\bplaying\sfields\b/gmi,
   /\brugby\s(?:league|union)\b/gmi,
   /\b(?:from|on|since)\s(?:Fri|Mon|Satur|Sun|Thurs|Tues|Wednes)day\b/gmi,
   /\b(?:Fri|Mon|Satur|Sun|Thurs|Tues|Wednes)day\sand\s(?:Fri|Mon|Satur|Sun|Thurs|Tues|Wednes)day\b/gmi,
@@ -44,6 +44,7 @@ const a: RegExp[] = [
   /\b[Ss]ales\sof\s\w+\b/gm,
   /\bstepping\son\b/gmi,
   /\bsummer\scamp\b/gmi,
+  /\b(?:back|top)\sof\sfoot\b/gmi,
   /\bunited\snations\b/gmi,
   /\bwent\sover\b/gmi,
 

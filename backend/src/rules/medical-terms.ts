@@ -7,6 +7,7 @@ const a: RegExp[] = [
   /\bback\sof\shead\b/gmi,
   /\bback\spassage\b/gmi,
   /\bbarking\scough\b/gmi,
+  /\b(?:bee|wasp)\ssting\b/gmi,
   /\bblood\surate\b/gmi,
   /\bboxer'?s\sfracture\b/gmi,
   /\bbrugada\ssyndrome\b/gmi,

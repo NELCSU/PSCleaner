@@ -13,7 +13,6 @@ const a: RegExp[] = [
   /\bdog\sbite\b/gmi,
   /\bfalls?\s(?:down|from|off|on|over)\b/gmi,
   /\bfell\s(?:backwards?|down|forward|from|off|on|over)\b/gmi,
-  /\bfire\sdoor\b/gmi,
   /\bfirst\saider\b/gmi,
   /\bfishing\shook\b/gmi,
   /\bfriends\shouse\b/gmi,
@@ -46,7 +45,7 @@ const a: RegExp[] = [
   /\btrod\son\b/gmi,
   /\bwhite\sspirit\b/gmi,
   /\bwindow\ssill\b/gmi,
-  /\bwooden\s(?:door|floor)\b/gmi,
+  /\bwooden\sfloor\b/gmi,
   /\bzimmer\sframe\b/gmi
 ];
 const RospaRegEx: Set<RegExp> = new Set();
