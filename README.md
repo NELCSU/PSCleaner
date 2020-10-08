@@ -8,7 +8,7 @@ PSCleaner runs locally on your desktop and does not send or receive data across 
 
 The software uses a human readable rules system that is consistently being updated and revised for improved accuracy. At the present time the software is oriented for the English language and the UK locale (specifically healthcare data sets).
 
-The software does not guarantee 100% success in removing all personal and sensitive data. There will likely always be edge cases and exceptions. Please test your data thoroughly in order to satify yourself that a desired level of accuracy as been acheived. The software is distributed on the [MIT licence](https://opensource.org/licenses/MIT).
+The software does not guarantee 100% success in removing all personal and sensitive data. There will likely always be edge cases and exceptions. Please test your data thoroughly in order to satify yourself that a desired level of accuracy has been acheived. The software is distributed on the [MIT licence](https://opensource.org/licenses/MIT).
 
 ## Getting started
 
