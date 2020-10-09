@@ -47,6 +47,7 @@
     "src/rules/skip-word-set.ts",
 
     "src/util/charCode.ts",
+    "src/util/csv.ts",
     "src/util/path.ts"
   ]
 }

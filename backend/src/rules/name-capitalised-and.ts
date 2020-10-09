@@ -1,6 +1,5 @@
 export const ProperNameSetJoinOnly: Set<string> = new Set([
 "academies",
-"access",
 "acorns",
 "acre",
 "acres",
@@ -935,7 +934,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "illustrious",
 "imms",
 "imperial",
-"inaccessible",
 "inclosure",
 "independent",
 "independents",

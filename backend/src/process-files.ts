@@ -4,10 +4,9 @@ import * as csv from "fast-csv";
 import { FileManager } from "./file-manager";
 import { join, parse } from "path";
 import { TemplateFiles } from "./template-files";
-import * as jschardet from "jschardet";
-import * as readline from "readline";
 import type { CSVField } from "../types/PSCleaner";
 import type { ReadStream, WriteStream } from "fs";
+import { csvFileProperties, TCSVFileProperties } from "./util/csv";
 
 const r = require("esm")(module);
 const t = r("@buckneri/string");
@@ -63,6 +62,8 @@ export class ProcessFiles {
     const from: string = join(this.fm.folder, file);
     const temp: string = join(this.fm.folder, "temp.tmp");
     let to: string = join(this.sendTo, file);
+    let rowCount: number = 0;
+    
     this.fm.fs.pathExists(to)
       .then((exists: boolean) => {
         if (exists) {
@@ -71,74 +72,48 @@ export class ProcessFiles {
         }
       });
 
-    const size: number = this.fm.fs.statSync(from).size;
-    if (size < 3) {
-      throw new Error("File cannot be empty");
-    }
-
-    let rowCount: number = 0;
-
-    const rs = this.fm.fs.createReadStream(from, { start: 0, end: size > 499 ? 499 : size });
-    rs.on("data", async (chunk: any) => {          
-      const isUTF8: boolean = chunk[0] === 239 && chunk[1] === 187 && chunk[2] === 191;
-      rs.close();
-      const text: any = jschardet.detect(chunk.toString());
-
-      const fs = this.fm.fs.createReadStream(from) as ReadStream;
-      const rl = readline.createInterface({
-        input: fs,
-        crlfDelay: Infinity
+    csvFileProperties(from)
+      .then((p: TCSVFileProperties) => {
+        this.events.emit("row-count-estimation", p.estimatedSize);
+        const writeCSV = csv.format({
+          headers: templates.header,
+          writeBOM: p.isUTF8
+        }) as csv.CsvFormatterStream<any, any>;
+        const writeStream = this.fm.fs.createWriteStream(temp, { highWaterMark: 64 * 1024 }) as WriteStream;
+        writeCSV.pipe(writeStream);
+        const rows: Promise<any>[] = [];
+  
+        const readCSV = this.fm.fs.createReadStream(from, { highWaterMark: 512 }) as ReadStream;
+  
+        csv.parseStream(readCSV, {
+          encoding: p.encoding,
+          headers: templates.header,
+          ignoreEmpty: true,
+          strictColumnHandling: true
+        })
+          .on("data", async (row: any) => {
+            rows.push(
+              this._processRow(row, writeCSV, templates)
+                .then(() => {
+                  this.events.emit("row-processed", ++rowCount);
+                })
+            );
+          })
+          .on("data-invalid", (row, rowNumber) => {
+            console.log(`Invalid [rowNumber=${rowNumber}] [row=${JSON.stringify(row)}]`);
+          })
+          .on("end", () => {
+            Promise.all(rows)
+              .then(_ => {
+                writeCSV.end();
+                Promise.all([
+                  this.fm.fs.move(temp, to),
+                  this.fm.delete(from)
+                ]).then(_ => this.events.emit("file-processed"))
+                  .catch(_ => this.events.emit("file-processing-error"));
+              });
+          });
       });
-
-      let avgSize = 0, i = 0;
-      for await (const line of rl) {
-        avgSize += Buffer.byteLength(line, text.encoding);
-        ++i;
-        this.events.emit("row-count-estimation", Math.ceil(size / (avgSize / i)));
-        if (i > 50) {
-          break;
-        }
-      }
-
-      const writeCSV = csv.format({
-        headers: templates.header,
-        writeBOM: isUTF8 ? true : false
-      }) as csv.CsvFormatterStream<any, any>;
-      const writeStream = this.fm.fs.createWriteStream(temp, { highWaterMark: 64 * 1024 }) as WriteStream;
-      writeCSV.pipe(writeStream);
-      const rows: Promise<any>[] = [];
-
-      const readCSV = this.fm.fs.createReadStream(from, { highWaterMark: 512 }) as ReadStream;
-
-      csv.parseStream(readCSV, {
-        encoding: isUTF8 ? "utf-8" : text.encoding,
-        headers: templates.header,
-        ignoreEmpty: true,
-        strictColumnHandling: true
-      })
-        .on("data", async (row: any) => {
-          rows.push(
-            this._processRow(row, writeCSV, templates)
-              .then(() => {
-                this.events.emit("row-processed", ++rowCount);
-              })
-          );
-        })
-        .on("data-invalid", (row, rowNumber) => {
-          console.log(`Invalid [rowNumber=${rowNumber}] [row=${JSON.stringify(row)}]`);
-        })
-        .on("end", () => {
-          Promise.all(rows)
-            .then(_ => {
-              writeCSV.end();
-              Promise.all([
-                this.fm.fs.move(temp, to),
-                this.fm.delete(from)
-              ]).then(_ => this.events.emit("file-processed"))
-                .catch(_ => this.events.emit("file-processing-error"));
-            });
-        });
-    });
   }
 
   private async _processRow(row: any, stream: any, template: TemplateFiles): Promise<any> {
