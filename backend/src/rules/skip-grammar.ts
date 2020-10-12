@@ -40,7 +40,7 @@ const a: RegExp[] = [
   /\b(?:from|on|since)\s(?:Fri|Mon|Satur|Sun|Thurs|Tues|Wednes)day\b/gmi,
   /\b(?:Fri|Mon|Satur|Sun|Thurs|Tues|Wednes)day\sand\s(?:Fri|Mon|Satur|Sun|Thurs|Tues|Wednes)day\b/gmi,
   /\b(?:during|in\sthe|since|until)\s(?:(?:early|mid|late)[\s\-])?(?:January|February|March|April|May|June|July|August|September|October|November|December)\b/gmi,
-  /\b(?:by|from|in)\s(?:(?:early|mid|late)[\s\-])?(?:January|February|April|May|June|July|August|September|October|November|December)\b/gmi,
+  /\b(?:by|from|in|last)\s(?:(?:early|mid|late)[\s\-])?(?:January|February|April|May|June|July|August|September|October|November|December)\b/gmi,
   /\b(?:by|from|in)\s(?:early|mid|late)[\s\-]March\b/gmi,
   /\b[Ss]ales\sof\s\w+\b/gm,
   /\bstepping\son\b/gmi,

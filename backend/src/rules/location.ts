@@ -176,6 +176,7 @@ const a: RegExp[] = [
   /\bRC\b/gm,
   /\breform\s(?:beach|place|road|row|street|strip)\b/gmi,
   /\breformatory\scollege\b/gmi,
+  /\brelief\s(?:channel|road|wood)\b/gmi,
   /\bresearch\s(?:avenue|road|way)\b/gmi,
   /\brocking\s(?:moor|stone)\b/gmi,
   /\b(?:College|The)\sRoundabouts?\b/gm,
