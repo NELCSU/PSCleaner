@@ -10,6 +10,7 @@ const a: RegExp[] = [
   /\b(?:between|from|in|in\sthe|of|the)\s(?:January|February|March|April|May|June|July|August|September|October|November|December)\s?(?:and|through|to|\-)\s?(?:(?:early|mid|late)[\s\-])?(?:January|February|March|April|May|June|July|August|September|October|November|December)\b/gmi,
   /\bthe\seve\sof\b/gmi,
   /\bbank\sholiday\b/gmi,
+  /\bworld\sbank\b/gmi,
   /\bchild\sof\b/gmi,
   /\b(?:bark|wood)\schipping\b/gmi,
   /\bchipping\s(?:against|away|on)\b/gmi,
