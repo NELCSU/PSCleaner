@@ -50,8 +50,8 @@ const a: RegExp[] = [
   /\bunited\snations\b/gmi,
   /\bwent\sover\b/gmi,
 
-  /[a-z]+[\'\‘\’\`](?:ll|re|ve)/gmi,
-  /[a-z]+n[\'\‘\’\`]t/gmi
+  /[A-Za-z]+[\'\‘\’\`](?:ll|re|ve)/gm,
+  /[A-Za-z]+n[\'\‘\’\`]t/gm
 ];
 const SkipGrammarRegEx: Set<RegExp> = new Set();
 a.forEach(term => SkipGrammarRegEx.add(term));
