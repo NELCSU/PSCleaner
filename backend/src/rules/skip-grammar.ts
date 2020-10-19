@@ -4,6 +4,7 @@ const a: RegExp[] = [
   /\b(?:first|last)\s\d+\b/gmi,
   /\bd+\sof\b/gmi,
   /\bd+\s(?:out)?\sof\s\d+\b/gmi,
+  /\ba\sfrank\b/gmi,
   /\b(?:american|australian)\sfootball\b/gmi,
   /\bap{1,3}rox\b/gmi,
   /\bat\shome\b/gmi,

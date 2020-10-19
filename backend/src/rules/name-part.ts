@@ -25,15 +25,11 @@ for (let i = 0; i < L; i++) {
 
 const NameInitialRegEx: RegExp[] = [
   /\b(?<![\\\/\&])[A-Z]\./gm,
-  /\b(?:dr|mr|mrs|ms|mt|rt|st)\.?(?=\s)/gmi
+  /\b(?:dr|mt|rt|st)\.?(?=\s)/gmi
 ];
 
 const NamePrefixRegEx: RegExp[] = [
   new RegExp(/\b(?:a|aa|d|is|l|mu|na|o|ra|sa|za)[\'\‘\’\`]/, "gmi")
-];
-
-const NameMiddleInitialRegEx: RegExp[] = [
-  new RegExp(/\b(?<![\\\/])[A-Z]\./, "gm")
 ];
 
 const NamePuralRegEx: RegExp[] = [
@@ -43,7 +39,6 @@ const NamePuralRegEx: RegExp[] = [
 
 export {
   NameInitialRegEx,
-  NameMiddleInitialRegEx,
   NamePartSet,
   NamePrefixRegEx,
   NamePuralRegEx

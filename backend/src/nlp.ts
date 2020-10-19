@@ -24,9 +24,7 @@ import { NameSetQT } from "./rules/name-setQ-T";
 import { NameSetUZ } from "./rules/name-setU-Z";
 import { ProperNameSet } from "./rules/name-capitalised";
 import { ProperNameSetJoinOnly } from "./rules/name-capitalised-and";
-import { 
-  NameInitialRegEx, NameMiddleInitialRegEx, NamePartSet, 
-  NamePrefixRegEx, NamePuralRegEx } from "./rules/name-part";
+import { NameInitialRegEx, NamePartSet, NamePrefixRegEx, NamePuralRegEx } from "./rules/name-part";
 import { EthnicitySet } from "./rules/ethnicity";
 import { SkipGrammarRegEx } from "./rules/skip-grammar";
 import { SkipWordSet } from "./rules/skip-word-set";
@@ -182,15 +180,9 @@ export class NLP {
     };
 
     const nameInitials: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 1, midfix: 0, suffix: 0 },
+      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 1, midfix: 1, suffix: 0 },
       entity: NameRegExEntity,
       matches: this._evalRegEx(data, NameInitialRegEx)
-    };
-
-    const nameMiddleInitials: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 0, midfix: 1, suffix: 0 },
-      entity: NameRegExEntity,
-      matches: this._evalRegEx(data, NameMiddleInitialRegEx)
     };
 
     const namePlural: Evaluation = {
@@ -245,7 +237,7 @@ export class NLP {
       banking, currency, dates, emails, eth, householdItem,
       location, locationPrefix1, locationPrefix2, locationMidfix, locationSuffix,
       medication, medicalAbbr, medicalTerm,
-      namePrefix, nameInitials, nameMiddleInitials, namePlural, names, namesEnding,
+      namePrefix, nameInitials, namePlural, names, namesEnding,
       nhs, postcode, properName, properNameJoin, partName,
       tel, times, url, skipGrammar, skipWord
     );
