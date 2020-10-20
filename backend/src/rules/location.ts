@@ -66,6 +66,7 @@ const a: RegExp[] = [
   /\bThe\sBig\sAct\b/gm,
   /\bbleaching\s(?:hill|rocks)\b/gmi,
   /\bbleeding\s(?:heart\syard|wolf\slane)\b/gmi,
+  /\bbonfire\s(?:close|clump|corner|hall|hanger|hill|lane|plantation)\b/gmi,
   /\b(?:the|cherry)\sbounce\b/gmi,
   /\bbouncer?s?\s(?:lane|road)\b/gmi,
   /\bbrief\sstreet\b/gmi,

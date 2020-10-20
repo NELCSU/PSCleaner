@@ -794,7 +794,6 @@ const a: string[] = [
 "hallo",
 "handyman",
 "hangup",
-"hanoi",
 "hansard",
 "hardwood",
 "hardwoods",
