@@ -1027,6 +1027,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "landscape",
 "language",
 "lash",
+"latino",
 "laugh",
 "laughing",
 "laughter",

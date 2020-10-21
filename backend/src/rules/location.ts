@@ -70,6 +70,7 @@ const a: RegExp[] = [
   /\b(?:the|cherry)\sbounce\b/gmi,
   /\bbouncer?s?\s(?:lane|road)\b/gmi,
   /\bbrief\sstreet\b/gmi,
+  /\bbritons\s(?:copse|hill|lane)\b/gmi,
   /\bbrother\s(?:hills|isle|loch)\b/gmi,
   /\bBus\s(?:Combe|Drove|Link|Sile|Taing)\b/gm,
   /\bThe\sBus\b/gm,
