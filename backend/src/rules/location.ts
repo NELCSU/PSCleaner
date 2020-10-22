@@ -209,6 +209,7 @@ const a: RegExp[] = [
   /\bsecret\s(?:close|flats|gardens|lake|spring|waters|wood)\b/gmi,
   /\b(?:black|cat|fingland|jock'?s?|rough)\sshoulder\b/gmi,
   /\bshoulder\s(?:hill|of\s(?:craig|lune|mutton))\b/gmi,
+  /\bsilicon\scourt\b/gmi,
   /\bskating\spond\b/gmi,
   /\b(?:Boarding|Family|Free|Special)\sSchool\b/gm,
   /\bspiceball\spark\b/gmi,

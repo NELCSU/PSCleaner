@@ -518,6 +518,7 @@ const a: string[] = [
 "dissatisfy",
 "ditto",
 "diva",
+"diwali",
 "dizzy",
 "dodecahedra",
 "dodo",
@@ -820,7 +821,6 @@ const a: string[] = [
 "highwayman",
 "hii",
 "hijab",
-"hindu",
 "hippo",
 "hitherto",
 "hmrc",
@@ -831,6 +831,7 @@ const a: string[] = [
 "hoggs",
 "homestead",
 "hometown",
+
 "honshu",
 "hoodie",
 "hoodlum",
