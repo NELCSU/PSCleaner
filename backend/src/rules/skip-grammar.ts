@@ -49,6 +49,7 @@ const a: RegExp[] = [
   /\b[Ss]ales\sof\s\w+\b/gm,
   /\bstepping\son\b/gmi,
   /\bsummer\scamp\b/gmi,
+  /\btik\stok\b/gmi,
   /\b(?:back|top)\sof\sfoot\b/gmi,
   /\bunited\snations\b/gmi,
   /\bwent\sover\b/gmi,
