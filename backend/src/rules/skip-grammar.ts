@@ -16,6 +16,7 @@ const a: RegExp[] = [
   /\b(?:bark|wood)\schipping\b/gmi,
   /\bchipping\s(?:against|away|on)\b/gmi,
   /\ba\sbath\b/gmi,
+  /\bthe\sbill\b/gmi,
   /\bchief\sof\sstaff\b/gmi,
   /\bcity\scentre\b/gmi,
   /\bdirector[\s\-]general\b/gmi,
