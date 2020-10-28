@@ -263,7 +263,6 @@ const a: string[] = [
 "cuyunon",
 "cypriot",
 "dagaaba",
-"dagaare",
 "dagomba",
 "damor",
 "dane",
