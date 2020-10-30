@@ -25,6 +25,7 @@ const a: RegExp[] = [
   /\b(?:bleach|(?:hot\s)?water)\sbottle\b/gmi,
   /\bbottle\sof\s(?:bleach|(?:hot\s)?water)\b/gmi,
   /\bhover\sboard\b/gmi,
+  /\b(?:canning|mason)\sjar\b/gmi,
   /\blower\sleg\b/gmi,
   /\b(?:car|lift)\sjack\b/gmi,
   /\bkitchen\sknife\b/gmi,

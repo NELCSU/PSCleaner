@@ -50,6 +50,7 @@ const a: RegExp[] = [
   /\b(?:by|from|in|last)\s(?:(?:early|mid|late)[\s\-])?(?:January|February|April|May|June|July|August|September|October|November|December)\b/gmi,
   /\b(?:by|from|in)\s(?:early|mid|late)[\s\-]March\b/gmi,
   /\b[Ss]ales\sof\s\w+\b/gm,
+  /\bsmall\sarms\b/gmi,
   /\bstepping\son\b/gmi,
   /\bsummer\scamp\b/gmi,
   /\btik\stok\b/gmi,
