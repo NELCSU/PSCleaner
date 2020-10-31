@@ -3,7 +3,7 @@
   "dependencies": {
     "@buckneri/collections": "^0.1.6",
     "@buckneri/string": "^0.6.12",
-    "@buckneri/web-components": "^0.3.9",
+    "@buckneri/web-components": "^0.3.10",
     "chokidar": "^3.4.3",
     "debounce": "^1.2.0",
     "dotenv": "^8.2.0",
@@ -43,7 +43,7 @@
     "electron": "^10.1.5",
     "electron-rebuild": "^2.3.2",
     "eslint": "^7.12.1",
-    "eslint-plugin-jsdoc": "^30.7.3",
+    "eslint-plugin-jsdoc": "^30.7.5",
     "jsdoc": "^3.6.6",
     "ncp": "^2.0.0",
     "node-abi": "^2.19.1",

@@ -4,13 +4,9 @@ export const LocationPrefixRegEx: RegExp[] = [
 ];
 
 export const LocationMidfixRegEx: RegExp[] = [
-  /\band\b/gmi,
-  /\bfor\b/gmi,
-  /\bof\b/gmi,
-  /\bof\sthe\b/gmi,
-  /\bon\b/gmi,
-  /\b[io]n\sthe\b/gmi,
-  /\bthe\b/gmi,
+  /(?!\w\s)&(?<!\s\w)/gmi,
+  /\b(?:and|for|of|on)\b/gmi,
+  /\b(?:(?:[io]n|of)\s)?the\b/gmi,
   /\-y\-/gmi
 ];
 
@@ -115,7 +111,8 @@ const a: RegExp[] = [
   /\bdefence\s(?:academy|close|street)\b/gmi,
   /\bdigital\sway\b/gmi,
   /\bdiversity\s(?:avenue|drive)\b/gmi,
-  /\bDoor\s(?:Bottom|Cove|Covert|Dam|Drove|Head|Hill|of\sthe\s(?:Heugh|Kame)|Top)\b/gm,
+  /\bDoor\s(?:Bottom|Cove|Covert|Dam|Drove|Head|Hill|Top)\b/gm,
+  /\bdoor\sof\sthe\s(?:heugh|kame)\b/gmi,
   /\b(?:cuttiford'?s|durdle|northern|somerton|thirle)\sdoor\b/gmi,
   /\b(?:Barn|Cabin)\sDoor\b/gm,
   /\b(?:Harrys|Wheat)\sDream\b/gm,

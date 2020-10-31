@@ -1,4 +1,5 @@
 const a: RegExp[] = [
+  /\bamerican\sfootball\b/gmi,
   /\bbali\sbreeze\b/gmi,
   /\bball\sbearing\b/gmi,
   /\bariel\s(?:liquitab|tablets?|washing)\b/gmi,
