@@ -43,7 +43,7 @@
     "electron": "^10.1.5",
     "electron-rebuild": "^2.3.2",
     "eslint": "^7.12.1",
-    "eslint-plugin-jsdoc": "^30.7.5",
+    "eslint-plugin-jsdoc": "^30.7.6",
     "jsdoc": "^3.6.6",
     "ncp": "^2.0.0",
     "node-abi": "^2.19.1",
