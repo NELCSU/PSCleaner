@@ -11,7 +11,7 @@
     "electron-store": "^6.0.1",
     "electron-window-state": "^5.0.3",
     "esm": "^3.2.25",
-    "fast-csv": "^4.3.3",
+    "fast-csv": "^4.3.5",
     "file-url": "^3.0.0",
     "fs-extra": "^9.0.1",
     "he": "^1.2.0",
@@ -37,8 +37,8 @@
     "@types/he": "^1.1.1",
     "@types/node": "^12.19.3",
     "@types/uuid": "^8.3.0",
-    "@typescript-eslint/eslint-plugin": "^4.6.0",
-    "@typescript-eslint/parser": "^4.6.0",
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
     "bl": "^4.0.3",
     "electron": "^10.1.5",
     "electron-rebuild": "^2.3.2",
@@ -85,7 +85,7 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf client/lib/web-components"
   },
-  "version": "0.8.20",
+  "version": "0.8.21",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }

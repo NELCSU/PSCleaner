@@ -131,7 +131,7 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+[a-qs-z]eby\b/gmi,
    /\b[a-z]+[bix-z]eca\b/gmi,
    /\b[a-z]+[bilu-z]ech\b/gmi,
-   /\b[a-z]+[bu]eck\b/gmi,
+   /\b[a-z]+[ae-gi-kmos-wyz]eck\b/gmi,
    /\b[a-z]+[aimx-z]ede\b/gmi,
    /\b[a-z]+[cfgx-z]edo\b/gmi,
    /\b[a-z]+aedy\b/gmi,

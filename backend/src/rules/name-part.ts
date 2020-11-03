@@ -1,19 +1,20 @@
 const a: string[] = [
-"el",
-"et",
-"da",
-"de",
-"der",
-"dos",
-"ho",
-"la",
-"le",
-"los",
-"ul",
-"un",
-"van",
-"von",
-"y"
+  "cum",
+  "da",
+  "de",
+  "der",
+  "dos",
+  "el",
+  "et",
+  "ho",
+  "la",
+  "le",
+  "los",
+  "ul",
+  "un",
+  "van",
+  "von",
+  "y"
 ];
 
 const NamePartSet: Set<string> = new Set();

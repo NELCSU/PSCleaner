@@ -43,6 +43,7 @@ const a: RegExp[] = [
   /\bsma\sgold\b/gmi,
   /\bstair\sgate\b/gmi,
   /\b(?:stanley|swiss\sarmy)\sknife\b/gmi,
+  /\bstung\sby\b/gmi,
   /\btennis\srackett?\b/gmi,
   /\bthe\sbath\b/gmi,
   /\btic\stac\b/gmi,
