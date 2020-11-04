@@ -218,6 +218,7 @@ const a: string[] = [
 "qistina",
 "qite",
 "qitian",
+"qiu",
 "qiuchen",
 "qiulae",
 "qiulin",
@@ -7653,7 +7654,7 @@ const a: string[] = [
 "ribbnas",
 "ribbonfields",
 "ribby",
-"ribchester",
+
 "ribe",
 "ribeird",
 "ribeitro",
@@ -9616,7 +9617,7 @@ const a: string[] = [
 "rocher",
 "rocheron",
 "roches",
-"rochester",
+
 "rochesters",
 "rochet",
 "rochette",
@@ -12424,7 +12425,7 @@ const a: string[] = [
 "rowbottom",
 "rowbrow",
 "rowburrow",
-"rowchester",
+
 "rowcon",
 "rowcross",
 "rowdean",
@@ -12933,7 +12934,7 @@ const a: string[] = [
 "rudasill",
 "rudatae",
 "ruday",
-"rudchester",
+
 "rudchesters",
 "ruddell",
 "rudden",
@@ -22060,7 +22061,7 @@ const a: string[] = [
 "scoates",
 "scob",
 "scobbie",
-"scobchester",
+
 "scobee",
 "scobell",
 "scobey",
@@ -32074,7 +32075,7 @@ const a: string[] = [
 "silbiger",
 "silby",
 "silch",
-"silchester",
+
 "silcoates",
 "silcock",
 "silcocks",
@@ -40080,7 +40081,7 @@ const a: string[] = [
 "stancer",
 "stancey",
 "stanch",
-"stanchester",
+
 "stanchet",
 "stanchfield",
 "stancic",
@@ -51779,9 +51780,7 @@ const a: string[] = [
 "telleen",
 "tellefsen",
 "tellen",
-"teller",
 "telleria",
-"tellers",
 "tellery",
 "telles",
 "telless",
@@ -60845,7 +60844,6 @@ const a: string[] = [
 "troth",
 "trothy",
 "trotman",
-"trots",
 "trotternish",
 "trottick",
 "trottie",

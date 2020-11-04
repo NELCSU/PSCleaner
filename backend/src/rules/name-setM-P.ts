@@ -3913,7 +3913,7 @@ const a: string[] = [
 "mancherian",
 "manchery",
 "manches",
-"manchester",
+
 "manchet",
 "manchin",
 "manching",
@@ -13081,7 +13081,7 @@ const a: string[] = [
 "melchers",
 "melchert",
 "melches",
-"melchester",
+
 "melchet",
 "melchiade",
 "melchiades",
@@ -20296,7 +20296,7 @@ const a: string[] = [
 "monkabily",
 "monkaitis",
 "monkbarns",
-"monkchester",
+
 "monkcom",
 "monkdown",
 "monkdowns",
@@ -27308,7 +27308,7 @@ const a: string[] = [
 "napatpin",
 "napatra",
 "napattra",
-"napchester",
+
 "napenas",
 "naper",
 "napert",
@@ -30589,7 +30589,7 @@ const a: string[] = [
 "newcastleton",
 "newchapel",
 "newchase",
-"newchester",
+
 "newchurch",
 "newcity",
 "newclose",
@@ -33218,7 +33218,7 @@ const a: string[] = [
 "noolbee",
 "nooli",
 "nooman",
-"noonchester",
+
 "noonen",
 "nooner",
 "nooney",
@@ -42294,7 +42294,7 @@ const a: string[] = [
 "outam",
 "outberry",
 "outcalt",
-"outchester",
+
 "outclough",
 "outdowns",
 "outen",
@@ -51708,7 +51708,7 @@ const a: string[] = [
 "pinchens",
 "pinchera",
 "pinchess",
-"pinchester",
+
 "pinchfield",
 "pinchgate",
 "pinchin",
@@ -54747,7 +54747,7 @@ const a: string[] = [
 "porcheret",
 "porcheron",
 "porchestall",
-"porchester",
+
 "porchet",
 "porchfield",
 "porchkhide",
@@ -54871,7 +54871,7 @@ const a: string[] = [
 "portberry",
 "portch",
 "portcheek",
-"portchester",
+
 "portchmouth",
 "portcia",
 "portclair",
@@ -58572,7 +58572,7 @@ const a: string[] = [
 "pyn",
 "pynaert",
 "pynate",
-"pynchester",
+
 "pynchons",
 "pynder",
 "pynders",
