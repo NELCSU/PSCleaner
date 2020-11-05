@@ -1159,7 +1159,6 @@ const a: string[] = [
 "unune",
 "unus",
 "unusotome",
-"unuth",
 "unveren",
 "unverferth",
 "unway",
@@ -6373,7 +6372,6 @@ const a: string[] = [
 "victesia",
 "victoire",
 "victop",
-"victor",
 "victora",
 "victoras",
 "victore",
@@ -7731,7 +7729,6 @@ const a: string[] = [
 "vistoria",
 "vistro",
 "vistula",
-"visuth",
 "visuvasam",
 "visvaldas",
 "visvalds",
@@ -9580,7 +9577,6 @@ const a: string[] = [
 "walcher",
 "walcheren",
 "walcheroy",
-
 "walcker",
 "walcot",
 "walcups",
@@ -10962,7 +10958,6 @@ const a: string[] = [
 "watchclose",
 "watchcrete",
 "watchen",
-
 "watchet",
 "watchetts",
 "watchfield",
@@ -12796,7 +12791,6 @@ const a: string[] = [
 "westburnhope",
 "westbush",
 "westcar",
-
 "westclose",
 "westclyst",
 "westcoat",
@@ -13553,7 +13547,6 @@ const a: string[] = [
 "whinberry",
 "whinbush",
 "whinchat",
-
 "whinclose",
 "whincover",
 "whincraft",
@@ -13703,7 +13696,6 @@ const a: string[] = [
 "whitchells",
 "whitcher",
 "whitchers",
-
 "whitchesters",
 "whitchurch",
 "whitcomb",
@@ -14746,7 +14738,6 @@ const a: string[] = [
 "wilarion",
 "wilas",
 "wilasinee",
-"wilauth",
 "wilawer",
 "wilbald",
 "wilbanks",
@@ -15485,7 +15476,6 @@ const a: string[] = [
 "winchelsey",
 "winchendon",
 "winchers",
-
 "winchesters",
 "winchet",
 "winchfield",
@@ -16985,7 +16975,6 @@ const a: string[] = [
 "woodbush",
 "woodbyne",
 "woodchat",
-
 "woodchurch",
 "woodclose",
 "woodcoates",
@@ -17475,7 +17464,6 @@ const a: string[] = [
 "worcester",
 "worcesters",
 "worch",
-
 "wordekemper",
 "wordell",
 "wordelman",
@@ -19839,7 +19827,6 @@ const a: string[] = [
 "yeboal",
 "yeboan",
 "yeboat",
-"yeboath",
 "yebra",
 "yecenia",
 "yechaskel",
@@ -21719,7 +21706,6 @@ const a: string[] = [
 "yuness",
 "yunfan",
 "yung",
-"yungbluth",
 "yungclas",
 "yunge",
 "yunger",
