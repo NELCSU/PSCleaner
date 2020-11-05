@@ -29,4 +29,4 @@ module.exports = {
   plugins: [],
   hooks: {},
   buildIdentifier: process.env.IS_BETA ? "beta" : "prod"
-}
+};
