@@ -1935,6 +1935,7 @@ const a: string[] = [
 "waltzed",
 "waltzing",
 "wanna",
+"wannabee",
 "wanton",
 "wapiti",
 "warmth",
