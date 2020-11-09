@@ -56,8 +56,8 @@ class Main {
     } else {
       this._store = new Store();
 
-      const nlp: NLP = new NLP();
       this.entities = new Entities();
+      const nlp: NLP = new NLP(this.entities);
       this.templateFiles = new TemplateFiles(this._store);
       this.importFiles = new ImportFiles(this._store);
       this.exportFiles = new ExportFiles(this._store);

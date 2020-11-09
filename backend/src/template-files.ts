@@ -6,25 +6,6 @@ import { FileManager } from "./file-manager";
 import * as jschardet from "jschardet";
 import type { CSVField, CSVTemplate, ReadFileAction } from "../types/PSCleaner";
 
-/**
- * ### Manages files stored in watched folder.
- * #### API  (ipc request  -> response)
- * clear-templete-file
- * define-template         -> 
- * delete-templete-file    -> template-file-deleted
- * delete-template-file    -> template-file-deletion-error
- * get-template-file       -> template-file
- * get-template-file       -> template-file-error
- * get-template-files      -> template-files
- * rename-template-file    -> template-file-rename-error
- * rename-template-file    -> template-file-rename-warning
- * rename-template-file    -> template-file-renamed
- * save-template-file      -> template-file-save-error
- * save-template-file      -> template-file-saved
- * get-template-folder     -> template-folder
- * set-template-folder     -> template-folder
- * set-template-folder     -> template-folder-error
- */
 export class TemplateFiles {
   #error?: string;
 
@@ -37,6 +18,7 @@ export class TemplateFiles {
       console.log(this.#error);
     }
   }
+  public exclusions: string[] = [];
   public fields: Map<string, CSVField> = new Map<string, CSVField>();
   public fm!: FileManager;
   public header: boolean = false;
@@ -124,6 +106,7 @@ export class TemplateFiles {
               this.clear();
               this.header = data.header;
               this.trace = data.trace;
+
               data.fields.forEach((field: any, n: number) => {
                 if (Array.isArray(field)) { // legacy file
                   this.fields.set(field[0], { label: field[0], enabled: field[1], rules: undefined, seq: n });
@@ -131,7 +114,9 @@ export class TemplateFiles {
                   this.fields.set(data.header ? field.label : `${field.seq}`, field);
                 }
               });
-              e.reply(success.status, success.fn, { 
+
+              e.reply(success.status, success.fn, {
+                exclusions: data.exclusions ? data.exclusions : [],
                 fields: Array.from(this.fields.values()),
                 header: data.header,
                 trace: data.trace
@@ -184,6 +169,7 @@ export class TemplateFiles {
     this.header = false;
     this.trace = true;
     this.fields.clear();
+    this.exclusions = [];
   }
 
   /**

@@ -1,12 +1,5 @@
-import type { Action, Evaluation, MatchedEntity, TextMatch } from "../types/PSCleaner";
-import {
-  BankingEntity, CurrencyEntity, DateEntity,
-  EmailEntity, EthnicityEntity,
-  LocationRegExEntity, MedicalEntity,
-  NameEntity, NameRegExEntity, NHSEntity,
-  PostcodeEntity, SkipWordEntity,
-  TelephoneEntity, TimeEntity, URLEntity
-} from "./entities";
+import type { Action, Entity, Evaluation, MatchedEntity, TextMatch } from "../types/PSCleaner";
+import type { Entities } from "./entities";
 import {
   LocationPrefixRegEx, LocationRegEx,
   LocationMidfixRegEx, LocationSuffixRegEx
@@ -50,7 +43,13 @@ const deepCopy = c.deepCopy;
  * ### Natural language processing services
  */
 export class NLP {
+  private _entities: Entities;
+
   public trace: boolean = true;
+
+  constructor(entities: Entities) {
+    this._entities = entities;
+  }
   
   /**
    * Returns list of matched entities
@@ -59,188 +58,234 @@ export class NLP {
   public async evaluate(data: string): Promise<MatchedEntity[]> {
     let matches: MatchedEntity[] = [];
 
-    const banking: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: BankingEntity,
-      matches: this._evalRegEx(data, findBankingNumbers)
-    };
+    const bankingEntity: Entity = this._entities.list.get("entityBankPattern") as Entity;
+    const currencyEntity: Entity = this._entities.list.get("entityCurrencyPattern") as Entity;
+    const dateEntity: Entity = this._entities.list.get("entityDatePattern") as Entity;
+    const emailEntity: Entity = this._entities.list.get("entityEmailPattern") as Entity;
+    const ethEntity: Entity = this._entities.list.get("entityEthnicityList") as Entity;
+    const householdItemEntity: Entity = this._entities.list.get("entitySkipWordPattern") as Entity;
+    const postcodeEntity: Entity = this._entities.list.get("entityPostcodePattern") as Entity;
+    const locationPatternEntity: Entity = this._entities.list.get("entityLocationPattern") as Entity;
+    const namesPatternEntity: Entity = this._entities.list.get("entityNamePattern") as Entity;
+    const namesEntity: Entity = this._entities.list.get("entityNameList") as Entity;
+    const medicalTermEntity: Entity = this._entities.list.get("entitySkipWordPattern") as Entity;
+    const nhsEntity: Entity = this._entities.list.get("entityNHSPattern") as Entity;
+    const skipGrammarEntity: Entity = this._entities.list.get("entitySkipWordPattern") as Entity;
+    const skipWordEntity: Entity = this._entities.list.get("entitySkipWordList") as Entity;
+    const telEntity: Entity = this._entities.list.get("entityTelephonePattern") as Entity;
+    const timesEntity: Entity = this._entities.list.get("entityTimePattern") as Entity;
+    const urlEntity: Entity = this._entities.list.get("entityURLPattern") as Entity;
+    const searches: Evaluation[] = [];
 
-    const currency: Evaluation = {      
-      action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: CurrencyEntity,
-      matches: this._evalRegEx(data, findCurrency)
-    };
+    if (bankingEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: bankingEntity,
+        matches: this._evalRegEx(data, findBankingNumbers)
+      });
+    }
 
-    const dates: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: DateEntity,
-      matches: this._evalRegEx(data, findDate)
-    };
+    if (currencyEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: currencyEntity,
+        matches: this._evalRegEx(data, findCurrency)
+      });
+    }
 
-    const emails: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: EmailEntity,
-      matches: this._evalRegEx(data, findEmail)
-    };
+    if (dateEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: dateEntity,
+        matches: this._evalRegEx(data, findDate)
+      });
+    }
 
-    const eth: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: EthnicityEntity,
-      matches: this._evalKeyword(data, null, EthnicitySet)
-    };
+    if (emailEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: emailEntity,
+        matches: this._evalRegEx(data, findEmail)
+      });
+    }
 
-    const householdItem: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: SkipWordEntity,
-      matches: this._evalRegEx(data, RospaRegEx)
-    };
+    if (ethEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: ethEntity,
+        matches: this._evalKeyword(data, null, EthnicitySet)
+      });
+    }
 
-    const location: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: LocationRegExEntity,
-      matches: this._evalRegEx(data, LocationRegEx)
-    };
+    if (householdItemEntity.enabled) {
+      searches.push({
+        action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: householdItemEntity,
+        matches: this._evalRegEx(data, RospaRegEx)
+      });
+    }
 
-    const postcode: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: PostcodeEntity,
-      matches: this._evalRegEx(data, findUKPostcode)
-    };
+    if (postcodeEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: postcodeEntity,
+        matches: this._evalRegEx(data, findUKPostcode)
+      });
+    }
 
-    const locationPrefix1: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 1, midfix: 0, suffix: 0 },
-      entity: LocationRegExEntity,
-      matches: this._evalRegEx(data, LocationPrefixRegEx)
-    };
+    if (locationPatternEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: locationPatternEntity,
+        matches: this._evalRegEx(data, LocationRegEx)
+      });
 
-    const locationPrefix2: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 1, midfix: 0, suffix: 0 },
-      entity: LocationRegExEntity,
-      matches: this._evalRegEx(data, findOrdinal, (n: string) => isPropercase(n))
-    };
+      searches.push({
+        action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 1, midfix: 0, suffix: 0 },
+        entity: locationPatternEntity,
+        matches: this._evalRegEx(data, LocationPrefixRegEx)
+      });
 
-    const locationMidfix: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 0, midfix: 1, suffix: 0 },
-      entity: LocationRegExEntity,
-      matches: this._evalRegEx(data, LocationMidfixRegEx)
-    };
+      searches.push({
+        action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 1, midfix: 0, suffix: 0 },
+        entity: locationPatternEntity,
+        matches: this._evalRegEx(data, findOrdinal, (n: string) => isPropercase(n))
+      });
 
-    const locationSuffix: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 0, midfix: 0, suffix: 1 },
-      entity: LocationRegExEntity,
-      matches: this._evalRegEx(data, LocationSuffixRegEx)
-    };
+      searches.push({
+        action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 0, midfix: 1, suffix: 0 },
+        entity: locationPatternEntity,
+        matches: this._evalRegEx(data, LocationMidfixRegEx)
+      });
 
-    const namesEnding: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 4, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: NameRegExEntity,
-      matches: this._evalRegEx(data, NamesEndingRegEx)
-    };
+      searches.push({
+        action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 0, midfix: 0, suffix: 1 },
+        entity: locationPatternEntity,
+        matches: this._evalRegEx(data, LocationSuffixRegEx)
+      });
+    }
 
-    const names: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 4, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: NameEntity,
-      matches: this._evalKeyword(data, null, NameSetAD, NameSetEH, NameSetIL, NameSetMP, NameSetQT, NameSetUZ)
-    };
+    if (namesPatternEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 1, order: 4, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: namesPatternEntity,
+        matches: this._evalRegEx(data, NamesEndingRegEx)
+      });
 
-    const properName: Evaluation = {
-      action: { discard: 0, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: NameEntity,
-      matches: this._evalKeyword(data, (n: string) => isPropercase(n), ProperNameSet)
-    };
+      searches.push({
+        action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: namesPatternEntity,
+        matches: this._evalRegEx(data, NamePrefixRegEx)
+      });
 
-    const properNameJoin: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: NameEntity,
-      matches: this._evalKeyword(data, (n: string) => isPropercase(n), ProperNameSetJoinOnly)
-    };
+      searches.push({
+        action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 1, midfix: 1, suffix: 0 },
+        entity: namesPatternEntity,
+        matches: this._evalRegEx(data, NameInitialRegEx)
+      });
 
-    const medicalAbbr: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: MedicalEntity,
-      matches: this._evalRegEx(data, MedicalAbbrRegEx)
-    };
+      searches.push({
+        action: { discard: 1, joinable: 1, order: 3, pos: 1, prefix: 0, midfix: 1, suffix: 1 },
+        entity: namesPatternEntity,
+        matches: this._evalRegEx(data, NamePuralRegEx)
+      });
+    }
 
-    const medicalTerm: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: MedicalEntity,
-      matches: this._evalRegEx(data, MedicalTermRegEx)
-    };
+    if (namesEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 1, order: 4, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: namesEntity,
+        matches: this._evalKeyword(data, null, NameSetAD, NameSetEH, NameSetIL, NameSetMP, NameSetQT, NameSetUZ)
+      });
 
-    const medication: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: MedicalEntity,
-      matches: this._evalRegEx(data, MedicationRegEx)
-    };
+      searches.push({
+        action: { discard: 0, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: namesEntity,
+        matches: this._evalKeyword(data, (n: string) => isPropercase(n), ProperNameSet)
+      });
 
-    const namePrefix: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: NameRegExEntity,
-      matches: this._evalRegEx(data, NamePrefixRegEx)
-    };
+      searches.push({
+        action: { discard: 1, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: namesEntity,
+        matches: this._evalKeyword(data, (n: string) => isPropercase(n), ProperNameSetJoinOnly)
+      });
 
-    const nameInitials: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 1, midfix: 1, suffix: 0 },
-      entity: NameRegExEntity,
-      matches: this._evalRegEx(data, NameInitialRegEx)
-    };
+      searches.push({
+        action: { discard: 1, joinable: 1, order: 4, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: namesEntity,
+        matches: this._evalKeyword(data, null, NamePartSet)
+      });
+    }
 
-    const namePlural: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 3, pos: 1, prefix: 0, midfix: 1, suffix: 1 },
-      entity: NameRegExEntity,
-      matches: this._evalRegEx(data, NamePuralRegEx)
-    };
+    if (medicalTermEntity.enabled) {
+      searches.push({
+        action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: medicalTermEntity,
+        matches: this._evalRegEx(data, MedicalAbbrRegEx)
+      });
 
-    const partName: Evaluation = {
-      action: { discard: 1, joinable: 1, order: 4, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: NameEntity,
-      matches: this._evalKeyword(data, null, NamePartSet)
-    };
+      searches.push({
+        action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: medicalTermEntity,
+        matches: this._evalRegEx(data, MedicalTermRegEx)
+      });
 
-    const nhs: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: NHSEntity,
-      matches: this._evalRegEx(data, findNHSNumber)
-    };
+      searches.push({
+        action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: medicalTermEntity,
+        matches: this._evalRegEx(data, MedicationRegEx)
+      });
+    }
 
-    const skipGrammar: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: SkipWordEntity,
-      matches: this._evalRegEx(data, SkipGrammarRegEx)
-    };
+    if (nhsEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: nhsEntity,
+        matches: this._evalRegEx(data, findNHSNumber)
+      });
+    }
 
-    const skipWord: Evaluation = {
-      action: { discard: 1, joinable: 0, order: 3, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: SkipWordEntity,
-      matches: this._evalKeyword(data, null, SkipWordSet)
-    };
+    if (skipGrammarEntity.enabled) {
+      searches.push({
+        action: { discard: 1, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: skipGrammarEntity,
+        matches: this._evalRegEx(data, SkipGrammarRegEx)
+      });
+    }
 
-    const tel: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: TelephoneEntity,
-      matches: this._evalRegEx(data, findUKTelephone)
-    };
+    if (skipWordEntity.enabled) {
+      searches.push({
+        action: { discard: 1, joinable: 0, order: 3, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: skipWordEntity,
+        matches: this._evalKeyword(data, null, SkipWordSet)
+      });
+    }
 
-    const times: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: TimeEntity,
-      matches: this._evalRegEx(data, findTime)
-    };
+    if (telEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: telEntity,
+        matches: this._evalRegEx(data, findUKTelephone)
+      });
+    }
 
-    const url: Evaluation = {
-      action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-      entity: URLEntity,
-      matches: this._evalRegEx(data, findURL)
-    };
+    if (timesEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: timesEntity,
+        matches: this._evalRegEx(data, findTime)
+      });
+    }
 
-    matches = this._sortMatches(data, 
-      banking, currency, dates, emails, eth, householdItem,
-      location, locationPrefix1, locationPrefix2, locationMidfix, locationSuffix,
-      medication, medicalAbbr, medicalTerm,
-      namePrefix, nameInitials, namePlural, names, namesEnding,
-      nhs, postcode, properName, properNameJoin, partName,
-      tel, times, url, skipGrammar, skipWord
-    );
+    if (urlEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: urlEntity,
+        matches: this._evalRegEx(data, findURL)
+      });
+    }
+
+    matches = this._sortMatches(data, ...searches);
     return Promise.resolve(matches);
   }
 

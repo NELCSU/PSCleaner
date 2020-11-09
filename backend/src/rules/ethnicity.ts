@@ -395,7 +395,7 @@ const a: string[] = [
 "hessian",
 "hlai",
 "hoa",
-"hokkaido",
+
 "hoklo",
 "honduran",
 "hongkonger",

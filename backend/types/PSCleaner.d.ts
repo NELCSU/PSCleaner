@@ -8,6 +8,7 @@ export type CSVField = {
 };
 
 export type CSVTemplate = {
+  exclusions?: string[] | undefined;
   fields: CSVField[];
   header: boolean;
   trace: boolean;
@@ -76,6 +77,8 @@ export type Entity = {
   color: string,
   description: string,
   domain: string,
+  enabled: boolean,
+  id: string,
   label: string,
   mask: string,
   type: EntityType

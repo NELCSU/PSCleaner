@@ -1,179 +1,221 @@
 import { ipcMain as ipc } from "electron";
 import type { Entity } from "../types/PSCleaner";
 
-export const BankingEntity: Entity = { 
-  color: "#994320", 
+export const BankingPatternEntity: Entity = {
+  color: "#994320",
   description: "UK banking identitfiers via pattern match",
-  domain: "MONEY", 
-  label: "Banking", 
+  domain: "MONEY",
+  enabled: true,
+  id: "entityBankPattern",
+  label: "Banking",
   mask: "BANKING",
-  type: "regular expression" 
+  type: "regular expression"
 };
 
-export const CurrencyEntity: Entity = { 
-  color: "#994360", 
+export const CurrencyPatternEntity: Entity = {
+  color: "#994360",
   description: "Currency text via pattern match",
-  domain: "MONEY", 
-  label: "Currency", 
+  domain: "MONEY",
+  enabled: true,
+  id: "entityCurrencyPattern",
+  label: "Currency",
   mask: "CURRENCY",
-  type: "regular expression" 
+  type: "regular expression"
 };
 
-export const DateEntity: Entity = { 
-  color: "#e800e8", 
+export const DatePatternEntity: Entity = {
+  color: "#e800e8",
   description: "Long and short dates via pattern match",
-  domain: "DATETIME", 
-  label: "DateTime", 
+  domain: "DATETIME",
+  enabled: true,
+  id: "entityDatePattern",
+  label: "DateTime",
   mask: "DATETIME",
-  type: "regular expression" 
+  type: "regular expression"
 };
 
-export const EmailEntity: Entity = { 
-  color: "#ff8000", 
+export const EmailPatternEntity: Entity = {
+  color: "#ff8000",
   description: "Email and @Mention via pattern match",
-  domain: "EMAIL", 
-  label: "Email", 
+  domain: "EMAIL",
+  enabled: true,
+  id: "entityEmailPattern",
+  label: "Email",
   mask: "EMAIL",
-  type: "regular expression" 
+  type: "regular expression"
 };
 
-export const EthnicityEntity: Entity = {
+export const EthnicityListEntity: Entity = {
   color: "#0050ff",
   description: "List of ethnicities/nationalities",
   domain: "NAME",
+  enabled: true,
+  id: "entityEthnicityList",
   label: "Ethnicity",
   mask: "ETHNIC",
   type: "keyword"
 };
 
-export const LocationEntity: Entity = { 
-  color: "#00ff00", 
+export const LocationListEntity: Entity = {
+  color: "#00ff00",
   description: "List of location identifiers",
-  domain: "NAME", 
-  label: "Name", 
+  domain: "NAME",
+  enabled: true,
+  id: "entityLocationList",
+  label: "Name",
   mask: "LOCATION",
-  type: "keyword" 
+  type: "keyword"
 };
 
-export const LocationRegExEntity: Entity = { 
-  color: "#00ee00", 
+export const LocationPatternEntity: Entity = {
+  color: "#00ee00",
   description: "Location identifier via pattern match",
-  domain: "NAME", 
-  label: "Name", 
+  domain: "NAME",
+  enabled: true,
+  id: "entityLocationPattern",
+  label: "Name",
   mask: "LOCATION",
-  type: "regular expression" 
+  type: "regular expression"
 };
 
-export const MedicalEntity: Entity = { 
-  color: "#cccccc", 
-  description: "Medical terms and medication",
-  domain: "SKIP", 
-  label: "Medical", 
-  mask: "MEDICAL",
-  type: "regular expression" 
-};
-
-export const NameEntity: Entity = {
+export const NameListEntity: Entity = {
   color: "#00a0ff",
   description: "List of names",
   domain: "NAME",
+  enabled: true,
+  id: "entityNameList",
   label: "Name",
   mask: "NAME",
   type: "keyword"
 };
 
-export const NameRegExEntity: Entity = { 
-  color: "#00e0ff", 
+export const NamePatternEntity: Entity = {
+  color: "#00e0ff",
   description: "Name via pattern match",
-  domain: "NAME", 
-  label: "Name", 
+  domain: "NAME",
+  enabled: true,
+  id: "entityNamePattern",
+  label: "Name",
   mask: "NAME",
-  type: "regular expression" 
+  type: "regular expression"
 };
 
-export const NHSEntity: Entity = { 
-  color: "#0040cc", 
+export const NHSPatternEntity: Entity = {
+  color: "#0040cc",
   description: "NHS number via pattern match",
-  domain: "MEDICAL",  
-  label: "NHS number", 
+  domain: "MEDICAL",
+  enabled: true,
+  id: "entityNHSPattern",
+  label: "NHS number",
   mask: "NHS NUMBER",
-  type: "regular expression" 
+  type: "regular expression"
 };
 
-export const PostcodeEntity: Entity = { 
-  color: "#00dd00", 
+export const PostcodePatternEntity: Entity = {
+  color: "#00dd00",
   description: "Postcode via pattern match",
-  domain: "LOCATION", 
-  label: "Postcode", 
+  domain: "LOCATION",
+  enabled: true,
+  id: "entityPostcodePattern",
+  label: "Postcode",
   mask: "POSTCODE",
-  type: "regular expression" 
+  type: "regular expression"
 };
 
-export const SkipWordEntity: Entity = { 
+export const SkipWordListEntity: Entity = {
   color: "#0050ff",
-  description: "List of words",
+  description: "List of words for de-selection",
   domain: "SKIP",
+  enabled: true,
+  id: "entitySkipWordList",
   label: "Skip words",
   mask: "SKIP",
   type: "keyword"
 };
 
-export const TelephoneEntity: Entity = { 
-  color: "#ff80ff", 
-  description: "UK telephone number via pattern match",
-  domain: "CONTACT", 
-  label: "UK Tel", 
-  mask: "TELEPHONE",
-  type: "regular expression" 
+export const SkipWordPatternEntity: Entity = {
+  color: "#cccccc",
+  description: "Regular expressions matching words for de-selection",
+  domain: "SKIP",
+  enabled: true,
+  id: "entitySkipWordPattern",
+  label: "Medical",
+  mask: "MEDICAL",
+  type: "regular expression"
 };
 
-export const TimeEntity: Entity = { 
+export const TelephonePatternEntity: Entity = {
+  color: "#ff80ff",
+  description: "UK telephone number via pattern match",
+  domain: "CONTACT",
+  enabled: true,
+  id: "entityTelephonePattern",
+  label: "UK Tel",
+  mask: "TELEPHONE",
+  type: "regular expression"
+};
+
+export const TimePatternEntity: Entity = {
   color: "#dfbfff",
   description: "Time text via pattern match",
   domain: "DATETIME",
+  enabled: true,
+  id: "entityTimePattern",
   label: "Time",
   mask: "TIME",
-  type: "regular expression" 
+  type: "regular expression"
 };
 
-export const URLEntity: Entity = { 
+export const URLPatternEntity: Entity = {
   color: "#ffc58a",
   description: "URL text via pattern match",
   domain: "CONTACT",
+  enabled: true,
+  id: "entityURLPattern",
   label: "Url",
   mask: "URL",
-  type: "regular expression" 
+  type: "regular expression"
 };
 
-/**
- * ### Manages entities
- * #### API  (ipc request -> response)
- * 1. get-entities  -> entity-list - returns list of entities
- * 2. get-entities  -> entity-list-error
- */
+
 export class Entities {
+  public list: Map<string, Entity> = new Map();
+
   constructor() {
-    ipc.on("get-entities", e => {
-      Entities.getList()
-        .then(
-          success => e.reply("entity-list", success),
-          failure => e.reply(failure, [])
-        );
-    });
+    this.list.set(BankingPatternEntity.id, BankingPatternEntity);
+    this.list.set(CurrencyPatternEntity.id, CurrencyPatternEntity);
+    this.list.set(DatePatternEntity.id, DatePatternEntity);
+    this.list.set(EmailPatternEntity.id, EmailPatternEntity);
+    this.list.set(EthnicityListEntity.id, EthnicityListEntity);
+    this.list.set(LocationListEntity.id, LocationListEntity);
+    this.list.set(LocationPatternEntity.id, LocationPatternEntity);
+    this.list.set(NameListEntity.id, NameListEntity);
+    this.list.set(NamePatternEntity.id, NamePatternEntity);
+    this.list.set(NHSPatternEntity.id, NHSPatternEntity);
+    this.list.set(PostcodePatternEntity.id, PostcodePatternEntity);
+    this.list.set(SkipWordListEntity.id, SkipWordListEntity);
+    this.list.set(SkipWordPatternEntity.id, SkipWordPatternEntity);
+    this.list.set(TimePatternEntity.id, TimePatternEntity);
+    this.list.set(TelephonePatternEntity.id, TelephonePatternEntity);
+    this.list.set(URLPatternEntity.id, URLPatternEntity);
+
+    ipc.on("get-entities", e => e.reply("entity-list", [...this.list.values()]));
+    ipc.on("toggle-entity", (_, id) => this.toggle(id));
   }
 
-  /**
-   * returns list of entities
-   */
-  public static getList(): Promise<Entity[]> {
-    return Promise.resolve(
-      [
-        BankingEntity, CurrencyEntity, 
-        DateEntity, EmailEntity, EthnicityEntity,
-        LocationEntity, LocationRegExEntity,
-        NameEntity, NHSEntity, PostcodeEntity, SkipWordEntity,
-        TelephoneEntity, TimeEntity, URLEntity
-      ].sort((a, b) => a.label > b.label ? 1 : -1)
-    );
+  public clear(): Entities {
+    for (const e  of this.list.values()) {
+      e.enabled = true;
+    }
+    return this;
+  }
+
+  public toggle(id: string): Entities {
+    const ent: Entity | undefined = this.list.get(id);
+    if (ent) {
+      ent.enabled = !ent.enabled;
+      this.list.set(id, ent);
+    }
+    return this;
   }
 }
