@@ -49,9 +49,8 @@ nel-text-input, select {
   border: 1px solid #f0f4f5;
   border-radius: 5px;
   color: #005eb8;
-  font-weight: 500; 
-  padding: 0.25rem;
-  user-select: none
+  font-weight: 500;
+  padding: 0.25rem
 }
 
 .btn-link:hover { border: 1px solid #005eb8 }
@@ -98,6 +97,8 @@ nel-text-input, select {
 }
 
 .vcenter { align-items: center }
+
+.push-apart { justify-content: space-between}
 
 .hleft { justify-content: flex-start }
 

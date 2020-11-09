@@ -24,7 +24,7 @@
 
   <h2><a href="./index.html">Home</a> &gt; Manage templates</h2>
 
-  <div id="clone" class="flex-r vcenter pad3 hidden clone">
+  <div id="clone-field" class="flex-r vcenter pad3 hidden clone">
     <img src="./images/delete.svg" class="action delete" alt="Delete" title="Delete this row" />
     <img src="./images/up.svg" class="action move-up" alt="Move up" title="Move row up" />
     <img src="./images/down.svg" class="action move-down" alt="Move down" title="Move row down" />
@@ -41,30 +41,42 @@
 
     <div class="pad">
       <div class="flex-r vcenter">
-        <div class="wide"><label for="btnTrace" title="Toggle trace feature. If on, a trackable number is appended to the redaccted text placeholder.">Add trace id</label></div>
-        <div class="grow"><nel-on-off id="btnTrace" size="3"></nel-on-off></div>
-      </div>
-      <div class="flex-r vcenter">
         <div class="wide"><label for="txtHeader">CSV file has a header row</label></div>
         <div class="grow"><nel-on-off id="btnHeader" size="3"></nel-on-off></div>
       </div>
     </div>
-    <hr>
-
-    <div class="flex-r vcenter pad3">
-      <div class="wide"><a href="#" id="btnAddField1" class="btn-link action" title="Add field">Add a column</a></div>
-      <div class="grow">Sensitive</div>
-    </div>
     
-    <div id="insertionPoint" class="flex-c panel pad">
+    <nel-expand-item>
+      <div slot="title">Fields</div>
+      <div slot="content">
+        <div class="flex-r vcenter pad3">
+          <div class="wide"><a href="#" id="btnAddField1" class="btn-link action" title="Add field">Add a column</a></div>
+          <div class="grow">Sensitive</div>
+        </div>
+        
+        <div id="insertionPoint" class="flex-c panel pad3"></div>
+    
+        <div class="flex-r vcenter pad3">
+          <div class="wide"><a href="#" id="btnAddField2" class="btn-link action" title="Add field">Add a column</a></div>
+        </div>
+      </div>
+    </nel-expand-item>
 
-    </div>
+    <nel-expand-item>
+      <div slot="title">Advanced settings</div>
+      <div slot="content">
+        <div class="flex-r vcenter wide push-apart">
+          <div class="wide"><label for="btnTrace" title="If enabled, a tracking id is appended to the redaccted text. This helps the tracking of repeating text.">Add tracking identifier</label></div>
+          <div class="grow"><nel-on-off id="btnTrace" size="3"></nel-on-off></div>
+        </div>
+        <small>Searches use various entity definitions. You can enable/disable these below if needed. By default, all are enabled.</small>
+        <div id="entities" class="flex-c wide">
+  
+        </div>
+      </div>
+    </nel-expand-item>
 
-    <div class="flex-r vcenter pad3">
-      <div class="wide"><a href="#" id="btnAddField2" class="btn-link action" title="Add field">Add a column</a></div>
-    </div>
-
-    <div class="flex-r vcenter pad border-top">
+    <div class="flex-r vcenter pad">
       <div class="wide">
         <a href="#" id="btnSave" class="btn-link action disabled" title="Save">Save</a>
         <a href="#" id="btnClear" class="btn-link action" title="Clear form">Clear</a>

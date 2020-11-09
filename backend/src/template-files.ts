@@ -115,6 +115,10 @@ export class TemplateFiles {
                 }
               });
 
+              if (data.exclusions) {
+                this.exclusions = data.exclusions;
+              }
+
               e.reply(success.status, success.fn, {
                 exclusions: data.exclusions ? data.exclusions : [],
                 fields: Array.from(this.fields.values()),

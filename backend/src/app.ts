@@ -72,6 +72,7 @@ class Main {
       });
 
       ipc.on("NLP-request", async (_: IpcMainEvent, text: string) => {
+        this.entities.exclude([]);
         (async (t) => await nlp.evaluate(t))(text)
           .then(result => {
             this.mainWindow.webContents.send("NLP-response", result);
@@ -84,6 +85,7 @@ class Main {
             .then(files => {
               if (files.length > 0) {
                 nlp.trace = this.templateFiles.trace;
+                this.entities.exclude(this.templateFiles.exclusions ? this.templateFiles.exclusions : []);
                 this.processFiles.processFile(files[0], this.templateFiles);
                 this.processFiles.events.on("file-processed", (_: any) => e.reply("processed"));
                 this.processFiles.events.on("row-processed", (rows: number) => e.reply("row-completed", rows));

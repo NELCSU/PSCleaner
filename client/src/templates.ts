@@ -2,7 +2,7 @@ import validFilename from "valid-filename";
 import { ipcRenderer as ipc } from "electron";
 import * as db from "debounce";
 import { right } from "@buckneri/string";
-import { CSVField, CSVTemplate } from "../../backend/types/PSCleaner";
+import { CSVField, CSVTemplate, Entity } from "../../backend/types/PSCleaner";
 
 const clearButton = document.getElementById("btnClear") as HTMLButtonElement;
 const deleteButton = document.getElementById("btnDelete") as HTMLButtonElement;
@@ -14,13 +14,14 @@ const headerButton = document.getElementById("btnHeader") as any;
 const panel = document.getElementById("pnlAddTemplate") as HTMLElement;
 const insertHere = document.getElementById("insertionPoint") as HTMLElement;
 const traceButton = document.getElementById("btnTrace") as any;
+const entitySection = document.getElementById("entities") as HTMLDivElement;
 
 /**
  * Adds another column to the document
  */
 function addField(fieldName?: string, selected?: boolean) {
   const count = document.querySelectorAll("div.clone").length;
-  const clone = document.getElementById("clone") as HTMLDivElement;
+  const clone = document.getElementById("clone-field") as HTMLDivElement;
   const newField = clone.cloneNode(true) as HTMLElement;
   const txt = newField.querySelector("nel-text-input") as HTMLInputElement;
   const onoff = newField.querySelector("nel-on-off") as any;
@@ -36,7 +37,6 @@ function addField(fieldName?: string, selected?: boolean) {
   del.addEventListener("click", deleteField);
   up.addEventListener("click", moveFieldUp);
   down.addEventListener("click", moveFieldDown);
-  onoff.addEventListener("click", checkForm);
   recalcUpDownControls();
   checkForm();
   return newField;
@@ -77,6 +77,7 @@ function clear() {
   fileName.value = "";
   tl.selectedIndex = 0;
   removeFields();
+  resetEntities();
 }
 
 /**
@@ -90,8 +91,9 @@ function removeFields() {
 /**
  * Deletes row in form
  */
-function deleteField() {
-  const row = (window.event?.target as HTMLElement).parentNode as Node;
+function deleteField(event: Event) {
+  event.stopImmediatePropagation();
+  const row = (event.target as HTMLElement).parentNode as Node;
   if (row) {
     row.parentNode?.removeChild(row);
   }
@@ -145,6 +147,8 @@ async function deleteFile() {
  * Load form from template data
  */
 function loadForm(file: string, data: CSVTemplate) {
+  removeFields();
+  resetEntities();
   deleteButton.classList.remove("disabled");
   fileName.value = file;
   headerButton.on = data.header;
@@ -152,6 +156,17 @@ function loadForm(file: string, data: CSVTemplate) {
   data.fields.forEach((field: CSVField) => {
     addField(field.label, field.enabled);
   });
+  if (data.exclusions) {
+    data.exclusions.forEach((id: string) => {
+      const entity = document.getElementById(id) as any;
+      entity.on = false;
+    });
+  }
+}
+
+function resetEntities() {
+  const entities = Array.from(entitySection.querySelectorAll(".entity"));
+  entities.forEach((el: any) => el.on = true);
 }
 
 function recalcUpDownControls() {
@@ -173,9 +188,9 @@ function recalcUpDownControls() {
  * Saves template
  */
 function saveFile() {
-  const flds: any[] = [];
   const data: CSVTemplate = {
-    fields: flds,
+    exclusions: [],
+    fields: [],
     header: headerButton.on ? true : false,
     trace: traceButton.on ? true : false
   };
@@ -189,6 +204,12 @@ function saveFile() {
       rules: undefined,
       seq: n
     });
+  });
+  const entities = Array.from(entitySection.querySelectorAll(".entity"));
+  entities.forEach((el: any) => {
+    if (el.on === false) {
+      data.exclusions?.push(el.id);
+    }
   });
   let newFilename = fileName.value.trim();
   newFilename = newFilename.replace(/\.json/, "");
@@ -218,9 +239,15 @@ saveButton.addEventListener("click", saveFile);
 traceButton.addEventListener("input", checkForm);
 (document.getElementById("listTemplate") as HTMLElement).addEventListener("change", selectFile);
 
-ipc.on("template-file", (_: any, file: string, data: any) => {
-  removeFields();
-  loadForm(file, data);
+ipc.on("template-file", (_: any, file: string, data: any) => loadForm(file, data));
+
+ipc.on("entity-list", (_: any, data: Entity[]) => {
+  data.forEach((entity: Entity) => {
+    entitySection.innerHTML += `<div class="flex-r pad3 vcenter wide push-apart">
+      <nel-list-item color="${entity.color}">${entity.description}</nel-list-item>
+      <nel-on-off class="entity" id="${entity.id}" size="3" on></nel-on-off>
+    </div>`;
+  });
 });
 
 ipc.on("template-files", (_: any, files: string[]) => {
@@ -257,22 +284,21 @@ ipc.on("template-file-saved", (_: any) => {
 });
 
 ipc.send("get-template-files");
+ipc.send("get-entities");
 
 ipc.on("define-template", (_, columns: string[]) => {
   clear();
-  columns.forEach(c => {
-    addField(c, false);
-  });
+  columns.forEach(c => addField(c, false));
 });
 
-document.addEventListener("dragover", (event) => { 
-  event.preventDefault(); 
-}); 
+document.addEventListener("changed", _ => checkForm);
 
-document.addEventListener("drop", (event) => { 
-  event.preventDefault(); 
-  event.stopPropagation(); 
-  for (const f of (event.dataTransfer as any).files) {
+document.addEventListener("dragover", e => e.preventDefault()); 
+
+document.addEventListener("drop", e => { 
+  e.preventDefault(); 
+  e.stopPropagation(); 
+  for (const f of (e.dataTransfer as any).files) {
     if (right(f.path, 3) === "csv") {
       ipc.send("define-template", f.path);
     }

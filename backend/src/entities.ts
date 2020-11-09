@@ -3,7 +3,7 @@ import type { Entity } from "../types/PSCleaner";
 
 export const BankingPatternEntity: Entity = {
   color: "#994320",
-  description: "UK banking identitfiers via pattern match",
+  description: "UK bank account and card numbers",
   domain: "MONEY",
   enabled: true,
   id: "entityBankPattern",
@@ -14,7 +14,7 @@ export const BankingPatternEntity: Entity = {
 
 export const CurrencyPatternEntity: Entity = {
   color: "#994360",
-  description: "Currency text via pattern match",
+  description: "UK currency values",
   domain: "MONEY",
   enabled: true,
   id: "entityCurrencyPattern",
@@ -25,7 +25,7 @@ export const CurrencyPatternEntity: Entity = {
 
 export const DatePatternEntity: Entity = {
   color: "#e800e8",
-  description: "Long and short dates via pattern match",
+  description: "Long and short dates",
   domain: "DATETIME",
   enabled: true,
   id: "entityDatePattern",
@@ -36,7 +36,7 @@ export const DatePatternEntity: Entity = {
 
 export const EmailPatternEntity: Entity = {
   color: "#ff8000",
-  description: "Email and @Mention via pattern match",
+  description: "Email and @mention text",
   domain: "EMAIL",
   enabled: true,
   id: "entityEmailPattern",
@@ -47,7 +47,7 @@ export const EmailPatternEntity: Entity = {
 
 export const EthnicityListEntity: Entity = {
   color: "#0050ff",
-  description: "List of ethnicities/nationalities",
+  description: "Ethnicity / nationality",
   domain: "NAME",
   enabled: true,
   id: "entityEthnicityList",
@@ -58,7 +58,7 @@ export const EthnicityListEntity: Entity = {
 
 export const LocationListEntity: Entity = {
   color: "#00ff00",
-  description: "List of location identifiers",
+  description: "Street and place names",
   domain: "NAME",
   enabled: true,
   id: "entityLocationList",
@@ -69,7 +69,7 @@ export const LocationListEntity: Entity = {
 
 export const LocationPatternEntity: Entity = {
   color: "#00ee00",
-  description: "Location identifier via pattern match",
+  description: "Street and place names (pattern)",
   domain: "NAME",
   enabled: true,
   id: "entityLocationPattern",
@@ -80,7 +80,7 @@ export const LocationPatternEntity: Entity = {
 
 export const NameListEntity: Entity = {
   color: "#00a0ff",
-  description: "List of names",
+  description: "Names",
   domain: "NAME",
   enabled: true,
   id: "entityNameList",
@@ -91,7 +91,7 @@ export const NameListEntity: Entity = {
 
 export const NamePatternEntity: Entity = {
   color: "#00e0ff",
-  description: "Name via pattern match",
+  description: "Names (pattern)",
   domain: "NAME",
   enabled: true,
   id: "entityNamePattern",
@@ -102,7 +102,7 @@ export const NamePatternEntity: Entity = {
 
 export const NHSPatternEntity: Entity = {
   color: "#0040cc",
-  description: "NHS number via pattern match",
+  description: "NHS numbers",
   domain: "MEDICAL",
   enabled: true,
   id: "entityNHSPattern",
@@ -113,7 +113,7 @@ export const NHSPatternEntity: Entity = {
 
 export const PostcodePatternEntity: Entity = {
   color: "#00dd00",
-  description: "Postcode via pattern match",
+  description: "UK postcode",
   domain: "LOCATION",
   enabled: true,
   id: "entityPostcodePattern",
@@ -123,8 +123,8 @@ export const PostcodePatternEntity: Entity = {
 };
 
 export const SkipWordListEntity: Entity = {
-  color: "#0050ff",
-  description: "List of words for de-selection",
+  color: "#cccccc",
+  description: "Remove potential false positives",
   domain: "SKIP",
   enabled: true,
   id: "entitySkipWordList",
@@ -135,7 +135,7 @@ export const SkipWordListEntity: Entity = {
 
 export const SkipWordPatternEntity: Entity = {
   color: "#cccccc",
-  description: "Regular expressions matching words for de-selection",
+  description: "Remove potential false positives (pattern)",
   domain: "SKIP",
   enabled: true,
   id: "entitySkipWordPattern",
@@ -146,7 +146,7 @@ export const SkipWordPatternEntity: Entity = {
 
 export const TelephonePatternEntity: Entity = {
   color: "#ff80ff",
-  description: "UK telephone number via pattern match",
+  description: "UK telephone numbers",
   domain: "CONTACT",
   enabled: true,
   id: "entityTelephonePattern",
@@ -157,7 +157,7 @@ export const TelephonePatternEntity: Entity = {
 
 export const TimePatternEntity: Entity = {
   color: "#dfbfff",
-  description: "Time text via pattern match",
+  description: "Time of day",
   domain: "DATETIME",
   enabled: true,
   id: "entityTimePattern",
@@ -168,7 +168,7 @@ export const TimePatternEntity: Entity = {
 
 export const URLPatternEntity: Entity = {
   color: "#ffc58a",
-  description: "URL text via pattern match",
+  description: "URLs",
   domain: "CONTACT",
   enabled: true,
   id: "entityURLPattern",
@@ -176,7 +176,6 @@ export const URLPatternEntity: Entity = {
   mask: "URL",
   type: "regular expression"
 };
-
 
 export class Entities {
   public list: Map<string, Entity> = new Map();
@@ -206,6 +205,17 @@ export class Entities {
   public clear(): Entities {
     for (const e  of this.list.values()) {
       e.enabled = true;
+    }
+    return this;
+  }
+
+  public exclude(id: string[]): Entities {
+    for (const entity of this.list.values()) {
+      if (id.length > 0) {
+        entity.enabled = !(id.findIndex(ex => ex === entity.id) > -1);
+      } else {
+        entity.enabled = true;
+      }
     }
     return this;
   }
