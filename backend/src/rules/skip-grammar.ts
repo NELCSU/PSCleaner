@@ -13,7 +13,7 @@ const a: RegExp[] = [
   /\bbank\sholiday\b/gmi,
   /\bthe\s[Bb]anks?\b/gm,
   /\bbank\sof\s\w+\b/gmi,
-  /\b(?:burger\sking|fox\snews|new\syork\stimes)\b/gmi,
+  /\b(?:burger\sking|fox\snews|new\syork\stimes|washington\spost)\b/gmi,
   /\bworld\sbank\b/gmi,
   /\bchild\sof\b/gmi,
   /\b(?:bark|wood)\schipping\b/gmi,

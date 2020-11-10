@@ -87,6 +87,7 @@ const a: string[] = [
 "anti",
 "antifa",
 "antique",
+"antiwar",
 "aorta",
 "apartheid",
 "aperitif",
