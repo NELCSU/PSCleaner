@@ -197,6 +197,10 @@ const a: RegExp[] = [
   /\bkick\shill\b/gmi,
   /\bkremlin\sdrive\b/gmi,
   /\bleague\s(?:hill|hole)\b/gmi,
+  /\bline\s(?:geo|hill|lane|learning|path|plantation|railway|road|square\swood|street|thorns|view|way|wood)\b/gmi,
+  /\b(?:barn|bunk|colliery|honeybourne|lea|mill|poppy|purbeck|watercress)\sline\b/gmi,
+  /\bLine\s(?:Close)\b/gm,
+  /\b(?:Anne|Friendly|Knotty|Lavender|Long|Main|New|Pipe|The|Whiskey)\sLine\b/gm,
   /\bloading\s(?:bay|hope)\b/gmi,
   /\blottery\s(?:row|street)\b/gmi,
   /\bThe\sLottery\b/gm,
@@ -336,6 +340,7 @@ const a: RegExp[] = [
   /\bWire\sCut\b/gm,
   /\bwooded\sclose\b/gmi,
   /\bworld\s(?:end|way|wood)\b/gmi,
+  /\bworships\shill\b/gmi,
   /\byouth\s(?:close|wood)\b/gmi,
   /\bzone\spoint\b/gmi
 ];

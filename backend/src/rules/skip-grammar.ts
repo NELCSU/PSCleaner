@@ -60,6 +60,7 @@ const a: RegExp[] = [
   /\bsmall\sarms\b/gmi,
   /\bstepping\son\b/gmi,
   /\bsummer\scamp\b/gmi,
+  /\bbig\stech\b/gmi,
   /\btik\stok\b/gmi,
   /\b(?:back|top)\sof\sfoot\b/gmi,
   /\bunited\snations\b/gmi,
