@@ -6,9 +6,9 @@ Process CSV files by identifying and removing personal sensitive text
 
 PSCleaner runs locally on your desktop and does not send or receive data across the network. This is helpful for projects where researchers are experiencing difficulties in getting permission to use third party data cleansing services, typically accessed as cloud services.
 
-The software uses a human readable rules system that is consistently being updated and revised for improved accuracy. At the present time the software is oriented for the English language and the UK locale (specifically healthcare data sets).
+The software uses a human readable rules system that is updated and revised on a regular basis. At the present time the software is oriented for the English language and the UK locale (specifically healthcare data sets).
 
-The software does not guarantee 100% success in removing all personal and sensitive data. There will likely always be edge cases and exceptions. Please test your data thoroughly in order to satify yourself that a desired level of accuracy has been acheived. The software is distributed on the [MIT licence](https://opensource.org/licenses/MIT).
+The software does not guarantee 100% success in removing all personal and sensitive data. There will likely always be edge cases and exceptions. Please test your data thoroughly in order to satisfy yourself that a desired level of accuracy has been acheived.
 
 ## Getting started
 
