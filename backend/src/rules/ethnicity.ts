@@ -395,7 +395,6 @@ const a: string[] = [
 "hessian",
 "hlai",
 "hoa",
-
 "hoklo",
 "honduran",
 "hongkonger",
@@ -607,7 +606,6 @@ const a: string[] = [
 "mandinka",
 "mandja",
 "mappila",
-"mapudungun",
 "marachi",
 "marakwet",
 "marama",
@@ -851,7 +849,6 @@ const a: string[] = [
 "sika",
 "sikh",
 "silesian",
-"simalungun",
 "sindhi",
 "singaporean",
 "sinhalese",
