@@ -5549,7 +5549,6 @@ const a: string[] = [
 "planting",
 "plantings",
 "plateaux",
-"plato",
 "platter",
 "platters",
 "playingfield",

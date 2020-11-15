@@ -1321,7 +1321,6 @@ const a: string[] = [
 "plaque",
 "plateau",
 "plateaux",
-"plato",
 "playoff",
 "pleb",
 "pleura",
