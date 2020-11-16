@@ -1,5 +1,5 @@
 const a: RegExp[] = [
-  /\b\d+(?:g|mg|ml|mmol)\b/gm,
+  /\d+(?:g|mg|ml|mmol)\b/gm,
 
   // https://en.wikipedia.org/wiki/Drug_nomenclature
   /\b[a-z]+axine\b/gmi,
@@ -26,6 +26,7 @@ const a: RegExp[] = [
   /\badalimumab\b/gmi,
   /\balimentum\b/gmi,
   /\b(?:co\-?)?amox?iclav\b/gmi,
+  /\barrestin\b/gmi,
   /\baugment[iu]m\b/gmi,
   /\bavigan\b/gmi,
   /\bbamlanivimab\b/gmi,
