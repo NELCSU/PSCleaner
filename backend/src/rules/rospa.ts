@@ -36,7 +36,7 @@ const a: RegExp[] = [
   /\bpiggy\sback\b/gmi,
   /\bping\spong\b/gmi,
   /\bplay(?:ed|ing|s)?\s(?:frisby|rugby)\b/gmi,
-  /\brugby\s(?:field|league|union)\b/gmi,
+  /\b(?:nations\s)?rugby\s(?:field|league|union)\b/gmi,
   /\brocking\shorse\b/gmi,
   /\bskate\spark\b/gmi,
   /\bslipped\sfoot\b/gmi,

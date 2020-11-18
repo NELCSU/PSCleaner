@@ -31,6 +31,7 @@ const a: RegExp[] = [
   /\bthe\s(?:bill|eve|white)\b/gmi,
   /\bchief\sof\sstaff\b/gmi,
   /\bcity\scentre\b/gmi,
+  /\bconcerns\smount\b/gmi,
   /\bdéjà\svu\b/gmi,
   /\bdirector[\s\-]general\b/gmi,
   /\bdua\'?s\slayer\b/gmi,
