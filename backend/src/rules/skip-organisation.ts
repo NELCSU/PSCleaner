@@ -1,0 +1,16 @@
+const a: RegExp[] = [
+  /\bburger\sking\b/gmi,
+  /\bfox\snews\b/gmi,
+  /\bjp\smorgan\schase\b/gmi,
+  /\bku\sklux\sklan\b/gmi,
+  /\b(?:new\syork|la|washington)\s(?:news|post|times)\b/gmi,
+  /\b(?:central|world)\sbank\b/gmi,
+  /\broyal\snavy\b/gmi,
+  /\bsinovac\b/gmi,
+  /\bunited\snations\b/gmi,
+];
+const OrganisationRegEx: Set<RegExp> = new Set();
+a.forEach(term => OrganisationRegEx.add(term));
+export {
+  OrganisationRegEx
+};

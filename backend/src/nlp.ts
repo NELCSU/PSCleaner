@@ -4,10 +4,11 @@ import {
   LocationPrefixRegEx, LocationRegEx,
   LocationMidfixRegEx, LocationSuffixRegEx
 } from "./rules/location";
-import { RospaRegEx } from "./rules/rospa";
-import { MedicalAbbrRegEx } from "./rules/medical-abbreviations";
-import { MedicalTermRegEx } from "./rules/medical-terms";
-import { MedicationRegEx } from "./rules/medication";
+import { OrganisationRegEx } from "./rules/skip-organisation";
+import { RospaRegEx } from "./rules/skip-rospa";
+import { MedicalAbbrRegEx } from "./rules/skip-medical-abbr";
+import { MedicalTermRegEx } from "./rules/skip-medical-terms";
+import { MedicationRegEx } from "./rules/skip-medication";
 import { NamesEndingRegEx } from "./rules/name-ending-regex";
 import { NameSetAD } from "./rules/name-setA-D";
 import { NameSetEH } from "./rules/name-setE-H";
@@ -59,6 +60,7 @@ export class NLP {
     let matches: MatchedEntity[] = [];
 
     const bankingEntity: Entity = this._entities.list.get("entityBankPattern") as Entity;
+    const companyEntity: Entity = this._entities.list.get("entitySkipWordPattern") as Entity;
     const currencyEntity: Entity = this._entities.list.get("entityCurrencyPattern") as Entity;
     const dateEntity: Entity = this._entities.list.get("entityDatePattern") as Entity;
     const emailEntity: Entity = this._entities.list.get("entityEmailPattern") as Entity;
@@ -82,6 +84,14 @@ export class NLP {
         action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
         entity: bankingEntity,
         matches: this._evalRegEx(data, findBankingNumbers)
+      });
+    }
+
+    if (companyEntity.enabled) {
+      searches.push({
+        action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: companyEntity,
+        matches: this._evalRegEx(data, OrganisationRegEx)
       });
     }
 

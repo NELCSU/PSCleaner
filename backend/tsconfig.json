@@ -29,9 +29,6 @@
 
     "src/rules/ethnicity.ts",
     "src/rules/location.ts",
-    "src/rules/medical-abbreviations.ts",
-    "src/rules/medical-terms.ts",
-    "src/rules/medication.ts",
     "src/rules/name-capitalised.ts",
     "src/rules/name-capitalised-and.ts",
     "src/rules/name-ending-regex.ts",
@@ -42,7 +39,11 @@
     "src/rules/name-setM-P.ts",
     "src/rules/name-setQ-T.ts",
     "src/rules/name-setU-Z.ts",
-    "src/rules/rospa.ts",
+    "src/rules/skip-organisation.ts",
+    "src/rules/skip-medical-abbr.ts",
+    "src/rules/skip-medical-terms.ts",
+    "src/rules/skip-medication.ts",
+    "src/rules/skip-rospa.ts",
     "src/rules/skip-grammar.ts",
     "src/rules/skip-word-set.ts",
 

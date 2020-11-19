@@ -1176,6 +1176,7 @@ const a: string[] = [
 "nexus",
 "ngos",
 "nightingale",
+"nimby",
 "ninja",
 "ninjas",
 "nirvana",
