@@ -1393,7 +1393,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "pilot",
 "pink",
 "pins",
-"pizza",
 "place",
 "plain",
 "plains",

@@ -135,6 +135,7 @@ const a: RegExp[] = [
   /\bearth\s(?:copse|green|holes|holme|lane|primary|street|wall|wood)\b/gmi,
   /\bempire\s(?:avenue|centre|close|court|crescent|drive|gate|grove|mews|parade|park|passage|road|street|terrace|villas|walk|way|wharf)\b/gmi,
   /\benergy\s(?:centre|park|plant|street|works)\b/gmi,
+  /\benvoy\s(?:avenue|close|street)\b/gmi,
   /\bequity\s(?:road|street)\b/gmi,
   /\bessay\sgeo\b/gmi,
   /\beuropean\s(?:college|school|way)\b/gmi,

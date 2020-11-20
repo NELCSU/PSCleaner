@@ -204,6 +204,7 @@ const a: string[] = [
 "bimbo",
 "bingo",
 "biota",
+"biotec",
 "birdie",
 "bissau",
 "bivouac",
