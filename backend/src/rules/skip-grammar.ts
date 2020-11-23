@@ -20,6 +20,7 @@ const a: RegExp[] = [
   /\bblack\sbox\b/gmi,
   /\bbona\sfide\b/gmi,
   /\bbrave\snew\b/gmi,
+  /\bCan\sthe\b/gm,
   /\bchild\sof\b/gmi,
   /\b(?:bark|wood)\schipping\b/gmi,
   /\bchipping\s(?:against|away|on)\b/gmi,

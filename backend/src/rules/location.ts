@@ -38,6 +38,7 @@ const a: RegExp[] = [
   /\bairborne\s(?:avenue|close|drive)\b/gmi,
   /\ball\ssaints\b/gmi,
   /\balliance\s(?:avenue|close|house|lane|place|road|square|street|terrace|way)\b/gmi,
+  /\bamalgamated\sdrive\b/gmi,
   /\bThe\sGod\sAlmighty\b/gm,
   /\baircraft\s(?:esplanade|way)\b/gmi,
   /\b(?:Hairy|Little|The)\sArm\b/gm,
