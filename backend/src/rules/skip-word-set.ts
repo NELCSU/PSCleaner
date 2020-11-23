@@ -669,6 +669,7 @@ const a: string[] = [
 "franc",
 "frangipani",
 "fraud",
+"freetext",
 "frenzy",
 "freon",
 "fresco",

@@ -6,7 +6,7 @@ const a: RegExp[] = [
   /\d+\s(?:out)?\sof\s\d+/gmi,
 
   /\ball\sof\b/gmi,
-  /\ba\sfrank\b/gmi,
+  /\ba\s(?:frank|penny|stone)\b/gmi,
   /\breal\sale\b/gmi,
   /\bamerican\sdream\b/gmi,
   /\bap{1,3}rox\b/gmi,
@@ -20,6 +20,7 @@ const a: RegExp[] = [
   /\bblack\sbox\b/gmi,
   /\bbona\sfide\b/gmi,
   /\bbrave\snew\b/gmi,
+  /\bbroken\soff\b/gmi,
   /\bCan\sthe\b/gm,
   /\bchild\sof\b/gmi,
   /\b(?:bark|wood)\schipping\b/gmi,
