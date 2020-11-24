@@ -6,6 +6,7 @@ const a: RegExp[] = [
   /\bfox\snews\b/gmi,
   /\bjp\smorgan\schase\b/gmi,
   /\bku\sklux\sklan\b/gmi,
+  /\blaw\sschool\b/gmi,
   /\b(?:new\syork|la|washington)\s(?:news|post|times)\b/gmi,
   /\b(?:central|world)\sbank\b/gmi,
   /\bnational\scollege\b/gmi,

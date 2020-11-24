@@ -42641,7 +42641,7 @@ const a: string[] = [
 "ozatas",
 "ozatila",
 "ozatilgan",
-"ozatinc",
+
 "ozating",
 "ozayas",
 "ozayne",
@@ -42675,7 +42675,7 @@ const a: string[] = [
 "ozdeser",
 "ozdiktas",
 "ozdil",
-"ozdinc",
+
 "ozdincer",
 "ozdinler",
 "ozdogus",
@@ -42753,7 +42753,7 @@ const a: string[] = [
 "ozkes",
 "ozkeskin",
 "ozketen",
-"ozkilinc",
+
 "ozkiral",
 "ozkivilcim",
 "ozkoraltay",
