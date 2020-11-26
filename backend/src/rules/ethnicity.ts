@@ -277,7 +277,6 @@ const a: string[] = [
 "dogri",
 "dominican",
 "dongolawi",
-"druze",
 "dubla",
 "dubli",
 "dungri",
