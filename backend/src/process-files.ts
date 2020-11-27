@@ -60,7 +60,7 @@ export class ProcessFiles {
    */
   public async processFile(file: string, templates: TemplateFiles): Promise<void> {
     const from: string = join(this.fm.folder, file);
-    const temp: string = join(this.fm.folder, "temp.tmp");
+    const temp: string = join(this.sendTo, "temp.tmp");
     let to: string = join(this.sendTo, file);
     let rowCount: number = 0;
     
@@ -79,7 +79,22 @@ export class ProcessFiles {
           headers: templates.header,
           writeBOM: p.isUTF8
         }) as csv.CsvFormatterStream<any, any>;
+
         const writeStream = this.fm.fs.createWriteStream(temp, { highWaterMark: 64 * 1024 }) as WriteStream;
+        writeStream.on("finish", () => {
+          try {
+            this.fm.delete(from)
+              .then(() => {
+                this.fm.fs.rename(temp, to)
+                  .then(() => {
+                    this.events.emit("file-processed");
+                  });
+              });
+          } catch {
+            this.events.emit("file-processing-error");
+          }
+        });
+
         writeCSV.pipe(writeStream);
         const rows: Promise<any>[] = [];
   
@@ -106,11 +121,6 @@ export class ProcessFiles {
             Promise.all(rows)
               .then(_ => {
                 writeCSV.end();
-                Promise.all([
-                  this.fm.fs.move(temp, to),
-                  this.fm.delete(from)
-                ]).then(_ => this.events.emit("file-processed"))
-                  .catch(_ => this.events.emit("file-processing-error"));
               });
           });
       });

@@ -45,24 +45,12 @@ export class ImportFiles {
       this.fm.fileCount
         .then(n => e.reply("import-file-count", n));
     });
-
-    ipc.on("start-import", e => {
-      this.moveOne()
-        .then(
-          (success: ImportResponse) => e.reply(success),
-          (fail: ImportResponse) => e.reply(fail)
-        );
-    });
   }
 
   /**
    * Moves one file from folder to sendTo location
-   * @param folder - path to target folder
    */
-  public moveOne(folder?: string): Promise<ImportResponse> {
-    if (folder) {
-      this.sendTo = folder;
-    }
+  public moveOne(): Promise<ImportResponse> {
     return this.fm.listFiles()
       .then(files =>
         files.length > 0

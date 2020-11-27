@@ -91,9 +91,8 @@ export class FileManager {
 
   /**
    * Folder initialiser
-   * @param previousFailure - default = false, updates file watcher on error
    */
-  public init(previousFailure: boolean = false): void {
+  public init(): void {
     let path: string = this.folder;
     if (this.filter) {
       path += `/**/*.${this.filter}`;
@@ -104,7 +103,7 @@ export class FileManager {
     this.watcher = chok.watch(path, {
       ignored: /^\./,
       persistent: true,
-      usePolling: previousFailure
+      usePolling: true
     });
     this.watcher
       .on("add", _ => {
@@ -115,9 +114,6 @@ export class FileManager {
       })
       .on("error", err => {
         console.log(err);
-        if (!previousFailure) {
-          this.init(true);
-        }
       });
   }
 

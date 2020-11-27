@@ -79,8 +79,18 @@ class Main {
           });
       });
 
+      ipc.on("start-import", e => {
+        this.importFiles.sendTo = this.processFiles.fm.folder;
+        this.importFiles.moveOne()
+          .then(
+            (success) => e.reply(success),
+            (fail) => e.reply(fail)
+          );
+      });
+
       ipc.on("start-processing", async (e: any) => {
         try {
+          this.processFiles.sendTo = this.exportFiles.fm.folder;
           this.processFiles.fm.listFiles()
             .then(files => {
               if (files.length > 0) {
