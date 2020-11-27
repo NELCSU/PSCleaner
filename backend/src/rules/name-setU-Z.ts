@@ -6443,7 +6443,6 @@ const a: string[] = [
 "vidrean",
 "vidrica",
 "vidrine",
-"vidrio",
 "vidrios",
 "vidulab",
 "vidunas",

@@ -35,6 +35,7 @@ const a: RegExp[] = [
   /\bdéjà\svu\b/gmi,
   /\bdirector[\s\-]general\b/gmi,
   /\bdua\'?s\slayer\b/gmi,
+  /\beastern\sbloc\b/gmi,
   /\ben\smasse\b/gmi,
   /\b(?:beginning|by|during|early|end(?:ed)?|from|in|in\sthe|mid|middle|late|on|since|start|until)(?:\s|\-|as|of)+(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)\b/gmi,
   /\b(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)(?:and|through|to|\-|\s)+(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)\b/gmi,
@@ -49,6 +50,7 @@ const a: RegExp[] = [
   /\bin\slieu\sof\b/gmi,
   /\bivy\sleague\b/gmi,
   /\blaissez[\s-]faire\b/gmi,
+  /\blo\sand\sbehold\b/gmi,
   /\bthe\slord\b/gmi,
   /\bmark\smy\swords\b/gmi,
   /\bmay\shave\b/gmi,
@@ -71,6 +73,7 @@ const a: RegExp[] = [
   /\bquod\serat\b/gmi,
   /\brust\sbelt\b/gmi,
   /\b[Ss]ales\sof\s\w+\b/gm,
+  /\bsanta\sclaus\b/gmi,
   /\bsmall\sarms\b/gmi,
   /\bstepping\son\b/gmi,
   /\bsummer\scamp\b/gmi,
@@ -83,6 +86,7 @@ const a: RegExp[] = [
   /\bwent\sover\b/gmi,
   /\bwilly[\-\s]nilly\b/gmi,
   /\bto\sthe\swise\b/gmi,
+  /\byoung\speople\b/gmi,
 
   /[A-Za-z]+[\'\‘\’\`](?:ll|re|ve)/gm,
   /[A-Za-z]+n[\'\‘\’\`]t/gm

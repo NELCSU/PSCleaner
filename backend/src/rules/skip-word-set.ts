@@ -481,6 +481,7 @@ const a: string[] = [
 "deem",
 "deepsea",
 "defacto",
+"defang",
 "defra",
 "defraud",
 "delete",
