@@ -43,12 +43,15 @@ const a: RegExp[] = [
   /\b(?:favipi?r[ai]|remdesi)vir\b/gmi,
   /\bfluclox\b/gmi,
   /\bfluox[ei]tie?ne\b/gmi,
+  /\bmanuka\shoney\b/gmi,
   /\bmethotrexate\b/gmi,
+  /\bmidaz\b/gmi,
   /\bnicorette\b/gmi,
   /\bomeprazoel\b/gmi,
   /\bprozac\b/gmi,
   /\btramadol\b/gmi,
   /\btrimethopr[io]m\b/gmi,
+  /\btruxima\b/gmi,
   /\bviagra\b/gmi
 ];
 const MedicationRegEx: Set<RegExp> = new Set();

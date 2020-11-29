@@ -43058,7 +43058,6 @@ const a: string[] = [
 "luping",
 "lupintade",
 "lupion",
-"lupis",
 "lupkes",
 "lupkin",
 "lupkovics",

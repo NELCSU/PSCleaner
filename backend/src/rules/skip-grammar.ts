@@ -1,6 +1,6 @@
 const a: RegExp[] = [
   /\b\w{2,}\-\d{1,2}\b/gmi,
-  /\d+\s(?:mile|kilometer|km|step|week)s?\b/gmi,
+  /\d+[\s-](?:day|mile|kilometer|km|step|week)s?\b/gmi,
   /\b(?:first|last)\s\d+/gmi,
   /\d+\sof\b/gmi,
   /\d+\s(?:out)?\sof\s\d+/gmi,
@@ -70,6 +70,7 @@ const a: RegExp[] = [
   /\bto\speter\sout\b/gm,
   /\bpetri\sdish\b/gmi,
   /\bpower\sclub\b/gmi,
+  /\b(?:lower|upper)\squadrant\b/gmi,
   /\bquod\serat\b/gmi,
   /\brust\sbelt\b/gmi,
   /\b[Ss]ales\sof\s\w+\b/gm,
