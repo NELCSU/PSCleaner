@@ -48,7 +48,6 @@ const a: string[] = [
 "anatri",
 "andalusian",
 "andorran",
-"angami",
 "angkola",
 "angolan",
 "angolar",
