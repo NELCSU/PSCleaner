@@ -7,6 +7,7 @@ const a: RegExp[] = [
   /\balzheimers?\b/gmi,
   /\bamerican\scutaneous\sleishmaniasis\b/gmi,
   /\bangio[\s-]oedema\bb/gmi,
+  /\bapneoas\b/gmi,
   /\bartery\sof\s(?:adamkiewicz|percheron)\b/gmi,
   /\b(?:auerbach|batson|kiesselbach|little|meissner)\'?s?\splexus\b/gmi,
   /\b(?:bachmann|wenckebach)\'?s?\sbundle\b/gmi,
