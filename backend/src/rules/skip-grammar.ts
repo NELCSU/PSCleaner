@@ -3,7 +3,7 @@ const a: RegExp[] = [
   /\d+[\s-](?:day|mile|kilometer|km|step|week)s?\b/gmi,
   /\b(?:first|last)\s\d+/gmi,
   /\d+\sof\b/gmi,
-  /\d+\s(?:out)?\sof\s\d+/gmi,
+  /\d+[\s-](?:(?:out)?\sof|in)[\s-]\d+/gmi,
 
   /\ball\sof\b/gmi,
   /\ba\s(?:frank|penny|stone)\b/gmi,
