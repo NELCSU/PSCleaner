@@ -21093,6 +21093,7 @@ const a: string[] = [
 "gaoat",
 "gaoher",
 "gaoire",
+"gaoisde",
 "gaoith",
 "gaoithen",
 "gaolbutts",

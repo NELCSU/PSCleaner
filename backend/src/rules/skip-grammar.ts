@@ -47,6 +47,7 @@ const a: RegExp[] = [
   /\bguinea\spig\b/gmi,
   /\bgung[\-\s]ho\b/gm,
   /\bhead\son\b/gmi,
+  /\bholding\shands\swith\b/gmi,
   /\bHope\sof\b/gm,
   /\bHopes\sthat\b/gm,
   /\bhunker\sdown\b/gmi,

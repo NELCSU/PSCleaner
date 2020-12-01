@@ -1708,6 +1708,7 @@ const a: string[] = [
 "stomp",
 "stooge",
 "stoolpigeon",
+"straigh",
 "strata",
 "stratum",
 "strengthner",

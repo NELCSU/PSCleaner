@@ -401,7 +401,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "coastguards",
 "coastline",
 "cobra",
-"cold",
 "colic",
 "collage",
 "collar",
