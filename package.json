@@ -42,7 +42,7 @@
     "@typescript-eslint/parser": "^4.9.0",
     "bl": "^4.0.3",
     "electron": "^11.0.3",
-    "electron-rebuild": "^2.3.2",
+    "electron-rebuild": "^2.3.4",
     "electron-windows-store": "^2.1.0",
     "electron-wix-msi": "^3.0.4",
     "eslint": "^7.14.0",

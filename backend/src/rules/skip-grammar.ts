@@ -49,7 +49,7 @@ const a: RegExp[] = [
   /\bhead\son\b/gmi,
   /\bholding\shands\swith\b/gmi,
   /\bHope\sof\b/gm,
-  /\bHopes\sthat\b/gm,
+  /\bHopes\s(?:for|that)\b/gm,
   /\bhunker\sdown\b/gmi,
   /\bin\slieu\sof\b/gmi,
   /\bivy\sleague\b/gmi,
