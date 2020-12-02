@@ -1,5 +1,5 @@
 const a: RegExp[] = [
-  /\b(?:APEC|CIA|MHRA|MIT|OPEC|PLO|SETI)\b/gm,
+  /\b(?:APEC|CIA|DEFRA|HMRC|MHRA|MIT|OPEC|PLO|SETI)\b/gm,
   
   /\bburger\sking\b/gmi,
   /\b(?:catholic|orthodox)\schurch\b/gmi,
@@ -12,7 +12,7 @@ const a: RegExp[] = [
   /\bnational\scollege\b/gmi,
   /\broyal\snavy\b/gmi,
   /\bsinovac\b/gmi,
-  /\bunited\snations\b/gmi,
+  /\b(?:nato|unesco|unicef|united\snations)\b/gmi,
 ];
 const OrganisationRegEx: Set<RegExp> = new Set();
 a.forEach(term => OrganisationRegEx.add(term));

@@ -14,6 +14,7 @@ const a: RegExp[] = [
   /\b[a-z]+prazole\b/gmi,
   /\b[a-z]+rafenib\b/gmi,
   /\b[a-z]+sartan\b/gmi,
+  /\b[a-z]+tamol\b/gmi,
   /\b[a-z]+tinib\b/gmi,
   /\b[a-z]+vastatin\b/gmi,
   /\b[a-z]+xaban\b/gmi,

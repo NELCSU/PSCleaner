@@ -9,6 +9,7 @@ const a: RegExp[] = [
   /\bangio[\s-]oedema\bb/gmi,
   /\bapneoas\b/gmi,
   /\bartery\sof\s(?:adamkiewicz|percheron)\b/gmi,
+  /\bas(?:th|ht)ma\b/gmi,
   /\b(?:auerbach|batson|kiesselbach|little|meissner)\'?s?\splexus\b/gmi,
   /\b(?:bachmann|wenckebach)\'?s?\sbundle\b/gmi,
   /\bback\sof\shead\b/gmi,
@@ -50,6 +51,7 @@ const a: RegExp[] = [
   /\bantrum\sof\shighmore\b/gmi,
   /\b[Bb]undle\sof\sHis\b/gm,
   /\bcat\sbite\b/gmi,
+  /\bdiamond\sblack(?:fan)?\b/gmi,
   /\bear\slobes?\b/gmi,
   /\bhead\sand\sneck\b/gmi,
   /\bhouston\'?s?\smuscle\b/gmi,
@@ -92,6 +94,7 @@ const a: RegExp[] = [
   /\bvalves?\sof\s(?:heister|houston|kerckring|thebesian|vieussens)\b/gmi,
   /\b(?:heister|houston|kerckring|thebesian|vieussens)\'?s?\svalves?\b/gmi,
   /\blines?\sof\s(?:douglas|hickmann?|langer|spiegelian)\b/gmi,
+  /\bleuks\b/gmi,
   /\b(?:douglas|hickmann?|langer|spiegelian)\'?s?\slines?\b/gmi,
   /\bdouble\s(?:lumen\s)?hickmann?\b/gmi,
   /\biga\svasculitis\b/gmi,
@@ -159,9 +162,11 @@ const a: RegExp[] = [
   /\bvaso\s?vagal\b/gmi,
   /\bampulla\sof\svater\b/gmi,
   /\blimbus\sof\svieussens\b/gmi,
+  /\b(?:bilharzia|coryzol|e(?:cz|xc)ema|infarct|influenza|insitu|lockjaw|lumbago|npmh|palsy|pelvic|pharma|pharynx|phelgm|phleugm|polio|pylori|rectum|sputum|streptococci|ulna|urethra|uteri|verucca|vulva)\b/gmi,
   /\bwaldenstrom\smacroglobulinemia\b/gmi,
   /\bwaldeyer\'?s?\stonsillar\b/gmi,
   /\bweibel[\s–]palade\sbody\b/gmi,
+  /\bwell\schild\b/gmi,
   /\bwharton\'?s?\sjelly\b/gmi,
   /\bwhite\scoating\son\b/gmi,
   /\bwhite\slines\sof\stoldt\b/gmi,
@@ -170,7 +175,9 @@ const a: RegExp[] = [
   /\bwalk\son\stoes\b/gmi,
   /\bwolf[ef][\s-]parkin?son(?:[\s-]white)?\b/gmi,
   /\bx[\s-]ray(?:ed|s)?\b/gmi,
-  /\bzonule\sof\szinn\b/gmi
+  /\bzonule\sof\szinn\b/gmi,
+  /\bzygoma\b/gmi,
+  /\bzygote\b/gmi
 ];
 const MedicalTermRegEx: Set<RegExp> = new Set();
 a.forEach(term => MedicalTermRegEx.add(term));
