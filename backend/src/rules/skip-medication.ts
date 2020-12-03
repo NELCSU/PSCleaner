@@ -46,6 +46,7 @@ const a: RegExp[] = [
   /\b(?:favipi?r[ai]|remdesi)vir\b/gmi,
   /\bfluclox\b/gmi,
   /\bfluox[ei]tie?ne\b/gmi,
+  /\blopinavir\b/gmi,
   /\bmanuka\shoney\b/gmi,
   /\bmethotrexate\b/gmi,
   /\bmidaz\b/gmi,
