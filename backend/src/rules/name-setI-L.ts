@@ -1668,7 +1668,7 @@ const a: string[] = [
 "imetria",
 "imevbore",
 "imevobre",
-"imgard",
+
 "imhaeobhunagbon",
 "imhasly",
 "imheir",
@@ -3072,7 +3072,7 @@ const a: string[] = [
 "irmelin",
 "irmen",
 "irmer",
-"irmgard",
+
 "irmhild",
 "irmina",
 "irmine",
@@ -3348,7 +3348,7 @@ const a: string[] = [
 "isganaityte",
 "isgandar",
 "isgar",
-"isgard",
+
 "isgean",
 "isglan",
 "isgoed",
@@ -3843,7 +3843,7 @@ const a: string[] = [
 "iter",
 "iterlee",
 "ites",
-"itgard",
+
 "itgel",
 "itgelt",
 "ithal",
@@ -4977,7 +4977,7 @@ const a: string[] = [
 "jahand",
 "jahandar",
 "jahangar",
-"jahangard",
+
 "jahanger",
 "jahangire",
 "jahanian",
@@ -11496,7 +11496,7 @@ const a: string[] = [
 "junkaityte",
 "junkaryte",
 "junker",
-"junkergard",
+
 "junkers",
 "junket",
 "junkins",
@@ -14000,7 +14000,7 @@ const a: string[] = [
 "kanner",
 "kannewurf",
 "kanney",
-"kanngard",
+
 "kanngieser",
 "kanngiesser",
 "kannia",
@@ -17902,6 +17902,7 @@ const a: string[] = [
 "kenstyle",
 "kensue",
 "kensy",
+"kensyng",
 "kent",
 "kentache",
 "kentake",
@@ -22490,7 +22491,7 @@ const a: string[] = [
 "kizos",
 "kizuwzander",
 "kizyte",
-"kjaersgard",
+
 "kjaerulf",
 "kjakste",
 "kjallman",
@@ -29070,6 +29071,7 @@ const a: string[] = [
 "kynerd",
 "kyneton",
 "kyneur",
+"kyng",
 "kynges",
 "kyngeshene",
 "kyngs",
@@ -29919,7 +29921,7 @@ const a: string[] = [
 "lagant",
 "lagap",
 "lagaras",
-"lagard",
+
 "lagares",
 "lagarese",
 "lagaria",
@@ -31274,7 +31276,7 @@ const a: string[] = [
 "langanes",
 "langappulige",
 "langar",
-"langard",
+
 "langarica",
 "langarneshin",
 "langarron",
@@ -33435,6 +33437,7 @@ const a: string[] = [
 "laymore",
 "layne",
 "laynes",
+"layng",
 "layode",
 "layos",
 "layous",
@@ -34064,7 +34067,7 @@ const a: string[] = [
 "lederman",
 "ledermuller",
 "ledesma",
-"ledgard",
+
 "ledgate",
 "ledgemore",
 "ledgeway",
@@ -36941,7 +36944,7 @@ const a: string[] = [
 "lidert",
 "lidete",
 "lidfield",
-"lidgard",
+
 "lidgate",
 "lidgates",
 "lidge",
@@ -37954,7 +37957,7 @@ const a: string[] = [
 "lingampally",
 "linganesan",
 "lingar",
-"lingard",
+
 "lingards",
 "lingart",
 "lingay",
@@ -40045,7 +40048,7 @@ const a: string[] = [
 "loftman",
 "loftos",
 "loftrans",
-"loftsgard",
+
 "loftsome",
 "loftsteads",
 "loftus",
@@ -40240,7 +40243,7 @@ const a: string[] = [
 "loke",
 "lokeman",
 "loken",
-"lokensgard",
+
 "loker",
 "lokes",
 "lokey",
@@ -42472,7 +42475,7 @@ const a: string[] = [
 "lugan",
 "luganskyte",
 "lugar",
-"lugard",
+
 "lugassy",
 "lugate",
 "lugay",
@@ -42894,7 +42897,7 @@ const a: string[] = [
 "luney",
 "lungadain",
 "lungade",
-"lungard",
+
 "lungare",
 "lungarella",
 "lungay",
@@ -43199,7 +43202,7 @@ const a: string[] = [
 "lutful",
 "lutfune",
 "lutfur",
-"lutgard",
+
 "lutgart",
 "lutgen",
 "lutgens",
@@ -43685,7 +43688,8 @@ const a: string[] = [
 "lyneve",
 "lynfield",
 "lynfords",
-"lyngard",
+"lyng",
+
 "lyngarth",
 "lyngate",
 "lyngby",

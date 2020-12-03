@@ -31,6 +31,7 @@ const a: RegExp[] = [
   /\baugment[iu]m\b/gmi,
   /\bavigan\b/gmi,
   /\bben[ao]dryl\b/gmi,
+  /\bbonjela\b/gmi,
   /\bcal?pol\b/gmi,
   /\bcefuroxime\b/gmi,
   /\bcetiri?zine\b/gmi,

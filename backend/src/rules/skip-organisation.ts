@@ -3,15 +3,13 @@ const a: RegExp[] = [
   
   /\bburger\sking\b/gmi,
   /\b(?:catholic|orthodox)\schurch\b/gmi,
-  /\bfox\snews\b/gmi,
   /\bjp\smorgan\schase\b/gmi,
+  /\bdistrict\scourt\b/gmi,
   /\bku\sklux\sklan\b/gmi,
   /\blaw\sschool\b/gmi,
-  /\b(?:new\syork|la|washington)\s(?:news|post|times)\b/gmi,
   /\b(?:central|reserve|world)\sbank\b/gmi,
   /\bnational\scollege\b/gmi,
   /\broyal\snavy\b/gmi,
-  /\bsinovac\b/gmi,
   /\b(?:nato|unesco|unicef|united\snations)\b/gmi,
 ];
 const OrganisationRegEx: Set<RegExp> = new Set();

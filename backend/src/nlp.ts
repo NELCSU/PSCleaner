@@ -5,7 +5,7 @@ import {
   LocationMidfixRegEx, LocationSuffixRegEx
 } from "./rules/location";
 import { OrganisationRegEx } from "./rules/skip-organisation";
-import { RospaRegEx } from "./rules/skip-rospa";
+import { DailyActivitiesRegEx } from "./rules/skip-daily-activities";
 import { MedicalAbbrRegEx } from "./rules/skip-medical-abbr";
 import { MedicalTermRegEx } from "./rules/skip-medical-terms";
 import { MedicationRegEx } from "./rules/skip-medication";
@@ -131,7 +131,7 @@ export class NLP {
       searches.push({
         action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
         entity: householdItemEntity,
-        matches: this._evalRegEx(data, RospaRegEx)
+        matches: this._evalRegEx(data, DailyActivitiesRegEx)
       });
     }
 

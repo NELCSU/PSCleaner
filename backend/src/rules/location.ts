@@ -36,7 +36,7 @@ const a: RegExp[] = [
   /\b(?:amalgamated|destination|gleaming\swood|kremlin)\sdrive\b/gmi,
   /\bscandinavia\sheights\b/gmi,
   /\b(?:acquaintance|crazies|kick|knees?|porpoise|swelling|worships)\shill\b/gmi,
-  /\b(?:mechanics\'?|nutshell|polls|(?:seven|shoe)\sdevil\'?s?|schoolers|threadmill)\slane\b/gmi,
+  /\b(?:mechanics\'?|mob|nutshell|polls|(?:seven|shoe)\sdevil\'?s?|schoolers|threadmill)\slane\b/gmi,
   /\b(?:animal\sfarm\scountry|spiceball)\spark\b/gmi,
   /\b(?:agony|zone)\spoint\b/gmi,
   /\b(?:frying\span|skating)\spond\b/gmi,
@@ -46,7 +46,7 @@ const a: RegExp[] = [
   /\b(?:aggregate|tradesman)\swalk\b/gmi,
   /\b(?:citizens|crusader?s?|digital|godlings|logistics|habitat|media|origin|people\spark|taxi)\sway\b/gmi,
   /\b(?:Colonial|Independent|Scandinavian|Warriors)\sWay\b/gm,
-  /\b(?:abdication|aggravation|amphitheatre|fortification|funny[\s\-]shaped|guesses|schemes)\swood\b/gmi,
+  /\b(?:abdication|aggravation|amphitheatre|backward|fortification|funny[\s\-]shaped|guesses|schemes)\swood\b/gmi,
 
 
   /\bab\s(?:kettleby|lench)\b/gmi,
@@ -183,6 +183,7 @@ const a: RegExp[] = [
   /\bfall\s(?:avenue|bank|barn|bay|birch|brow|cleuch|clough|dingle|drive|gates?|hill|hole|ings|kirk|kneesend|lane|law|meadow|of\s(?:foyers|warness)|park|pass|plantation|pool|road|sand|spring|street|view|way|wood)\b/gmi,
   /\b(?:Fall\s(?:Close|Head)|(?:Ash|Feet|High|Low|Low\sWater|New|Oak|Startling|Ward|wood)\sFall)\b/gm,
   /\b(?:anders|badger|barhill|barstow|beal\'?s|birch|bramley|chatsworth|cnoc|eagle\'?s|fairy|garpal|green|brook|hill|mill|lowes|lug|lumb|more\'?s|red|sunningdale|white|widley)\sfall\b/gmi,
+  /\bfeeding\s(?:field|moors|pasture)\b/gmi,
   /\bflying\s(?:high\sacademy|bull|dingle|dutchman|fields|fox|park|scotsman)\b/gmi,
   /\bforkings?\s(?:cleuch|plantation|pool)\b/gmi,
   /\bfree\s(?:church|down|grammar|green|heath|hill|hospital|lane|prae|street)\b/gmi,
@@ -269,6 +270,7 @@ const a: RegExp[] = [
   /\bminister\'?s\s(?:beach|brae|flag|geo|hill|moss|park|pool|pot|rock)\b/gmi,
   /\bmission\s(?:close|court|drive|field|gardens|grove|hall|hospital|lane|place|road|street|view|way)\b/gmi,
   /\bOld\sMission\b/gm,
+  /\bMop\sEnd\b/gm,
   /\b(?:Near\sMuzzle|Muzzle\sPatch)\b/gm,
   /\b(?:royal\s)?national\s(?:avenue|bank|crescent|college|court|drive|forest|gate|hospital|park|road|school|star|street)\b/gmi,
   /\bNatural\s(?:[Dd]ike|Wood)\b/gm,

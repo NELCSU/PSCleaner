@@ -2,7 +2,7 @@
   "author": "NEL",
   "dependencies": {
     "@buckneri/collections": "^0.1.6",
-    "@buckneri/string": "^0.6.12",
+    "@buckneri/string": "^0.7.0",
     "@buckneri/web-components": "^0.3.10",
     "chokidar": "^3.4.3",
     "debounce": "^1.2.0",

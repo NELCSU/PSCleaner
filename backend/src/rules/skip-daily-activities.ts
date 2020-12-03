@@ -48,6 +48,7 @@ const a: RegExp[] = [
   /\bping\spong\b/gmi,
   /\b(?:penny|pound)\scoin\b/gmi,
   /\bplay(?:ed|ing|s)?\s(?:frisby|rugby)\b/gmi,
+  /\bplaydoh\b/gmi,
   /\b(?:nations\s)?rugby\s(?:league|union)\b/gmi,
   /\brocking\shorse\b/gmi,
   /\bscarf\spin\b/gmi,
@@ -70,8 +71,8 @@ const a: RegExp[] = [
   /\bwooden\sfloor\b/gmi,
   /\bzimmer\sframe\b/gmi
 ];
-const RospaRegEx: Set<RegExp> = new Set();
-a.forEach(term => RospaRegEx.add(term));
+const DailyActivitiesRegEx: Set<RegExp> = new Set();
+a.forEach(term => DailyActivitiesRegEx.add(term));
 export {
-  RospaRegEx
+  DailyActivitiesRegEx
 };

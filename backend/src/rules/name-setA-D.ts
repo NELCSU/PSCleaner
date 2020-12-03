@@ -46,7 +46,7 @@ const a: string[] = [
 "aafrida",
 "aafrin",
 "aaftab",
-"aagard",
+
 "aagarsh",
 "aagash",
 "aage",
@@ -7308,7 +7308,6 @@ const a: string[] = [
 "alestare",
 "alester",
 "alestra",
-"alet",
 "aletea",
 "alethea",
 "aletheia",
@@ -10310,7 +10309,7 @@ const a: string[] = [
 "ammunsen",
 "ammy",
 "amnat",
-"amndgard",
+
 "amneek",
 "amnen",
 "amner",
@@ -16042,7 +16041,7 @@ const a: string[] = [
 "asgar",
 "asgarally",
 "asgarby",
-"asgard",
+
 "asgarnish",
 "asgary",
 "asgdom",
@@ -20692,7 +20691,7 @@ const a: string[] = [
 "baganza",
 "bagaoisan",
 "bagarauskyte",
-"bagard",
+
 "bagaria",
 "bagaric",
 "bagarollo",
@@ -22594,7 +22593,7 @@ const a: string[] = [
 "bangaly",
 "bangama",
 "bangar",
-"bangard",
+
 "bangaroo",
 "bangarpet",
 "bangart",
@@ -25218,7 +25217,7 @@ const a: string[] = [
 "baumfield",
 "baumgaertner",
 "baumgafrtner",
-"baumgard",
+
 "baumgarden",
 "baumgarmer",
 "baumgarner",
@@ -25950,7 +25949,7 @@ const a: string[] = [
 "beaufoys",
 "beaufront",
 "beaugar",
-"beaugard",
+
 "beauge",
 "beaugeard",
 "beauger",
@@ -26121,7 +26120,7 @@ const a: string[] = [
 "bechert",
 "beches",
 "bechet",
-"bechgard",
+
 "bechin",
 "bechis",
 "bechlem",
@@ -27188,7 +27187,7 @@ const a: string[] = [
 "belfrey",
 "belfy",
 "belgaid",
-"belgard",
+
 "belgarres",
 "belgarth",
 "belgate",
@@ -27257,7 +27256,7 @@ const a: string[] = [
 "belinder",
 "beling",
 "belingar",
-"belingard",
+
 "belinger",
 "belingick",
 "belinky",
@@ -27439,7 +27438,7 @@ const a: string[] = [
 "bellflowers",
 "bellfraggan",
 "bellfy",
-"bellgard",
+
 "bellgarth",
 "bellgate",
 "bellgiss",
@@ -28110,7 +28109,7 @@ const a: string[] = [
 "bengalath",
 "bengaly",
 "bengamin",
-"bengard",
+
 "bengarth",
 "bengate",
 "benge",
@@ -31370,7 +31369,7 @@ const a: string[] = [
 "bigams",
 "bigand",
 "bigaouette",
-"bigard",
+
 "bigart",
 "bigas",
 "bigatello",
@@ -32520,7 +32519,7 @@ const a: string[] = [
 "biserica",
 "bises",
 "biset",
-"bisgard",
+
 "bisges",
 "bisgin",
 "bish",
@@ -32925,7 +32924,7 @@ const a: string[] = [
 "bjornegran",
 "bjornflaten",
 "bjornfors",
-"bjorngard",
+
 "bjornoy",
 "bjornsen",
 "bjorseth",
@@ -35008,7 +35007,7 @@ const a: string[] = [
 "bogans",
 "bogany",
 "bogar",
-"bogard",
+
 "bogardus",
 "bogarin",
 "bogart",
@@ -35291,7 +35290,7 @@ const a: string[] = [
 "boise",
 "boisen",
 "boiser",
-"boisgard",
+
 "boisgontier",
 "boishardy",
 "boisjolie",
@@ -35942,7 +35941,7 @@ const a: string[] = [
 "bonfrate",
 "bonfrey",
 "bongaerts",
-"bongard",
+
 "bongarge",
 "bongars",
 "bongate",
@@ -36512,7 +36511,7 @@ const a: string[] = [
 "borgadalemore",
 "borgan",
 "borgar",
-"borgard",
+
 "borgards",
 "borgars",
 "borgas",
@@ -37479,7 +37478,7 @@ const a: string[] = [
 "boufriche",
 "bouftas",
 "bougainvillea",
-"bougard",
+
 "bougas",
 "bougault",
 "bougchiche",
@@ -37825,7 +37824,7 @@ const a: string[] = [
 "bourey",
 "bourgade",
 "bourgaize",
-"bourgard",
+
 "bourgault",
 "bourge",
 "bourgeade",
@@ -38764,7 +38763,7 @@ const a: string[] = [
 "bragalone",
 "bragan",
 "braganza",
-"bragard",
+
 "bragas",
 "bragason",
 "bragathesver",
@@ -40781,7 +40780,7 @@ const a: string[] = [
 "brinewells",
 "briney",
 "bringaker",
-"bringard",
+
 "bringas",
 "bringazen",
 "bringe",
@@ -42251,7 +42250,7 @@ const a: string[] = [
 "brumet",
 "brumfield",
 "brumfit",
-"brumgard",
+
 "brumit",
 "brumley",
 "brumlow",
@@ -42317,7 +42316,7 @@ const a: string[] = [
 "bruneval",
 "bruney",
 "brunfield",
-"brungard",
+
 "brungart",
 "brunger",
 "brungerley",
@@ -43783,7 +43782,7 @@ const a: string[] = [
 "bunfill",
 "bunfold",
 "bungar",
-"bungard",
+
 "bungardas",
 "bungardean",
 "bungaroo",
@@ -44085,7 +44084,7 @@ const a: string[] = [
 "burganey",
 "burgans",
 "burgar",
-"burgard",
+
 "burgart",
 "burgas",
 "burgass",
@@ -45364,6 +45363,7 @@ const a: string[] = [
 "byne",
 "bynea",
 "bynes",
+"byng",
 "bynghams",
 "bynner",
 "bynoe",
@@ -63824,7 +63824,7 @@ const a: string[] = [
 "craigans",
 "craigantyre",
 "craigarbel",
-"craigard",
+
 "craigash",
 "craigbank",
 "craigbarnet",
@@ -67174,6 +67174,7 @@ const a: string[] = [
 "cyffog",
 "cyffredinol",
 "cyflin",
+"cyfyng",
 "cygal",
 "cygnus",
 "cygrymus",
@@ -68740,7 +68741,7 @@ const a: string[] = [
 "damsell",
 "damsells",
 "damses",
-"damsgard",
+
 "damshead",
 "damshot",
 "damside",
@@ -73960,6 +73961,7 @@ const a: string[] = [
 "derworthy",
 "dery",
 "derylene",
+"deryng",
 "deryugina",
 "des",
 "desabilla",
@@ -76001,7 +76003,7 @@ const a: string[] = [
 "digance",
 "digania",
 "digant",
-"digard",
+
 "digaudio",
 "digay",
 "digberry",
@@ -76208,7 +76210,7 @@ const a: string[] = [
 "dilewar",
 "diley",
 "dilfer",
-"dilgard",
+
 "dilger",
 "dilgil",
 "dilhams",
@@ -76273,7 +76275,7 @@ const a: string[] = [
 "dillichip",
 "dillie",
 "dillier",
-"dilligard",
+
 "dillimore",
 "dillin",
 "dilliner",
@@ -80950,7 +80952,7 @@ const a: string[] = [
 "drumright",
 "drumrossie",
 "drumsack",
-"drumsargard",
+
 "drumshade",
 "drumshantie",
 "drumshogle",
@@ -81562,7 +81564,7 @@ const a: string[] = [
 "dugand",
 "dugans",
 "dugar",
-"dugard",
+
 "dugary",
 "dugas",
 "dugasse",
