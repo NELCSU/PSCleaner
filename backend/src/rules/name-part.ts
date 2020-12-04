@@ -7,6 +7,10 @@ const a: string[] = [
   "el",
   "et",
   "ho",
+  "i",
+  "ii",
+  "iii",
+  "iv",
   "la",
   "le",
   "los",
@@ -26,7 +30,7 @@ for (let i = 0; i < L; i++) {
 
 const NameInitialRegEx: RegExp[] = [
   /\b(?<![\\\/\&])[A-Z]\./gm,
-  /\b(?:dr|mt|st)\.?(?=\s)/gmi
+  /\b(?:dr|mc|mt|st)\.?(?=\s)/gmi
 ];
 
 const NamePrefixRegEx: RegExp[] = [

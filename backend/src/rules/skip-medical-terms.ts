@@ -52,7 +52,7 @@ const a: RegExp[] = [
   /\b[Bb]undle\sof\sHis\b/gm,
   /\bcat\sbite\b/gmi,
   /\bdiamond\sblack(?:fan)?\b/gmi,
-  /\bear\slobes?\b/gmi,
+  /\bear\s(?:drum|lobe)s?\b/gmi,
   /\bhead\sand\sneck\b/gmi,
   /\bhouston\'?s?\smuscle\b/gmi,
   /\b(?:chassaignac|darwin|lister)\'?s?\stubercle\b/gmi,
