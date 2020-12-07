@@ -115,7 +115,7 @@ const a: string[] = [
 "balinese",
 "baloch",
 "balochi",
-"balti",
+
 "bamileke",
 "bamum",
 "banda",
@@ -989,8 +989,7 @@ const a: string[] = [
 "zay",
 "zealander",
 "zimbabwean",
-"zou",
-"zulu"
+"zou"
 ];
 /**
  * @link https://en.wikipedia.org/wiki/list_of_contemporary_ethnic_groups
