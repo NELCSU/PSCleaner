@@ -9007,6 +9007,7 @@ const a: string[] = [
 "wabia",
 "wable",
 "wabnic",
+"wabnyc",
 "wabnyl",
 "wabunoze",
 "waburtos",

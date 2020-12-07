@@ -16,7 +16,7 @@ const a: RegExp[] = [
   /\bP\.?O\.?\sBox\s\d+\b/gmi,
   /\b(?:apartment|block|suite|unit)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/gmi,
 
-  /\bThe\s(?:Arm|Banks?|Beast|Big\sAct|Bus|Cheeses|Climb|Cop|Crusades|Curtain|Engine(?:\sGreen)?|Fall|First|Front|God\sAlmighty|Heritage|Hornets?|Horses?|Kiosk|Knees?|Line|Lottery|Man\so\'?\sWar|Medical\sWing|Mere|Old\s(?:Fire\sStation|Laundry|Mission)|Post|Rangers|Rifles|Roundabouts?|Slides?|Square|State\sHospital|Still|Street|Style|Third|Toe|Vikings|Wall|Watch|Waterwheel)\b/gm,
+  /\bThe\s(?:Arm|Banks?|Beast|Big\sAct|Bus|Cheeses|Climb|Cop|Crusades|Curtain|Engine(?:\sGreen)?|Fall|First|Front|God\sAlmighty|Heritage|Hornets?|Horses?|Kiosk|Knees?|Line|Lottery|Man\so\'?\sWar|Medical\sWing|Mere|Old\s(?:Fire\sStation|Laundry|Mission)|Opening|Post|Rangers|Rifles|Roundabouts?|Slides?|Square|State\sHospital|Still|Street|Style|Third|Toe|Vikings|Wall|Watch|Waterwheel)\b/gm,
 
   /\b(?:medical|royal\snavy)\savenue\b/gmi,
   /\bswinging\sbasin\b/gmi,
@@ -138,7 +138,7 @@ const a: RegExp[] = [
   /\bcommis?sioner\'?s?\s(?:court|harbour|lane|road|square|street|wharf|wood)\b/gmi,
   /\bcommonwealth\s(?:avenue|close|drive|road|view|way)\b/gmi,
   /\bcommunity\s(?:avenue|close|drive|forest|hall|hospital|infants|lane|place|road|street|way|woodland)\b/gmi,
-  /\bconstitution\s(?:court|crescent|hill|lane|opening|place|rise|road|street|terrace)\b/gmi,
+  /\bconstitution\s(?:court|crescent|hill|lane|place|rise|road|street|terrace)\b/gmi,
   /\bconstitutional\s(?:avenue|hill|street)\b/gmi,
   /\bcop\s(?:croft|grove|hills?|hirst|high|howe|keld|lane|law|meadow|mere|o'?|road|royd|station|street|way|wood)\b/gmi,
   /\b(?:adwell|birkdale|bolton'?s?|bull|fin|flats|floutern|hay|high|mart|meltham|meols|milner|mow|nan|underley|wyle)\scop\b/gmi,
@@ -310,6 +310,7 @@ const a: RegExp[] = [
   /\boffice\s(?:approach|avenue|brae|close|coppice|court|entry|field|gardens|green|hill|lane|mews|place|plantation|pool|road|row|slip|square|street|village|way|wood|yard)\b/gmi,
   /\b(?:port|tan)\soffice(?:\sbuilding)?\b/gmi,
   /\bonward\s(?:street|way)\b/gmi,
+  /\b(?:black\shorse|brighty\'?s|catherine\swheel|constitution|coopers|denmark|fishers|fiske\'?s|foulgers|greyhound|ingram\'?s|well)\sopening\b/gmi,
   /\bpeppermint\s(?:close|drive|grove|mews|place|road|walk|way)\b/gmi,
   /\bplaying\sfield\s(?:close|lane|road)\b/gmi,
   /\bpresident\s(?:drive|place|plantation|road|street|way)\b/gmi,

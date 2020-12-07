@@ -476,7 +476,6 @@ const a: string[] = [
 "keiyo",
 "kelantanese",
 "keningau",
-"kenyan",
 "khalpa",
 "khatri",
 "khayo",

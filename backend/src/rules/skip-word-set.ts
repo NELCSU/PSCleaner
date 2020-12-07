@@ -126,6 +126,7 @@ const a: string[] = [
 "auto",
 "autobahn",
 "autobahns",
+"autobiography",
 "automata",
 "avant",
 "avantgarde",
