@@ -340,6 +340,7 @@ const a: RegExp[] = [
   /\brelief\s(?:channel|road|wood)\b/gmi,
   /\b(?:avenue|garden|road)\sof\sremembrance\b/gmi,
   /\bremembrance\s(?:avenue|close|gardens|grove|road|way|wood)\b/gmi,
+  /\brenaissance\s(?:court|drive|gardens|mews|point|view|walk|way)\b/gmi,
   /\bresearch\s(?:avenue|road|way)\b/gmi,
   /\brifle\s(?:coppice|fields|green|hill|plantation|road|spinney|street|way)\b/gmi,
   /\bRifle\sRange\b/gm,

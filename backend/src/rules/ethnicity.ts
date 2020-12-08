@@ -561,7 +561,7 @@ const a: string[] = [
 "maasai",
 "macanese",
 "macedonian",
-"macha",
+
 "madi",
 "madurese",
 "mafa",

@@ -1254,6 +1254,7 @@ const a: string[] = [
 "phalanx",
 "phalynx",
 "pharaoh",
+"philosophy",
 "phlox",
 "phonon",
 "phyla",

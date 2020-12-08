@@ -42,7 +42,7 @@ const a: RegExp[] = [
   /\ben\smasse\b/gmi,
   /\b(?:beginning|by|during|early|end(?:ed)?|from|in|in\sthe|mid|middle|late|on|since|start|until)(?:\s|\-|as|of)+(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)\b/gmi,
   /\b(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)(?:and|through|to|\-|\s)+(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)\b/gmi,
-  /\b(?:christmas|new\syear[\’\‘\'\`]?s)\s(?:day|eve)\b/gmi,
+  /\b(?:christmas|new\syear[\’\‘\'\`]?s)\s(?:day|eve|season|week|weekend)\b/gmi,
   /\bforce\sfield\b/gmi,
   /\bfoster\s(?:carer|father|mother|parent)\b/gmi,
   /\bfriends\sof\b/gmi,
