@@ -239,7 +239,6 @@ const a: string[] = [
 "comoran",
 "comorian",
 "congolese",
-"copt",
 "coptic",
 "cordilleran",
 "cornish",
@@ -306,7 +305,6 @@ const a: string[] = [
 "faroese",
 "feyli",
 "filipino",
-"finn",
 "finnish",
 "firozkohi",
 "flemish",
@@ -334,7 +332,7 @@ const a: string[] = [
 "ga–dangme",
 "gbagyi",
 "gbaya",
-"gelao",
+
 "georgian",
 "german",
 "ghanaian",
@@ -385,7 +383,7 @@ const a: string[] = [
 "hemba",
 "hemshin",
 "hessian",
-"hlai",
+
 "hoa",
 "hoklo",
 "honduran",
@@ -529,7 +527,7 @@ const a: string[] = [
 "lamba",
 "lamboya",
 "lampung",
-"languedocien",
+
 "lao",
 "laotian",
 "latgalian",
@@ -712,7 +710,7 @@ const a: string[] = [
 "ogoni",
 "ohafia",
 "ohuhu",
-"okiek",
+
 "oneida",
 "orcadian",
 "oromo",

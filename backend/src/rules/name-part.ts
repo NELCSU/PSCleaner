@@ -1,4 +1,5 @@
 const a: string[] = [
+  "ar",
   "cum",
   "da",
   "de",
@@ -14,9 +15,15 @@ const a: string[] = [
   "la",
   "le",
   "los",
+  "na",
   "ul",
   "un",
   "van",
+  "v",
+  "vc",
+  "vi",
+  "vii",
+  "viii",
   "von",
   "y"
 ];
@@ -33,18 +40,18 @@ const NameInitialRegEx: RegExp[] = [
   /\b(?:dr|mc|mt|st)\.?(?=\s)/gmi
 ];
 
-const NamePrefixRegEx: RegExp[] = [
-  new RegExp(/\b(?:a|aa|d|is|l|mu|na|o|ra|sa|za)[\'\‘\’\`]/, "gmi")
+const NameFragmentRegEx: RegExp[] = [
+  /\b(?:a|aa|d|is|l|mu|na|o|ra|sa|za)[\'\‘\’\`]\b/gmi
 ];
 
 const NamePuralRegEx: RegExp[] = [
-  new RegExp(/(?<=[a-z]{2})[\'\‘\’\`]s\b/, "gmi"),
-  new RegExp(/(?<=[a-z]s)[\'\‘\’\`]/, "gmi")
+  /(?<=[a-z]{2})[\'\‘\’\`]s\b/gmi,
+  /(?<=[a-z]s)[\'\‘\’\`]/gmi
 ];
 
 export {
   NameInitialRegEx,
   NamePartSet,
-  NamePrefixRegEx,
+  NameFragmentRegEx,
   NamePuralRegEx
 };
