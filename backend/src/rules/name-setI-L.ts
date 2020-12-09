@@ -33920,7 +33920,7 @@ const a: string[] = [
 "lechlitner",
 "lechman",
 "lechnar",
-"lechom",
+
 "lechoslava",
 "lechoslaw",
 "lechovolea",
@@ -42101,7 +42101,7 @@ const a: string[] = [
 "luchjenbroers",
 "luchman",
 "luchmum",
-"luchom",
+
 "luchs",
 "luchsinger",
 "luchtel",

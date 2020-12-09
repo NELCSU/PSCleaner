@@ -786,7 +786,6 @@ const a: string[] = [
 "sanggau",
 "sangirese",
 "sanglechi",
-"sangley",
 "sangtam",
 "sanmarinese",
 "santal",

@@ -431,7 +431,8 @@ export class NLP {
   }
 
   private _removeOrphans(list: MatchedEntity[]) {
-    let pre: MatchedEntity | undefined, mid: MatchedEntity | undefined, suf: MatchedEntity | undefined;
+    let pre: MatchedEntity | undefined, mid: MatchedEntity | undefined;
+    let suf: MatchedEntity | undefined, postsuf: MatchedEntity | undefined;
 
     const neighbors = (a: MatchedEntity, b: MatchedEntity) => a.match.end + 2 >= b.match.start && a.entity.domain === b.entity.domain;
     const nofix = (e: MatchedEntity) => e.action.prefix === 0 && e.action.midfix === 0 && e.action.suffix === 0;
@@ -442,12 +443,13 @@ export class NLP {
     const okPrefix  = (e: MatchedEntity) => nofix(e) || e.action.prefix;
     const okMidfix = (e: MatchedEntity) => nofix(e) || e.action.midfix;
     const okSuffix = (e: MatchedEntity) => nofix(e) || e.action.suffix;
-    
+
     let i = 0;
     while (i < list.length) {
       pre = list[i];
       mid = i + 1 > list.length - 1 ? undefined : list[i + 1];
       suf = i + 2 > list.length - 1 ? undefined : list[i + 2];
+      postsuf = i + 3 > list.length - 1 ? undefined : list[i + 3];
 
       if (mid && neighbors(pre, mid)) {
         if (suf && neighbors(mid, suf)) { // evaluate a-b-c
@@ -456,8 +458,14 @@ export class NLP {
           } else if (!okMidfix(mid)) {
             list.splice(i + 1, 1);
           } else if (!okSuffix(suf)) {
-            i += 1;
-            wipe(pre);
+            if (postsuf && neighbors(suf, postsuf)) {
+              i += 1;
+              wipe(pre);
+              wipe(mid);
+            } else {
+              i += 1;
+              wipe(pre);
+            }
           } else {
             i += 2;
             wipe(pre);

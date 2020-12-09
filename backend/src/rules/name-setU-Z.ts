@@ -104,6 +104,7 @@ const a: string[] = [
 "ucgecgunee",
 "uch",
 "ucha",
+"uchain",
 "uche",
 "uchechukwugaeme",
 "ucheia",
@@ -17969,7 +17970,7 @@ const a: string[] = [
 "wyfield",
 "wyfields",
 "wyfold",
-"wygal",
+
 "wygand",
 "wygant",
 "wygas",

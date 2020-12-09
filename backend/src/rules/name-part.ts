@@ -15,7 +15,12 @@ const a: string[] = [
   "la",
   "le",
   "los",
+  "n",
   "na",
+  "nam",
+  "nan",
+  "o",
+  "t",
   "ul",
   "un",
   "van",
@@ -25,7 +30,9 @@ const a: string[] = [
   "vii",
   "viii",
   "von",
-  "y"
+  "y",
+  "yn",
+  "yr"
 ];
 
 const NamePartSet: Set<string> = new Set();

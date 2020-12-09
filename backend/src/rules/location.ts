@@ -5,13 +5,13 @@ export const LocationPrefixRegEx: RegExp[] = [
 ];
 
 export const LocationMidfixRegEx: RegExp[] = [
-  /(?!\w\s)(?:&\sthe|&)(?<!\s\w)/gmi,
-  /\b(?:o[\'f][\s-]th\')/gmi,
-  /\b(?:a|an|and[\s-]the|and|at[\s-]the|at|by[\s-]the|by|from[\s-]the|from|in[\s-]the|in|next[\s-]the|next|o[\'f][\s-]the|of|on[\s-]the|on|under[\s-]the|under|with)\b/gmi
+  /(?!\w\s)&(?<!\s\w)/gmi,
+  /\bo\'/gmi,
+  /\bth\'/gmi,
+  /\b(?:and|at|by|from|in|next|of|on|the|to|under|upon|with)\b/gmi
 ];
 
 export const LocationSuffixRegEx: RegExp[] = [
-  /\bNo\s\d+/gm,
   /\b(?:sea|wall)\b/gm
 ];
 
@@ -19,7 +19,7 @@ const a: RegExp[] = [
   /\bP\.?O\.?\sBox\s\d+\b/gmi,
   /\b(?:apartment|block|suite|unit)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/gmi,
 
-  /\bThe\s(?:Arm|Banks?|Beast|Big\sAct|Bus|Cheeses|Climb|Cop|Crusades|Curtain|Engine(?:\sGreen)?|Fall|First|Front|God\sAlmighty|Heritage|(?:Old\s)?High|Hornets?|Horses?|Kiosk|Knees?|Line|Lottery|Man\so\'?\sWar|Mary\sRose|Medical\sWing|Mere|Old|Old\s(?:Fire\sStation|Laundry|Mission)|Opening|Post|Rangers|Rifles|Roundabouts?|Slides?|Square|State\sHospital|Still|Street|Style|Third|Toe|Vikings|Village|Wall|Watch|Waterwheel)\b/gm,
+  /\bThe\s(?:Arm|Banks?|Beast|Big\sAct|Broad|Bus|Cheeses|Climb|Cop|Crusades|Curtain|Engine(?:\sGreen)?|Fall|First|Front|God\sAlmighty|Heritage|(?:Old\s)?High|Hornets?|Horses?|Kiosk|Knees?|Line|Lottery|Man\so\'?\sWar|Mary\sRose|Medical\sWing|Mere|Old|Old\s(?:Fire\sStation|Laundry|Mission)|Opening|Post|Rangers|Rifles|Road|Roundabouts?|Slides?|Square|State\sHospital|Still|Street|Style|Third|Toe|Vikings|Village|Wall|Watch|Waterwheel)\b/gm,
 
   /\b(?:medical|royal\snavy|twenty(?:fifth|second|sixth|third))\savenue\b/gmi,
   /\bswinging\sbasin\b/gmi,
@@ -42,8 +42,9 @@ const a: RegExp[] = [
   /\b(?:animal\sfarm\scountry|spiceball)\spark\b/gmi,
   /\b(?:agony|zone)\spoint\b/gmi,
   /\b(?:frying\span|skating)\spond\b/gmi,
-  /\b(?:agitator|blood|biology|bo\'mains|body|by[\s-]pass|caring|case|catch|cats\sash|cell[\s-]fechan|chapel\sbreak|charge|clock\sface|committee|departures|education|forget[\s-]me[\s-]not|independents|leg\sof\smutton|monomer|my\slords|near|(?:new\s)?line|no\sman\'?s\'?\s(?:heath|land)|old\spost(?:\soffice)?|parliamentary|post|s|unit|windings)\sroad\b/gmi,
+  /\b(?:agitator|blood|biology|bo\'mains|body|by[\s-]pass|caring|case|catch|cats\sash|cell[\s-]fechan|chapel\sbreak|charge|clock\sface|committee|departures|education|forget[\s-]me[\s-]not|independents|leg\sof\smutton|leg|monomer|my\slords|near|(?:new\s)?line|no\sman\'?s\'?\s(?:heath|land)|old\spost(?:\soffice)?|parliamentary|post|s|unit|windings)\sroad\b/gmi,
   /\b(?:A|B|C|Cold|Sea\sFront|Front|Key|Other)\sRoad\b/gm,
+  /\b(?:Road|Street)\s(?:No\s)?(?:\d+[abc]?|To\sThe)\b/gm,
   /\b(?:Boarding|Business|Commercial|Community(?:\s(?:Free|Infants|Junior|Primary))?|European|Family|First|Free|Heritage|Infant|International(?:\sBusiness)?|Military|National|Nursery|(?:Community\s)?Primary(?:\s[Aa]nd\sNursery)?|Royal\sNational|Science|Special)\sSchool\b/gm,
   /\bInland\sSea\b/gm,
   /\b(?:a\'court|bene\'t|godre\'r)\b/gmi,
@@ -69,6 +70,7 @@ const a: RegExp[] = [
   /\bairborne\s(?:avenue|close|drive)\b/gmi,
   /\ball\ssaints\b/gmi,
   /\balliance\s(?:avenue|close|house|lane|place|road|square|street|terrace|way)\b/gmi,
+  /\bAlternative\s(?:Academy|Centre|Provision\s(?:Academy|School))\b/gm,
   /\baircraft\s(?:esplanade|way)\b/gmi,
   /\b(?:Hairy|Little)\sArm\b/gm,
   /\banchoring\s(?:hill|plantation)\b/gmi,
@@ -248,6 +250,8 @@ const a: RegExp[] = [
   /\bswinnerton\sheritage\b/gmi,
   /\bhornets?\s(?:close|road|way)\b/gmi,
   /\bHow[\'s]{0,2}\s(?:End|Hill|Road)\b/gm,
+  /\bhunger\s(?:dale|down\swoodhatch|hills?|lane|pill)\b/gmi,
+  /\b(?:cold\shunger\splantation|far\shunger\shill)\b/gmi,
   /\bhurricane\s(?:avenue|close|court|drive|gate|grove|place|road|way|wood)\b/gmi,
   /\bknee\sof\s(?:cairnsmore|scabra)\b/gmi,
   /\b(?:Muckle|Snickert)\sKnees?\b/gm,
@@ -308,7 +312,7 @@ const a: RegExp[] = [
   /\bpost\s(?:barn|coach|copse|corner|gwyn|hackley|hill|horn|horse|lane|meadow|mill|rocks|wood|yard)\b/gmi,
   /\bPost\s(?:Box|Close|Down|Gate|Green|House|Office|View|Way)\b/gm,
   /\b(?:cil\-|dial|finger|five|golden|orrell|picket|star|team|wilman|y\-)\spost\b/gmi,
-  /\b(?:Guide|Old|Red|Three|Two|White|Yellow)\sPost\b/gm,
+  /\b(?:Guide|Old|Red|Two|White|Yellow)\sPost\b/gm,
   /\b(?:Bowerman|Buck|Donald|Hare|Hog|Hope|Jock|Maclean|Pig|Priest|Sinclair)\'?sNose\b/gm,
   /\b(?:Bull|Long|Pick|Scar|Short|White|Yellow)\sNose\b/gm,
   /\b(?:barras|blowup|burrow|dounan|moody|rock|settling)\snose\b/gmi,
@@ -317,7 +321,7 @@ const a: RegExp[] = [
   /\bpress\s(?:drive|hill|lane|meadow|moor|reserviors|ridge|road|street|way)\b/gmi,
   /\bpride\s(?:close|court|hill|parkway|place|point|view|way)\b/gmi,
   /\bprimary\s(?:academy|avenue|campus|close|court|gardens|road|view|way)\b/gmi,
-  /\bprime\s(?:close|coppices|four|gill|lane|parkway|place|street|view)\b/gmi,
+  /\bprime\s(?:close|coppices|four|gilt\sbox|lane|parkway|place|street|view)\b/gmi,
   /\bpublic\s(?:hall|garden|park|wood)\b/gmi,
   /\bquality\s(?:corner|plantation|row|street)\b/gmi,
   /\bobserver\s(?:close|court|drive|point|way)\b/gmi,
@@ -355,7 +359,7 @@ const a: RegExp[] = [
   /\bsecret\s(?:close|flats|gardens|lake|spring|waters|wood)\b/gmi,
   /\bsenior\s(?:avenue|drive|lane|road|street|way)\b/gmi,
   /\b[Ss]eniors\s(?:Drive|Place)\b/gm,
-  /\bservice\s(?:area|reservoir|road|route|station|street)\b/gmi,
+  /\bservice\s(?:area|reservoir|road(?:\s(?:no\s)?\d+)?|route|station|street)\b/gmi,
   /\b(?:black|cat|fingland|jock\'?s?|rough)\sshoulder\b/gmi,
   /\bshoulder\s(?:hill|of\s(?:craig|lune|mutton))\b/gmi,
   /\bShield\sOn\sThe\sWall\b/gm,
@@ -383,6 +387,7 @@ const a: RegExp[] = [
   /\bterm\snant\b/gmi,
   /\bthick\s(?:cleuch|copse|covert|hollins|shaw|wood)\b/gmi,
   /\bgorse\sthick\b/gmi,
+  /\bThree\s(?:Leg|Post)\b/gm,
   /\btime\s(?:park|square)\b/gmi,
   /\b(?:east|geo\sof\sthe|west)\stoe\b/gmi,
   /\bHeel\sToe\b/gm,
