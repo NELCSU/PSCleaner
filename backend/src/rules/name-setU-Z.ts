@@ -17966,6 +17966,7 @@ const a: string[] = [
 "wyebanks",
 "wyedean",
 "wyefield",
+"wyegate",
 "wyelands",
 "wyer",
 "wyers",
