@@ -1,8 +1,6 @@
 export const NamesEndingRegEx: RegExp[] = [
    /[a-z]*[À-ÖØ-öø-ÿãñõțũūąğịňōıŚạşęăầẩőếěšảłộđơńėčćəāţș]+[a-z]*/gmi,
 
-   /\b(?:an|can|ca|tu)(?<!-)/gmi,
-   /(?!-)(?:a[fn]|a|back|bar|berth|big|bi|brain|cap|earn|e[mn]|eye|e|fan|gest|gun|hardy|heart|hil[lt]|him|hole|h|i[ns]|men|moors|ol|on|pant|p[ei]n|ri|r|stent|t|walk)\b/gmi,
    /\b(?:gilfach|[a-z]+bo?ro)'/gmi,
    /\b(?:rhiw'r|t[uy]'n)\b/gmi,
 

@@ -9022,6 +9022,7 @@ const a: string[] = [
 "wachsmuth",
 "wachsstock",
 "wachtel",
+"wachtell",
 "wachter",
 "wachtler",
 "wachtman",
