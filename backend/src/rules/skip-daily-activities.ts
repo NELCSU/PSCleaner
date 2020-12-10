@@ -25,6 +25,7 @@ const a: RegExp[] = [
   /\bfell\s(?:backwards?|down|forward|from|off|on|over)\b/gmi,
   /\bfirst\saider\b/gmi,
   /\bfishing\shook\b/gmi,
+  /\bfrench\sfries\b/gmi,
   /\bfriends\shouse\b/gmi,
   /\b(?:cut|hurt)\s(?:hand|neck|shoulder)\b/gmi,
   /\bgas\spipe\b/gmi,

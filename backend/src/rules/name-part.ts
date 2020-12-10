@@ -48,14 +48,15 @@ const NameInitialRegEx: RegExp[] = [
 ];
 
 const NameFragmentRegEx: RegExp[] = [
-  /\b(?:a|aa|b|d|is|l|mu|na|o|ra|sa|za)[\'\‘\’\`]\b/gmi,
-  /\b(?:an|can|ca|tu)(?=-)/gmi,
-  /(?<=-)(?:a[fn]|a|back|bar|berth|big|bi|brain|cap|earn|e[mn]|eye|e|fan|gest|gun|hardy|heart|hil[lt]|him|hole|h|i[ns]|mi|men|moors|ol|on|pant|p[ei]n|ri|r|stent|t|walk)\b/gmi,
+  /\b(?:a|aa|b|d|is|l|mu|na|o|ra|sa|za)['‘’`]/gmi,
+  /['‘’`](?:r)\b/gmi,
+  /\b(?:an|can|ca|h|is|rt|tu)(?=-)/gmi,
+  /(?<=-)(?:a[fn]|a|ba[cn]k|bar|beech|berth|big|bi|blew|brain|castle|ca[pr]|clip|corn|cut|doll|don|drain|dyke|d|earn|e[mn]|end|eye|e|fan|franc|fro|gains|gate|gest|glazier|grove|gun|go|hardy|hale|haul|heart|hen|hil[lt]|him|hole|hurt|h|i[ns]|m[ai]|men|mere|moors|marriage|nah|o[dln]|over|pennant|pant|park|pica|post|p[ei]n|roe|ri|'?r|sand|saint|shop|stent|stair|st|sub|super|tail|tore|t[ao]n|t|walk|y)\b/gmi,
 ];
 
 const NamePuralRegEx: RegExp[] = [
-  /(?<=[a-z]{2})[\'\‘\’\`]s\b/gmi,
-  /(?<=[a-z]s)[\'\‘\’\`]/gmi
+  /(?<=[a-z]{2})['‘’`]s\b/gmi,
+  /(?<=[a-z]s)['‘’`]/gmi
 ];
 
 export {

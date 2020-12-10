@@ -42,7 +42,7 @@ const a: RegExp[] = [
   /\ben\smasse\b/gmi,
   /\b(?:beginning|by|during|early|end(?:ed)?|from|in|in\sthe|mid|middle|late|on|since|start|until)(?:\s|\-|as|of)+(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)\b/gmi,
   /\b(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)(?:and|through|to|\-|\s)+(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)\b/gmi,
-  /\b(?:christmas|new\syear[\’\‘\'\`]?s)\s(?:day|eve|season|week|weekend)\b/gmi,
+  /\b(?:christmas|new\syear[’‘\'`]?s)\s(?:day|eve|season|week|weekend)\b/gmi,
   /\bforce\sfield\b/gmi,
   /\bfoster\s(?:carer|father|mother|parent)\b/gmi,
   /\bfriends\sof\b/gmi,
@@ -55,6 +55,7 @@ const a: RegExp[] = [
   /\bHopes\s(?:for|that)\b/gm,
   /\bhunker\sdown\b/gmi,
   /\bin\slieu\sof\b/gmi,
+  /\bin-the-back\b/gmi,
   /\bivy\sleague\b/gmi,
   /\blaissez[\s-]faire\b/gmi,
   /\blate[\s-]comer\b/gmi,
@@ -77,6 +78,7 @@ const a: RegExp[] = [
   /\bon\sfoot\b/gmi,
   /\bon\stop\sof\b/gmi,
   /\boverton\swindow\b/gmi,
+  /\bpeace\sprize\b/gmi,
   /\bto\speter\sout\b/gm,
   /\bpetri\sdish\b/gmi,
   /\bpower\sclub\b/gmi,
@@ -101,8 +103,8 @@ const a: RegExp[] = [
   /\bto\sthe\swise\b/gmi,
   /\byoung\speople\b/gmi,
 
-  /[A-Za-z]+[\'\‘\’\`](?:ll|re|ve)/gm,
-  /[A-Za-z]+n[\'\‘\’\`]t/gm
+  /[A-Za-z]+[\'‘’`](?:ll|re|ve)/gm,
+  /[A-Za-z]+n[\'‘’`]t/gm
 ];
 const SkipGrammarRegEx: Set<RegExp> = new Set();
 a.forEach(term => SkipGrammarRegEx.add(term));

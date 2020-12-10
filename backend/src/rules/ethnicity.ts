@@ -739,6 +739,7 @@ const a: string[] = [
 "pitafi",
 "poitevin",
 "pokoot",
+"polynesian",
 "pomeranian",
 "pomor",
 "pontic",
