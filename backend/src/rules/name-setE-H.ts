@@ -11691,7 +11691,6 @@ const a: string[] = [
 "fayette",
 "fayeye",
 "fayezghaly",
-
 "faygate",
 "faygee",
 "fayiga",
@@ -19866,6 +19865,7 @@ const a: string[] = [
 "gaffrey",
 "gaffron",
 "gaffur",
+"gafga",
 "gafia",
 "gafney",
 "gafor",
@@ -24489,7 +24489,6 @@ const a: string[] = [
 "geung",
 "geur",
 "geuragain",
-
 "geurdain",
 "geure",
 "geurin",
@@ -24778,7 +24777,6 @@ const a: string[] = [
 "ghebrehawariat",
 "ghebrehinet",
 "ghebrehiwet",
-
 "ghebrehiwot",
 "ghebreigzabiher",
 "ghebreigziabher",

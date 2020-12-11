@@ -13,6 +13,7 @@ const a: RegExp[] = [
   /\barab\sspring\b/gmi,
   /\bassociate\sdean\b/gmi,
   /\bat\shome\b/gmi,
+  /\bbaby\sjesus\b/gmi,
   /\bbank\sholiday\b/gmi,
   /\bbaby\sboomer\b/gmi,
   /\bthe\s[Bb]anks?\b/gm,

@@ -1,5 +1,5 @@
 const a: RegExp[] = [
-  /\b(?:APEC|CIA|DEFRA|HMRC|MHRA|MIT|OPEC|PLO|SETI)\b/gm,
+  /\b(?:APEC|CIA|DEFRA|HMRC|MHRA|MIT|NAO|OPEC|PLO|SETI)\b/gm,
   
   /\bburger\sking\b/gmi,
   /\b(?:catholic|orthodox)\schurch\b/gmi,
@@ -10,6 +10,7 @@ const a: RegExp[] = [
   /\b(?:central|reserve|world)\sbank\b/gmi,
   /\bnational\scollege\b/gmi,
   /\bnhs\s(?:england|scotland|wales)\b/gmi,
+  /\bpubic\shealth\sengland\b/gmi,
   /\broyal\snavy\b/gmi,
   /\b(?:nato|unesco|unicef|united\snations)\b/gmi,
 ];
