@@ -484,6 +484,7 @@ const a: string[] = [
 "desiderata",
 "desideratum",
 "detente",
+"diadem",
 "diamante",
 "diaphragm",
 "dictum",

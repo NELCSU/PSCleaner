@@ -397,7 +397,6 @@ const a: string[] = [
 "hunanese",
 "hungarian",
 "hutterite",
-"hutu",
 "iban",
 "icelander",
 "icelandic",

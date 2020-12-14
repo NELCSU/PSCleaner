@@ -1,7 +1,7 @@
 const a: RegExp[] = [
   /\b\w{2,}\-\d{1,2}\b/gmi,
   /\d+[\s-](?:day|mile|kilometer|km|step|week)s?\b/gmi,
-  /\b(?:first|last)\s\d+/gmi,
+  /\b(?:first|last|tier)\s\d+/gmi,
   /\d+\sof\b/gmi,
   /\d+[\s-](?:(?:out)?\sof|in)[\s-]\d+/gmi,
 
@@ -49,6 +49,7 @@ const a: RegExp[] = [
   /\bfriends\sof\b/gmi,
   /\bguinea\spig\b/gmi,
   /\bgung[\s-]ho\b/gm,
+  /\bhail\smary\b/gmi,
   /\bhanky[\s-]panky\b/gmi,
   /\bhead\son\b/gmi,
   /\bholding\s(?:child|hands\swith)\b/gmi,

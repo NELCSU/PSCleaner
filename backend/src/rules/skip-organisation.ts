@@ -11,7 +11,8 @@ const a: RegExp[] = [
   /\bnational\scollege\b/gmi,
   /\bnhs\s(?:england|scotland|wales)\b/gmi,
   /\bpubic\shealth\sengland\b/gmi,
-  /\broyal\snavy\b/gmi,
+  /\broyal\s(?:college|navy)\b/gmi,
+  /\bserco\b/gmi,
   /\b(?:nato|unesco|unicef|united\snations)\b/gmi,
 ];
 const OrganisationRegEx: Set<RegExp> = new Set();
