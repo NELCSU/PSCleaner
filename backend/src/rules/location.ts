@@ -399,7 +399,7 @@ const a: RegExp[] = [
   /\brocking\s(?:moor|stone)\b/gmi,
   /\bCollege\sRoundabouts?\b/gm,
   /\broundabouts?\s(?:coppice|copse|covert|hill|lane|plantation|road|spinney|wood)\b/gmi,
-  /\broyal\scollege\sstreet\b/gmi,
+  /\broyal\s(?:college|mail)\sstreet\b/gmi,
   // S
   /\bscience\s(?:academy|area|central|park|road)\b/gmi,
   /\bscrew\s(?:close|park)\b/gmi,
