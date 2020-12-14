@@ -3,10 +3,12 @@
   // for the documentation about the extensions.json format
   "recommendations": [
     "bashmish.es6-string-css",
-    "DavidAnson.vscode-markdownlint",
+    "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
     "hookyqr.beautify",
     "stylelint.vscode-stylelint",
-    "tobermory.es6-string-html"
+    "tobermory.es6-string-html",
+    "mikestead.dotenv",
+    "eriklynd.json-tools"
   ]
 }

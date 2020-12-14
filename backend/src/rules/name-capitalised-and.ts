@@ -1662,6 +1662,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "newborn",
 "nhs",
 "nine",
+"nineteen",
 "nip",
 "nod",
 "nor",

@@ -38,12 +38,12 @@ const a: RegExp[] = [
   /\bcul[\s-]de[\s-]sac\b/gmi,
   /\bdéjà\svu\b/gmi,
   /\bdirector[\s\-]general\b/gmi,
-  /\bdua\'?s\slayer\b/gmi,
+  /\bdua'?s\slayer\b/gmi,
   /\beastern\sbloc\b/gmi,
   /\ben\smasse\b/gmi,
   /\b(?:beginning|by|during|early|end(?:ed)?|from|in|in\sthe|mid|middle|late|on|since|start|until)(?:\s|\-|as|of)+(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)\b/gmi,
   /\b(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)(?:and|through|to|\-|\s)+(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)\b/gmi,
-  /\b(?:christmas|new\syear[’‘\'`]?s)\s(?:day|eve|season|week|weekend)\b/gmi,
+  /\b(?:christmas|new\syear[’‘'`]?s)\s(?:day|eve|season|week|weekend)\b/gmi,
   /\bforce\sfield\b/gmi,
   /\bfoster\s(?:carer|father|mother|parent)\b/gmi,
   /\bfriends\sof\b/gmi,
@@ -71,7 +71,7 @@ const a: RegExp[] = [
   /\bmodus\s(?:operandi|vivendi)\b/gmi,
   /\bmore\son\b/gmi,
   /\bmotley\screw\b/gmi,
-  /\bmurphy\'?s\slaw\b/gmi,
+  /\bmurphy'?s\slaw\b/gmi,
   /\bnew\syear\b/gmi,
   /\bnobel\sprize\b/gmi,
   /\bnon\-\w+\b/gmi,
@@ -88,7 +88,7 @@ const a: RegExp[] = [
   /\bran\sback\b/gmi,
   /\brust\sbelt\b/gmi,
   /\b[Ss]ales\sof\s\w+\b/gm,
-  /\b(?:santa\sclaus|santa\'?s?\sgrottos?)\b/gmi,
+  /\b(?:santa\sclaus|santa'?s?\sgrottos?)\b/gmi,
   /\bsmall\sarms\b/gmi,
   /\bstepping\son\b/gmi,
   /\bsummer\scamp\b/gmi,
@@ -104,8 +104,8 @@ const a: RegExp[] = [
   /\bto\sthe\swise\b/gmi,
   /\byoung\speople\b/gmi,
 
-  /[A-Za-z]+[\'‘’`](?:ll|re|ve)/gm,
-  /[A-Za-z]+n[\'‘’`]t/gm
+  /[A-Za-z]+['‘’`](?:ll|re|ve)/gm,
+  /[A-Za-z]+n['‘’`]t/gm
 ];
 const SkipGrammarRegEx: Set<RegExp> = new Set();
 a.forEach(term => SkipGrammarRegEx.add(term));
