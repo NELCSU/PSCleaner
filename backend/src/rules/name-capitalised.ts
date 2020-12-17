@@ -7653,7 +7653,6 @@ const a: string[] = [
 "trimming",
 "trims",
 "trinities",
-"trinity",
 "trinket",
 "tripe",
 "triplet",

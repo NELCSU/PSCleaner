@@ -20,6 +20,7 @@
     "make-dir": "^3.1.0",
     "minimist": "^1.2.5",
     "tslib": "^2.0.3",
+    "update-electron-app": "^2.0.1",
     "username": "^5.1.0",
     "uuid": "^8.3.2",
     "valid-filename": "^3.1.0",
@@ -38,8 +39,8 @@
     "@types/he": "^1.1.1",
     "@types/node": "^12.19.9",
     "@types/uuid": "^8.3.0",
-    "@typescript-eslint/eslint-plugin": "^4.9.1",
-    "@typescript-eslint/parser": "^4.9.1",
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
     "bl": "^4.0.3",
     "electron": "^11.1.0",
     "electron-rebuild": "^2.3.4",
@@ -73,7 +74,7 @@
     "build": "npm-run-all --parallel build-client build-backend",
     "build-backend": "tsc --project ./backend/tsconfig.json",
     "build-client": "tsc --project ./client/tsconfig.json",
-    "make": "npm prune && npm run wipe-all && npm run update-webc && npm run make-w32 && npm run make-w64 && npm ci",
+    "make": "npm prune && npm run wipe-all && npm run update-webc && npm run make-w32 && npm run make-w64 && npm run make-wix",
     "make-w32": "electron-forge make --platform=win32 --arch=ia32",
     "make-w64": "electron-forge make",
     "make-wix": "node ./build/windows-msi.js",
@@ -90,7 +91,7 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf client/lib/web-components"
   },
-  "version": "0.8.25",
+  "version": "0.8.26",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }

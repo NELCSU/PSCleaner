@@ -9,6 +9,8 @@ if (require("electron-squirrel-startup")) { // eslint-disable-line global-requir
   app.quit();
 }
 
+require("update-electron-app")();
+
 import { AppMenu } from "./build-menu";
 import { AppTray } from "./build-tray";
 import { Entities } from "./entities";

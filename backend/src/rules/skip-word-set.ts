@@ -142,6 +142,7 @@ const a: string[] = [
 "bacilli",
 "backwoods",
 "baddy",
+"badmington",
 "badminton",
 "bagatelle",
 "bailiwick",
