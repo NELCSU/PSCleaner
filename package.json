@@ -1,5 +1,5 @@
 {
-  "author": "NEL",
+  "author": "NHS NEL CSU",
   "dependencies": {
     "@buckneri/collections": "^0.1.6",
     "@buckneri/string": "^0.7.0",
@@ -50,6 +50,7 @@
     "eslint-plugin-jsdoc": "^30.7.8",
     "exe-icon-extractor": "^1.0.8",
     "jsdoc": "^3.6.6",
+    "move-file-cli": "^2.0.0",
     "ncp": "^2.0.0",
     "node-abi": "^2.19.3",
     "node-gyp": "^7.1.2",
@@ -74,13 +75,13 @@
     "build": "npm-run-all --parallel build-client build-backend",
     "build-backend": "tsc --project ./backend/tsconfig.json",
     "build-client": "tsc --project ./client/tsconfig.json",
-    "make": "npm prune && npm run wipe-all && npm run update-webc && npm run make-w32 && npm run make-w64 && npm run make-wix",
+    "make": "npm ci && npm run wipe-all && npm run update-webc && npm run make-w64 && npm run make-wix",
     "make-w32": "electron-forge make --platform=win32 --arch=ia32",
     "make-w64": "electron-forge make",
     "make-wix": "node ./build/windows-msi.js",
-    "package": "npm run package-w64 && npm run package-w32",
-    "package-w64": "electron-forge package",
-    "package-w32": "electron-forge package --platform=win32 --arch=ia32",
+    "move": "npm run move-w64 && npm run move-wix",
+    "move-w64": "move-file out/prod/make/squirrel.windows/x64/pscleaner-setup.exe private/pscleaner-setup.exe",
+    "move-wix": "move-file out/prod/make/wix/pscleaner.msi private/pscleaner.msi",
     "publish": "electron-forge publish",
     "start": "electron-forge start",
     "update-all": "npm run update-elec && npm run wipe-webc && npm run update-webc",
@@ -91,7 +92,7 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf client/lib/web-components"
   },
-  "version": "0.8.26",
+  "version": "0.9.0",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }

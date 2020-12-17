@@ -521,7 +521,7 @@ const a: string[] = [
 "kwa",
 "kwavi",
 "kyode",
-"lacandon",
+
 "lak",
 "lamaholot",
 "lamba",

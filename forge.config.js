@@ -12,7 +12,8 @@ module.exports = {
         name: "PSCleaner",
         iconUrl: "https://github.com/NELCSU/PSCleaner/blob/master/client/favicon.ico?raw=true",
         loadingGif: "./client/images/loading.gif",
-        setupIcon: "./client/favicon.ico"
+        setupIcon: "./client/favicon.ico",
+        setupExe: "pscleaner-setup.exe"
       }
     },
     {
