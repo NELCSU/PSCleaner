@@ -3,16 +3,13 @@ import {
 } from "electron";
 import * as EventEmitter from "events";
 import * as Store from "electron-store";
+import { autoUpdater } from "electron-updater";
+const log = require("electron-log");
 
 require("dotenv").config();
 if (require("electron-squirrel-startup")) { // eslint-disable-line global-require
   app.quit();
 }
-
-require("update-electron-app")({
-  repo: "NELCSU/pscleaner",
-  logger: require("electron-log")
-});
 
 import { AppMenu } from "./build-menu";
 import { AppTray } from "./build-tray";
@@ -195,11 +192,29 @@ class Main {
     this.menu = new AppMenu(this);
     this.tray = new AppTray(this);
 
+    this.mainWindow.once("ready-to-show", () => {
+      log.transports.file.level = "debug";
+      autoUpdater.logger = log;
+      autoUpdater.checkForUpdatesAndNotify();
+    });
+
     this.mainWindow.on("minimize", (e: Event) => this.softClose(e));
 
     this.mainWindow.on("close", (e: Event) => {
       this.softClose(e);
       return false;
+    });
+
+    autoUpdater.on("update-available", () => {
+      this.mainWindow.webContents.send("update_available");
+    });
+    
+    autoUpdater.on("update-downloaded", () => {
+      this.mainWindow.webContents.send("update_downloaded");
+    });
+
+    ipc.on("restart_app", () => {
+      autoUpdater.quitAndInstall();
     });
   };
 }

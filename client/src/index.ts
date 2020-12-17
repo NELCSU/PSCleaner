@@ -237,3 +237,26 @@ ipc.on("processing-folder-error", (_: any, err: string) => {
   }
 });
 ipc.on("export-folder-error", (_: any, err: string) => showError(`An error occurred with the export folder: ${err}`));
+
+(function updater(ipc) {
+  const notification = document.getElementById("notification") as HTMLElement;
+  const message = document.getElementById("message") as HTMLElement;
+  const restartButton = document.getElementById("restart-button") as HTMLElement;
+  const closeButton = document.getElementById("close-button") as HTMLElement;
+
+  ipc.on("update_available", () => {
+    ipc.removeAllListeners("update_available");
+    message.innerText = "A new update is available. Downloading now...";
+    notification.classList.remove("hidden");
+  });
+
+  ipc.on("update_downloaded", () => {
+    ipc.removeAllListeners("update_downloaded");
+    message.innerText = "Update Downloaded. It will be installed on restart. Restart now?";
+    restartButton.classList.remove("hidden");
+    notification.classList.remove("hidden");
+  });
+
+  closeButton.addEventListener("click", () => notification.classList.add("hidden"));
+  restartButton.addEventListener("click", () => ipc.send("restart_app"));
+})(ipc);
