@@ -26,7 +26,19 @@ module.exports = {
       }
     }
   ],
-  publishers: [],
+  publishers: [
+    {
+      name: "@electron-forge/publisher-github",
+      config: {
+        draft: true,
+        repository: {
+          owner: "NELCSU",
+          name: "PSCleaner"
+        },
+        prerelease: true
+      }
+    }
+  ],
   plugins: [],
   hooks: {},
   buildIdentifier: process.env.IS_BETA ? "beta" : "prod"

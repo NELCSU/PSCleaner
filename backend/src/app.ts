@@ -10,6 +10,7 @@ if (require("electron-squirrel-startup")) { // eslint-disable-line global-requir
 }
 
 require("update-electron-app")({
+  repo: "NELCSU/pscleaner",
   logger: require("electron-log")
 });
 

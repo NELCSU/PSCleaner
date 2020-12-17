@@ -33,6 +33,7 @@
     "@electron-forge/maker-rpm": "^6.0.0-beta.54",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
     "@electron-forge/maker-wix": "^6.0.0-beta.54",
+    "@electron-forge/publisher-github": "^6.0.0-beta.54",
     "@electron/typescript-definitions": "^8.8.0",
     "@types/bluebird": "^3.5.33",
     "@types/debounce": "^1.2.0",
@@ -81,8 +82,8 @@
     "make-w64": "electron-forge make",
     "make-wix": "node ./build/windows-msi.js",
     "move": "npm run move-w64 && npm run move-wix",
-    "move-w64": "move-file out/prod/make/squirrel.windows/x64/pscleaner-setup.exe private/pscleaner-setup.exe",
-    "move-wix": "move-file out/prod/make/wix/pscleaner.msi private/pscleaner.msi",
+    "move-w64": "move-file --no-overwrite out/prod/make/squirrel.windows/x64/pscleaner-setup.exe private/pscleaner-setup.exe",
+    "move-wix": "move-file --no-overwrite out/prod/make/wix/pscleaner.msi private/pscleaner.msi",
     "publish": "electron-forge publish",
     "start": "electron-forge start",
     "update-all": "npm run update-elec && npm run wipe-webc && npm run update-webc",
@@ -93,7 +94,7 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf client/lib/web-components"
   },
-  "version": "0.9.1",
+  "version": "0.9.2",
   "bugs": {
     "url": "https://github.com/NELCSU/PSCleaner/issues"
   }
