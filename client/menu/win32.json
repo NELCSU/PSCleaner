@@ -28,6 +28,10 @@
           "label": "Show/hide DevTools",
           "accelerator": "Shift+Ctrl+I",
           "click": "showDevTools"
+        },
+        {
+          "label": "View logs",
+          "click": "showLogs"
         }
       ]
     },

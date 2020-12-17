@@ -26,6 +26,9 @@ export class AppMenu {
             case "showHelp":
               s.click = () => this.showHelp(s.url);
               break;
+            case "showLogs":
+              s.click = () => this.showLogs();
+              break;
             case "showTagViewer":
               s.click = () => this.showTagViewer();
               break;
@@ -53,6 +56,19 @@ export class AppMenu {
 
   public showHelp(url: string): void {
     shell.openExternal(url);
+  }
+
+  public showLogs(): void {
+    let path: string;
+    switch (process.platform) {
+      case "darwin": path = `~/Library/Logs/${app.name}/`;
+           break;
+      case "win32": path = `${app.getPath("home")}\\AppData\\Roaming\\${app.name}\\logs\\`;
+           break;
+      default: path = `~/.config/${app.name}/logs/`;
+        break;
+    }
+    shell.showItemInFolder(path);
   }
 
   public showSettings(): void {
