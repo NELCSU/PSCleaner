@@ -1,6 +1,7 @@
 import * as windowStateKeeper from "electron-window-state";
 import { BrowserWindow, Point, screen } from "electron";
 import * as Store from "electron-store";
+import * as logger from "electron-log";
 
 const windowDefault: any = {
   show: false,
@@ -15,6 +16,7 @@ const windowDefault: any = {
  */
 export class AppWindow extends BrowserWindow {
   #wsk: any;
+  #logger: logger.ElectronLog;
 
   public data: any;
   public get hideWhenMinimised(): boolean {
@@ -31,6 +33,9 @@ export class AppWindow extends BrowserWindow {
 
   constructor({ file, ...windowSettings }: any) {
     super({ ...windowDefault, ...windowSettings });
+
+    this.#logger = logger;
+    this.#logger.transports.file.level = "debug";
 
     this.data = new Store({ name: "appSettings" });
 
@@ -51,10 +56,10 @@ export class AppWindow extends BrowserWindow {
 
     this.loadURL(file);
 
-    this.once("show", () => console.log("Application is ready to render"));
+    this.once("show", () => this.#logger.log("Application is ready to render"));
     this.once("ready-to-show", () => this.show());
-    this.webContents.on("crashed", (e: Event) => console.log(e));
-    this.on("unresponsive", (e: Event) => console.log(e));
+    this.webContents.on("crashed", (e: Event) => this.#logger.log(e));
+    this.on("unresponsive", (e: Event) => this.#logger.log(e));
 
     this.#wsk.manage(this);
   }

@@ -6,12 +6,14 @@ import { v4 as uuidv4 } from "uuid";
 import * as makeDir from "make-dir";
 import { basename, join } from "path";
 import { isRootOrDriveLetter } from "./util/path";
+import * as logger from "electron-log";
 
 /**
  * ### Wrapper for Node's FileSystem library
  */
 export class FileManager {
   #folder!: string;
+  #logger: logger.ElectronLog;
   
   public events = new EventEmitter();
   public get fileCount(): Promise<number> {
@@ -43,6 +45,8 @@ export class FileManager {
   constructor(folder: string) {
     this.fs = fs;
     this.folder = folder;
+    this.#logger = logger;
+    this.#logger.transports.file.level = "debug";
   }
 
   /**
@@ -112,9 +116,7 @@ export class FileManager {
       .on("unlink", _ => {
         this.events.emit("file-count-change", this.fileCount);
       })
-      .on("error", err => {
-        console.log(err);
-      });
+      .on("error", err => this.#logger.log(err));
   }
 
   /**

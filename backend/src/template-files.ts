@@ -5,9 +5,11 @@ import { join } from "path";
 import { FileManager } from "./file-manager";
 import * as jschardet from "jschardet";
 import type { CSVField, CSVTemplate, ReadFileAction } from "../types/PSCleaner";
+import * as logger from "electron-log";
 
 export class TemplateFiles {
   #error?: string;
+  #logger: logger.ElectronLog;
 
   public get error(): string | undefined {
     return this.#error;
@@ -15,7 +17,7 @@ export class TemplateFiles {
   public set error(message: string | undefined) {
     this.#error = message;
     if (this.#error) {
-      console.log(this.#error);
+      this.#logger.log(this.#error);
     }
   }
   public exclusions: string[] = [];
@@ -34,6 +36,9 @@ export class TemplateFiles {
     }
     this._store = store;
     this.fm = new FileManager(folder);
+
+    this.#logger = logger;
+    this.#logger.transports.file.level = "debug";
 
     ipc.on("clear-template-file", () => this.clear());
 

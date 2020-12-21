@@ -1,6 +1,0 @@
-owner: NELCSU
-repo: pscleaner
-provider: github
-updaterCacheDirName: pscleaner-updater
-publisherName:
-  - NHS NEL CSU

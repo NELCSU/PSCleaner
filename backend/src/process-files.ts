@@ -7,6 +7,7 @@ import { TemplateFiles } from "./template-files";
 import type { CSVField } from "../types/PSCleaner";
 import type { ReadStream, WriteStream } from "fs";
 import { csvFileProperties, TCSVFileProperties } from "./util/csv";
+import * as logger from "electron-log";
 
 const r = require("esm")(module);
 const t = r("@buckneri/string");
@@ -16,6 +17,8 @@ const normalize = t.normalize;
  * ### Manages files stored in watched folder. Runs NLP services on files.
  */
 export class ProcessFiles {
+  #logger: logger.ElectronLog;
+
   private _store: any;
 
   public events = new EventEmitter();
@@ -32,6 +35,9 @@ export class ProcessFiles {
     this._store = store;
     this.fm = new FileManager(folder);
     this.fm.filter = "csv";
+
+    this.#logger = logger;
+    this.#logger.transports.file.level = "debug";
 
     this.nlp = nlp;
 
@@ -115,7 +121,7 @@ export class ProcessFiles {
             );
           })
           .on("data-invalid", (row, rowNumber) => {
-            console.log(`Invalid [rowNumber=${rowNumber}] [row=${JSON.stringify(row)}]`);
+            this.#logger.log(`Invalid [rowNumber=${rowNumber}] [row=${JSON.stringify(row)}]`);
           })
           .on("end", () => {
             Promise.all(rows)
@@ -142,9 +148,7 @@ export class ProcessFiles {
         stream.write(row);
         return Promise.resolve(row);
       })
-      .catch((err: any) => {
-        console.log(err);
-      });
+      .catch((err: any) => this.#logger.log(err));
   }
 
   private async _processCell(cell: any, row: any[]): Promise<any> {
@@ -155,12 +159,8 @@ export class ProcessFiles {
           .then((r: any) => {
             return new Promise(resolve => resolve(row[cell] = r));
           })
-          .catch((err: any) => {
-            console.log(err);
-          });
+          .catch((err: any) => this.#logger.log(err));
       })
-      .catch((err: any) => {
-        console.log(err);
-      });
+      .catch((err: any) => this.#logger.log(err));
   }
 }

@@ -3,10 +3,10 @@ import {
 } from "electron";
 import * as EventEmitter from "events";
 import * as Store from "electron-store";
-import { autoUpdater } from "electron-updater";
-const log = require("electron-log");
+import * as log from "electron-log";
 
 require("dotenv").config();
+
 if (require("electron-squirrel-startup")) { // eslint-disable-line global-require
   app.quit();
 }
@@ -36,10 +36,12 @@ class Main {
   public exportFiles!: ExportFiles;
   public processFiles!: ProcessFiles;
   public templateFiles!: TemplateFiles;
+  public logger: log.ElectronLog = log;
   public tray: any;
 
   constructor() {
     this.app = app;
+    this.logger.transports.file.level = "debug";
     const lock: boolean = this.app.requestSingleInstanceLock();
 
     protocol.registerSchemesAsPrivileged([{
@@ -192,29 +194,11 @@ class Main {
     this.menu = new AppMenu(this);
     this.tray = new AppTray(this);
 
-    this.mainWindow.once("ready-to-show", () => {
-      log.transports.file.level = "debug";
-      autoUpdater.logger = log;
-      autoUpdater.checkForUpdatesAndNotify();
-    });
-
     this.mainWindow.on("minimize", (e: Event) => this.softClose(e));
 
     this.mainWindow.on("close", (e: Event) => {
       this.softClose(e);
       return false;
-    });
-
-    autoUpdater.on("update-available", () => {
-      this.mainWindow.webContents.send("update_available");
-    });
-    
-    autoUpdater.on("update-downloaded", () => {
-      this.mainWindow.webContents.send("update_downloaded");
-    });
-
-    ipc.on("restart_app", () => {
-      autoUpdater.quitAndInstall();
     });
   };
 }
