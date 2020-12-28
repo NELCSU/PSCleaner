@@ -114,7 +114,7 @@ export class TemplateFiles {
 
               data.fields.forEach((field: any, n: number) => {
                 if (Array.isArray(field)) { // legacy file
-                  this.fields.set(field[0], { label: field[0], enabled: field[1], rules: undefined, seq: n });
+                  this.fields.set(field[0], { label: field[0], enabled: field[1], seq: n });
                 } else {
                   this.fields.set(data.header ? field.label : `${field.seq}`, field);
                 }

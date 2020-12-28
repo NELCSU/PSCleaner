@@ -35,7 +35,7 @@
   <div id="pnlAddTemplate" class="flex-c border panel pad">
     <div class="flex-r vcenter">
       <select class="wide" id="listTemplate">
-        <option value="New" selected>Create a new template (or drag a file here)</option>
+        <option value="new" selected>Create a new template (or drag a file here)</option>
       </select>
     </div>
 
@@ -46,7 +46,7 @@
       </div>
     </div>
     
-    <nel-expand-item>
+    <nel-expand-item id="expand-fields">
       <div slot="title">Fields</div>
       <div slot="content">
         <div class="flex-r vcenter pad3">
@@ -62,7 +62,7 @@
       </div>
     </nel-expand-item>
 
-    <nel-expand-item>
+    <nel-expand-item id="expand-advanced">
       <div slot="title">Advanced settings</div>
       <div slot="content">
         <div class="flex-r vcenter wide push-apart">

@@ -5,3 +5,7 @@
 }
 
 h2 { margin-bottom: 30px }
+
+.error {
+  background-color: rgba(255, 0, 0, 0.1);
+}

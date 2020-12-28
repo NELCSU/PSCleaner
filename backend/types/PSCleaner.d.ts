@@ -3,7 +3,6 @@ export type EntityType = "keyword" | "regular expression";
 export type CSVField = {
   label: string,
   enabled: boolean,
-  rules: any,
   seq: number
 };
 
