@@ -320,6 +320,7 @@ const a: string[] = [
 "castrato",
 "cataclysm",
 "catamaran",
+"catastrophe",
 "cauda",
 "cavalryman",
 "caviare",

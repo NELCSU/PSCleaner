@@ -188,6 +188,8 @@ const a: RegExp[] = [
   /\b(?:cuttiford'?s|durdle|northern|somerton|thirle)\sdoor\b/gmi,
   // D
   /\bdiadem\s(?:drive|grove|hill)\b/gmi,
+  /\bdistant\ssignal\sbelt\b/gmi,
+  /\bdistribution\sway\b/gmi,
   /\b(?:Barn|Cabin)\sDoor\b/gm,
   /\bdough\scrag\b/gmi,
   /\b(?:Harrys|Wheat)\sDream\b/gm,
@@ -463,7 +465,8 @@ const a: RegExp[] = [
   /\bunnamed\s(?:rd|road)\b/gmi,
   /\bunion\s(?:arcade|avenue|bank|bay|belt|brae|buildings?|castle|close|court|crescent|cross|dock|drift|drive|drove|gardens|gate|gorse|green|grove|hall|hill|house|lane|mill|mine|park|passage|place|plantation|quay|rise|road|row|spinney|square|street|terrace|view|walk|way|wynd|yard)\b/gmi,
   /\bUnited\s(?:[Aa]rab|[Cc]ollege|[Dd]owns|[Dd]rive|[Kk]ingdom|[Rr]oad|[Ss]tates|[Ww]ay)\b/gm,
-  /\buniversity\s(?:academy|avenue|barns|boulevard|campus|centre|close|court|crescent|drive|farm|garden|hospital|house|parks?|parkway|place|quays|road|street|terrace|walk|way|wood)\b/gmi,
+  /\buniversity\s(?:academy|avenue|barns|boulevard|centre|close|court|crescent|drive|farm|garden|hospital|house|parks?|parkway|place|quays|road|street|terrace|walk|way|wood)\b/gmi,
+  /\bUniversity\sCampus\b/gm,
   // V
   /\bvikings\s(?:close|court|way)\b/gmi,
   // W
