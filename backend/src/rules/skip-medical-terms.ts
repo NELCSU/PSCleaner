@@ -1,7 +1,7 @@
 const a: RegExp[] = [
   /\bachilli?es\stendon/gmi,
   /\badam'?s?\sapple\b/gmi,
-  /\b(?:addison|kawasaki|lymes?)'?s?\sdisease\b/gmi,
+  /\b(?:addison|hirschsprung|kawasaki|lyme|raynaud)'?s?\sdisease\b/gmi,
   /\b(?:alcock|cloquet|dorello|haversian|hering|huguier|lauth|schlemm|stilling)'?s?\scanal\b/gmi,
   /\bcanals?\sof\s(?:alcock|cloquet|dorello|haversian|hering|huguier|lauth|schlemm|stilling)\b/gmi,
   /\balzheimers?\b/gmi,
@@ -57,6 +57,7 @@ const a: RegExp[] = [
   /\bhouston'?s?\smuscle\b/gmi,
   /\b(?:chassaignac|darwin|lister)'?s?\stubercle\b/gmi,
   /\bcocc[iy]x\b/gmi,
+  /\bcricket\ssplint\b/gmi,
   /\bspaces?\sof\s(?:disse|m[öoe]{1,2}ll|prussak|retzius|traube|virchow[\s–]robin)\b/gmi,
   /\b(?:disse|m[öoe]{1,2}ll|prussak|retzius|traube|virchow[\s–]robin)'?s?\sspaces?\b/gmi,
   /\bgolgi\s(?:apparatus|receptor)\b/gmi,
