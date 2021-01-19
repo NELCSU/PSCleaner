@@ -1,93 +1,49 @@
 export const ProperNameSetJoinOnly: Set<string> = new Set([
-"abattoirs",
-"academic",
-"academies",
-"academy",
-"accord",
-"acorns",
-"acre",
-"acres",
-"acids",
-"adjutant",
-"adl",
-"admiral",
-"admirals",
-"admiralty",
-"advance",
-"advocates",
-"aerial",
-"aerodrome",
-"aetheric",
-"agricultural",
-"aided",
-"aider",
-"air",
-"airfield",
-"airport",
-"airs",
-"airship",
-"airstream",
-"aisle",
-"alien",
-"all",
-"allied",
-"allotment",
-"allotments",
-"alone",
-"ally",
-"alt",
-"altars",
-"alter",
-"alterman",
-"alters",
-"ambassador",
-"ambulance",
-"amen",
-"amenity",
-"amid",
-"ammo",
-"amnesty",
-"anger",
-"annex",
-"anniversaries",
-"anniversary",
-"anon",
-"antebellum",
-"anthem",
-"apex",
-"apathy",
-"apple",
-"apples",
-"aquadrome",
-"aquaduct",
-"aquarium",
-"aqueduct",
-"archdeacon",
-"archery",
-"arches",
-"archipelago",
-"architects",
-"archive",
-"archway",
-"arena",
-"arenas",
-"arming",
-"armistice",
-"armlet",
-"armor",
-"armorer",
-"armory",
-"armour",
-"armourer",
-"armourers",
-"arms",
-"arrivals",
-"arrow",
-"arrowhead",
-"arsenal",
-"art",
-"artillary",
-"artillery",
+"academy",          // placenames (1k+)
+"accord",           // surname & placenames (9)
+"acorns",           // standalone & placenames (8)
+"acre",             // surname & placenames (722)
+"acres",            // first name & placenames (254)
+"adjutant",         // surname
+"adl",              // surname
+"admiral",          // first name & placenames (36)
+"aerial",           // first name & placenames (2)
+"aided",            // first name & placenames (111)
+"aider",            // first name
+"airfield",         // placename (216)
+"airport",          // placename (113)
+"airs",             // surname
+"airstream",        // first name
+"all",              // placenames (299)
+"allied",           // first names and placenames (2)
+"allotment",        // placenames (122)
+"allotments",       // placenames (20)
+"ally",             // first name
+"alt",              // first name and placenames (68)
+"alterman",         // surname
+"alters",           // surname
+"ambassador",       // standalone & placenames (10)
+"amen",             // first name & placenames (3)
+"amnesty",          // first name
+"annex",            // first name and placenames (4)
+"anniversaries",    // standalone placename
+"anon",             // first name
+"apex",             // first name & placenames (8)
+"apathy",           // first name
+"apple",            // placenames (82)
+"aquarium",         // standalone & placenames (3)
+"aqueduct",         // standalone & placenames (11)
+"archdeacon",       // surname & placenames (13)
+"archery",          // surname & placenames (19)
+"arches",           // placenames (24)
+"archway",          // standalone & placenames (15)
+"arenas",           // surname
+"armor",            // surname & placename
+"armour",           // first name & placenames (23)
+"arms",             // surname and placenames (49)
+"arrow",            // standalone & placenames (42)
+"arsenal",          // first name & placenames (9)
+"art",              // first name & placenames (42)
 "artisan",
 "artisans",
 "artist",
@@ -601,7 +557,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "countess",
 "counties",
 "counting",
-"country",
 "counts",
 "county",
 "courage",
@@ -702,9 +657,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "december",
 "decker",
 "deckers",
-"decrease",
 "decree",
-"deep",
 "delay",
 "delta",
 "deluxe",
@@ -780,17 +733,12 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "droves",
 "drum",
 "dry",
-"drying",
 "dual",
 "duchy",
 "dull",
-"dump",
-"dumps",
-"dust",
 "dutchess",
 "duty",
 "dynasty",
-"each",
 "ear",
 "earing",
 "earl",
@@ -1113,6 +1061,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "greenhouse",
 "grid",
 "grills",
+"grinder",
 "grindstone",
 "gross",
 "ground",
@@ -1255,6 +1204,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hotel",
 "house",
 "houses",
+"how",              // standalone & placenames (120)
 "hub",
 "hundred",
 "hundreds",

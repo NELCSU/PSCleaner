@@ -2,6 +2,7 @@ const a: RegExp[] = [
   /\b(?:american|australian)\sfootball\b/gmi,
   /\bbali\sbreeze\b/gmi,
   /\bball\sbearing\b/gmi,
+  /\bangle\sgrinder\b/gmi,
   /\bariel\s(?:liquitab|tablets?|washing)\b/gmi,
   /\bastro\sturf\b/gmi,
   // B
