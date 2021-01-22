@@ -12,7 +12,7 @@ const a: RegExp[] = [
   /\bbean\sbag\b/gmi,
   /\bbent\s(?:down|inwards|over)\b/gmi,
   /\bblue\stack\b/gmi,
-  /\b(?:bunk|divan|off\sthe|out\sof)\sbed\b/gmi,
+  /\b(?:bunk|divan|wooden)\sbed\b/gmi,
   // C
   /\bcandle\swax\b/gmi,
   /\bswallow[a-z]*\schalk\b/gmi,
@@ -54,6 +54,8 @@ const a: RegExp[] = [
   /\b(?:ji?u)?[\s-]?jitsu\b/gmi,
   /\blower\sleg\b/gmi,
   /\b(?:car|lift)\sjack\b/gmi,
+  // L
+  /\b(?:from|of|off|on)\sladder\b/gmi,
   // M
   /\bmartial\sarts?\b/gmi,
   /\bmoses\sbasket\b/gmi,
@@ -93,7 +95,7 @@ const a: RegExp[] = [
   /\bwendy\shouse\b/gmi,
   /\bwhite\sspirit\b/gmi,
   /\bwindow\ssill\b/gmi,
-  /\bwooden\sfloor\b/gmi,
+  /\bwooden\s(?:chair|door|floor)\b/gmi,
   // Z
   /\bzimmer\sframe\b/gmi
 ];

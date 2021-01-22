@@ -15,17 +15,17 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "airs",             // surname
 "airstream",        // first name
 "all",              // placenames (299)
-"allied",           // first names and placenames (2)
+"allied",           // first names & placenames (2)
 "allotment",        // placenames (122)
 "allotments",       // placenames (20)
 "ally",             // first name
-"alt",              // first name and placenames (68)
+"alt",              // first name & placenames (68)
 "alterman",         // surname
 "alters",           // surname
 "ambassador",       // standalone & placenames (10)
 "amen",             // first name & placenames (3)
 "amnesty",          // first name
-"annex",            // first name and placenames (4)
+"annex",            // first name & placenames (4)
 "anniversaries",    // standalone placename
 "anon",             // first name
 "apex",             // first name & placenames (8)
@@ -44,101 +44,55 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "arrow",            // standalone & placenames (42)
 "arsenal",          // first name & placenames (9)
 "art",              // first name & placenames (42)
-"artisan",
-"artisans",
-"artist",
-"artists",
-"arts",
-"ascension",
-"asparagus",
-"aspect",
-"aspects",
-"asylum",
-"athlete",
-"athletes",
-"athletic",
-"atlantic",
-"atlas",
-"atomic",
-"attenuation",
-"attic",
-"auburn",
-"auctioneers",
-"audiology",
-"audit",
-"august",
-"aura",
-"authority",
-"auto",
-"avatar",
-"avowal",
-"award",
-"awkward",
-"axe",
-"axial",
-"axiom",
-"axis",
-"baby",
-"back",
-"bad",
-"badminton",
-"bagman",
-"bagmans",
-"bail",
-"bailiff",
-"bailiffs",
-"bailing",
-"baits",
-"bakery",
-"balance",
-"balcony",
-"ball",
-"balloon",
-"ballplay",
-"balls",
-"ban",
-"banker",
-"banks",
-"banning",
-"bannister",
-"bans",
-"bar",
-"barbeque",
-"bard",
-"bare",
-"barista",
-"barrier",
-"barriers",
-"barring",
-"bars",
-"basal",
-"basalt",
-"baseball",
-"basin",
-"basket",
-"baskets",
-"batch",
-"batchelors",
-"batman",
-"batmans",
-"batter",
-"battery",
-"bay",
-"bays",
-"bazaar",
-"bazooka",
-"beach",
-"beaches",
-"beacon",
-"beacons",
-"bead",
-"beads",
-"beady",
-"beam",
-"bear",
-"beard",
-"bears",
-"beat",
+"arts",             // surname & placenames (90)
+"ascension",        // first name & placenames (8)
+"atlantic",         // first name & placenames (29)
+"atlas",            // first name & placenames (18)
+"atomic",           // first name
+"auburn",           // first name & placenames (14)
+"audit",            // first name & placename
+"august",           // first name & placenames (9)
+"aura",             // first name
+"avatar",           // first name
+"awkward",          // surname & placename
+"axe",              // surname & placenames (21)
+"baby",             // first name & placenames (8)
+"back",             // placenames (1k+)
+"bad",              // placenames (275)
+"badminton",        // surname & placenames (19)
+"bail",             // first name & placenames (9)
+"bailiff",          // surname & placenames (5)
+"bakery",           // placenames (21)
+"balcony",          // standalone and placename
+"ball",             // placenames (121)
+"balls",            // surname & placenames (21)
+"ban",              // placenames (31)
+"banks",            // surname & placenames (240)
+"banning",          // surname & placenames (3)
+"bannister",        // first name & placenames (22)
+"bans",             // surname
+"bar",              // placenames (189)
+"bard",             // first name & placenames (13)
+"bare",             // standalone & placenames (20)
+"barring",          // surname & placenames (3)
+"bars",             // surname & placenames (16)
+"basal",            // surname
+"basin",            // first name & placenames (74)
+"batch",            // first names & placenames (60)
+"batchelors",       // standalone & placenames (4)
+"batman",           // surname & placename
+"batter",           // surname & placenames (6)
+"bay",              // placenames (1k+)
+"bays",             // first name & placenames (11)
+"beach",            // placenames (403)
+"beacon",           // placenames (206)
+"beacons",          // standalone & placenames (15)
+"bead",             // surname & placenames (3)
+"beady",            // surname & placename
+"beam",             // placenames (21)
+"bear",             // first name & placenames (40)
+"beard",            // surname & placenames (9)
+"bears",            // surname & placenames (11)
 "beauty",
 "bedding",
 "beds",
@@ -1338,7 +1292,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "labour",
 "lack",
 "lacrosse",
-"ladder",
+"ladder",             // standalone & placenames (21)
+"ladders",
 "ladies",
 "lady",
 "lambing",
@@ -2854,6 +2809,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "wires",
 "wish",
 "wonder",
+"wooden",             // standalone & placenames (16)
 "works",
 "worms",
 "worship",
