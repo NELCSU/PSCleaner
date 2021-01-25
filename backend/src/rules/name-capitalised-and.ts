@@ -93,119 +93,84 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "bear",             // first name & placenames (40)
 "beard",            // surname & placenames (9)
 "bears",            // surname & placenames (11)
-"beauty",
-"bedding",
-"beds",
-"bee",
-"bees",
-"began",
-"beggars",
-"bell",
-"bells",
-"bench",
-"bend",
-"bending",
-"bendy",
-"bent",
-"berries",
-"best",
-"beta",
-"between",
-"bib",
-"bible",
-"bibles",
-"bibs",
-"bicentennial",
-"bicep",
-"bidder",
-"big",
-"bigger",
-"bile",
-"bin",
-"binder",
-"binders",
-"binding",
-"binning",
-"bishopric",
-"bitten",
-"bitumen",
-"black",
-"blacks",
-"blade",
-"blades",
-"blanket",
-"blankets",
-"blast",
-"blaster",
-"bleach",
-"bled",
-"blessed",
-"blessing",
-"blind",
-"blinder",
-"blinds",
-"blindside",
-"blob",
-"block",
-"bloods",
-"bloody",
-"blue",
-"bluebell",
-"blueberry",
-"bluebird",
-"blunt",
-"boar",
-"board",
-"boarder",
-"boards",
-"boat",
-"bode",
-"boiler",
-"boilerhouse",
-"boiling",
-"bold",
-"bolder",
-"boner",
-"bones",
-"boney",
-"bonnet",
-"bony",
-"boomer",
-"boomerang",
-"booms",
-"boon",
-"boot",
-"boots",
-"booze",
-"border",
-"borders",
-"bore",
-"borrow",
-"boss",
-"bottle",
-"bottom",
-"boulder",
-"bouts",
-"bowels",
-"bowl",
-"bowling",
-"box",
-"boxer",
-"boxers",
-"boy",
-"boys",
-"brace",
-"brain",
-"brand",
-"brave",
-"bravery",
-"bravo",
-"breach",
-"breaches",
-"bread",
-"break",
-"breakfast",
-"breaks",
+"bedding",          // surname & placenames (4)
+"beds",             // placenames (44)
+"bee",              // first name & placenames (32)
+"bees",             // surname & placenames (15)
+"began",            // surname & placenames (3)
+"beggars",          // placenames (21)
+"bell",             // surname & placenames (241)
+"bells",            // surname & placenames (63)
+"bend",             // placenames (14)
+"bending",          // surname & placenames (3)
+"bendy",            // surname & placename (2)
+"bent",             // first name & placenames (57)
+"best",             // surname & placenames (13)
+"beta",             // first name & placenames (10)
+"bib",              // surname & placenames (5)
+"bibles",           // surname & placename
+"bibs",             // first name
+"bicep",            // surname
+"bidder",           // surname & placenames (3)
+"big",              // placenames (233)
+"bigger",           // surname
+"bile",             // first name & placenames (4)
+"bin",              // first name & placenames (15)
+"binder",           // first name & placenames (4)
+"binding",          // first name & placename
+"binning",          // first name & placenames (7)
+"bishopric",        // placename
+"bitten",           // first name & placename
+"black",            // placenames (744)
+"blacks",           // surname & placenames (7)
+"blades",           // surname & placenames (7)
+"bleach",           // surname & placenames (8)
+"bled",             // first name
+"blessed",          // first name & placenames (22)
+"blessing",         // first name & placenames (4)
+"blind",            // surname & placenames (40)
+"blinder",          // surname
+"blue",             // placenames (222)
+"bluebell",         // first name & placenames (52)
+"blueberry",        // first name & placenames (15)
+"bluebird",         // first name & placenames (13)
+"blunt",            // surname & placenames (7)
+"boar",             // surname & placenames (27)
+"boarder",          // surname
+"boards",           // surname & placenames (6)
+"boat",             // placenames (77)
+"bode",             // first name
+"bolder",           // surname & placename
+"boner",            // surname
+"bones",            // first name & placenames (13)
+"boney",            // first name & placenames (6)
+"bonnet",           // first name & placenames (10)
+"bony",             // first name
+"boomer",           // surname & place name
+"booms",            // surname
+"boon",             // first name & placenames (14)
+"boot",             // standalone & placenames (22)
+"boots",            // first name & placenames (4)
+"booze",            // surname & placenames (5)
+"border",           // placenames (36)
+"borders",          // surname & placenames (10)
+"bore",             // first name & placenames (15)
+"boss",             // placenames (9)
+"bottom",           // placenames (1k+)
+"boulder",          // standalone & placenames (10)
+"bouts",            // surname & placenames (4)
+"bowels",           // usrname & placename
+"bowling",          // surname & placenames (70)
+"box",              // standalone & placenames (74)
+"boxer",            // firstname & placenames (5)
+"boys",             // first name & placenames (71)
+"brace",            // first name & placenames (14)
+"brand",            // surname & placenames (29)
+"brave",            // surname
+"bravery",          // surname & placename
+"bravo",            // first names & placenames (2)
+"breach",           // surname  & placenames (42)
+"breaks",           // surname & placenames (10)
 "breast",
 "breath",
 "breech",

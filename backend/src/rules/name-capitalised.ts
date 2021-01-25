@@ -294,7 +294,6 @@ const a: string[] = [
 "autobahns",
 "automata",
 "autumn",
-"aux",
 "avalanche",
 "avant",
 "avantgarde",

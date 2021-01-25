@@ -10,7 +10,7 @@ const a: RegExp[] = [
   /\blaw\sschool\b/gmi,
   /\b(?:central|reserve|world)\sbank\b/gmi,
   /\bnational\scollege\b/gmi,
-  /\bnhs\s(?:england|scotland|wales)\b/gmi,
+  /\bnhs\s(?:england|london|scotland|wales)\b/gmi,
   /\bpubic\shealth\sengland\b/gmi,
   /\broyal\s(?:college|mail|navy)\b/gmi,
   /\bserco\b/gmi,
