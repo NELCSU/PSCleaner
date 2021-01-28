@@ -82,6 +82,8 @@ const a: RegExp[] = [
   /\bon\sfoot\b/gmi,
   /\bon\stop\sof\b/gmi,
   /\boverton\swindow\b/gmi,
+  // P
+  /\bhaving\sa\spaddy\b/gmi,
   /\bpeace\sprize\b/gmi,
   /\bto\speter\sout\b/gm,
   /\bpetri\sdish\b/gmi,

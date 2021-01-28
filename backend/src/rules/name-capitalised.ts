@@ -5091,7 +5091,6 @@ const a: string[] = [
 "paddling",
 "paddock",
 "paddocks",
-"paddy",
 "padlock",
 "padre",
 "pads",

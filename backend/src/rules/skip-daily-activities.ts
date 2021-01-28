@@ -63,6 +63,7 @@ const a: RegExp[] = [
   // O
   /\bon\s(?:shelf|table)\b/gmi,
   // P
+  /\brice\spaddy\b/gmi,
   /\bpiece\sof\swood\b/gmi,
   /\bpiggy\sback\b/gmi,
   /\bping\spong\b/gmi,

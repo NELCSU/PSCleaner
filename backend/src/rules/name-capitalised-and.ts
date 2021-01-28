@@ -171,79 +171,49 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "bravo",            // first names & placenames (2)
 "breach",           // surname  & placenames (42)
 "breaks",           // surname & placenames (10)
-"breast",
-"breath",
-"breech",
-"breeches",
-"breeze",
-"brew",
-"brewers",
-"brewery",
-"bridge",
-"brigade",
-"brigadier",
-"bright",
-"brighten",
-"brighter",
-"brightly",
-"brightness",
-"brights",
-"bristles",
-"brit",
-"britannic",
-"brits",
-"brittannia",
-"brittle",
-"bro",
-"broad",
-"broads",
-"broken",
-"bubble",
-"bubbles",
-"bucket",
-"buckets",
-"buckle",
-"buckler",
-"bucklers",
-"buckles",
-"bud",
-"budding",
-"buddy",
-"budge",
-"budges",
-"buggy",
-"buff",
-"builder",
-"building",
-"buildings",
-"bulb",
-"bulk",
-"bump",
-"burial",
-"burka",
-"burn",
-"burned",
-"burner",
-"burners",
-"burning",
-"burns",
-"burnt",
-"burst",
-"bushes",
-"butchers",
-"butt",
-"butter",
-"buttercup",
-"buttercups",
-"butteries",
-"buttermilk",
-"butternut",
-"buttock",
-"buttocks",
-"button",
-"buttress",
-"buzz",
-"buzzer",
+"breech",           // first name & placenames (10)
+"brew",             // first name & placenames (3)
+"brewers",          // surname & placenames (22)
+"brewery",          // placenames (39)
+"bridge",           // placenames (1k+)
+"bright",           // first name & placenames (29)
+"brighten",         // surname & placename
+"brighter",         // surname & placename
+"brightly",         // first name
+"brit",             // first name & placenames (4)
+"brits",            // first name
+"brittle",          // surname & placenames (6)
+"bro",              // surname & placenames (148)
+"broad",            // placenames (468)
+"bubbles",          // first name
+"buckle",           // surname & placenames (14)
+"buckler",          // surname & placenames (10)
+"bucklers",         // placenames (12)
+"buckles",          // surname & placenames (8)
+"bud",              // surname & placename
+"budding",          // surname & placenames (4)
+"buddy",            // first name
+"budge",            // surname & placenames (5)
+"buggy",            // surname & placename
+"buff",             // surname & placenames (5)
+"building",         // placenames (91)
+"buildings",        // placenames (112)
+"bulk",             // standalone & placenames (4)
+"bump",             // surname & placenames (3)
+"burka",            // surname & placename
+"burn",             // placenames (257)
+"burner",           // surname
+"burns",            // first name & placenames (54)
+"burnt",            // placenames (131)
+"bushes",           // placenames (154)
+"butchers",         // surname & placenames (17)
+"butt",             // placenames (62)
+"butter",           // placenames (33)
+"buttercup",        // first name & placenames (23)
+"button",           // placenames (23)
+"buttress",         // surname & placenames (9)
+"buzz",             // first name & placename
+"buzzer",           // surname
 "bypass",
 "cabal",
 "cabin",
@@ -1596,7 +1566,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "orthopaedic",
 "otters",
 "our",
-"out",
 "outburn",
 "outer",
 "outlook",
@@ -2102,7 +2071,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sculpture",
 "scum",
 "scythe",
-"sea",
+"sea",                // placenames (189)
 "search",
 "searchers",
 "searches",

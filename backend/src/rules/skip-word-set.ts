@@ -1221,7 +1221,6 @@ const a: string[] = [
 "oversea",
 "overzealous",
 "ovum",
-"paddy",
 "padre",
 "pagoda",
 "panga",
