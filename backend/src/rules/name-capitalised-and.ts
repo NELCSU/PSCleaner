@@ -214,38 +214,24 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "buttress",         // surname & placenames (9)
 "buzz",             // first name & placename
 "buzzer",           // surname
-"bypass",
-"cabal",
-"cabin",
-"cable",
-"cackle",
-"cadre",
-"cage",
-"cairns",
-"cake",
-"calendar",
-"calf",
-"came",
-"camera",
-"camp",
-"camper",
-"campers",
-"camps",
-"canal",
-"canals",
-"canaries",
-"canary",
-"cancer",
-"canister",
-"canteen",
-"cap",
-"capital",
-"capitol",
-"captain",
-"car",
-"caravan",
-"card",
-"cardinal",
+"cabal",            // surname & placenames (3)
+"cadre",            // first name
+"cage",             // surname & placenames (14)
+"cairns",           // first name & placenames (29)
+"calf",             // surname & placenames (77)
+"came",             // first name & placenames (9)
+"camp",             // placenames (111)
+"camper",           // surname & placenames (9)
+"camps",            // first name & placenames (26)
+"canal",            // first name & placenames (89)
+"canals",           // surname
+"canaries",         // placenames (2)
+"canary",           // first name & placenames (14)
+"canteen",          // surname & placename
+"captain",          // placenames (30)
+"car",              // placenames (50)
+"caravan",          // surname & placenames (16)
+"cardinal",         // first name & placenames (43)
 "careless",
 "caretakers",
 "carnival",
