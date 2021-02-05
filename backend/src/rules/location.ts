@@ -27,7 +27,8 @@ const a: RegExp[] = [
   /\bMetal\sBridge\b/gm,
   /\b(?:Audiology|Energy\sRecovery)\sCentre\b/gm,
   /\bsmearing\scleuch\b/gmi,
-  /\b(?:armourers|basalt|batteries|beekeeper|culture|hybrid|wooded)\sclose\b/gmi,
+  // close
+  /\b(?:armourers|basalt|batteries|beekeeper|caretakers|culture|hybrid|wooded)\sclose\b/gmi,
   /\b(?:Line|Principle|Springbok|Trade)\sClose\b/gm,
   /\b(?:European|Independent|International|Language|Reformatory|Science|Technical|Technology|University)\sCollege\b/gm,
   /\bantiquarian\scoppice\b/gmi,
@@ -290,6 +291,7 @@ const a: RegExp[] = [
   /\b(?:hampton\scare|care\s(?:centre|hill|village))\b/gmi,
   /\bCare\sHome\b/gm,
   /\bcarpet\s(?:lane|picnic\splace|trades\sway|wood)\b/gmi,
+  /\bcarting\s(?:dale|house\sclose|lane)\b/gmi,
   /\bcentury\s(?:avenue|belt|close|court|drive|fields|gardens|lane|lodge|mews|park|place|plantation|ponds|road|square|street|view|walk|way|wood)\b/gmi,
   /\bchaos\s(?:clumps|pool)\b/gmi,
   /\bcharcoal\s(?:burners\sroad|grove|lane|plantation|pond|road|woods?)\b/gmi,

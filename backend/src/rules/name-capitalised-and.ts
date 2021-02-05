@@ -232,13 +232,11 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "car",              // placenames (50)
 "caravan",          // surname & placenames (16)
 "cardinal",         // first name & placenames (43)
-"careless",
-"caretakers",
-"carnival",
-"carpenter",
-"carpenters",
-"carte",
-"carting",
+"careless",         // surname & placenames (3)
+"carnival",         // surname & placenames (2)
+"carpenter",        // surname & placenames (18)
+"carpenters",       // placenames (26)
+"carte",            // first name & placenames (2)
 "carton",
 "cart",
 "cartridge",

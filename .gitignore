@@ -2,6 +2,7 @@
 tsconfig.tsbuildinfo
 
 npm-debug.log
+debug.log
 
 electron-builder.yml
 backend/build
