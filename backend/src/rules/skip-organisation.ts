@@ -1,20 +1,33 @@
 const a: RegExp[] = [
-  /\b(?:APEC|CIA|DEFRA|HMRC|MHRA|MIT|NAO|OPEC|PLO|SETI)\b/gm,
+  /\b(?:APEC|CIA|DEFRA|HMRC|MHRA|MIT|NAO|OPEC|PHE|PLO|SETI)\b/gm,
   
-  /\bamazon\b/gmi,
+  /\b(?:amazon|american\sexpress)\b/gmi,
+  // B
   /\bburger\sking\b/gmi,
-  /\b(?:catholic|orthodox)\schurch\b/gmi,
-  /\bjp\smorgan\schase\b/gmi,
-  /\b(?:district|supreme)\scourt\b/gmi,
-  /\bku\sklux\sklan\b/gmi,
-  /\blaw\sschool\b/gmi,
   /\b(?:central|reserve|world)\sbank\b/gmi,
-  /\bnational\scollege\b/gmi,
+  // C
+  /\b(?:catholic|orthodox)\schurch\b/gmi,
+  // D
+  /\b(?:district|supreme)\scourt\b/gmi,
+  // E
+  /\beasyjet\b/gmi,
+  // J
+  /\bjp\smorgan\schase\b/gmi,
+  // K
+  /\bku\sklux\sklan\b/gmi,
+  // L
+  /\blaw\sschool\b/gmi,
+  // N
+  /\b(?:national\scollege|nato|newshub)\b/gmi,
   /\bnhs\s(?:england|london|scotland|wales)\b/gmi,
+  // P
   /\bpubic\shealth\sengland\b/gmi,
+  // R
   /\broyal\s(?:college|mail|navy)\b/gmi,
+  // S
   /\bserco\b/gmi,
-  /\b(?:nato|unesco|unicef|united\snations)\b/gmi,
+  // U
+  /\b(?:unesco|unicef|united\snations)\b/gmi,
 ];
 const OrganisationRegEx: Set<RegExp> = new Set();
 a.forEach(term => OrganisationRegEx.add(term));

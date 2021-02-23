@@ -629,6 +629,7 @@ const a: RegExp[] = [
   /\bstill\s(?:haugh|house\swood|man\sclose)\b/gmi,
   /\bStill\s(?:Close|Green|Lane|Way)\b/gm,
   /\bna\sstill\b/gmi,
+  /\b(?:busseys?\sstool\s(?:park|plantation)|cuck\sstool\slane|ducking\sstool\s(?:court|lane)|noe\sstool|symond'?s\sstool\scoppice|trow's\sstool|stool\s(?:close\sroad|taings))\b/gmi,
   /\bstrangers\s(?:lane|way)\b/gmi,
   /\bstaircase\s(?:lane|plantation|wood)\b/gmi,
   /\b(?:devil'?s\sstaircase|circular\sstaircase\splantation)\b/gmi,

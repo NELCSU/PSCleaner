@@ -90,7 +90,9 @@ const a: RegExp[] = [
   /\bpower\sclub\b/gmi,
   /\b(?:lower|upper)\squadrant\b/gmi,
   /\bquod\serat\b/gmi,
+  // R
   /\bran\sback\b/gmi,
+  /\broad\smap\b/gm,
   /\brust\sbelt\b/gmi,
   /\b[Ss]ales\sof\s\w+\b/gm,
   /\b(?:santa\sclaus|santa'?s?\sgrottos?)\b/gmi,

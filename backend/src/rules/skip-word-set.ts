@@ -399,7 +399,6 @@ const a: string[] = [
 "commissar",
 "communique",
 "complete",
-"conakry",
 "conceit",
 "concerti",
 "concerto",

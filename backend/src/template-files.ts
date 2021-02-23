@@ -1,5 +1,5 @@
 import { app, ipcMain as ipc } from "electron";
-import * as stringify from "json-stringify-pretty-compact";
+import stringify from "json-stringify-pretty-compact";
 import * as csv from "fast-csv";
 import { join } from "path";
 import { FileManager } from "./file-manager";
