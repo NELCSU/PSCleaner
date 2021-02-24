@@ -22,41 +22,35 @@ const a: RegExp[] = [
   /\b[a-z]+zomib\b/gmi,
   /\b[a-z]+zumab\b/gmi,
 
-  /\b(?:ac[io]cl|umifen)ovir\b/gmi,
-  /\b(?:adalimu|bamlanivi)mab\b/gmi,
-  /\balimentum\b/gmi,
-  /\baloe\svera\b/gmi,
-  /\b(?:co\-?)?amox?iclav\b/gmi,
-  /\barrestin\b/gmi,
-  /\baugment[iu]m\b/gmi,
-  /\bavigan\b/gmi,
-  /\bben[ao]dryl\b/gmi,
-  /\bbonjela\b/gmi,
-  /\bcal?pol\b/gmi,
-  /\bcefuroxime\b/gmi,
-  /\bcetiri?zine\b/gmi,
-  /\bclarithro\b/gmi,
-  /\bcodiene\b/gmi,
-  /\b(?:(?:co\-?)?cod[ao]|(?:co\-?)?dyd?ra|der|para[aceort]+|salbut?[ao])mol\b/gmi,
-  /\bcorazol\b/gmi,
-  /\bcurevac\b/gmi,
-  /\bdiclofenac\b/gmi,
-  /\bdihydrocodiene\b/gmi,
-  /\bdioral[ty]{2}e\b/gmi,
+  // A
+  /\ba(?:limentum|loe\svera|mox?iclav|rrestin|ugment[iu]m|vigan)\b/gmi,
+  //B
+  /\bb(?:en[ao]dryl|onjela)\b/gmi,
+  // C
+  /\bc(?:al?pol|efuroxime|etiri?zine|larithro|odiene|oronavac|(?:o\-?c)?od[ao]mol|orazol|urevac)\b/gmi,
+  // D
+  /\bdi(?:clofenac|hydrocodiene|oral[ty]{2}e)\b/gmi,
+  // E
   /\bepi\spen\b/gmi,
-  /\b(?:favipi?r[ai]|remdesi)vir\b/gmi,
-  /\bfluclox\b/gmi,
-  /\bfluox[ei]tie?ne\b/gmi,
+  // F
+  /\bf(?:avipi?r[ai]vir|lu(?:clox|ox[ei]tie?ne))\b/gmi,
+  // L
   /\blopinavir\b/gmi,
-  /\bmanuka\shoney\b/gmi,
-  /\bmethotrexate\b/gmi,
-  /\bmidaz\b/gmi,
+  // M
+  /\bm(?:anuka\shoney|ethotrexate|idaz)\b/gmi,
+  // N
   /\bnicorette\b/gmi,
+  // O
   /\bomeprazoel\b/gmi,
+  // P
   /\bprozac\b/gmi,
-  /\btramadol\b/gmi,
-  /\btrimethopr[io]m\b/gmi,
-  /\btruxima\b/gmi,
+  // R
+  /\bremdesivir\b/gmi,
+  // S
+  /\bs(?:albut?[ao]mol|inovac)\b/gmi,
+  // T
+  /\btr(?:amadol|imethopr[io]m|uxima)\b/gmi,
+  // V
   /\bviagra\b/gmi
 ];
 const MedicationRegEx: Set<RegExp> = new Set();

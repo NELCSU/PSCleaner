@@ -40,6 +40,7 @@ const a: RegExp[] = [
   /\b(?:cut|hurt)\s(?:hand|neck|shoulder)\b/gmi,
   // G
   /\bgas\spipe\b/gmi,
+  /\bgetting\s(?:in|from|to|out)\b/gmi,
   /\bglass\s(?:cut|table)\b/gmi,
   // H
   /\bhair\sdryer\b/gmi,
@@ -64,6 +65,7 @@ const a: RegExp[] = [
   /\bon\s(?:shelf|table)\b/gmi,
   // P
   /\brice\spaddy\b/gmi,
+  /\bpaint\sballing\b/gmi,
   /\bpiece\sof\swood\b/gmi,
   /\bpiggy\sback\b/gmi,
   /\bping\spong\b/gmi,
@@ -76,7 +78,6 @@ const a: RegExp[] = [
   // S
   /\bscarf\spin\b/gmi,
   /\bskate\s?park\b/gmi,
-  /\bslipped\sfoot\b/gmi,
   /\bsma\sgold\b/gmi,
   /\bstair\sgate\b/gmi,
   /\b(?:stanley|swiss\sarmy)\sknife\b/gmi,

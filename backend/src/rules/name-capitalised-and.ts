@@ -65,6 +65,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "bakery",           // placenames (21)
 "balcony",          // standalone and placename
 "ball",             // placenames (121)
+"balling",          // surname
 "balls",            // surname & placenames (21)
 "ban",              // placenames (31)
 "banks",            // surname & placenames (240)
@@ -237,90 +238,57 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "carpenter",        // surname & placenames (18)
 "carpenters",       // placenames (26)
 "carte",            // first name & placenames (2)
-"carton",
-"cart",
-"cartridge",
-"carts",
-"cash",
-"cashes",
-"cashier",
-"cast",
-"catcher",
-"cathedral",
-"catholic",
-"cathouse",
-"cause",
-"celsius",
-"cemetery",
-"centenary",
-"central",
-"centre",
-"chain",
-"chains",
-"challenge",
-"challenger",
-"chamber",
-"champions",
-"chancellor",
-"chancellors",
-"change",
-"channel",
-"channeler",
-"channels",
-"chargeable",
-"charger",
-"charges",
-"chariots",
-"charity",
-"charmers",
-"chart",
-"chat",
-"cheats",
-"checker",
-"cheeks",
-"cheer",
-"cheering",
-"chemist",
-"chemistry",
-"chicken",
-"chickens",
-"chiefs",
-"child",
-"childhoods",
-"children",
-"childrens",
-"childs",
-"chime",
-"chimes",
-"chimneysweeper",
-"chin",
-"cholera",
-"choral",
-"chord",
-"chorus",
-"chosen",
-"christ",
-"christians",
-"christmas",
-"circle",
-"circs",
-"circuit",
-"circular",
-"circus",
-"cistern",
-"city",
-"civic",
-"clamp",
-"clamps",
-"clap",
-"clashing",
-"classic",
-"classroom",
-"clear",
-"clearings",
-"clears",
-"cleat",
-"cleats",
+"carton",           // first name & placenames (4)
+"cartridge",        // surname & placenames (7)
+"cash",             // first name & placename (9)
+"cashier",          // surname
+"catcher",          // surname & placenames (3)
+"cathedral",        // standalone & placenames (59)
+"catholic",         // placenames (1k+)
+"cause",            // standalone & placenames (3)
+"celsius",          // first name
+"cemetery",         // placenames (22)
+"centenary",        // placenames (21)
+"center",           // US spelling of centre
+"central",          // placenames (381)
+"centre",           // placenames (659)
+"chain",            // placenames (31)
+"challenger",       // first name & placenames (7)
+"chamber",          // placenames (17)
+"chancellor",       // first name & placenames (17)
+"chancellors",      // standalone & placenames (10)
+"channel",          // placenames (135)
+"channels",         // surname & placenames (5)
+"charges",          // first name & placename
+"charity",          // first name & placenames (34)
+"charmers",         // first name
+"chart",            // placenames (28)
+"chat",             // first name & placenames (5)
+"checker",          // surname & placenames (4)
+"cheeks",           // surname & placename
+"chemistry",        // standalone & placenames (2)
+"chicken",          // placenames (15)
+"children",         // first name & placenames (16)
+"childrens",        // placenames (24)
+"childs",           // surname & placenames (17)
+"chime",            // first name & placenames (3)
+"chimes",           // surname & placenames (9)
+"chin",             // surname & placename
+"cholera",          // surname
+"chord",            // surname
+"chosen",           // first name & placenames (5)
+"christ",           // first name & placenames (133)
+"christians",       // surname
+"christmas",        // surname & placenames (14)
+"circle",           // placenames (245)
+"circular",         // placenames (29)
+"circus",           // surname & placenames (123)
+"city",             // placenames (196)
+"civic",            // placenames (11)
+"clamp",            // surname & placenames (12)
+"clap",             // surname & placenames (12)
+"clashing",         // surname
+"cleat",            // standalone & placenames (5)
 "clergy",
 "cleric",
 "click",
@@ -644,7 +612,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "elite",
 "embassy",
 "embody",
-"emergency",
 "end",
 "endless",
 "ends",
@@ -875,6 +842,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "genesis",
 "gentle",
 "germans",
+"getting",             // surname & placename (1)
 "ghetto",
 "ghost",
 "giant",
@@ -1049,6 +1017,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "holding",
 "hole",
 "holes",
+"holy",         // placenames (188)
 "home",
 "homeland",
 "homelands",
@@ -1071,6 +1040,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "horses",
 "horseshoe",
 "horticultural",
+"hose",             // surname & standalone & placenames (8)
 "hospice",
 "hospital",
 "host",
@@ -1335,7 +1305,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "macro",
 "madam",
 "mafia",
-"magazine",
 "maggot",
 "maggots",
 "magistrates",
@@ -1436,8 +1405,11 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "mounts",
 "mourning",
 "mouth",
+"mower",          // first name & placenames (3)
+"mowers",         // surname
 "mowing",
 "much",
+"mudder",         // surname
 "multi",
 "mundane",
 "municipal",
@@ -1512,16 +1484,15 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "nursey",
 "nuts",
 "nutty",
+"o2",
 "obelisk",
-"oblique",
-"observatory",
-"occidental",
+"observatory",      // standalone & placenames (16)
+"occidental",       // surname
 "ocean",
 "oceanic",
 "octagon",
 "october",
 "odyssey",
-"off",
 "oh",
 "oil",
 "old",
@@ -2266,6 +2237,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sprays",
 "spread",
 "sprite",
+"spurt",
 "squabs",
 "squad",
 "squadron",
@@ -2521,10 +2493,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "trap",
 "travellers",
 "trays",
-"treadmill",
 "treasure",
 "tree",
-"treehouse",
 "trees",
 "tremor",
 "triangle",
@@ -2706,7 +2676,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "west",
 "westbound",
 "western",
-"wheel",
 "whisker",
 "whisky",
 "whistle",
@@ -2739,6 +2708,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "yellow",
 "yen",
 "ymca",
+"yoga",               // first name & placename (2)
 "younger",
 "zebra",
 "zeppelin",
