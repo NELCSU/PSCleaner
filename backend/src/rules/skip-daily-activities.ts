@@ -18,6 +18,7 @@ const a: RegExp[] = [
   /\bswallow[a-z]*\schalk\b/gmi,
   /\bchain\ssaw\b/gmi,
   /\bcheddar\scheese\b/gmi,
+  /\bcircular\ssaw\b/gmi,
   /\bcotton\sbud\b/gmi,
   /\bclimbing\sframe\b/gmi,
   /\bcut\sthrough\b/gmi,
@@ -39,11 +40,12 @@ const a: RegExp[] = [
   /\bfriends\shouse\b/gmi,
   /\b(?:cut|hurt)\s(?:hand|neck|shoulder)\b/gmi,
   // G
-  /\bgas\spipe\b/gmi,
+  /\b(?:gas\spipe|garage\sdoor)\b/gmi,
   /\bgetting\s(?:in|from|to|out)\b/gmi,
   /\bglass\s(?:cut|table)\b/gmi,
   // H
   /\bhair\sdryer\b/gmi,
+  /\bhand\ssaw\b/gmi,
   /\bhard\sedge\b/gmi,
   /\bhead\sinj(?:ury)?\b/gmi,
   /\b(?:bleach|(?:hot\s)?water)\sbottle\b/gmi,
@@ -74,7 +76,7 @@ const a: RegExp[] = [
   /\bplaydoh\b/gmi,
   // R
   /\b(?:nations\s)?rugby\s(?:league|union)\b/gmi,
-  /\brocking\shorse\b/gmi,
+  /\b(?:rocking\shorse|roller\scoaster)\b/gmi,
   // S
   /\bscarf\spin\b/gmi,
   /\bskate\s?park\b/gmi,

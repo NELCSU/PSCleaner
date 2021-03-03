@@ -189,7 +189,7 @@ ipc.on("NLP-response", (_: Event, response: any) => {
 
 ipc.send("get-entities");
 
-remote.getCurrentWindow().webContents.on('context-menu', (_, params) => {
+remote.getCurrentWindow().webContents.on("context-menu", (_, params) => {
   if (params.dictionarySuggestions.length > 0) {
     contextMenu.insert(0, new MenuItem({
       label: "Spelling suggestions",
