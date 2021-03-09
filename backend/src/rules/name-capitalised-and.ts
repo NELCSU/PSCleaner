@@ -316,66 +316,34 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "conduit",          // surname & placenames (31)
 "cons",             // first name & placenames (2)
 "consul",           // surname & placenames (5)
-"contract",
-"contractor",
-"control",
-"convalescent",
-"convener",
-"cooker",
-"coons",
-"cooperative",
-"cops",
-"copse",
-"copses",
-"copy",
-"cordon",
-"core",
-"cornea",
-"corneal",
-"corner",
-"corners",
-"corona",
-"coronation",
-"corp",
-"corporate",
-"corporation",
-"corpse",
-"correction",
-"corriander",
-"corridor",
-"cosmic",
-"cosmos",
-"costly",
-"cot",
-"councillor",
-"councillors",
-"councilman",
-"councilor",
-"count",
-"counter",
-"countess",
-"counties",
-"counting",
-"counts",
-"county",
-"courage",
-"courageous",
-"courier",
-"course",
-"court",
-"courts",
-"courtside",
-"courtyard",
-"courtyards",
-"cousin",
-"cousins",
-"cover",
-"cow",
-"crack",
-"crackle",
-"craftmans",
-"craftmens",
-"crafts",
+"cooker",           // surname
+"cops",             // surname & placename
+"copse",            // placenames (1k+)
+"cordon",           // first name & standalone & placenames (5)
+"cornea",           // first name
+"corneal",          // surname & standalone
+"corner",           // placenames (674)
+"corners",          // surname & placenames (11)
+"corona",           // first name & placenames (8)
+"coronation",       // placenames (55)
+"corp",             // surname & placenames (6)
+"cosmic",           // first name & placename
+"cosmos",           // first name
+"cot",              // surname & placenames (29)
+"councilman",       // surname
+"councilor",        // surname
+"countess",         // first name & placenames (39)
+"counts",           // surname & place name
+"county",           // placenames (462)
+"courier",          // surname & placenames (4)
+"court",            // place names (1k+)
+"courts",           // surname & placenames (20)
+"courtside",        // standalone & place name
+"courtyard",        // placenames (57)
+"courtyards",       // standalone & placenames (2)
+"cousins",          // first name & placenames (10)
+"cow",              // placenames (180)
+"crafts",           // surname & placenames (3)
 "craftsman",
 "craftsmans",
 "cramp",
@@ -567,6 +535,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "elevator",
 "eleven",
 "elite",
+"elves",        // first name
 "embassy",
 "embody",
 "end",
@@ -1660,6 +1629,13 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "post",
 "postburn",
 "postern",
+"pot",
+"potash",
+"potato",
+"potatoe",
+"potatoes",
+"pothole",
+"potpourri",
 "pound",
 "pounds",
 "pout",
