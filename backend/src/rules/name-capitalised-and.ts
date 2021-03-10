@@ -56,6 +56,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "avatar",           // first name
 "awkward",          // surname & placename
 "axe",              // surname & placenames (21)
+// B
 "baby",             // first name & placenames (8)
 "back",             // placenames (1k+)
 "bad",              // placenames (275)
@@ -215,6 +216,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "buttress",         // surname & placenames (9)
 "buzz",             // first name & placename
 "buzzer",           // surname
+// C
 "cabal",            // surname & placenames (3)
 "cadre",            // first name
 "cage",             // surname & placenames (14)
@@ -344,65 +346,35 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "cousins",          // first name & placenames (10)
 "cow",              // placenames (180)
 "crafts",           // surname & placenames (3)
-"craftsman",
-"craftsmans",
-"cramp",
-"crank",
-"cravat",
-"crawl",
-"cream",
-"creamery",
-"creative",
-"creek",
-"crescent",
-"crest",
-"crew",
-"crews",
-"crib",
-"cricketer",
-"cricketers",
-"cricketing",
-"crickets",
-"criminals",
-"crisp",
-"criterion",
-"crock",
-"crockery",
-"crocks",
-"cross",
-"crosses",
-"crossing",
-"crossings",
-"crossover",
-"crossroads",
-"croup",
-"crown",
-"cruder",
-"crutch",
-"crutches",
-"cub",
-"cue",
-"cuff",
-"cuffs",
-"cult",
-"curds",
-"curfew",
-"curl",
-"curling",
-"currants",
-"currency",
-"currents",
-"curve",
-"cut",
-"cuts",
-"cutting",
-"cyber",
-"cycle",
-"cyclone",
-"cyclops",
-"cygnet",
-"cygnets",
-"cylinder",
+"cramp",            // surname & placenames (6)
+"crank",            // surname & standalone & placenames (4)
+"creek",            // placenames (311)
+"crescent",         // placenames (1k+)
+"crest",            // surname & placenames (116)
+"crew",             // first name & placenames (11)
+"crews",            // surname & placenames (5)
+"crib",             // placenames (23)
+"cricketers",       // standalone & placenames (20)
+"crisp",            // first name & placenames (8)
+"crock",            // surname & placenames (14)
+"cross",            // placenames (1k+)
+"crosses",          // standalone & placenames (9)
+"crossing",         // surname & placenames (33)
+"crossings",        // placenames (10)
+"crossroads",       // standalone & placenames (8)
+"crown",            // placenames (146)
+"cruder",           // surname
+"crutch",           // surname & placenames (5)
+"cub",              // first name & placenames (2)
+"cuff",             // surname & standalone & placenames (4)
+"curds",            // surname & place names (2)
+"curl",             // first name & placenames (4)
+"curling",          // surname & placenames (22)
+"cut",              // placenames (137)
+"cutting",          // surname & placenames (21)
+"cyber",            // first name & placename
+"cygnet",           // standalone & placenames (20)
+// D
 "dance",
 "dancer",
 "dancers",
@@ -790,9 +762,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "gofundme",
 "gold",
 "golden",
-"golf",
-"golfer",
-"golfers",
 "good",
 "goodness",
 "goods",
@@ -1643,6 +1612,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "power",
 "practical",
 "practice",
+"pram",
 "pre",
 "premier",
 "premises",
@@ -1943,6 +1913,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sawpit",
 "saws",
 "suave",
+"sulphur",          // surname
 "superior",
 "supreme",
 "surfeit",

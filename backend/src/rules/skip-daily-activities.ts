@@ -6,7 +6,7 @@ const a: RegExp[] = [
   /\bariel\s(?:liquitab|tablets?|washing)\b/gmi,
   /\bastro\sturf\b/gmi,
   // B
-  /\bbaby\swalker\b/gmi,
+  /\bbaby\s(?:sling|walker)\b/gmi,
   /\bbali\sbreeze\b/gmi,
   /\bbatterie\b/gmi,
   /\bbean\sbag\b/gmi,
@@ -33,7 +33,7 @@ const a: RegExp[] = [
   /\beating\smcdonalds\b/gmi,
   // F
   /\bfalls?\s(?:down|from|off|on|over)\b/gmi,
-  /\bfell\s(?:backwards?|down|forward|from|off|on|over)\b/gmi,
+  /\bfell\s(?:backwards?|down|forward|from|off|on|out|over)\b/gmi,
   /\bfirst\saider\b/gmi,
   /\bfishing\shook\b/gmi,
   /\bfrench\sfries\b/gmi,

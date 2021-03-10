@@ -7,12 +7,14 @@ const a: RegExp[] = [
 
   /\ball\sof\b/gmi,
   /\ba\s(?:frank|penny|stone)\b/gmi,
+  /\bachille’?s\sheel\b/gmi,
   /\breal\sale\b/gmi,
   /\bamerican\sdream\b/gmi,
   /\bap{1,3}rox\b/gmi,
   /\barab\sspring\b/gmi,
   /\bassociate\sdean\b/gmi,
   /\bat\shome\b/gmi,
+  // B
   /\bbaby\sjesus\b/gmi,
   /\bbank\sholiday\b/gmi,
   /\bbaby\sboomer\b/gmi,
@@ -48,23 +50,28 @@ const a: RegExp[] = [
   /\bforce\sfield\b/gmi,
   /\bfoster\s(?:carer|father|mother|parent)\b/gmi,
   /\bfriends\sof\b/gmi,
+  // G
   /\bgood\sfriday\b/gmi,
   /\bguinea\spig\b/gmi,
   /\bgung[\s-]ho\b/gm,
+  // H
   /\bhail\smary\b/gmi,
   /\bhanky[\s-]panky\b/gmi,
-  /\bhead\son\b/gmi,
+  /\bhead\s(?:first|on)\b/gmi,
   /\bholding\s(?:child|hands\swith)\b/gmi,
   /\bHope\sof\b/gm,
   /\bHopes\s(?:for|that)\b/gm,
   /\bhunker\sdown\b/gmi,
+  // I
   /\bin\slieu\sof\b/gmi,
   /\bin-the-back\b/gmi,
   /\bivy\sleague\b/gmi,
+  // L
   /\blaissez[\s-]faire\b/gmi,
   /\blate[\s-]comer\b/gmi,
   /\blent\sback\b/gmi,
   /\blo\sand\sbehold\b/gmi,
+  // M
   /\bmark\smy\swords\b/gmi,
   /\bmay\shave\b/gmi,
   /\bmea\sculpa\b/gmi,
@@ -75,9 +82,11 @@ const a: RegExp[] = [
   /\bmore\son\b/gmi,
   /\bmotley\screw\b/gmi,
   /\bmurphy'?s\slaw\b/gmi,
+  // N
   /\bnew\syear\b/gmi,
   /\bnobel\sprize\b/gmi,
   /\bnon\-\w+\b/gmi,
+  // O
   /\bone\sof\sthe\b/gmi,
   /\bon\sfoot\b/gmi,
   /\bon\stop\sof\b/gmi,
