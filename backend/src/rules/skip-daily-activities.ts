@@ -8,12 +8,14 @@ const a: RegExp[] = [
   // B
   /\bbaby\s(?:sling|walker)\b/gmi,
   /\bbali\sbreeze\b/gmi,
+  /\bf[ae]ll\sin\sbath\b/gmi,
   /\bbatterie\b/gmi,
   /\bbean\sbag\b/gmi,
   /\bbent\s(?:down|inwards|over)\b/gmi,
   /\bblue\stack\b/gmi,
   /\b(?:bunk|divan|wooden)\sbed\b/gmi,
   // C
+  /\bcamping\s(?:pot|stove)s?\b/gmi,
   /\bcandle\swax\b/gmi,
   /\bswallow[a-z]*\schalk\b/gmi,
   /\bchain\ssaw\b/gmi,

@@ -3,7 +3,7 @@
   "dependencies": {
     "@buckneri/collections": "^0.1.6",
     "@buckneri/string": "^0.7.0",
-    "@buckneri/web-components": "^0.3.10",
+    "@buckneri/web-components": "^0.4.0",
     "@electron/remote": "^1.0.4",
     "chokidar": "^3.5.1",
     "debounce": "^1.2.0",
