@@ -204,7 +204,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "bulk",             // standalone & placenames (4)
 "bump",             // surname & placenames (3)
 "burka",            // surname & placename
-"burn",             // placenames (257)
+"burn",             // standalone & placenames (256)
 "burner",           // surname
 "burns",            // first name & placenames (54)
 "burnt",            // placenames (131)
@@ -302,6 +302,9 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "coastal",          // placenames (16)
 "coaster",          // surname & place name
 "coastguard",       // placenames (11)
+"coat",             // standalone & placenames (31)
+"coatings",
+"coats",
 "cobra",            // first name
 "colic",            // surname
 "collarbone",       // surname
@@ -653,9 +656,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "fonder",
 "font",
 "fonts",
-"foodie",
-"foods",
-"foot",
+"foot",             // surname & placenames (153)
 "footbridge",
 "foothills",
 "footman",
@@ -837,12 +838,12 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hallway",
 "hamburger",
 "hammer",             // first name & placenames (31)
-"han",
-"hand",               // placenames (30)
+"han",                // first name & placename
 "handball",           // standalone
-"handoff",
-"handover",
-"hands",
+"handler",            // surname
+"handover",           // surname
+"hands",              // surname & placenames (14)
+"handy",              // surname & placenames (4)
 "hang",
 "hangar",
 "hanged",
@@ -905,8 +906,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hitch",
 "hive",
 "hives",
-"hobbies",
-"hobby",
+"hobby",        // first name & placenames (11)
 "hockeys",
 "hog",
 "hoist",        // surname & placenames (3)
@@ -1060,7 +1060,9 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "keen",
 "keep",
 "keg",
-"kid",
+"kettle",           // surname & standalone & placenames (38)
+"kettler",          // surname
+"kettles",          // surname & placenames (6)
 "kiddie",
 "kiddies",
 "killings",
@@ -1427,6 +1429,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "outpatients",
 "outwards",
 "oval",
+"ovens",                // surname & placenames (9)
 "over",
 "overbig",
 "overburn",
@@ -1538,6 +1541,14 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "pin",
 "pink",
 "pins",
+"pit",              // placenames (350)
+"pitch",
+"pitcher",
+"pitchers",
+"pitches",
+"pitching",
+"pitiful",
+"pits",
 "place",
 "plain",
 "plains",
@@ -1730,7 +1741,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "radian",
 "radiance",
 "radiant",
-"radiator",
 "radion",
 "radish",
 "radium",
@@ -1738,13 +1748,11 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "radon",
 "rafters",
 "raiders",
-"rail",
-"railing",
+"railing",              // surname
 "railroad",
-"rails",
 "railway",
-"rain",
-"raise",
+"rain",                 // first name & placenames (10)
+"raise",                // standalone & placenames (14)
 "raisin",
 "rally",
 "ramp",
@@ -1981,6 +1989,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "severs",
 "sewage",
 "seward",
+"sewing",
 "shadow",
 "shale",
 "shallow",
@@ -2556,7 +2565,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "washer",
 "washers",
 "washes",
-"washing",
+"washing",            // surname & placenames (12)
 "wasp",
 "waste",
 "wastelands",

@@ -954,6 +954,7 @@ const a: string[] = [
 "maddex",
 "maddick",
 "maddicks",
+"maddie",
 "maddila",
 "madding",
 "maddingley",

@@ -21,6 +21,7 @@ const a: RegExp[] = [
   /\bchain\ssaw\b/gmi,
   /\bcheddar\scheese\b/gmi,
   /\bcircular\ssaw\b/gmi,
+  /\bcoat\shanger\b/gmi,
   /\bcotton\sbud\b/gmi,
   /\bclimbing\sframe\b/gmi,
   /\bcut\sthrough\b/gmi,
@@ -81,6 +82,7 @@ const a: RegExp[] = [
   /\b(?:rocking\shorse|roller\scoaster)\b/gmi,
   // S
   /\bscarf\spin\b/gmi,
+  /\bsewing\smachine\b/gmi,
   /\bskate\s?park\b/gmi,
   /\bsma\sgold\b/gmi,
   /\bstair\sgate\b/gmi,
@@ -98,6 +100,7 @@ const a: RegExp[] = [
   // V
   /\bvenetian\s(?:blind|window)s?\b/gmi,
   // W
+  /\bwashing\smachine\b/gmi,
   /\bwendy\shouse\b/gmi,
   /\bwhite\sspirit\b/gmi,
   /\bwindow\ssill\b/gmi,
