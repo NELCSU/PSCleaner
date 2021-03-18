@@ -5,6 +5,7 @@ const a: RegExp[] = [
   /\d+\sof\b/gmi,
   /\d+[\s-](?:(?:out)?\sof|in)[\s-]\d+/gmi,
 
+  /\band\sthe\b/gm,
   /\ball\sof\b/gmi,
   /\ba\s(?:frank|penny|stone)\b/gmi,
   /\bachille’?s\sheel\b/gmi,

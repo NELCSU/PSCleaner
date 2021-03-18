@@ -770,7 +770,6 @@ const a: string[] = [
 "sambal",
 "sambalic",
 "sami",
-"samia",
 "samin",
 "sammarinese",
 "samoan",

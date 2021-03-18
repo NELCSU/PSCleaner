@@ -303,8 +303,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "coaster",          // surname & place name
 "coastguard",       // placenames (11)
 "coat",             // standalone & placenames (31)
-"coatings",
-"coats",
+"coats",            // surname & placenames (10)
 "cobra",            // first name
 "colic",            // surname
 "collarbone",       // surname
@@ -381,107 +380,60 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "cyber",            // first name & placename
 "cygnet",           // standalone & placenames (20)
 // D
-"dance",
-"dancer",
-"dancers",
-"dances",
-"dancing",
-"dare",
-"dark",
-"darker",
-"darts",
-"daughters",
-"day",
-"daylight",
-"days",
-"dealings",
-"deals",
-"deanery",
-"dear",
-"debut",
-"december",
-"decker",
-"deckers",
-"decree",
-"delay",
-"delta",
-"deluxe",
-"demon",
-"denier",
-"dent",
-"dental",
-"deport",
-"desert",
-"design",
-"despatch",
-"deus",
-"diagonal",
-"dial",
-"diameter",
-"dig",
-"digger",
-"digging",
-"diligence",
-"diligent",
-"dining",
-"disco",
-"dismay",
-"dispensary",
-"district",
-"division",
-"divisional",
-"diwali",
-"dizzy",
-"dockyard",
-"doctor",
-"doctors",
-"dog",
-"dogs",
-"dolphin",
-"dolphins",
-"domestic",
-"dominion",
-"double",
-"doubting",
-"down",
-"downhill",
-"downs",
-"downside",
-"downstream",
-"downtown",
-"downview",
-"downwards",
-"doyen",
-"draft",
-"drag",
-"dragging",
-"dragon",
-"dragonfly",
-"dragons",
-"dragoons",
-"drags",
-"drain",
-"drama",
-"draw",
-"drawbridge",
-"draws",
-"dream",
-"dressing",
-"driftway",
-"drip",
-"drive",
-"driver",
-"drivers",
+"dance",            // surname & placenames (11)
+"dark",             // placenames (44)
+"darker",           // surname & placename
+"darts",            // surname & placenames (2)
+"daughters",        // surname & placename
+"day",              // surname & placenames (77)
+"days",             // surname & placenames (11)
+"deanery",          // placenames (23)
+"december",         // surname
+"decker",           // surname
+"deckers",          // surname
+"decree",           // surname
+"delta",            // surname & placenames (21)
+"deluxe",           // first name
+"demon",            // first name
+"denier",           // surname
+"dent",             // surname & placenames (22)
+"dental",           // first name & placenames (12)
+"deus",             // first name
+"dial",             // first name & placenames (27)
+"digger",           // first name & placenames (2)
+"disco",            // first name
+"district",         // placenames (75)
+"diwali",           // first name
+"dockyard",         // standalone & placenames (3)
+"doctors",          // surname & placenames (14)
+"dog",              // placenames (98)
+"dolphin",          // first name & placenames (37)
+"dolphins",         // standalone & placenames (2)
+"dominion",         // first name & placenames (10)
+"down",             // placenames (1k+)
+"downhill",         // surname & standalone & placenames (5)
+"downs",            // placenames (422)
+"downside",         // standalone & placenames (20)
+"doyen",            // surname
+"dragon",           // first name & placenames (28)
+"dragonfly",        // first name & placenames (12)
+"dragons",          // placenames (11)
+"drawbridge",       // surname & standalone & placenames (3)
+"draws",            // surname & placename
+"dream",            // first name & placenames (2)
+"dressing",         // surname & placename
+"driftway",         // standalone & placenames (6)
+"drive",            // placenames (1k+)
+"drivers",          // surname & placenames (8)
 "driveway",         // standalone & placenames (3)
-"droves",
-"drum",
+"drum",             // standalone & placenames (67)
 "dry",              // placenames (77)
-"dual",
-"duchy",
-"dull",
-"dutchess",
+"dual",             // first name & placename
+"duchy",            // placenames (16)
+"dull",             // surname & placenames (6)
+"dutchess",         // surname
 "duvet",            // surname
-"dynasty",
+"dynasty",          // first name & placename
 // E
 "earing",           // surname
 "earl",
@@ -2573,6 +2525,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "water",
 "waterfall",
 "waterfalls",
+"waterfront",
 "waterless",
 "watermill",
 "watershed",
@@ -2608,6 +2561,10 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "west",
 "westbound",
 "western",
+"wheat",
+"wheatgrass",
+"wheats",
+"wheatstone",
 "whisker",
 "whisky",
 "whistle",
@@ -2627,6 +2584,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "windward",
 "windy",
 "wineglass",          // surname
+"wing",               // surname & standalone & placenames (21)
+"wingers",
 "winners",
 "winning",
 "wires",

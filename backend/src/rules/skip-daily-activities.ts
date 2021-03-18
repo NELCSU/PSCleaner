@@ -27,7 +27,6 @@ const a: RegExp[] = [
   /\bcut\sthrough\b/gmi,
   /\bcuticura\shand\b/gmi,
   // D
-  /\bdining\sroom\b/gmi,
   /\bdog\scage\b/gmi,
   /\bdog\sbite\b/gmi,
   // E
@@ -83,6 +82,7 @@ const a: RegExp[] = [
   // S
   /\bscarf\spin\b/gmi,
   /\bsewing\smachine\b/gmi,
+  /\bshoulder\sblade\b/gmi,
   /\bskate\s?park\b/gmi,
   /\bsma\sgold\b/gmi,
   /\bstair\sgate\b/gmi,
