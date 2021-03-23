@@ -591,6 +591,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "flourish",
 "flow",
 "flushing",
+"flute",
 "foal",
 "focal",
 "focus",
@@ -648,8 +649,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "friends",
 "friendship",
 "fringe",
-"frisbee",
-"fruit",
+"frisbee",            // surname
+"frisby",             // surname & standalone & placenames (6)
 "frogs",
 "frolic",
 "frontier",
@@ -1034,7 +1035,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "lack",
 "lacrosse",
 "ladder",             // standalone & placenames (21)
-"ladders",
 "ladies",
 "lady",
 "lambing",
@@ -2460,8 +2460,9 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "valuta",
 "vanguard",
 "vanilla",
+"vase",             // first name
 "vast",
-"vein",
+"vein",             // surname & placenames (2)
 "veiny",
 "velvet",
 "vendetta",

@@ -19,7 +19,7 @@ const a: RegExp[] = [
   /\bP\.?O\.?\sBox\s\d+\b/gmi,
   /\b(?:apartment|block|suite|unit)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/gmi,
 
-  /\bThe\s(?:Altars|Aquadrome|Arm|Banks?|Baulks|Beast|Beehive|Bench|Berries|Big\sAct|Blade|Border|Bowl|Bre(?:aches|eze)|Broads?|Bus|Cable|Carts|Cast|Chain|Cheeses|Circuit|Clamps|Clea(?:rings|rs|ts)|Cli(?:mb|ppers)|Coast(?:\sGuards)?|Common|Connection|Cop|Course|(?:[Oo]ld\s)?Creamery|Crusades|Cup|Cur(?:tain|ve)|Cycle\sWorks|Cygnets|Deals|Deep|Drain|Engine(?:\sGreen)?|Fall|First|Forum|Front|God\sAlmighty|Guards?|Gulf|Heath|Heritage|(?:Old\s)?High|Highlight|Hornets?|Horses?|Isl(?:ands|es?)|Kiosk|Knees?|Line|Lottery|Man\so'?\sWar|Mary\sRose|Medical\sWing|Mere|Needle|Old|Old\s(?:Fire\sStation|Laundry|Mission)|Opening|Oven|Post|Rangers|Resolution|Rifles|Road|Roundabouts?|Rows|Old\sSaw\sMill|Saw\sMills|Shot|Slides?|Square|State\sHospital|Still|Street|Style|Tennis(?:\sCourt)?|Third|Toe|Treehouse|Vikings|Village|Wall|Wat(?:ch|erfront|erwheel)|Wheel)\b/gm,
+  /\bThe\s(?:Altars|Aquadrome|Arm|Banks?|Baulks|Beast|Beehive|Bench|Berries|Big\sAct|Blade|Border|Bowl|Bre(?:aches|eze)|Broads?|Brush|Bus|Cable|Carts|Cast|Chain|Cheeses|Circuit|Clamps|Clea(?:rings|rs|ts)|Cli(?:mb|ppers)|Coast(?:\sGuards)?|Common|Connection|Cop|Course|(?:[Oo]ld\s)?Creamery|Crusades|Cup|Cur(?:tain|ve)|Cycle\sWorks|Cygnets|Deals|Deep|Drain|Drums|Engine(?:\sGreen)?|Fall|First|Forum|Front|God\sAlmighty|Guards?|Gulf|Heath|Heritage|(?:Old\s)?High|Highlight|Hornets?|Horses?|Isl(?:ands|es?)|Kiosk|Knees?|Line|Lottery|Man\so'?\sWar|Mary\sRose|Medical\sWing|Mere|Needle|Old|Old\s(?:Fire\sStation|Laundry|Mission)|Opening|Oven|Post|Rangers|Resolution|Rifles|Road|Roundabouts?|Rows|Old\sSaw\sMill|Saw\sMills|Shot|Slides?|Square|State\sHospital|Still|Street|Style|Tennis(?:\sCourt)?|Third|Toe|Treehouse|Vikings|Village|Wall|Wat(?:ch|erfront|erwheel)|Wheel)\b/gm,
 
   /\b(?:bicentennial|local|medical|royal\snavy|twenty\s*(?:fifth|second|sixth|third))\savenue\b/gmi,
   /\bswinging\sbasin\b/gmi,
@@ -271,6 +271,8 @@ const a: RegExp[] = [
   /\b(?:broken\s(?:back(?:\slane|\splantation)?|brae\spool|bridge\sspinney|brough|brow\swood|cleuch|cliff|craig|cross(?:\smuir)?|furlong|gate\slane|heugh|moss|stone\sroad|tors\scoppice|way)|da\sbroken\sheads)\b/gmi,
   /\bBroken\s(?:Banks?(?:\s[Pp]ool)?|Ground|Knuckles|Wharf)\b/gm,
   /\bbrother\s(?:hills|isle|loch)\b/gmi,
+  /\bBrush\s(?:Drive|End)\b/gm,
+  /\bbrush\s(?:hills?(?:\splantation)?|hole\spasture|house\shill|plantation|street|wood)\b/gmi,
   /\bbubble\s(?:dyke|hill)\b/gmi,
   /\bbucket\s(?:hill(?:\splantation)?|pool|road|rocks)\b/gmi,
   /\bbuckwheat\s(?:drive|plantation)\b/gmi,
@@ -536,6 +538,7 @@ const a: RegExp[] = [
   /\bdriver\s(?:road|street|terrace|way)\b/gmi,
   /\b(?:droves\sdale\sroad|two\sdroves)\b/gmi,
   /\b(?:(?:golden|wilkinson)\sdrop|drop\s(?:clough|lane|(?:redoubt|stamp)\sroad))\b/gmi,
+  /\bdrums\s(?:avenue|crescent|geo|plantation|road|terrace)\b/gmi,
   /\b(?:drying\s(?:ground\swood|shed\slane)|old\sdrying\sgrounds)\b/gmi,
   /\b[Dd]umb\s(?:[Bb]ob\s[Ss]pinney|[Hh]all|[Hh]ope|[Pp]ool|[Pp]ots|(?:[Tt]om|[Ww]oman)'?s\s[Ll]ane)\b/gm,
   /\b(?:cobble|fillet\stail|strickland|tocketts)\sdump\b/gmi,
@@ -581,6 +584,7 @@ const a: RegExp[] = [
   /\bFamily\s(?:hub|pond)\b/gm,
   /\bFire\s(?:Beacon|Wood)\b/gm,
   /\bfire\s(?:beacon\s(?:hill|lane|plantation|point|wood)|bell\salley|coppice|fly\savenue|hill|lane|opal|plantation|station\s(?:close|lane|road|square|yard)|thorn\sclose)\b/gmi,
+  /\bflowerpot\s(?:close|lane)\b/gmi,
   /\bforum\s(court|drive|grove|lane|place|road|view|way)\b/gmi,
   /\bForum\sClose\b/gm,
   /\b(?:blandford|hykeham|inner|outer)\sforum\b/gmi,
@@ -593,6 +597,7 @@ const a: RegExp[] = [
   /\bFront\s(?:[Bb]ay|[Bb]each|Block|[Dd]rive|[Ff]ield|[Hh]ill|[Hh]ome|[Hh]orse|Lane|Lawn|[Pp]ark|[Pp]ool|Row|Street|[Tt]errace|[Ww]ater|Way|[Ww]ood)\b/gm,
   /\bfront\s(?:brents|clump|copse|corkickle|covert|lebanon|nook|plantation)\b/gmi,
   /\bSea\sFront\b/gm,
+  /\b(?:fruit\s(?:farm\scopse|street)|lancing\sfruit\sgardens|longfield\sfruit\splantation)\b/gmi,
   /\bdevil'?s?\s(?:dyke|frying\span)\b/gmi,
   /\bfurther\s(?:back\swood|bottom|clay|clough|common\splantation|covert|daggons|end\slane|ends\sroad|entwistle|fen|field|ford|green|grove|hayfag|heights|hey|lane|meadow|moor|old|pits|plantation|quarter|short|street|vell|warren|way|wood)\b/gmi,
   // G
