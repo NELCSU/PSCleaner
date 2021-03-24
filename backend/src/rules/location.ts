@@ -866,6 +866,7 @@ const a: RegExp[] = [
   /\b(?:east|geo\sof\sthe|west)\stoe\b/gmi,
   /\bHeel\sToe\b/gm,
   /\bToe\sHead\b/gm,
+  /\bmaclean'?s\stowel\b/gmi,
   /\bFree\sTrade(?:\s[Ss]treet)?\b/gm,
   /\btrade\s(?:city|lane|park|road|street)\b/gmi,
   /\btraders\s(?:avenue|passage|walk)\b/gmi,
