@@ -6424,6 +6424,7 @@ const a: string[] = [
 "alansway",
 "alanthus",
 "alantia",
+"alantic",
 "alantis",
 "alany",
 "alanza",

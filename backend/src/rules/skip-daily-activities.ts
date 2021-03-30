@@ -52,6 +52,7 @@ const a: RegExp[] = [
   /\bhead\sinj(?:ury)?\b/gmi,
   /\b(?:bleach|(?:hot\s)?water)\sbottle\b/gmi,
   /\bbottle\sof\s(?:bleach|(?:hot\s)?water)\b/gmi,
+  /\bhorse\sbox\b/gmi,
   /\bhover\sboard\b/gmi,
   /\bhula\shoop\b/gmi,
   // J
@@ -104,7 +105,7 @@ const a: RegExp[] = [
   /\bwendy\shouse\b/gmi,
   /\bwhite\sspirit\b/gmi,
   /\bwindow\ssill\b/gmi,
-  /\bwooden\s(?:chair|door|floor)\b/gmi,
+  /\bwooden\s(?:bench|chair|door|floor)\b/gmi,
   // Z
   /\bzimmer\sframe\b/gmi
 ];

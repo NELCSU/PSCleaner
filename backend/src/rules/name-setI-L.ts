@@ -34459,6 +34459,7 @@ const a: string[] = [
 "leibssle",
 "leibundgut",
 "leibush",
+"leic",
 "leice",
 "leicen",
 "leicette",

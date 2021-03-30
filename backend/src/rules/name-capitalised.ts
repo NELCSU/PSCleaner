@@ -1,140 +1,84 @@
 const a: string[] = [
-"abacus",
-"abase",
-"abbess",
-"abbey",
-"abbeys",
-"abbot",
-"abbots",
-"abele",
-"abit",
-"abler",
-"abod",
-"abode",
-"abscissa",
-"abut",
-"abuzz",
-"acacia",
-"ace",
-"aced",
-"aces",
-"achilles",
-"achillies",
-"achy",
-"acme",
-"acorn",
-"acreage",
-"acrobat",
-"addenda",
-"adder",
-"adders",
-"adds",
-"adhoc",
-"adieux",
-"adlib",
-"admix",
-"ado",
-"adobe",
-"adonis",
-"adze",
-"aeon",
-"aero",
-"aestheticsy",
-"afar",
-"affinity",
-"affords",
-"afire",
-"afro",
-"agape",
-"agate",
-"agates",
-"agile",
-"agio",
-"agog",
-"agora",
-"aha",
-"ahoy",
-"airmanship",
-"airspeed",
-"airstrip",
-"ajar",
-"aka",
-"aki",
-"akin",
-"alabaster",
-"alacarte",
-"aladdin",
-"alantic",
-"albatross",
-"albino",
-"album",
-"alchemist",
-"alchemy",
-"alcove",
-"alders",
-"ale",
-"alet",
-"alfalfa",
-"alfatah",
-"alfresco",
-"alia",
-"alias",
-"alibaba",
-"alibi",
-"aliment",
-"alkali",
-"alkyl",
-"alledge",
-"allegri",
-"allele",
-"alley",
-"alleys",
-"allness",
-"alloy",
-"alloys",
-"almanac",
-"almond",
-"almonds",
-"almshouse",
-"almshouses",
-"aloe",
-"aloes",
-"aloha",
-"aloof",
-"alpaca",
-"alpha",
-"alphas",
-"alpine",
-"alps",
-"alsatian",
-"alto",
-"aluminium",
-"alumni",
-"amarant",
-"amaryllis",
-"amass",
-"amaze",
-"amber",
-"amble",
-"ambles",
-"ambrosia",
-"ambush",
-"amethyst",
-"amicable",
-"amiga",
-"amigo",
-"amino",
-"amity",
-"ammonite",
-"amok",
-"amper",
-"ampere",
-"amphitrite",
-"ample",
-"amps",
-"amulet",
-"anatase",
-"anchor",
+"abase",            // first name
+"abbess",           // surname & placenames (9)
+"abbey",            // first name & placenames (349)
+"abbot",            // surname & placenames (34)
+"abbots",           // placenames (98)
+"abele",            // first name
+"abit",             // surname
+"abler",            // surname
+"abod",             // surname
+"abode",            // surname & placename
+"abut",             // surname
+"acacia",           // first name & placenames (25)
+"ace",              // first name & placenames (7)
+"aced",             // surname
+"aces",             // first name
+"achilles",         // first name & placenames (7)
+"achillies",        // first name
+"acme",             // surname & placenames (3)
+"acreage",          // standalone & placenames (3)
+"ado",              // surname
+"adonis",           // first name & placenames (2)
+"adze",             // first name
+"aeon",             // first name
+"aero",             // surname & placenames (2)
+"afar",             // first name
+"affinity",         // first name
+"afire",            // first name
+"afro",             // first name
+"agape",            // first name
+"agate",            // first name & placenames (8)
+"agates",           // surname & placename
+"agora",            // surname & placename
+"aha",              // first name
+"ajar",             // first name
+"aka",              // surname
+"aki",              // first name
+"akin",             // first name & placename
+"alabaster",        // first name & placenames (3)
+"aladdin",          // first name
+"albino",           // first name
+"alchemist",        // first name
+"alders",           // first name & placenames (70)
+"ale",              // surname & placenames (7)
+"alet",             // first name
+"alia",             // first name
+"alias",            // first name
+"alibaba",          // first name
+"alibi",            // first name
+"aliment",          // surname
+"alkali",           // first name & placename
+"allegri",          // surname
+"alley",            // placenames (133)
+"alloy",            // first name
+"almond",           // first name & placenames (47)
+"almshouses",       // standalone & placenames (2)
+"aloe",             // first name
+"aloha",            // first name
+"alpha",            // first name & placenames (19)
+"alphas",           // surname
+"alpine",           // first name & placenames (20)
+"alps",             // surname & placenames (2)
+"alto",             // surname
+"amarant",          // first name
+"amaryllis",        // first name & placename
+"amass",            // first name
+"amaze",            // first name
+"amber",            // first name & placenames (32)
+"amble",            // first name & standalone & placenames (14)
+"ambles",           // surname
+"ambrosia",         // first name & placenames (2)
+"amethyst",         // first name & placenames (11)
+"amiga",            // surname
+"amigo",            // surname
+"amino",            // first name
+"amity",            // first nme & placenames (6)
+"amok",             // surname
+"amper",            // surname
+"ampere",           // first name & placenames (2)
+"amps",             // surname
+"anchor",           // standalone & placenames (66)
 "anchorage",
 "anchors",
 "ancient",
@@ -1754,7 +1698,6 @@ const a: string[] = [
 "cotton",
 "cottonmouth",
 "cottons",
-"couch",
 "couching",
 "countryman",
 "coursing",

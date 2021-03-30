@@ -1,13 +1,17 @@
 export const ProperNameSetJoinOnly: Set<string> = new Set([
 "academy",          // placenames (1k+)
 "accord",           // surname & placenames (9)
+"achy",             // surname
+"acorn",            // first name & placenames (50)
 "acorns",           // standalone & placenames (8)
 "acre",             // surname & placenames (722)
 "acres",            // first name & placenames (254)
+"adds",             // surname
 "adjutant",         // surname
 "adl",              // surname
 "admiral",          // first name & placenames (36)
 "aerial",           // first name & placenames (2)
+"agile",            // first name
 "aided",            // first name & placenames (111)
 "aider",            // first name
 "airfield",         // placename (216)
@@ -19,10 +23,12 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "allotment",        // placenames (122)
 "allotments",       // placenames (20)
 "ally",             // first name
+"aloof",            // surname
 "alt",              // first name & placenames (68)
 "alterman",         // surname
 "alters",           // surname
 "ambassador",       // standalone & placenames (10)
+"ambush",           // surname & placename
 "amen",             // first name & placenames (3)
 "amnesty",          // first name
 "annex",            // first name & placenames (4)
@@ -440,17 +446,12 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "dynasty",          // first name & placename
 // E
 "earing",           // surname
-"earl",
-"earls",
-"early",
-"earn",
-"earning",
-"earns",
-"east",
-"eastbound",
-"easter",
-"easterly",
-"easy",
+"earl",             // first name & placenames (79) 
+"earls",            // place names (70)
+"early",            // surname & place names (53)
+"east",             // place names (1k+)
+"easter",           // place names (176)
+"easterly",         // surname & place names (10)
 "echo",
 "eco",
 "economy",
@@ -559,7 +560,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "finely",
 "finery",
 "fines",
-"finger",
 "fining",
 "finning",
 "fires",
