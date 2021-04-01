@@ -45,7 +45,7 @@ const a: RegExp[] = [
   /\beastern\sbloc\b/gmi,
   /\ben\smasse\b/gmi,
   /\bet\scetera\b/gmi,
-  /\b(?:beginning|by|during|early|end(?:ed)?|from|in|in\sthe|mid|middle|last|late|on|since|start|until)(?:\s|\-|as|of)+(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)\b/gmi,
+  /\b(?:beginning|by|during|early|end(?:ed)?|from|in|in\sthe|mid|middle|last|late|on|since|start|until|(?:day|month|week)\sof)(?:\s|\-|as|of)+(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)\b/gmi,
   /\b(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)(?:and|through|to|\-|\s)+(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)\b/gmi,
   /\b(?:christmas|new\syear[’‘'`]?s)\s(?:day|eve|season|week|weekend)\b/gmi,
   /\bforce\sfield\b/gmi,

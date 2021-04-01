@@ -1,7 +1,8 @@
 import * as db from "debounce";
 import * as he from "he";
-import { clipboard, ipcRenderer as ipc, remote } from "electron";
+import { clipboard, ipcRenderer as ipc } from "electron";
 import { normalize, selectionTrim } from "@buckneri/string";
+import * as remote from "@electron/remote";
 
 const { Menu, MenuItem } = remote;
 const clearAllButton = document.getElementById("btnClearAll") as HTMLButtonElement;

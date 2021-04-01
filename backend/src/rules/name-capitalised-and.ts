@@ -452,61 +452,41 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "east",             // place names (1k+)
 "easter",           // place names (176)
 "easterly",         // surname & place names (10)
-"echo",
-"eco",
-"economy",
-"edge",
-"edges",
-"eel",
-"effort",
-"eid",
-"eight",
-"eighteen",
-"elbow",
-"electric",
-"electricity",
-"electro",
-"elevator",
-"eleven",
-"elite",
-"elves",        // first name
-"embassy",
-"embody",
-"end",
-"endless",
-"ends",
-"engineer",
-"enterprise",
-"enterprize",
-"entrance",
-"entries",
-"entry",
-"envy",
-"equatorial",
-"equestrian",
-"equilbrium",
-"era",
-"erratum",
-"erode",
-"essence",
-"estate",
-"estates",
-"euro",
-"europa",
-"europe",
-"european",
-"evangelist",
-"evenly",
-"evolution",
-"excise",
-"exe",
-"exercise",
-"express",
-"expressway",
-"extension",
-"exit",
-"eye",
-"eyed",
+"eco",              // surname & placenames (3)
+"edge",             // placenames (468)
+"eel",              // first name & placenames (20)
+"eid",              // first name & placename
+"eighteen",         // surname & placenames (11)
+"elbow",            // standalone & placenames (17)
+"elder",            // placenames (48)
+"elders",           // surname & placenames (4)
+"electro",          // first name
+"elk",              // surname & placenames (2)
+"elks",             // surname & placenames (2)
+"elm",              // surname & placenames (230)
+"elms",             // first name & placenames (109)
+"elves",            // first name
+"embers",           // surname & placenames (2)
+"embody",           // surname
+"end",              // placenames (1k+)
+"ends",             // surname & placenames (53)
+"entry",            // placenames (43)
+"equilbrium",       // standalone
+"era",              // first name & placename
+"escort",           // surname & placename
+"essence",          // first name
+"est",              // surname & placenames (4)
+"estate",           // placenames (457)
+"euro",             // first name & placename
+"europa",           // first name & placenames (14)
+"europe",           // first name & placenames (3)
+"evangelist",       // first name & placenames (12)
+"evenly",           // first name
+"exe",              // surname & placenames (20)
+"expressway",       // placenames (23)
+"eye",              // standalone & placenames (58)
+"eyed",             // first name & placename
+// F
 "fabric",
 "fa",
 "facet",
@@ -699,6 +679,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "generation",
 "genesis",
 "gentle",
+"geo",                 // placenames (1k+)
 "germans",
 "getting",             // surname & placename (1)
 "ghetto",
@@ -771,6 +752,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "guiding",
 "guild",
 "guilt",
+"guinea",             // first name & placenames (20)
 "gum",
 "gums",
 "gun",
@@ -2029,6 +2011,10 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "slack",
 "slacks",
 "slang",
+"slave",
+"slaved",
+"slaver",
+"slaves",
 "sleepers",
 "slew",
 "slick",

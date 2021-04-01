@@ -2327,100 +2327,50 @@ const a: string[] = [
 "eke",
 "elal",
 "elastin",
-"elder",
-"elderberry",
-"elderman",
-"elders",
-"elegance",
-"elephant",
-"elf",
-"elfin",
-"elgreco",
-"elide",
-"elk",
-"elks",
-"elm",
-"elms",
-"elnino",
-"elvish",
-"embankment",
-"ember",
-"embers",
-"embezzler",
-"emblem",
-"emblems",
-"emerald",
-"eminence",
-"emir",
-"emperor",
-"emperors",
-"emporia",
-"empress",
-"emu",
-"en",
-"endeavour",
-"endow",
-"endowed",
-"engarde",
-"enigma",
-"enjoy",
-"ennui",
-"eno",
-"enrich",
-"ensign",
-"entente",
-"entree",
-"epee",
-"epitap",
-"epoch",
-"equine",
-"equinox",
-"equitable",
-"ergo",
-"ermine",
-"ernest",
-"err",
-"errata",
-"errs",
-"ers",
-"ersatz",
-"esau",
-"escape",
-"escarpment",
-"escort",
-"escourt",
-"eskimo",
-"esplanade",
-"est",
-"estuary",
-"etches",
-"etching",
-"etoh",
-"etui",
-"eu",
-"eucalyptus",
-"eukaryote",
-"eureka",
-"eurekas",
-"eurolink",
-"eurostar",
-"evergreen",
-"evergreens",
-"eves",
-"ewes",
-"excel",
-"excellent",
-"excelsior",
-"exchange",
-"exchequer",
-"exodus",
-"expectations",
-"experian",
-"explore",
-"explorer",
-"explorers",
-"extol",
-"ezema",
+"elegance",         // first name
+"elf",              // surname & placenames (11)
+"elfin",            // first name & placenames (5)
+"elide",            // first name
+"elvish",           // surname
+"embankment",       // standalone & placenames (26)
+"ember",            // first name & placenames (9)
+"emblem",           // surname & placenames (5)
+"emblems",          // standalone
+"emerald",          // first name & placenames (20)
+"eminence",         // first name
+"emir",             // first name
+"emperor",          // first name & placenames (11)
+"empress",          // first name & placenames (16)
+"emu",              // surname & placenames (2)
+"en",               // first name & placenames (8)
+"endeavour",        // first name & placenames (13)
+"endow",            // surname
+"enigma",           // first name & placename
+"eno",              // first name
+"enrich",           // first name
+"ensign",           // first name & placenames (7)
+"epee",             // surname
+"ergo",             // first name 
+"ermine",           // standalone & placenames (20)
+"ernest",           // first name & placenames (38)
+"esau",             // first name
+"esplanade",        // standalone & placenames (44)
+"estuary",          // placenames (21)
+"etches",           // first name & placenames (2)
+"etoh",             // surname
+"eucalyptus",       // first name & placenames (2)
+"eureka",           // first name & placenames (5)
+"eurolink",         // standalone & placenames (2)
+"evergreen",        // standalone & first name & placenames (23)
+"evergreens",       // standalone & placenames (3)
+"eves",             // first name & placenames (8)
+"ewes",             // standalone & placenames (2)
+"excel",            // first name & placenames (2)
+"exchange",         // standalone & placenames (30)
+"exodus",           // first name
+"extol",            // first name
+"ezema",            // surname
+// F
 "fable",
 "fabricant",
 "facia",
@@ -2901,7 +2851,6 @@ const a: string[] = [
 "gentry",
 "gents",
 "genus",
-"geo",
 "geos",
 "gerbil",
 "germane",
@@ -6552,10 +6501,6 @@ const a: string[] = [
 "slaughterhouse",
 "slaughters",
 "slav",
-"slave",
-"slaved",
-"slaver",
-"slaves",
 "slavish",
 "slavs",
 "slaw",
