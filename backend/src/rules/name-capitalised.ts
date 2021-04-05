@@ -79,129 +79,76 @@ const a: string[] = [
 "ampere",           // first name & placenames (2)
 "amps",             // surname
 "anchor",           // standalone & placenames (66)
-"anchorage",
-"anchors",
-"ancient",
-"andante",
-"anemone",
-"anew",
-"angel",
-"angelic",
-"angels",
-"angers",
-"angle",
-"angles",
-"anglic",
-"angling",
-"anglo",
-"angst",
-"anime",
-"anis",
-"anise",
-"annalize",
-"annals",
-"annexe",
-"annuli",
-"annus",
-"anointing",
-"anorak",
-"ant",
-"ante",
-"antelope",
-"antiquaries",
-"antiquary",
-"antique",
-"antler",
-"antlers",
-"anus",
-"anvil",
-"aorta",
-"apache",
-"apartments",
-"aperitif",
-"aphrodite",
-"apiary",
-"apollo",
-"apostle",
-"apostles",
-"apothecary",
-"appal",
-"apparatchik",
-"appel",
-"appels",
-"applaud",
-"applique",
-"approach",
-"approaches",
-"apricot",
-"april",
-"apriori",
-"apron",
-"apronfull",
-"aprons",
-"aqua",
-"aquamarine",
-"arabesque",
-"arable",
-"arak",
-"ararat",
-"arbiter",
-"arbor",
-"arboretum",
-"arbory",
-"arbour",
-"arbours",
-"arcade",
-"arcana",
-"arced",
-"arch",
-"archangel",
-"arched",
-"archer",
-"archers",
-"arcs",
-"arctic",
-"ardent",
-"arder",
-"areola",
-"argon",
-"argonaut",
-"argos",
-"argot",
-"argus",
-"arias",
-"arid",
-"armada",
-"armadillo",
-"armouries",
-"armoury",
-"arnica",
-"aroma",
-"aromal",
-"arson",
-"artemisia",
-"artful",
-"arthropods",
-"artic",
-"arty",
-"asc",
-"ash",
-"ashake",
-"ashed",
-"ashen",
-"ashes",
-"ashore",
-"askew",
-"askings",
-"asp",
-"aspen",
-"aspens",
-"aspire",
-"asps",
-"assay",
-"assegai",
-"assegais",
-"asteroid",
+"anchorage",        // placenames (18)
+"andante",          // first name
+"anemone",          // first name & placenames (4)
+"anew",             // surname
+"angel",            // first name & standalone & placenames (41)
+"angelic",          // first name
+"angels",           // first name & placenames (30)
+"angers",           // first name & palcenames (3)
+"angle",            // standalone & placenames (32)
+"angles",           // first name & placenames (3)
+"anglic",           // first name
+"anglo",            // first name & placenames (3)
+"angst",            // surname
+"anime",            // first name
+"anis",             // first name
+"anise",            // first name & placename
+"annalize",         // first name
+"annexe",           // standalone & placenames (35)
+"annus",            // first name
+"anointing",        // first name
+"ante",             // first name
+"antlers",          // standalone & placename
+"apache",           // first name
+"aphrodite",        // first name & placename
+"apollo",           // first name & standalone & placenames (14)
+"apostle",          // first name & placenames (11)
+"appal",            // first name
+"appel",            // first name
+"appels",           // surname
+"apricot",          // first name & placenames (2)
+"april",            // first name & placenames (10)
+"aqua",             // first name & placenames (6)
+"arak",             // first name
+"ararat",           // first name & standalone & placenames (2)
+"arbiter",          // first name
+"arboretum",        // standalone & placenames (11)
+"arbour",           // surname & standalone & placenames (29)
+"arcana",           // surname
+"arch",             // first name & placenames (48)
+"archangel",        // first name & placenames (6)
+"archers",          // standalone & placenames (28)
+"areola",           // first name
+"argon",            // first name & placenames (2)
+"argot",            // surname
+"argus",            // first name & placenames (10)
+"arias",            // first name
+"arid",             // first name
+"armada",           // first name & placenames (9)
+"armadillo",        // surname
+"arnica",           // first name
+"aroma",            // first name
+"aromal",           // first name
+"arson",            // first name & placename
+"artemisia",        // first name
+"artful",           // first name
+"arty",             // first name
+"ash",              // first name & placenames (568)
+"ashake",           // first name
+"ashed",            // first name
+"ashen",            // first name & standalone & placenames (27)
+"ashes",            // standalone & placenames (64)
+"ashore",           // first name
+"askew",            // first name & standalone & placenames (16)
+"askings",          // surname
+"asp",              // surname & placename
+"aspen",            // first name & placenames (36)
+"aspens",           // standalone & placenames (3)
+"assay",            // surname
+"assegai",          // surname
+"asteroid",         // first name
 "astir",
 "astral",
 "astride",
@@ -1736,7 +1683,6 @@ const a: string[] = [
 "crackpot",
 "cradle",
 "cradles",
-"craft",
 "crafty",
 "crag",
 "craggy",
@@ -2971,7 +2917,6 @@ const a: string[] = [
 "goopy",
 "goose",
 "gooseberry",
-"gooseneck",
 "gop",
 "gopher",
 "gore",
@@ -5682,7 +5627,6 @@ const a: string[] = [
 "redeye",
 "redhead",
 "redheads",
-"redneck",
 "redoubts",
 "reds",
 "redsea",
@@ -7137,7 +7081,6 @@ const a: string[] = [
 "tannery",
 "tanning",
 "tannoy",
-"tape",
 "taper",
 "tapestries",
 "tapestry",
@@ -8010,7 +7953,6 @@ const a: string[] = [
 "wreck",
 "wrecked",
 "wren",
-"wrench",
 "wrencher",
 "wrenches",
 "wrens",
@@ -8025,6 +7967,7 @@ const a: string[] = [
 "writhe",
 "wry",
 "xenon",
+// Y
 "yacht",
 "yachtsman",
 "yack",
@@ -8063,18 +8006,18 @@ const a: string[] = [
 "young",
 "yoyo",
 "yuan",
-"zen",
-"zenith",
-"zephyr",
-"zigzag",
-"zilch",
-"zinger",
-"zink",
-"zion",
-"zippy",
-"zips",
-"zircon",
-"zodiac"
+// Z
+"zen",            // first name
+"zenith",         // first name & standalone & placename
+"zephyr",         // first name & placenames (2)
+"zilch",          // surname
+"zinger",         // surname
+"zink",           // surname
+"zion",           // first name & placenames (18)
+"zippy",          // first name
+"zips",           // surname
+"zircon",         // first name & placename
+"zodiac"          // first name & placenames (2)
 ];
 const ProperNameSet: Set<string> = new Set();
 const L = a.length;

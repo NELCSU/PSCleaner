@@ -20,7 +20,6 @@ const a: RegExp[] = [
   /\bswallow[a-z]*\schalk\b/gmi,
   /\bchain\ssaw\b/gmi,
   /\bcheddar\scheese\b/gmi,
-  /\bcircular\ssaw\b/gmi,
   /\bcoat\shanger\b/gmi,
   /\bcotton\sbud\b/gmi,
   /\bclimbing\sframe\b/gmi,
@@ -40,13 +39,14 @@ const a: RegExp[] = [
   /\bfishing\shook\b/gmi,
   /\bfrench\sfries\b/gmi,
   /\bfriends\shouse\b/gmi,
-  /\b(?:cut|hurt)\s(?:hand|neck|shoulder)\b/gmi,
+  /\b(?:cut|hurt)\s(?:hand|shoulder)\b/gmi,
   // G
   /\b(?:gas\spipe|garage\sdoor)\b/gmi,
   /\bgetting\s(?:in|from|to|out)\b/gmi,
   /\bglass\s(?:cut|table)\b/gmi,
   // H
   /\bhair\sdryer\b/gmi,
+  /\b(?:by|with)(?:\sa)?\shammer\b/gmi,
   /\bhand\ssaw\b/gmi,
   /\bhard\sedge\b/gmi,
   /\bhead\sinj(?:ury)?\b/gmi,
@@ -71,7 +71,7 @@ const a: RegExp[] = [
   // P
   /\brice\spaddy\b/gmi,
   /\bpaint\sballing\b/gmi,
-  /\bpiece\sof\swood\b/gmi,
+  /\b(?:cutting|piece\sof)\swood\b/gmi,
   /\bpiggy\sback\b/gmi,
   /\bping\spong\b/gmi,
   /\b(?:penny|pound)\scoin\b/gmi,

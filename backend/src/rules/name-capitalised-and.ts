@@ -31,19 +31,31 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ambush",           // surname & placename
 "amen",             // first name & placenames (3)
 "amnesty",          // first name
+"anchors",          // surname & placename
+"angling",          // surname & placenames (3)
 "annex",            // first name & placenames (4)
 "anniversaries",    // standalone placename
 "anon",             // first name
+"ant",              // first name & placenames (2)
+"antelope",         // surname & placenames (7)
+"antique",          // surname
+"antler",           // surname & placenames (4)
+"anus",             // first name
 "apex",             // first name & placenames (8)
 "apathy",           // first name
 "apple",            // placenames (82)
+"approach",         // placenames (399)
 "aquarium",         // standalone & placenames (3)
 "aqueduct",         // standalone & placenames (11)
+"arbor",            // surname & placenames (20)
+"arcade",           // first name & placenames (14)
 "archdeacon",       // surname & placenames (13)
+"archer",           // surname & placenames (28)
 "archery",          // surname & placenames (19)
 "arches",           // placenames (24)
 "archway",          // standalone & placenames (15)
 "arenas",           // surname
+"argos",            // surname & placenames (4)
 "armor",            // surname & placename
 "armour",           // first name & placenames (23)
 "arms",             // surname and placenames (49)
@@ -295,7 +307,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "christians",       // surname
 "christmas",        // surname & placenames (14)
 "circle",           // placenames (245)
-"circular",         // placenames (29)
 "circus",           // surname & placenames (123)
 "city",             // placenames (196)
 "civic",            // placenames (11)
@@ -755,7 +766,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "guinea",             // first name & placenames (20)
 "gum",
 "gums",
-"gun",
+"gun",                // standalone & placenames (43)
 "gunmaker",
 "guns",
 "guru",
@@ -776,7 +787,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "halfway",
 "hallway",
 "hamburger",
-"hammer",             // first name & placenames (31)
+"hammer",             // surname & placenames (31)
 "han",                // first name & placename
 "handball",           // standalone
 "handler",            // surname
@@ -1287,14 +1298,13 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "navigators",
 "navity",
 "navy",
-"neck",
 "needless",
 "neo",
 "nephew",
 "neptune",
 "net",
-"new",
-"newborn",
+"new",              // placenames (1k+)
+"newborn",          // first name & placenames (3)
 "nhs",
 "nightclub",
 "niteclub",
@@ -1334,7 +1344,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "odyssey",
 "oh",
 "oil",
-"old",
+"old",              // placenames (1k+)
 "olympian",
 "ooze",
 "opaque",
@@ -1857,12 +1867,10 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "saturday",
 "saw",              // first name & placenames (39)
 "sawbill",
-"sawmill",
-"sawmills",
-"sawn",
-"sawpit",
-"saws",
-"suave",
+"sawmills",         // standalone & placenames (8)
+"sawn",             // first name & placenames (2)
+"saws",             // surname
+"suave",            // first name
 "sulphur",          // surname
 "superior",
 "supreme",
@@ -2064,7 +2072,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "southwest",
 "spaghetti",
 "spaniards",
-"spanner",
+"spanner",              // surname
 "spare",
 "spark",
 "speakers",
@@ -2589,14 +2597,16 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "works",
 "worms",
 "worship",
-"ya",
-"yard",
-"yellow",
-"yen",
-"ymca",
+"wrench",             // surname & placenames (3)
+// Y
+"ya",                 // first name
+"yard",               // placenames (854)
+"yen",                // first name
+"ymca",               // placenames (2)
 "yoga",               // first name & placename (2)
-"younger",
-"zebra",
-"zeppelin",
-"zinc"
+"younger",            // first name & placenames (6)
+// Z
+"zebra",              // first name & placenames (2)
+"zeppelin",           // first name
+"zinc"                // first name & placenames (2)
 ]);
