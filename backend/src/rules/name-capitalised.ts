@@ -67,6 +67,7 @@ const a: string[] = [
 "amaze",            // first name
 "amber",            // first name & placenames (32)
 "amble",            // first name & standalone & placenames (14)
+"ambler",           // first name & placenames (11)
 "ambles",           // surname
 "ambrosia",         // first name & placenames (2)
 "amethyst",         // first name & placenames (11)
@@ -149,65 +150,40 @@ const a: string[] = [
 "assay",            // surname
 "assegai",          // surname
 "asteroid",         // first name
-"astir",
-"astral",
-"astride",
-"astro",
-"astrolabe",
-"astronomy",
-"astute",
-"asunder",
-"atoll",
-"atom",
-"atrium",
-"au",
-"auction",
-"auger",
-"augers",
-"aught",
-"augur",
-"augurs",
-"auks",
-"auld",
-"aunts",
-"aural",
-"auras",
-"aurelia",
-"aurelian",
-"aureole",
-"auric",
-"aurora",
-"aurti",
-"aus",
-"austral",
-"auth",
-"autobahn",
-"autobahns",
-"automata",
-"autumn",
-"avalanche",
-"avant",
-"avantgarde",
-"ave",
-"avenger",
-"avenue",
-"avenues",
-"avian",
-"aviary",
-"avid",
-"aways",
-"awed",
-"awes",
-"awol",
-"axing",
-"axion",
-"axle",
-"axolotl",
-"axon",
-"aye",
-"azalea",
-"aztec",
-"azure",
+"astral",           // first name & placenames (8)
+"astride",          // first name
+"astro",            // first name & placename
+"asunder",          // first name
+"atom",             // first name
+"atrium",           // standalone & placenames (3)
+"au",               // surname & placename
+"auger",            // surname & placename
+"augur",            // first name & placenames (5)
+"auld",             // first name & placenames (45)
+"aural",            // first name
+"auras",            // first name
+"aurelia",          // first name & placenames (3)
+"aurelian",         // first name
+"aureole",          // first name & placename
+"auric",            // first name
+"aurora",           // first name & placenames (7)
+"aus",              // surname
+"austral",          // surname & placenames (6)
+"auth",             // surname
+"autumn",           // first name & placenames (24)
+"avant",            // first name
+"ave",              // first name & placenames (4)
+"avian",            // first name & placenames (4)
+"avid",             // first name
+"aways",            // first name
+"awed",             // first name
+"awes",             // first name
+"awol",             // first name
+"axing",            // surname
+"axion",            // first name
+"axle",             // first name & placenames (2)
+"aye",              // first name & placenames (2)
+"azalea",           // first name & placenames (14)
 // B
 "babble",
 "babe",
@@ -261,11 +237,9 @@ const a: string[] = [
 "bambino",
 "bamboo",
 "bame",
-"banal",            // surname
 "bandana",
 "bandanna",
 "bandoleer",
-"bands",            // surname & placenames (2)
 "bandy",
 "bane",
 "banes",
@@ -2274,28 +2248,22 @@ const a: string[] = [
 "elal",
 "elastin",
 "elegance",         // first name
-"elf",              // surname & placenames (11)
 "elfin",            // first name & placenames (5)
 "elide",            // first name
-"elvish",           // surname
 "embankment",       // standalone & placenames (26)
 "ember",            // first name & placenames (9)
-"emblem",           // surname & placenames (5)
 "emblems",          // standalone
 "emerald",          // first name & placenames (20)
 "eminence",         // first name
 "emir",             // first name
 "emperor",          // first name & placenames (11)
 "empress",          // first name & placenames (16)
-"emu",              // surname & placenames (2)
 "en",               // first name & placenames (8)
 "endeavour",        // first name & placenames (13)
-"endow",            // surname
 "enigma",           // first name & placename
 "eno",              // first name
 "enrich",           // first name
 "ensign",           // first name & placenames (7)
-"epee",             // surname
 "ergo",             // first name 
 "ermine",           // standalone & placenames (20)
 "ernest",           // first name & placenames (38)
@@ -2482,6 +2450,7 @@ const a: string[] = [
 "fishers",
 "fishery",
 "fishes",
+"fisheye",
 "fishmarket",
 "fishmongers",
 "fishnet",
@@ -4106,7 +4075,6 @@ const a: string[] = [
 "loper",
 "lopes",
 "lops",
-"lord",
 "lording",
 "lordling",
 "lords",
@@ -5720,7 +5688,6 @@ const a: string[] = [
 "ringer",
 "ringers",
 "ringlet",
-"rings",
 "ringside",
 "ripoff",
 "ripper",

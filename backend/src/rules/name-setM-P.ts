@@ -33838,7 +33838,7 @@ const a: string[] = [
 "nthane",
 "nthanial",
 "nthenge",
-"ntheye",
+
 "nti",
 "ntia",
 "ntiama",
@@ -38162,7 +38162,7 @@ const a: string[] = [
 "oluseyitan",
 "olushade",
 "olushegun",
-"olusheye",
+
 "olushore",
 "olushoto",
 "olusile",

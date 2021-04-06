@@ -72,8 +72,11 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "august",           // first name & placenames (9)
 "aura",             // first name
 "avatar",           // first name
+"avenue",           // placenames (1k+)
 "awkward",          // surname & placename
 "axe",              // surname & placenames (21)
+"axon",             // surname & placenames (4)
+"azure",            // first name & placenames (4)
 // B
 "baby",             // first name & placenames (8)
 "back",             // placenames (1k+)
@@ -90,6 +93,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "balling",          // surname
 "balls",            // surname & placenames (21)
 "ban",              // placenames (31)
+"banal",            // surname
+"bands",            // surname & placenames (2)
 "banks",            // surname & placenames (240)
 "banning",          // surname & placenames (3)
 "bannister",        // first name & placenames (22)
@@ -472,16 +477,22 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "elder",            // placenames (48)
 "elders",           // surname & placenames (4)
 "electro",          // first name
+"elf",              // surname & placenames (11)
 "elk",              // surname & placenames (2)
 "elks",             // surname & placenames (2)
 "elm",              // surname & placenames (230)
 "elms",             // first name & placenames (109)
 "elves",            // first name
+"elvish",           // surname
 "embers",           // surname & placenames (2)
+"emblem",           // surname & placenames (5)
 "embody",           // surname
+"emu",              // surname & placenames (2)
 "end",              // placenames (1k+)
+"endow",            // surname
 "ends",             // surname & placenames (53)
 "entry",            // placenames (43)
+"epee",             // surname
 "equilbrium",       // standalone
 "era",              // first name & placename
 "escort",           // surname & placename
@@ -493,6 +504,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "europe",           // first name & placenames (3)
 "evangelist",       // first name & placenames (12)
 "evenly",           // first name
+"evidence",         // first name
 "exe",              // surname & placenames (20)
 "expressway",       // placenames (23)
 "eye",              // standalone & placenames (58)
@@ -1136,6 +1148,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "long",
 "longtail",
 "loose",
+"lord",             // first name & placenames (131)
 "lorry",
 "lose",
 "lot",
@@ -1796,6 +1809,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ring",
 "ringing",
 "ringless",
+"rings",            // surname & placenames (14)
 "ringtail",
 "ringway",
 "rink",
