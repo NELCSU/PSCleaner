@@ -185,28 +185,11 @@ const a: string[] = [
 "aye",              // first name & placenames (2)
 "azalea",           // first name & placenames (14)
 // B
-"babble",
-"babe",
-"babies",
-"baboon",
-"baccarat",
-"bachelor",
-"bachelors",
-"bacilli",
-"backs",
-"backside",
-"backstrip",
-"backwater",
-"backway",
-"backwoods",
-"bacon",
-"baddy",
-"badge",
-"badger",
-"badgers",
-"badmouth",
-"bagatelle",
-"bagpipers",
+"babe",             // first name & placename
+"backwater",        // standalone & placenames (2)
+"backway",          // standalone & placenames (6)
+"badger",           // first name & standalone & placenames (64)
+"badgers",          // standalone & placenames (61)
 "bah",
 "bails",
 "baker",
@@ -268,13 +251,13 @@ const a: string[] = [
 "baptise",
 "baptist",
 "baptists",
-"barb",
+"barb",             // first name & placename
 "barbaric",
 "barbel",
 "barber",
 "barbers",
 "barbie",
-"barbs",
+"barbs",            // first name
 "bards",
 "bareback",
 "barebones",
@@ -630,8 +613,6 @@ const a: string[] = [
 "bookers",
 "bookie",
 "boos",
-"booster",
-"booth",
 "booths",
 "bootmaker",
 "booty",
@@ -6432,7 +6413,6 @@ const a: string[] = [
 "slime",
 "slippe",
 "slippy",
-"slips",
 "slipway",
 "slit",
 "slits",
@@ -6771,7 +6751,6 @@ const a: string[] = [
 "stiles",
 "stiller",
 "stillness",
-"stilts",
 "stim",
 "stink",
 "stinker",

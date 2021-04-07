@@ -304,7 +304,6 @@ const a: string[] = [
 "fante",
 "faroese",
 "feyli",
-"filipino",
 "finnish",
 "firozkohi",
 "flemish",

@@ -2702,6 +2702,7 @@ const a: string[] = [
 "ejemhen",
 "ejenas",
 "ejenike",
+"ejercito",
 "ejerhed",
 "ejerse",
 "ejert",

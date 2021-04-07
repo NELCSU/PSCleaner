@@ -26,7 +26,6 @@ const a: RegExp[] = [
   /\bblack\s(?:box|friday)\b/gmi,
   /\bbona\sfide\b/gmi,
   /\bbrave\snew\b/gmi,
-  /\bbroken\soff\b/gmi,
   /\bCan\sthe\b/gm,
   /\bchild\sof\b/gmi,
   /\b(?:bark|wood)\schipping\b/gmi,

@@ -79,8 +79,12 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "azure",            // first name & placenames (4)
 // B
 "baby",             // first name & placenames (8)
+"bachelor",         // surname & placenames (7)
 "back",             // placenames (1k+)
+"backs",            // surname & placename (4)
+"bacon",            // surname & placenames (22)
 "bad",              // placenames (275)
+"badge",            // surname & placename
 "badminton",        // surname & placenames (19)
 "bail",             // first name & placenames (9)
 "bailiff",          // surname & placenames (5)
@@ -178,7 +182,9 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "boomer",           // surname & place name
 "booms",            // surname
 "boon",             // first name & placenames (14)
+"booster",          // surname
 "boot",             // standalone & placenames (22)
+"booth",            // surname & placenames (102)
 "boots",            // first name & placenames (4)
 "booze",            // surname & placenames (5)
 "border",           // placenames (36)
@@ -2048,10 +2054,10 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "slinger",
 "slings",
 "slinkey",
-"slip",
-"slipper",
-"slippers",
-"slippery",
+"slip",             // placenames (40)
+"slips",            // surname & placenames (5)
+"slipper",          // surname & placenames (10)
+"slippers",         // surname & placenames (2)
 "slug",
 "sly",
 "small",
@@ -2187,6 +2193,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "stigma",
 "stiletto",
 "stills",
+"stilts",           // surname & placename
 "stimuli",
 "sting",
 "stinger",

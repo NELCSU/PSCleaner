@@ -1107,6 +1107,7 @@ const a: string[] = [
 "mourn",
 "moussaka",
 "mps",
+"mrna",
 "mrsa",
 "mucosa",
 "muddy",
