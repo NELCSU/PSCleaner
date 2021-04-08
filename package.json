@@ -1,5 +1,8 @@
 {
   "author": "NHS NEL CSU",
+  "bugs": {
+    "url": "https://github.com/NELCSU/PSCleaner/issues"
+  },
   "dependencies": {
     "@buckneri/collections": "^0.1.6",
     "@buckneri/string": "^0.7.0",
@@ -53,6 +56,10 @@
     "rimraf": "^3.0.2",
     "typescript": "^4.1.4"
   },
+  "engines": {
+    "node": ">=12"
+  },
+  "homepage": "https://github.com/NELCSU/PSCleaner",
   "keywords": [
     "nodejs",
     "typescript"
@@ -61,7 +68,6 @@
   "main": "backend/build/app.js",
   "name": "pscleaner",
   "productName": "PSCleaner",
-  "homepage": "https://github.com/NELCSU/PSCleaner",
   "repository": {
     "type": "git",
     "url": "https://github.com/NELCSU/pscleaner.git"
@@ -81,8 +87,5 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf client/lib/web-components"
   },
-  "version": "0.9.8",
-  "bugs": {
-    "url": "https://github.com/NELCSU/PSCleaner/issues"
-  }
+  "version": "0.9.8"
 }

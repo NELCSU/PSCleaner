@@ -88,11 +88,18 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "badminton",        // surname & placenames (19)
 "bail",             // first name & placenames (9)
 "bailiff",          // surname & placenames (5)
+"bails",            // surname & placename
+"baker",            // surname & placenames (33)
+"bakers",           // placenames (60)
 "bakery",           // placenames (21)
+"bakes",            // surname & placename
 "balcony",          // standalone and placename
 "bald",             // surname & placenames (6)
 "balder",           // surname & placenames (5)
 "balding",          // surname & placenames (2)
+"baldy",            // surname & placename
+"bales",            // surname & placenames (8)
+"balk",             // surname & placenames (92)
 "ball",             // placenames (121)
 "balling",          // surname
 "balls",            // surname & placenames (21)
@@ -408,6 +415,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "curling",          // surname & placenames (22)
 "cut",              // placenames (137)
 "cutting",          // surname & placenames (21)
+"cutter",           // surname & placenames (7)
 "cyber",            // first name & placename
 "cygnet",           // standalone & placenames (20)
 // D
@@ -850,8 +858,10 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "heartlands",
 "heaven",
 "heavier",
+"hedge",            // surname & placenames (71)
 "hedgerow",
 "hedgerows",
+"hedges",           // surname & placenames (39)
 "heedless",
 "height",
 "heights",
@@ -1287,6 +1297,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "mural",
 "murder",
 "murmur",
+"muse",           // first name & placenames (4)
 "museum",
 "mushroom",
 "music",
@@ -1389,7 +1400,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ortho",
 "orthopaedic",
 "otters",
-"our",
 "outburn",
 "outer",
 "outlook",
@@ -1397,7 +1407,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "outwards",
 "oval",
 "ovens",                // surname & placenames (9)
-"over",
 "overbig",
 "overburn",
 "overland",
@@ -1523,7 +1532,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "plane",
 "planet",
 "planetary",
-"plantation",
+"plantation",           // placenames (1k+)
 "plantations",
 "plants",
 "plaster",
@@ -1822,7 +1831,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "rinks",
 "rise",
 "rising",
-"risk",
 "rival",
 "river",
 "riverside",
@@ -1897,7 +1905,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "surfeit",
 "surgery",
 "scabbards",
-"scabbed",
 "scabby",
 "scabs",
 "scale",
@@ -2032,7 +2039,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "skier",
 "skiers",
 "skippers",
-"skipping",
 "sky",
 "slab",
 "slabs",
@@ -2075,7 +2081,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sock",
 "socket",
 "socks",
-"soft",
 "soldiers",
 "sole",
 "sos",
@@ -2391,7 +2396,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "tramway",
 "transit",
 "trap",
-"travellers",
 "trays",
 "treasure",
 "tree",
@@ -2399,6 +2403,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "tremor",
 "triangle",
 "tribe",
+"trimmer",          // surname & placenames (2)
 "trinity",
 "triumph",
 "trivia",
