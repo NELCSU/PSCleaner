@@ -559,8 +559,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "felling",
 "fellows",
 "fells",
-"fence",
-"fences",
+"fence",          // standalone & placenames (24)
 "feral",
 "fern",
 "ferret",
@@ -707,9 +706,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "gape",
 "gaping",
 "gaps",
-"garage",
-"garages",
-"garden",
+"garden",           // placenames (433)
+"gardens",          // placenames (1k+)
 "garlic",
 "gas",
 "gasoline",
@@ -2289,24 +2287,18 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "tally",
 "take",
 "takers",
-"tampon",
+"tampon",           // surname
 "tantrum",
 "target",
 "tavern",
 "taverner",
 "taverners",
 "taxis",
-"tea",
-"teacher",
-"team",
-"tear",
-"tears",
+"tea",              // first name & placenames (10)
+"tears",            // surname & placenames (2)
 "tech",
 "tee",
-"teeth",
 "tel",
-"telephone",
-"tell",
 "temper",
 "temperance",
 "temperence",
@@ -2492,6 +2484,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "valuta",
 "vanguard",
 "vanilla",
+"varnish",          // surname
 "vase",             // first name
 "vast",
 "vein",             // surname & placenames (2)
@@ -2545,6 +2538,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "warmup",
 "warns",
 "warrior",
+"wart",           // surname & placenames (7)
 "wary",
 "wash",
 "washer",

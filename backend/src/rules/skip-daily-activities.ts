@@ -41,7 +41,7 @@ const a: RegExp[] = [
   /\bfriends\shouse\b/gmi,
   /\b(?:cut|hurt)\s(?:hand|shoulder)\b/gmi,
   // G
-  /\b(?:gas\spipe|garage\sdoor)\b/gmi,
+  /\bgas\spipe\b/gmi,
   /\bgetting\s(?:in|from|to|out)\b/gmi,
   /\bglass\s(?:cut|table)\b/gmi,
   // H
