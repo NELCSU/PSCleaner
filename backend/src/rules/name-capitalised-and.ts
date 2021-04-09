@@ -103,12 +103,19 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ball",             // placenames (121)
 "balling",          // surname
 "balls",            // surname & placenames (21)
+"balm",             // surname & placenames (6)
+"bamboo",           // surname & placenames (2)
+"bame",             // first name & placename
 "ban",              // placenames (31)
 "banal",            // surname
 "bands",            // surname & placenames (2)
+"bangle",           // surname
+"bangs",            // surname & placename
+"banister",         // surname & placenames (7)
 "banks",            // surname & placenames (240)
+"banner",           // surname & placenames (20)
 "banning",          // surname & placenames (3)
-"bannister",        // first name & placenames (22)
+"bannister",        // surname & placenames (22)
 "bans",             // surname
 "bar",              // placenames (189)
 "bard",             // first name & placenames (13)
@@ -332,6 +339,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "clap",             // surname & placenames (12)
 "clashing",         // surname
 "cleat",            // standalone & placenames (5)
+"clipper",          // surname & placenames (13)
 "close",            // placenames (1k+)
 "cloud",            // first name & placenames (18)
 "cluster",          // standalone & placename
@@ -806,7 +814,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "had",
 "hail",
 "hails",
-"hair",
+"hairs",              // surname
 "haj",
 "hajj",
 "half",
@@ -907,6 +915,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hoots",
 "hoover",           // first name & placenames (5)
 "hop",
+"hopes",            // surname & placenames (13)
 "hopping",
 "horseback",
 "horsefair",
@@ -1328,7 +1337,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "navigators",
 "navity",
 "navy",
-"needless",
 "neo",
 "nephew",
 "neptune",
@@ -1430,7 +1438,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "panorama",
 "pans",
 "papaya",
-"paper",
 "paprika",
 "par",
 "para",
@@ -2359,8 +2366,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ton",
 "tone",
 "tong",
-"tongs",
 "tongue",
+"tongs",          // surname & placenames (4)
 "tonic",
 "tonsil",
 "toot",

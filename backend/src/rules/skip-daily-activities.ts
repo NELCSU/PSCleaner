@@ -47,7 +47,7 @@ const a: RegExp[] = [
   // H
   /\bhair\sdryer\b/gmi,
   /\b(?:by|with)(?:\sa)?\shammer\b/gmi,
-  /\bhand\ssaw\b/gmi,
+  /\bhand\s(?:rail|saw)\b/gmi,
   /\bhard\sedge\b/gmi,
   /\bhead\sinj(?:ury)?\b/gmi,
   /\b(?:bleach|(?:hot\s)?water)\sbottle\b/gmi,

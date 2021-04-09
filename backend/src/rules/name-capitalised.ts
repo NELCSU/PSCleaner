@@ -194,52 +194,27 @@ const a: string[] = [
 "balaclava",        // standalone & placenames (7)
 "bale",             // first name & standalone & placenames (14)
 "balks",            // standalone & placename
-"ballad",
-"ballads",
-"ballard",
-"ballast",
-"baller",
-"ballerina",
-"ballfield",
-"ballyhoo",
-"balm",
-"baloney",
-"balsa",
-"balsam",
-"bambino",
-"bamboo",
-"bame",
-"bandana",
-"bandanna",
-"bandoleer",
-"bandy",
-"bane",
-"banes",
-"banger",
-"bangers",
-"bangle",
-"bangs",
-"banish",
-"banister",
-"banisters",
-"banjo",
-"bank",
-"banksman",
-"banner",
-"bannerman",
-"banners",
-"bannisters",
-"bannock",
-"bannocks",
-"banquet",
-"banshee",
-"bantam",
-"bantams",
-"banters",
-"baobab",
-"baptise",
-"baptist",
-"baptists",
+"ballard",          // surname & placenames (20)
+"ballast",          // surname & placenames (20)
+"baller",           // surname
+"baloney",          // surname
+"balsa",            // first name
+"balsam",           // surname & placenames (6)
+"bambino",          // surname
+"bandana",          // first name
+"bandy",            // surname & placenames (5)
+"bane",             // first name & placename
+"banes",            // first name & placenames (3)
+"banger",           // surname
+"banish",           // surname
+"banjo",            // first name & placenames (2)
+"bank",             // standalone & placenames (1k+)
+"bannerman",        // first name & placenames (10)
+"bannock",          // surname & placenames (5)
+"bannocks",         // surname & placename
+"banquet",          // surname & placename
+"baptise",          // first name
+"baptist",          // first name & placenames (55)
 "barb",             // first name & placename
 "barbaric",
 "barbel",
@@ -1364,8 +1339,6 @@ const a: string[] = [
 "clinker",
 "clinkers",
 "clinking",
-"clipper",
-"clips",
 "clique",
 "cloaca",
 "cloak",
@@ -3071,10 +3044,6 @@ const a: string[] = [
 "hailing",
 "hailstone",
 "hailstones",
-"hairdo",
-"hairpin",
-"hairs",
-"hairy",
 "haiti",
 "hake",
 "hakea",
@@ -3399,7 +3368,6 @@ const a: string[] = [
 "hoove",
 "hope",
 "hoper",
-"hopes",
 "hopper",
 "hoppers",
 "hops",
