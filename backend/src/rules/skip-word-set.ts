@@ -1707,7 +1707,6 @@ const a: string[] = [
 "symbol",
 "sync",
 "synods",
-"taal",
 "tabasco",
 "tableau",
 "tableaux",

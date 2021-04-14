@@ -5631,6 +5631,7 @@ const a: string[] = [
 "risotto",
 "risque",
 "rite",
+"river",
 "riverbank",
 "riverbanks",
 "riverhead",
@@ -6159,7 +6160,6 @@ const a: string[] = [
 "sheikhs",
 "shekel",
 "shekels",
-"shelf",
 "shell",
 "shelling",
 "shells",
@@ -6903,30 +6903,13 @@ const a: string[] = [
 "swindles",
 "swineherd",
 "swinery",
-"swinger",
-"swirl",
-"swish",
-"switch",
-"switchback",
-"switcher",
-"swordfish",
-"swordman",
-"swordmans",
-"sycamore",
-"sycamores",
-"syllabi",
-"sylph",
-"symbol",
-"symmetry",
-"sympathy",
-"symphonia",
-"symphony",
-"synagogue",
-"syndicate",
-"synod",
-"synods",
-"syphon",
-"taal",
+"switchback",         // standalone & placenames (5)
+"switcher",           // surname & placename
+"sycamore",           // first name & standalone & placenames (54)
+"symphonia",          // first name
+"symphony",           // first name & placenames (6)
+"synod",              // standalone & placenames (2)
+"syphon",             // first name & placename
 "tabard",
 "tabards",
 "tabasco",
