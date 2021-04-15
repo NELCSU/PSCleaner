@@ -19,7 +19,7 @@ const a: RegExp[] = [
   /\bP\.?O\.?\sBox\s\d+\b/gmi,
   /\b(?:apartment|block|suite|unit)\s(?:\d\w?|\d\d?|\w\d?)\b|\b\d+(st|nd|rd|th)\sFloor\b/gmi,
 
-  /\bThe\s(?:Alcove|Almonds|Aloes|Altars|Anvil|Apiary|Aprons|Aquadrome|Arb(?:ory|ours)|Arm|(?:Old\s)?Armoury|Atiquaries|Auks|Avenues|Banks?|Baulks|Beast|Beehive|Bench|Berries|Big\sAct|Blade|Border|Bowl|Bre(?:aches|eze)|Broads?|Brush|Bus|Cable|Carts|Cast|Chain|Cheeses|Circuit|Clamps|Clea(?:rings|rs|ts)|Cli(?:mb|ppers)|Coast(?:\sGuards)?|Common|Connection|Cop|Course|Craft|(?:[Oo]ld\s)?Creamery|Crusades|Cup|Cur(?:tain|ve)|Cycle\sWorks|Cygnets|Deals|Deep|Drain|Drums|Eight\sAcres|Eleven\sAcre|Engine(?:\sGreen)?|Fall|Finger|First|Forum|Front|God\sAlmighty|Guards?|Gulf|Heath|Heritage|High|Highlight|Hornets?|Horses?|Isl(?:ands|es?)|Kiosk|Knees?|Line|Lottery|Man\so'?\sWar|Mary\sRose|Medical\sWing|Mere|Needle|Old|Old\s(?:Fire\sStation|Laundry|Mission)|Opening|Oven|Post|Rangers|Resolution|Rifles|Road|Roundabouts?|Rows|Old\sSaw\sMill|Saw\sMills|Shot|Slides?|Square|State\sHospital|Still|Street|Style|Sweep|Sycamores|Tennis(?:\sCourt)?|Third|Toe|Treehouse|Vikings|Village|Wall|Wat(?:ch|erfront|erwheel)|Wheel|Yellow\s*Man)\b/gm,
+  /\bThe\s(?:Alcove|Almonds|Aloes|Altars|Anvil|Apiary|Aprons|Aquadrome|Arb(?:ory|ours)|Arm|(?:Old\s)?Armoury|Atiquaries|Auks|Avenues?|Banks?|(?:Old\s)?Barnyard|Barony|Basses|Baulks|Beast|Beef\sBarrel|Beehive|Bench|Berries|Big\sAct|Blade|Border|Bowl|Bre(?:aches|eze)|Broads?|Brush|Bus|Cable|Carts|Cast|Chain|Cheeses|Circuit|Clamps|Clea(?:rings|rs|ts)|Cli(?:mb|ppers)|Coast(?:\sGuards)?|Common|Connection|Cop|Course|Craft|(?:[Oo]ld\s)?Creamery|Crusades|Cup|Cur(?:tain|ve)|Cycle\sWorks|Cygnets|Deals|Deep|Drain|Drums|Eight\sAcres|Eleven\sAcre|Engine(?:\sGreen)?|Fall|Finger|First|Forum|Front|God\sAlmighty|Guards?|Gulf|Heath|Heritage|High|Highlight|Hornets?|Horses?|Isl(?:ands|es?)|Kiosk|Knees?|Line|Lottery|Man\so'?\sWar|Mary\sRose|Medical\sWing|Mere|Needle|Old|Old\s(?:Fire\sStation|Laundry|Mission)|Opening|Oven|Post|Rangers|Resolution|Rifles|Road|Roundabouts?|Rows|Old\sSaw\sMill|Saw\sMills|Shot|Slides?|Square|State\sHospital|Still|Street|Style|Sweep|Sycamores|Tennis(?:\sCourt)?|Third|Toe|Treehouse|Vikings|Village|Wall|Wat(?:ch|erfront|erwheel)|Wheel|Yellow\s*Man)\b/gm,
   /\bcastlefield\sapartments\b/gmi,
   /\bwestern\sapproaches\b/gmi,
   // avenue
@@ -39,12 +39,12 @@ const a: RegExp[] = [
   /\b(?:Independent|International|Language|Reformatory|Science|Technical|Technology|University)\sCollege\b/gm,
   /\bantiquarian\scoppice\b/gmi,
   // copse
-  /\b(?:banisters|butternut|candles|kill\sdevil|nail|upping)\scopse\b/gmi,
+  /\b(?:banisters|barebones|butternut|candles|kill\sdevil|nail|upping)\scopse\b/gmi,
   // copse or road
   /\b(?:corpse|cylinder)\s(?:copse|road)\b/gmi,
   /\b(?:cement\sblock|craftmens)\scottages\b/gmi,
   // court
-  /\b(?:anglican|armorer|avenues|cleric|cotoneaster|eskimo|silicon)\scourt\b/gmi,
+  /\b(?:anglican|armorer|avenues|baroque|cleric|cotoneaster|eskimo|silicon)\scourt\b/gmi,
   /\badjuncts\scovert\b/gmi,
   /\bbloods\sdale\b/gmi,
   /\bcrocks\sdean\b/gmi,
@@ -97,7 +97,7 @@ const a: RegExp[] = [
   /\bpoint\sof\sthe\s(?:alt[ae]r|baits)\b/gmi,
   /\b(?:attenuation|frying\span|skating)\spond\b/gmi,
   // road
-  /\b(?:abattoirs|acids|advance|aetheric|agitator|air(?:manship|speed)|amid|avalanche|award|bal(?:dric|lplay)|batmans\shill|blood|biology|bitumen|bo'?mains|body|boilerhouse|by[\s-]?pass|caring|case|cat(?:ch|'?s\sash)|cell[\s-]fechan|cha(?:pel\sbreak|rge)|cheats|clock\sface|collars|comm(?:and|ittee|unications)|compression|conservancy|corridor|crossover|currants\sfarm|dealings|departures|despatch|dia(?:gonal|meter)|divisional|education|elevator|entries|forget[\s-]me[\s-]not|independents|leg\sof\smutton|leg|monomer|my\slords|near|(?:new\s)?line|no\sman'?s'?\s(?:heath|land)|old\spost|parliamentary|post|radiator|return|s|triple\splea|unit|voice|wait\send|warrant|weight|welcomes|whirlwind|whole\shouse|windings|wings|work|workshop|wove|zeal|zig[\s-]*zag)\sroad\b/gmi,
+  /\b(?:abattoirs|acids|advance|aetheric|agitator|air(?:manship|speed)|amid|avalanche|award|bal(?:dric|lplay)|barracuda|batmans\shill|blood|biology|bitumen|bo'?mains|body|boilerhouse|by[\s-]?pass|caring|case|cat(?:ch|'?s\sash)|cell[\s-]fechan|cha(?:pel\sbreak|rge)|cheats|clock\sface|collars|comm(?:and|ittee|unications)|compression|conservancy|corridor|crossover|currants\sfarm|dealings|departures|despatch|dia(?:gonal|meter)|divisional|education|elevator|entries|forget[\s-]me[\s-]not|independents|leg\sof\smutton|leg|monomer|my\slords|near|(?:new\s)?line|no\sman'?s'?\s(?:heath|land)|old\spost|parliamentary|post|radiator|return|s|triple\splea|unit|voice|wait\send|warrant|weight|welcomes|whirlwind|whole\shouse|windings|wings|work|workshop|wove|zeal|zig[\s-]*zag)\sroad\b/gmi,
   /\b(?:A|B|C|Cold|Excellent|(?:Sea\s)?Front|Key|Other|While)\sRoad\b/gm,
   /\b(?:Road|Street)\s(?:No\s)?(?:\d+[abc]?|To\sThe)\b/gm,
   /\b(?:arched|dragging|grandmother'?s)\srock\b/gmi,
@@ -122,7 +122,7 @@ const a: RegExp[] = [
   /\b(?:affords|artic|athletes|chariots|citizens|colossus|craftmans|crusader?s?|digital|experian|godlings|logistics|habitat|media|origin|people\spark|taxi)\sway\b/gmi,
   /\b(?:Colonial|European|Independent|Scandinavian|Warriors)\sWay\b/gm,
   // wood
-  /\b(?:abdication|aggravation|amphitheatre|asps|aught|babies|back(?:strip|ward)|balaklava|barriers|baskets|bristles|but(?:teries|tocks\sbank)|chimneysweeper|err|fortification|funny[\s\-]shaped|garments|gooseneck|guesses|little\sbeauties|schemes|twentynine|youth)\swood\b/gmi,
+  /\b(?:abdication|aggravation|amphitheatre|asps|aught|babies|back(?:strip|ward)|balaklava|bareness\s(?:holm\s)?|barriers|baskets|bristles|but(?:teries|tocks\sbank)|chimneysweeper|err|fortification|funny[\s\-]shaped|garments|gooseneck|guesses|little\sbeauties|schemes|twentynine|youth)\swood\b/gmi,
 
 
   /\bab\s(?:kettleby|lench)\b/gmi,
@@ -247,10 +247,20 @@ const a: RegExp[] = [
   /\bbanners\s(?:gate(?:\sroad)?|grove|lane|street|walk)\b/gmi,
   /\bbannisters\s(?:court|field|road|way)\b/gmi,
   /\bbantam\s(?:bay|close|grove(?:\s(?:lane|view))?|hill|hole|wood)\b/gmi,
+  /\bbarbers\s(?:bridge|close|dr[io]ve|gorse|hill|lane|mead|mews|piles|road|tongue|walk|wood|yard)\b/gmi,
+  /\bbards\s(?:corner|way)\b/gmi,
+  /\bbareback\sknowe\b/gmi,
+  /\b(?:barnyaard\s(?:close|park\s(?:crescent|loan|rigg)|rock)|(?:kingston|little)\sbarnyard)\b/gmi,
+  /\b(?:(?:evenwood\sand|white)\sbarony|barony\s(?:close|college|court|crescent|drive|gardens|glebe|grove|hill|isle|moss|park|place|road|square|street|terrace|way|wynd))\b/gmi,
+  /\b(?:barrel\s(?:copse|geo|hill(?:\sroad)?|lane|law|mews|rane|rock|sykes|well\shill|wynd)|sykes\sbarrel)\b/gmi,
+  /\bBarrel\s(?:(?:[Aa]rch\s)?[Cc]lose|[Oo]f\sButter)\b/gm,
+  /\barranman'?s\sbarrels\b/gmi,
+  /\bbarrens\s(?:brae|close|park)\b/gmi,
   /\bbarrier\s(?:bank|dike|mews|point\sroad|reef\sway|road)\b/gmi,
   /\b(?:churchill\sbarrier\sn[o0]\s[23]|(?:spur|west)\sbarrier)\b/gmi,
   /\bbaseball\s(?:drive|walk)\b/gmi,
   /\bbasic\sslag\sroad\b/gmi,
+  /\bbasking\showe\sbelt\b/gmi,
   /\bbathing\s(?:cove|house|island|lane|pit|place|pond|pool|rock|well\swood|wood)\b/gmi,
   /\bBathing\sBeach\b/gm,
   /\bbasket\s(?:gardens|hall|hill|knowe|ope|road|rock|street)\b/gmi,

@@ -216,65 +216,32 @@ const a: string[] = [
 "baptise",          // first name
 "baptist",          // first name & placenames (55)
 "barb",             // first name & placename
-"barbaric",
-"barbel",
-"barber",
-"barbers",
-"barbie",
+"barbaric",         // surname
+"barbel",           // first name & placenames (6)
+"barber",           // first name & placenames (25)
+"barbie",           // first name
 "barbs",            // first name
-"bards",
-"bareback",
-"barebones",
-"barefoot",
-"bareness",
-"bares",
-"barfs",
-"barge",
-"bargeman",
-"barges",
-"baring",
-"bark",
-"barking",
-"barks",
-"barley",
-"barleycorn",
-"barleys",
-"barman",
-"barn",
-"barnacle",
-"barneys",
-"barns",
-"barnyard",
-"barnyards",
-"baroness",
-"baronet",
-"barons",
-"barony",
-"baroque",
-"barrack",
-"barracks",
-"barracuda",
-"barrage",
-"barrel",
-"barrels",
-"barren",
-"barrens",
-"barristers",
-"barrow",
-"barrows",
-"barter",
-"barterer",
-"barters",
-"bash",
-"basher",
-"basil",
-"basing",
-"basking",
-"bass",
-"basses",
-"bastards",
-"bastion",
-"batchelor",
+"bares",            // first name
+"barfs",            // standalone & placenames (2)
+"bargeman",         // surname & placename
+"barking",          // standalone & placenames (22)
+"barley",           // first name & placenames (120)
+"barleycorn",       // surname & placenames (8)
+"barman",           // surname & placename
+"barn",             // placenames (533)
+"barnacle",         // surname & standalone & placenames (4)
+"barns",            // surname & placenames (109)
+"barnyards",        // standalone & placename
+"baroness",         // first name & placenames (6)
+"baronet",          // surname & placenames (4)
+"barrack",          // first name & placenames (25)
+"barrow",           // standalone & placenames (193)
+"barterer",         // surname
+"bash",             // surname
+"basher",           // first name
+"basil",            // first name & standalone & placenames (14)
+"bastion",          // surnaem & placenames (9)
+"batchelor",        // first name & placenames (8)
 "bathe",
 "bather",
 "bathhouse",
