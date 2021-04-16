@@ -122,7 +122,7 @@ const a: RegExp[] = [
   /\b(?:affords|artic|athletes|chariots|citizens|colossus|craftmans|crusader?s?|digital|experian|godlings|logistics|habitat|media|origin|people\spark|taxi)\sway\b/gmi,
   /\b(?:Colonial|European|Independent|Scandinavian|Warriors)\sWay\b/gm,
   // wood
-  /\b(?:abdication|aggravation|amphitheatre|asps|aught|babies|back(?:strip|ward)|balaklava|bareness\s(?:holm\s)?|barriers|baskets|bristles|but(?:teries|tocks\sbank)|chimneysweeper|err|fortification|funny[\s\-]shaped|garments|gooseneck|guesses|little\sbeauties|schemes|twentynine|youth)\swood\b/gmi,
+  /\b(?:abdication|aggravation|amphitheatre|asps|aught|babies|back(?:strip|ward)|balaklava|bareness\s(?:holm\s)?|barriers|baskets|battings|bristles|but(?:teries|tocks\sbank)|chimneysweeper|err|fortification|funny[\s\-]shaped|garments|gooseneck|guesses|little\sbeauties|schemes|twentynine|youth)\swood\b/gmi,
 
 
   /\bab\s(?:kettleby|lench)\b/gmi,
@@ -261,10 +261,12 @@ const a: RegExp[] = [
   /\bbaseball\s(?:drive|walk)\b/gmi,
   /\bbasic\sslag\sroad\b/gmi,
   /\bbasking\showe\sbelt\b/gmi,
+  /\bbathhouse\s(?:copse|wood)\b/gmi,
   /\bbathing\s(?:cove|house|island|lane|pit|place|pond|pool|rock|well\swood|wood)\b/gmi,
   /\bBathing\sBeach\b/gm,
   /\bbasket\s(?:gardens|hall|hill|knowe|ope|road|rock|street)\b/gmi,
   /\b(?:baths\s(?:island|lane)|(?:college\s|salt\s)?baths\s(?:road|covert))\b/gmi,
+  /\bbatsman\s(?:avenue|close)\b/gmi,
   /\bbattery\s(?:beach|brake|close|end|green(?:\sroad)?|grounds?|hill|lane|lonning|mill\slane|parade|park(?:\savenue|\sdrive|\sroad)?|place|plantation|point|pool|road|rocks|row|stream|street|terrace|walk\swood|way|wood)\b/gmi,
   /\b(?:gun|little|mill\sfarm|north|oliver'?s|pennycraig|point|stoney|top\sof\sthe|west|whitesand\sbay)\ssbattery(?:\screscent|\sgardens|\slane|\sroad|\sstorage)?\b/gmi,
   /\bThe\sBattery(?:\s[Bb]anks)?\b/gm,

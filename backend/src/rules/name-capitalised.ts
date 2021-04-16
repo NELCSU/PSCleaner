@@ -242,17 +242,10 @@ const a: string[] = [
 "basil",            // first name & standalone & placenames (14)
 "bastion",          // surnaem & placenames (9)
 "batchelor",        // first name & placenames (8)
-"bathe",
-"bather",
-"bathhouse",
-"batik",
-"baton",
-"bats",
-"batsman",
-"batters",
-"batting",
-"battings",
-"battle",
+"bath",             // standalone & placenames (116)
+"batik",            // first name
+"batters",          // surname
+"battle",           // standalone & placenames (45)
 "battleaxe",
 "battlefield",
 "battlefields",

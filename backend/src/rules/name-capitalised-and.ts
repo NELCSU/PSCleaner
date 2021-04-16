@@ -141,9 +141,13 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "bass",             // first name & placenames (14)
 "batch",            // first names & placenames (60)
 "batchelors",       // standalone & placenames (4)
-"bath",             // standalone & placenames (116)
+"bathe",            // surname & placenames (3)
+"bather",           // surname & placename
 "batman",           // surname & placename
+"baton",            // first name & placenames (4)
+"bats",             // surname & placenames (5)
 "batter",           // surname & placenames (6)
+"batting",          // surname & placename
 "bay",              // placenames (1k+)
 "bays",             // first name & placenames (11)
 "beach",            // placenames (403)
