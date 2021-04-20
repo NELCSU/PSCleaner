@@ -37,7 +37,7 @@ const a: RegExp[] = [
   // L
   /\blopinavir\b/gmi,
   // M
-  /\bm(?:anuka\shoney|ethotrexate|idaz)\b/gmi,
+  /\bm(?:anuka\shoney|ethotrexate|idaz|oderna)\b/gmi,
   // N
   /\bnicorette\b/gmi,
   // O

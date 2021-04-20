@@ -246,18 +246,11 @@ const a: string[] = [
 "batik",            // first name
 "batters",          // surname
 "battle",           // standalone & placenames (45)
-"battleaxe",
-"battlefield",
-"battlefields",
-"battlements",
-"battlers",
-"battles",
-"batton",
-"baud",
-"bauds",
-"baulk",
-"baulking",
-"beachside",
+"battlefield",      // standalone & placenames (14)
+"battlements",      // standalone
+"baud",             // surname & placename
+"baulking",         // standalone & placenames (3)
+"beachside",        // standalone & placenames (2)
 "beagle",
 "beagles",
 "beak",
@@ -3419,7 +3412,6 @@ const a: string[] = [
 "huts",
 "hyacinth",
 "hyaena",
-"hydra",
 "hydros",
 "hymen",
 "hymn",
@@ -4381,7 +4373,7 @@ const a: string[] = [
 "moat",
 "moats",
 "moccasin",
-"mocha",
+"mocha",          // first name
 "modal",
 "model",
 "modes",
@@ -7291,6 +7283,7 @@ const a: string[] = [
 "turpentine",
 "turtledove",
 "tusk",
+"tut",
 "tutorial",
 "tutors",
 "tuts",
