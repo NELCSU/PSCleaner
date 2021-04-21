@@ -57,6 +57,7 @@ const a: RegExp[] = [
   /\bhula\shoop\b/gmi,
   // J
   /\b(?:canning|mason)\sjar\b/gmi,
+  /\b[Jj]erry\scans?\b/gm,
   /\b(?:ji?u)?[\s-]?jitsu\b/gmi,
   /\blower\sleg\b/gmi,
   /\b(?:car|lift)\sjack\b/gmi,

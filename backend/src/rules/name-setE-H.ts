@@ -23738,6 +23738,7 @@ const a: string[] = [
 "geran",
 "geranium",
 "gerant",
+"gerapetritis",
 "gerardas",
 "gerarden",
 "gerardine",

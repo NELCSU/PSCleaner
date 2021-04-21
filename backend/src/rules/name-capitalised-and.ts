@@ -559,6 +559,9 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "fa",
 "facet",
 "factory",
+"fair",             // placenames (149)
+"fairer",           // surname
+"fairest",          // surname
 "fairy",
 "falls",
 "family",

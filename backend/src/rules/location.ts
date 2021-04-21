@@ -33,7 +33,7 @@ const a: RegExp[] = [
   /\bsmearing\scleuch\b/gmi,
   // close
   /\b(?:alchemy|all(?:oys|ness)|anatase|armourers|ba(?:bble|lking|ntams|ptists|salt|tteries)|beekeeper|caretakers|chorus|classroom|craftsman|cricketer|culture|currency|cygnets|downstream|dragoons|emporia|forest\sers|hybrid|wooded)\sclose\b/gmi,
-  /\b(?:Line|Principle|Springbok|Trade)\sClose\b/gm,
+  /\b(?:Faints|Line|Principle|Springbok|Trade)\sClose\b/gm,
   // close or lane
   /\b(?:annealing|backwoods|canister|carting\shouse|cheer|flowerpot|hob\scote)\s(?:close|lane)\b/gmi,
   // close or wood
