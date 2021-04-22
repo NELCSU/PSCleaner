@@ -1,5 +1,6 @@
 import { app, Menu, shell } from "electron";
 import config from "./views";
+import * as fs from "fs-extra";
 
 export class AppMenu {
   #parent: any;
@@ -11,7 +12,8 @@ export class AppMenu {
    */
   constructor(parent: unknown) {
     this.#parent = parent;
-    const def: any = require(config.menu);
+    const b: Buffer = fs.readFileSync(config.menu);
+    const def: any = JSON.parse(b.toString());
     def.menu.forEach((menu: any) => {
       if (menu.submenu) {
         const sub: any[] = menu.submenu;

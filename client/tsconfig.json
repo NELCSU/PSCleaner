@@ -2,11 +2,11 @@
   "extends": "../tsconfig-base",
   "compilerOptions": {
     "declarationDir": "build",
+    "module": "commonjs",
     "outDir": "build",
     "rootDir": "src",
-    "typeRoots": [
-      "../node_modules/@types",
-      "../backend/types"
+    "types": [
+      "../backend/types/PSCleaner"
     ]
   },
   "files": [

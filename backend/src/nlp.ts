@@ -19,23 +19,12 @@ import { NameInitialRegEx, NamePartSet, NameFragmentRegEx, NamePuralRegEx } from
 import { EthnicitySet } from "./rules/ethnicity";
 import { SkipGrammarRegEx } from "./rules/skip-grammar";
 import { SkipWordSet } from "./rules/skip-word-set";
-
-const r = require("esm")(module);
-const t = r("@buckneri/string");
-const isPropercase = t.isPropercase;
-const findEmail = t.findEmail;
-const findNHSNumber = t.findNHSNumber;
-const findBankingNumbers = t.findBankingNumbers;
-const findCurrency = t.findCurrency;
-const findUKTelephone = t.findUKTelephone;
-const findURL = t.findURL;
-const findUKPostcode = t.findUKPostcode;
-const findDate = t.findDate;
-const findTime = t.findTime;
-const findOrdinal = t.findOrdinal;
-
-const c = r("@buckneri/collections");
-const deepCopy = c.deepCopy;
+import {
+  isPropercase, findEmail, findNHSNumber,
+  findBankingNumbers, findCurrency, findUKTelephone,
+  findURL, findUKPostcode, findDate, findTime, findOrdinal
+} from "@buckneri/string";
+import { deepCopy } from "@buckneri/collections";
 
 /**
  * ### Natural language processing services

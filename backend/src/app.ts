@@ -1,18 +1,14 @@
-import {
-  App, app, dialog, ipcMain as ipc, IpcMainEvent, protocol
-} from "electron";
+import * as isSquirrelStartup from "electron-squirrel-startup";
+if (isSquirrelStartup) {
+  app.quit();
+}
+import { App, app, dialog, ipcMain as ipc, IpcMainEvent, protocol } from "electron";
 import * as EventEmitter from "events";
 import * as Store from "electron-store";
 import * as log from "electron-log";
-
-require("dotenv").config();
-
-if (require("electron-squirrel-startup")) { // eslint-disable-line global-require
-  app.quit();
-}
-
+import * as env from "dotenv";
+env.config();
 require('@electron/remote/main').initialize();
-
 import { AppMenu } from "./build-menu";
 import { AppTray } from "./build-tray";
 import { Entities } from "./entities";
@@ -68,6 +64,11 @@ class Main {
       this.importFiles = new ImportFiles(this._store);
       this.exportFiles = new ExportFiles(this._store);
       this.processFiles = new ProcessFiles(this._store, nlp);
+
+      ipc.handle("get-current-window", async (_: any) => {
+        const window = this.mainWindow;
+        return window;
+      });
 
       ipc.handle("show-modal-input", async (_: any, options: Electron.MessageBoxOptions) => {
         return dialog.showMessageBoxSync(null as any, options);

@@ -8,10 +8,7 @@ import type { CSVField } from "../types/PSCleaner";
 import type { ReadStream, WriteStream } from "fs";
 import { csvFileProperties, TCSVFileProperties } from "./util/csv";
 import * as logger from "electron-log";
-
-const r = require("esm")(module);
-const t = r("@buckneri/string");
-const normalize = t.normalize;
+import { normalize } from "@buckneri/string";
 
 /**
  * ### Manages files stored in watched folder. Runs NLP services on files.

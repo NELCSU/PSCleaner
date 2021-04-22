@@ -97,12 +97,12 @@ function checkForm() {
   panel.title = "";
 
   if (fields.length === 0) {
-    errors.add("• This template requires at least one field");
+    errors.add("• This template needs at least one field");
     ok = false;
   } else {
     for (let i = 0; i < fields.length; i++) {
       if (fields[i].value === "") {
-        errors.add("• One or more columns require a label");
+        errors.add("• One or more columns need a label");
         fields[i].classList.add("error");
         ok = false;
       } else {
