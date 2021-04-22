@@ -1697,7 +1697,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "pump",
 "pumpers",
 "pumping",
-"pumpkin",
+"pumpkin",          // first name & placenames (2)
 "pumproom",
 "pumps",
 "punch",

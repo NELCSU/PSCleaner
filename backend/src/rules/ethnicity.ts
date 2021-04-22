@@ -661,7 +661,6 @@ const a: string[] = [
 "nande",
 "nandi",
 "nathembo",
-"navajo",
 "nepalese",
 "newar",
 "ngai",
