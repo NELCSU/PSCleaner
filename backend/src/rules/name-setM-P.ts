@@ -46504,7 +46504,6 @@ const a: string[] = [
 "pedngwinian",
 "pednor",
 "pednvounder",
-"pedo",
 "pedon",
 "pedone",
 "pedote",

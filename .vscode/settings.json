@@ -3,12 +3,11 @@
   "editor.tabSize": 2,
   "files.exclude": {
     "**/.git": true,
-    "**/.hg": true,
-    "**/.DS_Store": true,
     "**/node_modules": false,
   },
   "search.exclude": {
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/build": false
   },
   "typescript.tsdk": "node_modules/typescript/lib",
 }

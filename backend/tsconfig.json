@@ -2,7 +2,6 @@
   "extends": "../tsconfig-base",
   "compilerOptions": {
     "declarationDir": "build",
-    "module": "commonjs",
     "outDir": "build",
     "rootDir": "src",
     "types": [

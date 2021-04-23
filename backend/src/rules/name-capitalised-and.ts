@@ -771,7 +771,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "goats",
 "gofundme",
 "gold",
-"golden",
+"golden",           // placenames (137)
 "good",
 "goodness",
 "goods",
@@ -1508,6 +1508,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "pecks",
 "ped",
 "pedal",
+"pedo",           // surname
 "peek",
 "peeks",
 "peelers",

@@ -2,17 +2,12 @@ import * as db from "debounce";
 import * as he from "he";
 import { clipboard, ipcRenderer as ipc } from "electron";
 import { normalize, selectionTrim } from "@buckneri/string";
-import * as remote from "@electron/remote";
 
-const { Menu, MenuItem } = remote;
 const clearAllButton = document.getElementById("btnClearAll") as HTMLButtonElement;
 const clearTagsButton = document.getElementById("btnClearTags") as HTMLButtonElement;
 const dataEntryText = document.getElementById("txtAddText") as HTMLElement;
 const autodiscoverButton = document.getElementById("btnAutodiscover") as HTMLButtonElement;
 const debugText = document.getElementById("txtDebug") as HTMLElement;
-
-let contextMenu = new Menu();
-let displayMenu = false;
 
 let tag: any = null;
 
@@ -190,64 +185,33 @@ ipc.on("NLP-response", (_: Event, response: any) => {
 
 ipc.send("get-entities");
 
-remote.getCurrentWindow().webContents.on("context-menu", (_, params) => {
-  if (params.dictionarySuggestions.length > 0) {
-    contextMenu.insert(0, new MenuItem({
-      label: "Spelling suggestions",
-      submenu: params.dictionarySuggestions.map(s => {
-        return {
-          label: s,
-          click: () => remote.getCurrentWindow().webContents.replaceMisspelling(s)
-        };
-      })
-    }));
-
-    contextMenu.insert(1, new MenuItem({ type: "separator" }));
-
-    displayMenu = true;
-  }
-
-  if (displayMenu) {
-    contextMenu.popup({ window: remote.getCurrentWindow() });
+ipc.on("context-menu-action", (_: any, action: string) => {
+  if (action === "Delete") {
+    tag.delete();
+    window.dispatchEvent(new CustomEvent("NewData"));
+  } else if (action === "Paste") {
+    pasteText();
   }
 });
 
 window.addEventListener("contextmenu", e => {
-  contextMenu = new Menu();
+  e.preventDefault();
+
   const sel = window.getSelection() as Selection;
   selectionTrim(sel);
   const el = e.target as HTMLElement;
-  displayMenu = false;
 
   if (el.tagName === "NEL-TEXT-TAG") {
     e.stopPropagation();
     tag = el;
-    contextMenu.append(
-      new MenuItem({
-        label: "Delete",
-        click() {
-          tag.delete();
-          window.dispatchEvent(new CustomEvent("NewData"));
-        }
-      })
-    );
-    displayMenu = true;
+    ipc.send("show-context-menu", "delete-element");
   } else if (el.id === "txtAddText") {
     if (typeof clipboard.readText() === "string") {
       e.stopPropagation();
-
-      contextMenu.append(
-        new MenuItem({
-          label: "Paste",
-          click() {
-            pasteText();
-          }
-        })
-      );
-      displayMenu = true;
+      ipc.send("show-context-menu", "paste-text");
     }
   }
-}, false);
+});
 
 window.addEventListener("NewData", _ => {
   autodiscoverButton.classList.remove("disabled");

@@ -2,13 +2,12 @@ import * as isSquirrelStartup from "electron-squirrel-startup";
 if (isSquirrelStartup) {
   app.quit();
 }
-import { App, app, dialog, ipcMain as ipc, IpcMainEvent, protocol } from "electron";
+import { App, app, dialog, ipcMain as ipc, IpcMainEvent, Menu, protocol } from "electron";
 import * as EventEmitter from "events";
 import * as Store from "electron-store";
 import * as log from "electron-log";
 import * as env from "dotenv";
 env.config();
-require('@electron/remote/main').initialize();
 import { AppMenu } from "./build-menu";
 import { AppTray } from "./build-tray";
 import { Entities } from "./entities";
@@ -65,9 +64,23 @@ class Main {
       this.exportFiles = new ExportFiles(this._store);
       this.processFiles = new ProcessFiles(this._store, nlp);
 
-      ipc.handle("get-current-window", async (_: any) => {
-        const window = this.mainWindow;
-        return window;
+      ipc.on("show-context-menu", (event, data: any) => {
+        let template;
+        if (data === "delete-element") {
+          template = [{
+            label: "Delete",
+            click: () => { event.sender.send("context-menu-action", "Delete"); }
+          }];
+        } else if (data === "paste-text") {
+          template = [{
+            label: "Paste",
+            click: () => { event.sender.send("context-menu-action", "Paste"); }
+          }];
+        }
+        if (template) {
+          const menu: Menu = Menu.buildFromTemplate(template);
+          menu.popup();
+        }
       });
 
       ipc.handle("show-modal-input", async (_: any, options: Electron.MessageBoxOptions) => {
@@ -180,7 +193,6 @@ class Main {
       file: config.pages.get("index"),
       icon: config.images.get("favicon"),
       webPreferences: {
-        enableRemoteModule: true,
         nodeIntegration: true,
         spellcheck: true,
         worldSafeExecuteJavaScript: true

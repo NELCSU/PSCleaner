@@ -16,7 +16,7 @@ pages.set("templates", fileUrl(j(view, "templates.html")));
 export default {
   images: images,
   join: j,
-  menu: j(base, "client", "menu", `${os.platform()}.json`),
+  menu: j(base, "backend", "menu", `${os.platform()}.json`),
   pages: pages,
   view: view
 };
