@@ -821,7 +821,7 @@ const a: string[] = [
 "burrows",
 "bursar",
 "bursary",
-"burundi",
+
 "bury",
 "burying",
 "bush",

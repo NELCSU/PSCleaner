@@ -1150,7 +1150,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "levellers",
 "levels",
 "libel",
-"liberation",
 "liberties",
 "lieu",
 "life",
@@ -2339,15 +2338,10 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "terminal",
 "terminus",
 "terrazzo",
-"territorial",
-"test",
-"than",
 "theatre",
 "theatres",
 "theme",
-"thermal",
 "third",
-"thirsty",
 "thirteen",
 "thirteenth",
 "thorns",
@@ -2357,40 +2351,37 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "thoroughfare",
 "three",
 "throne",
-"thumb",
-"thumbs",
 "thundercloud",
 "thursday",
 "ti",
 "tide",
-"tidy",
+"tidy",             // first name & placenames (3)
 "tie",
-"tier",
+"tier",             // first name
 "tigers",
 "tills",
-"times",
+"times",            // surname & placenames (4)
 "timings",
 "tin",
 "tinker",
 "tipping",
 "tiptoe",
 "title",
-"toes",
+"toes",             // surname & placename
 "toks",
-"toll",
+"toll",             // placenames (138)
 "tollgate",
 "tollgates",
 "tolls",
-"tomato",
 "ton",
 "tone",
 "tong",
-"tongue",
-"tongs",          // surname & placenames (4)
-"tonic",
-"tonsil",
+"tongue",           // placenames (88)
+"tongs",            // surname & placenames (4)
+"tonic",            // surname
+"tonsil",           // surname
 "toot",
-"top",
+"top",              // placenames (477)
 "tops",
 "tor",
 "torah",
@@ -2398,30 +2389,21 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "tors",
 "tory",
 "toucan",
-"touch",
-"tournament",
-"tow",
-"toward",
-"tower",
-"towers",
-"town",
-"towns",
-"township",
-"towpath",
+"touch",            // standalone & placenames (10)
+"tow",              // surname & placenames (18)
+"toward",           // standalone & placenames (8)
+"tower",            // placenames (204)
+"towers",           // first names & placenames (47)
+"town",             // placenames (629)
+"towns",            // first name & placenames (15)
+"towpath",          // standalone & placenames (10)
 "toxin",            // surname
-"toys",
-"trace",
-"track",
-"tracks",
-"trackside",
-"trader",
-"trading",
-"trail",
-"trak",
-"tram",
-"tramway",
-"transit",
-"trap",
+"trace",            // first name & placenames (2)
+"trackside",        // standalone & placenames (2)
+"trader",           // first name & placenames (2)
+"trak",             // surname
+"tram",             // first name & placenames (21)
+"tramway",          // standalone & placenames (17)
 "trays",
 "treasure",
 "tree",

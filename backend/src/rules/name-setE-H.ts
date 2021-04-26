@@ -24433,6 +24433,7 @@ const a: string[] = [
 "gha",
 "ghabade",
 "ghaban",
+"ghabbash",
 "ghabhain",
 "ghabra",
 "ghabrial",
