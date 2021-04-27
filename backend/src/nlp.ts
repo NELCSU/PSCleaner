@@ -1,6 +1,6 @@
 import type { Action, Entity, Evaluation, MatchedEntity, TextMatch } from "../types/PSCleaner";
 import type { Entities } from "./entities";
-import { LocationPrefixRegEx, LocationRegEx, LocationMidfixRegEx, LocationSuffixRegEx } from "./rules/location";
+import { LocationPrefixRegEx, LocationRegEx, LocationMidfixRegEx } from "./rules/location";
 import { OrganisationRegEx } from "./rules/skip-organisation";
 import { DailyActivitiesRegEx } from "./rules/skip-daily-activities";
 import { MedicalAbbrRegEx } from "./rules/skip-medical-abbr";
@@ -14,6 +14,7 @@ import { NameSetMP } from "./rules/name-setM-P";
 import { NameSetQT } from "./rules/name-setQ-T";
 import { NameSetUZ } from "./rules/name-setU-Z";
 import { ProperNameSet } from "./rules/name-capitalised";
+import { NameSetJoinOnly } from "./rules/name-and";
 import { ProperNameSetJoinOnly } from "./rules/name-capitalised-and";
 import { NameInitialRegEx, NamePartSet, NameFragmentRegEx, NamePuralRegEx } from "./rules/name-part";
 import { EthnicitySet } from "./rules/ethnicity";
@@ -153,12 +154,6 @@ export class NLP {
         entity: locationPatternEntity,
         matches: this._evalRegEx(data, LocationMidfixRegEx)
       });
-
-      searches.push({
-        action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 0, midfix: 0, suffix: 1 },
-        entity: locationPatternEntity,
-        matches: this._evalRegEx(data, LocationSuffixRegEx)
-      });
     }
 
     if (namesPatternEntity.enabled) {
@@ -192,6 +187,12 @@ export class NLP {
         action: { discard: 0, joinable: 1, order: 4, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
         entity: namesEntity,
         matches: this._evalKeyword(data, null, NameSetAD, NameSetEH, NameSetIL, NameSetMP, NameSetQT, NameSetUZ)
+      });
+
+      searches.push({
+        action: { discard: 1, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: namesEntity,
+        matches: this._evalKeyword(data, null, NameSetJoinOnly)
       });
 
       searches.push({

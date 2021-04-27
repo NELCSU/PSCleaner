@@ -6,7 +6,7 @@ let exportFolder = "", templateFolder = "";
 const dialogOptions = {
   title: "Select a folder",
   buttonLabel: "Select folder",
-  defaultPath: null,
+  defaultPath: null as string | null,
   properties: ["createDirectory", "openDirectory", "promptToCreate"],
 };
 const PATH_COLLISION = "Error changing folders. Please check that each folder has a unique name.";

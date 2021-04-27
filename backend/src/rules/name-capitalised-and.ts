@@ -247,6 +247,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "brew",             // first name & placenames (3)
 "brewers",          // surname & placenames (22)
 "brewery",          // placenames (39)
+"brick",            // placenames (106)
 "bridge",           // placenames (1k+)
 "bright",           // first name & placenames (29)
 "brighten",         // surname & placename
@@ -365,8 +366,11 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "clipper",          // surname & placenames (13)
 "close",            // placenames (1k+)
 "cloud",            // first name & placenames (18)
+"clump",            // surname & placenames (643)
+"clumps",           // standalone & placenames (42)
 "cluster",          // standalone & placename
 "coach",            // placenames (96)
+"coal",             // placenames (90)
 "coast",            // first name & standalone & placenames (27)
 "coastal",          // placenames (16)
 "coaster",          // surname & place name
@@ -374,6 +378,9 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "coat",             // standalone & placenames (31)
 "coats",            // surname & placenames (10)
 "cobra",            // first name
+"cock",             // surname & placenames (87)
+"coil",             // surname
+"coke",             // first name & placenames (6)
 "colic",            // surname
 "collarbone",       // surname
 "college",          // placenames (1k+)
@@ -423,7 +430,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "cramp",            // surname & placenames (6)
 "crank",            // surname & standalone & placenames (4)
 "creek",            // placenames (311)
-"crescent",         // placenames (1k+)
 "crest",            // surname & placenames (116)
 "crew",             // first name & placenames (11)
 "crews",            // surname & placenames (5)
@@ -458,6 +464,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "day",              // surname & placenames (77)
 "days",             // surname & placenames (11)
 "deanery",          // placenames (23)
+"decamp",           // surname
 "december",         // surname
 "decker",           // surname
 "deckers",          // surname
@@ -555,68 +562,44 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "eye",              // standalone & placenames (58)
 "eyed",             // first name & placename
 // F
-"fabric",
-"fa",
-"facet",
-"factory",
 "fair",             // placenames (149)
 "fairer",           // surname
 "fairest",          // surname
-"fairy",
-"falls",
-"family",
-"fan",
-"fancy",
-"far",
-"fares",
-"farm",
-"fashion",
-"fast",
-"fatty",
-"favour",
-"favourite",
-"fear",
-"feather",
-"federal",
-"federation",
-"fee",
-"feeder",
-"fell",
-"felling",
-"fellows",
-"fells",
-"fence",          // standalone & placenames (24)
-"feral",
-"fern",
-"ferret",
-"ferrets",
-"ferries",
-"ferry",
-"festival",
-"feta",
-"fetal",
-"fetas",
-"fetch",
-"fetcher",
-"fete",
-"field",
-"fifteen",
-"fifty",
-"fillet",
-"fillets",
-"filter",
-"finance",
-"fine",
-"finely",
-"finery",
-"fines",
-"fining",
-"finning",
-"fires",
-"firework",
-"fish",
-"fishbone",
-"fishing",
+"fairy",            // first name & placenames (33)
+"falls",            // first name & placenames (91)
+"fan",              // placenames (51)
+"fancy",            // first name & placenames (14)
+"far",              // placenames (239)
+"fares",            // first name
+"farm",             // placenames (1k+)
+"fatty",            // first name & placename
+"favour",           // first name
+"favourite",        // first name & placename
+"fearless",         // surname
+"feeder",           // surname & placenames (9)
+"fell",             // placenames (741)
+"felling",          // surname & placenames (7)
+"fellows",          // surname & placenames (11)
+"fells",            // surname & placenames (44)
+"fence",            // standalone & placenames (24)
+"feral",            // first name
+"fern",             // first name & placenames (104)
+"ferret",           // surname & placenames (104)
+"ferries",          // surname & placenames (3)
+"ferry",            // placenames (287)
+"feta",             // first name
+"fetas",            // surname
+"fetch",            // surname & placename
+"fetcher",          // surname
+"fete",             // first name
+"field",            // surname & placenames (1k+)
+"fine",             // surname & placenames (10)
+"finely",           // surname
+"fines",            // surname & placenames (4)
+"finning",          // surname & placenames (2)
+"fires",            // surname
+"fish",             // surname & placenames (78)
+"fishbone",         // surname
 "fishmonger",
 "fishmongers",
 "fishpond",
@@ -857,34 +840,19 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hanged",
 "hanger",
 "hangers",
-"hanging",
-"hangings",
-"hangman",
-"hangmans",
-"hangs",
-"hankerchief",
-"happy",
-"harbour",
-"hard",
-"hardly",
-"harness",
-"harsh",
-"harvesting",
-"hat",
-"head",
-"headby",
-"headmaster",
-"headmasters",
-"headquarters",
-"heads",
-"headstone",
-"headward",
-"headway",
-"healing",
-"heard",
-"hearing",
-"heart",
-"heartburn",
+"hanging",            // placenames (106)
+"happy",              // first name & placenames (14)
+"harbour",            // placenames (301)
+"harness",            // first name & placenames (7)
+"harsh",              // first name
+"head",               // placenames (1k+)
+"heads",              // surname & placenames (77)
+"headstone",          // standalone & placenames (6)
+"headward",           // surname
+"headway",            // standalone & placenames (7)
+"healing",            // first name & standalone & placenames (5)
+"heard",              // surname & placenames (4)
+"heart",              // surname & placenames (59)
 "hearth",
 "hearthstone",
 "heartlands",
@@ -1282,6 +1250,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "minor",
 "miracle",
 "mis",
+"miso",
 "miss",
 "mist",
 "mister",
@@ -1552,7 +1521,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "pin",
 "pink",
 "pins",
-"pit",              // placenames (350)
+"piso",
+"pit",                // placenames (350)
 "pitch",
 "pitcher",
 "pitchers",
@@ -1656,7 +1626,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "princess",
 "principal",
 "principality",
-"print",
 "printer",
 "printers",
 "printing",
@@ -1690,6 +1659,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "providential",
 "province",
 "provincial",
+"proviso",
 "psalm",
 "psalms",
 "pub",
@@ -1960,7 +1930,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sculpture",
 "scum",
 "scythe",
-"sea",                // placenames (189)
 "search",
 "searchers",
 "searches",
@@ -2305,6 +2274,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "swears",
 "sweet",              // placenames (56)
 "sweets",             // surname & placenames (5)
+"swift",              // first name & standalone & placenames (33)
 "swifts",             // standalone & placenames (8)
 "swinger",            // surname & placename
 "swine",              // standalone & placenames (32)
@@ -2540,7 +2510,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "walker",
 "walkingstick",
 "walks",
-"wall",
 "wane",
 "warehouse",
 "warm",
@@ -2614,32 +2583,41 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "wills",
 "wind",
 "windburn",
-"winded",
-"winding",
-"winds",
-"windward",
-"windy",
+"winded",             // standalone
+"winding",            // first name & placenames (25)
+"windy",              // first name & placenames (70)
 "wineglass",          // surname
 "wing",               // surname & standalone & placenames (21)
-"wingers",
-"winners",
-"winning",
-"wires",
-"wish",
-"wonder",
-"woodcutter",
-"woodcutters",
+"wingers",            // surname
+"winners",            // surname & placename
+"winning",            // first name & placenames (8)
+"wires",              // surname & placename
+"woodcutters",        // standalone & placenames (5)
+"wood",               // placenames (1k+)
 "wooden",             // standalone & placenames (16)
-"works",
-"worms",
-"worship",
+"woods",              // surname & placenames (630)
+"wool",               // first name & standalone & placenames (26)
+"woollen",            // surname & placenames (3)
+"wools",              // surname & placenames (3)
+"workman",            // surname & placenames (2)
+"worms",              // first name & placename (8)
+"worship",            // surname & placename
+"worth",              // standalone & placenames (29)
+"worthy",             // first name & placenames (26)
 "wrench",             // surname & placenames (3)
+"wrestler",           // surname
+// X
+"xenon",              // first name
 // Y
 "ya",                 // first name
 "yard",               // placenames (854)
+"yards",              // placenames (27)
+"yawn",               // first name & placename
+"yeast",              // surname
 "yen",                // first name
 "ymca",               // placenames (2)
 "yoga",               // first name & placename (2)
+"young",              // surname & placenames (73)
 "younger",            // first name & placenames (6)
 // Z
 "zebra",              // first name & placenames (2)

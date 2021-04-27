@@ -6,11 +6,13 @@ const a: RegExp[] = [
   /\bburger\sking\b/gmi,
   /\b(?:central|reserve|world)\sbank\b/gmi,
   // C
-  /\b(?:catholic|orthodox)\schurch\b/gmi,
+  /\b(?:(?:catholic|orthodox)\schurch|coca\scola)\b/gmi,
   // D
   /\b(?:district|supreme)\scourt\b/gmi,
   // E
   /\beasyjet\b/gmi,
+  // H
+  /\bhigh\scommission\b/gmi,
   // J
   /\bjp\smorgan\schase\b/gmi,
   // K

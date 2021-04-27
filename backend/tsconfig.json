@@ -27,6 +27,7 @@
 
     "src/rules/ethnicity.ts",
     "src/rules/location.ts",
+    "src/rules/name-and.ts",
     "src/rules/name-capitalised.ts",
     "src/rules/name-capitalised-and.ts",
     "src/rules/name-ending-regex.ts",
