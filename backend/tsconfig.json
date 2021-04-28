@@ -25,6 +25,7 @@
     "src/views.ts",
     "src/window.ts",
 
+    "src/rules/age.ts",
     "src/rules/ethnicity.ts",
     "src/rules/location.ts",
     "src/rules/name-and.ts",

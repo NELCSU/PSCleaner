@@ -25,7 +25,7 @@ const a: RegExp[] = [
   // P
   /\bpubic\shealth\sengland\b/gmi,
   // R
-  /\broyal\s(?:college|mail|navy)\b/gmi,
+  /\b(?:royal\s(?:college|mail|navy)|the\sred\scross)\b/gmi,
   // S
   /\bserco\b/gmi,
   // U

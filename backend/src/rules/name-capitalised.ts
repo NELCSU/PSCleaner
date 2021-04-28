@@ -208,7 +208,6 @@ const a: string[] = [
 "banger",           // surname
 "banish",           // surname
 "banjo",            // first name & placenames (2)
-"bank",             // standalone & placenames (1k+)
 "bannerman",        // first name & placenames (10)
 "bannock",          // surname & placenames (5)
 "bannocks",         // surname & placename
@@ -1383,6 +1382,7 @@ const a: string[] = [
 "column",
 "combers",
 "combine",
+"combo",
 "combs",
 "combust",
 "comely",
@@ -4693,7 +4693,6 @@ const a: string[] = [
 "ozone",
 "paced",
 "pacer",
-"pacific",
 "pacify",
 "pack",
 "packer",
@@ -5517,10 +5516,6 @@ const a: string[] = [
 "ribbon",
 "rice",
 "rices",
-"rich",
-"richer",
-"riches",
-"richly",
 "ricket",
 "rickets",
 "ricksha",

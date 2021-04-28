@@ -1,6 +1,17 @@
 import { ipcMain as ipc } from "electron";
 import type { Entity } from "../types/PSCleaner";
 
+export const AgePatternEntity: Entity = {
+  color: "#999900",
+  description: "A person's age",
+  domain: "AGE",
+  enabled: true,
+  id: "entityAgePattern",
+  label: "Age",
+  mask: "AGE",
+  type: "regular expression"
+};
+
 export const BankingPatternEntity: Entity = {
   color: "#994320",
   description: "UK bank account and card numbers",
@@ -181,6 +192,7 @@ export class Entities {
   public list: Map<string, Entity> = new Map();
 
   constructor() {
+    this.list.set(AgePatternEntity.id, AgePatternEntity);
     this.list.set(BankingPatternEntity.id, BankingPatternEntity);
     this.list.set(CurrencyPatternEntity.id, CurrencyPatternEntity);
     this.list.set(DatePatternEntity.id, DatePatternEntity);

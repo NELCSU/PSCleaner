@@ -17,6 +17,7 @@ import { ProperNameSet } from "./rules/name-capitalised";
 import { NameSetJoinOnly } from "./rules/name-and";
 import { ProperNameSetJoinOnly } from "./rules/name-capitalised-and";
 import { NameInitialRegEx, NamePartSet, NameFragmentRegEx, NamePuralRegEx } from "./rules/name-part";
+import { AgeRegEx } from "./rules/age";
 import { EthnicitySet } from "./rules/ethnicity";
 import { SkipGrammarRegEx } from "./rules/skip-grammar";
 import { SkipWordSet } from "./rules/skip-word-set";
@@ -46,6 +47,7 @@ export class NLP {
   public async evaluate(data: string): Promise<MatchedEntity[]> {
     let matches: MatchedEntity[] = [];
 
+    const ageEntity: Entity = this._entities.list.get("entityAgePattern") as Entity;
     const bankingEntity: Entity = this._entities.list.get("entityBankPattern") as Entity;
     const companyEntity: Entity = this._entities.list.get("entitySkipWordPattern") as Entity;
     const currencyEntity: Entity = this._entities.list.get("entityCurrencyPattern") as Entity;
@@ -65,6 +67,14 @@ export class NLP {
     const timesEntity: Entity = this._entities.list.get("entityTimePattern") as Entity;
     const urlEntity: Entity = this._entities.list.get("entityURLPattern") as Entity;
     const searches: Evaluation[] = [];
+
+    if (ageEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: ageEntity,
+        matches: this._evalRegEx(data, AgeRegEx)
+      });
+    }
 
     if (bankingEntity.enabled) {
       searches.push({
@@ -190,7 +200,7 @@ export class NLP {
       });
 
       searches.push({
-        action: { discard: 1, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
         entity: namesEntity,
         matches: this._evalKeyword(data, null, NameSetJoinOnly)
       });

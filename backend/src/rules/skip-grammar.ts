@@ -26,6 +26,7 @@ const a: RegExp[] = [
   /\bblack\s(?:box|friday)\b/gmi,
   /\bbona\sfide\b/gmi,
   /\bbrave\snew\b/gmi,
+  // C
   /\bCan\sthe\b/gm,
   /\bchild\sof\b/gmi,
   /\b(?:bark|wood)\schipping\b/gmi,
@@ -38,13 +39,16 @@ const a: RegExp[] = [
   /\bclash\sof\b/gmi,
   /\bconcerns\smount\b/gmi,
   /\bcul[\s-]de[\s-]sac\b/gmi,
+  // D
   /\bdéjà\svu\b/gmi,
   /\bdirector[\s\-]general\b/gmi,
+  /\bdrive\sdown\b/gmi,
   /\bdua'?s\slayer\b/gmi,
+  // E
   /\beastern\sbloc\b/gmi,
   /\ben\smasse\b/gmi,
   /\bet\scetera\b/gmi,
-  /\b(?:as\sof|beginning|beyond|by|during|early|end(?:ed|ing)?|from|in|mid|middle|last|late|on|since|start(?:ed|ing)?|the|until|(?:day|month|week)\sof)(?:\sthis)?[\s\-](?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)\b/gmi,
+  /\b(?:as|beginning|beyond|by|day|during|early|end(?:ed|ing)?|from|in|mid(?:dle)?|month|last|late|on|since|start(?:ed|ing)?|the|until|week)(?:\s(?:of|this))?[\s\-](?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)\b/gmi,
   /\b(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)(?:and|through|to|\-|\s)+(?:(?:Jan|Febr)uary|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber|(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)\b/gmi,
   /\b(?:christmas|new\syear[’‘'`]?s)\s(?:day|eve|season|week|weekend)\b/gmi,
   /\bforce\sfield\b/gmi,
