@@ -1,6 +1,6 @@
 import { app, Menu, shell } from "electron";
 import config from "./views";
-import * as fs from "fs-extra";
+import fs from "fs-extra";
 
 export class AppMenu {
   #parent: any;

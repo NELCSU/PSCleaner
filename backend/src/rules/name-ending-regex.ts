@@ -57,6 +57,8 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+villa\b/gmi,
    /\b[a-z]+worth\b/gmi,
 
+   /\b[a-z]+[iou]nto\b/gmi,
+
    /\b[a-z]+[a-dg-lp-su-z]ach\b/gmi,
    /\b[a-z]+[acd-gikovyz]ack\b/gmi,
    /\b[a-z]+[abd-mpqtuw-z]ado\b/gmi,
@@ -358,6 +360,7 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+[a-hjlmopsu-z]not\b/gmi,
    /\b[a-z]+[a-jlmo-rt-z]now\b/gmi,
    /\b[a-z]+[au-z]nth\b/gmi,
+   /\b[a-z]+[a-hj-np-tv-z]nto\b/gmi,
    /\b[a-z]+[eiu-z]nza\b/gmi,
    /\b[a-z]+[bx-z]oam\b/gmi,
    /\b[a-z]+[a-gi-km-qs-z]obe\b/gmi,
@@ -822,7 +825,7 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+no[cf-ko-quvz]\b/gmi,
    /\b[a-z]+nr[a-df-prs-xz]\b/gmi,
    /\b[a-z]+ns[a-df-prsuvxz]\b/gmi,
-   /\b[a-z]+nt[a-gi-prt-xz]\b/gmi,
+   /\b[a-z]+nt[a-gi-nprt-xz]\b/gmi,
    /\b[a-z]+nu[a-df-knoqru-z]\b/gmi,
    /\b[a-z]+nv[adehil-or-uy]\b/gmi,
    /\b[a-z]+ny[abd-kn-pr-z]\b/gmi,
@@ -966,7 +969,6 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+uv[a-df-rt-xz]\b/gmi,
    /\b[a-z]+ux[aeiouy]\b/gmi,
    /\b[a-z]+uy[a-rt-z]\b/gmi,
-   
    /\b[a-z]+va[a-df-kmo-qtu-wyz]\b/gmi,
    /\b[a-z]+v[b-df-hj-npqtw-z][ac-pr-z]\b/gmi,
    /\b[a-z]+ve[a-ce-ko-qu-wz]\b/gmi,
@@ -989,7 +991,6 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+wt[a-gi-rt-z]\b/gmi,
    /\b[a-z]+wu[a-lnoq-z]\b/gmi,
    /\b[a-z]+ww[a-vx-z]\b/gmi,
-   
    /\b[a-z]+xa[abdf-ko-qu-z]\b/gmi,
    /\b[a-z]+x[b-df-hjkmnp-su-wz][ac-pr-z]\b/gmi,
    /\b[a-z]+xe[a-ce-ko-qu-xz]\b/gmi,

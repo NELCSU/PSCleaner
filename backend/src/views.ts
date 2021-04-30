@@ -1,7 +1,15 @@
 import { app } from "electron";
-import { join as j }  from "path";
-import * as fileUrl from "file-url";
-import * as os from "os";
+import { join as j } from "path";
+import os from "os";
+
+// https://github.com/sindresorhus/file-url/blob/main/index.js
+function fileUrl(path: string): string {
+  let pathName = path.replace(/\\/g, '/');
+	if (pathName[0] !== '/') {
+		pathName = `/${pathName}`;
+	}
+	return encodeURI(`file://${pathName}`).replace(/[?#]/g, encodeURIComponent);
+}
 
 const base: string = app.getAppPath();
 const images: Map<string, string> = new Map<string, string>();

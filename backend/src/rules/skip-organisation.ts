@@ -29,7 +29,7 @@ const a: RegExp[] = [
   // S
   /\bserco\b/gmi,
   // U
-  /\b(?:unesco|unicef|united\snations)\b/gmi,
+  /\b(?:unesco|unicef|united\snations|un\sorgani[sz]ations?)\b/gmi,
 ];
 const OrganisationRegEx: Set<RegExp> = new Set();
 a.forEach(term => OrganisationRegEx.add(term));

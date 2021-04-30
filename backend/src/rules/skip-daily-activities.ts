@@ -3,6 +3,7 @@ const a: RegExp[] = [
   /\bbali\sbreeze\b/gmi,
   /\bball\sbearing\b/gmi,
   /\bangle\sgrinder\b/gmi,
+  /\bapril\sfool['‘’`]?s?\sday\b/gmi,
   /\bariel\s(?:liquitab|tablets?|washing)\b/gmi,
   /\bastro\sturf\b/gmi,
   // B
@@ -99,6 +100,7 @@ const a: RegExp[] = [
   /\btoliet\b/gmi,
   /\btrampol(?:ine)?\b/gmi,
   /\btrod\son\b/gmi,
+  /\btrump\scard\b/gmi,
   // V
   /\bvenetian\s(?:blind|window)s?\b/gmi,
   // W

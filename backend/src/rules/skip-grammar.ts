@@ -15,6 +15,7 @@ const a: RegExp[] = [
   /\barab\sspring\b/gmi,
   /\bassociate\sdean\b/gmi,
   /\bat\shome\b/gmi,
+  /\bat\sthe\b/gmi,
   // B
   /\bbaby\sjesus\b/gmi,
   /\bbank\sholiday\b/gmi,
@@ -37,13 +38,14 @@ const a: RegExp[] = [
   /\bchief\sof\sstaff\b/gmi,
   /\bcity\scentre\b/gmi,
   /\bclash\sof\b/gmi,
+  /\bto\sclose\b/gm,
   /\bconcerns\smount\b/gmi,
   /\bcul[\s-]de[\s-]sac\b/gmi,
   // D
   /\bdéjà\svu\b/gmi,
   /\bdirector[\s\-]general\b/gmi,
   /\bdrive\sdown\b/gmi,
-  /\bdua'?s\slayer\b/gmi,
+  /\bdua['‘’`]?s\slayer\b/gmi,
   // E
   /\beastern\sbloc\b/gmi,
   /\ben\smasse\b/gmi,
@@ -85,7 +87,7 @@ const a: RegExp[] = [
   /\bmodus\s(?:operandi|vivendi)\b/gmi,
   /\bmore\son\b/gmi,
   /\bmotley\screw\b/gmi,
-  /\bmurphy'?s\slaw\b/gmi,
+  /\bmurphy['‘’`]?s\slaw\b/gmi,
   // N
   /\bnew\syear\b/gmi,
   /\bnobel\sprize\b/gmi,
@@ -108,7 +110,7 @@ const a: RegExp[] = [
   /\broad\smap\b/gm,
   /\brust\sbelt\b/gmi,
   /\b[Ss]ales\sof\s\w+\b/gm,
-  /\b(?:santa\sclaus|santa'?s?\sgrottos?)\b/gmi,
+  /\b(?:santa\sclaus|santa['‘’`]?s?\sgrottos?)\b/gmi,
   /\bsmall\sarms\b/gmi,
   /\bstepping\son\b/gmi,
   /\b(?:autumn|spring|summer|winter)\s(?:camp|period)\b/gmi,

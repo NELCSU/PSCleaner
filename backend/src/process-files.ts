@@ -1,13 +1,13 @@
 import { app, ipcMain as ipc } from "electron";
-import * as EventEmitter from "events";
-import * as csv from "fast-csv";
+import EventEmitter from "events";
+import csv from "fast-csv";
 import { FileManager } from "./file-manager";
 import { join, parse } from "path";
 import { TemplateFiles } from "./template-files";
 import type { CSVField } from "../types/PSCleaner";
 import type { ReadStream, WriteStream } from "fs";
 import { csvFileProperties, TCSVFileProperties } from "./util/csv";
-import * as logger from "electron-log";
+import logger from "electron-log";
 import { normalize } from "@buckneri/string";
 
 /**

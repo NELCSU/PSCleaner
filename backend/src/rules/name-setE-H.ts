@@ -5914,6 +5914,7 @@ const a: string[] = [
 "entitan",
 "entler",
 "entner",
+"ento",
 "entrekin",
 "entrena",
 "entrerrios",

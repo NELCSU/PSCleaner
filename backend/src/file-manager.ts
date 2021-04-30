@@ -1,12 +1,12 @@
-import * as chok from "chokidar";
-import * as os from "os";
-import * as EventEmitter from "events";
-import * as fs from "fs-extra";
+import chok from "chokidar";
+import os from "os";
+import EventEmitter from "events";
+import fs from "fs-extra";
 import { v4 as uuidv4 } from "uuid";
-import * as makeDir from "make-dir";
+import makeDir from "make-dir";
 import { basename, join } from "path";
 import { isRootOrDriveLetter } from "./util/path";
-import * as logger from "electron-log";
+import logger from "electron-log";
 
 /**
  * ### Wrapper for Node's FileSystem library

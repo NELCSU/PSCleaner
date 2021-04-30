@@ -1,12 +1,12 @@
-import * as isSquirrelStartup from "electron-squirrel-startup";
+import { App, app, dialog, ipcMain as ipc, IpcMainEvent, Menu, protocol } from "electron";
+import isSquirrelStartup from "electron-squirrel-startup";
 if (isSquirrelStartup) {
   app.quit();
 }
-import { App, app, dialog, ipcMain as ipc, IpcMainEvent, Menu, protocol } from "electron";
-import * as EventEmitter from "events";
-import * as Store from "electron-store";
-import * as log from "electron-log";
-import * as env from "dotenv";
+import EventEmitter from "events";
+import Store from "electron-store";
+import log from "electron-log";
+import env from "dotenv";
 env.config();
 import { AppMenu } from "./build-menu";
 import { AppTray } from "./build-tray";
@@ -17,7 +17,7 @@ import { ProcessFiles } from "./process-files";
 import { TemplateFiles } from "./template-files";
 import { AppWindow } from "./window";
 import { NLP } from "./nlp.js";
-import * as fs from "fs";
+import fs from "fs";
 import config from "./views";
 
 class Main {

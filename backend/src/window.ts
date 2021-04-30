@@ -1,7 +1,7 @@
-import * as windowStateKeeper from "electron-window-state";
+import windowStateKeeper from "electron-window-state";
 import { BrowserWindow, Point, screen } from "electron";
-import * as Store from "electron-store";
-import * as logger from "electron-log";
+import Store from "electron-store";
+import logger from "electron-log";
 
 const windowDefault: any = {
   show: false,

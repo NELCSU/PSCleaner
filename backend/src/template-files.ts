@@ -1,11 +1,11 @@
 import { app, ipcMain as ipc } from "electron";
 import stringify from "json-stringify-pretty-compact";
-import * as csv from "fast-csv";
+import csv from "fast-csv";
 import { join } from "path";
 import { FileManager } from "./file-manager";
-import * as jschardet from "jschardet";
+import jschardet from "jschardet";
 import type { CSVField, CSVTemplate, ReadFileAction } from "../types/PSCleaner";
-import * as logger from "electron-log";
+import logger from "electron-log";
 
 export class TemplateFiles {
   #error?: string;
