@@ -21,8 +21,9 @@ import { AgeRegEx } from "./rules/age";
 import { EthnicitySet } from "./rules/ethnicity";
 import { SkipGrammarRegEx } from "./rules/skip-grammar";
 import { SkipWordSet } from "./rules/skip-word-set";
+import { findNHSNumber } from "@buckneri/nhs-number";
 import {
-  isPropercase, findEmail, findNHSNumber,
+  isPropercase, findEmail,
   findBankingNumbers, findCurrency, findUKTelephone,
   findURL, findUKPostcode, findDate, findTime, findOrdinal
 } from "@buckneri/string";
