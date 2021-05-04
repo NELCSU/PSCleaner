@@ -1626,63 +1626,52 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "prong",
 "pronounced",
 "prospect",
-"prosper",
-"prosperous",
-"provident",
-"providential",
-"province",
-"provincial",
-"proviso",
-"psalm",
-"psalms",
-"pub",
-"pug",
-"pulling",
-"pulpit",
-"pulse",
-"pump",
-"pumpers",
-"pumping",
+"prosper",          // first name & standalone & placenames (6)
+"psalm",            // first name
+"psalms",           // first name
+"pulling",          // surname & placenames (3)
 "pumpkin",          // first name & placenames (2)
-"pumproom",
-"pumps",
-"punch",
-"punchbowl",
-"puncher",
-"punches",
-"punnet",
-"puppy",
-"purchase",
-"purgatory",
-"puritan",
-"purple",
-"purples",
-"purse",
-"pursers",
-"purveyors",
-"puss",
-"pylon",
-"pyramid",
-"python",
-"quad",
-"quadrangle",
-"quadrant",
-"quarter",
-"quarters",
-"quash",
-"queen",
-"queens",
-"queer",
-"quest",
-"quested",
-"quick",
-"quicken",
-"quickening",
-"quickset",
-"quicksets",
-"quicksilver",
-"quickstep",
-"quiet",
+"punchbowl",        // standalone & placenames (8)
+"puncher",          // surname
+"punches",          // surname & placename
+// Q
+"quack",            // surname & placename
+"quadrant",         // placenames (199)
+"quail",            // surname & placenames (19)
+"quails",           // surname
+"quake",            // surname
+"quaker",           // surname & placenames (16)
+"quakers",          // surname & placenames (17)
+"quakes",           // first name
+"quarrels",         // surname & placename
+"quarry",           // surname & placenames (283)
+"quarter",          // standalone & placenames (51)
+"quarterman",       // surname
+"quarters",         // surname & placenames (10)
+"quarts",           // standalone & placename
+"quartz",           // surname & placenames (5)
+"quasar",           // first name
+"quash",            // surname
+"quasi",            // first name
+"quay",             // placenames (278)
+"quays",            // standalone & placenames (17)
+"quayside",         // standalone & placenames (15)
+"queen",            // first name & placenames (322)
+"queens",           // standalone & placenames (111)
+"queer",            // surname & placename
+"quelch",           // surname & placename
+"quell",            // surname & placenames (4)
+"quested",          // surname & placenames (2)
+"quick",            // standalone & placenames (14)
+"quicksets",        // standalone
+"quill",            // surname & standalone & placenames (5)
+"quills",           // standalone
+"quilt",            // surname & placenames (2)
+"quilter",          // surname & placenames (8)
+"quince",           // first name & standalone & placenames (14)
+"quitter",          // surname
+"quivers",          // surname
+// R
 "rabies",
 "raccoon",
 "race",
