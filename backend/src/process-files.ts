@@ -1,6 +1,6 @@
 import { app, ipcMain as ipc } from "electron";
 import EventEmitter from "events";
-import csv from "fast-csv";
+import * as csv from "fast-csv";
 import { FileManager } from "./file-manager";
 import { join, parse } from "path";
 import { TemplateFiles } from "./template-files";

@@ -127,10 +127,11 @@ import { normalize, selectionTrim } from "@buckneri/string";
     }
     ++cursor;
     if (strings.length === cursor) {
-      txt.innerHTML = "";
+      let content = "";
       while (strings.length) {
-        txt.innerHTML += strings.shift() + "<br>";
+        content += strings.shift() + "<br>";
       }
+      txt.innerHTML = content;
       window.dispatchEvent(new CustomEvent("new-data"));
     } else {
       ipc.send("NLP-request", strings[cursor]);
@@ -167,30 +168,6 @@ import { normalize, selectionTrim } from "@buckneri/string";
     window.dispatchEvent(new CustomEvent("please-clear-tags"));
     window.dispatchEvent(new CustomEvent("new-data"));
   }
-
-  /*
-   * Saves the cursor's position and returns a function
-   * that when run, sets the cursor to the saved position
-   */
-  /*
-  function insertionPoint(): Function {
-    let sel = window.getSelection() as Selection;
-    const node = sel.focusNode;
-    const offset = sel.focusOffset;
-    return function restore() {
-      sel.collapse(node, offset);
-    };
-  }*/
-/*
-  function createSelection(node: Node, start: number, length: number): Selection {
-    const range = document.createRange();
-    range.setStart(node, start);
-    range.setEnd(node, start + length);
-    const sel = window.getSelection() as Selection;
-    sel.removeAllRanges();
-    sel.addRange(range);
-    return sel;
-  }*/
 })();
 
 (function ContextMenu() {

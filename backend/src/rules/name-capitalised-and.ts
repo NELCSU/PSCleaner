@@ -1671,6 +1671,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "quarters",
 "quash",
 "queen",
+"queens",
 "queer",
 "quest",
 "quested",
@@ -1863,6 +1864,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sack",
 "sacrament",
 "safari",
+"sage",             // surname & placenames (21)
 "said",
 "sailcloth",
 "sailing",
@@ -1922,43 +1924,25 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "seller",
 "sellers",
 "selling",
-"sells",
-"senate",
-"senator",
-"send",
-"sentinel",
-"sentinels",
-"sentry",
-"september",
-"sequin",
-"services",
-"session",
-"set",
-"setting",
-"settles",
-"seven",
-"sevens",
-"severs",
-"sewage",
-"seward",
-"sewing",
-"shadow",
-"shale",
-"shallow",
-"shallows",
-"share",
-"sharp",
-"shawls",
-"sheafs",
-"sheath",
-"shed",
-"sheep",
-"sheet",
-"sheets",
+"sells",          // surname & placenames (3)
+"send",           // standalone & placenames (8)
+"sentry",         // standalone & placenames (9)
+"september",      // surname & placenames (3)
+"sequin",         // first name
+"settles",        // surname & placename
+"seven",          // first name & placenames (130)
+"severs",         // surname & placenames (4)
+"seward",         // first name & placenames (7)
+"sewing",         // surname
+"shale",          // surname & placenames (10)
+"sharp",          // surname & placenames (38)
+"sheath",         // surname & placenames (3)
+"sheep",          // placenames (92)
+"sheet",          // standalone & placenames (12)
+"sheets",         // surname & placenames (2)
 "shelf",          // standalone & placenames (15)
-"shelt",
-"shelter",
-"shepherd",
+"shelt",          // surname & placename
+"shepherd",       // surname & placenames (39)
 "shepherdess",
 "shepherds",
 "sherbert",

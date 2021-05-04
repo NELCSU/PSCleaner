@@ -1,6 +1,6 @@
 import { app, ipcMain as ipc } from "electron";
 import stringify from "json-stringify-pretty-compact";
-import csv from "fast-csv";
+import * as csv from "fast-csv";
 import { join } from "path";
 import { FileManager } from "./file-manager";
 import jschardet from "jschardet";
@@ -45,7 +45,7 @@ export class TemplateFiles {
     ipc.on("save-template-file", (e, file, data) => {
       this.saveFile(file, data)
         .then(
-          success => e.reply(success.status),
+          success => e.reply(success.status, file),
           failure => e.reply(failure.status)
         );
     });
@@ -67,11 +67,15 @@ export class TemplateFiles {
       if (size < 3) {
         throw new Error("File cannot be empty");
       }
+      let text: any;
+      let isUTF8: boolean = false;
       const rs = this.fm.fs.createReadStream(file, { start: 0, end: size > 499 ? 499 : size });
       rs.on("data", async (chunk: any) => {          
-        const isUTF8: boolean = chunk[0] === 239 && chunk[1] === 187 && chunk[2] === 191;
+        isUTF8 = chunk[0] === 239 && chunk[1] === 187 && chunk[2] === 191;
+        text = jschardet.detect(chunk.toString());
         rs.close();
-        const text: any = jschardet.detect(chunk.toString());
+      });
+      rs.on("close", () => {
         const headers: string[] = [];
         let rows: number = 0;
 
