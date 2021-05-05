@@ -8,7 +8,7 @@ const a: RegExp[] = [
   // C
   /\b(?:(?:catholic|orthodox)\schurch|coca\scola)\b/gmi,
   // D
-  /\b(?:district|supreme)\scourt\b/gmi,
+  /\b(?:district|federal|supreme)\scourt\b/gmi,
   // E
   /\beasyjet\b/gmi,
   // H
@@ -23,7 +23,7 @@ const a: RegExp[] = [
   /\b(?:national\scollege|nato|newshub)\b/gmi,
   /\bnhs\s(?:england|london|scotland|wales)\b/gmi,
   // P
-  /\bpubic\shealth\sengland\b/gmi,
+  /\b(?:public\shealth\sengland|premier\sleague)\b/gmi,
   // R
   /\b(?:royal\s(?:college|mail|navy)|the\sred\scross)\b/gmi,
   // S

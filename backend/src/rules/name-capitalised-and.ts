@@ -1441,7 +1441,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "payers",
 "pea",
 "peace",
-"peaceful",
 "pealer",
 "pealing",
 "peas",
@@ -1464,7 +1463,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "performance",
 "performing",
 "perimeter",
-"periods",
 "perish",
 "periwinkle",
 "perks",
@@ -1475,15 +1473,13 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "pesto",
 "petite",
 "pharma",
-"pharmacy",
 "piano",
-"pick",
 "picking",
 "pickings",
 "pickup",
 "picturesque",
 "pie",
-"piece",
+"piece",            // placenames (265)
 "pig",
 "pigeon",
 "pigeons",
@@ -1558,57 +1554,31 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "pore",
 "port",
 "portage",
-"portal",
-"portaloo",
+"portal",           // first name & placenames (17)
 "porters",          // standalone & placenames (25)
-"ports",
-"possession",
+"ports",            // surname & placenames (8)
 "post",             // placenames (126)
-"postburn",
-"postern",
+"postern",          // standalone & placenames (14)
 "pot",              // placenames (220)
-"potash",
-"potato",
-"potatoe",
-"potatoes",
-"pothole",
-"potpourri",
+"potash",           // surname & standalone & placenames (7)
+"pothole",          // standalone
 "pots",             // standalone & placenames (21)
 "pound",            // standalone & placenames (125)
 "pounds",           // surname & placenames (4)
-"pout",
-"powder",
-"power",
-"practical",
-"practice",
-"pram",
-"pre",
-"premier",
-"premises",
-"prep",
-"preparatory",
-"presbyterian",
-"presbytery",
-"pressing",
-"prestige",
-"presto",
-"prev",
-"prices",
-"primate",
-"prince",
-"princess",
-"principal",
-"principality",
-"printer",
-"printers",
-"printing",
-"printshop",
-"printworks",
-"prion",
-"prior",
+"pout",             // surname & placenames (3)
+"pram",             // first name
+"pre",              // first name & placenames (32)
+"premier",          // surname & placenames (13)
+"pressing",         // surname & placename
+"prestige",         // first name & placename
+"presto",           // first name & placenames (2)
+"prev",             // first name
+"prince",           // first name & placenames (183)
+"princess",         // first name & placenames (103)
+"printers",         // surname & placenames (15)
+"prion",            // standalone & placenames (2)
 "prioress",
 "prison",
-"private",
 "procession",
 "proctors",
 "prodigy",
@@ -2506,32 +2476,24 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "weeks",
 "weights",
 "welcome",
-"weld",             // first name & placenames (12)
-"welder",           // first name
-"welding",          // surname
-"welds",            // surname
-"well",
-"went",
-"west",
-"westbound",
-"western",
-"wheat",
-"wheatgrass",
-"wheats",
-"wheatstone",
-"whisker",
-"whisky",
-"whistle",
-"white",
-"whites",
-"wick",
-"wilder",
-"wilderness",
-"will",
-"willing",
-"wills",
-"wind",
-"windburn",
+"weld",               // first name & placenames (12)
+"welder",             // first name
+"welding",            // surname
+"welds",              // surname
+"well",               // placenames (617)
+"went",               // surname & placenames (26)
+"west",               // surname & placenames (1k+)
+"western",            // placenames (186)
+"wheatstone",         // surname & placenames (6)
+"whisker",            // surname & placename
+"whistle",            // first name & placenames (10)
+"white",              // surname & placenames (833)
+"whites",             // surname & placenames (33)
+"wick",               // surname & placenames (279)
+"wilder",             // surname & placenames (5)
+"wilderness",         // standalone & placenames (31)
+"will",               // first name & placenames (17)
+"wills",              // first name & placenames (20)
 "winded",             // standalone
 "winding",            // first name & placenames (25)
 "windy",              // first name & placenames (70)

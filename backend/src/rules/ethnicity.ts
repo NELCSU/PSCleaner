@@ -139,7 +139,6 @@ const a: string[] = [
 "beninese",
 "berber",
 "bermudian",
-"berom",
 "berta",
 "betawi",
 "betawian",
@@ -737,7 +736,7 @@ const a: string[] = [
 "roma",
 "romagnol",
 "romanian",
-"romaniote",
+
 "russian",
 "rusyn",
 "ruthenian",
