@@ -5,10 +5,7 @@ import logger from "electron-log";
 
 const windowDefault: any = {
   show: false,
-  backgroundColor: "#fff",
-  webPreferences: {
-    nodeIntegration: true
-  }
+  backgroundColor: "#fff"
 };
 
 /**

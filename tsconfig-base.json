@@ -1,11 +1,23 @@
 {
   "compilerOptions": {
+    "allowUnreachableCode": false,
     "alwaysStrict": true,
+    "baseUrl": ".",
     "composite": true,
     "declaration": true,
     "declarationMap": false,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
-    "lib": [ "dom", "esnext" ],
+    "lib": [ 
+      "ES2015",
+			"ES2016.Array.Include",
+			"ES2017.String",
+			"ES2018.Promise",
+			"DOM",
+			"DOM.Iterable",
+			"WebWorker.ImportScripts" 
+    ],
     "module": "commonjs",
     "moduleResolution": "node",
     "newLine": "lf",

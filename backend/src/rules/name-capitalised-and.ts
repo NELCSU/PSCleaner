@@ -266,6 +266,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "building",         // placenames (91)
 "buildings",        // placenames (112)
 "bulk",             // standalone & placenames (4)
+"bullion",          // surname & placenames (8)
+"bullions",         // surname
 "bump",             // surname & placenames (3)
 "burka",            // surname & placename
 "burn",             // standalone & placenames (256)
@@ -296,6 +298,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "canals",           // surname
 "canaries",         // placenames (2)
 "canary",           // first name & placenames (14)
+"cant",             // surname & placenames (7)
 "canteen",          // surname & placename
 "captain",          // placenames (30)
 "car",              // placenames (50)
@@ -660,12 +663,11 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "freehold",
 "freemason",
 "freight",
-"fresh",
+"fresh",              // standalone & placenames (11)
 "friday",
 "friend",
 "friendly",
 "friends",
-"friendship",
 "fringe",
 "frisbee",            // surname
 "frisby",             // surname & standalone & placenames (6)
@@ -673,8 +675,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "frolic",
 "frontier",
 "frost",
-"froth",
-"fruits",
+"fruits",             // surname
 "fuel",
 "furlough",
 "furnace",
@@ -690,7 +691,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "game",
 "games",
 "gang",
-"ganglion",
+"ganglion",       // first name
 "gaol",
 "gap",
 "gape",
@@ -698,48 +699,31 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "gaps",
 "garlic",
 "gas",
-"gasoline",
-"gate",
 "gated",
 "gaudy",
 "gauge",
-"gauze",
-"gay",
-"gayer",
-"gays",
-"generation",
-"genesis",
-"gentle",
-"germans",
-"getting",             // surname & placename (1)
-"ghetto",
-"ghost",
-"giant",
-"giants",
-"gift",
-"girls",
-"given",
-"giver",
-"glass",
-"glasses",
-"globe",
-"globule",
-"glorious",
-"glory",
-"glove",
-"glow",
-"goatee",
-"goats",
-"gofundme",
-"gold",
+"gauze",            // surname & placenames (4)
+"gay",              // surname & placenames (22)
+"gayer",            // surname & placename
+"gays",             // surname & placenames (5)
+"genesis",          // first name & placenames (4)
+"germans",          // first name & placenames (9)
+"getting",          // surname & placename
+"gift",             // first nmae & placenames (2)
+"given",            // surname & placename
+"giver",            // surname & placename
+"glass",            // surname & placenames (31)
+"glorious",         // first name
+"glory",            // first name & placenames (8)
+"glow",             // surname & placename
+"goatee",           // surname
+"goats",            // surname & placenames (7)
+"gold",             // surname & placenames (46)
 "golden",           // placenames (137)
-"good",
-"goodness",
-"goods",
-"gotten",
-"gouda",
-"government",
-"grab",
+"good",             // surname & placenames (32)
+"goodness",         // first name
+"goods",            // surname & placenames (10)
+"gouda",            // surname & placename
 "grains",
 "grand",
 "grandfather",
@@ -2516,6 +2500,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "worthy",             // first name & placenames (26)
 "wrench",             // surname & placenames (3)
 "wrestler",           // surname
+"wroth",              // surname & placename
 // X
 "xenon",              // first name
 // Y

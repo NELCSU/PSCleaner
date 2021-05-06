@@ -23,6 +23,7 @@ export const NameSetJoinOnly: Set<string> = new Set([
   "field",         // surname & placenames (1k+)
   "garden",        // placenames (433)
   "gardens",       // placenames (1k+)
+  "gate",          // placenames (1k+)
   "geo",           // placenames (1k+)
   "high",          // placenames (1k+)
   "new",           // placenames (1k+)
