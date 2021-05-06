@@ -30607,6 +30607,7 @@ const a: string[] = [
 "lammins",
 "lammoglia",
 "lammon",
+"lammond",
 "lammone",
 "lammons",
 "lammote",

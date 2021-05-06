@@ -138,7 +138,7 @@ import { normalize, selectionTrim } from "@buckneri/string";
     }
   });
 
-  function createLineBreaks(n: Node, parent: Node): void {
+  function createLineBreaks(n: Node, parent: Node): Node | null {
     if (n.nodeType === Node.TEXT_NODE) {
       let pos = (n as Text).textContent.search(/<br>/);
       if (pos > -1) {
@@ -146,11 +146,12 @@ import { normalize, selectionTrim } from "@buckneri/string";
         const last = (n as Text).splitText(pos);
         last.textContent = last.textContent.replace(/^<br>/,"");
         parent.insertBefore(br, last);
-        createLineBreaks(last, parent);
+        return last;
       } else if (n.nextSibling) {
-        createLineBreaks(n.nextSibling, parent);
+        return n.nextSibling;
       }
     }
+    return null;
   }
 
   function pasteText(e?: Event) {
@@ -164,7 +165,10 @@ import { normalize, selectionTrim } from "@buckneri/string";
     paste = paste.replace(/[\r\n]/gm, "<br>");
     sel.deleteFromDocument();
     sel.getRangeAt(0).insertNode(document.createTextNode(paste));
-    createLineBreaks(txt.firstChild, txt);
+    let startNode = createLineBreaks(txt.firstChild, txt);
+    while (startNode) {
+      startNode = createLineBreaks(startNode, txt);
+    }
     window.dispatchEvent(new CustomEvent("please-clear-tags"));
     window.dispatchEvent(new CustomEvent("new-data"));
   }

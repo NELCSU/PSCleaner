@@ -13,7 +13,6 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+castle\b/gmi,
    /\b[a-z]+church\b/gmi,
    /\b[a-z]+greave\b/gmi,
-   /\b[a-z]+ingdon\b/gmi,
    /\b[a-z]+meadows?\b/gmi,
    /\b[a-z]+oorthy\b/gmi,
    /\b[a-z]+shields?\b/gmi,
