@@ -7,7 +7,7 @@
   },
   "search.exclude": {
     "**/node_modules": true,
-    "**/build": false
+    "**/build": true
   },
   "typescript.tsdk": "node_modules/typescript/lib",
 }

@@ -28,6 +28,8 @@ const a: RegExp[] = [
   /\b(?:royal\s(?:college|mail|navy)|the\sred\scross)\b/gmi,
   // S
   /\bserco\b/gmi,
+  // T
+  /\bFinancial\sTimes\b/gmi,
   // U
   /\b(?:unesco|unicef|united\snations|un\sorgani[sz]ations?)\b/gmi,
 ];

@@ -109,11 +109,14 @@ const a: RegExp[] = [
   /\bran\sback\b/gmi,
   /\broad\smap\b/gm,
   /\brust\sbelt\b/gmi,
+  // S
+  /\b(?:It|He|She|They)\ssaid\b/gm,
   /\b[Ss]ales\sof\s\w+\b/gm,
   /\b(?:santa\sclaus|santa['‘’`]?s?\sgrottos?)\b/gmi,
   /\bsmall\sarms\b/gmi,
   /\bstepping\son\b/gmi,
   /\b(?:autumn|spring|summer|winter)\s(?:camp|period)\b/gmi,
+  // T
   /\bbig\stech\b/gmi,
   /\btik\stok\b/gmi,
   /\b(?:back|top)\sof\sfoot\b/gmi,
