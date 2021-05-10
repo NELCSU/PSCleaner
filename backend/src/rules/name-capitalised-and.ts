@@ -811,7 +811,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "innocent",         // first name
 "inspire",          // standalone & placenames (2)
 "intake",           // standalone & placenames (53)
-"invincibile",      // surname
 "inward",           // surname & placenames (4)
 "inwards",          // surname
 "ion",              // first name & placenames (3)
@@ -912,7 +911,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "leaning",
 "leap",
 "leaping",
-"learning",
 "lease",
 "leases",
 "leaves",
@@ -1052,6 +1050,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "messenger",
 "messing",
 "meta",
+"methodist",        // placenames (66)
 "mid",
 "middle",
 "milder",

@@ -14,7 +14,7 @@ const a: RegExp[] = [
   // H
   /\bhigh\scommission\b/gmi,
   // J
-  /\bjp\smorgan\schase\b/gmi,
+  /\b(?:jp\smorgan\schase|junior\sand\sinfants?)\b/gmi,
   // K
   /\bku\sklux\sklan\b/gmi,
   // L
