@@ -727,204 +727,132 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "handover",         // surname
 "hands",            // surname & placenames (14)
 "handy",            // surname & placenames (4)
-"hang",
-"hangar",
-"hanged",
-"hanger",
-"hangers",
-"hanging",            // placenames (106)
-"happy",              // first name & placenames (14)
-"harbour",            // placenames (301)
-"harness",            // first name & placenames (7)
-"harsh",              // first name
-"head",               // placenames (1k+)
-"heads",              // surname & placenames (77)
-"headstone",          // standalone & placenames (6)
-"headward",           // surname
-"headway",            // standalone & placenames (7)
-"healing",            // first name & standalone & placenames (5)
-"heard",              // surname & placenames (4)
-"heart",              // surname & placenames (59)
-"hearth",
-"hearthstone",
-"heartlands",
-"heaven",
-"heavier",
+"hanger",           // surname & placenames (237)
+"hanging",          // placenames (106)
+"happy",            // first name & placenames (14)
+"harbour",          // placenames (301)
+"harness",          // first name & placenames (7)
+"harsh",            // first name
+"head",             // placenames (1k+)
+"heads",            // surname & placenames (77)
+"headstone",        // standalone & placenames (6)
+"headward",         // surname
+"headway",          // standalone & placenames (7)
+"healing",          // first name & standalone & placenames (5)
+"heard",            // surname & placenames (4)
+"heart",            // surname & placenames (59)
+"hearth",           // surname & placenames (4)
+"hearthstone",      // standalone & placenames (2)
+"heartlands",       // standalone & placenames (7)
+"heaven",           // surname & placenames (7)
 "hedge",            // surname & placenames (71)
-"hedgerow",
-"hedgerows",
+"hedgerow",         // standalone & placenames (13)
+"hedgerows",        // standalone & placenames (3)
 "hedges",           // surname & placenames (39)
-"heedless",
-"height",
-"heights",
-"held",
-"hell",
-"helmet",
-"helps",
-"herald",
-"herbalist",
-"hey",
-"heydey",
-"hid",
-"hide",
-"higher",
-"hijab",
-"hind",
-"hinge",
-"hinges",
-"hitch",
-"hive",
-"hives",
-"hobby",        // first name & placenames (11)
-"hockeys",
-"hog",
-"hoist",        // surname & placenames (3)
-"hold",
-"holders",
-"holding",
-"hole",
-"holes",
-"holy",         // placenames (188)
-"home",
-"homeland",
-"homelands",
-"homes",
-"homo",
-"honour",
-"hoop",
-"hoot",
-"hooter",
-"hooters",
-"hoots",
+"heights",          // placenames (450)
+"held",             // surname & placenames (2)
+"helps",            // surname & placename
+"herald",           // surname & placenames (13)
+"hey",              // placenames (393)
+"hide",             // standalone & placenames (22)
+"hijab",            // first name
+"hind",             // firsts name & placenames (34)
+"hinge",            // surname
+"hitch",            // surname & placenames (11)
+"hive",             // standalone & surname & placenames (20)
+"hives",            // surname & placenames (6)
+"hobby",            // first name & placenames (11)
+"hoist",            // surname & placenames (3)
+"holders",          // standalone & placenames (13)
+"holding",          // surname & placenames (8)
+"hole",             // placenames (269)
+"holes",            // surname & placenames (106)
+"holy",             // placenames (188)
+"home",             // placenames (1k+)
+"homelands",        // standalone & placenames (12)
+"homes",            // surname & placenames (11)
+"homo",             // first name
+"honour",           // first name & placenames (4)
+"hoop",             // surname & placenames (6)
+"hoot",             // surname
+"hooter",           // surname
+"hoots",            // surname
 "hoover",           // first name & placenames (5)
-"hop",
+"hop",              // first name & placenames (51)
 "hopes",            // surname & placenames (13)
-"hopping",
-"horseback",
-"horsefair",
-"horseman",
-"horserace",
-"horses",
-"horseshoe",
-"horticultural",
+"hopping",          // surname & placenames (8)
+"horseback",        // standalone & placenames (2)
+"horsefair",        // standalone & placenames (8)
+"horseman",         // surname & placenames (14)
+"horseshoe",        // standalone & placenames (55)
 "hose",             // surname & standalone & placenames (8)
-"hospice",
-"hospital",
-"host",
-"hostel",
-"hotel",
-"house",
-"houses",
+"hospice",          // first name & placenames (144)
+"hospital",         // placenames (1k+)
+"house",            // placenames (1k+)
+"houses",           // placenames (105)
 "how",              // standalone & placenames (120)
-"hub",
-"hundred",
-"hundreds",
-"hurt",
-"hurts",
-"husband",
-"hustlers",
-"hut",
+"hub",              // surname & placenames (6)
+"hundred",          // placenames (49)
+"hurt",             // surname & placenames (4)
+"hurts",            // surname & placenames (2)
+"hut",              // surname & placenames (27)
 "hydra",            // first name & placenames
-"hydroelectric",
-"hydropower",
-"ibu",
-"illustrious",
-"image",
-"immaculate",
-"imms",
-"imperial",
-"implacable",
-"implement",
-"inches",
-"incinerator",
-"incline",
-"inclosure",
-"indians",
-"indie",
-"infant",
-"infants",
-"inferior",
-"infirmary",
-"ing",
-"inhumane",
-"initiative",
-"inland",
-"inner",
-"innkeeper",
-"innkeepers",
-"innocent",
-"innovation",
-"insitu",
-"inspire",
-"installation",
-"institution",
-"intake",
-"inter",
-"interchange",
-"intermediate",
-"invincibile",
-"invincible",
-"inward",
-"inwards",
-"ion",
-"iron",
-"ironing",
-"irony",
-"irrigation",
-"island",
-"islands",
-"isle",
-"isles",
-"issues",
-"jabs",
-"jacker",
-"jacket",
-"jackets",
-"jackpot",
-"jacuzzi",
-"jaguar",
-"jail",
-"jams",
-"jarred",
-"jawbone",
-"jawbones",
-"jaws",
-"jazz",
-"jet",
-"jetty",
-"jewel",
-"jewellers",
-"jewellery",
-"jewels",
-"jewry",
-"jews",
-"jitsu",
-"job",
-"jobs",
-"join",
-"joiners",
-"joinings",
-"joint",
-"journey",
-"joyful",
-"judgement",
-"judges",
-"jug",
-"juggler",
-"july",
-"jump",
-"jumpers",
-"jumps",
-"junction",
-"junctions",
-"jungle",
-"jungles",
-"jupiter",
-"jury",
-"justice",
-"justices",
-"jutting",
-"juvenile",
+// I
+"ibu",              // surname
+"illustrious",      // standalone & placenames (4)
+"immaculate",       // first name & placenames (8)
+"imms",             // surname
+"imperial",         // surname & placenames (30)
+"inches",           // surname & standalone & placenames (4)
+"inclosure",        // placeanmes (170)
+"indie",            // first name & placenames (5)
+"infirmary",        // standalone & placenames (45)
+"ing",              // surname & placenames (78)
+"inner",            // placenames (117)
+"innocent",         // first name
+"inspire",          // standalone & placenames (2)
+"intake",           // standalone & placenames (53)
+"interchange",      // placenames (44)
+"invincibile",      // surname
+"inward",           // surname & placenames (4)
+"inwards",          // surname
+"ion",              // first name & placenames (3)
+"island",           // placenames (674)
+"islands",          // placenames (54)
+"isle",             // first name & placeanmes (215)
+"isles",            // first name & placenames (30)
+// J
+"jabs",             // surname
+"jackets",          // surname
+"jaguar",           // first name & standalone & placenames (4)
+"jams",             // first name & placenames (2)
+"jarred",           // first name
+"jazz",             // first name & placenames (2)
+"jet",              // first name & placenames (4)
+"jetty",            // first name & placenames (18)
+"jewel",            // first name & placenames (11)
+"jewels",           // first name & placenames (2)
+"jewry",            // surname & placenames (3)
+"jews",             // surname & placenames (5)
+"jitsu",            // first name
+"jobs",             // surname & placenames (2)
+"journey",          // first name
+"joyful",           // first name
+"judges",           // surname & placenames (11)
+"jug",              // surname & placenames (3)
+"july",             // first name & placename (2)
+"jump",             // standalone & placenames (8)
+"jumpers",          // standalone & placenames (5)
+"jumps",            // surname & placenames (4)
+"junction",         // placenames (107)
+"jungles",          // surname
+"jupiter",          // first name & placenames (17)
+"jury",             // first name & placenames (10)
+"justice",          // firs name & placenames (15)
+"justices",         // first name
+"jutting",          // surname
+"juvenile",         // first name
+// K
 "kaftan",
 "kangaroo",
 "kebab",
