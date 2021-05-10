@@ -36,7 +36,6 @@ const a: RegExp[] = [
   /\bthe\s(?:bill|eve|lord|professors|white)\b/gmi,
   /\bcarole?\s(?:services?|sing(?:ers?|ing))\b/gm,
   /\bchief\sof\sstaff\b/gmi,
-  /\bcity\scentre\b/gmi,
   /\bclash\sof\b/gmi,
   /\bto\sclose\b/gm,
   /\bconcerns\smount\b/gmi,

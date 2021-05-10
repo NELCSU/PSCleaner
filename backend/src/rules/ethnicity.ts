@@ -717,7 +717,6 @@ const a: string[] = [
 "pontic",
 "portuguese",
 "provencal",
-"punjabi",
 "putianese",
 "qaratay",
 "qemant",

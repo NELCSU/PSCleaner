@@ -8681,6 +8681,7 @@ const a: string[] = [
 "maxmillion",
 "maxmin",
 "maxon",
+"maxouris",
 "maxoutis",
 "maxray",
 "maxsene",
