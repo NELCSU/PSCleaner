@@ -323,7 +323,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "centenary",        // placenames (21)
 "central",          // placenames (381)
 "challenger",       // first name & placenames (7)
-"chamber",          // placenames (17)
 "chancellor",       // first name & placenames (17)
 "chancellors",      // standalone & placenames (10)
 "channel",          // placenames (135)
@@ -336,6 +335,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "checker",          // surname & placenames (4)
 "cheeks",           // surname & placename
 "chemistry",        // standalone & placenames (2)
+"chi",              // first name & placenames (3)
 "chicken",          // placenames (15)
 "children",         // first name & placenames (16)
 "childrens",        // placenames (24)
@@ -364,7 +364,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "clump",            // surname & placenames (643)
 "clumps",           // standalone & placenames (42)
 "cluster",          // standalone & placename
-"coach",            // placenames (96)
 "coal",             // placenames (90)
 "coast",            // first name & standalone & placenames (27)
 "coastal",          // placenames (16)
@@ -690,6 +689,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "graveyard",        // standalone & placename
 "grey",             // surname & placenames (159)
 "greater",          // first name & placenames (17)
+"green",            // placenames (1k+)
 "greenhouse",       // surname & placenames (10)
 "grid",             // surname & placenames (13)
 "grills",           // surname
@@ -1004,6 +1004,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "maiden",
 "maidens",
 "main",
+"mainland",           // standalone & placenames (2)
 "mainstream",
 "majesty",
 "major",
@@ -1657,7 +1658,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sacrament",
 "safari",
 "sage",             // surname & placenames (21)
-"said",
+"said",             // first name & placename
 "sailcloth",
 "sailing",
 "saints",
@@ -1741,7 +1742,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "shin",
 "shingles",
 "shining",
-"shipping",
+"shipping",       // standalone & placenames (3)
 "shirt",
 "shiver",
 "shivering",
@@ -1858,13 +1859,11 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "spark",
 "speakers",
 "spec",
-"specialist",
 "specimen",
 "speckled",
 "spectator",
 "spectrum",
 "speculation",
-"speech",
 "speed",
 "spikes",
 "spine",

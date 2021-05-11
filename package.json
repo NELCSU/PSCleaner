@@ -44,7 +44,7 @@
     "electron-rebuild": "^2.3.5",
     "electron-wix-msi": "^3.0.6",
     "eslint": "^7.21.0",
-    "eslint-plugin-jsdoc": "^33.0.0",
+    "eslint-plugin-jsdoc": "^34.0.0",
     "jsdoc": "^0.0.0",
     "ncp": "^2.0.0",
     "node-abi": "^2.19.3",
