@@ -31822,7 +31822,7 @@ const a: string[] = [
 "grevil",
 "grevillea",
 "greving",
-"grevious",
+"grevin",
 "grevis",
 "greviston",
 "grevitts",

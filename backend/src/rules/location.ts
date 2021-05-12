@@ -34,7 +34,7 @@ const a: RegExp[] = [
   /\bThe\sL(?:amp|and|anding|eap|eases|ee|evel|ight|ine|ots|ottery)\b/gm,
   /\bThe\sM(?:an\so['‘’`]?\sWar|ary\sRose|edical\sWing|ere)\b/gm,
   /\bThe\sN(?:eedle|eck\sGut|ursery)\b/gm,
-  /\bThe\sOld\s(?:Armoury|Barnyard|Coach\s(?:House|Road|Yard)|Courtyard|Fire\sStation|Laundry|Mission|Road|Saw\sMills?)\b/gm,
+  /\bThe\sOld\s(?:Armoury|Barnyard|Coach\s(?:House|Road|Yard)|Courtyard|Fire\sStation|Laundry|Mission|Road|Saw\sMills?|Warehouse)\b/gm,
   /\bThe\sO(?:pening|val|ven)\b/gm,
   /\bThe\sP(?:ost|otatoe\sGround|rior|ulpit|urse|yramid)\b/gm,
   /\bThe\sQu(?:ad(?:rangle)?|arries|ilts|orum)\b/gm,
@@ -42,7 +42,7 @@ const a: RegExp[] = [
   /\bThe\sS(?:aw\sMills?|entinels|hallows|hot|lides?|quare|tate\sHospital|till|treet|tyle|weep|ycamores)\b/gm,
   /\bThe\sT(?:ennis(?:\sCourt)?|hird|oe|rap|reehouse)\b/gm,
   /\bThe\sV(?:ikings|illage)\b/gm,
-  /\bThe\sWa(?:kerings|ll|lthams|tch|terfront|terwheel)\b/gm,
+  /\bThe\sWa(?:kerings|ll|lthams|tch|terfalls|terfront|tershed(?:\scovert)?|terwheel|yback)\b/gm,
   /\bThe\sW(?:heel|hisky\sLine|ish|orks)\b/gm,
   /\bThe\sYellow\s*Man\b/gm,
   // and
@@ -128,7 +128,7 @@ const a: RegExp[] = [
   // close or wood
   /\b(?:trimmers|trustees?|whistlestop|workmans)\s(?:close|wood)\b/gmi,
   /\bironing\sbox\sclump\b/gmi,
-  /\b(?:antiquarian|lowness)\scoppice\b/gmi,
+  /\b(?:antiquarian|lowness|washers\spit)\scoppice\b/gmi,
   // copse
   /\b(?:banisters|barebones|butternut|candles|grandmother['‘’`]?s|kill\sdevil|nail|pumproom|upping)\scopse\b/gmi,
   // copse or road
@@ -183,7 +183,7 @@ const a: RegExp[] = [
   /\b(?:independent|risk)\s(?:hill|street)\b/gmi,
   /\bblaster\shole\b/gmi,
   /\b(?:Button|Cheese|Rabbit)\sHole\b/gm,
-  /\b(?:flasks|harbors)\slake\b/gmi,
+  /\b(?:flasks|harbors|watershed)\slake\b/gmi,
   // lane
   /\ba(?:pp['‘’`]?s|ppealing|rmory|rtisans|xes)\slane\b/gmi,
   /\bb(?:ad\sbargain|ankers|anters|arf|as(?:tard['‘’`]?s|es?)|eads\shall|eef|ehind\shayes|et['‘’`]?s|lack\s(?:dad|monkey)|ladder|lindside|low['‘’`]?s|oarders|oat(?:ing\slake|man['‘’`]?s)|oggy|ottles|ouncer['‘’`]?s|owls|races|rag|roade[nr]|roke|ull(?:ion['‘’`]?s?|y)|umper['‘’`]?s?|us(?:ker|y)|ut(?:chery)?)\slane\b/gmi,
@@ -272,7 +272,7 @@ const a: RegExp[] = [
   // school
   /\btreehouse\sschool\b/gmi,
   /\bInland\sSea\b/gm,
-  /\bgrasscuts\sshaw\b/gmi,
+  /\b(?:grasscuts|wastelands)\sshaw\b/gmi,
   /\bcleats\sshore\b/gmi,
   /\bcandlesticks\sspinney\b/gmi,
   // spring
@@ -1724,13 +1724,30 @@ const a: RegExp[] = [
   // V
   /\bvikings\s(?:close|court|way)\b/gmi,
   // W
+  /\bWake\sClose\b/gm,
+  /\b(?:archbishop|barrow|caundle|dowlish|ebbesbou?rne|ladye|stoke)\swake\b/gmi,
+  /\bwake\s(?:avenue|green(?:\s(?:park|road))?|grove|hill|road|street|valley(?:\spond)?|way|wood)\b/gmi,
+  /\bcanon\swake\scourt|john\swake\sclose|wake['‘’`]?s\s(?:covert|end)\b/gmi,
+  /\bwakes\s(?:close|colne|copse|drive|end\swood|meadow|road|row|street|wood)\b/gmi,
   /\bwar\s(?:beds|cleave|coppice|dale|dike|down|fields?|hill|lane|plantation|memorial\s(?:hospital|plantation|village)|moor|ness|office\sroad)\b/gmi,
   /\bMan\s[Oo][f'‘’`]\sWar\b/gm,
   /\bpant-y-war\b/gmi,
+  /\b(?:warehouse\s(?:hill(?:\sroad)?|lane|road|street)|loch\sof\swarehouse)\b/gmi,
+  /\bwarm\s(?:croft|hill|lane|slack\shill|withens\shill)\b/gmi,
+  /\bwarrior\s(?:avenue|close|drive|gardens|square(?:\s(?:east|north|road))?|way)\b/gmi,
+  /\bthe\shundred\sfoot\swashes\b/gmi,
+  /\bold\swaste\s(?:lane|plantation)\b/gmi,
+  /\bwaste\s(?:acre|bottom|common|coppice|dr[io]ve|green(?:\slane)?|ground\splantation|hill|lane|plantation|road|street|wood)\b/gmi,
+  /\b(?:crowle|dendles|lane|long|old|reedness|thorne|whitwick)\swaste\b/gmi,
+  /\bwaster\shoevda\b/gmi,
   /\b(?:Badgers|Carn|Channel|Craig|Gimli|Joannies|Middle|Trinity)\sWatch\b/gm,
   /\bwatch\s(?:avenue|cleu[cg]h|close|copse|crags|craig|croft|currick|elm|hill|house|knott|knowe|lane|law|moss|plantation|rigg|rock|street|water|wood)\b/gmi,
+  /\b(?:(?:arthog|barrow|black|bronte)\swaterfalls|waterfalls\sroad)\b/gmi,
+  /\b(?:waterless\swood|westley\swaterless)\b/gmi,
   /\bwaterwheel\s(?:close|court|lane|rise|way)\b/gmi,
+  /\b(?:waterworks\s(?:close|covert|drive|hill|lane|road|street|way|wood)|(?:old\s)?waterworks\splantation)\b/gmi,
   /\bwatery\s(?:bottom|brake|close|combe|dyke|gate|geo|grove|haven|hill|knowe|lane|marsh|orchard|pots|road|street|way|wood)\b/gmi,
+  /\bwayfarer['‘’`s]*\s(?:close|drive|gardens|road|way)\b/gmi,
   /\bwealth\s(?:hole|of\swaters)\b/gmi,
   /\bweeping\s(?:cross|elm)\b/gmi,
   /\bWelcome\s(?:Beach|Close|Drive|Hill|Lane|Parade|Place|Street|Way|Wood)\b/gm,

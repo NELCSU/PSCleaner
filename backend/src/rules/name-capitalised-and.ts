@@ -1069,6 +1069,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "mutt",
 "mutual",
 "myth",
+// N
 "naevus",
 "nags",
 "nah",
@@ -1118,6 +1119,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "nursey",
 "nuts",
 "nutty",
+// O
 "o2",
 "obelisk",
 "observatory",      // standalone & placenames (16)
@@ -1168,6 +1170,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "overthrow",
 "owners",
 "ox",
+// P
 "pace",
 "pacific",
 "paed",
@@ -1972,6 +1975,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "swinger",            // surname & placename
 "swine",              // standalone & placenames (32)
 "swords",             // surname & placenames (2)
+// T
 "tables",             // surname & placename
 "tack",
 "tallow",
@@ -2123,6 +2127,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "tyranny",
 "tyre",
 "tyres",
+// U
 "ulna",
 "ultra",
 "uncle",
@@ -2150,6 +2155,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "uprights",
 "upshot",
 "urban",
+// V
 "valentines",
 "valley",
 "valleys",
@@ -2196,59 +2202,43 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "volunteer",
 "vomit",
 "vortex",
-"wacko",
-"wake",
-"wakes",
-"walk",
-"walker",
-"walkingstick",
-"walks",
-"wane",
-"warehouse",
-"warm",
-"warmup",
-"warns",
-"warrior",
-"wart",           // surname & placenames (7)
-"wary",
-"wash",
-"washer",
-"washers",
-"washes",
+// W
+"wacko",              // surname
+"walk",               // placenames (1k+)
+"walker",             // surname & placenames (92)
+"walkingstick",       // surname
+"walks",              // surname & placenames (38)
+"wane",               // first name & placename
+"warns",              // surname & placenames (2)
+"wart",               // surname & placenames (7)
+"wary",               // surname & placename
+"wash",               // standalone & placenames (58)
+"washer",             // surname & placenames (8)
 "washing",            // surname & placenames (12)
-"wasp",
-"waste",
-"wastelands",
-"waster",
-"water",
-"waterfall",
-"waterfalls",
-"waterfront",
-"waterless",
-"watermill",
-"watershed",
-"waterside",
-"waterway",
-"waterways",
-"waterworks",
-"wax",
-"way",
-"wayback",
-"wayfarer",
-"wayfarers",
-"wayfaring",
-"wayfarings",
-"waymark",
-"ways",
-"wayside",
-"wayward",
-"wears",
-"weaving",
-"wednesday",
-"wee",
-"week",
-"weeks",
-"weights",
+"wasp",               // first name & placenames (7)
+"water",              // placenames (668)
+"waterfall",          // surname & placenames (51)
+"waterfront",         // standalone & placenames (19)
+"watermill",          // standalone & placenames (19)
+"waterside",          // standalone & placenames (46)
+"waterway",           // standalone & placenames (10)
+"waterways",          // standalone & placenames (4)
+"wax",                // surname & placename
+"way",                // placenames (1k+)
+"wayfarers",          // standalone & placenames (6)
+"wayfaring",          // standalone & placenames (4)
+"wayfarings",         // standalone & placename
+"waymark",            // surname & placename
+"ways",               // surname & placenames (32)
+"wayside",            // standalone & placenames (19)
+"wayward",            // surname & placename
+"wears",              // surname & placenames (2)
+"weaving",            // surname & placenames (5)
+"wednesday",          // first name & placename
+"wee",                // suranme & standalone & placenames (32)
+"week",               // standalone & placenames (36)
+"weeks",              // surname & placenames (7)
+"weights",            // surname & placenames (2)
 "weld",               // first name & placenames (12)
 "welder",             // first name
 "welding",            // surname
