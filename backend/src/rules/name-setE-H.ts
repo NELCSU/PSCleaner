@@ -24634,6 +24634,7 @@ const a: string[] = [
 "ghebreyohammes",
 "ghebreyohanes",
 "ghebreyohannes",
+"ghebreysus",
 "ghebrezgabher",
 "ghebrezghiher",
 "ghebrezgiabher",

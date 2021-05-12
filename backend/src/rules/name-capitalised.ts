@@ -1,7 +1,6 @@
 const a: string[] = [
 "abase",            // first name
 "abbess",           // surname & placenames (9)
-"abbey",            // first name & placenames (349)
 "abbot",            // surname & placenames (34)
 "abbots",           // placenames (98)
 "abele",            // first name
@@ -3728,7 +3727,6 @@ const a: string[] = [
 "laws",
 "laxer",
 "laxness",
-"lay",
 "laybys",
 "layman",
 "laymen",

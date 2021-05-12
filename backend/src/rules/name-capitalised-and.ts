@@ -1,4 +1,5 @@
 export const ProperNameSetJoinOnly: Set<string> = new Set([
+"abbey",            // first name & placenames (349)
 "accord",           // surname & placenames (9)
 "achy",             // surname
 "acorn",            // first name & placenames (50)
@@ -10,6 +11,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "adl",              // surname
 "admiral",          // first name & placenames (36)
 "aerial",           // first name & placenames (2)
+"africa",           // first name & placenames (7)
 "agile",            // first name
 "aided",            // first name & placenames (111)
 "aider",            // first name
@@ -63,6 +65,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "art",              // first name & placenames (42)
 "arts",             // surname & placenames (90)
 "ascension",        // first name & placenames (8)
+"asia",             // first name & placename
 "atlantic",         // first name & placenames (29)
 "atlas",            // first name & placenames (18)
 "atomic",           // first name
@@ -360,6 +363,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "clashing",         // surname
 "cleat",            // standalone & placenames (5)
 "clipper",          // surname & placenames (13)
+"close",            // placenames (1k+)
 "cloud",            // first name & placenames (18)
 "clump",            // surname & placenames (643)
 "clumps",           // standalone & placenames (42)
@@ -415,7 +419,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "court",            // placenames (1k+)
 "courts",           // surname & placenames (20)
 "courtside",        // standalone & place name
-"courtyard",        // placenames (57)
 "courtyards",       // standalone & placenames (2)
 "cousins",          // first name & placenames (10)
 "cow",              // placenames (180)
@@ -851,148 +854,88 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "jutting",          // surname
 "juvenile",         // first name
 // K
-"kaftan",
-"kangaroo",
-"kebab",
-"keen",
-"keep",
-"keg",
+"kaftan",           // first name
+"keen",             // surname & standalone & placenames (28)
+"keg",              // surname & placenames (2)
 "kettle",           // surname & standalone & placenames (38)
 "kettler",          // surname
 "kettles",          // surname & placenames (6)
-"kiddie",
-"kiddies",
-"killings",
-"killjoy",
-"kin",
-"kinder",
-"kingfisher",
-"kiss",
-"kissing",
-"kitchens",
-"knacker",
-"knackers",
-"knock",
-"knuckle",
-"knuckles",
-"labour",
-"lack",
-"lacrosse",
-"ladder",             // standalone & placenames (21)
-"ladies",
-"lady",
-"lambing",
-"lamp",
-"land",
-"lander",
-"landfill",
-"landing",
-"lands",
-"landscape",
-"lash",
-"latter",
-"laugh",
-"laughing",
-"laughter",
-"launch",
-"law",
-"lawyers",
-"layer",
-"laying",
-"lead",
-"leader",
-"leaders",
-"leads",
-"leafy",
-"leak",
-"leaks",
-"lean",
-"leaner",
-"leaning",
-"leap",
-"leaping",
-"lease",
-"leases",
-"leaves",
-"legions",
-"lego",               // surname
-"legos",              // surname
-"legs",
-"leisure",
-"lens",
-"lent",
-"lenten",
-"leotard",
-"lesser",
-"lesson",
-"letter",
-"letterbox",
-"lettuce",
-"level",
-"leveller",
-"levellers",
-"levels",
-"libel",
-"liberties",
-"lieu",
-"life",
-"lifeboat",
-"light",
-"lighter",
-"lighthouse",
-"lightning",
-"lights",
-"limber",
-"limbo",
-"lime",
-"limited",
-"lineage",
-"linear",
-"linen",
-"lines",
-"linger",
-"link",
-"linkage",
-"links",
-"lion",
-"listening",
-"litchen",
-"lithe",
-"littler",
-"load",
-"loaded",
-"loads",
-"loan",
-"lobe",
-"lobes",
-"lobster",
-"loc",
-"log",
-"logic",
-"login",
-"lollipop",
-"lolly",
-"lone",
-"lonely",
-"lonesome",
-"longtail",
-"loose",
+"kiddie",           // surname
+"killings",         // surname
+"kin",              // first name & placenames (2)
+"kinder",           // surname & placenames (17)
+"kingfisher",       // surname & placenames (45)
+"kitchens",         // surname & placename
+"knock",            // standalone & placenames (74)
+"knuckle",          // surname & placenames (2)
+"knuckles",         // surname & placename
+// L
+"labour",           // surname & placenames (5)
+"lacrosse",         // surname & placenames (2)
+"ladder",           // standalone & placenames (21)
+"lady",             // placenames (580)
+"lambing",          // surname & placenames (6)
+"lander",           // first name & placenames (9)
+"lands",            // surname & placenames (149)
+"lash",             // first name & placenames (6)
+"laughing",         // surname & placenames (3)
+"law",              // surname & placenames (457)
+"lay",              // surname & placenames (29)
+"leaders",          // surname & placenames (2)
+"leak",             // surname & placenames (7)
+"leaks",            // surname & placename
+"leaning",          // surname & placename
+"lease",            // surname & placenames (13)
+"leaves",           // surname & placenames (10)
+"legions",          // surname & placename
+"lego",             // surname
+"legos",            // surname
+"legs",             // first name & placenames (4)
+"leisure",          // surname & placenames (10)
+"lent",             // first name & standalone & placenames (7)
+"lenten",           // first name & placenames (4)
+"leotard",          // surname
+"lesser",           // surname & placenames (7)
+"lettuce",          // surname & placename
+"levellers",        // standalone & placenames (2)
+"levels",           // surname & placenames (15)
+"libel",            // first name
+"lieu",             // first name
+"lighter",          // surname & placename (2)
+"lights",           // surname & placenames (6)
+"limber",           // first name & placenames (11)
+"limbo",            // first name & standalone & placenames (2)
+"lime",             // first name & placenames (131)
+"linear",           // first name & placenames (6)
+"linen",            // surname & placenames (10)
+"lines",            // surname & placenames (18)
+"linger",           // surname & placename
+"link",             // first name & placenames (191)
+"links",            // surname & placenames (93)
+"lion",             // first name  & placenames (118)
+"littler",          // surname & placenames (8)
+"loads",            // surname & placenames (3)
+"loan",             // placenames (318)
+"lobe",             // first name
+"lobes",            // surname
+"loc",              // first name & placenames (2)
+"login",            // surname & placenames (6)
+"lolly",            // first name
+"lone",             // first name & placenames (23)
+"lonesome",         // surname & placenames (4)
+"longtail",         // standalone & placenames (4)
+"loose",            // standalone & placenames (16)
 "lord",             // first name & placenames (131)
-"lorry",
-"lose",
-"lot",
-"lots",
-"low",
-"lower",
-"lowness",
-"luck",
-"lucky",
-"lump",
-"lumps",
-"lumpy",
-"luna",
-"lunar",
-"lunas",
+"lorry",            // first name & placename
+"low",              // placenames (917)
+"lower",            // placenames (1k+)
+"lucky",            // first name & placenames (6)
+"lump",             // surname & placenames (6)
+"lumpy",            // first name & placenames (2)
+"luna",             // first name & placenames (6)
+"lunar",            // first name & placenames (5)
+"lunas",            // first name
+// M
 "macro",
 "madam",
 "mafia",
@@ -1799,7 +1742,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sky",
 "slab",
 "slabs",
-"slack",
+"slack",            // surname & placenames (203)
 "slacks",
 "slang",
 "slave",
