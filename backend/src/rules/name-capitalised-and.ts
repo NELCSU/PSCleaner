@@ -657,9 +657,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ganglion",         // first name
 "gap",              // placenames (139)
 "gape",             // first name & placename
-"gated",
-"gaudy",
-"gauge",
+"gaudy",            // surname & placename
+"gauge",            // first name & placenames (3)
 "gauze",            // surname & placenames (4)
 "gay",              // surname & placenames (22)
 "gayer",            // surname & placename
@@ -936,139 +935,81 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "lunar",            // first name & placenames (5)
 "lunas",            // first name
 // M
-"macro",
-"madam",
-"mafia",
-"maggot",
-"maggots",
-"magistrates",
-"magnet",
-"maid",
-"maiden",
-"maidens",
-"main",
-"mainland",           // standalone & placenames (2)
-"mainstream",
-"majesty",
-"major",
-"majors",
-"mammoth",
-"manacle",
-"manacles",
-"managers",
-"manner",
-"manners",
-"manor",
-"markers",
-"market",
-"marijuana",
-"marine",
-"mariners",
-"marines",
-"marquis",
-"marmite",
-"marrow",
-"mars",
-"master",
-"match",
-"matches",
-"mate",
-"mates",
-"math",
-"matted",
-"maverick",
-"mayhem",
-"me",
+"macro",            // surname & placename
+"madam",            // first name & placenames (19)
+"mafia",            // first name
+"magnet",           // surname & placenames (4)
+"maid",             // first name & placenames (12)
+"maiden",           // first name & placenames (83)
+"maidens",          // surname & standalone & placenames (14)
+"main",             // standalone & placenames (121)
+"mainland",         // standalone & placenames (2)
+"majesty",          // first name
+"major",            // first name & placenames (41)
+"majors",           // surname & placenames (9)
+"manners",          // first name & placenames (13)
+"markers",          // standalone & placenames (2)
+"market",           // placenames (224)
+"marine",           // first name & placenames (73)
+"marines",          // first name & placename
+"marquis",          // first name & placenames (17)
+"marmite",          // first name
+"marrow",           // surname & placenames (6)
+"mars",             // first name & placenames (12)
+"mate",             // first name & placename
+"mates",            // first name & placename
+"math",             // first name & placenames (3)
+"matted",           // first name
+"maverick",         // first name & placename
 "meadow",           // placenames (1k+)
 "meadows",          // placenames (670)
-"meal",
-"median",
-"mediate",
-"medicine",
-"medium",
-"meet",
-"meeting",
-"meh",
-"men",
-"mere",
-"messenger",
-"messing",
-"meta",
+"median",           // first name & placename
+"mediate",          // surname
+"meet",             // first name & placenames (6)
+"meh",              // first name
+"men",              // first name & placenames (13)
+"mere",             // placenames (271)
+"messenger",        // surname & placenames (7)
+"messing",          // surname & placenames (5)
+"meta",             // first name & placename
 "methodist",        // placenames (66)
-"mid",
-"middle",
-"milder",
-"milking",
-"milkyway",
-"millennium",
-"min",
-"miners",
-"mines",
-"ministry",
-"minor",
-"miracle",
-"mis",
-"miso",
-"miss",
-"mist",
-"mister",
-"mixes",
-"mobile",
-"mobilehome",
-"mode",
-"moist",
-"mole",
-"moles",
-"momentum",
-"monarchs",
-"monarchy",
-"monday",
-"mondays",
-"money",
-"monitor",
-"monsoon",
-"monument",
-"monumental",
-"morally",
-"more",
-"morn",
-"mosaic",
-"mosque",
-"mosquito",
-"motion",
-"mould",          // surname & placenames (3)
-"moulding",       // surname & placename
-"moulds",         // surname & placename
-"mount",
-"mountain",
-"mountains",
-"mounting",
-"mounts",
-"mourning",
-"mouth",
-"mower",          // first name & placenames (3)
-"mowers",         // surname
-"mowing",
-"much",
-"mudder",         // surname
-"multi",
-"mundane",
-"municipal",
-"mural",
-"murder",
-"murmur",
-"muse",           // first name & placenames (4)
-"museum",
-"mushroom",
-"musing",
-"musings",
-"muslin",
-"mustache",
-"mustards",
-"musters",
-"mutt",
-"mutual",
-"myth",
+"middle",           // placenames (729)
+"milder",           // surname
+"millennium",       // first name & placenames (33)
+"min",              // first name & placenames (44)
+"miners",           // surname & placenames (13)
+"mines",            // first name & placenames (10)
+"miracle",          // first name
+"mis",              // surname & placenames (4)
+"miso",             // first name
+"mist",             // first name & placename
+"mister",           // surname & placename
+"moist",            // surname
+"mole",             // surname & placenames (24)
+"moles",            // first name & placenames (9)
+"monday",           // first name & placenames (9)
+"monument",         // standalone & placenames (28)
+"morally",          // surname
+"more",             // surname & placenames (90)
+"morn",             // surname & placename
+"mosquito",         // surname & placenames (8)
+"mould",            // surname & placenames (3)
+"moulding",         // surname & placename
+"moulds",           // surname & placename
+"mount",            // placenames (1k+)
+"mountain",         // placenames (110)
+"mounts",           // surname & placenames (19)
+"mourning",         // surname & placename
+"mower",            // first name & placenames (3)
+"mowers",           // surname
+"mudder",           // surname
+"mural",            // first name
+"muse",             // first name & placenames (4)
+"musing",           // surname
+"muslin",           // first name & placenames (2)
+"mustache",         // surname
+"musters",          // standalone & placenames (4)
+"mutt",             // surname
 // N
 "naevus",
 "nags",
@@ -1101,7 +1042,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "nip",
 "nod",
 "nor",
-"northern",
+"northern",         // placenames (84)
 "northward",
 "notch",
 "november",

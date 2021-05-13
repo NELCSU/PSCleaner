@@ -25,7 +25,7 @@ const a: RegExp[] = [
   /\b(?:nato|newshub)\b/gmi,
   /\bnhs\s(?:england|london|scotland|wales)\b/gmi,
   // P
-  /\b(?:public\shealth\sengland|premier\sleague)\b/gmi,
+  /\b(?:public\shealth\s(?:england|scotland|wales)|premier\sleague)\b/gmi,
   /\bPublic\sHealth\b/gmi,
   // R
   /\b(?:royal\s(?:mail|navy)|the\sred\scross)\b/gmi,

@@ -19672,6 +19672,7 @@ const a: string[] = [
 "azolan",
 "azole",
 "azordegan",
+"azores",
 "azoribe",
 "azorin",
 "azors",
