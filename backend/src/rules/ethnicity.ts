@@ -77,7 +77,6 @@ const a: string[] = [
 "arvanite",
 "ashanti",
 "asho",
-"asian",
 "assin",
 "assiniboine",
 "assyrian",

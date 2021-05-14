@@ -240,6 +240,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "brave",            // surname
 "bravery",          // surname & placename
 "bravo",            // first names & placenames (2)
+"brazil",           // first name & placenames (4)
 "breach",           // surname  & placenames (42)
 "breaks",           // surname & placenames (10)
 "breech",           // first name & placenames (10)
@@ -252,6 +253,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "brighter",         // surname & placename
 "brightly",         // first name
 "brit",             // first name & placenames (4)
+"britain",          // first name & placenames (11)
 "brits",            // first name
 "brittle",          // surname & placenames (6)
 "bro",              // surname & placenames (148)
@@ -287,6 +289,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "buttress",         // surname & placenames (9)
 "buzz",             // first name & placename
 "buzzer",           // surname
+"bye",              // surname & placenames (21)
 // C
 "cabal",            // surname & placenames (3)
 "cadre",            // first name
@@ -383,6 +386,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "collarbone",       // surname
 "college",          // placenames (1k+)
 "collegiate",       // placenames (18)
+"colombia",         // first name
 "colonel",          // first name & placenames (12)
 "comb",             // surname & placenames (23)
 "comfort",          // first name & placenames (13)
@@ -632,6 +636,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "fortunate",        // first name
 "foul",             // surname & placenames (20)
 "foxholes",         // standalone & placenames (21)
+"france",           // first name & placenames (24)
 "francs",           // first name
 "freehold",         // standalone & placenames (13)
 "freight",          // surname & placenames (3)
@@ -665,6 +670,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "gays",             // surname & placenames (5)
 "genesis",          // first name & placenames (4)
 "germans",          // first name & placenames (9)
+"germany",          // first name & placenames (4)
 "getting",          // surname & placename
 "gift",             // first nmae & placenames (2)
 "given",            // surname & placename
@@ -806,6 +812,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "imperial",         // surname & placenames (30)
 "inches",           // surname & standalone & placenames (4)
 "inclosure",        // placeanmes (170)
+"india",            // first name & placenames (18)
 "indie",            // first name & placenames (5)
 "infirmary",        // standalone & placenames (45)
 "ing",              // surname & placenames (78)
@@ -816,10 +823,13 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "inward",           // surname & placenames (4)
 "inwards",          // surname
 "ion",              // first name & placenames (3)
+"ireland",          // first name & placenames (27)
 "island",           // placenames (674)
 "islands",          // placenames (54)
 "isle",             // first name & placeanmes (215)
 "isles",            // first name & placenames (30)
+"israel",           // first name & placenames (2)
+"italy",            // first name & placename
 // J
 "jabs",             // surname
 "jackets",          // surname
@@ -973,6 +983,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "messing",          // surname & placenames (5)
 "meta",             // first name & placename
 "methodist",        // placenames (66)
+"mexico",           // surname & placenames (3)
 "middle",           // placenames (729)
 "milder",           // surname
 "millennium",       // first name & placenames (33)
@@ -1011,210 +1022,116 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "musters",          // standalone & placenames (4)
 "mutt",             // surname
 // N
-"naevus",
-"nags",
-"nah",
+"nags",             // suranme & placenames (6)
+"nah",              // first name & placename
 "nails",            // surname & placename
-"naked",
-"nan",
-"nans",
-"napping",
-"nappy",
-"naps",
-"nations",
-"nautical",
-"naval",
-"navigation",
-"navigator",
-"navigators",
-"navity",
-"navy",
-"neo",
-"nephew",
-"neptune",
-"net",
+"nan",              // placenames (1k+)
+"nans",             // first name & placenames (6)
+"nappy",            // first name & placenames (2)
+"nations",          // surname & placenames (2)
+"navy",             // first name & placenames (4)
+"neo",              // first name
+"nephew",           // surname & placename
+"neptune",          // surname & placenames (21)
+"netherlands",      // standalone & placenames (6)
 "newborn",          // first name & placenames (3)
-"nhs",
-"nightclub",
-"niteclub",
-"nine",
-"nineteen",
-"nip",
-"nod",
-"nor",
-"northern",         // placenames (84)
-"northward",
-"notch",
-"november",
-"nowhere",
-"nuclei",
-"nuke",
-"number",
-"numbers",
-"nun",
-"nunnery",
-"nuns",
-"nurs",
-"nurse",
-"nurseries",
-"nursey",
-"nuts",
-"nutty",
+"nhs",              // placenames (15)
+"nineteen",         // first name & placenames (4)
+"nip",              // surname & placenames (4)
+"northward",        // standalone & placenames (4)
+"notch",            // surname & placename
+"november",         // first name & placename
+"numbers",          // surname & placenames (2)
+"nun",              // surname & placenames (28)
+"nunnery",          // surname & placenames (27)
+"nurs",             // first name & placenames (3)
+"nursey",           // surname & placenames (7)
+"nutty",            // surname & placename
 // O
-"o2",
-"obelisk",
+"obelisk",          // standalone & placenames (15)
 "observatory",      // standalone & placenames (16)
 "occidental",       // surname
-"ocean",
-"oceanic",
-"octagon",
-"october",
-"odyssey",
-"oh",
-"oil",
-"olympian",
-"ooze",
-"opaque",
-"opportune",
-"opportunities",
-"optimum",
-"orange",
-"orb",
-"ore",
-"orbit",
-"orbital",
-"orchard",
-"orchards",
-"order",
-"ordinal",
-"ordnance",
-"organ",
-"organs",
-"orient",
-"oriental",
-"orphan",
-"orth",
-"ortho",
-"orthopaedic",
-"otters",
-"outburn",
-"outer",
-"outlook",
-"outpatients",
-"outwards",
-"oval",
-"ovens",                // surname & placenames (9)
-"overbig",
-"overburn",
-"overland",
-"overt",
-"overthrow",
-"owners",
-"ox",
+"ocean",            // first name & placenames (30)
+"october",          // first name & placenames (2)
+"oh",               // surname
+"opportune",        // first name & placename
+"orange",           // standalone & placenames (30)
+"orchard",          // placenames (787)
+"orchards",         // standalone & placenames (26)
+"ordnance",         // standalone & placenames (13)
+"ore",              // surname & standalone & placenames (17)
+"orient",           // first name & placenames (8)
+"oriental",         // first name & placenames (5)
+"orphan",           // surname & placenames (3)
+"orth",             // surname & placenames (2)
+"ortho",            // first name
+"outer",            // placenames (118)
+"oval",             // first name & placenames (112)
+"ovens",            // surname & placenames (9)
+"overburn",         // standalone & placenames (4)
+"overland",         // surname & placenames (8)
+"ox",               // placenames (92)
 // P
-"pace",
-"pacific",
-"paed",
-"page",
-"pageant",
-"pageantmaster",
-"pageants",
-"pages",
-"palace",
-"pale",
-"pallette",
-"palm",
-"palms",
-"pan",
-"panorama",
-"pans",
-"papaya",
-"paprika",
-"par",
-"para",
-"parac",
-"parade",         // placenames (448)
-"parades",        // surname
-"parcel",
-"parishes",
-"park",
-"parkway",
-"parkways",
-"parliament",
-"parlour",
-"parochial",
-"parrot",
-"parrots",
-"pass",
-"passage",
-"passageway",
-"pasty",
-"patella",
-"path",
-"pathway",
-"pathways",
-"patrol",
-"pavilion",
-"pavilions",
-"pavillion",
-"pavillons",
-"paw",
-"paws",
-"pay",
-"payer",
-"payers",
-"pea",
-"peace",
-"pealer",
-"pealing",
-"peas",
-"pebble",
-"pecked",
-"pecks",
-"ped",
-"pedal",
-"pedo",           // surname
-"peek",
-"peeks",
-"peelers",
-"peer",
-"peerage",
-"pen",
-"peninsular",
-"pent",
-"pentagon",
-"peoples",
-"perimeter",
-"perish",
-"periwinkle",
-"perks",
-"perpetual",
-"perseverance",
-"persistence",
-"pestilence",
-"pesto",
-"petite",
-"pharma",
-"piano",
-"picking",
-"pickings",
-"pickup",
-"picturesque",
-"pie",
+"pacific",          // first name & placenames (7)
+"paed",             // first name
+"page",             // first name & placenames (52)
+"pages",            // surname & placenames (16)
+"palace",           // placenames (76)
+"pallette",         // surname
+"palms",            // surname & placenames (4)
+"pan",              // standalone & placenames (24)
+"panorama",         // standalone & placenames (7)
+"pans",             // first name & placenames (10)
+"papaya",           // surname
+"par",              // first name & placenames (16)
+"para",             // first name
+"parade",           // placenames (448)
+"parades",          // surname
+"parcel",           // surname & placenames (2)
+"park",             // placenames (1k+)
+"parkway",          // placenames (132)
+"parkways",         // standalone & placenames (6)
+"parliament",       // surname & placenames (22)
+"parlour",          // surname & placenames (18)
+"parrot",           // surname & placenames (8)
+"passage",          // placenames (183)
+"passageway",       // placename
+"pasty",            // surname
+"patella",          // first name
+"path",             // placenames (399)
+"pathways",         // standalone & placenames (6)
+"paw",              // surname & placenames (3)
+"payer",            // surname
+"pea",              // surname & placenames (16)
+"peace",            // first name & placenames (39)
+"pealer",           // surname
+"pealing",          // surname
+"peas",             // surname & placenames (9)
+"pebble",           // first name & placenames (22)
+"ped",              // surname
+"pedal",            // first name
+"pedo",             // surname
+"peek",             // surname & placenames (6)
+"peeks",            // surname & placenames (4)
+"pen",              // placenames (824)
+"pent",             // surname & placenames (2)
+"peoples",          // surname & placenames (2)
+"perish",           // surname
+"perks",            // surname & placenames (4)
+"perpetual",        // first name & placenames (5)
+"perseverance",     // first name & placenames (8)
+"pesto",            // surname
+"petite",           // first name
+"picking",          // surname & placenames (3)
+"pickings",         // surname
 "piece",            // placenames (265)
-"pig",
-"pigeon",
-"pigeons",
-"piles",
-"piling",
-"pillory",
-"pills",
-"pilot",
-"pin",
+"pigeon",           // surname & placenames (37)
+"piles",            // surname & placenames (6)
+"pills",            // first name
 "pink",
 "pins",
 "piso",
-"pit",                // placenames (350)
+"pit",              // placenames (350)
 "pitch",
 "pitcher",
 "pitchers",
@@ -1265,20 +1182,16 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "polo",
 "pond",
 "ponder",
-"poodle",
-"pool",
-"pools",
-"poor",
-"popes",
-"pops",
-"popular",
-"porcupine",
-"pore",
-"port",
-"portage",
+"pool",             // placenames (1k+)
+"pools",            // placennames (57)
+"poor",             // surname & placenames (39)
+"pops",             // surname
+"porcupine",        // standalone & placenames (2)
+"pore",             // first name
 "portal",           // first name & placenames (17)
 "porters",          // standalone & placenames (25)
 "ports",            // surname & placenames (8)
+"portugal",         // first name & placenames (8)
 "post",             // placenames (126)
 "postern",          // standalone & placenames (14)
 "pot",              // placenames (220)
@@ -1299,25 +1212,13 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "princess",         // first name & placenames (103)
 "printers",         // surname & placenames (15)
 "prion",            // standalone & placenames (2)
-"prioress",
-"prison",
-"procession",
-"proctors",
-"prodigy",
-"prof",
-"profane",
-"progress",
-"project",
-"prom",
-"promenade",
-"promenades",
-"prometheus",
-"promise",
-"prop",
-"propulsives",
-"prong",
-"pronounced",
-"prospect",
+"prof",             // first name
+"prom",             // surname & placename
+"promenade",        // placenames (64)
+"promise",          // first name
+"prong",            // surname
+"pronounced",       // first name
+"prospect",         // standalone & placenames (72)
 "prosper",          // first name & standalone & placenames (6)
 "psalm",            // first name
 "psalms",           // first name
@@ -1538,6 +1439,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "runoff",
 "rural",
 "rushing",
+"russia",           // first name & placenames (5)
 "rustic",
 "rye",              // first name & placenames (111)
 // S
@@ -1736,10 +1638,10 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sounds",
 "southbound",
 "southeast",
-"southern",
 "southward",
 "southwest",
 "spaghetti",
+"spain",                // surname & placenames (9)
 "spaniards",
 "spanner",              // surname
 "spare",
@@ -1909,6 +1811,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sway",
 "sways",
 "swears",
+"sweden",             // first name & placenames (10)
 "sweet",              // placenames (56)
 "sweets",             // surname & placenames (5)
 "swift",              // first name & standalone & placenames (33)
@@ -2186,7 +2089,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "welds",              // surname
 "well",               // placenames (617)
 "went",               // surname & placenames (26)
-"western",            // placenames (186)
 "wheatstone",         // surname & placenames (6)
 "whisker",            // surname & placename
 "whistle",            // first name & placenames (10)
@@ -2234,6 +2136,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "young",              // surname & placenames (73)
 "younger",            // first name & placenames (6)
 // Z
+"zealand",            // first name & placenames (15)
 "zebra",              // first name & placenames (2)
 "zeppelin",           // first name
 "zinc"                // first name & placenames (2)
