@@ -3,9 +3,14 @@ import isSquirrelStartup from "electron-squirrel-startup";
 if (isSquirrelStartup) {
   app.quit();
 }
+import log from "electron-log";
+import upd from "update-electron-app";
+upd({
+  updateInterval: "1 hour",
+  logger: log
+});
 import EventEmitter from "events";
 import Store from "electron-store";
-import log from "electron-log";
 import env from "dotenv";
 env.config();
 import { AppMenu } from "./build-menu";

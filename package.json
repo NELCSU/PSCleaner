@@ -23,6 +23,7 @@
     "json-stringify-pretty-compact": "^3.0.0",
     "make-dir": "^3.1.0",
     "tslib": "^2.1.0",
+    "update-electron-app": "^2.0.1",
     "uuid": "^8.3.2",
     "valid-filename": "^3.1.0"
   },
@@ -82,5 +83,5 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf client/lib/web-components"
   },
-  "version": "0.9.9"
+  "version": "0.9.11"
 }
