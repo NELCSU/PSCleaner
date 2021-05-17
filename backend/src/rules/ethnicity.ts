@@ -15,7 +15,6 @@ const a: string[] = [
 "adjoukrou",
 "adjukru",
 "adygean",
-"african",
 "afrikaans",
 "afrikaner",
 "agaw",

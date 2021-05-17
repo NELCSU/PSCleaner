@@ -9567,7 +9567,6 @@ const a: string[] = [
 "waleria",
 "walerian",
 "waleron",
-"wales",
 "walesbeech",
 "walette",
 "waley",
