@@ -709,7 +709,6 @@ const a: string[] = [
 "piedmontese",
 "pitafi",
 "poitevin",
-"pokoot",
 "polynesian",
 "pomeranian",
 "pontic",
@@ -733,7 +732,6 @@ const a: string[] = [
 "roma",
 "romagnol",
 "romanian",
-
 "russian",
 "rusyn",
 "ruthenian",
