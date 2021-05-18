@@ -4855,7 +4855,6 @@ const a: string[] = [
 "penance",
 "pence",
 "pendant",
-"penguin",
 "peninsula",
 "pennant",
 "penniless",

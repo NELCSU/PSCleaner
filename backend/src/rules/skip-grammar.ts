@@ -41,7 +41,7 @@ const a: RegExp[] = [
   /\bconcerns\smount\b/gmi,
   /\bcul[\s-]de[\s-]sac\b/gmi,
   // D
-  /\bdéjà\svu\b/gmi,
+  /\b(?:d[eé]j[aà])\svu\b/gmi,
   /\bdirector[\s\-]general\b/gmi,
   /\bdrive\sdown\b/gmi,
   /\bdua['‘’`]?s\slayer\b/gmi,

@@ -16,7 +16,7 @@ const a: RegExp[] = [
   // F
   /\bSixth\sForm\b/gm,
   // H
-  /\b(?:high\scommission|community\shospital)\b/gmi,
+  /\b(?:high\scommission|hong\skong|community\shospital)\b/gmi,
   // J
   /\b(?:jp\smorgan\schase|(?:infant|junior)\sand\s(?:infants?|junior))\b/gmi,
   // K
@@ -30,7 +30,7 @@ const a: RegExp[] = [
   // R
   /\b(?:royal\s(?:mail|navy)|the\sred\scross)\b/gmi,
   // S
-  /\b(?:serco|(?:community|day|high|law|(?:pre-)?preparatory|primary|secondary)\sschool)\b/gmi,
+  /\b(?:serco|south\safrica|sri\slanka|(?:community|day|high|law|(?:pre-)?preparatory|primary|secondary)\sschool)\b/gmi,
   // T
   /\bFinancial\sTimes\b/gmi,
   // U

@@ -521,6 +521,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "eco",              // surname & placenames (3)
 "edge",             // placenames (468)
 "eel",              // first name & placenames (20)
+"egypt",            // first name & placenames (17)
 "eid",              // first name & placename
 "eighteen",         // surname & placenames (11)
 "elbow",            // standalone & placenames (17)
@@ -699,6 +700,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "gravels",          // standalone & placenames (2)
 "graves",           // first name & placenames (17)
 "graveyard",        // standalone & placename
+"greece",           // surname & placename
 "grey",             // surname & placenames (159)
 "greater",          // first name & placenames (17)
 "green",            // placenames (1k+)
@@ -966,6 +968,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "majesty",          // first name
 "major",            // first name & placenames (41)
 "majors",           // surname & placenames (9)
+"malaysia",         // first name
 "manners",          // first name & placenames (13)
 "markers",          // standalone & placenames (2)
 "market",           // placenames (224)
@@ -1148,46 +1151,24 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "place",            // placenmes (1k+)
 "plain",            // placenames (268)
 "plains",           // standalone & placenames (35)
-"plan",
-"plane",
-"planet",
-"planetary",
 "plantations",      // standalone & placenames (365)
-"plants",
+"plants",           // surname & placenames (11)
 "plaster",          // surname & placenames (5)
-"plasterer",
-"plastering",
-"plasters",
-"plate",
-"plateau",
-"plating",
-"platinum",
-"player",
-"players",
-"playground",         // standalone & placenames (4)
-"playhouse",
-"plea",
-"pleasant",
-"pleasure",
-"pleura",
-"plot",
-"plumber",
-"plume",
-"plumper",
-"pluto",
-"pocket",
-"pod",
-"point",
-"pointers",
-"pointout",
-"poke",
-"pokers",
-"poles",
-"police",
-"poll",
-"polo",
-"pond",
-"ponder",
+"plasterer",        // surname
+"plasters",         // surname & placename
+"plateau",          // surname & placenames (3)
+"platinum",         // surname & placenames (4)
+"playground",       // standalone & placenames (4)
+"plumber",          // surname & placenames (3)
+"plume",            // surname & placenames (6)
+"pluto",            // surname & placenames (5)
+"pocket",           // standalone & placenames (16)
+"pod",              // surname & placenames (3)
+"point",            // placenames (1k+)
+"poles",            // first name & placenames (16)
+"poll",             // placenames (195)
+"polo",             // first name & placenames (11)
+"ponder",           // surname & placenames (4)
 "pool",             // placenames (1k+)
 "pools",            // placennames (57)
 "poor",             // surname & placenames (39)
@@ -1271,154 +1252,87 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "quitter",          // surname
 "quivers",          // surname
 // R
-"rabies",
-"raccoon",
-"race",
-"racecourse",
-"raceground",
-"rack",
-"racket",
-"rad",
-"radar",
-"radial",
-"radian",
-"radiance",
-"radiant",
-"radion",
-"radish",
-"radium",
-"radix",
-"radon",
-"rafters",
-"raiders",
-"railing",              // surname
-"railroad",
-"railway",
-"rain",                 // first name & placenames (10)
-"raise",                // standalone & placenames (14)
-"raisin",
-"rally",
-"ramp",
-"rampart",
-"ramping",
-"rams",
-"ran",
-"rand",
-"rang",
-"range",
-"ratler",
-"rats",
-"raves",
-"raw",
-"rayon",
-"reaches",
-"reactor",
-"read",
-"reader",
-"reads",
-"real",
-"reaper",
-"reapers",
-"rear",
-"reason",
-"rebel",
-"rebut",
-"record",
-"recorder",
-"records",
-"recovery",
-"recreation",
-"rector",
-"rectory",
-"recycling",
-"red",
-"redness",
-"refectory",
-"refineries",
-"refinery",
-"reflections",
-"refuge",
-"reg",
-"regency",
-"regeneration",
-"regent",
-"regents",
-"regatta",
-"regiment",
-"regis",
-"register",
-"registrar",
-"registry",
-"rehabilitation",
-"reign",
-"rejoice",
-"relay",
-"reliance",
-"reliant",
-"remnant",
-"remount",
-"renal",
-"rendezvous",
-"renewable",
-"renews",
-"repress",
-"republic",
-"res",
-"reserve",
-"reservoir",
-"reservoirs",
-"resevoir",
-"rest",
-"resus",
+"racecourse",       // standalone & placenames (27)
+"rad",              // surname & placenames (6)
+"radian",           // first name & placename
+"radiance",         // first name & placename
+"radion",           // first name
+"radish",           // surname & placenames (3)
+"radix",            // first name
+"radon",            // surname
+"railing",          // surname
+"railway",          // placenames (201)
+"rain",             // first name & placenames (10)
+"raise",            // standalone & placenames (14)
+"raisin",           // surname
+"ramp",             // surname & placenames (14)
+"rams",             // surname & placenames (30)
+"ran",              // first name & placename
+"rand",             // first name & standalone & placenames (17)
+"rang",             // first name
+"rats",             // surname & placenames (5)
+"raves",            // surname
+"raw",              // standalone & placenames (16)
+"rayon",            // first name & placenames (2)
+"read",             // surname & placenames (30)
+"real",             // surname & placenames (5)
+"reaper",           // surname & placenames (6)
+"rebel",            // firsts name & placename
+"rebut",            // first name
+"records",          // surname
+"rector",           // surname & placenames (7)
+"rectory",          // placenames (85)
+"red",              // first name & placenames (534)
+"refuge",           // standalone & placenames (2)
+"reg",              // first name & placenames (4)
+"regency",          // standalone & placenames (24)
+"regent",           // firs tname & placenames (73)
+"regents",          // placenames (24)
+"regatta",          // first name & placenames (5)
+"regiment",         // placenames (7)
+"regis",            // first name & placenames (54)
+"reign",            // first name
+"rejoice",          // first name
+"relay",            // surname & placenames (2)
+"remnant",          // surname & placename
+"renal",            // first name
+"repress",          // surname
+"res",              // surname
+"reservoir",        // placenames (906)
+"reservoirs",       // placenames (37)
+"resus",            // first name
 "retina",           // first name
-"retreat",
-"retro",
-"revenge",
-"review",
-"revival",
-"rich",
-"richer",
-"riches",
-"richly",
-"ride",
-"rider",
-"riders",
-"rides",
-"ridge",
-"ridges",
-"riding",
-"ridings",
-"rigs",
-"ring",
-"ringing",
-"ringless",
+"retro",            // first name
+"revival",          // first name & placename
+"rich",             // first name & placenames (13)
+"richer",           // surname & placenames (3)
+"riches",           // first name & placenames (4)
+"richly",           // first name
+"ride",             // placenames (261)
+"rides",            // surname & placenames (4)
+"ridge",            // placenames (459)
+"ridges",           // surname & placenames (13)
+"riding",           // surname & placenames (94)
+"ridings",          // surname & placenames (45)
 "rings",            // surname & placenames (14)
-"ringtail",
-"ringway",
-"rink",
-"rinks",
-"rise",
-"rising",
-"rival",
-"riverside",
-"road",
-"roam",
-"roar",
-"rock",
-"roles",
-"roller",         // surname & placename
-"rolling",
-"rolls",
-"rolly",
-"roly",
-"roofed",
-"roofers",
-"rookeries",
-"rookery",
-"room",
-"rooms",
-"roost",
-"rooster",
+"ringway",          // standalone & placenames (30)
+"rink",             // surname & placenames (10)
+"rinks",            // surname & placenames (3)
+"rise",             // placenames (1k+)
+"rising",           // surname & placenames (30)
+"riverside",        // placenames (111)
+"road",             // placenames (1k+)
+"roam",             // first name & placenames (4)
+"roar",             // first name & placenames (5)
+"rock",             // placenames (936)
+"roles",            // first name & placename
+"roller",           // surname & placename
+"rolls",            // first name & placenames (23)
+"rolly",            // first name
+"roly",             // first name
+"rookery",          // placenames (81)
+"rooms",            // surname & standalone & placenames (6)
+"roost",            // surname & placenames (11)
 "roosters",
 "roosting",
 "root",

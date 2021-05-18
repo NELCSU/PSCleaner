@@ -7451,7 +7451,7 @@ const a: string[] = [
 "virley",
 "virma",
 "virmantas",
-"virmaty",
+
 "virmond",
 "virnells",
 "virnette",
@@ -7941,7 +7941,7 @@ const a: string[] = [
 "vlandis",
 "vlantonis",
 "vlas",
-"vlasaty",
+
 "vlase",
 "vlasic",
 "vlasihins",
@@ -21342,7 +21342,7 @@ const a: string[] = [
 "yulia",
 "yulian",
 "yulianisa",
-"yuliaty",
+
 "yulida",
 "yulie",
 "yulieth",
@@ -21418,6 +21418,7 @@ const a: string[] = [
 "yunker",
 "yunkyoung",
 "yunlan",
+"yunlin",
 "yunling",
 "yunlong",
 "yunming",
@@ -22320,7 +22321,7 @@ const a: string[] = [
 "zanaria",
 "zanas",
 "zanat",
-"zanaty",
+
 "zanayed",
 "zancan",
 "zancanella",
@@ -24480,7 +24481,7 @@ const a: string[] = [
 "zmuidimene",
 "zmuidinas",
 "znakovas",
-"znaty",
+
 "zniber",
 "znotina",
 "zoa",
