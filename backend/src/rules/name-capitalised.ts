@@ -1070,7 +1070,6 @@ const a: string[] = [
 "champion",
 "champs",
 "chance",
-"chancellery",
 "chancelor",
 "chancer",
 "chancery",

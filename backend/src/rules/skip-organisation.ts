@@ -7,13 +7,14 @@ const a: RegExp[] = [
   /\b(?:central|reserve|world)\sbank\b/gmi,
   // C
   /\b(?:(?:catholic|orthodox)\schurch|church\sof\sengland|coca\scola)\b/gmi,
-  /\bcommunity\scentre\b/gmi,
+  /\b(?:channel\sislands|community\scentre)\b/gmi,
   /\b(?:arts|community|national|royal|sports)\scollege\b/gmi,
   // D
   /\b(?:district|federal|supreme)\scourt\b/gmi,
   // E
   /\b(?:early\slearning|easyjet)\b/gmi,
   // F
+  /\bfaroe\sislands\b/gmi,
   /\bSixth\sForm\b/gm,
   // H
   /\b(?:high\scommission|hong\skong|community\shospital)\b/gmi,
@@ -22,7 +23,7 @@ const a: RegExp[] = [
   // K
   /\bku\sklux\sklan\b/gmi,
   // N
-  /\b(?:nato|newshub)\b/gmi,
+  /\b(?:nato|newshub|northern\sireland)\b/gmi,
   /\bnhs\s(?:england|london|scotland|wales)\b/gmi,
   // P
   /\b(?:public\shealth\s(?:england|scotland|wales)|premier\sleague)\b/gmi,
@@ -30,7 +31,7 @@ const a: RegExp[] = [
   // R
   /\b(?:royal\s(?:mail|navy)|the\sred\scross)\b/gmi,
   // S
-  /\b(?:serco|south\safrica|sri\slanka|(?:community|day|high|law|(?:pre-)?preparatory|primary|secondary)\sschool)\b/gmi,
+  /\b(?:saudia\sarabia|serco|south\s(?:africa|korea)|sri\slanka|(?:community|day|high|law|(?:pre-)?preparatory|primary|secondary)\sschool)\b/gmi,
   // T
   /\bFinancial\sTimes\b/gmi,
   // U

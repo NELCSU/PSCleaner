@@ -16,6 +16,7 @@ const a: RegExp[] = [
   /\bblue\stack\b/gmi,
   /\b(?:bunk|divan|wooden)\sbed\b/gmi,
   // C
+  /\bcafés?\b/gmi,
   /\bcamping\s(?:pot|stove)s?\b/gmi,
   /\bcandle\swax\b/gmi,
   /\bswallow[a-z]*\schalk\b/gmi,
