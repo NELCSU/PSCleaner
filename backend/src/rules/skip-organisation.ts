@@ -14,8 +14,7 @@ const a: RegExp[] = [
   // E
   /\b(?:early\slearning|easyjet)\b/gmi,
   // F
-  /\bfaroe\sislands\b/gmi,
-  /\bSixth\sForm\b/gm,
+  /\b(?:fa\scup|faroe\sislands)\b/gmi,
   // H
   /\b(?:high\scommission|hong\skong|community\shospital)\b/gmi,
   // J
@@ -31,7 +30,7 @@ const a: RegExp[] = [
   // R
   /\b(?:royal\s(?:mail|navy)|the\sred\scross)\b/gmi,
   // S
-  /\b(?:saudia\sarabia|serco|south\s(?:africa|korea)|sri\slanka|(?:community|day|high|law|(?:pre-)?preparatory|primary|secondary)\sschool)\b/gmi,
+  /\b(?:saudi\sarabia|serco|south\s(?:africa|korea)|sri\slanka|(?:community|day|high|law|(?:pre-)?preparatory|primary|secondary)\sschool)\b/gmi,
   // T
   /\bFinancial\sTimes\b/gmi,
   // U

@@ -307,6 +307,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "camper",           // surname & placenames (9)
 "camping",          // surname & placenames (6)
 "camps",            // first name & placenames (26)
+"canada",           // first name & standalone & placenames (38)
 "canal",            // first name & placenames (89)
 "canals",           // surname
 "canaries",         // placenames (2)
@@ -513,6 +514,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "dry",              // placenames (77)
 "dual",             // first name & placename
 "duchy",            // placenames (16)
+"duke",             // surname & placenames (106)
+"dukes",            // first name & placenames (63)
 "dull",             // surname & placenames (6)
 "dutchess",         // surname
 "duvet",            // surname
@@ -1451,256 +1454,143 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "slaved",           // first name
 "slaver",           // surname
 "slay",             // surname & placenames (6)
-"slew",
-"slick",
-"slid",
-"slider",
-"slight",
-"slim",
-"sling",
-"slinger",
-"slings",
-"slinkey",
+"slew",             // first name & placenames (7)
+"slick",            // surname
+"slider",           // surname & placename
+"slim",             // first name & placenames (3)
+"sling",            // surname & standalone & placenames (13)
+"slinger",          // first name & placenames (2)
+"slinkey",          // surname
 "slip",             // placenames (40)
 "slips",            // surname & placenames (5)
 "slipper",          // surname & placenames (10)
 "slippers",         // surname & placenames (2)
-"slug",
-"sly",
-"small",
-"smaller",
-"smallpox",
-"smears",
-"smell",
-"smelt",
-"smelting",
-"smog",
-"soap",
-"soar",
-"sob",
-"social",
-"sock",
-"socket",
-"socks",
-"soldiers",
-"sole",
-"son",
-"sos",
-"soul",
-"sound",
-"sounding",
-"soundly",
-"sounds",
-"southbound",
-"southeast",
-"southern",           // placenames (56)
-"southward",
-"southwest",
-"spaghetti",
-"spain",                // surname & placenames (9)
-"spaniards",
-"spanner",              // surname
-"spare",
-"spark",
-"speakers",
-"spec",
-"specimen",
-"speckled",
-"spectator",
-"spectrum",
-"speculation",
-"speed",
-"spice",              // surname & placenames (4)
-"spikes",
-"spine",
-"spinnaker",
-"spinnakers",
-"spinner",
-"spinners",
-"spinney",
-"spinneys",
-"spinnies",
-"spinning",
-"splendid",
-"splendor",
-"splendour",
-"splice",
-"splinter",
-"split",
-"splitter",
-"sport",
-"sportmans",
-"sports",               // surname & placenames (108)
-"sportsfield",
-"sportsman",
-"sportsmans",
-"sprain",
-"spray",
-"sprays",
-"spread",
-"sprite",
-"spurt",
-"squabs",
-"squad",
-"squadron",
-"squadrons",
-"square",
-"squares",
-"squats",
-"squeaking",
-"squeaks",
-"squeezy",
-"squid",
-"squire",
-"squires",
-"squirrel",
-"squirrels",
-"stab",
-"stable",
-"stables",
-"stadium",
-"staff",
-"stage",
-"staggers",
-"stain",
-"stairgate",
-"stairs",
-"stake",
-"stakes",
-"stamp",
-"stampers",
-"stamping",
-"stand",
-"standard",
-"standards",
-"standing",
-"staple",
-"staplers",
-"staples",
-"star",
-"starring",
-"stars",
-"starts",
-"stately",
-"states",
-"station",
-"stave",
-"stay",
-"steel",
-"steer",
-"steps",
-"steri",
-"stick",
-"sticking",
-"sticks",
-"sticky",
-"stiff",
-"stifle",
-"stigma",
-"stiletto",
-"stills",
+"sly",              // surname & placenames (8)
+"small",            // surname & placenames (123)
+"smaller",          // surname
+"smears",           // surname
+"smelt",            // surname & placenames (7)
+"soar",             // standalone & placenames (24)
+"sob",              // surname
+"socks",            // surname & placename
+"son",              // surname
+"sos",              // surname
+"soul",             // first name
+"sound",            // placenames (196)
+"southern",         // placenames (56)
+"southward",        // surname & standalone & placenames (11)
+"spaghetti",        // surname
+"spain",            // surname & placenames (9)
+"spanner",          // surname
+"spec",             // first name
+"spice",            // surname & placenames (4)
+"spikes",           // surname & placenames (2)
+"spinner",          // surname & placenames (12)
+"spinning",         // surname & placenames (19)
+"splendid",         // first name
+"splendor",         // surname
+"splendour",        // first name
+"splinter",         // surname
+"splitter",         // surname
+"sports",           // surname & placenames (108)
+"sportsfield",      // standalone & placename
+"sportsman",        // surname & placenames (4)
+"sprain",           // surname
+"sprays",           // standalone & placenames (3)
+"sprite",           // first name & placenames (2)
+"square",           // placenames (1k+)
+"squeezy",          // surname
+"squid",            // first name
+"squire",           // first name & placenames (32)
+"squires",          // surname & placenames (35)
+"squirrel",         // surname & placenames (37)
+"squirrels",        // standalone & placenames (19)
+"stab",             // standalone & placenames (4)
+"stables",          // surname & placenames (35)
+"staggers",         // surname & placename
+"stain",            // first name & placenames (7)
+"stairgate",        // standalone
+"stairs",           // first name & placenames (17)
+"stakes",           // surname & standalone & placenames (12)
+"stamp",            // first name & placenames (9)
+"stand",            // standalone & placenames (25)
+"standard",         // standalone & placenames (20)
+"standards",        // standalone & placenames (5)
+"staple",           // surname & placenames (44)
+"staplers",         // standalone & placenames (8)
+"staples",          // surname & placenames (15)
+"star",             // first name & placenames (98)
+"starring",         // surname & placenames (5)
+"stars",            // surname & placenames (10)
+"starts",           // surname & placenames (4)
+"stately",          // surname & placename
+"states",           // surname & placenames (2)
+"station",          // placenames (777)
+"stave",            // surname & standalone & placenames (3)
+"steel",            // surname & placenames (65)
+"steri",            // surname
+"stifle",           // surname
+"stills",           // first name
 "stilts",           // surname & placename
-"stimuli",
-"sting",
-"stinger",
-"stingers",
-"stir",
-"stitch",
-"stitches",
-"stitching",
-"stitchings",
-"stock",
-"stocking",
-"stocks",
-"stores",
-"stories",
-"storm",
-"stove",              // standalone & placenames (5)
-"stoves",             // surname
-"straight",
-"straights",
-"strange",
-"strangles",
-"street",
-"streets",
-"strife",
-"strip",
-"stripe",
-"strips",
-"striven",
-"strokes",
-"stroll",
-"stroller",
-"strollers",
-"strong",
-"strongman",
-"stud",
-"student",
-"studio",
-"studios",
-"stung",
-"sty",
-"sub",
-"substation",
-"suburb",
-"suburban",
-"subway",
-"success",
-"suckling",
-"sudden",
-"sufferage",
-"suffrage",
-"sugar",
-"sugars",
-"sugary",
-"sugery",
-"summer",
-"summit",
-"sumo",
-"sun",
-"sunburn",
-"sunday",
-"sunning",
-"swallow",            // stsandalone & placenames (88)
-"swallows",           // surname & standalone & placenames (25)
-"swamp",
-"swap",
-"swath",
-"sway",
-"sways",
-"swears",
-"sweden",             // first name & placenames (10)
-"sweet",              // placenames (56)
-"sweets",             // surname & placenames (5)
-"swift",              // first name & standalone & placenames (33)
-"swifts",             // standalone & placenames (8)
-"swinger",            // surname & placename
-"swine",              // standalone & placenames (32)
-"swords",             // surname & placenames (2)
+"sting",            // first name & placenames (2)
+"stinger",          // surname & placename
+"stitch",           // surname & placenames (6)
+"stock",            // standalone & placenames (82)
+"stocking",         // surname & placenames (38)
+"stocks",           // surname & placenames (60)
+"stores",           // surname & placenames (11)
+"storm",            // first name & placenames (6)
+"stove",            // standalone & placenames (5)
+"stoves",           // surname
+"strange",          // surname & placenames (9)
+"streets",          // surname & placenames (6)
+"strife",           // surname & placenames (3)
+"strip",            // placenames (593)
+"stripe",           // surname & placenames (11)
+"strips",           // standalone & placenames (54)
+"strokes",          // surname & placename
+"stroll",           // surname & placename
+"strongman",        // first name
+"stung",            // standalone & placename
+"success",          // first name & placename
+"suckling",         // surname & placenames (6)
+"sudden",           // standalone & placenames (2)
+"sugar",            // surname & placenames (32)
+"sugars",           // surname & placenames
+"summer",           // first name & placenames (116)
+"summit",           // standalone & placenames (22)
+"sumo",             // surname
+"sun",              // surname & placenames (78)
+"sunday",           // first name & placenames (5)
+"swallow",          // stsandalone & placenames (88)
+"swallows",         // surname & standalone & placenames (25)
+"swamp",            // surname & placenames (7)
+"sway",             // first name & standalone & placenames (8)
+"swears",           // surname
+"sweden",           // first name & placenames (10)
+"sweet",            // placenames (56)
+"sweets",           // surname & placenames (5)
+"swift",            // first name & standalone & placenames (33)
+"swifts",           // standalone & placenames (8)
+"swinger",          // surname & placename
+"swine",            // standalone & placenames (32)
+"swords",           // surname & placenames (2)
 // T
-"tables",             // surname & placename
-"tack",
-"tallow",
-"tally",
-"takers",
-"tampon",             // surname
-"tantrum",
-"tavern",
-"taverner",
-"taverners",
-"taxis",
+"tables",           // surname & placename
+"tack",             // first name & placenames (6)
+"tally",            // first name & placenames (13)
+"tampon",           // surname
+"taverner",         // first name & placenames (7)
+"taverners",        // standalone & placenames (11)
+"taxis",            // surname
 "tea",              // first name & placenames (10)
 "tears",            // surname & placenames (2)
-"tech",
-"tee",
-"tel",
-"temper",
-"temperance",
-"temperence",
-"ten",
-"tenant",
-"tenants",
-"tender",
+"tech",             // surname & placename
+"tee",              // first name & placenames (10)
+"tel",              // first name & placename
+"temperance",       // first name & placenames (13)
+"temperence",       // first name
+"tenant",           // surname & placenames (8)
 "tent",
 "tenth",
 "tents",
@@ -1751,6 +1641,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "tonsil",           // surname
 "toot",
 "top",              // placenames (477)
+"topping",          // surname & placenames (13)
 "tops",
 "tor",
 "torah",

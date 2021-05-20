@@ -298,6 +298,7 @@ const a: string[] = [
 "camhs",
 "camra",
 "canaan",
+"canada",
 "canard",
 "canoes",
 "canon",

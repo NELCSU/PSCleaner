@@ -58,6 +58,7 @@ const a: RegExp[] = [
   /\bfriends\sof\b/gmi,
   // G
   /\bgood\sfriday\b/gmi,
+  /\bgreat\sbritish\b/gmi,
   /\bguinea\spig\b/gmi,
   /\bgung[\s-]ho\b/gm,
   // H
