@@ -57,7 +57,7 @@ const a: RegExp[] = [
   /\bfoster\s(?:carer|father|mother|parent)\b/gmi,
   /\bfriends\sof\b/gmi,
   // G
-  /\bgood\sfriday\b/gmi,
+  /\bgood\s(?:friday|morning)\b/gmi,
   /\bgreat\sbritish\b/gmi,
   /\bguinea\spig\b/gmi,
   /\bgung[\s-]ho\b/gm,

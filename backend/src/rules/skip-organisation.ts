@@ -15,6 +15,8 @@ const a: RegExp[] = [
   /\b(?:early\slearning|easyjet)\b/gmi,
   // F
   /\b(?:fa\scup|faroe\sislands)\b/gmi,
+  // G
+  /\bgreat\sbritain\b/gmi,
   // H
   /\b(?:high\scommission|hong\skong|community\shospital)\b/gmi,
   // J

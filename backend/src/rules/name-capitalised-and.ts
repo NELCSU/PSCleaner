@@ -528,6 +528,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "easter",           // place names (176)
 "easterly",         // surname & place names (10)
 "eastern",          // placenames (112)
+"eastside",         // standalone & placenames (11)
 "eco",              // surname & placenames (3)
 "edge",             // placenames (468)
 "eel",              // first name & placenames (20)
@@ -802,6 +803,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "homes",            // surname & placenames (11)
 "homo",             // first name
 "honour",           // first name & placenames (4)
+"hook",             // surname & placenames (131)
 "hoop",             // surname & placenames (6)
 "hoot",             // surname
 "hooter",           // surname
@@ -1046,6 +1048,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "mustache",         // surname
 "musters",          // standalone & placenames (4)
 "mutt",             // surname
+"myanmar",          // first name
 // N
 "nags",             // suranme & placenames (6)
 "nah",              // first name & placename
@@ -1065,6 +1068,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "nineteen",         // first name & placenames (4)
 "nip",              // surname & placenames (4)
 "northern",         // placenames (84)
+"northside",        // standalone & placenames (14)
 "northward",        // standalone & placenames (4)
 "norway",           // first name & placenames (17)
 "notch",            // surname & placename
@@ -1142,6 +1146,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "peek",             // surname & placenames (6)
 "peeks",            // surname & placenames (4)
 "pen",              // placenames (824)
+"peninsula",        // standalone & placenames (15)
 "pent",             // surname & placenames (2)
 "peoples",          // surname & placenames (2)
 "perish",           // surname
@@ -1280,6 +1285,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "rain",             // first name & placenames (10)
 "raise",            // standalone & placenames (14)
 "raisin",           // surname
+"ramadan",          // first name
 "ramp",             // surname & placenames (14)
 "rams",             // surname & placenames (30)
 "ran",              // first name & placename
@@ -1478,6 +1484,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "soul",             // first name
 "sound",            // placenames (196)
 "southern",         // placenames (56)
+"southside",        // standalone & placenames (12)
 "southward",        // surname & standalone & placenames (11)
 "spaghetti",        // surname
 "spain",            // surname & placenames (9)
@@ -1591,64 +1598,41 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "temperance",       // first name & placenames (13)
 "temperence",       // first name
 "tenant",           // surname & placenames (8)
-"tent",
-"tenth",
-"tents",
-"terminal",
-"terminus",
-"terrazzo",
-"theatre",
-"theatres",
-"theme",
-"third",
-"thirteen",
-"thirteenth",
-"thorns",
-"thorny",
-"thorofare",
-"thorough",
-"thoroughfare",
-"three",
-"throne",
-"thundercloud",
-"thursday",
-"ti",
-"tide",
+"thorns",           // surname & placenames (93)
+"thoroughfare",     // standalone & placenames (6)
+"throne",           // surname & placenames (3)
+"thundercloud",     // surname
+"thursday",         // first name & placename
 "tidy",             // first name & placenames (3)
-"tie",
 "tier",             // first name
-"tigers",
-"tills",
+"tills",            // surname & placenames (2)
 "times",            // surname & placenames (4)
-"timings",
-"tin",
-"tinker",
-"tipping",
-"tiptoe",
-"title",
+"timings",          // surname
+"tin",              // first name & placenames (12)
+"tinker",           // first name & placenames (38)
+"tipping",          // surname & placenames (10)
+"tiptoe",           // standalone & placenames (7)
 "toes",             // surname & placename
-"toks",
+"toks",             // first name
 "toll",             // placenames (138)
-"tollgate",
-"tollgates",
-"tolls",
-"ton",
-"tone",
-"tong",
+"tollgate",         // standalone & placenames (25)
+"tollgates",        // standalone
+"ton",              // first name & placenames (46)
+"tone",             // standalone & placenames (10)
+"tong",             // first name & standalone & placenames (31)
 "tongue",           // placenames (88)
 "tongs",            // surname & placenames (4)
 "tonic",            // surname
 "tonsil",           // surname
-"toot",
+"toot",             // surname & placenames (10)
 "top",              // placenames (477)
 "topping",          // surname & placenames (13)
-"tops",
-"tor",
-"torah",
-"torch",
-"tors",
-"tory",
-"toucan",
+"tops",             // surname & placenames (16)
+"tor",              // first name & placenames (269)
+"torah",            // first name & placenames (10)
+"torch",            // surname & placenames (3)
+"tory",             // first name & placenames (8)
+"toucan",           // standalone & placenames (3)
 "touch",            // standalone & placenames (10)
 "tow",              // surname & placenames (18)
 "toward",           // standalone & placenames (8)
@@ -1664,83 +1648,44 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "trak",             // surname
 "tram",             // first name & placenames (21)
 "tramway",          // standalone & placenames (17)
-"trays",
-"treasure",
-"tree",
-"trees",
-"tremor",
-"triangle",
-"tribe",
+"treasure",         // first name & placenames (6)
+"tree",             // placeanames (834)
+"trees",            // surname & placenames (142)
+"tremor",           // surname
+"triangle",         // standalone & placenames (30)
 "trimmer",          // surname & placenames (2)
-"trinity",
-"triumph",
-"trivia",
-"trod",
-"trodden",
-"troop",
-"trooper",
-"trope",
-"trouble",
-"troves",
-"true",
-"truly",
-"trunk",
-"tuesday",
-"tumble",
-"tumbling",
-"tune",
-"tunes",
-"turbo",
-"turks",
-"turmeric",
-"turn",
-"turning",
-"turnings",
-"turtle",
-"tutor",
-"tutu",
-"twee",
-"tweed",
-"twelfth",
-"twelve",
-"twenty",
-"twentyfive",
-"twentyfour",
-"twin",
-"twins",
-"twinge",
-"twirl",
-"twisting",
-"twitcher",
-"twitching",
-"twitchings",
-"two",
-"tyke",
-"tykes",
-"tyranny",
-"tyre",
-"tyres",
+"trinity",          // first name & placenames (228)
+"triumph",          // standalone & placenames (9)
+"trodden",          // surname & placename
+"troop",            // surname & placename
+"trooper",          // surname & placenames (6)
+"trope",            // surname
+"true",             // first name & placenames (2)
+"truly",            // first name
+"trunk",            // standalone & placenames (7)
+"tuesday",          // first name & placenames (2)
+"tumble",           // first name & standalone & placenames (7)
+"tumbling",         // surname & placenames (10)
+"tunes",            // surname
+"turbo",            // first name & placename
+"turks",            // first name & placenames (7)
+"turn",             // standalone & placenames (62)
+"turtle",           // first name & placenames (6)
+"tutor",            // surname & placenames (5)
+"tutu",             // first name & placename
+"twee",             // first name & placename
+"tweed",            // first name & standalone & placenames (27)
+"twenty",           // standalone & placenames (31)
+"twins",            // surname & placenames (3)
+"twitcher",         // surname
+"twitchings",       // surname & placename
+"tyranny",          // first name
+"tyre",             // first name
+"tyres",            // first name
 // U
-"ulna",
-"ultra",
-"uncle",
-"uncles",
-"uncouth",
-"under",
-"underground",
-"underling",
-"underpass",
-"undersea",
-"underway",
-"unfurl",
-"unicorn",
-"unique",
-"unity",
-"universal",
-"university",
-"unodourised",
-"unshaven",
-"up",
+"ultra",            // surname & placenames (3)
+"unicorn",          // first name & placenames (18)
+"unique",           // first name & placename
 "upend",
 "uphill",
 "uphold",
@@ -1841,6 +1786,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "went",               // surname & placenames (26)
 "west",               // placenames (1k+)
 "western",            // placenames (186)
+"westside",           // standalone & placenames (14)
 "wheatstone",         // surname & placenames (6)
 "whisker",            // surname & placename
 "whistle",            // first name & placenames (10)

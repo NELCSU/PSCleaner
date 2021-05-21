@@ -62,7 +62,7 @@ const a: string[] = [
 "arain",
 "arakanese",
 "aranese",
-"arbereshe",
+
 "argentine",
 "argobba",
 "arha",
@@ -72,10 +72,10 @@ const a: string[] = [
 "arpitan",
 "arsi",
 "aruban",
-"arusha",
+
 "arvanite",
 "ashanti",
-"asho",
+
 "assin",
 "assiniboine",
 "assyrian",
@@ -113,7 +113,7 @@ const a: string[] = [
 "bamileke",
 "bamum",
 "banda",
-"bangladeshi",
+
 "banjarese",
 "bantawa",
 "baoule",
@@ -182,7 +182,7 @@ const a: string[] = [
 "burmese",
 "burundian",
 "burushaski",
-"burusho",
+
 "butonese",
 "bwa",
 "caicos",
@@ -547,7 +547,7 @@ const a: string[] = [
 "maharastra",
 "mahishya",
 "mahl",
-"mahyavanshi",
+
 "makassarese",
 "makhuwa",
 "makoa",
@@ -606,7 +606,7 @@ const a: string[] = [
 "miꞌkmaq",
 "mlomp",
 "mocho",
-"moksha",
+
 "moldovan",
 "molisan",
 "molise",
@@ -660,7 +660,7 @@ const a: string[] = [
 "nigerian",
 "ningbonese",
 "nirdhi",
-"nishi",
+
 "niuean",
 "niuneton",
 "nkoro",
@@ -674,7 +674,7 @@ const a: string[] = [
 "nunatukavut",
 "nung",
 "nyadu",
-"nyishi",
+
 "nyole",
 "nzema",
 "obolo",
@@ -719,7 +719,7 @@ const a: string[] = [
 "qemant",
 "qiangic",
 "rade",
-"rajbongshi",
+
 "rajput",
 "rakhine",
 "rejangese",
