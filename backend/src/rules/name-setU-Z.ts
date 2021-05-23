@@ -24216,6 +24216,7 @@ const a: string[] = [
 "zinina",
 "zinis",
 "zinish",
+"zink",
 "zinkel",
 "zinken",
 "zinkevics",

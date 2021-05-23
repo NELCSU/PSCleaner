@@ -42,6 +42,7 @@ const a: RegExp[] = [
   /\bcul[\s-]de[\s-]sac\b/gmi,
   // D
   /\b(?:d[eé]j[aà])\svu\b/gmi,
+  /\bde\sjour\b/gm,
   /\bdirector[\s\-]general\b/gmi,
   /\bdrive\sdown\b/gmi,
   /\bdua['‘’`]?s\slayer\b/gmi,

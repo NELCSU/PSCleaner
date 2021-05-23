@@ -4,6 +4,7 @@ const a: string[] = [
   "da",
   "de",
   "der",
+  "do",
   "dos",
   "el",
   "es",

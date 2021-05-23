@@ -3755,9 +3755,6 @@ const a: string[] = [
 "leeway",
 "legacy",
 "legato",
-"legend",
-"legendary",
-"legends",
 "legged",
 "leghorn",
 "legion",
@@ -7685,10 +7682,8 @@ const a: string[] = [
 "zephyr",         // first name & placenames (2)
 "zilch",          // surname
 "zinger",         // surname
-"zink",           // surname
 "zion",           // first name & placenames (18)
 "zippy",          // first name
-"zips",           // surname
 "zircon",         // first name & placename
 "zodiac"          // first name & placenames (2)
 ];

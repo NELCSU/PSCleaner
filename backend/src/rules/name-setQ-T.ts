@@ -44196,6 +44196,7 @@ const a: string[] = [
 "sult",
 "sultaire",
 "sultal",
+"sultanahmet",
 "sultane",
 "sultaner",
 "sultania",

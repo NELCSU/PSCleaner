@@ -33,6 +33,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ambassador",       // standalone & placenames (10)
 "ambush",           // surname & placename
 "amen",             // first name & placenames (3)
+"america",          // first name & standalone & placenames (20)
 "amnesty",          // first name
 "anchors",          // surname & placename
 "angling",          // surname & placenames (3)
@@ -496,6 +497,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "dolphin",          // first name & placenames (37)
 "dolphins",         // standalone & placenames (2)
 "dominion",         // first name & placenames (10)
+"down",             // placenames (1k+)
 "downhill",         // surname & standalone & placenames (5)
 "downs",            // placenames (422)
 "downside",         // standalone & placenames (20)
@@ -922,6 +924,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "leaning",          // surname & placename
 "lease",            // surname & placenames (13)
 "leaves",           // surname & placenames (10)
+"legend",           // surname & placename
 "legions",          // surname & placename
 "lego",             // surname
 "legos",            // surname
@@ -1063,6 +1066,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "nephew",           // surname & placename
 "neptune",          // surname & placenames (21)
 "netherlands",      // standalone & placenames (6)
+"new",              // placenames (1k+)
 "newborn",          // first name & placenames (3)
 "nhs",              // placenames (15)
 "nineteen",         // first name & placenames (4)
@@ -1686,156 +1690,135 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ultra",            // surname & placenames (3)
 "unicorn",          // first name & placenames (18)
 "unique",           // first name & placename
-"upend",
-"uphill",
-"uphold",
-"upper",
-"uprights",
-"upshot",
-"urban",
+"upend",            // standalone & placenames (2)
+"uphill",           // surname & standalone & placenames (11)
+"uphold",           // surname
+"upper",            // placenames (1k+)
 // V
-"valentines",
-"valley",
-"valleys",
-"valuta",
-"vanguard",
-"vanilla",
+"valentines",       // first name & standalone & placenames (13)
+"valley",           // placenames (921)
+"valuta",           // surname
+"vanguard",         // standalone & placenames (10)
+"vanilla",          // first name & placenames (2)
 "varnish",          // surname
 "vase",             // first name
-"vast",
 "vax",              // surname
 "vein",             // surname & placenames (2)
-"veiny",
-"velvet",
-"vendetta",
-"venom",
-"venomous",
-"venture",
+"velvet",           // first name & placenames (8)
+"vendetta",         // first name
 "venue",            // first name & placenames (5)
-"vermilion",
-"vermillion",
-"vestibule",
-"viaduct",
-"vicar",
-"victorian",
-"victory",
-"view",
-"viewing",
-"viewpoint",
-"views",
-"vigil",
-"vigilance",
-"vigilant",
-"vigilante",
+"vermilion",        // surname
+"vermillion",       // surname
+"viaduct",          // standalone & placenames (27)
+"victorian",        // first name & placenames (3)
+"victory",          // first name & standalone & placenames (34)
+"vigil",            // first name
+"vigilant",         // surname & placenames (2)
+"vigilante",        // surname
 "viking",           // first name & standalone & placenames (21)
-"vile",
-"village",
-"villagers",
-"villages",
-"vinyl",
+"vile",             // first name & placenames (2)
+"village",          // placenames (529)
 "virgin",           // first name & placenames (17)
-"vit",
-"vitae",
-"vixen",
-"volunteer",
-"vomit",
-"vortex",
+"vit",              // surname
+"vitae",            // first name & placename
+"vortex",           // surname & placename
 // W
-"wacko",              // surname
-"wales",              // surname & placenames (141)
-"walk",               // placenames (1k+)
-"walker",             // surname & placenames (92)
-"walkingstick",       // surname
-"walks",              // surname & placenames (38)
-"wane",               // first name & placename
-"warns",              // surname & placenames (2)
-"wart",               // surname & placenames (7)
-"wary",               // surname & placename
-"wash",               // standalone & placenames (58)
-"washer",             // surname & placenames (8)
-"washing",            // surname & placenames (12)
-"wasp",               // first name & placenames (7)
-"water",              // placenames (668)
-"waterfall",          // surname & placenames (51)
-"waterfront",         // standalone & placenames (19)
-"watermill",          // standalone & placenames (19)
-"waterside",          // standalone & placenames (46)
-"waterway",           // standalone & placenames (10)
-"waterways",          // standalone & placenames (4)
-"wax",                // surname & placename
-"way",                // placenames (1k+)
-"wayfarers",          // standalone & placenames (6)
-"wayfaring",          // standalone & placenames (4)
-"wayfarings",         // standalone & placename
-"waymark",            // surname & placename
-"ways",               // surname & placenames (32)
-"wayside",            // standalone & placenames (19)
-"wayward",            // surname & placename
-"wears",              // surname & placenames (2)
-"weaving",            // surname & placenames (5)
-"wednesday",          // first name & placename
-"wee",                // suranme & standalone & placenames (32)
-"week",               // standalone & placenames (36)
-"weeks",              // surname & placenames (7)
-"weights",            // surname & placenames (2)
-"weld",               // first name & placenames (12)
-"welder",             // first name
-"welding",            // surname
-"welds",              // surname
-"well",               // placenames (617)
-"went",               // surname & placenames (26)
-"west",               // placenames (1k+)
-"western",            // placenames (186)
-"westside",           // standalone & placenames (14)
-"wheatstone",         // surname & placenames (6)
-"whisker",            // surname & placename
-"whistle",            // first name & placenames (10)
-"white",              // surname & placenames (833)
-"whites",             // surname & placenames (33)
-"wick",               // surname & placenames (279)
-"wilder",             // surname & placenames (5)
-"wilderness",         // standalone & placenames (31)
-"will",               // first name & placenames (17)
-"wills",              // first name & placenames (20)
-"winded",             // standalone
-"winding",            // first name & placenames (25)
-"windy",              // first name & placenames (70)
-"wineglass",          // surname
-"wing",               // surname & standalone & placenames (21)
-"wingers",            // surname
-"winners",            // surname & placename
-"winning",            // first name & placenames (8)
-"wires",              // surname & placename
-"woodcutters",        // standalone & placenames (5)
-"wooden",             // standalone & placenames (16)
-"woods",              // surname & placenames (630)
-"wool",               // first name & standalone & placenames (26)
-"woollen",            // surname & placenames (3)
-"wools",              // surname & placenames (3)
-"workman",            // surname & placenames (2)
-"worms",              // first name & placename (8)
-"worship",            // surname & placename
-"worth",              // standalone & placenames (29)
-"worthy",             // first name & placenames (26)
-"wrench",             // surname & placenames (3)
-"wrestler",           // surname
-"wroth",              // surname & placename
+"wacko",            // surname
+"wales",            // surname & placenames (141)
+"walk",             // placenames (1k+)
+"walker",           // surname & placenames (92)
+"walkingstick",     // surname
+"walks",            // surname & placenames (38)
+"wane",             // first name & placename
+"warns",            // surname & placenames (2)
+"wart",             // surname & placenames (7)
+"wary",             // surname & placename
+"wash",             // standalone & placenames (58)
+"washer",           // surname & placenames (8)
+"washing",          // surname & placenames (12)
+"wasp",             // first name & placenames (7)
+"water",            // placenames (668)
+"waterfall",        // surname & placenames (51)
+"waterfront",       // standalone & placenames (19)
+"watermill",        // standalone & placenames (19)
+"waterside",        // standalone & placenames (46)
+"waterway",         // standalone & placenames (10)
+"waterways",        // standalone & placenames (4)
+"wax",              // surname & placename
+"way",              // placenames (1k+)
+"wayfarers",        // standalone & placenames (6)
+"wayfaring",        // standalone & placenames (4)
+"wayfarings",       // standalone & placename
+"waymark",          // surname & placename
+"ways",             // surname & placenames (32)
+"wayside",          // standalone & placenames (19)
+"wayward",          // surname & placename
+"wears",            // surname & placenames (2)
+"weaving",          // surname & placenames (5)
+"wednesday",        // first name & placename
+"wee",              // suranme & standalone & placenames (32)
+"week",             // standalone & placenames (36)
+"weeks",            // surname & placenames (7)
+"weights",          // surname & placenames (2)
+"weld",             // first name & placenames (12)
+"welder",           // first name
+"welding",          // surname
+"welds",            // surname
+"well",             // placenames (617)
+"went",             // surname & placenames (26)
+"west",             // placenames (1k+)
+"western",          // placenames (186)
+"westside",         // standalone & placenames (14)
+"wheatstone",       // surname & placenames (6)
+"whisker",          // surname & placename
+"whistle",          // first name & placenames (10)
+"white",            // surname & placenames (833)
+"whites",           // surname & placenames (33)
+"wick",             // surname & placenames (279)
+"wilder",           // surname & placenames (5)
+"wilderness",       // standalone & placenames (31)
+"will",             // first name & placenames (17)
+"wills",            // first name & placenames (20)
+"winded",           // standalone
+"winding",          // first name & placenames (25)
+"windy",            // first name & placenames (70)
+"wineglass",        // surname
+"wing",             // surname & standalone & placenames (21)
+"wingers",          // surname
+"winners",          // surname & placename
+"winning",          // first name & placenames (8)
+"wires",            // surname & placename
+"woodcutters",      // standalone & placenames (5)
+"wooden",           // standalone & placenames (16)
+"woods",            // surname & placenames (630)
+"wool",             // first name & standalone & placenames (26)
+"woollen",          // surname & placenames (3)
+"wools",            // surname & placenames (3)
+"workman",          // surname & placenames (2)
+"worms",            // first name & placename (8)
+"worship",          // surname & placename
+"worth",            // standalone & placenames (29)
+"worthy",           // first name & placenames (26)
+"wrench",           // surname & placenames (3)
+"wrestler",         // surname
+"wroth",            // surname & placename
 // X
-"xenon",              // first name
+"xenon",            // first name
 // Y
-"ya",                 // first name
-"yard",               // placenames (854)
-"yards",              // placenames (27)
-"yawn",               // first name & placename
-"yeast",              // surname
-"yen",                // first name
-"ymca",               // placenames (2)
-"yoga",               // first name & placename (2)
-"young",              // surname & placenames (73)
-"younger",            // first name & placenames (6)
+"ya",               // first name
+"yard",             // placenames (854)
+"yards",            // placenames (27)
+"yawn",             // first name & placename
+"yeast",            // surname
+"yen",              // first name
+"ymca",             // placenames (2)
+"yoga",             // first name & placename (2)
+"young",            // surname & placenames (73)
+"younger",          // first name & placenames (6)
 // Z
-"zealand",            // first name & placenames (15)
-"zebra",              // first name & placenames (2)
-"zeppelin",           // first name
-"zinc"                // first name & placenames (2)
+"zealand",          // first name & placenames (15)
+"zebra",            // first name & placenames (2)
+"zeppelin",         // first name
+"zinc",             // first name & placenames (2)
+"zips"              // surname
 ]);
