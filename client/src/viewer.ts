@@ -21,7 +21,6 @@ import { normalize, selectionTrim } from "@buckneri/string";
   });
   window.addEventListener("clear-tags", reset);
   window.addEventListener("clear-all", resetAll);
-  window.addEventListener("result-text", reset);
   window.addEventListener("new-data", reset);
   function enable() {
     btn.classList.add("disabled", "wait");

@@ -335,6 +335,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "catcher",          // surname & placenames (3)
 "cathedral",        // standalone & placenames (59)
 "cause",            // standalone & placenames (3)
+"causeway",         // placenames (160)
 "celsius",          // first name
 "cemetery",         // placenames (22)
 "centenary",        // placenames (21)
@@ -665,6 +666,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "fore",             // surname & placenames (43)
 "foreshore",        // standalone & placenames (8)
 "forest",           // surname & placenames (898)
+"forge",            // surname & placenames (129)
 "forgiveness",      // first name
 "forgo",            // surname
 "forks",            // surname & placenames (3)
@@ -727,6 +729,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "gays",             // surname & placenames (5)
 "geared",           // first name
 "gears",            // surname & placenames (3)
+"gems",             // placenames (5)
 "genesis",          // first name & placenames (4)
 "gentile",          // surname
 "gentiles",         // surname
@@ -847,7 +850,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "heaven",           // surname & placenames (7)
 "hedge",            // surname & placenames (71)
 "hedgerow",         // standalone & placenames (13)
-"hedgerows",        // standalone & placenames (3)
 "hedges",           // surname & placenames (39)
 "heights",          // placenames (450)
 "held",             // surname & placenames (2)
@@ -1186,6 +1188,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ox",               // placenames (92)
 // P
 "pacific",          // first name & placenames (7)
+"paddock",          // surname & placenames (251)
+"paddocks",         // standalone & placenames (56)
 "paed",             // first name
 "page",             // first name & placenames (52)
 "pages",            // surname & placenames (16)
@@ -1858,6 +1862,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "west",             // placenames (1k+)
 "western",          // placenames (186)
 "westside",         // standalone & placenames (14)
+"wharf",            // first name & standalone & placenames (283)
 "wheatstone",       // surname & placenames (6)
 "whisker",          // surname & placename
 "whistle",          // first name & placenames (10)
