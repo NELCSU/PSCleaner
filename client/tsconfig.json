@@ -8,11 +8,5 @@
       "../backend/types/PSCleaner"
     ]
   },
-  "files": [
-    "src/index.ts",
-    "src/settings.ts",
-    "src/templates.ts",
-    "src/viewer.ts",
-    "src/util.ts"
-  ]
+  "include": [ "src" ]
 }

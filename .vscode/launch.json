@@ -13,7 +13,11 @@
       "runtimeArgs": [
         "${workspaceFolder}"
       ],
-      "cwd": "${workspaceFolder}"
+      "cwd": "${workspaceFolder}",
+      "outFiles": [
+        "${workspaceFolder}/backend/build/**/*.js",
+        "${workspaceFolder}/client/build/**/*.js"
+      ]
     }
   ]
 }

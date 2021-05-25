@@ -69,7 +69,7 @@ class Main {
       this.exportFiles = new ExportFiles(this._store);
       this.processFiles = new ProcessFiles(this._store, nlp);
 
-      ipc.on("show-context-menu", (event, data: any) => {
+      ipc.on("show-context-menu", (event: any, data: any) => {
         let template;
         if (data === "delete-element") {
           template = [{
@@ -104,7 +104,7 @@ class Main {
           });
       });
 
-      ipc.on("start-import", e => {
+      ipc.on("start-import", (e: any) => {
         this.importFiles.sendTo = this.processFiles.fm.folder;
         this.importFiles.moveOne()
           .then(
