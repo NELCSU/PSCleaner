@@ -1203,7 +1203,6 @@ const a: string[] = [
 "nutmeg",
 "nyala",
 "oakum",
-"obese",
 "oblique",
 "obloquy",
 "oboe",
