@@ -9,6 +9,7 @@ const a: RegExp[] = [
   /\b(?:(?:catholic|orthodox)\schurch|church\sof\sengland|coca\scola)\b/gmi,
   /\b(?:channel\sislands|community\scentre)\b/gmi,
   /\b(?:arts|community|national|royal|sports|technical)\scollege\b/gmi,
+  /\bczech\srepublic\b/gmi,
   // D
   /\b(?:district|federal|supreme)\scourt\b/gmi,
   // E
@@ -32,7 +33,7 @@ const a: RegExp[] = [
   // R
   /\b(?:royal\s(?:mail|navy)|the\sred\scross)\b/gmi,
   // S
-  /\b(?:saudi\sarabia|serco|south\s(?:africa|korea)|sri\slanka|(?:aided|community|day|high|law|(?:pre-)?preparatory|primary|secondary)\sschool)\b/gmi,
+  /\b(?:saudi\sarabia|serco|slovakia|south\s(?:africa|korea)|sri\slanka|(?:aided|community|day|high|law|(?:pre-)?preparatory|primary|secondary)\sschool)\b/gmi,
   // T
   /\bFinancial\sTimes\b/gmi,
   // U
