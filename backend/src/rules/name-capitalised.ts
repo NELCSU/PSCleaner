@@ -614,7 +614,6 @@ const a: string[] = [
 "branch",
 "branches",
 "brandish",
-"brands",
 "brandy",
 "bras",
 "brash",

@@ -437,7 +437,7 @@ const a: RegExp[] = [
   // way
   /\ba(?:ffords|mazon|rtic|thletes)\sway\b/gmi,
   /\bc(?:hariots|itizens|olossus|raftmans|rusader?s?)\sway\b/gmi,
-  /\b(?:digital|experian|feathering)\sway\b/gmi,
+  /\b(?:digital|experian|feathering|firedamp)\sway\b/gmi,
   /\bg(?:atekeepers|odlings)\sway\b/gmi,
   /\b(?:habitat|innkeeper)\sway\b/gmi,
   /\bl(?:egends|izards|ogistics|ong\sswath)\sway\b/gmi,

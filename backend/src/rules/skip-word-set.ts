@@ -1735,6 +1735,7 @@ const a: string[] = [
 "swazi",
 "swazis",
 "sweden",
+"switzerland",
 "swop",
 "syllabi",
 "sylph",
