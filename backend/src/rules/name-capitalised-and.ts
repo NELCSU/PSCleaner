@@ -884,6 +884,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hey",              // placenames (393)
 "hide",             // standalone & placenames (22)
 "high",             // placenames (1k+)
+"higher",           // placenames (1k+)
 "hijab",            // first name
 "hills",            // surname & placenames (633)
 "hind",             // firsts name & placenames (34)
@@ -930,32 +931,61 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hut",              // surname & placenames (27)
 "hydra",            // first name & placenames
 // I
+"ibis",             // first name & placenames (6)
 "ibu",              // surname
+"iceman",           // surname
+"ichor",            // first name
+"ides",             // first name & placename
+"idle",             // surname & placenames (12)
+"idler",            // surname
+"ilk",              // surname & placename
 "illustrious",      // standalone & placenames (4)
+"imam",             // first name & placename
 "immaculate",       // first name & placenames (8)
 "imms",             // surname
 "imperial",         // surname & placenames (30)
+"inane",            // first name
+"inch",             // surname & placenames (56)
 "inches",           // surname & standalone & placenames (4)
 "inclosure",        // placeanmes (170)
+"incognito",        // surname
 "india",            // first name & placenames (18)
 "indie",            // first name & placenames (5)
+"indigo",           // first name & placenames (7)
 "indonesia",        // first name
+"infanta",          // first name
+"infield",          // surname & placenames (7)
 "infirmary",        // standalone & placenames (45)
 "ing",              // surname & placenames (78)
+"ingrow",           // standalone & placenames (4)
+"inks",             // surname & placenames (2)
+"inn",              // surname & placenames (105)
 "inner",            // placenames (117)
 "innocent",         // first name
+"inns",             // surname & placenames (9)
+"insole",           // surname & placenames (5)
 "inspire",          // standalone & placenames (2)
 "intake",           // standalone & placenames (53)
 "inward",           // surname & placenames (4)
 "inwards",          // surname
 "ion",              // first name & placenames (3)
+"ions",             // surname
+"iota",             // first name
 "ireland",          // first name & placenames (27)
+"iris",             // first name & placenames (23)
+"irk",              // surname & placenames (3)
+"ironman",          // surname
+"ironmonger",       // surname & placenames (5)
+"irons",            // surname & placenames (9)
+"ironworks",        // standalone & placenames (3)
 "island",           // placenames (674)
 "islands",          // placenames (54)
 "isle",             // first name & placeanmes (215)
 "isles",            // first name & placenames (30)
 "israel",           // first name & placenames (2)
 "italy",            // first name & placename
+"ith",              // surname
+"ive",              // first name & placenames (11)
 // J
 "jabs",             // surname
 "jackets",          // surname
@@ -1198,31 +1228,87 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "nursey",           // surname & placenames (7)
 "nutty",            // surname & placename
 // O
+"oak",              // placenames (797)
+"oaken",            // first name & placenames (45)
+"oaks",             // surname & placenames (301)
+"oar",              // surname & placename
+"oasis",            // first name & placenames (37)
+"oath",             // standalone & placenames (5)
+"oats",             // surname & placenames (4)
 "obelisk",          // standalone & placenames (15)
 "observatory",      // standalone & placenames (16)
+"obsidian",         // first name & placename
 "occidental",       // surname
 "ocean",            // first name & placenames (30)
+"ochre",            // first name & placenames (8)
+"octave",           // first name
 "october",          // first name & placenames (2)
+"odder",            // standalone & placename
+"ode",              // first name
+"odor",             // surname
+"odour",            // surname
+"ogle",             // first name & standalone & placenames (14)
+"ogles",            // surname
 "oh",               // surname
+"ohm",              // surname
+"ohms",             // surname
+"okapi",            // first name
+"olds",             // surname & placename
+"oldschool",        // surname
+"olive",            // first name & placenames (47)
+"olympia",          // first name & standalone & placenames (10)
+"om",               // first name
+"omega",            // first name & placenames (9)
+"omen",             // first name
+"omit",             // first name
+"oneness",          // first name
+"onyx",             // first name & placenames (6)
+"oot",              // surname
 "opportune",        // first name & placename
+"opus",             // surname & placename
 "orange",           // standalone & placenames (30)
+"orchid",           // first name & placenames (32)
 "orchard",          // placenames (787)
 "orchards",         // standalone & placenames (26)
 "ordnance",         // standalone & placenames (13)
 "ore",              // surname & standalone & placenames (17)
 "orient",           // first name & placenames (8)
 "oriental",         // first name & placenames (5)
+"orifice",          // surname
 "orphan",           // surname & placenames (3)
 "orth",             // surname & placenames (2)
 "ortho",            // first name
+"osprey",           // surname & standalone & placenames (29)
+"ospreys",          // standalone
+"ostrich",          // surname & placenames (4)
+"otter",            // first name & placenames (55)
+"otterman",         // surname
+"ottoman",          // first name & placename
+"outcast",          // standalone & placename
 "outer",            // placenames (118)
+"outfield",         // standalone & placenames (8)
+"outhouse",         // surname
+"outing",           // surname & placenames (2)
+"outlaw",           // surname & placenames (2)
 "oval",             // first name & placenames (112)
 "ovens",            // surname & placenames (9)
+"ovenstone",        // first name & placename
 "overburn",         // standalone & placenames (4)
+"overcast",         // surname
+"overdrive",        // surname
 "overland",         // surname & placenames (8)
+"overlock",         // surname
+"overly",           // surname
+"owes",             // surname
+"owl",              // surname & placenames (46)
+"owlet",            // standalone & placenames (15)
+"oyster",           // surname & placenames (25)
 "ox",               // placenames (92)
+"oz",               // first name
 // P
 "pacific",          // first name & placenames (7)
+"packer",           // first name & placenames (11)
+"packsaddle",       // standalone & placenames (6)
 "paddock",          // surname & placenames (251)
 "paddocks",         // standalone & placenames (56)
 "paed",             // first name
