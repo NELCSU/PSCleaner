@@ -625,7 +625,7 @@ const a: string[] = [
 "muscogee",
 "muscovite",
 "musgu",
-"musgum",
+
 "musi",
 "mwera",
 "māori",
@@ -740,7 +740,7 @@ const a: string[] = [
 "sanggau",
 "sangirese",
 "sanglechi",
-"sangtam",
+
 "sanmarinese",
 "santal",
 "sardinian",
