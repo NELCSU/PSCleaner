@@ -180,6 +180,7 @@ const a: RegExp[] = [
   /\bjesuit\sclose\b/gmi,
   /\bl(?:istening\spost|itchen)\sclose\b/gmi,
   /\bmonarchy\sclose\b/gmi,
+  /\bnativity\sclose\b/gmi,
   /\bp(?:acks|adock|avilions|inchers|ings|unnet)\sclose\b/gmi,
   /\borchids\sclose\b/gmi,
   /\bqu(?:ickstep|intet)\sclose\b/gmi,
@@ -349,7 +350,7 @@ const a: RegExp[] = [
   // meadow
   /\b(?:blinds|eurostar|snowplough|yolk)\smeadow\b/gmi,
   // mews
-  /\b(?:aspects|chancellery|coastline|orca|teeshot)\smews\b/gmi,
+  /\b(?:aspects|chancellery|coastline|gravity|orca|teeshot)\smews\b/gmi,
   // moor
   /\b(?:clips|twitching)\smoor\b/gmi,
   /\bdrags\smoss\b/gmi,
@@ -419,7 +420,7 @@ const a: RegExp[] = [
   // street
   /\b[bcef]\sstreet\b/gmi,
   /\ba(?:lert|m(?:azon|icable|phitrite)|pothecary|thletic)\sstreet\b/gmi,
-  /\bb(?:anker|are|eneficial|eta|rain|rief)\sstreet\b/gmi,
+  /\bb(?:anker|are|eneficial|eta|osnia|rain|rief)\sstreet\b/gmi,
   /\bc(?:hief['‘’`]?s|lergy|o(?:ncrete|nstellation|nvener|stly)|yclops)\sstreet\b/gmi,
   /\bd(?:ate|ockland)\sstreet\b/gmi,
   /\be(?:ffort|l(?:ectricity|even)|quitable|vening)\sstreet\b/gmi,
@@ -2473,6 +2474,7 @@ const a: RegExp[] = [
   /\bspray\s(?:coppice|copse|hill|house\swood|lane|leaze|road|street)\b/gmi,
   /\b(?:sea\sspray\savenue|spray['‘’`]?s\s(?:lane|wood))\b/gmi,
   /\bspread\seagle\s(?:hill|road|street)\b/gmi,
+  /\bspringboard\seducation\b/gmi,
   /\bsquadron\s(?:avenue|close|drive|lane|place)\b/gmi,
   /\bBlack\sSquares\b/gm,
   /\b(?:black\ssquares\sdrive|squares\s(?:road|wood\sclose)?)\b/gmi,

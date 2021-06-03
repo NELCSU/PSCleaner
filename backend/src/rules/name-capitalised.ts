@@ -5901,7 +5901,6 @@ const a: string[] = [
 "sprig",
 "sprigs",
 "spring",
-"springboard",
 "springs",
 "springwater",
 "sprout",
@@ -6991,7 +6990,7 @@ const a: string[] = [
 "whitey",
 "whitish",
 "whitling",
-"whitsun",
+
 "whittle",
 "whittler",
 "whittles",

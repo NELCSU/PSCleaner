@@ -24,6 +24,8 @@ const a: RegExp[] = [
   /\b(?:jp\smorgan\schase|(?:infant|junior)\sand\s(?:infants?|junior))\b/gmi,
   // K
   /\bku\sklux\sklan\b/gmi,
+  // M
+  /\bnorth\smacedonia\b/gmi,
   // N
   /\b(?:nato|newshub|northern\sireland)\b/gmi,
   /\bnhs\s(?:england|london|scotland|wales)\b/gmi,

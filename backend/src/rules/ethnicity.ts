@@ -262,7 +262,7 @@ const a: string[] = [
 "dubla",
 "dubli",
 "dungri",
-"dusun",
+
 "dusunic",
 "dutch",
 "dzongkha",

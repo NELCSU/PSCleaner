@@ -20,6 +20,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "airport",          // placename (113)
 "airs",             // surname
 "airstream",        // first name
+"albania",          // first name
 "algeria",          // first name
 "all",              // placenames (299)
 "allied",           // first names & placenames (2)
@@ -292,6 +293,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "bulk",             // standalone & placenames (4)
 "bullion",          // surname & placenames (8)
 "bullions",         // surname
+"bulgaria",         // first name
 "bump",             // surname & placenames (3)
 "burka",            // surname & placename
 "burn",             // standalone & placenames (256)
@@ -1085,6 +1087,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "juvenile",         // first name
 // K
 "kaftan",           // first name
+"kappa",            // first name
 "keen",             // surname & standalone & placenames (28)
 "keg",              // surname & placenames (2)
 "kettle",           // surname & standalone & placenames (38)
@@ -1177,6 +1180,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "lunas",            // first name
 "luxembourg",       // surname & placenames (4)
 // M
+"macedonia",        // first name & standalone
 "macro",            // surname & placename
 "madam",            // first name & placenames (19)
 "mafia",            // first name
@@ -1912,6 +1916,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "swinger",          // surname & placename
 "swine",            // standalone & placenames (32)
 "swords",           // surname & placenames (2)
+"syria",            // first name
 // T
 "tables",           // surname & placename
 "tack",             // first name & placenames (6)
@@ -2034,6 +2039,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "vein",             // surname & placenames (2)
 "velvet",           // first name & placenames (8)
 "vendetta",         // first name
+"venezuela",        // first name & placename
 "venue",            // first name & placenames (5)
 "vermilion",        // surname
 "vermillion",       // surname
