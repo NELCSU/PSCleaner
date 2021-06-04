@@ -52,6 +52,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "apathy",           // first name
 "apple",            // placenames (82)
 "approach",         // placenames (399)
+"apps",             // surname & placenames (3)
 "aquarium",         // standalone & placenames (3)
 "aqueduct",         // standalone & placenames (11)
 "arbor",            // surname & placenames (20)
@@ -341,6 +342,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "carte",            // first name & placenames (2)
 "carton",           // first name & placenames (4)
 "cartridge",        // surname & placenames (7)
+"cases",            // surname & placename
 "cash",             // first name & placename (9)
 "cashier",          // surname
 "catcher",          // surname & placenames (3)
@@ -569,6 +571,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "easterly",         // surname & place names (10)
 "eastern",          // placenames (112)
 "eastside",         // standalone & placenames (11)
+"echoes",           // surname & placename
 "eco",              // surname & placenames (3)
 "edge",             // placenames (468)
 "eel",              // first name & placenames (20)
@@ -646,15 +649,43 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "fetch",            // surname & placename
 "fetcher",          // surname
 "fete",             // first name
+"fielder",          // first name & placenames (5)
+"fielders",         // surname & placenames (9)
+"fielding",         // surname & placenames (24)
+"fields",           // surname & placenames (1k+)
+"fiery",            // surname & placenames (8)
+"fiesta",           // first name & placenames (3)
+"fiestas",          // surname
+"fig",              // surname & placenames (4)
+"figs",             // surname
+"filcher",          // surname
+"filching",         // standalone & placenames (2)
+"filler",           // surname
+"fillers",          // surname
+"filly",            // surname & placename
+"fin",              // first name & placenames (8)
+"finch",            // first name & placenames (42)
+"finder",           // surname
+"finders",          // surname
 "fine",             // surname & placenames (10)
 "finely",           // surname
 "fines",            // surname & placenames (4)
+"finesse",          // first name
 "finning",          // surname & placenames (2)
+"fins",             // surname
+"fir",              // surname & placenames (187)
+"fireman",          // surname
 "fires",            // surname
+"firs",             // standalone & placenames (264)
 "fish",             // surname & placenames (78)
 "fishbone",         // surname
+"fisher",           // surname & placenames (91)
+"fishers",          // standalone & placenames (37)
+"fishery",          // standalone & placenames (8)
+"fisheye",          // first name
 "fishpond",         // standalone & placenames (22)
 "fishponds",        // standalone & placenames (18)
+"fitter",           // surname
 "five",             // placenames (139)
 "flail",            // surname & placename
 "flake",            // surname & placename (5)
@@ -1599,6 +1630,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ran",              // first name & placename
 "rand",             // first name & standalone & placenames (17)
 "rang",             // first name
+"rash",             // first name & placenames (12)
 "rats",             // surname & placenames (5)
 "raves",            // surname
 "raw",              // standalone & placenames (16)
