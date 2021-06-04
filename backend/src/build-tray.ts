@@ -20,7 +20,7 @@ export class AppTray {
       { click: _ => parent.hardClose(), label: "Quit" }
     ]);
 
-    const imagePath: string = config.images.get("favicon") || "";
+    const imagePath = config.images.get("favicon") ?? "";
     this.tray = new Tray(imagePath);
     this.tray.setToolTip(`Click to view options for ${app.getName()}`);
     this.tray.setContextMenu(menu);

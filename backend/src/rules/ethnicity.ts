@@ -437,7 +437,7 @@ const a: string[] = [
 "kannadiga",
 "kansai",
 "kapsiki",
-"kaqchikel",
+
 "karabakhi",
 "karadaghi",
 "karbi",

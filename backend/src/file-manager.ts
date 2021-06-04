@@ -132,11 +132,11 @@ export class FileManager {
   public async listFiles(folder?: string | undefined): Promise<string[]> {
     if (this.filter) {
       const re = new RegExp(`\.${this.filter}$`);
-      return await fs.readdir(folder || this.folder)
+      return await fs.readdir(folder ?? this.folder)
         .then((files: string[]) => files.filter(f => re.test(f)))
         .catch(err => Promise.reject(err));
     } else {
-      return await fs.readdir(folder || this.folder)
+      return await fs.readdir(folder ?? this.folder)
         .catch((err: string) => Promise.reject(err));
     }
   }

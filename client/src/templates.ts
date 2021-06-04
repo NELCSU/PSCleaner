@@ -32,7 +32,7 @@ function addField(field?: CSVField) {
   const down = newField.querySelector("img.move-down") as HTMLButtonElement;
   newField.id = `field_${count}`;
   newField.dataset.position = `${count}`;
-  txt.value = field?.label || "";
+  txt.value = field?.label ?? "";
   onoff.on = field?.enabled;
   insertHere.appendChild(newField);
   newField.classList.remove("hidden");

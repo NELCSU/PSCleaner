@@ -1836,10 +1836,25 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sportsfield",      // standalone & placename
 "sportsman",        // surname & placenames (4)
 "sprain",           // surname
+"sprang",           // surname
 "sprays",           // standalone & placenames (3)
+"spree",            // surname
+"spring",           // placenames (945)
+"springs",          // first name & placenames (132)
+"springwater",      // surname & placenames (9)
 "sprite",           // first name & placenames (2)
+"sprout",           // first name
+"spruce",           // surname & standalone & placenames (39)
+"sprung",           // surname
+"spry",             // surname & placenames (3)
+"spur",             // first name & placenames (88)
+"spurn",            // standalone & placenames (8)
+"spurring",         // surname
+"spurs",            // surname & placenames (2)
+"squalls",          // surname & placename
 "square",           // placenames (1k+)
 "squeezy",          // surname
+"squelch",          // surname
 "squid",            // first name
 "squire",           // first name & placenames (32)
 "squires",          // surname & placenames (35)
@@ -1847,28 +1862,83 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "squirrels",        // standalone & placenames (19)
 "stab",             // standalone & placenames (4)
 "stables",          // surname & placenames (35)
+"stabs",            // surname
+"stack",            // placenames (315)
+"stackable",        // surname
+"stacker",          // surname
+"stacks",           // surname & placenames (64)
 "staggers",         // surname & placename
 "stain",            // first name & placenames (7)
+"staining",         // standalone & placenames (10)
+"stains",           // surname & placenames (3)
+"stair",            // standalone & placenames (16)
 "stairgate",        // standalone
 "stairs",           // first name & placenames (17)
 "stakes",           // surname & standalone & placenames (12)
+"stalk",            // surname & placenames (2)
+"stalker",          // surname & placenames (5)
+"stall",            // surname & placenames (8)
+"stalling",         // surname & placenames (4)
+"stallion",         // surname & placenames (3)
+"stallions",        // surname
+"stalls",           // surname & placenames (8)
+"stammer",          // surname & placename
+"stammers",         // first name & standalone & placenames (8)
 "stamp",            // first name & placenames (9)
 "stand",            // standalone & placenames (25)
 "standard",         // standalone & placenames (20)
 "standards",        // standalone & placenames (5)
+"standfast",        // surname & placenames (4)
 "staple",           // surname & placenames (44)
 "staplers",         // standalone & placenames (8)
 "staples",          // surname & placenames (15)
 "star",             // first name & placenames (98)
+"starfish",         // first name
+"stark",            // first name & placenames (11)
+"starker",          // surname
+"starlet",          // first name
+"starlight",        // first name & placenames (3)
+"starling",         // surname & standalone & placenames (31)
+"starlings",        // surname & placenames (6)
 "starring",         // surname & placenames (5)
+"starry",           // first name & placenames (3)
 "stars",            // surname & placenames (10)
 "starts",           // surname & placenames (4)
+"stasis",           // first name
 "stately",          // surname & placename
+"stater",           // surname
 "states",           // surname & placenames (2)
 "station",          // placenames (777)
 "stave",            // surname & standalone & placenames (3)
+"staves",           // surname & placenames (2)
+"stead",            // firt name & standalone & placenames (25)
+"steamer",          // surname & placenames (6)
+"steed",            // first name & placenames (4)
+"steeds",           // surname & placenames (5)
 "steel",            // surname & placenames (65)
+"steels",           // surname & placenames (2)
+"steely",           // first name
+"steep",            // standalone & placenames (32)
+"steeplechase",     // standalone & placenames (7)
+"steeples",         // standalone & placenames (3)
+"steers",           // surname & placenames (6
+"stencil",          // surname
+"stent",            // first name & placenames (6)
+"steppe",           // surname
+"stepper",          // surname & placename
+"steppes",          // standalone & placenames (6)
+"stepping",         // surname & placenames (15)
 "steri",            // surname
+"sterling",         // first name & placenames (18)
+"stern",            // first name & placenames (3)
+"sterner",          // first name
+"sterns",           // surname & placenames (2)
+"stew",             // surname & placenames (12)
+"steward",          // first name & placenames (22)
+"stewards",         // standalone & placenames (11)
+"sticker",          // surname & placenames (4)
+"stickler",         // surname
+"stickman",         // surname
 "stifle",           // surname
 "stills",           // first name
 "stilts",           // surname & placename
@@ -1992,6 +2062,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "tremor",           // surname
 "triangle",         // standalone & placenames (30)
 "trimmer",          // surname & placenames (2)
+"trinidad",         // first name & placenames (7)
 "triumph",          // standalone & placenames (9)
 "trodden",          // surname & placename
 "troop",            // surname & placename

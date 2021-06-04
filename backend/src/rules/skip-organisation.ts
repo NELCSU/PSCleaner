@@ -7,7 +7,7 @@ const a: RegExp[] = [
   /\b(?:central|reserve|world)\sbank\b/gmi,
   // C
   /\b(?:(?:catholic|orthodox)\schurch|church\sof\sengland|coca\scola)\b/gmi,
-  /\b(?:channel\sislands|community\scentre)\b/gmi,
+  /\b(?:channel\sislands|community\scentre|costa\srica)\b/gmi,
   /\b(?:arts|community|national|royal|sports|technical)\scollege\b/gmi,
   /\bczech\srepublic\b/gmi,
   // D

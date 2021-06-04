@@ -45,8 +45,8 @@ export class AppWindow extends BrowserWindow {
     });
 
     this.setBounds({
-      x: this.#wsk.x || 0,
-      y: this.#wsk.y || 0,
+      x: this.#wsk.x ?? 0,
+      y: this.#wsk.y ?? 0,
       width: this.#wsk.width,
       height: this.#wsk.height
     });
