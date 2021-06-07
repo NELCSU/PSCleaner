@@ -929,7 +929,7 @@ const a: string[] = [
 "zafimaniry",
 "zaghawa",
 "zambian",
-"zamboangueno",
+
 "zande",
 "zay",
 "zealander",

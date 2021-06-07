@@ -173,7 +173,7 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+[a-fi-lnpqs-z]ena\b/gmi,
    /\b[a-z]+[aejnouvwy]end\b/gmi,
    /\b[a-z]+[deiw]ene\b/gmi,
-   /\b[a-z]+[yz]eno\b/gmi,
+   /\b[a-z]+[a-eg-or-wyz]eno\b/gmi,
    /\b[a-z]+[kls-z]epe\b/gmi,
    /\b[a-z]+[bjkux-z]era\b/gmi,
    /\b[a-z]+[ov-z]erd\b/gmi,
@@ -1003,7 +1003,7 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+ww[a-vx-z]\b/gmi,
 
    /\b[a-z]+x[ab]y\b/gmi,
-   /\b[a-z]+xii\b/gmi,
+   /\b[a-z]+x[ei]i\b/gmi,
    /\b[a-z]+xn[aei]\b/gmi,
    /\b[a-z]+xo[pt]\b/gmi,
    /\b[a-z]+xse\b/gmi,
@@ -1013,9 +1013,13 @@ export const NamesEndingRegEx: RegExp[] = [
 
    /\b[a-z]+ya[a-kn-rt-z]\b/gmi,
    /\b[a-z]+yb[a-df-xz]\b/gmi,
-   /\b[a-z]+y[cf-kqu-x][a-z]\b/gmi,
+   /\b[a-z]+yc[a-z]\b/gmi,
+   /\b[a-z]+y[ijkuv][a-z]\b/gmi,
    /\b[a-z]+yd[acdf-rt-z]\b/gmi,
-   /\b[a-z]+ye[a-ce-qu-z]\b/gmi,
+   /\b[a-z]+ye[abe-qu-z]\b/gmi,
+   /\b[a-z]+yf[aefint]\b/gmi,
+   /\b[a-z]+yg[alo]\b/gmi,
+   /\b[a-z]+yh[eno]\b/gmi,
    /\b[a-z]+yl[a-df-rt-xz]\b/gmi,
    /\b[a-z]+ym[a-df-moq-rt-xz]\b/gmi,
    /\b[a-z]+yn[a-dfh-xz]\b/gmi,
@@ -1024,6 +1028,8 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+yr[a-df-np-rt-z]\b/gmi,
    /\b[a-z]+ys[a-df-su-z]\b/gmi,
    /\b[a-z]+yt[a-df-z]\b/gmi,
+   /\b[a-z]+yw[deiny]\b/gmi,
+   /\b[a-z]+yx[ae]\b/gmi,
    /\b[a-z]+yy[ac-pr-u]\b/gmi,
    /\b[a-z]+yz[a-km-z]\b/gmi,
 
@@ -1032,7 +1038,7 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+zly\b/gmi,
    /\b[a-z]+zo[defnruwy]\b/gmi,
    /\b[a-z]+zi[acegilnouz]\b/gmi,
-   /\b[a-z]+z[ghrs]a\b/gmi,
+   /\b[a-z]+z[cghrs]a\b/gmi,
    /\b[a-z]+zu[lm]\b/gmi,
    /\b[a-z]+zz[aoy]\b/gmi
 ];

@@ -424,6 +424,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "compass",          // surname & placenames (28)
 "comprehensive",    // placenames (94)
 "conduit",          // surname & placenames (31)
+"congo",            // surname & placenames (2)
 "cons",             // first name & placenames (2)
 "consul",           // surname & placenames (5)
 "cooker",           // surname
@@ -1162,6 +1163,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "legos",            // surname
 "legs",             // first name & placenames (4)
 "leisure",          // surname & placenames (10)
+"lenders",          // surname
 "lent",             // first name & standalone & placenames (7)
 "lenten",           // first name & placenames (4)
 "leotard",          // surname
@@ -1215,7 +1217,17 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "macro",            // surname & placename
 "madam",            // first name & placenames (19)
 "mafia",            // first name
+"mag",              // surname & placenames (9)
+"mage",             // first name
+"magenta",          // first name & placenames (6)
+"mages",            // first name
+"magi",             // first name
 "magnet",           // surname & placenames (4)
+"magnolia",         // first name & placenames (20)
+"magnolias",        // standalone
+"magnum",           // first name & placenames (3)
+"magpies",          // standalone & placename
+"mags",             // first name & placename
 "maid",             // first name & placenames (12)
 "maiden",           // first name & placenames (83)
 "maidens",          // surname & standalone & placenames (14)
@@ -1225,15 +1237,79 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "major",            // first name & placenames (41)
 "majors",           // surname & placenames (9)
 "malaysia",         // first name
+"malls",            // surname & placenames (2)
+"malta",            // first name & placenames (6)
+"mama",             // first name
+"mamas",            // first name
+"mamba",            // surname & placename
+"mandela",          // surname & placenames (14)
+"mane",             // first name & placename
+"manes",            // surname & placename
+"mangle",           // surname & placenames (3)
+"mangler",          // surname
+"mangles",          // surname & placename
+"mango",            // first name & placename
+"mangold",          // surname & placename
+"mangos",           // surname
+"manhood",          // surname & placename
+"mania",            // first name
+"manias",           // surname
+"manifold",         // surname & standalone & placenames (10)
+"manila",           // first name & placenames (2)
+"manilla",          // surname & placenames (7)
+"manly",            // first name & placenames (2)
+"manna",            // first name & placenames (3)
 "manners",          // first name & placenames (13)
+"manning",          // surname & placenames (18)
+"manors",           // standalone & placenames (2)
+"mantel",           // surname
+"mantissa",         // first name
+"mantle",           // first name & placenames (17)
+"mantra",           // first name
+"mara",             // first name & placenames (17)
+"marcher",          // surname & placename
+"mare",             // first name & placenames (54)
+"mares",            // first name & placenames (5)
+"marigold",         // first name & placenames (16)
+"marigolds",        // standalone
+"marina",           // first name & standalone & placenames (36)
+"marinas",          // first name
+"marine",           // first name & placenames (73)
+"mariner",          // first name & standalone & placenames (16)
+"marines",          // first name & placename
+"marionette",       // surname
+"marjoram",         // first name & placenames (8)
 "markers",          // standalone & placenames (2)
 "market",           // placenames (224)
-"marine",           // first name & placenames (73)
-"marines",          // first name & placename
-"marquis",          // first name & placenames (17)
+"marks",            // first name & placenames (58)
+"marksman",         // surname
+"marlinespike",     // standalone
+"marmalade",        // firs name & placename
 "marmite",          // first name
+"marmot",           // surname & placename
+"maroon",           // first name & placenames (3)
+"marque",           // first name
+"marques",          // first name
+"marquess",         // surname & placenames (4)
+"marquis",          // first name & placenames (17)
 "marrow",           // surname & placenames (6)
 "mars",             // first name & placenames (12)
+"marsala",          // surname & placenames (2)
+"marsh",            // surname & placenames (720)
+"marshal",          // first name & placenames (8)
+"marshalls",        // standalone & placenames (20)
+"marshes",          // standalone & placenames (210)
+"marshland",        // standalone & placenames (18)
+"marshlands",       // standalone & placenames (8)
+"martial",          // surname & placename
+"martian",          // first name & placename
+"martingale",       // surname & standalone & placenames (10)
+"martini",          // first name & placename
+"martinis",         // first name
+"martyr",           // surname & placenames (12)
+"martyrs",          // placenames (25)
+"marvel",           // first name & placenames (4)
+"marvellous",       // first name
 "mate",             // first name & placename
 "mates",            // first name & placename
 "math",             // first name & placenames (3)
@@ -1271,6 +1347,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "mole",             // surname & placenames (24)
 "moles",            // first name & placenames (9)
 "molten",           // surname & placename
+"mon",              // first name
 "monday",           // first name & placenames (9)
 "monument",         // standalone & placenames (28)
 "morally",          // surname
@@ -1715,7 +1792,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ruins",            // standalone & placenames (6)
 "rune",             // first name & placename
 "rung",             // first name
-"rural",            // placenames (135)
 "rush",             // surname & placenames (72)
 "rushing",          // surname
 "russia",           // first name & placenames (5)
@@ -1753,6 +1829,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "selling",          // surname & placenames (3)
 "sells",            // surname & placenames (3)
 "send",             // standalone & placenames (8)
+"senegal",          // surname
 "sentry",           // standalone & placenames (9)
 "september",        // surname & placenames (3)
 "sequin",           // first name
