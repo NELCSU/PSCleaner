@@ -351,6 +351,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "causeway",         // placenames (160)
 "celsius",          // first name
 "cemetery",         // placenames (22)
+"centre",           // placenames (677)
 "centenary",        // placenames (21)
 "central",          // placenames (381)
 "challenger",       // first name & placenames (7)
@@ -1237,6 +1238,11 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "major",            // first name & placenames (41)
 "majors",           // surname & placenames (9)
 "malaysia",         // first name
+"mallard",          // first name & placenames (36)
+"mallards",         // standalone & placenames (13)
+"mallet",           // first name & placenames (13)
+"mallow",           // surname & placenames (20)
+"mallows",          // first name & placenames (11)
 "malls",            // surname & placenames (2)
 "malta",            // first name & placenames (6)
 "mama",             // first name
@@ -1310,6 +1316,12 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "martyrs",          // placenames (25)
 "marvel",           // first name & placenames (4)
 "marvellous",       // first name
+"mascara",          // surname
+"mascot",           // surname & placenames (2)
+"mash",             // first name & placenames (2)
+"massed",           // surname
+"massif",           // first name & placename
+"masters",          // first name & placenames (10)
 "mate",             // first name & placename
 "mates",            // first name & placename
 "math",             // first name & placenames (3)
@@ -1725,7 +1737,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "refuge",           // standalone & placenames (2)
 "reg",              // first name & placenames (4)
 "regency",          // standalone & placenames (24)
-"regent",           // firs tname & placenames (73)
+"regent",           // first name & placenames (73)
 "regents",          // placenames (24)
 "regatta",          // first name & placenames (5)
 "regiment",         // placenames (7)

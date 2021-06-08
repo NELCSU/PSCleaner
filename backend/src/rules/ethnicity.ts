@@ -29,7 +29,7 @@ const a: string[] = [
 "akoose",
 "akuapem",
 "akwamu",
-"akyem",
+
 "alawite",
 "albanian",
 "algerian",
@@ -158,7 +158,7 @@ const a: string[] = [
 "bosniak",
 "bosnian",
 "botswanan",
-"bouyei",
+
 "boyanese",
 "bozom",
 "braber",
@@ -792,7 +792,7 @@ const a: string[] = [
 "slovenian",
 "soga",
 "somalian",
-"somyev",
+
 "soninke",
 "soqotri",
 "soran",

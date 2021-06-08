@@ -150,8 +150,8 @@ export const SkipWordPatternEntity: Entity = {
   domain: "SKIP",
   enabled: true,
   id: "entitySkipWordPattern",
-  label: "Medical",
-  mask: "MEDICAL",
+  label: "SkipRegEx",
+  mask: "SKIPPED",
   type: "regular expression"
 };
 

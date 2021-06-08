@@ -1,7 +1,6 @@
 export const LocationPrefixRegEx: RegExp[] = [
-  /\bNo\s\d+/gm,
-  /\b(?<!\d[,\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{2}\s[a-z]{3,})/gmi,
-  /\b(?<!\d[,\\\/])(?:[1-9]\d{0,3}\-)?[1-9]\d{0,3}[a-h]?(?=\s[a-z]{4,})/gmi
+  /\bNo\.?\s\d+/gm, // e.g. No. 7
+  /(?<!\d[.,\\\/])[1-9]\d{0,3}[a-h]?(?:-[1-9]\d{0,3}[a-h]?)?(?<!$)(?=\s[a-z]{2,})/gmi // e.g. 12-14a [Old Street]
 ];
 export const LocationMidfixRegEx: RegExp[] = [
   /(?!\w\s)&(?<!\s\w)/gmi,
@@ -56,9 +55,9 @@ const a: RegExp[] = [
   /\bThe\sLe(?:ap|ases|e|igh|vel)\b/gm,
   /\bThe\sLi(?:ght|ne|ttle\sHorse\sShoe)\b/gm,
   /\bThe\sLo(?:ng\sS(?:hoot|traight)|ts|ttery)\b/gm,
-  /\bThe\sMa(?:gical\sWood|gnolias|nacles|n\so['‘’`]?\sWar|ntles|riners|rlins|ry\sRose|nsion\sMews)\b/gm,
+  /\bThe\sMa(?:gical\sWood|gnolias|ll|llows|nacles|n\so['‘’`]?\sWar|nsion\sMews|ntles|riners|rlins|rtingales|ry\sRose|sons)\b/gm,
   /\bThe\sMe(?:adows?|dical\sWing|re)\b/gm,
-  /\bThe\sM(?:artingales|idlands?|ount)\b/gm,
+  /\bThe\sM(?:idlands?|ount)\b/gm,
   /\bThe\sN(?:apping|eedle|eck\sGut|urseries|ursery)\b/gm,
   /\bThe\sOlde?\s(?:Armoury|Barnyard|Coach\s(?:House|Road|Yard)|Courtyard|Creamery|Dairy\sFarm)\b/gm,
   /\bThe\sOlde?\s(?:Fire\sStation|Gated\sRoad|Hop\sYard|Larches|Laundry|Mission|Nurseries)\b/gm,
@@ -190,7 +189,7 @@ const a: RegExp[] = [
   /\bi(?:bex|nsignia)\sclose\b/gmi,
   /\bjesuit\sclose\b/gmi,
   /\bl(?:istening\spost|itchen)\sclose\b/gmi,
-  /\bm(?:artingales|onarchy|unicipal)\sclose\b/gmi,
+  /\bm(?:artingales|asthead|onarchy|unicipal)\sclose\b/gmi,
   /\bn(?:ativity|ine\swells)\sclose\b/gmi,
   /\bp(?:acks|adock|avilions|inchers|ings|ointout|unnet)\sclose\b/gmi,
   /\bo(?:ld\sfishmarket|rchids)\sclose\b/gmi,
@@ -315,7 +314,7 @@ const a: RegExp[] = [
   /\bli(?:d|p(?:\shill)?)\slane\b/gmi,
   /\blo(?:cker|gic|ok['‘’`]?s|llipop)\slane\b/gmi,
   /\blunch\slane\b/gmi,
-  /\bm(?:arkets|ast|ean|echanics?['‘’`]?|ed|ilk|iserable|istress)\slane\b/gmi,
+  /\bm(?:arkets|ast|astiff|ean|echanics?['‘’`]?|ed|ilk|iserable|istress)\slane\b/gmi,
   /\bm(?:ob|ock|onkey(?:\sisland)?|ortuary|ug\smill|uster\sroll|ux['‘’`]?s|y\s(?:lords|love))\slane\b/gmi,
   /\bna(?:p|p\scote|vvy)\slane\b/gmi,
   /\bne\slane\b/gmi,
@@ -1767,6 +1766,11 @@ const a: RegExp[] = [
   /\bmagpie\s(?:plantation|road|shaw|spinney|street|walk|way|wood)\b/gmi,
   /\bmaids['‘’`]*\s(?:causeway|close|cross\s(?:hill|way)|garden(?:\scopse)?|grove|moreton)\b/gmi,
   /\bmainstream\s(?:court|way)\b/gmi,
+  /\b(?:armstrong|bonwick|chiswick|kensington|loch|mirabelle|pall|pine|upper|west)\small\b/gmi,
+  /\bmall\s(?:avenue|hill|lane|park\sroad|road)\b/gmi,
+  /\b(?:birches\small\slane|cnoc\small-lairig|the\sborough\small)\b/gmi,
+  /\bmalleable\s(?:gardens|way)\b/gmi,
+  /\bmallets\s(?:end|lane)\b/gmi,
   /\bmammoth\s(?:drive|street)\b/gmi,
   /\b(?:the)?(?:old|poor)\sman\sof\b/gmi,
   /\bman[\s-](?:close|gardens|hill|lane|moel|o'\s(?:war|wick)|place|plantation|road|way|wood|street)\b/gmi,
@@ -1798,6 +1802,9 @@ const a: RegExp[] = [
   /\bBlack\sMask\b/gm,
   /\bmask\s(?:hill|lane|plantation|road|wood)\b/gmi,
   /\bmasonic\s(?:hall|lane|street)\b/gmi,
+  /\bclòs\smasons\b/gmi,
+  /\bmasons\s(?:avenue|close|court|drive|field|green|grove|hill|lane|paddock|place|rise)\b/gmi,
+  /\bmasons\s(?:road|ryde|view|way|yard)\b/gmi,
   /\b(?:master['‘’`s]*\s(?:close(?:\swood)?|crescent|dike|gate|gunner\splace|lane|lodge|road|robert\sclose|street)|craig[\s-]y[\s-]master)\b/gmi,
   /\bmatch\s(?:island|lakes?)\b/gmi,
   /\b(?:lady|lord)\smayor['‘’`]?s?\s(?:drive|walk|whins)\b/gmi,

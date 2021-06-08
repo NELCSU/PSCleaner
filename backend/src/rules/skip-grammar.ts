@@ -1,5 +1,5 @@
 const a: RegExp[] = [
-  /\b\w{2,}\-\d{1,2}\b/gmi,
+  /\b[a-z]{2,}\-\d{1,2}\b/gmi,
   /\d+[\s-](?:day|mile|kilometer|km|step|week)s?\b/gmi,
   /\b(?:first|last|tier)\s\d+/gmi,
   /\d+\sof\b/gmi,
