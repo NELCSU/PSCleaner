@@ -11,6 +11,8 @@ const a: RegExp[] = [
   /\bartery\sof\s(?:adamkiewicz|percheron)\b/gmi,
   /\bas(?:th|ht)ma\b/gmi,
   /\b(?:auerbach|batson|kiesselbach|little|meissner)['‘’`]?s?\splexus\b/gmi,
+  // B
+  /\bbaerveldt\s(?:shunt|tube)\b/gmi,
   /\b(?:bachmann|wenckebach)['‘’`]?s?\sbundle\b/gmi,
   /\bback\sof\shead\b/gmi,
   /\bback\spassage\b/gmi,
@@ -31,6 +33,7 @@ const a: RegExp[] = [
   /\b(?:balbiani|herr?ing|nissl)\sbodies\b/gmi,
   /\bbrady\sepisode\b/gmi,
   /\bcolumns\sof\sbertin\b/gmi,
+  /\bdexa\sscan\b/gmi,
   /\b(?:betz|cajal[\s-](?:retzius\s)?|clara|hurthle|kupffer|langerhans|langhans\sgiant|leydig|mantle|merkel|paneth|purkinje|renshaw|schwann|sertoli|sick[le]{2})\scells?\b/gmi,
   /\bbillroth['‘’`]?s?\scords\b/gmi,
   /\bblood\surate\b/gmi,
@@ -124,11 +127,14 @@ const a: RegExp[] = [
   /\bnode\sof\s(?:lund|ranvier|virchow)\b/gmi,
   /\blupus\snephritis\b/gmi,
   /\bluschka['‘’`]?s?\sjoints\b/gmi,
+  // M
   /\bMAC\ssedation\b/gmi,
+  /\bmacula\b/gmi,
   /\bmallory[\s-]+weiss\stear\b/gmi,
   /\bmax\sdose\b/gmi,
   /\bmobitz\stype\b/gmi,
   /\bmongolian\sblue\sspots?\b/gmi,
+  // N
   /\bneisseria\smeningitidis\b/gmi,
   /\bng\s(?:feed|tube)s?\b/gmi,
   /\bNG\b/gm,
@@ -157,7 +163,9 @@ const a: RegExp[] = [
   /\bradi[au]l\spulse\b/gmi,
   /\broof\sof\smouth\b/gmi,
   /\bsylvian\saqueduct\b/gmi,
+  // T
   /\btalc\spleurodesis\b/gmi,
+  /\btenckhoff\scatheter\b/gmi,
   /\btorcular\sherophili\b/gmi,
   /\bfracture\sof\stalus\b/gmi,
   /\btinea\spedis\b/gmi,

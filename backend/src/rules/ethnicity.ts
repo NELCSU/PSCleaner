@@ -29,7 +29,6 @@ const a: string[] = [
 "akoose",
 "akuapem",
 "akwamu",
-
 "alawite",
 "albanian",
 "algerian",
@@ -145,7 +144,6 @@ const a: string[] = [
 "bhumij",
 "bhutanese",
 "biate",
-"bidayuh",
 "bikol",
 "bilen",
 "bishnupriya",
@@ -158,7 +156,6 @@ const a: string[] = [
 "bosniak",
 "bosnian",
 "botswanan",
-
 "boyanese",
 "bozom",
 "braber",
@@ -262,7 +259,6 @@ const a: string[] = [
 "dubla",
 "dubli",
 "dungri",
-
 "dusunic",
 "dutch",
 "dzongkha",
@@ -437,7 +433,6 @@ const a: string[] = [
 "kannadiga",
 "kansai",
 "kapsiki",
-
 "karabakhi",
 "karadaghi",
 "karbi",
@@ -514,7 +509,6 @@ const a: string[] = [
 "ligurian",
 "limba",
 "limbu",
-"lipo",
 "lipovan",
 "lisu",
 "lithuanian",
@@ -625,13 +619,11 @@ const a: string[] = [
 "muscogee",
 "muscovite",
 "musgu",
-
 "musi",
 "mwera",
 "māori",
 "naba",
 "nafusi",
-"nair",
 "nama",
 "namibian",
 "nande",
@@ -740,7 +732,6 @@ const a: string[] = [
 "sanggau",
 "sangirese",
 "sanglechi",
-
 "sanmarinese",
 "santal",
 "sardinian",
@@ -792,7 +783,6 @@ const a: string[] = [
 "slovenian",
 "soga",
 "somalian",
-
 "soninke",
 "soqotri",
 "soran",
@@ -929,7 +919,6 @@ const a: string[] = [
 "zafimaniry",
 "zaghawa",
 "zambian",
-
 "zande",
 "zay",
 "zealander",
