@@ -19585,7 +19585,6 @@ const a: string[] = [
 "yemboulaera",
 "yembra",
 "yeme",
-"yemen",
 "yemeniciler",
 "yementry",
 "yemenu",

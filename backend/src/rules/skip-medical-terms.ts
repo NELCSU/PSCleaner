@@ -33,7 +33,7 @@ const a: RegExp[] = [
   /\b(?:balbiani|herr?ing|nissl)\sbodies\b/gmi,
   /\bbrady\sepisode\b/gmi,
   /\bcolumns\sof\sbertin\b/gmi,
-  /\bdexa\sscan\b/gmi,
+  /\bdexa\b/gmi,
   /\b(?:betz|cajal[\s-](?:retzius\s)?|clara|hurthle|kupffer|langerhans|langhans\sgiant|leydig|mantle|merkel|paneth|purkinje|renshaw|schwann|sertoli|sick[le]{2})\scells?\b/gmi,
   /\bbillroth['‘’`]?s?\scords\b/gmi,
   /\bblood\surate\b/gmi,
