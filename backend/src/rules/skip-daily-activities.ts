@@ -67,7 +67,7 @@ const a: RegExp[] = [
   /\b(?:from|of|off|on)\sladder\b/gmi,
   // M
   /\bmartial\sarts?\b/gmi,
-  /\bmoses\sbasket\b/gmi,
+  /\bmoses\s(?:basket|blanket)\b/gmi,
   /\b(?:muddy|playing|rugby)\sfields?\b/gmi,
   // O
   /\bon\s(?:shelf|table)\b/gmi,
