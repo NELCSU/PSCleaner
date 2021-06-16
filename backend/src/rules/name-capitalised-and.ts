@@ -687,6 +687,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "embody",           // surname
 "emu",              // surname & placenames (2)
 "end",              // placenames (1k+)
+"endo",             // first name
 "endow",            // surname
 "ends",             // surname & placenames (53)
 "endurance",        // first name & placename
@@ -1145,6 +1146,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "italy",            // first name & placename
 "ith",              // surname
 "ive",              // first name & placenames (11)
+"ivory",            // first name & placenames (10)
 // J
 "jabs",             // surname
 "jackal",           // first name & placename
@@ -1259,6 +1261,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "lands",            // surname & placenames (149)
 "laos",             // surname
 "larches",          // standalone & placenames (42)
+"large",            // surname & placenames (12)
 "lash",             // first name & placenames (6)
 "laughing",         // surname & placenames (3)
 "law",              // surname & placenames (457)
@@ -1677,8 +1680,17 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "perpetual",        // first name & placenames (5)
 "perseverance",     // first name & placenames (8)
 "peru",             // surname & placenames (2)
+"pest",             // surname & placenames (2)
+"pester",           // surname & placename
 "pesto",            // surname
+"petal",            // first name & placenames (2)
+"petals",           // first name
+"petard",           // surname & placenames (2)
+"petering",         // surname
+"petit",            // first name & placenames (10)
 "petite",           // first name
+"petty",            // first name & standalone & placenames (22)
+"petunia",          // first name & placenames (8)
 "philippines",      // first name
 "picking",          // surname & placenames (3)
 "pickings",         // surname

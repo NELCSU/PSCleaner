@@ -769,7 +769,6 @@ const a: string[] = [
 "burrows",
 "bursar",
 "bursary",
-
 "bury",
 "burying",
 "bush",
@@ -2915,7 +2914,7 @@ const a: string[] = [
 "hooping",
 "hoops",
 "hoove",
-"hope",
+"hope",             // first name & placenames (314)
 "hoper",
 "hopper",
 "hoppers",
@@ -3015,7 +3014,6 @@ const a: string[] = [
 "hyperion",
 "hypes",
 // I
-"ivory",          // first name & placenames (10)
 "ivy",            // first name
 // J
 "jabber",         // first name
@@ -4151,21 +4149,6 @@ const a: string[] = [
 "permitted",
 "persimmon",
 "pert",
-"pesky",
-
-"pest",
-"pester",
-"pesters",
-"pestle",
-"petal",
-"petals",
-"petard",
-"petechia",
-"petering",
-"petit",
-"petticoat",
-"petty",
-"petunia",
 "pew",
 "pews",
 "pewter",
@@ -4961,7 +4944,6 @@ const a: string[] = [
 "scales",
 "scallion",
 "scallions",
-"scalp",
 "scalps",
 "scaly",
 "scape",
@@ -6367,7 +6349,6 @@ const a: string[] = [
 "volcanic",
 "volcano",
 "vole",
-
 "volt",
 "voodoo",
 "vowel",
@@ -6573,7 +6554,6 @@ const a: string[] = [
 "whitey",
 "whitish",
 "whitling",
-
 "whittle",
 "whittler",
 "whittles",

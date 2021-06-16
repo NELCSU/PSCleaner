@@ -33,7 +33,7 @@ const a: RegExp[] = [
   /\b(?:bark|wood)\schipping\b/gmi,
   /\bchipping\s(?:against|away|on)\b/gmi,
   /\ba\sbath\b/gmi,
-  /\bthe\s(?:bill|eve|lord|professors|white)\b/gmi,
+  /\bthe\s(?:bill|eve|lord|white)\b/gm,
   /\bcarole?\s(?:services?|sing(?:ers?|ing))\b/gm,
   /\bchief\sof\sstaff\b/gmi,
   /\bclash\sof\b/gmi,

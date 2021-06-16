@@ -42,7 +42,10 @@ const a: RegExp[] = [
   /\b(?:boxer|colles|pott|salter[\s-]+harris|talus|weber\stype\s[a-z])['‘’`]?s?\sfract\w+\b/gmi,
   /\bsalter[\s-]+harris\s(?:type\s)?[IVX1-9]{1,3}\b/gmi,
   // syndrome
-  /\b(?:brugada|duane|dwayne|edwards|ehlers[\s-]*danlos|evans|fanconi|gianotti[\s-]+crosti|guillain[\s-]+barr[eé]|kab(?:oo|u)ki|phel[ai][mn][\s-]+mcderm[io]d|prader[\s-]+willi)\ssyndrome\b/gmi,
+  /\b(?:brugada|duane|dwayne|edwards|ehlers[\s-]*danlos|evans|fanconi)\ssyndrome\b/gmi,
+  /\b(?:gianotti[\s-]+crosti|guillain[\s-]+barr[eé]|kab(?:oo|u)ki|lynch)\ssyndrome\b/gmi,
+  /\b(?:phel[ai][mn][\s-]+mcderm[io]d|prader[\s-]+willi)\ssyndrome\b/gmi,
+  
   /\b(?:broca|brodmann?|wernicke)['‘’`]?s?\sareas?\b/gmi,
   /\b(?:buck|colles|cooper|denonvilliers|gallaudet|spiegelian)['‘’`]?s?\sfascia\b/gmi,
   /\b(?:burkitt|hodgkin)['‘’`]?s?\slymphoma\b/gmi,
@@ -72,6 +75,8 @@ const a: RegExp[] = [
   // J
   /\bjobson\shorne\sprobe\b/gmi,
   /\bdiarro?he?o?a\b/gmi,
+  // L
+  /\blichenoid\skeratosis?\b/gmi,
   /\bdossett\sbox\b/gmi,
   /\be[\s-]?coli\b/gmi,
   /\b(?:gerdy|purkinje|sharpey)['‘’`]?s?\sfib[er]{2}s?\b/gmi,

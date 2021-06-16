@@ -26,6 +26,8 @@ const a: RegExp[] = [
   /\b(?:great\sbritain|guinea[\s-]bissau)\b/gmi,
   // H
   /\b(?:high\scommission|hong\skong|community\shospital)\b/gmi,
+  // I
+  /\bivory\scoast\b/gmi,
   // J
   /\b(?:jp\smorgan\schase|(?:infant|junior)\sand\s(?:infants?|junior))\b/gmi,
   // K

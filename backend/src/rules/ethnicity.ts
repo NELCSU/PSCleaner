@@ -412,7 +412,7 @@ const a: string[] = [
 "jew",
 "jewish",
 "jicarilla",
-"jingpho",
+
 "jingpo",
 "jola",
 "jordanian",
