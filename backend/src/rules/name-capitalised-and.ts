@@ -1976,10 +1976,17 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sudan",            // first name & placenames (2)
 "sulphur",          // surname
 "scank",            // surname
+"scar",             // placenames (274)
+"scarf",            // surname & placenames (19)
 "school",           // placenames (1k+)
+"schooler",         // surname
+"schooling",        // surname
 "schools",          // surname & placenames (129)
+"schoolyard",       // standalone & placename
 "score",            // standalone & placenames (36)
 "scotland",         // surname & placenames (64)
+"screech",          // surname
+"screen",           // standalone & placenames (2)
 "seaside",          // standalone & placenames (15)
 "seat",             // standalone & placenames (64)
 "self",             // surname & placenamess (5)
@@ -2412,6 +2419,10 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "walkingstick",     // surname
 "walks",            // surname & placenames (38)
 "wane",             // first name & placename
+"ward",             // surname & placenames (153)
+"warden",           // first name & standalone & placenames (50)
+"warder",           // first name & placename
+"wards",            // surname & placenames (28)
 "warns",            // surname & placenames (2)
 "wart",             // surname & placenames (7)
 "wary",             // surname & placename

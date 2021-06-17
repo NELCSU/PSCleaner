@@ -45,7 +45,7 @@ const a: string[] = [
 "anatri",
 "andalusian",
 "andorran",
-"angkola",
+
 "angolan",
 "angolar",
 "anioma",
@@ -338,7 +338,7 @@ const a: string[] = [
 "gurage",
 "gurma",
 "guyanese",
-"hachijo",
+
 "hadhrami",
 "hadiya",
 "hadiyya",
