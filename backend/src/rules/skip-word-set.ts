@@ -1190,7 +1190,6 @@ const a: string[] = [
 "muzak",
 "myanmar",
 "myna",
-"myope",
 "mystique",
 "myth",
 "naïve",

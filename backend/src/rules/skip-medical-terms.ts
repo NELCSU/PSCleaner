@@ -83,6 +83,8 @@ const a: RegExp[] = [
   /\bepididymo[\s-]+orchitis\b/gmi,
   /\becthyma\sgangrenosum\b/gmi,
   /\bescherichia\scoli\b/gmi,
+  // M
+  /\bmirena\scoil\b/gmi,
   /\bmicke?y\sbutton\b/gmi,
   /\bnissl\sgranules\b/gmi,
   /\bnissl\ssubstance\b/gmi,
