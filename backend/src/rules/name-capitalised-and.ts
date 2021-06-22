@@ -22,7 +22,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "airstream",        // first name
 "albania",          // first name
 "algeria",          // first name
-"all",              // placenames (299)
 "allied",           // first names & placenames (2)
 "allotment",        // placenames (122)
 "allotments",       // placenames (20)
@@ -1856,6 +1855,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "radish",           // surname & placenames (3)
 "radix",            // first name
 "radon",            // surname
+"raffle",           // surname
 "railing",          // surname
 "railway",          // placenames (201)
 "rain",             // first name & placenames (10)

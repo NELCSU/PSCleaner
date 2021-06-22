@@ -125,7 +125,7 @@ const a: string[] = [
 "bedouin",
 "belarusian",
 "belgian",
-"belizean",
+
 "bemba",
 "bembe",
 "bengali",
@@ -546,7 +546,7 @@ const a: string[] = [
 "mambila",
 "mamboru",
 "manchu",
-"mandaean",
+
 "mandailing",
 "mandar",
 "mandarese",
@@ -642,7 +642,7 @@ const a: string[] = [
 "nigerian",
 "ningbonese",
 "nirdhi",
-"niuean",
+
 "niuneton",
 "nkoro",
 "nkoroo",
@@ -920,7 +920,7 @@ const a: string[] = [
 "zande",
 "zay",
 "zealander",
-"zimbabwean",
+
 "zou"
 ];
 /**

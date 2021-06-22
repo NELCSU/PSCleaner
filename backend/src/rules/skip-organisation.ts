@@ -22,6 +22,7 @@ const a: RegExp[] = [
   /\bel\ssalvador\b/gmi,
   // F
   /\b(?:fa\scup|faroe\sislands)\b/gmi,
+  /\bFirst\sMinister\b/gm,
   // G
   /\b(?:great\sbritain|guinea[\s-]bissau)\b/gmi,
   // H
