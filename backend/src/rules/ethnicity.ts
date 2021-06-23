@@ -45,7 +45,6 @@ const a: string[] = [
 "anatri",
 "andalusian",
 "andorran",
-
 "angolan",
 "angolar",
 "anioma",
@@ -125,7 +124,6 @@ const a: string[] = [
 "bedouin",
 "belarusian",
 "belgian",
-
 "bemba",
 "bembe",
 "bengali",
@@ -272,7 +270,6 @@ const a: string[] = [
 "ekoi",
 "ekpeye",
 "emilian",
-"emirati",
 "engenni",
 "english",
 "eritrean",
@@ -338,7 +335,6 @@ const a: string[] = [
 "gurage",
 "gurma",
 "guyanese",
-
 "hadhrami",
 "hadiya",
 "hadiyya",
@@ -412,7 +408,6 @@ const a: string[] = [
 "jew",
 "jewish",
 "jicarilla",
-
 "jingpo",
 "jola",
 "jordanian",
@@ -546,7 +541,6 @@ const a: string[] = [
 "mambila",
 "mamboru",
 "manchu",
-
 "mandailing",
 "mandar",
 "mandarese",
@@ -642,7 +636,6 @@ const a: string[] = [
 "nigerian",
 "ningbonese",
 "nirdhi",
-
 "niuneton",
 "nkoro",
 "nkoroo",
@@ -920,7 +913,6 @@ const a: string[] = [
 "zande",
 "zay",
 "zealander",
-
 "zou"
 ];
 /**

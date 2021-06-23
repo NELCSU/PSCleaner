@@ -26361,6 +26361,7 @@ const a: string[] = [
 "gkoudinas",
 "gkougklias",
 "gkougkoulia",
+"gkougkousis",
 "gkoumas",
 "gkountonas",
 "gkountroumpi",

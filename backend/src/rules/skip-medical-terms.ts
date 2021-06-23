@@ -17,6 +17,8 @@ const a: RegExp[] = [
   /\bback\sof\shead\b/gmi,
   /\bback\spassage\b/gmi,
   /\bbarking\scough\b/gmi,
+  // C
+  /\bcaudal\sepidural\b/gmi,
   /\bglands?\sof\s(?:bartholin|brunner|cowper|littr[eé]|meibomian|moll|montgomery|skene|von\sebner)\b/gmi,
   /\b(?:bartholin|brunner|cowper|littr[eé]|meibomian|moll|montgomery|skene|von\sebner)['‘’`]?s?\sglands?\b/gmi,
   /\bedinger[\s–]westphal\snucleus\b/gmi,
@@ -84,6 +86,7 @@ const a: RegExp[] = [
   /\becthyma\sgangrenosum\b/gmi,
   /\bescherichia\scoli\b/gmi,
   // M
+  /\bmorton['‘’`]?s\sneuroma\b/gmi,
   /\bmirena\scoil\b/gmi,
   /\bmicke?y\sbutton\b/gmi,
   /\bnissl\sgranules\b/gmi,

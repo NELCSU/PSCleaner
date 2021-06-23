@@ -16,7 +16,7 @@ import { NameSetUZ } from "./rules/name-setU-Z";
 import { ProperNameSet } from "./rules/name-capitalised";
 import { NameSetJoinOnly } from "./rules/name-and";
 import { ProperNameSetJoinOnly } from "./rules/name-capitalised-and";
-import { NameInitialRegEx, NamePartSet, NameFragmentRegEx, NamePuralRegEx } from "./rules/name-part";
+import { NamePartSet, NameFragmentRegEx, NamePuralRegEx } from "./rules/name-part";
 import { AgeRegEx } from "./rules/age";
 import { EthnicitySet } from "./rules/ethnicity";
 import { SkipGrammarRegEx } from "./rules/skip-grammar";
@@ -178,12 +178,6 @@ export class NLP {
         action: { discard: 1, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
         entity: namesPatternEntity,
         matches: this._evalRegEx(data, NameFragmentRegEx)
-      });
-
-      searches.push({
-        action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 1, midfix: 1, suffix: 0 },
-        entity: namesPatternEntity,
-        matches: this._evalRegEx(data, NameInitialRegEx)
       });
 
       searches.push({

@@ -39,11 +39,6 @@ for (let i = 0; i < L; i++) {
   NamePartSet.add(a[i]);
 }
 
-const NameInitialRegEx: RegExp[] = [
-  /\b(?<![\\\/\&])[A-Z]\./gm,
-  /\b(?:dr|mc|mt|st)\.?(?=\s)/gmi
-];
-
 const NameFragmentRegEx: RegExp[] = [
   /\b(?:a|aa|b|d|is|l|mu|na|o|ra|sa|za)['‘’`]/gmi,
   /['‘’`](?:r)\b/gmi,
@@ -56,7 +51,6 @@ const NamePuralRegEx: RegExp[] = [
 ];
 
 export {
-  NameInitialRegEx,
   NamePartSet,
   NameFragmentRegEx,
   NamePuralRegEx
