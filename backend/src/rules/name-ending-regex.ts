@@ -113,7 +113,7 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+[au]car\b/gmi,
    /\b[a-z]+[au-z]cat\b/gmi,
    /\b[a-z]+[a-z]cha\b/gmi,
-   /\b[a-z]+[u-z]che\b/gmi,
+   /\b[a-z]+[bcdghjlmoprst]che\b/gmi,
    /\b[a-z]+[eijknqw-z]cia\b/gmi,
    /\b[a-z]+[iv]cic\b/gmi,
    /\b[a-z]+[a-cilnrux-z]cio\b/gmi,
