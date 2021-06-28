@@ -693,7 +693,7 @@ const a: string[] = [
 "rejangese",
 "reunionese",
 "rhinelander",
-"ribun",
+
 "rican",
 "rifian",
 "rinconada",
