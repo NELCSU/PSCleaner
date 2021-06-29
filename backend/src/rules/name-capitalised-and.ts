@@ -1628,23 +1628,62 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ox",               // placenames (92)
 "oz",               // first name
 // P
+"pacer",            // first name
 "pacific",          // first name & placenames (7)
+"pacify",           // first name
 "packer",           // first name & placenames (11)
 "packsaddle",       // standalone & placenames (6)
+"paddle",           // surname & placenames (4)
 "paddock",          // surname & placenames (251)
 "paddocks",         // standalone & placenames (56)
+"padre",            // surname & placename
+"pae",              // first name
 "paed",             // first name
+"pagan",            // first name & placenames (4)
+"pagans",           // suranem & placename
 "page",             // first name & placenames (52)
 "pages",            // surname & placenames (16)
+"pagoda",           // surname & placenames (8)
+"paisley",          // surname & placenames (28)
+"pal",              // first name & placenames (4)
+"paladin",          // surname & placename
+"palate",           // surname
 "palace",           // placenames (76)
 "palau",            // first name
+"paler",            // surname
+"pales",            // surname & placenames (5)
 "palestine",        // first name & standalone & placenames (3)
+"palfrey",          // first name & standalone & placenames (11)
+"paling",           // surname & placenames (3)
+"pall",             // first name & placenames (3)
+"pallet",           // surname & placenames (3)
 "pallette",         // surname
 "palms",            // surname & placenames (4)
 "pan",              // standalone & placenames (24)
 "panama",           // first name & placenames (7)
+"panacea",          // surname
+"panache",          // first name & placename
+"pancake",          // surname & placenames (5)
+"panda",            // first name & placenames (2)
+"pander",           // surname
+"pandora",          // first name & placenames (7)
+"pane",             // surname & placename
+"panes",            // first name
+"panfil",           // surname
+"pang",             // first name & placename
+"panga",            // surname
+"pannier",          // surname & placenames (4)
+"panniers",         // surname & placenames (2)
+"panning",          // surname
+"pansy",            // first name & placenames (7)
 "panorama",         // standalone & placenames (7)
 "pans",             // first name & placenames (10)
+"pant",             // surname & placenames (294)
+"panther",          // surname & placenames (4)
+"pantie",           // first name & placename
+"panting",          // surname
+"pantry",           // surname & placenames (3)
+"panzer",           // surname
 "papaya",           // surname
 "par",              // first name & placenames (16)
 "para",             // first name
