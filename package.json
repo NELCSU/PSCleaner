@@ -38,9 +38,9 @@
     "@typescript-eslint/parser": "^4.22.1",
     "bl": "^5.0.0",
     "electron": "^11.4.8",
-    "electron-builder": "^22.10.5",
-    "electron-builder-squirrel-windows": "^22.10.3",
-    "electron-wix-msi": "^3.0.6",
+    "electron-builder": "^22.11.7",
+    "electron-builder-squirrel-windows": "^22.11.8",
+    "electron-wix-msi": "^3.2.0",
     "eslint": "^7.21.0",
     "eslint-plugin-jsdoc": "^35.0.0",
     "jsdoc": "^3.6.7",
@@ -80,5 +80,5 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf client/lib/web-components"
   },
-  "version": "0.14.2"
+  "version": "0.15.0"
 }
