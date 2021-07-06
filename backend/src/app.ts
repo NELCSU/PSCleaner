@@ -1,6 +1,7 @@
 import { App, app, dialog, ipcMain as ipc, IpcMainEvent, Menu, protocol } from "electron";
 import log from "electron-log";
 import { autoUpdater } from "electron-updater";
+autoUpdater.logger = log;
 autoUpdater.checkForUpdatesAndNotify();
 import EventEmitter from "events";
 import Store from "electron-store";
