@@ -1832,19 +1832,49 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "prestige",         // first name & placename
 "presto",           // first name & placenames (2)
 "prev",             // first name
+"price",            // surname & placenames (42)
+"priest",           // surname & standalone & placenames (73)
+"priestly",         // first name & placenames (3)
+"primal",           // first name
+"primes",           // surname & placenames (2)
+"primrose",         // first name & standalone & placenames (88)
+"primroses",        // standalone & placename
 "prince",           // first name & placenames (183)
+"princes",          // first name & standalone & placenames (60)
 "princess",         // first name & placenames (103)
 "principe",         // first name & placename
 "printers",         // surname & placenames (15)
 "prion",            // standalone & placenames (2)
+"priors",           // placenames (86)
+"priory",           // placenames (224)
+"pristine",         // surname
+"privateer",        // surname
+"procter",          // first name & placenames (7)
+"proctor",          // first name & placenames (25)
+"prod",             // first name & placename
 "prof",             // first name
+"proffer",          // surname
+"prole",            // surname & placename
+"proles",           // surname
 "prom",             // surname & placename
 "promenade",        // placenames (64)
 "promise",          // first name
 "prong",            // surname
 "pronounced",       // first name
+"prophet",          // first name & placenames (2)
 "prospect",         // standalone & placenames (72)
 "prosper",          // first name & standalone & placenames (6)
+"prosperity",       // first name & placename
+"proton",           // surname
+"provence",         // surname & placenames (7)
+"proverbs",         // surname
+"providence",       // first name & standalone & placenames (29)
+"provost",          // surname & placenames (69)
+"prow",             // surname & placename
+"prows",            // surname
+"prude",            // surname
+"prune",            // first name & placenames (2)
+"pry",              // surname & placenames (14)
 "psalm",            // first name
 "psalms",           // first name
 "pulling",          // surname & placenames (3)
