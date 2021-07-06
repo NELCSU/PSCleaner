@@ -9,7 +9,6 @@
       "../node_modules/electron",
       "../node_modules/electron-store",
       "./types/PSCleaner",
-      "./types/electron-squirrel-startup"
     ]
   },
   "include": [ "src" ]

@@ -1,14 +1,7 @@
 import { App, app, dialog, ipcMain as ipc, IpcMainEvent, Menu, protocol } from "electron";
-import isSquirrelStartup from "electron-squirrel-startup";
-if (isSquirrelStartup) {
-  app.quit();
-}
 import log from "electron-log";
-import upd from "update-electron-app";
-upd({
-  updateInterval: "1 hour",
-  logger: log
-});
+import { autoUpdater } from "electron-updater";
+autoUpdater.checkForUpdatesAndNotify();
 import EventEmitter from "events";
 import Store from "electron-store";
 import env from "dotenv";
