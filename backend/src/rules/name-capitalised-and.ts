@@ -2050,6 +2050,24 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sawmills",         // standalone & placenames (8)
 "sawn",             // first name & placenames (2)
 "saws",             // surname
+"simeon",           // first name & placenames (6)
+"simian",           // first name
+"simmer",           // first name & placename
+"simmering",        // surname
+"simmers",          // surname & placename
+"singe",            // first name & placename
+"singers",          // surname & placenames (5)
+"singleton",        // first name & standalone & placenames (33)
+"sings",            // surname
+"sinner",           // first name
+"sinning",          // surname
+"sip",              // surname
+"sippy",            // surname
+"sired",            // first name
+"sires",            // surname & placename
+"sirius",           // first name & placenames (7)
+"sis",              // surname
+"sissy",            // first name & placename
 "suave",            // first name
 "sudan",            // first name & placenames (2)
 "sulphur",          // surname

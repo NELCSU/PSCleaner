@@ -3,6 +3,7 @@ const a: RegExp[] = [
   
   /\b(?:amazon|american\sexpress)\b/gmi,
   // B
+  /\bbritish\sairways\b/gmi,
   /\bburger\sking\b/gmi,
   /\b(?:central|reserve|world)\sbank\b/gmi,
   /\bburkina\sfaso\b/gmi,
@@ -57,6 +58,8 @@ const a: RegExp[] = [
   // U
   /\b(?:unesco|unicef|united\snations|un\sorgani[sz]ations?)\b/gmi,
   /\bunited\s(?:arab\semirates|states\sof\samerica)\b/gmi,
+  // V
+  /\bvirgin\satlantic\b/gmi,
 ];
 const OrganisationRegEx: Set<RegExp> = new Set();
 a.forEach(term => OrganisationRegEx.add(term));

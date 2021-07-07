@@ -1631,7 +1631,6 @@ const a: string[] = [
 "silent",
 "silos",
 "simeon",
-"sinai",
 "sirius",
 "sjambok",
 "skim",
