@@ -82,7 +82,7 @@ const a: string[] = [
 "aukstaitian",
 "australian",
 "austrian",
-"auvergnat",
+
 "avar",
 "avatime",
 "awadhi",
