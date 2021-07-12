@@ -1320,6 +1320,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "lolly",            // first name
 "lone",             // first name & placenames (23)
 "lonesome",         // surname & placenames (4)
+"long",             // placenames (1k+)
 "longtail",         // standalone & placenames (4)
 "looper",           // surname
 "loose",            // standalone & placenames (16)
@@ -2013,6 +2014,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "rookery",          // placenames (81)
 "rooms",            // surname & standalone & placenames (6)
 "roost",            // surname & placenames (11)
+"rogue",            // surname & placenames (4)
 "rogues",           // surname & placenames (5)
 "rosier",           // surname & placenames (8)
 "round",            // placenames (230)
@@ -2221,10 +2223,19 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sky",              // first name & placenames (14)
 "slack",            // surname & placenames (203)
 "slacks",           // surname & placenames (11)
+"slade",            // first name & placenames (156)
+"slake",            // first name & placenames (5)
 "slang",            // surname & placenames (6)
+"slapper",          // surname
+"slappy",           // surname
 "slate",            // surname & placenames (48)
+"slates",           // surname & placenames (11)
+"slaughter",        // surname & placenames (15)
+"slav",             // first name
 "slaved",           // first name
 "slaver",           // surname
+"slavish",          // surname
+"slaw",             // surname
 "slay",             // surname & placenames (6)
 "slew",             // first name & placenames (7)
 "slick",            // surname

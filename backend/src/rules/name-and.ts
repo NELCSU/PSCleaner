@@ -30,7 +30,6 @@ export const NameSetJoinOnly: Set<string> = new Set([
   "little",        // placenames (1k+)
   "ln",
   "lodge",         // placenames (946)
-  "long",          // placenames (1k+)
   "manor",         // placenames (803)
   "mc",
   "mill",          // placenames (1k+)
