@@ -2237,17 +2237,37 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "slavish",          // surname
 "slaw",             // surname
 "slay",             // surname & placenames (6)
+"sled",             // surname & standalone & placenames (10)
+"sledge",           // first name & placenames (5)
+"sledger",          // surname
+"sleigh",           // surname & placenames (7)
+"sleight",          // surname & standalone & placenames (10)
+"sleights",         // surname & standalone & placenames (14)
 "slew",             // first name & placenames (7)
 "slick",            // surname
+"slicker",          // surname
+"slickly",          // standalone & placename
 "slider",           // surname & placename
 "slim",             // first name & placenames (3)
 "sling",            // surname & standalone & placenames (13)
 "slinger",          // first name & placenames (2)
 "slinkey",          // surname
 "slip",             // placenames (40)
-"slips",            // surname & placenames (5)
 "slipper",          // surname & placenames (10)
 "slippers",         // surname & placenames (2)
+"slippy",           // surname & placename
+"slipway",          // standalone & placenames (5)
+"slips",            // surname & placenames (5)
+"slits",            // standalone
+"sliver",           // surname
+"slivers",          // surname
+"slob",             // surname
+"slogan",           // first name
+"sloop",            // surname & placenames (2)
+"sloppy",           // surname & placenames (2)
+"sloth",            // first name
+"slough",           // surname & standalone & placenames (33)
+"sluts",
 "sly",              // surname & placenames (8)
 "small",            // surname & placenames (123)
 "smaller",          // surname
