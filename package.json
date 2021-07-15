@@ -78,5 +78,5 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf client/lib/web-components"
   },
-  "version": "0.15.0"
+  "version": "0.15.1"
 }

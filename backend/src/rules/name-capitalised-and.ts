@@ -1443,6 +1443,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "mascot",           // surname & placenames (2)
 "mash",             // first name & placenames (2)
 "massed",           // surname
+"masseur",          // surname
 "massif",           // first name & placename
 "masters",          // first name & placenames (10)
 "mate",             // first name & placename
@@ -1756,6 +1757,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "piner",            // surname & placename
 "pines",            // first name & placenames (38)
 "pinfold",          // surname & standalone & placenames (43)
+"ping",             // surname
+"pinged",           // standalone
 "pinion",           // first name & placenames (2)
 "pink",             // standalone & placenames (25)
 "pinkie",           // surname & standalone & placenames (10)
@@ -2267,12 +2270,22 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sloppy",           // surname & placenames (2)
 "sloth",            // first name
 "slough",           // surname & standalone & placenames (33)
-"sluts",
 "sly",              // surname & placenames (8)
 "small",            // surname & placenames (123)
 "smaller",          // surname
+"smalls",           // surname & placenames (3)
 "smears",           // surname
 "smelt",            // surname & placenames (7)
+"smiler",           // surname & placename
+"smiles",           // first name & placename
+"smily",            // surname
+"smirk",            // surname
+"smite",            // surname & placenames (4)
+"smithy",           // standalone & placenames (119)
+"smitten",          // surname
+"smock",            // surname & placenames (9)
+"smokey",           // first name & placenames (3)
+"smugglers",        // standalone & placenames (20)
 "snow",             // surname & placenames (40)
 "snowball",         // surname & placenames (4)
 "snowdrop",         // first name & placenames (23)
