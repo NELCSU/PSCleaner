@@ -103,7 +103,7 @@ const a: RegExp[] = [
   /\bperformed\sheimlich\b/gmi,
   /\b(?:hasner|treves)['‘’`]?s?\sfold\b/gmi,
   /\bfold\sof\s(?:hasner|treves)\b/gmi,
-  /\bhay\sfever\b/gmi,
+  /\b(?:hay|scarlett?)\sfever\b/gmi,
   /\bhenoch[\s-]+schonlein\spurpura\b/gmi,
   /\b(?:inner|lower|outer|upper)\s(?:inner|lower|outer|upper)\b/gmi,
   /\bvalves?\sof\s(?:heister|houston|kerckring|thebesian|vieussens)\b/gmi,

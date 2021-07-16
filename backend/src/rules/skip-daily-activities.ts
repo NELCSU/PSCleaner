@@ -80,6 +80,7 @@ const a: RegExp[] = [
   /\b(?:penny|pound)\scoin\b/gmi,
   /\bplay(?:ed|ing|s)?\s(?:with\s)?(?:frisb(?:ee|y)|rugby)\b/gmi,
   /\bplaydoh\b/gmi,
+  /\bgrand\sprix\b/gmi,
   // R
   /\b(?:nations\s)?rugby\s(?:league|union)\b/gmi,
   /\b(?:rocking\shorse|roller\scoaster)\b/gmi,

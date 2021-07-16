@@ -2055,49 +2055,27 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sawmills",         // standalone & placenames (8)
 "sawn",             // first name & placenames (2)
 "saws",             // surname
-"sibyl",            // first name
-"silica",           // first name & placenames (3)
-"silk",             // surname & placenames (34)
-"silks",            // surname & placename
-"silky",            // surname & placename
-"sill",             // first name & placenames (2)
-"sills",            // surname & placenames (6)
-"silo",             // first name & placenames (3)
-"silver",           // surname & placenames (176)
-"silvered",         // first name
-"silvers",          // first name & placenames (4)
-"silversmith",      // surname
-"simeon",           // first name & placenames (6)
-"simian",           // first name
-"simmer",           // first name & placename
-"simmering",        // surname
-"simmers",          // surname & placename
-"singe",            // first name & placename
-"singers",          // surname & placenames (5)
-"singleton",        // first name & standalone & placenames (33)
-"sings",            // surname
-"sinner",           // first name
-"sinning",          // surname
-"sip",              // surname
-"sippy",            // surname
-"sired",            // first name
-"sires",            // surname & placename
-"sirius",           // first name & placenames (7)
-"sis",              // surname
-"sissy",            // first name & placename
-"skew",             // surname & placenamese (12)
-"skews",            // surname
-"skiff",            // surname & placenames (4)
-"skillet",          // surname & placename
-"skimming",         // surname
-"skins",            // surname
-"skipper",          // surname & placnames (14)
-"skiver",           // surname & placename
-"skivers",          // surname
-"skylark",          // first name & standalone & placenames (23)
-"suave",            // first name
-"sudan",            // first name & placenames (2)
-"sulphur",          // surname
+"scalera",          // first name
+"scales",           // surname & standalone & placenames (25)
+"scallion",         // surname
+"scallions",        // surname
+"schemer",          // surname
+"scholastic",       // first name
+"schooner",         // surname & placenames (10)
+"scolding",         // surname & placename
+"sconce",           // surname & placenames (7)
+"scopes",           // surname & placename
+"scorer",           // first name & placenames (3)
+"scorpio",          // surname & placenames (2)
+"scotch",           // surname & placenames (45)
+"scout",            // first name & standalone & placenames (41)
+"scram",            // surname
+"scrape",           // surname & placenames (7)
+"scraper",          // surname & placenames (3)
+"scratcher",        // surname
+"screws",           // surname
+"scriber",          // surname
+"scullion",         // surname
 "scank",            // surname
 "scar",             // placenames (274)
 "scarf",            // surname & placenames (19)
@@ -2199,6 +2177,36 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "shrift",           // surname
 "shrubbery",        // standalone & placenames (49)
 "shutter",          // surname & placenames (5)
+"sibyl",            // first name
+"silica",           // first name & placenames (3)
+"silk",             // surname & placenames (34)
+"silks",            // surname & placename
+"silky",            // surname & placename
+"sill",             // first name & placenames (2)
+"sills",            // surname & placenames (6)
+"silo",             // first name & placenames (3)
+"silver",           // surname & placenames (176)
+"silvered",         // first name
+"silvers",          // first name & placenames (4)
+"silversmith",      // surname
+"simeon",           // first name & placenames (6)
+"simian",           // first name
+"simmer",           // first name & placename
+"simmering",        // surname
+"simmers",          // surname & placename
+"singe",            // first name & placename
+"singers",          // surname & placenames (5)
+"singleton",        // first name & standalone & placenames (33)
+"sings",            // surname
+"sinner",           // first name
+"sinning",          // surname
+"sip",              // surname
+"sippy",            // surname
+"sired",            // first name
+"sires",            // surname & placename
+"sirius",           // first name & placenames (7)
+"sis",              // surname
+"sissy",            // first name & placename
 "sicker",           // surname
 "sickle",           // surname & placenames (4)
 "sickles",          // surname & placenames (2)
@@ -2222,6 +2230,16 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sire",             // first name & placename
 "sites",            // surname & placename
 "situ",             // first name & placename
+"skew",             // surname & placenamese (12)
+"skews",            // surname
+"skiff",            // surname & placenames (4)
+"skillet",          // surname & placename
+"skimming",         // surname
+"skins",            // surname
+"skipper",          // surname & placnames (14)
+"skiver",           // surname & placename
+"skivers",          // surname
+"skylark",          // first name & standalone & placenames (23)
 "skier",            // surname & placename
 "sky",              // first name & placenames (14)
 "slack",            // surname & placenames (203)
@@ -2447,11 +2465,14 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "stroll",           // surname & placename
 "strongman",        // first name
 "stung",            // standalone & placename
+"suave",            // first name
 "success",          // first name & placename
 "suckling",         // surname & placenames (6)
+"sudan",            // first name & placenames (2)
 "sudden",           // standalone & placenames (2)
 "sugar",            // surname & placenames (32)
 "sugars",           // surname & placenames
+"sulphur",          // surname
 "sumatra",          // surname & placenames (2)
 "summer",           // first name & placenames (116)
 "summit",           // standalone & placenames (22)
