@@ -897,6 +897,7 @@ const a: string[] = [
 "imam",
 "imbroglio",
 "immunisation",
+"immuno",
 "imms",
 "impala",
 "impedimenta",
