@@ -711,6 +711,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "evangelist",       // first name & placenames (12)
 "evenly",           // first name
 "evidence",         // first name
+"exchange",         // standalone & placenames (29)
 "exe",              // surname & placenames (20)
 "expressway",       // placenames (23)
 "eye",              // standalone & placenames (58)
@@ -1833,6 +1834,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "pram",             // first name
 "pre",              // first name & placenames (32)
 "premier",          // surname & placenames (13)
+"presser",          // surname
 "pressing",         // surname & placename
 "prestige",         // first name & placename
 "presto",           // first name & placenames (2)
@@ -2156,6 +2158,53 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "severs",           // surname & placenames (4)
 "seward",           // first name & placenames (7)
 "sewing",           // surname
+"shack",            // surname & placenames (2)
+"shackle",          // surname & placenames (2)
+"shackles",         // surname
+"shaded",           // surname
+"shader",           // surname & standalone & placenames (2)
+"shady",            // first name & placenames (18)
+"shaft",            // first name & placenames (13)
+"shaggy",           // first name & placenames (2)
+"shah",             // first name & placename
+"shaker",           // first name & palcenames (3)
+"shakier",          // first name
+"sham",             // first name & placenames (3)
+"shaman",           // first name
+"shambles",         // standalone & placenames (7)
+"shames",           // surname
+"shandy",           // first name & placename
+"shank",            // first name & placenames (23)
+"shanks",           // first name & placenames (12)
+"shanty",           // first name & placename
+"shard",            // surname & placenames (10)
+"sharks",           // surname
+"sharpness",        // standalone & placenames (5)
+"shatter",          // suranme & placenames (2)
+"shaven",           // first name
+"shawl",            // first name & standalone & placename (2)
+"sheaf",            // surname & placenames (15)
+"shearer",          // first name & placenames (10)
+"shearing",         // surname & placenames (11)
+"sheaves",          // surname & placenames (2)
+"sheen",            // first name & standalone & placenames (25)
+"sheens",           // surname & placenames (2)
+"sheepfold",        // standalone & placenames (10)
+"sheerer",          // surname
+"sheering",         // standalone & placenames (11)
+"sheik",            // first name
+"sheikh",           // first name
+"shekel",           // first name
+"shekels",          // surname
+"shell",            // standalone & placenames (33)
+"shelling",         // surname
+"shells",           // surname
+"sheriff",          // first name & placenames (42)
+"sheriffs",         // first name & placenames (10)
+"shuck",            // surname & placename
+"shuffler",         // surname
+"shun",             // first name & placenames (16)
+"shyer",            // first name
 "shale",            // surname & placenames (10)
 "sharp",            // surname & placenames (38)
 "sharpen",          // surname
