@@ -717,6 +717,50 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "eye",              // standalone & placenames (58)
 "eyed",             // first name & placename
 // F
+"fable",            // first name
+"facia",            // surname
+"facit",            // standalone & placenames (2)
+"facto",            // surname
+"faggot",           // standalone
+"fairs",            // first name & placenames (2)
+"fairway",          // surname & standalone & placenames (24)
+"fairways",         // standalone & placenames (12)
+"fairyland",        // standalone & placename
+"faithfull",        // surname & placenames (2)
+"faker",            // first name
+"fakes",            // surname & placename
+"falcon",           // first name & standalone & placenames (48)
+"falconer",         // first name & placenames (20)
+"faller",           // surname & placename
+"fallow",           // surname & placenames (39)
+"falsetto",         // surname
+"fam",              // surname
+"fang",             // surname & placenames (13)
+"fanny",            // first name & placenames (23)
+"fantasia",         // first name & placenames (2)
+"farad",            // first name
+"faraway",          // surname
+"fared",            // first name
+"farmer",           // surname & placenames (18)
+"farmers",          // standalone & placenames (21)
+"farmhouse",        // surname & placenames (15)
+"farmlands",        // standalone & placenames (6)
+"farms",            // surname & placenames (5)
+"farrier",          // surname & placenames (19)
+"farriers",         // standalone & placenames (26)
+"farris",           // first name
+"farthings",        // standalone & placenames (16)
+"fascia",           // surname
+"fat",              // surname & placenames (4)
+"fatale",           // surname
+"fathom",           // first name
+"fatwa",            // first name
+"faultless",        // surname
+"faun",             // first name
+"fauna",            // first name & placenames (3)
+"favors",           // surname
+"fawn",             // first name & placenames (13)
+"fawns",            // surname & standalone & placenames (6)
 "fair",             // placenames (149)
 "fairer",           // surname
 "fairest",          // surname

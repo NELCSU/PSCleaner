@@ -1,6 +1,7 @@
 import type { Action, Entity, Evaluation, MatchedEntity, TextMatch } from "../types/PSCleaner";
 import type { Entities } from "./entities";
 import { LocationPrefixRegEx, LocationRegEx, LocationMidfixRegEx } from "./rules/location";
+import { LocationTheRegEx } from "./rules/location-the";
 import { OrganisationRegEx } from "./rules/skip-organisation";
 import { DailyActivitiesRegEx } from "./rules/skip-daily-activities";
 import { MedicalAbbrRegEx } from "./rules/skip-medical-abbr";
@@ -146,6 +147,12 @@ export class NLP {
         action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
         entity: locationPatternEntity,
         matches: this._evalRegEx(data, LocationRegEx)
+      });
+
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: locationPatternEntity,
+        matches: this._evalRegEx(data, LocationTheRegEx)
       });
 
       searches.push({
