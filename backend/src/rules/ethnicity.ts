@@ -2,7 +2,7 @@ const a: string[] = [
 "abayudaya",
 "abazgi",
 "abazin",
-"abbe",
+
 "abidji",
 "abron",
 "abure",
@@ -61,7 +61,7 @@ const a: string[] = [
 "arakanese",
 "aranese",
 "argentine",
-"argobba",
+
 "arha",
 "armenian",
 "aro",
@@ -269,7 +269,7 @@ const a: string[] = [
 "ekoi",
 "ekpeye",
 "emilian",
-"engenni",
+
 "english",
 "eritrean",
 "esan",
@@ -370,14 +370,14 @@ const a: string[] = [
 "idoma",
 "ifugao",
 "igbo",
-"igede",
+
 "igorot",
 "ika",
 "ikwo",
 "indian",
 "indonesian",
 "ingush",
-"innu",
+
 "inor",
 "inughuit",
 "inuktitut",
@@ -451,7 +451,6 @@ const a: string[] = [
 "kiribatian",
 "kisa",
 "kisan",
-"kist",
 "kistane",
 "kittitian",
 "kluet",
@@ -474,7 +473,7 @@ const a: string[] = [
 "kulung",
 "kurd",
 "kurdish",
-"kuresunni",
+
 "kurmanji",
 "kursenieki",
 "kurukh",
@@ -881,7 +880,7 @@ const a: string[] = [
 "waldensian",
 "wallisian",
 "walloon",
-"wannu",
+
 "wenzhou",
 "wodaabe",
 "wolayitta",

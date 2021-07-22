@@ -45,7 +45,7 @@ const a: RegExp[] = [
   /\b(?:public\shealth\s(?:england|scotland|wales)|premier\sleague)\b/gmi,
   /\bPublic\sHealth\b/gmi,
   // R
-  /\b(?:royal\s(?:mail|navy)|the\sred\scross)\b/gmi,
+  /\b(?:royal\s(?:family|guard|mail|navy)|the\sred\scross)\b/gmi,
   // S
   /\b(?:sao\stome|san\smarino)\b/gmi,
   /\bsaint\s(?:kitts|lucia|vincent)\b/gmi,
