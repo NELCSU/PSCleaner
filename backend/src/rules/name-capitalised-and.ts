@@ -2047,7 +2047,61 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "riverman",         // surname
 "rivers",           // standalone & placenames (41)
 "riverway",         // standalone & placenames (3)
-"road",             // placenames (1k+)
+"roach",            // first name & standalone & placenames (25)
+"roaches",          // standalone & placenames (5)
+"roadhouse",        // surname
+"roads",            // surname & placenames (52)
+"roate",            // surname
+"robbers",          // surname & placename
+"robe",             // first name & placename
+"robes",            // surname & placename
+"robins",           // first name & placenames (44)
+"rocker",           // first name
+"rockers",          // surname & placename
+"rocket",           // first name & placenames (11)
+"rocky",            // first name & placenames (28)
+"rococo",           // first name
+"rod",              // first name & placenames (13)
+"rode",             // first name & standalone & placenames (17)
+"rods",             // surname & placenames (5)
+"roe",              // surname & placenames (75)
+"roes",             // surname & placenames (2)
+"rom",              // surname & placenames (4)
+"romaine",          // first name & placenames (2)
+"roman",            // first name & placenames (1k+)
+"romanic",          // surname
+"romp",             // surname
+"romper",           // first name
+"rook",             // first name & placenames (47)
+"rooker",           // first name & placenames (3)
+"rooks",            // surname & placeanmes (22)
+"roomy",            // first name
+"ropes",            // surname & placenames (8)
+"ropewalk",         // standalone & placenames (8)
+"ropeway",          // standalone & placename
+"roping",           // surname & placename
+"rosary",           // first name & placenames (19)
+"rosebud",          // first name & placenames (4)
+"rosebush",         // surname & standalone & placenames (4)
+"rosemary",         // first name & standalone & placenames (33)
+"roses",            // first name & placenames (3)
+"rosewood",         // surname & standalone & placenames (23)
+"rosy",             // first name & placenames (5)
+"rotary",           // surname & placenames (10)
+"rotas",            // surname
+"rote",             // first name
+"rotter",           // surname
+"rotunda",          // surname & placenames (2)
+"rouge",            // first name & placename
+"rough",            // placenames (640)
+"roughen",          // surname
+"roughs",           // standalone & placenames (20)
+"roundhouse",       // standalone & placenames (14)
+"rouse",            // first name & placenames (14)
+"rouser",           // surname
+"rover",            // first name & placenames (5)
+"rovers",           // surname & placename (2)
+"rox",              // surname & placenames (2)
 "roam",             // first name & placenames (4)
 "roar",             // first name & placenames (5)
 "rock",             // placenames (936)

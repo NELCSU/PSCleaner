@@ -104,7 +104,6 @@ const a: string[] = [
 "aqua",
 "arabesque",
 "arak",
-"ararat",
 "arboretum",
 "arcana",
 "archipelago",
@@ -145,7 +144,6 @@ const a: string[] = [
 "baby",
 "babyish",
 "babys",
-"baccarat",
 "bacilli",
 "backwoods",
 "baddy",
@@ -320,7 +318,6 @@ const a: string[] = [
 "cappuccino",
 "capybara",
 "carabinieri",
-"carat",
 "caravan",
 "carboxyl",
 "cardigan",
@@ -1099,7 +1096,6 @@ const a: string[] = [
 "maumau",
 "mauritius",
 "maxi",
-"maxima",
 "mayhap",
 "mayhem",
 "mazurka",
@@ -2037,8 +2033,7 @@ const a: string[] = [
 "zephyr",
 "zeroes",
 "zigzag",
-"zimbabwe",
-"zombi"
+"zimbabwe"
 ];
 const SkipWordSet: Set<string> = new Set();
 a.forEach(i => SkipWordSet.add(i));
