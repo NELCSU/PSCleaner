@@ -333,6 +333,7 @@ const a: RegExp[] = [
 /\boil\s(?:an\sgwella|cove|mill\s(?:fold|lane|road)|moor|sites\sroadstreet)\b/gmi,
 /\boily\s(?:geo|pig)\b/gmi,
 /\b(?:cnoc\san|loch)\soil\b/gmi,
+/\bold\swives\slees\b/gmi,
 /\bolympian\s(?:court|road)\b/gmi,
 /\bOlympian\s(?:Close|Drive|Way)\b/gm,
 /\bolympic\s(?:avenue|boulevard|close|court|crescent|drive|legacy\spark|mews|park|primary|square|street|way)\b/gmi,

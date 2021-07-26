@@ -2930,6 +2930,48 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "whistle",          // first name & placenames (10)
 "white",            // surname & placenames (833)
 "whites",           // surname & placenames (33)
+"wicker",           // surname & standalone & placenames (7)
+"wicket",           // standalone & placenames (13)
+"wicking",          // surname & placenames (3)
+"widgeon",          // surname & placenames (8)
+"widgeons",         // standalone & placenames (2)
+"wield",            // surname & standalone & placenames (7)
+"wiener",           // surname
+"wieners",          // surname
+"wig",              // surname & placenames (22)
+"wiggle",           // surname & placenames (2)
+"wild",             // surname & placenames (99)
+"wildcard",         // first name
+"wildcat",          // surname & placenames (6)
+"wilds",            // surname & placenames (6)
+"wilt",             // surname
+"wilts",            // surname & placename
+"winch",            // surname & placenames (28)
+"winder",           // first name & standalone & placenames (19)
+"windless",         // surname
+"windmills",        // standalone & placename
+"wink",             // first name
+"winks",            // surname & placename
+"winless",          // standalone & placename
+"winner",           // surname & placenames (7)
+"winnings",         // surname & placenames (4)
+"winsome",          // first name
+"winter",           // surname & placenames (70)
+"wintergreen",      // standalone & placenames (9)
+"winters",          // first name & standalone & placenames (12)
+"wiper",            // surname
+"wireman",          // surname
+"wisdom",           // first name & placenames (9)
+"wise",             // surname & placenames (22)
+"wiser",            // surname
+"wisher",           // surname
+"witch",            // surname & placenames (22)
+"witcher",          // surname & placenames (2)
+"wither",           // surname & placenames (6)
+"withers",          // surname & placenames (11)
+"wittering",        // surname & standalone & placenames (15)
+"witting",          // surname & placename
+"wizard",           // surname & placename
 "wick",             // surname & placenames (279)
 "wicks",            // surname & placenames (21)
 "wilder",           // surname & placenames (5)

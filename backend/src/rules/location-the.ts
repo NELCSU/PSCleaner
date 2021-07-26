@@ -204,7 +204,11 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sWay(?:back|side)?\b/gm,
   /\bThe\sWe(?:dges|lls?|nt)\b/gm,
   /\bThe\sWh(?:arf|eel|irls|isky\sLine|ite\sRose|ithy['‘’`]?s)\b/gm,
-  /\bThe\sWi(?:ck|de\sWaters|dow|ld\sFlower\sMeadow|lderness|llows?|ndings?|ng|sh|sp)\b/gm,
+  /\bThe\sWi(?:ck|ckets?|itterings)\b/gm,
+  /\bThe\sWid(?:e\sWaters|ow)\b/gm,
+  /\bThe\sWil(?:d\sFlower\sMeadow|derness|lows?)\b/gm,
+  /\bThe\sWin(?:dings?|dmills|g|nows)\b/gm,
+  /\bThe\sWis(?:h|p)\b/gm,
   /\bThe\sWo(?:od|odlarks|ods|odyard|oods|oldridges|rking\sMen['‘’`s]*|rks|rries)\b/gm,
   
   /\bThe\sY(?:ard|ellow\s*Man)\b/gm,
