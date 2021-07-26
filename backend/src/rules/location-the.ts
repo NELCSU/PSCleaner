@@ -53,8 +53,8 @@ export const LocationTheRegEx: RegExp[] = [
   
   /\bThe\sFa(?:irground|irways?|lcon|lconers|lcons|lls?|n|rm|rmlands|rmstead|rriers|rthings|wn)\b/gm,
   /\bThe\sFe(?:athers|eder|lls?|llows|n|nce|rries|rry)\b/gm,
-  /\bThe\sFi(?:elds?|elders|ndings|nger|rs|rst|sheries|sher[sy]|ve\sSprings)\b/gm,
-  /\bThe\sFl(?:ags|ash|ashes|ats?|oats|ood|oors?|ourish|yers)\b/gm,
+  /\bThe\sFi(?:ddle|ddlers|elds?|elders|ndings|nger|rs|rst|sheries|sher[sy]|ve\sSprings)\b/gm,
+  /\bThe\sFl(?:ags|ash|ashes|ats?|etches|eece|eets?|ints|oats|ood|oors?|ourish|yers)\b/gm,
   /\bThe\sFol(?:ds?|ders|dings|lies|ly)\b/gm,
   /\bThe\sFoot(?:hills|path)?\b/gm,
   /\bThe\sFore(?:head|st|stry|stside)\b/gm,

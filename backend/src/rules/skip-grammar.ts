@@ -112,6 +112,7 @@ const a: RegExp[] = [
   /\broad\smap\b/gm,
   /\brust\sbelt\b/gmi,
   // S
+  /\b(?:small|medium|large)[\s-]scale\b/gmi,
   /\bsub-station\b/gmi,
   /\b(?:It|He|She|They)\ssaid\b/gm,
   /\b[Ss]ales\sof\s\w+\b/gm,

@@ -1,6 +1,12 @@
 import type { Action, Entity, Evaluation, MatchedEntity, TextMatch } from "../types/PSCleaner";
 import type { Entities } from "./entities";
 import { LocationPrefixRegEx, LocationRegEx, LocationMidfixRegEx } from "./rules/location";
+import { LocationADRegEx } from "./rules/locationA-D";
+import { LocationEHRegEx } from "./rules/locationE-H";
+import { LocationILRegEx } from "./rules/locationI-L";
+import { LocationMPRegEx } from "./rules/locationM-P";
+import { LocationQTRegEx } from "./rules/locationQ-T";
+import { LocationUZRegEx } from "./rules/locationU-Z";
 import { LocationTheRegEx } from "./rules/location-the";
 import { OrganisationRegEx } from "./rules/skip-organisation";
 import { DailyActivitiesRegEx } from "./rules/skip-daily-activities";
@@ -147,6 +153,42 @@ export class NLP {
         action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
         entity: locationPatternEntity,
         matches: this._evalRegEx(data, LocationRegEx)
+      });
+
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: locationPatternEntity,
+        matches: this._evalRegEx(data, LocationADRegEx)
+      });
+
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: locationPatternEntity,
+        matches: this._evalRegEx(data, LocationEHRegEx)
+      });
+
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: locationPatternEntity,
+        matches: this._evalRegEx(data, LocationILRegEx)
+      });
+
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: locationPatternEntity,
+        matches: this._evalRegEx(data, LocationMPRegEx)
+      });
+
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: locationPatternEntity,
+        matches: this._evalRegEx(data, LocationQTRegEx)
+      });
+
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: locationPatternEntity,
+        matches: this._evalRegEx(data, LocationUZRegEx)
       });
 
       searches.push({

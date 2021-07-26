@@ -9,6 +9,7 @@ const a: RegExp[] = [
   /\bburkina\sfaso\b/gmi,
   // C
   /\b(?:(?:catholic|orthodox)\schurch|church\sof\sengland|coca\scola)\b/gmi,
+  /\bcayman\sislands\b/gmi,
   /\bcentral\safrican\srepublic\b/gmi,
   /\bcabo\sverde\b/gmi,
   /\bcôte\sd'ivoire\b/gmi,
