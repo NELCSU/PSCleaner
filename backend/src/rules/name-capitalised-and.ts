@@ -2699,7 +2699,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sugar",            // surname & placenames (32)
 "sugars",           // surname & placenames
 "sulphur",          // surname
-"sumatra",          // surname & placenames (2)
 "summer",           // first name & placenames (116)
 "summit",           // standalone & placenames (22)
 "sumo",             // surname
@@ -3003,9 +3002,172 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "wrench",           // surname & placenames (3)
 "wrestler",         // surname
 "wroth",            // surname & placename
+"wack",             // surname
+"wacker",           // surname & placenames (3)
+"wacks",            // surname
+"wadding",          // surname & placename
+"waddle",           // surname & placename
+"waddles",          // surname & placenames (2)
+"wader",            // surname & placename
+"wadi",             // first name
+"wafer",            // surname & placenames (2)
+"waffle",           // surname
+"waft",             // surname
+"wager",            // first name & placenames (4)
+"waggle",           // surname & placename
+"waggon",           // surname & placenames (10)
+"waggoner",         // surname & placenames (3)
+"wagoner",          // surname
+"wail",             // first name
+"wailer",           // first name
+"waiter",           // surname
+"waiters",          // surname
+"walkers",          // surname & standalone & placenames (32)
+"wallet",           // surname & placenames (2)
+"walling",          // first name & placenames (7)
+"wallop",           // surname & placenames (13)
+"walls",            // surname & standalone & placenames (74)
+"waltz",            // surname
+"waltzing",         // surname
+"wand",             // surname & placenames (6)
+"wanderer",         // surname & placenames (2)
+"wanders",          // surname & placename
+"wands",            // surname & placename
+"wanes",            // first name & placename
+"wank",             // surname
+"wanker",           // surname
+"wanna",            // first name
+"wanton",           // surname & placenames (3)
+"warble",           // surname & placename
+"ware",             // surname & standalone & placenames (38)
+"wares",            // first name & placenames (6)
+"warlock",          // surname & placenames (3)
+"warrens",          // surname & placenames (13)
+"warring",          // surname
+"washup",           // surname
+"watches",          // standalone (CA12)
+"watchman",         // first name & placenames (7)
+"waterings",        // standalone & placenames (4)
+"waterlilies",      // standalone (GU51)
+"waterlily",        // standalone & placenames (3)
+"watt",             // first name & placenames (53)
+"wattage",          // first name
+"watts",            // first name & placenames (32)
+"waver",            // surname & standalone & placenames (11)
+"weakly",           // surname
+"weal",             // surname & placenames (2)
+"weald",            // surname & standalone & placenames (67)
+"wealths",          // surname
+"wean",             // surname
+"weary",            // surname & placenames (4)
+"weasel",           // surname & placenames (6)
+"weathered",        // surname
+"weatherer",        // surname
+"weatherhead",      // surname & placenames (4)
+"weatherly",        // surname & placenames (4)
+"weathers",         // surname
+"weaver",           // surname & standalone & placenames (52)
+"weavers",          // surname & standalone & placenames (59)
+"webs",             // surname
+"wedge",            // surname & placenames (7)
+"wedlock",          // surname & placename
+"weeder",           // surname
+"weeds",            // surname & placename
+"weedy",            // surname & placenames (2)
+"ween",             // surname
+"weening",          // surname
+"weens",            // surname & placename
+"weighbridge",      // standalone & placenames (6)
+"weir",             // first name & standalone & placenames (88)
+"wellhead",         // standalone & placenames (10)
+"welling",          // surname & standalone & placenames (10)
+"welly",            // first name & placename
+"welp",             // surname
+"welt",             // surname
+"westward",         // surname & placenames (23)
+"wetter",           // surname
+"whack",            // surname & placenames (5)
+"whale",            // standalone & placenames (34)
+"whalebone",        // surname & standalone & placenames (11)
+"whaler",           // surname
+"whaling",          // surname
+"wham",             // surname & placenames (17)
+"whee",             // first name
+"wheeler",          // first name & placenames (35)
+"wheelers",         // standalone & placenames (21)
+"wheelhouse",       // surname & placenames (4)
+"wheeling",         // surname
+"whetstone",        // surname & standalone (N20) & placenames (24)
+"whetstones",       // standalone (GL14)
+"whey",             // first name & placenames (3)
+"whim",             // first name & placenames (8)
+"whippy",           // first name
+"whirl",            // surname & placenames (3)
+"whirlpool",        // standalone (PA34)
+"whistler",         // first name & placeanmes (10)
+"whit",             // first name & placenames (9)
+"whiteness",        // standalone & placeanmes (8)
+"whiter",           // surname
+"whitey",           // surname & placeanme
+"whitish",          // surname
+"whitling",         // surname & placenames (2)
+"whittle",          // first name & standalone & placenames (47)
+"whittler",         // surname
+"whittles",         // surname & placenames (6)
+"whooper",          // surname & placenames (2)
+"woad",             // first name & placenames (3)
+"woe",              // surname
+"wolf",             // surname & placenames (25)
+"wolfing",          // surname
+"wolfs",            // surname & placenames (4)
+"wolverine",        // first name
+"womble",           // surname & placename
+"won",              // surname
+"wonderland",       // first name
+"wonders",          // first name
+"woodcraft",        // surname & placenames (2)
+"woodland",         // surname & standalone & placenames (153)
+"woodlands",        // surname & standalone & placenames (145)
+"woodpecker",       // standalone & placenames (25)
+"woodpeckers",      // standalone & placenames (4)
+"woody",            // first name & placenames (14)
+"woodyard",         // surname & standalone & placenames (12)
+"woof",             // surname & placename
+"wort",             // surname & placenames (3)
+"wrack",            // surname & placename
+"wraith",           // first name & placename
+"wrangle",          // surname & standalone & placenames (15)
+"wrangles",         // surname & placename
+"wrath",            // surname & placenames (3)
+"wray",             // first name & standalone & placenames (32)
+"wreath",           // surname & placenames (3)
+"wren",             // first name & placenames (56)
+"wrencher",         // surname
+"wrest",            // surname & placename
+"wright",           // surname & placenames (69)
+"wring",            // surname
+"wringer",          // surname
+"wry",              // surname & placenames (2)
 // X
 "xenon",            // first name
 // Y
+"yack",             // surname
+"yank",             // surname
+"yankee",           // first name
+"yarrow",           // first name & placenames (24)
+"yea",              // first name & placenames (4)
+"yearling",         // surname & placenames (2)
+"yester",           // surname & placenames (5)
+"yeoman",           // first name & placenames (29)
+"yew",              // first name & placenames (111)
+"yews",             // surname & placenames (16)
+"yob",              // surname
+"yoke",             // first name & standalone & placenames (8)
+"yokes",            // surname
+"yon",              // first name & placenames (2)
+"yore",             // surname & placenames (3)
+"yoyo",             // first name
+"yuan",             // first name
 "ya",               // first name
 "yard",             // placenames (854)
 "yards",            // placenames (27)
@@ -3026,5 +3188,14 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "zebra",            // first name & placenames (2)
 "zeppelin",         // first name
 "zinc",             // first name & placenames (2)
-"zips"              // surname
+"zips",             // surname
+"zen",              // first name
+"zenith",           // first name & standalone & placename
+"zephyr",           // first name & placenames (2)
+"zilch",            // surname
+"zinger",           // surname
+"zion",             // first name & placenames (18)
+"zippy",            // first name
+"zircon",           // first name & placename
+"zodiac"            // first name & placenames (2)
 ]);

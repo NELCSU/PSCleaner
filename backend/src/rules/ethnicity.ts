@@ -664,7 +664,7 @@ const a: string[] = [
 "ovambo",
 "palembangese",
 "palestinian",
-"pamir",
+
 "panamanian",
 "pangasinese",
 "pashayi",
@@ -808,7 +808,7 @@ const a: string[] = [
 "talysh",
 "tama",
 "tambanuo",
-"tamil",
+
 "tamprusi",
 "tandroy",
 "tanka",

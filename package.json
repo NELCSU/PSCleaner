@@ -33,14 +33,14 @@
     "@types/he": "^1.1.1",
     "@types/node": "^12.20.17",
     "@types/uuid": "^8.3.0",
-    "@typescript-eslint/eslint-plugin": "^4.28.4",
-    "@typescript-eslint/parser": "^4.28.4",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
     "bl": "^5.0.0",
     "electron": "^11.4.10",
     "electron-builder": "^22.11.7",
     "electron-wix-msi": "^3.2.0",
     "eslint": "^7.31.0",
-    "eslint-plugin-jsdoc": "^36.0.2",
+    "eslint-plugin-jsdoc": "^36.0.3",
     "jsdoc": "^3.6.7",
     "ncp": "^2.0.0",
     "node-abi": "^2.30.0",
@@ -78,5 +78,5 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf client/lib/web-components"
   },
-  "version": "0.15.4"
+  "version": "0.15.5"
 }
