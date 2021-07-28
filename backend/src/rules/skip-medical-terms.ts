@@ -47,10 +47,10 @@ const a: RegExp[] = [
   // syndrome
   /\b(?:brugada|duane|dwayne|edwards|ehlers[\s-]*danlos|evans|fanconi)\ssyndrome\b/gmi,
   /\b(?:gianotti[\s-]+crosti|guillain[\s-]+barr[eé]|kab(?:oo|u)ki|lynch)\ssyndrome\b/gmi,
-  /\b(?:phel[ai][mn][\s-]+mcderm[io]d|prader[\s-]+willi)\ssyndrome\b/gmi,
+  /\b(?:phel[ai][mn][\s-]+mcderm[io]d|prader[\s-]+willi|tourette['‘’`s]*)\ssyndrome\b/gmi,
   
   /\b(?:broca|brodmann?|wernicke)['‘’`]?s?\sareas?\b/gmi,
-  /\b(?:buck|colles|cooper|denonvilliers|gallaudet|spiegelian)['‘’`]?s?\sfascia\b/gmi,
+  /\b(?:buck|colles|cooper|denonvilliers|gallaudet|spiegelian)['‘’`s]*\sfascia\b/gmi,
   /\b(?:burkitt|hodgkin)['‘’`]?s?\slymphoma\b/gmi,
   /\bcooper['‘’`]?s?\s(?:iliopectineal|suspensory)\sligaments?\b/gmi,
   /\b(?:cooper|lockwood|poupart|struthers|treves|treitz)['‘’`]?s?\sligaments?\b/gmi,

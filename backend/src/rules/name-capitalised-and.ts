@@ -1664,6 +1664,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "omen",             // first name
 "omit",             // first name
 "oneness",          // first name
+"onions",           // surname
 "onyx",             // first name & placenames (6)
 "oot",              // surname
 "opportune",        // first name & placename
@@ -2590,6 +2591,74 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "squires",          // surname & placenames (35)
 "squirrel",         // surname & placenames (37)
 "squirrels",        // standalone & placenames (19)
+"stellar",          // first name & placename
+"stevia",           // first name
+"stile",            // surname & placenames (93)
+"stiles",           // surname & placenames (19)
+"stiller",          // surname
+"stim",             // surname
+"stirrup",          // surname & placenames (8)
+"stitcher",         // surname
+"stoat",            // surname & placenames (4)
+"stockfish",        // surname
+"stockhouse",       // surname & placenames (4)
+"stocky",           // surname
+"stokes",           // first name & placenames (27)
+"stomp",            // surname & placename
+"stomps",           // surname
+"stone",            // surname & placenames (588)
+"stoner",           // first name & placenames (3)
+"stoners",          // surname & placenames (2)
+"stones",           // surname & placenames (150)
+"stoney",           // surname & placnames (123)
+"stoop",            // surname & standalone & placenames (11)
+"stoops",           // surname & placenames (6)
+"stopper",          // surname & placenames (3)
+"storey",           // first name & placenames (20)
+"stork",            // first name & placenames (4)
+"storks",           // surname & placename
+"stormer",          // surname & placenames (2)
+"stormy",           // first name & placenames (7)
+"stout",            // surname & standalone & placenames (11)
+"stouter",          // surname
+"stowage",          // standalone (SE8)
+"stradling",        // surname & placenames (7)
+"strait",           // surname & placenames (8)
+"straits",          // surname & standalone (LA10) & placenames (11)
+"strand",           // surname & placenames (89)
+"strands",          // standalone & placenames (3)
+"strata",           // surname & placenames (3)
+"strawberry",       // surname & placenames (59)
+"straws",           // surname & placenames (2)
+"stray",            // first name & placenames (17)
+"streaker",         // surname
+"stream",           // standalone (TA4) & placenames (145)
+"streamer",         // surname
+"streams",          // surname & placenames (5)
+"stretcher",        // surname & placename
+"stride",           // first name & placename (4)
+"strider",          // first name
+"striker",          // first name & placenames (1)
+"stripling",        // surname & placename
+"strode",           // surname & standalone & placenames (18)
+"strop",            // surname & placename
+"strum",            // surname
+"strummer",         // surname
+"strut",            // surname & placename
+"stubbing",         // surname & placenames (21)
+"stubbles",         // surname & placenames (2)
+"stubby",           // surname & placenames (5)
+"studier",          // surname
+"stumbles",         // surname
+"stump",            // surname & placenames (13)
+"stumps",           // surname & placenames (8)
+"sturdy",           // surname & placenames (7)
+"sturgeon",         // surname & placenames (6)
+"stutter",          // surname
+"stutters",         // surname
+"styes",            // surname & placenames (4)
+"styles",           // surname & placenames (15)
+"styx",             // first name
 "stab",             // standalone & placenames (4)
 "stables",          // surname & placenames (35)
 "stabs",            // surname
