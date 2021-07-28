@@ -1348,6 +1348,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "lay",              // surname & placenames (29)
 "leaders",          // surname & placenames (2)
 "leak",             // surname & placenames (7)
+"leaker",           // surname
 "leaks",            // surname & placename
 "leaning",          // surname & placename
 "lease",            // surname & placenames (13)
@@ -2720,6 +2721,55 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "swords",           // surname & placenames (2)
 "syria",            // first name
 // T
+"tabasco",          // surname
+"tabby",            // first name & placenames (3)
+"tabernacle",       // surname & placenames (10)
+"tachi",            // first name
+"tailor",           // first name & placenames (8)
+"tailors",          // standalone & placenames (3)
+"tak",              // first name & placenames (2)
+"taker",            // surname
+"talisman",         // surname & placenames (12)
+"talon",            // first name & placenames (4)
+"tame",             // first name & placenames (28)
+"tamer",            // first name & placenames (3)
+"tames",            // surname
+"taming",           // surname
+"tan",              // surname & placenames (187)
+"tango",            // first name
+"tangy",            // surname & placename
+"tankard",          // surname & placenames (4)
+"tanking",          // surname
+"tanks",            // surname & placename
+"tanner",           // first name & placenames (31)
+"tanners",          // surname & placenames (37)
+"tannery",          // surname & placenames (21)
+"tannoy",           // first name & placename
+"taper",            // surname & placenames (3)
+"taphouse",         // surname & placenames (5)
+"tapper",           // surname
+"tapping",          // surname & placenames (3)
+"taps",             // surname & placename
+"tar",              // surname & standalone & placenames (18)
+"tarbush",          // surname
+"tardy",            // standalone & placename
+"tariff",           // first name & placenames (2)
+"tarn",             // first name & placenames (264)
+"tarns",            // standalone & placenames (9)
+"tarot",            // first name
+"tarp",             // surname
+"tarragon",         // first name & placenames (7)
+"tart",             // first name & placenames (3)
+"tartan",           // surname & placenames (3)
+"tartar",           // first name & placenames (3)
+"tarzan",           // first name
+"tat",              // first name & placenames (2)
+"tatters",          // surname
+"tattle",           // surname & placenames (4)
+"tattoo",           // surname
+"taunt",            // surname & placename
+"taverna",          // surname
+"tawny",            // first name & placenames (15)
 "tables",           // surname & placename
 "tack",             // first name & placenames (6)
 "tally",            // first name & placenames (13)

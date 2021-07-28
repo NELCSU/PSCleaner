@@ -95,7 +95,6 @@ const a: RegExp[] = [
   /\bstung\sby\b/gmi,
   // T
   /\btable\stennis\b/gmi,
-  /\btaekwondo\b/gmi,
   /\btennis\srackett?\b/gmi,
   /\bthe\sbath\b/gmi,
   /\btic\stac\b/gmi,

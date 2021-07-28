@@ -110,9 +110,9 @@ export const LocationTheRegEx: RegExp[] = [
 
   /\bThe\sOlde?\s(?:Armoury|Barnyard|Coach\s(?:House|Road|Yard)|Courtyard|Creamery|Dairy\sFarm)\b/gm,
   /\bThe\sOlde?\sF(?:airground|armyard|ire\sStation)\b/gm,
-  /\bThe\sOlde?\s(?:Gated\sRoad|Hop\sYard|Larches|Laundry|Man|Mission|Nurseries|Nursery|Priest)\b/gm,
-  /\bThe\sOlde?\s(?:Road|Saw\sMills?|School\sField|Sidings|Stable\sYard|Stackyard|Station\sRoad)\b/gm,
-  /\bThe\sOlde?\s(?:Stubble|Tennis\sCourts|Vinery|Walled\sGarden|Warehouse|Wife|Woodyard)\b/gm,
+  /\bThe\sOlde?\s(?:Gated\sRoad|Hop\sYard|Larches|Laundry|Man|Mission|Nurseries|Nursery|Priest|Road)\b/gm,
+  /\bThe\sOlde?\sS(?:aw\sMills?|chool\sField|idings|table\sYard|tackyard|tation\sRoad|tubble)\b/gm,
+  /\bThe\sOlde?\s(?:Tannery|Tennis\sCourts|Vinery|Walled\sGarden|Warehouse|Wife|Woodyard)\b/gm,
   /\bThe\sOa(?:ks|sis)?\b/gm,
   /\bThe\sOr(?:angery|chards?|chids)\b/gm,
   /\bThe\sO(?:ctagon|d|lympia|pening|spreys?|tters|utlook|val|vens?|xen)\b/gm,
@@ -182,7 +182,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sSw(?:ab|ag|allows|amp|eep)\b/gm,
   /\bThe\sSycamores\b/gm,
 
-  /\bThe\sTa(?:ble|sk|xiway)\b/gm,
+  /\bThe\sTa(?:bards|bernacle|ble|il(?:\s[Rr]ace)?|n|nners|nnery|rns?|sk|xiway)\b/gm,
   /\bThe\sTe(?:e|n\sAcres|nnis(?:\sCourt)?)\b/gm,
   /\bThe\sTh(?:ird|orns|oroughfare|roat)\b/gm,
   /\bThe\sTips\b/gm,

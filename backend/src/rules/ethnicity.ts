@@ -2,7 +2,6 @@ const a: string[] = [
 "abayudaya",
 "abazgi",
 "abazin",
-
 "abidji",
 "abron",
 "abure",
@@ -61,7 +60,6 @@ const a: string[] = [
 "arakanese",
 "aranese",
 "argentine",
-
 "arha",
 "armenian",
 "aro",
@@ -82,7 +80,6 @@ const a: string[] = [
 "aukstaitian",
 "australian",
 "austrian",
-
 "avar",
 "avatime",
 "awadhi",
@@ -269,7 +266,6 @@ const a: string[] = [
 "ekoi",
 "ekpeye",
 "emilian",
-
 "english",
 "eritrean",
 "esan",
@@ -370,14 +366,12 @@ const a: string[] = [
 "idoma",
 "ifugao",
 "igbo",
-
 "igorot",
 "ika",
 "ikwo",
 "indian",
 "indonesian",
 "ingush",
-
 "inor",
 "inughuit",
 "inuktitut",
@@ -473,7 +467,6 @@ const a: string[] = [
 "kulung",
 "kurd",
 "kurdish",
-
 "kurmanji",
 "kursenieki",
 "kurukh",
@@ -561,7 +554,6 @@ const a: string[] = [
 "mbaise",
 "mbodomo",
 "medumba",
-"mende",
 "mengal",
 "mennonite",
 "mescalero",
@@ -617,7 +609,6 @@ const a: string[] = [
 "nafusi",
 "nama",
 "namibian",
-"nande",
 "nathembo",
 "nepalese",
 "newar",
@@ -664,14 +655,12 @@ const a: string[] = [
 "ovambo",
 "palembangese",
 "palestinian",
-
 "panamanian",
 "pangasinese",
 "pashayi",
 "pashto",
 "pashtun",
 "patidar",
-"pende",
 "persian",
 "peruvian",
 "picard",
@@ -692,7 +681,6 @@ const a: string[] = [
 "rejangese",
 "reunionese",
 "rhinelander",
-
 "rican",
 "rifian",
 "rinconada",
@@ -749,7 +737,6 @@ const a: string[] = [
 "shaigiya",
 "shanghainese",
 "shapsug",
-"shawnee",
 "shenva",
 "sherbro",
 "shetlander",
@@ -808,7 +795,6 @@ const a: string[] = [
 "talysh",
 "tama",
 "tambanuo",
-
 "tamprusi",
 "tandroy",
 "tanka",
@@ -880,7 +866,6 @@ const a: string[] = [
 "waldensian",
 "wallisian",
 "walloon",
-
 "wenzhou",
 "wodaabe",
 "wolayitta",
@@ -907,7 +892,6 @@ const a: string[] = [
 "zafimaniry",
 "zaghawa",
 "zambian",
-"zande",
 "zay",
 "zealander",
 "zou"
