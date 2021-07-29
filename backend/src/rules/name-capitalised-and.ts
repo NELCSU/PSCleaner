@@ -2761,6 +2761,42 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "stroll",           // surname & placename
 "strongman",        // first name
 "stung",            // standalone & placename
+"sublet",           // surname
+"sublime",          // first name
+"sucre",            // surname
+"suede",            // first name
+"sues",             // surname
+"suet",             // first name & placename
+"suety",            // surname
+"suey",             // surname
+"sugarloaf",        // standalone & placenames (7)
+"sullen",           // surname
+"sully",            // first name & standalone & placenames (16)
+"sultan",           // first name & placenames (7)
+"sultana",          // first name
+"sultanas",         // first name
+"summed",           // first name
+"summerhouse",      // standalone & placenames (21)
+"summerly",         // surname & placename
+"summers",          // surname & placenames (23)
+"summons",          // surname & placename
+"sump",             // surname & placename
+"sunbeam",          // first name & standalone & placenames (10)
+"sung",             // first name & placename
+"sunken",           // surname & placenames (4)
+"sunlight",         // standalone & placenames (8)
+"sunny",            // first name & placenames (100)
+"sunray",           // first name & placename
+"sunrise",          // first name & standalone & placenames (15)
+"suns",             // surname
+"sunshine",         // first name & placenames (13)
+"sup",              // first name
+"superman",         // first name
+"surer",            // first name
+"surfer",           // first name
+"surviver",         // first name
+"sushi",            // first name
+"suss",             // surname
 "suave",            // first name
 "success",          // first name & placename
 "suckling",         // surname & placenames (6)

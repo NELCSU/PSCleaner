@@ -181,7 +181,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sStr(?:aight(?:s|\sMile)?|aits?|ands?|angles|ay|eam|eet|ing|ipe?)\b/gm,
   /\bThe\sStu(?:dios?|dy|mble)\b/gm,
   /\bThe\sStyle\b/gm,
-  /\bThe\sSu(?:bway|mmit)\b/gm,
+  /\bThe\sSu(?:bway|mmit|mps|nny\sRoad)\b/gm,
   /\bThe\sSw(?:ab|ag|allows|amp|eep)\b/gm,
   /\bThe\sSycamores\b/gm,
 
