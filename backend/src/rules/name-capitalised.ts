@@ -35,6 +35,7 @@ const a: string[] = [
 "aka",              // surname
 "aki",              // first name
 "akin",             // first name & placename
+"al",               // first name
 "alabaster",        // first name & placenames (3)
 "aladdin",          // first name
 "albino",           // first name
@@ -4766,40 +4767,6 @@ const a: string[] = [
 "stoke",            // surname & standalone & placenames (292)
 "stow",             // surname & standalone & placenames (66)
 "sue",              // first name & placenames (2)
-"swaddle",
-"swagger",
-"swallowtail",
-"swam",
-"swan",
-"swans",
-"sward",
-"swards",
-"swarm",
-"swarthy",
-"swastika",
-"swazi",
-"swede",
-"sweeper",
-"sweeten",
-"sweetner",
-"sweeter",
-"sweetie",
-"sweetness",
-"sweetwater",
-"swill",
-"swilling",
-"swills",
-"swindle",
-"swindles",
-"swineherd",
-"swinery",
-"switchback",         // standalone & placenames (5)
-"switcher",           // surname & placename
-"sycamore",           // first name & standalone & placenames (54)
-"symphonia",          // first name
-"symphony",           // first name & placenames (6)
-"synod",              // standalone & placenames (2)
-"syphon",             // first name & placename
 // T
 "teak",
 "teal",

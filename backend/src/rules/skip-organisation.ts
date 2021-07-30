@@ -1,10 +1,9 @@
 const a: RegExp[] = [
   /\b(?:APEC|CIA|DEFRA|HMRC|MHRA|MIT|NAO|OPEC|PHE|PLO|SETI)\b/gm,
   
-  /\b(?:amazon|american\sexpress)\b/gmi,
+  /\ba(?:mazon|merican\sexpress|strazeneca)\b/gmi,
   // B
-  /\bbritish\sairways\b/gmi,
-  /\bburger\sking\b/gmi,
+  /\bb(?:ritish\sairways|urger\sking)\b/gmi,
   /\b(?:central|reserve|world)\sbank\b/gmi,
   /\bburkina\sfaso\b/gmi,
   // C
@@ -41,6 +40,7 @@ const a: RegExp[] = [
   // N
   /\b(?:nato|newshub|northern\sireland)\b/gmi,
   /\bnhs\s(?:england|london|scotland|wales)\b/gmi,
+  /\bnew\syork\stimes\b/gmi,
   // P
   /\bpapua\snew\sguinea\b/gmi,
   /\b(?:public\shealth\s(?:england|scotland|wales)|premier\sleague)\b/gmi,
