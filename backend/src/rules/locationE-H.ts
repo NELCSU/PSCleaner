@@ -391,6 +391,7 @@ const a: RegExp[] = [
 /\b(?:(?:fox|kid)\sglove\sroad|glove\s(?:hill|wood))\b/gmi,
 /\bFox\sGlove\b/gm,
 /\bgod\s(?:meadow|nore|rock)\b/gmi,
+/\bgold\sthread\slane\b/gmi,
 /\b[Gg]olf\sDrive\b/gm,
 /\b(?:royal\sgolf\sgardens|the\sgolf\syard)\b/gmi,
 /\bgolf\s(?:avenue|close|club\s(?:drive|lane|road)|course\s(?:covert|lane|plantation|road)|court|crescent|gardens|green(?:\sroad)?|halt|hill|house\s(?:lane|road)|lane|links\s(?:avenue|close|court|crescent|drive|lane|mews|road)|loan|park|place|ride|road(?:\spark)?|side(?:\sclose)?|street|terrace|view(?:\s(?:crescent|drive|place|road|terrace))?|walk)\b/gmi,

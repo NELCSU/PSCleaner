@@ -187,8 +187,8 @@ export const LocationTheRegEx: RegExp[] = [
 
   /\bThe\sTa(?:bards|bernacle|ble|il(?:\s[Rr]ace)?|n|nners|nnery|rns?|sk|xiway)\b/gm,
   /\bThe\sTe(?:e|n\sAcres|nnis(?:\sCourt)?)\b/gm,
-  /\bThe\sTh(?:ird|orns|oroughfare|roat)\b/gm,
-  /\bThe\sTips\b/gm,
+  /\bThe\sTh(?:atch|atchers|ickets?|imbles|ird|istles|rift|orns?|oroughfare|roat)\b/gm,
+  /\bThe\sTi(?:mber\sway|mbers|ns|ps|the|things)\b/gm,
   /\bThe\sTo(?:e|ll|llgate|n|ngues?|ppings|re|rs|wer|wn|wpath)\b/gm,
   /\bThe\sTr(?:am|amway|ap|eehouse|ees|iangle|ip)\b/gm,
   /\bThe\sTu(?:mbles?|nnel|rn|rning|rnstiles|rrets)\b/gm,

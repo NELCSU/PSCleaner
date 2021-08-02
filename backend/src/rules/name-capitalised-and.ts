@@ -375,6 +375,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "cardigan",         // standalone & placenames (26)
 "cardinal",         // first name & placenames (43)
 "careless",         // surname & placenames (3)
+"caribbean",        // first name
 "cargo",            // standalone & placenames (7)
 "carnival",         // surname & placenames (2)
 "carpenter",        // surname & placenames (18)
@@ -687,6 +688,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "embers",           // surname & placenames (2)
 "emblem",           // surname & placenames (5)
 "embody",           // surname
+"emirates",         // first name
 "emu",              // surname & placenames (2)
 "end",              // placenames (1k+)
 "endo",             // first name
@@ -2922,6 +2924,64 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "throne",           // surname & placenames (3)
 "thundercloud",     // surname
 "thursday",         // first name & placename
+"thatch",           // surname & placenames (20)
+"thatcher",         // first name & placenames (13)
+"thaw",             // first name & placename
+"thee",             // first name
+"thermidor",        // surname
+"thermos",          // surname
+"thistle",          // first name & placenames (57)
+"thong",            // first name & standalone & placenames (4)
+"thongs",           // surname
+"thorn",            // first name & standalone & placenames (152)
+"thornbush",        // standalone & placenames (7)
+"thou",             // surname
+"thrasher",         // surname & placenames (3)
+"threader",         // surname
+"thresh",           // surname & placename
+"thresher",         // surname & placenames (8)
+"threshers",        // standalone & placenames (8)
+"threshold",        // standalone & placenames (3)
+"thrift",           // first name & placenames (24)
+"thrill",           // surname & placename
+"thrower",          // first name & placenames (4)
+"thrums",           // standalone & placenames (4)
+"thrush",           // surname & placenames (18)
+"thug",             // first name
+"thumpers",         // standalone
+"thunder",          // first name & placenames (10)
+"thyme",            // first name & placenames (11)
+"tiara",            // first name
+"tickler",          // surname & placename
+"tidings",          // first name & placename
+"tiger",            // first name & placenames (18)
+"tikka",            // first name
+"tilde",            // first name
+"tiller",           // first name & placenames (7)
+"tilling",          // surname & placenames (7)
+"tilt",             // surname & placenames (12)
+"tilts",            // standalone & placenames (2)
+"timbers",          // surname & placenames (15)
+"tinder",           // surname
+"tingle",           // surname & placenames (9)
+"tingler",          // surname
+"tingling",         // surname
+"tinkle",           // surname & placenames (2)
+"tinny",            // first name & placename
+"tinsel",           // first name & placenames (2)
+"tint",             // first name
+"tinter",           // surname
+"tints",            // surname
+"tipper",           // surname & placenames (7)
+"tipple",           // surname & placename
+"tipples",          // surname & placename
+"tiro",             // first name
+"tit",              // surname & placename
+"tithe",            // first name & placenames (49)
+"titter",           // surname
+"tittle",           // first name & placenames (2)
+"titty",            // first name & placenames (2)
+"tive",             // first name
 "tidy",             // first name & placenames (3)
 "tier",             // first name
 "tills",            // surname & placenames (2)
