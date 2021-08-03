@@ -954,7 +954,6 @@ const a: string[] = [
 "kilohertz",
 "kilowatt",
 "kimono",
-"kinase",
 "kiosk",
 "kiribati",
 "kirigami",

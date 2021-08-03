@@ -55,6 +55,7 @@ const a: RegExp[] = [
   /\b(?:saudi\sarabia|serco|slovakia|south\s(?:africa|sudan)|sri\slanka|(?:aided|community|day|high|law|(?:pre-)?preparatory|primary|secondary)\sschool)\b/gmi,
   // T
   /\bfinancial\stimes\b/gmi,
+  /\bThe\sGrand\sTour\b/gm,
   /\btimor[\s-]leste\b/gmi,
   // U
   /\b(?:unesco|unicef|united\snations|un\sorgani[sz]ations?)\b/gmi,

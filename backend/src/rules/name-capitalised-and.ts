@@ -566,6 +566,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "cricketers",       // standalone & placenames (20)
 "crisp",            // first name & placenames (8)
 "crock",            // surname & placenames (14)
+"cross",            // placenames (1k+)
 "crosses",          // standalone & placenames (9)
 "crossing",         // surname & placenames (33)
 "crossings",        // placenames (10)
@@ -786,6 +787,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "feral",            // first name
 "fern",             // first name & placenames (104)
 "ferret",           // surname & placenames (104)
+"ferric",           // first name
 "ferries",          // surname & placenames (3)
 "ferry",            // placenames (287)
 "feta",             // first name
@@ -1317,6 +1319,31 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "kettle",           // surname & standalone & placenames (38)
 "kettler",          // surname
 "kettles",          // surname & placenames (6)
+"kicker",           // surname & placename
+"kilo",             // first name
+"kilts",            // surname
+"kimono",           // first name
+"kimonos",          // surname
+"kindle",           // first name & placename
+"kindred",          // first name
+"kingfishers",      // standalone & placenames (2)
+"kingly",           // first name & placename
+"kings",            // surname & placenames (330)
+"kink",             // surname
+"kins",             // surname
+"kinsman",          // standalone & placenames (2)
+"kipper",           // surname & placenames (2)
+"kippers",          // surname
+"kipping",          // surname & placenames (6)
+"kisser",           // surname
+"kit",              // first name & placenames (22)
+"kite",             // first name & placenames (44)
+"kith",             // first name
+"kitsch",           // surname
+"kitten",           // first name & placenames (2)
+"kittie",           // first name
+"kitty",            // first name & placenames (26)
+"kiwi",             // first name & placenames (5)
 "kicks",            // surname & placenames (3)
 "kiddie",           // surname
 "killings",         // surname

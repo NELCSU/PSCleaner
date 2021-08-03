@@ -85,7 +85,9 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sJu(?:bilee|mps|nction|nipers)\b/gm,
   /\bThe\sJ(?:amb|etty|ewel|cb\sAcademy|etties|oint)\b/gm,
   
-  /\bThe\sK(?:een|eep|ettle|ey|ilns?|ing['‘’`]?s|iosk|irk['‘’`]?s\sAlarm|nees?|nock)\b/gm,
+  /\bThe\sKe(?:en|ep|ttle|y)\b/gm,
+  /\bThe\sKi(?:ilns?|ng['‘’`]?s|ngfishers|osk|rk['‘’`]?s\sAlarm)\b/gm,
+  /\bThe\sKn(?:ees?|ock)\b/gm,
   
   /\bThe\sL\sStrip\b/gm,
   /\bThe\sLa(?:kes?|mp|nds?|ne|nding|nterns|rches|sh|unches|urels|w)\b/gm,
