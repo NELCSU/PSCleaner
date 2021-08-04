@@ -548,6 +548,57 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "courtyards",       // standalone & placenames (2)
 "cousins",          // first name & placenames (10)
 "cow",              // placenames (180)
+"crackpot",         // standalone & placename
+"cradle",           // surname & placenames (20)
+"cradles",          // standalone & placename
+"cram",             // surname & placenames (2)
+"crampon",          // surname
+"cranberry",        // standalone & placenames (30)
+"crane",            // surname & placenames (71)
+"cranes",           // standalone & placenames (17)
+"cranks",           // surname
+"cranny",           // surname & placenames (4)
+"craven",           // first name & placenames (72)
+"cray",             // surname & placenames (32)
+"craze",            // first name & placenames (2)
+"crazier",          // surname
+"creamer",          // first name
+"crease",           // surname & placenames (5)
+"creche",           // first name
+"credo",            // first name & placename
+"creed",            // surname & standalone & placenames (12)
+"creeds",           // surname & placename
+"creeper",          // surname & placename
+"cress",            // first name & placenames (14)
+"cretin",           // surname
+"crick",            // surname & standalone & placenames (14)
+"crier",            // surname & placenames (2)
+"crimp",            // surname & standalone & placenames (2)
+"crimson",          // first name & placenames (8)
+"cripple",          // surname & placenames (10)
+"criss",            // first name & placename
+"croak",            // surname
+"crofters",         // standalone & placenames (24)
+"crofts",           // surname & placenames (74)
+"croissant",        // surname
+"crook",            // surname & placenames (103)
+"crooked",          // surname & placenames (56)
+"crooks",           // surname & standalone & placenames (17)
+"cropper",          // first name & standalone & placenames (11)
+"crosspost",        // standalone & placename
+"crossways",        // standalone & placenames (28)
+"crotch",           // surname & placename
+"crouch",           // surname & standalone & placenames (46)
+"crow",             // surname & placenames (175)
+"crumb",            // surname
+"crumble",          // surname
+"crumbles",         // standalone & placenames (2)
+"crumbs",           // surname
+"crumby",           // surname
+"crusher",          // surname
+"crust",            // surname
+"crux",             // surname & placename
+"crystalline",      // first name
 "crafts",           // surname & placenames (3)
 "cramp",            // surname & placenames (6)
 "crank",            // surname & standalone & placenames (4)
