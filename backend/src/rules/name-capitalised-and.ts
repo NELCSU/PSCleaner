@@ -486,6 +486,111 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "clump",            // surname & placenames (643)
 "clumps",           // standalone & placenames (42)
 "cluster",          // standalone & placename
+"coachman",         // surname & placenames (7)
+"coachway",         // standalone & placenames (3)
+"coals",            // surname & placenames (2)
+"cobble",           // surname & placenames (15)
+"cobbler",          // surname & placenames (25)
+"cobblestones",     // standalone & placename
+"cobles",           // standalone
+"cobweb",           // first name & placename
+"cockerel",         // surname & standalone & placenames (2)
+"cockles",          // standalone & placenames (4)
+"cockpit",          // standalone & placenames (9)
+"cockpits",         // standalone
+"cockrel",          // surname
+"cocks",            // surname & standalone & placenames (14)
+"cockup",           // standalone & placenames (2)
+"coda",             // first name & placename
+"coddles",          // standalone
+"coffer",           // surname
+"coffin",           // surname & placenames (10)
+"cog",              // surname & standalone & placenames (5)
+"cokes",            // surname & placename
+"coking",           // surname & placename
+"colliers",         // standalone & placenames (34)
+"colliery",         // placenames (89)
+"colonnade",        // standalone & placenames (6)
+"colts",            // surname & standalone & placenames (16)
+"coltsfoot",        // standalone & placenames (17)
+"columbia",         // first name & standalone & placenames (20)
+"columbine",        // first name & placenames (11)
+"columbus",         // first name & placenames (14)
+"combers",          // standalone & placenames (3)
+"combo",            // surname
+"combs",            // first name & standalone & placenames (25)
+"comely",           // first name & placenames (22)
+"comers",           // standalone & placenames (30)
+"comet",            // first name & placenames (12)
+"comforter",        // first name
+"commodore",        // surname & placenames (10)
+"comp",             // surname & standalone & placenames (4)
+"compot",           // surname
+"comrade",          // first name & placename
+"conclaves",        // first name
+"concord",          // surname & standalone & placenames (12)
+"condor",           // surname & placenames (11)
+"cone",             // surname & placenames (5)
+"cones",            // surname & placename
+"coney",            // first name & placenames (70)
+"coneys",           // surname
+"confer",           // surname
+"confetti",         // first name & placename
+"congos",           // surname
+"conifer",          // first name & placenames (21)
+"conifers",         // standalone & placenames (4)
+"conk",             // surname
+"conker",           // surname & placenames (4)
+"conquest",         // surname & standalone & placenames (10)
+"constable",        // surname & standalone & placenames (38)
+"contentment",      // first name
+"contra",           // first name
+"contras",          // surname
+"convent",          // placenames (45)
+"converse",         // first name
+"cooing",           // surname
+"cook",             // surname & placenames (77)
+"cooks",            // surname & placenames (24)
+"cooling",          // first name & standalone & placenames (7)
+"coon",             // first name
+"coop",             // surname & placenames (7)
+"cope",             // surname & placenames (12)
+"copes",            // first name & placenames (9)
+"copier",           // surname
+"copper",           // surname & placenames (60)
+"copra",            // surname
+"coral",            // first name & standalone & placenames (24)
+"cordial",          // first name
+"cords",            // surname
+"cores",            // surname & placenames (2)
+"coring",           // surname
+"cork",             // surname & standalone & placenames (15)
+"cormorant",        // standalone & placenames (12)
+"cornerstone",      // surname & standalone & placenames (3)
+"corporal",         // surname & placenames (10)
+"corpus",           // first name & placenames (11)
+"corral",           // first name & placenames (2)
+"corries",          // placenames (2)
+"corsair",          // standalone & placenames (5)
+"corse",            // surname & standalone & placenames (27)
+"cos",              // surname & placenames (4)
+"cosier",           // surname
+"countryman",       // standalone & placenames (4)
+"courtier",         // surname & placename
+"coven",            // surname & standalone & placenames (11)
+"covenant",         // first name & placenames (5)
+"covert",           // placenames (1k+)
+"coves",            // surname & standalone & placenames (11)
+"coward",           // first name & placenames (7)
+"cower",            // surname
+"cowgate",          // standalone & placenames (5)
+"cowherd",          // surname
+"cowl",             // surname & placenames (4)
+"cowls",            // surname
+"cowpen",           // standalone & placenames (12)
+"coy",              // first name & placenames (8)
+"coyote",           // surname
+"cozy",             // surname
 "coal",             // placenames (90)
 "coast",            // first name & standalone & placenames (27)
 "coastal",          // placenames (16)

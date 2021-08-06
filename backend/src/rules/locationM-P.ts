@@ -637,7 +637,7 @@ const a: RegExp[] = [
 /\bpump\s(?:meadow|pail|piece|place|plantation|pond\swood|riding|road|rough|row|square|street|tree\smews|wood|works)\b/gmi,
 /\bpumping\s(?:shaw|station\sroad)\b/gmi,
 /\b(?:granny['‘’`]?s\spumps|pumps\swood)\b/gmi,
-/\bpunch\s(?:bowl\s(?:bottom|coverts?|lane|shaws|wood|yard)|copse\sroad|lane|rocks|street|well\sbrae)\b/gmi,
+/\bpunch\s(?:bowl\s(?:bottom|covert|lane|shaws|wood|yard)|copse\sroad|lane|rocks|street|well\sbrae)\b/gmi,
 /\bPunch\s(?:Bowl|Close)\b/gm,
 /\bpuppy\s(?:green|lane)\b/gmi,
 /\bpurchase\s(?:avenue|copse|gardens|lane|plantation|road|wood)\b/gmi,

@@ -85,7 +85,7 @@ const a: RegExp[] = [
 /\bRedness\s(:[Cc]lose|[Pp]oint)\b/gmi,
 /\b(?:old\s)?refinery\s(?:road|street)\b/gmi,
 /\breform\s(?:beach|place|road|row|street|strip)\b/gmi,
-/\bregister\s(?:avenue|coverts|place|road|square|street)\b/gmi,
+/\bregister\s(?:avenue|place|road|square|street)\b/gmi,
 /\bregistry\s(?:close|street)\b/gmi,
 /\breliance\s(?:court|place|street|way)\b/gmi,
 /\breliant\s(?:close|way)\b/gmi,
@@ -1073,6 +1073,7 @@ const a: RegExp[] = [
 /\bcraigie\sthieves\b/gmi,
 /\bthieves['‘’`]?\s(?:acre\splantation|bridge\s(?:road|wood)?|clough)\b/gmi,
 /\bthieves['‘’`]?\s(?:den|glen|hill|holm|lane|moss|road(?:\splantation)?|sty|wood(?:\slane)?)\b/gmi,
+/\bthe\sgrey\smare\sand\sher\scolts\b/gmi,
 // TI
 /\btib\s(?:hill|lane|meadow\sdrive|street|wood)\b/gmi,
 /\bbrick\sand\stile\sterrace\b/gmi,
