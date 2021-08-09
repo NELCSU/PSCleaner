@@ -111,6 +111,17 @@ export const NamePatternEntity: Entity = {
   type: "regular expression"
 };
 
+export const NationalRoadPatternEntity: Entity = {
+  color: "#e85000",
+  description: "National roads",
+  domain: "ROAD",
+  enabled: true,
+  id: "entityNationalRoadPattern",
+  label: "Road",
+  mask: "ROAD",
+  type: "regular expression"
+};
+
 export const NHSPatternEntity: Entity = {
   color: "#0040cc",
   description: "NHS numbers",
@@ -202,6 +213,7 @@ export class Entities {
     this.list.set(LocationPatternEntity.id, LocationPatternEntity);
     this.list.set(NameListEntity.id, NameListEntity);
     this.list.set(NamePatternEntity.id, NamePatternEntity);
+    this.list.set(NationalRoadPatternEntity.id, NationalRoadPatternEntity);
     this.list.set(NHSPatternEntity.id, NHSPatternEntity);
     this.list.set(PostcodePatternEntity.id, PostcodePatternEntity);
     this.list.set(SkipWordListEntity.id, SkipWordListEntity);

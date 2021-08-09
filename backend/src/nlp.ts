@@ -1,5 +1,5 @@
 import type { Action, Entity, Evaluation, MatchedEntity, TextMatch } from "../types/PSCleaner";
-import type { Entities } from "./entities";
+import { Entities } from "./entities";
 import { LocationPrefixRegEx, LocationRegEx, LocationMidfixRegEx } from "./rules/location";
 import { LocationADRegEx } from "./rules/locationA-D";
 import { LocationEHRegEx } from "./rules/locationE-H";
@@ -8,6 +8,7 @@ import { LocationMPRegEx } from "./rules/locationM-P";
 import { LocationQTRegEx } from "./rules/locationQ-T";
 import { LocationUZRegEx } from "./rules/locationU-Z";
 import { LocationTheRegEx } from "./rules/location-the";
+import { NationalRoadRegEx } from "./rules/national-road";
 import { OrganisationRegEx } from "./rules/skip-organisation";
 import { DailyActivitiesRegEx } from "./rules/skip-daily-activities";
 import { MedicalAbbrRegEx } from "./rules/skip-medical-abbr";
@@ -64,6 +65,7 @@ export class NLP {
     const ethEntity: Entity = this._entities.list.get("entityEthnicityList") as Entity;
     const householdItemEntity: Entity = this._entities.list.get("entitySkipWordPattern") as Entity;
     const postcodeEntity: Entity = this._entities.list.get("entityPostcodePattern") as Entity;
+    const natioanlRoadPatternEntity: Entity = this._entities.list.get("entityNationalRoadPattern") as Entity;
     const locationPatternEntity: Entity = this._entities.list.get("entityLocationPattern") as Entity;
     const namesPatternEntity: Entity = this._entities.list.get("entityNamePattern") as Entity;
     const namesEntity: Entity = this._entities.list.get("entityNameList") as Entity;
@@ -145,6 +147,14 @@ export class NLP {
         action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
         entity: postcodeEntity,
         matches: this._evalRegEx(data, findUKPostcode)
+      });
+    }
+
+    if (natioanlRoadPatternEntity.enabled) {
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: natioanlRoadPatternEntity,
+        matches: this._evalRegEx(data, NationalRoadRegEx)
       });
     }
 

@@ -6,6 +6,7 @@ const a: string[] = [
   "der",
   "dos",
   "el",
+  "en",
   "es",
   "et",
   "ho",

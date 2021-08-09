@@ -47,7 +47,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sCricketers\b/gm,
   /\bThe\sCro(?:fts?|fters|ps|ok|ss|ssings?|sspath|ssroads|ssways|wns)\b/gm,
   /\bThe\sCr(?:ucible|umbles|usades|ypt)\b/gm,
-  /\bThe\sCu(?:p|rtain|rve|t|tter|tting)\b/gm,
+  /\bThe\sCu(?:ckoo|lvert|p|rtain|rve|t|tter|ttings?)\b/gm,
   /\bThe\sCy(?:cle\sWorks|gnets|linders)\b/gm,
   
   /\bThe\sDa(?:ffodils|iry|shes)\b/gm,
@@ -164,7 +164,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sRollers\b/gm,
   /\bThe\sRoo(?:keries|kery|ks|st)\b/gm,
   /\bThe\sRope(?:makers['‘’`]?|walk|way)\b/gm,
-  /\bThe\sRos(?:ary|ery|\s(?:School|[Ww]alk))\b/gm,
+  /\bThe\sRos(?:[ae]ry|\s(?:School|[Ww]alk))\b/gm,
   /\bThe\sRotunda\b/gm,
   /\bThe\sRou(?:gh(?:\s(?:Grounds?|Park|Patch|Strip)|s)|nd|ndabouts?|ts)\b/gm,
   /\bThe\sRows?\b/gm,

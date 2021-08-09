@@ -730,6 +730,24 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "crown",            // placenames (146)
 "cruder",           // surname
 "crutch",           // surname & placenames (5)
+"cull",             // surname & placenames (6)
+"culling",          // surname & placenames (2)
+"cullings",         // surname & placenames (2)
+"cults",            // standalone & placenames (17)
+"culvert",          // surname & placenames (11)
+"cunning",          // surname & placenames (7)
+"cupid",            // first name & placenames (8)
+"cupola",           // standalone & placenames (6)
+"curf",             // standalone & placenames (4)
+"curie",            // first name & placenames (12)
+"curio",            // surname
+"curler",           // surname
+"curls",            // surname & placenames (3)
+"curly",            // surname & placenames (9)
+"currant",          // surname & placenames (2)
+"curry",            // surname & placenames (24)
+"curt",             // first name
+"curtly",           // first name
 "cub",              // first name & placenames (2)
 "cuba",             // first name & placenames (3)
 "cuff",             // surname & standalone & placenames (4)
@@ -1091,6 +1109,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "freehold",         // standalone & placenames (13)
 "freight",          // surname & placenames (3)
 "fresh",            // standalone & placenames (11)
+"freshwater",       // surname & standalone & placenames (21)
 "friday",           // surname & placenames (27)
 "friend",           // surname & placenames (8)
 "friendly",         // standalone & placenames (9)
@@ -2300,7 +2319,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ropewalk",         // standalone & placenames (8)
 "ropeway",          // standalone & placename
 "roping",           // surname & placename
-"rosary",           // first name & placenames (19)
+"rosary",           // first name
 "rosebud",          // first name & placenames (4)
 "rosebush",         // surname & standalone & placenames (4)
 "rosemary",         // first name & standalone & placenames (33)
