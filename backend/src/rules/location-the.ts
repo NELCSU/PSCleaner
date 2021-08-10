@@ -69,7 +69,10 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sFore(?:head|st|stry|stside)\b/gm,
   /\bThe\sFor(?:d|ces?|ge|ks|t|ties|tress|tunes|ty(?:\sacres?)?|um)\b/gm,
   /\bThe\sFo(?:undry|ur\s(?:Acres?|Tubs|Wents)|x|xholes|xes)\b/gm,
-  /\bThe\sFr(?:aminghams|amptons|ee\sSchool|eehold|ont)\b/gm,
+  /\bThe\sFra(?:minghams|mptons)\b/gm,
+  /\bThe\sFre(?:e\sSchool|ehold|eway|nchman)\b/gm,
+  /\bThe\sFriars\b/gmi,
+  /\bThe\sFront\b/gm,
   /\bThe\sF(?:urlong|urlough|urrows?|ylde)\b/gm,
   
   /\bThe\sGa(?:bles|ges|lleries|ng|ngway|ps?|rdens?|tes?|teways?)\b/gm,

@@ -676,7 +676,6 @@ const a: string[] = [
 "frenzy",
 "freon",
 "fresco",
-"freya",
 "friar",
 "frigid",
 "frisky",

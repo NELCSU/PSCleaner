@@ -34,6 +34,7 @@ const a: RegExp[] = [
   /\bepi\spen\b/gmi,
   // F
   /\bf(?:avipi?r[ai]vir|lu(?:clox|ox[ei]tie?ne))\b/gmi,
+  /\bfrank\shematuria\b/gmi,
   // L
   /\blopinavir\b/gmi,
   // M

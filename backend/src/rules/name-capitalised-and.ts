@@ -1103,6 +1103,30 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "foward",           // surname
 "fox",              // surname & placenames (364)
 "foxholes",         // standalone & placenames (21)
+// FR
+"fracas",           // surname
+"frack",            // first name
+"framer",           // surname
+"franc",            // first name & placenames (2)
+"franker",          // surname
+"freeman",          // surname & placenames (37)
+"freemen",          // surname & placenames (4)
+"freer",            // first name & placenames (12)
+"frees",            // surname
+"frenchman",        // surname & placenames (10)
+"fresco",           // first name & placename
+"friar",            // surname & placenames (63)
+"friars",           // placenames (104)
+"friary",           // first name & standalone & placenames (31)
+"fries",            // surname
+"frisk",            // first name & placename
+"frist",            // surname
+"fritter",          // surname
+"frizzle",          // surname
+"frock",            // surname
+"fruitier",         // surname
+"fryer",            // surname & placenames (9)
+"fryers",           // surname & placenames (4)
 "france",           // first name & placenames (24)
 "francs",           // first name
 "fray",             // surname & placenames (4)
