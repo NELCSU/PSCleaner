@@ -305,7 +305,7 @@ const a: string[] = [
 "german",
 "ghanchi",
 "ghazini",
-"ghulfan",
+
 "giay",
 "gibraltarian",
 "giriama",

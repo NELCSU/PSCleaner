@@ -1155,6 +1155,48 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "furry",            // surname & placename
 "fury",             // surname & placenames (3)
 // G
+"gaff",             // surname & placenames (2)
+"gaffer",           // first name
+"gaily",            // first name
+"gaiter",           // surname
+"gaiters",          // surname
+"gaits",            // standalone
+"gala",             // first name & placenames (17)
+"gale",             // first name & standalone & placenames (44)
+"galena",           // first name & placenames (4)
+"gales",            // surname & placenames (12)
+"galileo",          // first name & placenames (3)
+"gallant",          // surname & placenames (7)
+"galleon",          // first name & placenames (6)
+"galley",           // first name & placenames (27)
+"gallon",           // surname & placenames (4)
+"gallop",           // surname & placenames (8)
+"gallops",          // surname & placenames (5)
+"gallow",           // surname & placenames (26)
+"gamble",           // surname & placenames (18)
+"gambles",          // surname & placenames (3)
+"gambol",           // surname & placename
+"gamer",            // surname
+"gammon",           // surname & placenames (7)
+"gammons",          // surname & placenames (4)
+"gander",           // surname & placenames (9)
+"garb",             // surname
+"garde",            // first name & placenames (3)
+"gardener",         // first name & placenames (22)
+"gardeners",        // standalone & placenames (21)
+"garish",           // first name
+"garland",          // first name & standalone & placenames (25)
+"garlands",         // standalone & placenames (5)
+"garner",           // first name & placenames (11)
+"garnish",          // surname
+"gash",             // surname
+"gasman",           // surname
+"gasmen",           // surname
+"gassier",          // surname
+"gatherer",         // surname
+"gauche",           // surname
+"gaud",             // surname
+"gazelle",          // first name & placenames (5)
 "gable",            // first name & placenames (12)
 "gables",           // surname & placenames (36)
 "gabon",            // surname

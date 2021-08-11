@@ -9,7 +9,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sAr(?:ans|bory|bours|c|cade|chbishop['‘’`s]*|chery|ches|chway|k|m|moury|ms|t\sAcademy)\b/gm,
   /\bThe\sA(?:sh|uks|venues?|wful\sHand|xe|xis)\b/gm,
   
-  /\bThe\sBa(?:bes|cks?|d\sStep|iliwick|ils|keries|ker[sy]|nks?|ulks?|ys?)\b/gm,
+  /\bThe\sBa(?:bes|cks?|d\sStep|iliwick|ils|keries|ker[sy]|nks?|tts|ulks?|ys?)\b/gm,
   /\bThe\sBal(?:es|k|ls?)\b/gm,
   /\bThe\sBar(?:nyard|on[sy]|racks|rows|s)?\b/gm,
   /\bThe\sBas(?:ins?|s|ses|tard)\b/gm,
@@ -75,7 +75,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sFront\b/gm,
   /\bThe\sF(?:urlong|urlough|urrows?|ylde)\b/gm,
   
-  /\bThe\sGa(?:bles|ges|lleries|ng|ngway|ps?|rdens?|tes?|teways?)\b/gm,
+  /\bThe\sGa(?:bles|ges|llery|lleries|llops?|le|ng|ngway|ps?|rdens?|rlands|rners|tes?|teways?|vels)\b/gm,
   /\bThe\sGe(?:ars?|o)\b/gm,
   /\bThe\sGl(?:ades?|assworks|impse|obal\sAcademy|obe)\b/gm,
   /\bThe\sGo(?:al|ats\sLeap\sPool|d\sAlmighty|re|rge|rses?)\b/gm,
@@ -126,7 +126,8 @@ export const LocationTheRegEx: RegExp[] = [
 
   /\bThe\sOlde?\s(?:Armoury|Barnyard|Coach\s(?:House|Road|Yard)|Courtyard|Creamery|Dairy\sFarm)\b/gm,
   /\bThe\sOlde?\sF(?:airground|armyard|ire\sStation)\b/gm,
-  /\bThe\sOlde?\s(?:Gated\sRoad|Hop\sYard|Larches|Laundry|Man|Mission|Nurseries|Nursery|Priest|Road)\b/gm,
+  /\bThe\sOlde?\sG(?:asworks|ated\sRoad)\b/gm,
+  /\bThe\sOlde?\s(?:Hop\sYard|Larches|Laundry|Man|Mission|Nurseries|Nursery|Priest|Road)\b/gm,
   /\bThe\sOlde?\sS(?:aw\sMills?|chool\sField|idings|table\sYard|tackyard|tation\sRoad|tubble)\b/gm,
   /\bThe\sOlde?\s(?:Tannery|Tennis\sCourts|Vinery|Walled\sGarden|Warehouse|Wife|Woodyard)\b/gm,
   /\bThe\sOa(?:ks|sis)?\b/gm,
