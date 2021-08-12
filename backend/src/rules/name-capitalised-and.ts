@@ -1224,6 +1224,19 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "gay",              // surname & placenames (22)
 "gayer",            // surname & placename
 "gays",             // surname & placenames (5)
+"geese",            // surname & placenames (3)
+"geez",             // first name
+"geisha",           // surname
+"gem",              // first name & placenames (4)
+"gemini",           // first name & standalone & placenames (8)
+"gene",             // first name
+"genie",            // first name & placename
+"gent",             // first name & placenames (4)
+"gentry",           // first name & placenames (3)
+"genus",            // first name
+"geos",             // first name & placenames (107)
+"gest",             // surname & placenames (4)
+"geyser",           // first name
 "geared",           // first name
 "gears",            // surname & placenames (3)
 "gems",             // placenames (5)
@@ -1233,6 +1246,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "germans",          // first name & placenames (9)
 "germany",          // first name & placenames (4)
 "getting",          // surname & placename
+"ghoul",            // surname
 "ghana",            // first name
 "gibraltar",        // standaline & placenames (22)
 "gift",             // first nmae & placenames (2)
@@ -1309,6 +1323,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "guru",             // first name & placenames (6)
 "gutter",           // surname & placenames (67)
 "guyana",           // first name & placename
+"gypsy",            // first name & placenames (17)
 // H
 "had",              // surname & placenames (4)
 "hail",             // surname & standalone & placenames (10)
