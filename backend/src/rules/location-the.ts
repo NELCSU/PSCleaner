@@ -80,10 +80,10 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sGl(?:ades?|assworks|impse|obal\sAcademy|obe)\b/gm,
   /\bThe\sGo(?:al|ats\sLeap\sPool|d\sAlmighty|re|rge|rses?)\b/gm,
   /\bThe\sGra(?:dient|in\sStore|nd|nge|sslands|ves|zing\sGrounds)\b/gm,
-  /\bThe\sGre(?:en|at\sFace|y\sCorries)\b/gm,
+  /\bThe\sGre(?:en|at\sFace|at\sGully|y\sCorries)\b/gm,
   /\bThe\sGri(?:d|p|pes)\b/gm,
   /\bThe\sGro(?:ve|in|unds|ves)\b/gm,
-  /\bThe\sGu(?:ards?|ides\sFlat|ild|lf|n|t|tter|vnor['‘’`]?s\sBelt)\b/gm,
+  /\bThe\sGu(?:ards?|ides\sFlat|ild|lf|ll|llet|lley|lls|lly|n|t|tter|vnor['‘’`]?s\sBelt|ys)\b/gm,
 
   /\bThe\sHa(?:lve|ngers?|nging|ngs|rbour|rd(?:\sInterchange)?|t)\b/gm,
   /\bThe\sHe(?:ads?|adway|ath|edge\s?[Rr]ow|dges|ights?|ritage)\b/gm,

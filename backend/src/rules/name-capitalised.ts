@@ -136,7 +136,6 @@ const a: string[] = [
 "ashake",           // first name
 "ashed",            // first name
 "ashen",            // first name & standalone & placenames (27)
-"ashes",            // standalone & placenames (64)
 "ashore",           // first name
 "askew",            // first name & standalone & placenames (16)
 "askings",          // surname
@@ -1930,48 +1929,9 @@ const a: string[] = [
 "grumblers",
 "grumbling",
 "grump",
-"guacamole",
-"guanaco",
-"guano",
-"guardroom",
-"guffaw",
-"guilder",
-"guilders",
-"guinness",
-"guise",
-"gulfs",
-"gulfwar",
-"gull",
-"gullet",
-"gullets",
-"gulley",
-"gulleys",
-"gulls",
-"gully",
-"gumtree",
-"gunner",
-"gunners",
-"gunnery",
-"gunning",
-"gunny",
-"gunpowder",
-"gunstock",
-"gunwale",
-"guppy",
-"gush",
-"gusset",
-"gust",
-"gusted",
-"gusto",
-"gusty",
-"guts",
-"gutting",
-"guy",
-"guys",
-"guzzle",
-"guzzler",
+"gusset",           // standalone
+"guy",              // first name & placenames (47)
 // H
-"ha",                 // first name & placenames (23)
 "haberdasher",
 "haberdashers",
 "hacienda",

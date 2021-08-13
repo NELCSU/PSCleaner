@@ -78,6 +78,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "art",              // first name & placenames (42)
 "arts",             // surname & placenames (90)
 "ascension",        // first name & placenames (8)
+"ashes",            // standalone & placenames (64)
 "asia",             // first name & placename
 "atlantic",         // first name & placenames (29)
 "atlas",            // first name & placenames (18)
@@ -1309,6 +1310,27 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "grounds",          // surname & placenames (75)
 "groundwater",      // surname & placename
 "groves",           // first name & placenames (37)
+"guano",            // surname & placename
+"guilder",          // surname & placename
+"guinness",         // surname & placenames (6)
+"guise",            // first name & placenames (7)
+"gull",             // first name & placenames (38)
+"gullet",           // surname & placenames (10)
+"gulley",           // first name & placenames (4)
+"gully",            // first name & placenames (210)
+"gunner",           // first name & standalone & placenames (17)
+"gunners",          // standalone & placenames (13)
+"gunnery",          // surname & placenames (3)
+"gunning",          // first name & placenames (8)
+"gunny",            // surname
+"gunstock",         // surname & placename
+"guppy",            // surname & standalone & placenames (4)
+"gush",             // surname
+"gust",             // first name
+"gusto",            // surname
+"gusty",            // surname
+"gutting",          // surname
+"guys",             // surname & placenames (8)
 "guardhouse",       // standalone & placenames (3)
 "guardian",         // surname & placenames (10)
 "guatemala",        // surname
@@ -1325,6 +1347,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "guyana",           // first name & placename
 "gypsy",            // first name & placenames (17)
 // H
+"ha",               // first name & placenames (23)
 "had",              // surname & placenames (4)
 "hail",             // surname & standalone & placenames (10)
 "hails",            // surname & placenames (2)

@@ -180,11 +180,13 @@ const a: RegExp[] = [
 /\bknee\sof\s(?:cairnsmore|scabra)\b/gmi,
 /\b(?:Muckle|Snickert)\sKnees?\b/gm,
 /\bknock\sjargon\scourt\b/gmi,
+/\bknott\sgulf\b/gmi,
 // KO
 /\bkorea\sroad\b/gmi,
 // KR
 /\bkremlin\sdrive\b/gmi,
-// L
+
+// LA
 /\bLakes\s[Aa]nd\sGardens\b/gm,
 /\bl(?:istening\spost|itchen)\sclose\b/gmi,
 /\bla(?:ck|g|nterns|ser|wyer['‘’`]?s|x)\slane\b/gmi,
@@ -240,6 +242,7 @@ const a: RegExp[] = [
 /\bLayer\sClose\b/gm,
 /\blayer[\s-](?:breton(?:\sh(?:eath|ill))?|de[\s-]la[\s-]haye|gardens|knowe|marney|road|wood)\b/gmi,
 /\b(?:marks\stey\sand\slayer|noon\slayer\sdrive|broad\slaying)\b/gmi,
+// LE
 /\b(?:Inner|Mid|Mill)\sLead\b/gm,
 /\b(?:lead\s(?:flats|green|hill|lane|mill\slane|mills|mine\s(?:clough|moss)|moor|pool|road|stone|street|wath\swood)|bridge\sof\slead\spot)\b/gmi,
 /\bleader\s(?:avenue|close|court|foot|kip|road|street|vale|valley|williams\sroad|wood)\b/gmi,
@@ -275,6 +278,7 @@ const a: RegExp[] = [
 /\b(?:Lower\sForest\sLevel|Hard\sLevel\sForce|(?:Middle|North|Upper\sForest)\sLevel)\b/gm,
 /\b(?:level\sof\smendalgief|level['‘’`]?s\sgreen|new\slevel\shill|old\slevel\sway|rhew\slevel\slane|the\schaddock\slevel)\b/gmi,
 /\bleveller\s(?:end|road|way)\b/gmi,
+// LI
 /\bLibrary\sClose\b/gm,
 /\blibrary\s(?:avenue|clump|court|gardens|hill|lane|mews|park|place|plantation|road|spinney|street|walk|way)\b/gmi,
 /\b(?:maughan|newington)\slibrary\b/gmi,
@@ -300,7 +304,9 @@ const a: RegExp[] = [
 /\b(?:Friendly|Knotty|Lavender|Long|Main|New|Pipe|Whiskey)\sLine\b/gm,
 /\b(?:lithe\slochan|na\slithe|chrann[\s-]lithe)\b/gmi,
 /\blive\smoor\b/gmi,
+/\blittle\sgulls\b/gmi,
 /\bLive\sStock\b/gm,
+// LO
 /\b(?:Little|Long)\sLoad\b/gm,
 /\bload\s(?:brook|field\sroad|lane|of\shay\sroad|pool|road|street)\b/gmi,
 /\bbull\sload\sdrove\b/gmi,
@@ -323,6 +329,7 @@ const a: RegExp[] = [
 /\b(?:park\slot\swood|rough\slot\scopse|town\slot\slane|turf\slot\sdrove)\b/gmi,
 /\blots\s(?:ait|dr[io]ve|lane|road|wood)\b/gmi,
 /\blottery\s(?:row|street)\b/gmi,
+// LU
 /\b(?:luck['‘’`s]*\s(?:lane|road|wood)|ledston\sluck|william\sluck\sclose)\b/gmi,
 ];
 const LocationILRegEx: Set<RegExp> = new Set();
