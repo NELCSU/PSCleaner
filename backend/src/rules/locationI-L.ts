@@ -151,6 +151,7 @@ const a: RegExp[] = [
 /\bkey['‘’`s]*\s(?:croft|green)\b/gmi,
 /\bLower\sKey\b/gm,
 // KI
+/\bkingfishers\s(?:court|reach)\b/gmi,
 /\bkid\s(?:cleughs|gate\sdrove|geo|glove\sroad|hill|islands|lane|moor|stone\shill|stones\shollow)\b/gmi,
 /\bkissing\s(?:batch|copse|gate|tree\s(?:lane|way))\b/gmi,
 /\bkitchen\s(?:avenue|ball\scopse|barrow\shill|bay|carr|clough|copse|coppice|corner|croft)\b/gmi,

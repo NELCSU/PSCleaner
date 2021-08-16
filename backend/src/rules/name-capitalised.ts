@@ -482,7 +482,6 @@ const a: string[] = [
 "bologna",
 "bolster",
 "bolsters",
-"bolt",
 "bolter",
 "bolts",
 "bolus",
@@ -1167,6 +1166,7 @@ const a: string[] = [
 "cluck",
 "clunk",
 "clutter",
+"cornfields",       // standalone
 "crystal",
 "csec",
 "cycad",
@@ -1628,6 +1628,7 @@ const a: string[] = [
 "extol",            // first name
 "ezema",            // surname
 // F
+"fairways",         // standalone
 "faith",            // first name
 "fealty",
 "fedora",
@@ -2400,6 +2401,7 @@ const a: string[] = [
 "khaki",
 "khalif",
 "king",               // surname & placenames (799)
+"kingfishers",        // standalone
 "knack",
 "kneedeep",           // standalone
 "knell",
@@ -3234,6 +3236,7 @@ const a: string[] = [
 "nyala",
 "nymph",
 // P
+"palestine",        // first name & standalone
 "papa",
 "papas",
 "papyrus",
@@ -3742,6 +3745,7 @@ const a: string[] = [
 "rebury",
 "recompence",
 "recto",
+"red",              // first name & standalone & placenames (534)
 "redbrick",
 "redbud",
 "redcap",
@@ -3882,7 +3886,6 @@ const a: string[] = [
 "rues",
 "ruff",
 "ruffer",
-"ruffians",
 "ruffle",
 "rufflers",
 "ruffles",
@@ -3976,7 +3979,6 @@ const a: string[] = [
 "salubrious",
 "salutation",
 "salvage",
-"salvation",
 "salve",
 "salvo",
 "samaritan",

@@ -53,12 +53,11 @@ export const NameSetJoinOnly: Set<string> = new Set([
   "road",          // placenames (1k+)
   "sea",           // placenames (189)
   "sir",           // placenames (214)
-  "spinney",       // placenames (1k+)
   "spinneys",      // placenames (37)
   "st",
   "street",        // placenames (1k+)
   "sub",           // placenames (32)
   "wall",          // placenames (188)
-  "wood",           // placenames (1k+)
+  "wood",          // placenames (1k+)
   "yd"
 ]);

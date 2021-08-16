@@ -21,7 +21,7 @@ const a: RegExp[] = [
 /\bquicksilver\s(?:crescent|street|way)\b/gmi,
 /\bQuiet\s(?:Close|Lane|[Nn]ook|Street|Water\sClose|Way)\b/gm,
 /\bquilters\s(?:close|drive|(?:infant|junior)\sschool|place|straight|way|wood|yard)\b/gmi,
-// R
+// RA
 /\broyal\snavy\savenue\b/gmi,
 /\br(?:adiant|ally|ed\sroofs|ookeries|odeo)\sclose\b/gmi,
 /\bro(?:okies|osting)\scovert\b/gmi,
@@ -72,6 +72,7 @@ const a: RegExp[] = [
 /\b(?:clwydian|crescent|cromwell|delahays|derby|eskmeals|forest|godfrey|highfield)\srange\b/gmi,
 /\b(?:hooley|langley|limekiln|lodge|nevis|north|park|sheltwood|sidlaw|snowdon|south|stanley|wally|westbourne|whalley|whitemoss|woodhayne)\srange\b/gmi,
 /\brangers\s(?:avenue|close|court|square|walk)\b/gmi,
+// RE
 /\b(?:armetriding|broad)\sreaches\b/gmi,
 /\breaches\s(?:drove|farm)\b/gmi,
 /\b(?:Reader|Reads)\sClose\b/gm,
@@ -113,6 +114,7 @@ const a: RegExp[] = [
 /\b(?:trevose|victoria|western)\sretreat\b/gmi,
 /\brevenge\s(?:close|road)\b/gmi,
 /\breview\s(?:ground|oak|road)\b/gmi,
+// RI
 /\brid\s(?:lane|plantation|reservoir|wood)\b/gmi,
 /\bRider\sClose\b/gm,
 /\brider['‘’`s]*\s(?:gardens|haggard\s(?:lane|road|way)|house|lane|plantation|point|road|street|way)\b/gmi,
@@ -167,11 +169,15 @@ const a: RegExp[] = [
 /\broundheads\s(?:end|wood)\b/gmi,
 /\b(?:black\scountry|cross|royal)\sroute\b/gmi,
 /\b(?:Cycle|Service)\sRoute\b/gm,
+/\bRoving\sClose\b/gm,
+/\broving\s(?:bridge\srise|reach|way)\b/gmi,
 /\browanberry\s(?:avenue|close|court|road)\b/gmi,
 /\b(?:corn|fen)\srows\b/gmi,
 /\b(?:Corn|Hedge)\sRows\b/gm,
 /\brows\s(?:lane|wood)\b/gmi,
 /\broyal\s(?:college|mail)\sstreet\b/gmi,
+// RU
+/\bruffian['‘’`]?s\scopse\b/gmi,
 /\brugged\s(?:butts\slane|jack|lane)\b/gmi,
 /\bruin\s(?:bank\swood|road|wood)\b/gmi,
 /\b(?:folla\srule|home\srule\sroad)\b/gmi,
@@ -203,6 +209,7 @@ const a: RegExp[] = [
 /\bcoed\srwl\b/gmi,
 // SA
 /\bS\sRoad\b/gm,
+/\bsalvation\splace\b/gmi,
 /\bsa(?:fety\sbay|ilcloth|wbill)\sclose\b/gmi,
 /\bsaw\smill\sstreet\b/gmi,
 /\bsandall\sbeat\sroad\b/gmi,
@@ -684,6 +691,7 @@ const a: RegExp[] = [
 /\bsquashes\swood\b/gmi,
 // SR
 // ST
+/\bst\.?\sjust\sclose\b/gmi,
 /\bStreet\s[1235678]/gm,
 /\bstart\savenue\b/gmi,
 /\bstudios\sroad\b/gmi,

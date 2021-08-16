@@ -1,5 +1,6 @@
 const a: RegExp[] = [
 // MA
+/\bmackrel['‘’`]?s\sdown\b/gmi,
 /\bmanor\sand\s(?:court|lodge)\b/gmi,
 /\bmanor\sprimary\b/gmi,
 /\bm(?:edical|osque)\savenue\b/gmi,
@@ -141,7 +142,7 @@ const a: RegExp[] = [
 /\b(?:aire|avon|babbacombe|barking\screek|bennett['‘’`]?s|burn|chibburn|cock|dene|duddo)\smouth\b/gmi,
 /\b(?:dutch\sriver|eden|embletonburn|erme|ford|havens|hell['‘’`s]*|hilly|holes?|isle)\smouth\b/gmi,
 /\b(?:kettle|kiln|lee|leven|litter|mar|marsland|millook|mun['‘’`]?s|musselwick|north)\smouth\b/gmi,
-/\b(?:northeast|pennar|pill['‘’`]?s|pool|portledge|sea|south|speke['‘’`]?s\smill)\smouth\b/gmi,
+/\b(?:pennar|pill['‘’`]?s|pool|portledge|sea|south|speke['‘’`]?s\smill)\smouth\b/gmi,
 /\b(?:st\sgabriel['‘’`]?s|stanbury|stoke|stony|tees|the\sgoat|thurne|tyne|wanson|water)\smouth\b/gmi,
 /\b(?:welcombe|well|went|weston|whales|wilder['‘’`]?s|yeol)\smouth\b/gmi,
 /\b(?:channel\smouth\sroad|derwent\smouth(?:\slock)?|gape\smouth\sroad|heddon['‘’`]?s\smouth(?:\s(?:beach|wood))?)\b/gmi,
@@ -231,12 +232,14 @@ const a: RegExp[] = [
 /\bnordic\s(?:crescent|drift|gardens|grove)\b/gmi,
 /\bnormal\s(?:avenue|terrace)\b/gmi,
 /\bnorth\saux\b/gmi,
+/\bnortheast\s(?:drive|mouth)\b/gmi,
 /\bnortherly\s(?:crescent|plantation)\b/gmi,
 /\b(?:Bowerman|Buck|Donald|Hare|Hog|Hope|Jock|Maclean|Pig|Priest|Sinclair)['‘’`]?sNose\b/gm,
 /\b(?:Bull|Long|Pick|Scar|Short|White|Yellow)\sNose\b/gm,
 /\b(?:barras|blowup|burrow|dounan|moody|rock|settling)\snose\b/gmi,
 /\bnose\s(?:coppice|plantation|of\s(?:cowsgarth|klumpa|the\s(?:bring|ridgeo|yard))|point|lane|spit)\b/gmi,
 /\b(?:green\snoses|noses\sholt)\b/gmi,
+// NU
 /\bNumber\sOne\b/gm,
 /\b(?:dock|inclosure|reservoirs?)\snumber\s\d{1,2}\b/gmi,
 /\bnumber\s\d{1,2}\s(?:drove|entrance\schannel|gully|plantation|pond|reservoir)\b/gmi,
@@ -395,6 +398,7 @@ const a: RegExp[] = [
 /\bpa(?:cks|dock|vilions)\sclose\b/gmi,
 /\bpa(?:ddlers|geantmaster)\scourt\b/gmi,
 /\bpa(?:d\scote|dding|rt(?:way)?|st)\slane\b/gmi,
+/\bpalestine\s(?:grove|plantation|road)\b/gmi,
 // PE
 /\bpe(?:aceful|cked|g|sters|stilence)\slane\b/gmi,
 // PI
