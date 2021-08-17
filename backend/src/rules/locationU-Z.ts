@@ -373,6 +373,7 @@ const a: RegExp[] = [
 /\bwrestlers\s(?:grove|wood)\b/gmi,
 /\bwriggle\s(?:brook|hill|river\slane|street)\b/gmi,
 // Y
+/\byeading\sfork\b/gmi,
 /\byeomen\sway\b/gmi,
 /\byouth\swood\b/gmi,
 /\byachtsman\sclose\b/gmi,

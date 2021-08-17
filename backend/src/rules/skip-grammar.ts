@@ -125,6 +125,8 @@ const a: RegExp[] = [
   /\btik\stok\b/gmi,
   /\b(?:back|top)\sof\sfoot\b/gmi,
   /\btooth\s*fairy\b/gmi,
+  // U
+  /\bUncle\sTom\b/gm,
   /\b[Üüu]ber\salles\b/gmi,
   /\bultra\s(?:high|low)\b/gmi,
   /\bunder\slevel\b/gmi,

@@ -1197,6 +1197,7 @@ const a: string[] = [
 "ndebele",
 "nebula",
 "negev",
+"negro",
 "neighborhoods",
 "neighbourhoods",
 "neon",

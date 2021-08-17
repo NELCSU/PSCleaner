@@ -272,6 +272,92 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "box",              // standalone & placenames (74)
 "boxer",            // firstname & placenames (5)
 "boys",             // first name & placenames (71)
+"bracken",          // first name & standalone & placenames (84)
+"brackens",         // surname & standalone & placenames (8)
+"bracket",          // surname & placenames (2)
+"bragger",          // surname
+"braid",            // first name & placenames (40)
+"brail",            // surname & placenames (5)
+"brainer",          // surname
+"brake",            // placenames (514)
+"brakes",           // surname & placenames (11)
+"bramble",          // first name & placenames (69)
+"brambles",         // standalone & placenames (17)
+"bran",             // first name & placenames (28)
+"brandish",         // surname & placenames (4)
+"brandy",           // first name & placenames (34)
+"bras",             // first name & placenames (8)
+"brash",            // surname
+"brass",            // surname & placenames (10)
+"brassier",         // surname
+"brat",             // first name & placenames (8)
+"braver",           // first name
+"bravos",           // surname
+"brawls",           // surname
+"brawn",            // surname & placenames (8)
+"brays",            // surname & placenames (14)
+"brazas",           // surname
+"braze",            // surname & placename
+"brazer",           // surname
+"brazier",          // first name & placenames (7)
+"bream",            // surname & standalone & placenames (22)
+"breed",            // first name & placenames (2)
+"breeds",           // surname & placenames (2)
+"breedy",           // surname
+"brethren",         // standalone & placenames (2)
+"brewer",           // surname & standalone & placenames (19)
+"brews",            // surname
+"brewster",         // surname & placenames (20)
+"brey",             // first name
+"briar",            // first name & placenames (89)
+"briars",           // surname & placenames (19)
+"bricking",         // surname
+"bricks",           // surname & placenames (4)
+"brickyard",        // standalone & placenames (25)
+"bridegroom",       // surname & placename
+"brides",           // first name & placenames (26)
+"bridges",          // first name & placenames (44)
+"bridle",           // surname & placenames (51)
+"brier",            // surname & placenames (30)
+"briers",           // surname & placenames (11)
+"briery",           // surname & standalone & placenames (37)
+"brig",             // first name & placenames (46)
+"brigand",          // surname
+"brims",            // surname & standalone & placenames (5)
+"brimstone",        // surname & placenames (15)
+"brine",            // first name & placenames (9)
+"brines",           // surname & placenames (2)
+"bringer",          // surname & placenames (2)
+"brink",            // first name & placenames (14)
+"brio",             // first name
+"brisk",            // surname
+"bristle",          // surname & placenmes (4)
+"brittles",         // surname
+"broach",           // surname & placenames (10)
+"broadest",         // surname
+"broadhead",        // surname & standalone & placenames (9)
+"broadway",         // surname & standalone & placenames (87)
+"brood",            // surname
+"broody",           // surname
+"brooking",         // first name & standalone & placenames (5)
+"brooks",           // first name & placenames (62)
+"broom",            // surname & placenames (176)
+"brooms",           // surname & placenames (19)
+"bros",             // surname & placename
+"brotherhood",      // surname & placenames (4)
+"brothers",         // surname & standalone & placenames (8)
+"brough",           // first name & placenames (76)
+"brow",             // surname & placenames (619)
+"browner",          // surname
+"brownfield",       // first name & placenames (3)
+"brownie",          // surname & placenames (7)
+"browning",         // first name & placenames (21)
+"browns",           // surname & placenames (34)
+"browse",           // surname & placenames (3)
+"brum",             // first name & placename
+"brunt",            // surname & placenames (27)
+"brushes",          // standalone & placenames (6)
+"brushwood",        // surname & placenames (7)
 "brace",            // first name & placenames (14)
 "brand",            // surname & placenames (29)
 "brands",           // surname & placenames (13)
@@ -393,7 +479,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "catcher",          // surname & placenames (3)
 "cathedral",        // standalone & placenames (59)
 "cause",            // standalone & placenames (3)
-"causeway",         // placenames (160)
 "celsius",          // first name
 "cemetery",         // placenames (22)
 "centre",           // placenames (677)
@@ -1456,7 +1541,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "idle",             // surname & placenames (12)
 "idler",            // surname
 "ilk",              // surname & placename
-"illustrious",      // standalone & placenames (4)
 "imam",             // first name & placename
 "immaculate",       // first name & placenames (8)
 "imms",             // surname
@@ -3472,6 +3556,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "whistle",          // first name & placenames (10)
 "white",            // surname & placenames (833)
 "whites",           // surname & placenames (33)
+"whitsun",          // first name & placenames (5)
 "wicker",           // surname & standalone & placenames (7)
 "wicket",           // standalone & placenames (13)
 "wicking",          // surname & placenames (3)
