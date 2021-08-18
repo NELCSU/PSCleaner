@@ -25,8 +25,11 @@ export class AppMenu {
             case "showDevTools":
               s.click = () => this.showDevTools();
               break;
+            case "showReleases":
+              s.click = () => this.showLink(s.url);
+              break;
             case "showHelp":
-              s.click = () => this.showHelp(s.url);
+              s.click = () => this.showLink(s.url);
               break;
             case "showLogs":
               s.click = () => this.showLogs();
@@ -56,7 +59,7 @@ export class AppMenu {
     this.#parent.mainWindow.webContents.toggleDevTools();
   }
 
-  public showHelp(url: string): void {
+  public showLink(url: string): void {
     shell.openExternal(url);
   }
 

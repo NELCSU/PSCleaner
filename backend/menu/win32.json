@@ -47,7 +47,9 @@
           "type": "separator"
         },
         {
-          "label": "version"
+          "label": "Version",
+          "click": "showReleases",
+          "url": "https://github.com/NELCSU/PSCleaner/releases"
         }
       ]
     }

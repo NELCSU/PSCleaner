@@ -16,6 +16,7 @@ const a: RegExp[] = [
 /\bearning\s(?:stream|street)\b/gmi,
 /\bearns\s(?:cleugh|heugh(?:\s(?:avenue|circle|crescent|place|road|view|walk|way))?)\b/gmi,
 /\bearth\s(?:copse|green|holes|holme|lane|primary|street|wall|wood)\b/gmi,
+/\beast\snymph\slane\b/gmi,
 /\b(?:easy\s(?:lane|row|view\slane)|allan\seasy|(?:cross\s)?easy\sroad|moss\seasy)\b/gmi,
 // EC
 /\b(?:mount\secho\s(?:avenue|drive)|echo\s(?:bank|cleugh|close|court|crags|crescent|heights|hill|lane|pit\sroad|street|way|wood))\b/gmi,
@@ -28,7 +29,7 @@ const a: RegExp[] = [
 // EF
 /\be(?:ffort|l(?:ectricity|even)|quitable|vening|excise)\sstreet\b/gmi,
 // EG
-/\begg\sclump\b/gmi,
+/\begg\s(?:clump|moor)\b/gmi,
 /\be(?:gg|piphany\sChurch|rr|ygpt)\swood\b/gmi,
 // EI
 /\b(?:Eighth|Eleventh|Every)\sStreet\b/gm,
@@ -111,6 +112,7 @@ const a: RegExp[] = [
 // FL
 /\bfl(?:intlock|owerpot)\sclose\b/gmi,
 // FO
+/\bfoundary\sclose\b/gmi,
 /\bfortieth\savenue\b/gmi,
 /\bforest\sers\sclose\b/gmi,
 /\bF(?:aints|airness|irework|olding)\sClose\b/gm,

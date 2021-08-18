@@ -159,6 +159,10 @@ const a: RegExp[] = [
 /\bmustards\s(?:gapp|road)\b/gmi,
 /\bmutual\s(?:street|wood)\b/gmi,
 /\b(?:Near\sMuzzle|Muzzle\sPatch)\b/gm,
+// MY
+/\bMystery\sClose\b/gm,
+/\bmystery\shill\slake\b/gmi,
+/\bmystic\scorner\b/gmi,
 // N
 /\bNorth\s[Aa]nd\s(?:Central|East)\b/gm,
 /\bn(?:ativity|ine\swells)\sclose\b/gmi,
@@ -406,6 +410,7 @@ const a: RegExp[] = [
 /\bpa(?:ddlers|geantmaster)\scourt\b/gmi,
 /\bpa(?:d\scote|dding|rt(?:way)?|st)\slane\b/gmi,
 /\bpalestine\s(?:grove|plantation|road)\b/gmi,
+/\bpartway\scoppice\b/gmi,
 // PE
 /\bpe(?:aceful|cked|g|sters|stilence)\slane\b/gmi,
 // PI
@@ -618,6 +623,7 @@ const a: RegExp[] = [
 /\bpolice\s(?:convalescent\shome|drive|lane|pit|road|row|square|station\s(?:lane|road|square)|street)\b/gmi,
 /\bpolice\sstation\s(?:road|square)\b/gmi,
 /\bpoliceman['‘’`]?s(?:lane|loke|wood)\b/gmi,
+/\bpop\slane\b/gmi,
 /\bpopes\s(?:acre|close|court|crescent|drive|grove|hill|lane|meade?|meadow|road|row|stile|walk|wood)\b/gmi,
 /\bPopular\sRoad\b/gm,
 /\bpopular\s(?:mews|terrace)\b/gmi,
@@ -651,7 +657,10 @@ const a: RegExp[] = [
 /\bprintworks\s(?:campus|close|lane|road)\b/gmi,
 /\b(?:berrick|cle[ae]ve|coed\sy|dean|garth\sy|heol\sy|lon[\s-]y|oldbury|shaugh|stanton|stoke|stryd\sy|swaffham|tweedmouth)[\s-]prior\b/gmi,
 /\bPrior\s(?:View|Way)\b/gm,
-/\bprior\s(?:avenue|bank\sorchard|bolton\sstreet|chase|close|crescent|croft(?:\sclose)?|dene|drive|end|heath|deram\swalk|farm\sclose|fen|grove|house\swood|lane|linn|moor|muir|park(?:\s(?:college|landscape\sgarden|lane|plantation|preparatory\sschool|road))?|place|pursglove|rigg(?:\slane)?|road|stephen\sway|street|terrace|wath\sroad|weston|william\sclose|wood)\b/gmi,
+/\bprior\s(?:avenue|bank\sorchard|bolton\sstreet|chase|close|crescent|croft(?:\sclose)?|dene|drive)\b/gmi,
+/\bprior\s(?:end|heath|deram\swalk|farm\sclose|fen|grove|house\swood|lane|linn|moor|muir)\b/gmi,
+/\bprior['‘’`s]*\s(?:park(?:\s(?:college|landscape\sgarden|lane|plantation|preparatory\sschool|road))?)\b/gmi,
+/\bprior\s(?:place|pursglove|rigg(?:\slane)?|road|stephen\sway|street|terrace|wath\sroad|weston|william\sclose|wood)\b/gmi,
 /\bprioress\s(?:crescent|mill\slane|road|street)\b/gmi,
 /\bprison\s(?:brae|copse|court|geo|rock|strip)\b/gmi,
 /\bprivate[\s-]walk(?:\swood)?\b/gmi,

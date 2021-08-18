@@ -92,6 +92,11 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "awkward",          // surname & placename
 "axe",              // surname & placenames (21)
 "axon",             // surname & placenames (4)
+"axing",            // surname
+"axion",            // first name
+"axle",             // first name & placenames (2)
+"aye",              // first name & placenames (2)
+"azalea",           // first name & placenames (14)
 "azure",            // first name & placenames (4)
 // B
 "baby",             // first name & placenames (8)
@@ -437,6 +442,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "buzz",             // first name & placename
 "buzzer",           // surname
 "bye",              // surname & placenames (21)
+"byway",            // surname & placenames (3)
 // C
 "cabal",            // surname & placenames (3)
 "cadre",            // first name
@@ -777,7 +783,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "crooks",           // surname & standalone & placenames (17)
 "cropper",          // first name & standalone & placenames (11)
 "crosspost",        // standalone & placename
-"crossways",        // standalone & placenames (28)
 "crotch",           // surname & placename
 "crouch",           // surname & standalone & placenames (46)
 "crow",             // surname & placenames (175)
@@ -816,6 +821,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "crown",            // placenames (146)
 "cruder",           // surname
 "crutch",           // surname & placenames (5)
+"crystal",          // first name & placenames (28)
+"csec",             // first name
 "cull",             // surname & placenames (6)
 "culling",          // surname & placenames (2)
 "cullings",         // surname & placenames (2)
@@ -847,6 +854,11 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "cyber",            // first name & placename
 "cygnet",           // standalone & placenames (20)
 "cyprus",           // first name & placenames (13)
+"cymbal",           // surname & placename
+"cymbalist",        // surname
+"cypher",           // surname
+"cyphers",          // surname
+"czar",             // first name & placename
 // D
 "dairy",            // surname & placenames (81)
 "dance",            // surname & placenames (11)
@@ -918,6 +930,12 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "dutchess",         // surname
 "duvet",            // surname
 "dynasty",          // first name & placename
+"dye",              // surname & placenames (9)
+"dyes",             // surname & placenames (2)
+"dyke",             // first name & placenames (200)
+"dykes",            // first name & placenames (70)
+"dynamite",         // first name
+"dynamos",          // surname
 // E
 "earing",           // surname
 "earl",             // first name & placenames (79) 
@@ -977,8 +995,12 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "exchange",         // standalone & placenames (29)
 "exe",              // surname & placenames (20)
 "expressway",       // placenames (23)
+"excel",            // first name & placenames (2)
+"exodus",           // first name
+"extol",            // first name
 "eye",              // standalone & placenames (58)
 "eyed",             // first name & placename
+"ezema",            // surname
 // F
 "fable",            // first name
 "facia",            // surname
@@ -1532,6 +1554,12 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hurts",            // surname & placenames (2)
 "hut",              // surname & placenames (27)
 "hydra",            // first name & placenames
+"hyacinth",         // first name & placenames (8)
+"hydros",           // surname
+"hymen",            // surname
+"hymn",             // first name
+"hyperion",         // first name & placenames (8)
+"hypes",            // surname
 // I
 "ibis",             // first name & placenames (6)
 "ibu",              // surname
@@ -1804,6 +1832,10 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "lunar",            // first name & placenames (5)
 "lunas",            // first name
 "luxembourg",       // surname & placenames (4)
+"lychee",           // first name
+"lyes",             // first name & placenames (3)
+"lynx",             // first name & placenames (7)
+"lyric",            // first name & placenames (6)
 // M
 "macedonia",        // first name & standalone
 "macro",            // surname & placename
@@ -1983,6 +2015,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "musters",          // standalone & placenames (4)
 "mutt",             // surname
 "myanmar",          // first name
+"myriad",           // first name
 // N
 "nags",             // suranme & placenames (6)
 "nah",              // first name & placename
@@ -2019,6 +2052,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "nurs",             // first name & placenames (3)
 "nursey",           // surname & placenames (7)
 "nutty",            // surname & placename
+"nyala",            // first name
 // O
 "oak",              // placenames (797)
 "oaken",            // first name & placenames (45)
@@ -2354,6 +2388,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "punchbowl",        // standalone & placenames (8)
 "puncher",          // surname
 "punches",          // surname & placename
+"pyres",            // surname
+"pythagoras",       // first name
 // Q
 "quack",            // surname & placename
 "quadrant",         // placenames (199)
@@ -3463,6 +3499,19 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "uphold",           // surname
 "upper",            // placenames (1k+)
 // V
+"vain",             // firs name & placenames (6)
+"vale",             // first name & placenames (995)
+"valency",          // first name & placenames (3)
+"valiant",          // first name & placenames (9)
+"valor",            // surname & placename
+"vandal",           // first name
+"vane",             // first name & placenames (14)
+"vanes",            // first name
+"vanity",           // first name & placenames (3)
+"varsity",          // standalone & placenames (6)
+"vassal",           // surname
+"vats",             // first name & placenames (5)
+"vault",            // surname & placenames (7)
 "valentines",       // first name & standalone & placenames (13)
 "valley",           // placenames (921)
 "valuta",           // surname
@@ -3493,7 +3542,43 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "virgin",           // first name & placenames (17)
 "vit",              // surname
 "vitae",            // first name & placename
+"vials",            // surname
+"vibe",             // first name
+"vicarage",         // surname & standalone & placenames (90)
+"vicars",           // surname & placenames (24)
+"victus",           // first name
+"vigor",            // surname & placenames (6)
+"vigour",           // surname
+"villas",           // first name & placenames (314)
+"vine",             // first name & placenames (61)
+"vinegar",          // surname & placenames (6)
+"vines",            // first name & placenames (9)
+"vineyard",         // surname & standalone & placenames (37)
+"vino",             // first name
+"vinter",           // first name & placename
+"viola",            // first name & placenames (31)
+"violin",           // first name
+"viper",            // first name & placenames (2)
+"vipers",           // surname
+"virgo",            // first name & placename
+"virtuoso",         // surname
+"virtuous",         // first name
+"visage",           // surname
+"viscera",          // surname
+"viscount",         // first name & placenames (17)
+"vise",             // surname
+"vison",            // surname
+"vista",            // first name & placenames (26)
+"vistas",           // first name
+"vitality",         // first name & placename
+"viva",             // first name & placename
 "vortex",           // surname & placename
+"vogue",            // first name & standalone & placenames (3)
+"volcano",          // surname
+"vole",             // first name & standalone & placenames (5)
+"volt",             // surname & placename
+"vowel",            // surname
+"vowels",           // surname & placename
 // W
 "wacko",            // surname
 "wales",            // surname & placenames (141)

@@ -248,6 +248,7 @@ const a: RegExp[] = [
 /\b(?:princes\slanding\sstage|the\spacket\slanding)\b/gmi,
 /\bLandscape\s(?:Close|Garden)\b/gm,
 /\blandscape\s(?:dene|drive|lane|road|view)\b/gmi,
+/\blaps\swater\b/gmi,
 /\blatin\s(?:close|gardens|grove|street)\b/gmi,
 /\blatter\s(?:barrow|rig\smoss|road)\b/gmi,
 /\b(?:launch\sstreet|ship\slaunch\sroad)\b/gmi,
@@ -330,6 +331,7 @@ const a: RegExp[] = [
 /\bloch\s(?:an\sair|arm|beauty)\b/gmi,
 /\b(?:log\s(?:geo|wood)|(?:ber|crook|tory)\slog)\b/gmi,
 /\bLonely\s(?:Road|Wood)\b/gm,
+/\blong\srap\splantation\b/gmi,
 /\blookout\s(?:clump|hill|lake|plantation|pool)\b/gmi,
 /\b(?:dyer['‘’`]?s|zawn)\slookout\b/gmi,
 /\bloop\s(?:court\smews|halt|hill|hole|lane|meadow|park|road|street|wood|wyke)\b/gmi,
@@ -345,6 +347,9 @@ const a: RegExp[] = [
 /\blottery\s(?:row|street)\b/gmi,
 // LU
 /\b(?:luck['‘’`s]*\s(?:lane|road|wood)|ledston\sluck|william\sluck\sclose)\b/gmi,
+// LY
+/\blyre['‘’`s]*\s(?:cliff|cro|geo)\b/gmi,
+/\bLyrical\sWay\b/gm,
 ];
 const LocationILRegEx: Set<RegExp> = new Set();
 a.forEach(term => LocationILRegEx.add(term));

@@ -174,11 +174,6 @@ const a: string[] = [
 "awed",             // first name
 "awes",             // first name
 "awol",             // first name
-"axing",            // surname
-"axion",            // first name
-"axle",             // first name & placenames (2)
-"aye",              // first name & placenames (2)
-"azalea",           // first name & placenames (14)
 // B
 "babe",             // first name & placename
 "backwater",        // standalone & placenames (2)
@@ -665,10 +660,7 @@ const a: string[] = [
 "buttons",
 "buzzard",
 "buzzards",
-"byebye",
-"bygone",
-"byway",
-"byways",
+"byway",            // standalone & placename
 // C
 "cabbage",
 "cabernet",
@@ -1041,14 +1033,7 @@ const a: string[] = [
 "clunk",
 "clutter",
 "cornfields",       // standalone
-"crystal",
-"csec",
-"cycad",
-"cymbal",
-"cymbalist",
-"cypher",
-"cyphers",
-"czar",
+"crossways",        // standalone
 // D
 "dab",
 "dabbling",
@@ -1425,13 +1410,6 @@ const a: string[] = [
 "dustman",
 "dusty",
 "dwellings",
-"dye",
-"dyes",
-"dyke",
-"dykes",
-"dynamite",
-"dynamo",
-"dynamos",
 // E
 "eagle",
 "eagles",
@@ -1497,10 +1475,6 @@ const a: string[] = [
 "evergreens",       // standalone & placenames (3)
 "eves",             // first name & placenames (8)
 "ewes",             // standalone & placenames (2)
-"excel",            // first name & placenames (2)
-"exodus",           // first name
-"extol",            // first name
-"ezema",            // surname
 // F
 "fairways",         // standalone
 "faith",            // first name
@@ -2229,13 +2203,6 @@ const a: string[] = [
 "hutch",
 "hutches",
 "huts",
-"hyacinth",
-"hyaena",
-"hydros",
-"hymen",
-"hymn",
-"hyperion",
-"hypes",
 // I
 "illustrious",    // standalone
 "ivy",            // first name
@@ -2645,15 +2612,8 @@ const a: string[] = [
 "lusty",
 "lute",
 "lutes",
-"lychee",
-"lye",
-"lyes",
-"lynch",
-"lynx",
-"lyre",
-"lyres",
-"lyric",
-"lyrical",
+"lye",              // first name & standalone & placenames (40)
+"lynch",            // surname & standalone & placenames (46)
 // M
 "ma",               // first name & placenames (13)
 "macadamia",
@@ -3003,10 +2963,6 @@ const a: string[] = [
 "mutters",
 "mutton",
 "muttons",
-"myriad",
-"mystery",
-"mystic",
-"mystique",
 // N
 "nab",
 "nabs",
@@ -3108,8 +3064,6 @@ const a: string[] = [
 "novice",
 "nurseryman",
 "nutmeg",
-"nyala",
-"nymph",
 // P
 "palestine",        // first name & standalone
 "papa",
@@ -3514,9 +3468,6 @@ const a: string[] = [
 "putsch",
 "putti",
 "putty",
-"pyracantha",
-"pyres",
-"pythagoras",
 // R
 "rabat",
 "rabbi",
@@ -3795,7 +3746,6 @@ const a: string[] = [
 "rusty",
 "rut",
 "ruts",
-"ryegrass",
 // S
 "sabbat",
 "sabbath",
@@ -4363,31 +4313,6 @@ const a: string[] = [
 "utters",
 "uvula",
 // V
-"vacua",
-"vaduz",
-"vain",
-"vale",
-"valency",
-"valhalla",
-"valiant",
-"valor",
-"valuation",
-"vampire",
-"vandal",
-"vane",
-"vanes",
-"vangogh",
-"vanity",
-"vanquish",
-"vanquisher",
-"vantage",
-"vapor",
-"varsity",
-"vary",
-"vassal",
-"vats",
-"vault",
-"vaults",
 "veal",
 "vector",
 "veldt",
@@ -4413,63 +4338,10 @@ const a: string[] = [
 "vertex",
 "verucca",
 "vestry",
-"vials",
-"vibe",
-"vibrato",
-"vicarage",
-"vicars",
-"victor",
-"victors",
-"victuals",
-"victus",
-"vigor",
-"vigour",
-"villa",
-"villas",
-"vine",
-"vinegar",
-"vineries",
-"vinery",
-"vines",
-"vineyard",
-"vineyards",
-"vino",
-"vinter",
-"viola",
-"violet",
-"violets",
-"violin",
-"viper",
-"vipers",
-"virago",
-"virgo",
-"virtuosi",
-"virtuoso",
-"virtuous",
-"visage",
-"viscera",
-"viscount",
-"viscounts",
-"vise",
-"vison",
-"vista",
-"vistas",
-"vitality",
-"vitriol",
-"viva",
-"vogue",
-"volcanic",
-"volcano",
-"vole",
-"volt",
-"voodoo",
-"vowel",
-"vowels",
-"vows",
-"voyage",
-"voyager",
-"voyagers",
-"vulva",
+"victor",           // first name & placenames (28)
+"victors",          // first name & placenames (3)
+"villa",            // first name & placenames (79)
+"violet",           // first name & placenames (37)
 // W
 "wade",             // first name & placenames (53)
 "warren",           // first name & placenames (404)

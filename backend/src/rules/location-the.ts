@@ -25,7 +25,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sBro(?:ads?|adway|oks|oms?|thers|ugh|ws?|xbourne)\b/gm,
   /\bThe\sBru(?:sh|shes)\b/gm,
   /\bThe\sBu(?:cklers|dding|ffer|ngalows|ntings?|ll\sRing|rns?|s|sh|shes|sy|tchery|tts)\b/gm,
-  /\bThe\sBy(?:e|e?[\s-](?:[Pp]ass|[Ww]ay))\b/gm,
+  /\bThe\sBy(?:e|e?[\s-](?:[Pp]ass|[Ww]ays?))\b/gm,
   
   /\bThe\sCa(?:ble|irns|lf|lls?|mp|mpus|nal|ndle|ndlemakers|pes|st|stle|t|thedral|useway)\b/gm,
   /\bThe\sCar(?:e|penters|riages|t\sTrack|ts)?\b/gm,
@@ -60,6 +60,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sDo(?:cks?|ors|ves|wns?|wns\sBrake)\b/gm,
   /\bThe\sDr(?:ain|iftway|ive|iveway|ums?)\b/gm,
   /\bThe\sDue\b/gm,
+  /\bThe\sDy(?:es|ke\sForest|kes)\b/gm,
   
   /\bThe\sEa(?:ger|rls|rthquake)\b/gm,
   /\bThe\sEl(?:ders|even\sAcre|lipse|ms)\b/gm,
@@ -145,7 +146,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sOlde?\sRoad\b/gm,
   /\bThe\sOlde?\sS(?:aw\sMills?|chool\sField|idings|table\sYard|tackyard|tation\sRoad|tubble)\b/gm,
   /\bThe\sOlde?\sT(?:annery|ennis\sCourts)\b/gm,
-  /\bThe\sOlde?\sVinery\b/gm,
+  /\bThe\sOlde?\sV(?:inery|ineries|ineyards?)\b/gm,
   /\bThe\sOlde?\sW(?:alled\sGarden|arehouse|ife|oodyard)\b/gm,
   /\bThe\sOa(?:ks|sis)?\b/gm,
   /\bThe\sOr(?:angery|chards?|chids)\b/gm,
@@ -230,7 +231,9 @@ export const LocationTheRegEx: RegExp[] = [
 
   /\bThe\sU(?:nderpass|nderway|niversity\s[Oo]f)\b/gm,
 
-  /\bThe\sV(?:ale|alleys?|ans?|ar|iaduct|ictory|iews?|ikings|illage|intage\sPair|omit)\b/gm,
+  /\bThe\sVa(?:le|lleys?|ns?|r)\b/gm,
+  /\bThe\sVi(?:aduct|ctory|ews?|kings|llage|nes?|neries|nery|neyard|ntage\sPair|olets?)\b/gm,
+  /\bThe\sVo(?:mit|yager\sAcademy)\b/gm,
 
   /\bThe\sW\sAuns\b/gm,
   /\bThe\sWa(?:d|des|ge\sOf|ggonway|its|kerings|ver)\b/gm,
