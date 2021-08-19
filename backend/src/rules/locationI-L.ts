@@ -81,6 +81,7 @@ const a: RegExp[] = [
 /\b(?:capital\s)?interchange\sway\b/gmi,
 /\bintermediate\s(?:lake|road)\b/gmi,
 /\b(?:ashford|birmingham|ebbsfleet|harwich|lamb\sholm|lycee|pancras|stratford)\sinternational\b/gmi,
+/\bintakes\splantation\b/gmi,
 /\binternational\s(?:academy|approach|avenue|drive|ferry|gate|girls|port|university|view|way)\b/gmi,
 /\binvincible\s(?:close|drive|road|way)\b/gmi,
 /\biol[\s-](?:ghaoith|bheathain)\b/gmi,

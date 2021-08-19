@@ -82,6 +82,8 @@ const a: RegExp[] = [
 /\bEuropean\sWay\b/gm,
 /\beurostar\smeadow\b/gmi,
 // EV
+/\bevening\s(?:court|glade|hill(?:\sdrive)?|street|wood)\b/gmi,
+/\bEvening\sStar\b/gmi,
 /\bevolution\s(?:court|road)\b/gmi,
 // EX
 /\bex(?:perian|plore)\sway\b/gmi,
@@ -105,6 +107,7 @@ const a: RegExp[] = [
 // FA
 /\bfairways\s(?:avenue|close|court|crescent|drive|estate|place|primary\sschool|road|school|view|walk)\b/gmi,
 /\bfanfare\sclose\b/gmi,
+/\bfangs\sbrow\b/gmi,
 // FI
 /\bfirebrick\savenue\b/gmi,
 /\bfishwives['‘’`]?\scauseway\b/gmi,

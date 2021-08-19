@@ -1163,7 +1163,8 @@ const a: RegExp[] = [
 /\btownship\splantation\b/gmi,
 /\btoys\s(?:hill|lane|rough)\b/gmi,
 /\bto(?:ast|ngues)\slane\b/gmi,
-/\btooth\sstreet\b/gmi,
+/\btooth\s(?:hill|how\splantation|street)\b/gmi,
+/\b(?:bhasteir|carlin)\stooth\b/gmi,
 /\btown\sand\sdowns\b/gmi,
 // TR
 /\btransit\sway\b/gmi,

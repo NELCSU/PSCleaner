@@ -3529,6 +3529,15 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "vermillion",       // surname
 "versatile",        // first name & placename
 "vest",             // first name & placename
+"veal",             // surname & placenames (6)
+"vector",           // first name & placename
+"venerable",        // first name & placenames (3)
+"vent",             // surname & placename
+"verdant",          // surname & placenames (5)
+"verge",            // surname & placename
+"verger",           // surname & placename
+"verges",           // surname & placenames (2)
+"verse",            // surname
 "viaduct",          // standalone & placenames (27)
 "victorian",        // first name & placenames (3)
 "victory",          // first name & standalone & placenames (34)
