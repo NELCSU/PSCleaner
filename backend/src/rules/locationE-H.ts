@@ -106,6 +106,7 @@ const a: RegExp[] = [
 /\beynard\simpasse\b/gmi,
 // FA
 /\bfairways\s(?:avenue|close|court|crescent|drive|estate|place|primary\sschool|road|school|view|walk)\b/gmi,
+/\bfamilars\srocks\b/gmi,
 /\bfanfare\sclose\b/gmi,
 /\bfangs\sbrow\b/gmi,
 // FI
@@ -611,6 +612,7 @@ const a: RegExp[] = [
 /\b(?:bridge\sfield|cowpasture|farewell|mill)\shangar\b/gmi,
 /\bHanged\sMan(?:['‘’`]?s\s[Hh]ill)?\b/gm,
 /\b(?:beech\shangers\slane|hangers\s(?:copse|hyle\scopse|wood)|(?:low|petersfield)\shangers)\b/gmi,
+/\bharbour\scare\shome\b/gmi,
 /\bhard\s(?:bank\shead|clump|crag\swood|dale|field\s(?:close|wood)|gap\slane|gate\smoss|head\s(?:clough|heugh|hillock|ings\sroad|knot\shill|knott(?:\srise)?|knotts\slane|moss|plantation)|knowe|leaze\sdrove|level\sforce|lewis\srocks|meadow\slane|moor|nese\sclough|nese\slane|park\splantation|platts\s(?:lane|wood)|rake\splantations|rigg|stiles|tarn|times\splantation|turf\shill)\b/gmi,
 /\bHard\s(?:Gate|Head(?:\s[Pp]lantation)?|Hill|Lane|Law)\b/gm,
 /\b(?:high\scocked|cocked|cock[ei]t|dark|king['‘’`]?s|top)\shat\s(?:coppice|copse|court|covert|hill|inclosure|lane|lawn|park|plantations?|road|spinney|strip|wood)\b/gmi,

@@ -1,6 +1,11 @@
 const a: RegExp[] = [
+// UG
 /\buganda\sstreet\b/gmi,
+/\b(?:great|little)\sugly\sclough\swood\b/gmi,
+/\bugly\s(?:dale|lane)\b/gmi,
+// UK
 /\bukraine\sroad\b/gmi,
+// UN
 /\bun(?:cles|derway)\slane\b/gmi,
 /\buncle['‘’`s]*\s(?:ben['‘’`]?s\sclose|tom['‘’`]?s\spoint|hillock|lane)\b/gmi,
 /\bun(?:couth|it)\sroad\b/gmi,
@@ -31,17 +36,26 @@ const a: RegExp[] = [
 /\buniversal\s(?:close|road|street)\b/gmi,
 /\buniversity\s(?:academy|avenue|barns|boulevard|centre|close|court|crescent|drive|farm|garden|hospital|house|parks?|parkway|place|quays|road|street|terrace|walk|way|wood)\b/gmi,
 /\bunnamed\s(?:rd|road)\b/gmi,
+// UP
 /\b(?:burnt-up\sdrove|donington\sup\sfen|lock-up\slane|monkton\sup\swimborne|new\sroll-up)\b/gmi,
 /\b(?:old\sroll-up|shoot-up\shill|stonebeck\sup)\b/gmi,
 /\bup[\s-](?:brooks|cerne(?:\swood)?|corner(?:\sclose)?|croft|end|exe|green|hatherley(?:\sway)?)\b/gmi,
 /\bup[\s-](?:holland|marden|mudford|nately|park|somborne(?:\s(?:down|wood))?|street|sydling|wood)\b/gmi,
 /\bupon[\s-]?(?:alun|avon|dearne|derwent|dunsmore|end|hine|hull|humber|irwell|medlock|mendip|mersey|moors|severn|soar|spalding|stather|teme|tern|thames|the[\s-]weald|trent|tweed|tyne)\b/gmi,
+/\buppermost\sclough\b/gmi,
 /\bUpper\s[Aa]nd\sLower\b/gm,
 /\bupping\scopse\b/gmi,
 /\bupshot\s(?:lane|wood)\b/gmi,
+// UR
 /\b(?:abergavenny|ellesmere|heol|stanwix|stone|wem|whitchurch)\surban\b/gmi,
 /\burban\s(?:avenue|drive|gardens|hive|mews|road|street|terrace|view|way)\b/gmi,
+/\burchin\s(?:clough|hill|wood)\b/gmi,
+// US
+/\bushers\s(?:meadow|wynd)\b/gmi,
+// UT
+/\butters\shill\b/gmi,
 // VA
+/\bvalley\sprimary\sschool\b/gmi,
 /\b(?:cobham\svalleys|valleys\sshaw|heads\sof\sthe\svalleys\sroad|three\svalleys\sway|hospice\sof\sthe\svalleys)\b/gmi,
 /\bThree\sValleys\b/gm,
 /\bvaluation\slane\b/gmi,
@@ -223,6 +237,7 @@ const a: RegExp[] = [
 /\bupper\swellheads\b/gmi,
 /\bwellheads\s(?:avenue|crescent|drive|hill|place|plantation|road|spinney|terrace|way)\b/gmi,
 /\bwellhole\swood\b/gmi,
+/\bwest\sprimary\sschool\b/gmi,
 /\bwesterns\s(?:approach|lane)\b/gmi,
 /\b(?:great\swet\swood|ipswich\swet\sdock)\b/gmi,
 /\bwetland\s(?:field|wood)\b/gmi,

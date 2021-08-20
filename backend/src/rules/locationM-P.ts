@@ -247,6 +247,7 @@ const a: RegExp[] = [
 /\b(?:green\snoses|noses\sholt)\b/gmi,
 // NU
 /\bNumber\sOne\b/gm,
+/\bnumbers\s1\sand\s2\sentrance\schannel\b/gmi,
 /\b(?:dock|inclosure|reservoirs?)\snumber\s\d{1,2}\b/gmi,
 /\bnumber\s\d{1,2}\s(?:drove|entrance\schannel|gully|plantation|pond|reservoir)\b/gmi,
 /\bgaol\srow\snumber\s106|plantation\snumber\sa102\b/gmi,
@@ -424,6 +425,7 @@ const a: RegExp[] = [
 /\bportal\svalve\shouse\b/gmi,
 /\bpo(?:lls|ssession)\slane\b/gmi,
 // PR
+/\bprince\sconsort\s(?:cottages|drive|lane|road|way)\b/gmi,
 /\bpro(?:cters|vince)\sdrive\b/gmi,
 /\bpresbyterian\sfold\b/gmi,
 // PU

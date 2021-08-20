@@ -103,6 +103,7 @@ const a: RegExp[] = [
 /\b(?:pleasant|queen['‘’`]?s|ralphs|reservoir|rowcroft|rudy['‘’`]?s|st\sdominics)\sretreat\b/gmi,
 /\bthe\sretreat\s(?:drive|gardens)\b/gmi,
 /\b(?:trevose|victoria|western)\sretreat\b/gmi,
+/\brev\.?\sdownie\swynd\b/gmi,
 /\brevenge\s(?:close|road)\b/gmi,
 /\breview\s(?:ground|oak|road)\b/gmi,
 // RI
@@ -637,6 +638,7 @@ const a: RegExp[] = [
 /\bsock['‘’`s]*\s(?:copse|dennis|hill|lane)\b/gmi,
 /\bmudford\ssock\b/gmi,
 /\bsolar\s(?:court|crescent|drive|farm|park|road|way|wood)\b/gmi,
+/\bsoldier['‘’`s]*\s(?:clump|hill|hole|plantation|pool|rocks|spinney)\b/gmi,
 /\bSoldiers\s(?:Camp|Rise)\b/gm,
 /\bsoldiers['‘’`]?\s(?:cleugh|croft|field\slane|hill|knoll|point|pond|road)\b/gmi,
 /\bsole\s(?:bay|beck\s(?:plantation|slack)|close|common|copse|creek|farm\s(?:avenue|close|road)|geo|hill|pond|street)\b/gmi,
@@ -1218,6 +1220,7 @@ const a: RegExp[] = [
 /\bturkey\s(?:broad|carpet|cock\slane|hill(?:\splantation)?|island|lane|oak\sclose|oaks|plantation)\b/gmi,
 /\bturkey\s(?:road|row|shore(?:\sroad)?|street|tump(?:\slane)?|wood)\b/gmi,
 // TW
+/\btwines\sclose\b/gmi,
 /\btwinge\slane\b/gmi,
 /\btwistlace\sclose\b/gmi,
 /\btwinge\slane\b/gmi,

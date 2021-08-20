@@ -227,7 +227,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sTo(?:e|ll|llgate|n|ngues?|ppings|re|rs|wer|wn|wpath)\b/gm,
   /\bThe\sTr(?:am|amway|ap|eehouse|ees|iangle|ip)\b/gm,
   /\bThe\sTu(?:mbles?|nnel|rn|rning|rnstiles|rrets)\b/gm,
-  /\bThe\sTw(?:enties|ist|o\s(?:Acre|Brothers))\b/gm,
+  /\bThe\sTw(?:enties|innings|ist|o\s(?:Acre|Brothers))\b/gm,
 
   /\bThe\sU(?:nderpass|nderway|niversity\s[Oo]f)\b/gm,
 
