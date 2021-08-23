@@ -1549,6 +1549,46 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "houses",           // placenames (105)
 "how",              // standalone & placenames (120)
 "hub",              // surname & placenames (6)
+"hubby",            // surname
+"hud",              // first name & placenames (6)
+"huddle",           // surname & placenames (2)
+"hues",             // surname
+"huff",             // surname & placename
+"huger",            // surname
+"hugger",           // first name
+"hula",             // surname & placenames (2)
+"hulk",             // surname & standalone & placenames (4)
+"hulks",            // surname & placename
+"hulls",            // surname & placenames (3)
+"hum",              // surname & placename
+"humble",           // surname & placenames (16)
+"humbles",          // surname & placename
+"humid",            // first name
+"hummer",           // surname & standalone & placenames (3)
+"hummingbird",      // surname & placenames (5)
+"hums",             // first name
+"hung",             // first name & placename
+"hunker",           // surname
+"hunt",             // surname & placenames (72)
+"hunter",           // first name & placenames (78)
+"huntress",         // surname
+"hunts",            // surname & placenames (35)
+"huntsman",         // surname & placenames (20)
+"hurdle",           // first name & placenames (9)
+"hurler",           // surname
+"hurling",          // surname & placename
+"hurray",           // surname
+"hurter",           // surname
+"hurtle",           // surname
+"husbands",         // surname & placenames (2)
+"hush",             // first name & placenames (2)
+"husk",             // surname & placenames (2)
+"husky",            // surname
+"hustings",         // surname
+"hustler",          // first name & placenames (3)
+"hutch",            // surname & placenames (4)
+"hutches",          // surname
+"huts",             // surname & placename
 "hundred",          // placenames (49)
 "hurt",             // surname & placenames (4)
 "hurts",            // surname & placenames (2)
@@ -3869,7 +3909,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "woodland",         // surname & standalone & placenames (153)
 "woodlands",        // surname & standalone & placenames (145)
 "woodpecker",       // standalone & placenames (25)
-"woodpeckers",      // standalone & placenames (4)
 "woody",            // first name & placenames (14)
 "woodyard",         // surname & standalone & placenames (12)
 "woof",             // surname & placename

@@ -1152,6 +1152,7 @@ const a: RegExp[] = [
 /\btinkers['‘’`]?\s(?:field|green(?:\sroad)?|hill|hole|mead|way|wood(?:\sroad)?)\b/gmi,
 // TO
 /\b(?:to[\s-]fawr|(?:ginns|loch\san|ty|tyddyn)[\s-]to|too\sto\shill)\b/gmi,
+/\btobacco\s(?:close|hillock|pipe\scopse|rock)\b/gmi,
 /\btobago\s(?:close|drive|place|street)\b/gmi,
 /\b(?:east|heel|west)\stoe\b/gmi,
 /\btoe\s(?:end|head)\b/gmi,

@@ -98,7 +98,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sHol(?:dings|es?|lies|lows?|lyoaks|mwoods)\b/gm,
   /\bThe\sHor(?:nets?|sefair|se\s?[Ss]hoes?|ses?)\b/gm,
   /\bThe\sHo(?:g|melands|mes|ods|ok|pes|spital)\b/gm,
-  /\bThe\sHu(?:b|mp|ndred)\b/gm,
+  /\bThe\sHu(?:b|ddles|mp|ndred|nt\sClose|rdles|stings|tches)\b/gm,
 
   /\bThe\sImage\sCentre\b/gm,
   /\bThe\sIn(?:ch|ches|cline|closures|field|nings|takes?|terchange)\b/gm,
@@ -229,7 +229,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sTu(?:mbles?|nnel|rn|rning|rnstiles|rrets)\b/gm,
   /\bThe\sTw(?:enties|innings|ist|o\s(?:Acre|Brothers))\b/gm,
 
-  /\bThe\sU(?:nderpass|nderway|niversity\s[Oo]f)\b/gm,
+  /\bThe\sU(?:nderpass|nderway|niversity\s[Oo]f|pper\sHuddles)\b/gm,
 
   /\bThe\sVa(?:le|lleys?|ns?|r)\b/gm,
   /\bThe\sVi(?:aduct|ctory|ews?|kings|llage|nes?|neries|nery|neyard|ntage\sPair|olets?)\b/gm,
@@ -251,7 +251,8 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sWil(?:d\sFlower\sMeadow|derness|lows?)\b/gm,
   /\bThe\sWin(?:dings?|dmills|g|nows)\b/gm,
   /\bThe\sWis(?:h|p)\b/gm,
-  /\bThe\sWo(?:od|odlarks|odlands?|ods|odyard|nders|oods|oldridges|rking\sMen['‘’`s]*|rks|rries)\b/gm,
+  /\bThe\sWoo(?:ds?|dlarks|dlands?|dpeckers|dyard)\b/gm,
+  /\bThe\sWo(?:nders|oldridges|rking\sMen['‘’`s]*|rks|rries)\b/gm,
   /\bThe\sWr(?:angle|angling|ens?)\b/gm,
   
   /\bThe\sY(?:ard|ellow\s*Man)\b/gm,

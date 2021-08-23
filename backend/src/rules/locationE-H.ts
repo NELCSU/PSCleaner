@@ -29,7 +29,7 @@ const a: RegExp[] = [
 // EF
 /\be(?:ffort|l(?:ectricity|even)|quitable|vening|excise)\sstreet\b/gmi,
 // EG
-/\begg\s(?:clump|moor)\b/gmi,
+/\begg\s(?:clump|moor|plantation)\b/gmi,
 /\be(?:gg|piphany\sChurch|rr|ygpt)\swood\b/gmi,
 // EI
 /\b(?:Eighth|Eleventh|Every)\sStreet\b/gm,
@@ -710,6 +710,10 @@ const a: RegExp[] = [
 /\bhounds\s(?:close|gate|hill|loup|road|way)\b/gmi,
 /\b(?:fox|hare)\s(?:&|and)\shounds\s(?:close|lane|place|road|street)\b/gmi,
 /\bHow['‘’`s]{0,2}\s(?:End|Hill|Road)\b/gm,
+// HU
+/\bhue\slane\b/gmi,
+/\bhumbly\sgrove\scopse\b/gmi,
+/\bhunchback\slane\b/gmi,
 /\bhundreds\s(?:close|lane|road)\b/gmi,
 /\b(?:chiltern|east)\shundreds\b/gmi,
 /\b(?:six\shundreds\sdrove|the\swest\shundreds|upper\shundreds\sway)\b/gmi,
@@ -717,8 +721,22 @@ const a: RegExp[] = [
 /\bhunger\s(?:dale|down\swoodhatch|hills?|lane|pill)\b/gmi,
 /\b(?:cold\shunger\splantation|far\shunger\shill)\b/gmi,
 /\bhungry\s(?:bentley|bottom|coombe|copse|dean|down|fox\sestate|green(?:\swood)?|hills?(?:\s(?:belt|lane|plantation))?|hoy|lane|law|spot|strip)\b/gmi,
+/\bhunters\s(?:avenue|bank|belt|bridge\scoppice|close\spond|court|crescent|croft(?:\swood)?)\b/gmi,
+/\bhunters\s(?:drive|end|farm\sglade|field|fold|forstal(?:\sroad)?|gardens|gate|geo|glen)\b/gmi,
+/\bhunters\s(?:green(?:\sclose)?|grove|hall\s(?:road|way)|hole|inn\shill|lane|lodge|mead|meadow)\b/gmi,
+/\bhunters['‘’`]?\s(?:hill(?:\s(?:close|lane|plantation|wood))?|way|well)\b/gmi,
+/\bhunters\s(?:mews|moon(?:\sclose)?|nook|oak|park(?:\savenue)?|piece|place|pointe?|pool\slane)\b/gmi,
+/\bhunters\s(?:reach|ri[ds]e|ridge|road|rowe?|square|stream|sty|tor\sdrive|vale|view|walk|wood(?:\sway)?)\b/gmi,
+/\bHunters\s(?:Chase|Close|Race)\b/gm,
+/\bhunting\s(?:avenue|dirve|gate(?:\s(?:close|drive|mews))?|grove|hill(?:\sroad)?)\b/gmi,
+/\bhunting\s(?:lodge\s(?:close|gardens)|park|place|ride)\b/gmi,
+/\bHunting\s(?:Close|Way)\b/gm,
+/\bhurdlers\s(?:green|lane)\b/gmi,
+/\bhurdles\s(?:copse|mead|way)\b/gmi,
 /\bhurricane\s(?:avenue|close|court|drive|gate|grove|place|road|way|wood)\b/gmi,
+/\bhurters\swood\b/gmi,
 /\bhusband\s(?:hillock|place|wood)\b/gmi,
+/\bhussars\s(?:close|court|drive)\b/gmi,
 /\bhustlers\s(?:grove|way)\b/gmi,
 ];
 const LocationEHRegEx: Set<RegExp> = new Set();

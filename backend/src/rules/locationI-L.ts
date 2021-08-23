@@ -311,6 +311,7 @@ const a: RegExp[] = [
 /\blighter[\s-]than[\s-]air\sroad\b/gmi,
 /\blighthouse\s(?:cristian|close|down|drive|fields?|grove|hill|lane|point|road|school|score|upper\sschool)\b/gmi,
 /\blightning\s(?:close|grove|hill|lane|road|way)\b/gmi,
+/\blikely\s(?:hill|wood)\b/gmi,
 /\bline\s(?:geo|hill|lane|learning|path|plantation|railway|square\swood|street|thorns|view|way|wood)\b/gmi,
 /\blinkage\scollage\b/gmi,
 /\blimb\s(?:crescent|lane|road|valley)\b/gmi,

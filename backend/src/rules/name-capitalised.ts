@@ -2147,62 +2147,8 @@ const a: string[] = [
 "howlings",
 "howls",
 "hows",
-"hubby",
-"hud",
-"huddle",
-"huddles",
-"hue",
-"hues",
-"huff",
-"huger",
-"hugger",
-"hula",
-"hulk",
-"hulks",
-"hull",
-"hullabaloo",
-"hulls",
-"hum",
-"humane",
-"humble",
-"humbles",
-"humbly",
-"humid",
-"hummer",
-"hummingbird",
-"hums",
-"hunch",
-"hunchback",
-"hung",
-"hunker",
-"huns",
-"hunt",
-"hunter",
-"hunters",
-"hunting",
-"huntress",
-"hunts",
-"huntsman",
-"hurdle",
-"hurdlers",
-"hurdles",
-"hurler",
-"hurling",
-"hurrah",
-"hurray",
-"hurter",
-"hurters",
-"hurtle",
-"husbands",
-"hush",
-"husk",
-"husky",
-"hussars",
-"hustings",
-"hustler",
-"hutch",
-"hutches",
-"huts",
+"hue",            // first name
+"hull",           // first name & standalone & placenames (51)
 // I
 "illustrious",    // standalone
 "ivy",            // first name
@@ -4098,7 +4044,6 @@ const a: string[] = [
 "tj",               // first name
 "toad",
 "toads",
-"tobacco",
 "tobacconist",
 "toboggan",
 "toccata",
@@ -4279,6 +4224,7 @@ const a: string[] = [
 // W
 "wade",             // first name & placenames (53)
 "warren",           // first name & placenames (404)
+"woodpeckers",      // standalone & placenames (4)
 ];
 const ProperNameSet: Set<string> = new Set();
 const L = a.length;
