@@ -12608,6 +12608,7 @@ const a: string[] = [
 "wheatall",
 "wheatash",
 "wheatbottom",
+"wheatbrigs",
 "wheatbutts",
 "wheatclose",
 "wheatcommon",

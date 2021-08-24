@@ -224,6 +224,7 @@ const a: RegExp[] = [
 /\bba(?:ldric|llplay|rleybeans|rracuda|tmans\shill|ttleaxe|ttlefields)\sroad\b/gmi,
 /\bbachelors\s(?:acre|bench)\b/gmi,
 /\bback\so['f]?\sthe\sworld\b/gmi,
+/\bbeck\smeetings(?:\splantation)?\b/gmi,
 /\bBack\sSpin\sClose\b/gm,
 /\bbag\s(?:dale|enderby|hill|lane|mere|plantation|pool|pool\sway|tor|wood)\b/gmi,
 /\b(?:water\sbag\sbank|skerry\sof\sbag)\b/gmi,
@@ -280,7 +281,9 @@ const a: RegExp[] = [
 /\bbawdy\s(?:brook|craig|hill|moss)\b/gmi,
 /\bba(?:nker|re)\sstreet\b/gmi,
 /\bbahamas\sway\b/gmi,
+
 // BE
+/\bbeaver\sroad\sjuniors\b/gmi,
 /\bbe(?:acon\sand\s(?:bents|wilderness\splantation)|er\sand\sbranscombe|xhill\sand\sbattle)\b/gmi,
 /\bbe(?:aches|ekeeper)\sclose\b/gmi,
 /\bbeachcomber\sdrive\b/gmi,
@@ -550,7 +553,7 @@ const a: RegExp[] = [
 /\bCabin\sDoor\b/gm,
 /\bcabin\s(?:close|clough|coppice|hill(?:\scovert)?|hole\swood|lands|lane|leas|moss|oaks|plain|plantation|road)\b/gmi,
 /\b(?:ash\s|rook\s)?cabin\sflat\b/gmi,
-/\b(?:jack\scabin\stop|lambing\scabin\sclump|(?:bark\s|cock\s|swiss\s|the\s)?cabin\swood)\b/gmi,
+/\b(?:lambing\scabin\sclump|(?:bark\s|cock\s|swiss\s|the\s)?cabin\swood)\b/gmi,
 /\bcabinet\s(?:close|way|wood)\b/gmi,
 /\bcable\s(?:bay|close|crescent|depot\sroad|drive|geo|grove|hill|place|rake\smoss|road|shore|street|tail)\b/gmi,
 /\b(?:cable\slane|cable\stip\splantation)\b/gmi,
@@ -603,6 +606,7 @@ const a: RegExp[] = [
 /\bcentre\s(?:lake|meadow|parade|park\s(?:court|road|square)|place|plantation|rise|road)\b/gmi,
 /\bcentre\s(?:street|terrace\sroad|walk\s(?:avenue|brake)|way|wood)\b/gmi,
 /\bcentury\s(?:avenue|belt|close|court|drive|fields|gardens|lane|lodge|mews|park|place|plantation|ponds|road|square|street|view|walk|way|wood)\b/gmi,
+
 // CH
 /\bch(?:apel\sbreak|ards\smead|arge|eats)\sroad\b/gmi,
 /\bcha(?:fers|ses)\scopse\b/gmi,
@@ -610,7 +614,8 @@ const a: RegExp[] = [
 /\bchurch\sof\sengland\sprimary\sschool\b/gmi,
 /\bchaplet\savenue\b/gmi,
 /\bch(?:amois|antressheer|orus|apterhouse|arts)\sclose\b/gmi,
-/\bch(?:air|ants|argeable|eer|eering|emist|ess|imer['‘’`]?s|opping\sknife|urn\smilk)\slane\b/gmi,
+/\bchair\s(?:lane|walk)\b/gmi,
+/\bch(?:ants|argeable|eer|eering|emist|ess|imer['‘’`]?s|opping\sknife|urn\smilk)\slane\b/gmi,
 /\bch(?:affron|andlery|ariots|artists|ief)\sway\b/gmi,
 /\bchoral\sgrove\b/gmi,
 /\bch(?:ances|argeable|ief['‘’`s]*)\sstreet\b/gmi,
@@ -692,6 +697,7 @@ const a: RegExp[] = [
 /\bcleats\sshore\b/gmi,
 /\bclergy\sstreet\b/gmi,
 /\bclippings\sgreen\b/gmi,
+/\bclip['‘’`]?d\s(?:gate\swood|thorn\shill)\b/gmi,
 /\bclips\smoor\b/gmi,
 /\bclamps\s(?:grove|heath|terrace|wood)\b/gmi,
 /\bClear\s(?:Space|View|Water)\b/gm,

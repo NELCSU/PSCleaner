@@ -1512,6 +1512,63 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hitch",            // surname & placenames (11)
 "hive",             // standalone & surname & placenames (20)
 "hives",            // surname & placenames (6)
+"hoary",            // surname
+"hobbit",           // first name & placename
+"hobble",           // surname & placenames (2)
+"hoc",              // first name
+"hock",             // first name & placenames (5)
+"hocky",            // surname
+"hod",              // surname & placenames (8)
+"hoe",              // first name & placenames (55)
+"hoes",             // surname
+"hogmanay",         // first name
+"hombre",           // surname
+"homeground",       // standalone & placename
+"homestead",        // surname & placenames (26)
+"homily",           // first name
+"hone",             // first name & placenames (11)
+"honer",            // first name & placename
+"hones",            // surname
+"honesty",          // first name & placenames (3)
+"honey",            // first name & placenames (85)
+"honeybee",         // first name & placenames (4)
+"honeydew",         // first name & placenames (2)
+"honeysucker",      // surname
+"honeysuckle",      // first name & standalone & placenames (22)
+"honing",           // surname & standalone & placenames (5)
+"honor",            // first name & placenames (11)
+"honoree",          // first name
+"hood",             // first name & placenames (78)
+"hoodless",         // surname
+"hoody",            // first name
+"hooker",           // surname & placenames (11)
+"hooks",            // surname & placenames (15)
+"hoops",            // surname & standalone & placenames (2)
+"hoove",            // standalone & placenames (4)
+"hoper",            // surname
+"hopper",           // surname & placenames (18)
+"hoppers",          // surname & placenames (6)
+"horde",            // surname
+"horn",             // placenames (86)
+"hornbeam",         // standalone & placenames (31)
+"hornbeams",        // standalone & placenames (3)
+"horns",            // surname & placenames (27)
+"horny",            // surname & placename
+"hosanna",          // first name
+"hosier",           // surname & placenames (2)
+"hosp",             // surname & placename
+"hosta",            // surname & standalone & placenames (4)
+"hotter",           // surname
+"hound",            // standalone & placenames (22)
+"houseman",         // surname & placenames (6)
+"housemate",        // surname
+"hovel",            // surname & placenames (15)
+"hover",            // first name
+"howdy",            // surname
+"howl",             // surname & placenames (15)
+"howlings",         // surname
+"howls",            // surname
+"hows",             // surname & placenames (16)
 "hobby",            // first name & placenames (11)
 "hoist",            // surname & placenames (3)
 "holder",           // surname & placenames (14)
@@ -1540,7 +1597,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hopes",            // surname & placenames (13)
 "hopping",          // surname & placenames (8)
 "horseback",        // standalone & placenames (2)
-"horsefair",        // standalone & placenames (8)
 "horseman",         // surname & placenames (14)
 "horseshoe",        // standalone & placenames (55)
 "hose",             // surname & standalone & placenames (8)
@@ -2250,6 +2306,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "payer",            // surname
 "pea",              // surname & placenames (16)
 "peace",            // first name & placenames (39)
+"peaks",            // surname & placenames (18)
 "pealer",           // surname
 "pealing",          // surname
 "peas",             // surname & placenames (9)
@@ -3670,7 +3727,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "waterfront",       // standalone & placenames (19)
 "watermill",        // standalone & placenames (19)
 "waters",           // surname & placenames (109)
-"waterside",        // standalone & placenames (46)
 "waterway",         // standalone & placenames (10)
 "waterways",        // standalone & placenames (4)
 "wax",              // surname & placename

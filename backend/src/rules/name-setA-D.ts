@@ -41995,6 +41995,7 @@ const a: string[] = [
 "burntoak",
 "burntout",
 "burntridge",
+"burntroots",
 "burnts",
 "burntscarth",
 "burntscarthgreen",

@@ -100,7 +100,9 @@ const a: RegExp[] = [
 /\bIron\s(?:Band|Bar|Bridge|Car|Cross|Dish|Duke|Foundry|Gate|Man|Mine|Point|Railway|Shovel)\b/gm,
 // IS
 /\bissues\s(?:road|wood)\b/gmi,
-// J
+
+// JA
+/\bjack\scabin\stop\b/gmi,
 /\bjesuit\sclose\b/gmi,
 /\bj(?:awbones?|udgement)\shill\b/gmi,
 /\bj(?:awbone|olt|uggler['‘’`]?s|umper|uries)\slane\b/gmi,
@@ -124,11 +126,15 @@ const a: RegExp[] = [
 /\bwhale\sjaw\slane\b/gmi,
 /\bLion['‘’`]?s\sJaws\b/gm,
 /\bwhale\sjaws\shill\b/gmi,
+
+// JE
 /\bjellies\shillock\b/gmi,
 /\bjetstream\s(?:drive|way)\b/gmi,
 /\bjetties\sriverside\scommon\b/gmi,
 /\bjewellers\swynd\b/gmi,
 /\bjewellery\squarter\b/gmi,
+
+// JO
 /\b(?:cae\sjob|job['‘’`s]*\s(?:cleugh|copse|corner|craig|cross|drain\splace|dub|hill|lane|plain|water|well|wood|yard))\b/gmi,
 /\bjockey\s(?:bank|belt|cap\sclump|copse|end|field|green|hill|mead|meadow|road|street|way)\b/gmi,
 /\bjockey['‘’`s]*\s(?:coppice|fields|plantation|wood)\b/gmi,
@@ -142,10 +148,13 @@ const a: RegExp[] = [
 /\b(?:jollys\slane|through\sjollys)\b/gmi,
 /\bjourneyman['‘’`]?s\sgreen\b/gmi,
 /\bstamps\sand\sjowl\szawn\b/gmi,
+
+// JU
 /\bjugglers\s(?:close|moor)\b/gmi,
-/\bbeaver\sroad\sjuniors\b/gmi,
+
 // KA
 /\bkangaroo\spond\b/gmi,
+
 // KE
 /\b(?:Castle\sKeep|Keep\sClose|Standards\sKeep)\b/gm,
 /\b(?:acorn|albury|badgers|beechers|bricklow|cardwells|chandlers|conisbrough|crowhurst|delancey)\skeep\b/gmi,

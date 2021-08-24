@@ -116,6 +116,7 @@ const a: RegExp[] = [
 // FL
 /\bfl(?:intlock|owerpot)\sclose\b/gmi,
 // FO
+/\bfour\swindings\b/gmi,
 /\bfoundary\sclose\b/gmi,
 /\bfortieth\savenue\b/gmi,
 /\bforest\sers\sclose\b/gmi,
@@ -557,10 +558,12 @@ const a: RegExp[] = [
 /\bgutters\s(?:gaet|lane|plantation)\b/gmi,
 /\b(?:black|mony|shivery\sgill)\sgutters\b/gmi,
 /\bguzzle\s(?:copse|down)\b/gmi,
+
 // GY
 /\bgymkhana\sway\b/gmi,
 /\bgypsies['‘’`]?\slane\b/gmi,
 /\bgypsum\s(?:close|way)\b/gmi,
+
 // HA
 /\bH(?:en\s[Aa]nd\sChickens|igh\s[Aa]nd\s(?:Low(?:er)?|Over))\b/gm,
 /\bh(?:aileybury\sand\simperial|and\sand\spen|astings\sand\srye|at\sand\sfeather|eadington\sand\squarry|eadland\sand\sharbour|ose\sand\sharby)\b/gmi,
@@ -649,7 +652,13 @@ const a: RegExp[] = [
 /\bHidden\s(?:Brook|Close|Hills|Loch|Lock|Mews)\b/gm,
 /\bhighlight\slane\b/gmi,
 /\b(?:cove\ship|hip\s(?:crescent|lane|walk))\b/gmi,
+
 // HO
+/\bhogs\s(?:earth|edge|gate|hill(?:\scopse)?|hole\sspinney|holes|law|lodge\slane|wood)\b/gmi,
+/\bhobbles\sgreen\b/gmi,
+/\bhobbyhorse\s(?:bay|lane|wood)\b/gmi,
+/\bhorsefair\s(?:close|green|lane|loke|mews|road|street)\b/gmi,
+/\bhopton\swafers\b/gmi,
 /\bholy\srosary(?:\s(?:and\sst\sanne['‘’`]?s|roman))\scatholic\b/gmi,
 /\bHob\sClose\b/gm,
 /\bhob\s(?:and\sjoan\sorchard|bank\swood|beck|gill|intake|green(?:\sroad)?|hey\slane)\b/gmi,
@@ -710,6 +719,33 @@ const a: RegExp[] = [
 /\bhounds\s(?:close|gate|hill|loup|road|way)\b/gmi,
 /\b(?:fox|hare)\s(?:&|and)\shounds\s(?:close|lane|place|road|street)\b/gmi,
 /\bHow['‘’`s]{0,2}\s(?:End|Hill|Road)\b/gm,
+/\bhomage\s(?:gardens|lane)\b/gmi,
+/\bhomebred\slane\b/gmi,
+/\bhomespun\sclose\b/gmi,
+/\bhomesteads\sroad\b/gmi,
+/\bhomeward\s(?:court|way)\b/gmi,
+/\bhomewards\sroad\b/gmi,
+/\bhoming\s(?:copse|down(?:\splantation)?|gardens|road)\b/gmi,
+/\bhoneycomb\s(?:avenue|close|copse|leaze\scopse|place|way)\b/gmi,
+/\bhoneymoon\sloke\b/gmi,
+/\bhoneypot\s(?:close|coppice|drove|farm|grove|hill|lane|meadow|plantation|way|wood)\b/gmi,
+/\bhoneys\s(?:green\sclose|lane|park)\b/gmi,
+/\bhonors\sfarm\b/gmi,
+/\bhoodies['‘’`]\shill\b/gmi,
+/\bhooked\slane\b/gmi,
+/\bhookers\s(?:copse|grove)\b/gmi,
+/\bhooping\soak\scopse\b/gmi,
+/\bHops\sClose\b/gm,
+/\bhops\s(?:copse|court|drive|end|glen|lane|road)\b/gmi,
+/\bhorizon\s(?:academy|close|community\scollege|fields|place|primary\sacademy|views|way)\b/gmi,
+/\bpriory\shorizon\sschool\sfor\schildren\swith\sautism\b/gmi,
+/\bhornbill\s(?:close|way)\b/gmi,
+/\bhorrid\shill\b/gmi,
+/\bhorseshoes\s(?:close|lane|place|way)\b/gmi,
+/\bhosiery\sstreet\b/gmi,
+/\bhourglass\swood\b/gmi,
+/\bhowlers\s(?:hill|slade)\b/gmi,
+
 // HU
 /\bhue\slane\b/gmi,
 /\bhumbly\sgrove\scopse\b/gmi,

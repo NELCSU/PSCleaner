@@ -10690,6 +10690,7 @@ const a: string[] = [
 "jumpsen",
 "jumratie",
 "jumria",
+"jumwell",
 "jumy",
 "juna",
 "junae",

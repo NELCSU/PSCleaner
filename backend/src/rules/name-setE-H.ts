@@ -44198,6 +44198,7 @@ const a: string[] = [
 "hoggins",
 "hoggle",
 "hoggrills",
+"hoggs",
 "hoggy",
 "hoghams",
 "hoghatch",

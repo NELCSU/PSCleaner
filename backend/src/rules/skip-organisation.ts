@@ -41,6 +41,7 @@ const a: RegExp[] = [
   /\b(?:nato|newshub|northern\sireland)\b/gmi,
   /\bnhs\s(?:england|london|scotland|wales)\b/gmi,
   /\bnew\syork\stimes\b/gmi,
+  /\bnorth\samerica\b/gmi,
   // P
   /\bpapua\snew\sguinea\b/gmi,
   /\b(?:public\shealth\s(?:england|scotland|wales)|premier\sleague)\b/gmi,
@@ -52,6 +53,7 @@ const a: RegExp[] = [
   /\bsaint\s(?:kitts|lucia|vincent)\b/gmi,
   /\bsierra\sleone\b/gmi,
   /\bsolomon\sislands\b/gmi,
+  /\bsouth\samerica\b/gmi,
   /\b(?:saudi\sarabia|serco|slovakia|south\s(?:africa|sudan)|sri\slanka|(?:aided|community|day|high|law|(?:pre-)?preparatory|primary|secondary)\sschool)\b/gmi,
   // T
   /\bfinancial\stimes\b/gmi,
