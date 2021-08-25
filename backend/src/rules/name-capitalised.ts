@@ -1,243 +1,244 @@
 const a: string[] = [
-"abase",            // first name
-"abbess",           // surname & placenames (9)
-"abbot",            // surname & placenames (34)
+"abase",            // name
+"abbess",           // name & placenames (9)
+"abbot",            // name & placenames (34)
 "abbots",           // placenames (98)
-"abele",            // first name
-"abit",             // surname
-"abler",            // surname
-"abod",             // surname
-"abode",            // surname & placename
-"abut",             // surname
-"acacia",           // first name & placenames (25)
-"ace",              // first name & placenames (7)
-"aced",             // surname
-"aces",             // first name
-"achilles",         // first name & placenames (7)
-"achillies",        // first name
-"acme",             // surname & placenames (3)
+"abele",            // name
+"abit",             // name
+"abler",            // name
+"abod",             // name
+"abode",            // name & placename
+"abut",             // name
+"acacia",           // name & placenames (25)
+"ace",              // name & placenames (7)
+"aced",             // name
+"aces",             // name
+"achilles",         // name & placenames (7)
+"achillies",        // name
+"acme",             // name & placenames (3)
 "acreage",          // standalone & placenames (3)
-"ado",              // surname
-"adonis",           // first name & placenames (2)
-"adze",             // first name
-"aeon",             // first name
-"aero",             // surname & placenames (2)
-"afar",             // first name
-"affinity",         // first name
-"afire",            // first name
-"afro",             // first name
-"agape",            // first name
-"agate",            // first name & placenames (8)
-"agates",           // surname & placename
-"agora",            // surname & placename
-"aha",              // first name
-"ajar",             // first name
-"aka",              // surname
-"aki",              // first name
-"akin",             // first name & placename
-"al",               // first name
-"alabaster",        // first name & placenames (3)
-"aladdin",          // first name
-"albino",           // first name
-"alchemist",        // first name
-"alders",           // first name & placenames (70)
-"ale",              // surname & placenames (7)
-"alet",             // first name
-"alia",             // first name
-"alias",            // first name
-"alibaba",          // first name
-"alibi",            // first name
-"aliment",          // surname
-"alkali",           // first name & placename
-"allegri",          // surname
+"ado",              // name
+"adonis",           // name & placenames (2)
+"adze",             // name
+"aeon",             // name
+"aero",             // name & placenames (2)
+"afar",             // name
+"affinity",         // name
+"afire",            // name
+"afro",             // name
+"agape",            // name
+"agate",            // name & placenames (8)
+"agates",           // name & placename
+"agora",            // name & placename
+"aha",              // name
+"ajar",             // name
+"aka",              // name
+"aki",              // name
+"akin",             // name & placename
+"al",               // name
+"alabaster",        // name & placenames (3)
+"aladdin",          // name
+"albino",           // name
+"alchemist",        // name
+"alders",           // name & placenames (70)
+"ale",              // name & placenames (7)
+"alet",             // name
+"alia",             // name
+"alias",            // name
+"alibaba",          // name
+"alibi",            // name
+"aliment",          // name
+"alkali",           // name & placename
+"allegri",          // name
 "alley",            // placenames (133)
-"alloy",            // first name
-"almond",           // first name & placenames (47)
+"alloy",            // name
+"almond",           // name & placenames (47)
 "almshouses",       // standalone & placenames (2)
-"aloe",             // first name
-"aloha",            // first name
-"alpine",           // first name & placenames (20)
-"alps",             // surname & placenames (2)
-"alto",             // surname
-"amarant",          // first name
-"amaryllis",        // first name & placename
-"amass",            // first name
-"amaze",            // first name
-"amber",            // first name & placenames (32)
-"amble",            // first name & standalone & placenames (14)
-"ambler",           // first name & placenames (11)
-"ambles",           // surname
-"ambrosia",         // first name & placenames (2)
-"amethyst",         // first name & placenames (11)
-"amiga",            // surname
-"amigo",            // surname
-"amino",            // first name
+"aloe",             // name
+"aloha",            // name
+"alpine",           // name & placenames (20)
+"alps",             // name & placenames (2)
+"alto",             // name
+"amarant",          // name
+"amaryllis",        // name & placename
+"amass",            // name
+"amaze",            // name
+"amber",            // name & placenames (32)
+"amble",            // name & standalone & placenames (14)
+"ambler",           // name & placenames (11)
+"ambles",           // name
+"ambrosia",         // name & placenames (2)
+"amethyst",         // name & placenames (11)
+"amiga",            // name
+"amigo",            // name
+"amino",            // name
 "amity",            // first nme & placenames (6)
-"amok",             // surname
-"amper",            // surname
-"ampere",           // first name & placenames (2)
-"amps",             // surname
+"amok",             // name
+"amper",            // name
+"ampere",           // name & placenames (2)
+"amps",             // name
 "anchor",           // standalone & placenames (66)
 "anchorage",        // placenames (18)
-"andante",          // first name
-"anemone",          // first name & placenames (4)
-"anew",             // surname
-"angel",            // first name & standalone & placenames (41)
-"angelic",          // first name
-"angels",           // first name & placenames (30)
-"angers",           // first name & palcenames (3)
+"andante",          // name
+"anemone",          // name & placenames (4)
+"anew",             // name
+"angel",            // name & standalone & placenames (41)
+"angelic",          // name
+"angels",           // name & placenames (30)
+"angers",           // name & palcenames (3)
 "angle",            // standalone & placenames (32)
-"angles",           // first name & placenames (3)
-"anglic",           // first name
-"anglo",            // first name & placenames (3)
-"angst",            // surname
-"anime",            // first name
-"anis",             // first name
-"anise",            // first name & placename
-"annalize",         // first name
+"angles",           // name & placenames (3)
+"anglic",           // name
+"anglo",            // name & placenames (3)
+"angst",            // name
+"anime",            // name
+"anis",             // name
+"anise",            // name & placename
+"annalize",         // name
 "annexe",           // standalone & placenames (35)
-"annus",            // first name
-"anointing",        // first name
-"ante",             // first name
+"annus",            // name
+"anointing",        // name
+"ante",             // name
 "antlers",          // standalone & placename
-"apache",           // first name
-"aphrodite",        // first name & placename
-"apollo",           // first name & standalone & placenames (14)
-"apostle",          // first name & placenames (11)
-"appal",            // first name
-"appel",            // first name
-"appels",           // surname
-"april",            // first name & placenames (10)
-"aqua",             // first name & placenames (6)
-"arak",             // first name
-"arbiter",          // first name
+"apache",           // name
+"aphrodite",        // name & placename
+"apollo",           // name & standalone & placenames (14)
+"apostle",          // name & placenames (11)
+"appal",            // name
+"appel",            // name
+"appels",           // name
+"april",            // name & placenames (10)
+"aqua",             // name & placenames (6)
+"arak",             // name
+"arbiter",          // name
 "arboretum",        // standalone & placenames (11)
-"arbour",           // surname & standalone & placenames (29)
-"arcana",           // surname
-"arch",             // first name & placenames (48)
-"archangel",        // first name & placenames (6)
+"arbour",           // name & standalone & placenames (29)
+"arcana",           // name
+"arch",             // name & placenames (48)
+"archangel",        // name & placenames (6)
 "archers",          // standalone & placenames (28)
-"areola",           // first name
-"argon",            // first name & placenames (2)
-"argot",            // surname
-"argus",            // first name & placenames (10)
-"arias",            // first name
-"arid",             // first name
-"armada",           // first name & placenames (9)
-"armadillo",        // surname
-"arnica",           // first name
-"aroma",            // first name
-"aromal",           // first name
-"arson",            // first name & placename
-"artemisia",        // first name
-"artful",           // first name
-"arty",             // first name
-"ash",              // first name & placenames (568)
-"ashake",           // first name
-"ashed",            // first name
-"ashen",            // first name & standalone & placenames (27)
-"ashore",           // first name
-"askew",            // first name & standalone & placenames (16)
-"askings",          // surname
-"asp",              // surname & placename
-"aspen",            // first name & placenames (36)
+"areola",           // name
+"argon",            // name & placenames (2)
+"argot",            // name
+"argus",            // name & placenames (10)
+"arias",            // name
+"arid",             // name
+"armada",           // name & placenames (9)
+"armadillo",        // name
+"arnica",           // name
+"aroma",            // name
+"aromal",           // name
+"arson",            // name & placename
+"artemisia",        // name
+"artful",           // name
+"arty",             // name
+"ash",              // name & placenames (568)
+"ashake",           // name
+"ashed",            // name
+"ashen",            // name & standalone & placenames (27)
+"ashore",           // name
+"askew",            // name & standalone & placenames (16)
+"askings",          // name
+"asp",              // name & placename
+"aspen",            // name & placenames (36)
 "aspens",           // standalone & placenames (3)
-"assay",            // surname
-"assegai",          // surname
-"asteroid",         // first name
-"astral",           // first name & placenames (8)
-"astride",          // first name
-"astro",            // first name & placename
-"asunder",          // first name
-"atom",             // first name
+"assay",            // name
+"assegai",          // name
+"asteroid",         // name
+"astral",           // name & placenames (8)
+"astride",          // name
+"astro",            // name & placename
+"asunder",          // name
+"atom",             // name
 "atrium",           // standalone & placenames (3)
-"au",               // surname & placename
-"auger",            // surname & placename
-"augur",            // first name & placenames (5)
-"auld",             // first name & placenames (45)
-"aural",            // first name
-"auras",            // first name
-"aurelia",          // first name & placenames (3)
-"aurelian",         // first name
-"aureole",          // first name & placename
-"auric",            // first name
-"aurora",           // first name & placenames (7)
-"aus",              // surname
-"austral",          // surname & placenames (6)
-"auth",             // surname
-"autumn",           // first name & placenames (24)
-"avant",            // first name
-"ave",              // first name & placenames (4)
-"avian",            // first name & placenames (4)
-"avid",             // first name
-"aways",            // first name
-"awed",             // first name
-"awes",             // first name
-"awol",             // first name
+"au",               // name & placename
+"auger",            // name & placename
+"augur",            // name & placenames (5)
+"auld",             // name & placenames (45)
+"aural",            // name
+"auras",            // name
+"aurelia",          // name & placenames (3)
+"aurelian",         // name
+"aureole",          // name & placename
+"auric",            // name
+"aurora",           // name & placenames (7)
+"aus",              // name
+"austral",          // name & placenames (6)
+"auth",             // name
+"autumn",           // name & placenames (24)
+"avant",            // name
+"ave",              // name & placenames (4)
+"avian",            // name & placenames (4)
+"avid",             // name
+"aways",            // name
+"awed",             // name
+"awes",             // name
+"awol",             // name
 // B
-"babe",             // first name & placename
+"babe",             // name & placename
 "backwater",        // standalone & placenames (2)
 "backway",          // standalone & placenames (6)
-"badger",           // first name & standalone & placenames (64)
+"badger",           // name & standalone & placenames (64)
 "badgers",          // standalone & placenames (61)
-"bah",              // surname
+"bah",              // name
 "balaclava",        // standalone & placenames (7)
-"bale",             // first name & standalone & placenames (14)
+"bale",             // name & standalone & placenames (14)
 "balks",            // standalone & placename
-"ballard",          // surname & placenames (20)
-"ballast",          // surname & placenames (20)
-"baller",           // surname
-"baloney",          // surname
-"balsa",            // first name
-"balsam",           // surname & placenames (6)
-"bambino",          // surname
-"bandana",          // first name
-"bandy",            // surname & placenames (5)
-"bane",             // first name & placename
-"banes",            // first name & placenames (3)
-"banger",           // surname
-"banish",           // surname
-"banjo",            // first name & placenames (2)
-"bannerman",        // first name & placenames (10)
-"bannock",          // surname & placenames (5)
-"bannocks",         // surname & placename
-"banquet",          // surname & placename
-"baptise",          // first name
-"baptist",          // first name & placenames (55)
-"barb",             // first name & placename
-"barbaric",         // surname
-"barbel",           // first name & placenames (6)
-"barber",           // first name & placenames (25)
-"barbie",           // first name
-"barbs",            // first name
-"bares",            // first name
+"ballard",          // name & placenames (20)
+"ballast",          // name & placenames (20)
+"baller",           // name
+"baloney",          // name
+"balsa",            // name
+"balsam",           // name & placenames (6)
+"bambino",          // name
+"bandana",          // name
+"bandy",            // name & placenames (5)
+"bane",             // name & placename
+"banes",            // name & placenames (3)
+"banger",           // name
+"banish",           // name
+"banjo",            // name & placenames (2)
+"bank",             // standalone & placenames (1k+)
+"bannerman",        // name & placenames (10)
+"bannock",          // name & placenames (5)
+"bannocks",         // name & placename
+"banquet",          // name & placename
+"baptise",          // name
+"baptist",          // name & placenames (55)
+"barb",             // name & placename
+"barbaric",         // name
+"barbel",           // name & placenames (6)
+"barber",           // name & placenames (25)
+"barbie",           // name
+"barbs",            // name
+"bares",            // name
 "barfs",            // standalone & placenames (2)
-"bargeman",         // surname & placename
+"bargeman",         // name & placename
 "barking",          // standalone & placenames (22)
-"barley",           // first name & placenames (120)
-"barleycorn",       // surname & placenames (8)
-"barman",           // surname & placename
+"barley",           // name & placenames (120)
+"barleycorn",       // name & placenames (8)
+"barman",           // name & placename
 "barn",             // placenames (533)
-"barnacle",         // surname & standalone & placenames (4)
-"barns",            // surname & placenames (109)
+"barnacle",         // name & standalone & placenames (4)
+"barns",            // name & placenames (109)
 "barnyards",        // standalone & placename
-"baroness",         // first name & placenames (6)
-"baronet",          // surname & placenames (4)
-"barrack",          // first name & placenames (25)
+"baroness",         // name & placenames (6)
+"baronet",          // name & placenames (4)
+"barrack",          // name & placenames (25)
 "barrow",           // standalone & placenames (193)
-"barterer",         // surname
-"bash",             // surname
-"basher",           // first name
-"basil",            // first name & standalone & placenames (14)
+"barterer",         // name
+"bash",             // name
+"basher",           // name
+"basil",            // name & standalone & placenames (14)
 "bastion",          // surnaem & placenames (9)
-"batchelor",        // first name & placenames (8)
+"batchelor",        // name & placenames (8)
 "bath",             // standalone & placenames (116)
-"batik",            // first name
-"batters",          // surname
+"batik",            // name
+"batters",          // name
 "battle",           // standalone & placenames (45)
 "battlefield",      // standalone & placenames (14)
 "battlements",      // standalone
-"baud",             // surname & placename
+"baud",             // name & placename
 "baulking",         // standalone & placenames (3)
 "beachside",        // standalone & placenames (2)
 "beagle",
@@ -366,7 +367,7 @@ const a: string[] = [
 "bissau",
 "bitch",
 "bitty",
-"biz",                // surname
+"biz",                // name
 "blackball",
 "blackberry",
 "blackbird",
@@ -442,8 +443,8 @@ const a: string[] = [
 "blunts",
 "blur",
 "blush",
-"bo",             // first name & placenames (23)
-"boa",            // surname & placenames (2)
+"bo",             // name & placenames (23)
+"boa",            // name & placenames (2)
 "boardwalk",
 "boars",
 "boas",
@@ -464,7 +465,7 @@ const a: string[] = [
 "bodkins",
 "bodle",
 "boffin",
-"bog",              // surname & placenames (150)
+"bog",              // name & placenames (150)
 "bogey",
 "bogeyman",
 "boggle",
@@ -496,7 +497,7 @@ const a: string[] = [
 "bonnie",
 "bonobo",
 "bonsai",
-"boo",              // first name & placenames (4)
+"boo",              // name & placenames (4)
 "booby",
 "boogers",
 "boohoo",
@@ -510,7 +511,7 @@ const a: string[] = [
 "bootmaker",
 "booty",
 "boozer",
-"bop",              // surname
+"bop",              // name
 "bopeep",
 "borage",
 "bordage",
@@ -548,7 +549,7 @@ const a: string[] = [
 "bourgeois",
 "bourgeoise",
 "boutique",
-"bow",            // first name & standalone & placenames (107)
+"bow",            // name & standalone & placenames (107)
 "bowers",
 "bowery",
 "bowing",
@@ -563,8 +564,8 @@ const a: string[] = [
 "boxwood",
 "boycott",
 "brawl",            // standalone
-"brook",            // first name & placenames (810)
-"brown",            // surname & placenames (281)
+"brook",            // name & placenames (810)
+"brown",            // name & placenames (281)
 "bubbly",
 "buccaneer",
 "buccaneers",
@@ -667,7 +668,7 @@ const a: string[] = [
 "cables",
 "cacao",
 "cactus",
-"cad",                // surname & placenames (4)
+"cad",                // name & placenames (4)
 "caddie",
 "caddies",
 "caddy",
@@ -679,7 +680,7 @@ const a: string[] = [
 "cages",
 "cairn",
 "cakes",
-"cal",              // first name & placenames (3)
+"cal",              // name & placenames (3)
 "calamine",
 "caldron",
 "caledonian",
@@ -697,7 +698,7 @@ const a: string[] = [
 "calumny",
 "calve",
 "calving",
-"cam",            // first name & placenames (78)
+"cam",            // name & placenames (78)
 "camaraderie",
 "camber",
 "cambers",
@@ -1431,7 +1432,7 @@ const a: string[] = [
 "echidna",
 "eclair",
 "eclipse",
-"ed",             // first name & placename
+"ed",             // name & placename
 "eddy",
 "edwardian",
 "eels",
@@ -1443,41 +1444,41 @@ const a: string[] = [
 "eke",
 "elal",
 "elastin",
-"elegance",         // first name
-"elfin",            // first name & placenames (5)
-"elide",            // first name
+"elegance",         // name
+"elfin",            // name & placenames (5)
+"elide",            // name
 "embankment",       // standalone & placenames (26)
-"ember",            // first name & placenames (9)
+"ember",            // name & placenames (9)
 "emblems",          // standalone
-"emerald",          // first name & placenames (20)
-"eminence",         // first name
-"emir",             // first name
-"emperor",          // first name & placenames (11)
-"empress",          // first name & placenames (16)
-"en",               // first name & placenames (8)
-"endeavour",        // first name & placenames (13)
-"enigma",           // first name & placename
-"eno",              // first name
-"enrich",           // first name
-"ensign",           // first name & placenames (7)
-"ergo",             // first name 
+"emerald",          // name & placenames (20)
+"eminence",         // name
+"emir",             // name
+"emperor",          // name & placenames (11)
+"empress",          // name & placenames (16)
+"en",               // name & placenames (8)
+"endeavour",        // name & placenames (13)
+"enigma",           // name & placename
+"eno",              // name
+"enrich",           // name
+"ensign",           // name & placenames (7)
+"ergo",             // name 
 "ermine",           // standalone & placenames (20)
-"ernest",           // first name & placenames (38)
-"esau",             // first name
+"ernest",           // name & placenames (38)
+"esau",             // name
 "esplanade",        // standalone & placenames (44)
 "estuary",          // placenames (21)
-"etches",           // first name & placenames (2)
-"etoh",             // surname
-"eucalyptus",       // first name & placenames (2)
-"eureka",           // first name & placenames (5)
+"etches",           // name & placenames (2)
+"etoh",             // name
+"eucalyptus",       // name & placenames (2)
+"eureka",           // name & placenames (5)
 "eurolink",         // standalone & placenames (2)
-"evergreen",        // standalone & first name & placenames (23)
+"evergreen",        // standalone & name & placenames (23)
 "evergreens",       // standalone & placenames (3)
-"eves",             // first name & placenames (8)
+"eves",             // name & placenames (8)
 "ewes",             // standalone & placenames (2)
 // F
 "fairways",         // standalone
-"faith",            // first name
+"faith",            // name
 "fealty",
 "fedora",
 "fella",
@@ -1516,7 +1517,7 @@ const a: string[] = [
 "folio",
 "fontanel",
 "fontanelle",
-"foody",            // surname
+"foody",            // name
 "foor",
 "fora",
 "forage",
@@ -1527,7 +1528,7 @@ const a: string[] = [
 "forger",
 "forges",
 "formica",
-"fortune",          // first name & placenames (17)
+"fortune",          // name & placenames (17)
 "fossa",
 "fossil",
 "foster",
@@ -1548,9 +1549,9 @@ const a: string[] = [
 "foxy",
 "foyer",
 "foyers",
-"frank",                  // first name & placenames (90)
-"fry",                    // surname & placenames (32)
-"fu",                     // first name
+"frank",                  // name & placenames (90)
+"fry",                    // name & placenames (32)
+"fu",                     // name
 "fuchsia",
 "fudges",
 "fuller",
@@ -1779,7 +1780,7 @@ const a: string[] = [
 "grumbling",
 "grump",
 "gusset",           // standalone
-"guy",              // first name & placenames (47)
+"guy",              // name & placenames (47)
 // H
 "haberdasher",
 "haberdashers",
@@ -2052,21 +2053,21 @@ const a: string[] = [
 "hitler",
 "hitter",
 "hobgoblin",      // standalone & placename
-"holly",          // first name & placenames (265)
-"hope",           // first name & placenames (314)
+"holly",          // name & placenames (265)
+"hope",           // name & placenames (314)
 "horsefair",      // standalone & placenames (8)
-"hue",            // first name
-"hull",           // first name & standalone & placenames (51)
+"hue",            // name
+"hull",           // name & standalone & placenames (51)
 // I
 "illustrious",    // standalone
-"ivy",            // first name
+"ivy",            // name
 // J
-"jabber",         // first name
-"jan",            // first name & placenames (7)
+"jabber",         // name
+"jan",            // name & placenames (7)
 "jersey",         // standalone & placenames (23)
 "jesters",        // standalone
-"jesus",          // first name
-"joy",            // first name
+"jesus",          // name
+"joy",            // name
 // K
 "kale",
 "kales",
@@ -2096,7 +2097,7 @@ const a: string[] = [
 "keystone",
 "khaki",
 "khalif",
-"king",               // surname & placenames (799)
+"king",               // name & placenames (799)
 "kingfishers",        // standalone
 "knack",
 "kneedeep",           // standalone
@@ -2134,6 +2135,7 @@ const a: string[] = [
 "kudu",
 "kungfu",
 // L
+"lakeside",         // standalone
 "labrador",
 "lace",
 "lachrymal",
@@ -2156,7 +2158,7 @@ const a: string[] = [
 "lairds",
 "lairdship",
 "lairs",
-"lakeland",         // surname & standalone & placenames (12)
+"lakeland",         // name & standalone & placenames (12)
 "lama",
 "lamas",
 "lamb",
@@ -2345,7 +2347,7 @@ const a: string[] = [
 "livery",
 "llama",
 "llamas",
-"lo",               // first name & placenames (7)
+"lo",               // name & placenames (7)
 "loader",
 "loaders",
 "loaf",
@@ -2438,38 +2440,9 @@ const a: string[] = [
 "lows",
 "loyal",
 "loyalty",
-"lucid",
-"lucifer",
-"luckly",
-"lug",
-"lugs",
-"lullaby",
-"lumbago",
-"lumber",
-"lumbers",
-"lumen",
-"luncheon",
-"lupine",
-"lupins",
-"lupis",
-"lupus",
-"lurch",
-"lure",
-"lurk",
-"lurker",
-"lurks",
-"lush",
-"lusher",
-"lushes",
-"lushy",
-"lusted",
-"lusty",
-"lute",
-"lutes",
-"lye",              // first name & standalone & placenames (40)
-"lynch",            // surname & standalone & placenames (46)
+"lynch",            // name & standalone & placenames (46)
 // M
-"ma",               // first name & placenames (13)
+"ma",               // name & placenames (13)
 "macadamia",
 "macaque",
 "macaroni",
@@ -2515,8 +2488,8 @@ const a: string[] = [
 "maple",
 "maples",
 "march",            // standalone & placenames (98)
-"mark",             // first name
-"mason",            // first name & placenames (62)
+"mark",             // name
+"mason",            // name & placenames (62)
 "mat",
 "matchbox",
 "matching",
@@ -2683,13 +2656,13 @@ const a: string[] = [
 "mitt",
 "mitten",
 "mitts",
-"mo",             // first name & placenames (9)
+"mo",             // name & placenames (9)
 "moan",
 "moas",
 "moat",
 "moats",
 "moccasin",
-"mocha",          // first name
+"mocha",          // name
 "modal",
 "model",
 "modes",
@@ -2919,7 +2892,7 @@ const a: string[] = [
 "nurseryman",
 "nutmeg",
 // P
-"palestine",        // first name & standalone
+"palestine",        // name & standalone
 "papa",
 "papas",
 "papyrus",
@@ -3227,7 +3200,7 @@ const a: string[] = [
 "poolside",
 "poop",
 "poorhouse",
-"pope",             // surname & placenames (36)
+"pope",             // name & placenames (36)
 "poplar",
 "poplars",
 "popper",
@@ -3292,7 +3265,7 @@ const a: string[] = [
 "prey",
 "preys",
 "professors",         // standalone
-"prudence",           // first name & placenames (2)
+"prudence",           // name & placenames (2)
 "pucker",
 "puckering",
 "puckers",
@@ -3424,7 +3397,7 @@ const a: string[] = [
 "rebury",
 "recompence",
 "recto",
-"red",              // first name & standalone & placenames (534)
+"red",              // name & standalone & placenames (534)
 "redbrick",
 "redbud",
 "redcap",
@@ -3543,9 +3516,9 @@ const a: string[] = [
 "rivet",
 "rivets",
 "rize",
-"rob",              // first name & placenames (17)
-"rose",             // first name & placenames (326)
-"robin",            // first name & placenames (159)
+"rob",              // name & placenames (17)
+"rose",             // name & placenames (326)
+"robin",            // name & placenames (159)
 "rubbery",
 "rubbing",
 "rubble",
@@ -3733,8 +3706,8 @@ const a: string[] = [
 "sax",
 "saxon",
 "saxons",
-"scarlet",          // first name & placenames (15)
-"scot",             // first name & placenames (28)
+"scarlet",          // name & placenames (15)
+"scot",             // name & placenames (28)
 "skylines",         // standalone
 "skylarks",         // standalone & placenames (2)
 "snaffle",
@@ -3870,7 +3843,7 @@ const a: string[] = [
 "spindles",
 "spindrift",
 "spinoff",
-"spire",            // surname & standalone & placenames (50)
+"spire",            // name & standalone & placenames (50)
 "spires",
 "spiritedl",
 "spital",
@@ -3894,10 +3867,10 @@ const a: string[] = [
 "spores",
 "spotter",
 "spout",
-"stirling",         // surname & standalone & placename (41)
-"stoke",            // surname & standalone & placenames (292)
-"stow",             // surname & standalone & placenames (66)
-"sue",              // first name & placenames (2)
+"stirling",         // name & standalone & placename (41)
+"stoke",            // name & standalone & placenames (292)
+"stow",             // name & standalone & placenames (66)
+"sue",              // name & placenames (2)
 // T
 "teak",
 "teal",
@@ -3948,7 +3921,7 @@ const a: string[] = [
 "tetrahedra",
 "textile",
 "tilty",            // standalone
-"tj",               // first name
+"tj",               // name
 "toad",
 "toads",
 "tobacconist",
@@ -4047,7 +4020,7 @@ const a: string[] = [
 "trimming",
 "trims",
 "trinities",
-"trinity",          // first name & placenames (228)
+"trinity",          // name & placenames (228)
 "trinket",
 "tripe",
 "triplet",
@@ -4076,7 +4049,7 @@ const a: string[] = [
 "truelove",
 "truffle",
 "truffles",
-"trump",            // surname & placenames (2)
+"trump",            // name & placenames (2)
 "trumpet",
 "trumpeter",
 "trumpets",
@@ -4124,14 +4097,15 @@ const a: string[] = [
 // U
 "upstreet",         // standalone
 // V
-"victor",           // first name & placenames (28)
-"victors",          // first name & placenames (3)
-"villa",            // first name & placenames (79)
-"violet",           // first name & placenames (37)
+"victor",           // name & placenames (28)
+"victors",          // name & placenames (3)
+"villa",            // name & placenames (79)
+"violet",           // name & placenames (37)
 // W
-"wade",             // first name & placenames (53)
-"warren",           // first name & placenames (404)
+"wade",             // name & placenames (53)
+"warren",           // name & placenames (404)
 "waterside",        // standalone & placenames (46)
+"woodlands",        // name & standalone & placenames (145)
 "woodpeckers",      // standalone & placenames (4)
 ];
 const ProperNameSet: Set<string> = new Set();

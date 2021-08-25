@@ -28,6 +28,7 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+grove\b/gmi,
    /\b[a-z]+haven\b/gmi,
    /\b[a-z]+hayes\b/gmi,
+   /\b[a-z]+heath\b/gmi,
    /\b[a-z]+hedges?\b/gmi,
    /\b[a-z]+hofer\b/gmi,
    /\b[a-z]+[a-su-z]hree\b/gmi,

@@ -54,7 +54,6 @@ const a: RegExp[] = [
 /\b(?:double\s)?rail\sclose\b/gmi,
 /\b(?:peak|red)\srail\b/gmi,
 /\briverside\srail\sterminal\b/gmi,
-/\b(?:church|red)\srails\b/gmi,
 /\b(?:rails\s(?:avenue|covert|harbour|inclosure|lane|pond|road|wood))\b/gmi,
 /\brampart\s(?:avenue|gardens|head|road|street|terrace|way)\b/gmi,
 /\b(?:back|long)\srampart\b/gmi,
@@ -66,12 +65,14 @@ const a: RegExp[] = [
 /\b(?:hooley|langley|limekiln|lodge|nevis|north|park|sheltwood|sidlaw|snowdon|south|stanley|wally|westbourne|whalley|whitemoss|woodhayne)\srange\b/gmi,
 /\brangers\s(?:avenue|close|court|square|walk)\b/gmi,
 /\brap\splantation\b/gmi,
+/\brapes\s(?:clough|highway|wood)\b/gmi,
 
 // RE
 /\b(?:duryard|mount\sclare|pollock|varley|wessex\slane)\shalls\sof\sresidence\b/gmi,
 /\bmossdale\sresidence\b/gmi,
 /\bresidence\slane\b/gmi,
 /\bredneck\sheath\b/gmi,
+/\bred\srails\b/gmi,
 /\b(?:armetriding|broad)\sreaches\b/gmi,
 /\breaches\s(?:drove|farm)\b/gmi,
 /\b(?:Reader|Reads)\sClose\b/gm,
@@ -1170,7 +1171,9 @@ const a: RegExp[] = [
 /\btinkers['‘’`]?\s(?:acre|avenue|belt|bridge|castle\swood|close|clough)\b/gmi,
 /\btinkers['‘’`]?\s(?:coppice|copse|crescent|cross|drive|farm\s(?:grove|road))\b/gmi,
 /\btinkers['‘’`]?\s(?:field|green(?:\sroad)?|hill|hole|mead|way|wood(?:\sroad)?)\b/gmi,
+
 // TO
+/\btown\slot\slane\b/gmi,
 /\b(?:to[\s-]fawr|(?:ginns|loch\san|ty|tyddyn)[\s-]to|too\sto\shill)\b/gmi,
 /\btobacco\s(?:close|hillock|pipe\scopse|rock)\b/gmi,
 /\btobago\s(?:close|drive|place|street)\b/gmi,
@@ -1225,11 +1228,13 @@ const a: RegExp[] = [
 /\btrouble\swood(?:\slane)?\b/gmi,
 /\btroublesome\sreach\b/gmi,
 /\btrust\s(?:close|corner|court|fold|road)\b/gmi,
+
 // TU
+/\bturf\slot\sdrove\b/gmi,
 /\btunnels\sbeaches\b/gmi,
 /\btungsten\scourt\b/gmi,
 /\btune\s(?:street|wood)\b/gmi,
-/\b(?:aber|blackwall|channel|kingsway|rotherhithe)\stunnel\b/gmi,
+/\b(?:kingsway|rotherhithe)\stunnel\b/gmi,
 /\btunnel\s(?:approach|avenue|bank|close|coppice|copse|dr[io]ve|end(?:\sreservoir)?)\b/gmi,
 /\btunnel\s(?:gardens|head|hill(?:\swood)?|how\shill|junction|lane|link\sroad|plantation)\b/gmi,
 /\btunnel\s(?:pool|road|street|terrace|top|way|wood(?:\s(?:close|road))?)\b/gmi,

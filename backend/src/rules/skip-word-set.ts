@@ -1600,6 +1600,7 @@ const a: string[] = [
 "sham",
 "shaman",
 "shaven",
+"sheath",
 "sheen",
 "sheik",
 "sheikh",

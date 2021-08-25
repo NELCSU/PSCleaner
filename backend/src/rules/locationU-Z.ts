@@ -313,6 +313,7 @@ const a: RegExp[] = [
 /\bwillows\snursing\b/gmi,
 /\b(?:church\swind|wind\s(?:bay|covert|egg\splantation|engine\sclough|gate\srise|geo|hills?(?:\s(?:lane|wood))?|hole|lane|mill|moor|road|scarth|spinney|street|tor|whistle\s(?:farm|way)|wick))\b/gmi,
 /\bWind\s(?:Down(?:\s(?:[Cc]lose|[Pp]lantation))?|Fall)\b/gm,
+/\bwindmill\snaps\b/gmi,
 /\bwinds\s(?:end\sclose|lonnen|point|ridge|wood)\b/gmi,
 /\b(?:four|harbour)\swinds\s(?:court|road)\b/gmi,
 /\b(?:High|West)\sWinds\b/gm,

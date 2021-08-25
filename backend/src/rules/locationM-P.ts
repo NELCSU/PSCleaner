@@ -187,7 +187,8 @@ const a: RegExp[] = [
 /\bNaked\sMan\b/gm,
 /\bnan\sdoth\b/gmi,
 /\bnapping\s(?:lane|tree\scoppice)\b/gmi,
-/\b(?:windmill\snaps|naps\s(?:copse|lane))\b/gmi,
+/\bnaps\s(?:copse|lane)\b/gmi,
+/\bnarrator\splantation\b/gmi,
 /\b(?:royal\s)?national\s(?:avenue|bank|crescent|college|court|drive|gate|hospital|park|road|star|street)\b/gmi,
 /\broyal\snational\sforest\b/gmi,
 /\bNational\sForest\b/gm,
@@ -201,6 +202,7 @@ const a: RegExp[] = [
 /\bnavigator['‘’`s]*\s(?:close|court|drive|road|way)\b/gmi,
 
 // NE
+/\bnew\slakeside\b/gmi,
 /\bnew\shorizon\scommunity\sschool\b/gmi,
 /\bNear\s(?:Acre|Down|Side|Town)\b/gm,
 /\b(?:carn\snear(?:\sroad)?|greetham\swood\snear|kingston\snear\slewes|llanfihangel\snear\srogiet)\b/gmi,
@@ -426,6 +428,7 @@ const a: RegExp[] = [
 // PE
 /\bpe(?:aceful|cked|g|sters|stilence)\slane\b/gmi,
 /\bpen-y-clip\b/gmi,
+/\bperton\slakeside\b/gmi,
 
 // PI
 /\bpi(?:nchers|ngs)\sclose\b/gmi,
@@ -440,6 +443,7 @@ const a: RegExp[] = [
 /\bporpoise\shill\b/gmi,
 /\bportal\svalve\shouse\b/gmi,
 /\bpo(?:lls|ssession)\slane\b/gmi,
+/\bpork\s(?:hill|lane|street)\b/gmi,
 
 // PR
 /\bprince\sconsort\s(?:cottages|drive|lane|road|way)\b/gmi,
