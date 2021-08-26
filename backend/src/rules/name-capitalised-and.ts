@@ -592,7 +592,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "cockpit",          // standalone & placenames (9)
 "cockpits",         // standalone
 "cockrel",          // name
-"cocks",            // name & standalone & placenames (14)
 "cockup",           // standalone & placenames (2)
 "coda",             // name & placename
 "coddles",          // standalone
@@ -910,6 +909,36 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "downs",            // placenames (422)
 "downside",         // standalone & placenames (20)
 "doyen",            // name
+"drab",             // name & placename
+"dragoon",          // name & placenames (8)
+"drape",            // name
+"draper",           // name & placenames (12)
+"drapery",          // standalone & placenames (2)
+"draught",          // standalone & placenames (3)
+"drawback",         // standalone & placenames (2)
+"dray",             // name & placenames (11)
+"dreamer",          // name
+"dredge",           // name
+"dredger",          // name
+"dresser",          // name & placenames (3)
+"drew",             // name & placenames (27)
+"drey",             // name & placenames (2)
+"drier",            // name
+"dries",            // name
+"drift",            // placenames (115)
+"droll",            // name
+"droop",            // name & standalone & placenames (2)
+"dross",            // name & placename
+"drove",            // placenames (1k+)
+"drover",           // name & placenames (9)
+"drovers",          // standalone & placenamess (23)
+"drowns",           // name
+"drub",             // standalone & placename
+"drudge",           // name & placename
+"druid",            // standalone & placenames (26)
+"drummer",          // name & placenames (9)
+"drumming",         // standalone & placenames (2)
+"dryer",            // name & placenames (2)
 "dragon",           // name & placenames (28)
 "dragonfly",        // name & placenames (12)
 "dragons",          // placenames (11)
@@ -2119,7 +2148,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "mould",            // name & placenames (3)
 "moulding",         // name & placename
 "moulds",           // name & placename
-"mount",            // placenames (1k+)
 "mountain",         // placenames (110)
 "mounts",           // name & placenames (19)
 "mourning",         // name & placename
@@ -2431,7 +2459,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "poll",             // placenames (195)
 "polo",             // name & placenames (11)
 "ponder",           // name & placenames (4)
-"pool",             // placenames (1k+)
 "pools",            // placennames (57)
 "poor",             // name & placenames (39)
 "pops",             // name

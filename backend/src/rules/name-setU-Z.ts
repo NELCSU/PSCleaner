@@ -5362,7 +5362,6 @@ const a: string[] = [
 "verhees",
 "verhelst",
 "verheulpen",
-"verheve",
 "verhine",
 "verhines",
 "verhoeven",
@@ -9084,7 +9083,6 @@ const a: string[] = [
 "waldershare",
 "waldert",
 "waldete",
-"waldeve",
 "waldfogel",
 "waldgrave",
 "waldgrooms",
@@ -9310,7 +9308,6 @@ const a: string[] = [
 "wallgrave",
 "wallgutters",
 "wallhead",
-
 "wallhouse",
 "walliams",
 "wallick",
@@ -10079,7 +10076,6 @@ const a: string[] = [
 "warriers",
 "warrillow",
 "warrilow",
-
 "warriner",
 "warriners",
 "warringer",
@@ -10446,7 +10442,6 @@ const a: string[] = [
 "waterhaughs",
 "waterhaynes",
 "waterhead",
-
 "waterhills",
 "waterhouse",
 "waterhouses",
@@ -10916,7 +10911,6 @@ const a: string[] = [
 "weberson",
 "weberty",
 "webester",
-
 "webire",
 "webland",
 "webler",
@@ -12210,7 +12204,6 @@ const a: string[] = [
 "westhead",
 "westheads",
 "westheafer",
-
 "westhide",
 "westhills",
 "westhod",
@@ -12970,7 +12963,6 @@ const a: string[] = [
 "whitbred",
 "whitbreds",
 "whitburrow",
-
 "whitbysteads",
 "whitcastles",
 "whitchells",
@@ -13066,7 +13058,6 @@ const a: string[] = [
 "whiteheads",
 "whiteheaps",
 "whiteheart",
-
 "whitehicks",
 "whitehillock",
 "whitehills",
@@ -13571,7 +13562,6 @@ const a: string[] = [
 "wickfield",
 "wickfields",
 "wickhams",
-
 "wickings",
 "wickins",
 "wickiser",
@@ -14044,7 +14034,6 @@ const a: string[] = [
 "wilderson",
 "wilderspin",
 "wildes",
-"wildeve",
 "wildfield",
 "wildfields",
 "wildforest",
@@ -14508,7 +14497,6 @@ const a: string[] = [
 "wilmslow",
 "wilmuth",
 "wilners",
-"wilneve",
 "wilney",
 "wilnor",
 "wilo",
@@ -16142,7 +16130,6 @@ const a: string[] = [
 "woodhays",
 "woodhead",
 "woodheads",
-
 "woodheyes",
 "woodheys",
 "woodhorn",
@@ -18390,7 +18377,6 @@ const a: string[] = [
 "yarvin",
 "yarwell",
 "yarwells",
-
 "yarygina",
 "yas",
 "yasabel",

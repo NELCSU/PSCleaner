@@ -59,7 +59,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sDe(?:af\sAcademy|als|anery|ep|er\sLeap)\b/gm,
   /\bThe\sDi(?:al|sputes|strict\sChurch|tch)\b/gm,
   /\bThe\sDo(?:cks?|ors|ves|wns?|wns\sBrake)\b/gm,
-  /\bThe\sDr(?:ain|iftway|ive|iveway|ums?)\b/gm,
+  /\bThe\sDr(?:ain|ays|ift(?:way)?|ive|iveway|ums?)\b/gm,
   /\bThe\sDue\b/gm,
   /\bThe\sDy(?:es|ke\sForest|kes)\b/gm,
   
@@ -88,7 +88,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sGl(?:ades?|assworks|impse|obal\sAcademy|obe)\b/gm,
   /\bThe\sGo(?:al|ats\sLeap\sPool|d\sAlmighty|re|rge|rses?)\b/gm,
   /\bThe\sGra(?:dient|in\sStore|nd|nge|sslands|ves|zing\sGrounds)\b/gm,
-  /\bThe\sGre(?:en|at\sFace|at\sGully|y\sCorries)\b/gm,
+  /\bThe\sGre(?:en(?:\sDrift)?|at\sFace|at\sGully|y\sCorries)\b/gm,
   /\bThe\sGri(?:d|p|pes)\b/gm,
   /\bThe\sGro(?:ve|in|unds|ves)\b/gm,
   /\bThe\sGu(?:ards?|ides\sFlat|ild|lf|ll|llet|lley|lls|lly|n|t|tter|vnor['‘’`]?s\sBelt|ys)\b/gm,
@@ -192,7 +192,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sRotunda\b/gm,
   /\bThe\sRou(?:gh(?:\s(?:Grounds?|Park|Patch|Strip)|s)|nd|ndabouts?|ts)\b/gm,
   /\bThe\sRows?\b/gm,
-  /\bThe\sRoyal(?:\s(?:Free|High|Masonic|National)|ty)\b/gm,
+  /\bThe\sRoyal(?:\s(?:Drift|Free|High|Masonic|National)|ty)\b/gm,
   /\bThe\sRu(?:ins|n|nners|sh)\b/gm,
 
   /\bThe\sSa(?:ddle|ints|le|ndbags|ucers|w\s?[Mm]ills?)\b/gm,

@@ -279,49 +279,56 @@ const a: RegExp[] = [
 /\bBeech\sNut\b/gm,
 /\b(?:peg\snut\shill|peggy\snut\scroft|ridge\snut\swood|upper\snut\shurst)\b/gmi,
 /\bnuts\s(?:and\sbolts\sroad|cleugh|hill)\b/gmi,
-// O
-/\bo(?:ld\sfishmarket|rchids)\sclose\b/gmi,
+
+// OA
 /\bo(?:ak\sapples|utfields)\sdrive\b/gmi,
-/\bogre\shill\b/gmi,
-/\bodd\slane\b/gmi,
-/\bold\s(?:horse\schestnut|(?:maid|man)['‘’`]?s|post|warp|woman['‘’`]?s)\slane\b/gmi,
-/\bolives\spit\slane\b/gmi,
-/\bone[\s-](?:end|eyed|house|oak|pin|tree)\slane\b/gmi,
-/\borders\slane\b/gmi,
-/\bout(?:let|puts|side)\slane\b/gmi,
-/\bowe['‘’`]?s\slane\b/gmi,
-/\bovercoat\slane\b/gmi,
-/\boverlook\sloch\b/gmi,
 /\bo(?:arsman|ld\s(?:clinic|saw\smill))\splace\b/gmi,
-/\bo(?:ceanic|ptimum|utcrop)\sroad\b/gmi,
-/\boust\srocks\b/gmi,
-/\bo(?:ffice|nward|rdinal|ther|vert)\sstreet\b/gmi,
-/\bo(?:ceanic|mnibus|nward|rigin|verview)\sway\b/gmi,
-/\boozes\swood\b/gmi,
-/\boblong\sclump\b/gmi,
-/\boutflow\sgeo\b/gmi,
 /\boatcake\sgrove\b/gmi,
-/\bold\ssquaw\slake\b/gmi,
-/\borca\smews\b/gmi,
-/\bOther\sRoad\b/gm,
 /\boakum\s(?:bay|court|square)\b/gmi,
 /\boat\s(?:close|drive|hill(?:\s(?:drive|road))?|lane|lays|market|mill\shill|piece|road|street)\b/gmi,
+
+// OB
 /\bobserver\s(?:close|court|drive|point|way)\b/gmi,
+/\boblong\sclump\b/gmi,
+
+// OC
 /\boccupation\s(?:close|gardens|lane|road|street|wood)\b/gmi,
 /\boctagon\s(?:drive|lake|plantation|pond|road|street|terrace|way|wood)\b/gmi,
+/\bo(?:ceanic|ptimum|utcrop)\sroad\b/gmi,
+/\bo(?:ceanic|mnibus|nward|rigin|verview)\sway\b/gmi,
+
+// OD
+/\bodd\slane\b/gmi,
+
+// OF
 /\boff\s(?:botanic\sroad|cove|grove\sroad|height|low\smills\slane|mount\spleasant\sstreet|ridge\shill\slane|stamford\sstreet|the\savenue|upper\smanor\sroad|wood)\b/gmi,
 /\boffal\s(?:pit\slane|wood)\b/gmi,
 /\boffice\s(?:approach|avenue|brae|close|coppice|court|entry|field|gardens|green|hill|lane|mews|place|plantation|pool|road|row|slip|square|village|way|wood|yard)\b/gmi,
 /\b(?:port|tan)\soffice(?:\sbuilding)?\b/gmi,
-/\bOld\sPost\sOffice\b/gm,
 /\bofficer[s']{0,2}?\s(?:copse|field|gardens|quarters|road|row)\b/gmi,
+/\bo(?:ffice|nward|rdinal|ther|vert)\sstreet\b/gmi,
+
+// OG
+/\bogre\shill\b/gmi,
+
+// OI
 /\boil\s(?:an\sgwella|cove|mill\s(?:fold|lane|road)|moor|sites\sroadstreet)\b/gmi,
 /\boily\s(?:geo|pig)\b/gmi,
 /\b(?:cnoc\san|loch)\soil\b/gmi,
+
+// OL
+/\bold\sdrying\sgrounds\b/gmi,
+/\bold\s(?:horse\schestnut|(?:maid|man)['‘’`]?s|post|warp|woman['‘’`]?s)\slane\b/gmi,
+/\bolives\spit\slane\b/gmi,
+/\bOld\sPost\sOffice\b/gm,
+/\bold\ssquaw\slake\b/gmi,
 /\bold\swives\slees\b/gmi,
+/\bo(?:ld\sfishmarket|rchids)\sclose\b/gmi,
 /\bolympian\s(?:court|road)\b/gmi,
 /\bOlympian\s(?:Close|Drive|Way)\b/gm,
 /\bolympic\s(?:avenue|boulevard|close|court|crescent|drive|legacy\spark|mews|park|primary|square|street|way)\b/gmi,
+
+// ON
 /\b(?:allhallows|barton|bexhill|bigbury|birchington|bradwell|burnham|caister|clacton)[\s-]on[\s-]sea\b/gmi,
 /\b(?:durrington|eccles|frinton|greatstone|gorleston|gwbert|holland|hopton|knott[\s-]end|leigh)[\s-]on[\s-]sea\b/gmi,
 /\b(?:leysdown|littlestone|lydd|middleton|milford|minster|rh[oòô]s|sheerness)[\s-]on[\s-]sea\b/gmi,
@@ -371,10 +378,19 @@ const a: RegExp[] = [
 /\bw(?:alsgrave[\s-]on[\s-]sowe|estbury[\s-]on[\s-]trym)\b/gmi,
 /\b(?:s(?:ain)?t\sanne['‘’`]?s[\s-]on[\s-]the[\s-]sea|walton[\s-]on[\s-]the[\s-]naze)\b/gmi,
 /\bOne\s(?:Campus|Oaks|Row|Road)\b/gm,
+/\bone[\s-](?:end|eyed|house|oak|pin|tree)\slane\b/gmi,
 /\boneschool\sglobal\b/gmi,
 /\bbridge\sof\sone\shair\b/gmi,
+
+// OO
 /\b(?:bishop|black|broad|bull['‘’`]?s|cunnyfur|ham|middle|pond|slede|stoke|wherstead)\sooze\b/gmi,
 /\booze\s(?:castle\swood|rocks)\b/gmi,
+/\boozes\swood\b/gmi,
+
+// OP
+/\b(?:black\shorse|brighty['‘’`]?s|catherine\swheel|constitution|coopers|denmark|fishers|fiske['‘’`]?s|foulgers|greyhound|ingram['‘’`]?s|well)\sopening\b/gmi,
+
+// OR
 /\borangery\s(?:close|lane|walk)\b/gmi,
 /\boratory\s(?:drive|gardens|roman\scatholic)\b/gmi,
 /\bthe\s(?:london\soratory|oratory\s(?:preparatory|roman\scatholic|school))\b/gmi,
@@ -383,13 +399,22 @@ const a: RegExp[] = [
 /\borbit\s(?:gardens|mews|street)\b/gmi,
 /\borbital\s(?:court|crescent|road|way)\b/gmi,
 /\b(?:little|muckle)\sorcas\b/gmi,
+/\borca\smews\b/gmi,
 /\bsandford\sorcas(?:\sroad)?\b/gmi,
 /\borgan\s(?:hill\sroad|pool|street|way)\b/gmi,
 /\b(?:organ['‘’`]?s\s(?:brake|green|hill)|zawn\sorgan)\b/gmi,
 /\borphanage\s(?:road|street|wood)\b/gmi,
+/\borders\slane\b/gmi,
+
+// OT
 /\b(?:Otters\s(?:Close|Had)|Little\sOtters)\b/gm,
 /\botters['‘’`]?\s(?:bank|brook|cave|croft|field|geo|hill|holt|lane|pool|reach|rest|walk|wick)\b/gmi,
-/\b(?:black\shorse|brighty['‘’`]?s|catherine\swheel|constitution|coopers|denmark|fishers|fiske['‘’`]?s|foulgers|greyhound|ingram['‘’`]?s|well)\sopening\b/gmi,
+/\bOther\sRoad\b/gm,
+
+// OU
+/\boutflow\sgeo\b/gmi,
+/\boust\srocks\b/gmi,
+/\bout(?:let|puts|side)\slane\b/gmi,
 /\b(?:ben\sour|our\s(?:ness|place\sschools))\b/gmi,
 /\bOur\s(?:Holy|Lady['‘’`]?s?)\b/gm,
 /\bouster\s(?:bank|gill\shill)\b/gmi,
@@ -398,6 +423,8 @@ const a: RegExp[] = [
 /\b(?:north|south)\soutflow\b/gmi,
 /\boutlook\s(?:avenue|drive|place)\b/gmi,
 /\boutridden\s(?:copse|firs|hill)\b/gmi,
+
+// OV
 /\b(?:oven\s(?:bottom(?:\swood)?|hill\sroad|lane|wood|wynd)|baron\sold\soven|brown['‘’`]?s\soven\swood|coke\soven\savenue)\b/gmi,
 /\bover\s(?:\&\swillingham|abington\s(?:plantation|strip)|alderley|ashberry|blelock)\b/gmi,
 /\bover\s(?:brunton\sclose|burrows?|causeway|cleuch|close\swood|compton|court\sgardens)\b/gmi,
@@ -406,16 +433,27 @@ const a: RegExp[] = [
 /\bOver\s(?:Drive|End|Green|Houses|Lane|Law|Place|Road|Scar|Street|The\sHill|Town|Water)\b/gm,
 /\bkirkby\soverblow\b/gmi,
 /\boverlord\s(?:close|court|drive)\b/gmi,
+/\bovercoat\slane\b/gmi,
+/\boverlook\sloch\b/gmi,
+
+// OW
 /\bowlets\s(?:end|hall\sclose)\b/gmi,
 /\bowls['‘’`]?\s(?:close|copse|den|end(?:\s(?:lane|road))?|eye\sclose|gate|grove)\b/gmi,
 /\bowls['‘’`]?\s(?:hatch(?:\sroad)?|head\sroad|holes|lodge|retreat|road|wood)\b/gmi,
 /\b(?:night\sowls|three\sowls\sbird\ssanctuary)\b/gmi,
 /\bThree\sOwls\b/gm,
+/\bowe['‘’`]?s\slane\b/gmi,
+
+// OX
 /\boxen\s(?:avenue|cove|covert|craig|croft|dale|dean|down|drive|end|fell\shigh\scross)\b/gmi,
 /\boxen\s(?:gill\splantation|hill|hoath\spark|house\sbay|lane|law|lea[sz]e)\b/gmi,
 /\boxen\s(?:lees\swood|moor|park\sclose|park|piece|punds|road|stang\sfield|-le-fields)\b/gmi,
 /\b(?:oxen['‘’`s]*\swood|little\soxen\scraig|lower\soxen\spark\scopse)\b/gmi,
+
+// OY
 /\b(?:carreg\soysters|oysters\sreach|(?:pottle\s)?oysters\scoppice)\b/gmi,
+
+// OZ
 /\bozone\s(?:park|terrace|way)\b/gmi,
 
 // PA

@@ -32,6 +32,7 @@ const a: RegExp[] = [
   /\bivory\scoast\b/gmi,
   // J
   /\b(?:jp\smorgan\schase|(?:infant|junior)\sand\s(?:infants?|junior))\b/gmi,
+  /\bJoint\sCommittee\b/gm,
   // K
   /\bku\sklux\sklan\b/gmi,
   // M

@@ -68,12 +68,12 @@ const a: RegExp[] = [
 /\brapes\s(?:clough|highway|wood)\b/gmi,
 
 // RE
+/\brear\sof\s(?:edward|pendarves)\sstreet\b/gmi,
 /\b(?:duryard|mount\sclare|pollock|varley|wessex\slane)\shalls\sof\sresidence\b/gmi,
 /\bmossdale\sresidence\b/gmi,
 /\bresidence\slane\b/gmi,
 /\bredneck\sheath\b/gmi,
 /\bred\srails\b/gmi,
-/\b(?:armetriding|broad)\sreaches\b/gmi,
 /\breaches\s(?:drove|farm)\b/gmi,
 /\b(?:Reader|Reads)\sClose\b/gm,
 /\breader['‘’`s]*\s(?:bridge\sroad|close|court|crescent|drive|lane|street|walk|way)\b/gmi,
@@ -707,7 +707,7 @@ const a: RegExp[] = [
 /\b(?:black\ssquares\sdrive|squares\s(?:road|wood\sclose))\b/gmi,
 /\bsquash\swithy\sbed\b/gmi,
 /\bsquashes\swood\b/gmi,
-// SR
+
 // ST
 /\bst\.?\sjust\sclose\b/gmi,
 /\bstop\scopse\b/gmi,
@@ -748,6 +748,7 @@ const a: RegExp[] = [
 /\b(?:five\sstake\sdrain|(?:hill\sof|white)\sstake)\b/gmi,
 /\bstalkers\s(?:copse|entry|lane)\b/gmi,
 /\bstalks\s(?:road|wooc)\b/gmi,
+/\bstamps\s(?:and\sjowl\szawn|lane)\b/gmi,
 /\bstampers\s(?:hill|wood)\b/gmi,
 /\b(?:High|Short)\sStanding\b/gmi,
 /\bStanding\s(?:Close|Head|Stones|Way)\b/gm,
@@ -1081,6 +1082,7 @@ const a: RegExp[] = [
 /\bthree\s(?:butt\slane|cedar\swood|cherry\strees\slane|chimney\sshaw|chimneys\s(?:lane|wood))\b/gmi,
 /\bthree\s(?:choirs\sclose|cliffs\s(?:bay|drive)|close\slane|closes)\b/gmi,
 /\bthree\s(?:cocked\shat(?:\s(?:plantation|wood))?|cocks\slane|colts?\s(?:lane|street|yard)|combe\shill)\b/gmi,
+/\bthree\scocks(?:\slane)?\b/gmi,
 /\bthree\scorner\s(?:close|clump|common|coppice|copse|covert|cut|drive|field|firs|grove|mead|place|plantation|planting|shaw|spinney|wood)\b/gmi,
 /\bthree\scornered\s(?:close|coppice|copse|covert|plain|plantation|shaw|wood)\b/gmi,
 /\bthree\scorners\s(?:close|covert|plantation|road|wood)\b/gmi,

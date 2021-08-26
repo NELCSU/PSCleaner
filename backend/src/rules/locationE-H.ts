@@ -1,5 +1,4 @@
 const a: RegExp[] = [
-// EA
 /\b[ef]\sstreet\b/gmi,
 /\bE(?:ast\s[Aa]nd\s(?:South|West)|lm\s[Aa]nd\sOak)\b/gm,
 /\be(?:ast\sand\swest(?:\swalk)?|ton\sand\scastle|ye\sand\sdunsden|ye,\s(?:moreton|thorney))\b/gmi,
@@ -10,7 +9,6 @@ const a: RegExp[] = [
 /\bEach\sEnd\b/gm,
 /\b(?:ceann|olaidh|(?:an\s)?loch|gaoith|gaoithe|geo|geodha|ròg|roisinis|stiomol|stoicleit|suil|tòb)\sa[ns]\sear\b/gmi,
 /\b(?:ear\slees\swood|new\sear\slane|(?:ceann|chinn|geodha|gaoithe'n|meall|òb\sa's|tràigh)\sear)\b/gmi,
-/\bcoed-yr-earl\b/gmi,
 /\bearn\s(?:avenue|cairn|cleuch|court|crescent|drive|gardens|grove|hill|hope|place|road|skelly|street|terrace)\b/gmi,
 /\b(?:bridge\sof\searn(?:\sroad)?|loch\searn)\b/gmi,
 /\bearning\s(?:stream|street)\b/gmi,
@@ -18,19 +16,24 @@ const a: RegExp[] = [
 /\bearth\s(?:copse|green|holes|holme|lane|primary|street|wall|wood)\b/gmi,
 /\beast\snymph\slane\b/gmi,
 /\b(?:easy\s(?:lane|row|view\slane)|allan\seasy|(?:cross\s)?easy\sroad|moss\seasy)\b/gmi,
+
 // EC
 /\b(?:mount\secho\s(?:avenue|drive)|echo\s(?:bank|cleugh|close|court|crags|crescent|heights|hill|lane|pit\sroad|street|way|wood))\b/gmi,
 /\beconomy\s(?:cove|road)\b/gmi,
 /\be(?:cho\sbarn|tching)\shill\b/gmi,
+
 // ED
 /\b(?:moor\sedges\sroad|edges\s(?:court|farm\sclose|lane|wood))\b/gmi,
 /\bEducate\sTogether\b/gm,
 /\be(?:ducation|levator|lite|ntries)\sroad\b/gmi,
+
 // EF
 /\be(?:ffort|l(?:ectricity|even)|quitable|vening|excise)\sstreet\b/gmi,
+
 // EG
 /\begg\s(?:clump|moor|plantation)\b/gmi,
 /\be(?:gg|piphany\sChurch|rr|ygpt)\swood\b/gmi,
+
 // EI
 /\b(?:Eighth|Eleventh|Every)\sStreet\b/gm,
 /\bE(?:ight|leven)\sAcres?\b/gm,
@@ -40,6 +43,7 @@ const a: RegExp[] = [
 /\beight\s(?:and\sforty|ash\sgreen|bells\sclose|cornered\swood|oaks|ro[ao]ds\sland)\b/gmi,
 /\b(?:Eight\sTrees|Figure\sEight)\b/gm,
 /\b(?:figure\seight\splantations?|little\seight\sacre\s(?:copse|plantation)|miller['‘’`]?s\seight\sacres|ninety\seight\splantation)\b/gmi,
+
 // EL
 /\belderberry\s(?:bank|close|cottages|court|crescent|drive|gardens|lane|mews|place|road|view|walk|way)\b/gmi,
 /\b(?:electric\s(?:avenue|crescent|lane|parade|station\sroad|street|way|wharf)|cauld\shydro\selectric\sstation|volk['‘’`]?s\selectric\srailway)\b/gmi,
@@ -49,10 +53,12 @@ const a: RegExp[] = [
 /\belephant\s(?:gully|lane|road|rock)\b/gmi,
 /\belms\sprimary\b/gmi,
 /\be(?:lite|mporia)\sclose\b/gmi,
+
 // EM
 /\bembassy\s(?:close|court|drive|gardens|lane|road|theatre|walk|way)\b/gmi,
 /\bemperors\s(?:gate|way)\b/gmi,
 /\bempire\s(?:avenue|centre|close|court|crescent|drive|gate|grove|mews|parade|park|passage|road|street|terrace|villas|walk|way|wharf)\b/gmi,
+
 // EN
 /\bEnter\sLane\b/gm,
 /\bendless\s(?:copse|flat\splantation|street)\b/gmi,
@@ -68,23 +74,28 @@ const a: RegExp[] = [
 /\bengineer\s(?:close|road|street)\b/gmi,
 /\bengineers['‘’`]?\s(?:court|road|square|way|wood)\b/gmi,
 /\benvoy\s(?:avenue|close|rise|street)\b/gmi,
+
 // EQ
 /\bequestrian\s(?:court|grove|way)\b/gmi,
 /\bequinox\sdrive\b/gmi,
 /\b(?:equine\sway|mount\spleasant\sequine\scentre)\b/gmi,
+
 // ES
 /\bessay\sgeo\b/gmi,
 /\b(?:chase|ash)\sestates\b/gmi,
 /\bestates\sroad\b/gmi,
 /\beskimo\scourt\b/gmi,
 /\bescarpment\savenue\b/gmi,
+
 // EU
 /\bEuropean\sWay\b/gm,
 /\beurostar\smeadow\b/gmi,
+
 // EV
 /\bevening\s(?:court|glade|hill(?:\sdrive)?|street|wood)\b/gmi,
 /\bEvening\sStar\b/gmi,
 /\bevolution\s(?:court|road)\b/gmi,
+
 // EX
 /\bex(?:perian|plore)\sway\b/gmi,
 /\b(?:first|great|second|third)\sexhibition\s(?:avenue|lane|plantation|road|way|wood)\b/gmi,
@@ -101,28 +112,38 @@ const a: RegExp[] = [
 /\bexchequer\srow\b/gmi,
 /\bexplorers\snursery\b/gmi,
 /\bExpectations\sDrive\b/gmi,
+
 // EY
 /\beyes\splantation\b/gmi,
 /\beynard\simpasse\b/gmi,
+
 // FA
 /\bfairways\s(?:avenue|close|court|crescent|drive|estate|place|primary\sschool|road|school|view|walk)\b/gmi,
 /\bfamilars\srocks\b/gmi,
 /\bfanfare\sclose\b/gmi,
 /\bfangs\sbrow\b/gmi,
+
 // FI
 /\bfirebrick\savenue\b/gmi,
 /\bfishwives['‘’`]?\scauseway\b/gmi,
 /\bfi(?:tters\smill|ver)\sclose\b/gmi,
+/\bfighting\scocks(?:\splace)?\b/gmi,
+
 // FL
 /\bfl(?:intlock|owerpot)\sclose\b/gmi,
+/\bFlood\sDrain\b/gm,
+
 // FO
+/\bfour\shundred\scontour\swood\b/gmi,
 /\bfour\swindings\b/gmi,
 /\bfoundary\sclose\b/gmi,
 /\bfortieth\savenue\b/gmi,
 /\bforest\sers\sclose\b/gmi,
 /\bF(?:aints|airness|irework|olding)\sClose\b/gm,
+
 // FR
 /\bFrom\sFarm\b/gm,
+
 // FU
 /\bfu(?:rnaces|rriers)\sclose\b/gmi,
 /\bfurthest\sdrove\b/gmi,
@@ -342,6 +363,7 @@ const a: RegExp[] = [
 /\bfoxes['‘’`]?\s(?:rattle|rest|ridge|road|row|tarn|walk|way|wood|yard)\b/gmi,
 /\b(?:greater|little|twin)\sfoxes\b/gmi,
 /\brunning\sfoxes\slane\b/gmi,
+
 // FR
 /\bfreckles\sgeo\b/gmi,
 /\bfreely\s(?:fields|lane)\b/gmi,
@@ -436,9 +458,11 @@ const a: RegExp[] = [
 /\bgazing\slane\b/gmi,
 /\bga(?:g|ping|rden\sspot)\slane\b/gmi,
 /\bgasoline\salley\b/gmi,
+
 // GE
 /\bgemsbok\sway\b/gmi,
-/\bgear\slane\b/gmi,
+/\bgear\s(?:common|drive|gap\spond|hill|lane|sands|terrace|wood)\b/gmi,
+/\b(?:east|west)ern\sgear\b/gmi,
 /\bgentlemans\s(?:lane|walk)\b/gmi,
 /\bgentlemens\sfield\b/gmi,
 /\bgents\slane\b/gmi,
@@ -448,8 +472,10 @@ const a: RegExp[] = [
 /\bgentle\s(?:court|row|street)\b/gmi,
 /\bGentle\s(?:Rise|Way|Yard)\b/gm,
 /\bgeo\sof\s(?:grassland|oxen|pass|romps|the\s(?:light|toe))\b/gmi,
+
 // GH
 /\b(?:ghost\s(?:cleuch|copse|haugh|hill|house\slane|meadow)|holy\sghost\sroman\scatholic)\b/gmi,
+
 // GI
 /\bgig(?:\sbridge)?\slane\b/gmi,
 /\b(?:giant\s(?:arches\sroad|bradley|close|tree\shill)|little\sgiant\swood)\b/gmi,
@@ -460,6 +486,7 @@ const a: RegExp[] = [
 /\bgingham\s(?:brow|park)\b/gmi,
 /\bgipsies['‘’`]?\s(?:fir\splantation|green|lane|plain)\b/gmi,
 /\b(?:girl['‘’`]?s\sschool|girls\swick|the\sgirls\sgrove)\b/gmi,
+
 // GL
 /\b(?:autumn|brougham|cock|esk|green|new\sforest|ross|woodthorpe)\sglades\b/gmi,
 /\b(?:water\s)?glades\sclose\b/gmi,
@@ -472,6 +499,7 @@ const a: RegExp[] = [
 /\bgl(?:oves|ue)\slane\b/gmi,
 /\bglasses\smead\b/gmi,
 /\bglastonbury\sand\sstreet\b/gmi,
+
 // GO
 /\bgo(?:d['‘’`]?s\sblessing|es|ggles|l(?:d\scup|fers|finches)|ng|od(?:\sneighbours|boy['‘’`]?s))\slane\b/gmi,
 /\bg(?:rape|rassy|razing|uilding['‘’`]?s|uile\scarr)\slane\b/gmi,
@@ -487,14 +515,17 @@ const a: RegExp[] = [
 /\bgolf\s(?:avenue|close|club\s(?:drive|lane|road)|course\s(?:covert|lane|plantation|road)|court|crescent|gardens|green(?:\sroad)?|halt|hill|house\s(?:lane|road)|lane|links\s(?:avenue|close|court|crescent|drive|lane|mews|road)|loan|park|place|ride|road(?:\spark)?|side(?:\sclose)?|street|terrace|view(?:\s(?:crescent|drive|place|road|terrace))?|walk)\b/gmi,
 /\bgood\sfriday\s(?:hill|plantation)\b/gmi,
 /\b(?:gotten\s(?:càm|chalman|copse|dubh|feath|lane|leaze)|(?:east|north|west)\sgotten)\b/gmi,
+/\bgoverns\swood\b/gmi,
 /\bgovernment\s(?:road|row|street)\b/gmi,
 /\bGovernment\sHouse\b/gm,
 /\bgovernors?\s(?:drive|close|marsh|mews|road|wood|yard)\b/gmi,
+
 // GR
 /\bgrasshopper\sdrive\b/gmi,
 /\bgrasshopper\savenue\b/gmi,
 /\bGrapple\sClose\b/gm,
 /\bgrandmother['‘’`]?s\scopse\b/gmi,
+/\bgreat\scrested\screscent\b/gmi,
 /\bgreat\soaty\sgardens\b/gmi,
 /\bglimpsing\sgreen\b/gmi,
 /\bgalaxy\sgrove\b/gmi,
@@ -530,6 +561,7 @@ const a: RegExp[] = [
 /\bgrip\so['‘’`f]*\s(?:enivalcleaton|swinedale)\b/gmi,
 /\bgrip\s(?:heath|hill(?:\sshaw)?|wood)\b/gmi,
 /\bmarkland\sgrips\b/gmi,
+
 // GU
 /\bgunmaker\scourt\b/gmi,
 /\bguardroom\sroad\b/gmi,
@@ -621,6 +653,7 @@ const a: RegExp[] = [
 /\b(?:high\scocked|cocked|cock[ei]t|dark|king['‘’`]?s|top)\shat\s(?:coppice|copse|court|covert|hill|inclosure|lane|lawn|park|plantations?|road|spinney|strip|wood)\b/gmi,
 /\bhat\s(?:coppice|copse|court|covert|hill|inclosure|lane|lawn|park|plantations?|road|spinney|strip|wood)\b/gmi,
 /\b(?:Hat\sClose|Cocked\sHat)\b/gm,
+
 // HE
 /\bhealth\s(?:centre\sroad|place|street)\b/gmi,
 /\bvale\sof\shealth\b/gmi,
@@ -647,6 +680,7 @@ const a: RegExp[] = [
 /\bheritage\s(?:avenue|close|court|drive|farm|field|foundation|gardens|gate|green|heights|hill|house|lane|lawn|mews|park|railway|rise|road|square|stables|street|view|voluntary|walk|way|wood)\b/gmi,
 /\bswinnerton\sheritage\b/gmi,
 /\bheroes\s(?:drive|walk)\b/gmi,
+
 // HI
 /\bhid['‘’`]?s\s(?:brake|copse(?:\sroad)?)\b/gmi,
 /\bHidden\s(?:Brook|Close|Hills|Loch|Lock|Mews)\b/gm,

@@ -152,7 +152,6 @@ const a: RegExp[] = [
 /\b(?:no\sjoke\splantation|porth\sjoke)\b/gmi,
 /\b(?:jollys\slane|through\sjollys)\b/gmi,
 /\bjourneyman['‘’`]?s\sgreen\b/gmi,
-/\bstamps\sand\sjowl\szawn\b/gmi,
 
 // JU
 /\bjugglers\s(?:close|moor)\b/gmi,
@@ -321,6 +320,7 @@ const a: RegExp[] = [
 /\bleveller\s(?:end|road|way)\b/gmi,
 
 // LI
+/\bLittle\sBeside\b/gm,
 /\blittleborough\slakeside\b/gmi,
 /\bLibrary\sClose\b/gm,
 /\blibrary\s(?:avenue|clump|court|gardens|hill|lane|mews|park|place|plantation|road|spinney|street|walk|way)\b/gmi,
