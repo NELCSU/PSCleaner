@@ -180,6 +180,7 @@ const a: RegExp[] = [
 /\bwaster\shoevda\b/gmi,
 /\b(?:Badgers|Carn|Channel|Craig|Gimli|Joannies|Middle|Trinity)\sWatch\b/gm,
 /\bwatch\s(?:avenue|cleu[cg]h|close|copse|crags|craig|croft|currick|elm|hill|house|knott|knowe|lane|law|moss|plantation|rigg|rock|street|water|wood)\b/gmi,
+/\bwatcher['‘’`]?s\s(?:hill|wood)\b/gmi,
 /\bwatchtower\s(?:road|way)\b/gmi,
 /\bwater\sof\sthe\swicks\b/gmi,
 /\bwatercolour\sway\b/gmi,

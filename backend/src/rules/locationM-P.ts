@@ -1,5 +1,6 @@
 const a: RegExp[] = [
 // MA
+/\bmaughan\slibrary\b/gmi,
 /\bmackrel['‘’`]?s\sdown\b/gmi,
 /\bmanor\sand\s(?:court|lodge)\b/gmi,
 /\bmanor\sprimary\b/gmi,
@@ -93,6 +94,8 @@ const a: RegExp[] = [
 /\bcwm\smerch\b/gmi,
 /\bmetal\s(?:box\sway|street)\b/gmi,
 /\bmetropolitan\s(?:close|drive|mews|pit|station)\b/gmi,
+
+// MI
 /\b(?:da\smid\sgeo)\b/gmi,
 /\bmid[\s-]a(?:cre\sclose|ltass|nd\supper\snithsdale|nguston|rgyll|uchinleck|venue)\b/gmi,
 /\bmid[\s-]b(?:albeggie|ank|arr?wood|edfordshire|eltie|erwickshire|everidgewell|irrier|onvil|oreland|rackenridge|rae|ridge|roadleyhill)\b/gmi,
@@ -167,6 +170,7 @@ const a: RegExp[] = [
 /\bMystery\sClose\b/gm,
 /\bmystery\shill\slake\b/gmi,
 /\bmystic\scorner\b/gmi,
+/\bMy\sStreet\b/gm,
 
 // NA
 /\bNorth\s[Aa]nd\s(?:Central|East)\b/gm,
@@ -196,12 +200,14 @@ const a: RegExp[] = [
 /\bnature\sway\b/gmi,
 /\bNature['‘’`s]*\s(?:Close|Way)\b/gm,
 /\bNatural\s(?:[Dd]ike|Wood)\b/gm,
+/\bnatural\sregeneration\splantation\b/gmi,
 /\b(?:nautical\s(?:drive|mews|school|way)|fleetwood\snautical)\b/gmi,
 /\b(?:naval\s(?:college|row|street|terrace)|royal\snaval\s(?:air\sstation|place)|h\sm\snaval\sbase)\b/gmi,
 /\b(?:sleaford\snavigation|navigation\s(?:approach|bank|close|court|drive|lane|loop|place|primary|ri[ds]e|road|row|spinney|square|street|view|walk|way|wharf))\b/gmi,
 /\bnavigator['‘’`s]*\s(?:close|court|drive|road|way)\b/gmi,
 
 // NE
+/\bnewington\slibrary\b/gmi,
 /\bnew\slakeside\b/gmi,
 /\bnew\shorizon\scommunity\sschool\b/gmi,
 /\bNear\s(?:Acre|Down|Side|Town)\b/gm,
@@ -256,6 +262,7 @@ const a: RegExp[] = [
 /\b(?:barras|blowup|burrow|dounan|moody|rock|settling)\snose\b/gmi,
 /\bnose\s(?:coppice|plantation|of\s(?:cowsgarth|klumpa|the\s(?:bring|ridgeo|yard))|point|lane|spit)\b/gmi,
 /\b(?:green\snoses|noses\sholt)\b/gmi,
+/\bnowhere\slane\b/gmi,
 
 // NU
 /\bNumber\sOne\b/gm,
@@ -565,7 +572,7 @@ const a: RegExp[] = [
 /\bpaprika\s(?:close|court|drive)\b/gmi,
 /\b(?:parishes\smead|(?:northern|west(?:ern)?|southern)\sparishes)\b/gmi,
 /\b(?:ballengeich|beacon|boundary|copinsay|dalveen|duke['‘’`]?s|eastern|fall|fish|foston)\spass\b/gmi,
-/\b(?:garburn|garth|honister|horseshoe|khyber|kings|kirkstone|lochburn|mere|nuns['‘’`]?)\spass\b/gmi,
+/\b(?:garburn|honister|horseshoe|khyber|kings|kirkstone|lochburn|mere|nuns['‘’`]?)\spass\b/gmi,
 /\b(?:shrove|snake|summers|tynemouth|van\sdiemens|whinlatter|zider)\spass\b/gmi,
 /\b(?:bye[\s-]pass\sroad|de\spass\s(?:gardens|road)|sheep\spass\swood|sychnant\spass\sroad|welwyn\sby\spass\sroad)\b/gmi,
 /\bpass\s(?:avenue|of\s(?:aberfoyle|ballater|dunmail\sraise|inverfarigaig|leny)|street|wood)\b/gmi,
@@ -722,8 +729,17 @@ const a: RegExp[] = [
 /\bPrior\s(?:View|Way)\b/gm,
 /\bprior\s(?:avenue|bank\sorchard|bolton\sstreet|chase|close|crescent|croft(?:\sclose)?|dene|drive)\b/gmi,
 /\bprior\s(?:end|heath|deram\swalk|farm\sclose|fen|grove|house\swood|lane|linn|moor|muir)\b/gmi,
-/\bprior['‘’`s]*\s(?:park(?:\s(?:college|landscape\sgarden|lane|plantation|preparatory\sschool|road))?)\b/gmi,
+/\bprior\s(?:park(?:\s(?:college|landscape\sgarden|lane|plantation|preparatory\sschool|road))?)\b/gmi,
 /\bprior\s(?:place|pursglove|rigg(?:\slane)?|road|stephen\sway|street|terrace|wath\sroad|weston|william\sclose|wood)\b/gmi,
+/\bprior['‘’`]?s\s(?:avenue|bushes|close|coppice|copse|court(?:\swood)?|down|fen|forge|frome)\b/gmi,
+/\bprior['‘’`]?s\s(?:furze|green|grove|haven|heath\swood|hill|lane|meadow|mill|norton|park(?:\swood)?)\b/gmi,
+/\bprior['‘’`]?s\s(?:place|plantation|pool|reach|road|spring|stone|terrace|walk|way|wood(?:\sroad)?)\b/gmi,
+/\bpriors\s(?:acre|barn(?:\sclose)?|barton|byne|close|copse|corner|court(?:\s(?:road|school))?)\b/gmi,
+/\bpriors\s(?:crescent|croft|dean\sroad|drive|east|farm\slane|field|gardens|gate|grange|grove\sclose)\b/gmi,
+/\bpriors\s(?:hall\splantation|halton|hardwick|harnall|hatch\slane|haw\sroad|heath)\b/gmi,
+/\bpriors['‘’`]?\shill(?:\s(?:copse|lane|road))?\b/gmi,
+/\bpriors\s(?:holt\s(?:hill|wood)|house|keep|lane|lea(?:\scourt)?|leaze\slane|marston)\b/gmi,
+/\bpriors\s(?:mead|meadow|mews|mill|norton|orchard|park|path|pool|road|shell\swood|town|walk|waye?|wood)\b/gmi,
 /\bprioress\s(?:crescent|mill\slane|road|street)\b/gmi,
 /\bprison\s(?:brae|copse|court|geo|rock|strip)\b/gmi,
 /\bprivate[\s-]walk(?:\swood)?\b/gmi,
@@ -740,7 +756,7 @@ const a: RegExp[] = [
 /\bpulpit\s(?:close|drive|hill|lane|road|rock|walk|wood)\b/gmi,
 /\b(?:da|dow['‘’`]?s|parson['‘’`]?s)\spulpit\b/gmi,
 /\bpulse\sskerry\b/gmi,
-/\b(?:coedlan|drayton|portugal)\spump\b/gmi,
+/\bportugal\spump\b/gmi,
 /\bpump\s(?:alley|bank|(?:field|house|mead)\sclose|close|copse|court|hill|hollow\s(?:lane|road))\b/gmi,
 /\bpump\s(?:house\s(?:coppice|crescent|dean|lane|road|wood)|lane(?:\swood)?)\b/gmi,
 /\bpump\s(?:meadow|pail|piece|place|plantation|pond\swood|riding|road|rough|row|square|street|tree\smews|wood|works)\b/gmi,

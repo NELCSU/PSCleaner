@@ -3252,7 +3252,6 @@ const a: string[] = [
 "rabat",
 "rabbi",
 "rabbis",
-"raceway",
 "rachet",
 "racks",
 "racquet",
@@ -3419,15 +3418,6 @@ const a: string[] = [
 "reverter",
 "revoir",
 "revs",
-"rhapsody",
-"rhino",
-"rhizome",
-"rhododendron",
-"rhombus",
-"rhubarb",
-"rhyme",
-"rhymed",
-"rhymes",
 "rialto",
 "ribbing",
 "ribbon",
@@ -3736,6 +3726,7 @@ const a: string[] = [
 "souls",
 "sour",
 "sours",
+"southside",        // standalone
 "souvenir",
 "sovereign",
 "sovereigns",
@@ -3826,6 +3817,7 @@ const a: string[] = [
 "stow",             // name & standalone & placenames (66)
 "sue",              // name & placenames (2)
 // T
+"tapas",            // name
 "teak",
 "teal",
 "teals",

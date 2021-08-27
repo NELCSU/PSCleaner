@@ -263,7 +263,7 @@ const a: string[] = [
 "egyptian",
 "eket",
 "ekoi",
-"ekpeye",
+
 "emilian",
 "english",
 "eritrean",

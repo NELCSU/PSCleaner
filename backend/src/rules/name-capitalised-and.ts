@@ -2630,6 +2630,10 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "retina",           // name
 "retro",            // name
 "revival",          // name & placename
+"rhapsody",         // name & placenames (2)
+"rhino",            // name & placename
+"rhyme",            // name & placename
+"rhymes",           // name & standalone
 "rich",             // name & placenames (13)
 "richer",           // name & placenames (3)
 "riches",           // name & placenames (4)
@@ -3119,7 +3123,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sound",            // placenames (196)
 "south",            // placenames (1k+)
 "southern",         // placenames (56)
-"southside",        // standalone & placenames (12)
 "southward",        // name & standalone & placenames (11)
 "spaghetti",        // name
 "spain",            // name & placenames (9)
