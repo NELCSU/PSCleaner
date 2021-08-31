@@ -1829,12 +1829,33 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 // K
 "kaftan",           // name
 "kappa",            // name
+"kale",             // name & placenames (6)
+"kales",            // name
+"karaoke",          // name
+"karma",            // name & placename
+"kart",             // name
+"keel",             // name & placenames (14)
+"keels",            // name & standalone
+"keeper",           // name & placenames (27)
+"keepers",          // name & placenames (42)
+"kelp",             // name & placenames (2)
+"kennel",           // name & placenames (68)
+"kerbs",            // name
+"kerns",            // name
+"kestrel",          // name & standalone & placenames (32)
+"ket",              // name & placenames (2)
+"keto",             // name
+"keying",           // name
+"keylock",          // name
+"keys",             // name & placenames (36)
 "keen",             // name & standalone & placenames (28)
 "keg",              // name & placenames (2)
 "kenya",            // name & placenames (3)
 "kettle",           // name & standalone & placenames (38)
 "kettler",          // name
 "kettles",          // name & placenames (6)
+"khaki",            // name
+"khalif",           // name
 "kicker",           // name & placename
 "kilo",             // name
 "kilts",            // name
@@ -2613,7 +2634,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "reg",              // name & placenames (4)
 "regency",          // standalone & placenames (24)
 "regent",           // name & placenames (73)
-"regents",          // placenames (24)
 "regatta",          // name & placenames (5)
 "regiment",         // placenames (7)
 "regis",            // name & placenames (54)
@@ -3363,7 +3383,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "sunlight",         // standalone & placenames (8)
 "sunny",            // name & placenames (100)
 "sunray",           // name & placename
-"sunrise",          // name & standalone & placenames (15)
 "suns",             // name
 "sunshine",         // name & placenames (13)
 "sup",              // name

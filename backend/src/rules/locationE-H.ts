@@ -135,6 +135,7 @@ const a: RegExp[] = [
 // FL
 /\bfl(?:intlock|owerpot)\sclose\b/gmi,
 /\bFlood\sDrain\b/gm,
+/\bfloods\sdingle\b/gmi,
 
 // FO
 /\bfour\shundred\scontour\swood\b/gmi,
@@ -565,6 +566,7 @@ const a: RegExp[] = [
 /\bgrip\so['‘’`f]*\s(?:enivalcleaton|swinedale)\b/gmi,
 /\bgrip\s(?:heath|hill(?:\sshaw)?|wood)\b/gmi,
 /\bmarkland\sgrips\b/gmi,
+/\bgrove\sprimary\sschool\b/gmi,
 
 // GU
 /\bgunmaker\scourt\b/gmi,

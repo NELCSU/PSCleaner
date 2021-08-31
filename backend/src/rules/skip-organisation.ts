@@ -35,6 +35,8 @@ const a: RegExp[] = [
   /\bJoint\sCommittee\b/gm,
   // K
   /\bku\sklux\sklan\b/gmi,
+  // L
+  /\blinkedin\b/gmi,
   // M
   /\bmarshall\sislands\b/gmi,
   /\bnorth\smacedonia\b/gmi,

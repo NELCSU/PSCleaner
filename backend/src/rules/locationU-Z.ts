@@ -227,6 +227,8 @@ const a: RegExp[] = [
 /\bweeping\s(?:cross|elm)\b/gmi,
 /\bweave\s(?:crescent|grove)\b/gmi,
 /\bWeaves?\sClose\b/gm,
+/\bweb['‘’`]?s\sorchard\b/gmi,
+/\bweb\s(?:hill|tree\savenue)\b/gmi,
 /\bweevil\sla[kn]e\b/gmi,
 /\b(?:five\sweirs\swalk|(?:north|south)\sweirs)\b/gmi,
 /\bweirs\s(?:combe|drove|gate|lane)\b/gmi,
@@ -293,7 +295,7 @@ const a: RegExp[] = [
 /\bwholesome\slane\b/gmi,
 
 // WI
-/\bWide\sStreet\b/gm,
+/\bWide\s(?:Street|Valley)\b/gm,
 /\b(?:easter|wester)\swide\shope\b/gmi,
 /\bwide\s(?:acres|bargate|cleugh|close|firth|ham\sbeeches|hope\sshank|hope)\b/gmi,
 /\bwide\s(?:howe\slane|lane(?:\sclose)?|lawn|mere|open|street|valley|waters?|way)\b/gmi,
@@ -402,6 +404,7 @@ const a: RegExp[] = [
 /\bWith\sMoor\b/gm,
 /\bwives['‘’`]?\shill\b/gmi,
 /\bwizards\swalk\b/gmi,
+
 // WO
 /\bwolds\sand\scoastal\b/gmi,
 /\bwoeful\shill\b/gmi,
@@ -425,6 +428,7 @@ const a: RegExp[] = [
 /\b(?:cider|gas|loco|new|print|salt|sewage|spelter|soap|steel|tar|tile|tin|weld)\sworks\s(?:drive|lane|mews|road|wood)\b/gmi,
 /\bworld\s(?:end|way|wood)\b/gmi,
 /\bwormhole\shill\b/gmi,
+
 // WR
 /\bWriggles\sBottom\b/gm,
 /\bwrangling\slane\b/gmi,
@@ -437,7 +441,9 @@ const a: RegExp[] = [
 /\bwrens['‘’`]?\s(?:lane|nest\s(?:close|estate|road)|park\savenue|park|road|spring|way|wood)\b/gmi,
 /\bwrestlers\s(?:grove|wood)\b/gmi,
 /\bwriggle\s(?:brook|hill|river\slane|street)\b/gmi,
+
 // Y
+/\by\sdoctor\b/gmi,
 /\byeading\sfork\b/gmi,
 /\byeomen\sway\b/gmi,
 /\byouth\swood\b/gmi,

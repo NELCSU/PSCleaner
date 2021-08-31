@@ -2021,38 +2021,10 @@ const a: string[] = [
 "jesus",          // name
 "joy",            // name
 // K
-"kale",
-"kales",
-"karaoke",
-"karma",
-"kart",
-"kayak",
-"keel",
-"keels",
-"keeper",
-"keepers",
-"keepsake",
-"kelp",
-"kennel",
-"kennels",
-"kerbs",
-"kernel",
-"kerns",
-"kestrel",
-"kestrels",
-"ket",
-"keto",
-"keying",
-"keylock",
-"keys",
-"keysmith",
-"keystone",
-"khaki",
-"khalif",
-"king",               // name & placenames (799)
-"kingfishers",        // standalone
+"king",           // name & placenames (799)
+"kingfishers",    // standalone
 "knack",
-"kneedeep",           // standalone
+"kneedeep",       // standalone
 "knell",
 "knells",
 "knight",
@@ -3816,6 +3788,7 @@ const a: string[] = [
 "stoke",            // name & standalone & placenames (292)
 "stow",             // name & standalone & placenames (66)
 "sue",              // name & placenames (2)
+"sunrise",          // name & standalone
 // T
 "tapas",            // name
 "teak",

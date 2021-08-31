@@ -694,7 +694,7 @@ const a: string[] = [
 "saha",
 "saho",
 "sahrawi",
-"sakalava",
+
 "salale",
 "salinero",
 "salvadorean",

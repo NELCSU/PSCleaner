@@ -327,6 +327,7 @@ const a: RegExp[] = [
 /\bold\sdrying\sgrounds\b/gmi,
 /\bold\s(?:horse\schestnut|(?:maid|man)['‘’`]?s|post|warp|woman['‘’`]?s)\slane\b/gmi,
 /\bolives\spit\slane\b/gmi,
+/\bold\skennels\s(?:close|lane)\b/gmi,
 /\bOld\sPost\sOffice\b/gm,
 /\bold\ssquaw\slake\b/gmi,
 /\bold\swives\slees\b/gmi,

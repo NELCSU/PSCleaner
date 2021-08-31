@@ -763,6 +763,7 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
+/\bcoed\sdoctor\b/gmi,
 /\bcoedlan\spump\b/gmi,
 /\bcoalfield\s(?:close|grove|way)\b/gmi,
 /\bcoalpit\s(?:close\splantation|clough|coppice|copse|den|field|fields\sroad|heath|hill)\b/gmi,
@@ -1136,6 +1137,7 @@ const a: RegExp[] = [
 /\bdare\s(?:close|court|road)\b/gmi,
 /\blinn\sof\sthe\sdarkness\b/gmi,
 /\bData\sDrive\b/gm,
+/\bdavy\slamp\b/gmi,
 /\bdaylight\s(?:road|rock)\b/gmi,
 
 // DE
@@ -1202,7 +1204,7 @@ const a: RegExp[] = [
 /\bdoctor['‘’`]?s\s(?:hill|hole|hollow|keys|lane|nook|piece|plantation|pond|pool)\b/gmi,
 /\bdoctor['‘’`]?s\s(?:rake|rock|row|shaw|spinney|well|wood)\b/gmi,
 /\bdoctors\s(?:acre|drove|fields?|meadow|place|road|street)\b/gmi,
-/\b(?:coed|y)\sdoctor\b/gmi,
+/\bdog\skennels\s(?:lane|plantation|wood)\b/gmi,
 /\bdogs\s(?:head\sstreet|hill\sroad|lane|leg\swood|plantation)\b/gmi,
 /\b(?:isle\sof\sdogs|lucky\sdogs\s(?:holes|point)|point\sof\sdogs\sbones)\b/gmi,
 /\b[Dd]omestic\sApproach\b/gm,
