@@ -26,6 +26,7 @@ const a: RegExp[] = [
   /\bFirst\sMinister\b/gm,
   // G
   /\b(?:great\sbritain|guinea[\s-]bissau)\b/gmi,
+  /\bGreen\sPass\b/gm,
   // H
   /\b(?:high\scommission|hong\skong|community\shospital)\b/gmi,
   // I

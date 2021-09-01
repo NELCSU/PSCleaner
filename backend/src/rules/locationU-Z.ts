@@ -406,6 +406,7 @@ const a: RegExp[] = [
 /\bwizards\swalk\b/gmi,
 
 // WO
+/\bwoodhall\sgreets\b/gmi,
 /\bwolds\sand\scoastal\b/gmi,
 /\bwoeful\shill\b/gmi,
 /\bwomans\s(?:lees\swood|way\spond)\b/gmi,

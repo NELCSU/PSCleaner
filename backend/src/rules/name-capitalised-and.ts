@@ -461,6 +461,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "canary",           // name & placenames (14)
 "cant",             // name & placenames (7)
 "canteen",          // name & placename
+"capes",            // name
 "caps",             // name & placenames (4)
 "captain",          // placenames (30)
 "car",              // placenames (50)
@@ -1446,6 +1447,73 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "grounds",          // name & placenames (75)
 "groundwater",      // name & placename
 "groves",           // name & placenames (37)
+"grabber",          // name
+"graced",           // name
+"graces",           // name & placenames (7)
+"gracious",         // name & placenames (5)
+"grad",             // name
+"grader",           // name & placename
+"graft",            // name & palcename
+"grail",            // name & placename
+"grain",            // standalone & placenames (56)
+"gram",             // name & placename
+"grammar",          // name & placenames (204)
+"grams",            // name & placename
+"gran",             // name & placenames (4)
+"granary",          // standalone & placenames (31)
+"grandsire",        // standalone & placenames (3)
+"grate",            // name
+"grater",           // name
+"grates",           // name
+"gravel",           // name & standalone & placenames (81)
+"gravely",          // name & placenames (2)
+"graver",           // name & placenames (2)
+"gray",             // name & placenames (86)
+"grays",            // name & standalone & placenames (34)
+"grazer",           // name
+"greasy",           // name & placenames (2)
+"greatness",        // name & standalone & placenames (3)
+"greave",           // standalone & placenames (52)
+"greaves",          // name & standalone & placenames (39)
+"greedy",           // name & placenames (2)
+"greener",          // name & placenames (4)
+"greenie",          // name & placenames (3)
+"greenish",         // name
+"greens",           // standalone & placenames (53)
+"greet",            // standalone & placenames (6)
+"grenade",          // name & placename
+"grevious",         // name
+"greyer",           // surname
+"greyling",         // name & placenames (2)
+"grieve",           // name & placenames (16)
+"grieves",          // name & placenames (3)
+"grille",           // name
+"grime",            // name & placenames (6)
+"grimm",            // name
+"grist",            // name & placenames (5)
+"grit",             // name & placeanmes (6)
+"gritter",          // name
+"gritters",         // name
+"grizzle",          // name
+"groat",            // name & placenames (10)
+"groats",           // standalone & placenames (2)
+"grogger",          // name
+"gromet",           // name
+"grommet",          // name
+"groom",            // name & placenames (16)
+"groomer",          // name
+"grooms",           // name & placenames (8)
+"groper",           // name
+"grotto",           // name & placeanmes (16)
+"grouse",           // name & placenames (16)
+"grout",            // name & placename
+"grower",           // name & placenames (3)
+"grown",            // name & placename
+"grub",             // name & placenames (10)
+"grubs",            // name & placename
+"gruel",            // name
+"gruff",            // name
+"grumbling",        // name & placename
 "guano",            // name & placename
 "guilder",          // name & placename
 "guinness",         // name & placenames (6)

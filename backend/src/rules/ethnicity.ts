@@ -659,7 +659,7 @@ const a: string[] = [
 "pashayi",
 "pashto",
 "pashtun",
-"patidar",
+
 "persian",
 "peruvian",
 "picard",

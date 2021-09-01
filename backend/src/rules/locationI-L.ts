@@ -225,6 +225,7 @@ const a: RegExp[] = [
 // KR
 /\bkremlin\sdrive\b/gmi,
 
+/\bl\sspinney\b/gmi,
 // LA
 /\blaughing\simage\scorner\b/gmi,
 /\bLakes\s[Aa]nd\sGardens\b/gm,
@@ -291,10 +292,11 @@ const a: RegExp[] = [
 /\b(?:marks\stey\sand\slayer|noon\slayer\sdrive|broad\slaying)\b/gmi,
 
 // LE
+/\bleaning\sgrooves\sflat\b/gmi,
 /\b(?:Inner|Mid|Mill)\sLead\b/gm,
 /\b(?:lead\s(?:flats|green|hill|lane|mill\slane|mills|mine\s(?:clough|moss)|moor|pool|road|stone|street|wath\swood)|bridge\sof\slead\spot)\b/gmi,
 /\bleader\s(?:avenue|close|court|foot|kip|road|street|vale|valley|williams\sroad|wood)\b/gmi,
-/\b(?:eric\sleader\sclose|leader['‘’`]?s\s(?:spinney|way)|stain\swater\sleader)\b/gmi,
+/\b(?:eric\sleader\sclose|leader['‘’`]?s\s(?:spinney|way))\b/gmi,
 /\bleading\s(?:drove|post\sstreet)\b/gmi,
 /\bleads\s(?:cottages|road)\b/gmi,
 /\bLeafy\sWood\b/gm,
