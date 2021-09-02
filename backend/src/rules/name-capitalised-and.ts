@@ -892,7 +892,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "doc",              // name & placenames (7)
 "dock",             // placenames (212)
 "docker",           // name & placenames (10)
-"docking",          // name & standalone & placenames (12)
 "docklands",        // standalone & placenames (5)
 "dockman",          // name
 "docks",            // name & standalone & placenames (37)
@@ -927,6 +926,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "drier",            // name
 "dries",            // name
 "drift",            // placenames (115)
+"drive",            // placenames (1k+)
 "droll",            // name
 "droop",            // name & standalone & placenames (2)
 "dross",            // name & placename
@@ -947,7 +947,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "draws",            // name & placename
 "dream",            // name & placenames (2)
 "dressing",         // name & placename
-"driftway",         // standalone & placenames (6)
 "drivers",          // name & placenames (8)
 "driveway",         // standalone & placenames (3)
 "drum",             // standalone & placenames (67)
@@ -1402,6 +1401,41 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "glorious",         // name
 "glory",            // name & placenames (8)
 "glow",             // name & placename
+"goad",             // name & palcenames (3)
+"gobble",           // name
+"gobby",            // name
+"gobi",             // name
+"godly",            // name & placenames (3)
+"godsend",          // name & placename
+"godson",           // name & placenames (7)
+"goers",            // name
+"goings",           // name & placename
+"golem",            // name
+"golly",            // name & standalone & placenames (2)
+"gondola",          // name
+"goodly",           // name & placename
+"goodwill",         // name & placenames (4)
+"goon",             // name & placenames (2)
+"goop",             // name
+"goopy",            // name
+"goose",            // name & placenames (82)
+"gooseberry",       // name & placenames (6)
+"gopher",           // name & placenames (3)
+"goshawk",          // name & placenames (11)
+"gosling",          // name & placenames (20)
+"gospel",           // name & placenames (19)
+"gossip",           // name
+"goth",             // name & placename
+"goto",             // name
+"gouge",            // name & placename
+"gouger",           // name
+"gouges",           // name
+"gourd",            // name & placename
+"gourmet",          // name
+"gout",             // name
+"gouty",            // name
+"gowns",            // name
+"goy",              // name & placenames (2) 
 "goatee",           // name
 "goats",            // name & placenames (7)
 "gold",             // name & placenames (46)

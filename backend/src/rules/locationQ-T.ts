@@ -122,11 +122,11 @@ const a: RegExp[] = [
 /\breview\s(?:ground|oak|road)\b/gmi,
 
 // RH
+/\brhodfa\sgop\b/gmi,
 /\brhododendron\s(?:avenue|close|covert|drive|hill|plantation|ride|road|spinney|walk|woods?)\b/gmi,
 /\brhombus\sbusiness\b/gmi,
 /\brhubarb\s(?:hill|way)\b/gmi,
-/\b(?:great|little)\srhymes\scopse\b/gmi,
-/\brhymes\splace\b/gmi,
+/\brhymes\s(?:copse|place)\b/gmi,
 
 // RI
 /\brid\s(?:lane|plantation|reservoir|wood)\b/gmi,
@@ -749,6 +749,8 @@ const a: RegExp[] = [
 /\bsquashes\swood\b/gmi,
 
 // ST
+/\bstubborn\ssand\b/gmi,
+/\bstinking\sgoat\b/gmi,
 /\bstain\swater\sleader\b/gmi,
 /\bstairs\sof\sthe\sheel\b/gmi,
 /\bst\.?\sjust\sclose\b/gmi,
@@ -1225,6 +1227,7 @@ const a: RegExp[] = [
 /\btinkers['‘’`]?\s(?:field|green(?:\sroad)?|hill|hole|mead|way|wood(?:\sroad)?)\b/gmi,
 
 // TO
+/\btop\sdriftway\b/gmi,
 /\btown\slot\slane\b/gmi,
 /\b(?:to[\s-]fawr|(?:ginns|loch\san|ty|tyddyn)[\s-]to|too\sto\shill)\b/gmi,
 /\btobacco\s(?:close|hillock|pipe\scopse|rock)\b/gmi,

@@ -348,6 +348,7 @@ const a: RegExp[] = [
 /\bbhutan\s(?:close|road)\b/gmi,
 
 // BI
+/\bbikie['‘’`]?s\sgoat\b/gmi,
 /\bBishops\s[Aa]nd\sClerks\b/gm,
 /\bbicentennial\savenue\b/gmi,
 /\bbints\splace\b/gmi,
@@ -427,6 +428,7 @@ const a: RegExp[] = [
 /\bbold\sventure\sway\b/gmi,
 
 // BR
+/\bbrasenose\sdriftway\b/gmi,
 /\bbroad\sreaches\b/gmi,
 /\bbroadmayne\s\&\scrossways\b/gmi,
 /\bbraggers\s(?:hill|lane)\b/gmi,
@@ -765,7 +767,7 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
-/\bcoed\s(?:doctor|y\sgrip)\b/gmi,
+/\bcoed\s(?:doctor|y\sgoat|y\sgrip)\b/gmi,
 /\bcoedlan\spump\b/gmi,
 /\bcoalfield\s(?:close|grove|way)\b/gmi,
 /\bcoalpit\s(?:close\splantation|clough|coppice|copse|den|field|fields\sroad|heath|hill)\b/gmi,
@@ -1196,6 +1198,8 @@ const a: RegExp[] = [
 /\bdivision\s(?:lane|moor|road|street|wood)\b/gmi,
 
 // DO
+/\bdocking\s(?:common|drove|droveway|hole|lane|plantation|road|slack\splantation)\b/gmi,
+/\bdocking['‘’`]?s\s(?:holt|lane)\b/gmi,
 /\bdog\sleg\swood\b/gmi,
 /\bd(?:ownstream|ragoons)\sclose\b/gmi,
 /\bdockers\s(?:close|gardens|tanner\sroad)\b/gmi,
@@ -1224,6 +1228,8 @@ const a: RegExp[] = [
 /\bdo(?:g\sand\s(?:bear\slane|duck\s(?:lane|square)|gun\slane)|wns\sand\smereworth)\b/gmi,
 
 // DR
+/\bdriftway\s(?:close|road)\b/gmi,
+/\bdry\sdocking\sbelt\b/gmi,
 /\bdrayton\spump\b/gmi,
 /\bdrags\smoss\b/gmi,
 /\bdriffield\sand\srural\b/gmi,

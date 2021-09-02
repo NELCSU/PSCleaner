@@ -173,6 +173,7 @@ const a: RegExp[] = [
 /\bMy\sStreet\b/gm,
 
 // NA
+/\bnanny\sgoat\slane\b/gmi,
 /\bNorth\s[Aa]nd\s(?:Central|East)\b/gm,
 /\bn(?:ativity|ine\swells)\sclose\b/gmi,
 /\bnaked\shill\b/gmi,
@@ -231,6 +232,9 @@ const a: RegExp[] = [
 /\bnethermost\s(?:cove|pike|wood)\b/gmi,
 /\bnetwork\s(?:65|way)\b/gmi,
 /\bnext[\s-](?:aylsham|ness|newton|the[\s-]sea)\b/gmi,
+
+// NI
+/\bnight\smarsh\b/gmi,
 /\b(?:ni['‘’`](?:ceileachair|dha['‘’`]laigh|man|mhathuna))\b/gmi,
 /\b(?:cnoc|creag|nan|sgorr)\sni\b/gmi,
 /\bback\snice\sview\b/gmi,
@@ -465,6 +469,7 @@ const a: RegExp[] = [
 /\bozone\s(?:park|terrace|way)\b/gmi,
 
 // PA
+/\bpans\sgoat\b/gmi,
 /\bpa(?:cks|dock|vilions)\sclose\b/gmi,
 /\bpa(?:ddlers|geantmaster)\scourt\b/gmi,
 /\bpa(?:d\scote|dding|rt(?:way)?|st)\slane\b/gmi,
@@ -492,6 +497,7 @@ const a: RegExp[] = [
 /\bpork\s(?:hill|lane|street)\b/gmi,
 
 // PR
+/\bprisoners\sbelt\b/gmi,
 /\bprince\sconsort\s(?:cottages|drive|lane|road|way)\b/gmi,
 /\bpro(?:cters|vince)\sdrive\b/gmi,
 /\bpresbyterian\sfold\b/gmi,

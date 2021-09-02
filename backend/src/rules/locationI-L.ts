@@ -330,9 +330,8 @@ const a: RegExp[] = [
 /\bleveller\s(?:end|road|way)\b/gmi,
 
 // LI
-/\bLittle\sMan\b/gm,
+/\bLittle\s(?:Beside|Man|Goat|Load)\b/gm,
 /\blittle\sman['‘’`]?s\sway\b/gmi,
-/\bLittle\sBeside\b/gm,
 /\blittle[\s-]go\splantation\b/gmi,
 /\blittleborough\slakeside\b/gmi,
 /\bLibrary\sClose\b/gm,
@@ -364,7 +363,7 @@ const a: RegExp[] = [
 /\bLive\sStock\b/gm,
 
 // LO
-/\b(?:Little|Long)\sLoad\b/gm,
+/\bLong\s(?:Goat|Load)\b/gm,
 /\bload\s(?:brook|field\sroad|lane|of\shay\sroad|pool|road|street)\b/gmi,
 /\bbull\sload\sdrove\b/gmi,
 /\bloading\s(?:bay|hope)\b/gmi,

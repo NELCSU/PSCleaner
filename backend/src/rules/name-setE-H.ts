@@ -26996,6 +26996,7 @@ const a: string[] = [
 "goetchel",
 "goete",
 "goethals",
+"goethe",
 "goethel",
 "goetre",
 "goetschel",

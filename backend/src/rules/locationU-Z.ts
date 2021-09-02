@@ -258,6 +258,7 @@ const a: RegExp[] = [
 /\bw(?:histlestop|ooded|orkmans)\sclose\b/gmi,
 /\bw(?:histlestop|orkmans|hores)\swood\b/gmi,
 /\bwhite\spost\sstreet\b/gmi,
+/\bwhite\swoman['‘’`]?s\splantation\b/gmi,
 /\bWhile\sRoad\b/gm,
 /\b(?:geo\sof|north|south)\swhaleback\b/gmi,
 /\bwhaleback\s(?:road|skerry)\b/gmi,
