@@ -3,8 +3,10 @@ const a: RegExp[] = [
 /\buganda\sstreet\b/gmi,
 /\b(?:great|little)\sugly\sclough\swood\b/gmi,
 /\bugly\s(?:dale|lane)\b/gmi,
+
 // UK
 /\bukraine\sroad\b/gmi,
+
 // UN
 /\bun(?:cles|derway)\slane\b/gmi,
 /\buncle['‘’`s]*\s(?:ben['‘’`]?s\sclose|tom['‘’`]?s\spoint|hillock|lane)\b/gmi,
@@ -36,6 +38,7 @@ const a: RegExp[] = [
 /\buniversal\s(?:close|road|street)\b/gmi,
 /\buniversity\s(?:academy|avenue|barns|boulevard|centre|close|court|crescent|drive|farm|garden|hospital|house|parks?|parkway|place|quays|road|street|terrace|walk|way|wood)\b/gmi,
 /\bunnamed\s(?:rd|road)\b/gmi,
+
 // UP
 /\b(?:burnt-up\sdrove|donington\sup\sfen|lock-up\slane|monkton\sup\swimborne|new\sroll-up)\b/gmi,
 /\b(?:old\sroll-up|shoot-up\shill|stonebeck\sup)\b/gmi,
@@ -46,15 +49,21 @@ const a: RegExp[] = [
 /\bUpper\s[Aa]nd\sLower\b/gm,
 /\bupping\scopse\b/gmi,
 /\bupshot\s(?:lane|wood)\b/gmi,
+
 // UR
 /\b(?:abergavenny|ellesmere|heol|stanwix|stone|wem|whitchurch)\surban\b/gmi,
 /\burban\s(?:avenue|drive|gardens|hive|mews|road|street|terrace|view|way)\b/gmi,
+
 /\burchin\s(?:clough|hill|wood)\b/gmi,
 // US
 /\bushers\s(?:meadow|wynd)\b/gmi,
+
 // UT
 /\butters\shill\b/gmi,
+
 // VA
+/\bvalues\sacademy\b/gmi,
+/\bvamp\splantation\b/gmi,
 /\bvalley\sprimary\sschool\b/gmi,
 /\b(?:cobham\svalleys|valleys\sshaw|heads\sof\sthe\svalleys\sroad|three\svalleys\sway|hospice\sof\sthe\svalleys)\b/gmi,
 /\bThree\sValleys\b/gm,
@@ -66,6 +75,7 @@ const a: RegExp[] = [
 /\bvantage\s(?:copse|court|drive|meadow|mews|road|street|way)\b/gmi,
 /\bvary\s(?:clump|coppice)\b/gmi,
 /\bvaults\s(?:lane|wood)\b/gmi,
+
 // VE
 /\bvenomous\scl[eo]u[cg]h\b/gmi,
 /\bv(?:enom|oice)\sroad\b/gmi,
@@ -83,8 +93,10 @@ const a: RegExp[] = [
 /\bvermin\s(?:lane|valley)\b/gmi,
 /\bvertex\sclose\b/gmi,
 /\bvestry\s(?:close|court|drive|gardens|lane|mews|place|road|street)\b/gmi,
+
 // VI
 /\bvineries\s(?:bank|close)\b/gmi,
+/\bvisitors\shill\b/gmi,
 /\bOld\sVinery\b/gm,
 /\bvinery\s(?:avenue|close|court|gardens|grove|lane|meadow|mount|park|place|road|street)\b/gmi,
 /\bvinery\s(?:terrace|view|way|wood)\b/gmi,
@@ -94,7 +106,8 @@ const a: RegExp[] = [
 /\bvinyl\splace\b/gmi,
 /\bviews\swood\b/gmi,
 /\bvigilance\savenue\b/gmi,
-/\bv(?:iewing|ision)\shill\b/gmi,
+/\bviewing\shill\b/gmi,
+/\bvision\shill\b/gmi,
 /\bcapel\svicar\b/gmi,
 /\bvicar['‘’`s]*\s(?:allotment|brake|bridge\sroad|close|coppice|copse|crescent|drive|gate|grove|hill(?:\slane)?|lane|moor\s(?:lane|wood)|park\s(?:drive|road)|pond|road|rough|street|walk|water\sclose|way|wood)\b/gmi,
 /\b(?:kilt\srock\sviewpoint|viewpoint\s(?:gate|place|road))\b/gmi,
@@ -111,6 +124,7 @@ const a: RegExp[] = [
 /\bviolets\s(?:close|lane|spring)\b/gmi,
 /\bviscounts\spend\b/gmi,
 /\bvitriol\ssquare\b/gmi,
+
 // VO
 /\bVoluntary\sPlace\b/gm,
 /\bvomit\spoint\b/gmi,
@@ -214,6 +228,7 @@ const a: RegExp[] = [
 /\bwayfarer['‘’`s]*\s(?:close|drive|gardens|road|way)\b/gmi,
 
 // WE
+/\bwell\sbargain\scopse\b/gmi,
 /\bwellake\sscattered\srock\b/gmi,
 /\bW(?:est\s[Aa]nd\sRural|ood\s[Aa]nd\sMeadow)\b/gm,
 /\bw(?:eather|idow|orships)\shill\b/gmi,
@@ -407,6 +422,7 @@ const a: RegExp[] = [
 /\bwizards\swalk\b/gmi,
 
 // WO
+/\bworth\snothing\splantation\b/gmi,
 /\bwoodhall\sgreets\b/gmi,
 /\bwolds\sand\scoastal\b/gmi,
 /\bwoeful\shill\b/gmi,
@@ -444,34 +460,38 @@ const a: RegExp[] = [
 /\bwrestlers\s(?:grove|wood)\b/gmi,
 /\bwriggle\s(?:brook|hill|river\slane|street)\b/gmi,
 
-// Y
 /\by\sdoctor\b/gmi,
-/\byeading\sfork\b/gmi,
-/\byeomen\sway\b/gmi,
-/\byouth\swood\b/gmi,
+// YA
 /\byachtsman\sclose\b/gmi,
-/\byolk\smeadow\b/gmi,
 /\byacht\s(?:haven\squay|way)\b/gmi,
-/\bvalues\sacademy\b/gmi,
 /\b(?:hill|loch)\sof\syarrows\b/gmi,
 /\byarrows\shill\b/gmi,
-/\b(?:doonies|robin\shood)\syawns\b/gmi,
+
+// YE
+/\byeading\sfork\b/gmi,
+/\byeomen\sway\b/gmi,
 /\byeald\s(?:brow|wood)\b/gmi,
 /\byearlings['‘’`]?\s(?:bottom|coppice|drove)\b/gmi,
 /\byearning\s(?:cleuch|law)\b/gmi,
 /\bYellow\s(?:House|Rocks?)\b/gm,
-/\bclouded\syellow\sclose\b/gmi,
 /\byellow(?:ark|batches\sdrove|bog|brae|brook\sclose|carn(?:\sporth)?|craigs?(?:\s(?:head|plantation))?)\b/gmi,
 /\byellow(?:falls|fawns|hammer\srock|head|hill\swood|hill|house\slane|hundred\sclose|isle|la[kn]e)\b/gmi,
 /\byellow(?:ledge|lodge\sdrive|mire\sroad|moss|muir|nose|post|quarry\swood|rabbit\shills)\b/gmi,
 /\byellow(?:school\scopse|stack|stone|top|tor\s(?:court|lane)|way\sroad|withy\sbed)\b/gmi,
 /\byells\s(?:plantation|way|wood)\b/gmi,
+
+// YI
 /\byeomanry\s(?:close|court|drive|gardens|place|road|walk|way)\b/gmi,
 /\b(?:yield\s(?:brae|hall\s(?:lane|place))|lea\syield\sclose)\b/gmi,
 /\bVis\s[Aa]\sVis\b/gm,
+
+// YO
+/\byouth\swood\b/gmi,
+/\byolk\smeadow\b/gmi,
 /\byonder\s(?:acre\sway|brake|close|coppice|cross\sclose\scopse|drove|hare\sdown|hill|horse\spark\scopse)\b/gmi,
 /\byonder\s(?:mead|meadow|moor|mount|plantation|slade|street|way|wyke\smoor\scopse)\b/gmi,
 /\bYouth\sClose\b/gm,
+
 // Z
 /\bzeal\sroad\b/gmi,
 /\bzig[\s-]?zag\s(?:covert|plantation|road|wood)\b/gmi,

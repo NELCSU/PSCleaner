@@ -196,6 +196,7 @@ const a: RegExp[] = [
 /\bkidnappers['‘’`]?\slane\b/gmi,
 /\b(?:cat\sand\s)?kittens\slane\b/gmi,
 /\bkick\shill\b/gmi,
+/\bkills\s(?:hill\scopse|wick)\b/gmi,
 /\bkiller\sstreet\b/gmi,
 /\bkiribati\sway\b/gmi,
 /\bkill\sdevil\scopse\b/gmi,
@@ -224,6 +225,9 @@ const a: RegExp[] = [
 
 // KR
 /\bkremlin\sdrive\b/gmi,
+
+// KY
+/\bkyme\seau\b/gmi,
 
 /\bl\sspinney\b/gmi,
 // LA

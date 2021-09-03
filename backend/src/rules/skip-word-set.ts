@@ -1058,7 +1058,6 @@ const a: string[] = [
 "macaroni",
 "machismo",
 "macho",
-"madagascar",
 "madam",
 "mademoiselle",
 "maelstrom",

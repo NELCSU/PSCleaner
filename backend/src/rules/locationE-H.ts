@@ -1,5 +1,6 @@
 const a: RegExp[] = [
 /\b[ef]\sstreet\b/gmi,
+// EA
 /\bE(?:ast\s[Aa]nd\s(?:South|West)|lm\s[Aa]nd\sOak)\b/gm,
 /\be(?:ast\sand\swest(?:\swalk)?|ton\sand\scastle|ye\sand\sdunsden|ye,\s(?:moreton|thorney))\b/gmi,
 /\be(?:ager|as(?:e|ing)|cho\sbarn|dging|gg(?:\sfarm|\smoor|shell)?|sp|scape|verlasting|vil(?:s\swood)?|xcise|xplore|yes)\slane\b/gmi,
@@ -7,6 +8,7 @@ const a: RegExp[] = [
 /\b(?:bad|beinn|coir['e]|creag|meall|nan)\seach\b/gmi,
 /\beach\s(?:donn|well\slane)\b/gmi,
 /\bEach\sEnd\b/gm,
+/\bearldom\s(?:close|drive|place|road|street)\b/gmi,
 /\b(?:ceann|olaidh|(?:an\s)?loch|gaoith|gaoithe|geo|geodha|ròg|roisinis|stiomol|stoicleit|suil|tòb)\sa[ns]\sear\b/gmi,
 /\b(?:ear\slees\swood|new\sear\slane|(?:ceann|chinn|geodha|gaoithe'n|meall|òb\sa's|tràigh)\sear)\b/gmi,
 /\bearn\s(?:avenue|cairn|cleuch|court|crescent|drive|gardens|grove|hill|hope|place|road|skelly|street|terrace)\b/gmi,
@@ -14,8 +16,12 @@ const a: RegExp[] = [
 /\bearning\s(?:stream|street)\b/gmi,
 /\bearns\s(?:cleugh|heugh(?:\s(?:avenue|circle|crescent|place|road|view|walk|way))?)\b/gmi,
 /\bearth\s(?:copse|green|holes|holme|lane|primary|street|wall|wood)\b/gmi,
+/\bearwig\slane\b/gmi,
 /\beast\snymph\slane\b/gmi,
-/\b(?:easy\s(?:lane|row|view\slane)|allan\seasy|(?:cross\s)?easy\sroad|moss\seasy)\b/gmi,
+/\beastward\s(?:avenue|glen|green|guthern|ho|ledge|place|road)\b/gmi,
+/\beasy\s(?:lane|row|view\slane)\b/gmi,
+/\b(?:cross\s)?easy\sroad\b/gmi,
+/\beau\s(?:bank(?:\send)?|brink(?:\s(?:out|road))?|dike\sroad|fen|field|park|withington)\b/gmi,
 
 // EC
 /\b(?:mount\secho\s(?:avenue|drive)|echo\s(?:bank|cleugh|close|court|crags|crescent|heights|hill|lane|pit\sroad|street|way|wood))\b/gmi,
@@ -118,6 +124,9 @@ const a: RegExp[] = [
 /\beynard\simpasse\b/gmi,
 
 // FA
+/\bfairway\s(?:approach|avenue|close|court|crescent|drive|gardens(?:\sclose)?|green)\b/gmi,
+/\bfairway\s(?:grove|heights|infant\sschool|lane|meadows|north|primary\sschool|rise)\b/gmi,
+/\bfairway\s(?:road|south|view|walk)\b/gmi,
 /\bfairways\s(?:avenue|close|court|crescent|drive|estate|place|primary\sschool|road|school|view|walk)\b/gmi,
 /\bfamilars\srocks\b/gmi,
 /\bfanfare\sclose\b/gmi,

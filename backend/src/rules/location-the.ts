@@ -65,7 +65,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sDue\b/gm,
   /\bThe\sDy(?:es|ke\sForest|kes)\b/gm,
   
-  /\bThe\sEa(?:ger|rls|rthquake)\b/gm,
+  /\bThe\sEa(?:ger|rldoms|rls|rthquake)\b/gm,
   /\bThe\sEl(?:ders|even\sAcre|lipse|ms)\b/gm,
   /\bThe\sEn(?:d|gine(?:\sGreen)?|try)\b/gm,
   /\bThe\sE(?:-Act|dge|ducation\sVillage|ight\sAcres|piphany|xchange|xpressway|yes)\b/gm,
@@ -228,7 +228,7 @@ export const LocationTheRegEx: RegExp[] = [
 
   /\bThe\sTa(?:bards|bernacle|ble|il(?:\s[Rr]ace)?|n|nners|nnery|rns?|sk|xiway)\b/gm,
   /\bThe\sTe(?:e|n\sAcres|nnis(?:\sCourt)?)\b/gm,
-  /\bThe\sTh(?:atch|atchers|ickets?|imbles|ird|istles|rift|orns?|oroughfare|roat)\b/gm,
+  /\bThe\sTh(?:atch|atchers|ickets?|imbles|ird|istles|rift|orns?|oroughfare|reshers|roat)\b/gm,
   /\bThe\sTi(?:mber\sway|mbers|ns|ps|the|things)\b/gm,
   /\bThe\sTo(?:e|ll|llgate|n|ngues?|ppings|re|rs|wers?|wn|wpath)\b/gm,
   /\bThe\sTr(?:am|amway|ap|eehouse|ees|iangle|ip)\b/gm,

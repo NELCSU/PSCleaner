@@ -153,6 +153,7 @@ const a: RegExp[] = [
 /\brival\s(?:moor\sroad|tor)\b/gmi,
 
 // RO
+/\brobin\shood\syawns\b/gmi,
 /\brotherfield\sgreys\b/gmi,
 /\broyal\snavy\savenue\b/gmi,
 /\bro(?:okies|osting)\scovert\b/gmi,
@@ -667,6 +668,7 @@ const a: RegExp[] = [
 /\bsmug\soak(?:\slane)?\b/gmi,
 
 // SN
+/\bsnows\s(?:copse|hill(?:\sdrive)?|lane|paddock|ride|yard)\b/gmi,
 /\bsnowstorm\sgorse\b/gmi,
 /\bsnowplough\smeadow\b/gmi,
 /\bsnowflakes\slane\b/gmi,
@@ -974,6 +976,7 @@ const a: RegExp[] = [
 /\bsynagogue\s(?:lane|place)\b/gmi,
 
 // TA
+/\btaster['‘’`]?s\swood\b/gmi,
 /\btabard\s(?:gardens|gate|hamlet|place|road|street)\b/gmi,
 /\btackler\sclose\b/gmi,
 /\btable\s(?:bay|hill|oak|of\sstoo|plantation|road|rocks?)\b/gmi,
@@ -1072,6 +1075,7 @@ const a: RegExp[] = [
 /\btest\s(?:house\sgate\sroad|mews|valley)\b/gmi,
 
 // TH
+/\bthreshers\s(?:bush|corner|court|drive|end|place|yard)\b/gmi,
 /\bthreadmill\slane\b/gmi,
 /\bth(?:e\sflagged|eme|ermal)\sroad\b/gmi,
 /\bthirsty\sspring\b/gmi,
@@ -1302,6 +1306,7 @@ const a: RegExp[] = [
 /\bTurning\sPoint\b/gm,
 /\bturkey\s(?:broad|carpet|cock\slane|hill(?:\splantation)?|island|lane|oak\sclose|oaks|plantation)\b/gmi,
 /\bturkey\s(?:road|row|shore(?:\sroad)?|street|tump(?:\slane)?|wood)\b/gmi,
+
 // TW
 /\btwines\sclose\b/gmi,
 /\btwinge\slane\b/gmi,

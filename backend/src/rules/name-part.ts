@@ -3,6 +3,7 @@ const a: string[] = [
   "cum",
   "da",
   "de",
+  "den",
   "der",
   "dos",
   "el",

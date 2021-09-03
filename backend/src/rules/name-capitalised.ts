@@ -1366,18 +1366,6 @@ const a: string[] = [
 "dusty",
 "dwellings",
 // E
-"eagle",
-"eagles",
-"eared",
-"earldom",
-"earldoms",
-"earner",
-"earthly",
-"earthy",
-"earwig",
-"eastward",
-"eau",
-"eaves",
 "ebb",
 "ebbing",
 "ebbs",
@@ -1431,6 +1419,7 @@ const a: string[] = [
 "eves",             // name & placenames (8)
 "ewes",             // standalone & placenames (2)
 // F
+"fairway",          // name & standalone
 "fairways",         // standalone
 "faith",            // name
 "fealty",
@@ -3499,6 +3488,7 @@ const a: string[] = [
 "snipe",
 "snipes",
 "snitch",
+"snows",            // standalone
 "snoek",
 "snoring",
 "snout",
@@ -3693,6 +3683,7 @@ const a: string[] = [
 "tethering",
 "tetrahedra",
 "textile",
+"threshers",        // standalone
 "tilty",            // standalone
 "tj",               // name
 "toad",
