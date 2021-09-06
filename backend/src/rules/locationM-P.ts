@@ -214,7 +214,9 @@ const a: RegExp[] = [
 
 // NE
 /\bnewington\slibrary\b/gmi,
+/\bnew\sforest\sglades\b/gmi,
 /\bnew\slakeside\b/gmi,
+/\bnew\sglobe\swalk\b/gmi,
 /\bnew\shorizon\scommunity\sschool\b/gmi,
 /\bNear\s(?:Acre|Down|Side|Town)\b/gm,
 /\b(?:carn\snear(?:\sroad)?|greetham\swood\snear|kingston\snear\slewes|llanfihangel\snear\srogiet)\b/gmi,
@@ -694,7 +696,7 @@ const a: RegExp[] = [
 /\bplayhouse\s(?:plantation|square|yard)\b/gmi,
 /\bplaying\sfield\s(?:close|lane|road)\b/gmi,
 /\bplayingfield\s(?:crescent|drive|road)\b/gmi,
-/\b(?:plea\s(?:knowe|moss|muir)|triple\splea\s(?:lane|road))\b/gmi,
+/\bplea\s(?:knowe|moss|muir)\b/gmi,
 /\b(?:back(?:\sof)?\smount\spleasant|back\spleasant\sstreet|hill\smount\spleasant)\b/gmi,
 /\bMore\sPleasant\b/gm,
 /\b(?:mount\spleasant|off\smount\spleasant\sstreet|point\spleasant(?:\sterrace)?|vale\spleasant)\b/gmi,

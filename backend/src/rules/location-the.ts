@@ -65,11 +65,13 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sDue\b/gm,
   /\bThe\sDy(?:es|ke\sForest|kes)\b/gm,
   
+  // E
   /\bThe\sEa(?:ger|rldoms|rls|rthquake)\b/gm,
   /\bThe\sEl(?:ders|even\sAcre|lipse|ms)\b/gm,
   /\bThe\sEn(?:d|gine(?:\sGreen)?|try)\b/gm,
   /\bThe\sE(?:-Act|dge|ducation\sVillage|ight\sAcres|piphany|xchange|xpressway|yes)\b/gm,
   
+  // F
   /\bThe\sFa(?:irground|irways?|lcon|lconers|lcons|lls?|n|rm|rmlands|rmstead|rriers|rthings|wn)\b/gm,
   /\bThe\sFe(?:athers|eder|lls?|llows|n|nce|rries|rry)\b/gm,
   /\bThe\sFi(?:ddle|ddlers|elds?|elders|ndings|nger|rs|rst|sheries|sher[sy]|ve\sSprings)\b/gm,
@@ -85,10 +87,11 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sFront\b/gm,
   /\bThe\sF(?:urlong|urlough|urrows?|ylde)\b/gm,
   
+  // G
   /\bThe\sGal(?:lery|leries|lops?|e)\b/gm,
   /\bThe\sGa(?:bles|ges|ng|ngway|ps?|rdens?|rlands|rners|tes?|teways?|vels)\b/gm,
   /\bThe\sGe(?:ars?|o)\b/gm,
-  /\bThe\sGl(?:ades?|assworks|impse|obal\sAcademy|obe)\b/gm,
+  /\bThe\sGl(?:ades?|assworks|eanings|impse|obal\sAcademy|obe)\b/gm,
   /\bThe\sGo(?:al|at|ats\sLeap\sPool|d\sAlmighty|oose|re|rge|rses?|slings|ssamers)\b/gm,
   /\bThe\sGra(?:dient|in\sStore|naries|nary|nd|nge|sslands|tes|ves|zings|zing\sGrounds)\b/gm,
   /\bThe\sGre(?:en(?:\sDrift)?|ens|ens\sClose|at\sFace|at\sGully|y\sCorries|ys)\b/gm,
@@ -97,6 +100,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sGul(?:f|l|let|ley|ls|ly)\b/gm,
   /\bThe\sGu(?:ards?|ides\sFlat|ild|n|t|tter|vnor['‘’`]?s\sBelt|ys)\b/gm,
 
+  // H
   /\bThe\sHa(?:lve|ngers?|nging|ngs|rbour|rd(?:\sInterchange)?|t)\b/gm,
   /\bThe\sHe(?:ads?|adway|ath|edge\s?[Rr]ow|dges|ights?|ritage)\b/gm,
   /\bThe\sHi(?:de|deaway|gh|ghlight|gh\sSchool|lls?|ves?)\b/gm,
@@ -113,10 +117,12 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sJu(?:bilee|mps|nction|nipers)\b/gm,
   /\bThe\sJ(?:amb|etty|ewel|cb\sAcademy|etties|oint)\b/gm,
   
+  // K
   /\bThe\sKe(?:els|en|ep|nnels|strels|t|ttle|ys?)\b/gm,
-  /\bThe\sKi(?:ilns?|ng['‘’`]?s|ngfishers|osk|rk['‘’`]?s\sAlarm)\b/gm,
+  /\bThe\sKi(?:lns?|ng['‘’`]?s|ngfishers|osk|rk['‘’`]?s\sAlarm)\b/gm,
   /\bThe\sKn(?:ees?|ock)\b/gm,
   
+  // L
   /\bThe\sL\sStrip\b/gm,
   /\bThe\sLa(?:kes?|mp|nds?|ne|nding|nterns|rches|sh|unches|urels|w)\b/gm,
   /\bThe\sLe(?:ap|ases|e|igh|ndings|ngth|ss|vels?)\b/gm,

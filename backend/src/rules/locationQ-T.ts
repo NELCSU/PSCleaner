@@ -25,6 +25,7 @@ const a: RegExp[] = [
 /\bquilters\s(?:close|drive|(?:infant|junior)\sschool|place|straight|way|wood|yard)\b/gmi,
 
 // RA
+/\brat\sisland\b/gmi,
 /\braceway\sroad\b/gmi,
 /\bratchet\shill\b/gmi,
 /\br(?:adiant|ally|ed\sroofs|ookeries|odeo)\sclose\b/gmi,
@@ -153,6 +154,7 @@ const a: RegExp[] = [
 /\brival\s(?:moor\sroad|tor)\b/gmi,
 
 // RO
+/\bross\sglades\b/gmi,
 /\brobin\shood\syawns\b/gmi,
 /\brotherfield\sgreys\b/gmi,
 /\broyal\snavy\savenue\b/gmi,
@@ -265,7 +267,9 @@ const a: RegExp[] = [
 /\bsaw\s?pit\s(?:brake|copse|covert|drive|hill|lane|orchard|park|plantation|pond)\b/gmi,
 /\bsaw\s?pit\s(?:rew|ride|rise|road|rough|shaw|spring|street|wood)\b/gmi,
 /\bsandall\sbeat\slane\b/gmi,
+
 // SC
+/\bscalds\srocks\b/gmi,
 /\bscouting\sway\b/gmi,
 /\bsc(?:hoolers|outs|ratchers|ud|urvy\shall)\slane\b/gmi,
 /\bScattering\sRocks\b/gm,
@@ -602,6 +606,8 @@ const a: RegExp[] = [
 /\bskyline\s(?:drive|loch|mews|view)\b/gmi,
 
 // SL
+/\bsleek\s(?:of\starty|stone)\b/gmi,
+/\bsleeping\sbay\b/gmi,
 /\bslett\sof\sthe\sheel\b/gmi,
 /\bsla(?:nting|ppers|ve['‘’`s]*)\shill\b/gmi,
 /\bsl(?:ime|oeberry)\sroad\b/gmi,
@@ -739,7 +745,9 @@ const a: RegExp[] = [
 /\bsprig\s(?:close|croft|way)\b/gmi,
 /\bsprigs\s(?:holly(?:\slane)?|road|wood)\b/gmi,
 /\bspringboard\seducation\b/gmi,
+/\bsprinkle\s(?:lane|pill)\b/gmi,
 /\bspying\s(?:copse|hillock)\b/gmi,
+
 // SQ
 /\bsquadrons\sapproach\b/gmi,
 /\bsquabs\scopse\b/gmi,
@@ -1284,6 +1292,7 @@ const a: RegExp[] = [
 /\btravellers\s(?:close|court|gate|lane|road|way|wood)\b/gmi,
 /\btreaty\s(?:park|road|street)\b/gmi,
 /\btrinity\sruns\b/gmi,
+/\btriple\s(?:plea\s(?:lane|road)|stone)\b/gmi,
 /\b(?:bickley|ling|mill|whetstone)\strod\b/gmi,
 /\b(?:dick|sheep)\strod\slane\b/gmi,
 /\btrouble\swood(?:\slane)?\b/gmi,

@@ -1365,6 +1365,7 @@ const a: string[] = [
 "dustman",
 "dusty",
 "dwellings",
+
 // E
 "ebb",
 "ebbing",
@@ -1534,42 +1535,7 @@ const a: string[] = [
 "giro",
 "git",
 "givings",
-"glacier",
-"gladiator",
-"gladiola",
-"gladioli",
-"gladness",
-"glam",
-"gland",
-"glans",
-"glassing",
-"glaze",
-"glazer",
-"glazers",
-"glazier",
-"glaziers",
-"gleam",
-"glean",
-"gleanings",
-"glee",
-"glen",
-"glens",
-"glib",
-"glide",
-"glider",
-"glides",
-"glim",
-"glimmer",
-"glistening",
-"glitter",
-"glitzy",
-"glob",
-"globus",
-"glum",
-"glut",
-"glutton",
-"gnat",
-"gnats",
+"glen",             // name & placenames (1k+)
 "goat",             // standalone
 "grace",            // name & placenames (178)
 "grant",            // name & placenames (49)
@@ -1850,9 +1816,11 @@ const a: string[] = [
 "hobgoblin",      // standalone & placename
 "holly",          // name & placenames (265)
 "hope",           // name & placenames (314)
+"hook",           // name & standalone & placenames (130)
 "horsefair",      // standalone & placenames (8)
 "hue",            // name
 "hull",           // name & standalone & placenames (51)
+
 // I
 "illustrious",    // standalone
 "ivy",            // name
@@ -3331,6 +3299,7 @@ const a: string[] = [
 "rusty",
 "rut",
 "ruts",
+
 // S
 "sabbat",
 "sabbath",
@@ -3469,6 +3438,7 @@ const a: string[] = [
 "scot",             // name & placenames (28)
 "skylines",         // standalone
 "skylarks",         // standalone & placenames (2)
+"slade",            // name & standalone & placenames (155)
 "snaffle",
 "snag",
 "snail",

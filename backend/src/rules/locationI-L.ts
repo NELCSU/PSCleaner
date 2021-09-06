@@ -366,6 +366,9 @@ const a: RegExp[] = [
 /\blittle\sgulls\b/gmi,
 /\bLive\sStock\b/gm,
 
+// LN
+/\bLNG\sterminal\b/gmi,
+
 // LO
 /\bLong\s(?:Goat|Load)\b/gm,
 /\bload\s(?:brook|field\sroad|lane|of\shay\sroad|pool|road|street)\b/gmi,

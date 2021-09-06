@@ -175,12 +175,11 @@ const a: RegExp[] = [
 /\bartists\svalley\b/gmi,
 
 // AS
-/\bash\sand\s(?:dust\ssettling\sponds|new\sash\sgreen)\b/gmi,
+/\bash\s(?:and\s(?:dust\ssettling\sponds|new\sash\sgreen)|estates)\b/gmi,
 /\bastute\splace\b/gmi,
 /\basps\swood\b/gmi,
 /\baspects\smews\b/gmi,
 /\basc\sna\b/gmi,
-/\b(?:east|glyne|west)\sascent\b/gmi,
 /\basparagus\s(?:close|island|way)\b/gmi,
 /\baspect\s(?:court|gardens|one)\b/gmi,
 /\baspire\s(?:acad[ae]my|college|school)\b/gmi,
@@ -196,6 +195,7 @@ const a: RegExp[] = [
 /\battorney\s(?:court|croft)\b/gmi,
 
 // AU
+/\bautumn\sglades\b/gmi,
 /\bauthors\splace\b/gmi,
 /\baught\swood\b/gmi,
 /\bAuction\sYard\b/gm,
@@ -207,6 +207,7 @@ const a: RegExp[] = [
 /\bl['‘’`]?ile\saux\senfants\b/gmi,
 
 // AV
+/\bAvenue\s[A-Z]\b/gm,
 /\baveley\sand\suplands\b/gmi,
 /\bavenue\sst\.?\sbride\b/gmi,
 /\bavenues\scourt\b/gmi,
@@ -362,6 +363,7 @@ const a: RegExp[] = [
 /\b(?:binders\s(?:court|road)|boot\sbinders\sroad)\b/gmi,
 
 // BL
+/\bblairgowrie\sand\sglens\b/gmi,
 /\bblinds\smeadow\b/gmi,
 /\bblood\sroad\b/gmi,
 /\bblack\sand\samber\sway\b/gmi,
@@ -433,6 +435,7 @@ const a: RegExp[] = [
 /\bbold\sventure\sway\b/gmi,
 
 // BR
+/\bbrougham\sglades\b/gmi,
 /\bbrasenose\sdriftway\b/gmi,
 /\bbroad\sreaches\b/gmi,
 /\bbroadmayne\s\&\scrossways\b/gmi,
@@ -592,7 +595,7 @@ const a: RegExp[] = [
 /\bcask\screscent\b/gmi,
 /\bcandles\scopse\b/gmi,
 /\bcashes\sgreen\b/gmi,
-/\bCalm\sLane\b/gm,
+/\bCalm\s(?:Lane|Rock)\b/gm,
 /\bCabin\sDoor\b/gm,
 /\bcabin\s(?:close|clough|coppice|hill(?:\scovert)?|hole\swood|lands|lane|leas|moss|oaks|plain|plantation|road)\b/gmi,
 /\b(?:ash\s|rook\s)?cabin\sflat\b/gmi,
@@ -650,6 +653,7 @@ const a: RegExp[] = [
 /\bcentury\s(?:avenue|belt|close|court|drive|fields|gardens|lane|lodge|mews|park|place|plantation|ponds|road|square|street|view|walk|way|wood)\b/gmi,
 
 // CH
+/\bchase\sestates\b/gmi,
 /\bchurn\smilk\slane\b/gmi,
 /\bch(?:apel\sbreak|ards\smead|arge|eats)\sroad\b/gmi,
 /\bcha(?:fers|ses)\scopse\b/gmi,
@@ -775,6 +779,8 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
+/\bCocked\sHat\b/gm,
+/\bcock\sglades\b/gmi,
 /\bcoed\s(?:doctor|y\sgoat|y\sgrip)\b/gmi,
 /\bcoedlan\spump\b/gmi,
 /\bcoalfield\s(?:close|grove|way)\b/gmi,
@@ -886,6 +892,7 @@ const a: RegExp[] = [
 /\bcowslip\s(?:acres|avenue|bank|chase|close|court|crescent|drive|gardens)\b/gmi,
 /\bcowslip\s(?:gate|green|grove|hill|lane|mead|meadow|place|road|spinney|street|view|walk|way)\b/gmi,
 /\bco(?:llars|mm(?:and|ittee|unications)|mpasses|mpression|nservancy|nsols|rridor|rpse)\sroad\b/gmi,
+/\bcoastlands\sschool\b/gmi,
 /\bcoastline\smews\b/gmi,
 /\bco(?:lossus|uch)\sway\b/gmi,
 /\bCo(?:ld|nstant)\sRoad\b/gm,

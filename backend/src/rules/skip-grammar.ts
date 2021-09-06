@@ -80,6 +80,7 @@ const a: RegExp[] = [
   /\blent\sback\b/gmi,
   /\blo\sand\sbehold\b/gmi,
   // M
+  /\bmanial\senvelope\b/gmi,
   /\bmark\smy\swords\b/gmi,
   /\bmay\shave\b/gmi,
   /\bmea\sculpa\b/gmi,

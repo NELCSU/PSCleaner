@@ -136,6 +136,7 @@ const a: RegExp[] = [
 /\bvoyagers\sclose\b/gmi,
 
 // WA
+/\bwater\sglades\sclose\b/gmi,
 /\bwashington\sgalleries\b/gmi,
 /\bw(?:ardrobes|et\sshod|homsoever|ife)\slane\b/gmi,
 /\bw(?:ait\send|arrant|eight|elcomes|hirlwind|hole\shouse|indings|ings|ork(?:shop)?|ove)\sroad\b/gmi,
@@ -189,11 +190,13 @@ const a: RegExp[] = [
 /\bwatershed\slake\b/gmi,
 /\bwastelands\sshaw\b/gmi,
 /\bold\swaste\s(?:lane|plantation)\b/gmi,
-/\bwaste\s(?:acre|bottom|common|coppice|dr[io]ve|green(?:\slane)?|ground\splantation|hill|lane|plantation|road|street|wood)\b/gmi,
+/\bwaste\s(?:acre|bottom|common|coppice|dr[io]ve|green(?:\slane)?|ground\splantation)\b/gmi,
+/\bwaste\s(?:hill|lane|plantation|road|street|wood)\b/gmi,
 /\b(?:crowle|dendles|lane|long|old|reedness|thorne|whitwick)\swaste\b/gmi,
 /\bwaster\shoevda\b/gmi,
 /\b(?:Badgers|Carn|Channel|Craig|Gimli|Joannies|Middle|Trinity)\sWatch\b/gm,
-/\bwatch\s(?:avenue|cleu[cg]h|close|copse|crags|craig|croft|currick|elm|hill|house|knott|knowe|lane|law|moss|plantation|rigg|rock|street|water|wood)\b/gmi,
+/\bwatch\s(?:avenue|cleu[cg]h|close|copse|crags|craig|croft|currick|elm|hill)\b/gmi,
+/\bwatch\s(?:house|knott|knowe|lane|law|moss|plantation|rigg|rock|street|water|wood)\b/gmi,
 /\bwatcher['‘’`]?s\s(?:hill|wood)\b/gmi,
 /\bwatchtower\s(?:road|way)\b/gmi,
 /\bwater\sof\sthe\swicks\b/gmi,
@@ -219,7 +222,8 @@ const a: RegExp[] = [
 /\bwaterside\s(?:primary|reach|road|south|square|street|strip|view|walk|way|wood)\b/gmi,
 /\bwaterwheel\s(?:close|court|lane|rise|way)\b/gmi,
 /\b(?:waterworks\s(?:close|covert|drive|hill|lane|road|street|way|wood)|(?:old\s)?waterworks\splantation)\b/gmi,
-/\bwatery\s(?:bottom|brake|close|combe|dyke|gate|geo|grove|haven|hill|knowe|lane|marsh|orchard|pots|road|street|way|wood)\b/gmi,
+/\bwatery\s(?:bottom|brake|close|combe|dyke|gate|geo|grove|haven|hill|knowe)\b/gmi,
+/\bwatery\s(?:lane|marsh|orchard|pots|road|street|way|wood)\b/gmi,
 /\bwave\s(?:basin|close|hub|road|trap)\b/gmi,
 /\bwavering\s(?:down\srise|down|lane)\b/gmi,
 /\bwavers\s(?:ground|marston)\b/gmi,
@@ -228,6 +232,7 @@ const a: RegExp[] = [
 /\bwayfarer['‘’`s]*\s(?:close|drive|gardens|road|way)\b/gmi,
 
 // WE
+/\bwest\sascent\b/gmi,
 /\bwell\sbargain\scopse\b/gmi,
 /\bwellake\sscattered\srock\b/gmi,
 /\bW(?:est\s[Aa]nd\sRural|ood\s[Aa]nd\sMeadow)\b/gm,
@@ -422,6 +427,7 @@ const a: RegExp[] = [
 /\bwizards\swalk\b/gmi,
 
 // WO
+/\bwoodthorpe\sglades\b/gmi,
 /\bworth\snothing\splantation\b/gmi,
 /\bwoodhall\sgreets\b/gmi,
 /\bwolds\sand\scoastal\b/gmi,

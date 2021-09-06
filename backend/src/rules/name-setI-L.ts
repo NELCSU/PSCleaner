@@ -3458,6 +3458,7 @@ const a: string[] = [
 "issayas",
 "isse",
 "issel",
+"issell",
 "issells",
 "isser",
 "isserlis",
