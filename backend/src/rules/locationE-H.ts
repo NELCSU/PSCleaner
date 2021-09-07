@@ -144,6 +144,8 @@ const a: RegExp[] = [
 /\bfishwives['‘’`]?\scauseway\b/gmi,
 /\bfi(?:tters\smill|ver)\sclose\b/gmi,
 /\bfighting\scocks(?:\splace)?\b/gmi,
+/\bFighting\sClose\b/gm,
+/\bfir\sterraces\b/gmi,
 
 // FL
 /\bfl(?:intlock|owerpot)\sclose\b/gmi,
@@ -506,6 +508,7 @@ const a: RegExp[] = [
 /\b(?:girl['‘’`]?s\sschool|girls\swick|the\sgirls\sgrove)\b/gmi,
 
 // GL
+/\bglasgow\sharbour\sterraces\b/gmi,
 /\bglyne\sascent\b/gmi,
 /\bglutton\s(?:bridge|dale)\b/gmi,
 /\bglades\sclose\b/gmi,
@@ -566,7 +569,7 @@ const a: RegExp[] = [
 /\bgovernors?\s(?:drive|close|marsh|mews|road|wood|yard)\b/gmi,
 
 // GR
-/\bgreen\sglades\b/gmi,
+/\bgreen\s(?:glades|noses)\b/gmi,
 /\bgraders\sclose\b/gmi,
 /\bgrammars\shill\b/gmi,
 /\bgrandsires\sgreen\b/gmi,

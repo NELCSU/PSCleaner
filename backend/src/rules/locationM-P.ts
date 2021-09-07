@@ -272,7 +272,8 @@ const a: RegExp[] = [
 /\b(?:Bull|Long|Pick|Scar|Short|White|Yellow)\sNose\b/gm,
 /\b(?:barras|blowup|burrow|dounan|moody|rock|settling)\snose\b/gmi,
 /\bnose\s(?:coppice|plantation|of\s(?:cowsgarth|klumpa|the\s(?:bring|ridgeo|yard))|point|lane|spit)\b/gmi,
-/\b(?:green\snoses|noses\sholt)\b/gmi,
+/\bnose['‘’`]?s\spoint\b/gmi,
+/\bnoses\sholt\b/gmi,
 /\bnowhere\slane\b/gmi,
 
 // NU
@@ -495,7 +496,9 @@ const a: RegExp[] = [
 /\bpa(?:ddlers|geantmaster)\scourt\b/gmi,
 /\bpa(?:d\scote|dding|rt(?:way)?|st)\slane\b/gmi,
 /\bpalestine\s(?:grove|plantation|road)\b/gmi,
+/\bpartnership\s(?:court|way)\b/gmi,
 /\bpartway\scoppice\b/gmi,
+/\bparc\san\sstamps\b/gmi,
 
 // PE
 /\bpe(?:aceful|cked|g|sters|stilence)\slane\b/gmi,
@@ -503,8 +506,10 @@ const a: RegExp[] = [
 /\bperton\slakeside\b/gmi,
 
 // PI
-/\bpi(?:nchers|ngs)\sclose\b/gmi,
-/\bpi(?:ano|nholes|nnings)\slane\b/gmi,
+/\bpiano\slane\b/gmi,
+/\bpin(?:chers|gs)\sclose\b/gmi,
+/\bpin(?:holes|nings)\slane\b/gmi,
+/\bpincushion\s(?:drove|island|plantation)\b/gmi,
 
 // PL
 /\bplums\slane\b/gmi,
@@ -516,6 +521,7 @@ const a: RegExp[] = [
 /\bportal\svalve\shouse\b/gmi,
 /\bpo(?:lls|ssession)\slane\b/gmi,
 /\bpork\s(?:hill|lane|street)\b/gmi,
+/\bpoor\stenement\splantation\b/gmi,
 
 // PR
 /\bprisoners\sbelt\b/gmi,
@@ -523,6 +529,7 @@ const a: RegExp[] = [
 /\bpro(?:cters|vince)\sdrive\b/gmi,
 /\bpresbyterian\sfold\b/gmi,
 /\bpreston\scapes\b/gmi,
+/\bPromotion\sClose\b/gm,
 
 // PU
 /\bPulleys\sClose\b/gm,

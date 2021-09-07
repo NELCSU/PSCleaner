@@ -2856,6 +2856,7 @@ const a: string[] = [
 "pillion",
 "pillows",
 "pilsner",
+"pincushion",
 "pioneer",
 "pioneering",
 "pious",
@@ -3244,6 +3245,7 @@ const a: string[] = [
 "rivets",
 "rize",
 "rob",              // name & placenames (17)
+"ropeway",          // standalone
 "rose",             // name & placenames (326)
 "robin",            // name & placenames (159)
 "rubbery",
@@ -3605,54 +3607,8 @@ const a: string[] = [
 "sunrise",          // name & standalone
 // T
 "tapas",            // name
-"teak",
-"teal",
-"teals",
-"teardrop",
-"teas",
-"teats",
-"teddy",
-"teehee",
-"teem",
-"teeter",
-"teeters",
-"teethe",
-"teetotal",
-"teflon",
-"teller",
-"tellers",
-"telltale",
-"telly",
-"tempest",
-"templar",
-"templars",
-"temple",
-"temples",
-"tempo",
-"temporal",
-"tenement",
-"tennant",
-"tennants",
-"tenner",
-"tenor",
-"tequilla",
-"termini",
-"tern",
-"terrace",
-"terraces",
-"terracotta",
-"terrapin",
-"terrier",
-"terriers",
-"terries",
-"terrine",
-"teste",
-"tester",
-"testy",
-"tether",
-"tethering",
-"tetrahedra",
-"textile",
+"teddy",            // name
+"temple",           // name & standalone & placenames (179)
 "threshers",        // standalone
 "tilty",            // standalone
 "tj",               // name

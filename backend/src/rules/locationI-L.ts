@@ -211,6 +211,8 @@ const a: RegExp[] = [
 /\bkingmaker\sway\b/gmi,
 
 // KN
+/\bknights\stemplars\sgreen\b/gmi,
+/\bKnights\sTemplars\b/gm,
 /\bknees?\shill\b/gmi,
 /\bknow\sgap\slane\b/gmi,
 /\bknock\sstreet\b/gmi,

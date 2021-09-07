@@ -36,7 +36,9 @@ const a: RegExp[] = [
 /\bunity\s(?:drive|gardens|grove|hall\scourt|lane|mews|park|place|primary|road)\b/gmi,
 /\bunity\s(?:square|street|terrace|way|wood)\b/gmi,
 /\buniversal\s(?:close|road|street)\b/gmi,
-/\buniversity\s(?:academy|avenue|barns|boulevard|centre|close|court|crescent|drive|farm|garden|hospital|house|parks?|parkway|place|quays|road|street|terrace|walk|way|wood)\b/gmi,
+/\buniversity\s(?:academy|avenue|barns|boulevard|centre|close|court|crescent|drive|farm|garden|hospital)\b/gmi,
+/\buniversity\s(?:house|parks?|parkway|place|quays|road|street|terrace|walk|way|wood)\b/gmi,
+/\bUniversity\sof\b/gm,
 /\bunnamed\s(?:rd|road)\b/gmi,
 
 // UP

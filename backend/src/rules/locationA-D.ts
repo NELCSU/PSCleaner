@@ -67,6 +67,7 @@ const a: RegExp[] = [
 /\baisle\sroad\b/gmi,
 
 // AL
+/\balexandra\sterraces\b/gmi,
 /\ballan\seasy\b/gmi,
 /\balleys\sgreen\b/gmi,
 /\balmond\sand\searn\b/gmi,
@@ -435,6 +436,7 @@ const a: RegExp[] = [
 /\bbold\sventure\sway\b/gmi,
 
 // BR
+/\bbrough\ssounds\b/gmi,
 /\bbrougham\sglades\b/gmi,
 /\bbrasenose\sdriftway\b/gmi,
 /\bbroad\sreaches\b/gmi,
@@ -779,6 +781,7 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
+/\bCommanders\sClose\b/gm,
 /\bCocked\sHat\b/gm,
 /\bcock\sglades\b/gmi,
 /\bcoed\s(?:doctor|y\sgoat|y\sgrip)\b/gmi,
@@ -1148,7 +1151,7 @@ const a: RegExp[] = [
 /\bda(?:d['‘’`]?s|nger)\slane\b/gmi,
 /\bd(?:ate|ockland)\sstreet\b/gmi,
 /\bDairyman\sClose\b/gm,
-/\bda\srotten\sgeo\b/gmi,
+/\bda\s(?:rotten\sgeo|sounds)\b/gmi,
 /\bdancer\s(?:dick\swood|lane|road)\b/gmi,
 /\bdancers\s(?:drive|end\slane|hill(?:\sroad)?|lane|meadow|place)\b/gmi,
 /\bdances\s(?:close|lane|way)\b/gmi,
@@ -1173,6 +1176,7 @@ const a: RegExp[] = [
 /\b(?:deals\s(?:bottom|brake|carr)|westward\sdeals)\b/gmi,
 /\bdear\s(?:bought\splantation|hay\slane|hill|love\sgate|street)\b/gmi,
 /\bdefence\s(?:academy|close|street)\b/gmi,
+/\bdemands\scoppice\b/gmi,
 /\bdementia\scare\shome\b/gmi,
 /\bdermatology\scentre\b/gmi,
 /\bdesert\s(?:orchid\sroad|plantation|strip|wood)\b/gmi,

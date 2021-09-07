@@ -2855,7 +2855,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "roomy",            // name
 "ropes",            // name & placenames (8)
 "ropewalk",         // standalone & placenames (8)
-"ropeway",          // standalone & placename
 "roping",           // name & placename
 "rosary",           // name
 "rosebud",          // name & placenames (4)
@@ -3452,6 +3451,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "stammer",          // name & placename
 "stammers",         // name & standalone & placenames (8)
 "stamp",            // name & placenames (9)
+"stamps",           // name
 "stand",            // standalone & placenames (25)
 "standard",         // standalone & placenames (20)
 "standards",        // standalone & placenames (5)
@@ -3681,6 +3681,38 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "taverner",         // name & placenames (7)
 "taverners",        // standalone & placenames (11)
 "taxis",            // name
+"teak",             // name & placenames (4)
+"teal",             // name & placenames (20)
+"teardrop",         // name & placename
+"teas",             // name & placenames (5)
+"teats",            // name & placenames (2)
+"teehee",           // name
+"teem",             // name
+"teeter",           // name
+"teeters",          // name
+"teflon",           // name
+"teller",           // name
+"tellers",          // name & placename
+"telly",            // name
+"tempest",          // name & placenames (17)
+"templar",          // name & placenames (22)
+"temples",          // name & placenames (3)
+"tempo",            // name
+"temporal",         // name
+"tennant",          // name & placenames (13)
+"tenner",           // name & placename
+"tenor",            // name & placenames (2)
+"tequilla",         // name
+"termini",          // name
+"tern",             // name & placenames (28)
+"terrace",          // placenames (1k+)
+"terrier",          // name & placenames (2)
+"terriers",         // standalone & placenames (3)
+"terrine",          // name
+"teste",            // name
+"tester",           // name
+"testy",            // name
+"tether",           // name
 "tea",              // name & placenames (10)
 "tears",            // name & placenames (2)
 "tech",             // name & placename

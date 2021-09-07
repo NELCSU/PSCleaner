@@ -182,6 +182,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sQua(?:d|drangle|drant|rries|rry|rter|ys?)\b/gm,
   /\bThe\sQu(?:een['‘’`]?s\sChurch|een\sMother\s(?:Court|Reservoir)|ilts|orum)\b/gm,
   
+  // R
   /\bThe\sR(?:\sJ\sMitchell|ye)\b/gm,
   /\bThe\sRac(?:e|ecourse|eground|k(?:\sIsle)?)\b/gm,
   /\bThe\sRa(?:il|ilway(?:\sSidings)?|in|lly|mp|mparts?|nd|nge(?:rs)?|nk|sh)\b/gm,
@@ -233,7 +234,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sSycamores\b/gm,
 
   /\bThe\sTa(?:bards|bernacle|ble|il(?:\s[Rr]ace)?|n|nners|nnery|rns?|sk|xiway)\b/gm,
-  /\bThe\sTe(?:e|n\sAcres|nnis(?:\sCourt)?)\b/gm,
+  /\bThe\sTe(?:e|mplars|mple|n\sAcres|nnis(?:\sCourt)?|rraces)\b/gm,
   /\bThe\sTh(?:atch|atchers|ickets?|imbles|ird|istles|rift|orns?|oroughfare|reshers|roat)\b/gm,
   /\bThe\sTi(?:mber\sway|mbers|ns|ps|the|things)\b/gm,
   /\bThe\sTo(?:e|ll|llgate|n|ngues?|ppings|re|rs|wers?|wn|wpath)\b/gm,
