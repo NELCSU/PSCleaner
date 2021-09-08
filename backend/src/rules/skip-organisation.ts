@@ -24,6 +24,7 @@ const a: RegExp[] = [
   // F
   /\b(?:fa\scup|faroe\sislands)\b/gmi,
   /\bFirst\sMinister\b/gm,
+  /\bFood\sBank\b/gm,
   // G
   /\b(?:great\sbritain|guinea[\s-]bissau)\b/gmi,
   /\bGreen\sPass\b/gm,

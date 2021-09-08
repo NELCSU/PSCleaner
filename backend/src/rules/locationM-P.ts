@@ -213,6 +213,7 @@ const a: RegExp[] = [
 /\bnavigator['‘’`s]*\s(?:close|court|drive|road|way)\b/gmi,
 
 // NE
+/\bnewton\stors\b/gmi,
 /\bnewington\slibrary\b/gmi,
 /\bnew\sforest\sglades\b/gmi,
 /\bnew\slakeside\b/gmi,

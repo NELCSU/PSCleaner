@@ -48,6 +48,7 @@ const a: RegExp[] = [
 /\bup[\s-](?:holland|marden|mudford|nately|park|somborne(?:\s(?:down|wood))?|street|sydling|wood)\b/gmi,
 /\bupon[\s-]?(?:alun|avon|dearne|derwent|dunsmore|end|hine|hull|humber|irwell|medlock|mendip|mersey|moors|severn|soar|spalding|stather|teme|tern|thames|the[\s-]weald|trent|tweed|tyne)\b/gmi,
 /\buppermost\sclough\b/gmi,
+/\bupper\stooting(?:\s(?:park|road))?\b/gmi,
 /\bUpper\s[Aa]nd\sLower\b/gm,
 /\bupping\scopse\b/gmi,
 /\bupshot\s(?:lane|wood)\b/gmi,

@@ -887,7 +887,7 @@ const a: string[] = [
 "yimchunger",
 "yoruba",
 "yuchi",
-"zafimaniry",
+
 "zaghawa",
 "zambian",
 "zay",

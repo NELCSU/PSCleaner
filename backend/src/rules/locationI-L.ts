@@ -186,6 +186,7 @@ const a: RegExp[] = [
 /\bLower\sKey\b/gm,
 
 // KI
+/\bkipling\stors\b/gmi,
 /\bkingfishers\s(?:court|reach)\b/gmi,
 /\bkid\s(?:cleughs|gate\sdrove|geo|glove\sroad|hill|islands|lane|moor|stone\shill|stones\shollow)\b/gmi,
 /\bkissing\s(?:batch|copse|gate|tree\s(?:lane|way))\b/gmi,
@@ -233,6 +234,7 @@ const a: RegExp[] = [
 
 /\bl\sspinney\b/gmi,
 // LA
+/\blaugharne\stownship\b/gmi,
 /\blaughing\simage\scorner\b/gmi,
 /\bLakes\s[Aa]nd\sGardens\b/gm,
 /\bl(?:istening\spost|itchen)\sclose\b/gmi,
@@ -372,6 +374,7 @@ const a: RegExp[] = [
 /\bLNG\sterminal\b/gmi,
 
 // LO
+/\blordsgate\stownship\b/gmi,
 /\bLong\s(?:Goat|Load)\b/gm,
 /\bload\s(?:brook|field\sroad|lane|of\shay\sroad|pool|road|street)\b/gmi,
 /\bbull\sload\sdrove\b/gmi,

@@ -3726,6 +3726,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "thorns",           // name & placenames (93)
 "thoroughfare",     // standalone & placenames (6)
 "throne",           // name & placenames (3)
+"thu",              // name
 "thundercloud",     // name
 "thursday",         // name & placename
 "thatch",           // name & placenames (20)
@@ -3794,6 +3795,37 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "tinker",           // name & placenames (38)
 "tipping",          // name & placenames (10)
 "tiptoe",           // standalone & placenames (7)
+"tock",             // name & placename
+"toddy",            // name & placenames (2)
+"todo",             // name
+"toffee",           // name
+"tofu",             // name
+"tomb",             // name & placename
+"tombs",            // name & placename
+"tome",             // name
+"tomes",            // name
+"toner",            // name & placenames (4)
+"tones",            // name
+"tonne",            // name
+"tonner",           // name
+"toon",             // name & placenames (4)
+"topaz",            // name & placenames (8)
+"topper",           // name & placename
+"topsy",            // name
+"tori",             // name & placenames (2)
+"tornado",          // name & placenames (2)
+"torrent",          // name & placename
+"torrents",         // name
+"tot",              // name & placenames (6)
+"tote",             // name & standalone & placenames (9)
+"totter",           // name & placenames (2)
+"tottle",           // name & placenames (4)
+"totty",            // name & placenames (2)
+"touche",           // name
+"touches",          // name & placenames (4)
+"touchstone",       // name & placenames (5)
+"tout",             // name & placenames (10)
+"tows",             // name & placenames (2)
 "toes",             // name & placename
 "togo",             // name & placenames (2)
 "toks",             // name
@@ -3918,6 +3950,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "varnish",          // name
 "vase",             // name
 "vax",              // name
+"veer",             // name
 "vein",             // name & placenames (2)
 "velvet",           // name & placenames (8)
 "vendetta",         // name
