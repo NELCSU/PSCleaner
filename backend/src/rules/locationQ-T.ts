@@ -25,8 +25,24 @@ const a: RegExp[] = [
 /\bquilters\s(?:close|drive|(?:infant|junior)\sschool|place|straight|way|wood|yard)\b/gmi,
 
 // RA
+/\braffles\s(?:avenue|cleuch|place|road|street)\b/gmi,
+/\braffling\swood\b/gmi,
+/\bragged\s(?:appleshaw|boys\shill|butts\splantation|copse|dog\slane|drove|field\slane)\b/gmi,
+/\bragged\s(?:firs|grove|hall\slane|island|lane|robins\sclose|rock|staff|stone\shill|wood)\b/gmi,
+/\braggle\srocks\b/gmi,
+/\brailside\s(?:court|lane)\b/gmi,
+/\braisins\s(?:field\sclose|hill)\b/gmi,
+/\bramblers\s(?:close|drive|lane|way)\b/gmi,
+/\brambles\swood\b/gmi,
+/\brambling\s(?:walk|way)\b/gmi,
+/\brandom\sclose\b/gmi,
+/\brandy\s(?:mere\sreservoir|plantation)\b/gmi,
+/\brandy['‘’`]?s\sgap\b/gmi,
+/\bracks\s(?:lane|moss|road|wood)\b/gmi,
 /\brat\sisland\b/gmi,
 /\braceway\sroad\b/gmi,
+/\bracquet\scourt\swood\b/gmi,
+/\bracquets\scourt\shill\b/gmi,
 /\bratchet\shill\b/gmi,
 /\br(?:adiant|ally|ed\sroofs|ookeries|odeo)\sclose\b/gmi,
 /\br(?:aceground|ingless|isk)\shill\b/gmi,
@@ -609,6 +625,8 @@ const a: RegExp[] = [
 /\bskyline\s(?:drive|loch|mews|view)\b/gmi,
 
 // SL
+/\bslack\srandy\b/gmi,
+/\bslightland\splantation\b/gmi,
 /\bsleek\s(?:of\starty|stone)\b/gmi,
 /\bsleeping\sbay\b/gmi,
 /\bslett\sof\sthe\sheel\b/gmi,
@@ -620,7 +638,7 @@ const a: RegExp[] = [
 /\bslated\srow\b/gmi,
 /\bslab\s(?:drove|lane|wood)\b/gmi,
 /\btrilleachan\sslabs\b/gmi,
-/\b(?:basic\sslag\sroad|slag\s(?:hill|lane))\b/gmi,
+/\bslag\s(?:hill|lane)\b/gmi,
 /\bslam\sgutter\b/gmi,
 /\bslant\s(?:close|gate|lane|ride\scovert)\b/gmi,
 /\b(?:cauld|common|market|mote|mowbrays|pocklaw)\sslap\b/gmi,
@@ -763,6 +781,8 @@ const a: RegExp[] = [
 /\bsquashes\swood\b/gmi,
 
 // ST
+/\bstubber\shill\splantation\b/gmi,
+/\bstubber['‘’`]?s\sgreen\b/gmi,
 /\bstubborn\ssand\b/gmi,
 /\bstinking\sgoat\b/gmi,
 /\bstain\swater\sleader\b/gmi,

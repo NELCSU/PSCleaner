@@ -65,6 +65,7 @@ const a: RegExp[] = [
 /\butters\shill\b/gmi,
 
 // VA
+/\bv\sc\sdrive\b/gmi,
 /\bvalues\sacademy\b/gmi,
 /\bvamp\splantation\b/gmi,
 /\bvalley\sprimary\sschool\b/gmi,

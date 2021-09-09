@@ -1793,7 +1793,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hums",             // name
 "hung",             // name & placename
 "hunker",           // name
-"hunt",             // name & placenames (72)
 "hunter",           // name & placenames (78)
 "huntress",         // name
 "hunts",            // name & placenames (35)
@@ -2743,6 +2742,33 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "quivers",          // name
 
 // R
+"rabat",            // name
+"rabbi",            // name
+"rabbis",           // name
+"rachet",           // name
+"racy",             // name
+"raff",             // name
+"raft",             // name & placenames (2)
+"rafter",           // name & placename
+"rag",              // name & placenames (21)
+"rags",             // standalone & placenames (6)
+"raider",           // name & placename
+"rainbow",          // name & placenames (36)
+"rainbows",         // name & placename
+"rains",            // name & placenames (3)
+"rainwater",        // name
+"rake",             // name & standalone & placenames (86)
+"raker",            // name & placenames (2)
+"rakers",           // name & placenames (2)
+"rakes",            // name & standalone & placenames (19)
+"ramble",           // name & placename
+"rambler",          // name & placenames (5)
+"rami",             // name & placename
+"ramming",          // name
+"ramus",            // name & placenames (2)
+"rancher",          // name
+"rands",            // name & placenames (8)
+"ranger",           // name & placenames (12)
 "racecourse",       // standalone & placenames (27)
 "rad",              // name & placenames (6)
 "radian",           // name & placename

@@ -97,6 +97,7 @@ const a: RegExp[] = [
 /\bmetropolitan\s(?:close|drive|mews|pit|station)\b/gmi,
 
 // MI
+/\bmill\sfarm\sbattery\sstorage\b/gmi,
 /\bmiddle\sbeechclose\splantation\b/gmi,
 /\bda\smid\sgeo\b/gmi,
 /\bmid[\s-]a(?:cre\sclose|ltass|nd\supper\snithsdale|nguston|rgyll|uchinleck|venue)\b/gmi,
@@ -132,6 +133,7 @@ const a: RegExp[] = [
 /\bmission\s(?:close|court|drive|field|gardens|grove|hall|hospital|lane|place|road|street|view|way)\b/gmi,
 
 // MO
+/\bmount\schurch\sof\sengland\b/gmi,
 /\bmoss\seasy\b/gmi,
 /\bmortons\sfork\b/gmi,
 /\bmorning\s(?:dawn\splantation|field\s(?:place|road)|hill|lane|pines|point|springs|star\s(?:lane|road)|street|well\splantation)\b/gmi,
@@ -525,12 +527,14 @@ const a: RegExp[] = [
 /\bpoor\stenement\splantation\b/gmi,
 
 // PR
-/\bprisoners\sbelt\b/gmi,
-/\bprince\sconsort\s(?:cottages|drive|lane|road|way)\b/gmi,
-/\bpro(?:cters|vince)\sdrive\b/gmi,
 /\bpresbyterian\sfold\b/gmi,
 /\bpreston\scapes\b/gmi,
+/\bprisoners\sbelt\b/gmi,
+/\bprince\sconsort\s(?:cottages|drive|lane|road|way)\b/gmi,
 /\bPromotion\sClose\b/gm,
+/\bprotection\s(?:plantation|wood)\b/gmi,
+/\bprocters\sdrive\b/gmi,
+/\bprovince\sdrive\b/gmi,
 
 // PU
 /\bPulleys\sClose\b/gm,

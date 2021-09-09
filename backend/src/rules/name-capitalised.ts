@@ -1820,10 +1820,12 @@ const a: string[] = [
 "horsefair",      // standalone & placenames (8)
 "hue",            // name
 "hull",           // name & standalone & placenames (51)
+"hunt",           // name & placenames (72)
 
 // I
 "illustrious",    // standalone
 "ivy",            // name
+
 // J
 "jabber",         // name
 "jan",            // name & placenames (7)
@@ -3032,54 +3034,17 @@ const a: string[] = [
 "putsch",
 "putti",
 "putty",
+
 // R
-"rabat",
-"rabbi",
-"rabbis",
-"rachet",
-"racks",
-"racquet",
-"racquets",
-"racy",
-"radii",
-"raff",
-"raffles",
-"raffling",
-"raft",
-"rafter",
-"rag",
-"ragged",
-"raggle",
-"rags",
-"raider",
-"railside",
-"railwayman",
-"rainbow",
-"rainbows",
-"rains",
-"rainwater",
-"raisins",
-"rajah",
-"rake",
-"raker",
-"rakers",
-"rakes",
-"rakish",
-"ram",
-"ramble",
-"rambler",
-"ramblers",
-"rambles",
-"rambling",
-"rami",
-"ramming",
-"ramrod",
-"ramus",
-"rancher",
-"random",
-"rands",
-"randy",
-"ranger",
+"racks",            // standalone
+"raffles",          // name & standalone
+"railside",         // standalone
+"rajah",            // name
+"rakish",           // name
+"ram",              // name & standaone & placenames (31)
+"ramrod",           // standalone
+"randy",            // name
+"ranges",           // name & standalone
 "ranging",
 "rangle",
 "rani",

@@ -2,7 +2,8 @@ const a: RegExp[] = [
 /\bA\sRoad\b/gm,
 
 // AB
-/\b(?:aber|blackwall|channel)\stunnel\b/gmi,
+/\babraham['‘’`]?s\sbosom(?:\slake)?\b/gmi,
+/\baber\stunnel\b/gmi,
 /\babattoirs\sroad\b/gmi,
 /\babdication\swood\b/gmi,
 /\bab\s(?:kettleby|lench)\b/gmi,
@@ -232,8 +233,8 @@ const a: RegExp[] = [
 
 // BA
 /\bbarton\stors\b/gmi,
-/\bbake\s(?:bottoms|wood)\b/gmi,
-/\bbake['‘’`]?s\swood\b/gmi,
+/\bbasic\sslag\sroad\b/gmi,
+/\bbake['‘’`s]*\s(?:bottoms|wood)\b/gmi,
 /\bold\sbake\shouse\smews\b/gmi,
 /\bB\s(?:Road|Street)\b/gm,
 /\bba(?:bies|ck(?:strip|ward)|laklava|reness(?:\sholm)?|rriers|skets|ttings|ttlefields)\swood\b/gmi,
@@ -367,6 +368,7 @@ const a: RegExp[] = [
 /\b(?:binders\s(?:court|road)|boot\sbinders\sroad)\b/gmi,
 
 // BL
+/\bblackwall\stunnel\b/gmi,
 /\bblairgowrie\sand\sglens\b/gmi,
 /\bblinds\smeadow\b/gmi,
 /\bblood\sroad\b/gmi,
@@ -392,6 +394,7 @@ const a: RegExp[] = [
 /\bbluebell\snursing\b/gmi,
 
 // BO
+/\bbosom\s(?:hill|wood)\b/gmi,
 /\bbounty\s(?:avenue|drive|grove|house|ledge|rise|road)\b/gmi,
 /\b(?:badgers|riders)\sbolt\b/gmi,
 /\bbolt\s(?:cellar\slane|head\sairfield|house\sclose|lane|street|strip|tail|wood(?:\scoppice)?)\b/gmi,
@@ -659,6 +662,7 @@ const a: RegExp[] = [
 /\bcentury\s(?:avenue|belt|close|court|drive|fields|gardens|lane|lodge|mews|park|place|plantation|ponds|road|square|street|view|walk|way|wood)\b/gmi,
 
 // CH
+/\bchannel\stunnel\b/gmi,
 /\bchase\sestates\b/gmi,
 /\bchurn\smilk\slane\b/gmi,
 /\bch(?:apel\sbreak|ards\smead|arge|eats)\sroad\b/gmi,
