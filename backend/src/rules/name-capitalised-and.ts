@@ -1670,6 +1670,16 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hemp",             // name & placenames (14)
 "herald",           // name & placenames (13)
 "hey",              // placenames (393)
+"hick",             // name & placenames (13)
+"hickory",          // name & placenames (13)
+"hicks",            // name & placenames (22)
+"hides",            // name & placenames (7)
+"highland",         // name & standalone & placenames (47)
+"highlander",       // name & standalone & placenames (4)
+"highlands",        // name & standalone & placenames (26)
+"highness",         // name
+"highway",          // standalone & placenames (61)
+"highways",         // standalone
 "hide",             // standalone & placenames (22)
 "high",             // placenames (1k+)
 "higher",           // placenames (1k+)
@@ -1681,6 +1691,21 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hitch",            // name & placenames (11)
 "hive",             // standalone & name & placenames (20)
 "hives",            // name & placenames (6)
+"hillock",          // name & placenames (192)
+"hillocks",         // name & placenames (41)
+"hilly",            // name & placenames (35)
+"hilt",             // name & placename
+"hilts",            // name
+"hinch",            // name & placename
+"hinder",           // name & placenames (2)
+"hinders",          // name & placename
+"hippo",            // name
+"hippy",            // name & placename
+"hiss",             // name & placename
+"hitches",          // name & placenames (3)
+"hitching",         // name & placename
+"hitler",           // name
+"hitter",           // name & placename
 "hoary",            // name
 "hobbit",           // name & placename
 "hobble",           // name & placenames (2)
@@ -4171,7 +4196,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "woodcutters",      // standalone & placenames (5)
 "wooden",           // standalone & placenames (16)
 "woods",            // name & placenames (630)
-"wool",             // name & standalone & placenames (26)
 "woollen",          // name & placenames (3)
 "wools",            // name & placenames (3)
 "workman",          // name & placenames (2)

@@ -43,13 +43,14 @@ const a: RegExp[] = [
 
 // EI
 /\b(?:Eighth|Eleventh|Every)\sStreet\b/gm,
+/\beight[\s-]hatch\splantation\b/gmi,
 /\bE(?:ight|leven)\sAcres?\b/gm,
 /\b(?:eight|eleven)\sacres?\s(?:avenue|belt|brake|close|cop(?:pice|se)|covert|dr[io]ve|firs)\b/gmi,
 /\b(?:eight|eleven)\sacres?\s(?:fox\scovert|gully|holt|la[kn]e|meadow|moor|plantation|pond)\b/gmi,
 /\b(?:eight|eleven)\sacres?\s(?:rise|rough|shaws?|spinney|spring|wood)\b/gmi,
 /\beight\s(?:and\sforty|ash\sgreen|bells\sclose|cornered\swood|oaks|ro[ao]ds\sland)\b/gmi,
 /\b(?:Eight\sTrees|Figure\sEight)\b/gm,
-/\b(?:figure\seight\splantations?|little\seight\sacre\s(?:copse|plantation)|miller['‘’`]?s\seight\sacres|ninety\seight\splantation)\b/gmi,
+/\b(?:little\seight\sacre\s(?:copse|plantation)|miller['‘’`]?s\seight\sacres|ninety\seight\splantation)\b/gmi,
 
 // EL
 /\belderberry\s(?:bank|close|cottages|court|crescent|drive|gardens|lane|mews|place|road|view|walk|way)\b/gmi,
@@ -145,6 +146,7 @@ const a: RegExp[] = [
 /\bfi(?:tters\smill|ver)\sclose\b/gmi,
 /\bfighting\scocks(?:\splace)?\b/gmi,
 /\bFighting\sClose\b/gm,
+/\bfigure\seight\splantations?\b/gmi,
 /\bfir\sterraces\b/gmi,
 
 // FL
@@ -781,6 +783,24 @@ const a: RegExp[] = [
 /\bhighlight\slane\b/gmi,
 /\bhip\s(?:crescent|lane|walk)\b/gmi,
 /\bhills\sand\sholes\b/gmi,
+/\bhilltops\sview\b/gmi,
+/\bhibiscus\s(?:close|court|crescent|grove|way)\b/gmi,
+/\bhic\sbibi\slane\b/gmi,
+/\bhidings\scourt\slane\b/gmi,
+/\bhighlanders['‘’`]?\s(?:avenue|knowe)\b/gmi,
+/\bhighlandman\sloan\b/gmi,
+/\bhighlandman['‘’`]?s\s(?:clump|pool|rig|road|wood)\b/gmi,
+/\bhighpoint\sprison\b/gmi,
+/\bhighwater\s(?:house|view)\b/gmi,
+/\bhighwayman\s(?:close|court|road)\b/gmi,
+/\bhighwayman['‘’`]?s\sridge\b/gmi,
+/\bhighways\s(?:avenue|road)\b/gmi,
+/\bhints\s(?:court|hill|lane|meadow|road)\b/gmi,
+/\bhissing\sscar\b/gmi,
+/\bhither\s(?:acre|bath\sbridge|blakers|brake|bush|chantlers|close|coppice)\b/gmi,
+/\bhither\s(?:daggons\swood|farm\sroad|fields?|great\sfield|green(?:\slane)?|mead|meadow)\b/gmi,
+/\bhither\s(?:moor|old\sgate|shaw|spring|way|wood)\b/gmi,
+/\bhiker(?:\sgrove|s\sway)\b/gmi,
 
 // HO
 /\bhorspath\sdriftway\b/gmi,

@@ -65,6 +65,7 @@ const a: RegExp[] = [
 /\butters\shill\b/gmi,
 
 // VA
+/\bvalley\smushroom\sfarm\b/gmi,
 /\bv\sc\sdrive\b/gmi,
 /\bvalues\sacademy\b/gmi,
 /\bvamp\splantation\b/gmi,
@@ -431,6 +432,8 @@ const a: RegExp[] = [
 /\bwizards\swalk\b/gmi,
 
 // WO
+/\bwool\s(?:chase|church\sof\sengland|close|clough|copse|croft|dale|down|gate|grove)\b/gmi,
+/\bwool\s(?:grove|heath|hill|hope|knott|lane|law|meath|pits\shill|pond|road|row\slane|royd|street)\b/gmi,
 /\bwoodthorpe\sglades\b/gmi,
 /\bworth\snothing\splantation\b/gmi,
 /\bwoodhall\sgreets\b/gmi,

@@ -372,6 +372,7 @@ const a: RegExp[] = [
 /\bscum\s(?:hill|pool)\b/gmi,
 /\bscythe\s(?:close|road|way|wood)\b/gmi,
 /\bsca(?:bs|tters)\scl[eo]u[cg]h\b/gmi,
+/\bScratchy\sBottom\b/gm,
 
 // SE
 /\bseatonburn\swagonway\b/gmi,
@@ -1120,6 +1121,8 @@ const a: RegExp[] = [
 /\btextile\s(?:close|drive|street|way)\b/gmi,
 
 // TH
+/\bthe\swool\shouse\sand\sgardens\b/gmi,
+/\bthe\sloch\sthat\sebbs\sand\sflows\b/gmi,
 /\bthreshers\s(?:bush|corner|court|drive|end|place|yard)\b/gmi,
 /\bthreadmill\slane\b/gmi,
 /\bth(?:e\sflagged|eme|ermal)\sroad\b/gmi,

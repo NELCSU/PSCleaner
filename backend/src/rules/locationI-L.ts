@@ -186,6 +186,7 @@ const a: RegExp[] = [
 /\bLower\sKey\b/gm,
 
 // KI
+/\bkidney\sclump\b/gmi,
 /\bkipling\stors\b/gmi,
 /\bkingfishers\s(?:court|reach)\b/gmi,
 /\bkid\s(?:cleughs|gate\sdrove|geo|glove\sroad|hill|islands|lane|moor|stone\shill|stones\shollow)\b/gmi,
@@ -399,9 +400,9 @@ const a: RegExp[] = [
 /\b(?:hollyblue\slose|lose\s(?:hill|road))\b/gmi,
 /\b(?:cragg|hobb['‘’`]?s|ned['‘’`]?s)\slot\b/gmi,
 /\blot\s(?:lane|law|wood)\b/gmi,
-/\b(?:lord['‘’`]?s\slot(?:\s(?:road|wood))?|lot['‘’`]?s\s(?:bridge|coppice|hole|pond|wife|wood))\b/gmi,
+/\blord['‘’`]?s\slot(?:\s(?:road|wood))?\b/gmi,
+/\blot['‘’`]?s\s(?:ait|bridge|coppice|dr[io]ve|hole|lane|pond|road|wife|wood)\b/gmi,
 /\b(?:park\slot\swood|rough\slot\scopse)\b/gmi,
-/\blots\s(?:ait|dr[io]ve|lane|road|wood)\b/gmi,
 /\blottery\s(?:row|street)\b/gmi,
 
 // LU

@@ -1770,49 +1770,11 @@ const a: string[] = [
 "hes",
 "hex",
 "hexagon",
-"hibiscus",
-"hic",
-"hick",
-"hickory",
-"hicks",
-"hides",
-"hidings",
-"highland",
-"highlander",
-"highlanders",
-"highlandman",
-"highlands",
-"highness",
-"highpoint",
-"highwater",
-"highway",
-"highwayman",
-"highways",
-"hiker",
-"hikers",
-"hill",          // placenames (1k+)
-"hillock",
-"hillocks",
-"hilltop",
-"hilltops",
-"hilly",
-"hilt",
-"hilts",
-"hinch",
-"hinder",
-"hinders",
-"hindrance",
-"hints",
-"hippo",
-"hippy",
-"hiss",
-"hissing",
-"hitches",
-"hitching",
-"hither",
-"hitherto",
-"hitler",
-"hitter",
+"hill",           // placenames (1k+)
+"hilltop",        // standalone & placenames (37)
+"hilltops",       // standalone
+"highpoint",      // standalone
+"hints",          // standalone
 "hobgoblin",      // standalone & placename
 "holly",          // name & placenames (265)
 "hope",           // name & placenames (314)
@@ -3703,6 +3665,7 @@ const a: string[] = [
 "waterside",        // standalone & placenames (46)
 "woodlands",        // name & standalone & placenames (145)
 "woodpeckers",      // standalone & placenames (4)
+"wool",             // name & standalone
 ];
 const ProperNameSet: Set<string> = new Set();
 const L = a.length;

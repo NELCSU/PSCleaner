@@ -9,6 +9,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sAr(?:ans|bory|bours|c|cade|chbishop['‘’`s]*|chery|ches|chway|k|m|moury|ms|t\sAcademy)\b/gm,
   /\bThe\sA(?:sh|uks|venues?|wful\sHand|xe|xis)\b/gm,
   
+  // B
   /\bThe\sBa(?:bes|cks?|d\sStep|iliwick|ils|keries|ker[sy]|nks?|tts|ulks?|ys?)\b/gm,
   /\bThe\sBal(?:es|k|ls?)\b/gm,
   /\bThe\sBar(?:nyard|on[sy]|racks|rows|s)?\b/gm,
@@ -27,6 +28,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sBu(?:cklers|dding|ffer|ngalows|ntings?|ll\sRing|rns?|s|sh|shes|sy|tchery|tts)\b/gm,
   /\bThe\sBy(?:e|e?[\s-](?:[Pp]ass|[Ww]ays?))\b/gm,
   
+  // C
   /\bThe\sCa(?:ble|irns|lf|lls?|pes|st|stle|t|thedral|useway)\b/gm,
   /\bThe\sCam(?:p|pus)\b/gm,
   /\bThe\sCan(?:al|dle|dlemakers)\b/gm,
@@ -57,6 +59,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sCu(?:ckoo|lvert|p|rtain|rve|t|tter|ttings?)\b/gm,
   /\bThe\sCy(?:cle\sWorks|gnets|linders)\b/gm,
   
+  // D
   /\bThe\sDa(?:ffodils|iry|shes)\b/gm,
   /\bThe\sDe(?:af\sAcademy|als|anery|ep|er\sLeap)\b/gm,
   /\bThe\sDi(?:al|sputes|strict\sChurch|tch)\b/gm,
@@ -103,7 +106,8 @@ export const LocationTheRegEx: RegExp[] = [
   // H
   /\bThe\sHa(?:lve|ngers?|nging|ngs|rbour|rd(?:\sInterchange)?|t)\b/gm,
   /\bThe\sHe(?:ads?|adway|ath|edge\s?[Rr]ow|dges|ights?|ritage)\b/gm,
-  /\bThe\sHi(?:de|deaway|gh|ghlight|gh\sSchool|lls?|ves?)\b/gm,
+  /\bThe\sHigh(?:lands|light|way|\sSchool)?\b/gm,
+  /\bThe\sHi(?:des?|deaway|lls?|llocks?|ves?)\b/gm,
   /\bThe\sHol(?:dings|es?|lies|lows?|lyoaks|mwoods)\b/gm,
   /\bThe\sHome(?:lands|s|steads?)\b/gm,
   /\bThe\sHor(?:n|nbeams|nets?|sefair|se\s?[Ss]hoes?|ses?)\b/gm,
@@ -128,7 +132,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sLe(?:ap|ases|e|igh|ndings|ngth|ss|vels?)\b/gm,
   /\bThe\sLi(?:ght|nes?|nks?|on|p|st|zard)\b/gm,
   /\bThe\sLittle\s(?:Belt|Boltons|Brook|Gonerby|Gorge|Horse\sShoe|Minch|Rooks|Rough|Ship)\b/gm,
-  /\bThe\sLo(?:an|bby|ckers|ch\sThat\sEbbs\s[Aa]nd\sFlows|ng\sS(?:hoot|traight)|ts|ttery|w)\b/gm,
+  /\bThe\sLo(?:an|bby|ckers|ng\sS(?:hoot|traight)|rd['‘’`]?s\sHighway|ts|ttery|w)\b/gm,
   /\bThe\sLod(?:ge|gings)\b/gm,
   /\bThe\sLoo(?:kout|ms|ps?)\b/gm,
   /\bThe\sLunch\b/gm,
@@ -150,7 +154,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sOlde?\sDairy\sFarm\b/gm,
   /\bThe\sOlde?\sF(?:airground|armyard|ire\sStation)\b/gm,
   /\bThe\sOlde?\sG(?:asworks|ated\sRoad|ranary)\b/gm,
-  /\bThe\sOlde?\sHop\sYard\b/gm,
+  /\bThe\sOlde?\sH(?:ighway|op\sYard)\b/gm,
   /\bThe\sOlde?\sL(?:arches|aundry)\b/gm,
   /\bThe\sOlde?\sM(?:an|ission)\b/gm,
   /\bThe\sOlde?\sN(?:urseries|ursery)\b/gm,

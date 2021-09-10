@@ -373,6 +373,7 @@ const a: RegExp[] = [
 /\bblinds\smeadow\b/gmi,
 /\bblood\sroad\b/gmi,
 /\bblack\sand\samber\sway\b/gmi,
+/\bbluebells\s(?:court|way)\b/gmi,
 /\bblankets\sbrake\b/gmi,
 /\bbl(?:ack\sdad|adder|indside|ow['‘’`]?s)\slane\b/gmi,
 /\bbloods\sdale\b/gmi,
@@ -1173,6 +1174,7 @@ const a: RegExp[] = [
 /\bdaylight\s(?:road|rock)\b/gmi,
 
 // DE
+/\bdeer\smuseum\b/gmi,
 /\bde\sgrouchy\s(?:lane|street)\b/gmi,
 /\bde(?:ath|eply\svale|port|vil['‘’`]?s)\slane\b/gmi,
 /\bd(?:ealings|epartures|espatch|ia(?:gonal|meter)|ivisional)\sroad\b/gmi,
