@@ -5,9 +5,9 @@
   },
   "dependencies": {
     "@buckneri/collections": "^0.1.6",
-    "@buckneri/nhs-number": "^0.1.0",
-    "@buckneri/string": "^0.8.0",
-    "@buckneri/web-components": "^0.4.2",
+    "@buckneri/nhs-number": "^0.2.0",
+    "@buckneri/string": "^0.8.2",
+    "@buckneri/web-components": "^0.4.3",
     "chokidar": "^3.5.1",
     "debounce": "^1.2.1",
     "dotenv": "^10.0.0",
@@ -78,5 +78,5 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf client/lib/web-components"
   },
-  "version": "0.15.15"
+  "version": "0.15.16"
 }

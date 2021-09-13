@@ -2967,6 +2967,7 @@ const a: string[] = [
 "prey",
 "preys",
 "professors",         // standalone
+"promenade",          // standalone & placenames (63)
 "prudence",           // name & placenames (2)
 "pucker",
 "puckering",
@@ -3198,6 +3199,7 @@ const a: string[] = [
 "rufflers",
 "ruffles",
 "ruffs",
+"rug",          // name & standalone
 "rugby",
 "rum",
 "rumage",
@@ -3616,44 +3618,11 @@ const a: string[] = [
 "trundle",
 "trundlers",
 "trundles",
-"tsar",
-"tsetse",
-"tuatara",
-"tuba",
-"tubby",
-"tuber",
-"tubs",
-"tuck",
-"tucking",
-"tucks",
-"tuft",
-"tufted",
-"tufts",
-"tugboat",
-"tugs",
-"tulip",
-"tumbledown",
-"tumbler",
-"tumblers",
-"turban",
-"turf",
-"turgid",
-"turk",
-"turnip",
-"turnips",
-"turnover",
-"turnpike",
-"turns",
-"turnstile",
-"turntable",
-"turtledove",
-"tusk",
-"tut",
-"tutorial",
-"tutors",
-"tuts",
+"turnpike",         // standalone & placenames (46)
+
 // U
 "upstreet",         // standalone
+
 // V
 "victor",           // name & placenames (28)
 "victors",          // name & placenames (3)

@@ -135,6 +135,7 @@ const a: RegExp[] = [
 // MO
 /\bmount\shindrance\s(?:close|lane)\b/gmi,
 /\bmount\schurch\sof\sengland\b/gmi,
+/\bmount\stumbledown\sclose\b/gmi,
 /\bmoss\seasy\b/gmi,
 /\bmortons\sfork\b/gmi,
 /\bmorning\s(?:dawn\splantation|field\s(?:place|road)|hill|lane|pines|point|springs)\b/gmi,
@@ -187,6 +188,7 @@ const a: RegExp[] = [
 /\bNorth\s[Aa]nd\s(?:Central|East)\b/gm,
 /\bn(?:ativity|ine\swells)\sclose\b/gmi,
 /\bnaked\shill\b/gmi,
+/\bnan\stucks\slane\b/gmi,
 /\bna(?:p|p\scote|vvy)\slane\b/gmi,
 /\bne\slane\b/gmi,
 /\bne(?:ar|edles|edless\shall|w\syears|ws)\slane\b/gmi,
@@ -508,7 +510,7 @@ const a: RegExp[] = [
 
 // PE
 /\bpe(?:aceful|cked|g|sters|stilence)\slane\b/gmi,
-/\bpen-y-clip\b/gmi,
+/\bpen-(?:sconce|y-clip)\b/gmi,
 /\bperton\slakeside\b/gmi,
 
 // PI
@@ -522,6 +524,7 @@ const a: RegExp[] = [
 /\bplessey\sold\swagonway\b/gmi,
 
 // PO
+/\bpont-rug\b/gmi,
 /\bpointout\sclose\b/gmi,
 /\bporpoise\shill\b/gmi,
 /\bportal\svalve\shouse\b/gmi,

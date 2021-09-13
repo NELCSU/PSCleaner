@@ -1043,6 +1043,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ezema",            // name
 
 // F
+"fab",              // name & placenames (3)
 "fable",            // name
 "facia",            // name
 "facit",            // standalone & placenames (2)
@@ -2700,7 +2701,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "prole",            // name & placename
 "proles",           // name
 "prom",             // name & placename
-"promenade",        // placenames (64)
 "promise",          // name
 "prong",            // name
 "pronounced",       // name
@@ -2992,7 +2992,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "scholastic",       // name
 "schooner",         // name & placenames (10)
 "scolding",         // name & placename
-"sconce",           // name & placenames (7)
+"sconce",           // name
 "scopes",           // name & placename
 "scorer",           // name & placenames (3)
 "scorpio",          // name & placenames (2)
@@ -3931,6 +3931,19 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "true",             // name & placenames (2)
 "truly",            // name
 "trunk",            // standalone & placenames (7)
+"tsar",             // name
+"tuba",             // name
+"tubby",            // name & placenames (5)
+"tuber",            // name
+"tuft",             // name & placenames (5)
+"tufts",            // name & placenames (6)
+"tugs",             // name
+"tulip",            // name & placenames (18)
+"turban",           // name
+"turk",             // name & placenames (7)
+"turns",            // name & placename
+"tusk",             // name & placename
+"tut",              // name & placenames (4)
 "tuesday",          // name & placenames (2)
 "tumble",           // name & standalone & placenames (7)
 "tumbling",         // name & placenames (10)
@@ -3959,6 +3972,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "tyranny",          // name
 "tyre",             // name
 "tyres",            // name
+
 // U
 "uber",             // name
 "unknow",           // name

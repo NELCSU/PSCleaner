@@ -1,5 +1,5 @@
 export const NamesEndingRegEx: RegExp[] = [
-   /[a-z]*[À-ÖØ-öø-ÿãñõțũūąğịňōıŚạşęăầẩőếěēšảłộđơńėčćəāţș]+[a-z]*/gmi,
+   /[a-z]*[À-ÖØ-öø-ÿãñõțũūąğịňōıŚạşęăầẩőếěēšảłộđơńėčćəāţșŵŷ]+[a-z]*/gmi,
 
    /\b[a-z]+boroughs?\b/gmi,
    /\b[a-z]+ch?esters?\b/gmi,
@@ -234,7 +234,7 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+[a-cgnx-z]hoe\b/gmi,
    /\b[a-z]+[abcnr]hog\b/gmi,
    /\b[a-z]+[acdg-ikln-psuwy]hom\b/gmi,
-   /\b[a-z]+[cksx-z]hon\b/gmi,
+   /\b[a-z]+[a-eg-orsuvw]hon\b/gmi,
    /\b[a-z]+[adeg-oruwy]hor\b/gmi,
    /\b[a-z]+[a-qt-z]hot\b/gmi,
    /\b[a-z]+chow\b/gmi,
@@ -1065,7 +1065,7 @@ export const NamesEndingRegEx: RegExp[] = [
 
    /\b[a-z]+ya[adghmnprtvwz]\b/gmi,
    /\b[a-z]+yb[biory]\b/gmi,
-   /\b[a-z]+yc[ehk]\b/gmi,
+   /\b[a-z]+yc[ehik]\b/gmi,
    /\b[a-z]+yd[adhinortuwy]\b/gmi,
    /\b[a-z]+ye[aghilmnouvw]\b/gmi,
    /\b[a-z]+yf[aefint]\b/gmi,

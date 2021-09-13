@@ -148,6 +148,7 @@ const a: RegExp[] = [
 /\bFighting\sClose\b/gm,
 /\bfigure\seight\splantations?\b/gmi,
 /\bfir\sterraces\b/gmi,
+/\bfirst\sturf\sfen\sdrove\b/gmi,
 
 // FL
 /\bfl(?:intlock|owerpot)\sclose\b/gmi,
@@ -571,6 +572,7 @@ const a: RegExp[] = [
 /\bgovernors?\s(?:drive|close|marsh|mews|road|wood|yard)\b/gmi,
 
 // GR
+/\bGreen\sTurf\b/gm,
 /\bgreen\s(?:glades|noses)\b/gmi,
 /\bgraders\sclose\b/gmi,
 /\bgrammars\shill\b/gmi,
@@ -690,13 +692,17 @@ const a: RegExp[] = [
 /\bgypsum\s(?:close|way)\b/gmi,
 
 // HA
+/\bhard\sturf\shill\b/gmi,
 /\bH(?:en\s[Aa]nd\sChickens|igh\s[Aa]nd\s(?:Low(?:er)?|Over))\b/gm,
-/\bh(?:aileybury\sand\simperial|and\sand\spen|astings\sand\srye|at\sand\sfeather|eadington\sand\squarry|eadland\sand\sharbour|ose\sand\sharby)\b/gmi,
+/\bha(?:ileybury\sand\simperial|nd\sand\spen|stings\sand\srye|t\sand\sfeather)\b/gmi,
+/\bhead(?:ington\sand\squarry|land\sand\sharbour)\b/gmi,
+/\bhose\sand\sharby\b/gmi,
 /\bh(?:ackers|arts\sleap|ob\scote|ybrid)\sclose\b/gmi,
 /\bhog\shouse\shill\b/gmi,
 /\bha(?:ckers|lves|ll\si'\sth'\swood|mmers|ndkerchief\spiece|ngmans(?:\snew)?|rvesting|ve)\slane\b/gmi,
 /\bhe(?:ater|dging|ms)\slane\b/gmi,
-/\bho(?:b\scote|bbies|ckeys|g\shouse|lds|liday|overs|stess|t(?:\swater)?|using|w(?:\sgreen|ling)?)\slane\b/gmi,
+/\bhob(?:\scote|bies)\slane\b/gmi,
+/\bho(?:ckeys|g\shouse|lds|liday|overs|stess|t(?:\swater)?|using|w(?:\sgreen|ling)?)\slane\b/gmi,
 /\bhung(?:er\shatch|ers|ry(?:\shill))?\slane\b/gmi,
 /\bhypocrite\slane\b/gmi,
 /\bh(?:ardly|arts\sleap|eadquarters|inges|ooters\shall)\sroad\b/gmi,

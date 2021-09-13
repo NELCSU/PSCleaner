@@ -25,6 +25,7 @@ const a: RegExp[] = [
 /\bquilters\s(?:close|drive|(?:infant|junior)\sschool|place|straight|way|wood|yard)\b/gmi,
 
 // RA
+/\bradfords\sturf\b/gmi,
 /\braffles\s(?:avenue|cleuch|place|road|street)\b/gmi,
 /\braffling\swood\b/gmi,
 /\bragged\s(?:appleshaw|boys\shill|butts\splantation|copse|dog\slane|drove|field\slane)\b/gmi,
@@ -226,6 +227,7 @@ const a: RegExp[] = [
 /\brooster\srow\b/gmi,
 
 // RU
+/\brug\sspinney\b/gmi,
 /\bruffian['‘’`]?s\scopse\b/gmi,
 /\brugged\s(?:butts\slane|jack|lane)\b/gmi,
 /\bruin\s(?:bank\swood|road|wood)\b/gmi,
@@ -263,6 +265,7 @@ const a: RegExp[] = [
 /\bryegrass\s(?:close|covert|field|gardens|lane|road)\b/gmi,
 
 // SA
+/\bsandhill\ssconce\b/gmi,
 /\bS\sRoad\b/gm,
 /\bsalvation\splace\b/gmi,
 /\bsailor['‘’`]?s['‘’`]?\sgrave\b/gmi,
@@ -288,6 +291,7 @@ const a: RegExp[] = [
 /\bsandall\sbeat\slane\b/gmi,
 
 // SC
+/\bsconce\s(?:cleuch|lane|point|road)\b/gmi,
 /\bscalds\srocks\b/gmi,
 /\bscouting\sway\b/gmi,
 /\bsc(?:hoolers|outs|ratchers|ud|urvy\shall)\slane\b/gmi,
@@ -375,6 +379,7 @@ const a: RegExp[] = [
 /\bScratchy\sBottom\b/gm,
 
 // SE
+/\bsecond\sturf\sfen\sdrove\b/gmi,
 /\bseatonburn\swagonway\b/gmi,
 /\bSea\sFront\sRoad\b/gm,
 /\bseabird\s(?:close|way)\b/gmi,
@@ -732,6 +737,7 @@ const a: RegExp[] = [
 /\bpaisley\ssouth(?:east|west)\b/gmi,
 
 // SP
+/\bspilling\smoss\sturf\sground\b/gmi,
 /\bspeculation\sroad\b/gmi,
 /\bspud\swood\b/gmi,
 /\bsprig['‘’`]?s\salley\b/gmi,
@@ -1363,7 +1369,16 @@ const a: RegExp[] = [
 /\btrust\s(?:close|corner|court|fold|road)\b/gmi,
 
 // TU
-/\bturf\slot\sdrove\b/gmi,
+/\btubs\shill\b/gmi,
+/\btuck\s(?:mill\scopse|place|road|wood)\b/gmi,
+/\btuck['‘’`]?s\s(?:brake|holt|lane|spring|yard)\b/gmi,
+/\btucking\smill(?:\s(?:cottages|hanging|lane|reservoir|street))?\b/gmi,
+/\btucks\s(?:close|road|wood)\b/gmi,
+/\btufted\sclose\b/gmi,
+/\btugboat\sstreet\b/gmi,
+/\btumbledown\s(?:close|hill)\b/gmi,
+/\btumbler\s(?:grove|hill|road|way)\b/gmi,
+/\btumbler['‘’`]?s\s(?:bottom|green|hill)\b/gmi,
 /\btunnels\sbeaches\b/gmi,
 /\btungsten\scourt\b/gmi,
 /\btune\s(?:street|wood)\b/gmi,
@@ -1372,12 +1387,27 @@ const a: RegExp[] = [
 /\btunnel\s(?:gardens|head|hill(?:\swood)?|how\shill|junction|lane|link\sroad|plantation)\b/gmi,
 /\btunnel\s(?:pool|road|street|terrace|top|way|wood(?:\s(?:close|road))?)\b/gmi,
 /\b(?:Subterranean|The)\sTunnels\b/gm,
+/\bturf\slot\sdrove\b/gmi,
+/\bTurf\sCourt\b/gm,
+/\bturf\s(?:close|common(?:\splantation)?|drove|fen(?:\s(?:lane|road))?|fields|gate)\b/gmi,
+/\bturf\s(?:hill(?:\s(?:inclosure|road))?|house\s(?:close|lane)?|lane|law|lea(?:\sroad)?)\b/gmi,
+/\bturf\s(?:lot\sdrove|meadow|moor(?:\sroad)?|muir\splantation|park(?:\sroad)?|pit\slane)\b/gmi,
+/\bturf\s(?:pits(?:\scovert|lane)?|place|plain|road|slack|street|terrace|wood)\b/gmi,
 /\bturmeric\s(?:close|road)\b/gmi,
 /\b(?:abbey|cooper|goslings|longford|rymanmoor\s(?:long|short))\sturning\b/gmi,
 /\bturning\s(?:basin|course\slonning|geo|hill|lane|street)\b/gmi,
 /\bTurning\sPoint\b/gm,
+/\bturnip\s(?:close(?:\sbrake)?|end|lane)\b/gmi,
+/\bturnips\sgrove\b/gmi,
 /\bturkey\s(?:broad|carpet|cock\slane|hill(?:\splantation)?|island|lane|oak\sclose|oaks|plantation)\b/gmi,
 /\bturkey\s(?:road|row|shore(?:\sroad)?|street|tump(?:\slane)?|wood)\b/gmi,
+/\bturnover\s(?:bank|bridge\splantation)\b/gmi,
+/\bturnstile\s(?:mews|square|walk)\b/gmi,
+/\bturntable\s(?:avenue|place)\b/gmi,
+/\bturtledove\s(?:avenue|close|terrace)\b/gmi,
+/\btutorial\s(?:college|school)\b/gmi,
+/\btutors\s(?:college|way)\b/gmi,
+/\btuts\shill\b/gmi,
 
 // TW
 /\btwines\sclose\b/gmi,
