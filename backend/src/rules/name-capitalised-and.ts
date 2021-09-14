@@ -2749,7 +2749,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "quasi",            // name
 "quay",             // placenames (278)
 "quays",            // standalone & placenames (17)
-"quayside",         // standalone & placenames (15)
 "queen",            // name & placenames (322)
 "queens",           // standalone & placenames (111)
 "queer",            // name & placename
@@ -3807,6 +3806,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "thunder",          // name & placenames (10)
 "thyme",            // name & placenames (11)
 "tiara",            // name
+"tick",             // name & placenames (7)
 "tickler",          // name & placename
 "tidings",          // name & placename
 "tiger",            // name & placenames (18)
@@ -3931,6 +3931,20 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "true",             // name & placenames (2)
 "truly",            // name
 "trunk",            // standalone & placenames (7)
+"trotter",          // name & placenames (6)
+"trough",           // standalone & placenames (33)
+"trounce",          // name
+"troupe",           // name
+"trouser",          // name
+"trout",            // name & placenames (27)
+"trowel",           // name & placenames (2)
+"truce",            // name & placename
+"trucker",          // name
+"truelove",         // name & placename
+"truffles",         // name
+"trumpet",          // name & standalone & placenames (5)
+"trumps",           // name & placenames (8)
+"trundle",          // name & placenames (8)
 "tsar",             // name
 "tuba",             // name
 "tubby",            // name & placenames (5)

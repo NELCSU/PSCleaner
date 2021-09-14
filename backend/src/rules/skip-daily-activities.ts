@@ -27,9 +27,12 @@ const a: RegExp[] = [
   /\bclimbing\sframe\b/gmi,
   /\bcut\sthrough\b/gmi,
   /\bcuticura\shand\b/gmi,
+
   // D
   /\bdog\scage\b/gmi,
   /\bdog\sbite\b/gmi,
+  /\bdyson\s(?:appliance|brand|hoover|vacuum)s?\b/gmi,
+
   // E
   /\beau\sde\scologne\b/gmi,
   /\bear\sring\b/gmi,
@@ -93,6 +96,7 @@ const a: RegExp[] = [
   /\bstair\sgate\b/gmi,
   /\b(?:stanley|swiss\sarmy)\sknife\b/gmi,
   /\bstung\sby\b/gmi,
+
   // T
   /\btable\stennis\b/gmi,
   /\btennis\srackett?\b/gmi,

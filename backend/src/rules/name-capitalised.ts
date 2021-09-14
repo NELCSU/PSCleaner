@@ -1419,6 +1419,7 @@ const a: string[] = [
 "evergreens",       // standalone & placenames (3)
 "eves",             // name & placenames (8)
 "ewes",             // standalone & placenames (2)
+
 // F
 "fairway",          // name & standalone
 "fairways",         // standalone
@@ -2998,6 +2999,9 @@ const a: string[] = [
 "putti",
 "putty",
 
+// Q
+"quayside",         // standalone & placenames (15)
+
 // R
 "racks",            // standalone
 "raffles",          // name & standalone
@@ -3594,30 +3598,7 @@ const a: string[] = [
 "trombone",
 "troopers",
 "trots",
-"trotter",
-"trotters",
-"trotting",
-"trough",
-"trounce",
-"troupe",
-"trouser",
-"trout",
-"trowel",
-"trowels",
-"truce",
-"trucker",
-"truelove",
-"truffle",
-"truffles",
 "trump",            // name & placenames (2)
-"trumpet",
-"trumpeter",
-"trumpets",
-"trumps",
-"truncheon",
-"trundle",
-"trundlers",
-"trundles",
 "turnpike",         // standalone & placenames (46)
 
 // U
@@ -3628,6 +3609,7 @@ const a: string[] = [
 "victors",          // name & placenames (3)
 "villa",            // name & placenames (79)
 "violet",           // name & placenames (37)
+
 // W
 "wade",             // name & placenames (53)
 "warren",           // name & placenames (404)

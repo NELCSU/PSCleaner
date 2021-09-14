@@ -1154,6 +1154,7 @@ const a: RegExp[] = [
 /\b(?:cwt-y-barcud\slane|ffordd\scwt\sglas)\b/gmi,
 
 // CY
+/\bcyrniau\snod\b/gmi,
 /\bcyclops\sstreet\b/gmi,
 /\bcygnets\sclose\b/gmi,
 /\bcylinder\s(?:copse|road)\b/gmi,

@@ -534,6 +534,7 @@ const a: RegExp[] = [
 /\bglistening\sglade\b/gmi,
 
 // GO
+/\bgoose\strack\slane\b/gmi,
 /\bgout\s(?:fawr(?:\spill)?|green)\b/gmi,
 /\bgossips\s(?:moor|wood\sroad)\b/gmi,
 /\bgossamer\slane\b/gmi,
@@ -572,6 +573,7 @@ const a: RegExp[] = [
 /\bgovernors?\s(?:drive|close|marsh|mews|road|wood|yard)\b/gmi,
 
 // GR
+/\bgrimsargh\swetlands\b/gmi,
 /\bGreen\sTurf\b/gm,
 /\bgreen\s(?:glades|noses)\b/gmi,
 /\bgraders\sclose\b/gmi,
@@ -692,10 +694,10 @@ const a: RegExp[] = [
 /\bgypsum\s(?:close|way)\b/gmi,
 
 // HA
+/\bharold\sheading\sclose\b/gmi,
 /\bhard\sturf\shill\b/gmi,
-/\bH(?:en\s[Aa]nd\sChickens|igh\s[Aa]nd\s(?:Low(?:er)?|Over))\b/gm,
+/\bHigh\s[Aa]nd\s(?:Low(?:er)?|Over)\b/gm,
 /\bha(?:ileybury\sand\simperial|nd\sand\spen|stings\sand\srye|t\sand\sfeather)\b/gmi,
-/\bhead(?:ington\sand\squarry|land\sand\sharbour)\b/gmi,
 /\bhose\sand\sharby\b/gmi,
 /\bh(?:ackers|arts\sleap|ob\scote|ybrid)\sclose\b/gmi,
 /\bhog\shouse\shill\b/gmi,
@@ -755,6 +757,8 @@ const a: RegExp[] = [
 /\bHat\sClose\b/gm,
 
 // HE
+/\bhead(?:ington\sand\squarry|land\sand\sharbour)\b/gmi,
+/\bHen\sAnd\sChickens\b/gm,
 /\bheol[\s-]cae[\s-]globe\b/gmi,
 /\bhealth\s(?:centre\sroad|place|street)\b/gmi,
 /\bvale\sof\shealth\b/gmi,
@@ -843,7 +847,7 @@ const a: RegExp[] = [
 /\b(?:Back|Bay|Bell|Black|Blind|Blue|Boat|Coach\s[Aa]nd|Dog|Dray|East|Filly|Flying)\sHorses?\b/gm,
 /\b(?:Forty|Front|High|Hobby|Knook|Little|Long|Low|Lower|New|Nine|North|Old|Post)\sHorses?\b/gm,
 /\b(?:Prancing|Red|Shire|Small|South|(?:Moss|Stack|Well)\s[Oo]f\s[Tt]he|Stallion)\sHorses?\b/gm,
-/\b(?:Stone|Tobban|Trench|Trotting|Upper|West|Wet|Wh[iy]te|Yellow|Yonder)\sHorses?\b/gm,
+/\b(?:Stone|Tobban|Trench|Upper|West|Wet|Wh[iy]te|Yellow|Yonder)\sHorses?\b/gm,
 /\bhorses?\s(?:ba[cn]k|barrow|bog|bridge|buile|carr|castle|chestnut|cleeve|cleu[cg]h|cliff)\b/gmi,
 /\bhorses?\s(?:clough|clump|common|coombe|coppice|coppy|copse|course|cove|covert|craig)\b/gmi,
 /\bhorses?\s(?:crofts?|crook|cross|dale|down|drove|dub|dyke|edge|end|eye|fair|fayre|fen|field)\b/gmi,

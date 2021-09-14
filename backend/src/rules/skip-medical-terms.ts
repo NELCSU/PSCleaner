@@ -95,6 +95,9 @@ const a: RegExp[] = [
   /\bfrank\sh[ae]{2}maturia\b/gmi,
   /\b(?:galen|giacomini|retzius|thebesian)\sveins?\b/gmi,
   /\bveins?\sof\s(?:galen|giacomini|retzius|thebesian)\b/gmi,
+  
+  // G
+  /\bgillick\scompetence\b/gmi,
   /\bgraafian\sfollicle\b/gmi,
   /\bgr[aäe]{1,2}fenberg\sspot\b/gmi,
   /\bgram[-\s]neg(?:ative)?\b/gmi,
@@ -133,6 +136,8 @@ const a: RegExp[] = [
   /\bmeckel['‘’`]?s?\sdiverticulum\b/,
   /\blobar\spneumonia\b/gmi,
   /\b(?:malpighian|meissner|pacinian|ruffini)['‘’`]?s?\scorpuscles?\b/gmi,
+  // L
+  /\blassa\sfever\b/gmi,
   /\bloop\sof\s(?:henle|meyer)\b/gmi,
   /\b(?:henle|meyer)['‘’`]?s?\sloop\b/gmi,
   /\blower\s(?:arm|back|lobe)\b/gmi,

@@ -136,6 +136,7 @@ const a: RegExp[] = [
 /\bmount\shindrance\s(?:close|lane)\b/gmi,
 /\bmount\schurch\sof\sengland\b/gmi,
 /\bmount\stumbledown\sclose\b/gmi,
+/\bmount\snod\b/gmi,
 /\bmoss\seasy\b/gmi,
 /\bmortons\sfork\b/gmi,
 /\bmorning\s(?:dawn\splantation|field\s(?:place|road)|hill|lane|pines|point|springs)\b/gmi,
@@ -268,7 +269,7 @@ const a: RegExp[] = [
 /\bnine\s(?:standards\srigg|stiles\sclose|stone\s(?:rig|wood)|streams\sreach|tree\shill|ways\splantation)\b/gmi,
 
 // NO
-/\b(?:cyrniau|land\sof|mount)\snod\b/gmi,
+/\bnorthern\swetlands\b/gmi,
 /\bnod\s(?:hill|plantation|rise)\b/gmi,
 /\b(?:nor\s(?:grove|hellia|hill|marsh|moss|royd\swood|wick|wood)|nor'bren\savenue|nor'\snor'\sgully)\b/gmi,
 /\bnordic\s(?:crescent|drift|gardens|grove)\b/gmi,
@@ -518,6 +519,7 @@ const a: RegExp[] = [
 /\bpin(?:chers|gs)\sclose\b/gmi,
 /\bpin(?:holes|nings)\slane\b/gmi,
 /\bpincushion\s(?:drove|island|plantation)\b/gmi,
+/\bpipe\strack\slane\b/gmi,
 
 // PL
 /\bplums\slane\b/gmi,
