@@ -1006,33 +1006,7 @@ const a: string[] = [
 "clinkers",
 "clinking",
 "clique",
-"cloaca",
-"cloak",
-"clockwork",
-"clod",
-"clods",
-"clogs",
-"cloister",
-"cloisters",
-"clouded",
-"cloudier",
-"clouds",
-"cloudy",
-"clout",
-"clouts",
-"clove",
-"clover",
-"cloverleaf",
-"clovers",
-"clovery",
-"cloves",
-"cloyed",
-"clubbed",
-"clubhouse",
-"clubhouses",
-"cluck",
-"clunk",
-"clutter",
+"cloisters",        // standalone
 "cocks",            // name & standalone
 "cornfields",       // standalone
 "crams",            // standalone
@@ -1126,9 +1100,6 @@ const a: string[] = [
 "deers",
 "deerstalker",
 "defang",
-"defender",
-"defiance",
-"defiant",
 "deforest",
 "deft",
 "deign",
@@ -3371,6 +3342,7 @@ const a: string[] = [
 "saxons",
 "scarlet",          // name & placenames (15)
 "scot",             // name & placenames (28)
+"seething",         // standalone
 "skylines",         // standalone
 "skylarks",         // standalone & placenames (2)
 "slade",            // name & standalone & placenames (155)

@@ -237,7 +237,7 @@ const a: RegExp[] = [
 /\bwayfarer['‘’`s]*\s(?:close|drive|gardens|road|way)\b/gmi,
 
 // WE
-/\bwest\sascent\b/gmi,
+/\bwest\s(?:ascent|cloister)\b/gmi,
 /\bwell\sbargain\scopse\b/gmi,
 /\bwellake\sscattered\srock\b/gmi,
 /\bW(?:est\s[Aa]nd\sRural|ood\s[Aa]nd\sMeadow)\b/gm,
@@ -506,7 +506,7 @@ const a: RegExp[] = [
 
 // Z
 /\bzeal\sroad\b/gmi,
-/\bzig[\s-]?zag\s(?:covert|plantation|road|wood)\b/gmi,
+/\bzig[\s-]?zag\s(?:covert|lane|plantation|road|wood)\b/gmi,
 /\bzone\spoint\b/gmi
 ];
 const LocationUZRegEx: Set<RegExp> = new Set();

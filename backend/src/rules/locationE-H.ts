@@ -788,6 +788,7 @@ const a: RegExp[] = [
 /\bheroes\s(?:drive|walk)\b/gmi,
 
 // HI
+/\bhigh\scloister\b/gmi,
 /\bhid['‘’`]?s\s(?:brake|copse(?:\sroad)?)\b/gmi,
 /\bHidden\s(?:Brook|Close|Hills|Loch|Lock|Mews)\b/gm,
 /\bhighlight\slane\b/gmi,

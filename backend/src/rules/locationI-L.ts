@@ -379,6 +379,7 @@ const a: RegExp[] = [
 /\bLNG\sterminal\b/gmi,
 
 // LO
+/\blower\scloister\b/gmi,
 /\blordsgate\stownship\b/gmi,
 /\bLong\s(?:Goat|Load)\b/gm,
 /\bload\s(?:brook|field\sroad|lane|of\shay\sroad|pool|road|street)\b/gmi,

@@ -379,6 +379,7 @@ const a: RegExp[] = [
 /\bScratchy\sBottom\b/gm,
 
 // SE
+/\bseething\s(?:airfield|and\smundham|lane|ling|old\shall\spark|road|street|wells(?:\slane)?|wood)\b/gmi,
 /\bsecond\sturf\sfen\sdrove\b/gmi,
 /\bseatonburn\swagonway\b/gmi,
 /\bSea\sFront\sRoad\b/gm,
@@ -631,6 +632,7 @@ const a: RegExp[] = [
 /\bskyline\s(?:drive|loch|mews|view)\b/gmi,
 
 // SL
+/\bsliven\sclod\sroad\b/gmi,
 /\bslack\srandy\b/gmi,
 /\bslightland\splantation\b/gmi,
 /\bsleek\s(?:of\starty|stone)\b/gmi,
@@ -711,6 +713,7 @@ const a: RegExp[] = [
 /\b(?:hill\sof\ssnowy\sslack|snowy\s(?:fielder\swaye|slack|way))\b/gmi,
 
 // SO
+/\bsouth\scloister\scovert\b/gmi,
 /\bsourton\stors\b/gmi,
 /\bsofa\sstreet\b/gmi,
 /\bSouth\s[Aa]nd\sWest\b/gm,
@@ -746,7 +749,7 @@ const a: RegExp[] = [
 /\bspecimen\savenue\b/gmi,
 /\bsp(?:ectrum|innakers)\sway\b/gmi,
 /\bsportmans\sclose\b/gmi,
-/\bspots\splantation\b/gmi,
+/\bspots?\splantation\b/gmi,
 /\bsplice\slane\b/gmi,
 /\bspaniards\s(?:close|end|road)\b/gmi,
 /\bspark['‘’`s]*\s(?:bridge|brook\sway|hall\sclose|hill|house\slane|lane|mill\slane|road|square|street|terrace|way|wood)\b/gmi,
@@ -1377,6 +1380,7 @@ const a: RegExp[] = [
 /\btrundles\slane\b/gmi,
 
 // TU
+/\btub\splantation\b/gmi,
 /\btubs\shill\b/gmi,
 /\btuck\s(?:mill\scopse|place|road|wood)\b/gmi,
 /\btuck['‘’`]?s\s(?:brake|holt|lane|spring|yard)\b/gmi,

@@ -582,6 +582,19 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "clump",            // name & placenames (643)
 "clumps",           // standalone & placenames (42)
 "cluster",          // standalone & placename
+"cloak",            // name & placenames (7)
+"cloudier",         // name
+"clouds",           // standalone & placenames (5)
+"cloudy",           // name & placenames (2)
+"clout",            // name
+"clove",            // name & placenames (12)
+"clover",           // name & placenames (81)
+"clovers",          // standalone & placenames (3)
+"cloves",           // standalone & placenames (3)
+"cloyed",           // name
+"cluck",            // name
+"clunk",            // name
+"clutter",          // name
 "coachman",         // name & placenames (7)
 "coachway",         // standalone & placenames (3)
 "coals",            // name & placenames (2)

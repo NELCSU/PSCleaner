@@ -749,6 +749,20 @@ const a: RegExp[] = [
 /\bcitizen\s(?:jaffray|lane|road)\b/gmi,
 
 // CL
+/\bcloister\s(?:avenue|close|court|crofts?|drive|gardens|garth|lawns)\b/gmi,
+/\bcloister\s(?:mews|road|street|walk|way|walk)\b/gmi,
+/\bcloisters\s(?:avenue|court|croft|mews|road|walk|way|wood)\b/gmi,
+/\bclouded\syellow\sclose\b/gmi,
+/\bclogs\sbank\b/gmi,
+/\bclouts\s(?:covert|wood)\b/gmi,
+/\bcloverleaf\sgrange\b/gmi,
+/\bclovery\sknowe\b/gmi,
+/\bclubbed\soaks\b/gmi,
+/\bclubhouse\s(?:close|place|road|way)\b/gmi,
+/\bclubhouses\scroft\b/gmi,
+/\bclods\scarr\slane\b/gmi,
+/\bclod\s(?:lane|of\smarl\sclump)\b/gmi,
+/\bclockwork\smews\b/gmi,
 /\bclouded\syellow\sclose\b/gmi,
 /\bclassic\sdrive\b/gmi,
 /\bcleric\scourt\b/gmi,
@@ -790,6 +804,7 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
+/\bcock\sclod\sstreet\b/gmi,
 /\bCommanders\sClose\b/gm,
 /\bCocked\sHat\b/gm,
 /\bcock\sglades\b/gmi,
@@ -1179,6 +1194,12 @@ const a: RegExp[] = [
 /\bdaylight\s(?:road|rock)\b/gmi,
 
 // DE
+/\bdefender\s(?:court|road)\b/gmi,
+/\bDefender\sDrive\b/gm,
+/\bdefiance\s(?:place|street)\b/gmi,
+/\bDefiance\sWay\b/gm,
+/\bdefiant\s(?:close|drive|road)\b/gmi,
+/\bDefiant\sWay\b/gm,
 /\bdeer\smuseum\b/gmi,
 /\bde\sgrouchy\s(?:lane|street)\b/gmi,
 /\bde(?:ath|eply\svale|port|vil['‘’`]?s)\slane\b/gmi,
@@ -1200,7 +1221,7 @@ const a: RegExp[] = [
 /\bdesign\s(?:drive|street)\b/gmi,
 /\bdevil['‘’`]?s\sthrashing\sfloor\b/gmi,
 /\bdevil['‘’`s]*\s(?:bottom|bridge|dining\sroom|copse|dyke|frying\span|kitchen|mill)\b/gmi,
-/\bdevil['‘’`s]*\s(?:oven\splantation|punch\s?bowl|reach|staircase|teeth|tor)\b/gmi,
+/\bdevil['‘’`s]*\s(?:oven\splantation|punch\s?bowl|reach|staircase|teeth|tor|wood)\b/gmi,
 /\bDevil['‘’`s]+\sFootsteps\b/gm,
 /\bthe\sdevil['‘’`]?s\s(?:barn|cheesewring|dingle|dressing\sroom|elbow|highway|point|punchbowl)\b/gmi,
 /\bDoor\s(?:Bottom|Cove|Covert|Dam|Drove|Head|Hill|Top)\b/gm,

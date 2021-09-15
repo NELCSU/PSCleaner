@@ -97,6 +97,7 @@ const a: RegExp[] = [
 /\bmetropolitan\s(?:close|drive|mews|pit|station)\b/gmi,
 
 // MI
+/\bmisery\scorner\b/gmi,
 /\bmill\sfarm\sbattery\sstorage\b/gmi,
 /\bmiddle\sbeechclose\splantation\b/gmi,
 /\bda\smid\sgeo\b/gmi,
@@ -133,6 +134,7 @@ const a: RegExp[] = [
 /\bmission\s(?:close|court|drive|field|gardens|grove|hall|hospital|lane|place|road|street|view|way)\b/gmi,
 
 // MO
+/\bmonkgate\scloisters\b/gmi,
 /\bmount\shindrance\s(?:close|lane)\b/gmi,
 /\bmount\schurch\sof\sengland\b/gmi,
 /\bmount\stumbledown\sclose\b/gmi,
