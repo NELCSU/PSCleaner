@@ -6,7 +6,8 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sAn(?:nunciation|tiquaries|ts|vil)\b/gm,
   /\bThe\sAp(?:iary|pleyard|proach|rons)\b/gm,
   /\bThe\sAquadrome\b/gm,
-  /\bThe\sAr(?:ans|bory|bours|c|cade|chbishop['‘’`s]*|chery|ches|chway|k|m|moury|ms|t\sAcademy)\b/gm,
+  /\bThe\sArc(?:ade|hbishop['‘’`s]*|hery|hes|hway)?\b/gm,
+  /\bThe\sAr(?:ans|bory|bours|k|m|moury|ms|t\sAcademy)\b/gm,
   /\bThe\sA(?:sh|uks|venues?|wful\sHand|xe|xis)\b/gm,
   
   // B
@@ -16,16 +17,20 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sBas(?:ins?|s|ses|tard)\b/gm,
   /\bThe\sBat(?:ch|ches|he|tery(?:\s[Bb]anks)?)\b/gm,
   /\bThe\sBea(?:ch|cons?|m|rs?|st)\b/gm,
-  /\bThe\sBe(?:ck|eches|dwyns|es|ef\sBarrel|ehives?|ll|lsteads|lt|nch|nefits|rries|nt)\b/gm,
+  /\bThe\sBee(?:s|f\sBarrel|hives?)\b/gm,
+  /\bThe\sBe(?:ck|eches|dwyns|ll|lsteads|lt|nch|nefits|rries|nt)\b/gm,
   /\bThe\sBi(?:ble\sCollege|g\sAct|n|rches|te?|tches)\b/gm,
   /\bThe\sBl(?:ade|ind|uebells)\b/gm,
-  /\bThe\sBo(?:ar|at|g|lt|oks|ot|re|rder|ttom|ught|ulevard|unds?|undaries|undary|wl)\b/gm,
+  /\bThe\sBou(?:ght|levard|nds?|ndaries|ndary)\b/gm,
+  /\bThe\sBo(?:ar|at|g|lt|oks|ot|re|rder|ttom|wl)\b/gm,
   /\bThe\sBra(?:ckens?|ids?|ke|kes\sWood|mbles|nch|nd|wn)\b/gm,
   /\bThe\sBre(?:ach|aches|ech|ezes?)\b/gm,
-  /\bThe\sBri(?:ars|ary|ckyard|dges?|dle(?:\s(?:Lane|Path|Road|Way))?|ers?|g|ng|t)\b/gm,
+  /\bThe\sBria(?:r[sy])\b/gm,
+  /\bThe\sBri(?:ckyard|dges?|dle(?:\s(?:Lane|Path|Road|Way))?|ers?|g|ng|t)\b/gm,
   /\bThe\sBro(?:ads?|adway|oks|oms?|thers|ugh|ws?|xbourne)\b/gm,
   /\bThe\sBru(?:sh|shes)\b/gm,
-  /\bThe\sBu(?:cklers|dding|ffer|ngalows|ntings?|ll\sRing|rns?|s|sh|shes|sy|tchery|tts)\b/gm,
+  /\bThe\sBus(?:h|hes|y)?\b/gm,
+  /\bThe\sBu(?:cklers|dding|ffer|ngalows|ntings?|ll\sRing|rns?|tchery|tts)\b/gm,
   /\bThe\sBy(?:e|e?[\s-](?:[Pp]ass|[Ww]ays?))\b/gm,
   
   // C
@@ -36,7 +41,8 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sCentre\b/gm,
   /\bThe\sCha(?:in|ir|lets|lks?|mbers|pel|pelry|rt|rters?|se|tters|ucer)\b/gm,
   /\bThe\sChan(?:cellor|cery|dlers|nels?|tries|ters)\b/gm,
-  /\bThe\sCh(?:eck|eeses|erwell|ild['‘’`]?s\sSeat|imes|imneys|ocolate\sWorks)\b/gm,
+  /\bThe\sChe(?:ck|eses|rwell)\b/gm,
+  /\bThe\sCh(?:ild['‘’`]?s\sSeat|imes|imneys|ocolate\sWorks)\b/gm,
   /\bThe\sCi(?:rcle|rcuits?|rcus|ty)\b/gm,
   /\bThe\sClo(?:ck\sWood|isters|se|vers|ves|ud)\b/gm,
   /\bThe\sCl(?:amps?|assics|earings|ears|eats|imb|ippers|ub|umps?)\b/gm,
@@ -76,14 +82,17 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sE(?:-Act|dge|ducation\sVillage|ight\sAcres|piphany|xchange|xpressway|yes)\b/gm,
   
   // F
-  /\bThe\sFa(?:irground|irways?|lcon|lconers|lcons|lls?|n|rm|rmlands|rmstead|rriers|rthings|wn)\b/gm,
-  /\bThe\sFe(?:athers|eder|lls?|llows|n|nce|rries|rry)\b/gm,
-  /\bThe\sFi(?:ddle|ddlers|elds?|elders|ndings|nger|rs|rst|sheries|sher[sy]|ve\sSprings)\b/gm,
-  /\bThe\sFl(?:ags|ash|ashes|ats?|etches|eece|eets?|ints|oats|ood|oors?|ourish|yers)\b/gm,
+  /\bThe\sFar(?:m|mlands|mstead|riers|things)\b/gm,
+  /\bThe\sFa(?:irground|irways?|lcon|lconers|lcons|lls?|n|wn)\b/gm,
+  /\bThe\sFe(?:athers|eder|lls?|llows|n|nce|rries|rry|rns)\b/gm,
+  /\bThe\sFid(?:dle|dlers)\b/gm,
+  /\bThe\sFi(?:elds?|elders|ndings|nger|rs|rst|sheries|sher[sy]|ve\sSprings)\b/gm,
+  /\bThe\sFla(?:gs|sh|shes|ts?)\b/gm,
+  /\bThe\sFl(?:etches|eece|eets?|ints|oats|ood|oors?|ourish|yers)\b/gm,
   /\bThe\sFol(?:ds?|ders|dings|lies|ly)\b/gm,
   /\bThe\sFoot(?:hills|path)?\b/gm,
   /\bThe\sFore(?:head|st|stry|stside)\b/gm,
-  /\bThe\sFor(?:d|ces?|ge|ks|t|ties|tress|tunes|ty(?:\sacres?)?|um)\b/gm,
+  /\bThe\sFor(?:d|ding|ces?|ge|ks|t|ties|tress|tunes|ty(?:\sacres?)?|um)\b/gm,
   /\bThe\sFo(?:undry|ur\s(?:Acres?|Tubs|Wents)|x|xholes|xes)\b/gm,
   /\bThe\sFra(?:minghams|mptons)\b/gm,
   /\bThe\sFre(?:e\sSchool|ehold|eway|nchman)\b/gm,
@@ -97,7 +106,8 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sGe(?:ars?|o)\b/gm,
   /\bThe\sGl(?:ades?|assworks|eanings|impse|obal\sAcademy|obe)\b/gm,
   /\bThe\sGo(?:al|at|ats\sLeap\sPool|d\sAlmighty|oose|re|rge|rses?|slings|ssamers)\b/gm,
-  /\bThe\sGra(?:dient|in\sStore|naries|nary|nd|nge|sslands|tes|ves|zings|zing\sGrounds)\b/gm,
+  /\bThe\sGran(?:aries|ary|d|ge)\b/gm,
+  /\bThe\sGra(?:dient|in\sStore|sslands|tes|ves|zings|zing\sGrounds)\b/gm,
   /\bThe\sGre(?:en(?:\sDrift)?|ens|ens\sClose|at\sFace|at\sGully|y\sCorries|ys)\b/gm,
   /\bThe\sGri(?:d|p|pes|st)\b/gm,
   /\bThe\sGro(?:ve|in|unds|ves)\b/gm,
@@ -149,7 +159,8 @@ export const LocationTheRegEx: RegExp[] = [
 
   // N
   /\bThe\sNa(?:meless|p|pping|tional\sSchool)\b/gm,
-  /\bThe\sN(?:eedles?|eck\sGut|etherlands|eutral\sGround|oose|ostrils|urseries|ursery)\b/gm,
+  /\bThe\sNe(?:edles?|ck\sGut|therlands|utral\sGround)\b/gm,
+  /\bThe\sN(?:oose|ostrils|urseries|ursery)\b/gm,
 
   // O
   /\bThe\sOlde?\sArmoury\b/gm,
@@ -222,7 +233,8 @@ export const LocationTheRegEx: RegExp[] = [
 
   // S
   /\bThe\sSa(?:ddle|ints|le|ndbags|ucers|w\s?[Mm]ills?)\b/gm,
-  /\bThe\sSc(?:ale(?:\sTarn)?|ar|arves|imitars|old|ores?|rambles|rape|ullery|ythes)\b/gm,
+  /\bThe\sSca(?:le(?:\sTarn)?|r|rves)\b/gm,
+  /\bThe\sSc(?:imitars|old|ores?|rambles|rape|ullery|ythes)\b/gm,
   /\bThe\sSea(?:gulls|l|ms|rs|t)\b/gm,
   /\bThe\sSe(?:cret\sGarden|ntinels|rpentine|ttlement|werage\sBeds)\b/gm,
   /\bThe\sSha(?:des?|llows|mbles|rd|rper)\b/gm,
@@ -238,7 +250,8 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sSp(?:ain|ectacles|lashes|ortsman|ot|rings?|rig|ruces|ur)\b/gm,
   /\bThe\sSpi(?:ke|nnakers?|nne[ry]s?|t)\b/gm,
   /\bThe\sSqu(?:are|ires|irrels)\b/gm,
-  /\bThe\sSta(?:cks?|ff|gs|irs|kes|lls|mpers|nces|ples|rs|rlings|te\sHospital|tutes)\b/gm,
+  /\bThe\sStat(?:e\sHospital|utes)\b/gm,
+  /\bThe\sSta(?:cks?|ff|gs|irs|kes|lls|mpers|nces|ples|rs|rlings)\b/gm,
   /\bThe\sStab(?:les?(?:\s(?:[Pp]ool|[Yy]ard))?)?\b/gm,
   /\bThe\sSte(?:ep|eplechase|eples|pping\sStones|ps|ws?)\b/gm,
   /\bThe\sSti(?:ck|les?|ll|nts|rrup|tch|tchings)\b/gm,
@@ -253,7 +266,8 @@ export const LocationTheRegEx: RegExp[] = [
   // T
   /\bThe\sTa(?:bards|bernacle|ble|il(?:\s[Rr]ace)?|n|nners|nnery|rns?|sk|xiway)\b/gm,
   /\bThe\sTe(?:e|mplars|mple|n\sAcres|nnis(?:\sCourt)?|rraces)\b/gm,
-  /\bThe\sTh(?:atch|atchers|ickets?|imbles|ird|istles|rift|orns?|oroughfare|reshers|roat)\b/gm,
+  /\bThe\sThr(?:eshers|oat)\b/gm,
+  /\bThe\sTh(?:atch|atchers|ickets?|imbles|ird|istles|rift|orns?|oroughfare)\b/gm,
   /\bThe\sTi(?:mber\sway|mbers|ns|ps|the|things)\b/gm,
   /\bThe\sTo(?:e|ll|llgate|mb|mbstone|n|ngues?|ons|piary|ppings|re|rs|wers?|wn|wpath)\b/gm,
   /\bThe\sTr(?:am|amway|ap|eehouse|ees|iangle|ip|undle|ough)\b/gm,
@@ -266,7 +280,8 @@ export const LocationTheRegEx: RegExp[] = [
 
   // V
   /\bThe\sVa(?:le|lleys?|ns?|r)\b/gm,
-  /\bThe\sVi(?:aduct|ctory|ews?|kings|llage|nes?|neries|nery|neyard|ntage\sPair|olets?)\b/gm,
+  /\bThe\sVin(?:es?|eries|ery|eyard|tage\sPair)\b/gm,
+  /\bThe\sVi(?:aduct|ctory|ews?|kings|llage|olets?)\b/gm,
   /\bThe\sVo(?:mit|yager\sAcademy)\b/gm,
 
   // W

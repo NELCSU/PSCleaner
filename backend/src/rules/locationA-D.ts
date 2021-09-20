@@ -359,6 +359,8 @@ const a: RegExp[] = [
 /\bbhasteir\stooth\b/gmi,
 
 // BI
+/\bBidders\sClose\b/gm,
+/\bbidders\sgait\b/gmi,
 /\bbikie['‘’`]?s\sgoat\b/gmi,
 /\bBishops\s[Aa]nd\sClerks\b/gm,
 /\bbicentennial\savenue\b/gmi,
@@ -804,6 +806,7 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
+/\bconservation\splace\b/gmi,
 /\bcock\sclod\sstreet\b/gmi,
 /\bCommanders\sClose\b/gm,
 /\bCocked\sHat\b/gm,

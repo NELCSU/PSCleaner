@@ -523,7 +523,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "chanting",         // name & placenames (2)
 "chantries",        // standalone
 "chap",             // name & placename
-"chapel",           // name & placenames (361)
 "chapels",          // standalone & placenames (4)
 "chaplain",         // name & placenames (2)
 "chapter",          // standalone & placenames (16)
@@ -1112,6 +1111,14 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "fatty",            // name & placename
 "favour",           // name
 "favourite",        // name & placename
+"ferment",          // name
+"ferns",            // name & placenames (7)
+"ferous",           // name
+"ferrier",          // name & placenames (15)
+"ferryman",         // name & placenames (4)
+"fester",           // name & placenames (2)
+"fetish",           // name
+"fetus",            // name
 "fearless",         // name
 "feeder",           // name & placenames (9)
 "fell",             // placenames (741)
@@ -1224,6 +1231,22 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "flutter",          // name
 "flux",             // name & placenames (3)
 "flyer",            // name
+"fobs",             // name
+"foci",             // name
+"foggy",            // name & placenames (5)
+"foist",            // name
+"folio",            // name & placename
+"fontanel",         // name
+"fontanelle",       // name
+"foor",             // name
+"fora",             // name & placenames (3)
+"forage",           // name & placenames (2)
+"foray",            // name
+"forbear",          // name
+"fording",          // name & placename
+"forger",           // name & placename
+"forges",           // name & placenames (2)
+"formica",          // name
 "foe",              // name
 "foil",             // name & placename
 "fold",             // placenames (998)
@@ -1234,6 +1257,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "fonder",           // name
 "font",             // name & placenames (10)
 "fonts",            // name
+"foody",            // name
 "foot",             // name & placenames (153)
 "footbridge",       // standalone
 "footman",          // name & placename
@@ -1255,7 +1279,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "forks",            // name & placenames (3)
 "fort",             // standalone & placenames (81)
 "forte",            // name & placenames (5)
-"forth",            // standalone & placenames (63)
+"forth",            // standalone (ML11) & placenames (63)
 "forties",          // name & standalone & placenames (11)
 "fortress",         // name & placenames (4)
 "forts",            // name & placenames (2)
@@ -2089,7 +2113,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "large",            // name & placenames (12)
 "lash",             // name & placenames (6)
 "laughing",         // name & placenames (3)
-"law",              // name & placenames (457)
+"law",              // name & standalone (ML8) & placenames (456)
 "lay",              // name & placenames (29)
 "leaders",          // name & placenames (2)
 "leak",             // name & placenames (7)
@@ -4160,7 +4184,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "welder",           // name
 "welding",          // name
 "welds",            // name
-"well",             // placenames (617)
+"well",             // placenames (613)
 "wells",            // name & placenames (205)
 "wellspring",       // name & placenames (12)
 "wellsprings",      // standalone & placenames (3)
@@ -4240,6 +4264,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "woollen",          // name & placenames (3)
 "wools",            // name & placenames (3)
 "workman",          // name & placenames (2)
+"worm",             // name
 "worms",            // name & placename (8)
 "worship",          // name & placename
 "worth",            // standalone & placenames (29)

@@ -138,6 +138,11 @@ const a: RegExp[] = [
 /\bfangs\sbrow\b/gmi,
 
 // FE
+/\bferryboat\s(?:close|lane)\b/gmi,
+/\bferryhouse\sroad\b/gmi,
+/\bferrymen\sdrive\b/gmi,
+/\bferrous\s(?:close|road|way)\b/gmi,
+/\bfestoon\sway\b/gmi,
 /\bferrets['‘’`]?\shill\b/gmi,
 
 // FI
@@ -156,6 +161,8 @@ const a: RegExp[] = [
 /\bfloods\sdingle\b/gmi,
 
 // FO
+/\bfoliage\s(?:crescent|gardens|road)\b/gmi,
+/\bforth\sprimary\sschool\b/gmi,
 /\bfour\shundred\scontour\swood\b/gmi,
 /\bfour\swindings\b/gmi,
 /\bfoundary\sclose\b/gmi,
@@ -573,6 +580,7 @@ const a: RegExp[] = [
 /\bgovernors?\s(?:drive|close|marsh|mews|road|wood|yard)\b/gmi,
 
 // GR
+/\bgreat\sworm\scrag\b/gmi,
 /\bgrimsargh\swetlands\b/gmi,
 /\bGreen\sTurf\b/gm,
 /\bgreen\s(?:glades|noses)\b/gmi,
@@ -694,6 +702,8 @@ const a: RegExp[] = [
 /\bgypsum\s(?:close|way)\b/gmi,
 
 // HA
+/\bhag\sworm\shill\b/gmi,
+/\bhagg\sworm\shaw\smoss\b/gmi,
 /\bharold\sheading\sclose\b/gmi,
 /\bhard\sturf\shill\b/gmi,
 /\bHigh\s[Aa]nd\s(?:Low(?:er)?|Over)\b/gm,

@@ -236,6 +236,7 @@ const a: RegExp[] = [
 
 /\bl\sspinney\b/gmi,
 // LA
+/\blaw\sprimary\sschool\b/gmi,
 /\bland\sof\snod\b/gmi,
 /\blauder\srambling\b/gmi,
 /\blaugharne\stownship\b/gmi,

@@ -173,6 +173,7 @@ const a: RegExp[] = [
 /\brival\s(?:moor\sroad|tor)\b/gmi,
 
 // RO
+/\broby\swell\sway\b/gmi,
 /\bross\sglades\b/gmi,
 /\brobin\shood\syawns\b/gmi,
 /\brotherfield\sgreys\b/gmi,
@@ -1248,6 +1249,7 @@ const a: RegExp[] = [
 /\bthrupp\swide\b/gmi,
 
 // TI
+/\btie\sroad\sno\s2\b/gmi,
 /\btib\s(?:hill|lane|meadow\sdrive|street|wood)\b/gmi,
 /\bbrick\sand\stile\sterrace\b/gmi,
 /\bTight\sHead\b/gm,

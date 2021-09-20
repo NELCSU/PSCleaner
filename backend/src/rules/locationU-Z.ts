@@ -237,6 +237,7 @@ const a: RegExp[] = [
 /\bwayfarer['‘’`s]*\s(?:close|drive|gardens|road|way)\b/gmi,
 
 // WE
+/\bWell\sWay\b/gm,
 /\bwest\s(?:ascent|cloister)\b/gmi,
 /\bwell\sbargain\scopse\b/gmi,
 /\bwellake\sscattered\srock\b/gmi,
@@ -320,9 +321,9 @@ const a: RegExp[] = [
 /\bwholesome\slane\b/gmi,
 
 // WI
-/\bWide\s(?:Street|Valley)\b/gm,
+/\bWide\s(?:Close|Street|Valley)\b/gm,
 /\b(?:easter|wester)\swide\shope\b/gmi,
-/\bwide\s(?:acres|bargate|cleugh|close|firth|ham\sbeeches|hope\sshank|hope)\b/gmi,
+/\bwide\s(?:acres|bargate|cleugh|firth|ham\sbeeches|hope\sshank|hope)\b/gmi,
 /\bwide\s(?:howe\slane|lane(?:\sclose)?|lawn|mere|open|street|valley|waters?|way)\b/gmi,
 /\bwickets\s(?:close|end|way)\b/gmi,
 /\bWorking\sStreet\b/gm,
@@ -431,6 +432,8 @@ const a: RegExp[] = [
 /\bwizards\swalk\b/gmi,
 
 // WO
+/\bworm\s(?:clough|dale|field|hill(?:\splantation)?|law|pool|wood)\b/gmi,
+/\bwoollen\swell\sway\b/gmi,
 /\bwool\s(?:chase|church\sof\sengland|close|clough|copse|croft|dale|down|gate|grove)\b/gmi,
 /\bwool\s(?:grove|heath|hill|hope|knott|lane|law|meath|pits\shill|pond|road|row\slane|royd|street)\b/gmi,
 /\bwoodthorpe\sglades\b/gmi,
