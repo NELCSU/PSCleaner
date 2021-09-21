@@ -490,6 +490,7 @@ const a: RegExp[] = [
 /\bgasoline\salley\b/gmi,
 
 // GE
+/\bgeorge\ssmart\sclose\b/gmi,
 /\bgemsbok\sway\b/gmi,
 /\bgear\s(?:common|drive|gap\spond|hill|lane|sands|terrace|wood)\b/gmi,
 /\b(?:east|west)ern\sgear\b/gmi,
@@ -879,7 +880,7 @@ const a: RegExp[] = [
 /\b(?:city|community|cottage|county|day|general|guest|guy['‘’`]?s|jesus)\shospital\b/gmi,
 /\bold\shospital\s(?:close|compound|lane|lawn|road)\b/gmi,
 /\b(?:priory|queens|royal|samaritan|children['‘’`]?s|duchy|wood['‘’`]?s)\shospital\b/gmi,
-/\b(?:garden|harbour|brook|independent|manor|meadows|memorial|meriden|university)\shospital\b/gmi,
+/\b(?:garden|harbour|brook|independent|manor|meadows|memorial|meriden)\shospital\b/gmi,
 /\bhospital\s(?:approach|bank|belt|boulevard|brae|bridge|circular|close|coppice)\b/gmi,
 /\bhospital\s(?:copse|dr[io]ve|fields?|grove|hill|island|lane|main|meadow)\b/gmi,
 /\bhospital\s(?:of\sst\s|plantation|road|street|view|walk|way|wood)\b/gmi,

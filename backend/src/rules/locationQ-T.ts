@@ -689,11 +689,11 @@ const a: RegExp[] = [
 /\bslut\s(?:plantation|wood)\b/gmi,
 
 // SM
+/\bsmuggler['‘’`]?s\s(?:chine|coppice|lane|way)\b/gmi,
 /\bsmallmouth\sclose\b/gmi,
 /\bsmokehouse\scourt\b/gmi,
 /\bsmallpox\shill\b/gmi,
 /\bsmearing\scl[eo]u[cg]h\b/gmi,
-/\b(?:alice|george|john)\ssmart\sclose\b/gmi,
 /\bsmart['‘’`s]*\s(?:cairn|close|copse|court|green|grove|heath|hill|lane|place|road|street|wood)\b/gmi,
 /\bsmarts\s(?:avenue|estate|green|hill|lane|road|way)\b/gmi,
 /\bsmear\s(?:geo|lane|marshes)\b/gmi,
@@ -1131,6 +1131,7 @@ const a: RegExp[] = [
 /\btextile\s(?:close|drive|street|way)\b/gmi,
 
 // TH
+/\bthrough\sjollys\b/gmi,
 /\bthe\swool\shouse\sand\sgardens\b/gmi,
 /\bthe\sloch\sthat\sebbs\sand\sflows\b/gmi,
 /\bthreshers\s(?:bush|corner|court|drive|end|place|yard)\b/gmi,

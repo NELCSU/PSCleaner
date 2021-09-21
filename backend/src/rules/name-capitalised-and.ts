@@ -41,6 +41,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "anchors",          // name & placename
 "andorra",          // name & placename
 "angling",          // name & placenames (3)
+"auguish",          // name & placename
 "annex",            // name & placenames (4)
 "anniversaries",    // standalone placename
 "anon",             // name
@@ -446,6 +447,19 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "byway",            // name & placenames (3)
 
 // C
+"cabbage",          // name & placenames (12)
+"cabernet",         // name
+"cables",           // name & placenames (3)
+"cactus",           // name & placenames (2)
+"cad",              // name & placenames (4)
+"caddie",           // name & placename
+"caddies",          // name & placenames (2)
+"caddy",            // name & placenames (5)
+"cadence",          // name
+"cadenza",          // name
+"cadet",            // name & placenames (5)
+"caesar",           // name & placenames (19)
+"cairn",            // name & placenames (170)
 "cabal",            // name & placenames (3)
 "cadre",            // name
 "cage",             // name & placenames (14)
@@ -607,6 +621,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "cockpit",          // standalone & placenames (9)
 "cockpits",         // standalone
 "cockrel",          // name
+"cocoa",            // name & placenames (2)
 "cockup",           // standalone & placenames (2)
 "coda",             // name & placename
 "coddles",          // standalone
@@ -968,6 +983,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "dry",              // placenames (77)
 "dual",             // name & placename
 "duchy",            // placenames (16)
+"duffer",           // name
 "duke",             // name & placenames (106)
 "dukes",            // name & placenames (63)
 "dull",             // name & placenames (6)
@@ -3264,6 +3280,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "singers",          // name & placenames (5)
 "singleton",        // name & standalone & placenames (33)
 "sings",            // name
+"sinks",            // name & placenames (5)
 "sinner",           // name
 "sinning",          // name
 "sip",              // name

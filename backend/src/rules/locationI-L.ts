@@ -141,6 +141,7 @@ const a: RegExp[] = [
 /\bjewellery\squarter\b/gmi,
 
 // JO
+/\bjohn\ssmart\sclose\b/gmi,
 /\b(?:cae\sjob|job['‘’`s]*\s(?:cleugh|copse|corner|craig|cross|drain\splace|dub|hill|lane|plain|water|well|wood|yard))\b/gmi,
 /\bjockey\s(?:bank|belt|cap\sclump|copse|end|field|green|hill|mead|meadow|road|street|way)\b/gmi,
 /\bjockey['‘’`s]*\s(?:coppice|fields|plantation|wood)\b/gmi,
@@ -151,10 +152,11 @@ const a: RegExp[] = [
 /\bjoint\s(?:campus|hospital|houses|road|wood)\b/gmi,
 /\bjoist\sfen\b/gmi,
 /\b(?:no\sjoke\splantation|porth\sjoke)\b/gmi,
-/\b(?:jollys\slane|through\sjollys)\b/gmi,
+/\bjollys\slane\b/gmi,
 /\bjourneyman['‘’`]?s\sgreen\b/gmi,
 
 // JU
+/\bjunior\scadets\sroad\b/gmi,
 /\bjugglers\s(?:close|moor)\b/gmi,
 
 // KA

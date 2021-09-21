@@ -663,23 +663,6 @@ const a: string[] = [
 "buzzards",
 "byway",            // standalone & placename
 // C
-"cabbage",
-"cabernet",
-"cables",
-"cacao",
-"cactus",
-"cad",                // name & placenames (4)
-"caddie",
-"caddies",
-"caddy",
-"cadence",
-"cadenza",
-"cadet",
-"cadets",
-"caesar",
-"cages",
-"cairn",
-"cakes",
 "cal",              // name & placenames (3)
 "calamine",
 "caldron",
@@ -1306,7 +1289,6 @@ const a: string[] = [
 "duet",
 "duff",
 "duffel",
-"duffer",
 "duffle",
 "duffs",
 "duffy",

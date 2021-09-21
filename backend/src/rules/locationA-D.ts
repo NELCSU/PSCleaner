@@ -68,6 +68,7 @@ const a: RegExp[] = [
 /\baisle\sroad\b/gmi,
 
 // AL
+/\balice\ssmart\sclose\b/gmi,
 /\balexandra\sterraces\b/gmi,
 /\ballan\seasy\b/gmi,
 /\balleys\sgreen\b/gmi,
@@ -359,6 +360,8 @@ const a: RegExp[] = [
 /\bbhasteir\stooth\b/gmi,
 
 // BI
+/\bbiggotts\slane\b/gmi,
+/\bbiggot['‘’`]?s\splantation\b/gmi,
 /\bBidders\sClose\b/gm,
 /\bbidders\sgait\b/gmi,
 /\bbikie['‘’`]?s\sgoat\b/gmi,
@@ -593,9 +596,11 @@ const a: RegExp[] = [
 /\b(?:bedworth|boughton|city\sof\sedinburgh|crowland|ladbroke|oxton|solihull|walderslade\svillage|wymondley)\sbypass\b/gmi,
 
 /\bc\sp\sschool\b/gmi,
-// CA
-/\bcarlin\stooth\b/gmi,
 /\bC\s(?:Road|Street)\b/gm,
+// CA
+/\bcages\s(?:close|way|wood\sdrive)\b/gmi,
+/\bcadets\swalk\b/gmi,
+/\bcarlin\stooth\b/gmi,
 /\bcastle\sprimary\sschool\b/gmi,
 /\bcastlefield\sapartments\b/gmi,
 /\bcat\sand\s(?:fiddle|kittens)\slane\b/gmi,
@@ -616,8 +621,13 @@ const a: RegExp[] = [
 /\bcable\s(?:bay|close|crescent|depot\sroad|drive|geo|grove|hill|place|rake\smoss|road|shore|street|tail)\b/gmi,
 /\b(?:cable\slane|cable\stip\splantation)\b/gmi,
 /\bcackle\s(?:hill(?:\slane)?|rash\swood|street)\b/gmi,
-/\b(?:cake\s(?:down\slane|pill|street|wood)|miller['‘’`]?s\scake|pudding\scake\s(?:lane|shaw)|short\scake\shill)\b/gmi,
+/\bcake\s(?:down\slane|pill|street|wood)\b/gmi,
+/\bcake['‘’`]?s\slane\b/gmi,
+/\bmiller['‘’`]?s\scake\b/gmi,
+/\bpudding\scake\s(?:lane|shaw)\b/gmi,
+/\bshort\scake\shill\b/gmi,
 /\bLittle\sCake\b/gm,
+/\bcakes\s(?:hill|lane)\b/gmi,
 /\bcalendar\s(?:mews|plantation|spring)\b/gmi,
 /\bcalves['‘’`]?\s(?:close(?:\sspinney)?|croft|field(?:\swood)?|garden|grove|hole|hovel\sshaw|lane|lodge\s(?:shaw|wood)|mead\scovert|pasture|pightle\scopse|plot\swood|shaw|well\slane|wood)\b/gmi,
 /\bcamp\sprimary\b/gmi,
@@ -806,6 +816,8 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
+/\bcobble\sdump\b/gmi,
+/\bcoconut\sgrove\b/gmi,
 /\bconservation\splace\b/gmi,
 /\bcock\sclod\sstreet\b/gmi,
 /\bCommanders\sClose\b/gm,
@@ -1180,7 +1192,7 @@ const a: RegExp[] = [
 /\bCycle\sRoute\b/gm,
 
 // DA
-/\bd\swood\b/gmi,
+/\bd\s(?:plantation|wood)\b/gmi,
 /\bda(?:d['‘’`]?s|nger)\slane\b/gmi,
 /\bd(?:ate|ockland)\sstreet\b/gmi,
 /\bDairyman\sClose\b/gm,
@@ -1225,7 +1237,7 @@ const a: RegExp[] = [
 /\bdevil['‘’`]?s\sthrashing\sfloor\b/gmi,
 /\bdevil['‘’`s]*\s(?:bottom|bridge|dining\sroom|copse|dyke|frying\span|kitchen|mill)\b/gmi,
 /\bdevil['‘’`s]*\s(?:oven\splantation|punch\s?bowl|reach|staircase|teeth|tor|wood)\b/gmi,
-/\bDevil['‘’`s]+\sFootsteps\b/gm,
+/\bDevil['‘’`s]+\s(?:Footsteps|Own)\b/gm,
 /\bthe\sdevil['‘’`]?s\s(?:barn|cheesewring|dingle|dressing\sroom|elbow|highway|point|punchbowl)\b/gmi,
 /\bDoor\s(?:Bottom|Cove|Covert|Dam|Drove|Head|Hill|Top)\b/gm,
 /\bdoor\sof\sthe\s(?:heugh|kame)\b/gmi,
@@ -1334,10 +1346,11 @@ const a: RegExp[] = [
 /\bdrying\s(?:ground\swood|shed\slane)\b/gmi,
 
 // DU
+/\bduffers\splantation\b/gmi,
 /\bdunston\sand\steams\b/gmi,
 /\bdumb\s(?:bob\sspinney|(?:tom|woman)['‘’`s]*\slane)\b/gmi,
 /\b[Dd]umb\s(?:[Hh]all|[Hh]ope|[Pp]ool|[Pp]ots)\b/gm,
-/\b(?:cobble|fillet\stail|strickland|tocketts)\sdump\b/gmi,
+/\b(?:fillet\stail|strickland|tocketts)\sdump\b/gmi,
 /\bdumps?\sroad\b/gmi,
 /\b(?:dab\sdumps|the\sdumps\splantations)\b/gmi,
 /\bdust\s(?:hill|wood)\b/gmi,

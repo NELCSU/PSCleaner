@@ -34,7 +34,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sBy(?:e|e?[\s-](?:[Pp]ass|[Ww]ays?))\b/gm,
   
   // C
-  /\bThe\sCa(?:ble|irns|lf|lls?|pes|st|stle|t|thedral|useway)\b/gm,
+  /\bThe\sCa(?:ble|irns|irn\sHead|lf|lls?|pes|st|stle|t|thedral|useway)\b/gm,
   /\bThe\sCam(?:p|pus)\b/gm,
   /\bThe\sCan(?:al|dle|dlemakers)\b/gm,
   /\bThe\sCar(?:e|penters|riages|t\sTrack|ts)?\b/gm,
@@ -105,7 +105,8 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sGa(?:bles|ges|ng|ngway|ps?|rdens?|rlands|rners|tes?|teways?|vels)\b/gm,
   /\bThe\sGe(?:ars?|o)\b/gm,
   /\bThe\sGl(?:ades?|assworks|eanings|impse|obal\sAcademy|obe)\b/gm,
-  /\bThe\sGo(?:al|at|ats\sLeap\sPool|d\sAlmighty|oose|re|rge|rses?|slings|ssamers)\b/gm,
+  /\bThe\sGoa(?:l|t|ts\sLeap\sPool)\b/gm,
+  /\bThe\sGo(?:d\sAlmighty|oose|re|rge|rses?|slings|ssamers)\b/gm,
   /\bThe\sGran(?:aries|ary|d|ge)\b/gm,
   /\bThe\sGra(?:dient|in\sStore|sslands|tes|ves|zings|zing\sGrounds)\b/gm,
   /\bThe\sGre(?:en(?:\sDrift)?|ens|ens\sClose|at\sFace|at\sGully|y\sCorries|ys)\b/gm,
