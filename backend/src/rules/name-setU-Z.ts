@@ -3768,7 +3768,7 @@ const a: string[] = [
 "varieur",
 "varigas",
 "varignia",
-"varild",
+
 "varilla",
 "varillas",
 "varin",
@@ -15607,7 +15607,7 @@ const a: string[] = [
 "woghren",
 "woglom",
 "wogman",
-"wognild",
+
 "wognum",
 "wogoman",
 "wogomon",

@@ -792,6 +792,7 @@ const a: RegExp[] = [
 /\bsquashes\swood\b/gmi,
 
 // ST
+/\bstring\s(?:copse|lane(?:\scopse)?)\b/gmi,
 /\bstubber\shill\splantation\b/gmi,
 /\bstubber['‘’`]?s\sgreen\b/gmi,
 /\bstubborn\ssand\b/gmi,

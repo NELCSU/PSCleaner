@@ -662,26 +662,11 @@ const a: string[] = [
 "buzzard",
 "buzzards",
 "byway",            // standalone & placename
+
 // C
-"cal",              // name & placenames (3)
-"calamine",
-"caldron",
-"caledonian",
-"calender",
-"calfs",
-"calico",
-"caliph",
-"caller",
-"callers",
-"callipers",
-"callow",
-"callup",
-"calorie",
-"caltrop",
-"calumny",
-"calve",
-"calving",
-"cam",            // name & placenames (78)
+"caledonian",       // standalone & placenames (17)
+"callers",          // standalone & placename
+"callow",           // name & standalone & placenames (27)
 "camaraderie",
 "camber",
 "cambers",

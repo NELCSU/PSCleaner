@@ -825,6 +825,7 @@ const a: RegExp[] = [
 /\bhiker(?:\sgrove|s\sway)\b/gmi,
 
 // HO
+/\bhomegrown\scopse\b/gmi,
 /\bhorspath\sdriftway\b/gmi,
 /\bhogs\s(?:earth|edge|gate|hill(?:\scopse)?|hole\sspinney|holes|law|lodge\slane|wood)\b/gmi,
 /\bhobbles\sgreen\b/gmi,

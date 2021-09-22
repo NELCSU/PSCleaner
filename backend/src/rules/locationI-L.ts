@@ -345,8 +345,7 @@ const a: RegExp[] = [
 /\bleveller\s(?:end|road|way)\b/gmi,
 
 // LI
-/\bLittle\s(?:Beside|Man|Goat|Load)\b/gm,
-/\blittle\stumblers\b/gmi,
+/\bLittle\s(?:Beside|Callipers|Man|Goat|Load|Tumblers)\b/gm,
 /\blittle\sman['‘’`]?s\sway\b/gmi,
 /\blittle[\s-]go\splantation\b/gmi,
 /\blittleborough\slakeside\b/gmi,

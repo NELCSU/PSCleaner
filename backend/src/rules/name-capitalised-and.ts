@@ -447,6 +447,13 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "byway",            // name & placenames (3)
 
 // C
+"cal",              // name & placenames (3)
+"caldron",          // name & placenames (13)
+"calender",         // name & placenames (4)
+"calico",           // name & placenames (12)
+"caliph",           // name & placenames (2)
+"caller",           // name & placenames (5)
+"cam",              // name & placenames (78)
 "cabbage",          // name & placenames (12)
 "cabernet",         // name
 "cables",           // name & placenames (3)
