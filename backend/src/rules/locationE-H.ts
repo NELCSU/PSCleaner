@@ -1,6 +1,7 @@
 const a: RegExp[] = [
 /\b[ef]\sstreet\b/gmi,
 // EA
+/\beaster\swide\shope\b/gmi,
 /\beast\sascent\b/gmi,
 /\bE(?:ast\s[Aa]nd\s(?:South|West)|lm\s[Aa]nd\sOak)\b/gm,
 /\be(?:ast\sand\swest(?:\swalk)?|ton\sand\scastle|ye\sand\sdunsden|ye,\s(?:moreton|thorney))\b/gmi,

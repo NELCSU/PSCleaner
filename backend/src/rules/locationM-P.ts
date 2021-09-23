@@ -211,6 +211,7 @@ const a: RegExp[] = [
 /\bNaked\sMan\b/gm,
 /\bnan\sdoth\b/gmi,
 /\bnapping\s(?:lane|tree\scoppice)\b/gmi,
+/\bnap\sview\b/gmi,
 /\bnaps\s(?:copse|lane)\b/gmi,
 /\bnarrator\splantation\b/gmi,
 /\b(?:royal\s)?national\s(?:avenue|bank|crescent|college|court|drive|gate|hospital|park|road|star|street)\b/gmi,
@@ -275,6 +276,8 @@ const a: RegExp[] = [
 /\bnine\s(?:standards\srigg|stiles\sclose|stone\s(?:rig|wood)|streams\sreach|tree\shill|ways\splantation)\b/gmi,
 
 // NO
+/\bno\sman['‘’`]?s\s(?:acre|bottom|friend|green(?:\slane)?|grove|heath(?:\s(?:and\sdistrict|lane|road))?)\b/gmi,
+/\bno\sman['‘’`]?s\s(?:hill|land(?:\s(?:plantation|wood))?|lane|moor(?:\slane)?|patch|wood)\b/gmi,
 /\bnorthern\swetlands\b/gmi,
 /\bnod\s(?:hill|plantation|rise)\b/gmi,
 /\b(?:nor\s(?:grove|hellia|hill|marsh|moss|royd\swood|wick|wood)|nor'bren\savenue|nor'\snor'\sgully)\b/gmi,
@@ -506,6 +509,8 @@ const a: RegExp[] = [
 /\bozone\s(?:park|terrace|way)\b/gmi,
 
 // PA
+/\bpathfinder\s(?:view|village|vocational\scentre|way)\b/gmi,
+/\bpathfinders\sdrive\b/gmi,
 /\bpans\sgoat\b/gmi,
 /\bpa(?:cks|dock|vilions)\sclose\b/gmi,
 /\bpa(?:ddlers|geantmaster)\scourt\b/gmi,

@@ -16,7 +16,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sBar(?:nyard|on[sy]|racks|rows|s)?\b/gm,
   /\bThe\sBas(?:ins?|s|ses|tard)\b/gm,
   /\bThe\sBat(?:ch|ches|he|tery(?:\s[Bb]anks)?)\b/gm,
-  /\bThe\sBea(?:ch|cons?|m|rs?|st)\b/gm,
+  /\bThe\sBea(?:ch|cons?|gles|ms?|n\sAcre|rs?|st)\b/gm,
   /\bThe\sBee(?:s|f\sBarrel|hives?)\b/gm,
   /\bThe\sBe(?:ck|eches|dwyns|ll|lsteads|lt|nch|nefits|rries|nt)\b/gm,
   /\bThe\sBi(?:ble\sCollege|g\sAct|n|rches|te?|tches)\b/gm,
@@ -188,7 +188,7 @@ export const LocationTheRegEx: RegExp[] = [
   // P
   /\bThe\sPa(?:cket\sLanding|ddle|ddocks?|goda|lms|ss|ye)\b/gm,
   /\bThe\sPar(?:ade|chments|ishes|k(?:\sPale)?|lour)\b/gm,
-  /\bThe\sPat(?:ch|ches|h|hway(?:\sFields)?|ios)\b/gm,
+  /\bThe\sPat(?:ch|ches|h|hway(?:\sFields)?|hfinders?|ios)\b/gm,
   /\bThe\sPavill?ions?(?:\sEnd)?\b/gm,
   /\bThe\sPe(?:aks|ntagon|ppercorns)\b/gm,
   /\bThe\sPi(?:ece|eces|les|llow|lot|nch|nes|newoods|nfold|nnacles?|ts?|tch)\b/gm,

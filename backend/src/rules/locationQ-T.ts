@@ -1384,6 +1384,7 @@ const a: RegExp[] = [
 /\btrundles\slane\b/gmi,
 
 // TU
+/\bturned\s(?:hill\smoss|moor)\b/gmi,
 /\btub\splantation\b/gmi,
 /\btubs\shill\b/gmi,
 /\btuck\s(?:mill\scopse|place|road|wood)\b/gmi,

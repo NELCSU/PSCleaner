@@ -321,8 +321,9 @@ const a: RegExp[] = [
 /\bwholesome\slane\b/gmi,
 
 // WI
+/\bwitness\smoor\b/gmi,
 /\bWide\s(?:Close|Street|Valley)\b/gm,
-/\b(?:easter|wester)\swide\shope\b/gmi,
+/\bwester\swide\shope\b/gmi,
 /\bwide\s(?:acres|bargate|cleugh|firth|ham\sbeeches|hope\sshank|hope)\b/gmi,
 /\bwide\s(?:howe\slane|lane(?:\sclose)?|lawn|mere|open|street|valley|waters?|way)\b/gmi,
 /\bwickets\s(?:close|end|way)\b/gmi,

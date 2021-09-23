@@ -241,24 +241,8 @@ const a: string[] = [
 "baud",             // name & placename
 "baulking",         // standalone & placenames (3)
 "beachside",        // standalone & placenames (2)
-"beagle",
-"beagles",
-"beak",
-"beaker",
-"beaks",
-"beams",
-"bean",
-"beaner",
-"beanie",
-"beans",
-"beasts",
-"beater",
-"beatles",
-"beats",
-"beau",
-"beaux",
-"beaver",
-"beavers",
+"beacon",           // standalone & placenames (205)
+"bean",             // name & standalone & placenames (45)
 "beck",
 "beckon",
 "beddings",
@@ -2096,6 +2080,7 @@ const a: string[] = [
 "maples",
 "march",            // standalone & placenames (98)
 "mark",             // name
+"markers",          // standalone & placenames (2)
 "mason",            // name & placenames (62)
 "mat",
 "matchbox",
@@ -2544,7 +2529,6 @@ const a: string[] = [
 "pastures",
 "pate",
 "pathfinder",
-"pathfinders",
 "pathos",
 "patience",
 "patina",
@@ -3522,6 +3506,8 @@ const a: string[] = [
 "wade",             // name & placenames (53)
 "warren",           // name & placenames (404)
 "waterside",        // standalone & placenames (46)
+"wick",             // name & standalone & placenames (278)
+"wilderness",       // standalone & placenames (31)
 "woodlands",        // name & standalone & placenames (145)
 "woodpeckers",      // standalone & placenames (4)
 "wool",             // name & standalone

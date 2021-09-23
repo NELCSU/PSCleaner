@@ -315,6 +315,10 @@ const a: RegExp[] = [
 /\bbahamas\sway\b/gmi,
 
 // BE
+/\bbeater\sclough\b/gmi,
+/\bbeasts\sof\sholm\b/gmi,
+/\bbeaker\s(?:close|mews|place|way)\b/gmi,
+/\bbeaks\s(?:farm\sgardens|hill\sroad|horn)\b/gmi,
 /\bbeardown\stors\b/gmi,
 /\bbeaver\sroad\sjuniors\b/gmi,
 /\bbe(?:acon\sand\s(?:bents|wilderness\splantation)|er\sand\sbranscombe|xhill\sand\sbattle)\b/gmi,
@@ -1208,6 +1212,7 @@ const a: RegExp[] = [
 /\bdancing\s(?:beggars|close|dicks\slane|drove|green(?:\shill)?|ground|hill(?:ock)?|lane|ledge|stones)\b/gmi,
 /\bDangerous\sWood\b/gm,
 /\bdare\s(?:close|court|road)\b/gmi,
+/\bdare['‘’`]?s\s(?:down|lane|plantation)\b/gmi,
 /\blinn\sof\sthe\sdarkness\b/gmi,
 /\bData\sDrive\b/gm,
 /\bdavy\slamp\b/gmi,
