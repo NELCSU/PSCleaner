@@ -1081,6 +1081,7 @@ const a: RegExp[] = [
 /\btavern\s(?:orchard|park|plantation|quay|road|street|way|wood)\b/gmi,
 
 // TE
+/\bTeachers\sClose\b/gm,
 /\btemplars\s(?:avenue|barton|close|court|crescent|croft|drive|gate|infant\sand\snursery)\b/gmi,
 /\btemplars['‘’`]?\s(?:fields|park)\b/gmi,
 /\btemplars\s(?:junior|lane|mede|mews|primary|walk|way)\b/gmi,

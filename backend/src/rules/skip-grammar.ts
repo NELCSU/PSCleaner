@@ -17,6 +17,7 @@ const a: RegExp[] = [
   /\bat\shome\b/gmi,
   /\bat\sthe\b/gmi,
   // B
+  /\bbarking\sdog\b/gmi,
   /\bbaby\sjesus\b/gmi,
   /\bbank\sholiday\b/gmi,
   /\bbaby\sboomer\b/gmi,

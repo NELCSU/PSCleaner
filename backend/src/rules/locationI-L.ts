@@ -211,7 +211,6 @@ const a: RegExp[] = [
 /\bkips\swood\b/gmi,
 /\b(?:brockhope|phawhope|whirly)\skips\b/gmi,
 /\bkilt\srock\sviewpoint\b/gmi,
-/\blittle\skindles\srow\b/gmi,
 /\bkinetic\screscent\b/gmi,
 /\bkingmaker\sway\b/gmi,
 
@@ -345,8 +344,8 @@ const a: RegExp[] = [
 /\bleveller\s(?:end|road|way)\b/gmi,
 
 // LI
-/\bLittle\s(?:Beside|Callipers|Man|Goat|Load|Tumblers)\b/gm,
-/\blittle\sman['‘’`]?s\sway\b/gmi,
+/\bLittle\s(?:Beside|Callipers|Man|Goat|Gulls|Load|Tumblers)\b/gm,
+/\blittle\s(?:kindles\srow|man['‘’`]?s\sway|parts\sdrove)\b/gmi,
 /\blittle[\s-]go\splantation\b/gmi,
 /\blittleborough\slakeside\b/gmi,
 /\bLibrary\sClose\b/gm,
@@ -374,7 +373,6 @@ const a: RegExp[] = [
 /\b(?:Friendly|Knotty|Lavender|Long|Main|New|Pipe|Whiskey)\sLine\b/gm,
 /\b(?:lithe\slochan|na\slithe|chrann[\s-]lithe)\b/gmi,
 /\blive\smoor\b/gmi,
-/\blittle\sgulls\b/gmi,
 /\bLive\sStock\b/gm,
 
 // LN

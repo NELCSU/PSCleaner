@@ -576,6 +576,7 @@ const a: RegExp[] = [
 /\bgood\sfriday\s(?:hill|plantation)\b/gmi,
 /\bgotten\s(?:càm|chalman|copse|dubh|feath|lane|leaze)\b/gmi,
 /\b(?:east|north|west)\sgotten\b/gmi,
+/\bgoverness\sclose\b/gmi,
 /\bgoverns\swood\b/gmi,
 /\bgovernment\s(?:road|row|street)\b/gmi,
 /\bGovernment\sHouse\b/gm,
@@ -769,6 +770,14 @@ const a: RegExp[] = [
 /\bHat\sClose\b/gm,
 
 // HE
+/\bhexagon\s(?:close|plantation)\b/gmi,
+/\bherringbone\s(?:road|street|way)\b/gmi,
+/\bherrings\s(?:land\scopse|lane)\b/gmi,
+/\bherons['‘’`]?\s(?:brook|carr|close|court|croft|dale|elm|gate\sroad|ghyll\scare\svillage)\b/gmi,
+/\bherons['‘’`]?\s(?:green(?:\sbay)?|grove|lane|lea|mead|moor|park|place|plantation|reach)\b/gmi,
+/\bherons['‘’`]?\s(?:rise|view|walk|way|wharf|wood(?:\sclose)?)\b/gmi,
+/\bWild\sHerons\b/gmi,
+/\bhermits\s(?:close|croft|road)\b/gmi,
 /\bhead(?:ington\sand\squarry|land\sand\sharbour)\b/gmi,
 /\bHen\sAnd\sChickens\b/gm,
 /\bheol[\s-]cae[\s-]globe\b/gmi,
@@ -800,6 +809,7 @@ const a: RegExp[] = [
 /\bheroes\s(?:drive|walk)\b/gmi,
 
 // HI
+/\bHigh\sSchool\sClose\b/gm,
 /\bhigh\scloister\b/gmi,
 /\bhid['‘’`]?s\s(?:brake|copse(?:\sroad)?)\b/gmi,
 /\bHidden\s(?:Brook|Close|Hills|Loch|Lock|Mews)\b/gm,

@@ -36,7 +36,7 @@ const a: RegExp[] = [
 /\badmirals\s(?:avenue|close|court|crest|croft|drive|garden)\b/gmi,
 /\badmirals\s(?:lane|mews|park|quarter|quay|reach|road|view|walk(?:\slake)?|way)\b/gmi,
 /\badmiralty\s(?:avenue|close|crescent|gardens|grove|lane|mews|place|road|street|terrace|walk|way|wood)\b/gmi,
-/\badventurers?\s(?:drove|fen|land|quay|way)\b/gmi,
+/\badventurer['‘’`s]*\s(?:drove|fen|land|quay|way)\b/gmi,
 /\badvocates['‘’`]?\sroad\b/gmi,
 
 // AE
@@ -655,6 +655,7 @@ const a: RegExp[] = [
 /\bcard\s(?:hill|plantation|street)\b/gmi,
 /\bcarders\s(?:close|corner|court)\b/gmi,
 /\bcards\s(?:mill\slane|wynd)\b/gmi,
+/\bcardinals\s(?:close|clump|court|gate|terrace|walk|way)\b/gmi,
 /\bcare\shill\b/gmi,
 /\bcares\sorchard\b/gmi,
 /\bCares\sClose\b/gm,

@@ -1646,22 +1646,6 @@ const a: string[] = [
 "herders",
 "herding",
 "herds",
-"herdsman",
-"hermit",
-"hermitage",
-"hermits",
-"hero",
-"herod",
-"heron",
-"herons",
-"heros",
-"herring",
-"herringbone",
-"herrings",
-"hertz",
-"hes",
-"hex",
-"hexagon",
 "hill",           // placenames (1k+)
 "hilltop",        // standalone & placenames (37)
 "hilltops",       // standalone

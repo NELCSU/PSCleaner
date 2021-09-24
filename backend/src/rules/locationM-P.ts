@@ -546,6 +546,8 @@ const a: RegExp[] = [
 /\bpoor\stenement\splantation\b/gmi,
 
 // PR
+/\bpriests['‘’`]?\s(?:avenue|bridge|field|meadow(?:\scourt)?|mere\spond)\b/gmi,
+/\bpriests['‘’`]?\s(?:moor|osiers|paddock|park\swood|plantation|way|wood)\b/gmi,
 /\bpresbyterian\sfold\b/gmi,
 /\bpreston\scapes\b/gmi,
 /\bprisoners\sbelt\b/gmi,
