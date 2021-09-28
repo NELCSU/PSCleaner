@@ -795,6 +795,7 @@ const a: string[] = [
 "cert",
 "cesarean",
 "cesspool",
+"chalkstone",       // standalone
 "chapel",           // name & standalone & placenames (360)
 "cheap",
 "cheater",
@@ -1570,7 +1571,7 @@ const a: string[] = [
 "hazard",
 "hazards",
 "haze",
-"hazel",
+"hazel",            // name
 "hazelnut",
 "hazels",
 "hazes",
@@ -3389,31 +3390,14 @@ const a: string[] = [
 "spires",
 "spiritedl",
 "spital",
-"spitter",
-"spitters",
-"spittle",
-"splash",
-"splat",
-"spoil",
-"spoiler",
-"spokes",
-"spokeshave",
-"sponge",
-"spongebob",
-"sponger",
-"spook",
-"spool",
-"spoonbill",
-"spoor",
-"spore",
-"spores",
-"spotter",
-"spout",
+"spout",            // standalone & placenames (73)
+"steeplechase",     // standalone
 "stirling",         // name & standalone & placename (41)
 "stoke",            // name & standalone & placenames (292)
 "stow",             // name & standalone & placenames (66)
 "sue",              // name & placenames (2)
 "sunrise",          // name & standalone
+
 // T
 "tapas",            // name
 "teddy",            // name
@@ -3478,6 +3462,7 @@ const a: string[] = [
 "turnpike",         // standalone & placenames (46)
 
 // U
+"upend",            // standalone
 "upstreet",         // standalone
 
 // V

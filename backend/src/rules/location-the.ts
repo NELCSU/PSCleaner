@@ -11,7 +11,8 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sA(?:sh|uks|venues?|wful\sHand|xe|xis)\b/gm,
   
   // B
-  /\bThe\sBa(?:bes|cks?|d\sStep|iliwick|ils|keries|ker[sy]|nks?|tts|ulks?|ys?)\b/gm,
+  /\bThe\sBail(?:iwick|s)\b/gm,
+  /\bThe\sBa(?:bes|cks?|d\sStep|keries|ker[sy]|nks?|tts|ulks?|ys?)\b/gm,
   /\bThe\sBal(?:es|k|ls?)\b/gm,
   /\bThe\sBar(?:nyard|on[sy]|racks|rows|s)?\b/gm,
   /\bThe\sBas(?:ins?|s|ses|tard)\b/gm,
@@ -20,7 +21,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sBee(?:s|f\sBarrel|hives?)\b/gm,
   /\bThe\sBe(?:ck|eches|dwyns|ll|lsteads|lt|nch|nefits|rries|nt)\b/gm,
   /\bThe\sBi(?:ble\sCollege|g\sAct|n|rches|te?|tches)\b/gm,
-  /\bThe\sBl(?:ade|ind|uebells)\b/gm,
+  /\bThe\sBl(?:ack\sSpout|ade|ind|uebells)\b/gm,
   /\bThe\sBou(?:ght|levard|nds?|ndaries|ndary)\b/gm,
   /\bThe\sBo(?:ar|at|g|lt|oks|ot|re|rder|ttom|wl)\b/gm,
   /\bThe\sBra(?:ckens?|ids?|ke|kes\sWood|mbles|nch|nd|wn)\b/gm,
@@ -248,7 +249,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sSl(?:eeve|eights|ides?|ing|ips?|ipway|ithers|obs|opes|ough)\b/gm,
   /\bThe\sSm(?:elt|ithy)\b/gm,
   /\bThe\sSo(?:le|und)\b/gm,
-  /\bThe\sSp(?:ain|ectacles|lashes|ortsman|ot|rings?|rig|ruces|ur)\b/gm,
+  /\bThe\sSp(?:ain|ectacles|lashes|ortsman|ot|out|rings?|rig|ruces|ur)\b/gm,
   /\bThe\sSpi(?:ke|nnakers?|nne[ry]s?|t)\b/gm,
   /\bThe\sSqu(?:are|ires|irrels)\b/gm,
   /\bThe\sStat(?:e\sHospital|utes)\b/gm,

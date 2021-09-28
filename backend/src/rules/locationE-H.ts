@@ -139,6 +139,7 @@ const a: RegExp[] = [
 /\bfangs\sbrow\b/gmi,
 
 // FE
+/\bfetches\splantation\b/gmi,
 /\bferryboat\s(?:close|lane)\b/gmi,
 /\bferryhouse\sroad\b/gmi,
 /\bferrymen\sdrive\b/gmi,
@@ -172,6 +173,7 @@ const a: RegExp[] = [
 /\bF(?:aints|airness|irework|olding)\sClose\b/gm,
 
 // FR
+/\bfreezes\sbarns\b/gmi,
 /\bFrom\sFarm\b/gm,
 
 // FU

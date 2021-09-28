@@ -42,6 +42,7 @@ const a: RegExp[] = [
 /\bunnamed\s(?:rd|road)\b/gmi,
 
 // UP
+/\bupend\s(?:road|wood)\b/gmi,
 /\b(?:burnt-up\sdrove|donington\sup\sfen|lock-up\slane|monkton\sup\swimborne|new\sroll-up)\b/gmi,
 /\b(?:old\sroll-up|shoot-up\shill|stonebeck\sup)\b/gmi,
 /\bup[\s-](?:brooks|cerne(?:\swood)?|corner(?:\sclose)?|croft|end|exe|green|hatherley(?:\sway)?)\b/gmi,
@@ -141,6 +142,7 @@ const a: RegExp[] = [
 /\bvoyagers\sclose\b/gmi,
 
 // WA
+/\bwasteland\splantation\b/gmi,
 /\bwater\sglades\sclose\b/gmi,
 /\bwashington\sgalleries\b/gmi,
 /\bw(?:ardrobes|et\sshod|homsoever|ife)\slane\b/gmi,

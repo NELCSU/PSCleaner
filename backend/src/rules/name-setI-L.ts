@@ -21939,6 +21939,7 @@ const a: string[] = [
 "knoblevitch",
 "knoblock",
 "knoblovits",
+"knobstick",
 "knochel",
 "knochenmus",
 "knockalls",

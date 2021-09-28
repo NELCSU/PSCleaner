@@ -189,7 +189,7 @@ const a: RegExp[] = [
 
 // KI
 /\bkings\ssconce\savenue\b/gmi,
-/\bkidney\sclump\b/gmi,
+/\bkidney\s(?:clump|covert|hill|plantation|pond|sands|wood)\b/gmi,
 /\bkipling\stors\b/gmi,
 /\bkingfishers\s(?:court|reach)\b/gmi,
 /\bkid\s(?:cleughs|gate\sdrove|geo|glove\sroad|hill|islands|lane|moor|stone\shill|stones\shollow)\b/gmi,

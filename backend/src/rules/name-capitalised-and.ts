@@ -537,7 +537,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "chalice",          // name & placenames (7)
 "chalk",            // name & standalone & placenames (60)
 "chalker",          // name & placename
-"chalkstone",       // standalone & placenames (2)
 "challenger",       // name & placenames (7)
 "chambers",         // name & placenames (33)
 "champ",            // name
@@ -3446,6 +3445,15 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "southward",        // name & standalone & placenames (11)
 
 // SP
+"spitter",          // name
+"spitters",         // name
+"spittle",          // name & placenames (8)
+"splash",           // name & placenames (7)
+"spoiler",          // name
+"spokes",           // name
+"spoor",            // name & placename
+"spore",            // name & placename
+"spores",           // name
 "spaghetti",        // name
 "spain",            // name & placenames (9)
 "spanner",          // name
@@ -3548,6 +3556,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "strum",            // name
 "strummer",         // name
 "strut",            // name & placename
+"stub",             // name & placenames (10)
 "stubbing",         // name & placenames (21)
 "stubbles",         // name & placenames (2)
 "stubby",           // name & placenames (5)
@@ -3622,7 +3631,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "steels",           // name & placenames (2)
 "steely",           // name
 "steep",            // standalone & placenames (32)
-"steeplechase",     // standalone & placenames (7)
 "steeples",         // standalone & placenames (3)
 "steers",           // name & placenames (6
 "stencil",          // name
@@ -3859,7 +3867,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "temperance",       // name & placenames (13)
 "temperence",       // name
 "tenant",           // name & placenames (8)
-"thorns",           // name & placenames (93)
+"thorns",           // name & standalone & placenames (92)
 "thoroughfare",     // standalone & placenames (6)
 "throne",           // name & placenames (3)
 "thu",              // name
@@ -4088,7 +4096,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ultra",            // name & placenames (3)
 "unicorn",          // name & placenames (18)
 "unique",           // name & placename
-"upend",            // standalone & placenames (2)
 "uphill",           // name & standalone & placenames (11)
 "uphold",           // name
 "upper",            // placenames (1k+)

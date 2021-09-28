@@ -230,9 +230,7 @@ const a: RegExp[] = [
 // NE
 /\bnewton\stors\b/gmi,
 /\bnewington\slibrary\b/gmi,
-/\bnew\sforest\sglades\b/gmi,
-/\bnew\slakeside\b/gmi,
-/\bnew\sglobe\swalk\b/gmi,
+/\bnew\s(?:barrels\spitch|forest\sglades|globe\swalk|lakeside)\b/gmi,
 /\bnew\shorizon\scommunity\sschool\b/gmi,
 /\bNear\s(?:Acre|Down|Side|Town)\b/gm,
 /\b(?:carn\snear(?:\sroad)?|greetham\swood\snear|kingston\snear\slewes|llanfihangel\snear\srogiet)\b/gmi,
@@ -537,11 +535,13 @@ const a: RegExp[] = [
 /\bplessey\sold\swagonway\b/gmi,
 
 // PO
+/\bpoint\sof\sspoil\b/gmi,
 /\bpont-rug\b/gmi,
 /\bpointout\sclose\b/gmi,
 /\bporpoise\shill\b/gmi,
 /\bportal\svalve\shouse\b/gmi,
-/\bpo(?:lls|ssession)\slane\b/gmi,
+/\bpolls\slane\b/gmi,
+/\bpossession\slane\b/gmi,
 /\bpork\s(?:hill|lane|street)\b/gmi,
 /\bpoor\stenement\splantation\b/gmi,
 

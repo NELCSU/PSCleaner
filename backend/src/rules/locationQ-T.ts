@@ -689,6 +689,7 @@ const a: RegExp[] = [
 /\bslut\s(?:plantation|wood)\b/gmi,
 
 // SM
+/\bsmoothies\splantation\b/gmi,
 /\bsmuggler['‘’`]?s\s(?:chine|coppice|lane|way)\b/gmi,
 /\bsmallmouth\sclose\b/gmi,
 /\bsmokehouse\scourt\b/gmi,
@@ -741,6 +742,14 @@ const a: RegExp[] = [
 /\bpaisley\ssouth(?:east|west)\b/gmi,
 
 // SP
+/\bSpotter\sClose\b/gm,
+/\bspoonbill\s(?:close|rise|road|way)\b/gmi,
+/\bspook\shill\b/gmi,
+/\bsponger\spoint\b/gmi,
+/\bsponge\sdrove\b/gmi,
+/\bspokeshave\sway\b/gmi,
+/\bspoil\s(?:bank\swood|coppice|lane)\b/gmi,
+/\bsplat\scove\b/gmi,
 /\bspilling\smoss\sturf\sground\b/gmi,
 /\bspeculation\sroad\b/gmi,
 /\bspud\swood\b/gmi,
@@ -792,6 +801,7 @@ const a: RegExp[] = [
 /\bsquashes\swood\b/gmi,
 
 // ST
+/\bsteeplechase\s(?:close|court|drove|rise|road|way)\b/gmi,
 /\bstring\s(?:copse|lane(?:\scopse)?)\b/gmi,
 /\bstubber\shill\splantation\b/gmi,
 /\bstubber['‘’`]?s\sgreen\b/gmi,

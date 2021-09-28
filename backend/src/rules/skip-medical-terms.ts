@@ -48,6 +48,9 @@ const a: RegExp[] = [
   /\b(?:brugada|duane|dwayne|edwards|ehlers[\s-]*danlos|evans|fanconi)\ssyndrome\b/gmi,
   /\b(?:gianotti[\s-]+crosti|guillain[\s-]+barr[eé]|kab(?:oo|u)ki|lynch)\ssyndrome\b/gmi,
   /\b(?:phel[ai][mn][\s-]+mcderm[io]d|prader[\s-]+willi|tourette['‘’`s]*)\ssyndrome\b/gmi,
+
+  // F
+  /\bfrank\sh[ae]{2}maturia\b/gmi,
   
   /\b(?:broca|brodmann?|wernicke)['‘’`]?s?\sareas?\b/gmi,
   /\b(?:buck|colles|cooper|denonvilliers|gallaudet|spiegelian)['‘’`s]*\sfascia\b/gmi,
@@ -85,6 +88,7 @@ const a: RegExp[] = [
   /\bepididymo[\s-]+orchitis\b/gmi,
   /\becthyma\sgangrenosum\b/gmi,
   /\bescherichia\scoli\b/gmi,
+
   // M
   /\bmorton['‘’`]?s\sneuroma\b/gmi,
   /\bmirena\scoil\b/gmi,
@@ -92,7 +96,6 @@ const a: RegExp[] = [
   /\bnissl\sgranules\b/gmi,
   /\bnissl\ssubstance\b/gmi,
   /\bflu\svacc(?:ine|ination)?\b/gmi,
-  /\bfrank\sh[ae]{2}maturia\b/gmi,
   /\b(?:galen|giacomini|retzius|thebesian)\sveins?\b/gmi,
   /\bveins?\sof\s(?:galen|giacomini|retzius|thebesian)\b/gmi,
   
@@ -165,7 +168,7 @@ const a: RegExp[] = [
   /\bproteus\smirabilis\b/gmi,
   /\bpeyer['‘’`]?s?\spatches\b/gmi,
   /\bosteogen[io]us\b/gmi,
-  /\bottawa\s(?:signs?\s)?negative\b/gmi,
+  /\bottawa\s(?:(?:rule|sign)s?\s)?(?:negative|positive)\b/gmi,
   /\bisland\sof\sreil\b/gmi,
   /\b(?:riedel|spiegelian)['‘’`]?s?\slobe\b/gmi,
   /\brokitansky[\s–]aschoff\ssinuses\b/gmi,
