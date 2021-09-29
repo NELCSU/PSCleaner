@@ -1,5 +1,6 @@
 const a: RegExp[] = [
 // MA
+/\bmasham\sand\sfountains\b/gmi,
 /\bmass\scopse\b/gmi,
 /\bmaughan\slibrary\b/gmi,
 /\bmackrel['‘’`]?s\sdown\b/gmi,

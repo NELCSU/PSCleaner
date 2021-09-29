@@ -189,6 +189,7 @@ const a: RegExp[] = [
 
 // KI
 /\bkings\ssconce\savenue\b/gmi,
+/\bkingsmark\sfreeway\b/gmi,
 /\bkidney\s(?:clump|covert|hill|plantation|pond|sands|wood)\b/gmi,
 /\bkipling\stors\b/gmi,
 /\bkingfishers\s(?:court|reach)\b/gmi,
@@ -344,6 +345,7 @@ const a: RegExp[] = [
 /\bleveller\s(?:end|road|way)\b/gmi,
 
 // LI
+/\blindrick\swith\sstudley\sroyal\sand\sfountains\b/gmi,
 /\bLittle\s(?:Beside|Callipers|Man|Goat|Gulls|Load|Tumblers)\b/gm,
 /\blittle\s(?:kindles\srow|man['‘’`]?s\sway|parts\sdrove)\b/gmi,
 /\blittle[\s-]go\splantation\b/gmi,

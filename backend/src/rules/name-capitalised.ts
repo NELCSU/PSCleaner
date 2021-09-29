@@ -1371,24 +1371,16 @@ const a: string[] = [
 "foster",
 "fosterer",
 "fosters",
-"foulness",
-"foulup",
-"fountain",
-"fountains",
-"fowl",
-"fowls",
-"foxglove",
-"foxgloves",
-"foxhole",
-"foxhound",
-"foxhounds",
-"foxtrot",
-"foxy",
-"foyer",
-"foyers",
-"frank",                  // name & placenames (90)
-"fry",                    // name & placenames (32)
-"fu",                     // name
+"foulness",         // standalone & placenames (4)
+"fountain",         // name & standalone & placenames (54)
+"foxglove",         // standalone & placenames (21)
+"foxgloves",        // standalone & placenames (2)
+"foxhole",          // standalone & placenames (25)
+"foyers",           // standalone & placenames (9)
+"frank",            // name & placenames (90)
+"freeways",         // standalone
+"fry",              // name & placenames (32)
+"fu",               // name
 "fuchsia",
 "fudges",
 "fuller",

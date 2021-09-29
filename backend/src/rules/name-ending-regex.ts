@@ -55,7 +55,7 @@ export const NamesEndingRegEx: RegExp[] = [
 
    /\b[a-z]+[iou]nto\b/gmi,
 
-   /\b[a-z]+[a-dg-lp-su-z]ach\b/gmi,
+   /\b[a-z]+[a-dg-lnp-su-z]ach\b/gmi,
    /\b[a-z]+[acd-gikovyz]ack\b/gmi,
    /\b[a-z]+[abd-mpqtuw-z]ado\b/gmi,
    /\b[a-z]+[ajx-z]age\b/gmi,
@@ -64,7 +64,7 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+[acd-ko-qwx-z]ail\b/gmi,
    /\b[a-z]+[abd-km-prs-z]aim\b/gmi,
    /\b[a-z]+[a-cefi-knoqsux-z]ain\b/gmi,
-   /\b[a-z]+[a-egjkmqu-z]air\b/gmi,
+   /\b[a-z]+[a-egjkmnqu-z]air\b/gmi,
    /\b[a-z]+[adeijkmopvyz]ake\b/gmi,
    /\b[a-z]+[adfw-z]ald\b/gmi,
    /\b[a-z]+[adgioqv-z]ale\b/gmi,

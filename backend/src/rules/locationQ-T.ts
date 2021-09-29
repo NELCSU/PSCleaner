@@ -173,6 +173,7 @@ const a: RegExp[] = [
 /\brival\s(?:moor\sroad|tor)\b/gmi,
 
 // RO
+/\brock\sand\sfountain\slane\b/gmi,
 /\broby\swell\sway\b/gmi,
 /\bross\sglades\b/gmi,
 /\brobin\shood\syawns\b/gmi,
