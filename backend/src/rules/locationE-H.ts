@@ -154,6 +154,9 @@ const a: RegExp[] = [
 /\bfestoon\sway\b/gmi,
 /\bferrets['‘’`]?\shill\b/gmi,
 
+// FF
+/\bffos[\s-]y[\s-]go\b/gmi,
+
 // FI
 /\bfirebrick\savenue\b/gmi,
 /\bfishwives['‘’`]?\scauseway\b/gmi,
@@ -705,6 +708,9 @@ const a: RegExp[] = [
 /\bgutters\s(?:gaet|lane|plantation)\b/gmi,
 /\b(?:black|mony|shivery\sgill)\sgutters\b/gmi,
 /\bguzzle\s(?:copse|down)\b/gmi,
+
+// GW
+/\bgwern[\s-]y[\s-]go(?:\s(?:lane|wood))?\b/gmi,
 
 // GY
 /\bgymkhana\sway\b/gmi,

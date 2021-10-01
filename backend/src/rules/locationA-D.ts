@@ -234,6 +234,7 @@ const a: RegExp[] = [
 /\baztec\swest\b/gmi,
 
 // BA
+/\bbaddy['‘’`]?s\swood\b/gmi,
 /\bbarton\s(?:tors|turf)\b/gmi,
 /\bbasic\sslag\sroad\b/gmi,
 /\bbake['‘’`s]*\s(?:bottoms|wood)\b/gmi,
@@ -260,8 +261,9 @@ const a: RegExp[] = [
 /\bbeck\smeetings(?:\splantation)?\b/gmi,
 /\bBack\sSpin\sClose\b/gm,
 /\bbag\s(?:dale|enderby|hill|lane|mere|plantation|pool|pool\sway|tor|wood)\b/gmi,
-/\b(?:water\sbag\sbank|skerry\sof\sbag)\b/gmi,
+/\bwater\sbag\sbank\b/gmi,
 /\bbagpipers\stump\b/gmi,
+/\bbaggy\s(?:hole|moor|point)\b/gmi,
 /\b(?:hill\sof\sbackside|backside\s(?:common|coppice|fell|field|lane|moss|plantation|wood))\b/gmi,
 /\bbailiffs['‘’`]?\s(?:batt|close|wall)\b/gmi,
 /\bbalance\s(?:hill|meadows|road|street|wood)\b/gmi,
@@ -378,6 +380,7 @@ const a: RegExp[] = [
 /\b(?:binders\s(?:court|road)|boot\sbinders\sroad)\b/gmi,
 
 // BL
+/\bBlew\s(?:Close|Gates)\b/gm,
 /\bblackwall\stunnel\b/gmi,
 /\bblairgowrie\sand\sglens\b/gmi,
 /\bblinds\smeadow\b/gmi,
@@ -453,6 +456,7 @@ const a: RegExp[] = [
 /\bbold\sventure\sway\b/gmi,
 
 // BR
+/\bbryn\sblew\b/gmi,
 /\bbrough\ssounds\b/gmi,
 /\bbrougham\sglades\b/gmi,
 /\bbrasenose\sdriftway\b/gmi,
@@ -622,6 +626,7 @@ const a: RegExp[] = [
 /\bcask\screscent\b/gmi,
 /\bcandles\scopse\b/gmi,
 /\bcashes\sgreen\b/gmi,
+/\bcamo['‘’`]?r\safon\b/gmi,
 /\bCalm\s(?:Lane|Rock)\b/gm,
 /\bCabin\sDoor\b/gm,
 /\bcabin\s(?:close|clough|coppice|hill(?:\scovert)?|hole\swood|lands|lane|leas|moss|oaks|plain|plantation|road)\b/gmi,
@@ -828,6 +833,7 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
+/\bcoed\s(?:wern[\s-]go|y\sgo)\b/gmi,
 /\bcobble\sdump\b/gmi,
 /\bcoconut\sgrove\b/gmi,
 /\bconservation\splace\b/gmi,
@@ -1222,6 +1228,7 @@ const a: RegExp[] = [
 /\bdaylight\s(?:road|rock)\b/gmi,
 
 // DE
+/\bdeep[\s-]go\sdyke\b/gmi,
 /\bdefender\s(?:court|road)\b/gmi,
 /\bDefender\sDrive\b/gm,
 /\bdefiance\s(?:place|street)\b/gmi,
@@ -1359,6 +1366,7 @@ const a: RegExp[] = [
 /\bdrying\s(?:ground\swood|shed\slane)\b/gmi,
 
 // DU
+/\bdummy['‘’`]?s\swood\b/gmi,
 /\bduffers\splantation\b/gmi,
 /\bdunston\sand\steams\b/gmi,
 /\bdumb\s(?:bob\sspinney|(?:tom|woman)['‘’`s]*\slane)\b/gmi,

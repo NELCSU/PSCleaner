@@ -216,6 +216,7 @@ const a: RegExp[] = [
 /\bkingmaker\sway\b/gmi,
 
 // KN
+/\bknave[\s-]go[\s-]by\b/gmi,
 /\bknights\stemplars\sgreen\b/gmi,
 /\bKnights\sTemplars\b/gm,
 /\bknees?\shill\b/gmi,
@@ -287,8 +288,9 @@ const a: RegExp[] = [
 /\bland\sfloods\sdrove\b/gmi,
 /\b(?:Land\s(?:Close|Ends|Part)|(?:Low|No[\s-]Man['‘’`]?s|Parish|rough)\sLand)\b/gm,
 /\bland['‘’`]?s\send\b/gmi,
+/\bland\sof\s(?:canaan|green\sginger|nod)\b/gmi,
 /\bland\s(?:combe|coppice|cove|cut\slane|dike|end|floods\sdrove|gate|girl|grove|hill|lane|loch|mackie)\b/gmi,
-/\bland\s(?:moor|oak|of\s(?:canaan|green\sginger|nod)|park|plantation|quarry|side|society\slane|street|taing|way|wood)\b/gmi,
+/\bland\s(?:moor|oak|park|plantation|quarry|side|society\slane|street|taing|way|wood)\b/gmi,
 /\b(?:promised\sland\s(?:academy|lane)|school\sland\slane|south\sland\sstreet|wood\sland\sway)\b/gmi,
 /\bLanding\s(?:Bay|Close|Lights)\b/gm,
 /\b(?:blacksmith['‘’`]?s|broad|coble|east|frenchman['‘’`]?s|jarvis['‘’`]?|king['‘’`]?s|marsden|merchants|north|rawcliffe|roman|sandhall|south|steadholm|whitehall)\slanding\b/gmi,
@@ -341,7 +343,7 @@ const a: RegExp[] = [
 /\b(?:manxey|muchelney|pett|redvein|scout\smoor\shigh|wentlooge|west\slangney|westhay|wood\sof)\slevel\b/gmi,
 /\blevel\s(?:cleugh|common|crossing\sroad|drive|hill|lane|mare\slane|reservoirs|road|street|way)\b/gmi,
 /\b(?:Lower\sForest\sLevel|Hard\sLevel\sForce|(?:Middle|North|Upper\sForest)\sLevel)\b/gm,
-/\b(?:level\sof\smendalgief|level['‘’`]?s\sgreen|new\slevel\shill|old\slevel\sway|rhew\slevel\slane|the\schaddock\slevel)\b/gmi,
+/\b(?:level\sof\smendalgief|level['‘’`]?s\sgreen|new\slevel\shill|old\slevel\sway|the\schaddock\slevel)\b/gmi,
 /\bleveller\s(?:end|road|way)\b/gmi,
 
 // LI
@@ -376,6 +378,9 @@ const a: RegExp[] = [
 /\b(?:lithe\slochan|na\slithe|chrann[\s-]lithe)\b/gmi,
 /\blive\smoor\b/gmi,
 /\bLive\sStock\b/gm,
+
+// LL
+/\bllwyn[\s-]y[\s-]go\b/gmi,
 
 // LN
 /\bLNG\sterminal\b/gmi,

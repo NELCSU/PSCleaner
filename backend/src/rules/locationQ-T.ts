@@ -142,6 +142,7 @@ const a: RegExp[] = [
 /\breview\s(?:ground|oak|road)\b/gmi,
 
 // RH
+/\brhew\slevel\slane\b/gmi,
 /\brhodfa\sgop\b/gmi,
 /\brhododendron\s(?:avenue|close|covert|drive|hill|plantation|ride|road|spinney|walk|woods?)\b/gmi,
 /\brhombus\sbusiness\b/gmi,
@@ -601,6 +602,7 @@ const a: RegExp[] = [
 /\bsize\s(?:house\s(?:place|road)|street)\b/gmi,
 
 // SK
+/\bskerry\sof\sbag\b/gmi,
 /\bskate\s(?:back|bay|geo|hill|lakes|moor|of\smarrister|plantation|point|pool)\b/gmi,
 /\bskate\s(?:road|rock|skerry|stack|wood)\b/gmi,
 /\bskate['‘’`]?s\s(?:hill|wood)\b/gmi,

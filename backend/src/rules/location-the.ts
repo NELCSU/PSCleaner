@@ -163,7 +163,8 @@ export const LocationTheRegEx: RegExp[] = [
   // N
   /\bThe\sNa(?:meless|p|pping|tional\sSchool)\b/gm,
   /\bThe\sNe(?:edles?|ck\sGut|therlands|utral\sGround)\b/gm,
-  /\bThe\sN(?:oose|ostrils|urseries|ursery)\b/gm,
+  /\bThe\sNo(?:des|oks?|ose|strils)\b/gm,
+  /\bThe\sNu(?:rseries|rsery)\b/gm,
 
   // O
   /\bThe\sOlde?\sArmoury\b/gm,
@@ -229,7 +230,8 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sRope(?:makers['‘’`]?|walk|way)\b/gm,
   /\bThe\sRos(?:[ae]ry|\s(?:School|[Ww]alk))\b/gm,
   /\bThe\sRotunda\b/gm,
-  /\bThe\sRou(?:gh(?:\s(?:Grounds?|Park|Patch|Strip)|s)|nd|ndabouts?|ts)\b/gm,
+  /\bThe\sRough(?:\s(?:Grounds?|Park|Patch|Strip)|s)?\b/gm,
+  /\bThe\sRou(?:nd|ndabouts?|ts)\b/gm,
   /\bThe\sRows?\b/gm,
   /\bThe\sRoyal(?:\s(?:Drift|Free|High|Masonic|National)|ty)\b/gm,
   /\bThe\sRu(?:ins|n|nners|sh)\b/gm,

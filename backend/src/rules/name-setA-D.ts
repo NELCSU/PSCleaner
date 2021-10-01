@@ -59024,6 +59024,8 @@ const a: string[] = [
 "cottagebank",
 "cottagewell",
 "cottall",
+"cottam",
+"cottams",
 "cottar",
 "cottard",
 "cottars",
