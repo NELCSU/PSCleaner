@@ -77,9 +77,11 @@ const a: RegExp[] = [
   /\bpouch\sof\s(?:douglas|hartmann|morison|rathke)\b/gmi,
   /\b(?:douglas|hartmann|morison|rathke)['‘’`]?s?\spouch\b/gmi,
   /\b(?:cysts?|hydatids|lacunae)\sof\smorgagni\b/gmi,
+
   // J
-  /\bjew[ei]tt\sbrace\b/gmi,
+  /\bjew[ei]tt?\sbrace\b/gmi,
   /\bjobson\shorne\sprobe\b/gmi,
+
   // L
   /\blichenoid\skeratosis?\b/gmi,
   /\bdossett\sbox\b/gmi,

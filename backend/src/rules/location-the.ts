@@ -138,7 +138,7 @@ export const LocationTheRegEx: RegExp[] = [
   // K
   /\bThe\sKe(?:els|en|ep|nnels|strels|t|ttle|ys?)\b/gm,
   /\bThe\sKi(?:lns?|ng['‘’`]?s|ngfishers|osk|rk['‘’`]?s\sAlarm)\b/gm,
-  /\bThe\sKn(?:ees?|ock)\b/gm,
+  /\bThe\sKn(?:ees?|ight|ights\sTemplar|ob|ock|olls|otty\sLine)\b/gm,
   
   // L
   /\bThe\sL\sStrip\b/gm,
@@ -301,7 +301,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sWay(?:back|side)?\b/gm,
   /\bThe\sWe(?:ar|avers|bs|dges|irs?|llheads|lls?|nt)\b/gm,
   /\bThe\sWhi(?:p|rlpool|rls|sky\sLine|stlers?|te\sRose|thy['‘’`]?s)\b/gm,
-  /\bThe\sWh(?:ale|arf|eel|eelers)\b/gm,
+  /\bThe\sWh(?:ale|arf|arfage|eel|eelers)\b/gm,
   /\bThe\sWi(?:ck|ckets?|itterings)\b/gm,
   /\bThe\sWid(?:e\sWaters|ow)\b/gm,
   /\bThe\sWil(?:d\sFlower\sMeadow|derness|lows?)\b/gm,

@@ -2148,6 +2148,22 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "knock",            // standalone & placenames (74)
 "knuckle",          // name & placenames (2)
 "knuckles",         // name & placename
+"knack",            // name & placename
+"knell",            // name & placenames (3)
+"knighting",        // name
+"knightly",         // name & placenames (2)
+"knitter",          // name & placename
+"knob",             // name & placenames (18)
+"knocker",          // name & placenames (2)
+"knoll",            // name & placenames (170)
+"knolls",           // name & placenames (16)
+"knot",             // name & placenames (17)
+"knotting",         // standalone & placenames (6)
+"kobold",           // name
+"kongo",            // name
+"kook",             // name
+"kraal",            // name
+"kudu",             // name
 
 // L
 "labour",           // name & placenames (5)

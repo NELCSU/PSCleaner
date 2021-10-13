@@ -14,7 +14,7 @@ const a: RegExp[] = [
 /\bm(?:arkets|ast|astiff|ean|echanics?['‘’`]?|ed|ilk|iserable|istress)\slane\b/gmi,
 /\bm(?:ob|ock|onkey(?:\sisland)?|ortuary|ug\smill|uster\sroll|ux['‘’`]?s|y\s(?:lords|love))\slane\b/gmi,
 /\bm(?:edium\ssection|ess|ixes\shill|m|onomer|oor\sowners|unicipal|y\slords)\sroad\b/gmi,
-/\bmother['‘’`s]*\ssquare\b/gmi,
+/\bmother['‘’`s]*\s(?:square|wood)\b/gmi,
 /\bm(?:anagers|anner(?:\ssutton)?|eal|eeting|id[\s-](?:loan|wharf)|ilk|otion)\sstreet\b/gmi,
 /\bm(?:aroons|edia|oderna)\sway\b/gmi,
 /\bm(?:atches|ounting\sdame|usings)\swood\b/gmi,

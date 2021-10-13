@@ -1639,69 +1639,38 @@ const a: string[] = [
 "herders",
 "herding",
 "herds",
-"hill",           // placenames (1k+)
-"hilltop",        // standalone & placenames (37)
-"hilltops",       // standalone
-"highpoint",      // standalone
-"hints",          // standalone
-"hobgoblin",      // standalone & placename
-"holly",          // name & placenames (265)
-"hope",           // name & placenames (314)
-"hook",           // name & standalone & placenames (130)
-"horsefair",      // standalone & placenames (8)
-"hue",            // name
-"hull",           // name & standalone & placenames (51)
-"hunt",           // name & placenames (72)
+"hill",             // placenames (1k+)
+"hilltop",          // standalone & placenames (37)
+"hilltops",         // standalone
+"highpoint",        // standalone
+"hints",            // standalone
+"hobgoblin",        // standalone & placename
+"holly",            // name & placenames (265)
+"hope",             // name & placenames (314)
+"hook",             // name & standalone & placenames (130)
+"horsefair",        // standalone & placenames (8)
+"hue",              // name
+"hull",             // name & standalone & placenames (51)
+"hunt",             // name & placenames (72)
 
 // I
-"illustrious",    // standalone
-"ivy",            // name
+"illustrious",      // standalone
+"ivy",              // name
 
-// J
-"jabber",         // name
-"jan",            // name & placenames (7)
-"jersey",         // standalone & placenames (23)
-"jesters",        // standalone
-"jesus",          // name
-"joy",            // name
+// J  
+"jabber",           // name
+"jan",              // name & placenames (7)
+"jersey",           // standalone & placenames (23)
+"jesters",          // standalone
+"jesus",            // name
+"joy",              // name
 // K
-"king",           // name & placenames (799)
-"kingfishers",    // standalone
-"knack",
-"kneedeep",       // standalone
-"knell",
-"knells",
-"knight",
-"knighthoods",
-"knighting",
-"knightly",
-"knights",
-"knitter",
-"knitters",
-"knitting",
-"knob",
-"knobby",
-"knockdown",
-"knocker",
-"knockers",
-"knocking",
-"knockings",
-"knoll",
-"knolls",
-"knot",
-"knotgrass",
-"knots",
-"knotting",
-"knotty",
-"koala",
-"kobold",
-"kongo",
-"kook",
-"kookaburra",
-"kraal",
-"krypton",
-"kudu",
-"kungfu",
+"king",             // name & placenames (799)
+"kingfishers",      // standalone
+"kneedeep",         // standalone
+"knight",           // name & placenames (63)
+"knights",          // name & standalone & placenames (62)
+"knockdown",        // standalone & placename
 // L
 "lakeside",         // standalone
 "labrador",
