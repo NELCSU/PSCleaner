@@ -833,7 +833,7 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
-/\bcoed\s(?:wern[\s-]go|y\sgo)\b/gmi,
+/\bcoed\s(?:wern[\s-]go|y\sgo|y\strenches)\b/gmi,
 /\bcobble\sdump\b/gmi,
 /\bcoconut\sgrove\b/gmi,
 /\bconservation\splace\b/gmi,

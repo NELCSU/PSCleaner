@@ -468,6 +468,7 @@ const a: RegExp[] = [
 /\boutflow\sgeo\b/gmi,
 /\boust\srocks\b/gmi,
 /\bout(?:let|puts|side)\slane\b/gmi,
+/\bouter\strinities\b/gmi,
 /\b(?:ben\sour|our\s(?:ness|place\sschools))\b/gmi,
 /\bOur\s(?:Holy|Lady['‘’`]?s?)\b/gm,
 /\bouster\s(?:bank|gill\shill)\b/gmi,

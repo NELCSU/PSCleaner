@@ -275,7 +275,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sTh(?:atch|atchers|ickets?|imbles|ird|istles|rift|orns?|oroughfare)\b/gm,
   /\bThe\sTi(?:mber\sway|mbers|ns|ps|the|things)\b/gm,
   /\bThe\sTo(?:e|ll|llgate|mb|mbstone|n|ngues?|ons|piary|ppings|re|rs|wers?|wn|wpath)\b/gm,
-  /\bThe\sTr(?:am|amway|ap|eehouse|ees|iangle|ip|undle|ough)\b/gm,
+  /\bThe\sTr(?:am|amway|ap|eehouse|ees|eetops|ench|iangle|ip|undle|ough)\b/gm,
   /\bThe\sTur(?:k|n|ning|npike|nstiles?|rets)\b/gm,
   /\bThe\sTu(?:mbles?|mblers|nnel)\b/gm,
   /\bThe\sTw(?:enties|innings|ist|o\s(?:Acre|Brothers))\b/gm,

@@ -4039,6 +4039,23 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "towns",            // name & placenames (15)
 "towpath",          // standalone & placenames (10)
 "toxin",            // name
+"tracer",           // name
+"trad",             // name
+"trammel",          // name & placename
+"tramp",            // name & placename
+"tranny",           // name
+"traverse",         // name & placenames (3)
+"treacle",          // name & placenames (5)
+"treble",           // name & placenames (4)
+"trek",             // name & placename
+"trembly",          // name
+"trench",           // name & standalone & placenames (30)
+"tri",              // name & placenames (24)
+"tricker",          // name
+"trickey",          // name & placenames (4)
+"trickle",          // name
+"trident",          // name & standalone & placenames (8)
+"trimming",         // name & placenames (3)
 "trace",            // name & placenames (2)
 "trackside",        // standalone & placenames (2)
 "trader",           // name & placenames (2)
@@ -4075,6 +4092,11 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "trumpet",          // name & standalone & placenames (5)
 "trumps",           // name & placenames (8)
 "trundle",          // name & placenames (8)
+"tripe",            // name & placename
+"triplet",          // name
+"trippy",           // name
+"troll",            // name & placenames (3)
+"trombone",         // name
 "tsar",             // name
 "tuba",             // name
 "tubby",            // name & placenames (5)
