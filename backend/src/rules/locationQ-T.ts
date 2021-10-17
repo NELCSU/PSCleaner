@@ -207,6 +207,7 @@ const a: RegExp[] = [
 /\brosehip\s(?:avenue|chase|close|court|drive|rise|road|walk|way)\b/gmi,
 /\brosary\s(?:avenue|close|court|drive|gardens|lane|primary|road)\b/gmi,
 /\brosery\s(?:close|lane|mews|road)\b/gmi,
+/\brosiers\s(?:gardens|wood)\b/gmi,
 /\brotten\s(?:bottom|cl[eo]ugh|craigs?|drove|edge\splantation|end|geo|green(?:\sroad)?|gutter|hill(?:\scopse)?)\b/gmi,
 /\brotten\s(?:kaim|loch|marsh|moss|nick|park|row(?:\shill)?|scar|shun|stacks|sykes\slane)\b/gmi,
 /\bRott(?:en|ing)\sWood\b/gm,

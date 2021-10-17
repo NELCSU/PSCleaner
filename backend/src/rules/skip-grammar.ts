@@ -16,6 +16,7 @@ const a: RegExp[] = [
   /\bassociate\sdean\b/gmi,
   /\bat\shome\b/gmi,
   /\bat\sthe\b/gmi,
+  
   // B
   /\bbarking\sdog\b/gmi,
   /\bbaby\sjesus\b/gmi,
@@ -28,6 +29,7 @@ const a: RegExp[] = [
   /\bblack\s(?:box|friday)\b/gmi,
   /\bbona\sfide\b/gmi,
   /\bbrave\snew\b/gmi,
+
   // C
   /\bCan\sthe\b/gm,
   /\bchild\sof\b/gmi,
@@ -41,12 +43,14 @@ const a: RegExp[] = [
   /\bto\sclose\b/gm,
   /\bconcerns\smount\b/gmi,
   /\bcul[\s-]de[\s-]sac\b/gmi,
+
   // D
   /\b(?:d[eé]j[aà])\svu\b/gmi,
   /\bde\sjour\b/gm,
   /\bdirector[\s\-]general\b/gmi,
   /\bdrive\sdown\b/gmi,
   /\bdua['‘’`]?s\slayer\b/gmi,
+
   // E
   /\beastern\sbloc\b/gmi,
   /\ben\smasse\b/gmi,
@@ -58,11 +62,13 @@ const a: RegExp[] = [
   /\bforce\sfield\b/gmi,
   /\bfoster\s(?:carer|father|mother|parent)\b/gmi,
   /\bfriends\sof\b/gmi,
+
   // G
   /\bgood\s(?:friday|morning)\b/gmi,
   /\bgreat\sbritish\b/gmi,
   /\bguinea\spig\b/gmi,
   /\bgung[\s-]ho\b/gm,
+
   // H
   /\bhail\smary\b/gmi,
   /\bhanky[\s-]panky\b/gmi,
@@ -71,15 +77,19 @@ const a: RegExp[] = [
   /\bHope\sof\b/gm,
   /\bHopes\s(?:for|that)\b/gm,
   /\bhunker\sdown\b/gmi,
+
   // I
+  /\b(?:inner|lower|outer|upper)\s(?:inner|lower|outer|upper)\b/gmi,
   /\bin\slieu\sof\b/gmi,
   /\bin-the-back\b/gmi,
   /\bivy\sleague\b/gmi,
+
   // L
   /\blaissez[\s-]faire\b/gmi,
   /\blate[\s-]comer\b/gmi,
   /\blent\sback\b/gmi,
   /\blo\sand\sbehold\b/gmi,
+
   // M
   /\bmanial\senvelope\b/gmi,
   /\bmark\smy\swords\b/gmi,
@@ -92,15 +102,18 @@ const a: RegExp[] = [
   /\bmore\son\b/gmi,
   /\bmotley\screw\b/gmi,
   /\bmurphy['‘’`]?s\slaw\b/gmi,
+
   // N
   /\bnew\syear\b/gmi,
   /\bnobel\sprize\b/gmi,
   /\bnon\-\w+\b/gmi,
+
   // O
   /\bone\sof\sthe\b/gmi,
   /\bon\sfoot\b/gmi,
   /\bon\stop\sof\b/gmi,
   /\boverton\swindow\b/gmi,
+
   // P
   /\bhaving\sa\spaddy\b/gmi,
   /\bpeace\sprize\b/gmi,
@@ -109,10 +122,12 @@ const a: RegExp[] = [
   /\bpower\sclub\b/gmi,
   /\b(?:lower|upper)\squadrant\b/gmi,
   /\bquod\serat\b/gmi,
+
   // R
   /\bran\sback\b/gmi,
   /\broad\smap\b/gm,
   /\brust\sbelt\b/gmi,
+
   // S
   /\b(?:small|medium|large)[\s-]scale\b/gmi,
   /\bsub-station\b/gmi,
@@ -122,11 +137,13 @@ const a: RegExp[] = [
   /\bsmall\sarms\b/gmi,
   /\bstepping\son\b/gmi,
   /\b(?:autumn|spring|summer|winter)\s(?:camp|period)\b/gmi,
+
   // T
   /\bbig\stech\b/gmi,
   /\btik\stok\b/gmi,
   /\b(?:back|top)\sof\sfoot\b/gmi,
   /\btooth\s*fairy\b/gmi,
+
   // U
   /\bUncle\sTom\b/gm,
   /\b[Üüu]ber\salles\b/gmi,
