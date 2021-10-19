@@ -253,7 +253,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sSm(?:elt|ithy)\b/gm,
   /\bThe\sSo(?:le|und)\b/gm,
   /\bThe\sSp(?:ain|ectacles|lashes|ortsman|ot|out|rings?|rig|ruces|ur)\b/gm,
-  /\bThe\sSpi(?:ke|nnakers?|nne[ry]s?|t)\b/gm,
+  /\bThe\sSpi(?:got|ke|llway|ndles?|nnakers?|nne[ry]s?|res|t|tal)\b/gm,
   /\bThe\sSqu(?:are|ires|irrels)\b/gm,
   /\bThe\sStat(?:e\sHospital|utes)\b/gm,
   /\bThe\sSta(?:cks?|ff|gs|irs|kes|lls|mpers|nces|ples|rs|rlings)\b/gm,

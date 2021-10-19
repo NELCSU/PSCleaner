@@ -3481,6 +3481,10 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "southward",        // name & standalone & placenames (11)
 
 // SP
+"spiller",          // name & placenames (2)
+"spillers",         // name & placename
+"spilling",         // name & placename
+"spires",           // name & placenames (16)
 "spitter",          // name
 "spitters",         // name
 "spittle",          // name & placenames (8)

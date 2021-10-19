@@ -747,6 +747,10 @@ const a: RegExp[] = [
 /\bpaisley\ssouth(?:east|west)\b/gmi,
 
 // SP
+/\bspindrift\s(?:avenue|close|mews|way|wynd)\b/gmi,
+/\bspindles\slane\b/gmi,
+/\bspill\s(?:pond|timbers\swood)\b/gmi,
+/\bspigot\s(?:lane|lodge\splantation|plantation|well\shill)\b/gmi,
 /\bSpotter\sClose\b/gm,
 /\bspoonbill\s(?:close|rise|road|way)\b/gmi,
 /\bspook\shill\b/gmi,

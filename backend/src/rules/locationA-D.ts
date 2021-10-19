@@ -607,11 +607,13 @@ const a: RegExp[] = [
 /\bc\sp\sschool\b/gmi,
 /\bC\s(?:Road|Street)\b/gm,
 // CA
+/\bcardington\sspillway\b/gmi,
 /\bcalve\s(?:croft\sroad|island)\b/gmi,
 /\bcalving\s(?:close\scopse|hill)\b/gmi,
 /\bcaltrop\splace\b/gmi,
 /\bcalamine\sstreet\b/gmi,
 /\bcalfs\swood\b/gmi,
+/\bcarn\ssperm\b/gmi,
 /\bcages\s(?:close|way|wood\sdrive)\b/gmi,
 /\bcadets\swalk\b/gmi,
 /\bcarlin\stooth\b/gmi,

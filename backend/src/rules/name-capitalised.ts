@@ -3314,21 +3314,10 @@ const a: string[] = [
 "spells",
 "spender",
 "spenders",
-"sperm",
-"spigot",
-"spill",
-"spiller",
-"spillers",
-"spilling",
-"spillway",
-"spindle",
-"spindles",
-"spindrift",
-"spinoff",
+"spindle",          // name & standalone & placenames (35)
+"spindles",         // standalone
 "spire",            // name & standalone & placenames (50)
-"spires",
-"spiritedl",
-"spital",
+"spital",           // name & standalone & placenames (39)
 "spout",            // standalone & placenames (73)
 "steeplechase",     // standalone
 "stirling",         // name & standalone & placename (41)
