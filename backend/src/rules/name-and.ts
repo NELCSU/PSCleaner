@@ -21,7 +21,6 @@ export const NameSetJoinOnly: Set<string> = new Set([
   "garden",        // placenames (433)
   "gardens",       // placenames (1k+)
   "gate",          // placenames (1k+)
-  "geo",           // placenames (1k+)
   "grange",        // placenames (1k+)
   "greater",       // first name & placenames (17)
   "grove",         // placenames (1k+)

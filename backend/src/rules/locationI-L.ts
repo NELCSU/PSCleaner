@@ -158,12 +158,14 @@ const a: RegExp[] = [
 // JU
 /\bjunior\scadets\sroad\b/gmi,
 /\bjugglers\s(?:close|moor)\b/gmi,
+/\bjunction\scut\b/gmi,
 
 // KA
 /\bkangaroo\spond\b/gmi,
 /\bKayak\sClose\b/gm,
 
 // KE
+/\bkerridge['‘’`]?s\scut\b/gmi,
 /\b(?:Castle\sKeep|Keep\sClose|Standards\sKeep)\b/gm,
 /\b(?:acorn|albury|badgers|beechers|bricklow|cardwells|chandlers|conisbrough|crowhurst|delancey)\skeep\b/gmi,
 /\b(?:castle\skeep\s(?:gardens|mews)|high\skeep\sfold)\b/gmi,
@@ -188,6 +190,7 @@ const a: RegExp[] = [
 /\bLower\sKey\b/gm,
 
 // KI
+/\bki(?:lnhurst|ndersley['‘’`]?s|rklees)\scut\b/gmi,
 /\bkings\ssconce\savenue\b/gmi,
 /\bkingsmark\sfreeway\b/gmi,
 /\bkidney\s(?:clump|covert|hill|plantation|pond|sands|wood)\b/gmi,
@@ -250,6 +253,7 @@ const a: RegExp[] = [
 
 /\bl\sspinney\b/gmi,
 // LA
+/\bland\scut\slane\b/gmi,
 /\blaw\sprimary\sschool\b/gmi,
 /\bland\sof\snod\b/gmi,
 /\blauder\srambling\b/gmi,
@@ -358,8 +362,9 @@ const a: RegExp[] = [
 /\bleveller\s(?:end|road|way)\b/gmi,
 
 // LI
+/\blimehouse\scut\b/gmi,
 /\blindrick\swith\sstudley\sroyal\sand\sfountains\b/gmi,
-/\bLittle\s(?:Beside|Callipers|Man|Goat|Gulls|Load|Tumblers)\b/gm,
+/\bLittle\s(?:Beside|Callipers|Cut|Man|Goat|Gulls|Load|Tumblers)\b/gm,
 /\blittle\s(?:kindles\srow|man['‘’`]?s\sway|parts\sdrove)\b/gmi,
 /\blittle[\s-]go\splantation\b/gmi,
 /\blittleborough\slakeside\b/gmi,
@@ -397,6 +402,7 @@ const a: RegExp[] = [
 /\bLNG\sterminal\b/gmi,
 
 // LO
+/\bLo(?:ck|ng|wer)\sCut\b/gm,
 /\blong[\s-]go\slane\b/gmi,
 /\blower\scloister\b/gmi,
 /\blordsgate\stownship\b/gmi,

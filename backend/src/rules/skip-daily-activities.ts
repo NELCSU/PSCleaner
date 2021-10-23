@@ -3,19 +3,26 @@ const a: RegExp[] = [
   /\bbali\sbreeze\b/gmi,
   /\bball\sbearing\b/gmi,
   /\bangle\sgrinder\b/gmi,
+  /\banglo[\s-]saxon\b/gmi,
   /\bapril\sfool['‘’`]?s?\sday\b/gmi,
   /\bariel\s(?:liquitab|tablets?|washing)\b/gmi,
   /\bastro\sturf\b/gmi,
+
   // B
   /\bbaby\s(?:sling|walker)\b/gmi,
   /\bbali\sbreeze\b/gmi,
+  /\bbath\splug\b/gmi,
   /\bf[ae]ll\sin\sbath\b/gmi,
   /\bbatterie\b/gmi,
   /\bbean\sbag\b/gmi,
   /\bbent\s(?:down|inwards|over)\b/gmi,
   /\bblue\stack\b/gmi,
   /\b(?:bunk|divan|wooden)\sbed\b/gmi,
+  /\b(?:bleach|(?:hot\s)?water)\sbottle\b/gmi,
+  /\bbottle\sof\s(?:bleach|(?:hot\s)?water)\b/gmi,
+
   // C
+  /\bcar\spark\b/gmi,
   /\bcafés?\b/gmi,
   /\bcamping\s(?:pot|stove)s?\b/gmi,
   /\bcandle\swax\b/gmi,
@@ -25,10 +32,11 @@ const a: RegExp[] = [
   /\bcoat\shanger\b/gmi,
   /\bcotton\sbud\b/gmi,
   /\bclimbing\sframe\b/gmi,
-  /\bcut\sthrough\b/gmi,
+  /\bcut\s(?:foot|hand|through)\b/gmi,
   /\bcuticura\shand\b/gmi,
 
   // D
+  /\bdeep\s(?:blue|cave|green|hole|lake|mine|pond|purple|red|sea|tunnel|water)s?\b/gmi,
   /\bdog\scage\b/gmi,
   /\bdog\sbite\b/gmi,
   /\bdyson\s(?:appliance|brand|hoover|vacuum)s?\b/gmi,
@@ -37,6 +45,7 @@ const a: RegExp[] = [
   /\beau\sde\scologne\b/gmi,
   /\bear\sring\b/gmi,
   /\beating\smcdonalds\b/gmi,
+
   // F
   /\bfalls?\s(?:down|from|off|on|over)\b/gmi,
   /\bfell\s(?:backwards?|down|forward|from|off|on|out|over)\b/gmi,
@@ -45,35 +54,43 @@ const a: RegExp[] = [
   /\bfrench\sfries\b/gmi,
   /\bfriends\shouse\b/gmi,
   /\b(?:cut|hurt)\s(?:hand|shoulder)\b/gmi,
+
   // G
   /\bgas\spipe\b/gmi,
   /\bgetting\s(?:in|from|to|out)\b/gmi,
   /\bglass\s(?:cut|table)\b/gmi,
+
   // H
   /\bhair\sdryer\b/gmi,
   /\b(?:by|with)(?:\sa)?\shammer\b/gmi,
   /\bhand\s(?:rail|saw)\b/gmi,
   /\bhard\sedge\b/gmi,
   /\bhead\sinj(?:ury)?\b/gmi,
-  /\b(?:bleach|(?:hot\s)?water)\sbottle\b/gmi,
-  /\bbottle\sof\s(?:bleach|(?:hot\s)?water)\b/gmi,
+  /\bhigh\schair\b/gmi,
+  /\bhome\s(?:garden|stairs)\b/gmi,
   /\bhorse\sbox\b/gmi,
   /\bhover\sboard\b/gmi,
   /\bhula\shoop\b/gmi,
+
   // J
   /\b(?:canning|mason)\sjar\b/gmi,
   /\b[Jj]erry\scans?\b/gm,
   /\b(?:ji?u)?[\s-]?jitsu\b/gmi,
   /\blower\sleg\b/gmi,
   /\b(?:car|lift)\sjack\b/gmi,
+  
   // L
   /\b(?:from|of|off|on)\sladder\b/gmi,
+
   // M
   /\bmartial\sarts?\b/gmi,
+  /\bmike\s(?:check|drop)\b/gm,
   /\bmoses\s(?:basket|blanket)\b/gmi,
   /\b(?:muddy|playing|rugby)\sfields?\b/gmi,
+
   // O
   /\bon\s(?:shelf|table)\b/gmi,
+
   // P
   /\brice\spaddy\b/gmi,
   /\bpaint\sballing\b/gmi,
@@ -83,10 +100,15 @@ const a: RegExp[] = [
   /\b(?:penny|pound)\scoin\b/gmi,
   /\bplay(?:ed|ing|s)?\s(?:with\s)?(?:frisb(?:ee|y)|rugby)\b/gmi,
   /\bplaydoh\b/gmi,
+  /\bpound\ssterling\b/gmi,
   /\bgrand\sprix\b/gmi,
+
   // R
+  /\bred\scall\b/gmi,
   /\b(?:nations\s)?rugby\s(?:league|union)\b/gmi,
   /\b(?:rocking\shorse|roller\scoaster)\b/gmi,
+  /\bround[\s-]?robin\b/gmi,
+
   // S
   /\bscarf\spin\b/gmi,
   /\bsewing\smachine\b/gmi,
@@ -99,21 +121,26 @@ const a: RegExp[] = [
 
   // T
   /\btable\stennis\b/gmi,
+  /\bteddy\sbear\b/gmi,
   /\btennis\srackett?\b/gmi,
   /\bthe\sbath\b/gmi,
   /\btic\stac\b/gmi,
   /\btoliet\b/gmi,
+  /\btop\sof\sthe\sstairs\b/gmi,
   /\btrampol(?:ine)?\b/gmi,
   /\btrod\son\b/gmi,
   /\btrump\scard\b/gmi,
+
   // V
   /\bvenetian\s(?:blind|window)s?\b/gmi,
+
   // W
   /\bwashing\smachine\b/gmi,
   /\bwendy\shouse\b/gmi,
   /\bwhite\sspirit\b/gmi,
   /\bwindow\ssill\b/gmi,
   /\bwooden\s(?:bench|chair|door|floor)\b/gmi,
+
   // Z
   /\bzimmer\sframe\b/gmi
 ];

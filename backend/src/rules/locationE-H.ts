@@ -1,6 +1,7 @@
 const a: RegExp[] = [
 /\b[ef]\sstreet\b/gmi,
 // EA
+/\beau\sbrink\scut/gmi,
 /\beaster\swide\shope\b/gmi,
 /\beast\sascent\b/gmi,
 /\bE(?:ast\s[Aa]nd\s(?:South|West)|lm\s[Aa]nd\sOak)\b/gm,
@@ -69,6 +70,7 @@ const a: RegExp[] = [
 /\bempire\s(?:avenue|centre|close|court|crescent|drive|gate|grove|mews|parade|park|passage|road|street|terrace|villas|walk|way|wharf)\b/gmi,
 
 // EN
+/\benglishman['‘’`]?s\scut\b/gmi,
 /\bEnter\sLane\b/gm,
 /\bendless\s(?:copse|flat\splantation|street)\b/gmi,
 /\bendowed\s(?:church|(?:first\s|primary\s)?school)\b/gmi,
@@ -128,6 +130,7 @@ const a: RegExp[] = [
 
 // FA
 /\bfall\sof\s(?:foyers|warness)\b/gmi,
+/\bfa(?:irburn|iries\shill|ll\sings)\scut\b/gmi,
 /\bfall['‘’`]?s\sdrove\b/gmi,
 /\bfall\s(?:avenue|bank(?:\screscent)?|barn(?:\sroad)?|bay|birch\sroad|brow\sclose|cleuch\swood)\b/gmi,
 /\bfall\s(?:clough|dingle|drive|gate|gates\swoods|head\slane|hill|hole|ings\s(?:\s(?:cut|road))?)\b/gmi,
@@ -169,6 +172,7 @@ const a: RegExp[] = [
 
 // FL
 /\bfl(?:intlock|owerpot)\sclose\b/gmi,
+/\bfleet\scut\b/gmi,
 /\bFlood\sDrain\b/gm,
 /\bfloods\sdingle\b/gmi,
 
@@ -189,6 +193,7 @@ const a: RegExp[] = [
 
 // FR
 /\bfreezes\sbarns\b/gmi,
+/\bfrodsham\scut\b/gmi,
 /\bFrom\sFarm\b/gm,
 
 // FU
@@ -502,6 +507,7 @@ const a: RegExp[] = [
 
 // GE
 /\bgeorge\ssmart\sclose\b/gmi,
+/\bgeorge\scut\b/gmi,
 /\bgemsbok\sway\b/gmi,
 /\bgear\s(?:common|drive|gap\spond|hill|lane|sands|terrace|wood)\b/gmi,
 /\b(?:east|west)ern\sgear\b/gmi,
@@ -593,6 +599,7 @@ const a: RegExp[] = [
 /\bgovernors?\s(?:drive|close|marsh|mews|road|wood|yard)\b/gmi,
 
 // GR
+/\bgreenwood\scut\b/gmi,
 /\bgreat\sworm\scrag\b/gmi,
 /\bgrimsargh\swetlands\b/gmi,
 /\bGreen\sTurf\b/gm,
@@ -718,6 +725,7 @@ const a: RegExp[] = [
 /\bgypsum\s(?:close|way)\b/gmi,
 
 // HA
+/\bha(?:ckney|lifax|ll|ndford)\scut\b/gmi,
 /\bhag\sworm\shill\b/gmi,
 /\bhagg\sworm\shaw\smoss\b/gmi,
 /\bharold\sheading\sclose\b/gmi,
@@ -849,6 +857,7 @@ const a: RegExp[] = [
 /\bhiker(?:\sgrove|s\sway)\b/gmi,
 
 // HO
+/\bho(?:ckerill|lme|ughton)\scut\b/gmi,
 /\bhomegrown\scopse\b/gmi,
 /\bhorspath\sdriftway\b/gmi,
 /\bhogs\s(?:earth|edge|gate|hill(?:\scopse)?|hole\sspinney|holes|law|lodge\slane|wood)\b/gmi,

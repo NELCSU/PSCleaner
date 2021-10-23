@@ -42,6 +42,7 @@ const a: RegExp[] = [
 /\bunnamed\s(?:rd|road)\b/gmi,
 
 // UP
+/\bUpper\sCut\b/gm,
 /\bupend\s(?:road|wood)\b/gmi,
 /\b(?:burnt-up\sdrove|donington\sup\sfen|lock-up\slane|monkton\sup\swimborne|new\sroll-up)\b/gmi,
 /\b(?:old\sroll-up|shoot-up\shill|stonebeck\sup)\b/gmi,
@@ -55,6 +56,7 @@ const a: RegExp[] = [
 /\bupshot\s(?:lane|wood)\b/gmi,
 
 // UR
+/\burquhart\scut\b/gmi,
 /\b(?:abergavenny|ellesmere|heol|stanwix|stone|wem|whitchurch)\surban\b/gmi,
 /\burban\s(?:avenue|drive|gardens|hive|mews|road|street|terrace|view|way)\b/gmi,
 
@@ -66,6 +68,7 @@ const a: RegExp[] = [
 /\butters\shill\b/gmi,
 
 // VA
+/\bvaleroyal\scut\b/gmi,
 /\bvalley\smushroom\sfarm\b/gmi,
 /\bv\sc\sdrive\b/gmi,
 /\bvalues\sacademy\b/gmi,
@@ -83,6 +86,7 @@ const a: RegExp[] = [
 /\bvaults\s(?:lane|wood)\b/gmi,
 
 // VE
+/\bverdin['‘’`]?s\scut\b/gmi,
 /\bvenomous\scl[eo]u[cg]h\b/gmi,
 /\bv(?:enom|oice)\sroad\b/gmi,
 /\bveiny\scheese\spond\b/gmi,
@@ -239,6 +243,7 @@ const a: RegExp[] = [
 /\bwayfarer['‘’`s]*\s(?:close|drive|gardens|road|way)\b/gmi,
 
 // WE
+/\bwe(?:st|stern\sdistrict|ston|stwick)\scut\b/gmi,
 /\bWell\sWay\b/gm,
 /\bwest\s(?:ascent|cloister)\b/gmi,
 /\bwell\sbargain\scopse\b/gmi,
@@ -282,6 +287,7 @@ const a: RegExp[] = [
 /\bwether['‘’`]?s\scarn\b/gmi,
 
 // WH
+/\bwheatley(?:\shall)?\scut\b/gmi,
 /\bw(?:histlestop|ooded|orkmans)\sclose\b/gmi,
 /\bw(?:histlestop|orkmans|hores)\swood\b/gmi,
 /\bwhite\spost\sstreet\b/gmi,
@@ -323,6 +329,7 @@ const a: RegExp[] = [
 /\bwholesome\slane\b/gmi,
 
 // WI
+/\bWire\sCut\b/gm,
 /\bwitness\smoor\b/gmi,
 /\bWide\s(?:Close|Street|Valley)\b/gm,
 /\bwester\swide\shope\b/gmi,
@@ -435,6 +442,7 @@ const a: RegExp[] = [
 /\bwizards\swalk\b/gmi,
 
 // WO
+/\bwo(?:olston\snew|rmald['‘’`]?s)\scut\b/gmi,
 /\bworm\s(?:clough|dale|field|hill(?:\splantation)?|law|pool|wood)\b/gmi,
 /\bwoollen\swell\sway\b/gmi,
 /\bwool\s(?:chase|church\sof\sengland|close|clough|copse|croft|dale|down|gate|grove)\b/gmi,
@@ -513,7 +521,8 @@ const a: RegExp[] = [
 // Z
 /\bzeal\sroad\b/gmi,
 /\bzig[\s-]?zag\s(?:covert|lane|plantation|road|wood)\b/gmi,
-/\bzone\spoint\b/gmi
+/\bzone\spoint\b/gmi,
+/\bzouch\scut\b/gmi
 ];
 const LocationUZRegEx: Set<RegExp> = new Set();
 a.forEach(term => LocationUZRegEx.add(term));
