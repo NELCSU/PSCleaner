@@ -556,6 +556,7 @@ const a: RegExp[] = [
 /\bpeggy\snut\scroft\b/gmi,
 /\bpe(?:aceful|cked|g|sters|stilence)\slane\b/gmi,
 /\bpen[\s-](?:sconce|y-clip)\b/gmi,
+/\bpermitted\sbridleway\b/gmi,
 /\bperton\slakeside\b/gmi,
 
 // PI

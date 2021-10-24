@@ -1,6 +1,7 @@
 const a: string[] = [
 "abase",            // name
 "abbess",           // name & placenames (9)
+"abbey",            // name & placenames (349)
 "abbot",            // name & placenames (34)
 "abbots",           // placenames (98)
 "abele",            // name
@@ -44,7 +45,6 @@ const a: string[] = [
 "alders",           // name & placenames (70)
 "ale",              // name & placenames (7)
 "alet",             // name
-"alia",             // name
 "alibaba",          // name
 "alibi",            // name
 "aliment",          // name
@@ -74,7 +74,7 @@ const a: string[] = [
 "amiga",            // name
 "amigo",            // name
 "amino",            // name
-"amity",            // first nme & placenames (6)
+"amity",            // name & placenames (6)
 "amok",             // name
 "amper",            // name
 "ampere",           // name & placenames (2)
@@ -289,7 +289,7 @@ const a: string[] = [
 "belch",
 "belfry",
 "belladonna",
-"belle",
+"belle",                // name
 "bellies",
 "bellow",
 "bellows",
@@ -304,9 +304,9 @@ const a: string[] = [
 "beret",
 "berets",
 "berk",
-"berry",
+"berry",            // name
 "berth",
-"beryl",
+"beryl",            // name
 "besot",
 "bested",
 "bestir",
@@ -356,7 +356,7 @@ const a: string[] = [
 "birchs",
 "bird",
 "birdcage",
-"birdie",
+"birdie",             // name
 "birding",
 "birdless",
 "birds",
@@ -423,12 +423,12 @@ const a: string[] = [
 "blonder",
 "bloodhound",
 "bloodhounds",
-"bloom",
+"bloom",              // name
 "bloomer",
 "bloomers",
 "blooming",
 "blooms",
-"blossom",
+"blossom",            // name
 "blossoms",
 "blotter",
 "blotting",
@@ -497,10 +497,9 @@ const a: string[] = [
 "bongs",
 "bonk",
 "bonks",
-"bonnie",
+"bonnie",           // name
 "bonobo",
 "bonsai",
-"boo",              // name & placenames (4)
 "booby",
 "boogers",
 "boohoo",
@@ -811,7 +810,7 @@ const a: string[] = [
 "cavers",
 "caves",
 "caviare",
-"cedar",
+"cedar",            // name
 "cedars",
 "cedarwood",
 "cede",
@@ -854,9 +853,9 @@ const a: string[] = [
 "chekov",
 "cheque",
 "chequers",
-"cherish",
+"cherish",          // name
 "cherries",
-"cherry",
+"cherry",           // name
 "cherub",
 "cherubim",
 "cherubin",
@@ -982,8 +981,8 @@ const a: string[] = [
 "cledge",
 "clef",
 "cleft",
-"clemency",
-"clementine",
+"clemency",         // name
+"clementine",       // name
 "clench",
 "clenches",
 "clergyman",
@@ -1027,7 +1026,7 @@ const a: string[] = [
 "dainty",
 "dairies",
 "dais",
-"daisy",
+"daisy",          // name
 "dale",           // name
 "dales",
 "dally",
@@ -1064,7 +1063,7 @@ const a: string[] = [
 "daunt",
 "dauntless",
 "davinci",
-"dawn",
+"dawn",             // name
 "dawns",
 "daze",
 "dazy",
@@ -1090,7 +1089,6 @@ const a: string[] = [
 "decoy",
 "deed",
 "deejay",
-"deem",
 "deems",
 "deeps",
 "deepsea",
@@ -1130,7 +1128,7 @@ const a: string[] = [
 "dents",
 "denture",
 "depot",
-"desire",
+"desire",           // name
 "destiny",          // name
 "detente",
 "detour",
@@ -1141,7 +1139,7 @@ const a: string[] = [
 "dials",
 "diamant",
 "diamante",
-"diamond",
+"diamond",          // name
 "dias",
 "dib",
 "dibber",
@@ -1198,7 +1196,7 @@ const a: string[] = [
 "ditcher",
 "ditchers",
 "ditches",
-"diva",
+"diva",             // name
 "divan",
 "diver",
 "divers",
@@ -1236,7 +1234,7 @@ const a: string[] = [
 "dollars",
 "dollops",
 "dolls",
-"dolly",
+"dolly",          // name
 "dolt",
 "domes",
 "domesday",
@@ -1260,7 +1258,7 @@ const a: string[] = [
 "dots",
 "douche",
 "douse",
-"dove",
+"dove",               // name
 "dovecot",
 "dovecote",
 "dovecotes",
@@ -1332,14 +1330,14 @@ const a: string[] = [
 "dusk",
 "dusky",
 "dustman",
-"dusty",
+"dusty",                // name
 "dwellings",
 
 // E
 "ebb",
 "ebbing",
 "ebbs",
-"ebony",
+"ebony",            // name
 "ecard",
 "echidna",
 "eclair",
@@ -1518,14 +1516,14 @@ const a: string[] = [
 "halfpenny",
 "halibut",
 "hall",
-"hallelujah",
+"hallelujah",         // name
 "hallmark",
 "hallow",
 "hallowed",
 "hallowing",
 "hallows",
 "halls",
-"halo",
+"halo",               // name
 "halt",
 "halter",
 "halters",
@@ -1561,7 +1559,7 @@ const a: string[] = [
 "harlots",
 "harmer",
 "harmers",
-"harmony",
+"harmony",          // name
 "harms",
 "harp",
 "harper",           // name & placenames (55)
@@ -1598,7 +1596,7 @@ const a: string[] = [
 "haunt",
 "haunted",
 "haunts",
-"haven",
+"haven",            // name
 "havens",
 "havoc",
 "haw",
@@ -1643,12 +1641,12 @@ const a: string[] = [
 "hearty",
 "heath",            // name & placenames (1k+)
 "heathen",
-"heather",
+"heather",          // name
 "heathers",
 "heathery",
 "heaths",
 "heaveho",
-"heavenly",
+"heavenly",         // name
 "heavens",
 "heck",
 "heckle",
@@ -1716,7 +1714,7 @@ const a: string[] = [
 // J  
 "jabber",           // name
 "jan",              // name & placenames (7)
-"jersey",           // standalone & placenames (23)
+"jersey",           // name & standalone & placenames (23)
 "jesters",          // standalone
 "jesus",            // name
 "joy",              // name
@@ -1738,7 +1736,7 @@ const a: string[] = [
 "lachrymal",
 "lackey",
 "lacuna",
-"lacy",
+"lacy",             // name
 "lad",
 "laddie",
 "laden",
@@ -1792,7 +1790,7 @@ const a: string[] = [
 "lardy",
 "largemouth",
 "largess",
-"lark",
+"lark",           // name
 "larks",
 "las",
 "lass",
@@ -1815,8 +1813,7 @@ const a: string[] = [
 "laureat",
 "laureate",
 "laureates",
-"lava",
-"lavender",
+"lavender",           // name
 "lavenders",
 "lawfull",
 "lawless",
@@ -1888,7 +1885,7 @@ const a: string[] = [
 "liars",
 "liberator",
 "libertine",
-"liberty",
+"liberty",          // name
 "libra",
 "libretti",
 "libretto",
@@ -1907,7 +1904,7 @@ const a: string[] = [
 "lightbox",
 "liken",
 "likens",
-"lilac",
+"lilac",          // name
 "lilacs",
 "limelight",
 "limerick",
@@ -1931,7 +1928,7 @@ const a: string[] = [
 "lippy",
 "liquorice",
 "liquorish",
-"lira",
+"lira",           // name
 "lisped",
 "listing",
 "litchi",
@@ -2015,15 +2012,14 @@ const a: string[] = [
 "lordy",
 "lore",
 "lorel",
-"lorelei",
+"lorelei",          // name
 "lores",
 "loth",
-"lotus",
+"lotus",            // name
 "louche",
 "loud",
 "lousy",
 "louts",
-"love",
 "loveless",
 "lovely",
 "lover",
@@ -2068,7 +2064,7 @@ const a: string[] = [
 "maiming",
 "mains",
 "mainspring",
-"maize",
+"maize",            // name
 "majestic",
 "maker",
 "makers",
@@ -2083,8 +2079,8 @@ const a: string[] = [
 "malts",
 "malva",
 "maori",
-"maple",
-"maples",
+"maple",            // name
+"maples",           // name & standalone & placenames (6)
 "march",            // standalone & placenames (98)
 "mark",             // name & placenames (103)
 "markers",          // standalone & placenames (2)
@@ -2108,7 +2104,7 @@ const a: string[] = [
 "maws",
 "max",              // name & placenames (7)
 "maxi",
-"may",
+"may",              // name
 "mayday",
 "mayflower",
 "mayflowers",
@@ -2148,7 +2144,7 @@ const a: string[] = [
 "mellitus",
 "mellow",
 "mellows",
-"melody",
+"melody",         // name
 "melon",
 "melons",
 "meme",
@@ -2167,13 +2163,13 @@ const a: string[] = [
 "mercies",
 "merciful",
 "mercury",
-"mercy",
+"mercy",            // name
 "meridian",
 "merino",
 "mermaid",
 "mermaids",
 "merrily",
-"merry",
+"merry",            // name
 "messengers",
 "messiah",          // name
 "messy",
@@ -2242,11 +2238,11 @@ const a: string[] = [
 "mirth",
 "miser",
 "mishap",
-"missy",
+"missy",          // name
 "mistic",
 "mistletoe",
 "mistral",
-"misty",
+"misty",          // name
 "mites",
 "mitre",
 "mitt",
@@ -2453,7 +2449,7 @@ const a: string[] = [
 "nimble",
 "nipple",
 "nips",
-"nirvana",
+"nirvana",          // name
 "nits",
 "nob",
 "nobby",
@@ -2511,7 +2507,7 @@ const a: string[] = [
 "pate",
 "pathfinder",
 "pathos",
-"patience",
+"patience",         // name
 "patina",
 "patisserie",
 "patrician",
@@ -2533,8 +2529,8 @@ const a: string[] = [
 "paymaster",
 "peabody",
 "peacemaker",
-"peach",
-"peaches",
+"peach",              // name
+"peaches",            // name
 "peachs",
 "peachy",
 "peacock",
@@ -2549,11 +2545,11 @@ const a: string[] = [
 "peans",
 "pear",
 "pearing",
-"pearl",
+"pearl",            // name
 "pearls",
 "pears",
 "peats",
-"pebbles",
+"pebbles",          // name
 "pebblestone",
 "pebbly",
 "pecan",
@@ -2580,7 +2576,6 @@ const a: string[] = [
 "peerless",
 "peers",
 "pees",
-"peggy",
 "pegs",
 "pekan",
 "pele",
@@ -2595,13 +2590,13 @@ const a: string[] = [
 "pennant",
 "penniless",
 "penning",
-"penny",
+"penny",                // name
 "pens",
 "pentathlon",
 "pentecost",
 "penthouse",
 "peperoni",
-"pepper",
+"pepper",               // name
 "pepperbox",
 "peppercorn",
 "peppering",
@@ -2610,18 +2605,17 @@ const a: string[] = [
 "perch",
 "perches",
 "perching",
-"peregrine",              // name
+"peregrine",            // name
 "perestroika",
 "perfects",
 "pergola",
-"peri",
+"peri",                 // name
 "perils",
 "perk",
 "perky",
-"perl",
-"perla",
+"perl",                 // name
+"perla",                // name
 "perm",
-"permitted",
 "persimmon",
 "pert",
 "pew",
@@ -2697,9 +2691,8 @@ const a: string[] = [
 "pioneer",
 "pioneering",
 "pious",
-"pip",            // name
 "pipe",
-"piper",
+"piper",            // name
 "pipers",
 "pipes",
 "pipet",
@@ -2708,6 +2701,7 @@ const a: string[] = [
 "pique",
 "pirate",
 "pirates",
+"pixie",            // name & placenames (5)
 "placid",
 "plaice",
 "plank",
@@ -2780,12 +2774,11 @@ const a: string[] = [
 "poplars",
 "popper",
 "popping",
-"poppy",
+"poppy",            // name
 "porcelain",
 "portcullis",
-"porter",             // name
+"porter",           // name
 "porterhouse",
-"portfolio",
 "porthole",
 "porthouse",
 "portico",
@@ -2828,7 +2821,7 @@ const a: string[] = [
 "precedent",
 "precinct",
 "precincts",
-"precious",
+"precious",           // name
 "precipice",
 "precipitator",
 "precision",
@@ -2887,7 +2880,6 @@ const a: string[] = [
 "ranges",           // name & standalone
 "ranging",
 "rangle",
-"rani",
 "ransom",
 "ransoms",
 "rant",
@@ -3063,7 +3055,7 @@ const a: string[] = [
 "rubies",
 "ruble",
 "rubles",
-"ruby",
+"ruby",           // name
 "ruck",
 "rucks",
 "rudder",
@@ -3108,10 +3100,11 @@ const a: string[] = [
 "rustlings",
 "rusts",
 "rusty",
-"rut",
+"rut",              // name
 "ruts",
 
 // S
+"sham",             // name & placenames (3)
 "sheikh",           // name
 "simeon",           // name & placenames (6)
 "sabbat",
@@ -3132,9 +3125,9 @@ const a: string[] = [
 "saddling",
 "sadness",
 "safaris",
-"saffron",
+"saffron",            // name
 "saffrons",
-"saga",
+"saga",               // name
 "sagely",
 "sages",
 "sago",
@@ -3209,7 +3202,7 @@ const a: string[] = [
 "saplings",
 "sapper",
 "sappers",
-"sapphire",
+"sapphire",           // name
 "sappy",
 "saracen",
 "saracens",
@@ -3234,7 +3227,7 @@ const a: string[] = [
 "saunas",
 "savage",
 "savages",
-"savanna",
+"savanna",          // name
 "savannahs",
 "savant",
 "saviour",
@@ -3315,7 +3308,7 @@ const a: string[] = [
 "soprano",
 "sores",
 "sorghum",
-"sorrel",
+"sorrel",           // name
 "sorrels",
 "sorrow",
 "sorrows",
@@ -3395,6 +3388,7 @@ const a: string[] = [
 "tapas",            // name
 "temple",           // name & standalone & placenames (179)
 "threshers",        // standalone
+"tia",              // name
 "tiger",            // name & placenames (18)
 "tilty",            // standalone
 "tj",               // name

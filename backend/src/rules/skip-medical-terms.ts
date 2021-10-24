@@ -289,6 +289,7 @@ const a: RegExp[] = [
   /\bs(?:antorini|tensen)['‘’`s]*\sducts?\b/gmi,
 
   // T
+  /\bTIA\b/gm,
   /\btre(?:ves|itz)['‘’`s]*\sligaments?\b/gmi,
   /\btraube['‘’`s]*\sspaces?\b/gmi,
   /\btalc\spleurodesis\b/gmi,

@@ -127,7 +127,7 @@ const a: string[] = [
 "beninese",
 "berber",
 "bermudian",
-"berta",
+
 "betawi",
 "betawian",
 "bete",
@@ -406,7 +406,7 @@ const a: string[] = [
 "jukun",
 "kabardian",
 "kabyle",
-"kaibarta",
+
 "kakwa",
 "kalaallit",
 "kalanguya",

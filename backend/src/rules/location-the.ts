@@ -152,9 +152,10 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sLunch\b/gm,
 
   // M
+  /\bThe\sMag(?:ical\sWood|nolias|pies)\b/gm,
   /\bThe\sMan(?:acles|\so['‘’`]?\sWar|or|sion\sMews|tles)\b/gm,
   /\bThe\sMar(?:ch|es?|ina|iners|lins|sh|shes|tingales|y\sRose)\b/gm,
-  /\bThe\sMa(?:gical\sWood|gnolias|gpies|idens|ll|llards|llows|sons)\b/gm,
+  /\bThe\sMa(?:idens|ll|llards|llows|ples|sons)\b/gm,
   /\bThe\sMe(?:adows?|dical\sWing|et|etings|ridians|re)\b/gm,
   /\bThe\sMi(?:dlands?|ll\sStream|llstones|lls?|llion)\b/gm,
   /\bThe\sMo(?:le|or|t|unts?|untain)\b/gm,
