@@ -14,7 +14,6 @@ const a: string[] = [
 "ace",              // name & placenames (7)
 "aced",             // name
 "aces",             // name
-"achilles",         // name & placenames (7)
 "achillies",        // name
 "acme",             // name & placenames (3)
 "acorns",           // standalone & placenames (8)
@@ -199,7 +198,6 @@ const a: string[] = [
 "baller",           // name
 "baloney",          // name
 "balcony",          // standalone and placename
-"ball",             // name & standalone (SY10) & placenames (120)
 "balsa",            // name
 "balsam",           // name & placenames (6)
 "bambino",          // name
@@ -2069,6 +2067,7 @@ const a: string[] = [
 "maker",
 "makers",
 "makings",
+"mal",              // name
 "malady",
 "malaise",
 "malarkey",
@@ -2614,7 +2613,6 @@ const a: string[] = [
 "perk",
 "perky",
 "perl",                 // name
-"perla",                // name
 "perm",
 "persimmon",
 "pert",
@@ -2734,7 +2732,6 @@ const a: string[] = [
 "pogo",
 "pogrom",
 "polar",
-"pole",
 "polecat",
 "polecats",
 "polish",
@@ -2932,7 +2929,6 @@ const a: string[] = [
 "rebury",
 "recompence",
 "recto",
-"red",              // name & standalone & placenames (534)
 "redbrick",
 "redbud",
 "redcap",

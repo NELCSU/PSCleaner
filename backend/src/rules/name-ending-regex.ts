@@ -622,7 +622,7 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+ci[bf-kru-z]\b/gmi,
    /\b[a-z]+cj[aeinouy]\b/gmi,
    /\b[a-z]+ck[a-ot-xz]\b/gmi,
-   /\b[a-z]+cl[bcf-npr-xz]\b/gmi,
+   /\b[a-z]+cl[bcf-nprsu]\b/gmi,
    /\b[a-z]+cm[en]\b/gmi,
    /\b[a-z]+cn[a-dfhijkor-wyz]\b/gmi,
    /\b[a-z]+co[cfhi-kopu-xz]\b/gmi,

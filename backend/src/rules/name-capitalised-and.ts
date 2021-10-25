@@ -2,6 +2,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ab",               // name
 "abd",              // name
 "accord",           // name & placenames (9)
+"achilles",         // name & placenames (7)
 "achy",             // name
 "acorn",            // name & placenames (50)
 "acre",             // name & placenames (722)
@@ -116,6 +117,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "baldy",            // name & placename
 "bales",            // name & placenames (8)
 "balk",             // name & placenames (92)
+"ball",             // name & standalone (SY10) & placenames (120)
 "balling",          // name
 "balls",            // name & placenames (21)
 "balm",             // name & placenames (6)
@@ -344,6 +346,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "browse",           // name & placenames (3)
 "brum",             // name & placename
 "brunt",            // name & placenames (27)
+"bruse",            // name
 "brushwood",        // name & placenames (7)
 "brace",            // name & placenames (14)
 "brand",            // name & placenames (29)
@@ -1127,6 +1130,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "feeder",           // name & placenames (9)
 "fell",             // placenames (741)
 "felling",          // name & placenames (7)
+"fellon",           // name
 "fellows",          // name & placenames (11)
 "fells",            // name & placenames (44)
 "fence",            // standalone & placenames (24)
@@ -1376,6 +1380,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "gander",           // name & placenames (9)
 "garb",             // name
 "garde",            // name & placenames (3)
+"garden",           // placenames (433)
 "gardener",         // name & placenames (22)
 "gardeners",        // standalone & placenames (21)
 "garish",           // name
@@ -2474,6 +2479,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "numbers",          // name & placenames (2)
 "nun",              // name & placenames (28)
 "nunnery",          // name & placenames (27)
+"nuro",             // name
 "nurs",             // name & placenames (3)
 "nursey",           // name & placenames (7)
 "nutty",            // name & placename
@@ -2488,6 +2494,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "oath",             // standalone & placenames (5)
 "oats",             // name & placenames (4)
 "obelisk",          // standalone & placenames (15)
+"ober",             // name
 "observatory",      // standalone & placenames (16)
 "obsidian",         // name & placename
 "occidental",       // name
@@ -2655,6 +2662,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "peoples",          // name & placenames (2)
 "perish",           // name
 "perks",            // name & placenames (4)
+"perla",            // name
 "perpetual",        // name & placenames (5)
 "perseverance",     // name & placenames (8)
 "peru",             // name & placenames (2)
@@ -2736,6 +2744,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "pod",              // name & placenames (3)
 "point",            // placenames (1k+)
 "poland",           // name & placenames (4)
+"pole",             // name
 "poles",            // name & placenames (16)
 "poll",             // placenames (195)
 "polo",             // name & placenames (11)
@@ -2804,6 +2813,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "provost",          // name & placenames (69)
 "prow",             // name & placename
 "prows",            // name
+"prox",             // name
 "prude",            // name
 "prune",            // name & placenames (2)
 "pry",              // name & placenames (14)
@@ -2916,6 +2926,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "records",          // name
 "rector",           // name & placenames (7)
 "rectory",          // placenames (85)
+"red",              // name & standalone & placenames (534)
 "refuge",           // standalone & placenames (2)
 "reg",              // name & placenames (4)
 "regency",          // standalone & placenames (24)

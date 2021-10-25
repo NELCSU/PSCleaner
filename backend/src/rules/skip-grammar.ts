@@ -73,6 +73,7 @@ const a: RegExp[] = [
   /\bhail\smary\b/gmi,
   /\bhanky[\s-]panky\b/gmi,
   /\bhead\s(?:first|on)\b/gmi,
+  /\bHeard\sa\b/gm,
   /\bholding\s(?:child|hands\swith)\b/gmi,
   /\bHope\sof\b/gm,
   /\bHopes\s(?:for|that)\b/gm,

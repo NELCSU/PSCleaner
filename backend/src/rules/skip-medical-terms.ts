@@ -1,4 +1,6 @@
 const a: RegExp[] = [
+  /\b(?:1st|2nd|3rd|[45]th)\s(?:mt|toes)\b/gmi,
+
   // A
   /\bachilli?es\stendon/gmi,
   /\badam['‘’`s]*\sapple\b/gmi,
@@ -23,6 +25,7 @@ const a: RegExp[] = [
   /\bbachmann['‘’`s]*\sbundle\b/gmi,
   /\bback\s(?:of\shead|passage)\b/gmi,
   /\bbarking\scough\b/gmi,
+  /\bbent\s(?:ankle|arm|back|finger|foot|knee|neck|shoulder|toe|wrist)\b/gmi,
   /\bbro(?:ca|dmann?)['‘’`s]*\sareas?\b/gmi,
   /\bbuck['‘’`s]*\sfascia\b/gmi,
   /\bburkitt['‘’`s]*\slymphoma\b/gmi,
@@ -38,6 +41,7 @@ const a: RegExp[] = [
   /\bbrady\sepisode\b/gmi,
   /\b[Bb]undle\sof\sHis\b/gm,
   /\bbilharzia\b/gmi,
+  /\bbuddy\sstrap\w*\b/gmi,
   
   // C
   /\bc(?:ajal(?:[\s-]retzius)?|lara)\scells?\b/gmi,
@@ -55,6 +59,7 @@ const a: RegExp[] = [
   /\bcat\sbite\b/gmi,
   /\bchassaignac['‘’`s]*\stubercle\b/gmi,
   /\bcocc[iy]x\b/gmi,
+  /\bcoller\sbone\b/gmi,
   /\bcricket\ssplint\b/gmi,
   /\bcostal\schondritis\b/gmi,
   /\bcysts?\sof\smorgagni\b/gmi,
@@ -130,12 +135,14 @@ const a: RegExp[] = [
   /\bhirschsprung['‘’`s]*\sdisease\b/gmi,
   /\bhodgkin['‘’`s]*\slymphoma\b/gmi,
   /\bhydatids\sof\smorgagni\b/gmi,
+  /\bhurt\s(?:ankle|arm|back|finger|foot|head|hip|jaw|knee|neck|shoulder|toe|wrist)\b/gmi,
 
   // I
   /\bin(?:farct|fluenza|situ)\b/gmi,
   /\biga\svasculitis\b/gmi,
   /\binflammation\sof\sbursa\b/gmi,
   /\binjurys\b/gmi,
+  /\binner\slobe\b/gmi,
   /\bislets\sof\slangerhans\b/gmi,
   /\bisland\sof\sreil\b/gmi,
 
@@ -151,6 +158,7 @@ const a: RegExp[] = [
   /\bkab(?:oo|u)ki\ssyndrome\b/gmi,
   /\bkerckring['‘’`s]*\svalves?\b/gmi,
   /\bkawasaki['‘’`s]*\sdisease\b/gmi,
+  /\b[a-z]+knee\b/gmi,
 
   // L
   /\blyme['‘’`s]*\sdisease\b/gmi,
@@ -215,6 +223,7 @@ const a: RegExp[] = [
   /\bnode\sof\s(?:lund|ranvier|virchow)\b/gmi,
   /\bnissl\s(?:bodies|granules|substance)\b/gmi,
   /\bnerve\sof\s(?:bell|herr?ing)\b/gmi,
+  /\bneurovascula\b/gmi,
 
   // O
   /\bosteogen[io]us\b/gmi,
@@ -245,10 +254,11 @@ const a: RegExp[] = [
   /\bproteus\smirabilis\b/gmi,
   /\bpeyer['‘’`s]*\spatches\b/gmi,
   /\bparieto[\s-]+occipital\b/gmi,
+  /\bPERLA\b/gm,
 
   // R
   /\bring\sfinger\b/gmi,
-  /\bred\s(?:bumps?|cheeks|eye)\b/gmi,
+  /\bred\s(?:bumps?|cheeks|eye|mark)\b/gmi,
   /\brenshaw\scells?\b/gmi,
   /\bretzius['‘’`s]*\sspaces?\b/gmi,
   /\bruffini['‘’`s]*\scorpuscles?\b/gmi,
@@ -281,12 +291,13 @@ const a: RegExp[] = [
   /\bsylvian\saqueduct\b/gmi,
   /\bspaces?\sof\s(?:disse|m[öoe]{1,2}ll|prussak|retzius|traube|virchow[\s–]robin)\b/gmi,
   /\bsalter[\s-]+harris\s(?:type\s)?[IVX1-9]{1,3}\b/gmi,
-  /\b(?:side|upper)\s(?:arm|head)\b/gmi,
+  /\bside\s(?:of\s)?(?:arm|back|head)\b/gmi,
   /\bsplinter\s(?:bottom|under)\b/gmi,
   /\bsupracondu?[ly]{2}ar\b/gmi,
   /\bshrapnell['‘’`s]*\smembrane\b/gmi,
   /\bspiegelian['‘’`s]*\sfascia\b/gmi,
   /\bs(?:antorini|tensen)['‘’`s]*\sducts?\b/gmi,
+  /\bsuprcondylar\b/gmi,
 
   // T
   /\bTIA\b/gm,
@@ -294,6 +305,7 @@ const a: RegExp[] = [
   /\btraube['‘’`s]*\sspaces?\b/gmi,
   /\btalc\spleurodesis\b/gmi,
   /\btenckhoff\scatheter\b/gmi,
+  /\btop\sof\shead\b/gmi,
   /\btorcular\sherophili\b/gmi,
   /\btinea\spedis\b/gmi,
   /\btreves['‘’`s]*\sfold\b/gmi,
@@ -302,6 +314,7 @@ const a: RegExp[] = [
 
   // U
   /\bu(?:lna|rethra|teri)\b/gmi,
+  /\bupper\s(?:arm|back|head|lobe)\b/gmi,
 
   // V
   /\bv(?:erucca|ulva)\b/gmi,
@@ -328,6 +341,8 @@ const a: RegExp[] = [
   /\bwhite\slines\sof\stoldt\b/gmi,
   /\bwormian\sbones\b/gmi,
   /\bwalk\son\stoes\b/gmi,
+  /\bwalking\sboot\b/gmi,
+  /\bweight[\s-]bear\b/gmi,
 
   // X
   /\bx[\s-]*ray(?:ed|s)?\b/gmi,

@@ -39,6 +39,7 @@ const a: RegExp[] = [
   /\bdeep\s(?:blue|cave|green|hole|lake|mine|pond|purple|red|sea|tunnel|water)s?\b/gmi,
   /\bdog\scage\b/gmi,
   /\bdog\sbite\b/gmi,
+  /\bdown\sshaft\b/gmi,
   /\bdyson\s(?:appliance|brand|hoover|vacuum)s?\b/gmi,
 
   // E
@@ -89,7 +90,7 @@ const a: RegExp[] = [
   /\b(?:muddy|playing|rugby)\sfields?\b/gmi,
 
   // O
-  /\bon\s(?:shelf|table)\b/gmi,
+  /\bon\s(?:the\s)?(?:floor|shelf|table)\b/gmi,
 
   // P
   /\brice\spaddy\b/gmi,
