@@ -3371,6 +3371,7 @@ const a: string[] = [
 "spire",            // name & standalone & placenames (50)
 "spital",           // name & standalone & placenames (39)
 "spout",            // standalone & placenames (73)
+"stair",            // standalone & placenames (16)
 "steeplechase",     // standalone
 "stirling",         // name & standalone & placename (41)
 "stoke",            // name & standalone & placenames (292)

@@ -235,6 +235,7 @@ const a: RegExp[] = [
 /\baztec\swest\b/gmi,
 
 // BA
+/\bbay\sof\sthe\sstairs\b/gmi,
 /\bbaddy['‘’`]?s\swood\b/gmi,
 /\bbarton\s(?:tors|turf)\b/gmi,
 /\bbasic\sslag\sroad\b/gmi,
@@ -702,6 +703,7 @@ const a: RegExp[] = [
 /\bcentury\s(?:avenue|belt|close|court|drive|fields|gardens|lane|lodge|mews|park|place|plantation|ponds|road|square|street|view|walk|way|wood)\b/gmi,
 
 // CH
+/\bchurch\sstairs\sstreet\b/gmi,
 /\bcha(?:ntry|pel)\scut\b/gmi,
 /\bchalkstone\s(?:close|way)\b/gmi,
 /\bchannel\stunnel\b/gmi,
@@ -846,6 +848,7 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
+/\bcoleman['‘’`]?s\sstairs\sroad\b/gmi,
 /\bco(?:mmanders|oper\sbridge)\scut\b/gmi,
 /\bcoed\s(?:wern[\s-]go|y\sgo|y\strenches)\b/gmi,
 /\bcobble\sdump\b/gmi,

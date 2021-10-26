@@ -25,6 +25,7 @@ const a: RegExp[] = [
 /\bquilters\s(?:close|drive|(?:infant|junior)\sschool|place|straight|way|wood|yard)\b/gmi,
 
 // RA
+/\braining['‘’`]?s\sstairs\b/gmi,
 /\bra(?:nscombe|tcliffe)\scut\b/gmi,
 /\bradfords\sturf\b/gmi,
 /\braffles\s(?:avenue|cleuch|place|road|street)\b/gmi,
@@ -818,6 +819,8 @@ const a: RegExp[] = [
 /\bsquashes\swood\b/gmi,
 
 // ST
+/\bstairs\s(?:bottom|hill|lane|of\s(?:mous|the\sheel)|road)\b/gmi,
+/\bstub\sstairs\b/gmi,
 /\bst(?:eelyard|onar)\scut\b/gmi,
 /\bsteeplechase\s(?:close|court|drove|rise|road|way)\b/gmi,
 /\bstring\s(?:copse|lane(?:\scopse)?)\b/gmi,

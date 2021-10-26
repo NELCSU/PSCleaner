@@ -237,7 +237,7 @@ const a: RegExp[] = [
 // NE
 /\bnene\soutfall\scut\b/gmi,
 /\bnew\scut\s(?:bow|close|drove|east|gardens|lane|rigg|road|top|west)\b/gmi,
-/\bNew\sCut\b/gm,
+/\bNew\s(?:Cut|Stairs)\b/gm,
 /\bnewton\stors\b/gmi,
 /\bnewington\slibrary\b/gmi,
 /\bnew\s(?:barrels\spitch|forest\sglades|globe\swalk|lakeside)\b/gmi,
@@ -378,7 +378,7 @@ const a: RegExp[] = [
 /\b(?:cnoc\san|loch)\soil\b/gmi,
 
 // OL
-/\bOld\sCut\b/gm,
+/\bOld\s(?:Cut|Stairs)\b/gm,
 /\bold\sstratford\scut\b/gmi,
 /\bold\sdrying\sgrounds\b/gmi,
 /\bold\s(?:horse\schestnut|(?:maid|man)['‘’`]?s|post|warp|woman['‘’`]?s)\slane\b/gmi,

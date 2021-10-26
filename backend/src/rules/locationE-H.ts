@@ -506,6 +506,7 @@ const a: RegExp[] = [
 /\bgasoline\salley\b/gmi,
 
 // GE
+/\bgeo\sof\sthe\sstairs\b/gmi,
 /\bgeorge\ssmart\sclose\b/gmi,
 /\bgeorge\scut\b/gmi,
 /\bgemsbok\sway\b/gmi,

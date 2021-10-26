@@ -190,6 +190,7 @@ const a: RegExp[] = [
 /\bLower\sKey\b/gm,
 
 // KI
+/\bking\sstairs\sclose\b/gmi,
 /\bki(?:lnhurst|ndersley['‘’`]?s|rklees)\scut\b/gmi,
 /\bkings\ssconce\savenue\b/gmi,
 /\bkingsmark\sfreeway\b/gmi,
@@ -364,6 +365,7 @@ const a: RegExp[] = [
 // LI
 /\blimehouse\scut\b/gmi,
 /\blindrick\swith\sstudley\sroyal\sand\sfountains\b/gmi,
+/\blittle\sstairs\spoint\b/gmi,
 /\bLittle\s(?:Beside|Callipers|Cut|Man|Goat|Gulls|Load|Tumblers)\b/gm,
 /\blittle\s(?:kindles\srow|man['‘’`]?s\sway|parts\sdrove)\b/gmi,
 /\blittle[\s-]go\splantation\b/gmi,
