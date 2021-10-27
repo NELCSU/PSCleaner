@@ -32326,6 +32326,7 @@ const a: string[] = [
 "nyagle",
 "nyakio",
 "nyal",
+"nyala",
 "nyaley",
 "nyalima",
 "nyaling",

@@ -30512,6 +30512,7 @@ const a: string[] = [
 "grimmers",
 "grimmette",
 "grimminger",
+"grimm",
 "grimms",
 "grimness",
 "grimotes",
