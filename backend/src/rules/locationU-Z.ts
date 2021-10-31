@@ -43,6 +43,7 @@ const a: RegExp[] = [
 
 // UP
 /\bUpper\sCut\b/gm,
+/\bupper\slandslip\b/gmi,
 /\bupend\s(?:road|wood)\b/gmi,
 /\b(?:burnt-up\sdrove|donington\sup\sfen|lock-up\slane|monkton\sup\swimborne|new\sroll-up)\b/gmi,
 /\b(?:old\sroll-up|shoot-up\shill|stonebeck\sup)\b/gmi,
@@ -136,6 +137,7 @@ const a: RegExp[] = [
 /\bvitriol\ssquare\b/gmi,
 
 // VO
+/\bvolk['‘’`]?s\selectric\srailway\b/gmi,
 /\bVoluntary\sPlace\b/gm,
 /\bvomit\spoint\b/gmi,
 /\bvolcanic\sdyke\b/gmi,
@@ -241,8 +243,10 @@ const a: RegExp[] = [
 /\bwaxes\sclose\b/gmi,
 /\bwaxy\slane\b/gmi,
 /\bwayfarer['‘’`s]*\s(?:close|drive|gardens|road|way)\b/gmi,
+/\bwalsham\s(?:and|\&)\sdistrict\b/gmi,
 
 // WE
+/\bwedder\slairs\b/gmi,
 /\bwe(?:st|stern\sdistrict|ston|stwick)\scut\b/gmi,
 /\bWell\sWay\b/gm,
 /\bwest\s(?:ascent|cloister)\b/gmi,
@@ -285,6 +289,7 @@ const a: RegExp[] = [
 /\bwether\s(?:brae|cairn|cleuch|cote\splantation|down|fell|hill|holm|howe|lair)\b/gmi,
 /\bwether\s(?:law|pool|riggs\sroad|road)\b/gmi,
 /\bwether['‘’`]?s\scarn\b/gmi,
+/\bwesthill\s(?:and|\&)\sdistrict\b/gmi,
 
 // WH
 /\bwheatley(?:\shall)?\scut\b/gmi,
@@ -440,6 +445,7 @@ const a: RegExp[] = [
 /\bWith\sMoor\b/gm,
 /\bwives['‘’`]?\shill\b/gmi,
 /\bwizards\swalk\b/gmi,
+/\bwinchelsea\s(?:and|\&)\sdistrict\b/gmi,
 
 // WO
 /\bwo(?:olston\snew|rmald['‘’`]?s)\scut\b/gmi,

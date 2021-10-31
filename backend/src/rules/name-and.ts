@@ -20,12 +20,12 @@ export const NameSetJoinOnly: Set<string> = new Set([
   "gardens",       // placenames (1k+)
   "gate",          // placenames (1k+)
   "grange",        // placenames (1k+)
-  "greater",       // first name & placenames (17)
+  "greater",       // name & placenames (17)
   "grove",         // placenames (1k+)
   "ii",            // name part
   "iii",           // name part
   "iv",            // name part
-  "jr",            // first name
+  "jr",            // name
   "lane",          // placenames (1k+)
   "little",        // placenames (1k+)
   "ln",
@@ -33,7 +33,7 @@ export const NameSetJoinOnly: Set<string> = new Set([
   "manor",         // placenames (803)
   "mc",
   "mill",          // placenames (1k+)
-  "min",           // first name & placenames (44)
+  "min",           // name & placenames (44)
   "moor",          // placenames (1k+)
   "mr",
   "mrs",
