@@ -42,6 +42,7 @@ const a: RegExp[] = [
   /\b[Bb]undle\sof\sHis\b/gm,
   /\bbilharzia\b/gmi,
   /\bbuddy\sstrap\w*\b/gmi,
+  /\bbump\shead\b/gmi,
   
   // C
   /\bc(?:ajal(?:[\s-]retzius)?|lara)\scells?\b/gmi,
@@ -102,6 +103,7 @@ const a: RegExp[] = [
   /\bfissure\sof\srolando\b/gmi,
   /\bfracture\sof\stalus\b/gmi,
   /\bflu\svacc(?:ine|ination)?\b/gmi,
+  /\bfirst\saider\b/gmi,
 
   // G
   /\bgallaudet['‘’`s]*\sfascia\b/gmi,
@@ -136,6 +138,8 @@ const a: RegExp[] = [
   /\bhodgkin['‘’`s]*\slymphoma\b/gmi,
   /\bhydatids\sof\smorgagni\b/gmi,
   /\bhurt\s(?:ankle|arm|back|finger|foot|head|hip|jaw|knee|neck|shoulder|toe|wrist)\b/gmi,
+  /\bhead\sinj(?:ury)?\b/gmi,
+  /\b(?:cut|hurt)\s(?:hand|shoulder)\b/gmi,
 
   // I
   /\bin(?:farct|fluenza|situ)\b/gmi,
@@ -189,6 +193,7 @@ const a: RegExp[] = [
   /\blund['‘’`s]*\snode\b/gmi,
   /\blobar\spneumonia\b/gmi,
   /\blimbus\sof\svieussens\b/gmi,
+  /\blower\sleg\b/gmi,
 
   // M
   /\bmonro\sforamina\b/gmi,
@@ -255,10 +260,11 @@ const a: RegExp[] = [
   /\bpeyer['‘’`s]*\spatches\b/gmi,
   /\bparieto[\s-]+occipital\b/gmi,
   /\bPERLA\b/gm,
+  /\bpearl\ssize\b/gmi,
 
   // R
   /\bring\sfinger\b/gmi,
-  /\bred\s(?:bumps?|cheeks|eye|mark)\b/gmi,
+  /\bred\s(?:bump|cheek|eye|mark)s?\b/gmi,
   /\brenshaw\scells?\b/gmi,
   /\bretzius['‘’`s]*\sspaces?\b/gmi,
   /\bruffini['‘’`s]*\scorpuscles?\b/gmi,
@@ -274,6 +280,7 @@ const a: RegExp[] = [
   /\brokitansky[\s–]aschoff\ssinuses\b/gmi,
   /\brolandic\sfissure\b/gmi,
   /\branvier['‘’`s]*\snode\b/gmi,
+  /\bred\scall\b/gmi,
 
   // S
   /\bspiegelian['‘’`s]*\slobe\b/gmi,
@@ -298,6 +305,8 @@ const a: RegExp[] = [
   /\bspiegelian['‘’`s]*\sfascia\b/gmi,
   /\bs(?:antorini|tensen)['‘’`s]*\sducts?\b/gmi,
   /\bsuprcondylar\b/gmi,
+  /\bstung\sby\b/gmi,
+  /\bshoulder\sblade\b/gmi,
 
   // T
   /\bTIA\b/gm,
@@ -305,7 +314,7 @@ const a: RegExp[] = [
   /\btraube['‘’`s]*\sspaces?\b/gmi,
   /\btalc\spleurodesis\b/gmi,
   /\btenckhoff\scatheter\b/gmi,
-  /\btop\sof\shead\b/gmi,
+  /\btop\sof\s(?:the\s)?(?:back|foot|head)\b/gmi,
   /\btorcular\sherophili\b/gmi,
   /\btinea\spedis\b/gmi,
   /\btreves['‘’`s]*\sfold\b/gmi,
@@ -325,7 +334,7 @@ const a: RegExp[] = [
   /\bvaso\s?vagal\b/gmi,
   /\bveins?\sof\s(?:galen|giacomini|retzius|thebesian)\b/gmi,
   /\bvirchow['‘’`s]*\snode\b/gmi,
-
+  
   // W
   /\bw(?:harton|irsung|olffian)['‘’`s]*\sducts?\b/gmi,
   /\bwernicke['‘’`s]*\sareas?\b/gmi,

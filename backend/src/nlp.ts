@@ -9,8 +9,8 @@ import { LocationQTRegEx } from "./rules/locationQ-T";
 import { LocationUZRegEx } from "./rules/locationU-Z";
 import { LocationTheRegEx } from "./rules/location-the";
 import { NationalRoadRegEx } from "./rules/national-road";
-import { OrganisationRegEx } from "./rules/skip-organisation";
-import { DailyActivitiesRegEx } from "./rules/skip-daily-activities";
+import { ProductsRegEx } from "./rules/skip-products";
+import { SportLeisureRegEx } from "./rules/skip-sport-leisure";
 import { MedicalAbbrRegEx } from "./rules/skip-medical-abbr";
 import { MedicalTermRegEx } from "./rules/skip-medical-terms";
 import { MedicationRegEx } from "./rules/skip-medication";
@@ -99,7 +99,7 @@ export class NLP {
       searches.push({
         action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
         entity: companyEntity,
-        matches: this._evalRegEx(data, OrganisationRegEx)
+        matches: this._evalRegEx(data, ProductsRegEx)
       });
     }
 
@@ -139,7 +139,7 @@ export class NLP {
       searches.push({
         action: { discard: 1, joinable: 0, order: 1, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
         entity: householdItemEntity,
-        matches: this._evalRegEx(data, DailyActivitiesRegEx)
+        matches: this._evalRegEx(data, SportLeisureRegEx)
       });
     }
 

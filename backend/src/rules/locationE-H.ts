@@ -1,6 +1,7 @@
 const a: RegExp[] = [
 /\b[ef]\sstreet\b/gmi,
 // EA
+/\bEastward\sLedge\b/gm,
 /\beau\sbrink\scut/gmi,
 /\beaster\swide\shope\b/gmi,
 /\beast\sascent\b/gmi,
@@ -172,16 +173,19 @@ const a: RegExp[] = [
 /\bffos[\s-]y[\s-]go\b/gmi,
 
 // FI
+/\bfi(?:ddling|ndings|nns|rm|shmonger['‘’`s]*|shes|ve\svents)\slane\b/gmi,
 /\bfirebrick\savenue\b/gmi,
 /\bfishwives['‘’`]?\scauseway\b/gmi,
 /\bfi(?:tters\smill|ver)\sclose\b/gmi,
 /\bfighting\scocks(?:\splace)?\b/gmi,
 /\bFighting\sClose\b/gm,
 /\bfigure\seight\splantations?\b/gmi,
+/\bfigtree\sledge\b/gmi,
 /\bfir\sterraces\b/gmi,
 /\bfirst\sturf\sfen\sdrove\b/gmi,
 
 // FL
+/\bFlat\sLedge\b/gm,
 /\bfl(?:intlock|owerpot)\sclose\b/gmi,
 /\bfleet\scut\b/gmi,
 /\bFlood\sDrain\b/gm,
@@ -204,18 +208,20 @@ const a: RegExp[] = [
 /\bforfar\s(?:and|\&)\sdistrict\b/gmi,
 
 // FR
+/\bfront\slebanon\b/gmi,
 /\bfreezes\sbarns\b/gmi,
 /\bfrodsham\scut\b/gmi,
 /\bFrom\sFarm\b/gm,
 /\bfraserburgh\s(?:and|\&)\sdistrict\b/gmi,
+/\bfrenchman['‘’`s]*\sledge\b/gmi,
 
 // FU
+/\bfuller\sgood\sroad\b/gmi,
 /\bfu(?:rnaces|rriers)\sclose\b/gmi,
 /\bfurthest\sdrove\b/gmi,
 /\bf(?:atten|ireball|lutters|oodie)\shill\b/gmi,
 /\bfa(?:lling|rewell)\slane\b/gmi,
 /\bfe(?:athers|lon['‘’`]?s|w['‘’`]?s)\slane\b/gmi,
-/\bfi(?:ddling|ndings|nns|rm|shmonger['‘’`s]+|shes|ve\svents)\slane\b/gmi,
 /\bfl(?:ashes|ask|ecks|o(?:ut\smoor|werpot|wery\sleys)|ush\shouse)\slane\b/gmi,
 /\bfo(?:g|otball|rget\sme\snot|rms\shouse|rward['‘’`]?s)\slane\b/gmi,
 /\bfr(?:eeholder[s'‘’`]*|idays\sham|iendless)\slane\b/gmi,
@@ -573,8 +579,19 @@ const a: RegExp[] = [
 /\bglasses\smead\b/gmi,
 /\bglastonbury\sand\sstreet\b/gmi,
 /\bglistening\sglade\b/gmi,
+/\bglass\s(?:avenue|crescent|hill|holms|houghton|house\s(?:close\swood|lane|road|row|wood))\b/gmi,
+/\bglass\s(?:lane|law|moor|moss|place|primary\sschool|rig|road|street|way|wood|yard)\b/gmi,
+/\bglass['‘’`]?s\s(?:copse|lane|rocks\slane)\b/gmi,
+/\bglen\sglass\b/gmi,
 
 // GO
+/\bgood\s(?:bent\shey|bush\shill|friday\s(?:hill|plantation)|hill|hook\slane)\b/gmi,
+/\bGood\s(?:Easter|Intent|Road|Street)\b/gm,
+/\bgood\s(?:hope\s(?:close|court|hospital)|lands|lane|moors|neighbours\slane)\b/gmi,
+/\bgood\s(?:shepherd\s(?:catholic\sprimary|close|drive|roman\scatholic|school))\b/gmi,
+/\bgood['‘’`]?s\s(?:clump|green|lane)\b/gmi,
+/\bgoat\sledge\b/gmi,
+/\bgoblin\sledge\b/gmi,
 /\bgoose\strack\slane\b/gmi,
 /\bgout\s(?:fawr(?:\spill)?|green)\b/gmi,
 /\bgossips\s(?:moor|wood\sroad)\b/gmi,
@@ -616,6 +633,9 @@ const a: RegExp[] = [
 /\bgoole\s(?:and|\&)\sdistrict\b/gmi,
 
 // GR
+/\bgraystone\sledge\b/gmi,
+/\bgreat\s(?:crabs|english\sisland|merrick|rag|rushy\sbay)\sledge\b/gmi,
+/\bGreat\sLedge\b/gm,
 /\bgreen\slagoon\b/gmi,
 /\bgreetham\swood\snear\b/gmi,
 /\bgreenwood\scut\b/gmi,
@@ -708,6 +728,7 @@ const a: RegExp[] = [
 /\bgrantham\s(?:and|\&)\sdistrict\b/gmi,
 
 // GU
+/\bgurnard\sledge\b/gmi,
 /\bgunna\ssoy\b/gmi,
 /\bgunmaker\scourt\b/gmi,
 /\bguardroom\sroad\b/gmi,
@@ -746,6 +767,8 @@ const a: RegExp[] = [
 /\bgypsum\s(?:close|way)\b/gmi,
 
 // HA
+/\bhaugh\sof\sglass\b/gmi,
+/\bha(?:mstead|nnah['‘’`]?s)\sledge\b/gmi,
 /\bha(?:ckney|lifax|ll|ndford)\scut\b/gmi,
 /\bhag\sworm\shill\b/gmi,
 /\bhagg\sworm\shaw\smoss\b/gmi,
@@ -813,6 +836,8 @@ const a: RegExp[] = [
 /\bhaslemere\s(?:and|\&)\sdistrict\b/gmi,
 
 // HE
+/\bhead\sledge\b/gmi,
+/\bhedge\srock\sledge\b/gmi,
 /\bhexagon\s(?:close|plantation)\b/gmi,
 /\bherringbone\s(?:road|street|way)\b/gmi,
 /\bherrings\s(?:land\scopse|lane)\b/gmi,
@@ -852,6 +877,7 @@ const a: RegExp[] = [
 /\bheroes\s(?:drive|walk)\b/gmi,
 
 // HI
+/\bHigher\sLedge\b/gm,
 /\bHigh\sSchool\sClose\b/gm,
 /\bhigh\scloister\b/gmi,
 /\bhid['‘’`]?s\s(?:brake|copse(?:\sroad)?)\b/gmi,
@@ -880,6 +906,8 @@ const a: RegExp[] = [
 /\bhinckley\s(?:and|\&)\sdistrict\b/gmi,
 
 // HO
+/\bhospice\sof\sthe\sgood\sshepherd\b/gmi,
+/\bho(?:lywell|rse|w)\sledge\b/gmi,
 /\bholy\ssouls\s(?:catholic\sprimary|roman\scatholic\sprimary)\b/gmi,
 /\bho(?:ckerill|lme|ughton)\scut\b/gmi,
 /\bhomegrown\scopse\b/gmi,

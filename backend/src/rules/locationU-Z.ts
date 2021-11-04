@@ -148,6 +148,9 @@ const a: RegExp[] = [
 /\bvoyagers\sclose\b/gmi,
 
 // WA
+/\bwashing\s(?:dike\splantation|green|hive|ledge|linn|pool|pound\slane|rocks?|stones\sgully)\b/gmi,
+/\bwashing['‘’`]?s\s(?:lane|wood)\b/gmi,
+/\bwa(?:rden|shing)\sledge\b/gmi,
 /\bwasteland\splantation\b/gmi,
 /\bwater\sglades\sclose\b/gmi,
 /\bwashington\sgalleries\b/gmi,
@@ -246,6 +249,9 @@ const a: RegExp[] = [
 /\bwalsham\s(?:and|\&)\sdistrict\b/gmi,
 
 // WE
+/\bwest\s(?:broad|porth)\sledge\s/gmi,
+/\bWestern\sLedge\b/gm,
+/\bWestward\sLedge\b/gm,
 /\bwedder\slairs\b/gmi,
 /\bwe(?:st|stern\sdistrict|ston|stwick)\scut\b/gmi,
 /\bWell\sWay\b/gm,
@@ -292,6 +298,9 @@ const a: RegExp[] = [
 /\bwesthill\s(?:and|\&)\sdistrict\b/gmi,
 
 // WH
+/\bwhitecliff\sledge\b/gmi,
+/\bwhite\sisland\sledge\b/gmi,
+/\bwhite\sledge(?:\shill)?/gmi,
 /\bwheatley(?:\shall)?\scut\b/gmi,
 /\bw(?:histlestop|ooded|orkmans)\sclose\b/gmi,
 /\bw(?:histlestop|orkmans|hores)\swood\b/gmi,
@@ -480,6 +489,7 @@ const a: RegExp[] = [
 /\bwormhole\shill\b/gmi,
 
 // WR
+/\bwra\sledge\b/gmi,
 /\bWriggles\sBottom\b/gm,
 /\bwrangling\slane\b/gmi,
 /\bwreaks\s(?:end|lane|mill|moss|road)\b/gmi,
@@ -500,6 +510,7 @@ const a: RegExp[] = [
 /\byarrows\shill\b/gmi,
 
 // YE
+/\bYellow\sLedge\b/gm,
 /\byeading\sfork\b/gmi,
 /\byeomen\sway\b/gmi,
 /\byeald\s(?:brow|wood)\b/gmi,

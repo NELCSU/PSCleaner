@@ -5,6 +5,8 @@ const a: RegExp[] = [
   /\d+\sof\b/gmi,
   /\d+[\s-](?:(?:out)?\sof|in)[\s-]\d+/gmi,
 
+  /\b(?:APEC|CIA|DEFRA|ED|HMRC|MHRA|MIT|NAO|OPEC|PHE|PLO|SETI)\b/gm,
+
   /\band\sthe\b/gm,
   /\ball\sof\b/gmi,
   /\ba\s(?:frank|penny|stone)\b/gmi,
@@ -16,8 +18,12 @@ const a: RegExp[] = [
   /\bassociate\sdean\b/gmi,
   /\bat\shome\b/gmi,
   /\bat\sthe\b/gmi,
+  /\banglo[\s-]saxon\b/gmi,
+  /\bapril\sfool['‘’`]?s?\sday\b/gmi,
+  /\ba(?:mazon|merican\sexpress|strazeneca)\b/gmi,
   
   // B
+  /\bback\sburn\b/gmi,
   /\bbarking\sdog\b/gmi,
   /\bbaby\sjesus\b/gmi,
   /\bbank\sholiday\b/gmi,
@@ -29,6 +35,11 @@ const a: RegExp[] = [
   /\bblack\s(?:box|friday)\b/gmi,
   /\bbona\sfide\b/gmi,
   /\bbrave\snew\b/gmi,
+  /\bbent\s(?:down|inwards|over)\b/gmi,
+  /\bb(?:ritish\sairways|urger\sking)\b/gmi,
+  /\b(?:central|reserve|world)\sbank\b/gmi,
+  /\bburkina\sfaso\b/gmi,
+  /\bball\svs\b/gmi,
 
   // C
   /\bCan\sthe\b/gm,
@@ -43,6 +54,18 @@ const a: RegExp[] = [
   /\bto\sclose\b/gm,
   /\bconcerns\smount\b/gmi,
   /\bcul[\s-]de[\s-]sac\b/gmi,
+  /\bcut\s(?:end\sof|foot|hand|through)\b/gmi,
+  /\bcar\spark\b/gmi,
+  /\bcafés?\b/gmi,
+  /\bcoca[\s-]cola\b/gmi,
+  /\bcayman\sislands\b/gmi,
+  /\bcentral\safrican\srepublic\b/gmi,
+  /\bcabo\sverde\b/gmi,
+  /\bcôte\sd'ivoire\b/gmi,
+  /\b(?:channel\sislands|community\scentre|costa\srica)\b/gmi,
+  /\b(?:arts|community|national|royal|sports|technical)\scollege\b/gmi,
+  /\bczech\srepublic\b/gmi,
+  /\ba\scar\b/gmi,
 
   // D
   /\b(?:d[eé]j[aà])\svu\b/gmi,
@@ -50,6 +73,10 @@ const a: RegExp[] = [
   /\bdirector[\s\-]general\b/gmi,
   /\bdrive\sdown\b/gmi,
   /\bdua['‘’`]?s\slayer\b/gmi,
+  /\bdeep\s(?:blue|cave|green|hole|lake|mine|pond|purple|red|sea|tunnel|water)s?\b/gmi,
+  /\bdown\sshaft\b/gmi,
+  /\b(?:district|federal|supreme)\scourt\b/gmi,
+  /\bdominican\srepublic\b/gmi,
 
   // E
   /\beastern\sbloc\b/gmi,
@@ -59,15 +86,30 @@ const a: RegExp[] = [
   /\b(?:after|as|before|beginning|between|beyond|by|day|during|early|end(?:ed|ing)?|for|from|if|in|mid(?:dle)?|month|last|late|on|since|start(?:ed|ing)?|the|till|to|until|week|when)(?:\s(?:and|of|this))?[\s\-](?:Jan(?:uary)?|February|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber)(?:(?:and|or|through|to|\s|-)+(?:Jan(?:uary)?|February|March|April|May|June|July|August|(?:Septem|Octo|Novem|Decem)ber))?\b/gmi,
   /\b(?:after|as|before|beginning|between|beyond|by|day|during|early|end(?:ed|ing)?|for|from|if|in|mid(?:dle)?|last|late|on|since|start(?:ed|ing)?|the|till|to|until|week|when)(?:\s(?:and|of|this))?[\s\-](?:(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day)(?:(?:and|or|through|to|\s|-)+(?:(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day))?\b/gmi,
   /\b(?:christmas|new\syear[’‘'`]?s)\s(?:day|eve|season|week|weekend)\b/gmi,
+  /\b(?:early\slearning|easyjet)\b/gmi,
+  /\bel\ssalvador\b/gmi,
+  
+  // F
+  /\bfalls?\s(?:down|from|off|on|over)\b/gmi,
+  /\bfell\sback\b/gmi,
+  /\bf[ae]ll\sin\sbath\b/gmi,
+  /\bfell\s(?:backwards?|down|forward|from|off|on|out|over)\b/gmi,
   /\bforce\sfield\b/gmi,
   /\bfoster\s(?:carer|father|mother|parent)\b/gmi,
   /\bfriends\sof\b/gmi,
+  /\bfriends\shouse\b/gmi,
+  /\b(?:fa\scup|faroe\sislands)\b/gmi,
+  /\bFirst\sMinister\b/gm,
+  /\bFood\sBank\b/gm,
 
   // G
   /\bgood\s(?:friday|morning)\b/gmi,
   /\bgreat\sbritish\b/gmi,
   /\bguinea\spig\b/gmi,
   /\bgung[\s-]ho\b/gm,
+  /\bgetting\s(?:in|from|to|out)\b/gmi,
+  /\b(?:great\sbritain|guinea[\s-]bissau)\b/gmi,
+  /\bGreen\sPass\b/gm,
 
   // H
   /\bhail\smary\b/gmi,
@@ -78,21 +120,32 @@ const a: RegExp[] = [
   /\bHope\sof\b/gm,
   /\bHopes\s(?:for|that)\b/gm,
   /\bhunker\sdown\b/gmi,
+  /\bhard\sedge\b/gmi,
+  /\b(?:high\scommission|hong\skong|community\shospital)\b/gmi,
 
   // I
   /\b(?:inner|lower|outer|upper)\s(?:inner|lower|outer|upper)\b/gmi,
   /\bin\slieu\sof\b/gmi,
-  /\bin-the-back\b/gmi,
+  /\bin[\s-]the[\s-]back\b/gmi,
   /\bivy\sleague\b/gmi,
+  /\bivory\scoast\b/gmi,
+
+  // J
+  /\b(?:jp\smorgan\schase|(?:infant|junior)\sand\s(?:infants?|junior))\b/gmi,
+  /\bJoint\sCommittee\b/gm,
+
+  // K
+  /\bku\sklux\sklan\b/gmi,
 
   // L
   /\blaissez[\s-]faire\b/gmi,
   /\blate[\s-]comer\b/gmi,
   /\blent\sback\b/gmi,
   /\blo\sand\sbehold\b/gmi,
+  /\blinkedin\b/gmi,
 
   // M
-  /\bmanial\senvelope\b/gmi,
+  /\bmike\s(?:check|drop)\b/gm,
   /\bmark\smy\swords\b/gmi,
   /\bmay\shave\b/gmi,
   /\bmea\sculpa\b/gmi,
@@ -103,17 +156,24 @@ const a: RegExp[] = [
   /\bmore\son\b/gmi,
   /\bmotley\screw\b/gmi,
   /\bmurphy['‘’`]?s\slaw\b/gmi,
+  /\bmarshall\sislands\b/gmi,
+  /\bnorth\smacedonia\b/gmi,
 
   // N
   /\bnew\syear\b/gmi,
   /\bnobel\sprize\b/gmi,
   /\bnon\-\w+\b/gmi,
+  /\b(?:nato|newshub|northern\sireland)\b/gmi,
+  /\bnhs\s(?:england|london|scotland|wales)\b/gmi,
+  /\bnew\syork\stimes\b/gmi,
+  /\bnorth\samerica\b/gmi,
 
   // O
   /\bone\sof\sthe\b/gmi,
   /\bon\sfoot\b/gmi,
   /\bon\stop\sof\b/gmi,
   /\boverton\swindow\b/gmi,
+  /\bon\s(?:the\s)?(?:floor|shelf|table)\b/gmi,
 
   // P
   /\bhaving\sa\spaddy\b/gmi,
@@ -123,11 +183,19 @@ const a: RegExp[] = [
   /\bpower\sclub\b/gmi,
   /\b(?:lower|upper)\squadrant\b/gmi,
   /\bquod\serat\b/gmi,
+  /\bpound\ssterling\b/gmi,
+  /\b(?:penny|pound)\scoin\b/gmi,
+  /\bpapua\snew\sguinea\b/gmi,
+  /\b(?:public\shealth\s(?:england|scotland|wales)|premier\sleague)\b/gmi,
+  /\bPublic\sHealth\b/gmi,
 
   // R
   /\bran\sback\b/gmi,
+  /\brice\spaddy\b/gmi,
   /\broad\smap\b/gm,
   /\brust\sbelt\b/gmi,
+  /\bround[\s-]?robin\b/gmi,
+  /\b(?:royal\s(?:family|guard|mail|navy)|the\sred\scross)\b/gmi,
 
   // S
   /\b(?:small|medium|large)[\s-]scale\b/gmi,
@@ -135,15 +203,24 @@ const a: RegExp[] = [
   /\b(?:It|He|She|They)\ssaid\b/gm,
   /\b[Ss]ales\sof\s\w+\b/gm,
   /\b(?:santa\sclaus|santa['‘’`]?s?\sgrottos?)\b/gmi,
-  /\bsmall\sarms\b/gmi,
+  /\bsmall\s(?:arms|mark)\b/gmi,
   /\bstepping\son\b/gmi,
   /\b(?:autumn|spring|summer|winter)\s(?:camp|period)\b/gmi,
+  /\b(?:sao\stome|san\smarino)\b/gmi,
+  /\bsaint\s(?:kitts|lucia|vincent)\b/gmi,
+  /\bsierra\sleone\b/gmi,
+  /\bsolomon\sislands\b/gmi,
+  /\bsouth\samerica\b/gmi,
+  /\b(?:saudi\sarabia|serco|slovakia|south\s(?:africa|sudan)|sri\slanka|(?:aided|community|day|high|law|(?:pre-)?preparatory|primary|secondary)\sschool)\b/gmi,
 
   // T
   /\bbig\stech\b/gmi,
-  /\btik\stok\b/gmi,
   /\b(?:back|top)\sof\sfoot\b/gmi,
   /\btooth\s*fairy\b/gmi,
+  /\btrod\son\b/gmi,
+  /\bfinancial\stimes\b/gmi,
+  /\bThe\sGrand\sTour\b/gm,
+  /\btimor[\s-]leste\b/gmi,
 
   // U
   /\bUncle\sTom\b/gm,
@@ -154,6 +231,16 @@ const a: RegExp[] = [
   /\bwent\s(?:back|over)\b/gmi,
   /\bwilly[\s-]nilly\b/gmi,
   /\bto\sthe\swise\b/gmi,
+  /\b(?:unesco|unicef|united\snations|un\sorgani[sz]ations?)\b/gmi,
+  /\bunited\s(?:arab\semirates|states\sof\samerica)\b/gmi,
+
+  // V
+  /\bvirgin\satlantic\b/gmi,
+
+  // W
+  /\b(?:cutting|piece\sof)\swood\b/gmi,
+
+  // Y
   /\byoung\speople\b/gmi,
 
   /[A-Za-z]+['‘’`](?:ll|re|ve)/gm,

@@ -1471,7 +1471,6 @@ const a: string[] = [
 "ratatouille",
 "rattan",
 "rayon",
-"razor",
 "razzmatazz",
 "realpolitik",
 "rebury",

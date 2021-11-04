@@ -1166,7 +1166,6 @@ const a: string[] = [
 "rabukkanage",
 "rabus",
 "rabuse",
-"rac",
 "racadal",
 "racadio",
 "racaisgeirean",

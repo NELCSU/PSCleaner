@@ -39,6 +39,9 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "assegai",
 "asteroid",
 
+// AT
+"attende",
+
 // AW
 "aways",
 "awed",
@@ -78,6 +81,8 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "bravos",
 "brawls",
 "bricking",
+"brio",
+"brisk",
 "broadest",
 "brood",
 "broody",
@@ -85,6 +90,8 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "brightly",
 
 // BU
+"bump",
+"bumps",
 "burner",
 
 // CA
@@ -102,6 +109,9 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "charmers",
 "charnel",
 "cholera",
+"chopper",
+"chopping",
+"choppy",
 
 // CL
 "clashing",
@@ -330,6 +340,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 // GL
 "gland",
 "glans",
+"glass",
 "glassing",
 "glazer",
 "glazers",
@@ -346,6 +357,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "goers",
 "golem",
 "gondola",
+"good",
 "goop",
 "goopy",
 "gorges",
@@ -373,6 +385,8 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "grille",
 "grills",
 "grinder",
+
+// HA
 
 // HU
 "huger",
@@ -504,6 +518,9 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "overly",
 
 // PE
+"peeler",
+"peeling",
+"peels",
 "perish",
 
 // PI
@@ -935,6 +952,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "wanker",
 "wanna",
 "warring",
+"washing",
 "washup",
 "wattage",
 
