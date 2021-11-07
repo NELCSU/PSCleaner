@@ -15,6 +15,7 @@ const a: RegExp[] = [
   /\b(?:bunk|divan|wooden)\sbed\b/gmi,
   /\b(?:bleach|(?:hot\s)?water)\sbottle\b/gmi,
   /\bbottle\sof\s(?:bleach|(?:hot\s)?water)\b/gmi,
+  /\bbottom\ssteps?\b/gmi,
 
   // C
   /\bcheddar\scheese\b/gmi,
@@ -23,7 +24,7 @@ const a: RegExp[] = [
   /\bswallow[a-z]*\schalk\b/gmi,
   /\bchain\ssaw\b/gmi,
   /\bcoat\shanger\b/gmi,
-  /\bcotton\sbud\b/gmi,
+  /\bcotto[mn]\s(?:bud|wool)\b/gmi,
   /\bclimbing\sframe\b/gmi,
   /\bcuticura\shand\b/gmi,
   /\bcorner\sof\s(?:chair|table)\b/gmi,
@@ -73,7 +74,6 @@ const a: RegExp[] = [
 
   // P
   /\bplaydoh\b/gmi,
-  /\bpool\stable\b/gmi,
 
   // R
   /\brocking\shorse\b/gmi,

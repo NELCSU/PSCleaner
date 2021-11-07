@@ -2,6 +2,8 @@ const a: RegExp[] = [
 /\bA\sRoad\b/gm,
 
 // AB
+/\babbey\sfell\b/gmi,
+/\baber[\s-]big\b/gmi,
 /\babraham['‘’`]?s\sbosom(?:\slake)?\b/gmi,
 /\baber\stunnel\b/gmi,
 /\babattoirs\sroad\b/gmi,
@@ -106,6 +108,7 @@ const a: RegExp[] = [
 /\b(?:amulet|avenger|diligence)\s(?:close|way)\b/gmi,
 
 // AN
+/\bannesley\scutting\b/gmi,
 /\bannet\sledge\b/gmi,
 /\banderson\sfairway\b/gmi,
 /\ban(chor\sand\shope\slane|imal\sand\sbird\spark)\b/gmi,
@@ -185,6 +188,8 @@ const a: RegExp[] = [
 /\barundel\s(?:and|\&)\sdistrict\b/gmi,
 
 // AS
+/\bash\sfell\sroad\b/gmi,
+/\bAsh\sFell\b/gm,
 /\bash\s(?:and\s(?:dust\ssettling\sponds|new\sash\sgreen)|estates)\b/gmi,
 /\bastute\splace\b/gmi,
 /\basps\swood\b/gmi,
@@ -206,6 +211,8 @@ const a: RegExp[] = [
 /\battorney\s(?:court|croft)\b/gmi,
 
 // AU
+/\bausin\sfell\s(?:coppice|wood)\b/gmi,
+/\bauchencloy\sbig\shill\b/gmi,
 /\bautumn\sglades\b/gmi,
 /\bauthors\splace\b/gmi,
 /\baught\swood\b/gmi,
@@ -241,6 +248,12 @@ const a: RegExp[] = [
 /\baztec\swest\b/gmi,
 
 // BA
+/\bba(?:il|rbon\s(?:high|low)?)\sfell\b/gmi,
+/\bbarden\sfell\sview\b/gmi,
+/\bbarlow\sfell\sroad\b/gmi,
+/\bback[\s-]o['‘’`]?[\s-]th['‘’`e]?[\s-](?:bank|fell|height|hill|lawn|low|moss|wood)\b/gmi,
+/\bba(?:rmby|rtonhill)\scutting\b/gmi,
+/\bbarrow\sbig\swood\b/gmi,
 /\bbachelor['‘’`]?s\sbump\b/gmi,
 /\bbadgers\sbolt\b/gmi,
 /\bback\slebanon\b/gmi,
@@ -276,7 +289,7 @@ const a: RegExp[] = [
 /\bwater\sbag\sbank\b/gmi,
 /\bbagpipers\stump\b/gmi,
 /\bbaggy\s(?:hole|moor|point)\b/gmi,
-/\b(?:hill\sof\sbackside|backside\s(?:common|coppice|fell|field|lane|moss|plantation|wood))\b/gmi,
+/\bbackside\s(?:common|coppice|fell|field|lane|moss|plantation|wood)\b/gmi,
 /\bbailiffs['‘’`]?\s(?:batt|close|wall)\b/gmi,
 /\bbalance\s(?:hill|meadows|road|street|wood)\b/gmi,
 /\bGreat\sBalance\b/gm,
@@ -330,8 +343,11 @@ const a: RegExp[] = [
 /\bbahamas\sway\b/gmi,
 /\bba(?:lmer|nk\sdole|rnton|ttye)\scut\b/gmi,
 /\bbanff\s(?:and|\&)\sdistrict\b/gmi,
+/\bbay\sof\ssmall\sisles\b/gmi,
 
 // BE
+/\bbead\s(?:na\scloiche\sglaise|road)\b/gmi,
+/\bbeacon\sfell(?:\sroad)?\b/gmi,
 /\bbeeston\sbump\b/gmi,
 /\bbembridge\sledge\b/gmi,
 /\bbeaumont\scut\b/gmi,
@@ -353,7 +369,6 @@ const a: RegExp[] = [
 /\bbeast\s(?:banks|cliff|fair|hill|market|wood)\b/gmi,
 /\bbeat\s(?:carn|lane)\b/gmi,
 /\b(?:bisset|the\slarun)\sbeat\b/gmi,
-/\bhome\sbeat\sdrive\b/gmi,
 /\bOld\sBeat\b/gmi,
 /\bbeauty\s(?:bank(?:\screscent)?|hill|walk)\b/gmi,
 /\b(?:aesop['‘’`]?s|alder|ash|beech|blinker['‘’`]?s|booth|bracken|bullstone|carlin|chapel)\sbed\b/gmi,
@@ -384,7 +399,34 @@ const a: RegExp[] = [
 /\bbhasteir\stooth\b/gmi,
 
 // BI
-/\bBig\sLedge\b/gm,
+/\bbirch\sfell(?:\splantation)?\b/gmi,
+/\bbirk\sfell\sman\b/gmi,
+/\bBig\s(?:Alley|Allotment|Belt|Bottom|Coppice|Copse|Craig|Dale|Dam|Earth|End|Fell|Fold)\b/gm,
+/\bBig\s(?:Forest|Gap|Green|Grove|Gully|Hill|Hollow|Island|Isle|Kettle|Kiln|Knock|Lake)\b/gm,
+/\bBig\s(?:Lane|Ledge|Leeds|Low|Moor|Oaks|Ox|Park|Picture|Plantation|Point|Pond|Pool)\b/gm,
+/\bBig\s(?:Reef|Ride|Rock|Rough|Row|Sand|Scare|Scone|Stone|Tree\sClose|Valley|Walls|Waters?|Wood)\b/gm,
+/\bbig\s(?:airds\shill|almer\swood|ashes\splantation|audle|baa\sgeo|back\slane)\b/gmi,
+/\bbig\s(?:ball['‘’`]?s\shill|barn\s(?:grove|lane)|barwhanny\sloch|bedlams\swood)\b/gmi,
+/\bbig\s(?:bellan\scovert|birches\swood|birkey\shill|black\scarrs|boar['‘’`]?s\swood)\b/gmi,
+/\bbig\s(?:bog|brae|brigs\sway|bull\shill|bull\splantation|bushan|butsfield\swood)\b/gmi,
+/\bbig\s(?:byrips|carn|carr|challoch\shill|channeler|civie\sgeo|clet|cleuch|clump)\b/gmi,
+/\bbig\s(?:common\slane|counting\shole|covert|craigenlee|crane['‘’`]?s\swood)\b/gmi,
+/\bbig\s(?:creative\sacademy|dickens['‘’`]?\swood|dod|dogbottom\swood|down\scopse)\b/gmi,
+/\bbig\s(?:egg\scoppice|fen\splantation|field\s(?:lane|plantation)|firs|flat\splantation)\b/gmi,
+/\bbig\s(?:garvoun|geo\sof\s(?:stromness|the\sneaps)|geo|green\s(?:carr|hill)|guns\scove)\b/gmi,
+/\bbig\s(?:haddock\spool|harcar|harp\swood|high\sgrove|hill\sof\s(?:glenmount|the\sbaing))\b/gmi,
+/\bbig\s(?:hinty\scleuch|holm|holme\sstrip|holt|hunt\shill|hurker|hyde\srough|ings\swood)\b/gmi,
+/\bbig\s(?:island\splantation|jolly\srock|kiln\sstreet|kirk\shill|knock\scleuch|larches)\b/gmi,
+/\bbig\s(?:large['‘’`]?s\sgorse|less|ling\sspinney|loch\shill|lodge\s(?:coppice|water))\b/gmi,
+/\bbig\s(?:lousie\splantation|mancot|meadow\s(?:drive|plantation|road)|meaul|mere|midney\splantation)\b/gmi,
+/\bbig\s(?:millhole\swood|moor\splantation|morton\shill|ness|nev|oak\sstrip|ope|ore|parrock\swood)\b/gmi,
+/\bbig\s(?:pasture\swood|patchet\sholes\sholt|peg['‘’`]?s\swood|picket\srock|pit\shalt)\b/gmi,
+/\bbig\s(?:pits\swood|poors\swood|quarry\swood|roag|rob['‘’`]?s\scove|rodcombe\snew\scovert)\b/gmi,
+/\bbig\s(?:rookery\splantation|round\sgreen|rous\sholt|scaalie\sbay|scarcar|shadymoor\scoppice)\b/gmi,
+/\bbig\s(?:sheep[\s-]park\swood|skerry|spinney|spring\scoppice|stake\scleuch|stirk|stoke)\b/gmi,
+/\bbig\s(?:stone\sgardens|straypark\splantation|susan['‘’`]?s\swood|sykes\scovert|thomas\swood)\b/gmi,
+/\bbig\s(?:tree\slane|vennel|wapping\shill|water\sof\sfleet|waters\sclose|well\swynd|whitemoor\sbottom)\b/gmi,
+/\bbig\s(?:withy\sbed|wood\s(?:belt|school)|[\s-]nev\sgeo)\b/gmi,
 /\bbiggotts\slane\b/gmi,
 /\bbiggot['‘’`]?s\splantation\b/gmi,
 /\bBidders\sClose\b/gm,
@@ -399,6 +441,11 @@ const a: RegExp[] = [
 
 // BL
 /\bBlack\s(?:Cut|Ledge|Rock\sLedge)\b/gm,
+/\bblack\sfell\smoss\b/gmi,
+/\bBlack\sFell\b/gm,
+/\bblake\sfell\sclose\b/gmi,
+/\bblanch\sfell\b/gmi,
+/\bBlaze\sFell\b/gm,
 /\bBlew\s(?:Close|Gates)\b/gm,
 /\bblackwall\stunnel\b/gmi,
 /\bblairgowrie\sand\sglens\b/gmi,
@@ -428,6 +475,11 @@ const a: RegExp[] = [
 /\bbluebell\snursing\b/gmi,
 
 // BO
+/\bbolton\sfell\send\b/gmi,
+/\bbotton\shead\sfell\b/gmi,
+/\bbow\sfell\sroad\b/gmi,
+/\bBow\sFell\b/gmi,
+/\bbottom[\s-]o['‘’`]?[\s-]th['‘’`]?[\s-](?:brow|fields|moor)\b/gmi,
 /\bbottle\sand\sglass\swood\b/gmi,
 /\bbordwood\sledge\b/gmi,
 /\bbounty\sledge\b/gmi,
@@ -479,6 +531,14 @@ const a: RegExp[] = [
 /\bbold\sventure\sway\b/gmi,
 
 // BR
+/\bbradley\sfell\sroad\b/gmi,
+/\bbrae\sfell\b/gmi,
+/\bbraid\sfell\b/gmi,
+/\bbrim\sfell\b/gmi,
+/\bbroom\sfell\b/gmi,
+/\bbroomley\sfell\swood\b/gmi,
+/\bbrow\sside\sfell\b/gmi,
+/\bBr(?:own|unt)\sFell\b/gm,
 /\bbran\sledge\b/gmi,
 /\bBroad\sLedge\b/gm,
 /\bbrow\sledge\b/gmi,
@@ -574,7 +634,7 @@ const a: RegExp[] = [
 /\bbronze\s(?:age\sway|barrow\sclose|close|court|heuk|road|street|view)\b/gmi,
 /\bbroomstick\s(?:hall\sroad|lane)\b/gmi,
 /\bbrownies\s(?:geo|knowe|taing)\b/gmi,
-/\b(?:black\sbrows\splantation|high\sbrows\scovert)\b/gmi,
+/\bblack\sbrows\splantation\b/gmi,
 /\bbrows\s(?:avenue|close|hill|lane|pasture|plantation)\b/gmi,
 /\b(?:black|hackensall|jolly|marsh|sea)\sbrows\b/gmi,
 /\bbrushy\sbush\slane\b/gmi,
@@ -582,6 +642,9 @@ const a: RegExp[] = [
 /\bbroadall['‘’`]?s\s(?:and|\&)\sdistrict\b/gmi,
 
 // BU
+/\bBu(?:ck|rn)\sFell\b/gm,
+/\bburn\smoor\sfell\b/gmi,
+/\bbushmead\sbig\swood\b/gmi,
 /\bbutt(?:eries|ocks\sbank)\swood\b/gmi,
 /\bbutternut\scopse\b/gmi,
 /\bbu(?:llion['‘’`s]*|lly|mper['‘’`s]*|sker|sy|t|tchery)\slane\b/gmi,
@@ -639,6 +702,12 @@ const a: RegExp[] = [
 /\bc\sp\sschool\b/gmi,
 /\bC\s(?:Road|Street)\b/gm,
 // CA
+/\bCarving\sWood\b/gm,
+/\bca(?:ddywife|irn|pel)\sfell\b/gmi,
+/\bcastle\scarrock\sfell\b/gmi,
+/\bCastle\sFell\b/gmi,
+/\bcalverley\scutting\b/gmi,
+/\bcowran\scutting\b/gmi,
 /\bcarn\snear(?:\sroad)?\b/gmi,
 /\bcauld\shydro\selectric\sstation\b/gmi,
 /\bca(?:lder|stleford)\scut\b/gmi,
@@ -730,6 +799,7 @@ const a: RegExp[] = [
 /\bcentury\s(?:avenue|belt|close|court|drive|fields|gardens|lane|lodge|mews|park|place|plantation|ponds|road|square|street|view|walk|way|wood)\b/gmi,
 
 // CH
+/\bChapel\sFell\b/gm,
 /\bchopping\sknife\slane\b/gmi,
 /\bchopping['‘’`]?s\swood\b/gmi,
 /\bchop\s(?:gate|hill)\b/gmi,
@@ -825,6 +895,7 @@ const a: RegExp[] = [
 /\bcitizen\s(?:jaffray|lane|road)\b/gmi,
 
 // CL
+/\bClark\sFell\b/gm,
 /\bcliffe\scut\b/gmi,
 /\bcloister\s(?:avenue|close|court|crofts?|drive|gardens|garth|lawns)\b/gmi,
 /\bcloister\s(?:mews|road|street|walk|way|walk)\b/gmi,
@@ -881,6 +952,10 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
+/\bCo(?:al|mbs?|mmon)\sFell\b/gmi,
+/\bcow\sclose\sfell\b/gmi,
+/\bcoed\s(?:big|carreg-y-big)\b/gmi,
+/\bcombe\sbig\swood\b/gmi,
 /\bcoal\sledge\b/gmi,
 /\bconger\sledge\b/gmi,
 /\bcooden\sledge\b/gmi,
@@ -1108,6 +1183,13 @@ const a: RegExp[] = [
 /\b(?:gorse\scover\sroad|low\scover\swood|new\scover\scopse)\b/gmi,
 
 // CR
+/\bcrag\sfell\b/gmi,
+/\bcrooks\so['‘’`]?\sgreen\sfell\b/gmi,
+/\bcross\sfell\sdrive\b/gmi,
+/\bCross\sFell\b/gm,
+/\bcross[\s-]o['‘’`]?[\s-]th['‘’`]?[\s-](?:hands|hill)\b/gmi,
+/\bcresselly\sbig\swood\b/gmi,
+/\bcroston\sbig\swood\b/gmi,
 /\bcross\s(?:cut\scourt|lances\sroad)\b/gmi,
 /\bcreag\snan\stoad\b/gmi,
 /\bcraig\sgraceless\b/gmi,
@@ -1198,6 +1280,8 @@ const a: RegExp[] = [
 /\bcromer\s(?:and|\&)\sdistrict\b/gmi,
 
 // CU
+/\bCutting\s(?:Close|Drive|Hill|Lane|Road|Wood)\b/gm,
+/\bcutting['‘’`]?s\sroad\b/gmi,
 /\bcut\send\sroad\b/gmi,
 /\bCut\sEnd\b/gm,
 /\bcube\splantation\b/gmi,
@@ -1265,6 +1349,7 @@ const a: RegExp[] = [
 /\b(?:cuts\s(?:end\spoint|road)|long\scuts\sdrove|padnell\scuts\swood)\b/gmi,
 
 // CW
+/\bcwm\sbig\b/gmi,
 /\b(?:cw\srt-yr-ysgol|pen-cw)\b/gmi,
 /\b(?:cwt-y-barcud\slane|ffordd\scwt\sglas)\b/gmi,
 
@@ -1277,6 +1362,8 @@ const a: RegExp[] = [
 /\bCycle\sRoute\b/gm,
 
 // DA
+/\bDarling\sFell\b/gm,
+/\bdalruscan\sbig\swood\b/gmi,
 /\bdancing\sledge\b/gmi,
 /\bd\s(?:plantation|wood)\b/gmi,
 /\bda(?:d['‘’`]?s|nger)\slane\b/gmi,
@@ -1297,6 +1384,8 @@ const a: RegExp[] = [
 /\bdark\slantern\scoppice\b/gmi,
 
 // DE
+/\bdent\sfell\b/gmi,
+/\bDeep\sCutting\b/gm,
 /\bdeep\scut\sroad\b/gmi,
 /\bdewsbury\scut\b/gmi,
 /\bdeep[\s-]go\sdyke\b/gmi,
@@ -1335,12 +1424,15 @@ const a: RegExp[] = [
 /\b(?:cuttiford['‘’`]?s|durdle|northern|somerton|thirle)\sdoor\b/gmi,
 /\bdecrease\sdrove\b/gmi,
 /\bdeep\s(?:acres|carrs|cleu[cg]h|clough|clump|coombe|cove|cut\sroad|dale(?:\sbelt|\slane|\splantation|\swood)?|dean|dell|denes?|dyke|enys|fleet|ford\slane|furrow\savenue|gate|geo|ghyll|gill\s(?:force|wood)|ground\ssolar\sfarm|grove|haigh|lairdie|lane|leasaw|mill|moor(?:\sclose)?|moors\swood|road|shaw|slade|spinney|street|swincombe|well\sdrive|water\sterminal|wood)\b/gmi,
-/\bDeep\s(?:Bottom|Cutting|Field|Hope|Lake|Moss|Pit(?:\s[Rr]oad)?|Point|Pool(?:\sLane)?|Side)\b/gm,
+/\bDeep\s(?:Bottom|Field|Hope|Lake|Moss|Pit(?:\s[Rr]oad)?|Point|Pool(?:\sLane)?|Side)\b/gm,
 /\b(?:cliveden|cole|dixon['‘’`]?s|holme|mortimer['‘’`]?s|netherby|pitts|sweare|tough\sbank|ungain)\sdeep\b/gmi,
 /\b(?:Cross|Great|Little|North|Outer|South)\sDeep\b/gm,
 /\bdewsbury\s(?:and|\&)\sdistrict\b/gmi,
 
 // DI
+/\bdick\sfell\shill\b/gmi,
+/\bdin\sfell\b/gmi,
+/\bdick[\s-]o['‘’`]?[\s-]th['‘’`]?[\s-]banks\b/gmi,
 /\bdiamond\sledge\b/gmi,
 /\bd(?:ish|ockings|oves['‘’`]?|rinking\spit|riving|rones|ropping|roughts)\slane\b/gmi,
 /\bdigital\sway\b/gmi,
@@ -1360,6 +1452,9 @@ const a: RegExp[] = [
 /\bdivision\s(?:lane|moor|road|street|wood)\b/gmi,
 
 // DO
+/\bDocker\sFell\b/gm,
+/\bdod\sfell\b/gmi,
+/\bdodd\sfell\shill\b/gmi,
 /\bdollar\sledge\b/gmi,
 /\bdoonies\syawns\b/gmi,
 /\bdocking\s(?:common|drove|droveway|hole|lane|plantation|road|slack\splantation)\b/gmi,
@@ -1442,6 +1537,7 @@ const a: RegExp[] = [
 /\bdrying\s(?:ground\swood|shed\slane)\b/gmi,
 
 // DU
+/\bdudmaston\sbig\spool\b/gmi,
 /\bduke['‘’`]?s\scut\b/gmi,
 /\bdummy['‘’`]?s\swood\b/gmi,
 /\bduffers\splantation\b/gmi,

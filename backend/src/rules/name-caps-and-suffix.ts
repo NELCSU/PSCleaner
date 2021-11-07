@@ -62,6 +62,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "batters",
 
 // BE
+"bead",
 "beatles",
 
 // BI
@@ -156,6 +157,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 
 // CU
 "curtly",
+"cutting",
 
 // CY
 "cymbalist",
@@ -221,6 +223,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 
 // FE
 "fearless",
+"fell",
 "ferment",
 "fetcher",
 "fetish",
@@ -386,14 +389,13 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "grills",
 "grinder",
 
-// HA
-
 // HU
 "huger",
 "hugger",
 "hunker",
 "huntress",
 "hurler",
+"hurt",
 "hurter",
 "hurtle",
 "husky",
@@ -496,6 +498,9 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 // MY
 "myriad",
 
+// NA
+"nails",
+
 // OB
 "ober",
 
@@ -525,6 +530,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 
 // PI
 "pickings",
+"pile",
 "piston",
 
 // PL
@@ -532,6 +538,9 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "platter",
 "pledge",
 "pledger",
+
+// PO
+"pole",
 
 // PR
 "privateer",
@@ -652,6 +661,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "shoring",
 "shortsleeve",
 "shortsleeves",
+"showers",
 "showman",
 "showmen",
 "shrift",
@@ -692,6 +702,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "sloth",
 
 // SM
+"small",
 "smaller",
 "smears",
 "smirk",
@@ -768,6 +779,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "starlet",
 "stasis",
 "stater",
+"states",
 "steely",
 "stencil",
 "steppe",

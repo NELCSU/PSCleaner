@@ -21,6 +21,7 @@ const a: RegExp[] = [
   /\banglo[\s-]saxon\b/gmi,
   /\bapril\sfool['‘’`]?s?\sday\b/gmi,
   /\ba(?:mazon|merican\sexpress|strazeneca)\b/gmi,
+  /\baround\sthe\shead\b/gmi,
   
   // B
   /\bback\sburn\b/gmi,
@@ -91,9 +92,9 @@ const a: RegExp[] = [
   
   // F
   /\bfalls?\s(?:down|from|off|on|over)\b/gmi,
-  /\bfell\sback\b/gmi,
-  /\bf[ae]ll\sin\sbath\b/gmi,
-  /\bfell\s(?:backwards?|down|forward|from|off|on|out|over)\b/gmi,
+  /\bf[ae]ll\sdown\sthe\stairs\b/gmi,
+  /\bfall\sin\sbath\b/gmi,
+  /\bfence\sswung\b/gmi,
   /\bforce\sfield\b/gmi,
   /\bfoster\s(?:carer|father|mother|parent)\b/gmi,
   /\bfriends\sof\b/gmi,
@@ -126,11 +127,13 @@ const a: RegExp[] = [
   // I
   /\b(?:inner|lower|outer|upper)\s(?:inner|lower|outer|upper)\b/gmi,
   /\bin\slieu\sof\b/gmi,
-  /\bin[\s-]the[\s-]back\b/gmi,
   /\bivy\sleague\b/gmi,
   /\bivory\scoast\b/gmi,
+  /\bin\sthe\s(?:back|bottom|side|top)\sof\b/gmi,
+  /\binto\sthe\s(?:back|bottom|side|top)\sof\b/gmi,
 
   // J
+  /\binto\spool\b/gmi,
   /\b(?:jp\smorgan\schase|(?:infant|junior)\sand\s(?:infants?|junior))\b/gmi,
   /\bJoint\sCommittee\b/gm,
 
@@ -143,8 +146,10 @@ const a: RegExp[] = [
   /\blent\sback\b/gmi,
   /\blo\sand\sbehold\b/gmi,
   /\blinkedin\b/gmi,
+  /\blower\squadrant\b/gmi,
 
   // M
+  /\bmark\sto\b/gmi,
   /\bmike\s(?:check|drop)\b/gm,
   /\bmark\smy\swords\b/gmi,
   /\bmay\shave\b/gmi,
@@ -181,21 +186,24 @@ const a: RegExp[] = [
   /\bto\speter\sout\b/gm,
   /\bpetri\sdish\b/gmi,
   /\bpower\sclub\b/gmi,
-  /\b(?:lower|upper)\squadrant\b/gmi,
   /\bquod\serat\b/gmi,
-  /\bpound\ssterling\b/gmi,
-  /\b(?:penny|pound)\scoin\b/gmi,
+  /\bpound\s(?:coins?|sterling)\b/gmi,
+  /\bpenny\scoins?\b/gmi,
   /\bpapua\snew\sguinea\b/gmi,
-  /\b(?:public\shealth\s(?:england|scotland|wales)|premier\sleague)\b/gmi,
+  /\bpublic\shealth\s(?:england|scotland|wales)\b/gmi,
+  /\bpremier\sleague\b/gmi,
   /\bPublic\sHealth\b/gmi,
 
   // R
-  /\bran\sback\b/gmi,
+  /\bred\sbead\b/gmi,
+  /\brusty\snails\b/gmi,
+  /\bran\s(?:back|up)\b/gmi,
   /\brice\spaddy\b/gmi,
   /\broad\smap\b/gm,
   /\brust\sbelt\b/gmi,
   /\bround[\s-]?robin\b/gmi,
-  /\b(?:royal\s(?:family|guard|mail|navy)|the\sred\scross)\b/gmi,
+  /\broyal\s(?:family|guard|mail|navy)\b/gmi,
+  /\bthe\sred\scross\b/gmi,
 
   // S
   /\b(?:small|medium|large)[\s-]scale\b/gmi,
@@ -208,6 +216,7 @@ const a: RegExp[] = [
   /\b(?:autumn|spring|summer|winter)\s(?:camp|period)\b/gmi,
   /\b(?:sao\stome|san\smarino)\b/gmi,
   /\bsaint\s(?:kitts|lucia|vincent)\b/gmi,
+  /\bslipped\sin\sbath\b/gmi,
   /\bsierra\sleone\b/gmi,
   /\bsolomon\sislands\b/gmi,
   /\bsouth\samerica\b/gmi,
@@ -215,7 +224,6 @@ const a: RegExp[] = [
 
   // T
   /\bbig\stech\b/gmi,
-  /\b(?:back|top)\sof\sfoot\b/gmi,
   /\btooth\s*fairy\b/gmi,
   /\btrod\son\b/gmi,
   /\bfinancial\stimes\b/gmi,
@@ -223,6 +231,7 @@ const a: RegExp[] = [
   /\btimor[\s-]leste\b/gmi,
 
   // U
+  /\bupper\squadrant\b/gmi,
   /\bUncle\sTom\b/gm,
   /\b[Üüu]ber\salles\b/gmi,
   /\bultra\s(?:high|low)\b/gmi,
@@ -238,7 +247,7 @@ const a: RegExp[] = [
   /\bvirgin\satlantic\b/gmi,
 
   // W
-  /\b(?:cutting|piece\sof)\swood\b/gmi,
+  /\bpiece\sof\swood\b/gmi,
 
   // Y
   /\byoung\speople\b/gmi,

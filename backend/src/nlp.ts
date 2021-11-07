@@ -24,6 +24,7 @@ import { NameSetUZ } from "./rules/name-setU-Z";
 import { ProperNameSet } from "./rules/name-caps";
 import { NameSetJoinOnly } from "./rules/name-and";
 import { ProperNameSetJoinOnly } from "./rules/name-caps-and";
+import { ProperNameSetJoinPrefixOnly } from "./rules/name-caps-and-prefix";
 import { ProperNameSetJoinSuffixOnly } from "./rules/name-caps-and-suffix";
 import { NamePartSet, NameFragmentRegEx, NamePuralRegEx } from "./rules/name-part";
 import { AgeRegEx } from "./rules/age";
@@ -270,6 +271,12 @@ export class NLP {
         action: { discard: 1, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
         entity: namesEntity,
         matches: this._evalKeyword(data, (n: string) => isPropercase(n), ProperNameSetJoinOnly)
+      });
+
+      searches.push({
+        action: { discard: 1, joinable: 1, order: 2, pos: 0, prefix: 1, midfix: 0, suffix: 0 },
+        entity: namesEntity,
+        matches: this._evalKeyword(data, (n: string) => isPropercase(n), ProperNameSetJoinPrefixOnly)
       });
 
       searches.push({

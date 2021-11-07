@@ -20,7 +20,8 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sBea(?:ch|cons?|gles|ms?|n\sAcre|rs?|st)\b/gm,
   /\bThe\sBee(?:s|f\sBarrel|hives?)\b/gm,
   /\bThe\sBe(?:ck|eches|dwyns|ll|lsteads|lt|nch|nefits|rries|nt)\b/gm,
-  /\bThe\sBi(?:ble\sCollege|g\sAct|n|rches|te?|tches)\b/gm,
+  /\bThe\sBig\s(?:Act|House|Thorns|Yard)\b/gm,
+  /\bThe\sBi(?:ble\sCollege|n|rches|te?|tches)\b/gm,
   /\bThe\sBl(?:ack\sSpout|ade|ind|uebells)\b/gm,
   /\bThe\sBou(?:ght|levard|nds?|ndaries|ndary)\b/gm,
   /\bThe\sBo(?:ar|at|g|lt|oks|ot|re|rder|ttom|wl)\b/gm,
@@ -67,7 +68,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sCricketers\b/gm,
   /\bThe\sCro(?:fts?|fters|ps|ok|ss|ssings?|sspath|ssroads|ssways|wns)\b/gm,
   /\bThe\sCr(?:ucible|umbles|usades|ypt)\b/gm,
-  /\bThe\sCu(?:ckoo|lvert|p|rtain|rve|t|tter|ttings?)\b/gm,
+  /\bThe\sCu(?:ckoo|lvert|p|rtain|rve|t|tter|tting(?:\sStrip|s)?)\b/gm,
   /\bThe\sCy(?:cle\sWorks|gnets|linders)\b/gm,
   
   // D
@@ -89,7 +90,7 @@ export const LocationTheRegEx: RegExp[] = [
   // F
   /\bThe\sFar(?:m|mlands|mstead|riers|things)\b/gm,
   /\bThe\sFa(?:irground|irways?|lcon|lconers|lcons|lls?|n|wn)\b/gm,
-  /\bThe\sFe(?:athers|eder|lls?|llows|n|nce|rries|rry|rns)\b/gm,
+  /\bThe\sFe(?:athers|eder|ll(?:s|\sWay)?|llows|n|nce|rries|rry|rns)\b/gm,
   /\bThe\sFid(?:dle|dlers)\b/gm,
   /\bThe\sFi(?:elds?|elders|ndings|nger|rs|rst|sheries|sher[sy]|ve\sSprings)\b/gm,
   /\bThe\sFla(?:gs|sh|shes|ts?)\b/gm,
@@ -170,7 +171,7 @@ export const LocationTheRegEx: RegExp[] = [
 
   // N
   /\bThe\sNa(?:meless|p|pping|tional\sSchool)\b/gm,
-  /\bThe\sNe(?:edles?|ck\sGut|therlands|utral\sGround|w\sCut)\b/gm,
+  /\bThe\sNe(?:edles?|ck\sGut|therlands|utral\sGround|w\s(?:Cut|Forest))\b/gm,
   /\bThe\sNo(?:des|oks?|ose|strils)\b/gm,
   /\bThe\sNu(?:rseries|rsery)\b/gm,
 
@@ -262,6 +263,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sSle(?:eve|ights)\b/gm,
   /\bThe\sSl(?:ides?|ing|ips?|ipway|ithers|obs|opes|ough)\b/gm,
   /\bThe\sSm(?:elt|ithy)\b/gm,
+  /\bThe\sSmall\s(?:Downs|Isles|Woods)\b/gm,
   /\bThe\sSnap\b/gm,
   /\bThe\sSnipe\b/gm,
   /\bThe\sSo(?:le|und|w)\b/gm,

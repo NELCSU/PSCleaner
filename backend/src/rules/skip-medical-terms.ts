@@ -24,6 +24,7 @@ const a: RegExp[] = [
   /\bbaerveldt\s(?:shunt|tube)\b/gmi,
   /\bbachmann['‘’`s]*\sbundle\b/gmi,
   /\bback\s(?:of\shead|passage)\b/gmi,
+  /\bback\sand\shead\b/gmi,
   /\bbarking\scough\b/gmi,
   /\bbent\s(?:ankle|arm|back|finger|foot|knee|neck|shoulder|toe|wrist)\b/gmi,
   /\bbro(?:ca|dmann?)['‘’`s]*\sareas?\b/gmi,
@@ -165,6 +166,7 @@ const a: RegExp[] = [
   /\b[a-z]+knee\b/gmi,
 
   // L
+  /\bleft\sfoot\b/gmi,
   /\blyme['‘’`s]*\sdisease\b/gmi,
   /\bl(?:angerhans|anghans\sgiant|eydig)\scells?\b/gmi,
   /\bl(?:ockjaw|umbago)\b/gmi,
@@ -178,7 +180,7 @@ const a: RegExp[] = [
   /\blockwood['‘’`s]*\sligaments?\b/gmi,
   /\blittr[eé]['‘’`s]*\sglands?\b/gmi,
   /\blissauer['‘’`s]*\stract\b/gmi,
-  /\blittle\stoe\b/gmi,
+  /\blittle\s(?:finger|toe)\b/gmi,
   /\blichenoid\skeratosis?\b/gmi,
   /\bluschka\sforamina\b/gmi,
   /\bligaments?\sof\s(?:cooper|lockwood|poupart|struthers|treves|treitz)\b/gmi,
@@ -209,6 +211,7 @@ const a: RegExp[] = [
   /\bmorton['‘’`]?s\sneuroma\b/gmi,
   /\bmirena\scoil\b/gmi,
   /\bmicke?y\sbutton\b/gmi,
+  /\bmiddle\stoe\b/gmi,
   /\bMAC\ssedation\b/gmi,
   /\bmacula\b/gmi,
   /\bmallory[\s-]+weiss\stear\b/gmi,
@@ -234,6 +237,7 @@ const a: RegExp[] = [
   /\bosteogen[io]us\b/gmi,
   /\bottawa\s(?:(?:rule|sign)s?\s)?(?:negative|positive)\b/gmi,
   /\borgan\sof\s(?:corti|zuckerkandl)\b/gmi,
+  /\bouter\sfoot\b/gmi,
 
   // P
   /\bp(?:alsy|elvic|harma|harynx|helgm|hleugm|olio|ylori)\b/gmi,
@@ -264,7 +268,7 @@ const a: RegExp[] = [
 
   // R
   /\bring\sfinger\b/gmi,
-  /\bred\s(?:bump|cheek|eye|mark)s?\b/gmi,
+  /\bred\s(?:bump|call|cheek|eye|mark|nail)s?\b/gmi,
   /\brenshaw\scells?\b/gmi,
   /\bretzius['‘’`s]*\sspaces?\b/gmi,
   /\bruffini['‘’`s]*\scorpuscles?\b/gmi,
@@ -280,35 +284,56 @@ const a: RegExp[] = [
   /\brokitansky[\s–]aschoff\ssinuses\b/gmi,
   /\brolandic\sfissure\b/gmi,
   /\branvier['‘’`s]*\snode\b/gmi,
-  /\bred\scall\b/gmi,
 
-  // S
-  /\bspiegelian['‘’`s]*\slobe\b/gmi,
-  /\bs(?:putum|treptococci)\b/gmi,
-  /\bs(?:chwann|ertoli|ick[le]{2})\scells?\b/gmi,
-  /\bsharpey['‘’`s]*\sfib[er]{2}s?\b/gmi,
-  /\bstruthers['‘’`s]*\sligaments?\b/gmi,
-  /\b(?:salter[\s-]+harris|talus|weber\stype\s[a-z])['‘’`s]*\sfract\w+\b/gmi,
-  /\b(?:skene|von\sebner)['‘’`s]*\sglands?\b/gmi,
-  /\bs(?:chlemm|tilling)['‘’`s]*\scanal\b/gmi,
-  /\bscarlett?\sfever\b/gmi,
-  /\bspiegelian['‘’`s]*\slines?\b/gmi,
-  /\bsphincter\sof\soddi\b/gmi,
-  /\bsinus\sof\svalsalva\b/gmi,
-  /\bsylvian\saqueduct\b/gmi,
-  /\bspaces?\sof\s(?:disse|m[öoe]{1,2}ll|prussak|retzius|traube|virchow[\s–]robin)\b/gmi,
+  // SA
+  /\bsalter[\s-]+harris['‘’`s]*\sfract\w+\b/gmi,
   /\bsalter[\s-]+harris\s(?:type\s)?[IVX1-9]{1,3}\b/gmi,
-  /\bside\s(?:of\s)?(?:arm|back|head)\b/gmi,
-  /\bsplinter\s(?:bottom|under)\b/gmi,
-  /\bsupracondu?[ly]{2}ar\b/gmi,
+  /\bsantorini['‘’`s]*\sducts?\b/gmi,
+
+  // SC
+  /\bschwann\scells?\b/gmi,
+  /\bschlemm['‘’`s]*\scanal\b/gmi,
+  /\bscarlett?\sfever\b/gmi,
+
+  // SE
+  /\bsertoli\scells?\b/gmi,
+
+  // SH
   /\bshrapnell['‘’`s]*\smembrane\b/gmi,
-  /\bspiegelian['‘’`s]*\sfascia\b/gmi,
-  /\bs(?:antorini|tensen)['‘’`s]*\sducts?\b/gmi,
-  /\bsuprcondylar\b/gmi,
-  /\bstung\sby\b/gmi,
   /\bshoulder\sblade\b/gmi,
+  /\bsharpey['‘’`s]*\sfib[er]{2}s?\b/gmi,
+
+  // SI
+  /\bside\s(?:of\s)?(?:arm|back|head)\b/gmi,
+  /\bsinus\sof\svalsalva\b/gmi,
+  /\bsick[le]{2}\scells?\b/gmi,
+
+  // SK
+  /\bskene['‘’`s]*\sglands?\b/gmi,
+
+  // SP
+  /\bspiegelian['‘’`s]*\s(?:fascia|line|lobe)s?\b/gmi,
+  /\bsphincter\sof\soddi\b/gmi,
+  /\bsputum\b/gmi,
+  /\bsplinter\s(?:bottom|under)\b/gmi,
+  /\bspaces?\sof\s(?:disse|m[öoe]{1,2}ll|prussak|retzius|traube|virchow[\s–]robin)\b/gmi,
+
+  // ST
+  /\bsteri[\s-]strip\b/gmi,
+  /\bstung\sby\b/gmi,
+  /\bstruthers['‘’`s]*\sligaments?\b/gmi,
+  /\bstreptococci\b/gmi,
+  /\bstilling['‘’`s]*\scanal\b/gmi,
+  /\bstensen['‘’`s]*\sducts?\b/gmi,
+
+  // SU
+  /\bsupra?condu?[ly]{2}ar\b/gmi,
+
+  // SY
+  /\bsylvian\saqueduct\b/gmi,
 
   // T
+  /\btalus['‘’`s]*\sfract\w+\b/gmi,
   /\bTIA\b/gm,
   /\btre(?:ves|itz)['‘’`s]*\sligaments?\b/gmi,
   /\btraube['‘’`s]*\sspaces?\b/gmi,
@@ -326,6 +351,7 @@ const a: RegExp[] = [
   /\bupper\s(?:arm|back|head|lobe)\b/gmi,
 
   // V
+  /\bvon\sebner['‘’`s]*\sglands?\b/gmi,
   /\bv(?:erucca|ulva)\b/gmi,
   /\bvirchow[\s–]robin['‘’`s]*\sspaces?\b/gmi,
   /\bvieussen['‘’`s]*\svalves?\b/gmi,
@@ -336,6 +362,7 @@ const a: RegExp[] = [
   /\bvirchow['‘’`s]*\snode\b/gmi,
   
   // W
+  /\bweber\stype\s[a-z]['‘’`s]*\sfract\w+\b/gmi,
   /\bw(?:harton|irsung|olffian)['‘’`s]*\sducts?\b/gmi,
   /\bwernicke['‘’`s]*\sareas?\b/gmi,
   /\bwasp\ssting\b/gmi,

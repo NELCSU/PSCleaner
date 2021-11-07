@@ -21312,7 +21312,6 @@ const a: string[] = [
 "muctar",
 "mucul",
 "mucur",
-"mud",
 "mudaber",
 "mudabra",
 "mudagal",
