@@ -212,6 +212,7 @@ const a: RegExp[] = [
 /\bfleet\scut\b/gmi,
 /\bFlood\sDrain\b/gm,
 /\bfloods\sdingle\b/gmi,
+/\bflue\s(?:geos|taing)\b/gmi,
 
 // FO
 /\bfore\sfell\b/gmi,
@@ -556,6 +557,9 @@ const a: RegExp[] = [
 
 // GE
 /\bgeo\sof\s(?:rustling\sstanes|the\sstairs)\b/gmi,
+/\bgeo\sof\s(?:grassland|oxen|pass|romps|the\s(?:light|toe)|whaleback)\b/gmi,
+/\bgeo\sof\the\b/gmi,
+/\bgeo\sof\sthe\s(?:keen|swans)\b/gmi,
 /\bgeorge\ssmart\sclose\b/gmi,
 /\bgeorge\scut\b/gmi,
 /\bgemsbok\sway\b/gmi,
@@ -570,7 +574,6 @@ const a: RegExp[] = [
 /\bgeneral['‘’`]?s?\s(?:avenue|close|copse|drive|grove|lane|loch|mews|plantation|rock|stream|street|walk|wood)\b/gmi,
 /\bgentle\s(?:court|row|street)\b/gmi,
 /\bGentle\s(?:Rise|Way|Yard)\b/gm,
-/\bgeo\sof\s(?:grassland|oxen|pass|romps|the\s(?:light|toe))\b/gmi,
 
 // GH
 /\b(?:ghost\s(?:cleuch|copse|haugh|hill|house\slane|meadow)|holy\sghost\sroman\scatholic)\b/gmi,
@@ -955,6 +958,7 @@ const a: RegExp[] = [
 /\bhinckley\s(?:and|\&)\sdistrict\b/gmi,
 
 // HO
+/\bhols\shellier\b/gmi,
 /\bhodder\sbank\sfell\b/gmi,
 /\bHo(?:g|pe)\sFell\b/gm,
 /\bhospice\sof\sthe\sgood\sshepherd\b/gmi,

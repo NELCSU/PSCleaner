@@ -1,7 +1,7 @@
 const a: RegExp[] = [
   // A
   /\b(?:american|australian)\sfootball\b/gmi,
-  /\bastro\sturf\b/gmi,
+  /\bastr[ao]\sturf\b/gmi,
 
   // B
   /\bboulder\sclimbing\b/gmi,
@@ -25,17 +25,14 @@ const a: RegExp[] = [
   // P
   /\bpaint\sballing\b/gmi,
   /\bping\spong\b/gmi,
-  /\bplay(?:ed|ing|s)?\s(?:with\s)?(?:frisb(?:ee|y)|rugby)\b/gmi,
+  /\bplay(?:ed|ing|s)?\s(?:with\s)?frisb(?:ee|y)\b/gmi,
   /\bgrand\sprix\b/gmi,
   /\bpool\s(?:ball|shower|table)s?\b/gmi,
   /\bpaddling\spool\b/gmi,
 
-  // R
-  /\brugby\s(?:club|fields?|inj(?:ury)?|league|training|union)\b/gmi,
-
   // S
   /\bskate\s?park\b/gmi,
-  /\bsports\s(?:centre|hall)\b/gmi,
+  /\bsports\s(?:centre|ground|hall)\b/gmi,
   /\bschool\s(?:field|playground)\b/gmi,
   /\bswimming\spool\b/gmi,
 

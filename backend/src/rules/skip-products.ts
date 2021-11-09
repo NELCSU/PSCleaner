@@ -73,6 +73,8 @@ const a: RegExp[] = [
   /\bmoses\s(?:basket|blanket)\b/gmi,
   /\bmanial\senvelope\b/gmi,
 
+  /\bn[eu]rff?\sgun\b/gmi,
+
   // P
   /\bpranaro\sdiffuser\b/gmi,
   /\bplaydoh\b/gmi,

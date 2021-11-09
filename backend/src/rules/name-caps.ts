@@ -1470,7 +1470,6 @@ const a: string[] = [
 "halfpence",
 "halfpenny",
 "halibut",
-"hall",
 "hallelujah",         // name
 "hallmark",
 "hallow",
@@ -2945,7 +2944,6 @@ const a: string[] = [
 "ruby",             // name
 "rue",              // name
 "rug",              // name & standalone
-"rugby",            // standalone
 
 // S
 "sham",             // name & placenames (3)

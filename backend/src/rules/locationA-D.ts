@@ -1193,6 +1193,8 @@ const a: RegExp[] = [
 /\b(?:gorse\scover\sroad|low\scover\swood|new\scover\scopse)\b/gmi,
 
 // CR
+/\b[\d-]+Crossing\s(?:Drove|Lane|Road|Water)\b/gm,
+/\bcrossing\s(?:covert|gates|mews|plantation|terrace|wood)\b/gmi,
 /\bcrag\sfell\b/gmi,
 /\bcrooks\so['‘’`]?\sgreen\sfell\b/gmi,
 /\bcross\sfell\sdrive\b/gmi,

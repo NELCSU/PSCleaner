@@ -315,7 +315,7 @@ const a: RegExp[] = [
 /\bwhite\spost\sstreet\b/gmi,
 /\bwhite\swoman['‘’`]?s\splantation\b/gmi,
 /\bWhile\sRoad\b/gm,
-/\b(?:geo\sof|north|south)\swhaleback\b/gmi,
+/\b(?:north|south)\swhaleback\b/gmi,
 /\bwhaleback\s(?:road|skerry)\b/gmi,
 /\bwhalers['‘’`]?\s(?:close|farrow)\b/gmi,
 /\bwheat\s(?:acre|breach|close|common|croft|end|farland|field\s(?:avenue|close|lane)|gardens)\b/gmi,

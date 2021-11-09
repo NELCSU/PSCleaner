@@ -313,7 +313,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "brooms",           // name & placenames (19)
 "bros",             // name & placename
 "brotherhood",      // name & placenames (4)
-"brough",           // name & placenames (76)
+"brough",           // name & standalone & placenames (75)
 "brow",             // name & placenames (619)
 "brownfield",       // name & placenames (3)
 "brownie",          // name & placenames (7)
@@ -761,7 +761,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "crock",            // name & placenames (14)
 "cross",            // standalone (SY12) & placenames (1k+)
 "crosses",          // standalone & placenames (9)
-"crossing",         // name & placenames (33)
 "crossings",        // placenames (10)
 "crossroads",       // standalone & placenames (8)
 "crown",            // placenames (146)
@@ -1198,7 +1197,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "garlands",         // standalone & placenames (5)
 "garner",           // name & placenames (11)
 "gazelle",          // name & placenames (5)
-"gable",            // name & placenames (12)
+"gable",            // name & standalone & placenames (11)
 "gables",           // name & placenames (36)
 "gabon",            // name
 "gaga",             // name
@@ -2868,7 +2867,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "scraper",          // name & placenames (3)
 "scar",             // placenames (274)
 "scarf",            // name & placenames (19)
-"school",           // placenames (1k+)
 "schools",          // name & placenames (129)
 "schoolyard",       // standalone & placename
 "score",            // standalone & placenames (36)
