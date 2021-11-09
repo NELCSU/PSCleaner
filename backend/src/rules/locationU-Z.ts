@@ -525,7 +525,7 @@ const a: RegExp[] = [
 
 // YE
 /\byewdale\sfell\sside\b/gmi,
-/\bYellow\sLedge\b/gm,
+/\bYellow\s(?:Ledge|Stack)\b/gm,
 /\byeading\sfork\b/gmi,
 /\byeomen\sway\b/gmi,
 /\byeald\s(?:brow|wood)\b/gmi,

@@ -69,15 +69,15 @@ const a: RegExp[] = [
   /\ba\scar\b/gmi,
 
   // D
-  /\b(?:d[eé]j[aà])\svu\b/gmi,
+  /\bd[eé]j[aà]\svu\b/gmi,
   /\bde\sjour\b/gm,
+  /\bdeep\s(?:blue|cave|green|hole|lake|mine|pond|purple|red|sea|tunnel|water)s?\b/gmi,
   /\bdirector[\s\-]general\b/gmi,
   /\bdrive\sdown\b/gmi,
-  /\bdua['‘’`]?s\slayer\b/gmi,
-  /\bdeep\s(?:blue|cave|green|hole|lake|mine|pond|purple|red|sea|tunnel|water)s?\b/gmi,
-  /\bdown\sshaft\b/gmi,
+  /\bdown\s(?:shaft|stairs?)\b/gmi,
   /\b(?:district|federal|supreme)\scourt\b/gmi,
   /\bdominican\srepublic\b/gmi,
+  /\bdua['‘’`]?s\slayer\b/gmi,
 
   // E
   /\beastern\sbloc\b/gmi,
@@ -104,6 +104,7 @@ const a: RegExp[] = [
   /\bFood\sBank\b/gm,
 
   // G
+  /\bgetting\sup\sfrom\b/gmi,
   /\bgood\s(?:friday|morning)\b/gmi,
   /\bgreat\sbritish\b/gmi,
   /\bguinea\spig\b/gmi,
@@ -178,7 +179,7 @@ const a: RegExp[] = [
   /\bon\sfoot\b/gmi,
   /\bon\stop\sof\b/gmi,
   /\boverton\swindow\b/gmi,
-  /\bon\s(?:the\s)?(?:floor|shelf|table)\b/gmi,
+  /\bon\s(?:the\s)?(?:chair|floor|shelf|table)\b/gmi,
 
   // P
   /\bhaving\sa\spaddy\b/gmi,

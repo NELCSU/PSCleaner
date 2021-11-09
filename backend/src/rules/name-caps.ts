@@ -3159,6 +3159,7 @@ const a: string[] = [
 "tiger",            // name & placenames (18)
 "tilty",            // standalone
 "tj",               // name
+"tonga",            // name & standalone & placenames (17)
 "tooting",          // standalone
 "topside",          // standalone
 "townhouse",        // standalone

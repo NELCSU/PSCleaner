@@ -192,6 +192,7 @@ const a: RegExp[] = [
 /\bripon\s(?:and|\&)\sdistrict\b/gmi,
 
 // RO
+/\broller\sclump\b/gmi,
 /\bRo(?:man|ough|und)\sFell\b/gm,
 /\browton\sbrook\sfell\b/gmi,
 /\broade\scutting\b/gmi,
@@ -216,7 +217,6 @@ const a: RegExp[] = [
 /\brockery\s(?:close|croft|park|plantation|road|wood)\b/gmi,
 /\brockfall\sbench\b/gmi,
 /\brocking\s(?:moor|stone)\b/gmi,
-/\broller\sclump\b/gmi,
 /\brolling\s(?:dales\sclose|mill(?:\s(?:close|lane|mews|road))?|mills\s(?:drive|mews)|stones|street|way)\b/gmi,
 /\b(?:hutton\sroof(?:\s(?:crags|park))?|old\sroof\swood)\b/gmi,
 /\b(?:reading\sroom\s(?:lane|loke|yard)|room\s(?:bottom|hill(?:\sroad)?|lane|wood)|stove\sroom\swood)\b/gmi,
@@ -255,6 +255,7 @@ const a: RegExp[] = [
 /\brooster\srow\b/gmi,
 
 // RU
+/\brub\sgeos\b/gmi,
 /\brubbery\slane\b/gmi,
 /\brubbing\shouse\sspinney\b/gmi,
 /\brubbing\sstone\b/gm,
@@ -959,8 +960,10 @@ const a: RegExp[] = [
 /\bstroller\sclose\b/gmi,
 /\bstanza\scourt\b/gmi,
 /\bSteering\sClose\b/gm,
-/\bst(?:ained|artle|eeling|eepness)\shill\b/gmi,
-/\bst(?:amping|arflower|eamboat|rangers|rollers)\sway\b/gmi,
+/\bsta(?:ined|rtle)\shill\b/gmi,
+/\bste(?:eling|epness)\shill\b/gmi,
+/\bsta(?:mping|rflower)\sway\b/gmi,
+/\bst(?:eamboat|rangers|rollers)\sway\b/gmi,
 /\bstardust\screscent\b/gmi,
 /\bStop\sStreet\b/gm,
 /\bold\sstable\s(?:gardens|mews|row|walk|yard)\b/gmi,

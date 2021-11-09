@@ -190,6 +190,8 @@ const a: RegExp[] = [
 /\bffos[\s-]y[\s-]go\b/gmi,
 
 // FI
+/\bflowing\s(?:geo|stack)\b/gmi,
+/\bfill\sgeo\b/gmi,
 /\bfiend['‘’`]?s\sfell\b/gmi,
 /\bfinningley\sbig\swood\b/gmi,
 /\bfi(?:ddling|ndings|nns|rm|shmonger['‘’`s]*|shes|ve\svents)\slane\b/gmi,

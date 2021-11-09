@@ -408,7 +408,7 @@ const a: RegExp[] = [
 
 // OL
 /\bOld\s(?:Cut|Stairs)\b/gm,
-/\bold\s(?:drying\sgrounds|kennels\slane|squaw\slake|stratford\scut|souls\sway|wives\slees)\b/gmi,
+/\bold\s(?:bleach\syard|drying\sgrounds|kennels\slane|squaw\slake|stratford\scut|souls\sway|wives\slees)\b/gmi,
 /\bold\s(?:horse\schestnut|(?:maid|man)['‘’`]?s|post|warp|woman['‘’`]?s)\slane\b/gmi,
 /\bold\swashing\spool\b/gmi,
 /\bolives\spit\slane\b/gmi,

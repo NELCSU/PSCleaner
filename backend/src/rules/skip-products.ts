@@ -1,5 +1,6 @@
 const a: RegExp[] = [
   // A
+  /\baqua\s?bead\b/gmi,
   /\bariel\s(?:non|(?:2|3|two|three)[\s-]in[\s-](?:1|one)|liquitab|tablets?|washing)\b/gmi,
   
   // B
@@ -73,11 +74,11 @@ const a: RegExp[] = [
   /\bmanial\senvelope\b/gmi,
 
   // P
+  /\bpranaro\sdiffuser\b/gmi,
   /\bplaydoh\b/gmi,
 
   // R
   /\brocking\shorse\b/gmi,
-  /\broller\scoaster\b/gmi,
   /\brusty\snail\b/gmi,
 
   // S

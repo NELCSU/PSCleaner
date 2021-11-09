@@ -440,6 +440,7 @@ const a: RegExp[] = [
 /\b(?:binders\s(?:court|road)|boot\sbinders\sroad)\b/gmi,
 
 // BL
+/\bbleach\s(?:green|house\sbank|mill(?:\slane)?|street|yard(?:\slane)?)\b/gmi,
 /\bBlack\s(?:Cut|Ledge|Rock\sLedge)\b/gm,
 /\bblack\sfell\smoss\b/gmi,
 /\bBlack\sFell\b/gm,
@@ -475,6 +476,15 @@ const a: RegExp[] = [
 /\bbluebell\snursing\b/gmi,
 
 // BO
+/\bboney\s(?:hay|road)\b/gmi,
+/\bboney['‘’`]?s\sisland\b/gmi,
+/\bbare\sbones\sroad\b/gmi,
+/\bbloody\sbones\slane\b/gmi,
+/\bbones\s(?:croft|lane|meadow|plantation|wood|yard)\b/gmi,
+/\bdog\sbones\b/gm,
+/\bholy\sbones\b/gm,
+/\bjaw\sbones\shill\b/gmi,
+/\bpoint\sof\sdogs\sbones\b/gmi,
 /\bbolton\sfell\send\b/gmi,
 /\bbotton\shead\sfell\b/gmi,
 /\bbow\sfell\sroad\b/gmi,
@@ -1473,7 +1483,7 @@ const a: RegExp[] = [
 /\bdoctors\s(?:acre|drove|fields?|meadow|place|road|street)\b/gmi,
 /\bdog\skennels\s(?:lane|plantation|wood)\b/gmi,
 /\bdogs\s(?:head\sstreet|hill\sroad|lane|leg\swood|plantation)\b/gmi,
-/\b(?:isle\sof\sdogs|lucky\sdogs\s(?:holes|point)|point\sof\sdogs\sbones)\b/gmi,
+/\b(?:isle\sof\sdogs|lucky\sdogs\s(?:holes|point))\b/gmi,
 /\b[Dd]omestic\sApproach\b/gm,
 /\b(?:Barn|Cabin)\sDoor\b/gm,
 /\bDouble\sView\b/gm,

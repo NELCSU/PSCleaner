@@ -69,11 +69,14 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "bigger",
 
 // BL
+"bleach",
 "blinder",
 
 // BO
 "bolt",
 "boner",
+"bones",
+"boney",
 "booster",
 
 // BR
@@ -591,6 +594,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 // RO
 "roadhouse",
 "rocker",
+"roller",
 "romanic",
 "romp",
 "romper",

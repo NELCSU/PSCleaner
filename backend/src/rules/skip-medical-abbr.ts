@@ -23,7 +23,6 @@ const a: RegExp[] = [
   /\b[alu]{1,2}rti\b/gmi,
   /\blucc\b/gmi,
   /\bmedevac\b/gmi,
-  /\bmmol\b/gmi,
   /\bMUA\b/gm,
   /\bNIC\b/gm,
   /\bNSTEMI\b/gm,

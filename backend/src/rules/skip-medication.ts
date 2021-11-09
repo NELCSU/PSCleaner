@@ -1,5 +1,5 @@
 const a: RegExp[] = [
-  /\d+(?:g|mg|ml|mmol)\b/gm,
+  /\d+(?:g|mg|ml)\b/gm,
 
   // https://en.wikipedia.org/wiki/Drug_nomenclature
   /\b[a-z]+axine\b/gmi,
@@ -14,7 +14,6 @@ const a: RegExp[] = [
   /\b[a-z]+prazole\b/gmi,
   /\b[a-z]+rafenib\b/gmi,
   /\b[a-z]+sartan\b/gmi,
-  /\b[a-z]+tamol\b/gmi,
   /\b[a-z]+tinib\b/gmi,
   /\b[a-z]+vastatin\b/gmi,
   /\b[a-z]+xaban\b/gmi,
@@ -27,7 +26,7 @@ const a: RegExp[] = [
   //B
   /\bb(?:en[ao]dryl|onjela)\b/gmi,
   // C
-  /\bc(?:al?pol|efuroxime|etiri?zine|larithro|odiene|oronavac|(?:o\-?c)?od[ao]mol|orazol|urevac)\b/gmi,
+  /\bc(?:al?pol|efuroxime|etiri?zine|larithro|odiene|oronavac|orazol|urevac)\b/gmi,
   // D
   /\bdi(?:clofenac|hydrocodiene|oral[ty]{2}e)\b/gmi,
   // E
@@ -49,7 +48,7 @@ const a: RegExp[] = [
   // R
   /\bremdesivir\b/gmi,
   // S
-  /\bs(?:albut?[ao]mol|inovac)\b/gmi,
+  /\bsinovac\b/gmi,
   // T
   /\btr(?:amadol|imethopr[io]m|uxima)\b/gmi,
   // V

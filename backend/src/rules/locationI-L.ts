@@ -134,7 +134,7 @@ const a: RegExp[] = [
 /\bmiddle\sjamb\b/gmi,
 /\bjaunty\s(?:avenue|close|crescent|drive|lane|mount|place|road|view|way)\b/gmi,
 /\bjavelin\s(?:avenue|close|crescent|park|road|row|way)\b/gmi,
-/\bjaw\s(?:bones\shill|bottom\splantation|hill|reservoir)\b/gmi,
+/\bjaw\s(?:bottom\splantation|hill|reservoir)\b/gmi,
 /\b(?:linn|rowantree)\sjaw\b/gmi,
 /\bwhale\sjaw\slane\b/gmi,
 /\bLion['‘’`]?s\sJaws\b/gm,
