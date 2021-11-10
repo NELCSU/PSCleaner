@@ -44,7 +44,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sCar(?:e|penters|riages|t\sTrack|ts)?\b/gm,
   /\bThe\sCentre\b/gm,
   /\bThe\sCha(?:lets|lks?|mbers|pel|pelry|rt|rters?|se|tters|ucer)\b/gm,
-  /\bThe\sChai[nr]\b/gm,
+  /\bThe\sChain\b/gm,
   /\bThe\sChan(?:cellor|cery|dlers|nels?|tries|ters)\b/gm,
   /\bThe\sChe(?:ck|eses|rwell)\b/gm,
   /\bThe\sCh(?:ild['‘’`]?s\sSeat|imes|imneys|ocolate\sWorks|ristian)\b/gm,
@@ -157,7 +157,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sLo(?:an|bby|ckers|ng\sS(?:hoot|traight)|rd['‘’`]?s\sHighway|ts|ttery|w)\b/gm,
   /\bThe\sLod(?:ge|gings)\b/gm,
   /\bThe\sLoo(?:kout|ms|ps?)\b/gm,
-  /\bThe\sLunch\b/gm,
+  /\bThe\sLu(?:g|nch)\b/gm,
 
   // M
   /\bThe\sMag(?:ical\sWood|nolias|pies)\b/gm,

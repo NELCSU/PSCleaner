@@ -8,7 +8,7 @@ const a: RegExp[] = [
   /\bbrazilian\sju[\s-]?jitsu\b/gmi,
 
   // D
-  /\bdance\sschool\b/gmi,
+  /\bdance\s(?:hall)\b/gmi,
   /\bdodge\sball\b/gmi,
 
   // F
@@ -33,7 +33,6 @@ const a: RegExp[] = [
   // S
   /\bskate\s?park\b/gmi,
   /\bsports\s(?:centre|ground|hall)\b/gmi,
-  /\bschool\s(?:field|playground)\b/gmi,
   /\bswimming\spool\b/gmi,
 
   // T

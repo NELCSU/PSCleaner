@@ -179,7 +179,7 @@ const a: RegExp[] = [
   /\bon\sfoot\b/gmi,
   /\bon\stop\sof\b/gmi,
   /\boverton\swindow\b/gmi,
-  /\bon\s(?:the\s)?(?:chair|floor|shelf|table)\b/gmi,
+  /\bon\s(?:the\s)?(?:floor|shelf|table)\b/gmi,
 
   // P
   /\bhaving\sa\spaddy\b/gmi,
@@ -221,7 +221,11 @@ const a: RegExp[] = [
   /\bsierra\sleone\b/gmi,
   /\bsolomon\sislands\b/gmi,
   /\bsouth\samerica\b/gmi,
-  /\b(?:saudi\sarabia|serco|slovakia|south\s(?:africa|sudan)|sri\slanka|(?:aided|community|day|high|law|(?:pre-)?preparatory|primary|secondary)\sschool)\b/gmi,
+  /\bsaudi\sarabia\b/gmi,
+  /\bserco\b/gmi,
+  /\bslovakia\b/gmi,
+  /\bsouth\s(?:africa|sudan)\b/gmi,
+  /\bsri\slanka\b/gmi,
 
   // T
   /\bbig\stech\b/gmi,

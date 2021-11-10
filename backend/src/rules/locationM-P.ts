@@ -92,6 +92,7 @@ const a: RegExp[] = [
 /\bmarks\stey\sand\slayer\b/gmi,
 
 // ME
+/\bmermaid['‘’`]?s\schair\b/gmi,
 /\bmell\sfell(?:\swood)?\b/gmi,
 /\bmexborough\snew\scut\b/gmi,
 /\bmeadow\swell\sway\b/gmi,
@@ -200,6 +201,7 @@ const a: RegExp[] = [
 /\bmontrose\s(?:and|\&)\sdistrict\b/gmi,
 
 // MU
+/\bmu\s(?:geo|ness|stack)\b/gmi,
 /\bmud\s(?:dock|home\sspinney|house\scopse|lane|point|road|row|wood)\b/gmi,
 /\bmutford\sbig\swood\b/gmi,
 /\bmusselburgh\slagoons\b/gmi,

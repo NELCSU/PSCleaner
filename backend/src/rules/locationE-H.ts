@@ -582,8 +582,9 @@ const a: RegExp[] = [
 /\bgirdle\sfell\b/gmi,
 /\bgig(?:\sbridge)?\slane\b/gmi,
 /\b(?:giant\s(?:arches\sroad|bradley|close|tree\shill)|little\sgiant\swood)\b/gmi,
+/\bGiant['‘’`]?s\sChair\b/gm,
 /\bGiant\s(?:Hill|Rock)\b/gm,
-/\b(?:giant['‘’`]?s\s(?:causeway|chair|grave|hall\sroad|seat\sgrove|wood)|the\sgiant['‘’`]?s\sthumb)\b/gmi,
+/\b(?:giant['‘’`]?s\s(?:causeway|grave|hall\sroad|seat\sgrove|wood)|the\sgiant['‘’`]?s\sthumb)\b/gmi,
 /\bgingerbread\s(?:clough|lane|plantation)\b/gmi,
 /\bgingers\s(?:close|green)\b/gmi,
 /\bgingham\s(?:brow|park)\b/gmi,
@@ -618,6 +619,7 @@ const a: RegExp[] = [
 /\bglen\sglass\b/gmi,
 
 // GO
+/\bgolden\schair\shill\b/gmi,
 /\bgood\s(?:bent\shey|bush\shill|friday\s(?:hill|plantation)|hill|hook\slane)\b/gmi,
 /\bGood\s(?:Easter|Intent|Road|Street)\b/gm,
 /\bgood\s(?:hope\s(?:close|court|hospital)|lands|lane|moors|neighbours\slane)\b/gmi,
@@ -666,6 +668,7 @@ const a: RegExp[] = [
 /\bgoole\s(?:and|\&)\sdistrict\b/gmi,
 
 // GR
+/\bGrey\sChair\b/gm,
 /\bgrange\sfell(?:\sroad)?\b/gmi,
 /\bgreat\s(?:dun|ewe|mell|sca|scoat|shunner)\sfell\b/gmi,
 /\bgreen\sfell\s(?:end|plantation)\b/gmi,

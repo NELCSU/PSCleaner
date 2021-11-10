@@ -255,8 +255,6 @@ const a: RegExp[] = [
 /\brooster\srow\b/gmi,
 
 // RU
-/(?<=(?:addr|CV21|dr[io]ve|live|stay|town|warwick).{2,25})\brugby\b/gi,
-/\brugby\b(?=.{1,20}(?:addr|CV21|warwick))/gi,
 /\brub\sgeos\b/gmi,
 /\brubbery\slane\b/gmi,
 /\brubbing\shouse\sspinney\b/gmi,
@@ -275,7 +273,7 @@ const a: RegExp[] = [
 /\b(?:avon\srun\sclose|da\srun\shoevdi)\b/gmi,
 /\b(?:Long|Slalom|Water)\sRun\b/gm,
 /\brun\s(?:common|craig|furrow|geo|head|hill|lane|lee|meadow|pond|road|view)\b/gmi,
-/\b(?:badgers|badgers|bulls['‘’`]?|chair|firemans|fox|gorah|hares|mabs|mardling)\srun\b/gmi,
+/\b(?:badgers|badgers|bulls['‘’`]?|firemans|fox|gorah|hares|mabs|mardling)\srun\b/gmi,
 /\b(?:mead|mole|mollys)\srun\b/gmi,
 /\b(?:henry['‘’`]?s|island|kirkley|longwood|longwool|pavey|scalp|voter)\srun\b/gmi,
 /\brunaway\s(?:hill|lane)\b/gmi,
@@ -619,6 +617,7 @@ const a: RegExp[] = [
 /\b(?:redrise|sick\sman['‘’`]*s|thorney|withycombe)\sshade\b/gmi,
 
 // SI
+/\bsir\srobert['‘’`]?s\schair\b/gmi,
 /\bsir\sjohn\shurt\splace\b/gmi,
 /\bSide\sFell\b/gm,
 /\bsilt\slagoon\b/gmi,
@@ -948,6 +947,8 @@ const a: RegExp[] = [
 /\bsquashes\swood\b/gmi,
 
 // ST
+/\bstone\schair\s(?:hill|lane)\b/gmi,
+/\bStone\sChair\b/gm,
 /\bstack\sof\sthe\s(?:botten|brough|crubb|cuillan|graves|horse|moull|mucklehead|rettuvie|riffars|skersons)\b/gmi,
 /\bstates\s(?:hill\swood|road)\b/gmi,
 /\bsta(?:ke\shouse|nley\sfarm|ple\soak|veley\shead)\sfell\b/gmi,

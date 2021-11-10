@@ -205,6 +205,8 @@ const a: RegExp[] = [
 /\bkelso\s(?:and|\&)\sdistrict\b/gmi,
 
 // KI
+/\bking['‘’`]?s\schair\s(?:hill|plantation)\b/gmi,
+/\bKing['‘’`]?s\sChair\b/gm,
 /\bkirk\sfell\sghyll\b/gmi,
 /\bKitchen\sLedge\b/gm,
 /\bking\sstairs\sclose\b/gmi,
@@ -465,6 +467,7 @@ const a: RegExp[] = [
 /\bLNG\sterminal\b/gmi,
 
 // LO
+/\blord\schair\shill\b/gmi,
 /\blo(?:an|ch|ng)\sfell\b/gmi,
 /\blow\s(?:auchenree|birk|cringle)\sfell\b/gmi,
 /\blow\sfell\s(?:close|plantation)\b/gmi,

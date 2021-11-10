@@ -8,6 +8,7 @@ import { LocationMPRegEx } from "./rules/locationM-P";
 import { LocationQTRegEx } from "./rules/locationQ-T";
 import { LocationUZRegEx } from "./rules/locationU-Z";
 import { LocationTheRegEx } from "./rules/location-the";
+import { LocationContextRegEx } from "./rules/location-in-context";
 import { NationalRoadRegEx } from "./rules/national-road";
 import { ProductsRegEx } from "./rules/skip-products";
 import { SportLeisureRegEx } from "./rules/skip-sport-leisure";
@@ -201,6 +202,12 @@ export class NLP {
         action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
         entity: locationPatternEntity,
         matches: this._evalRegEx(data, LocationUZRegEx)
+      });
+
+      searches.push({
+        action: { discard: 0, joinable: 0, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: locationPatternEntity,
+        matches: this._evalRegEx(data, LocationContextRegEx)
       });
 
       searches.push({

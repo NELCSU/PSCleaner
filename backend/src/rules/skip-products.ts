@@ -28,7 +28,7 @@ const a: RegExp[] = [
   /\bcotto[mn]\s(?:bud|wool)\b/gmi,
   /\bclimbing\sframe\b/gmi,
   /\bcuticura\shand\b/gmi,
-  /\bcorner\sof\s(?:chair|table)\b/gmi,
+  /\bcorner\sof\stable\b/gmi,
 
   // D
   /\bdyson\s(?:appliance|brand|hoover|vacuum)s?\b/gmi,
@@ -53,7 +53,6 @@ const a: RegExp[] = [
   /\bhair\sdryer\b/gmi,
   /\b(?:by|with)(?:\sa)?\shammer\b/gmi,
   /\bhand\s(?:rail|saw)\b/gmi,
-  /\bhigh\schair\b/gmi,
   /\bhome\s(?:garden|stairs)\b/gmi,
   /\bhorse\sbox\b/gmi,
 
@@ -107,7 +106,7 @@ const a: RegExp[] = [
   /\bwendy\shouse\b/gmi,
   /\bwhite\sspirit\b/gmi,
   /\bwindow\ssill\b/gmi,
-  /\bwooden\s(?:bench|chair|door|floor)\b/gmi,
+  /\bwooden\s(?:bench|door|floor)\b/gmi,
 
   // Z
   /\bzimmer\sframe\b/gmi

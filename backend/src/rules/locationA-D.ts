@@ -27,6 +27,7 @@ const a: RegExp[] = [
 /\baconite\s(?:close|road)\b/gmi,
 
 // AD
+/\bAdam['‘’`]?s\sChair\b/gm,
 /\bAdam\sAnd\sEve\b/gm,
 /\badam\sand\seve\s(?:mews|street)\b/gmi,
 /\badventure\s(?:lane|place)\b/gmi,
@@ -346,6 +347,7 @@ const a: RegExp[] = [
 /\bbay\sof\ssmall\sisles\b/gmi,
 
 // BE
+/\bBenjamin['‘’`]?s\sChair\b/gm,
 /\bbead\s(?:na\scloiche\sglaise|road)\b/gmi,
 /\bbeacon\sfell(?:\sroad)?\b/gmi,
 /\bbeeston\sbump\b/gmi,
@@ -541,6 +543,7 @@ const a: RegExp[] = [
 /\bbold\sventure\sway\b/gmi,
 
 // BR
+/\bBrownie['‘’`]?s\sChair\b/gm,
 /\bbradley\sfell\sroad\b/gmi,
 /\bbrae\sfell\b/gmi,
 /\bbraid\sfell\b/gmi,
@@ -828,7 +831,8 @@ const a: RegExp[] = [
 /\bchurch\srails\b/gmi,
 /\bchaplet\savenue\b/gmi,
 /\bch(?:amois|antressheer|orus|apterhouse|arts)\sclose\b/gmi,
-/\bchair\s(?:lane|walk)\b/gmi,
+/\bChair\s(?:Ladder|Run)\b/gm,
+/\bchair\s(?:carn|cove|drove|hill|lane|plantation|soond|walk|wood)\b/gmi,
 /\bch(?:ants|argeable|eer|eering|emist|ess|imer['‘’`]?s|opping\sknife|urn\smilk)\slane\b/gmi,
 /\bch(?:affron|andlery|ariots|artists|ief)\sway\b/gmi,
 /\bchoral\sgrove\b/gmi,
@@ -905,6 +909,7 @@ const a: RegExp[] = [
 /\bcitizen\s(?:jaffray|lane|road)\b/gmi,
 
 // CL
+/\bClubbs\sChair\b/gm,
 /\bClark\sFell\b/gm,
 /\bcliffe\scut\b/gmi,
 /\bcloister\s(?:avenue|close|court|crofts?|drive|gardens|garth|lawns)\b/gmi,
@@ -1193,6 +1198,7 @@ const a: RegExp[] = [
 /\b(?:gorse\scover\sroad|low\scover\swood|new\scover\scopse)\b/gmi,
 
 // CR
+/\bCrickies\sChair\b/gm,
 /\b[\d-]+Crossing\s(?:Drove|Lane|Road|Water)\b/gm,
 /\bcrossing\s(?:covert|gates|mews|plantation|terrace|wood)\b/gmi,
 /\bcrag\sfell\b/gmi,
@@ -1426,6 +1432,7 @@ const a: RegExp[] = [
 /\bdesert\s(?:orchid\sroad|plantation|strip|wood)\b/gmi,
 /\bDesign\sClose\b/gm,
 /\bdesign\s(?:drive|street)\b/gmi,
+/\bDevil['‘’`]?s\schair\b/gm,
 /\bdevil['‘’`]?s\sthrashing\sfloor\b/gmi,
 /\bdevil['‘’`s]*\s(?:bottom|bridge|dining\sroom|copse|dyke|frying\span|grove|kitchen|ledge|mill)\b/gmi,
 /\bdevil['‘’`s]*\s(?:oven\splantation|punch\s?bowl|reach|staircase|teeth|tor|wood)\b/gmi,
@@ -1566,6 +1573,7 @@ const a: RegExp[] = [
 // DY
 /\bdynamo\s(?:close|way)\b/gmi,
 /\bdylus[\s-]grin\b/gmi,
+/\bdyke[\s-]end\b/gmi,
 ];
 const LocationADRegEx: Set<RegExp> = new Set();
 a.forEach(term => LocationADRegEx.add(term));
