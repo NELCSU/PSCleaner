@@ -152,6 +152,7 @@ const a: RegExp[] = [
 /\bjenny['‘’`]?s\slantern\shill\b/gmi,
 
 // JO
+/\bjohn\sball\sclose\b/gmi,
 /\bjohn\smartin['‘’`]?s\sledge\b/gmi,
 /\bjohn\ssmart\sclose\b/gmi,
 /\b(?:cae\sjob|job['‘’`s]*\s(?:cleugh|copse|corner|craig|cross|drain\splace|dub|hill|lane|plain|water|well|wood|yard))\b/gmi,
@@ -168,6 +169,7 @@ const a: RegExp[] = [
 /\bjourneyman['‘’`]?s\sgreen\b/gmi,
 
 // JU
+/\bjump\s(?:down\sbight|farm\sroad|primary\sschool|valley)\b/gmi,
 /\bjunior\scadets\sroad\b/gmi,
 /\bjugglers\s(?:close|moor)\b/gmi,
 /\bjunction\scut\b/gmi,
@@ -177,6 +179,7 @@ const a: RegExp[] = [
 /\bKayak\sClose\b/gm,
 
 // KE
+/\bkew\sfoot\sroad\b/gmi,
 /\bkendal\sstrickland\sand\sfell\b/gmi,
 /\bkelyin\sof\skroos\b/gmi,
 /\bkerridge['‘’`]?s\scut\b/gmi,
@@ -205,6 +208,7 @@ const a: RegExp[] = [
 /\bkelso\s(?:and|\&)\sdistrict\b/gmi,
 
 // KI
+/\bkitchen\sball\scopse\b/gmi,
 /\bking['‘’`]?s\schair\s(?:hill|plantation)\b/gmi,
 /\bKing['‘’`]?s\sChair\b/gm,
 /\bkirk\sfell\sghyll\b/gmi,
@@ -275,6 +279,8 @@ const a: RegExp[] = [
 
 /\bl\sspinney\b/gmi,
 // LA
+/\blade\sfoot\scove\b/gmi,
+/\blane\sfoot\s(?:brow|road)\b/gmi,
 /\bla(?:bourn['‘’`]?s|mb\shill)\sfell\b/gmi,
 /\bLaws\sFell\b/gm,
 /\blaunde\sbig\swood\b/gmi,
@@ -374,6 +380,9 @@ const a: RegExp[] = [
 /\blanyard\s(?:drive|way)\b/gmi,
 
 // LE
+/\bleader\sfoot\b/gmi,
+/\bleas\sfoot\ssand\b/gmi,
+/\bleithen\sfoot\spool\b/gmi,
 /\bleaning\sgrooves\sflat\b/gmi,
 /\b(?:Inner|Mid|Mill)\sLead\b/gm,
 /\b(?:lead\s(?:flats|green|hill|lane|mill\slane|mills|mine\s(?:clough|moss)|moor|pool|road|stone|street|wath\swood)|bridge\sof\slead\spot)\b/gmi,
@@ -418,6 +427,8 @@ const a: RegExp[] = [
 /\bleveller\s(?:end|road|way)\b/gmi,
 
 // LI
+/\blight\sfoot\slane\b/gmi,
+/\blittle\sball\scopse\b/gmi,
 /\bliddells\sfell\sroad\b/gmi,
 /\bli(?:ly|mestones|ng)\sfell\b/gmi,
 /\blittle\s(?:dun|ewe|harter|mell|sca|stags)\sfell\b/gmi,
@@ -467,6 +478,8 @@ const a: RegExp[] = [
 /\bLNG\sterminal\b/gmi,
 
 // LO
+/\blon\sfel\b/gmi,
+/\bloch\snam\sball\b/gmi,
 /\blord\schair\shill\b/gmi,
 /\blo(?:an|ch|ng)\sfell\b/gmi,
 /\blow\s(?:auchenree|birk|cringle)\sfell\b/gmi,
@@ -511,6 +524,7 @@ const a: RegExp[] = [
 /\blower\slandslip\b/gmi,
 
 // LU
+/\blumb\sfoot\b/gmi,
 /\blucy['‘’`]?s\sledge\b/gmi,
 /\blump\sof\sclay\sledge\b/gmi,
 /\b(?:luck['‘’`s]*\s(?:lane|road|wood)|ledston\sluck|william\sluck\sclose)\b/gmi,

@@ -28,12 +28,13 @@ const a: RegExp[] = [
   /\bplay(?:ed|ing|s)?\s(?:with\s)?frisb(?:ee|y)\b/gmi,
   /\bgrand\sprix\b/gmi,
   /\bpool\s(?:ball|shower|table)s?\b/gmi,
-  /\bpaddling\spool\b/gmi,
+
+  // R
+  /\bred\sball\b/gmi,
 
   // S
   /\bskate\s?park\b/gmi,
-  /\bsports\s(?:centre|ground|hall)\b/gmi,
-  /\bswimming\spool\b/gmi,
+  /\bsports\s(?:centre|field|ground|hall)\b/gmi,
 
   // T
   /\btable\stennis\b/gmi,

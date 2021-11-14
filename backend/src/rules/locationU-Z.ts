@@ -108,6 +108,7 @@ const a: RegExp[] = [
 /\bvestry\s(?:close|court|drive|gardens|lane|mews|place|road|street)\b/gmi,
 
 // VI
+/\bvicarage\sball\b/gmi,
 /\bvineries\s(?:bank|close)\b/gmi,
 /\bvisitors\shill\b/gmi,
 /\bOld\sVinery\b/gm,
@@ -304,17 +305,14 @@ const a: RegExp[] = [
 /\bwesthill\s(?:and|\&)\sdistrict\b/gmi,
 
 // WH
+/\bWhile\sRoad\b/gm,
+/\bwhite\s(?:ball\shill|fell(?:\shead)?|foot\slane|island\sledge|ledge(?:\shill)?)\b/gmi,
+/\bwhite\s(?:post\sstreet|woman['‘’`]?s\splantation)\b/gmi,
 /\bWhinny\sFell\b/gmi,
-/\bwhite\sfell(?:\shead)?\b/gmi,
 /\bwhitecliff\sledge\b/gmi,
-/\bwhite\sisland\sledge\b/gmi,
-/\bwhite\sledge(?:\shill)?/gmi,
 /\bwheatley(?:\shall)?\scut\b/gmi,
 /\bw(?:histlestop|ooded|orkmans)\sclose\b/gmi,
 /\bw(?:histlestop|orkmans|hores)\swood\b/gmi,
-/\bwhite\spost\sstreet\b/gmi,
-/\bwhite\swoman['‘’`]?s\splantation\b/gmi,
-/\bWhile\sRoad\b/gm,
 /\b(?:north|south)\swhaleback\b/gmi,
 /\bwhaleback\s(?:road|skerry)\b/gmi,
 /\bwhalers['‘’`]?\s(?:close|farrow)\b/gmi,
@@ -352,8 +350,10 @@ const a: RegExp[] = [
 /\bwholesome\slane\b/gmi,
 
 // WI
+/\bwinning\sfoot\shill\b/gmi,
+/\bwilliam\sball\sdrive\b/gmi,
+/\bwindward\sball\splantation\b/gmi,
 /\bwild\sboar\sfell\b/gmi,
-/\b\d+wind\sfell\b/gmi,
 /\bWire\sCut\b/gm,
 /\bwitness\smoor\b/gmi,
 /\bWide\s(?:Close|Street|Valley)\b/gm,
@@ -468,7 +468,6 @@ const a: RegExp[] = [
 /\bwinchelsea\s(?:and|\&)\sdistrict\b/gmi,
 
 // WO
-/\b\d+\swood(?:land)?\sfell\b/gmi,
 /\bwol[df]\sfell\b/gmi,
 /\bwolfs?\sfell\sclose\b/gmi,
 /\bwo(?:olston\snew|rmald['‘’`]?s)\scut\b/gmi,
@@ -553,9 +552,13 @@ const a: RegExp[] = [
 /\byonder\s(?:mead|meadow|moor|mount|plantation|slade|street|way|wyke\smoor\scopse)\b/gmi,
 /\bYouth\sClose\b/gm,
 
-// Z
-/\bzeal\sroad\b/gmi,
+// ZE
+/\bzeal\s(?:ball\scopse|road)\b/gmi,
+
+// ZI
 /\bzig[\s-]?zag\s(?:covert|lane|plantation|road|wood)\b/gmi,
+
+// ZO
 /\bzone\spoint\b/gmi,
 /\bzouch\scut\b/gmi
 ];

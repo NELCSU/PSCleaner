@@ -47,7 +47,6 @@ const a: RegExp[] = [
   /\bchild\sof\b/gmi,
   /\b(?:bark|wood)\schipping\b/gmi,
   /\bchipping\s(?:against|away|on)\b/gmi,
-  /\ba\sbath\b/gmi,
   /\bthe\s(?:bill|eve|lord|white)\b/gm,
   /\bcarole?\s(?:services?|sing(?:ers?|ing))\b/gm,
   /\bchief\sof\sstaff\b/gmi,
@@ -93,12 +92,10 @@ const a: RegExp[] = [
   // F
   /\bfalls?\s(?:down|from|off|on|over)\b/gmi,
   /\bf[ae]ll\sdown\sthe\stairs\b/gmi,
-  /\bfall\sin\sbath\b/gmi,
+  /\bf[ae]ll\s[io]n\s?to\b/gmi,
   /\bfence\sswung\b/gmi,
   /\bforce\sfield\b/gmi,
   /\bfoster\s(?:carer|father|mother|parent)\b/gmi,
-  /\bfriends\sof\b/gmi,
-  /\bfriends\shouse\b/gmi,
   /\b(?:fa\scup|faroe\sislands)\b/gmi,
   /\bFirst\sMinister\b/gm,
   /\bFood\sBank\b/gm,
@@ -134,7 +131,6 @@ const a: RegExp[] = [
   /\binto\sthe\s(?:back|bottom|side|top)\sof\b/gmi,
 
   // J
-  /\binto\spool\b/gmi,
   /\b(?:jp\smorgan\schase|(?:infant|junior)\sand\s(?:infants?|junior))\b/gmi,
   /\bJoint\sCommittee\b/gm,
 
@@ -217,7 +213,6 @@ const a: RegExp[] = [
   /\b(?:autumn|spring|summer|winter)\s(?:camp|period)\b/gmi,
   /\b(?:sao\stome|san\smarino)\b/gmi,
   /\bsaint\s(?:kitts|lucia|vincent)\b/gmi,
-  /\bslipped\sin\sbath\b/gmi,
   /\bsierra\sleone\b/gmi,
   /\bsolomon\sislands\b/gmi,
   /\bsouth\samerica\b/gmi,

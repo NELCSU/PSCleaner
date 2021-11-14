@@ -11,7 +11,6 @@ const a: RegExp[] = [
   /\bblue\stack\b/gmi,
   /\bbaby\s(?:sling|walker)\b/gmi,
   /\bbath\splug\b/gmi,
-  /\bthe\sbath\b/gmi,
   /\bbatterie\b/gmi,
   /\b(?:bunk|divan|wooden)\sbed\b/gmi,
   /\b(?:bleach|(?:hot\s)?water)\sbottle\b/gmi,
@@ -72,9 +71,11 @@ const a: RegExp[] = [
   /\bmoses\s(?:basket|blanket)\b/gmi,
   /\bmanial\senvelope\b/gmi,
 
+  // N
   /\bn[eu]rff?\sgun\b/gmi,
 
   // P
+  /\bpearl\sbe[ae]d\b/gmi,
   /\bpranaro\sdiffuser\b/gmi,
   /\bplaydoh\b/gmi,
 

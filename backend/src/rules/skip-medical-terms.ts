@@ -379,6 +379,7 @@ const a: RegExp[] = [
   /\bwalk\son\stoes\b/gmi,
   /\bwalking\sboot\b/gmi,
   /\bweight[\s-]bear\b/gmi,
+  /\bwt\sbear\b/gmi,
 
   // X
   /\bx[\s-]*ray(?:ed|s)?\b/gmi,

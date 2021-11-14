@@ -213,7 +213,6 @@ const a: string[] = [
 "basil",            // name & standalone & placenames (14)
 "bastion",          // surnaem & placenames (9)
 "batchelor",        // name & placenames (8)
-"bath",             // standalone & placenames (116)
 "batik",            // name
 "battle",           // standalone & placenames (45)
 "battlefield",      // standalone & placenames (14)
@@ -282,7 +281,6 @@ const a: string[] = [
 "bevel",
 "bevels",
 "bias",
-"biba",
 "bicker",
 "bickering",
 "bickers",
@@ -2426,7 +2424,6 @@ const a: string[] = [
 "patty",
 "paupers",
 "pave",
-"pavement",
 "paver",
 "pavers",
 "paving",
@@ -2662,7 +2659,6 @@ const a: string[] = [
 "ponycart",
 "pooch",
 "pooh",
-"pool",             // standalone & placenames (1k+)
 "poolside",
 "poop",
 "poorhouse",
@@ -2760,7 +2756,6 @@ const a: string[] = [
 "purvey",
 "putsch",
 "putti",
-"putty",
 
 // Q
 "quayside",         // standalone & placenames (15)

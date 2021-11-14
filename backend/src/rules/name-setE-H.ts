@@ -11477,7 +11477,6 @@ const a: string[] = [
 "feklistous",
 "fekria",
 "fekroy",
-"fel",
 "felace",
 "feland",
 "felantaine",

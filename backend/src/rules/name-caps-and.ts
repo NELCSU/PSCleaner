@@ -114,7 +114,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "baldy",            // name & placename
 "bales",            // name & placenames (8)
 "balk",             // name & placenames (92)
-"ball",             // name & standalone (SY10) & placenames (120)
 "balling",          // name
 "balls",            // name & placenames (21)
 "balm",             // name & placenames (6)
@@ -154,6 +153,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "basing",           // name & placenames (18)
 "bass",             // name & placenames (14)
 "batch",            // names & placenames (60)
+"bath",             // placenames (116)
 "bathe",            // name & placenames (3)
 "bather",           // name & placename
 "batman",           // name & placename
@@ -205,6 +205,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "best",             // name & placenames (13)
 "beta",             // name & placenames (10)
 "bib",              // name & placenames (5)
+"biba",             // name
 "bibles",           // name & placename
 "bibs",             // name
 "bicep",            // name
@@ -1154,7 +1155,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "friday",           // name & placenames (27)
 "friend",           // name & placenames (8)
 "friendly",         // standalone & placenames (9)
-"friends",          // name & placenames (10)
 "frisby",           // name & standalone & placenames (6)
 "frolic",           // name & placename
 "frost",            // name & standalone & placenames (29)
@@ -1760,7 +1760,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "jumble",           // name & placenames (8)
 "jumbles",          // standalone & placenames (4)
 "jumbo",            // name
-"jump",             // standalone & placenames (8)
 "jumpers",          // standalone & placenames (5)
 "jumps",            // name & placenames (4)
 "jun",              // name & placenames (2)
@@ -2519,6 +2518,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "poll",             // placenames (195)
 "polo",             // name & placenames (11)
 "ponder",           // name & placenames (4)
+"pool",             // placenames (1k+)
 "pools",            // placennames (57)
 "poor",             // name & placenames (39)
 "pops",             // name
