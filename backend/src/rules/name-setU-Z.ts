@@ -1797,6 +1797,7 @@ const a: string[] = [
 "uwuidia",
 "uwumwonse",
 "uwuwonse",
+"ux",
 "uxa",
 "uxia",
 "uxilla",

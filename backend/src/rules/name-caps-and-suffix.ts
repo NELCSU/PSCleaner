@@ -398,6 +398,9 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "grills",
 "grinder",
 
+// HO
+"hoop",
+
 // HU
 "huger",
 "hugger",
@@ -997,6 +1000,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "welds",
 "welp",
 "welt",
+"went",
 
 // WH
 "whaler",

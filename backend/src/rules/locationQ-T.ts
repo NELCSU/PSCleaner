@@ -957,6 +957,7 @@ const a: RegExp[] = [
 /\bsquashes\swood\b/gmi,
 
 // ST
+/\bst\sjoseph['‘’`]?s\sin\sthe\spark\sschool\b/gmi,
 /\bstair\sfoot\slane\b/gmi,
 /\bstandedge\sfoot\sroad\b/gmi,
 /\bstrand-foot\b/gmi,
@@ -1324,6 +1325,8 @@ const a: RegExp[] = [
 /\btextile\s(?:close|drive|street|way)\b/gmi,
 
 // TH
+/\bthe\spark\s(?:community\sschool|house\snursing\shome|infant\s(?:\&|and)\snursery|infant|junior)\b/gmi,
+/\bthe\spark\s(?:lane\sprimary|nursing\shome|pale|paling|plantation|primary|school|towngate)\b/gmi,
 /\bthe\sgonerby\shill\sfoot\b/gmi,
 /\bthe\shundred\sfoot\swashes\b/gmi,
 /\bthe\smaidens'\sfoot\b/gmi,

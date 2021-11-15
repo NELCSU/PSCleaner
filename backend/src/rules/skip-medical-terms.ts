@@ -141,6 +141,7 @@ const a: RegExp[] = [
   /\bhurt\s(?:ankle|arm|back|finger|foot|head|hip|jaw|knee|neck|shoulder|toe|wrist)\b/gmi,
   /\bhead\sinj(?:ury)?\b/gmi,
   /\b(?:cut|hurt)\s(?:hand|shoulder)\b/gmi,
+  /\bh[\\\/]o\b/gmi,
 
   // I
   /\bin(?:farct|fluenza|situ)\b/gmi,

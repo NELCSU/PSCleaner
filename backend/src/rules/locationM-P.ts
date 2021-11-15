@@ -1,5 +1,6 @@
 const a: RegExp[] = [
 // MA
+/\bmawgan\sporth\sthe\spark\b/gmi,
 /\bmarsh\sball\b/gmi,
 /\bmanor\sfell\b/gmi,
 /\bmamhead\sbig\swood\b/gmi,
@@ -271,6 +272,7 @@ const a: RegExp[] = [
 /\bnever-be-good\swood\b/gmi,
 /\bnene\soutfall\scut\b/gmi,
 /\bnew\scut\s(?:bow|close|drove|east|gardens|lane|rigg|road|top|west)\b/gmi,
+/\bnew\sclamp\swent\swood\b/gmi,
 /\bnew\slairdship\s(?:place|yards)\b/gmi,
 /\bNew\s(?:Cut|Stairs)\b/gm,
 /\bnewton\stors\b/gmi,
@@ -417,6 +419,8 @@ const a: RegExp[] = [
 /\b(?:cnoc\san|loch)\soil\b/gmi,
 
 // OL
+/\bold\sclamp\swent\swood\b/gmi,
+/\bold\shall\swent\b/gmi,
 /\bold\sforty\sfoot\sbank\b/gmi,
 /\bold\stom\sway\sfoot\b/gmi,
 /\bOld\s(?:Cut|Stairs)\b/gm,

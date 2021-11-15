@@ -109,7 +109,7 @@ export const LocationTheRegEx: RegExp[] = [
   
   // G
   /\bThe\sGal(?:lery|leries|lops?|e)\b/gm,
-  /\bThe\sGa(?:bles|ges|ng|ngway|ps?|rdens?|rlands|rners|tes?|teways?|vels)\b/gm,
+  /\bThe\sGa(?:bles|ges|ng|ngway|ps?|rlands|rners|tes?|teways?|vels)\b/gm,
   /\bThe\sGe(?:ars?|o)\b/gm,
   /\bThe\sGl(?:ades?|assworks|eanings|impse|obal\sAcademy|obe)\b/gm,
   /\bThe\sGoa(?:l|t|ts\sLeap\sPool)\b/gm,
@@ -199,7 +199,7 @@ export const LocationTheRegEx: RegExp[] = [
   
   // P
   /\bThe\sPa(?:cket\sLanding|ddle|ddocks?|goda|lms|ss|ye)\b/gm,
-  /\bThe\sPar(?:ade|chments|ishes|k(?:\sPale)?|lour)\b/gm,
+  /\bThe\sPar(?:ade|chments|ishes|lour)\b/gm,
   /\bThe\sPat(?:ch|ches|h|hway(?:\sFields)?|hfinders?|ios)\b/gm,
   /\bThe\sPavill?ions?(?:\sEnd)?\b/gm,
   /\bThe\sPe(?:aks|el|ntagon|ppercorns)\b/gm,
@@ -208,7 +208,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sPla(?:ce|ins?|nes|nks|ntations?|nted\sField|nters|nting|teau|tters)\b/gm,
   /\bThe\sPl(?:easures|easure\sGrounds|ot|umbs)\b/gm,
   /\bThe\sPoi(?:nts?|nters?)\b/gm,
-  /\bThe\sPo(?:les|nd|ols|or\sMan|plars|ppies|rch|sts?|t|tatoe\sGround|und)\b/gm,
+  /\bThe\sPo(?:les|nd|ols|or\sMan|plars|ppies|rch|sts?|tatoe\sGround|und)\b/gm,
   /\bThe\sPr(?:eserve|iest|imroses|iories|ior[sy]?|y)\b/gm,
   /\bThe\sPro(?:menades?|spect|vidence|w)\b/gm,
   /\bThe\sPu(?:lpit|rse|ts?)\b/gm,

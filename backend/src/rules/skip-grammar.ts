@@ -248,6 +248,7 @@ const a: RegExp[] = [
 
   // W
   /\bpiece\sof\swood\b/gmi,
+  /\bway\shome\b/gmi,
 
   // Y
   /\byoung\speople\b/gmi,

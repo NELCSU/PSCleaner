@@ -253,6 +253,10 @@ const a: RegExp[] = [
 /\bwalsham\s(?:and|\&)\sdistrict\b/gmi,
 
 // WE
+/\bwest\shoop\b/gmi,
+/\bwent[\s-](?:avenue|croft|dale\sroad|edge\s(?:field|road)|end|fold|garth|green)\b/gmi,
+/\bwent\s(?:hill(?:\s(?:close|gardens|park))?|lane|meadows\sclose|mouth)\b/gmi,
+/\bwent\s(?:plantation|road|view|way|wood|worth\sclose)\b/gmi,
 /\bWe(?:e|st)\sFell\b/gm,
 /\bwest\s(?:baugh\sfell\starn|fell\send\smoss|mud)\b/gmi,
 /\bweston\sbig\swood\b/gmi,

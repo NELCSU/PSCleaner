@@ -1,6 +1,7 @@
 const a: RegExp[] = [
 /\b[ef]\sstreet\b/gmi,
 // EA
+/\beast\shoop\b/gmi,
 /\beasington\sfell\sroad\b/gmi,
 /\bEast\sFell\b/gm,
 /\bEastward\sLedge\b/gm,
@@ -106,6 +107,7 @@ const a: RegExp[] = [
 /\berith\s(?:and|\&)\sdistrict\b/gmi,
 
 // ES
+/\bescot\spark\sthe\spark\b/gmi,
 /\bessay\sgeo\b/gmi,
 /\bestates\sroad\b/gmi,
 /\beskimo\scourt\b/gmi,
@@ -146,6 +148,8 @@ const a: RegExp[] = [
 /\beynard\simpasse\b/gmi,
 
 // FA
+/\bfarriers\swent\b/gmi,
+/\bfarthings\swent\b/gmi,
 /\bFai(?:nts|rness)\sClose\b/gm,
 /\bfair\s(?:hill\sfell|oak\sfell)\b/gmi,
 /\bfar\s(?:fell\splantation|small\sclough)\b/gmi,
@@ -194,6 +198,7 @@ const a: RegExp[] = [
 /\bffos[\s-]y[\s-]go\b/gmi,
 
 // FI
+/\bfisheries\scollege\b/gmi,
 /\bFirework\sClose\b/gm,
 /\bfield\sfoot\swood\b/gmi,
 /\bfinsbury\spavement\b/gmi,
@@ -222,6 +227,7 @@ const a: RegExp[] = [
 /\bflue\s(?:geos|taing)\b/gmi,
 
 // FO
+/\bfour\swent\sways\sservice\sarea\b/gmi,
 /\bfo(?:lly|xburrow|)\shang\b/gmi,
 /\bfoot\s(?:avenue|cove|drove|hill\sspinney|lane|loup|meadow|mill\screscent)\b/gmi,
 /\bfoot\s(?:o['‘’`]?\sloan\swood|of\scastle\spool|place|skear|wood(?:\screscent)?)\b/gmi,
@@ -990,6 +996,7 @@ const a: RegExp[] = [
 /\bhinckley\s(?:and|\&)\sdistrict\b/gmi,
 
 // HO
+/\bhoop\s(?:end|lane|mill)\b/gmi,
 /\bhorticultural\splace\b/gmi,
 /\bholt\sball\ssteep\b/gmi,
 /\bhood\sball(?:\scopse)?\b/gmi,

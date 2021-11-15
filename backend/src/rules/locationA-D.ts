@@ -413,6 +413,7 @@ const a: RegExp[] = [
 /\bbhasteir\stooth\b/gmi,
 
 // BI
+/\bbmi\sthe\spark\shospital\b/gmi,
 /\bbirch\sfell(?:\splantation)?\b/gmi,
 /\bbirk\sfell\sman\b/gmi,
 /\bBig\s(?:Alley|Allotment|Belt|Bottom|Coppice|Copse|Craig|Dale|Dam|Earth|End|Fell|Fold)\b/gm,
@@ -743,6 +744,7 @@ const a: RegExp[] = [
 /\bc\sp\sschool\b/gmi,
 /\bC\s(?:Road|Street)\b/gm,
 // CA
+/\bcaer[\s-]went\b/gmi,
 /\bcanal\sfoot\b/gmi,
 /\bcant\sfoot\swood\b/gmi,
 /\bcastle\sfoot\b/gmi,
@@ -1001,6 +1003,7 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
+/\bcoppice\shoop\b/gmi,
 /\bcoarse\sfoot\shill\b/gmi,
 /\bcolts\sfoot\s(?:close|road)\b/gmi,
 /\bcording['‘’`]?s\sball\b/gmi,
