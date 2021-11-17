@@ -351,6 +351,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "bro",              // name & placenames (148)
 "broad",            // placenames (468)
 "broccoli",         // name & placename
+"bu",               // name
 "bubbles",          // name
 "buckle",           // name & placenames (14)
 "buckler",          // name & placenames (10)
@@ -839,7 +840,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "dominion",         // name & placenames (10)
 "dong",             // name
 "doppler",          // name & placename
-"down",             // placenames (1k+)
 "downhill",         // name & standalone & placenames (5)
 "downs",            // placenames (422)
 "downside",         // standalone & placenames (20)
@@ -875,7 +875,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "dream",            // name & placenames (2)
 "dressing",         // name & placename
 "drivers",          // name & placenames (8)
-"driveway",         // standalone & placenames (3)
 "drum",             // standalone & placenames (67)
 "dry",              // placenames (77)
 "dual",             // name & placename
@@ -1404,7 +1403,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "guide",            // standalone & placenames (15)
 "guild",            // name & placenames (15)
 "guinea",           // name & placenames (20)
-"gum",              // name & placename
 "gums",             // name & placenames
 "gun",              // standalone & placenames (43)
 "guns",             // name & placenames (8)
@@ -1884,7 +1882,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 
 // LE
 "leaders",          // name & placenames (2)
-"leak",             // name & placenames (7)
 "leaks",            // name & placename
 "leaning",          // name & placename
 "lease",            // name & placenames (13)
@@ -1929,6 +1926,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "lobe",             // name
 "lobes",            // name
 "loc",              // name & placenames (2)
+"lock",             // name & placenames (125)
 "locker",           // name & placenames (9)
 "login",            // name & placenames (6)
 "lolly",            // name
@@ -1949,7 +1947,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "luckly",           // name
 "lug",              // standalone & placenames (9)
 "lullaby",          // name
-"lumber",           // name & placenames (4)
 "lumbers",          // name & placename
 "lumen",            // name & placename
 "lupine",           // name & placename
@@ -3122,7 +3119,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 
 // SM
 "smalls",           // name & placenames (3)
-"smelt",            // name & placenames (7)
 "smiler",           // name & placename
 "smiles",           // name & placename
 "smily",            // name

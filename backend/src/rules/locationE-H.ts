@@ -797,6 +797,7 @@ const a: RegExp[] = [
 /\bgrantham\s(?:and|\&)\sdistrict\b/gmi,
 
 // GU
+/\bgum\shill\b/gmi,
 /\bgurnard\sledge\b/gmi,
 /\bgunna\ssoy\b/gmi,
 /\bgunmaker\scourt\b/gmi,

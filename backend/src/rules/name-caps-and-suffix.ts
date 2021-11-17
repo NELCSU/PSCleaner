@@ -186,6 +186,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 
 // DO
 "dockman",
+"down",
 
 // DR
 "drape",
@@ -398,6 +399,9 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "grills",
 "grinder",
 
+// GU
+"gum",
+
 // HO
 "hoop",
 
@@ -471,6 +475,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "lager",
 
 // LE
+"leak",
 "leaker",
 "lenders",
 
@@ -483,6 +488,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "looper",
 
 // LU
+"lumber",
 "luncheon",
 "lurker",
 "lute",
@@ -722,6 +728,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "small",
 "smaller",
 "smears",
+"smelt",
 "smirk",
 "smitten",
 

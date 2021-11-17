@@ -381,6 +381,8 @@ const a: RegExp[] = [
 /\blanyard\s(?:drive|way)\b/gmi,
 
 // LE
+/\bleak\s(?:hall\s(?:crescent|lane|road)?|street|willie|wood)\b/gmi,
+/\bleak['‘’`]?s\splantation\b/gmi,
 /\bleader\sfoot\b/gmi,
 /\bleas\sfoot\ssand\b/gmi,
 /\bleithen\sfoot\spool\b/gmi,
@@ -525,6 +527,7 @@ const a: RegExp[] = [
 /\blower\slandslip\b/gmi,
 
 // LU
+/\blumber\s(?:hill|lane|leys|wood)\b/gmi,
 /\blumb\sfoot\b/gmi,
 /\blucy['‘’`]?s\sledge\b/gmi,
 /\blump\sof\sclay\sledge\b/gmi,

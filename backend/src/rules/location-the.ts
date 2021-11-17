@@ -76,7 +76,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sDe(?:af\sAcademy|als|anery|ep|er\sLeap)\b/gm,
   /\bThe\sDi(?:al|sputes|strict\sChurch|tch)\b/gm,
   /\bThe\sDo(?:cks?|ors|ves|wns?|wns\sBrake)\b/gm,
-  /\bThe\sDr(?:ain|ays|ift|iftway|ive|iveway|ums?)\b/gm,
+  /\bThe\sDr(?:ain|ays|ift|iftway|ive|ums?)\b/gm,
   /\bThe\sDu(?:ck\sLagoon|e)\b/gm,
   /\bThe\sDy(?:es|ke\sForest|kes)\b/gm,
   

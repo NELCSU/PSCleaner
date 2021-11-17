@@ -1855,7 +1855,6 @@ const a: string[] = [
 "lobs",
 "loch",
 "loci",
-"lock",
 "locket",
 "lockets",
 "locking",

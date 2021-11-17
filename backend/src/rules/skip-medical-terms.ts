@@ -192,11 +192,10 @@ const a: RegExp[] = [
   /\blovibond['‘’`s]*\sangle\b/gmi,
   /\blassa\sfever\b/gmi,
   /\bloop\sof\s(?:henle|meyer)\b/gmi,
-  /\blower\s(?:arm|back|lobe)\b/gmi,
+  /\blower\s(?:arm|back|gum|head|leg|lobe)\b/gmi,
   /\blund['‘’`s]*\snode\b/gmi,
   /\blobar\spneumonia\b/gmi,
   /\blimbus\sof\svieussens\b/gmi,
-  /\blower\sleg\b/gmi,
 
   // M
   /\bmonro\sforamina\b/gmi,
@@ -316,7 +315,6 @@ const a: RegExp[] = [
   /\bspiegelian['‘’`s]*\s(?:fascia|line|lobe)s?\b/gmi,
   /\bsphincter\sof\soddi\b/gmi,
   /\bsputum\b/gmi,
-  /\bsplinter\s(?:bottom|under)\b/gmi,
   /\bspaces?\sof\s(?:disse|m[öoe]{1,2}ll|prussak|retzius|traube|virchow[\s–]robin)\b/gmi,
 
   // ST
@@ -349,7 +347,7 @@ const a: RegExp[] = [
 
   // U
   /\bu(?:lna|rethra|teri)\b/gmi,
-  /\bupper\s(?:arm|back|head|lobe)\b/gmi,
+  /\bupper\s(?:arm|back|gum|head|leg|lobe)\b/gmi,
 
   // V
   /\bvon\sebner['‘’`s]*\sglands?\b/gmi,

@@ -72,6 +72,7 @@ const a: RegExp[] = [
   /\bmanial\senvelope\b/gmi,
 
   // N
+  /\bnail\spolish\b/gmi,
   /\bn[eu]rff?\sgun\b/gmi,
 
   // P

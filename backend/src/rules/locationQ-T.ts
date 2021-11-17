@@ -776,6 +776,7 @@ const a: RegExp[] = [
 /\bslut\s(?:plantation|wood)\b/gmi,
 
 // SM
+/\bsmelt\s(?:house\slane|lane|mill\sclough|road|wood)\b/gmi,
 /\bsmooth\sbeck\sfoot\b/gmi,
 /\bSmall\s(?:Acre|Avenue|Banks|Brook|Close|Copse|Crescent|Dale|Dole)\b/gm,
 /\bSmall\s(?:Dole|Down|End|Fen|Gate|Geo|Grains|Heath|House|Island|Isles|Lake)\b/gm,

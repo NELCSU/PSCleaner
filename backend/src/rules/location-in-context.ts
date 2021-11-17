@@ -22,6 +22,31 @@ const a: RegExp[] = [
   /(?<=(?:DG9|TR21|KW17|TR12).{2,10})\bthe\schair\b/gi,
   /\bthe\schair\b(?=.{2,10}(?:DG9|TR21|KW17|TR12))/gi,
 
+  // DOWN
+  /(?<=EX12.{2,10})\bdown\b/gi,
+  /\bdown\b(?=.{2,10}EX12)/gi,
+  /[\d-]+down\sclose\b/gi,
+  /(?<=(?:BS20|EX10|GU29|PL12|UB5).{2,10})\bdown\sclose\b/gi,
+  /\bdown\sclose\b(?=.{2,10}(?:BS20|EX10|GU29|PL12|UB5))/gi,
+  /(?<=(?:CB7|camb).{2,10})\bdown\sfield\b/gi,
+  /\bdown\sfield\b(?=.{2,10}(?:CB7|camb))/gi,
+  /[\d-]+down\shill\b/gi,
+  /(?<=(?:EX1[67]|FK14|GL6|NE23|NE36|NE45|OX11).{2,10})\bdown\shill\b/gi,
+  /\bdown\shill\b(?=.{2,10}(?:EX1[67]|FK14|GL6|NE23|NE36|NE45|OX11))/gi,
+  /(?<=NE64.{2,10})\bdown\sover\srocks\b/gi,
+  /\bdown\sover\srocks\b(?=.{2,10}NE64)/gi,
+  
+  // DRIVEWAY
+  /[\d-]+driveway\sdrove\b/gi,
+  /(?<=(?:TA10|somerset).{2,10})\bdriveway\sdrove\b/gi,
+  /\bdriveway\sdrove\b(?=.{2,10}(?:TA10|somerset))/gi,
+  /[\d-]+driveway\b/gi,
+  /(?<=(?:L35|whiston|prescot).{2,10})\bdriveway\b/gi,
+  /\bdriveway\b(?=.{2,10}(?:L35|whiston|prescot))/gi,
+  /[\d-]+the\sdriveway\b/gi,
+  /(?<=(?:EN6|cuffley|HP1|hemel|BN43|shoreham|PO4|southsea|SS8|canvey|LE7|leic).{2,10})\bthe\sdriveway\b/gi,
+  /\bthe\sdriveway\b(?=.{2,10}(?:EN6|cuffley|HP1|hemel|BN43|shoreham|PO4|southsea|SS8|canvey|LE7|leic))/gi,
+
   // FELL
   /[\d-]+\sfell\s(?:close|drive|end|foot|head|hill|road|side|view|walk|way|wood)\b/gmi,
 
