@@ -1,6 +1,7 @@
-/*********************************
- * reserved for surnames only
- *********************************/
+/**********************************************************************
+ * Matches words that are capitalised and form part of a sequence end
+ * Typically found as surnames
+ **********************************************************************/
 export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 // AD
 "adjutant",
@@ -169,6 +170,9 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "cymbalist",
 "cypher",
 "cyphers",
+
+// DA
+"darks",
 
 // DE
 "decamp",
@@ -401,6 +405,9 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 
 // GU
 "gum",
+
+// HE
+"head",
 
 // HO
 "hoop",

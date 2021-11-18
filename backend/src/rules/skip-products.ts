@@ -1,3 +1,13 @@
+/**********************************************************************
+ * These patterns should be ignored as they loosely match to 
+ * product categories
+ * 
+ * Action needed
+ * 
+ * (low priority)
+ * This list could do with a clean up as some false positive 
+ * generating words have been rationalised over time.
+ **********************************************************************/
 const a: RegExp[] = [
   // A
   /\baqua\s?bead\b/gmi,
@@ -40,6 +50,7 @@ const a: RegExp[] = [
   /\beating\smcdonalds\b/gmi,
 
   // F
+  /\bfairy\snon[\s-]bio\b/gmi,
   /\bfishing\shook\b/gmi,
   /\bfrench\sfries\b/gmi,
 

@@ -1,3 +1,13 @@
+/**********************************************************************
+ * These patterns should be ignored as they loosely match to 
+ * sports/leisure categories
+ * 
+ * Action needed
+ * 
+ * (low priority)
+ * This list could do with a clean up as some false positive 
+ * generating words have been rationalised over time.
+ **********************************************************************/
 const a: RegExp[] = [
   // A
   /\b(?:american|australian)\sfootball\b/gmi,

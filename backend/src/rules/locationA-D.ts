@@ -1,3 +1,11 @@
+/**********************************************************************
+ * Pattern matches UK location names
+ * 
+ * Action needed
+ * 
+ * (low priority)
+ * Get these lists in alphabetical order and in the correct file
+ **********************************************************************/
 const a: RegExp[] = [
 /\bA\sRoad\b/gm,
 
@@ -1440,7 +1448,13 @@ const a: RegExp[] = [
 /\bData\sDrive\b/gm,
 /\bdavy\slamp\b/gmi,
 /\bdaylight\s(?:road|rock)\b/gmi,
-/\bdark\slantern\scoppice\b/gmi,
+/\bdark\s(?:ark\slane|brig\sroad|clump|coppice|copse|covert)\b/gmi,
+/\bdark\s(?:entry|gate|gill\splantation|gill(?:\swood)?|hat\swood)\b/gmi,
+/\bdark\s(?:hill\splantation|lane\s(?:coppice|drive|plantation)|lantern\scoppice)\b/gmi,
+/\bdark\s(?:orchard|parlour|plantation|ride|slade(?:\swood)?|spinney|street\slane)\b/gmi,
+/\bdark\s(?:toll\srock|walk\s(?:plantation|wood)|wick['‘’`]?s\swood|wood\slane)\b/gmi,
+/\bdark['‘’`]?s\swood\b/gmi,
+/\bdarks\sroad\b/gmi,
 
 // DE
 /\bdent\sfell\b/gmi,

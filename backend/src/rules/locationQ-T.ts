@@ -1,3 +1,11 @@
+/**********************************************************************
+ * Pattern matches UK location names
+ * 
+ * Action needed
+ * 
+ * (low priority)
+ * Get these lists in alphabetical order and in the correct file
+ **********************************************************************/
 const a: RegExp[] = [
 // QU
 /\bQuarter\sFell\b/gm,
@@ -589,7 +597,7 @@ const a: RegExp[] = [
 /\bshore['‘’`s]*\s(?:hill|road|wood)\b/gmi,
 /\b(?:old\skirk|skatie|swanwick|wallington|weston|wester|yeaman)\sshore\b/gmi,
 /\b(?:old\sshore\s(?:head|road)|south\sshore\s(?:academy|pool|road|street))\b/gmi,
-/\b(?:the\sdark\sshore|turkey\sshore(?:\sroad)?|west\sshore\s(?:road|street))\b/gmi,
+/\b(?:turkey\sshore(?:\sroad)?|west\sshore\s(?:road|street))\b/gmi,
 /\b(?:shortie\sgeo|knock\sshortie\sroad)\b/gmi,
 /\bshorts\s(?:avenue|close|copse|croft|down|gardens|green\slane|hill|lane|moor|road|view\sroad|way)\b/gmi,
 /\b(?:Long|Winding)\sShot\b/gm,

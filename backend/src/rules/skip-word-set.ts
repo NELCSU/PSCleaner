@@ -1,3 +1,12 @@
+/**********************************************************************
+ * These words should be ignored when matched from regular expressions
+ * 
+ * Action needed
+ * 
+ * (low priority)
+ * This list could do with a clean up as some false positive 
+ * generating regular expressions have been removed over time.
+ **********************************************************************/
 const a: string[] = [
 "abandon",
 "abd",

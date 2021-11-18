@@ -1,3 +1,11 @@
+/**********************************************************************
+ * Pattern matches UK location names beginning with 'The'
+ * 
+ * Action needed
+ * 
+ * (medium priority)
+ * These create false positives and should be revised over time
+ **********************************************************************/
 export const LocationTheRegEx: RegExp[] = [
   /\bThe\sAb(?:be['‘’`s]*|bey)\b/gm,
   /\bThe\sAc(?:ademy|orns?|res?)\b/gm,
@@ -72,7 +80,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sCy(?:cle\sWorks|gnets|linders)\b/gm,
   
   // D
-  /\bThe\sDa(?:ffodils|iry|shes)\b/gm,
+  /\bThe\sDa(?:ffodils|iry|rk\sShore|shes)\b/gm,
   /\bThe\sDe(?:af\sAcademy|als|anery|ep|er\sLeap)\b/gm,
   /\bThe\sDi(?:al|sputes|strict\sChurch|tch)\b/gm,
   /\bThe\sDo(?:cks?|ors|ves|wns?|wns\sBrake)\b/gm,

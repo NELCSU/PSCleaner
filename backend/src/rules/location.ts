@@ -1,3 +1,6 @@
+/**********************************************************************
+ * Pattern matches parts of UK location names
+ **********************************************************************/
 export const LocationPrefixRegEx: RegExp[] = [
   /\bNo\.?\s\d+/gm, // e.g. No. 7
   /\b(?<![.,\\\/0])[1-9]\d{0,3}[a-h]?(?:-[1-9]\d{0,3}[a-h]?)?(?<!$)(?=\s[a-z]{2,})/gmi // e.g. 12-14a [Somewhere Street]

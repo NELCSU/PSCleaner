@@ -1,3 +1,11 @@
+/**********************************************************************
+ * Pattern matches UK location names
+ * 
+ * Action needed
+ * 
+ * (low priority)
+ * Get these lists in alphabetical order and in the correct file
+ **********************************************************************/
 const a: RegExp[] = [
 // MA
 /\bmawgan\sporth\sthe\spark\b/gmi,

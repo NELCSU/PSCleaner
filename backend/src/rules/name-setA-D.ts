@@ -1,3 +1,6 @@
+/**********************************************************************
+ * Names sourced from baby name and geneology sources
+ **********************************************************************/
 const a: string[] = [
 "aaban",
 "aabbey",
@@ -52005,6 +52008,7 @@ const a: string[] = [
 "choimhleachain",
 "choimhleum",
 "choineas",
+"choinneach",
 "choinneachain",
 "choirce",
 "choire",

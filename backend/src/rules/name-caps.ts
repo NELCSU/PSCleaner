@@ -1,3 +1,11 @@
+/**********************************************************************
+ * Matches words that are capitalised
+ * 
+ * Action needed
+ * 
+ * (high priority)
+ * This needs to be phased out as it creates too many false positives
+ **********************************************************************/
 const a: string[] = [
 "abase",            // name
 "abbess",           // name & placenames (9)
@@ -1007,7 +1015,6 @@ const a: string[] = [
 "dapple",
 "dappled",
 "dapples",
-"darks",
 "darling",
 "darlings",
 "dart",

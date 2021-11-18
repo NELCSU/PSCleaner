@@ -1,3 +1,17 @@
+/**********************************************************************
+ * These patterns should be ignored as they loosely match to 
+ * medication terms
+ * 
+ * Actions needed
+ * 
+ * (medium priority)
+ * Obtain a full list of clinical terms to test what generates
+ * false positives. The list below is not exhaustive.
+ * 
+ * (low priority)
+ * This list could do with a clean up as some false positive 
+ * generating words have been rationalised over time.
+ **********************************************************************/
 const a: RegExp[] = [
   /\b(?:1st|2nd|3rd|[45]th)\s(?:mt|toes)\b/gmi,
 
@@ -23,8 +37,7 @@ const a: RegExp[] = [
   /\bb(?:artholin|runner)['‘’`s]*\sglands?\b/gmi,
   /\bbaerveldt\s(?:shunt|tube)\b/gmi,
   /\bbachmann['‘’`s]*\sbundle\b/gmi,
-  /\bback\s(?:of\shead|passage)\b/gmi,
-  /\bback\sand\shead\b/gmi,
+  /\bback\spassage\b/gmi,
   /\bbarking\scough\b/gmi,
   /\bbent\s(?:ankle|arm|back|finger|foot|knee|neck|shoulder|toe|wrist)\b/gmi,
   /\bbro(?:ca|dmann?)['‘’`s]*\sareas?\b/gmi,
@@ -43,7 +56,6 @@ const a: RegExp[] = [
   /\b[Bb]undle\sof\sHis\b/gm,
   /\bbilharzia\b/gmi,
   /\bbuddy\sstrap\w*\b/gmi,
-  /\bbump\shead\b/gmi,
   
   // C
   /\bc(?:ajal(?:[\s-]retzius)?|lara)\scells?\b/gmi,
@@ -139,7 +151,6 @@ const a: RegExp[] = [
   /\bhodgkin['‘’`s]*\slymphoma\b/gmi,
   /\bhydatids\sof\smorgagni\b/gmi,
   /\bhurt\s(?:ankle|arm|back|finger|foot|head|hip|jaw|knee|neck|shoulder|toe|wrist)\b/gmi,
-  /\bhead\sinj(?:ury)?\b/gmi,
   /\b(?:cut|hurt)\s(?:hand|shoulder)\b/gmi,
   /\bh[\\\/]o\b/gmi,
 

@@ -1,3 +1,13 @@
+/**********************************************************************
+ * These patterns should be ignored as they loosely match to 
+ * clinical abbreviations
+ * 
+ * Action needed
+ * 
+ * (low priority)
+ * This list could do with a clean up as some false positive 
+ * generating words have been rationalised over time.
+ **********************************************************************/
 const a: RegExp[] = [
   /\b[a-z]{2,}\-\d{1,2}\b/gmi,
   /\d+[\s-](?:day|mile|kilometer|km|step|week)s?\b/gmi,
@@ -21,7 +31,6 @@ const a: RegExp[] = [
   /\banglo[\s-]saxon\b/gmi,
   /\bapril\sfool['‘’`]?s?\sday\b/gmi,
   /\ba(?:mazon|merican\sexpress|strazeneca)\b/gmi,
-  /\baround\sthe\shead\b/gmi,
   
   // B
   /\bback\sburn\b/gmi,
@@ -113,7 +122,6 @@ const a: RegExp[] = [
   // H
   /\bhail\smary\b/gmi,
   /\bhanky[\s-]panky\b/gmi,
-  /\bhead\s(?:first|on)\b/gmi,
   /\bHeard\sa\b/gm,
   /\bholding\s(?:child|hands\swith)\b/gmi,
   /\bHope\sof\b/gm,

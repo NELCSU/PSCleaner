@@ -1,3 +1,7 @@
+/**********************************************************************
+ * Matches words based on word endings and/or any words with special
+ * characters
+ **********************************************************************/
 export const NamesEndingRegEx: RegExp[] = [
    /[a-z]*[À-ÖØ-öø-ÿãñõțũūąğịňōıŚạşęăầẩőếěēšảłộđơńėčćəāţșŵŷ]+[a-z]*/gmi,
 

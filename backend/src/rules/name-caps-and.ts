@@ -1,3 +1,12 @@
+/**********************************************************************
+ * Matches words that are capitalised and form part of a sequence
+ * 
+ * Action needed
+ * 
+ * (medium priority)
+ * Remove the standalone cases as these get missed and/or generate
+ * false positives
+ **********************************************************************/
 export const ProperNameSetJoinOnly: Set<string> = new Set([
 "aa",               // name
 "ab",               // name
@@ -804,7 +813,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 // D
 "dairy",            // name & placenames (81)
 "dance",            // name & placenames (11)
-"dark",             // placenames (44)
 "darker",           // name & placename
 "darts",            // name & placenames (2)
 "daughters",        // name & placename
@@ -1451,7 +1459,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hertz",            // name
 "hes",              // name
 "hex",              // name
-"head",             // placenames (1k+)
 "heads",            // name & placenames (77)
 "headstone",        // standalone & placenames (6)
 "headward",         // name

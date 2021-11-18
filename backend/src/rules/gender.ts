@@ -1,3 +1,6 @@
+/**********************************************************************
+ * Not yet implemented. Part of a future de-gendering template option
+ **********************************************************************/
 const GenderSet: Set<string> = new Set([
   "boy",
   "brother",

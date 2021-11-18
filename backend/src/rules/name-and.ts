@@ -1,3 +1,6 @@
+/**********************************************************************
+ * Matches words that are frequently found in place names
+ **********************************************************************/
 export const NameSetJoinOnly: Set<string> = new Set([
   "academy",       // placenames (1k+)
   "avenue",        // placenames (1k+)

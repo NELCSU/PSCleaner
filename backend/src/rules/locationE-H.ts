@@ -1,3 +1,11 @@
+/**********************************************************************
+ * Pattern matches UK location names
+ * 
+ * Action needed
+ * 
+ * (low priority)
+ * Get these lists in alphabetical order and in the correct file
+ **********************************************************************/
 const a: RegExp[] = [
 /\b[ef]\sstreet\b/gmi,
 // EA
@@ -906,12 +914,21 @@ const a: RegExp[] = [
 /\bharbour\scare\shome\b/gmi,
 /\bhard\s(?:bank\shead|clump|crag\swood|dale|field\s(?:close|wood)|gap\slane|gate\smoss|head\s(?:clough|heugh|hillock|ings\sroad|knot\shill|knott(?:\srise)?|knotts\slane|moss|plantation)|knowe|leaze\sdrove|level\sforce|lewis\srocks|meadow\slane|moor|nese\sclough|nese\slane|park\splantation|platts\s(?:lane|wood)|rake\splantations|rigg|stiles|tarn|times\splantation|turf\shill)\b/gmi,
 /\bHard\s(?:Gate|Head(?:\s[Pp]lantation)?|Hill|Lane|Law)\b/gm,
-/\b(?:high\scocked|cocked|cock[ei]t|dark|king['‘’`]?s|top)\shat\s(?:coppice|copse|court|covert|hill|inclosure|lane|lawn|park|plantations?|road|spinney|strip|wood)\b/gmi,
+/\b(?:high\scocked|cocked|cock[ei]t|king['‘’`]?s|top)\shat\s(?:coppice|copse|court|covert|hill|inclosure|lane|lawn|park|plantations?|road|spinney|strip|wood)\b/gmi,
 /\bhat\s(?:coppice|copse|court|covert|hill|inclosure|lane|lawn|park|plantations?|road|spinney|strip|wood)\b/gmi,
 /\bHat\sClose\b/gm,
 /\bhaslemere\s(?:and|\&)\sdistrict\b/gmi,
 
 // HE
+/\bhead\s(?:barn\swood|clough|crag(?:\smarsh)?|craig|croft|down(?:\s(?:hanger|plantation))?)\b/gmi,
+/\bhead\s(?:drove|dyke\s(?:lane|wood)?|fen\sdrove|green|hag|hill(?:\sroad)?|house\s(?:hill|wood))\b/gmi,
+/\bhead\s(?:lane|ledge|of\s(?:banks|berg|black\sburn|blea\swheel|bloshin|bratta|bresdale|brough))\b/gmi,
+/\bhead\sof\s(?:calsta|crees|cudda|cumla|fastgeo|garbh\schoire|garness|geo|gilgow|grevasand)\b/gmi,
+/\bhead\sof\s(?:grunay|gutcher|hevdagarth|holland|hosta|keedon|lahamar|lambhoga|man|moclett)\b/gmi,
+/\bhead\sof\s(?:muir|mula|onibery|pernealy|row|skennif|stanshi|the\s(?:buird|clett|hill\scourt))\b/gmi,
+/\bhead\sof\s(?:the\s(?:holm|moull)|tind|uriesetter|uskiegeo|vady|virdibreck|work)\b/gmi,
+/\bhead\s(?:rock|scar|stone|street|wark|way|weir\s(?:island|road)|wood)\b/gmi,
+/\bhead['‘’`]?s\s(?:copse|lane|plantation)\b/gmi,
 /\bheedless\swilliam['‘’`]?s\spond\b/gmi,
 /\bheadmasters\srow\b/gmi,
 /\bheadquarters\screscent\b/gmi,

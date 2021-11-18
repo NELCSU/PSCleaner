@@ -1,3 +1,8 @@
+/**********************************************************************
+ * Pattern matches UK location names based on words that collide with 
+ * frequently used words. The assoication with neighbouring text
+ * is a lo-fi means of curtailing false positives
+ **********************************************************************/
 const a: RegExp[] = [
   // BALL
   /\b[\d-]+\sball\s(?:close|down)\b/gi,
@@ -21,6 +26,29 @@ const a: RegExp[] = [
   /\bchair\b(?=.{2,20}IV28)/gi,
   /(?<=(?:DG9|TR21|KW17|TR12).{2,10})\bthe\schair\b/gi,
   /\bthe\schair\b(?=.{2,10}(?:DG9|TR21|KW17|TR12))/gi,
+
+  // DARK
+  /\bdark\sbelt\b(?=.{2,10}IP22)/gi,
+  /\bdark\sdungeon\b(?=.{2,10}AB45)/gi,
+  /\bdark\spool\b(?=.{2,10}DY9)/gi,
+  /\bdark\sgully\b(?=.{2,10}PH20)/gi,
+  /\bdark\shole\b(?=.{2,10}(?:BH20|PL27))/gi,
+  /\bdark\sdrive\b(?=.{2,10}DY12)/gi,
+  /\bdark\sfirs\b(?=.{2,10}(?:DT6|BA3|BH23))/gi,
+  /[\d-]+dark\shill\b/gi,
+  /(?<=(?:ME13|BB18|GL1[56]|KT2).{2,10})\bdark\shill\b/gi,
+  /\bdark\shill\b(?=.{2,10}(?:ME13|BB18|GL1[56]|KT2))/gi,
+  /[\d-]+dark\slane\b/gi,
+  /(?<=(?:AL5|B38|B47|B6[02]|B78|B96|BA11|BA[234]|BB18|BB4|BD2[23]|BH2[013]|BL6|BS2[89]|BS4[08]|CB10|CH3|CM1[34]|CT21|CV12?|CV3[57]|CW9|DE13|DE45?|DE56|DE65?|DL1[127]|DT10|DT[29]|DY1[34]|DY[79]|EN7|EX1[06]|EX20|EX[59]|GL51?|GL[67]|GU3|HD4|HG[35]|HP18|HP22|HR2|HU12|HX[2367]|IP13|IP2[14]|L31|L40|LD6|LE12|LL1[23]|LN11|LS21|M12|NE18|NE61|NG13|NG24|NG33|NN11|NN9|NR1[128]|NR29|OL[35]|OX1[35]|OX28|OX7|PE1[234]|PE20|PL14|PL2[12]|PL32|PO21|PO30|PR6|RG1[07]|RG2[04]|RG31|RG7|S36|S4[245]|S7[05]|SG12|SG[489]|SK11|SK6|SN1[46]|SN[78]|SO24|SO45|SP7|SS7|SY13|SY[27]|TA19|TA21|TA3|TF1[023]|TF4|WA14|WA[46]|WF17|WF8|WR2|WS1[35]|WS6|WV10|YO13|YO6[02]).{2,10})\bdark\slane\b/gi,
+  /\bdark\slane\b(?=.{2,10}(?:AL5|B38|B47|B6[02]|B78|B96|BA11|BA[234]|BB18|BB4|BD2[23]|BH2[013]|BL6|BS2[89]|BS4[08]|CB10|CH3|CM1[34]|CT21|CV12?|CV3[57]|CW9|DE13|DE45?|DE56|DE65?|DL1[127]|DT10|DT[29]|DY1[34]|DY[79]|EN7|EX1[06]|EX20|EX[59]|GL51?|GL[67]|GU3|HD4|HG[35]|HP18|HP22|HR2|HU12|HX[2367]|IP13|IP2[14]|L31|L40|LD6|LE12|LL1[23]|LN11|LS21|M12|NE18|NE61|NG13|NG24|NG33|NN11|NN9|NR1[128]|NR29|OL[35]|OX1[35]|OX28|OX7|PE1[234]|PE20|PL14|PL2[12]|PL32|PO21|PO30|PR6|RG1[07]|RG2[04]|RG31|RG7|S36|S4[245]|S7[05]|SG12|SG[489]|SK11|SK6|SN1[46]|SN[78]|SO24|SO45|SP7|SS7|SY13|SY[27]|TA19|TA21|TA3|TF1[023]|TF4|WA14|WA[46]|WF17|WF8|WR2|WS1[35]|WS6|WV10|YO13|YO6[02]))/gi,
+  /[\d-]+dark\sstreet\b/gi,
+  /(?<=SA61.{2,10})\bdark\sstreet\b/gi,
+  /\bdark\sstreet\b(?=.{2,10}SA61)/gi,
+  /[\d-]+dark\swalk\b/gi,
+  /(?<=PH2.{2,10})\bdark\swalk\b/gi,
+  /\bdark\swalk\b(?=.{2,10}PH2)/gi,
+  /(?<=(?:BD23|DG14|DH3|G84|GL5|KA16|KA4|LS29|NR21|PR2|RG27|RG9|SL4|ST5|TD8|WD4).{2,10})\bdark\swood\b/gi,
+  /\bdark\swood\b(?=.{2,10}(?:BD23|DG14|DH3|G84|GL5|KA16|KA4|LS29|NR21|PR2|RG27|RG9|SL4|ST5|TD8|WD4))/gi,
 
   // DOWN
   /(?<=EX12.{2,10})\bdown\b/gi,

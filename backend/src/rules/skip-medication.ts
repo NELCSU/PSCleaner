@@ -1,3 +1,18 @@
+/**********************************************************************
+ * These patterns should be ignored as they loosely match to 
+ * medication names
+ * 
+ * Actions needed
+ * 
+ * (medium priority)
+ * Obtain a full DMD list of drug names to test what generates
+ * false positives. The list below is not exhaustive.
+ * 
+ * (low priority)
+ * This list could do with a clean up as some false positive 
+ * generating words have been rationalised over time.
+ **********************************************************************/
+
 const a: RegExp[] = [
   /\d+(?:g|mg|ml)\b/gm,
 
