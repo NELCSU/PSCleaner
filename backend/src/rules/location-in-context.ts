@@ -21,6 +21,10 @@ const a: RegExp[] = [
   /\bbath\b(?=.{2,20}(?:BA2|city))/gi,
   /(?<=(?:BA2|city).{2,25})\bbath\b/gi,
 
+  // BOTTOM
+  /(?<=(?:ZE2|TD7).{2,10})\bthe\sbottom\b/gi,
+  /\bthe\sbottom\b(?=.{2,10}(?:ZE2|TD7))/gi,
+
   // CHAIR
   /(?<=IV28.{2,25})\bchair\b/gi,
   /\bchair\b(?=.{2,20}IV28)/gi,
@@ -77,6 +81,10 @@ const a: RegExp[] = [
 
   // FELL
   /[\d-]+\sfell\s(?:close|drive|end|foot|head|hill|road|side|view|walk|way|wood)\b/gmi,
+
+  // FLOOR
+  /\bthe\sfloor\b(?=.{2,10}(?:KW17))/gi,
+  /\bthe\sfloors\b(?=.{2,10}(?:AB44|island))/gi,
 
   // FOOT
   /[\d-]+the\sfoot\b/gi,

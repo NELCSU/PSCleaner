@@ -122,6 +122,9 @@ const a: RegExp[] = [
 /\bescarpment\savenue\b/gmi,
 /\besk\sglades\b/gmi,
 
+// ET
+/\betps\sroad\b/gmi,
+
 // EU
 /\bEuropean\sWay\b/gm,
 /\beurostar\smeadow\b/gmi,
