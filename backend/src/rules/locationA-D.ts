@@ -115,7 +115,8 @@ const a: RegExp[] = [
 /\bamblers\s(?:court|croft|mews|way)\b/gmi,
 /\bamenity\s(?:park|plantation|way)\b/gmi,
 /\bammonite\s(?:drive|grove)\b/gmi,
-/\b(?:amulet|avenger|diligence)\s(?:close|way)\b/gmi,
+/\ba(?:mulet|venger)\s(?:close|way)\b/gmi,
+/\bam\sbi[\s-]bogha\b/gmi,
 
 // AN
 /\bannesley\scutting\b/gmi,
@@ -516,7 +517,6 @@ const a: RegExp[] = [
 /\bdog\sbones\b/gm,
 /\bholy\sbones\b/gm,
 /\bjaw\sbones\shill\b/gmi,
-/\bpoint\sof\sdogs\sbones\b/gmi,
 /\bbolton\sfell\send\b/gmi,
 /\bbotton\shead\sfell\b/gmi,
 /\bbow\sfell\sroad\b/gmi,
@@ -689,6 +689,7 @@ const a: RegExp[] = [
 /\bbroadall['‘’`]?s\s(?:and|\&)\sdistrict\b/gmi,
 
 // BU
+/\bbumbo\splantation\b/gmi,
 /\bburn\sfoot\splantation\b/gmi,
 /\bbuckstones\sjump\b/gmi,
 /\bburden['‘’`]?s\sball\b/gmi,
@@ -752,6 +753,9 @@ const a: RegExp[] = [
 /\bc\sp\sschool\b/gmi,
 /\bC\s(?:Road|Street)\b/gm,
 // CA
+/\bcarrier\slane\b/gmi,
+/\bcarrier['‘’`]?s\s(?:hill|lane|way)\b/gmi,
+/\bcarriers['‘’`]?\s(?:close|court|entry|fold|hill|meadow|place|road|way|row)\b/gmi,
 /\bcaer[\s-]went\b/gmi,
 /\bcanal\sfoot\b/gmi,
 /\bcant\sfoot\swood\b/gmi,
@@ -1507,6 +1511,7 @@ const a: RegExp[] = [
 /\bdhoul['‘’`]?s\spavement\b/gmi,
 
 // DI
+/\bdiligence\s(?:close|way)\b/gmi,
 /\bdick\sfell\shill\b/gmi,
 /\bdin\sfell\b/gmi,
 /\bdick[\s-]o['‘’`]?[\s-]th['‘’`]?[\s-]banks\b/gmi,

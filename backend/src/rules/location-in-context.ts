@@ -25,6 +25,11 @@ const a: RegExp[] = [
   /(?<=(?:ZE2|TD7).{2,10})\bthe\sbottom\b/gi,
   /\bthe\sbottom\b(?=.{2,10}(?:ZE2|TD7))/gi,
 
+  // CARRIER
+  /[\d-]+carrier\sclose\b/gi,
+  /\bcarrier\sclose\b(?=.{2,10}(?:PE2|peterborough))/gi,
+  /(?<=(?:PE2|peterborough).{2,10})\bcarrier\sclose\b/gi,
+  
   // CHAIR
   /(?<=IV28.{2,25})\bchair\b/gi,
   /\bchair\b(?=.{2,20}IV28)/gi,
@@ -133,10 +138,27 @@ const a: RegExp[] = [
   /(?<=(?:AB51|AL9|B23|B7[29]|BA1|BD16|BL[17]|BN4[12]|BR3|BS16|CB9|CM15|CM4|CV23|CV31|CV8|CW11|DE5|DH2|DL15|DL3|DN4|EH3[29]|EX22|GL50|GU10|GU24|HA[15]|HU[37]|HX1|IP3[01]|KA11|KT10|LA14|LA2|LE16|LL11|LL22|LS10|LS2[78]|MK18|NE25|NN16|NP16|NP2[56]|NP7|NR33|PE6|PO1[68]|PO[79]|RG8|RH12|RH20|SA9|SE22|SG16|SG[57]|SN1[14]|SN25|SN9|ST7|SY16|TQ13|TW14|WD17|YO14)).{2,25}\bthe\sgardens\b/gi,
   /\bthe\sgardens\b(?=.{2,20}(?:AB51|AL9|B23|B7[29]|BA1|BD16|BL[17]|BN4[12]|BR3|BS16|CB9|CM15|CM4|CV23|CV31|CV8|CW11|DE5|DH2|DL15|DL3|DN4|EH3[29]|EX22|GL50|GU10|GU24|HA[15]|HU[37]|HX1|IP3[01]|KA11|KT10|LA14|LA2|LE16|LL11|LL22|LS10|LS2[78]|MK18|NE25|NN16|NP16|NP2[56]|NP7|NR33|PE6|PO1[68]|PO[79]|RG8|RH12|RH20|SA9|SE22|SG16|SG[57]|SN1[14]|SN25|SN9|ST7|SY16|TQ13|TW14|WD17|YO14))/gi,
 
+  // HEAD
+  /\bthe\shead\b(?=.{2,20}(?:KW17|SA62|ZE2))/gi,
+  /\bthe\sheads\b(?=.{2,20}(?:FY6))/gi,
+  /[\d-]+the\sheads\b/gi,
+  /(?<=(?:CA12|LA11)).{2,25}\bthe\sheads\b/gi,
+  /\bthe\sheads\b(?=.{2,20}(?:CA12|LA11))/gi,
+
+  // HOLDING
+  /[\d-]+holding\b/gi,
+  /(?<=(?:S81|worksop).{2,10})\bholding\b/gi,
+  /\bholding\b(?=.{2,10}(?:S81|worksop))/gi,
+  /[\d-]+holding\sstreet\b/gi,
+  /(?<=(?:ME8|WN2).{2,10})\bholding\sstreet\b/gi,
+  /\bholding\sstreet\b(?=.{2,10}(?:ME8|WN2))/gi,
+
   // JUMP
   /(?<=(?:S74|barnsley)).{2,25}\bjump\b/gi,
   /\bjump\b(?=.{2,20}(?:S74|barnsley))/gi,
   /[\d-]+jump\sclose\b/gi,
+  /(?<=(?:PL6|robor|plymouth).{2,10})\bjump\sclose\b/gi,
+  /\bjump\sclose\b(?=.{2,10}(?:PL6|robor|plymouth))/gi,
   /(?<=SO21).{2,25}\bwater\sjump\b/gi,
   /\bwater\sjump\b(?=.{2,20}SO21)/gi,
   /[\d-]+squirrel['‘’`]?s\sjump\b/gi,
@@ -220,6 +242,23 @@ const a: RegExp[] = [
   // SCHOOL
   /[\d-]+\sschool\s(?:annexe|approach|belt|chase|close|dr[io]ve|end|field\sclose|fields?)\b/gi,
   /[\d-]+\sschool\s(?:gardens|green|houses?|place|rise|rough|row|terrace|view|walk|yard)\b/gi,
+
+  // STAIRS
+  /(?<=(?:CF64|island).{2,25})\bthe\sstairs\b/gi,
+  /\bthe\sstairs\b(?=.{2,20}(?:CF64|island))/gi,
+  /[\d-]+new\sstairs\b/gi,
+  /\bnew\sstairs\b(?=.{2,20}(?:ME4))/gi,
+  /(?<=(?:ME4).{2,25})\bnew\sstairs\b/gi,
+  /\bold\sstairs\b(?=.{2,20}(?:YO15|cliff))/gi,
+  /(?<=(?:YO15|cliff).{2,25})\bold\sstairs\b/gi,
+  
+  // WART
+  /(?<=(?:KW17|hill).{2,25})\b(?:little|the)\swart\b/gi,
+  /\b(?:little|the)\swart\b(?=.{2,20}(?:KW17|hill))/gi,
+
+  // WEEK
+  /\bweek\b(?=.{2,20}(?:TQ9|EX18|EX20|EX37|village|hamlet))/gi,
+  /(?<=(?:TQ9|EX18|EX20|EX37|village|hamlet).{2,25})\bweek\b/gi,
 
   // WIND
   /[\d-]+\swind\sfell\b/gi,

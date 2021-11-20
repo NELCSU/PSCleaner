@@ -192,7 +192,7 @@ const a: RegExp[] = [
 /\bring\s(?:and\sscars\splantation|beck|bog|clumps?|dam|down|dyke\sway|farm\s(?:crescent|hollow|view)|fort\sroad|gardens|grove)\b/gmi,
 /\bring\s(?:haw|hay|hill|holt|leas|lows|moor|moss|o['‘’`\s]*bells|of\sbright\swater)\b/gmi,
 /\bring\s(?:plantation|point|pond|road|rock|sands|stones\sclose|street|wall|way|wood)\b/gmi,
-/\bring-o-bells\slane|ring['‘’`]?s\s(?:copse|end)|round\sring\sgardens|south\sring\sround|the\spoint\sof\sring\b/gmi,
+/\b(?:ring-o-bells\slane|ring['‘’`]?s\s(?:copse|end)|round\sring\sgardens|south\sring\sround)\b/gmi,
 /\b(?:ringing\shill|ringing\skeld\shill|ringing\spots\shill)\b/gmi,
 /\bringtail\s(?:close|court|green|place|road)\b/gmi,
 /\b(?:chalvington\swith|west)\sripe\b/gmi,

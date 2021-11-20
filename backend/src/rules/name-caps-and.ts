@@ -1245,7 +1245,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "gentiles",         // name
 "germans",          // name & placenames (9)
 "germany",          // name & placenames (4)
-"getting",          // name & placename
 "gibraltar",        // standaline & placenames (22)
 "gift",             // name & placenames (2)
 "gin",              // name & placenames (14)
@@ -1578,7 +1577,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "holder",           // name & placenames (14)
 "holders",          // standalone & placenames (13)
 "holdfast",         // standalone & placenames (2)
-"holding",          // name & placenames (8)
 "hole",             // placenames (269)
 "holes",            // name & placenames (106)
 "holiness",         // name
@@ -1597,7 +1595,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hoover",           // name & placenames (5)
 "hop",              // name & placenames (51)
 "hopes",            // name & placenames (13)
-"hopping",          // name & placenames (8)
 "horseback",        // standalone & placenames (2)
 "horseman",         // name & placenames (14)
 "horseshoe",        // standalone & placenames (55)
@@ -3797,7 +3794,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "warder",           // name & placename
 "wards",            // name & placenames (28)
 "warns",            // name & placenames (2)
-"wart",             // name & placenames (7)
 "wary",             // name & placename
 "wash",             // standalone & placenames (58)
 "washer",           // name & placenames (8)
@@ -3823,7 +3819,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "wednesday",        // name & placename
 "wee",              // name & standalone & placenames (32)
 "weeding",          // name & placename
-"week",             // standalone & placenames (36)
 "weeks",            // name & placenames (7)
 "weights",          // name & placenames (2)
 "weld",             // name & placenames (12)

@@ -439,7 +439,7 @@ const a: RegExp[] = [
 
 // LI
 /\blight\sfoot\slane\b/gmi,
-/\blittle\sball\scopse\b/gmi,
+/\blittle\s(?:ball\scopse|week\s(?:close|gardens|road))\b/gmi,
 /\bliddells\sfell\sroad\b/gmi,
 /\bli(?:ly|mestones|ng)\sfell\b/gmi,
 /\blittle\s(?:dun|ewe|harter|mell|sca|stags)\sfell\b/gmi,
@@ -496,7 +496,7 @@ const a: RegExp[] = [
 /\blow\s(?:auchenree|birk|cringle)\sfell\b/gmi,
 /\blow\sfell\s(?:close|plantation)\b/gmi,
 /\bLow\sFell\b/gm,
-/\blow\sgreen\sfell\b/gmi,
+/\blow\s(?:green\sfell|holding\swood)\b/gmi,
 /\blower\s(?:fell\splantation|small\sclough)\b/gmi,
 /\blower\shouse\sbig\swood\b/gmi,
 /\bloch\s(?:an\sair|arm|beauty|glass|of\s(?:pile|soy))\b/gmi,

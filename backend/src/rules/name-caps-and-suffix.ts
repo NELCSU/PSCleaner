@@ -345,6 +345,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "geez",
 "geisha",
 "genus",
+"getting",
 "geyser",
 
 // GH
@@ -410,7 +411,9 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "head",
 
 // HO
+"holding",
 "hoop",
+"hopping",
 
 // HU
 "huger",
@@ -995,6 +998,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "wanker",
 "wanna",
 "warring",
+"wart",
 "washing",
 "washup",
 "wattage",

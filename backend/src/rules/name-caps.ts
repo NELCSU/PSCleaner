@@ -730,8 +730,6 @@ const a: string[] = [
 "carps",
 "carriage",
 "carriageway",
-"carrier",
-"carriers",
 "carrions",
 "carrot",
 "carroty",

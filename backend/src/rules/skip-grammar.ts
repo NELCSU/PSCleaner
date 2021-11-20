@@ -110,12 +110,10 @@ const a: RegExp[] = [
   /\bFood\sBank\b/gm,
 
   // G
-  /\bgetting\sup\sfrom\b/gmi,
   /\bgood\s(?:friday|morning)\b/gmi,
   /\bgreat\sbritish\b/gmi,
   /\bguinea\spig\b/gmi,
   /\bgung[\s-]ho\b/gm,
-  /\bgetting\s(?:in|from|to|out)\b/gmi,
   /\b(?:great\sbritain|guinea[\s-]bissau)\b/gmi,
   /\bGreen\sPass\b/gm,
 
@@ -245,7 +243,6 @@ const a: RegExp[] = [
   /\bultra\s(?:high|low)\b/gmi,
   /\bunder\slevel\b/gmi,
   /\bwake\sup\b/gmi,
-  /\bwent\s(?:back|over)\b/gmi,
   /\bwilly[\s-]nilly\b/gmi,
   /\bto\sthe\swise\b/gmi,
   /\b(?:unesco|unicef|united\snations|un\sorgani[sz]ations?)\b/gmi,

@@ -159,6 +159,7 @@ const a: RegExp[] = [
 /\bvoyagers\sclose\b/gmi,
 
 // WA
+/\bwart\s(?:barrow\slane|hill|holm)\b/gmi,
 /\bwarren\scutting\b/gmi,
 /\bwashing\s(?:dike\splantation|green|hive|ledge|linn|pool|pound\slane|rocks?|stones\sgully)\b/gmi,
 /\bwashing['‘’`]?s\s(?:lane|wood)\b/gmi,
@@ -261,7 +262,10 @@ const a: RegExp[] = [
 /\bwalsham\s(?:and|\&)\sdistrict\b/gmi,
 
 // WE
-/\bwest\shoop\b/gmi,
+/\bweek\s(?:bottom(?:\swood)?|common(?:\scovert)?|copse|down(?:\scopse)?|ford|green|hill)\b/gmi,
+/\bweek\s(?:lane|moors?|plantation|st\.?\smary|street(?:\sdown)?|street|wood)\b/gmi,
+/\bweek['‘’`]?s\scoppice\b/gmi,
+/\bwest\s(?:hoop|week\s(?:close|plantations?))\b/gmi,
 /\bwent[\s-](?:avenue|croft|dale\sroad|edge\s(?:field|road)|end|fold|garth|green)\b/gmi,
 /\bwent\s(?:hill(?:\s(?:close|gardens|park))?|lane|meadows\sclose|mouth)\b/gmi,
 /\bwent\s(?:plantation|road|view|way|wood|worth\sclose)\b/gmi,
@@ -480,6 +484,7 @@ const a: RegExp[] = [
 /\bwinchelsea\s(?:and|\&)\sdistrict\b/gmi,
 
 // WO
+/\bwoodside\sholding\b/gmi,
 /\bwol[df]\sfell\b/gmi,
 /\bwolfs?\sfell\sclose\b/gmi,
 /\bwo(?:olston\snew|rmald['‘’`]?s)\scut\b/gmi,

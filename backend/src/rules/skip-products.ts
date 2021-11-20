@@ -26,6 +26,7 @@ const a: RegExp[] = [
   /\b(?:bleach|(?:hot\s)?water)\sbottle\b/gmi,
   /\bbottle\sof\s(?:bleach|(?:hot\s)?water)\b/gmi,
   /\bbottom\ssteps?\b/gmi,
+  /\bbumbo\b/gmi,
 
   // C
   /\bcheddar\scheese\b/gmi,
@@ -73,6 +74,7 @@ const a: RegExp[] = [
 
   // K
   /\bkettle\sburn\b/gmi,
+  /\bthe\skit\b/gmi,
 
   // L
   /\b(?:a|from|of|off|on)\sladder\b/gmi,
@@ -88,6 +90,7 @@ const a: RegExp[] = [
 
   // P
   /\bpearl\sbe[ae]d\b/gmi,
+  /\bpink\sbead\b/gmi,
   /\bpranaro\sdiffuser\b/gmi,
   /\bplaydoh\b/gmi,
 
@@ -96,9 +99,9 @@ const a: RegExp[] = [
   /\brusty\snail\b/gmi,
 
   // S
-  /\b(?:stanley|swiss\sarmy)\sknife\b/gmi,
+  /\bs(?:tanley|wiss\sarmy)\sknife\b/gmi,
   /\bscarf\spin\b/gmi,
-  /\bsewing\smachine\b/gmi,
+  /\bsewing\s(?:kit|machine)\b/gmi,
   /\bsma\sgold\b/gmi,
   /\bstair\sgate\b/gmi,
 

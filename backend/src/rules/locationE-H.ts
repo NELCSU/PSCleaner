@@ -9,7 +9,7 @@
 const a: RegExp[] = [
 /\b[ef]\sstreet\b/gmi,
 // EA
-/\beast\shoop\b/gmi,
+/\beast\s(?:hoop|week)\b/gmi,
 /\beasington\sfell\sroad\b/gmi,
 /\bEast\sFell\b/gm,
 /\bEastward\sLedge\b/gm,
@@ -276,6 +276,7 @@ const a: RegExp[] = [
 /\bfriends['‘’`]?\s(?:avenue|close|field|lane|road|walk|wk|wood)\b/gmi,
 
 // FU
+/\bfull\sholding\sfarm\b/gmi,
 /\bfuller\sgood\sroad\b/gmi,
 /\bfu(?:rnaces|rriers)\sclose\b/gmi,
 /\bfurthest\sdrove\b/gmi,
@@ -588,10 +589,11 @@ const a: RegExp[] = [
 /\bgalashiels\s(?:and|\&)\sdistrict\b/gmi,
 
 // GE
+/\bgetting\scopse\b/gmi,
 /\bgeo\sof\s(?:rustling\sstanes|the\sstairs)\b/gmi,
 /\bgeo\sof\s(?:grassland|oxen|pass|romps|the\s(?:light|toe)|whaleback)\b/gmi,
 /\bgeo\sof\the\b/gmi,
-/\bgeo\sof\sthe\s(?:keen|swans)\b/gmi,
+/\bgeo\sof\sthe\s(?:keen|swans|wart)\b/gmi,
 /\bgeorge\ssmart\sclose\b/gmi,
 /\bgeorge\scut\b/gmi,
 /\bgemsbok\sway\b/gmi,
@@ -979,9 +981,9 @@ const a: RegExp[] = [
 /\bheroes\s(?:drive|walk)\b/gmi,
 
 // HI
-/\bhigh\scrag\sfoot\b/gmi,
+/\bhigh\s(?:crag\sfoot|holding\swood)\b/gmi,
 /\bhill\sfoot\slane\b/gmi,
-/\bhigher\sball\swood\b/gmi,
+/\bhigher\s(?:ball\swood|week\s(?:copse|moor))\b/gmi,
 /\bHi(?:gh|ll)\sFell\b/gm,
 /\bhigh\s(?:house|scald)\sfell\b/gmi,
 /\bhill\sfell\splantation\b/gmi,
@@ -1017,6 +1019,10 @@ const a: RegExp[] = [
 /\bhinckley\s(?:and|\&)\sdistrict\b/gmi,
 
 // HO
+/\bhopping\s(?:common\splantation|hill(?:\s(?:gardens|primary\sschool))?|jacks\slane|lane|tom['‘’`]?s\srough|top)\b/gmi,
+/\bholding\screscent\b/gmi,
+/\bholding['‘’`]?s\shill\b/gmi,
+/\bhorns\sof\sthe\sroe\b/gmi,
 /\bhoop\s(?:end|lane|mill)\b/gmi,
 /\bhorticultural\splace\b/gmi,
 /\bholt\sball\ssteep\b/gmi,

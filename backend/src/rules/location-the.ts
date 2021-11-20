@@ -132,7 +132,7 @@ export const LocationTheRegEx: RegExp[] = [
 
   // H
   /\bThe\sHa(?:lve|ngers?|nging|ngs|rbour|rd(?:\sInterchange)?|t)\b/gm,
-  /\bThe\sHe(?:ads?|adway|ath|edge\s?[Rr]ow|dges|ights?|ritage|rmitage|rons?|xagon)\b/gm,
+  /\bThe\sHe(?:adway|ath|edge\s?[Rr]ow|dges|ights?|ritage|rmitage|rons?|xagon)\b/gm,
   /\bThe\sHigh(?:lands|light|way|\sSchool)?\b/gm,
   /\bThe\sHi(?:des?|deaway|lls?|llocks?|ves?)\b/gm,
   /\bThe\sHol(?:dings|es?|lies|lows?|lyoaks|mwoods)\b/gm,
@@ -282,7 +282,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sSpo(?:rtsman|t|ut)\b/gm,
   /\bThe\sSqu(?:are|ires|irrels)\b/gm,
   /\bThe\sStat(?:e\sHospital|utes)\b/gm,
-  /\bThe\sSta(?:cks?|ff|gs|irs|kes|lls|mpers|nces|ples|rs|rlings)\b/gm,
+  /\bThe\sSta(?:cks?|ff|gs|kes|lls|mpers|nces|ples|rs|rlings)\b/gm,
   /\bThe\sStab(?:les?(?:\s(?:[Pp]ool|[Yy]ard))?)?\b/gm,
   /\bThe\sSte(?:ep|eplechase|eples|pping\sStones|ps|ws?)\b/gm,
   /\bThe\sSti(?:ck|les?|ll|nts|rrup|tch|tchings)\b/gm,
@@ -323,7 +323,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sWa(?:d|des|ge\sOf|ggonway|its|kerings|ver)\b/gm,
   /\bThe\sWal(?:l|led\sGardens?|nuts|lows|thams)\b/gm,
   /\bThe\sWalk(?:s?|way)\b/gm,
-  /\bThe\sWar(?:ds?|drobe|dens|e|ns|rens?|t)\b/gm,
+  /\bThe\sWar(?:ds?|drobe|dens|e|ns|rens?)\b/gm,
   /\bThe\sWas(?:h|hing\s(?:Pool|Tub))\b/gm,
   /\bThe\sWatch\b/gm,
   /\bThe\sWater(?:course|cress\sLine|ing|falls?|front|mark|s|shed|side|ways?|\sRun|wheel)\b/gm,
