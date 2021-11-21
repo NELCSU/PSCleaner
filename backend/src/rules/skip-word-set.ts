@@ -1448,7 +1448,7 @@ const a: string[] = [
 "putsch",
 "putt",
 "putti",
-"puzzler",
+"puzzle",
 "pyracantha",
 "qatar",
 "quad",

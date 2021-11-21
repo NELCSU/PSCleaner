@@ -136,6 +136,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "cosier",
 "councilman",
 "councilor",
+"cousins",
 "cower",
 "cowherd",
 "cowls",
@@ -602,6 +603,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "rainwater",
 "ramming",
 "rancher",
+"rant",
 
 // RE
 "records",

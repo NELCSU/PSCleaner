@@ -7,5 +7,11 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "down",
 
 // HE
-"head"
+"head",
+
+// PL
+"place",
+
+//WA
+"water"
 ]);

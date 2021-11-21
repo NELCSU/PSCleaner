@@ -9,6 +9,7 @@
 const a: RegExp[] = [
 /\b[ef]\sstreet\b/gmi,
 // EA
+/\bearnsheugh\stongue\b/gmi,
 /\beast\s(?:hoop|week)\b/gmi,
 /\beasington\sfell\sroad\b/gmi,
 /\bEast\sFell\b/gm,
@@ -228,6 +229,7 @@ const a: RegExp[] = [
 /\bfirst\sturf\sfen\sdrove\b/gmi,
 
 // FL
+/\bflorence\sboot\sclose\b/gmi,
 /\bflowing\s(?:geo|stack)\b/gmi,
 /\bflinty\sfell\b/gmi,
 /\bFlat\s(?:Fell|Ledge)\b/gm,
@@ -265,6 +267,7 @@ const a: RegExp[] = [
 /\bforfar\s(?:and|\&)\sdistrict\b/gmi,
 
 // FR
+/\bfriar['‘’`]?s\stongue\b/gmi,
 /\bfrederick\sfell\swalk\b/gmi,
 /\bFrozen\sFell\b/gm,
 /\bfront\slebanon\b/gmi,
@@ -655,6 +658,16 @@ const a: RegExp[] = [
 /\bglen\sglass\b/gmi,
 
 // GO
+/\bgob\sa['‘’`]?\s(?:bhàird|bharra|chairn|chalmain|champa|chreagain|chuaille|chuilg|chùirn|chuthail|garbh|ghaill|gheodha|phuind|rubha|stàiseon)\b/gmi,
+/\bgob\sàird\s(?:an\stolmachain|na\scille|nan\ssgalag|orasaigh|stioclett)\b/gmi,
+/\bgob\san\s(?:aiseig|dainnire|dùin|lochain|oighre|rubha|sgùrr|tarcall|tobha|t-seabhaig|t-sèid|tùir)\b/gmi,
+/\bgob\s(?:àrd|ardteaginish|bhreinish|bhuirgh|breac|buaile|buidhe|chaileagadh|chathaill|coille|crò)\b/gmi,
+/\bgob\s(?:dubh|eirer|fhlath|geidel|geodha|ghearraidh|girdabirie|glas|grutha|guirmein|hais)\b/gmi,
+/\bgob\s(?:hùnasgeir|inaclete|meall|meanais)\b/gmi,
+/\bgob\sna\s(?:buillebig|carraige|cleite|cloinne|creige|crois|h-àirde|h-àirde|h-eibheachd|h-oa|hoe|kebock)\b/gmi,
+/\bgob\sna\s(?:lice?|lùibe|miolaid|muce|roinne|sgèithe|teangaidh|tòine)\b/gmi,
+/\bgob\snan\s(?:cudaigean|eun|leac|leacan|sgarbh|uan|uisgeachan)\b/gmi,
+/\bgob\s(?:phursan|ruadh|ruairidh|rubha(?:\san)?|sgapanais|sgrithir|sgurabhal|shildinis|shuardail|steinis|steinish|tanga|thàis|thanga|uisgebrigh)\b/gmi,
 /\bgonerby\shill\sfoot\b/gmi,
 /\bgoose\sfoot\s(?:close|moss)\b/gmi,
 /\bgolden\sball\s(?:brow|hill|lane|street)\b/gmi,
@@ -708,7 +721,8 @@ const a: RegExp[] = [
 /\bgoole\s(?:and|\&)\sdistrict\b/gmi,
 
 // GR
-/\bgreat\sferny\sball\b/gmi,
+/\bgreengill\stongue\b/gmi,
+/\bgreat\s(?:ferny\sball|tongue)\b/gmi,
 /\bGrey\sChair\b/gm,
 /\bgrange\sfell(?:\sroad)?\b/gmi,
 /\bgreat\s(?:dun|ewe|mell|sca|scoat|shunner)\sfell\b/gmi,
@@ -1019,6 +1033,10 @@ const a: RegExp[] = [
 /\bhinckley\s(?:and|\&)\sdistrict\b/gmi,
 
 // HO
+/\bhollin\shouse\stongue\b/gmi,
+/\bhope\stongue\b/gmi,
+/\bhouse\sgill\stongue\b/gmi,
+/\bhowgill\stongue\b/gmi,
 /\bhopping\s(?:common\splantation|hill(?:\s(?:gardens|primary\sschool))?|jacks\slane|lane|tom['‘’`]?s\srough|top)\b/gmi,
 /\bholding\screscent\b/gmi,
 /\bholding['‘’`]?s\shill\b/gmi,

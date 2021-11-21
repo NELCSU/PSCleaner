@@ -102,6 +102,7 @@ const a: RegExp[] = [
 /\bmarks\stey\sand\slayer\b/gmi,
 
 // ME
+/\bmaavi\stongue\b/gmi,
 /\bmervyn\sball\sclose\b/gmi,
 /\bmermaid['‘’`]?s\schair\b/gmi,
 /\bmell\sfell(?:\swood)?\b/gmi,
@@ -123,7 +124,7 @@ const a: RegExp[] = [
 /\bmetropolitan\s(?:close|drive|mews|pit|station)\b/gmi,
 
 // MI
-/\bmiddle\sball\splantation\b/gmi,
+/\bmiddle\s(?:ball\splantation|tongue\starn)\b/gmi,
 /\bmill\sball\shill\b/gmi,
 /\bmid\sfell\b/gmi,
 /\bmiddle\s(?:fell|penny\sledge|scoat\sfell|small\sclough)\b/gmi,
@@ -171,6 +172,7 @@ const a: RegExp[] = [
 /\bmission\s(?:close|court|drive|field|gardens|grove|hall|hospital|lane|place|road|street|view|way)\b/gmi,
 
 // MO
+/\bmonkey\spuzzle\s(?:close|drive|way)\b/gmi,
 /\bmonkey\sfoot\splantation\b/gmi,
 /\bmoor\s(?:edges\sroad|end\sfell)\b/gmi,
 /\bmount\sglass\b/gmi,
@@ -719,6 +721,9 @@ const a: RegExp[] = [
 /\bpile\s(?:lane(?:\scoppice)?|lane|marsh|oak\scopse|paddock|place)\b/gmi,
 
 // PL
+/\bplace\s(?:barton|crescent|dane\sshaw|drove|farm(?:\s(?:avenue|lane|primary\sacademy|road|way))?)\b/gmi,
+/\bplace\s(?:hill|house\sclose|lane|moor|of\s(?:bonhill|goval\ssteadings)|parc|plantations|pond|view(?:\sroad)?|wood)\b/gmi,
+/\bplace['‘’`s]*\sroad\b/gmi,
 /\bplough\sfell\b/gmi,
 /\bplum\sfell\slane\b/gmi,
 /\bplums\slane\b/gmi,
@@ -1042,7 +1047,6 @@ const a: RegExp[] = [
 /\bpurse\s(?:caundle|close|lane|moor|point|wood|way)\b/gmi,
 /\bpursers\s(?:court|cross\sroad|farm|lane|lea)\b/gmi,
 /\bpuss\s(?:bank\sschool|geo)\b/gmi,
-/\bmonkey\spuzzle\s(?:close|drive|way)\b/gmi,
 /\bpuzzle\s(?:close|court|square|wood)\b/gmi,
 /\bpyramid\s(?:close|court|park|rock)\b/gmi,
 ];

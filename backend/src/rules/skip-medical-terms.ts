@@ -56,6 +56,7 @@ const a: RegExp[] = [
   /\b[Bb]undle\sof\sHis\b/gm,
   /\bbilharzia\b/gmi,
   /\bbuddy\sstrap\w*\b/gmi,
+  /\bburnt\s(?:bottom|top)\b/gmi,
   
   // C
   /\bc(?:ajal(?:[\s-]retzius)?|lara)\scells?\b/gmi,
@@ -249,6 +250,7 @@ const a: RegExp[] = [
   /\bottawa\s(?:(?:rule|sign)s?\s)?(?:negative|positive)\b/gmi,
   /\borgan\sof\s(?:corti|zuckerkandl)\b/gmi,
   /\bouter\sfoot\b/gmi,
+  /\bof\shead\b/gmi,
 
   // P
   /\bp(?:alsy|elvic|harma|harynx|helgm|hleugm|olio|ylori)\b/gmi,

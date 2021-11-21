@@ -10,6 +10,7 @@
  **********************************************************************/
 const a: RegExp[] = [
   // A
+  /\balmat\s(?:3[\s-]in[\s-]1\s)?non[\s-]bio\b/gmi,
   /\baqua\s?bead\b/gmi,
   /\bariel\s(?:non|(?:2|3|two|three)[\s-]in[\s-](?:1|one)|liquitab|tablets?|washing)\b/gmi,
   

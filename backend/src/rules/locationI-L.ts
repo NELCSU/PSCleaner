@@ -252,6 +252,7 @@ const a: RegExp[] = [
 /\bkingmaker\sway\b/gmi,
 
 // KN
+/\bknotts\sof\sthe\stongue\b/gmi,
 /\bKnock\sFell\b/gm,
 /\bknave[\s-]go[\s-]by\b/gmi,
 /\bknights\stemplars\sgreen\b/gmi,
@@ -285,6 +286,7 @@ const a: RegExp[] = [
 
 // KY
 /\bkyme\seau\b/gmi,
+/\bkyle\sof\stongue\b/gmi,
 
 /\bl\sspinney\b/gmi,
 // LA
@@ -438,6 +440,7 @@ const a: RegExp[] = [
 /\bleveller\s(?:end|road|way)\b/gmi,
 
 // LI
+/\blivera\stongue\b/gmi,
 /\blight\sfoot\slane\b/gmi,
 /\blittle\s(?:ball\scopse|week\s(?:close|gardens|road))\b/gmi,
 /\bliddells\sfell\sroad\b/gmi,
@@ -489,6 +492,8 @@ const a: RegExp[] = [
 /\bLNG\sterminal\b/gmi,
 
 // LO
+/\blong\stongue\sscrog\slane\b/gmi,
+/\blord['‘’`]?s\stongue\b/gmi,
 /\blon\sfel\b/gmi,
 /\bloch\snam\sball\b/gmi,
 /\blord\schair\shill\b/gmi,

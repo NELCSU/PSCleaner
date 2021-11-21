@@ -43469,6 +43469,7 @@ const a: string[] = [
 "pedone",
 "pedote",
 "pedoto",
+"pedr",
 "pedrampour",
 "pedregal",
 "pedrego",

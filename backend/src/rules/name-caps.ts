@@ -484,7 +484,6 @@ const a: string[] = [
 "bootmaker",
 "booty",
 "bonds",            // name & standalone & placenames (11)
-"boot",             // standalone & placenames (22)
 "boulder",          // standalone & placenames (10)
 "boundaries",       // standalone & placenames (2)
 "boundary",         // standalone & placenames (69)
@@ -2778,7 +2777,6 @@ const a: string[] = [
 "rangle",
 "ransom",
 "ransoms",
-"rant",
 "rapier",
 "rappel",
 "raps",
