@@ -408,6 +408,9 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 // GU
 "gum",
 
+// HA
+"hammock",
+
 // HE
 "head",
 

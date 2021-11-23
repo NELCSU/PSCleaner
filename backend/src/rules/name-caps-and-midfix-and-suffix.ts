@@ -3,6 +3,9 @@
  * and/or mid-sequence
  **********************************************************************/
 export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
+// BI
+"bird",
+
 // DO
 "down",
 

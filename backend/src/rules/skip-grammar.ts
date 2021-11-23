@@ -33,7 +33,7 @@ const a: RegExp[] = [
   /\ba(?:mazon|merican\sexpress|strazeneca)\b/gmi,
   
   // B
-  /\bback\sburn\b/gmi,
+  /\bback\s(?:burn|of)\b/gmi,
   /\bbarking\sdog\b/gmi,
   /\bbaby\sjesus\b/gmi,
   /\bbank\sholiday\b/gmi,
@@ -52,6 +52,7 @@ const a: RegExp[] = [
   /\bball\svs\b/gmi,
 
   // C
+  /\bcame\sback\b/gmi,
   /\bCan\sthe\b/gm,
   /\bchild\sof\b/gmi,
   /\b(?:bark|wood)\schipping\b/gmi,

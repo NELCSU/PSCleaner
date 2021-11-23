@@ -972,6 +972,7 @@ const a: RegExp[] = [
 /\bsquashes\swood\b/gmi,
 
 // ST
+/\bstation\sface\swood\b/gmi,
 /\bstrath\stongue\b/gmi,
 /\bst\sjoseph['‘’`]?s\sin\sthe\spark\sschool\b/gmi,
 /\bstair\sfoot\slane\b/gmi,

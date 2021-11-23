@@ -182,6 +182,10 @@ const a: RegExp[] = [
   /(?<=(?:SK9|alderley).{2,10})\bsquirrel['‘’`]?s\sjump\b/gi,
   /\bsquirrel['‘’`]?s\sjump\b(?=.{2,10}(?:SK9|alderley))/gi,
 
+  // LAID
+  /(?<=(?:IV27|TS10).{2,10})\blaid\b/gi,
+  /\blaid\b(?=.{2,10}(?:IV27|TS10))/gi,
+  
   // PARK
   /(?<=(?:BD24|CA9|LA22).{2,10})\bpark\sfell\b/gi,
   /\bpark\sfell\b(?=.{2,10}(?:BD24|CA9|LA22))/gi,

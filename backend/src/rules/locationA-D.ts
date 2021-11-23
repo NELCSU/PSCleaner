@@ -258,6 +258,9 @@ const a: RegExp[] = [
 /\baztec\swest\b/gmi,
 
 // BA
+/\bback\sof\s(?:avon|bog\spool|high\sstreet|keppoch|kingsdown\sparade|mare)\b/gmi,
+/\bback\sof\s(?:market\splace|mount\spleasant|parks\sroad|pleasure\sgrounds\swood)\b/gmi,
+/\bback\sof\s(?:raplin|the\s(?:breck|inns|ness|wall\splantation|walls))\b/gmi,
 /\bbarley\scarr\stongue\b/gmi,
 /\bbay\sof\sthe\stongue\b/gmi,
 /\bbank\sfoot(?:\s(?:grove|lane|road))?\b/gmi,
@@ -425,6 +428,14 @@ const a: RegExp[] = [
 /\bbhasteir\stooth\b/gmi,
 
 // BI
+/\bbird\s(?:avenue|bank\swood|brook\sclose|cage\swalk|cherry\s(?:avenue|lane))\b/gmi,
+/\bbird\s(?:common|court|drive|dyke(?:\swood)?|fall|farm\sroad|field)\b/gmi,
+/\bbird\s(?:flight\sgoit|gardens|gill\splantation|grove\scourt)\b/gmi,
+/\bbird\s(?:hall\s(?:avenue|lane|road)|holme\s(?:clough|lane))\b/gmi,
+/\bbird\s(?:house\s(?:lane|wood)?|in\s(?:bush\sroad|eye(?:\shill)?|hand\s(?lane|street|yard)))\b/gmi,
+/\bbird\s(?:island|mews|nest\shill|pond|ridding\slane|street|view\ssquare|walk|way|wood\scourt)\b/gmi,
+/\bbird-in-(?:eye\sshaw|hand\spassage|hole\srock)\b/gmi,
+/\bbird['‘’`s]*\s(?:barn\slane|close|corner|drove|end|eye\swood|green|grove|hill(?:\sroad)?|hole|holt|lane|marsh|road|wood)\b/gmi,
 /\bbid\san\sfhithich\b/gmi,
 /\bbmi\sthe\spark\shospital\b/gmi,
 /\bbirch\sfell(?:\splantation)?\b/gmi,
@@ -701,6 +712,7 @@ const a: RegExp[] = [
 /\bbroadall['‘’`]?s\s(?:and|\&)\sdistrict\b/gmi,
 
 // BU
+/\bbucktooth['‘’`]?s\smeadow\b/gmi,
 /\bbumbo\splantation\b/gmi,
 /\bburn\sfoot\splantation\b/gmi,
 /\bbuckstones\sjump\b/gmi,

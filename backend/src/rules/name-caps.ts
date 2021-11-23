@@ -326,7 +326,6 @@ const a: string[] = [
 "birch",
 "birches",
 "birchs",
-"bird",
 "birdcage",
 "birdie",             // name
 "birding",
@@ -1487,8 +1486,6 @@ const a: string[] = [
 "hamlet",
 "hamlets",
 "hammerer",
-"hammock",
-"hammocks",
 "hamper",
 "hampers",
 "hams",

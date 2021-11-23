@@ -6,7 +6,7 @@
   "dependencies": {
     "@buckneri/collections": "^0.1.6",
     "@buckneri/nhs-number": "^0.2.0",
-    "@buckneri/string": "^0.8.2",
+    "@buckneri/string": "^0.9.0",
     "@buckneri/web-components": "^0.4.3",
     "chokidar": "^3.5.1",
     "debounce": "^1.2.1",

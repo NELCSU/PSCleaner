@@ -864,6 +864,8 @@ const a: RegExp[] = [
 /\bgypsum\s(?:close|way)\b/gmi,
 
 // HA
+/\bhammocks\sdrove\b/gmi,
+/\bhammock\sroad\b/gmi,
 /\bhazel\sgrove\sfoot\b/gmi,
 /\bhannah\sball\b/gmi,
 /\bHarry['‘’`]?s\sBall\b/gm,
@@ -953,6 +955,7 @@ const a: RegExp[] = [
 /\bheadquarters\screscent\b/gmi,
 /\bheadless\scross\b/gmi,
 /\bhemerdon\sball\b/gmi,
+/\bheathery\sface\swood\b/gmi,
 /\bheathfield\sbig\swood\b/gmi,
 /\bhead\sledge\b/gmi,
 /\bhedge\srock\sledge\b/gmi,
