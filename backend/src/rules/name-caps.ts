@@ -860,7 +860,6 @@ const a: string[] = [
 "chittering",
 "chivalry",
 "chives",
-"chock",
 "chocolate",
 "choir",
 "choirs",

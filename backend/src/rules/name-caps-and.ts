@@ -522,7 +522,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "chateau",          // name & placenames (3)
 "chatters",         // name
 "checker",          // name & placenames (4)
-"cheeks",           // name & placename
 "chemistry",        // standalone & placenames (2)
 "chi",              // name & placenames (3)
 "chicken",          // placenames (15)

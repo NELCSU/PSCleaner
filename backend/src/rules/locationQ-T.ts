@@ -844,6 +844,7 @@ const a: RegExp[] = [
 /\b(?:hill\sof\ssnowy\sslack|snowy\s(?:fielder\swaye|slack|way))\b/gmi,
 
 // SO
+/\bsound\sprimary\sschool\b/gmi,
 /\bsouth\sloch\sfell\b/gmi,
 /\bsouther\sscales\sfell\b/gmi,
 /\bSouth\sDistrict\b/gm,
