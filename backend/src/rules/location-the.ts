@@ -291,7 +291,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sStu(?:dios?|dy|mble)\b/gm,
   /\bThe\sStyle\b/gm,
   /\bThe\sSu(?:bway|mmit|mps|nny\sRoad)\b/gm,
-  /\bThe\sSw(?:a[bgn]|allows|amp|eep|ill)\b/gm,
+  /\bThe\sSw(?:a[bgn]|amp|eep|ill)\b/gm,
   /\bThe\sSycamores\b/gm,
 
   // T

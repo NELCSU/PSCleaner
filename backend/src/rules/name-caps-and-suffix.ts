@@ -292,7 +292,6 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "fonder",
 "fonts",
 "foody",
-"foot",
 "foray",
 "forbear",
 "foresee",
@@ -839,6 +838,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "stouter",
 "stoves",
 "strain",
+"strainer",
 "streaker",
 "streamer",
 "strider",
@@ -859,6 +859,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 // SW
 "swaddle",
 "swagger",
+"swallows",
 "swam",
 "swarm",
 "swastika",

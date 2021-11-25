@@ -50,7 +50,7 @@ const a: RegExp[] = [
 /\bunnamed\s(?:rd|road)\b/gmi,
 
 // UP
-/\bupper\sfell\splantation\b/gmi,
+/\bupper\s(?:fell\splantation|swallow\swood)\b/gmi,
 /\bUpper\sCut\b/gm,
 /\bupper\s(?:landslip|small\sclough)\b/gmi,
 /\bupend\s(?:road|wood)\b/gmi,
@@ -348,7 +348,7 @@ const a: RegExp[] = [
 // WH
 /\bWhile\sRoad\b/gm,
 /\bwhite\s(?:ball\shill|fell(?:\shead)?|foot\slane|island\sledge|ledge(?:\shill)?)\b/gmi,
-/\bwhite\s(?:post\sstreet|woman['‘’`]?s\splantation)\b/gmi,
+/\bwhite\s(?:post\sstreet|woman['‘’`]?s\splantation|swallows\sroad)\b/gmi,
 /\bWhinny\sFell\b/gmi,
 /\bwhitecliff\sledge\b/gmi,
 /\bwheatley(?:\shall)?\scut\b/gmi,

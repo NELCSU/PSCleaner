@@ -10,7 +10,7 @@
  **********************************************************************/
 const a: RegExp[] = [
   /\b[a-z]{2,}\-\d{1,2}\b/gmi,
-  /\d+[\s-](?:day|mile|kilometer|km|step|week)s?\b/gmi,
+  /\d+[\s-](?:day|mile|min|kilometer|km|step|week)s?\b/gmi,
   /\b(?:first|last|tier)\s\d+/gmi,
   /\d+\sof\b/gmi,
   /\d+[\s-](?:(?:out)?\sof|in)[\s-]\d+/gmi,

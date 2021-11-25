@@ -1189,6 +1189,17 @@ const a: RegExp[] = [
 /\bsu(?:ffrage|preme)\sstreet\b/gmi,
 
 // SW
+/\bswallows['‘’`]?\s(?:acre|court|croft|dene|drive|gate|green\sdrive|hole|lane|low\swood|mead|meadow|nest\sclose|rise|way)\b/gmi,
+/\bswallow\s(?:avenue|bank(?:\sdrive)?|banks|beck|cleugh|cliffe?|copse|court)\b/gmi,
+/\bswallow\s(?:cove|craig(?:\sden|s)?|crescent|crest|croft|dale|dell\sprimary|drive)\b/gmi,
+/\bswallow\s(?:falls|field(?:\s(?:copse|gardens)|s)?|fold|gardens|garth|gate\sroad)\b/gmi,
+/\bswallow\s(?:geo|grange|grove|head|heugh|hill(?:\s(?:community\scollege|road))?)\b/gmi,
+/\bswallow\s(?:hole(?:\s(?:covert|plantation))?|house(?:\screscent|lane)?|knowe|lakes)\b/gmi,
+/\bswallow\s(?:lane|mead|mews|mills\spond|moss|mount|nest|oaks|park|pits\scopse|place)\b/gmi,
+/\bswallow\s(?:plantation|pool|port|pot\slane|rest|rise|road|square|street|tail\s(?:court|drive))\b/gmi,
+/\bswallow\s(?:tree\sclose|vale|view|walk|way|wold\swood|wood(?:\s(?:close|court|road))?)\b/gmi,
+/\bswallow[\s-]brae(?:\splantation)?\b/gmi,
+/\bswallow['‘’`]?s\s(?:close|craig|hill|lane|row)\b/gmi,
 /\bswarth\sfell\s(?:pike|tarn)\b/gmi,
 /\bsw(?:ap|ell(?:ing|s))\shill\b/gmi,
 /\bswish\slane\b/gmi,
