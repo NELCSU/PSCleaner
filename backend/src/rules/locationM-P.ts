@@ -391,6 +391,7 @@ const a: RegExp[] = [
 /\bnuts\s(?:and\sbolts\sroad|cleugh|hill)\b/gmi,
 
 // OA
+/\boa\sstack\b/gmi,
 /\bOld\sFell\b/gm,
 /\bold\sparkside\sfell\b/gmi,
 /\bo(?:ak\sapples|utfields)\sdrive\b/gmi,
@@ -528,7 +529,6 @@ const a: RegExp[] = [
 
 // OT
 /\botterton\sledge\b/gmi,
-/\b(?:Otters\s(?:Close|Had)|Little\sOtters)\b/gm,
 /\botters['‘’`]?\s(?:bank|brook|cave|croft|field|geo|hill|holt|lane|pool|reach|rest|walk|wick)\b/gmi,
 /\bOther\sRoad\b/gm,
 

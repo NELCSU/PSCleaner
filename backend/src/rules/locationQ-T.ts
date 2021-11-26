@@ -268,6 +268,7 @@ const a: RegExp[] = [
 /\brooster\srow\b/gmi,
 
 // RU
+/\brug\sspinney\b/gmi,
 /\bruddy\sball\b/gmi,
 /\brub\sgeos\b/gmi,
 /\brubbery\slane\b/gmi,
@@ -353,6 +354,7 @@ const a: RegExp[] = [
 /\bsandall\sbeat\slane\b/gmi,
 
 // SC
+/\bscoot\swood\b/gmi,
 /\bscale\sgill\sfoot\smoss\b/gmi,
 /\bschool\s(?:allotment(?:\sride)?|avenue|aycliffe(?:\slane)?|bank\sroad)\b/gmi,
 /\bschool\s(?:bank|board\slane|brae(?:\splace)?|brow|clough|common(?:\sroad)?)\b/gmi,
@@ -1354,6 +1356,7 @@ const a: RegExp[] = [
 /\btextile\s(?:close|drive|street|way)\b/gmi,
 
 // TH
+/\bthe\sladder\s(?:road|school)\b/gmi,
 /\bthe\spark\s(?:community\sschool|house\snursing\shome|infant\s(?:\&|and)\snursery|infant|junior)\b/gmi,
 /\bthe\spark\s(?:lane\sprimary|nursing\shome|pale|paling|plantation|primary|school|towngate)\b/gmi,
 /\bthe\sgonerby\shill\sfoot\b/gmi,
@@ -1576,6 +1579,7 @@ const a: RegExp[] = [
 /\btown\sand\sdowns\b/gmi,
 
 // TR
+/\btri\spen\shad\sroad\b/gmi,
 /\btremuda\stongue\b/gmi,
 /\btroutal\stongue\b/gmi,
 /\btridley\sfoot\shill\b/gmi,

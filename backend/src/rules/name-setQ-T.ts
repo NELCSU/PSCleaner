@@ -20541,7 +20541,6 @@ const a: string[] = [
 "scoolhouse",
 "scoon",
 "scoones",
-"scoot",
 "scopas",
 "scopece",
 "scopel",

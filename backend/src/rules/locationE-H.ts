@@ -188,6 +188,8 @@ const a: RegExp[] = [
 /\bfalmouth\s(?:and|\&)\sdistrict\b/gmi,
 
 // FE
+/\bfence\s(?:avenue|bank|brae|dike\slane|hill|houses|lane|moor|pools?|road(?:\splantation)?|street|wood)\b/gmi,
+/\b(?:higher\sfence\sroad|sunk\sfence\splantation|upper\sand\slower\sfence\swood)\b/gmi,
 /\bfell\sfoot\s(?:brow|meadow|wood)\b/gmi,
 /\bfell\s(?:avenue|bank|beck|bottom|briggs\sdrive|brow|carle\sroad|christy|crescent|croft)\b/gmi,
 /\bfell\s(?:dyke|edge\swood|end\s(?:fell|moor|planting|wood)|foot\s(?:brow|meadow|wood))\b/gmi,
@@ -941,6 +943,8 @@ const a: RegExp[] = [
 /\bhaslemere\s(?:and|\&)\sdistrict\b/gmi,
 
 // HE
+/\bhell\sladder\slane\b/gmi,
+/\bheol\stri\spen\shad\b/gmi,
 /\bhead\s(?:barn\swood|clough|crag(?:\smarsh)?|craig|croft|down(?:\s(?:hanger|plantation))?)\b/gmi,
 /\bhead\s(?:drove|dyke\s(?:lane|wood)?|fen\sdrove|green|hag|hill(?:\sroad)?|house\s(?:hill|wood))\b/gmi,
 /\bhead\s(?:lane|ledge|of\s(?:banks|berg|black\sburn|blea\swheel|bloshin|bratta|bresdale|brough))\b/gmi,

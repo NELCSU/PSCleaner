@@ -20,7 +20,7 @@ export const LocationTheRegEx: RegExp[] = [
   
   // B
   /\bThe\sBail(?:iwick|s)\b/gm,
-  /\bThe\sBa(?:bes|cks?|d\sStep|keries|ker[sy]|nks?|tts|ulks?|ys?)\b/gm,
+  /\bThe\sBa(?:bes|cks|d\sStep|keries|ker[sy]|nks?|tts|ulks?|ys?)\b/gm,
   /\bThe\sBal(?:es|k|ls)\b/gm,
   /\bThe\sBar(?:nyard|on[sy]|racks|rows|s)?\b/gm,
   /\bThe\sBas(?:ins?|s|ses|tard)\b/gm,
@@ -98,7 +98,7 @@ export const LocationTheRegEx: RegExp[] = [
   // F
   /\bThe\sFar(?:m|mlands|mstead|riers|things)\b/gm,
   /\bThe\sFa(?:irground|irways?|lcon|lconers|lcons|lls?|n|wn)\b/gm,
-  /\bThe\sFe(?:athers|eder|ll(?:s|\sWay)?|llows|n|nce|rries|rry|rns)\b/gm,
+  /\bThe\sFe(?:athers|eder|ll(?:s|\sWay)?|llows|n|rries|rry|rns)\b/gm,
   /\bThe\sFid(?:dle|dlers)\b/gm,
   /\bThe\sFi(?:elds?|elders|ndings|nger|rs|rst|sheries|sher[sy]|ve\sSprings)\b/gm,
   /\bThe\sFla(?:gs|sh|shes|ts?)\b/gm,
@@ -158,7 +158,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sLam(?:b|p|preys)\b/gm,
   /\bThe\sLan(?:cers|dings|ds?|dslip|e|ding|terns?|yard)\b/gm,
   /\bThe\sLau(?:nches|rels)\b/gm,
-  /\bThe\sLa(?:ce\sMill|dder|dle|kes?|irs?|rches|sh|w)\b/gm,
+  /\bThe\sLa(?:ce\sMill|dle|kes?|irs?|rches|sh|w)\b/gm,
   /\bThe\sLe(?:ap|ases|e|igh|ndings|ngth|ss|vels?)\b/gm,
   /\bThe\sLi(?:ght|nes?|nks?|on|p|st|zard)\b/gm,
   /\bThe\sLittle\s(?:Belt|Boltons|Brook|Gonerby|Gorge|Horse\sShoe|Minch|Rooks|Rough|Ship)\b/gm,

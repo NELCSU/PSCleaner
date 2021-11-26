@@ -4,6 +4,11 @@
  * is a lo-fi means of curtailing false positives
  **********************************************************************/
 const a: RegExp[] = [
+  // BACK
+  /\b[\d-]+\sthe\sback\b/gi,
+  /\bthe\sback\b(?=.{2,20}(?:NP16|HP4))/gi,
+  /(?<=(?:NP16|HP4).{2,25})\bthe\sback\b/gi,
+
   // BALL
   /\b[\d-]+\sball\s(?:close|down)\b/gi,
   /\bball\b(?=.{2,20}(?:SY10|shrops))/gi,
@@ -44,6 +49,8 @@ const a: RegExp[] = [
   /\bchair\b(?=.{2,20}IV28)/gi,
   /(?<=(?:DG9|TR21|KW17|TR12).{2,10})\bthe\schair\b/gi,
   /\bthe\schair\b(?=.{2,10}(?:DG9|TR21|KW17|TR12))/gi,
+  /(?<=(?:TR19).{2,10})\bchair\schair\b/gi,
+  /\bchair\schair\b(?=.{2,10}(?:TR19))/gi,
 
   // COUSIN
   /(?<=(?:RH14).{2,10})\bcousins['‘’`]?s\scopse\b/gi,
@@ -104,9 +111,20 @@ const a: RegExp[] = [
   /[\d-]+\sfell\s(?:close|drive|end|foot|head|hill|road|side|view|walk|way|wood)\b/gmi,
   /\bray\sfell\b(?=.{2,10}(?:NE19|NE48))/gi,
 
+  // FENCE
+  /\bthe\sfence\b(?=.{2,10}(?:GL15|hamlet))/gi,
+  /(?<=(?:GL15|hamlet).{2,10})\bthe\sfence\b/gi,
+  /\bfence\b(?=.{2,10}(?:BB12|village))/gi,
+  /(?<=(?:BB12|village).{2,10})\bfence\b/gi,
+  /[\d-]+ring\sfence\b/gi,
+  /(?<=(?:GL15|LE12).{2,10})\bring\sfence\b/gi,
+  /\bring\sfence\b(?=.{2,10}(?:GL15|LE12))/gi,
+  
   // FLOOR
   /\bthe\sfloor\b(?=.{2,10}(?:KW17))/gi,
+  /(?<=(?:KW17).{2,10})\bthe\sfloor\b/gi,
   /\bthe\sfloors\b(?=.{2,10}(?:AB44|island))/gi,
+  /(?<=(?:AB44|island).{2,10})\bthe\sfloors\b/gi,
 
   // FOOT
   /[\d-]+the\sfoot\b/gi,
@@ -182,10 +200,29 @@ const a: RegExp[] = [
   /(?<=(?:SK9|alderley).{2,10})\bsquirrel['‘’`]?s\sjump\b/gi,
   /\bsquirrel['‘’`]?s\sjump\b(?=.{2,10}(?:SK9|alderley))/gi,
 
+  // JACOB
+  /[\d-]+jacob['‘’`]?s\sladder\b/gi,
+  /(?<=(?:SY6|WR3|EX10).{2,10})\bjacob['‘’`]?s\sladder\b/gi,
+  /\bjacob['‘’`]?s\sladder\b(?=.{2,10}(?:SY6|WR3|EX10))/gi,
+
+  // LADDER
+  /(?<=(?:PA70|PA67).{2,10})\bladder\b/gi,
+  /\bladder\b(?=.{2,10}(?:PA70|PA67))/gi,
+  
   // LAID
   /(?<=(?:IV27|TS10).{2,10})\blaid\b/gi,
   /\blaid\b(?=.{2,10}(?:IV27|TS10))/gi,
-  
+
+  // OTTER
+  /(?<=(?:KW17|ZE[23]).{2,10})\botters?\shad\b/gi,
+  /\botters?\shad\b(?=.{2,10}(?:KW17|ZE[23]))/gi,
+  /[\d-]+otters\sclose\b/gi,
+  /(?<=(?:BR5|PR2).{2,10})\botters\sclose\b/gi,
+  /\botters\sclose\b(?=.{2,10}(?:BR5|PR2))/gi,
+  /[\d-]+little\sotters\b/gi,
+  /(?<=(?:EX10).{2,10})\blittle\sotters\b/gi,
+  /\blittle\sotters\b(?=.{2,10}(?:EX10))/gi,
+
   // PARK
   /(?<=(?:BD24|CA9|LA22).{2,10})\bpark\sfell\b/gi,
   /\bpark\sfell\b(?=.{2,10}(?:BD24|CA9|LA22))/gi,
@@ -269,6 +306,8 @@ const a: RegExp[] = [
   /(?<=(?:BS4|BL9|DD11|DE45|EX31|IV32|NG32|OX15|OL8|TF3|TF11|WA6|WV6).{2,25})\bthe\srock\b/gi,
   /\bthe\srocks\b(?=.{2,20}(?:GL16|ST21|SY3|BA4|DE4|RH19))/gi,
   /(?<=(?:GL16|ST21|SY3|BA4|DE4|RH19).{2,25})\bthe\srocks\b/gi,
+  /(?<=(?:KW17).{2,10})\brock\sladder\b/gi,
+  /\brock\sladder\b(?=.{2,10}(?:KW17))/gi,
 
   // ROW
   /[\d-]+the\srows?\b/gi,
@@ -276,6 +315,10 @@ const a: RegExp[] = [
   /(?<=(?:CB8|BS22).{2,25})\bthe\srows\b/gi,
   /\bthe\srow\b(?=.{2,20}(?:AB43|BS35|CB6|CO7|CT4|CV7|DT10|GL9|HP14|IP29|KY15|LA5|NG13|OX2[09]|PE33|PL1[25]|SP5|SY6|TD11|TD[23]))/gi,
   /(?<=(?:AB43|BS35|CB6|CO7|CT4|CV7|DT10|GL9|HP14|IP29|KY15|LA5|NG13|OX2[09]|PE33|PL1[25]|SP5|SY6|TD11|TD[23]).{2,25})\bthe\srow\b/gi,
+  
+  // RUG
+  /(?<=(?:ZE2|island).{2,25})\brug\b/gi,
+  /\brug\b(?=.{1,20}(?:ZE2|island))/gi,
   
   // RUGBY
   /(?<=(?:addr|CV21|dr[io]ve|live|stay|town|warwick).{2,25})\brugby\b/gi,
@@ -413,6 +456,10 @@ const a: RegExp[] = [
 
   // WOOD
   /[\d-]+\swood(?:land)?\sfell\b/gmi,
+
+  // WOODEN
+  /\bwooden\b(?=.{2,20}(?:SA69|village))/gi,
+  /(?<=(?:SA69|village).{2,25})\bwooden\b/gi,
 ];
 const LocationContextRegEx: Set<RegExp> = new Set();
 a.forEach(term => LocationContextRegEx.add(term));

@@ -2936,7 +2936,6 @@ const a: string[] = [
 "rose",             // name & placenames (326)
 "ruby",             // name
 "rue",              // name
-"rug",              // name & standalone
 
 // S
 "sham",             // name & placenames (3)

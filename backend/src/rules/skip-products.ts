@@ -23,7 +23,7 @@ const a: RegExp[] = [
   /\bbaby\s(?:sling|walker)\b/gmi,
   /\bbath\splug\b/gmi,
   /\bbatterie\b/gmi,
-  /\b(?:bunk|divan|wooden)\sbed\b/gmi,
+  /\b(?:bunk|divan)\sbed\b/gmi,
   /\b(?:bleach|(?:hot\s)?water)\sbottle\b/gmi,
   /\bbottle\sof\s(?:bleach|(?:hot\s)?water)\b/gmi,
   /\bbottom\ssteps?\b/gmi,
@@ -78,8 +78,6 @@ const a: RegExp[] = [
   /\bthe\skit\b/gmi,
 
   // L
-  /\b(?:a|from|of|off|on)\sladder\b/gmi,
-  /\bladder\sf[ae]ll\b/gmi,
 
   // M
   /\bmoses\s(?:basket|blanket)\b/gmi,
@@ -123,7 +121,6 @@ const a: RegExp[] = [
   /\bwendy\shouse\b/gmi,
   /\bwhite\sspirit\b/gmi,
   /\bwindow\ssill\b/gmi,
-  /\bwooden\s(?:bench|door|floor)\b/gmi,
 
   // Z
   /\bzimmer\sframe\b/gmi

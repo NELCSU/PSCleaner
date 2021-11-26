@@ -121,6 +121,7 @@ const a: RegExp[] = [
 /\bisle\sof\sspar\b/gmi,
 
 // JA
+/\bjacob['‘’`]?s\sladder\sway\b/gmi,
 /\bjack['‘’`]?s\sledge\b/gmi,
 /\bjack\so['‘’`]?\slantern\swood\b/gmi,
 /\bjack\scabin\stop\b/gmi,
@@ -290,6 +291,8 @@ const a: RegExp[] = [
 
 /\bl\sspinney\b/gmi,
 // LA
+/\bladder\s(?:chine|cleuch|court|creek|field|hills?|law|rock)\b/gmi,
+/\bladder['‘’`]?s\scoppice\b/gmi,
 /\blade\sfoot\scove\b/gmi,
 /\blane\sfoot\s(?:brow|road)\b/gmi,
 /\bla(?:bourn['‘’`]?s|mb\shill)\sfell\b/gmi,
