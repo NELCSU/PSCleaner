@@ -28,7 +28,7 @@ const a: RegExp[] = [
   /\b(?:ji?u)?[\s-]?jitsu\b/gmi,
 
   // M
-  /\bmartial\sarts?\b/gmi,
+  /\bmar(?:sh|ti)al\sarts?\b/gmi,
   /\b(?:muddy|playing)\sfields?\b/gmi,
   /\bmonkey\spole\b/gmi,
 
@@ -45,6 +45,7 @@ const a: RegExp[] = [
   // S
   /\bskate\s?park\b/gmi,
   /\bsports\s(?:centre|field|ground|hall)\b/gmi,
+  /\bstar\ssequin\b/gmi,
 
   // T
   /\btable\stennis\b/gmi,

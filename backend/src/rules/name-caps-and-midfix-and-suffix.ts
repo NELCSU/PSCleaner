@@ -12,6 +12,9 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 // FO
 "foot",
 
+// GA
+"garden",
+
 // HA
 "had",
 

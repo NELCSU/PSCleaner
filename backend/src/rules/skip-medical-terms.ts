@@ -364,7 +364,7 @@ const a: RegExp[] = [
 
   // V
   /\bvon\sebner['‘’`s]*\sglands?\b/gmi,
-  /\bv(?:erucca|ulva)\b/gmi,
+  /\bverucca\b/gmi,
   /\bvirchow[\s–]robin['‘’`s]*\sspaces?\b/gmi,
   /\bvieussen['‘’`s]*\svalves?\b/gmi,
   /\bvalves?\sof\s(?:heister|houston|kerckring|thebesian|vieussens)\b/gmi,
@@ -372,6 +372,8 @@ const a: RegExp[] = [
   /\bvaso\s?vagal\b/gmi,
   /\bveins?\sof\s(?:galen|giacomini|retzius|thebesian)\b/gmi,
   /\bvirchow['‘’`s]*\snode\b/gmi,
+  /\bvomm?itt?\b/gmi,
+  /\bvulva\b/gmi,
   
   // W
   /\bweber\stype\s[a-z]['‘’`s]*\sfract\w+\b/gmi,

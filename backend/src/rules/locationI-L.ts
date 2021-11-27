@@ -121,6 +121,7 @@ const a: RegExp[] = [
 /\bisle\sof\sspar\b/gmi,
 
 // JA
+/\bj\sb\scourt\b/gmi,
 /\bjacob['‘’`]?s\sladder\sway\b/gmi,
 /\bjack['‘’`]?s\sledge\b/gmi,
 /\bjack\so['‘’`]?\slantern\swood\b/gmi,
@@ -505,8 +506,7 @@ const a: RegExp[] = [
 /\blow\sfell\s(?:close|plantation)\b/gmi,
 /\bLow\sFell\b/gm,
 /\blow\s(?:green\sfell|holding\swood)\b/gmi,
-/\blower\s(?:fell\splantation|small\sclough)\b/gmi,
-/\blower\shouse\sbig\swood\b/gmi,
+/\blower\s(?:fell\splantation|house\sbig\swood|small\sclough|throat\spool)\b/gmi,
 /\bloch\s(?:an\sair|arm|beauty|glass|of\s(?:pile|soy))\b/gmi,
 /\blooking\sglass\spond\b/gmi,
 /\bLooking\sGlass\b/gm,

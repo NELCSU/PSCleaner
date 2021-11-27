@@ -182,7 +182,6 @@ const a: string[] = [
 "balks",            // standalone & placename
 "ballard",          // name & placenames (20)
 "ballast",          // name & placenames (20)
-"balcony",          // standalone and placename
 "balsa",            // name
 "balsam",           // name & placenames (6)
 "bambino",          // name
@@ -685,8 +684,6 @@ const a: string[] = [
 "cannon",
 "cannons",
 "canny",
-"canoe",
-"canoes",
 "canon",
 "canons",
 "canopy",
@@ -695,7 +692,6 @@ const a: string[] = [
 "cantilever",
 "canton",
 "canyon",
-"capability",
 "cape",
 "caper",
 "capers",

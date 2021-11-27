@@ -13,6 +13,7 @@ const a: RegExp[] = [
   /\balmat\s(?:3[\s-]in[\s-]1\s)?non[\s-]bio\b/gmi,
   /\baqua\s?bead\b/gmi,
   /\bariel\s(?:non|(?:2|3|two|three)[\s-]in[\s-](?:1|one)|liquitab|tablets?|washing)\b/gmi,
+  /\baveeno\smoisturiser\b/gmi,
   
   // B
   /\bbali\sbreeze\b/gmi,
@@ -36,10 +37,11 @@ const a: RegExp[] = [
   /\bswallow[a-z]*\schalk\b/gmi,
   /\bchain\ssaw\b/gmi,
   /\bcoat\shanger\b/gmi,
-  /\bcotto[mn]\s(?:bud|wool)\b/gmi,
+  /\bc[ou]tto[mn]\s(?:bud|wool)\b/gmi,
   /\bclimbing\sframe\b/gmi,
   /\bcuticura\shand\b/gmi,
   /\bcorner\sof\stable\b/gmi,
+  /\bcoffee?\stable\b/gmi,
 
   // D
   /\bdyson\s(?:appliance|brand|hoover|vacuum)s?\b/gmi,
@@ -74,6 +76,7 @@ const a: RegExp[] = [
   /\b(?:car|lift)\sjack\b/gmi,
 
   // K
+  /\ba\sk[ei]ttle\b/gmi,
   /\bkettle\sburn\b/gmi,
   /\bthe\skit\b/gmi,
 
@@ -87,11 +90,15 @@ const a: RegExp[] = [
   /\bnail\spolish\b/gmi,
   /\bn[eu]rff?\sgun\b/gmi,
 
+  // O
+  /\bottaman\b/gmi,
+
   // P
   /\bpearl\sbe[ae]d\b/gmi,
   /\bpink\sbead\b/gmi,
   /\bpranaro\sdiffuser\b/gmi,
   /\bplaydoh\b/gmi,
+  /\bpu[cs]h\s?chair\b/gmi,
 
   // R
   /\brocking\shorse\b/gmi,

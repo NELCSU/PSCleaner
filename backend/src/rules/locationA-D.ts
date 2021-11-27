@@ -260,6 +260,7 @@ const a: RegExp[] = [
 /\baztec\swest\b/gmi,
 
 // BA
+/\bbalcony\swood\b/gmi,
 /\bbanks\sof\sthe\slees\b/gmi,
 /\bback\sof\s(?:avon|bog\spool|high\sstreet|keppoch|kingsdown\sparade|mare)\b/gmi,
 /\bback\sof\s(?:market\splace|mount\spleasant|parks\sroad|pleasure\sgrounds\swood)\b/gmi,
@@ -781,6 +782,8 @@ const a: RegExp[] = [
 /\bc\sp\sschool\b/gmi,
 /\bC\s(?:Road|Street)\b/gm,
 // CA
+/\bcapability\sway\b/gmi,
+/\bcanoe\s(?:close|lake)\b/gmi,
 /\bcaptain['‘’`]?s\stongue\b/gmi,
 /\bcarr\stongue\b/gmi,
 /\bcautley\sspout\stongue\b/gmi,
@@ -1574,6 +1577,7 @@ const a: RegExp[] = [
 /\bdivision\s(?:lane|moor|road|street|wood)\b/gmi,
 
 // DO
+/\bdownhill\s(?:lane|plantation)\b/gmi,
 /\bdown\s(?:ampney(?:\sroad)?|avenue|barn\s(?:close|plantation|road)|barns\sroad)\b/gmi,
 /\bdown\s(?:barton\sroad|brake|cleeve\splantation|coppice|copse|court(?:\sroad)?|covert)\b/gmi,
 /\bdown\s(?:edge|end(?:\sroad)?|farm\s(?:lane|place)|gate|green\slane|hall(?:\sroad)?)\b/gmi,

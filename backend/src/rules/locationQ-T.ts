@@ -321,6 +321,7 @@ const a: RegExp[] = [
 /\bryegrass\s(?:close|covert|field|gardens|lane|road)\b/gmi,
 
 // SA
+/\bsauce\spool\b/gmi,
 /\bsamson's\sfoot\smark\b/gmi,
 /\bSa(?:ddle|le)\sFell\b/gm,
 /\bsalter\sfell\sroad\b/gm,

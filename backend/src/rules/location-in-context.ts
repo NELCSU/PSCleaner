@@ -9,6 +9,11 @@ const a: RegExp[] = [
   /\bthe\sback\b(?=.{2,20}(?:NP16|HP4))/gi,
   /(?<=(?:NP16|HP4).{2,25})\bthe\sback\b/gi,
 
+  // BALCONY
+  /\b[\d-]+\sbalcony\b/gi,
+  /\bbalcony\b(?=.{2,20}(?:MK45))/gi,
+  /(?<=(?:MK45).{2,25})\bbalcony\b/gi,
+  
   // BALL
   /\b[\d-]+\sball\s(?:close|down)\b/gi,
   /\bball\b(?=.{2,20}(?:SY10|shrops))/gi,
@@ -52,6 +57,13 @@ const a: RegExp[] = [
   /(?<=(?:TR19).{2,10})\bchair\schair\b/gi,
   /\bchair\schair\b(?=.{2,10}(?:TR19))/gi,
 
+  // CORNER
+  /[\d-]+the\scorners?\b/gi,
+  /(?<=(?:DT11|DT6|NG14).{2,10})\bthe\scorner\b/gi,
+  /\bthe\scorner\b(?=.{2,10}(?:DT11|DT6|NG14))/gi,
+  /(?<=(?:FY5|CW8).{2,10})\bthe\scorners\b/gi,
+  /\bthe\scorners\b(?=.{2,10}(?:FY5|CW8))/gi,
+
   // COUSIN
   /(?<=(?:RH14).{2,10})\bcousins['‘’`]?s\scopse\b/gi,
   /\bcousins['‘’`]?s\scopse\b(?=.{2,10}(?:RH14))/gi,
@@ -67,16 +79,13 @@ const a: RegExp[] = [
   /\bdark\shole\b(?=.{2,10}(?:BH20|PL27))/gi,
   /\bdark\sdrive\b(?=.{2,10}DY12)/gi,
   /\bdark\sfirs\b(?=.{2,10}(?:DT6|BA3|BH23))/gi,
-  /[\d-]+dark\shill\b/gi,
+  /[\d-]+dark\s(?:hill|lane|street|walk)\b/gi,
   /(?<=(?:ME13|BB18|GL1[56]|KT2).{2,10})\bdark\shill\b/gi,
   /\bdark\shill\b(?=.{2,10}(?:ME13|BB18|GL1[56]|KT2))/gi,
-  /[\d-]+dark\slane\b/gi,
   /(?<=(?:AL5|B38|B47|B6[02]|B78|B96|BA11|BA[234]|BB18|BB4|BD2[23]|BH2[013]|BL6|BS2[89]|BS4[08]|CB10|CH3|CM1[34]|CT21|CV12?|CV3[57]|CW9|DE13|DE45?|DE56|DE65?|DL1[127]|DT10|DT[29]|DY1[34]|DY[79]|EN7|EX1[06]|EX20|EX[59]|GL51?|GL[67]|GU3|HD4|HG[35]|HP18|HP22|HR2|HU12|HX[2367]|IP13|IP2[14]|L31|L40|LD6|LE12|LL1[23]|LN11|LS21|M12|NE18|NE61|NG13|NG24|NG33|NN11|NN9|NR1[128]|NR29|OL[35]|OX1[35]|OX28|OX7|PE1[234]|PE20|PL14|PL2[12]|PL32|PO21|PO30|PR6|RG1[07]|RG2[04]|RG31|RG7|S36|S4[245]|S7[05]|SG12|SG[489]|SK11|SK6|SN1[46]|SN[78]|SO24|SO45|SP7|SS7|SY13|SY[27]|TA19|TA21|TA3|TF1[023]|TF4|WA14|WA[46]|WF17|WF8|WR2|WS1[35]|WS6|WV10|YO13|YO6[02]).{2,10})\bdark\slane\b/gi,
   /\bdark\slane\b(?=.{2,10}(?:AL5|B38|B47|B6[02]|B78|B96|BA11|BA[234]|BB18|BB4|BD2[23]|BH2[013]|BL6|BS2[89]|BS4[08]|CB10|CH3|CM1[34]|CT21|CV12?|CV3[57]|CW9|DE13|DE45?|DE56|DE65?|DL1[127]|DT10|DT[29]|DY1[34]|DY[79]|EN7|EX1[06]|EX20|EX[59]|GL51?|GL[67]|GU3|HD4|HG[35]|HP18|HP22|HR2|HU12|HX[2367]|IP13|IP2[14]|L31|L40|LD6|LE12|LL1[23]|LN11|LS21|M12|NE18|NE61|NG13|NG24|NG33|NN11|NN9|NR1[128]|NR29|OL[35]|OX1[35]|OX28|OX7|PE1[234]|PE20|PL14|PL2[12]|PL32|PO21|PO30|PR6|RG1[07]|RG2[04]|RG31|RG7|S36|S4[245]|S7[05]|SG12|SG[489]|SK11|SK6|SN1[46]|SN[78]|SO24|SO45|SP7|SS7|SY13|SY[27]|TA19|TA21|TA3|TF1[023]|TF4|WA14|WA[46]|WF17|WF8|WR2|WS1[35]|WS6|WV10|YO13|YO6[02]))/gi,
-  /[\d-]+dark\sstreet\b/gi,
   /(?<=SA61.{2,10})\bdark\sstreet\b/gi,
   /\bdark\sstreet\b(?=.{2,10}SA61)/gi,
-  /[\d-]+dark\swalk\b/gi,
   /(?<=PH2.{2,10})\bdark\swalk\b/gi,
   /\bdark\swalk\b(?=.{2,10}PH2)/gi,
   /(?<=(?:BD23|DG14|DH3|G84|GL5|KA16|KA4|LS29|NR21|PR2|RG27|RG9|SL4|ST5|TD8|WD4).{2,10})\bdark\swood\b/gi,
@@ -85,16 +94,26 @@ const a: RegExp[] = [
   // DOWN
   /(?<=EX12.{2,10})\bdown\b/gi,
   /\bdown\b(?=.{2,10}EX12)/gi,
-  /[\d-]+down\sclose\b/gi,
+  /[\d-]+down\s(?:close|hill)\b/gi,
   /(?<=(?:BS20|EX10|GU29|PL12|UB5).{2,10})\bdown\sclose\b/gi,
   /\bdown\sclose\b(?=.{2,10}(?:BS20|EX10|GU29|PL12|UB5))/gi,
   /(?<=(?:CB7|camb).{2,10})\bdown\sfield\b/gi,
   /\bdown\sfield\b(?=.{2,10}(?:CB7|camb))/gi,
-  /[\d-]+down\shill\b/gi,
   /(?<=(?:EX1[67]|FK14|GL6|NE23|NE36|NE45|OX11).{2,10})\bdown\shill\b/gi,
   /\bdown\shill\b(?=.{2,10}(?:EX1[67]|FK14|GL6|NE23|NE36|NE45|OX11))/gi,
   /(?<=NE64.{2,10})\bdown\sover\srocks\b/gi,
   /\bdown\sover\srocks\b(?=.{2,10}NE64)/gi,
+
+  // DOWNHILL
+  /(?<=(?:SR5).{2,10})\bdownhill\b/gi,
+  /\bdownhill\b(?=.{2,10}(?:SR5))/gi,
+  /[\d-]+downhill\s(?:close|drive|view)\b/gi,
+  /(?<=(?:CT16|MK5|OL1).{2,10})\bdownhill\sclose\b/gi,
+  /\bdownhill\sclose\b(?=.{2,10}(?:CT16|MK5|OL1))/gi,
+  /(?<=(?:HU7).{2,10})\bdownhill\sdrive\b/gi,
+  /\bdownhill\sdrive\b(?=.{2,10}(?:HU7))/gi,
+  /(?<=(?:BN2).{2,10})\bdownhill\sview\b/gi,
+  /\bdownhill\sview\b(?=.{2,10}(?:BN2))/gi,
   
   // DRIVEWAY
   /[\d-]+driveway\sdrove\b/gi,
@@ -172,7 +191,22 @@ const a: RegExp[] = [
   /\bthe\sgarden\b(?=.{2,20}(?:N16|GL5|SN2))/gi,
   /(?<=(?:AB51|AL9|B23|B7[29]|BA1|BD16|BL[17]|BN4[12]|BR3|BS16|CB9|CM15|CM4|CV23|CV31|CV8|CW11|DE5|DH2|DL15|DL3|DN4|EH3[29]|EX22|GL50|GU10|GU24|HA[15]|HU[37]|HX1|IP3[01]|KA11|KT10|LA14|LA2|LE16|LL11|LL22|LS10|LS2[78]|MK18|NE25|NN16|NP16|NP2[56]|NP7|NR33|PE6|PO1[68]|PO[79]|RG8|RH12|RH20|SA9|SE22|SG16|SG[57]|SN1[14]|SN25|SN9|ST7|SY16|TQ13|TW14|WD17|YO14)).{2,25}\bthe\sgardens\b/gi,
   /\bthe\sgardens\b(?=.{2,20}(?:AB51|AL9|B23|B7[29]|BA1|BD16|BL[17]|BN4[12]|BR3|BS16|CB9|CM15|CM4|CV23|CV31|CV8|CW11|DE5|DH2|DL15|DL3|DN4|EH3[29]|EX22|GL50|GU10|GU24|HA[15]|HU[37]|HX1|IP3[01]|KA11|KT10|LA14|LA2|LE16|LL11|LL22|LS10|LS2[78]|MK18|NE25|NN16|NP16|NP2[56]|NP7|NR33|PE6|PO1[68]|PO[79]|RG8|RH12|RH20|SA9|SE22|SG16|SG[57]|SN1[14]|SN25|SN9|ST7|SY16|TQ13|TW14|WD17|YO14))/gi,
-
+  /[\d-]+garden\s(?:close|hedge|terrace|view)\b/gi,
+  /(?<=(?:AL[15]|B45|B8|B93|BD12|BD20|BH25|BN1[56]|BN4[13]|BS22|BS9|CB6|CF83|CM3|CT14|CT2|DA14|DL13|DT[26]|E4|EN5|EX2|EX33|FY[36]|GL55|GL7|GU14|GU5|HA4|HP22|HR5|IP25|IP31|IP9|KT15|KT22|KT3|LE10|LE[23]|LS25|ME15|MK42|NE13|NG31|NR2[48]|NR3[25]|OL15|OX1[16]|PE27|PL[78]|PO11|RG2[057]|RH19|RH20|S43|S60|S80|SE12|SG[38]|SK10|SL6|SM[67]|SN8|SO43|SW15|SY16|TA2|TF2|TN12|TN26|TN40|TQ10|TS17|TW1[25]|UB5|WD17|WF15|WF5|WR11)).{2,25}\bgarden\sclose\b/gi,
+  /\bgarden\sclose\b(?=.{2,20}(?:AL[15]|B45|B8|B93|BD12|BD20|BH25|BN1[56]|BN4[13]|BS22|BS9|CB6|CF83|CM3|CT14|CT2|DA14|DL13|DT[26]|E4|EN5|EX2|EX33|FY[36]|GL55|GL7|GU14|GU5|HA4|HP22|HR5|IP25|IP31|IP9|KT15|KT22|KT3|LE10|LE[23]|LS25|ME15|MK42|NE13|NG31|NR2[48]|NR3[25]|OL15|OX1[16]|PE27|PL[78]|PO11|RG2[057]|RH19|RH20|S43|S60|S80|SE12|SG[38]|SK10|SL6|SM[67]|SN8|SO43|SW15|SY16|TA2|TF2|TN12|TN26|TN40|TQ10|TS17|TW1[25]|UB5|WD17|WF15|WF5|WR11))/gi,
+  /(?<=(?:BD22)).{2,25}\bgarden\sbeds\b/gi,
+  /\bgarden\sbeds\b(?=.{2,20}(?:BD22))/gi,
+  /(?<=(?:LU7)).{2,25}\bgarden\shedge\b/gi,
+  /\bgarden\shedge\b(?=.{2,20}(?:LU7))/gi,
+  /(?<=(?:BD23|CV35|DH8|EH4|FK[12]|FK10|FY4|HX7|LA1[25]|NE25|NE4[06]|NE66|PO5|PR7|SW1V|WF13|WF4)).{2,25}\bgarden\sterrace\b/gi,
+  /\bgarden\sterrace\b(?=.{2,20}(?:BD23|CV35|DH8|EH4|FK[12]|FK10|FY4|HX7|LA1[25]|NE25|NE4[06]|NE66|PO5|PR7|SW1V|WF13|WF4))/gi,
+  /(?<=(?:BD16|E7|SY11|WF15|WS15)).{2,25}\bgarden\sview\b/gi,
+  /\bgarden\sview\b(?=.{2,20}(?:BD16|E7|SY11|WF15|WS15))/gi,
+  /(?<=(?:LU7|KA19)).{2,25}\bgarden\spond\b/gi,
+  /\bgarden\spond\b(?=.{2,20}(?:LU7|KA19))/gi,
+  /(?<=(?:HR5|SY5|TF9|IV23)).{2,25}\bgarden\spool\b/gi,
+  /\bgarden\spool\b(?=.{2,20}(?:HR5|SY5|TF9|IV23))/gi,
+  
   // HEAD
   /\bthe\shead\b(?=.{2,20}(?:KW17|SA62|ZE2))/gi,
   /\bthe\sheads\b(?=.{2,20}(?:FY6))/gi,

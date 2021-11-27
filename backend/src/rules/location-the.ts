@@ -67,7 +67,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sCom(?:bs|frey|mons?|munity\sCollege|p|pass)\b/gm,
   /\bThe\sCon(?:duit|nection|ifers|stables|suls)\b/gm,
   /\bThe\sCop(?:es|pice|per\s[Bb]eeches|se)?\b/gm,
-  /\bThe\sCor(?:morant|nfields|n|ners?|nfields|ries)\b/gm,
+  /\bThe\sCor(?:morant|nfields|n|ners|nfields|ries)\b/gm,
   /\bThe\sCou(?:nty|rse|rtrooms|rts?|rtyards?)\b/gm,
   /\bThe\sCove(?:rs|rts?|s|t)\b/gm,
   /\bThe\sCo(?:-?[Oo]perative|ttage|ttons|w)\b/gm,
