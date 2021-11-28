@@ -41,6 +41,7 @@ const a: RegExp[] = [
 
   // R
   /\bred\sball\b/gmi,
+  /\broll?y\spoll?y\b/gmi,
 
   // S
   /\bskate\s?park\b/gmi,

@@ -7,14 +7,14 @@
  * These create false positives and should be revised over time
  **********************************************************************/
 export const LocationTheRegEx: RegExp[] = [
-  /\bThe\sAb(?:be['‘’`s]*|bey)\b/gm,
+  /\bThe\sAb(?:be['‘’`s]{0,2}|bey)\b/gm,
   /\bThe\sAc(?:ademy|orns?|res?)\b/gm,
   /\bThe\sAl(?:cove|lotments?|monds|oes|t|tars)\b/gm,
   /\bThe\sAmerica\b/gm,
   /\bThe\sAn(?:nunciation|tiquaries|ts|vil)\b/gm,
   /\bThe\sAp(?:iary|pleyard|proach|rons)\b/gm,
   /\bThe\sAquadrome\b/gm,
-  /\bThe\sArc(?:ade|hbishop['‘’`s]*|hery|hes|hway)?\b/gm,
+  /\bThe\sArc(?:ade|hbishop['‘’`s]{0,2}|hery|hes|hway)?\b/gm,
   /\bThe\sAr(?:ans|bory|bours|k|m|moury|ms|t\sAcademy)\b/gm,
   /\bThe\sA(?:sh|uks|venues?|wful\sHand|xe|xis)\b/gm,
   
@@ -234,7 +234,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sRan(?:d|ge(?:rs)?|k)\b/gm,
   /\bThe\sRea(?:ch|ches|dings)\b/gm,
   /\bThe\sRed(?:\sBrow|\sMaids['‘’`]?|dings|woods)\b/gm,
-  /\bThe\sRes(?:ervation|erve|ervoir|idences?|olution|t(?:\s[Rr]oad)?)\b/gm,
+  /\bThe\sRes(?:ervation|erve|ervoir|idences?|olution)\b/gm,
   /\bThe\sRe(?:cess|ctangle|gents|ndezvous|ntal\sRocks|nts|treat)\b/gm,
   /\bThe\sRi(?:b|dings?|des?|dges?|fles|ft|ses?|sing|verbank|vers)\b/gm,
   /\bThe\sRin(?:gs?|gway|k)\b/gm,
@@ -326,7 +326,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sWas(?:h|hing\s(?:Pool|Tub))\b/gm,
   /\bThe\sWatch\b/gm,
   /\bThe\sWater(?:course|cress\sLine|ing|falls?|front|mark|s|shed|side|ways?|\sRun|wheel)\b/gm,
-  /\bThe\sWay(?:back|side)?\b/gm,
+  /\bThe\sWay(?:back|side)\b/gm,
   /\bThe\sWe(?:ar|avers|bs|dges|irs?|llheads|lls?|nt)\b/gm,
   /\bThe\sWhi(?:p|rlpool|rls|sky\sLine|stlers?|te\sRose|thy['‘’`]?s)\b/gm,
   /\bThe\sWh(?:ale|arf|arfage|eel|eelers)\b/gm,
@@ -336,7 +336,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sWin(?:dings?|dmills|g|nows)\b/gm,
   /\bThe\sWis(?:h|p)\b/gm,
   /\bThe\sWoo(?:ds?|dlarks|dlands?|dpeckers|dyard)\b/gm,
-  /\bThe\sWo(?:nders|oldridges|rking\sMen['‘’`s]*|rks|rries)\b/gm,
+  /\bThe\sWo(?:nders|oldridges|rking\sMen['‘’`s]{0,2}|rks|rries)\b/gm,
   /\bThe\sWr(?:angle|angling|ens?)\b/gm,
   
   // Y

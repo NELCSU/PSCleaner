@@ -17,7 +17,7 @@ const a: RegExp[] = [
 
 // UN
 /\bun(?:cles|derway)\slane\b/gmi,
-/\buncle['‘’`s]*\s(?:ben['‘’`]?s\sclose|tom['‘’`]?s\spoint|hillock|lane)\b/gmi,
+/\buncle['‘’`s]{0,2}\s(?:ben['‘’`]?s\sclose|tom['‘’`]?s\spoint|hillock|lane)\b/gmi,
 /\bun(?:couth|it)\sroad\b/gmi,
 /\bUnder\sWay\b/gm,
 /\b(?:ascott|milton|shipton)[\s-]under[\s-]wychwood\b/gmi,
@@ -131,7 +131,7 @@ const a: RegExp[] = [
 /\bviewing\shill\b/gmi,
 /\bvision\shill\b/gmi,
 /\bcapel\svicar\b/gmi,
-/\bvicar['‘’`s]*\s(?:allotment|brake|bridge\sroad|close|coppice|copse|crescent|drive|gate|grove|hill(?:\slane)?|lane|moor\s(?:lane|wood)|park\s(?:drive|road)|pond|road|rough|street|walk|water\sclose|way|wood)\b/gmi,
+/\bvicar['‘’`s]{0,2}\s(?:allotment|brake|bridge\sroad|close|coppice|copse|crescent|drive|gate|grove|hill(?:\slane)?|lane|moor\s(?:lane|wood)|park\s(?:drive|road)|pond|road|rough|street|walk|water\sclose|way|wood)\b/gmi,
 /\b(?:kilt\srock\sviewpoint|viewpoint\s(?:gate|place|road))\b/gmi,
 /\b(?:beechwood|bridleway|goltho|leckhampton|twigworth|woodhill)\sviews\b/gmi,
 /\b(?:Bridge|City|Horizon|Meadow|Tower|Woodland)\s[Vv]iews\b/gm,
@@ -152,7 +152,7 @@ const a: RegExp[] = [
 /\bVoluntary\sPlace\b/gm,
 /\bvomit\spoint\b/gmi,
 /\bvolcanic\sdyke\b/gmi,
-/\bvolunteer['‘’`s]*\s(?:avenue|close|fields|green|road|street|way)\b/gmi,
+/\bvolunteer['‘’`s]{0,2}\s(?:avenue|close|fields|green|road|street|way)\b/gmi,
 /\b(?:east|west)\svows(?:\swalk)?\b/gmi,
 /\bvoyage\sroad\b/gmi,
 /\bvoyager\s(?:close|drive|park\snorth)\b/gmi,
@@ -282,7 +282,7 @@ const a: RegExp[] = [
 /\bwavers\s(?:ground|marston)\b/gmi,
 /\bwaxes\sclose\b/gmi,
 /\bwaxy\slane\b/gmi,
-/\bwayfarer['‘’`s]*\s(?:close|drive|gardens|road|way)\b/gmi,
+/\bwayfarer['‘’`s]{0,2}\s(?:close|drive|gardens|road|way)\b/gmi,
 /\bwalsham\s(?:and|\&)\sdistrict\b/gmi,
 
 // WE
@@ -486,7 +486,7 @@ const a: RegExp[] = [
 /\bs(?:hevington|hipdham|hiphay|kidbrooke|lyne|nape|outh\sstainley)[\s-]with\b/gmi,
 /\bs(?:pixworth|pofforth|porle)[\s-]with\b/gmi,
 /\bst\.?\s(?:alfege|cuthbert|erme|john|margaret['‘’`]?s|mary['‘’`]?s)[\s-]with\b/gmi,
-/\bst\.?\s(?:michael|paul['‘’`s]*|philip\sneri|richard['‘’`]?s)[\s-]with\b/gmi,
+/\bst\.?\s(?:michael|paul['‘’`s]{0,2}|philip\sneri|richard['‘’`]?s)[\s-]with\b/gmi,
 /\bs(?:tainton|talmine|tandish|tanford|tedham|teeton|tirton|tokesby|tourton)[\s-]with\b/gmi,
 /\bs(?:trensall|trubby|tudley|tutton|tyrrup|undridge|utton|wainby|winton)[\s-]with\b/gmi,
 /\bt(?:emple\sbruer|emple\scloud|etbury|ewkesbury\stown|hirkleby\shigh\sand\slow)[\s-]with\b/gmi,

@@ -66,7 +66,7 @@ const a: RegExp[] = [
 /\bst\.?[\s-]+(?:anthony[\s-]+in[\s-]+meneage|george[\s-]+in[\s-]+the[\s-]+east|giles[\s-]+in[\s-]+the[\s-]+wood)\b/gmi,
 /\bst\.?[\s-]+(?:john['‘’`]?s[\s-]+in[\s-]+the[\s-]+vale|joseph['‘’`]?s[\s-]+in[\s-]+the[\s-]+park)\b/gmi,
 /\bst\.?[\s-]+(?:just[\s-]+in[\s-]+(?:penwith|roseland)|laurence[\s-]+in[\s-]+thanet|martin[\s-]+in[\s-]+(?:meneage|the[\s-]+fields))\b/gmi,
-/\bst\.?[\s-]+(?:mary[\s-]+in[\s-]+the[\s-]+(?:fields|marsh)|michael['‘’`s]*[\s-]+in[\s-]+the[\s-]+hamlet|mary[\s-]+in[\s-]+the[\s-]+marsh)\b/gmi,
+/\bst\.?[\s-]+(?:mary[\s-]+in[\s-]+the[\s-]+(?:fields|marsh)|michael['‘’`s]{0,2}[\s-]+in[\s-]+the[\s-]+hamlet|mary[\s-]+in[\s-]+the[\s-]+marsh)\b/gmi,
 /\bst\.?[\s-]+(?:peter['s]*[\s-]+in[\s-]+(?:chains|eastgate|thanet|the[\s-]+fields)|stephen[\s-]+in[\s-]+brannel)\b/gmi,
 /\bst\.?[\s-]+(?:damian[\s-]+in[\s-]+the[\s-]+blean|martin[\s-]+in[\s-]+the[\s-]+fields|martin[\s-]+in[\s-]+meneage)\b/gmi,
 /\b(?:stanford[\s-]+in[\s-]+the[\s-]+vale|stanton[\s-]+in[\s-]+peak|stanwardine[\s-]+in[\s-]+the[\s-]+(?:fields|wood))\b/gmi,
@@ -113,7 +113,7 @@ const a: RegExp[] = [
 /\birelands\s(?:croft\sclose|lane)\b/gmi,
 /\biridium\s(?:court|way)\b/gmi,
 /\b(?:ayre\sof|burnet|grid|ogof)\siron\b/gmi,
-/\biron['‘’`s]*\s(?:acton|carr|cliff|close|copse|cove|covert|crag|craig|down|drive|geo|groves|hellia|hill|hogg|howe|keld|lane|latch|leys|mills?|ness|pikes|plantation|plat|road|row|scars?|slunk|tower|way|well)\b/gmi,
+/\biron['‘’`s]{0,2}\s(?:acton|carr|cliff|copse|cove|covert|crag|craig|drive|geo|groves|hellia|hill|hogg|howe|keld|lane|leys|mills?|ness|pikes|plantation|plat|road|row|scars?|slunk|tower|way|well)\b/gmi,
 /\bIron\s(?:Band|Bar|Bridge|Car|Cross|Dish|Duke|Foundry|Gate|Man|Mine|Point|Railway|Shovel)\b/gm,
 
 // IS
@@ -165,10 +165,10 @@ const a: RegExp[] = [
 /\bjohn\sball\sclose\b/gmi,
 /\bjohn\smartin['‘’`]?s\sledge\b/gmi,
 /\bjohn\ssmart\sclose\b/gmi,
-/\b(?:cae\sjob|job['‘’`s]*\s(?:cleugh|copse|corner|craig|cross|drain\splace|dub|hill|lane|plain|water|well|wood|yard))\b/gmi,
+/\b(?:cae\sjob|job['‘’`s]{0,2}\s(?:cleugh|copse|corner|craig|cross|drain\splace|dub|hill|lane|plain|water|well|wood|yard))\b/gmi,
 /\bjockey\s(?:bank|belt|cap\sclump|copse|end|field|green|hill|mead|meadow|road|street|way)\b/gmi,
-/\bjockey['‘’`s]*\s(?:coppice|fields|plantation|wood)\b/gmi,
-/\b(?:horse\sand\s)?jockey['‘’`s]*\slane\b/gmi,
+/\bjockey['‘’`s]{0,2}\s(?:coppice|fields|plantation|wood)\b/gmi,
+/\b(?:horse\sand\s)?jockey['‘’`s]{0,2}\slane\b/gmi,
 /\b(?:coed\scae|scar)\sjockey\b/gmi,
 /\bjocks\s(?:flat\swood|hill)\b/gmi,
 /\bjoiners['‘’`]?\s(?:alley|arms|close|court|croft|gardens|hill|lane|mews|road|shop\splantation|way)\b/gmi,
@@ -213,7 +213,7 @@ const a: RegExp[] = [
 /\bkeystone\s(?:avenue|close|court|crescent|gardens|lane|mews|passage|primary\sschool|quadrant|road)\b/gmi,
 /\bkeep\s(?:hatch|hill(?:\s(?:close|drive|end|road))?|lane|rise|street)\b/gmi,
 /\bkeepsake\s(?:close|drive|gardens)\b/gmi,
-/\bkey['‘’`s]*\s(?:croft|green)\b/gmi,
+/\bkey['‘’`s]{0,2}\s(?:croft|green)\b/gmi,
 /\bLower\sKey\b/gm,
 /\bkelso\s(?:and|\&)\sdistrict\b/gmi,
 
@@ -547,7 +547,7 @@ const a: RegExp[] = [
 /\blumb\sfoot\b/gmi,
 /\blucy['‘’`]?s\sledge\b/gmi,
 /\blump\sof\sclay\sledge\b/gmi,
-/\b(?:luck['‘’`s]*\s(?:lane|road|wood)|ledston\sluck|william\sluck\sclose)\b/gmi,
+/\b(?:luck['‘’`s]{0,2}\s(?:lane|road|wood)|ledston\sluck|william\sluck\sclose)\b/gmi,
 /\bLupins\sClose\b/gm,
 /\blupus\s(?:drive|road|street|way)\b/gmi,
 /\blushes\s(?:court|road)\b/gmi,
@@ -555,7 +555,7 @@ const a: RegExp[] = [
 
 // LY
 /\blythe\sfell\s(?:avenue|road)\b/gmi,
-/\blyre['‘’`s]*\s(?:cliff|cro|geo)\b/gmi,
+/\blyre['‘’`s]{0,2}\s(?:cliff|cro|geo)\b/gmi,
 /\bLyrical\sWay\b/gm,
 /\blydney\s(?:and|\&)\sdistrict\b/gmi,
 ];

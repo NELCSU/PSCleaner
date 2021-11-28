@@ -67,6 +67,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "bead",
 "beatles",
 "beed",
+"bending",
 
 // BI
 "bigger",
@@ -412,9 +413,6 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 
 // HA
 "hammock",
-
-// HE
-"head",
 
 // HO
 "holding",

@@ -29,6 +29,7 @@ const a: RegExp[] = [
   /\bbottle\sof\s(?:bleach|(?:hot\s)?water)\b/gmi,
   /\bbottom\ssteps?\b/gmi,
   /\bbumbo\b/gmi,
+  /\bbazuka\sgell?\b/gmi,
 
   // C
   /\bcheddar\scheese\b/gmi,
@@ -116,9 +117,10 @@ const a: RegExp[] = [
   /\btic\stac\b/gmi,
   /\btoliet\b/gmi,
   /\btik\stok\b/gmi,
-  /\btop\sof\sthe\sstairs\b/gmi,
+  /\btop\sof(?:\sthe)?\sstairs\b/gmi,
   /\btrampol(?:ine)?\b/gmi,
   /\btrump\scard\b/gmi,
+  /\bT\.?V\.?\sstand\b/gmi,
 
   // V
   /\bvenetian\s(?:blind|window)s?\b/gmi,

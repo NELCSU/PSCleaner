@@ -1639,7 +1639,6 @@ const a: string[] = [
 "herders",
 "herding",
 "herds",
-"hill",             // placenames (1k+)
 "hilltop",          // standalone & placenames (37)
 "hilltops",         // standalone
 "highpoint",        // standalone
@@ -2650,7 +2649,6 @@ const a: string[] = [
 "ponds",
 "pong",
 "pontiff",
-"pony",
 "ponycart",
 "pooch",
 "pooh",
@@ -3005,7 +3003,6 @@ const a: string[] = [
 "sanctuary",
 "sanctum",
 "sanctus",
-"sand",
 "sandal",
 "sandals",
 "sandalwood",

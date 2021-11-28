@@ -30,6 +30,13 @@ const a: RegExp[] = [
   // BATH
   /\bbath\b(?=.{2,20}(?:BA2|city))/gi,
   /(?<=(?:BA2|city).{2,25})\bbath\b/gi,
+  /[\d-]+bath\sclose\b/gi,
+  /\bbath\sclose\b(?=.{2,10}(?:BA6|EX14|SE15|SO19|LS13|SK7|PE28|LE9|NE28|PE10))/gi,
+  /(?<=(?:BA6|EX14|SE15|SO19|LS13|SK7|PE28|LE9|NE28|PE10).{2,10})\bbath\sclose\b/gi,
+  /\bbath\sside\b(?=.{2,10}(?:CO12))/gi,
+  /(?<=(?:CO12).{2,10})\bbath\sside\b/gi,
+  /\bbath\sspa\b(?=.{2,10}(?:BA1))/gi,
+  /(?<=(?:BA1).{2,10})\bbath\sspa\b/gi,
 
   // BOOT
   /\bboot\b(?=.{2,20}(?:CA19|village))/gi,
@@ -214,6 +221,23 @@ const a: RegExp[] = [
   /(?<=(?:CA12|LA11)).{2,25}\bthe\sheads\b/gi,
   /\bthe\sheads\b(?=.{2,20}(?:CA12|LA11))/gi,
 
+  // HILL
+  /(?<=(?:SA68|CV23|EX32|EX23|GL13|B74|SO15|HD9|hamlet|village)).{2,25}\bhill\b/gi,
+  /\bhill\b(?=.{2,20}(?:SA68|CV23|EX32|EX23|GL13|B74|SO15|HD9|hamlet|village))/gi,
+  /[\d-]+hill\s(?:close|tops?|view|walk)\b/gi,
+  /(?<=(?:B7[01]|B97|BB9|BD1[35]|BD21|BL3|BN1|BS20|CV[179]|CV10?|CW8|DE21|DE74|DH[39]|DL1[23]|DN12|EX31|HD[478]|HX2|IG10|IP31|KY16|LA23|LA7|LE9|LN5|LS29|M28|M46|NE21|NE70|NG16|NN9|NP16|NR25|NW11|OL4|PO36|PR4|S1[18]|S3[56]|S44|S61?|S75|SA14|SG7|SK6|SM3|SO42|ST6|TF1|TN1[27]|WA15|WF1[01]|WF[249]|WS1[25]).{2,10})\bhill\stop\b/gi,
+  /\bhill\stop\b(?=.{2,10}(?:B7[01]|B97|BB9|BD1[35]|BD21|BL3|BN1|BS20|CV[179]|CV10?|CW8|DE21|DE74|DH[39]|DL1[23]|DN12|EX31|HD[478]|HX2|IG10|IP31|KY16|LA23|LA7|LE9|LN5|LS29|M28|M46|NE21|NE70|NG16|NN9|NP16|NR25|NW11|OL4|PO36|PR4|S1[18]|S3[56]|S44|S61?|S75|SA14|SG7|SK6|SM3|SO42|ST6|TF1|TN1[27]|WA15|WF1[01]|WF[249]|WS1[25]))/gi,
+  /(?<=(?:BS34).{2,10})\bhill\stops\b/gi,
+  /\bhill\stops\b(?=.{2,10}(?:BS34))/gi,
+  /(?<=(?:BA21?|BB[14]|BS16|BS39|BS[89]|CB23|CB8|CF3[12]|CF3[358]|CF5|CF82|CH7|CM3|CV37|CV47|DA1|DD9|DE56|DE65|DH7|DT10|DT[239]|EX10|G66|G75|G82|GL15|GL7|GU32|HP1[78]|HP4|HR[67]|HX2|KY[57]|LE19|NN11|NP12|NP22|NP7|OX1[28]|OX3|PE33|RG7|RH4|SA10|SA4|SG19|SG[49]|SK1[05]|SK23|SL2|SN[57]|ST13|ST2|TA8|TD12|TN15|TN24|TS17|TS25|WA8|WR8|WS9|YO31|YO51|YO61).{2,10})\bhill\sview\b/gi,
+  /\bhill\sview\b(?=.{2,10}(?:BA21?|BB[14]|BS16|BS39|BS[89]|CB23|CB8|CF3[12]|CF3[358]|CF5|CF82|CH7|CM3|CV37|CV47|DA1|DD9|DE56|DE65|DH7|DT10|DT[239]|EX10|G66|G75|G82|GL15|GL7|GU32|HP1[78]|HP4|HR[67]|HX2|KY[57]|LE19|NN11|NP12|NP22|NP7|OX1[28]|OX3|PE33|RG7|RH4|SA10|SA4|SG19|SG[49]|SK1[05]|SK23|SL2|SN[57]|ST13|ST2|TA8|TD12|TN15|TN24|TS17|TS25|WA8|WR8|WS9|YO31|YO51|YO61))/gi,
+  /(?<=(?:PR25).{2,10})\bhill\swalk\b/gi,
+  /\bhill\swalk\b(?=.{2,10}(?:PR25))/gi,
+  /(?<=(?:AL5|B31|BA9|BD17|BH23|BR7|BS16|CB8|CF32|CH64|CO10|CR8|CV32|CV47|CW6|DA13|DE21|DE56|DE7|DL11|DT6|DY11|DY3|EN5|EX4|GL11|GL20|GU21|GU5|HA[17]|HD3|HP10|KT11|LA[89]|LE9|LL14|LU[37]|NG16|NG2|NN5|NP4|NR27|NW11|NW2|OL4|OX12|OX7|PE1|PE28|PL30|PL7|RG14|S65?|SO50|SP3|SS7|ST14|TN[68]|TR18|TS12|WF8|WN6|WR10|WS8).{2,10})\bhill\sclose\b/gi,
+  /\bhill\sclose\b(?=.{2,10}(?:AL5|B31|BA9|BD17|BH23|BR7|BS16|CB8|CF32|CH64|CO10|CR8|CV32|CV47|CW6|DA13|DE21|DE56|DE7|DL11|DT6|DY11|DY3|EN5|EX4|GL11|GL20|GU21|GU5|HA[17]|HD3|HP10|KT11|LA[89]|LE9|LL14|LU[37]|NG16|NG2|NN5|NP4|NR27|NW11|NW2|OL4|OX12|OX7|PE1|PE28|PL30|PL7|RG14|S65?|SO50|SP3|SS7|ST14|TN[68]|TR18|TS12|WF8|WN6|WR10|WS8))/gi,
+  /(?<=(?:TQ5|GU10).{2,10})\bhill\shouse\b/gi,
+  /\bhill\shouse\b(?=.{2,10}(?:TQ5|GU10))/gi,
+
   // HOLDING
   /[\d-]+holding\b/gi,
   /(?<=(?:S81|worksop).{2,10})\bholding\b/gi,
@@ -221,6 +245,13 @@ const a: RegExp[] = [
   /[\d-]+holding\sstreet\b/gi,
   /(?<=(?:ME8|WN2).{2,10})\bholding\sstreet\b/gi,
   /\bholding\sstreet\b(?=.{2,10}(?:ME8|WN2))/gi,
+
+  // IRON
+  /(?<=(?:OX7).{2,10})\biron\sdown\b/gi,
+  /\biron\sdown\b(?=.{2,10}(?:OX7))/gi,
+  /[\d-]+iron['‘’`s]{0,2}\sclose\b/gi,
+  /(?<=(?:LE12|NP10).{2,10})\biron['‘’`s]{0,2}\sclose\b/gi,
+  /\biron['‘’`s]{0,2}\sclose\b(?=.{2,10}(?:LE12|NP10))/gi,
 
   // JUMP
   /(?<=(?:S74|barnsley)).{2,25}\bjump\b/gi,
@@ -330,9 +361,19 @@ const a: RegExp[] = [
   // POT
   /\bthe\spot\b(?=.{2,10}(?:AB43|AB55|IV19|TD12|TD6))/gi,
 
+  // REST
+  /[\d-]+the\srest\b/gi,
+  /\bthe\srest\b(?=.{2,20}(?:LL14|CF36))/gi,
+  /(?<=(?:LL14|CF36).{2,25})\bthe\srest\b/gi,
+
   // RIVER
   /\bthe\sriver\b(?=.{2,20}(?:HP18|WR15))/gi,
   /(?<=(?:HP18|WR15).{2,25})\bthe\sriver\b/gi,
+
+  // ROADSIDE
+  /[\d-]+roadside\b/gi,
+  /\broadside\b(?=.{2,20}(?:ZE2|NR27|G67|KW12|DD10|hamlet))/gi,
+  /(?<=(?:ZE2|NR27|G67|KW12|DD10|hamlet).{2,25})\broadside\b/gi,
 
   // ROCK
   /[\d-]+the\srocks?\b/gi,
@@ -357,6 +398,37 @@ const a: RegExp[] = [
   // RUGBY
   /(?<=(?:addr|CV21|dr[io]ve|live|stay|town|warwick).{2,25})\brugby\b/gi,
   /\brugby\b(?=.{1,20}(?:addr|CV21|warwick))/gi,
+
+  // SAND
+  /\bsand\b(?=.{2,20}(?:BS28|IV22|hamlet))/gi,
+  /(?<=(?:BS28|IV22|hamlet).{2,25})\bsand\b/gi,
+  /[\d-]+sand\s(?:banks?|beds|close|dune\swalk|furrows|hill|martins|path|pits)\b/gi,
+  /\bsand\sbanks?\b(?=.{2,20}(?:WS3|PE13|BL1|SA62))/gi,
+  /(?<=(?:WS3|PE13|BL1|SA62).{2,25})\bsand\sbanks?\b/gi,
+  /\bsand\sbeds\b(?=.{2,20}(?:BD13|CA12|LA6|DL11))/gi,
+  /(?<=(?:BD13|CA12|LA6|DL11).{2,25})\bsand\sbeds\b/gi,
+  /\bsand\scheek\b(?=.{2,20}(?:AB56|beach))/gi,
+  /(?<=(?:AB56|beach).{2,25})\bsand\scheek\b/gi,
+  /\bsand\sclose\b(?=.{2,20}(?:SO51))/gi,
+  /(?<=(?:SO51).{2,25})\bsand\sclose\b/gi,
+  /\bsand\swalk\b(?=.{2,20}(?:IV20))/gi,
+  /(?<=(?:IV20).{2,25})\bsand\swalk\b/gi,
+  /\bsand\sfurrows\b(?=.{2,20}(?:PE9))/gi,
+  /(?<=(?:PE9).{2,25})\bsand\sfurrows\b/gi,
+  /\bsand\shill\b(?=.{2,20}(?:AB36|BA12|BS28|BS4|CA13|CB21|CF44|CM7|CO10|DL13|DL[78]|DN8|FK[89]|GU14|HG5|HU1[17]|LS24|NE47|NR25|PL18|PO30|SN[67]|TS17|YO19|YO42|YO60))/gi,
+  /(?<=(?:AB36|BA12|BS28|BS4|CA13|CB21|CF44|CM7|CO10|DL13|DL[78]|DN8|FK[89]|GU14|HG5|HU1[17]|LS24|NE47|NR25|PL18|PO30|SN[67]|TS17|YO19|YO42|YO60).{2,25})\bsand\shill\b/gi,
+  /\bsand\shills\b(?=.{2,20}(?:LN1|KW14))/gi,
+  /(?<=(?:LN1|KW14).{2,25})\bsand\shills\b/gi,
+  /\bsand\shole\b(?=.{2,20}(?:LA10|YO15|YO43|AB35))/gi,
+  /(?<=(?:LA10|YO15|YO43|AB35).{2,25})\bsand\shole\b/gi,
+  /\bsand\sholes\b(?=.{2,20}(?:DT5))/gi,
+  /(?<=(?:DT5).{2,25})\bsand\sholes\b/gi,
+  /\bsand\sholes\b(?=.{2,20}(?:RG42))/gi,
+  /(?<=(?:RG42).{2,25})\bsand\sholes\b/gi,
+  /\bsand\spath\b(?=.{2,20}(?:CB6))/gi,
+  /(?<=(?:CB6).{2,25})\bsand\spath\b/gi,
+  /\bsand\spits\b(?=.{2,20}(?:B1|HR6))/gi,
+  /(?<=(?:B1|HR6).{2,25})\bsand\spits\b/gi,
 
   // SCHOOL
   /[\d-]+\sschool\s(?:annexe|approach|belt|chase|close|dr[io]ve|end|field\sclose|fields?)\b/gi,
@@ -423,6 +495,10 @@ const a: RegExp[] = [
   /(?<=(?:AB54).{2,25})\bcorbie['‘’`]?\stongue\b/gi,
   /\bcorbie['‘’`]?\stongue\b(?=.{2,20}(?:AB54))/gi,
 
+  // TOTE
+  /(?<=(?:IV51|hamlet).{2,25})\btote\b/gi,
+  /\btote\b(?=.{2,20}(?:IV51|hamlet))/gi,
+  
   // WART
   /(?<=(?:KW17|hill).{2,25})\b(?:little|the)\swart\b/gi,
   /\b(?:little|the)\swart\b(?=.{2,20}(?:KW17|hill))/gi,
@@ -480,6 +556,11 @@ const a: RegExp[] = [
   /[\d-]+water['‘’`]?s\sedge\b/gi,
   /\bwater['‘’`]?s\sedge\b(?=.{2,20}(?:SO30|BL4|PR2))/gi,
   /(?<=(?:SO30|BL4|PR2).{2,25})\bwater['‘’`]?s\sedge\b/gi,
+
+  // WAY
+  /[\d-]+the\sway\b/gi,
+  /\bthe\sway\b(?=.{2,20}(?:LA3|RH2|BN16|SG8))/gi,
+  /(?<=(?:LA3|RH2|BN16|SG8).{2,25})\bthe\sway\b/gi,
 
   // WEEK
   /\bweek\b(?=.{2,20}(?:TQ9|EX18|EX20|EX37|village|hamlet))/gi,
