@@ -22,7 +22,6 @@ import { NameSetIL } from "./rules/name-setI-L";
 import { NameSetMP } from "./rules/name-setM-P";
 import { NameSetQT } from "./rules/name-setQ-T";
 import { NameSetUZ } from "./rules/name-setU-Z";
-import { ProperNameSet } from "./rules/name-caps";
 import { NameSetJoinOnly } from "./rules/name-and";
 import { ProperNameSetJoinOnly } from "./rules/name-caps-and";
 import { ProperNameSetJoinPrefixOnly } from "./rules/name-caps-and-prefix";
@@ -267,12 +266,6 @@ export class NLP {
         action: { discard: 1, joinable: 1, order: 3, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
         entity: namesEntity,
         matches: this._evalKeyword(data, null, NameSetJoinOnly)
-      });
-
-      searches.push({
-        action: { discard: 0, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
-        entity: namesEntity,
-        matches: this._evalKeyword(data, (n: string) => isPropercase(n), ProperNameSet)
       });
 
       searches.push({

@@ -1063,6 +1063,22 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
+/\bcow\s(?:\&\share\spassage|and\scalf|and\scalves|and\ssheep\sdrove|ark|bank(?:\swood)?)\b/gmi,
+/\bcow\s(?:banks\swood|barton|bottom|brae|bridge\sroad|brook\slane|brow\scoppice|carr)\b/gmi,
+/\bcow\s(?:cleu[cg]h|close\s(?:coppice|fell|grove|hill|holt|lane|pasture|plantation|road|wood))\b/gmi,
+/\bcow\s(?:common|corner|covert|craig\splantation|croft\s(?:field|spinney)|dale(?:\slane)?|den)\b/gmi,
+/\bcow\s(?:down(?:\s(?:copse|hill|plantation|road|wood))?|drove(?:\shill)?|dub|fair|fall\swood)\b/gmi,
+/\bcow\s(?:fen(?:\s(?:drove|road))?|field|ford|gallery wood|gap(?:\slane)?|gate(?:\s(?:hill|lane))?)\b/gmi,
+/\bcow\s(?:geo|gill\slane|green(?:\sreservoir)?|ground|hall\sbottom|head(?:\swood)?|hey\s(?:covert|lane|wood))\b/gmi,
+/\bcow\s(?:heys|hill(?:\s(?:gate\slane|plantation|wood))?|hollow\swood|holm|honeybourne)\b/gmi,
+/\bcow\s(?:house(?:\s(?:hill|lane|plantation))?|lake\sdrove|lane(?:\sbridge)?|lard\sclose)\b/gmi,
+/\bcow\s(?:lease|leaze(?:\scopse)?|lees(?:\s(?:care\shome|nursing\shome))?|leys\sscar|loch)\b/gmi,
+/\bcow\s(?:marsh\slane|meadow\sroad|moor|park|parsley\sway|pasture(?:\s(?:covert|gorse|hill|lake|lane|plantation|way|wood))?)\b/gmi,
+/\bcow\s(?:pastures(?:\sclump|wood))?|plantation|pond(?:\scopse)?|pool|rakes\slane|road|roast)\b/gmi,
+/\bcow\s(?:rock|scot\slane|shackle\scoppice|snout\swood|street|walk|watering\s(?:campus|lane)|wath\s(?:bank|close))\b/gmi,
+/\bcow\s(?:way|well\slane|wish\sbottom|wold(?:\sroad)?|wood)\b/gmi,
+/\bcow['‘’`s]{0,2}\s(?:hole|snout|wynd)\b/gmi,
+/\bcow['‘’`]?s\ssnout\b/gmi,
 /\bcolley['‘’`]?s\sladder\s(?:east|west)\b/gmi,
 /\bcock\sfence\splantation\b/gmi,
 /\bcousins\s(?:close|drive|grove|lane|mews|piece|shaw|street|way|yard)\b/gmi,
@@ -1404,6 +1420,7 @@ const a: RegExp[] = [
 /\bcromer\s(?:and|\&)\sdistrict\b/gmi,
 
 // CU
+/\bcurling\s(?:close|court|crescent|knowe|lane|park|pond\s(?:court|lane|plantation|road|strip|wood)|stone\splace|strip|tye(?:\s(?:green|lane))?|vale|walk|way)\b/gmi,
 /\bcut\stongue\slane\b/gmi,
 /\bCutting\s(?:Close|Drive|Hill|Lane|Road|Wood)\b/gm,
 /\bcutting['‘’`]?s\sroad\b/gmi,

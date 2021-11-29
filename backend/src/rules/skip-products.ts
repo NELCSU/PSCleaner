@@ -32,6 +32,7 @@ const a: RegExp[] = [
   /\bbazuka\sgell?\b/gmi,
 
   // C
+  /\bcar\sseat\b/gmi,
   /\bcheddar\scheese\b/gmi,
   /\bcamping\s(?:pot|stove)s?\b/gmi,
   /\bcandle\swax\b/gmi,
@@ -63,6 +64,7 @@ const a: RegExp[] = [
   /\bgas\spipe\b/gmi,
 
   // H
+  /\bhedge\scutter\b/gmi,
   /\bhover\sboard\b/gmi,
   /\bhula\shoop\b/gmi,
   /\bhair\sdryer\b/gmi,

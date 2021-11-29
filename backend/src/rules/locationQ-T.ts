@@ -1545,6 +1545,7 @@ const a: RegExp[] = [
 /\btiverton\s(?:and|\&)\sdistrict\b/gmi,
 
 // TO
+/\btongs\s(?:covert|lane|wood)\b/gmi,
 /\btongue\s(?:avenue|bay|burns\splantation|copse|dale|end(?:\swood)?|field(?:\splantation)?|gate\shill)\b/gmi,
 /\btongue\s(?:glen|hill|intake\splantation|lake\slane|lane|lea\swood|moor|moss\speat\sground|of\s(?:gangsta|westerbister))\b/gmi,
 /\btongue\s(?:pasture|piece\sholt|plantation|primary\sschool|ridge\splantation|rigg|sharp\swood|way|wood)\b/gmi,

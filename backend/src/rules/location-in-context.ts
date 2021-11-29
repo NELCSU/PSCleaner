@@ -221,6 +221,10 @@ const a: RegExp[] = [
   /(?<=(?:CA12|LA11)).{2,25}\bthe\sheads\b/gi,
   /\bthe\sheads\b(?=.{2,20}(?:CA12|LA11))/gi,
 
+  // HEALING
+  /(?<=(?:DN41|village|station)).{2,25}\bhealing\b/gi,
+  /\bhealing\b(?=.{2,20}(?:DN41|village|station))/gi,
+
   // HILL
   /(?<=(?:SA68|CV23|EX32|EX23|GL13|B74|SO15|HD9|hamlet|village)).{2,25}\bhill\b/gi,
   /\bhill\b(?=.{2,20}(?:SA68|CV23|EX32|EX23|GL13|B74|SO15|HD9|hamlet|village))/gi,
@@ -245,6 +249,13 @@ const a: RegExp[] = [
   /[\d-]+holding\sstreet\b/gi,
   /(?<=(?:ME8|WN2).{2,10})\bholding\sstreet\b/gi,
   /\bholding\sstreet\b(?=.{2,10}(?:ME8|WN2))/gi,
+
+  // HORSE
+  /[\d-]+horses\shead\b/gi,
+  /(?<=(?:BD23|TD14|ZE2|AB56).{2,10})\bhorse\shead\b/gi,
+  /\bhorse\shead\b(?=.{2,10}(?:BD23|TD14|ZE2|AB56))/gi,
+  /(?<=(?:NR13).{2,10})\bhorses\shead\b/gi,
+  /\bhorses\shead\b(?=.{2,10}(?:NR13))/gi,
 
   // IRON
   /(?<=(?:OX7).{2,10})\biron\sdown\b/gi,

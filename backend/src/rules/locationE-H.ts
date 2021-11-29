@@ -958,6 +958,11 @@ const a: RegExp[] = [
 /\bhaslemere\s(?:and|\&)\sdistrict\b/gmi,
 
 // HE
+/\bhedge\s(?:close|corner|cove|croft\swood|down|drive|end(?:\s(?:&\swest\send\ssouth|north|road|south|way))?)\b/gmi,
+/\bhedge\s(?:field\s(?:close|road|way)|furlong|grove|hey|hill(?:\sroad)?|lane|lea|nook|parsley\screscent)\b/gmi,
+/\bhedge\s(?:place\sroad|road|rock(?:\sledge)?|row(?:\sclose|s)?|side|sparrow\sroad|top\slane|way|wood)\b/gmi,
+/\bhedge[\s-]end\s(?:island|plantation|pool|salts))\b/gmi,
+/\bhealing\s(?:covert|primary\sschool|road|school|street)\b/gmi,
 /\bhell\sladder\slane\b/gmi,
 /\bheol\stri\spen\shad\b/gmi,
 /\bhead\s(?:barn\swood|clough|crag(?:\smarsh)?|craig|croft|down(?:\s(?:hanger|plantation))?)\b/gmi,
@@ -1155,7 +1160,7 @@ const a: RegExp[] = [
 /\bhorses?\s(?:ba[cn]k|barrow|bog|bridge|buile|carr|castle|chestnut|cleeve|cleu[cg]h|cliff)\b/gmi,
 /\bhorses?\s(?:clough|clump|common|coombe|coppice|coppy|copse|course|cove|covert|craig)\b/gmi,
 /\bhorses?\s(?:crofts?|crook|cross|dale|down|drove|dub|dyke|edge|end|eye|fair|fayre|fen|field)\b/gmi,
-/\bhorses?\s(?:flags|ga[gt]e|geos?|green|grove|haven|hay|head|helliacks|hey|hill(?:ock)?)\b/gmi,
+/\bhorses?\s(?:flags|ga[gt]e|geos?|green|grove|haven|hay|helliacks|hey|hill(?:ock)?)\b/gmi,
 /\bhorses?\s(?:holme|ho[lp]es?|house|hovel|island|isles?|keld|knowe|lane|lawn?|lea|leaze)\b/gmi,
 /\bhorses?\s(?:ledge|leys|lie|loch|lynch|mark|market|marsh|meadows|mill|moors?|noup)\b/gmi,
 /\bhorses?\s(?:of|of\sthe|paddocks?|parks?|pastures?|pill|pit|plain|plot|ponds?|pool)\b/gmi,

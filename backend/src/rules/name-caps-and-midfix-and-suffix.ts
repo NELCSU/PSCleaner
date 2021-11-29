@@ -10,6 +10,12 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 // BI
 "bird",
 
+// CO
+"cow",
+
+// CU
+"curling",
+
 // DO
 "down",
 
@@ -24,6 +30,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // HE
 "head",
+"hedge",
 
 // HI
 "hill",
@@ -36,6 +43,9 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // SA
 "sand",
+
+// TO
+"tongs",
 
 //WA
 "water"

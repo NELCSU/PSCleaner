@@ -98,6 +98,7 @@ const a: RegExp[] = [
   /\b(?:christmas|new\syear[’‘'`]?s)\s(?:day|eve|season|week|weekend)\b/gmi,
   /\b(?:early\slearning|easyjet)\b/gmi,
   /\bel\ssalvador\b/gmi,
+  /\bthis\seve\b/gm,
   
   // F
   /\bfalls?\s(?:down|from|off|on|over)\b/gmi,
