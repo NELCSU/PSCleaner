@@ -1074,7 +1074,7 @@ const a: RegExp[] = [
 /\bcow\s(?:house(?:\s(?:hill|lane|plantation))?|lake\sdrove|lane(?:\sbridge)?|lard\sclose)\b/gmi,
 /\bcow\s(?:lease|leaze(?:\scopse)?|lees(?:\s(?:care\shome|nursing\shome))?|leys\sscar|loch)\b/gmi,
 /\bcow\s(?:marsh\slane|meadow\sroad|moor|park|parsley\sway|pasture(?:\s(?:covert|gorse|hill|lake|lane|plantation|way|wood))?)\b/gmi,
-/\bcow\s(?:pastures(?:\sclump|wood))?|plantation|pond(?:\scopse)?|pool|rakes\slane|road|roast)\b/gmi,
+/\bcow\s(?:pastures(?:\s(?:clump|wood))?|plantation|pond(?:\scopse)?|pool|rakes\slane|road|roast)\b/gmi,
 /\bcow\s(?:rock|scot\slane|shackle\scoppice|snout\swood|street|walk|watering\s(?:campus|lane)|wath\s(?:bank|close))\b/gmi,
 /\bcow\s(?:way|well\slane|wish\sbottom|wold(?:\sroad)?|wood)\b/gmi,
 /\bcow['‘’`s]{0,2}\s(?:hole|snout|wynd)\b/gmi,

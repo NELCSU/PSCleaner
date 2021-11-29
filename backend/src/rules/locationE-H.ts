@@ -961,7 +961,7 @@ const a: RegExp[] = [
 /\bhedge\s(?:close|corner|cove|croft\swood|down|drive|end(?:\s(?:&\swest\send\ssouth|north|road|south|way))?)\b/gmi,
 /\bhedge\s(?:field\s(?:close|road|way)|furlong|grove|hey|hill(?:\sroad)?|lane|lea|nook|parsley\screscent)\b/gmi,
 /\bhedge\s(?:place\sroad|road|rock(?:\sledge)?|row(?:\sclose|s)?|side|sparrow\sroad|top\slane|way|wood)\b/gmi,
-/\bhedge[\s-]end\s(?:island|plantation|pool|salts))\b/gmi,
+/\bhedge[\s-]end\s(?:island|plantation|pool|salts)\b/gmi,
 /\bhealing\s(?:covert|primary\sschool|road|school|street)\b/gmi,
 /\bhell\sladder\slane\b/gmi,
 /\bheol\stri\spen\shad\b/gmi,
