@@ -50,6 +50,8 @@ const a: RegExp[] = [
   // BOTTOM
   /(?<=(?:ZE2|TD7).{2,10})\bthe\sbottom\b/gi,
   /\bthe\sbottom\b(?=.{2,10}(?:ZE2|TD7))/gi,
+  /(?<=(?:SG4|LD1|LL19|valley|wetland).{2,10})\bbottom\b/gi,
+  /\bbottom\b(?=.{2,10}(?:SG4|LD1|LL19|valley|wetland))/gi,
 
   // CARRIER
   /[\d-]+carrier\sclose\b/gi,
@@ -63,6 +65,10 @@ const a: RegExp[] = [
   /\bthe\schair\b(?=.{2,10}(?:DG9|TR21|KW17|TR12))/gi,
   /(?<=(?:TR19).{2,10})\bchair\schair\b/gi,
   /\bchair\schair\b(?=.{2,10}(?:TR19))/gi,
+
+  // CLUSTER
+  /\bcluster\b(?=.{2,20}(?:ZE2|island))/gi,
+  /(?<=(?:ZE2|island).{2,25})\bcluster\b/gi,
 
   // CORNER
   /[\d-]+the\scorners?\b/gi,
@@ -280,6 +286,10 @@ const a: RegExp[] = [
   /[\d-]+jacob['‘’`]?s\sladder\b/gi,
   /(?<=(?:SY6|WR3|EX10).{2,10})\bjacob['‘’`]?s\sladder\b/gi,
   /\bjacob['‘’`]?s\sladder\b(?=.{2,10}(?:SY6|WR3|EX10))/gi,
+
+  // KEEN
+  /(?<=(?:ZE[12]).{2,10})\bkeen\b/gi,
+  /\bkeen\b(?=.{2,10}(?:ZE[12]))/gi,
 
   // LADDER
   /(?<=(?:PA70|PA67).{2,10})\bladder\b/gi,
@@ -577,6 +587,10 @@ const a: RegExp[] = [
   /\bweek\b(?=.{2,20}(?:TQ9|EX18|EX20|EX37|village|hamlet))/gi,
   /(?<=(?:TQ9|EX18|EX20|EX37|village|hamlet).{2,25})\bweek\b/gi,
 
+  // WHITE
+  /\bwhite\swife\b(?=.{2,20}(?:ZE2|island))/gi,
+  /(?<=(?:ZE2|island).{2,25})\bwhite\swife\b/gi,
+  
   // WIND
   /[\d-]+\swind\sfell\b/gi,
 
@@ -586,6 +600,10 @@ const a: RegExp[] = [
   // WOODEN
   /\bwooden\b(?=.{2,20}(?:SA69|village))/gi,
   /(?<=(?:SA69|village).{2,25})\bwooden\b/gi,
+
+  // YELL
+  /\byell\b(?=.{2,20}(?:ZE2|island))/gi,
+  /(?<=(?:ZE2|island).{2,25})\byell\b/gi,
 ];
 const LocationContextRegEx: Set<RegExp> = new Set();
 a.forEach(term => LocationContextRegEx.add(term));

@@ -39389,7 +39389,6 @@ const a: string[] = [
 "lro",
 "lroman",
 "lroy",
-"lttle",
 "lttlefield",
 "ltu",
 "lu",

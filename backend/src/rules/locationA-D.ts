@@ -542,6 +542,15 @@ const a: RegExp[] = [
 /\bbluebell\snursing\b/gmi,
 
 // BO
+/\bbottom\s(?:barn\s(?:copse|plantation)|boat(?:\s(?:reach|road))?|boles\swood|brake)\b/gmi,
+/\bbottom\s(?:breck\sclose|camp|close\s(?:coppice|plantation)|common|coppice|copse)\b/gmi,
+/\bbottom\s(?:covert|dean|dingle|drive|field\s(?:belt|plantation)|flash|green|ground)\b/gmi,
+/\bbottom\s(?:house(?:\s(?:farm\slane|lane))?|lake|land\scopse|lane|long\spool|lons)\b/gmi,
+/\bbottom\s(?:meadow|mill\s(?:covert|pond|road)|moor|moss|o['‘’`f]?\sth['‘’`e]?\s(?:brow|fields|moor|oven|rough))\b/gmi,
+/\bbottom\s(?:of\s(?:hutton|rooley\smoor|woodhouses)|orchard|park|plantation|pond(?:\s(?:copse|road))?)\b/gmi,
+/\bbottom\s(?:reservoir|road|roughway\swood|round\sspinney|shaw|slate\scovert|spinney|street)\b/gmi,
+/\bbottom[\s-](?:vals\shill|wood)\b/gmi,
+/\bbottom['‘’`]?s\s(?:copse|lane)\b/gmi,
 /\bboundary\sfence\spool\b/gmi,
 /\bboot\s(?:(?:\&|and)\sshoe\s(?:close|plantation)|avenue|binders\sroad|drift|end|hill)\b/gmi,
 /\bboot\s(?:moor|of\sthe\swold|piece\slane|pit|plantation|pond|street|way|wood)\b/gmi,
@@ -1063,6 +1072,8 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
+/\bcomb\sof\sthe\shead\b/gmi,
+/\bcove\sof\sthe\shead\b/gmi,
 /\bcow\s(?:\&\share\spassage|and\scalf|and\scalves|and\ssheep\sdrove|ark|bank(?:\swood)?)\b/gmi,
 /\bcow\s(?:banks\swood|barton|bottom|brae|bridge\sroad|brook\slane|brow\scoppice|carr)\b/gmi,
 /\bcow\s(?:cleu[cg]h|close\s(?:coppice|fell|grove|hill|holt|lane|pasture|plantation|road|wood))\b/gmi,

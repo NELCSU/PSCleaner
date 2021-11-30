@@ -746,7 +746,7 @@ const a: RegExp[] = [
 /\bthe\spoint\sof\sring\b/gmi,
 /\bpoint\sof\sspoil\b/gmi,
 /\bpoint\sof\sthe\s(?:alt[ae]r|baits|bar|clett|cleugh|graand|gunnald|horn|hurds|hus)\b/gmi,
-/\bpoint\sof\sthe\s(?:isle|kyarl|laish|liddie|pool|pund|sluther|stane|styes|ward|wart)\b/gmi,
+/\bpoint\sof\sthe\s(?:isle|kyarl|laish|liddie|pool|pund|sluther|stane|styes|war[dt])\b/gmi,
 /\bpont-rug\b/gmi,
 /\bpointout\sclose\b/gmi,
 /\bporpoise\shill\b/gmi,

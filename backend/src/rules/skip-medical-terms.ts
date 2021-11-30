@@ -236,6 +236,7 @@ const a: RegExp[] = [
   /\bm(?:alpighian|eissner)['‘’`s]{0,2}\scorpuscles?\b/gmi,
 
   // N
+  /\bN\/V\sintact\b/gmi,
   /\bnpmh\b/gmi,
   /\bneisseria\smeningitidis\b/gmi,
   /\bng\s(?:feed|tube)s?\b/gmi,

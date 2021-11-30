@@ -25530,7 +25530,6 @@ const a: string[] = [
 "glarner",
 "glaros",
 "glarson",
-"glas",
 "glasail",
 "glasbey",
 "glasbrenner",

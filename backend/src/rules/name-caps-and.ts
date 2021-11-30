@@ -3834,6 +3834,9 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "low",              // placenames (917)
 "lower",            // placenames (1k+)
 
+// LT
+"lttle",            // name
+
 // LU
 "lucid",            // name
 "lucifer",          // name & placename
@@ -7138,7 +7141,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "yard",             // placenames (854)
 "yards",            // placenames (27)
 "yawn",             // name & placename
-"yell",             // standalone & placenames (12)
+"yell",             // placenames (12)
 "yelling",          // name & placename
 "yemen",            // name
 "yen",              // name

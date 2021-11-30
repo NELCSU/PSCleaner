@@ -26,6 +26,7 @@ const a: RegExp[] = [
   /\bED\b/gm,
   /\bEMAS\b/gm,
   /\betoh\b/gmi,
+  /\bFOO?SH\b/gm,
   /\bGORD\b/gm,
   /\bhaem\b/gmi,
   /\bhosp\b/gmi,

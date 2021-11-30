@@ -31,10 +31,10 @@
     "@types/debounce": "^1.2.1",
     "@types/fs-extra": "^9.0.13",
     "@types/he": "^1.1.1",
-    "@types/node": "^16.11.10",
+    "@types/node": "^16.11.11",
     "@types/uuid": "^8.3.3",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
     "bl": "^5.0.0",
     "electron": "^11.5.0",
     "electron-builder": "^22.14.5",
@@ -78,5 +78,5 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf client/lib/web-components"
   },
-  "version": "0.15.28"
+  "version": "0.15.29"
 }

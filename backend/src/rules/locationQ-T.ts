@@ -711,6 +711,7 @@ const a: RegExp[] = [
 /\bsize\s(?:house\s(?:place|road)|street)\b/gmi,
 
 // SK
+/\bskerry\sof\sthe\shead\b/gmi,
 /\bskelbow\sfoot\swood\b/gmi,
 /\bskinner['‘’`]?s\sball(?:\scliff)?\b/gmi,
 /\bskerry\sfell\sfad\b/gmi,
@@ -1545,6 +1546,7 @@ const a: RegExp[] = [
 /\btiverton\s(?:and|\&)\sdistrict\b/gmi,
 
 // TO
+/\btoo\sof\sthe\shead\b/gmi,
 /\btongs\s(?:covert|lane|wood)\b/gmi,
 /\btongue\s(?:avenue|bay|burns\splantation|copse|dale|end(?:\swood)?|field(?:\splantation)?|gate\shill)\b/gmi,
 /\btongue\s(?:glen|hill|intake\splantation|lake\slane|lane|lea\swood|moor|moss\speat\sground|of\s(?:gangsta|westerbister))\b/gmi,

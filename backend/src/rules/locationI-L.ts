@@ -292,6 +292,7 @@ const a: RegExp[] = [
 
 /\bl\sspinney\b/gmi,
 // LA
+/\blang\sgeo\sof\sthe\shead\b/gmi,
 /\bladder\s(?:chine|cleuch|court|creek|field|hills?|law|rock)\b/gmi,
 /\bladder['‘’`]?s\scoppice\b/gmi,
 /\blade\sfoot\scove\b/gmi,
@@ -507,7 +508,7 @@ const a: RegExp[] = [
 /\bLow\sFell\b/gm,
 /\blow\s(?:green\sfell|holding\swood)\b/gmi,
 /\blower\s(?:fell\splantation|house\sbig\swood|small\sclough|throat\spool)\b/gmi,
-/\bloch\s(?:an\sair|arm|beauty|glass|of\s(?:pile|soy))\b/gmi,
+/\bloch\s(?:an\sair|arm|beauty|glass|of\s(?:pile|soy|the\sward))\b/gmi,
 /\blooking\sglass\spond\b/gmi,
 /\bLooking\sGlass\b/gm,
 /\bLo(?:ck|ng|wer)\sCut\b/gm,

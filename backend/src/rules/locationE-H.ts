@@ -231,6 +231,7 @@ const a: RegExp[] = [
 /\bfirst\sturf\sfen\sdrove\b/gmi,
 
 // FL
+/\bflaw\shill\b/gmi,
 /\bflorence\sboot\sclose\b/gmi,
 /\bflowing\s(?:geo|stack)\b/gmi,
 /\bflinty\sfell\b/gmi,
@@ -537,6 +538,14 @@ const a: RegExp[] = [
 /\b(?:health\s)?futures\s(?:academy|college|park|university|walk|way)\b/gmi,
 
 // GA
+/\bgate\s(?:beach|bridge\sroad|brook\sclose|burton|close|coppice|cote\shill|court|crag)\b/gmi,
+/\bgate\s(?:crease|crescent|end|farm\s(?:drive|road)|field(?:\s(?:close|road))?|foot(?:\slane)?)\b/gmi,
+/\bgate\s(?:fulford|head(?:\slane)?|helmsley(?:\scommon)?|hill\splantation|hope)\b/gmi,
+/\bgate\s(?:house(?:\s(?:close|court|drive|lane|mews|place|road|spinney|wood))?)\b/gmi,
+/\bgate\s(?:keeper\sfold|lane|lodge\s(?:square|way)|mews|park|plantation|pool|reach)\b/gmi,
+/\bgate\s(?:rigg\swood|road|royd\swood|services|shaw|side\sclough|street(?:\smews)?)\b/gmi,
+/\bgate\s(?:tree\sclose|warth\sstreet|way(?:\sdrive)?|wood(?:\slane)?|wood)\b/gmi,
+/\bgate['‘’`]?s\shill\b/gmi,
 /\bgarden\s(?:avenue|bank\swood|belt|city(?:\s(?:academy|montessori|way))?)\b/gmi,
 /\bgarden\s(?:cliff|close\s(?:lane|plantation)|clump|coppice|copse|cottages)\b/gmi,
 /\bgarden\s(?:cotts|court|covert|creek|crescent|croft|den|down|dr[io]ve|end)\b/gmi,
@@ -613,7 +622,7 @@ const a: RegExp[] = [
 /\bgeo\sof\s(?:rustling\sstanes|the\sstairs)\b/gmi,
 /\bgeo\sof\s(?:grassland|oxen|pass|romps|the\s(?:light|toe)|whaleback)\b/gmi,
 /\bgeo\sof\the\b/gmi,
-/\bgeo\sof\sthe\s(?:keen|swans|wart)\b/gmi,
+/\bgeo\sof\sthe\s(?:keen|swans|war[dt])\b/gmi,
 /\bgeorge\ssmart\sclose\b/gmi,
 /\bgeorge\scut\b/gmi,
 /\bgemsbok\sway\b/gmi,
@@ -648,6 +657,9 @@ const a: RegExp[] = [
 /\b(?:girl['‘’`]?s\sschool|girls\swick|the\sgirls\sgrove)\b/gmi,
 
 // GL
+/\bglas[\s-](?:aird|bheinn|canol|charn|chnoc|choire|choirean|choirein|coed|corrie|efail)\b/gmi,
+/\bglas[\s-](?:eilean(?:\scourt)?:|eileanan|fryn|goed|heulog|ifor|leac|leathad|loch|maol)\b/gmi,
+/\bglas[\s-](?:meadow\slane|mheall|pheighinn|phort|sgeir|staoin|tulaichean|uig|y[\s-](?:llwyn|gors|pant))\b/gmi,
 /\bglasgow\sharbour\sterraces\b/gmi,
 /\bglyne\sascent\b/gmi,
 /\bglutton\s(?:bridge|dale)\b/gmi,
@@ -1101,6 +1113,8 @@ const a: RegExp[] = [
 /\bhinckley\s(?:and|\&)\sdistrict\b/gmi,
 
 // HO
+/\bhole\sof\sthe\shead\b/gmi,
+/\bhouse\sof\sthe\shead\b/gmi,
 /\bhollin\shouse\stongue\b/gmi,
 /\bhope\stongue\b/gmi,
 /\bhouse\sgill\stongue\b/gmi,
