@@ -263,6 +263,10 @@ const a: RegExp[] = [
   /(?<=(?:NR13).{2,10})\bhorses\shead\b/gi,
   /\bhorses\shead\b(?=.{2,10}(?:NR13))/gi,
 
+  // HULK
+  /(?<=(?:ZE2).{2,10})\bhulk\b/gi,
+  /\bhulk\b(?=.{2,10}(?:ZE2))/gi,
+  
   // IRON
   /(?<=(?:OX7).{2,10})\biron\sdown\b/gi,
   /\biron\sdown\b(?=.{2,10}(?:OX7))/gi,
@@ -455,6 +459,31 @@ const a: RegExp[] = [
   /[\d-]+\sschool\s(?:annexe|approach|belt|chase|close|dr[io]ve|end|field\sclose|fields?)\b/gi,
   /[\d-]+\sschool\s(?:gardens|green|houses?|place|rise|rough|row|terrace|view|walk|yard)\b/gi,
 
+  // SETTER
+  /\bsetter\b(?=.{2,20}(?:ZE2|hamlet))/gi,
+  /(?<=(?:ZE2|hamlet).{2,25})\bsetter\b/gi,
+  
+  // SIDE
+  /[\d-]+side(?:\s(?:gates?|lane|road|row|street))?\b/gi,
+  /\bside\b(?=.{2,20}(?:NE1))/gi,
+  /(?<=(?:NE1).{2,25})\bside\b/gi,
+  /\bside\sdowns\b(?=.{2,20}(?:EX5))/gi,
+  /(?<=(?:EX5).{2,25})\bside\sdowns\b/gi,
+  /\bside\sfell\b(?=.{2,20}(?:CA6))/gi,
+  /(?<=(?:CA6).{2,25})\bside\sfell\b/gi,
+  /\bside\sgates?\b(?=.{2,20}(?:LA22|YO12))/gi,
+  /(?<=(?:LA22|YO12).{2,25})\bside\sgates?\b/gi,
+  /\bside\slane\b(?=.{2,20}(?:DL13|DN33|HD3|NG22|CW6))/gi,
+  /(?<=(?:DL13|DN33|HD3|NG22|CW6).{2,25})\bside\slane\b/gi,
+  /\bside\sroad\b(?=.{2,20}(?:UB9|DL8|E17))/gi,
+  /(?<=(?:UB9|DL8|E17).{2,25})\bside\sroad\b/gi,
+  /\bside\srow\b(?=.{2,20}(?:NG24))/gi,
+  /(?<=(?:NG24).{2,25})\bside\srow\b/gi,
+  /\bside\sstreet\b(?=.{2,20}(?:NG32|M11|PH2|OL8))/gi,
+  /(?<=(?:NG32|M11|PH2|OL8).{2,25})\bside\sstreet\b/gi,
+  /\bside\swood\b(?=.{2,20}(?:DE6|CA22|DG1|TA23))/gi,
+  /(?<=(?:DE6|CA22|DG1|TA23).{2,25})\bside\swood\b/gi,
+
   // STAIRS
   /(?<=(?:CF64|island).{2,25})\bthe\sstairs\b/gi,
   /\bthe\sstairs\b(?=.{2,20}(?:CF64|island))/gi,
@@ -487,7 +516,11 @@ const a: RegExp[] = [
   /(?<=(?:B61|BN15|IP12|SM1|LE3|WS3).{2,25})\bswallows\sclose\b/gi,
   /\bswallows\scross\b(?=.{2,20}(?:CM15|hamlet))/gi,
   /(?<=(?:CM15|hamlet).{2,25})\bswallows\scross\b/gi,
-  
+
+  // TABLE
+  /\bthe\stable\b(?=.{2,20}(?:SA62))/gi,
+  /(?<=(?:SA62).{2,25})\bthe\stable\b/gi,
+    
   // TONGUE
   /\btongue\b(?=.{2,20}(?:CA12|CA20|DL1[13]|HX7|ML12|IV27|KA26|DN14|village))/gi,
   /(?<=(?:CA12|CA20|DL1[13]|HX7|ML12|IV27|KA26|DN14|village).{2,25})\btongue\b/gi,

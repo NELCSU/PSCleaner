@@ -10,7 +10,7 @@
  **********************************************************************/
 const a: RegExp[] = [
   /\b[a-z]{2,}\-\d{1,2}\b/gmi,
-  /\d+[\s-](?:day|feet|foot|hand|mile|min|kilometer|km|stair|step|week)s?\b/gmi,
+  /\d+[\s-](?:day|feet|foot|hand|mile|min|kilometer|km|stair|step|time|week)s?\b/gmi,
   /\b(?:first|last|tier)\s\d+/gmi,
   /\d+\sof\b/gmi,
   /\d+[\s-](?:(?:out)?\sof|in)[\s-]\d+/gmi,
@@ -33,7 +33,7 @@ const a: RegExp[] = [
   /\ba(?:mazon|merican\sexpress|strazeneca)\b/gmi,
   
   // B
-  /\bback\s(?:burn|of)\b/gmi,
+  /\bback\s(?:burn|of|riding)\b/gmi,
   /\bbarking\sdog\b/gmi,
   /\bbaby\sjesus\b/gmi,
   /\bbank\sholiday\b/gmi,
@@ -230,6 +230,7 @@ const a: RegExp[] = [
   /\bslovakia\b/gmi,
   /\bsouth\s(?:africa|sudan)\b/gmi,
   /\bsri\slanka\b/gmi,
+  /\bside\sof\b/gmi,
 
   // T
   /\bbig\stech\b/gmi,

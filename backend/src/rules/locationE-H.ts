@@ -231,6 +231,7 @@ const a: RegExp[] = [
 /\bfirst\sturf\sfen\sdrove\b/gmi,
 
 // FL
+/\bflu\scudda\b/gmi,
 /\bflaw\shill\b/gmi,
 /\bflorence\sboot\sclose\b/gmi,
 /\bflowing\s(?:geo|stack)\b/gmi,
@@ -1230,6 +1231,7 @@ const a: RegExp[] = [
 /\bhowlers\s(?:hill|slade)\b/gmi,
 
 // HU
+/\bhulk\s(?:lane|moor(?:\sdrove)?|waters)\b/gmi,
 /\bhuish\sball\ssteep\b/gmi,
 /\bhurt['‘’`s]{0,2}wood\b/gmi,
 /\bhue\slane\b/gmi,

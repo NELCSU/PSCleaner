@@ -654,6 +654,9 @@ const a: RegExp[] = [
 /\b(?:redrise|sick\sman['‘’`]*s|thorney|withycombe)\sshade\b/gmi,
 
 // SI
+/\bside\s(?:acre\scoppice|allotment|avenue|bank\swood|bra[ey]s|by\sside\sschool|cliff\sroad)\b/gmi,
+/\bside\s(?:copse|downs|end\slane|hill(?:\scopse)?|ley|moor(?:\slane)?|moss)\b/gmi,
+/\bside\s(?:of\sthe\smoor|pike|plantation)\b/gmi,
 /\bsir\srobert['‘’`]?s\schair\b/gmi,
 /\bsir\sjohn\shurt\splace\b/gmi,
 /\bSide\sFell\b/gm,

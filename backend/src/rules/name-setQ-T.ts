@@ -39757,6 +39757,7 @@ const a: string[] = [
 "stosic",
 "stoss",
 "stossel",
+"stot",
 "stote",
 "stotelis",
 "stoten",

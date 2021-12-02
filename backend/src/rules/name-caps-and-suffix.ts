@@ -194,7 +194,6 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 
 // DO
 "dockman",
-"down",
 "downhill",
 
 // DR

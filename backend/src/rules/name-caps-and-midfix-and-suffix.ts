@@ -51,6 +51,9 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 // SA
 "sand",
 
+// SI
+"side",
+
 // TO
 "tongs",
 

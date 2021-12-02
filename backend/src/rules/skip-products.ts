@@ -122,7 +122,8 @@ const a: RegExp[] = [
   /\btop\sof(?:\sthe)?\sstairs\b/gmi,
   /\btrampol(?:ine)?\b/gmi,
   /\btrump\scard\b/gmi,
-  /\bT\.?V\.?\sstand\b/gmi,
+  /\bT\.?V\.?\s(?:stand|unit)\b/gmi,
+  /\btrapese\b/gmi,
 
   // V
   /\bvenetian\s(?:blind|window)s?\b/gmi,

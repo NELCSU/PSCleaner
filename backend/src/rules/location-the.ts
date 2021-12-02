@@ -295,7 +295,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sSycamores\b/gm,
 
   // T
-  /\bThe\sTab(?:ards|ernacle|le)\b/gm,
+  /\bThe\sTab(?:ards|ernacle)\b/gm,
   /\bThe\sTa(?:il(?:\s[Rr]ace)?|n|nners|nnery|rns?|sk|xiway)\b/gm,
   /\bThe\sTe(?:e|mplars|mple|n\sAcres|nnis(?:\sCourt)?|rraces)\b/gm,
   /\bThe\sThr(?:eshers|oat)\b/gm,

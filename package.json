@@ -40,7 +40,7 @@
     "electron-builder": "^22.14.5",
     "electron-wix-msi": "^3.2.0",
     "eslint": "^8.3.0",
-    "eslint-plugin-jsdoc": "^37.0.3",
+    "eslint-plugin-jsdoc": "^37.1.0",
     "jsdoc": "^3.6.7",
     "ncp": "^2.0.0",
     "node-abi": "^3.5.0",
@@ -78,5 +78,5 @@
     "wipe-out": "rimraf out",
     "wipe-webc": "rimraf client/lib/web-components"
   },
-  "version": "0.15.29"
+  "version": "0.15.30"
 }

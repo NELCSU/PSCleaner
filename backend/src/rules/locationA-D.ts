@@ -501,6 +501,7 @@ const a: RegExp[] = [
 /\bblack\sball\s(?:cliff|hill|wood)\b/gmi,
 /\bblue\sball\s(?:hill|lane|road|yard)\b/gmi,
 /\bbleach\s(?:green|house\sbank|mill(?:\slane)?|street|yard(?:\slane)?)\b/gmi,
+/\bblack\sside\sof\starnbrook\sfell\b/gmi,
 /\bBlack\s(?:Cut|Ledge|Rock\sLedge)\b/gm,
 /\bblack\sfell\smoss\b/gmi,
 /\bBlack\sFell\b/gm,
@@ -1429,6 +1430,7 @@ const a: RegExp[] = [
 /\b(?:bird|cross|heart)[\s-]+in[\s-]+hand\s(?:church|lane|neuk|pike|road|sand|side|stones|street|wynd|yard)\b/gmi,
 /\bcrypt\s(?:court|lane)\b/gmi,
 /\bcromer\s(?:and|\&)\sdistrict\b/gmi,
+/\bcrying\staing\b/gmi,
 
 // CU
 /\bcurling\s(?:close|court|crescent|knowe|lane|park|pond\s(?:court|lane|plantation|road|strip|wood)|stone\splace|strip|tye(?:\s(?:green|lane))?|vale|walk|way)\b/gmi,
@@ -1512,6 +1514,10 @@ const a: RegExp[] = [
 /\bcylinder\s(?:copse|road)\b/gmi,
 /\bcyclone\s(?:street|way)\b/gmi,
 /\bCycle\sRoute\b/gm,
+
+// CZ
+/\bczar\sstreet\b/gmi,
+/\bczarina\srise\b/gmi,
 
 // DA
 /\bdale\stongue\b/gmi,

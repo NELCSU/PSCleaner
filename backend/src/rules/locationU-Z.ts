@@ -346,6 +346,7 @@ const a: RegExp[] = [
 /\bwesthill\s(?:and|\&)\sdistrict\b/gmi,
 
 // WH
+/\bwhite\sside\sof\starnbrook\sfell\b/gmi,
 /\bWhile\sRoad\b/gm,
 /\bwhite\s(?:ball\shill|fell(?:\shead)?|foot\slane|island\sledge|ledge(?:\shill)?)\b/gmi,
 /\bwhite\s(?:post\sstreet|woman['‘’`]?s\splantation|swallows\sroad)\b/gmi,
