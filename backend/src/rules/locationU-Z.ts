@@ -50,6 +50,7 @@ const a: RegExp[] = [
 /\bunnamed\s(?:rd|road)\b/gmi,
 
 // UP
+/\bupper\sred\s(?:cross\sroad|hill)\b/gmi,
 /\bupper\s(?:fell\splantation|swallow\swood)\b/gmi,
 /\bUpper\sCut\b/gm,
 /\bupper\s(?:landslip|small\sclough)\b/gmi,

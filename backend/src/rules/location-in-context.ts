@@ -219,7 +219,11 @@ const a: RegExp[] = [
   /\bgarden\spond\b(?=.{2,20}(?:LU7|KA19))/gi,
   /(?<=(?:HR5|SY5|TF9|IV23)).{2,25}\bgarden\spool\b/gi,
   /\bgarden\spool\b(?=.{2,20}(?:HR5|SY5|TF9|IV23))/gi,
-  
+
+  // HANDBALL
+  /(?<=(?:EX35)).{2,25}\bhandball\b/gi,
+  /\bhandball\b(?=.{2,20}(?:EX35))/gi,
+
   // HEAD
   /\bthe\shead\b(?=.{2,20}(?:KW17|SA62|ZE2))/gi,
   /\bthe\sheads\b(?=.{2,20}(?:FY6))/gi,
@@ -262,6 +266,10 @@ const a: RegExp[] = [
   /\bhorse\shead\b(?=.{2,10}(?:BD23|TD14|ZE2|AB56))/gi,
   /(?<=(?:NR13).{2,10})\bhorses\shead\b/gi,
   /\bhorses\shead\b(?=.{2,10}(?:NR13))/gi,
+
+  // HOSPITAL
+  /(?<=(?:GU15).{2,10})\bthe\shospital\b/gi,
+  /\bthe\shospital\b(?=.{2,10}(?:GU15))/gi,
 
   // HULK
   /(?<=(?:ZE2).{2,10})\bhulk\b/gi,
@@ -377,7 +385,14 @@ const a: RegExp[] = [
 
   // PLACE
   /\bplace\sfell\b(?=.{2,10}(?:CA11|hill))/gi,
-  
+
+  // PLAYGROUND
+  /[\d-]+playground(?:\sclose)?\b/gi,
+  /\bplayground\b(?=.{2,20}(?:LS12))/gi,
+  /(?<=(?:LS12)).{2,25}\bplayground\b/gi,
+  /\bplayground\sclose\b(?=.{2,20}(?:BR3))/gi,
+  /(?<=(?:BR3)).{2,25}\bplayground\sclose\b/gi,
+
   // POOL
   /(?<=(?:TR15|EX20|redruth)).{2,25}\bpool\b/gi,
   /\bpool\b(?=.{2,20}(?:TR15|EX20|redruth))/gi,
@@ -385,6 +400,11 @@ const a: RegExp[] = [
 
   // POT
   /\bthe\spot\b(?=.{2,10}(?:AB43|AB55|IV19|TD12|TD6))/gi,
+
+  // RED
+  /[\d-]+red\b/gi,
+  /\bred\b(?=.{2,20}(?:M50))/gi,
+  /(?<=(?:M50).{2,25})\bred\b/gi,
 
   // REST
   /[\d-]+the\srest\b/gi,

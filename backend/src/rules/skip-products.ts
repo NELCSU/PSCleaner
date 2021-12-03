@@ -21,7 +21,7 @@ const a: RegExp[] = [
   /\bball\s(?:bearing|from\searing)\b/gmi,
   /\bangle\sgrinder\b/gmi,
   /\bblue\stack\b/gmi,
-  /\bbaby\s(?:sling|walker)\b/gmi,
+  /\bbaby\s(?:matt|sling|walker)\b/gmi,
   /\bbath\splug\b/gmi,
   /\bbatterie\b/gmi,
   /\b(?:bunk|divan)\sbed\b/gmi,
@@ -44,8 +44,10 @@ const a: RegExp[] = [
   /\bcuticura\shand\b/gmi,
   /\bcorner\sof\stable\b/gmi,
   /\bcoffee?\stable\b/gmi,
+  /\bcomfort\spure\b/gmi,
 
   // D
+  /\bdiamonte\s(?:bead|stone)\b/gmi,
   /\bdyson\s(?:appliance|brand|hoover|vacuum)s?\b/gmi,
   /\bdog\scage\b/gmi,
   /\bdog\sbite\b/gmi,

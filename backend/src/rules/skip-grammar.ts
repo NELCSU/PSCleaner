@@ -129,6 +129,7 @@ const a: RegExp[] = [
   /\bhunker\sdown\b/gmi,
   /\bhard\sedge\b/gmi,
   /\b(?:high\scommission|hong\skong|community\shospital)\b/gmi,
+  /\bhow\slong\b/gmi,
 
   // I
   /\b(?:inner|lower|outer|upper)\s(?:inner|lower|outer|upper)\b/gmi,
@@ -209,7 +210,6 @@ const a: RegExp[] = [
   /\brust\sbelt\b/gmi,
   /\bround[\s-]?robin\b/gmi,
   /\broyal\s(?:family|guard|mail|navy)\b/gmi,
-  /\bthe\sred\scross\b/gmi,
 
   // S
   /\b(?:small|medium|large)[\s-]scale\b/gmi,
@@ -231,6 +231,7 @@ const a: RegExp[] = [
   /\bsouth\s(?:africa|sudan)\b/gmi,
   /\bsri\slanka\b/gmi,
   /\bside\sof\b/gmi,
+  /\bschol\sactivity\b/gmi,
 
   // T
   /\bbig\stech\b/gmi,
@@ -257,7 +258,7 @@ const a: RegExp[] = [
 
   // W
   /\bpiece\sof\swood\b/gmi,
-  /\bway\shome\b/gmi,
+  /\bway\s(?:home|of\sthe)\b/gmi,
   /\bwent\sinto\b/gmi,
 
   // Y

@@ -217,6 +217,7 @@ const a: RegExp[] = [
 /\bmontrose\s(?:and|\&)\sdistrict\b/gmi,
 
 // MU
+/\bmuckle\sred\scraig\b/gmi,
 /\bmu\s(?:geo|ness|stack)\b/gmi,
 /\bmud\s(?:dock|home\sspinney|house\scopse|lane|point|road|row|wood)\b/gmi,
 /\bmutford\sbig\swood\b/gmi,
@@ -276,6 +277,8 @@ const a: RegExp[] = [
 /\bnavigator['‘’`s]{0,2}\s(?:close|court|drive|road|way)\b/gmi,
 
 // NE
+/\bnew\sred\srock\sview\b/gmi,
+/\bnewmarket\sand\sred\slodge\b/gmi,
 /\bnell\sball\b/gmi,
 /\bnear\ssmall\sclough\b/gmi,
 /\bnew\scutting\splantation\b/gmi,
@@ -706,6 +709,7 @@ const a: RegExp[] = [
 /\bperton\slakeside\b/gmi,
 
 // PI
+/\bpiggy\slane\splayground\b/gmi,
 /\bpit\spony\sway\b/gmi,
 /\bpixey\sweek\swood\b/gmi,
 /\bpike\sfell\b/gmi,
@@ -725,6 +729,7 @@ const a: RegExp[] = [
 /\bplace\s(?:barton|crescent|dane\sshaw|drove|farm(?:\s(?:avenue|lane|primary\sacademy|road|way))?)\b/gmi,
 /\bplace\s(?:hill|house\sclose|lane|moor|of\s(?:bonhill|goval\ssteadings)|parc|plantations|pond|view(?:\sroad)?|wood)\b/gmi,
 /\bplace['‘’`s]{0,2}\sroad\b/gmi,
+/\bplayground\s(?:court|plantation)\b/gmi,
 /\bplough\sfell\b/gmi,
 /\bplum\sfell\slane\b/gmi,
 /\bplums\slane\b/gmi,

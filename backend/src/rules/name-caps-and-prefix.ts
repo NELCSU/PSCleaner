@@ -4,5 +4,8 @@
  ***********************************************************************/
  export const ProperNameSetJoinPrefixOnly: Set<string> = new Set([
 // HA
-"happy"
+"happy",
+
+// RE
+"red",
 ]);

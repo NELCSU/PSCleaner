@@ -14,6 +14,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "bottom",
 
 // CO
+"corner",
 "cow",
 
 // CU

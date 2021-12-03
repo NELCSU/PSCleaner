@@ -17,14 +17,13 @@ const a: RegExp[] = [
   /\badhd\b/gmi,
   /\bantibac\b/gmi,
   /\bALTE\b/gm,
-  /\bBIB\b/gm,   // brought in by
-  /\bBIBA\b/gm, // brought in by ambulance
+  /\bBIB[Aa]?\b/gm, // brought in by (ambulance)
   /\bcopd\b/gmi,
   /\bcssu\b/gmi,
   /\bdatix\b/gmi,
   /\bdisloc\b/gmi,
   /\bED\b/gm,
-  /\bEMAS\b/gm,
+  /\bEMA[Ss]\b/gm,
   /\betoh\b/gmi,
   /\bFOO?SH\b/gm,
   /\bGORD\b/gm,

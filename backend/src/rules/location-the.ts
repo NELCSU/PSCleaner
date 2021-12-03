@@ -138,7 +138,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sHol(?:dings|es?|lies|lows?|lyoaks|mwoods)\b/gm,
   /\bThe\sHome(?:lands|s|steads?)\b/gm,
   /\bThe\sHor(?:n|nbeams|nets?|sefair|se\s?[Ss]hoes?|ses?)\b/gm,
-  /\bThe\sHo(?:e|g|ods|ming|oks?|pes|pper|spital)\b/gm,
+  /\bThe\sHo(?:e|g|ods|ming|oks?|pes|pper)\b/gm,
   /\bThe\sHu(?:b|ddles|mp|ndred|nt\sClose|rdles|stings|tches)\b/gm,
 
   /\bThe\sImage\sCentre\b/gm,
@@ -233,7 +233,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sRai(?:l|lway(?:\sSidings)?|n)\b/gm,
   /\bThe\sRan(?:d|ge(?:rs)?|k)\b/gm,
   /\bThe\sRea(?:ch|ches|dings)\b/gm,
-  /\bThe\sRed(?:\sBrow|\sMaids['‘’`]?|dings|woods)\b/gm,
+  /\bThe\sRed(?:dings|woods)\b/gm,
   /\bThe\sRes(?:ervation|erve|ervoir|idences?|olution)\b/gm,
   /\bThe\sRe(?:cess|ctangle|gents|ndezvous|ntal\sRocks|nts|treat)\b/gm,
   /\bThe\sRi(?:b|dings?|des?|dges?|fles|ft|ses?|sing|verbank|vers)\b/gm,

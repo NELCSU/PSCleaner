@@ -37,7 +37,13 @@ const a: RegExp[] = [
   /\b[a-z]+zumab\b/gmi,
 
   // A
-  /\ba(?:limentum|loe\svera|mox?iclav|rrestin|ugment[iu]m|vigan)\b/gmi,
+  /\balimentum\b/gmi,
+  /\baloe\svera\b/gmi,
+  /\bamox?iclav\b/gmi,
+  /\barrestin\b/gmi,
+  /\baugment[iu]m\b/gmi,
+  /\bavigan\b/gmi,
+  /\basprin\b/gmi,
   //B
   /\bb(?:en[ao]dryl|onjela)\b/gmi,
   // C

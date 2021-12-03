@@ -17,6 +17,9 @@ const a: RegExp[] = [
   /\bboulder\sclimbing\b/gmi,
   /\bbrazilian\sju[\s-]?jitsu\b/gmi,
 
+  // C
+  /\bcriket\b/gmi,
+
   // D
   /\bdance\s(?:hall)\b/gmi,
   /\bdodge\sball\b/gmi,

@@ -218,6 +218,7 @@ const a: RegExp[] = [
 /\bkelso\s(?:and|\&)\sdistrict\b/gmi,
 
 // KI
+/\bkineton\s&\sred\shorse\b/gmi,
 /\bkitty['‘’`]?s\swent\b/gmi,
 /\bkitchen\sball\scopse\b/gmi,
 /\bking['‘’`]?s\schair\s(?:hill|plantation)\b/gmi,
@@ -445,6 +446,8 @@ const a: RegExp[] = [
 /\bleveller\s(?:end|road|way)\b/gmi,
 
 // LI
+/\blincoln\sred\sclose\b/gmi,
+/\blittle\sred\swood\b/gmi,
 /\blivera\stongue\b/gmi,
 /\blight\sfoot\slane\b/gmi,
 /\blittle\s(?:ball\scopse|week\s(?:close|gardens|road))\b/gmi,
@@ -497,6 +500,8 @@ const a: RegExp[] = [
 /\bLNG\sterminal\b/gmi,
 
 // LO
+/\blow\sred\scliff\b/gmi,
+/\blower\sred\shill\b/gmi,
 /\blong\stongue\sscrog\slane\b/gmi,
 /\blord['‘’`]?s\stongue\b/gmi,
 /\blon\sfel\b/gmi,

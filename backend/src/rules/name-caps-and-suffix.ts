@@ -100,6 +100,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 // BU
 "bump",
 "bumps",
+"bunk",
 "burner",
 
 // CA
@@ -133,6 +134,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 
 // CO
 "cobra",
+"coldwater",
 "colic",
 "collarbone",
 "communal",

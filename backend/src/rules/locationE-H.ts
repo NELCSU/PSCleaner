@@ -212,6 +212,7 @@ const a: RegExp[] = [
 /\bffos[\s-]y[\s-]go\b/gmi,
 
 // FI
+/\bfingland\sred\scleuch\b/gmi,
 /\bfisheries\scollege\b/gmi,
 /\bFirework\sClose\b/gm,
 /\bfield\sfoot\swood\b/gmi,
@@ -1036,6 +1037,7 @@ const a: RegExp[] = [
 /\bheroes\s(?:drive|walk)\b/gmi,
 
 // HI
+/\bhigh\sred\scliff\b/gmi,
 /\bhill\s(?:60\splantation|and\s(?:cakemore|moor)|avenue|bank(?:\s(?:close|coppice|drive|road|wood))?)\b/gmi,
 /\bhill\s(?:barn(?:\s(?:copse|covert|lane|view))?|barton(?:\s(close|copse|lane|road))?|beech\sroad)\b/gmi,
 /\bhill\s(?:belt|bottom(?:\s(?:close|plantation))?|brae|brook\scombe|brow\s(?:close|road)|burn)\b/gmi,
@@ -1263,6 +1265,8 @@ const a: RegExp[] = [
 /\bhustlers\s(?:grove|way)\b/gmi,
 
 // HY
+/\bhylton\sred\shouse\sprimary\sschool\b/gmi,
+/\bhylton\sred\shouse\b/gmi,
 /\bhydon['‘’`]?s\sball\b/gmi
 ];
 const LocationEHRegEx: Set<RegExp> = new Set();

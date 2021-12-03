@@ -279,6 +279,7 @@ const a: RegExp[] = [
   /\bparieto[\s-]+occipital\b/gmi,
   /\bPERLA\b/gm,
   /\bpearl\ssize\b/gmi,
+  /\bpost\singestion\b/gmi,
 
   // R
   /\bring\sfinger\b/gmi,

@@ -18469,6 +18469,7 @@ const a: string[] = [
 "moncier",
 "moncion",
 "moncish",
+"monck",
 "moncks",
 "monckton",
 "moncktons",

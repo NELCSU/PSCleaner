@@ -260,6 +260,7 @@ const a: RegExp[] = [
 /\baztec\swest\b/gmi,
 
 // BA
+/\bback\sred\sbank\b/gmi,
 /\bbanister\s(?:close|gardens|primary\sschool|road|street|way)\b/gmi,
 /\bbanister['‘’`]?s\spark\b/gmi,
 /\bbath\s(?:abbey|academy|and\snorth\seast\ssomerset|and\swessex\shouse|avenue|buildings|bus\sstation)\b/gmi,
@@ -620,6 +621,7 @@ const a: RegExp[] = [
 /\bbold\sventure\sway\b/gmi,
 
 // BR
+/\bbrickfields\sred\squarry\b/gmi,
 /\bbrunt\stongue\b/gmi,
 /\bbreconside\stongue\b/gmi,
 /\bbroad\stongue\swood\b/gmi,
@@ -804,6 +806,7 @@ const a: RegExp[] = [
 /\bc\sp\sschool\b/gmi,
 /\bC\s(?:Road|Street)\b/gm,
 // CA
+/\bcambian\sred\srose\sschool\b/gmi,
 /\bcapability\sway\b/gmi,
 /\bcanoe\s(?:close|lake)\b/gmi,
 /\bcaptain['‘’`]?s\stongue\b/gmi,
@@ -1073,6 +1076,13 @@ const a: RegExp[] = [
 /\b(?:golf|guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
+/\bcoldwater\slane\b/gmi,
+/\bcowarne\sred\sway\b/gmi,
+/\bcorner\s(?:bank\s(?:close|lane|plantation)?|brake|brook|close|clump|common\sroad|coppice|copse|crescent)\b/gmi,
+/\bcorner\s(?:croft|drove|farm(?:\s(?:close|drive|road))?|field|gardens|garth|green|ground|gully|hall(?:\savenue)?)\b/gmi,
+/\bcorner\s(?:hole|house(?:\sstreet)?|lane|mead|meadow|park|peaked\scopse|pin\sclose|plantations?|pool(?:\sfarm)?)\b/gmi,
+/\bcorner\s(?:road|row|street|wood)\b/gmi,
+/\bcorner['‘’`]?s\splantation\b/gmi,
 /\bcomb\sof\sthe\shead\b/gmi,
 /\bcove\sof\sthe\shead\b/gmi,
 /\bcow\s(?:\&\share\spassage|and\scalf|and\scalves|and\ssheep\sdrove|ark|bank(?:\swood)?)\b/gmi,
@@ -1330,6 +1340,8 @@ const a: RegExp[] = [
 /\b(?:gorse\scover\sroad|low\scover\swood|new\scover\scopse)\b/gmi,
 
 // CR
+/\bcrackley\s&\sred\sstreet\b/gmi,
+/\bcrumber\sred\shill\b/gmi,
 /\bcross\stongue\b/gmi,
 /\bcrow\sfoot(?:\sfold)?\b/gmi,
 /\bCrickies\sChair\b/gm,

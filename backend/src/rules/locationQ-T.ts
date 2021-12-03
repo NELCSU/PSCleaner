@@ -714,6 +714,7 @@ const a: RegExp[] = [
 /\bsize\s(?:house\s(?:place|road)|street)\b/gmi,
 
 // SK
+/\bskerry\sof\sred\sholm\b/gmi,
 /\bskerry\sof\sthe\shead\b/gmi,
 /\bskelbow\sfoot\swood\b/gmi,
 /\bskinner['‘’`]?s\sball(?:\scliff)?\b/gmi,
@@ -754,6 +755,7 @@ const a: RegExp[] = [
 /\bskegness\s(?:and|\&)\sdistrict\b/gmi,
 
 // SL
+/\bslack\sof\sred\sslinn\b/gmi,
 /\bslochd\snam\sball\b/gmi,
 /\bSl(?:ate|eet)\sFell\b/gm,
 /\bsliven\sclod\sroad\b/gmi,
@@ -996,6 +998,7 @@ const a: RegExp[] = [
 /\bsquashes\swood\b/gmi,
 
 // ST
+/\bstarry\sred\scraig\b/gmi,
 /\bstation\sface\swood\b/gmi,
 /\bstrath\stongue\b/gmi,
 /\bst\sjoseph['‘’`]?s\sin\sthe\spark\sschool\b/gmi,
@@ -1175,6 +1178,7 @@ const a: RegExp[] = [
 /\bstylers\sway\b/gmi,
 
 // SU
+/\bsunset\sred\smeadow\b/gmi,
 /\bsunnyside\scut\b/gmi,
 /\bsub-station\sroad\b/gmi,
 /\bgarden\ssuburb\b/gmi,
@@ -1259,6 +1263,7 @@ const a: RegExp[] = [
 /\bsynagogue\s(?:lane|place)\b/gmi,
 
 // TA
+/\btalke\sand\sred\sstreet\b/gmi,
 /\btailing\slagoon\b/gmi,
 /\btan-y-cut\swood\b/gmi,
 /\btaster['‘’`]?s\swood\b/gmi,
@@ -1377,6 +1382,8 @@ const a: RegExp[] = [
 /\btextile\s(?:close|drive|street|way)\b/gmi,
 
 // TH
+/\bthe\sbunk\sline\b/gmi,
+/\bthe\sred\s(?:brow|causeway|cuillin|house\snursing\shome|house|maids['‘’`]?\s(?:junior\sschool|school)|stone|way)\b/gmi,
 /\bthe\spony\sfield\b/gmi,
 /\bthe\srest\sroad\b/gmi,
 /\bthe\sladder\s(?:road|school)\b/gmi,
