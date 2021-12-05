@@ -36,7 +36,7 @@ const a: RegExp[] = [
   // M
   /\bmar(?:sh|ti)al\sarts?\b/gmi,
   /\b(?:muddy|playing)\sfields?\b/gmi,
-  /\bmonkey\spole\b/gmi,
+  /\bmonkey\s(?:bars?|pole)\b/gmi,
 
   // P
   /\bpaint\sballing\b/gmi,
@@ -60,7 +60,7 @@ const a: RegExp[] = [
   /\btable\stennis\b/gmi,
   /\btenniss\b/gmi,
   /\btennis\srackett?\b/gmi,
-  /\btae\s?kwon\s?do\b/gmi,
+  /\btae\s?kw[ao]n\s?do\b/gmi,
   /\bthai\sboxing\b/gmi,
   /\btripple\sjump\b/gmi,
 ];

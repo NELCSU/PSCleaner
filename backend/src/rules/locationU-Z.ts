@@ -160,6 +160,10 @@ const a: RegExp[] = [
 /\bvoyagers\sclose\b/gmi,
 
 // WA
+/\bway\s(?:bank\slane|close\splantation|copse|croft|down|elliott['‘’`]?s\scopse|field(?:\sclose)?)\b/gmi,
+/\bway\s(?:gill\s(?:moor\send\splantation|plantation|wood)|grove|head\s(?:drove|hill)|lane)\b/gmi,
+/\bway\s(?:moss|plantation|stone\sedge|village|volante|wick|wood)\b/gmi,
+/\bway['‘’`]?s\s(?:green|hill|lane)\b/gmi,
 /\bwarning\stongue\slane\b/gmi,
 /\bwater\s(?:and\swall\splantation|ark\s(?:foss|pool)|avens\s(?:close|way)|bag\sbank)\b/gmi,
 /\bwater\s(?:brook\s(?:lane|view)|carn\sdrive|close\splantation|copse|cove|crag|croft)\b/gmi,
@@ -409,7 +413,7 @@ const a: RegExp[] = [
 /\bwife['‘’`]?s\s(?:geo|plantation|water)\b/gmi,
 /\bwiggles\slane\b/gmi,
 /\bwigwam\s(?:close|grove|hill|lane|paddocks|wood)\b/gmi,
-/\bwildlife\s(?:and\scountry\spark|walk|way)\b/gmi,
+/\bwildlife\s(?:walk|way)\b/gmi,
 /\bwigeon\s(?:approach|close|drive|grove|lane|place|road|row|walk|way)\b/gmi,
 /\bwindfall\s(?:court|way|wood)\b/gmi,
 /\bwindy\swizen\b/gmi,

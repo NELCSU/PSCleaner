@@ -736,6 +736,10 @@ const a: RegExp[] = [
 /\bplessey\sold\swagonway\b/gmi,
 
 // PO
+/\bpot\s(?:and\sford\sfishing|bank|bottom|brinks\smoor|close\spasture|common|green|haw\shill)\b/gmi,
+/\bpot\s(?:hill(?:\ssquare)?|house(?:\s(?:hill|lane|wood))?|howie|inn\sclose|keello)\b/gmi,
+/\bpot\s(?:kiln\s(?:chase|lane|primary|road|wood)|kilns|lands|lane|law|loch)\b/gmi,
+/\bpot\s(?:of\s(?:dunbuy|peterkirk)|ridings\swood|scar|still\sway|stream|sunken|water|wood)\b/gmi,
 /\bpony\s(?:chase|coppice|drive|farm|road|wood)\b/gmi,
 /\bpony['‘’`]?s\smoor\splantation\b/gmi,
 /\bpond\sfoot\swood\b/gmi,

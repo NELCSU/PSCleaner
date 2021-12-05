@@ -73,11 +73,11 @@ const a: RegExp[] = [
 /\b(?:little\seight\sacre\s(?:copse|plantation)|miller['‘’`]?s\seight\sacres|ninety\seight\splantation)\b/gmi,
 
 // EL
+/\belbow\s(?:bank|belt|corner|field|lane|plantation|scar|spinney|street|wood(?:\sdrive)?)\b/gmi,
 /\belizabeth\ssparks\sclose\b/gmi,
 /\belderberry\s(?:bank|close|cottages|court|crescent|drive|gardens|lane|mews|place|road|view|walk|way)\b/gmi,
 /\belectric\s(?:avenue|crescent|lane|parade|station\sroad|street|way|wharf)\b/gmi,
 /\beleven\s(?:mile\s(?:lane|road)|oak\swood|street)\b/gmi,
-/\bEleven\sDoors\b/gm,
 /\belephant\s(?:\&|and)\scastle\b/gmi,
 /\belephant\s(?:gully|lane|road|rock)\b/gmi,
 /\belms\sprimary\b/gmi,
@@ -91,7 +91,7 @@ const a: RegExp[] = [
 
 // EN
 /\benthorpe\scutting\b/gmi,
-/\benglishman['‘’`]?s\scut\b/gmi,
+/\benglishman['‘’`]?s\s(?:cut|geo)\b/gmi,
 /\bEnter\sLane\b/gm,
 /\bendless\s(?:copse|flat\splantation|street)\b/gmi,
 /\bendowed\s(?:church|(?:first\s|primary\s)?school)\b/gmi,
@@ -212,6 +212,7 @@ const a: RegExp[] = [
 /\bffos[\s-]y[\s-]go\b/gmi,
 
 // FI
+/\bfiddler['‘’`]?s\selbow\b/gmi,
 /\bfingland\sred\scleuch\b/gmi,
 /\bfisheries\scollege\b/gmi,
 /\bFirework\sClose\b/gm,
@@ -245,6 +246,7 @@ const a: RegExp[] = [
 /\bflue\s(?:geos|taing)\b/gmi,
 
 // FO
+/\bfore\sdoors\splantation\b/gmi,
 /\bfour\swent\sways\sservice\sarea\b/gmi,
 /\bfo(?:lly|xburrow|)\shang\b/gmi,
 /\bfoot\s(?:avenue|cove|drove|hill\sspinney|lane|loup|meadow|mill\screscent)\b/gmi,
@@ -367,7 +369,7 @@ const a: RegExp[] = [
 /\bBow\sFiddle\b/gm,
 /\b(?:cat\sand\sfiddle\slane|rhos\sfiddle(?:\spool)?)\b/gmi,
 /\bfiddle\s(?:bridge\slane|clough|clump|copse|covert|hanger|hill|lane|neck\s(?:lane|pond)|plantation|spinney|street|wood)\b/gmi,
-/\bfiddlers['‘’`]?\s(?:bank|close|drive|elbow|ferry|field|flat|fold\scourt|folly|green|hamlet|hill|lane|moss|plantation|wood\slane)\b/gmi,
+/\bfiddlers['‘’`]?\s(?:bank|close|drive|ferry|field|flat|fold\scourt|folly|green|hamlet|hill|lane|moss|plantation|wood\slane)\b/gmi,
 /\b(?:fifteen\sacre\s(?:copse|plantation|wood)|(?:close|road)\sfifteen|fifteen\strees)\b/gmi,
 /\bfifty\s(?:acre\s(?:allotment|plantation|spinney|wood)|drove|pitches\s(?:place|road|way)|rigs\splantation|road|six\sacre\scovert)\b/gmi,
 /\b(?:The\s)?Fifty\sAcres\b/gm,
@@ -752,6 +754,7 @@ const a: RegExp[] = [
 /\bgoole\s(?:and|\&)\sdistrict\b/gmi,
 
 // GR
+/\bground\s(?:corner|lane|transport\sinterchange|wyke(?:\shole)?)\b/gmi,
 /\bgreengill\stongue\b/gmi,
 /\bgreat\s(?:ferny\sball|tongue)\b/gmi,
 /\bGrey\sChair\b/gm,
@@ -895,6 +898,7 @@ const a: RegExp[] = [
 /\bgypsum\s(?:close|way)\b/gmi,
 
 // HA
+/\bhaa\sdoors\so['‘’`f]?\sholla\b/gmi,
 /\bhammocks\sdrove\b/gmi,
 /\bhammock\sroad\b/gmi,
 /\bhazel\sgrove\sfoot\b/gmi,

@@ -83,7 +83,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sDa(?:ffodils|iry|rk\sShore|shes)\b/gm,
   /\bThe\sDe(?:af\sAcademy|als|anery|ep|er\sLeap)\b/gm,
   /\bThe\sDi(?:al|sputes|strict\sChurch|tch)\b/gm,
-  /\bThe\sDo(?:cks?|ors|ves|wns?|wns\sBrake)\b/gm,
+  /\bThe\sDo(?:cks?|ves|wns?|wns\sBrake)\b/gm,
   /\bThe\sDr(?:ain|ays|ift|iftway|ive|ums?)\b/gm,
   /\bThe\sDu(?:ck\sLagoon|e)\b/gm,
   /\bThe\sDy(?:es|ke\sForest|kes)\b/gm,
@@ -91,7 +91,7 @@ export const LocationTheRegEx: RegExp[] = [
   // E
   /\bThe\sEa(?:ger|rldoms|rls|rthquake)\b/gm,
   /\bThe\sEl(?:ders|even\sAcre|lipse|ms)\b/gm,
-  /\bThe\sEn(?:d|gine(?:\sGreen)?|try)\b/gm,
+  /\bThe\sEn(?:gine(?:\sGreen)?|try)\b/gm,
   /\bThe\sEx(?:change|pressway)\b/gm,
   /\bThe\sE(?:-Act|dge|ducation\sVillage|ight\sAcres|piphany|yes)\b/gm,
   

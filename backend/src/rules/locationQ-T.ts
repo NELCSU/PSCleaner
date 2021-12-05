@@ -37,6 +37,7 @@ const a: RegExp[] = [
 /\bquilters\s(?:close|drive|(?:infant|junior)\sschool|place|straight|way|wood|yard)\b/gmi,
 
 // RA
+/\bradley\slarge\swood\b/gmi,
 /\brant\s(?:meadow|score)\b/gmi,
 /\bray\stongue\b/gmi,
 /\bramsey\sforty\sfoot\b/gmi,
@@ -1382,7 +1383,11 @@ const a: RegExp[] = [
 /\btethering\s(?:drove|lane)\b/gmi,
 /\btextile\s(?:close|drive|street|way)\b/gmi,
 
+// TG
+/\btlg\snewcastle\b/gmi,
+
 // TH
+/\bthe\sdevil['‘’`]?s\s(?:barn|cheesewring|dingle|dressing\sroom|elbow|highway|point|punchbowl)\b/gmi,
 /\bthe\sbunk\sline\b/gmi,
 /\bthe\sred\s(?:brow|causeway|cuillin|house\snursing\shome|house|maids['‘’`]?\s(?:junior\sschool|school)|stone|way)\b/gmi,
 /\bthe\spony\sfield\b/gmi,
@@ -1449,7 +1454,7 @@ const a: RegExp[] = [
 /\b(?:Avenue|Campus|Close)\sThree\b/gm,
 /\bthree\shorse\s?shoes\s(?:close|hill|lane|road|walk)\b/gmi,
 /\bThree\s(?:Acres|Ashes|Beaches|Bridges|Brothers|Burrows|Chimneys|Cocks|Corners|Creeks|Crosses)\b/gm,
-/\bThree\s(?:Doors|Fields|Fingers|Gates|Hammers|Holes|Horse\sShoes|Households|Kings|Lakes|Locks)\b/gm,
+/\bThree\s(?:Fields|Fingers|Gates|Hammers|Holes|Horse\sShoes|Households|Kings|Lakes|Locks)\b/gm,
 /\bThree\s(?:Meadows|Mills|Moors|Oaks|Owls|Peaks|Ponds|Pools|Rivers|Rocks|Stiles|Stones|Streams|Tarns)\b/gm,
 /\bThree\s(?:Towers|Towns|Valleys|Waters|Ways|Wells)\b/gm,
 /\bthree\sacre\s(?:avenue|belt|close|clough|clump|copse|covert|drive|lane|plantation|road|row|spinney|wood)\b/gmi,
@@ -1555,6 +1560,12 @@ const a: RegExp[] = [
 /\btinkers['‘’`]?\s(?:coppice|copse|crescent|cross|drive|farm\s(?:grove|road))\b/gmi,
 /\btinkers['‘’`]?\s(?:field|green(?:\sroad)?|hill|hole|mead|way|wood(?:\sroad)?)\b/gmi,
 /\btiverton\s(?:and|\&)\sdistrict\b/gmi,
+
+// TL
+/\btlc\scollege\b/gmi,
+
+// TM
+/\btmp\scollege\b/gmi,
 
 // TO
 /\btoo\sof\sthe\shead\b/gmi,
@@ -1733,6 +1744,7 @@ const a: RegExp[] = [
 /\bturriff\s(?:and|\&)\sdistrict\b/gmi,
 
 // TW
+/\btwentytwo\sacre\splantation\b/gmi,
 /\btwo\swaters\sfoot\b/gmi,
 /\btwo\sball\slonnen\b/gmi,
 /\btwemlows\sbig\swood\b/gmi,

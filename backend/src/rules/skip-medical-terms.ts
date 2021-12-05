@@ -30,6 +30,7 @@ const a: RegExp[] = [
   /\bantrum\sof\shighmore\b/gmi,
   /\bangle\sof\slouis\b/gmi,
   /\bampulla\sof\svater\b/gmi,
+  /\barhtogrypoci\b/gmi,
   
   // B
   /\bbatson['‘’`s]{0,2}\splexus\b/gmi,
@@ -57,6 +58,7 @@ const a: RegExp[] = [
   /\bbilharzia\b/gmi,
   /\bbuddy\sstrap\w*\b/gmi,
   /\bburnt\s(?:bottom|top)\b/gmi,
+  /\bback\spain\b/gmi,
   
   // C
   /\bc(?:ajal(?:[\s-]retzius)?|lara)\scells?\b/gmi,
@@ -194,7 +196,7 @@ const a: RegExp[] = [
   /\blockwood['‘’`s]{0,2}\sligaments?\b/gmi,
   /\blittr[eé]['‘’`s]{0,2}\sglands?\b/gmi,
   /\blissauer['‘’`s]{0,2}\stract\b/gmi,
-  /\blittle\s(?:finger|toe)\b/gmi,
+  /\blitt?le\s(?:finger|toe)\b/gmi,
   /\blichenoid\skeratosis?\b/gmi,
   /\bluschka\sforamina\b/gmi,
   /\bligaments?\sof\s(?:cooper|lockwood|poupart|struthers|treves|treitz)\b/gmi,
@@ -237,7 +239,7 @@ const a: RegExp[] = [
   /\bm(?:alpighian|eissner)['‘’`s]{0,2}\scorpuscles?\b/gmi,
 
   // N
-  /\bN\/V\sintact\b/gmi,
+  /\bN\/V\s(?:intact|observations)\b/gmi,
   /\bnpmh\b/gmi,
   /\bneisseria\smeningitidis\b/gmi,
   /\bng\s(?:feed|tube)s?\b/gmi,
@@ -389,7 +391,7 @@ const a: RegExp[] = [
   /\bwolf[ef][\s-]+parkin?son(?:[\s-]+white)?\b/gmi,
   /\bwaldeyer['‘’`s]{0,2}\stonsillar\b/gmi,
   /\bweibel[\s–]palade\sbody\b/gmi,
-  /\bwell\schild\b/gmi,
+  /\bwell\s(?:baby|child)\b/gmi,
   /\bwharton['‘’`s]{0,2}\sjelly\b/gmi,
   /\bwhite\scoating\son\b/gmi,
   /\bwhite\slines\sof\stoldt\b/gmi,

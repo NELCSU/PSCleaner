@@ -294,6 +294,7 @@ const a: RegExp[] = [
 
 /\bl\sspinney\b/gmi,
 // LA
+/\blarge\s(?:avenue|bar\shill|burra\sgeo|coppice|copse|covert|cruban|half\smoon\splantation|osier\sbed)\b/gmi,
 /\blang\sgeo\sof\sthe\shead\b/gmi,
 /\bladder\s(?:chine|cleuch|court|creek|field|hills?|law|rock)\b/gmi,
 /\bladder['‘’`]?s\scoppice\b/gmi,

@@ -44,34 +44,49 @@ const a: RegExp[] = [
   /\baugment[iu]m\b/gmi,
   /\bavigan\b/gmi,
   /\basprin\b/gmi,
+
   //B
   /\bb(?:en[ao]dryl|onjela)\b/gmi,
+  /\bbepanthan\b/gmi,
+
   // C
   /\bc(?:al?pol|efuroxime|etiri?zine|larithro|odiene|oronavac|orazol|urevac)\b/gmi,
+
   // D
   /\bdi(?:clofenac|hydrocodiene|oral[ty]{2}e)\b/gmi,
+
   // E
   /\bepi\spen\b/gmi,
+
   // F
   /\bf(?:avipi?r[ai]vir|lu(?:clox|ox[ei]tie?ne))\b/gmi,
   /\bfrank\shematuria\b/gmi,
+  
   // L
   /\blopinavir\b/gmi,
+
   // M
   /\bmolnupiravir\b/gmi,
   /\bm(?:anuka\shoney|ethotrexate|idaz|oderna)\b/gmi,
+
   // N
   /\bnicorette\b/gmi,
+
   // O
   /\bomeprazoel\b/gmi,
+
   // P
   /\bprozac\b/gmi,
+
   // R
   /\bremdesivir\b/gmi,
+
   // S
   /\bsinovac\b/gmi,
+
   // T
   /\btr(?:amadol|imethopr[io]m|uxima)\b/gmi,
+
   // V
   /\bviagra\b/gmi
 ];

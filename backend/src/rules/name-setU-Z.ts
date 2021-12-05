@@ -11766,6 +11766,7 @@ const a: string[] = [
 "wentland",
 "wentler",
 "wentling",
+"wentloog",
 "wentlows",
 "wentnor",
 "wents",

@@ -130,7 +130,7 @@ const a: RegExp[] = [
   /\bhard\sedge\b/gmi,
   /\bhigh\scommission\b/gmi,
   /\bhong\skong\b/gmi,
-  /\bhow\s(?:far|long)\b/gmi,
+  /\bhow\s(?:far|fell|long)\b/gmi,
 
   // I
   /\b(?:inner|lower|outer|upper)\s(?:inner|lower|outer|upper)\b/gmi,
@@ -246,7 +246,7 @@ const a: RegExp[] = [
   /\bupper\squadrant\b/gmi,
   /\bUncle\sTom\b/gm,
   /\b[Üüu]ber\salles\b/gmi,
-  /\bultra\s(?:high|low)\b/gmi,
+  /\bultra\s(?:high|low|non)\b/gmi,
   /\bunder\slevel\b/gmi,
   /\bwake\sup\b/gmi,
   /\bwilly[\s-]nilly\b/gmi,

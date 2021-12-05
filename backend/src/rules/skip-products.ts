@@ -15,6 +15,7 @@ const a: RegExp[] = [
   /\bariel\s(?:non|(?:2|3|two|three)[\s-]in[\s-](?:1|one)|liquitab|tablets?|washing)\b/gmi,
   /\baveeno\smoisturiser\b/gmi,
   /\bavon\sair\b/gmi,
+  /\bairwick\b/gmi,
   
   // B
   /\bbali\sbreeze\b/gmi,
@@ -31,6 +32,7 @@ const a: RegExp[] = [
   /\bbottom\ssteps?\b/gmi,
   /\bbumbo\b/gmi,
   /\bbazuka\sgell?\b/gmi,
+  /\bblack\stea\b/gmi,
 
   // C
   /\bcar\sseat\b/gmi,
@@ -52,6 +54,8 @@ const a: RegExp[] = [
   /\bdyson\s(?:appliance|brand|hoover|vacuum)s?\b/gmi,
   /\bdog\scage\b/gmi,
   /\bdog\sbite\b/gmi,
+  /\bduplo\b/gmi,
+  /\bdinn?ing\sroom\b/gmi,
 
   // E
   /\beau\sde\scologne\b/gmi,
@@ -61,7 +65,7 @@ const a: RegExp[] = [
   // F
   /\bfairy\snon[\s-]bio\b/gmi,
   /\bfishing\shook\b/gmi,
-  /\bfrench\sfries\b/gmi,
+  /\bfrench\s(?:fries|fry|windows?)\b/gmi,
 
   // G
   /\bgas\spipe\b/gmi,
@@ -71,7 +75,7 @@ const a: RegExp[] = [
   /\bhover\sboard\b/gmi,
   /\bhula\shoop\b/gmi,
   /\bhair\sdryer\b/gmi,
-  /\b(?:by|with)(?:\sa)?\shammer\b/gmi,
+  /\b(?:by|with)(?:\sa)?\shamm[ae]r\b/gmi,
   /\bhand\s(?:rail|saw)\b/gmi,
   /\bhome\s(?:garden|stairs)\b/gmi,
   /\bhorse\sbox\b/gmi,
@@ -113,6 +117,7 @@ const a: RegExp[] = [
   // R
   /\brocking\shorse\b/gmi,
   /\brusty\snail\b/gmi,
+  /\bround\scutter\b/gmi,
 
   // S
   /\bs(?:tanley|wiss\sarmy)\sknife\b/gmi,
@@ -121,6 +126,7 @@ const a: RegExp[] = [
   /\bsma\sgold\b/gmi,
   /\bstair\sgate\b/gmi,
   /\bspace\shopper\b/gmi,
+  /\b(?:off|on|riding)\ssedgeway\b/gmi,
 
   // T
   /\btissue\spap?per\b/gmi,

@@ -53,6 +53,13 @@ const a: RegExp[] = [
   /(?<=(?:SG4|LD1|LL19|valley|wetland).{2,10})\bbottom\b/gi,
   /\bbottom\b(?=.{2,10}(?:SG4|LD1|LL19|valley|wetland))/gi,
 
+  // BOX
+  /(?<=(?:SN13|GL6|SA15|village).{2,10})\bbox\b/gi,
+  /\bbox\b(?=.{2,10}(?:SN13|GL6|SA15|village))/gi,
+  /[\d-]+box['‘’`]?s\scorner\b/gi,
+  /(?<=(?:EX18).{2,10})\bbox['‘’`]?s\scorner\b/gi,
+  /\bbox['‘’`]?s\scorner\b(?=.{2,10}(?:EX18))/gi,
+
   // CARRIER
   /[\d-]+carrier\sclose\b/gi,
   /\bcarrier\sclose\b(?=.{2,10}(?:PE2|peterborough))/gi,
@@ -111,6 +118,20 @@ const a: RegExp[] = [
   /(?<=(?:BD23|DG14|DH3|G84|GL5|KA16|KA4|LS29|NR21|PR2|RG27|RG9|SL4|ST5|TD8|WD4).{2,10})\bdark\swood\b/gi,
   /\bdark\swood\b(?=.{2,10}(?:BD23|DG14|DH3|G84|GL5|KA16|KA4|LS29|NR21|PR2|RG27|RG9|SL4|ST5|TD8|WD4))/gi,
 
+  // DOOR
+  /[\d-]+eleven\sdoors\b/gi,
+  /(?<=(?:PL25).{2,10})\beleven\sdoors\b/gi,
+  /\beleven\sdoors\b(?=.{2,10}(?:PL25))/gi,
+  /(?<=(?:KW17).{2,10})\bopen\sdoors\b/gi,
+  /\bopen\sdoors\b(?=.{2,10}(?:KW17))/gi,
+  /[\d-]+south\sdoors\b/gi,
+  /(?<=(?:EH32).{2,10})\bsouth\sdoors\b/gi,
+  /\bsouth\sdoors\b(?=.{2,10}(?:EH32))/gi,
+  /(?<=(?:TD5).{2,10})\bthe\sdoors\b/gi,
+  /\bthe\sdoors\b(?=.{2,10}(?:TD5))/gi,
+  /(?<=(?:SA62|island).{2,10})\bthree\sdoors\b/gi,
+  /\bthree\sdoors\b(?=.{2,10}(?:SA62|island))/gi,
+
   // DOWN
   /(?<=EX12.{2,10})\bdown\b/gi,
   /\bdown\b(?=.{2,10}EX12)/gi,
@@ -146,6 +167,15 @@ const a: RegExp[] = [
   /(?<=(?:EN6|cuffley|HP1|hemel|BN43|shoreham|PO4|southsea|SS8|canvey|LE7|leic).{2,10})\bthe\sdriveway\b/gi,
   /\bthe\sdriveway\b(?=.{2,10}(?:EN6|cuffley|HP1|hemel|BN43|shoreham|PO4|southsea|SS8|canvey|LE7|leic))/gi,
 
+  // ELBOW
+  /(?<=(?:DD7).{2,10})\belbow\b/gi,
+  /\belbow\b(?=.{2,10}(?:DD7))/gi,
+  
+  // END
+  /[\d-]+the\send\b/gi,
+  /(?<=(?:DE15).{2,10})\bthe\send\b/gi,
+  /\bthe\send\b(?=.{2,10}(?:DE15))/gi,
+  
   // FELL
   /[\d-]+\sfell\s(?:close|drive|end|foot|head|hill|road|side|view|walk|way|wood)\b/gmi,
   /\bray\sfell\b(?=.{2,10}(?:NE19|NE48))/gi,
@@ -327,6 +357,13 @@ const a: RegExp[] = [
   // LAID
   /(?<=(?:IV27|TS10).{2,10})\blaid\b/gi,
   /\blaid\b(?=.{2,10}(?:IV27|TS10))/gi,
+
+  // LARGE
+  /[\d-]+large\sacres\b/gi,
+  /(?<=(?:PO20).{2,10})\blarge\sacres\b/gi,
+  /\blarge\sacres\b(?=.{2,10}(?:PO20))/gi,
+  /(?<=(?:YO14).{2,10})\blarge\srocks\b/gi,
+  /\blarge\srocks\b(?=.{2,10}(?:YO14))/gi,
 
   // OTTER
   /(?<=(?:KW17|ZE[23]).{2,10})\botters?\shad\b/gi,
@@ -656,6 +693,15 @@ const a: RegExp[] = [
   /[\d-]+the\sway\b/gi,
   /\bthe\sway\b(?=.{2,20}(?:LA3|RH2|BN16|SG8))/gi,
   /(?<=(?:LA3|RH2|BN16|SG8).{2,25})\bthe\sway\b/gi,
+  /\bway\sdown\b(?=.{2,20}(?:TQ13))/gi,
+  /(?<=(?:TQ13).{2,25})\bway\sdown\b/gi,
+  /\bway\b(?=.{2,20}(?:CT12|hamlet))/gi,
+  /(?<=(?:CT12|hamlet).{2,25})\bway\b/gi,
+  /[\d-]+way\sclose\b/gi,
+  /\bway\sclose\b(?=.{2,20}(?:BA4))/gi,
+  /(?<=(?:BA4).{2,25})\bway\sclose\b/gi,
+  /\bway\sfoot\b(?=.{2,20}(?:NE64|YO22))/gi,
+  /(?<=(?:NE64|YO22).{2,25})\bway\sfoot\b/gi,
 
   // WEEK
   /\bweek\b(?=.{2,20}(?:TQ9|EX18|EX20|EX37|village|hamlet))/gi,
