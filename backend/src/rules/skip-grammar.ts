@@ -128,8 +128,9 @@ const a: RegExp[] = [
   /\bHopes\s(?:for|that)\b/gm,
   /\bhunker\sdown\b/gmi,
   /\bhard\sedge\b/gmi,
-  /\b(?:high\scommission|hong\skong|community\shospital)\b/gmi,
-  /\bhow\slong\b/gmi,
+  /\bhigh\scommission\b/gmi,
+  /\bhong\skong\b/gmi,
+  /\bhow\s(?:far|long)\b/gmi,
 
   // I
   /\b(?:inner|lower|outer|upper)\s(?:inner|lower|outer|upper)\b/gmi,

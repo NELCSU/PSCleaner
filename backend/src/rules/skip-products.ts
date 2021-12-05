@@ -14,6 +14,7 @@ const a: RegExp[] = [
   /\baqua\s?bead\b/gmi,
   /\bariel\s(?:non|(?:2|3|two|three)[\s-]in[\s-](?:1|one)|liquitab|tablets?|washing)\b/gmi,
   /\baveeno\smoisturiser\b/gmi,
+  /\bavon\sair\b/gmi,
   
   // B
   /\bbali\sbreeze\b/gmi,
@@ -74,6 +75,7 @@ const a: RegExp[] = [
   /\bhand\s(?:rail|saw)\b/gmi,
   /\bhome\s(?:garden|stairs)\b/gmi,
   /\bhorse\sbox\b/gmi,
+  /\bhot\scoffee?\b/gmi,
 
   // J
   /\b[Jj]erry\scans?\b/gm,
@@ -86,6 +88,7 @@ const a: RegExp[] = [
   /\bthe\skit\b/gmi,
 
   // L
+  /\blawn\smower\b/gmi,
 
   // M
   /\bmoses\s(?:basket|blanket)\b/gmi,
@@ -104,6 +107,8 @@ const a: RegExp[] = [
   /\bpranaro\sdiffuser\b/gmi,
   /\bplaydoh\b/gmi,
   /\bpu[cs]h\s?chair\b/gmi,
+  /\bpateo\sdoor\b/gmi,
+  /\ba\spennie\b/gmi,
 
   // R
   /\brocking\shorse\b/gmi,
@@ -115,13 +120,16 @@ const a: RegExp[] = [
   /\bsewing\s(?:kit|machine)\b/gmi,
   /\bsma\sgold\b/gmi,
   /\bstair\sgate\b/gmi,
+  /\bspace\shopper\b/gmi,
 
   // T
+  /\btissue\spap?per\b/gmi,
   /\bteddy\sbear\b/gmi,
   /\btic\stac\b/gmi,
   /\btoliet\b/gmi,
   /\btik\stok\b/gmi,
   /\btop\sof(?:\sthe)?\sstairs\b/gmi,
+  /\btop\sbunk\b/gmi,
   /\btrampol(?:ine)?\b/gmi,
   /\btrump\scard\b/gmi,
   /\bT\.?V\.?\s(?:stand|unit)\b/gmi,

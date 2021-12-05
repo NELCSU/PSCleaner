@@ -81,8 +81,15 @@ const a: RegExp[] = [
   /(?<=(?:RH14).{2,10})\bcousins['‘’`]?s\scopse\b/gi,
   /\bcousins['‘’`]?s\scopse\b(?=.{2,10}(?:RH14))/gi,
 
+  // CUP
+  /(?<=(?:GL13|island).{2,10})\bthe\scup\b/gi,
+  /\bthe\scup\b(?=.{2,10}(?:GL13|island))/gi,
+  
   // CUT
   /\bcut\send\b(?=.{2,10}(?:CT7|lake))/gi,
+  /[\d-]+the\scut\b/gi,
+  /(?<=(?:CT15|DG8|G71|ME7|PO31|RH14|SA3|SE1|SG12|TA6|TN27|WF4|YO30|YO41).{2,10})\bthe\scut\b/gi,
+  /\bthe\scut\b(?=.{2,10}(?:CT15|DG8|G71|ME7|PO31|RH14|SA3|SE1|SG12|TA6|TN27|WF4|YO30|YO41))/gi,
   
   // DARK
   /\bdark\sbelt\b(?=.{2,10}IP22)/gi,
@@ -151,7 +158,14 @@ const a: RegExp[] = [
   /[\d-]+ring\sfence\b/gi,
   /(?<=(?:GL15|LE12).{2,10})\bring\sfence\b/gi,
   /\bring\sfence\b(?=.{2,10}(?:GL15|LE12))/gi,
-  
+
+  // FIELD
+  /[\d-]+the\sfields?\b/gi,
+  /(?<=(?:LA12|WA8|TR20|OX13|LE14|NG34|NN14).{2,10})\bthe\sfield\b/gi,
+  /\bthe\sfield\b(?=.{2,10}(?:LA12|WA8|TR20|OX13|LE14|NG34|NN14))/gi,
+  /(?<=(?:BA12|BA22|BS22|CW5|DE4|LN4|ME3|NG21|NP20|NR16|NR31|NR9|PR7|SN3|WF3|WN[26]|WV8).{2,10})\bthe\sfields\b/gi,
+  /\bthe\sfields\b(?=.{2,10}(?:BA12|BA22|BS22|CW5|DE4|LN4|ME3|NG21|NP20|NR16|NR31|NR9|PR7|SN3|WF3|WN[26]|WV8))/gi,
+
   // FLOOR
   /\bthe\sfloor\b(?=.{2,10}(?:KW17))/gi,
   /(?<=(?:KW17).{2,10})\bthe\sfloor\b/gi,
@@ -293,6 +307,9 @@ const a: RegExp[] = [
   /[\d-]+squirrel['‘’`]?s\sjump\b/gi,
   /(?<=(?:SK9|alderley).{2,10})\bsquirrel['‘’`]?s\sjump\b/gi,
   /\bsquirrel['‘’`]?s\sjump\b(?=.{2,10}(?:SK9|alderley))/gi,
+  /[\d-]+the\sjumps\b/gi,
+  /(?<=(?:MK43).{2,10})\bthe\sjumps\b/gi,
+  /\bthe\sjumps\b(?=.{2,10}(?:MK43))/gi,
 
   // JACOB
   /[\d-]+jacob['‘’`]?s\sladder\b/gi,
@@ -512,6 +529,10 @@ const a: RegExp[] = [
   /(?<=(?:ME4).{2,25})\bnew\sstairs\b/gi,
   /\bold\sstairs\b(?=.{2,20}(?:YO15|cliff))/gi,
   /(?<=(?:YO15|cliff).{2,25})\bold\sstairs\b/gi,
+
+  // STICK
+  /\bthe\sstick\b(?=.{2,20}(?:KW17))/gi,
+  /(?<=(?:KW17).{2,25})\bthe\sstick\b/gi,
 
   // SWALLOW
   /\bswallow\b(?=.{2,20}(?:LN7|village))/gi,

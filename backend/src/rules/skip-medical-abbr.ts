@@ -40,6 +40,7 @@ const a: RegExp[] = [
   /\bmedevac\b/gmi,
   /\bMUA\b/gm,
   /\bNIC\b/gm,
+  /\bNLOC\b/gm,
   /\bNSTEMI\b/gm,
   /\bortho\b/gmi,
   /\PERLA\b/gm,

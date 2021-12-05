@@ -3414,7 +3414,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "kales",            // name
 "karaoke",          // name
 "karma",            // name & placename
-"kart",             // name
 "keel",             // name & placenames (14)
 "keels",            // name & standalone
 "keeper",           // name & placenames (27)
@@ -3779,7 +3778,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "legend",           // name & placename
 "legions",          // name & placename
 "legos",            // name
-"legs",             // name & placenames (4)
 "leisure",          // name & placenames (10)
 "lent",             // name & standalone & placenames (7)
 "lenten",           // name & placenames (4)

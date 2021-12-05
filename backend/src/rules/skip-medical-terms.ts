@@ -118,6 +118,7 @@ const a: RegExp[] = [
   /\bfracture\sof\stalus\b/gmi,
   /\bflu\svacc(?:ine|ination)?\b/gmi,
   /\bfirst\saider\b/gmi,
+  /\bfall\shead\b/gmi,
 
   // G
   /\bgallaudet['‘’`s]{0,2}\sfascia\b/gmi,
@@ -376,6 +377,7 @@ const a: RegExp[] = [
   /\bvirchow['‘’`s]{0,2}\snode\b/gmi,
   /\bvomm?itt?\b/gmi,
   /\bvulva\b/gmi,
+  /\bvascula\b/gmi,
   
   // W
   /\bweber\stype\s[a-z]['‘’`s]{0,2}\sfract\w+\b/gmi,

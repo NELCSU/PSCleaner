@@ -218,6 +218,7 @@ const a: RegExp[] = [
 /\bkelso\s(?:and|\&)\sdistrict\b/gmi,
 
 // KI
+/\bkill\sof\squi\b/gmi,
 /\bkineton\s&\sred\shorse\b/gmi,
 /\bkitty['‘’`]?s\swent\b/gmi,
 /\bkitchen\sball\scopse\b/gmi,
@@ -397,6 +398,7 @@ const a: RegExp[] = [
 /\blanyard\s(?:drive|way)\b/gmi,
 
 // LE
+/\blegs\s(?:and\sstockings\swood|lane)\b/gmi,
 /\bleak\s(?:hall\s(?:crescent|lane|road)?|street|willie|wood)\b/gmi,
 /\bleak['‘’`]?s\splantation\b/gmi,
 /\bleader\sfoot\b/gmi,

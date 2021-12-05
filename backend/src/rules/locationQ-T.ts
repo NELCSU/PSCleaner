@@ -174,6 +174,7 @@ const a: RegExp[] = [
 /\brhymes\s(?:copse|place)\b/gmi,
 
 // RI
+/\brigh\screscent\b/gmi,
 /\bribston\sbig\swood\b/gmi,
 /\bringstead\sledge\b/gmi,
 /\bRiver\sLedge\b/gm,

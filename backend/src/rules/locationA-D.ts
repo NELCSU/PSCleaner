@@ -159,6 +159,7 @@ const a: RegExp[] = [
 /\baquamarine\s(?:close|drive)\b/gmi,
 
 // AR
+/\barms\s(?:gardens|hill|lane|park\s(?:drive|road)|tor)\b/gmi,
 /\barranman['‘’`]?s\sbarrels\b/gmi,
 /\barmetriding\sreaches\b/gmi,
 /\bargonaut\savenue\b/gmi,
