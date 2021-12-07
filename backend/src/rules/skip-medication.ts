@@ -83,6 +83,7 @@ const a: RegExp[] = [
 
   // S
   /\bsinovac\b/gmi,
+  /\bsumatripnan\b/gmi,
 
   // T
   /\btr(?:amadol|imethopr[io]m|uxima)\b/gmi,

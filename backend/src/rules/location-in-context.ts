@@ -196,6 +196,10 @@ const a: RegExp[] = [
   /(?<=(?:BA12|BA22|BS22|CW5|DE4|LN4|ME3|NG21|NP20|NR16|NR31|NR9|PR7|SN3|WF3|WN[26]|WV8).{2,10})\bthe\sfields\b/gi,
   /\bthe\sfields\b(?=.{2,10}(?:BA12|BA22|BS22|CW5|DE4|LN4|ME3|NG21|NP20|NR16|NR31|NR9|PR7|SN3|WF3|WN[26]|WV8))/gi,
 
+  // FINGERS
+  /\bthree\sfingers\b(?=.{2,10}(?:SY13|hamlet))/gi,
+  /(?<=(?:SY13|hamlet).{2,10})\bthree\sfingers\b/gi,
+  
   // FLOOR
   /\bthe\sfloor\b(?=.{2,10}(?:KW17))/gi,
   /(?<=(?:KW17).{2,10})\bthe\sfloor\b/gi,
@@ -305,11 +309,15 @@ const a: RegExp[] = [
   /\bholding\sstreet\b(?=.{2,10}(?:ME8|WN2))/gi,
 
   // HORSE
-  /[\d-]+horses\shead\b/gi,
+  /[\d-]+horse['‘’`s]?\s(?:close|head)\b/gi,
   /(?<=(?:BD23|TD14|ZE2|AB56).{2,10})\bhorse\shead\b/gi,
   /\bhorse\shead\b(?=.{2,10}(?:BD23|TD14|ZE2|AB56))/gi,
   /(?<=(?:NR13).{2,10})\bhorses\shead\b/gi,
   /\bhorses\shead\b(?=.{2,10}(?:NR13))/gi,
+  /(?<=(?:BA11|BD23).{2,10})\bhorses\sclose\b/gi,
+  /\bhorses\sclose\b(?=.{2,10}(?:BA11|BD23))/gi,
+  /(?<=(?:DH9|SA62|AB12).{2,10})\bhorse\sshoe\b/gi,
+  /\bhorse\sshoe\b(?=.{2,10}(?:DH9|SA62|AB12))/gi,
 
   // HOSPITAL
   /(?<=(?:GU15).{2,10})\bthe\shospital\b/gi,
@@ -570,6 +578,14 @@ const a: RegExp[] = [
   // STICK
   /\bthe\sstick\b(?=.{2,20}(?:KW17))/gi,
   /(?<=(?:KW17).{2,25})\bthe\sstick\b/gi,
+
+  // STOVE
+  /\bstove\b(?=.{2,20}(?:ZE2|KW17))/gi,
+  /(?<=(?:ZE2|KW17).{2,25})\bstove\b/gi,
+
+  // SUDDEN
+  /\bsudden\b(?=.{2,20}(?:OL11))/gi,
+  /(?<=(?:OL11).{2,25})\bsudden\b/gi,
 
   // SWALLOW
   /\bswallow\b(?=.{2,20}(?:LN7|village))/gi,

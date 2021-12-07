@@ -50,12 +50,13 @@ const a: RegExp[] = [
   /\bcomfort\spure\b/gmi,
 
   // D
+  /\bdaz\s3[\s-]?in[\s-]?1\b/gmi,
   /\bdiamonte\s(?:bead|stone)\b/gmi,
   /\bdyson\s(?:appliance|brand|hoover|vacuum)s?\b/gmi,
   /\bdog\scage\b/gmi,
   /\bdog\sbite\b/gmi,
   /\bduplo\b/gmi,
-  /\bdinn?ing\sroom\b/gmi,
+  /\bdinn?ing\s(?:chair|room)\b/gmi,
 
   // E
   /\beau\sde\scologne\b/gmi,

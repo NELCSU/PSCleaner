@@ -188,7 +188,7 @@ const a: string[] = [
 "udley",
 "udmail",
 "udmurtia",
-"udney",
+
 "udo",
 "udokamma",
 "udoli",
@@ -1997,7 +1997,7 @@ const a: string[] = [
 "vadivel",
 "vadman",
 "vadnagare",
-"vadney",
+
 "vado",
 "vadodaria",
 "vadodia",
@@ -2397,7 +2397,7 @@ const a: string[] = [
 "valdivias",
 "valdman",
 "valdmanis",
-"valdney",
+
 "valdnise",
 "valdon",
 "valdone",
@@ -8633,7 +8633,7 @@ const a: string[] = [
 "wadmans",
 "wadmore",
 "wadnall",
-"wadney",
+
 "wado",
 "wadon",
 "wadsack",
@@ -9043,7 +9043,7 @@ const a: string[] = [
 "waldley",
 "waldman",
 "waldmiller",
-"waldney",
+
 "waldock",
 "waldon",
 "waldoney",
@@ -10925,7 +10925,7 @@ const a: string[] = [
 "wedmore",
 "wednesfield",
 "wedneshough",
-"wedney",
+
 "wedo",
 "wedon",
 "wedral",
@@ -13587,7 +13587,7 @@ const a: string[] = [
 "widnall",
 "widnes",
 "widness",
-"widney",
+
 "widnt",
 "wido",
 "widom",
@@ -16090,7 +16090,7 @@ const a: string[] = [
 "woodmore",
 "woodmoss",
 "woodmount",
-"woodney",
+
 "woodoffice",
 "woodord",
 "woodpack",
@@ -19465,7 +19465,7 @@ const a: string[] = [
 "ymygjyle",
 "ymyl",
 "yn",
-"ynadney",
+
 "ynave",
 "ynclan",
 "yndae",
@@ -20552,7 +20552,7 @@ const a: string[] = [
 "yuzlem",
 "yuzugulen",
 "yva",
-"yvadney",
+
 "yvain",
 "yvaine",
 "yvalia",
@@ -22759,7 +22759,7 @@ const a: string[] = [
 "zidkovas",
 "zidler",
 "zidlicky",
-"zidney",
+
 "zidon",
 "zidonis",
 "zidonyte",

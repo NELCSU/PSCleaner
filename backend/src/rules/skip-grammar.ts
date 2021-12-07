@@ -33,7 +33,7 @@ const a: RegExp[] = [
   /\ba(?:mazon|merican\sexpress|strazeneca)\b/gmi,
   
   // B
-  /\bback\s(?:burn|of|riding)\b/gmi,
+  /\bback\s(?:burn|head|of|riding)\b/gmi,
   /\bbarking\sdog\b/gmi,
   /\bbaby\sjesus\b/gmi,
   /\bbank\sholiday\b/gmi,
@@ -154,6 +154,7 @@ const a: RegExp[] = [
   /\blo\sand\sbehold\b/gmi,
   /\blinkedin\b/gmi,
   /\blower\squadrant\b/gmi,
+  /\blarge\spiece\b/gmi,
 
   // M
   /\bmark\sto\b/gmi,
@@ -260,7 +261,7 @@ const a: RegExp[] = [
   // W
   /\bpiece\sof\swood\b/gmi,
   /\bway\s(?:home|of\sthe)\b/gmi,
-  /\bwent\sinto\b/gmi,
+  /\bwent\s(?:down|into)\b/gmi,
 
   // Y
   /\byoung\speople\b/gmi,

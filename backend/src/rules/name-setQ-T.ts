@@ -1424,7 +1424,7 @@ const a: string[] = [
 "radnall",
 "radnedge",
 "radners",
-"radney",
+
 "radnidge",
 "radnin",
 "radnor",
@@ -7484,7 +7484,7 @@ const a: string[] = [
 "ridlins",
 "ridlocks",
 "ridlon",
-"ridney",
+
 "ridnour",
 "ridoan",
 "ridoine",
@@ -9207,7 +9207,7 @@ const a: string[] = [
 "rodmore",
 "rodnall",
 "rodnel",
-"rodney",
+
 "rodneys",
 "rodnil",
 "rodocker",
@@ -10727,7 +10727,7 @@ const a: string[] = [
 "rosevear",
 "roseveare",
 "rosevelt",
-"rosevidney",
+
 "roseview",
 "rosevine",
 "rosewain",
@@ -12091,7 +12091,7 @@ const a: string[] = [
 "rudman",
 "rudminas",
 "rudmore",
-"rudney",
+
 "rudnick",
 "rudnicky",
 "rudningen",
@@ -21373,7 +21373,7 @@ const a: string[] = [
 "sedling",
 "sedlock",
 "sedman",
-"sedney",
+
 "sedo",
 "sedola",
 "sedon",
@@ -29236,7 +29236,7 @@ const a: string[] = [
 "sidmore",
 "sidmount",
 "sidned",
-"sidney",
+
 "sidnick",
 "sidnish",
 "sido",
@@ -40798,7 +40798,7 @@ const a: string[] = [
 "studley",
 "studman",
 "studmire",
-"studney",
+
 "studridge",
 "studsgarth",
 "studstill",
@@ -41357,7 +41357,7 @@ const a: string[] = [
 "sudley",
 "sudman",
 "sudmonas",
-"sudney",
+
 "sudnick",
 "sudo",
 "sudor",
@@ -43820,7 +43820,7 @@ const a: string[] = [
 "sydneigh",
 "sydnella",
 "sydnes",
-"sydney",
+
 "sydneys",
 "sydnica",
 "sydnor",
@@ -44014,7 +44014,7 @@ const a: string[] = [
 "synders",
 "syndia",
 "syndica",
-"syndney",
+
 "syne",
 "synecky",
 "synephias",
@@ -56526,7 +56526,6 @@ const a: string[] = [
 "trowles",
 "trowlesworthy",
 "trowlock",
-"trown",
 "trows",
 "trowse",
 "troxclair",
@@ -57312,6 +57311,7 @@ const a: string[] = [
 "tudias",
 "tudic",
 "tudman",
+"tudno",
 "tudnos",
 "tudo",
 "tudon",

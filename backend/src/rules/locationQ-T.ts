@@ -1180,6 +1180,8 @@ const a: RegExp[] = [
 /\bstylers\sway\b/gmi,
 
 // SU
+/\bsudden\sstreet\b/gmi,
+/\bsudden['‘’`]?s\splantation\b/gmi,
 /\bsunset\sred\smeadow\b/gmi,
 /\bsunnyside\scut\b/gmi,
 /\bsub-station\sroad\b/gmi,
@@ -1454,7 +1456,7 @@ const a: RegExp[] = [
 /\b(?:Avenue|Campus|Close)\sThree\b/gm,
 /\bthree\shorse\s?shoes\s(?:close|hill|lane|road|walk)\b/gmi,
 /\bThree\s(?:Acres|Ashes|Beaches|Bridges|Brothers|Burrows|Chimneys|Cocks|Corners|Creeks|Crosses)\b/gm,
-/\bThree\s(?:Fields|Fingers|Gates|Hammers|Holes|Horse\sShoes|Households|Kings|Lakes|Locks)\b/gm,
+/\bThree\s(?:Fields|Gates|Hammers|Holes|Horse\sShoes|Households|Kings|Lakes|Locks)\b/gm,
 /\bThree\s(?:Meadows|Mills|Moors|Oaks|Owls|Peaks|Ponds|Pools|Rivers|Rocks|Stiles|Stones|Streams|Tarns)\b/gm,
 /\bThree\s(?:Towers|Towns|Valleys|Waters|Ways|Wells)\b/gm,
 /\bthree\sacre\s(?:avenue|belt|close|clough|clump|copse|covert|drive|lane|plantation|road|row|spinney|wood)\b/gmi,
