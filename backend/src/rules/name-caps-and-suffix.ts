@@ -98,6 +98,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "brightly",
 
 // BU
+"buggy",
 "bump",
 "bumps",
 "bunk",
@@ -360,6 +361,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 
 // GI
 "gingery",
+"given",
 
 // GL
 "gland",
@@ -409,6 +411,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "grille",
 "grills",
 "grinder",
+"gross",
 
 // GU
 "gum",

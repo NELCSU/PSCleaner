@@ -422,7 +422,6 @@ const a: RegExp[] = [
 /\b(?:filter|fir|haws|lady['‘’`]?s|loverholme|maiden['‘’`]?s|mcfarquhar['‘’`]?s|osier)\sbed\b/gmi,
 /\b(?:oyster|rush|sand|shell|snail|stones|sweed|willow|withe?y)\sbed\b/gmi,
 /\b(?:Feather|Reed|River)\sBed\b/gm,
-/\bBed\sSlide\b/gm,
 /\bbeehive\s(?:avenue|chase|close|coppice|court|dub|green|grove|hill|lane|place|plantation|preparatory\sschool|ring\sroad|road|street|walk|way|wood|yard)\b/gmi,
 /\b(?:fill\sbelly\sflat|creek\sbelly|belly\s(?:croft\sbelt|flats))\b/gmi,
 /\bbench\s(?:carr|cleuch|covert|hill|lane|manor\screscent|road|street|tor close|tor|wood)\b/gmi,
@@ -749,6 +748,7 @@ const a: RegExp[] = [
 /\bbroadall['‘’`]?s\s(?:and|\&)\sdistrict\b/gmi,
 
 // BU
+/\bbuggy\scoppice\b/gmi,
 /\bbucktooth['‘’`]?s\smeadow\b/gmi,
 /\bbumbo\splantation\b/gmi,
 /\bburn\sfoot\splantation\b/gmi,
@@ -814,6 +814,7 @@ const a: RegExp[] = [
 /\bc\sp\sschool\b/gmi,
 /\bC\s(?:Road|Street)\b/gm,
 // CA
+/\bcae-gross\swood\b/gmi,
 /\bcambian\sred\srose\sschool\b/gmi,
 /\bcapability\sway\b/gmi,
 /\bcanoe\s(?:close|lake)\b/gmi,

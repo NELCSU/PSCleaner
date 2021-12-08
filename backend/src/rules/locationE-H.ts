@@ -647,6 +647,7 @@ const a: RegExp[] = [
 /\bholy\sghost\sroman\scatholic\b/gmi,
 
 // GI
+/\bgiven\sdale\b/gmi,
 /\bgiffard['‘’`]?s\sjump\b/gmi,
 /\bgirdle\sfell\b/gmi,
 /\bgig(?:\sbridge)?\slane\b/gmi,
@@ -758,6 +759,7 @@ const a: RegExp[] = [
 /\bgoole\s(?:and|\&)\sdistrict\b/gmi,
 
 // GR
+/\bgross\sroad\b/gmi,
 /\bground\s(?:corner|lane|transport\sinterchange|wyke(?:\shole)?)\b/gmi,
 /\bgreengill\stongue\b/gmi,
 /\bgreat\s(?:ferny\sball|tongue)\b/gmi,

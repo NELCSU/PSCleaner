@@ -70,6 +70,7 @@ const a: RegExp[] = [
 
   // G
   /\bgas\spipe\b/gmi,
+  /\bgreen\s(?:ball|bead)\b/gmi,
 
   // H
   /\bhedge\scutter\b/gmi,
@@ -141,6 +142,7 @@ const a: RegExp[] = [
   /\btrump\scard\b/gmi,
   /\bT\.?V\.?\s(?:stand|unit)\b/gmi,
   /\btrapese\b/gmi,
+  /\btravelcot\b/gmi,
 
   // V
   /\bvenetian\s(?:blind|window)s?\b/gmi,

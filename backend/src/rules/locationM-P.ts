@@ -433,7 +433,7 @@ const a: RegExp[] = [
 /\b(?:cnoc\san|loch)\soil\b/gmi,
 
 // OL
-/\bold\sclamp\swent\swood\b/gmi,
+/\bold\s(?:clamp\swent\swood|snap\sbottoms)\b/gmi,
 /\bold\shall\swent\b/gmi,
 /\bold\sforty\sfoot\sbank\b/gmi,
 /\bold\stom\sway\sfoot\b/gmi,

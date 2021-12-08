@@ -852,6 +852,7 @@ const a: RegExp[] = [
 /\bsmug\soak(?:\slane)?\b/gmi,
 
 // SN
+/\bsnap\s(?:hill|hiv|skerry)\b/gmi,
 /\bsnow\sball\swood\b/gmi,
 /\bsnaffle\s(?:park\sdrive|way)\b/gmi,
 /\bsnag\s(?:acre\swood|grounds|lane|pool)\b/gmi,
@@ -906,6 +907,7 @@ const a: RegExp[] = [
 /\bsound\s(?:and|\&)\sdistrict\b/gmi,
 
 // SP
+/\bsprings\sof\sthe\scroos\b/gmi,
 /\bspitley\stongue\b/gmi,
 /\bspy\sglass\shill\b/gmi,
 /\bsparrowbush\sledge\b/gmi,

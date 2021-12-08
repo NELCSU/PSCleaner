@@ -293,6 +293,7 @@ const a: string[] = [
 "buffet",
 "buggie",
 "bulghur",
+"bullseye",
 "bunkum",
 "bureau",
 "burg",

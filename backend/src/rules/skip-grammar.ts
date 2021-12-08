@@ -109,6 +109,7 @@ const a: RegExp[] = [
   /\b(?:fa\scup|faroe\sislands)\b/gmi,
   /\bFirst\sMinister\b/gm,
   /\bFood\sBank\b/gm,
+  /\bface\sfirst\b/gmi,
 
   // G
   /\bin\sthe\sgarden\b/gmi,
