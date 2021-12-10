@@ -18,6 +18,7 @@ const a: RegExp[] = [
   /\bantibac\b/gmi,
   /\bALTE\b/gm,
   /\bBIB[Aa]?\b/gm, // brought in by (ambulance)
+  /\bc\/o\b/gmi,    // complaining of
   /\bcopd\b/gmi,
   /\bcssu\b/gmi,
   /\bdatix\b/gmi,

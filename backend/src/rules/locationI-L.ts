@@ -503,6 +503,8 @@ const a: RegExp[] = [
 /\bLNG\sterminal\b/gmi,
 
 // LO
+/\blong\sbrick\sfield\b/gmi,
+/\blorry\sbank\b/gmi,
 /\blow\sred\scliff\b/gmi,
 /\blower\sred\shill\b/gmi,
 /\blong\stongue\sscrog\slane\b/gmi,

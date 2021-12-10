@@ -239,6 +239,7 @@ const a: RegExp[] = [
 /\bMy\sStreet\b/gm,
 
 // NA
+/\bnapes\sneedle\b/gmi,
 /\bnails\slane\b/gmi,
 /\bnanny\sgoat\slane\b/gmi,
 /\bNorth\s[Aa]nd\s(?:Central|East)\b/gm,
@@ -302,11 +303,10 @@ const a: RegExp[] = [
 /\bnear\s(?:lane|meadow|moor|muzzle|naze|paddock\scleuch|park(?:\splantation)?|ridding)\b/gmi,
 /\bnear\s(?:rough\s(?:clough|plantation)|royd\sgardens|sands|sawrey|skerrs|skitebeck\swood)\b/gmi,
 /\bnear\s(?:thwaites|town\sgardens|tupton\swood|vallens|warmsey\sclough|whitshiels\scleuch)\b/gmi,
-/\b(?:Horse|Little|Low|The)\sNeck\b/gm,
 /\b(?:neck\sof\s(?:gerwick|the\spool)|neck\so['‘’`]?\scloki\sstack|neck\s(?:wood(?:\sgut)?)|the\sneck\sgut|upper\sneck\sshaw)\b/gmi,
 /\b(?:annet|arthur|beef|break\s(?:my\s)?|broad|bryher|carrick|crebawethan|cruther['‘’`]?s|fiddle|goose['‘’`]?s?|gorregan|ganilly|gweal|hellweathers|innisvouls|island|jenkin['‘’`]?s|ledge|menawethan|muncoy|popplestone|rosevean|rosevear|santaspery|seal\srock|shoal|wills)\sneck\b/gmi,
 /\bNeedle['‘’`s]{0,2}\s(?:Eye|Point)\b/gm,
-/\b(?:napes\sneedle|needle\s(?:cleugh|close|eye(?:\swood)?|green|hill|mill\slane|rock|spring|street|wood)|(?:knitting|pine)\sneedle\slane)\b/gmi,
+/\b(?:needle\s(?:cleugh|close|eye(?:\swood)?|green|hill|mill\slane|rock|spring|street|wood)|(?:knitting|pine)\sneedle\slane)\b/gmi,
 /\bnet\s(?:down|rock|street)\b/gmi,
 /\bnethermost\s(?:cove|pike|wood)\b/gmi,
 /\bnetwork\s(?:65|way)\b/gmi,
@@ -433,6 +433,7 @@ const a: RegExp[] = [
 /\b(?:cnoc\san|loch)\soil\b/gmi,
 
 // OL
+/\bold\sbrick\s(?:place|works\slane)\b/gmi,
 /\bold\s(?:clamp\swent\swood|snap\sbottoms)\b/gmi,
 /\bold\shall\swent\b/gmi,
 /\bold\sforty\sfoot\sbank\b/gmi,
@@ -926,7 +927,7 @@ const a: RegExp[] = [
 /\b(?:gravel|old|tan)\spits\sclose\b/gmi,
 /\b(?:coal|wool)\spits\shill\b/gmi,
 /\b(?:brine|clay|dog|gravel|turf|wet)\spits\slane\b/gmi,
-/\b(?:black|brick|church|clay|dog|lime|old\spits|shrieking|sweet|two)\spits\splantation\b/gmi,
+/\b(?:black|church|clay|dog|lime|old\spits|shrieking|sweet|two)\spits\splantation\b/gmi,
 /\b(?:clay|gravel|lime)\spits\swood\b/gmi,
 /\b(?:bedwellty|black|bragmere|costessey|gin|golden\sbrook|leawood)\spits\b/gmi,
 /\b(?:hag|hind['‘’`]?s|marle?|matt|moss|ochre|old\skelp|pessall|rawden|rush|sand|slay|talke|thorney|tnker|vincent)\spits\b/gmi,

@@ -38,6 +38,19 @@ const a: RegExp[] = [
   /\bbath\sspa\b(?=.{2,10}(?:BA1))/gi,
   /(?<=(?:BA1).{2,10})\bbath\sspa\b/gi,
 
+  // BENDY
+  /[\d-]+bendy\sbow\b/gi,
+  /\bbendy\sbow\b(?=.{2,10}(?:SN16))/gi,
+  /(?<=(?:SN16).{2,10})\bbendy\sbow\b/gi,
+
+  // BIN
+  /\bthe\sbin\b(?=.{2,10}(?:AB54))/gi,
+  /(?<=(?:AB54).{2,10})\bthe\sbin\b/gi,
+
+  // BLADE
+  /\bthe\sblade\b(?=.{2,10}(?:beach|ZE2))/gi,
+  /(?<=(?:beach|ZE2).{2,10})\bthe\sblade\b/gi,
+  
   // BOOT
   /\bboot\b(?=.{2,20}(?:CA19|village))/gi,
   /(?<=(?:CA19|village).{2,25})\bboot\b/gi,
@@ -59,6 +72,13 @@ const a: RegExp[] = [
   /[\d-]+box['‘’`]?s\scorner\b/gi,
   /(?<=(?:EX18).{2,10})\bbox['‘’`]?s\scorner\b/gi,
   /\bbox['‘’`]?s\scorner\b(?=.{2,10}(?:EX18))/gi,
+
+  // BRICK
+  /(?<=(?:S17).{2,10})\bbrick\shouses\b/gi,
+  /\bbrick\shouses\b(?=.{2,10}(?:S17))/gi,
+  /[\d-]+brick\skilns\b/gi,
+  /(?<=(?:PE29).{2,10})\bbrick\skilns\b/gi,
+  /\bbrick\skilns\b(?=.{2,10}(?:PE29))/gi,
 
   // CAR
   /\bthe\scar\b(?=.{2,10}(?:IP25|S33|EH39))/gi,
@@ -272,6 +292,14 @@ const a: RegExp[] = [
   /(?<=(?:HR5|SY5|TF9|IV23)).{2,25}\bgarden\spool\b/gi,
   /\bgarden\spool\b(?=.{2,20}(?:HR5|SY5|TF9|IV23))/gi,
 
+  // GOAL
+  /(?<=(?:DD8)).{2,25}\bthe\sgoal\b/gi,
+  /\bthe\sgoal\b(?=.{2,20}(?:DD8))/gi,
+
+  // GOAT
+  /(?<=(?:TD5|TQ7)).{2,25}\bthe\sgoat\b/gi,
+  /\bthe\sgoat\b(?=.{2,20}(?:TD5|TQ7))/gi,
+  
   // HANDBALL
   /(?<=(?:EX35)).{2,25}\bhandball\b/gi,
   /\bhandball\b(?=.{2,20}(?:EX35))/gi,
@@ -303,6 +331,8 @@ const a: RegExp[] = [
   /\bhill\sclose\b(?=.{2,10}(?:AL5|B31|BA9|BD17|BH23|BR7|BS16|CB8|CF32|CH64|CO10|CR8|CV32|CV47|CW6|DA13|DE21|DE56|DE7|DL11|DT6|DY11|DY3|EN5|EX4|GL11|GL20|GU21|GU5|HA[17]|HD3|HP10|KT11|LA[89]|LE9|LL14|LU[37]|NG16|NG2|NN5|NP4|NR27|NW11|NW2|OL4|OX12|OX7|PE1|PE28|PL30|PL7|RG14|S65?|SO50|SP3|SS7|ST14|TN[68]|TR18|TS12|WF8|WN6|WR10|WS8))/gi,
   /(?<=(?:TQ5|GU10).{2,10})\bhill\shouse\b/gi,
   /\bhill\shouse\b(?=.{2,10}(?:TQ5|GU10))/gi,
+  /(?<=(?:LA22).{2,10})\bhill\sfell\b/gi,
+  /\bhill\sfell\b(?=.{2,10}(?:LA22))/gi,
 
   // HOLDING
   /[\d-]+holding\b/gi,
@@ -376,6 +406,14 @@ const a: RegExp[] = [
   /\blarge\sacres\b(?=.{2,10}(?:PO20))/gi,
   /(?<=(?:YO14).{2,10})\blarge\srocks\b/gi,
   /\blarge\srocks\b(?=.{2,10}(?:YO14))/gi,
+
+  // NECK
+  /(?<=(?:EX39|SA62).{2,10})\bthe\sneck\b/gi,
+  /\bthe\sneck\b(?=.{2,10}(?:EX39|SA62))/gi,
+  /(?<=(?:SA62|TR23).{2,10})\b(?:little|horse)\sneck\b/gi,
+  /\b(?:horse|little)\sneck\b(?=.{2,10}(?:SA62|TR23))/gi,
+  /(?<=(?:SA3).{2,10})\blow\sneck\b/gi,
+  /\blow\sneck\b(?=.{2,10}(?:SA3))/gi,
 
   // OTTER
   /(?<=(?:KW17|ZE[23]).{2,10})\botters?\shad\b/gi,
@@ -586,8 +624,8 @@ const a: RegExp[] = [
   /(?<=(?:TQ6).{2,25})\bthe\sslide\b/gi,
   /\bthe\sslides\b(?=.{2,20}(?:TN38))/gi,
   /(?<=(?:TN38).{2,25})\bthe\sslides\b/gi,
-  /\bbed\sslide\b(?=.{2,20}(?:SR8))/gi,
-  /(?<=(?:SR8).{2,25})\bbed\sslide\b/gi,
+  /\b(?:bed|red)\sslide\b(?=.{2,20}(?:EX31|SR8))/gi,
+  /(?<=(?:EX31|SR8).{2,25})\b(?:bed|red)\sslide\b/gi,
 
   // SNAP
   /\b(?:the\s)?snap\b(?=.{2,20}(?:ZE2))/gi,

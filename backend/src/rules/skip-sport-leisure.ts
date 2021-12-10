@@ -16,6 +16,7 @@ const a: RegExp[] = [
   // B
   /\bboulder\sclimbing\b/gmi,
   /\bbrazilian\sju[\s-]?jitsu\b/gmi,
+  /\bbouncy\scastle\b/gmi,
 
   // C
   /\bcriket\b/gmi,
@@ -28,6 +29,7 @@ const a: RegExp[] = [
   /\bfoot\s*ball\b/gmi,
 
   // H
+  /\bhand[ae]l\sbars?\b/gmi,
   /\bhigh\sjumps?\b/gmi,
 
   // J
@@ -63,6 +65,7 @@ const a: RegExp[] = [
   /\btae\s?kw[ao]n\s?do\b/gmi,
   /\bthai\sboxing\b/gmi,
   /\btripple\sjump\b/gmi,
+  /\btredmill\b/gmi,
 ];
 const SportLeisureRegEx: Set<RegExp> = new Set();
 a.forEach(term => SportLeisureRegEx.add(term));

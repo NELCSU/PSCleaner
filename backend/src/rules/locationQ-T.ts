@@ -109,6 +109,7 @@ const a: RegExp[] = [
 /\brapes\s(?:clough|highway|wood)\b/gmi,
 
 // RE
+/\bred\sbrick\s(?:close|court|house\snursing\shome)\b/gmi,
 /\bregent\sstreet\spavement\b/gmi,
 /\bRed\sLedge\b/gm,
 /\bredrot\sledge\b/gmi,
@@ -786,7 +787,6 @@ const a: RegExp[] = [
 /\bslaughterhouse\s(?:combe|covert|lane|plantation|point)\b/gmi,
 /\bslays\s(?:dale|plantation)\b/gmi,
 /\bsleepers['‘’`]?\s(?:close|copse|delle\sgardens|farm\sroad|hill(?:\sgardens)?|stile\sroad)\b/gmi,
-/\b(?:Bed|Devil['‘’`]?s|Red)\sSlides?\b/gm,
 /\bsliding\s(?:braes|cliff|hill|stone\swood)\b/gmi,
 /\bSlight\sSide\b/gm,
 /\bslight['‘’`s]{0,2}\s(?:marsh|mead\slane|plantation)\b/gmi,
@@ -872,6 +872,7 @@ const a: RegExp[] = [
 /\b(?:hill\sof\ssnowy\sslack|snowy\s(?:fielder\swaye|slack|way))\b/gmi,
 
 // SO
+/\bsouth\sbrick\slines\b/gmi,
 /\bsound\sprimary\sschool\b/gmi,
 /\bsouth\sloch\sfell\b/gmi,
 /\bsouther\sscales\sfell\b/gmi,
@@ -1525,7 +1526,6 @@ const a: RegExp[] = [
 // TI
 /\btie\sroad\sno\s2\b/gmi,
 /\btib\s(?:hill|lane|meadow\sdrive|street|wood)\b/gmi,
-/\bbrick\sand\stile\sterrace\b/gmi,
 /\bTight\sHead\b/gm,
 /\btile\s(?:barn\s(?:close|copse|lane|road|shaw|wood)|close|croft(?:\swood)?)\b/gmi,
 /\btile\s(?:cross(?:\s(?:academy|road))?|farm\sroad|fields(?:\sclose)?)\b/gmi,

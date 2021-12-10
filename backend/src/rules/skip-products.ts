@@ -57,6 +57,7 @@ const a: RegExp[] = [
   /\bdog\sbite\b/gmi,
   /\bduplo\b/gmi,
   /\bdinn?ing\s(?:chair|room)\b/gmi,
+  /\bdoor\shand[ae]l\b/gmi,
 
   // E
   /\beau\sde\scologne\b/gmi,
@@ -87,6 +88,7 @@ const a: RegExp[] = [
   /\b[Jj]erry\scans?\b/gm,
   /\b(?:canning|mason)\sjar\b/gmi,
   /\b(?:car|lift)\sjack\b/gmi,
+  /\bjenga\sblock\b/gmi,
 
   // K
   /\ba\sk[ei]ttle\b/gmi,
@@ -120,6 +122,7 @@ const a: RegExp[] = [
   /\brocking\shorse\b/gmi,
   /\brusty\snail\b/gmi,
   /\bround\scutter\b/gmi,
+  /\brubber\styers\b/gmi,
 
   // S
   /\bs(?:tanley|wiss\sarmy)\sknife\b/gmi,

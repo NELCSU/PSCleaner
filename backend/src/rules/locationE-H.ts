@@ -692,6 +692,7 @@ const a: RegExp[] = [
 /\bglen\sglass\b/gmi,
 
 // GO
+/\bthe\sgoats\sleap\spool\b/gmi,
 /\bgob\sa['‘’`]?\s(?:bhàird|bharra|chairn|chalmain|champa|chreagain|chuaille|chuilg|chùirn|chuthail|garbh|ghaill|gheodha|phuind|rubha|stàiseon)\b/gmi,
 /\bgob\sàird\s(?:an\stolmachain|na\scille|nan\ssgalag|orasaigh|stioclett)\b/gmi,
 /\bgob\san\s(?:aiseig|dainnire|dùin|lochain|oighre|rubha|sgùrr|tarcall|tobha|t-seabhaig|t-sèid|tùir)\b/gmi,
@@ -1059,7 +1060,7 @@ const a: RegExp[] = [
 /\bhill\s(?:dale|deverill|dingle|down|drive|dyke(?:\sroad)?|east\swood|estate|fall)\b/gmi,
 /\bhill\s(?:end(?:\s(?:close|crescent|drive|farm\slane|green|grove|lane|road|wood))?)\b/gmi,
 /\bhill\s(?:farm(?:\s(?:approach|avenue|chase|close|court|lane|plantation|primary|rise|road|solar|spring|way))?)\b/gmi,
-/\bhill\s(?:fell(?:\splantation)?|fen|field(?:\s(?:croft|road)|s)?|firs|flower\scoppice)\b/gmi,
+/\bhill\s(?:fen|field(?:\s(?:croft|road)|s)?|firs|flower\scoppice)\b/gmi,
 /\bhill\s(?:fold|foot(?:\slane)?|fort\s(?:close|view)|forts|fray\sdrive|furlong\swood)\b/gmi,
 /\bhill\s(?:furze(?:\sroad)?|gardens|garth(?:\sroad)?|gate(?:\sspinney)?|gay\sclose|gill\swood)\b/gmi,
 /\bhill\s(?:glen|green(?:\s(?:court|lane|plantation|road))?|ground(?:\sspinney)?)\b/gmi,

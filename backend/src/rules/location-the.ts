@@ -29,8 +29,8 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sBee(?:s|f\sBarrel|hives?)\b/gm,
   /\bThe\sBe(?:ck|eches|dwyns|ll|lsteads|lt|nch|nefits|rries|nt)\b/gm,
   /\bThe\sBig\s(?:Act|House|Thorns|Yard)\b/gm,
-  /\bThe\sBi(?:ble\sCollege|n|rches|te?|tches)\b/gm,
-  /\bThe\sBl(?:ack\sSpout|ade|ind|uebells)\b/gm,
+  /\bThe\sBi(?:ble\sCollege|rches|te?|tches)\b/gm,
+  /\bThe\sBl(?:ack\sSpout|ind|uebells)\b/gm,
   /\bThe\sBou(?:ght|levard|nds?|ndaries|ndary)\b/gm,
   /\bThe\sBo(?:ar|at|g|lt|oks|re|rder|wl)\b/gm,
   /\bThe\sBra(?:ckens?|ids?|ke|kes\sWood|mbles|nch|nd|wn)\b/gm,
@@ -120,7 +120,6 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sGa(?:bles|ges|ng|ngway|ps?|rlands|rners|tes?|teways?|vels)\b/gm,
   /\bThe\sGe(?:ars?|o)\b/gm,
   /\bThe\sGl(?:ades?|assworks|eanings|impse|obal\sAcademy|obe)\b/gm,
-  /\bThe\sGoa(?:l|t|ts\sLeap\sPool)\b/gm,
   /\bThe\sGo(?:d\sAlmighty|oose|re|rge|rses?|slings|ssamers)\b/gm,
   /\bThe\sGran(?:aries|ary|d|ge)\b/gm,
   /\bThe\sGra(?:dient|in\sStore|sslands|tes|ves|zings|zing\sGrounds)\b/gm,
@@ -141,10 +140,12 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sHo(?:e|g|ods|ming|oks?|pes|pper)\b/gm,
   /\bThe\sHu(?:b|ddles|mp|ndred|nt\sClose|rdles|stings|tches)\b/gm,
 
+  // I
   /\bThe\sImage\sCentre\b/gm,
   /\bThe\sIn(?:ch|ches|cline|closures|field|nings|takes?|terchange)\b/gm,
   /\bThe\sI(?:ll\sCraig|ronworks|slands?|sles?|ve)\b/gm,
   
+  // J
   /\bThe\sJu(?:bilee|nction|nipers)\b/gm,
   /\bThe\sJ(?:amb|etty|ewel|cb\sAcademy|etties|oint)\b/gm,
   
@@ -179,7 +180,7 @@ export const LocationTheRegEx: RegExp[] = [
 
   // N
   /\bThe\sNa(?:meless|p|pping|tional\sSchool)\b/gm,
-  /\bThe\sNe(?:edles?|ck\sGut|therlands|utral\sGround|w\s(?:Cut|Forest))\b/gm,
+  /\bThe\sNe(?:edles?|therlands|utral\sGround|w\s(?:Cut|Forest))\b/gm,
   /\bThe\sNo(?:des|oks?|ose|strils)\b/gm,
   /\bThe\sNu(?:rseries|rsery)\b/gm,
 

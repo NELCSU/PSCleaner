@@ -27524,6 +27524,7 @@ const a: string[] = [
 "gongalves",
 "gongar",
 "gongaware",
+"gongl",
 "gongon",
 "gongora",
 "gongre",

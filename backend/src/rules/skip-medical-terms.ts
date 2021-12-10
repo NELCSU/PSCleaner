@@ -33,6 +33,7 @@ const a: RegExp[] = [
   /\barhtogrypoci\b/gmi,
   
   // B
+  /\bboney\stenderness\b/gmi,
   /\bbatson['‘’`s]{0,2}\splexus\b/gmi,
   /\bbee\ssting\b/gmi,
   /\bb(?:artholin|runner)['‘’`s]{0,2}\sglands?\b/gmi,
@@ -304,8 +305,7 @@ const a: RegExp[] = [
   /\branvier['‘’`s]{0,2}\snode\b/gmi,
 
   // SA
-  /\bsalter[\s-]+harris['‘’`s]{0,2}\sfract\w+\b/gmi,
-  /\bsalter[\s-]+harris\s(?:type\s)?[IVX1-9]{1,3}\b/gmi,
+  /\bsalter[\s-]+harris\b/gmi,
   /\bsantorini['‘’`s]{0,2}\sducts?\b/gmi,
 
   // SC
@@ -362,6 +362,7 @@ const a: RegExp[] = [
   /\btreves['‘’`s]{0,2}\sfold\b/gmi,
   /\bthebesian['‘’`s]{0,2}\s(?:foramina|valves?|veins?)\b/gmi,
   /\btourette['‘’`s]{0,2}\ssyndrome\b/gmi,
+  /\btachycardi\b/gmi,
 
   // U
   /\bu(?:lna|rethra|teri)\b/gmi,
