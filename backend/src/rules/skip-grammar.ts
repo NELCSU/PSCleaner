@@ -29,7 +29,7 @@ const a: RegExp[] = [
   /\bat\shome\b/gmi,
   /\bat\sthe\b/gmi,
   /\banglo[\s-]saxon\b/gmi,
-  /\bapril\sfool['‘’`]?s?\sday\b/gmi,
+  /\bapril\sfool['‘’`s]{1,2}?\sday\b/gmi,
   /\ba(?:mazon|merican\sexpress|strazeneca)\b/gmi,
   
   // B
@@ -86,7 +86,7 @@ const a: RegExp[] = [
   /\bdown\s(?:shaft|stairs?)\b/gmi,
   /\b(?:district|federal|supreme)\scourt\b/gmi,
   /\bdominican\srepublic\b/gmi,
-  /\bdua['‘’`]?s\slayer\b/gmi,
+  /\bdua['‘’`s]{1,2}\slayer\b/gmi,
 
   // E
   /\beastern\sbloc\b/gmi,
@@ -169,7 +169,7 @@ const a: RegExp[] = [
   /\bmodus\s(?:operandi|vivendi)\b/gmi,
   /\bmore\son\b/gmi,
   /\bmotley\screw\b/gmi,
-  /\bmurphy['‘’`]?s\slaw\b/gmi,
+  /\bmurphy['‘’`s]{1,2}\slaw\b/gmi,
   /\bmarshall\sislands\b/gmi,
   /\bnorth\smacedonia\b/gmi,
 
@@ -181,6 +181,7 @@ const a: RegExp[] = [
   /\bnhs\s(?:england|london|scotland|wales)\b/gmi,
   /\bnew\syork\stimes\b/gmi,
   /\bnorth\samerica\b/gmi,
+  /\bno\sreal\b/gmi,
 
   // O
   /\bone\sof\sthe\b/gmi,
@@ -219,7 +220,7 @@ const a: RegExp[] = [
   /\bsub-station\b/gmi,
   /\b(?:It|He|She|They)\ssaid\b/gm,
   /\b[Ss]ales\sof\s\w+\b/gm,
-  /\b(?:santa\sclaus|santa['‘’`]?s?\sgrottos?)\b/gmi,
+  /\b(?:santa\sclaus|santa['‘’`s]{1,2}?\sgrottos?)\b/gmi,
   /\bsmall\s(?:arms|mark)\b/gmi,
   /\bstepping\son\b/gmi,
   /\b(?:autumn|spring|summer|winter)\s(?:camp|period)\b/gmi,

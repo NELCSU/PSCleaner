@@ -22024,7 +22024,6 @@ const a: string[] = [
 "selcork",
 "selcuklar",
 "selcuktekin",
-"seld",
 "seldal",
 "selden",
 "seldens",

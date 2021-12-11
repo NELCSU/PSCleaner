@@ -569,6 +569,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "overly",
 
 // PA
+"pannel",
 "park",
 
 // PE

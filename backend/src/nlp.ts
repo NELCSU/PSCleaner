@@ -24,6 +24,7 @@ import { NameSetQT } from "./rules/name-setQ-T";
 import { NameSetUZ } from "./rules/name-setU-Z";
 import { NameSetJoinOnly } from "./rules/name-and";
 import { ProperNameSetJoinOnly } from "./rules/name-caps-and";
+import { NameSetJoinPrefixMidfixOnly } from "./rules/name-prefix-and-midfix";
 import { ProperNameSetJoinPrefixOnly } from "./rules/name-caps-and-prefix";
 import { ProperNameSetJoinMidfixSuffixOnly } from "./rules/name-caps-and-midfix-and-suffix";
 import { ProperNameSetJoinSuffixOnly } from "./rules/name-caps-and-suffix";
@@ -32,6 +33,7 @@ import { AgeRegEx } from "./rules/age";
 import { EthnicitySet } from "./rules/ethnicity";
 import { SkipGrammarRegEx } from "./rules/skip-grammar";
 import { SkipWordSet } from "./rules/skip-word-set";
+import { SkipSpellingSet } from "./rules/skip-spelling-mistakes";
 import { findNHSNumber } from "@buckneri/nhs-number";
 import {
   isPropercase, findEmail,
@@ -275,6 +277,12 @@ export class NLP {
       });
 
       searches.push({
+        action: { discard: 1, joinable: 1, order: 2, pos: 0, prefix: 1, midfix: 1, suffix: 0 },
+        entity: namesEntity,
+        matches: this._evalKeyword(data, (n: string) => n, NameSetJoinPrefixMidfixOnly)
+      });
+
+      searches.push({
         action: { discard: 1, joinable: 1, order: 2, pos: 0, prefix: 1, midfix: 0, suffix: 0 },
         entity: namesEntity,
         matches: this._evalKeyword(data, (n: string) => isPropercase(n), ProperNameSetJoinPrefixOnly)
@@ -340,6 +348,12 @@ export class NLP {
         action: { discard: 1, joinable: 0, order: 3, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
         entity: skipWordEntity,
         matches: this._evalKeyword(data, null, SkipWordSet)
+      });
+
+      searches.push({
+        action: { discard: 1, joinable: 0, order: 3, pos: 0, prefix: 0, midfix: 0, suffix: 0 },
+        entity: skipWordEntity,
+        matches: this._evalKeyword(data, null, SkipSpellingSet)
       });
     }
 

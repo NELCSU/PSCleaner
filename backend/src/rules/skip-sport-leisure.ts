@@ -17,19 +17,21 @@ const a: RegExp[] = [
   /\bboulder\sclimbing\b/gmi,
   /\bbrazilian\sju[\s-]?jitsu\b/gmi,
   /\bbouncy\scastle\b/gmi,
+  /\ba\sball\b/gmi,
 
   // C
   /\bcriket\b/gmi,
 
   // D
   /\bdance\s(?:hall)\b/gmi,
-  /\bdodge\sball\b/gmi,
+  /\bdo[dg]{2}e\sball\b/gmi,
 
   // F
   /\bfoot\s*ball\b/gmi,
 
   // H
   /\bhand[ae]l\sbars?\b/gmi,
+  /\bhandstand?\b/gmi,
   /\bhigh\sjumps?\b/gmi,
 
   // J

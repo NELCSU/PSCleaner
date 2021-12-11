@@ -69,9 +69,9 @@ const a: RegExp[] = [
   // BOX
   /(?<=(?:SN13|GL6|SA15|village).{2,10})\bbox\b/gi,
   /\bbox\b(?=.{2,10}(?:SN13|GL6|SA15|village))/gi,
-  /[\d-]+box['‘’`]?s\scorner\b/gi,
-  /(?<=(?:EX18).{2,10})\bbox['‘’`]?s\scorner\b/gi,
-  /\bbox['‘’`]?s\scorner\b(?=.{2,10}(?:EX18))/gi,
+  /[\d-]+box['‘’`s]{1,2}\scorner\b/gi,
+  /(?<=(?:EX18).{2,10})\bbox['‘’`s]{1,2}\scorner\b/gi,
+  /\bbox['‘’`s]{1,2}\scorner\b(?=.{2,10}(?:EX18))/gi,
 
   // BRICK
   /(?<=(?:S17).{2,10})\bbrick\shouses\b/gi,
@@ -109,8 +109,8 @@ const a: RegExp[] = [
   /\bthe\scorners\b(?=.{2,10}(?:FY5|CW8))/gi,
 
   // COUSIN
-  /(?<=(?:RH14).{2,10})\bcousins['‘’`]?s\scopse\b/gi,
-  /\bcousins['‘’`]?s\scopse\b(?=.{2,10}(?:RH14))/gi,
+  /(?<=(?:RH14).{2,10})\bcousins['‘’`s]{1,2}\scopse\b/gi,
+  /\bcousins['‘’`s]{1,2}\scopse\b(?=.{2,10}(?:RH14))/gi,
 
   // CUP
   /(?<=(?:GL13|island).{2,10})\bthe\scup\b/gi,
@@ -121,6 +121,8 @@ const a: RegExp[] = [
   /[\d-]+the\scut\b/gi,
   /(?<=(?:CT15|DG8|G71|ME7|PO31|RH14|SA3|SE1|SG12|TA6|TN27|WF4|YO30|YO41).{2,10})\bthe\scut\b/gi,
   /\bthe\scut\b(?=.{2,10}(?:CT15|DG8|G71|ME7|PO31|RH14|SA3|SE1|SG12|TA6|TN27|WF4|YO30|YO41))/gi,
+  /(?<=(?:TS18|DE74|WF1).{2,10})\bold\scut\b/gi,
+  /\bold\scut\b(?=.{2,10}(?:TS18|DE74|WF1))/gi,
   
   // DARK
   /\bdark\sbelt\b(?=.{2,10}IP22)/gi,
@@ -199,7 +201,15 @@ const a: RegExp[] = [
   /[\d-]+the\send\b/gi,
   /(?<=(?:DE15).{2,10})\bthe\send\b/gi,
   /\bthe\send\b(?=.{2,10}(?:DE15))/gi,
-  
+
+  // EYE
+  /(?<=(?:PE6|IP23|village|town).{2,10})\beye\b/gi,
+  /\beye\b(?=.{2,10}(?:PE6|IP23|village|town))/gi,
+  /(?<=(?:AB39).{2,10})\beye\smouth\b/gi,
+  /\beye\smouth\b(?=.{2,10}(?:AB39))/gi,
+  /(?<=(?:PE6|village).{2,10})\beye\sgreen\b/gi,
+  /\beye\sgreen\b(?=.{2,10}(?:PE6|village))/gi,
+
   // FELL
   /[\d-]+\sfell\s(?:close|drive|end|foot|head|hill|road|side|view|walk|way|wood)\b/gmi,
   /\bray\sfell\b(?=.{2,10}(?:NE19|NE48))/gi,
@@ -270,6 +280,33 @@ const a: RegExp[] = [
   /\bsixteen\sfoot\sbank\b(?=.{2,10}(?:PE1[45]|chain))/gi,
   /\bseven\sfoot\swood\b(?=.{2,10}(?:CV10|hartshill))/gi,
 
+  // FOOTPATH
+  /[\d-]+the\sfootpath\b/gi,
+  /\bthe\sfootpath\b(?=.{2,10}(?:CB23|NR14|SW15))/gi,
+  /(?<=(?:CB23|NR14|SW15).{2,10})\bthe\sfootpath\b/gi,
+
+  // FOREHEAD
+  /[\d-]+the\sforehead\b/gi,
+  /\bthe\sforehead\b(?=.{2,10}(?:RG7))/gi,
+  /(?<=(?:RG7).{2,10})\bthe\sforehead\b/gi,
+
+  // FOREST
+  /[\d-]+the\sforest\b/gi,
+  /\bthe\sforest\b(?=.{2,10}(?:CM1[34]|CT14|DD8|DG11|DG[28]|DL13|E1[17]|EX13|FK10|GL53|GU31|IP16|IP24|KT2[14]|LA8|LD3|NG33|NP4|NR24|OX25|PO9|SY16|SY21|SY[47]|TN26|TN8|TS15|WR9|WV16))/gi,
+  /(?<=(?:CM1[34]|CT14|DD8|DG11|DG[28]|DL13|E1[17]|EX13|FK10|GL53|GU31|IP16|IP24|KT2[14]|LA8|LD3|NG33|NP4|NR24|OX25|PO9|SY16|SY21|SY[47]|TN26|TN8|TS15|WR9|WV16).{2,10})\bthe\sforest\b/gi,
+
+  // FRISBY
+  /[\d-]+frisby\sclose\b/gi,
+  /\bfrisby\b(?=.{2,10}(?:LE7|hamlet))/gi,
+  /(?<=(?:LE7|hamlet).{2,10})\bfrisby\b/gi,
+  /\bfrisby\sclose\b(?=.{2,10}(?:PE6))/gi,
+  /(?<=(?:PE6).{2,10})\bfrisby\sclose\b/gi,
+
+  // FRONT
+  /[\d-]+the\sfront\b/gi,
+  /\bthe\sfront\b(?=.{2,10}(?:HP4|TS25|CT15|DL2))/gi,
+  /(?<=(?:HP4|TS25|CT15|DL2).{2,10})\bthe\sfront\b/gi,
+  
   // GARDEN
   /[\d-]+the\sgardens?\b/gi,
   /(?<=(?:N16|GL5|SN2)).{2,25}\bthe\sgarden\b/gi,
@@ -342,6 +379,12 @@ const a: RegExp[] = [
   /(?<=(?:ME8|WN2).{2,10})\bholding\sstreet\b/gi,
   /\bholding\sstreet\b(?=.{2,10}(?:ME8|WN2))/gi,
 
+  // HOLE
+  /(?<=(?:CA10|NE48).{2,10})\bhole\b/gi,
+  /\bhole\b(?=.{2,10}(?:CA10|NE48))/gi,
+  /(?<=(?:BB1).{2,10})\bhole\shouse\b/gi,
+  /\bhole\shouse\b(?=.{2,10}(?:BB1))/gi,
+
   // HORSE
   /[\d-]+horse['‘’`s]?\s(?:close|head)\b/gi,
   /(?<=(?:BD23|TD14|ZE2|AB56).{2,10})\bhorse\shead\b/gi,
@@ -364,9 +407,9 @@ const a: RegExp[] = [
   // IRON
   /(?<=(?:OX7).{2,10})\biron\sdown\b/gi,
   /\biron\sdown\b(?=.{2,10}(?:OX7))/gi,
-  /[\d-]+iron['‘’`s]{0,2}\sclose\b/gi,
-  /(?<=(?:LE12|NP10).{2,10})\biron['‘’`s]{0,2}\sclose\b/gi,
-  /\biron['‘’`s]{0,2}\sclose\b(?=.{2,10}(?:LE12|NP10))/gi,
+  /[\d-]+iron['‘’`s]{1,2}\sclose\b/gi,
+  /(?<=(?:LE12|NP10).{2,10})\biron['‘’`s]{1,2}\sclose\b/gi,
+  /\biron['‘’`s]{1,2}\sclose\b(?=.{2,10}(?:LE12|NP10))/gi,
 
   // JUMP
   /(?<=(?:S74|barnsley)).{2,25}\bjump\b/gi,
@@ -376,17 +419,17 @@ const a: RegExp[] = [
   /\bjump\sclose\b(?=.{2,10}(?:PL6|robor|plymouth))/gi,
   /(?<=SO21).{2,25}\bwater\sjump\b/gi,
   /\bwater\sjump\b(?=.{2,20}SO21)/gi,
-  /[\d-]+squirrel['‘’`]?s\sjump\b/gi,
-  /(?<=(?:SK9|alderley).{2,10})\bsquirrel['‘’`]?s\sjump\b/gi,
-  /\bsquirrel['‘’`]?s\sjump\b(?=.{2,10}(?:SK9|alderley))/gi,
+  /[\d-]+squirrel['‘’`s]{1,2}\sjump\b/gi,
+  /(?<=(?:SK9|alderley).{2,10})\bsquirrel['‘’`s]{1,2}\sjump\b/gi,
+  /\bsquirrel['‘’`s]{1,2}\sjump\b(?=.{2,10}(?:SK9|alderley))/gi,
   /[\d-]+the\sjumps\b/gi,
   /(?<=(?:MK43).{2,10})\bthe\sjumps\b/gi,
   /\bthe\sjumps\b(?=.{2,10}(?:MK43))/gi,
 
   // JACOB
-  /[\d-]+jacob['‘’`]?s\sladder\b/gi,
-  /(?<=(?:SY6|WR3|EX10).{2,10})\bjacob['‘’`]?s\sladder\b/gi,
-  /\bjacob['‘’`]?s\sladder\b(?=.{2,10}(?:SY6|WR3|EX10))/gi,
+  /[\d-]+jacob['‘’`s]{1,2}\sladder\b/gi,
+  /(?<=(?:SY6|WR3|EX10).{2,10})\bjacob['‘’`s]{1,2}\sladder\b/gi,
+  /\bjacob['‘’`s]{1,2}\sladder\b(?=.{2,10}(?:SY6|WR3|EX10))/gi,
 
   // KEEN
   /(?<=(?:ZE[12]).{2,10})\bkeen\b/gi,
@@ -515,6 +558,38 @@ const a: RegExp[] = [
   // POT
   /\bthe\spot\b(?=.{2,10}(?:AB43|AB55|IV19|TD12|TD6))/gi,
 
+  // RACE
+  /[\d-]+the\srace(?:course|ground)?\b/gi,
+  /\bthe\srace\b(?=.{2,20}(?:SK9|GU29|EX39))/gi,
+  /(?<=(?:SK9|GU29|EX39).{2,25})\bthe\srace\b/gi,
+  /\bthe\sracecourse\b(?=.{2,20}(?:TS22))/gi,
+  /(?<=(?:TS22).{2,25})\bthe\sracecourse\b/gi,
+  /\bthe\sraceground\b(?=.{2,20}(?:PE11))/gi,
+  /(?<=(?:PE11).{2,25})\bthe\sraceground\b/gi,
+
+  // RACK
+  /[\d-]+the\sracks?\b/gi,
+  /\bthe\sracks?\b(?=.{2,20}(?:CA10|DY12))/gi,
+  /(?<=(?:CA10|DY12).{2,25})\bthe\sracks?\b/gi,
+
+  // RAGS
+  /\bthe\srags\b(?=.{2,20}(?:TQ7))/gi,
+  /(?<=(?:TQ7).{2,25})\bthe\srags\b/gi,
+  
+  // RAMP
+  /[\d-]+the\sramp\b/gi,
+  /\bthe\sramp\b(?=.{2,20}(?:NP26))/gi,
+  /(?<=(?:NP26).{2,25})\bthe\sramp\b/gi,
+
+  // RASH
+  /\bthe\srash\b(?=.{2,20}(?:LS24|YO26))/gi,
+  /(?<=(?:LS24|YO26).{2,25})\bthe\srash\b/gi,
+
+  // RAY
+  /[\d-]+the\sray\b/gi,
+  /\bthe\sray\b(?=.{2,20}(?:CM1))/gi,
+  /(?<=(?:CM1).{2,25})\bthe\sray\b/gi,
+  
   // RED
   /[\d-]+red\b/gi,
   /\bred\b(?=.{2,20}(?:M50))/gi,
@@ -596,7 +671,11 @@ const a: RegExp[] = [
   // SETTER
   /\bsetter\b(?=.{2,20}(?:ZE2|hamlet))/gi,
   /(?<=(?:ZE2|hamlet).{2,25})\bsetter\b/gi,
-  
+
+  // SHIN
+  /\bthe\sshin\b(?=.{2,20}(?:DG13))/gi,
+  /(?<=(?:DG13).{2,25})\bthe\sshin\b/gi,
+    
   // SIDE
   /[\d-]+side(?:\s(?:gates?|lane|road|row|street))?\b/gi,
   /\bside\b(?=.{2,20}(?:NE1))/gi,
@@ -632,6 +711,10 @@ const a: RegExp[] = [
   /(?<=(?:ZE2).{2,25})\b(?:the\s)snap\b/gi,
   /\bsnap\swood\b(?=.{2,20}(?:GU33))/gi,
   /(?<=(?:GU33).{2,25})\bsnap\swood\b/gi,
+
+  // SPORTS
+  /\bsports\sground\b(?=.{2,20}(?:S8))/gi,
+  /(?<=(?:S8).{2,25})\bsports\sground\b/gi,
 
   // STAIRS
   /(?<=(?:CF64|island).{2,25})\bthe\sstairs\b/gi,
@@ -691,8 +774,8 @@ const a: RegExp[] = [
   /\bscabby\stongue\b(?=.{2,20}(?:NE47))/gi,
   /(?<=(?:NE47).{2,25})\b(?:emily|rough|scabby)\stongue\b/gi,
   /\b(?:emily|rough|scabby)\stongue\b(?=.{2,20}(?:NE47))/gi,
-  /(?<=(?:CA1[01]).{2,25})\b(?:black|lucy['‘’`]?s)\stongue\b/gi,
-  /\b(?:black|lucy['‘’`]?s)\stongue\b(?=.{2,20}(?:CA1[10]))/gi,
+  /(?<=(?:CA1[01]).{2,25})\b(?:black|lucy['‘’`s]{1,2})\stongue\b/gi,
+  /\b(?:black|lucy['‘’`s]{1,2})\stongue\b(?=.{2,20}(?:CA1[10]))/gi,
   /(?<=(?:CA20).{2,25})\b(?:broad|brown)\stongue\b/gi,
   /\b(?:broad|brown)\stongue\b(?=.{2,20}(?:CA20))/gi,
   /(?<=(?:SY5).{2,25})\bsmall\stongue\b/gi,
@@ -703,8 +786,8 @@ const a: RegExp[] = [
   /\blong\stongue\b(?=.{2,20}(?:LA12|CB8|IP12|CA9|DG5|LA2))/gi,
   /(?<=(?:LA22).{2,25})\blittle\stongue\b/gi,
   /\blittle\stongue\b(?=.{2,20}(?:LA22))/gi,
-  /(?<=(?:TD9).{2,25})\bjenny['‘’`]?s\stongue\b/gi,
-  /\bjenny['‘’`]?s\stongue\b(?=.{2,20}(?:TD9))/gi,
+  /(?<=(?:TD9).{2,25})\bjenny['‘’`s]{1,2}\stongue\b/gi,
+  /\bjenny['‘’`s]{1,2}\stongue\b(?=.{2,20}(?:TD9))/gi,
   /(?<=(?:KA17|LA22).{2,25})\bgreen\stongue\b/gi,
   /\bgreen\stongue\b(?=.{2,20}(?:KA17|LA22))/gi,
   /(?<=(?:AB54).{2,25})\bcorbie['‘’`]?\stongue\b/gi,
@@ -773,9 +856,9 @@ const a: RegExp[] = [
   /[\d-]+water\sview\b/gi,
   /\bwater\sview\b(?=.{2,20}(?:LS18|WF10|PE8))/gi,
   /(?<=(?:LS18|WF10|PE8).{2,25})\bwater\sview\b/gi,
-  /[\d-]+water['‘’`]?s\sedge\b/gi,
-  /\bwater['‘’`]?s\sedge\b(?=.{2,20}(?:SO30|BL4|PR2))/gi,
-  /(?<=(?:SO30|BL4|PR2).{2,25})\bwater['‘’`]?s\sedge\b/gi,
+  /[\d-]+water['‘’`s]{1,2}\sedge\b/gi,
+  /\bwater['‘’`s]{1,2}\sedge\b(?=.{2,20}(?:SO30|BL4|PR2))/gi,
+  /(?<=(?:SO30|BL4|PR2).{2,25})\bwater['‘’`s]{1,2}\sedge\b/gi,
 
   // WAY
   /[\d-]+the\sway\b/gi,

@@ -40866,7 +40866,6 @@ const a: string[] = [
 "pannebaker",
 "pannebecker",
 "panneer",
-"pannel",
 "pannelay",
 "pannella",
 "pannells",
