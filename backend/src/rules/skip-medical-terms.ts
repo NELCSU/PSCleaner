@@ -13,7 +13,7 @@
  * generating words have been rationalised over time.
  **********************************************************************/
 const a: RegExp[] = [
-  /\b(?:1st|2nd|3rd|[45]th)\s(?:mt|toes)\b/gmi,
+  /\b(?:1st|2nd|3rd|[45]th)\s(?:episode|mt|toes)\b/gmi,
 
   // A
   /\bachilli?es\stendon/gmi,
@@ -251,6 +251,7 @@ const a: RegExp[] = [
   /\bneurovascula\b/gmi,
 
   // O
+  /\boedmea\b/gmi,
   /\bosteogen[io]us\b/gmi,
   /\bottawa\s(?:(?:rule|sign)s?\s)?(?:negative|positive)\b/gmi,
   /\borgan\sof\s(?:corti|zuckerkandl)\b/gmi,
@@ -281,7 +282,6 @@ const a: RegExp[] = [
   /\bproteus\smirabilis\b/gmi,
   /\bpeyer['‘’`s]{1,2}\spatches\b/gmi,
   /\bparieto[\s-]+occipital\b/gmi,
-  /\bPERLA\b/gm,
   /\bpearl\ssize\b/gmi,
   /\bpost\singestion\b/gmi,
 
@@ -328,6 +328,9 @@ const a: RegExp[] = [
 
   // SK
   /\bskene['‘’`s]{1,2}\sglands?\b/gmi,
+
+  // SM
+  /\bsmall\sswelling\b/gmi,
 
   // SP
   /\bspiegelian['‘’`s]{1,2}\s(?:fascia|line|lobe)s?\b/gmi,

@@ -160,6 +160,9 @@ const a: RegExp[] = [
 /\bvoyagers\sclose\b/gmi,
 
 // WA
+/\bwalk\s(?:coppice|copse|crab\stree\splantation|farm\sdrive|gorse|haw\s(?:champer|scar))\b/gmi,
+/\bwalk\s(?:house\sclose|lane|mill(?:\s(?:close|covert|drive|foss|lane|place|road))?)\b/gmi,
+/\bwalk\s(?:plantation|royd\shill|shaw|wood\srise|wood)\b/gmi,
 /\bway\s(?:bank\slane|close\splantation|copse|croft|elliott['‘’`s]{1,2}\scopse|field(?:\sclose)?)\b/gmi,
 /\bway\s(?:gill\s(?:moor\send\splantation|plantation|wood)|grove|head\s(?:drove|hill)|lane)\b/gmi,
 /\bway\s(?:moss|plantation|stone\sedge|village|volante|wick|wood)\b/gmi,

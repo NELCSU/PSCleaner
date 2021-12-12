@@ -83,6 +83,7 @@ const a: RegExp[] = [
   /\bhome\s(?:garden|stairs)\b/gmi,
   /\bhorse\sbox\b/gmi,
   /\bhot\scoffee?\b/gmi,
+  /\bheely\sshoes?\b/gmi,
 
   // J
   /\b[Jj]erry\scans?\b/gm,
@@ -107,6 +108,7 @@ const a: RegExp[] = [
   /\bn[eu]rff?\sgun\b/gmi,
 
   // O
+  /\bonesie\b/gmi,
   /\bottaman\b/gmi,
 
   // P
@@ -117,6 +119,7 @@ const a: RegExp[] = [
   /\bpu[cs]h\s?chair\b/gmi,
   /\bpateo\sdoor\b/gmi,
   /\ba\spennie\b/gmi,
+  /\bplastic\smike\b/gmi,
 
   // R
   /\brocking\shorse\b/gmi,

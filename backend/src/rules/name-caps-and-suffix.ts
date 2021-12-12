@@ -112,6 +112,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 // CE
 "cedar",
 "celt",
+"centra",
 
 // CH
 "chancelor",
@@ -516,6 +517,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "lorry",
 
 // LU
+"ludo",
 "lumber",
 "luncheon",
 "lurker",
@@ -710,6 +712,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "shillings",
 "shingles",
 "shoecraft",
+"sholder",
 "shoreman",
 "shoring",
 "shortsleeve",
@@ -810,6 +813,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "spoiler",
 "spokes",
 "spores",
+"spory",
 "sprain",
 "sprang",
 "sprout",
@@ -942,6 +946,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "tonner",
 "tonsil",
 "torrents",
+"tort",
 "toxin",
 
 // TR

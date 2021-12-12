@@ -1186,6 +1186,7 @@ const a: RegExp[] = [
 /\bstylers\sway\b/gmi,
 
 // SU
+/\bsumac\sstreet\b/gmi,
 /\bsudden\sstreet\b/gmi,
 /\bsudden['‘’`s]{1,2}\splantation\b/gmi,
 /\bsunset\sred\smeadow\b/gmi,
@@ -1273,6 +1274,7 @@ const a: RegExp[] = [
 /\bsynagogue\s(?:lane|place)\b/gmi,
 
 // TA
+/\btarmac\sway\b/gmi,
 /\btalke\sand\sred\sstreet\b/gmi,
 /\btailing\slagoon\b/gmi,
 /\btan-y-cut\swood\b/gmi,
@@ -1395,6 +1397,7 @@ const a: RegExp[] = [
 /\btlg\snewcastle\b/gmi,
 
 // TH
+/\bthe\sawful\shand\b/gmi,
 /\bthe\sfylde\b/gmi,
 /\bthe\sdevil['‘’`s]{1,2}\s(?:barn|cheesewring|dingle|dressing\sroom|elbow|highway|point|punchbowl)\b/gmi,
 /\bthe\sbunk\sline\b/gmi,
@@ -1576,6 +1579,27 @@ const a: RegExp[] = [
 /\btmp\scollege\b/gmi,
 
 // TO
+/\btop\s(?:acre(?:\sroad)?|angel|ash(?:\splantation|es)?|baldwin['‘’`]?s\sspinney)\b/gmi,
+/\btop\s(?:bank|barn\slane|belts?|birches|box\spool|brake|camp|cart\sgaps|castle)\b/gmi,
+/\btop\s(?:chapel\slane|cliff|cliffe\swood|close|clump|coalpits\scoppice|common(?:\sponds)?)\b/gmi,
+/\btop\s(?:coppice|copse|covert|cow\spasture|croft\s(?:road|row)|cross\sroad|dartford\sroad)\b/gmi,
+/\btop\s(?:dingle|drag\sway|driftway|drive|dysons|end|fair\sfurlong)\b/gmi,
+/\btop\sfarm(?:\s(?:airfield|avenue|close|court|gardens|lane|mews|road))?\b/gmi,
+/\btop\s(?:field(?:\s(?:lane|spinney))?|flash|fold(?:\swood)?|fox\s(?:covert|way))\b/gmi,
+/\btop\s(?:gorse|green|hagg\slane|hall\s(?:road|wood)|hat\swood|headlands|hill(?:\s(?:close|copse|wood))?)\b/gmi,
+/\btop\s(?:holt|house\s(?:court|farm\smews|rise)|knot\sclose|lairdie\spool|lake|lane(?:\splantations)?)\b/gmi,
+/\btop\s(?:llan\sroad|lock(?:\smeadows)?|lodge\s(?:close|plantation)|long\spool|lons|manor\sclose|meadow)\b/gmi,
+/\btop\s(?:mere\sroad|mill\spond|moor(?:\sside|s)?|moss(?:\swood)?|mouse\spark\swood|nant\swoods|nursery\sspinney)\b/gmi,
+/\btop\so['‘’`f]?\s(?:belan|blaze\smoss|cowcliffe|cragg|heap|hebers|lane|moor|pike|selside|south\shouse\smoor|west\scorrie)\b/gmi,
+/\btop\so['‘’`f\s]+th['‘’`e\s]+(?:bank|battery|birch\slane|brow|close(?:\swood)?|croft|dog\shill|edge)\b/gmi,
+/\btop\so['‘’`f\s]+th['‘’`e\s]+(?:gorses|green|hill(?:\sroad)?|knowl|lane|lee|meadow\splantation|meadows(?:\slane)?|moss|town)\b/gmi,
+/\btop\s(?:orchard|park\s(?:close|plantation|wood)|pasture\slane(?:\sholt)?|piece\splantation|pingle\sclose)\b/gmi,
+/\btop\s(?:pit\swood|plantation|pond\sholes|rays\shill|reservoir|road|rock(?:\shill)?|roughway\swood)\b/gmi,
+/\btop\s(?:sandy\slane|schwabe\sstreet|scree\splantation|shaw|shutts|slate\scovert|spinney|spring|station\sroad)\b/gmi,
+/\btop\s(?:stone\sclose|street|tax|terrace\sroad|tieb|tor|town\splantation|tree\sway|valley(?:\s(?:drive|way))?)\b/gmi,
+/\btop\s(?:vals\shill|view\screscent|willowbed\swood)\b/gmi,
+/\btop[\s-]o['‘’`f\s-]+th['‘’`e\s-]+hill\b/gmi,
+/\btop[\s-](?:rhiw-fawr|y-(?:fron\sdingle|rhos|tai-nant))\b/gmi,
 /\btoo\sof\sthe\shead\b/gmi,
 /\btongs\s(?:covert|lane|wood)\b/gmi,
 /\btongue\s(?:avenue|bay|burns\splantation|copse|dale|end(?:\swood)?|field(?:\splantation)?|gate\shill)\b/gmi,

@@ -10,7 +10,7 @@
  **********************************************************************/
 const a: RegExp[] = [
   /\b[a-z]{2,}\-\d{1,2}\b/gmi,
-  /\d+[\s-](?:day|feet|foot|hand|mile|min|kilometer|km|stair|step|time|week)s?\b/gmi,
+  /\d+[\s-](?:bead|day|feet|foot|hand|mile|min|kilometer|km|stair|step|time|week)s?\b/gmi,
   /\b(?:first|last|tier)\s\d+/gmi,
   /\d+\sof\b/gmi,
   /\d+[\s-](?:(?:out)?\sof|in)[\s-]\d+/gmi,
@@ -50,6 +50,7 @@ const a: RegExp[] = [
   /\b(?:central|reserve|world)\sbank\b/gmi,
   /\bburkina\sfaso\b/gmi,
   /\bball\svs\b/gmi,
+  /\bbump\sto\b/gmi,
 
   // C
   /\bcame\sback\b/gmi,
@@ -76,6 +77,7 @@ const a: RegExp[] = [
   /\b(?:arts|community|national|royal|sports|technical)\scollege\b/gmi,
   /\bczech\srepublic\b/gmi,
   /\ba\scar\b/gmi,
+  /\bconer\sof\b/gmi,
 
   // D
   /\bd[eé]j[aà]\svu\b/gmi,

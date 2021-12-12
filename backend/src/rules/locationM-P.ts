@@ -710,6 +710,7 @@ const a: RegExp[] = [
 /\bperton\slakeside\b/gmi,
 
 // PI
+/\bpiece\s(?:copse|croft|end\sclose|fields|hall\syard|hill|lane|plantation|road|wood\sroad)\b/gmi,
 /\bpiggy\slane\splayground\b/gmi,
 /\bpit\spony\sway\b/gmi,
 /\bpixey\sweek\swood\b/gmi,
@@ -727,6 +728,7 @@ const a: RegExp[] = [
 /\bpile\s(?:lane(?:\scoppice)?|lane|marsh|oak\scopse|paddock|place)\b/gmi,
 
 // PL
+/\bplant\s(?:crescent|farm\s(?:avenue|crescent)|hill\sroad|lane|park\sroad|street|way)\b/gmi,
 /\bplace\s(?:barton|crescent|dane\sshaw|drove|farm(?:\s(?:avenue|lane|primary\sacademy|road|way))?)\b/gmi,
 /\bplace\s(?:hill|house\sclose|lane|moor|of\s(?:bonhill|goval\ssteadings)|parc|plantations|pond|view(?:\sroad)?|wood)\b/gmi,
 /\bplace['‘’`s]{1,2}\sroad\b/gmi,

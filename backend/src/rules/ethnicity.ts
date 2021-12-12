@@ -804,7 +804,6 @@ const a: string[] = [
 "tauki",
 "taungyo",
 "tboli",
-"tem",
 "temne",
 "tenggerese",
 "teochew",

@@ -68,8 +68,12 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 // LE
 "legs",
 
+// PI
+"piece",
+
 // PL
 "place",
+"plant",
 
 // PO
 "pot",
@@ -94,8 +98,10 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // TO
 "tongs",
+"top",
 
-//WA
+// WA
+"walk",
 "water",
 "way",
 
