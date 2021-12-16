@@ -3812,7 +3812,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "longtail",         // standalone & placenames (4)
 "loose",            // standalone & placenames (16)
 "lord",             // name & placenames (131)
-"love",             // name
 "low",              // placenames (917)
 "lower",            // placenames (1k+)
 

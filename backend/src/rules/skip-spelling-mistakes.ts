@@ -5,6 +5,8 @@ const a: string[] = [
 // A
 "addr",
 "approc",       // approx
+// C
+"coughin",      // coughing
 // I
 "initallt",     // initially
 // L
@@ -19,6 +21,8 @@ const a: string[] = [
 "rnag",         // rang
 // S
 "seld",         // self
+// T
+"trood",        // trod
 // V
 "vomittig",     // vomiting
 ];

@@ -233,7 +233,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sRe(?:cess|ctangle|gents|ndezvous|ntal\sRocks|nts|treat)\b/gm,
   /\bThe\sRi(?:b|dings?|des?|dges?|fles|ft|ses?|sing|verbank|vers)\b/gm,
   /\bThe\sRin(?:gs?|gway|k)\b/gm,
-  /\bThe\sRoa(?:ches|d|r)\b/gm,
+  /\bThe\sRoa(?:ches|r)\b/gm,
   /\bThe\sRobins\b/gm,
   /\bThe\sRockery\b/gm,
   /\bThe\sRod(?:e|ings|s)\b/gm,

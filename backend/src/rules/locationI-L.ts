@@ -504,6 +504,9 @@ const a: RegExp[] = [
 /\bLNG\sterminal\b/gmi,
 
 // LO
+/\blove\s(?:avenue|clough(?:\sroad)?|drive|green(?:\slane)?|hill\slane|lane(?:\s(?:close|plantation|primary\sschool|terrace))?)\b/gmi,
+/\blove\s(?:lyne|road|street(?:\sclose)?|walk|way)\b/gmi,
+/\blove['‘’`s]{1,2}\s(?:close|copse|grove(?:\swood)?|hill|lane|wood)\b/gmi,
 /\blong\sbrick\sfield\b/gmi,
 /\blorry\sbank\b/gmi,
 /\blow\sred\scliff\b/gmi,

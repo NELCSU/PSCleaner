@@ -1655,6 +1655,7 @@ const a: RegExp[] = [
 /\btown\sand\sdowns\b/gmi,
 
 // TR
+/\btrood\slane\b/gmi,
 /\btri\spen\shad\sroad\b/gmi,
 /\btremuda\stongue\b/gmi,
 /\btroutal\stongue\b/gmi,

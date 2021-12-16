@@ -785,6 +785,10 @@ const a: RegExp[] = [
   /\bthe\sriver\b(?=.{2,20}(?:HP18|WR15))/gi,
   /(?<=(?:HP18|WR15).{2,25})\bthe\sriver\b/gi,
 
+  // ROAD
+  /\bthe\sroad\b(?=.{2,20}(?:TR21))/gi,
+  /(?<=(?:TR21).{2,25})\bthe\sroad\b/gi,
+  
   // ROADSIDE
   /[\d-]+roadside\b/gi,
   /\broadside\b(?=.{2,20}(?:ZE2|NR27|G67|KW12|DD10|hamlet))/gi,
