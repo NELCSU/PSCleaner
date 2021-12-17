@@ -1194,7 +1194,7 @@ const a: RegExp[] = [
 /\bhong\skong\s(?:avenue|plantation)\b/gmi,
 /\bNew\sHorizons\b/gm,
 /\bhornets?\s(?:close|road|way)\b/gmi,
-/\b(?:Back|Bay|Bell|Black|Blind|Blue|Boat|Coach\s[Aa]nd|Dog|Dray|East|Filly|Flying)\sHorses?\b/gm,
+/\b(?:Back|Bay|Bell|Black|Blind|Blue|Coach\s[Aa]nd|Dog|Dray|East|Filly|Flying)\sHorses?\b/gm,
 /\b(?:Forty|Front|High|Hobby|Knook|Little|Long|Low|Lower|New|Nine|North|Old|Post)\sHorses?\b/gm,
 /\b(?:Prancing|Red|Shire|South|(?:Moss|Stack|Well)\s[Oo]f\s[Tt]he|Stallion)\sHorses?\b/gm,
 /\b(?:Stone|Tobban|Trench|Upper|West|Wet|Wh[iy]te|Yellow|Yonder)\sHorses?\b/gm,

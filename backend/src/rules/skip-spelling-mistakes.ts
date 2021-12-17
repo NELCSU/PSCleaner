@@ -5,11 +5,18 @@ const a: string[] = [
 // A
 "addr",
 "approc",       // approx
+// B
+"brusinig",     // bruising
 // C
 "coughin",      // coughing
+// D
+"drowsey",      // drowsy
 // I
 "initallt",     // initially
+// K
+"kiak",         // kayak
 // L
+"laert",        // alert
 "lamenat",      // laminate
 // M
 "mobilsie",     // mobilise

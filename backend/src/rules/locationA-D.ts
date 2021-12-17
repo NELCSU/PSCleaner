@@ -546,6 +546,11 @@ const a: RegExp[] = [
 /\bbluebell\snursing\b/gmi,
 
 // BO
+/\bboat\s(?:bay|brae|carn|catch|cliff|cove|craig|creek|croft|dyke\s(?:lane|road)|geo)\b/gmi,
+/\bboat\s(?:green|harbour|hard|haven|hellia|hill(?:\s(?:copse|plantation))?|hive|hole(?:\sof\sspey)?|)\b/gmi,
+/\bboat\s(?:horse\slane|house\s(?:clump|lane|loch|plantation|pond|spinney|wood))\b/gmi,
+/\bboat\s(?:how|hythe|lane(?:\splantation)?|lifter\sway|o['‘’`f]\s(?:brig\spool|bredibir|breigeo|garten))\b/gmi,
+/\bboat\s(?:plantation|pool|pot|road|rock|shore|stage|wood)\b/gmi,
 /\bbox\s(?:and\scolerne|belt|berry\shill|bottom|bush\slane|church|close|clump|copse|covert)\b/gmi,
 /\bbox\s(?:crescent|crofts|drive|end(?:\sroad)?|grove|hill|ings\slane|knowe|lane)\b/gmi,
 /\bbox\s(?:makers\syard|mill\s(?:lane|plantation)|plantation|ridge\savenue|road(?:\savenue)?)\b/gmi,

@@ -238,6 +238,7 @@ const a: RegExp[] = [
   /\bmcburney['‘’`s]{1,2}\spoint\b/gmi,
   /\bmeckel['‘’`s]{1,2}\sdiverticulum\b/,
   /\bm(?:alpighian|eissner)['‘’`s]{1,2}\scorpuscles?\b/gmi,
+  /\bmc\sswelling\b/gmi,
 
   // N
   /\bN\/V\s(?:intact|observations)\b/gmi,

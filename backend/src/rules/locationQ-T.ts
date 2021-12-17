@@ -1069,7 +1069,7 @@ const a: RegExp[] = [
 /\bstag\s(?:point|pool|ride|road|rock|royd\swood|street|valley\sroad|walk|way|willow\sclose|wood)\b/gmi,
 /\bstag['‘’`s]{1,2}\s(?:head(?:\swood)?|plain|pond)\b/gmi,
 /\bstags\s(?:close|fell|head|heath|hill|lane|leap|way|wood\sdrive)\b/gmi,
-/\b(?:boat\sstage|old\sstage\sroad|princes\slanding\sstage|stage\slane)\b/gmi,
+/\b(?:old\sstage\sroad|princes\slanding\sstage|stage\slane)\b/gmi,
 /\b(?:na\sstaid|staid\slane)\b/gmi,
 /\bstake['‘’`s]{1,2}\s(?:allotments|cleuch|clough|dub|fell|gutter|hill(?:\sroad)?|house\sfell|lane(?:\sbank)?)\b/gmi,
 /\bstake\s(?:law|moss|ness|piece\sroad|pond|pool|road|wood)\b/gmi,

@@ -17,6 +17,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "bird",
 
 // BO
+"boat",
 "bottom",
 "box",
 
