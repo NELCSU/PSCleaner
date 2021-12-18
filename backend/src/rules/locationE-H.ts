@@ -249,7 +249,7 @@ const a: RegExp[] = [
 // FO
 /\bfore\sdoors\splantation\b/gmi,
 /\bfour\swent\sways\sservice\sarea\b/gmi,
-/\bfo(?:lly|xburrow|)\shang\b/gmi,
+/\bfo(?:lly|xburrow)\shang\b/gmi,
 /\bfoot\s(?:avenue|cove|drove|hill\sspinney|lane|loup|meadow|mill\screscent)\b/gmi,
 /\bfoot\s(?:o['‘’`]?\sloan\swood|of\scastle\spool|place|skear|wood(?:\screscent)?)\b/gmi,
 /\bfoot['‘’`s]{1,2}\s(?:hill|plantation)\b/gmi,

@@ -11,6 +11,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "bath",
 
 // BE
+"beam",
 "bend",
 
 // BI
@@ -74,6 +75,8 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // PI
 "piece",
+"pill",
+"pillar",
 
 // PL
 "place",

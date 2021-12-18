@@ -710,6 +710,11 @@ const a: RegExp[] = [
 /\bperton\slakeside\b/gmi,
 
 // PI
+/\bpill\s(?:and\seaston-in-gordano|ash|bridge\s(?:drove|lane)|copse|cove|creek|drove\scopse|gardens|grove|gwenlly)\b/gmi,
+/\bpill\s(?:head\slane|heath|hill|lane|meadow|moor|parks\sway|plantation|point|pond|road|row|street|susan)\b/gmi,
+/\bpill\s(?:terrace|view|way|white\slane|wood)\b/gmi,
+/\bpill['‘’`s]{1,2}\smouth\b/gmi,
+/\bpillar\s(?:avenue|bank|box\slane|butts|close|crescent|gardens|lane|of\sgirse\sgeo|park|plantation|pot|road|rock|wood)\b/gmi,
 /\bpiece\s(?:copse|croft|end\sclose|fields|hall\syard|hill|lane|plantation|road|wood\sroad)\b/gmi,
 /\bpiggy\slane\splayground\b/gmi,
 /\bpit\spony\sway\b/gmi,

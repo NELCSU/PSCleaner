@@ -10,7 +10,7 @@
  **********************************************************************/
 const a: RegExp[] = [
   /\b[a-z]{2,}\-\d{1,2}\b/gmi,
-  /\d+[\s-](?:bead|day|feet|foot|hand|mile|min|kilometer|km|stair|step|time|week)s?\b/gmi,
+  /\d+[\s-](?:bead|day|feet|foot|hand|mile|min|kilometer|km|oz|stair|step|time|week)s?\b/gmi,
   /\b(?:first|last|tier)\s\d+/gmi,
   /\d+\sof\b/gmi,
   /\d+[\s-](?:(?:out)?\sof|in)[\s-]\d+/gmi,
@@ -151,6 +151,7 @@ const a: RegExp[] = [
   /\bku\sklux\sklan\b/gmi,
 
   // L
+  /\blanded\son\s(?:back|bottom)\b/gmi,
   /\blaissez[\s-]faire\b/gmi,
   /\blate[\s-]comer\b/gmi,
   /\blent\sback\b/gmi,
@@ -266,6 +267,7 @@ const a: RegExp[] = [
   /\bpiece\sof\swood\b/gmi,
   /\bway\s(?:home|of\sthe)\b/gmi,
   /\bwent\s(?:down|into)\b/gmi,
+  /\bwill\sneed\b/gmi,
 
   // Y
   /\byoung\speople\b/gmi,

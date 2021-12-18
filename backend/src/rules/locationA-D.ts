@@ -388,6 +388,7 @@ const a: RegExp[] = [
 /\bbay\sof\ssmall\sisles\b/gmi,
 
 // BE
+/\bbeam\s(?:avenue|bridge|heath\sway|hill|hollow|paddock|primary\sschool|road|street|wood)\b/gmi,
 /\bbend\s(?:oak\sdrive|plantation)\b/gmi,
 /\bbending\s(?:gully|oak)\b/gmi,
 /\bben\stongue\b/gmi,
@@ -547,7 +548,7 @@ const a: RegExp[] = [
 
 // BO
 /\bboat\s(?:bay|brae|carn|catch|cliff|cove|craig|creek|croft|dyke\s(?:lane|road)|geo)\b/gmi,
-/\bboat\s(?:green|harbour|hard|haven|hellia|hill(?:\s(?:copse|plantation))?|hive|hole(?:\sof\sspey)?|)\b/gmi,
+/\bboat\s(?:green|harbour|hard|haven|hellia|hill(?:\s(?:copse|plantation))?|hive|hole(?:\sof\sspey)?)\b/gmi,
 /\bboat\s(?:horse\slane|house\s(?:clump|lane|loch|plantation|pond|spinney|wood))\b/gmi,
 /\bboat\s(?:how|hythe|lane(?:\splantation)?|lifter\sway|o['‘’`f]\s(?:brig\spool|bredibir|breigeo|garten))\b/gmi,
 /\bboat\s(?:plantation|pool|pot|road|rock|shore|stage|wood)\b/gmi,
