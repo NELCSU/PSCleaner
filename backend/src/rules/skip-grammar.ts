@@ -158,7 +158,6 @@ const a: RegExp[] = [
   /\blo\sand\sbehold\b/gmi,
   /\blinkedin\b/gmi,
   /\blower\squadrant\b/gmi,
-  /\blarge\spiece\b/gmi,
 
   // M
   /\bmark\sto\b/gmi,

@@ -42,6 +42,16 @@ const a: RegExp[] = [
 /\bthe\sbars?\b(?=.{2,10}(?:AB11|CH1|GU1|DD11|IV12|IV36|KW17|LL38|NG22|TQ8|TR11|TR23))/gi,
 /(?<=(?:AB11|CH1|GU1|DD11|IV12|IV36|KW17|LL38|NG22|TQ8|TR11|TR23).{2,10})\bthe\sbars?\b/gi,
 
+// BARE
+/\bbare\b(?=.{2,10}(?:LA4))/gi,
+/(?<=(?:LA4).{2,10})\bbare\b/gi,
+/\bbare\sallotment\b(?=.{2,10}(?:LA12))/gi,
+/(?<=(?:LA12).{2,10})\bbare\sallotment\b/gi,
+/\bbare\sash\b(?=.{2,10}(?:TA5))/gi,
+/(?<=(?:TA5).{2,10})\bbare\sash\b/gi,
+/\bbare\shead\b(?=.{2,10}(?:HX3))/gi,
+/(?<=(?:HX3).{2,10})\bbare\shead\b/gi,
+
 // BASIN
 /\bthe\sbasin\b(?=.{2,20}(?:HG5|HS6|IP17|IP24|IP8|IV27|KW17|NN7|RG25|SA62|TD15))/gi,
 /(?<=(?:HG5|HS6|IP17|IP24|IP8|IV27|KW17|NN7|RG25|SA62|TD15).{2,25})\bthe\sbasin\b/gi,
@@ -198,6 +208,11 @@ const a: RegExp[] = [
 // CALF
 /(?<=(?:DT2|ZE2|LA10|TR21).{2,10})\bthe\scalf\b/gi,
 /\bthe\scalf\b(?=.{2,10}(?:DT2|ZE2|LA10|TR21))/gi,
+
+// CAME
+/[\d-]+came\sdown\sclose\b/gi,
+/(?<=(?:DT3).{2,10})\bcame\sdown(?:\sclose)?\b/gi,
+/\bcame\sdown(?:\sclose)?\b(?=.{2,10}(?:DT3))/gi,
 
 // CANDLE
 /(?<=(?:KW16).{2,10})\bthe\scandle\b/gi,
@@ -845,6 +860,11 @@ const a: RegExp[] = [
 /\bthe\sramp\b(?=.{2,20}(?:NP26))/gi,
 /(?<=(?:NP26).{2,25})\bthe\sramp\b/gi,
 
+// RANGE
+/[\d-]+the\srange\b/gi,
+/\bthe\srange\b(?=.{2,20}(?:GU5|NG33|B74|LE15|GL2|HD8|PE19))/gi,
+/(?<=(?:GU5|NG33|B74|LE15|GL2|HD8|PE19).{2,25})\bthe\srange\b/gi,
+
 // RASH
 /\bthe\srash\b(?=.{2,20}(?:LS24|YO26))/gi,
 /(?<=(?:LS24|YO26).{2,25})\bthe\srash\b/gi,
@@ -1018,6 +1038,10 @@ const a: RegExp[] = [
 /\bthe\sslip\b(?=.{2,20}(?:TN16|PE36|MK43|NN6))/gi,
 /(?<=(?:TN16|PE36|MK43|NN6).{2,25})\bthe\sslip\b/gi,
 
+// SLOG
+/\bslog\b(?=.{2,20}(?:ZE2))/gi,
+/(?<=(?:ZE2).{2,25})\bslog\b/gi,
+
 // SNAP
 /\b(?:the\s)?snap\b(?=.{2,20}(?:ZE2))/gi,
 /(?<=(?:ZE2).{2,25})\b(?:the\s)snap\b/gi,
@@ -1085,6 +1109,16 @@ const a: RegExp[] = [
 /[\d-]+tarmac\sroad\b/gi,
 /\btarmac\sroad\b(?=.{2,20}(?:WV4))/gi,
 /(?<=(?:WV4).{2,25})\btarmac\sroad\b/gi,
+
+// THORN
+/[\d-]+the\sthorn\b/gi,
+/[\d-]+thorn\sclose\b/gi,
+/\bthorn\b(?=.{2,20}(?:LD8|LU5|hamlet|village))/gi,
+/(?<=(?:LD8|LU5|hamlet|village).{2,25})\bthorn\b/gi,
+/\bthe\sthorn\b(?=.{2,20}(?:HR2|NE68))/gi,
+/(?<=(?:HR2|NE68).{2,25})\bthe\sthorn\b/gi,
+/\bthorn\sclose\b(?=.{2,20}(?:BD18|BR2|BS22|BS37|CB7|CV21|DE22|DL16|EX1|GU10|GU3[14]|ME5|NE13|NN16|OL10|PL15|RG41|SK17|SO50|TQ12|TS17|UB5|WA5|WS1[05]))/gi,
+/(?<=(?:BD18|BR2|BS22|BS37|CB7|CV21|DE22|DL16|EX1|GU10|GU3[14]|ME5|NE13|NN16|OL10|PL15|RG41|SK17|SO50|TQ12|TS17|UB5|WA5|WS1[05]).{2,25})\bthorn\sclose\b/gi,
 
 // TOE
 /\bthe\stoe\b(?=.{2,20}(?:ZE2))/gi,

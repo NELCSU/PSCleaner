@@ -37,6 +37,7 @@ const a: RegExp[] = [
 /\bquilters\s(?:close|drive|(?:infant|junior)\sschool|place|straight|way|wood|yard)\b/gmi,
 
 // RA
+/\brange\s(?:bank|cleuch|drive|gardens|gate|green|high\sschool|lane|meadow\sclose|moor|of\sthe\sawful\shand|park|place|plantation|ride|road|street|view|way)\b/gmi,
 /\bthe\srack\sisle\b/gmi,
 /\bradley\slarge\swood\b/gmi,
 /\brant\s(?:meadow|score)\b/gmi,
@@ -100,11 +101,7 @@ const a: RegExp[] = [
 /\brampart\s(?:avenue|gardens|head|road|street|terrace|way)\b/gmi,
 /\b(?:back|long)\srampart\b/gmi,
 /\bramping\s(?:cat\shouse|road)\b/gmi,
-/\brange\s(?:bank|cleuch|drive|gardens|gate|green|high\sschool|lane|meadow\sclose|moor)\b/gmi,
-/\brange\s(?:of\sthe\sawful\shand|park|place|plantation|ride|road|street|view|way)\b/gmi,
-/\b(?:ashbrooke|audley|beech|brighton|brook|burnage|carlton|castlehill|claremont)\srange\b/gmi,
-/\b(?:clwydian|crescent|cromwell|delahays|derby|eskmeals|forest|godfrey|highfield)\srange\b/gmi,
-/\b(?:hooley|langley|limekiln|lodge|nevis|north|park|sheltwood|sidlaw|snowdon|south|stanley|wally|westbourne|whalley|whitemoss|woodhayne)\srange\b/gmi,
+/\b(?:beech|brook|crescent|forest|lodge|north|park|south)\srange\b/gmi,
 /\brangers\s(?:avenue|close|court|square|walk)\b/gmi,
 /\brap\splantation\b/gmi,
 /\brapes\s(?:clough|highway|wood)\b/gmi,
@@ -1397,6 +1394,15 @@ const a: RegExp[] = [
 /\btlg\snewcastle\b/gmi,
 
 // TH
+/\bthorn\s(?:alley|avenue|balk|bamk|bank|barn\sclose|brae|close\splantation|clough|clumps?)\b/gmi,
+/\bthorn\s(?:common|coppice|court|covert|crag|crescent|cross|dale|down|drive|fields)\b/gmi,
+/\bthorn\s(?:fleet|gardens|garth|grove\sprimary\sschool|grove|hill(?:\s(?:close|copse|plantation|road|view))?)\b/gmi,
+/\bthorn\s(?:holt|house\s(?:hill|lane)|island|isle|lane|lea(?:\sclose)?|leigh|marsh(?:\sroad)?|mead)\b/gmi,
+/\bthorn\s(?:moor(?:\sfield)?|mount|nook|orchard(?:\splantation)?|park|pit\splantation|plantation|point|primary\sschool)\b/gmi,
+/\bthorn\s(?:reach|road|roan|rock|royd\sdrive|spinney|spring|stile\sclose|street|terrace)\b/gmi,
+/\bthorn\stree\s(?:avenue|covert|drive|gardens|lane|place|plantation|stream|street)\b/gmi,
+/\bthorn\s(?:view(?:\sroad)?|walk|wath\slane|way|well|wold|wood)\b/gmi,
+/\bthorn['‘’`s]{0,2}\s(?:beach|copse|meadow)\b/gmi,
 /\bthe\sawful\shand\b/gmi,
 /\bthe\sfylde\b/gmi,
 /\bthe\sdevil['‘’`s]{1,2}\s(?:barn|cheesewring|dingle|dressing\sroom|elbow|highway|point|punchbowl)\b/gmi,

@@ -261,6 +261,7 @@ const a: RegExp[] = [
 /\baztec\swest\b/gmi,
 
 // BA
+/\bbare\s(?:avenue|ayre|bones\sroad|clough|fen|field\splantation|geo|hill|house\slane|jarnett\sroad|lane|moa|rowa|street|trees\sprimary\sschool)\b/gmi,
 /\bback\sred\sbank\b/gmi,
 /\bbanister\s(?:close|gardens|primary\sschool|road|street|way)\b/gmi,
 /\bbanister['‘’`s]{1,2}\spark\b/gmi,
@@ -829,6 +830,7 @@ const a: RegExp[] = [
 /\bc\sp\sschool\b/gmi,
 /\bC\s(?:Road|Street)\b/gm,
 // CA
+/\bcame\s(?:court|view\s(?:close|road)|withy\sbed|wood)\b/gmi,
 /\bcae-gross\swood\b/gmi,
 /\bcambian\sred\srose\sschool\b/gmi,
 /\bcapability\sway\b/gmi,

@@ -68,6 +68,7 @@ const a: RegExp[] = [
   /\bfairy\snon[\s-]bio\b/gmi,
   /\bfishing\shook\b/gmi,
   /\bfrench\s(?:fries|fry|windows?)\b/gmi,
+  /\bfidge\sdoor\b/gmi,
 
   // G
   /\bgas\spipe\b/gmi,
@@ -90,6 +91,7 @@ const a: RegExp[] = [
   /\b(?:canning|mason)\sjar\b/gmi,
   /\b(?:car|lift)\sjack\b/gmi,
   /\bjenga\sblock\b/gmi,
+  /\bjumper\sroo\b/gmi,
 
   // K
   /\ba\sk[ei]ttle\b/gmi,

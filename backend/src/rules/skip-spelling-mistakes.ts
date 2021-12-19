@@ -4,9 +4,11 @@
 const a: string[] = [
 // A
 "addr",
+"anlke",        // ankle
 "approc",       // approx
 
 // B
+"becime",       // become
 "brusinig",     // bruising
 
 // C
@@ -44,6 +46,9 @@ const a: string[] = [
 
 // T
 "trood",        // trod
+
+// U
+"unabe",        // unable
 
 // V
 "vomittig",     // vomiting
