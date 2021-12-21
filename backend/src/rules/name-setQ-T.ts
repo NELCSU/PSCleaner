@@ -52148,6 +52148,7 @@ const a: string[] = [
 "tingue",
 "tinguely",
 "tingwall",
+"tinh",
 "tinhead",
 "tinhinen",
 "tinhinnen",

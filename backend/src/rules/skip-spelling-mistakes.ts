@@ -48,6 +48,7 @@ const a: string[] = [
 "trood",        // trod
 
 // U
+"uanle",        // unable
 "unabe",        // unable
 
 // V

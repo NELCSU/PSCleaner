@@ -6900,6 +6900,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "weeding",          // name & placename
 "weeks",            // name & placenames (7)
 "weights",          // name & placenames (2)
+"weigt",            // name
 "weld",             // name & placenames (12)
 "well",             // placenames (613)
 "wells",            // name & placenames (205)
