@@ -67150,7 +67150,6 @@ const a: string[] = [
 "degasparre",
 "degasperis",
 "degaust",
-"dege",
 "degear",
 "degeare",
 "degeest",

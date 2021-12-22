@@ -23156,6 +23156,7 @@ const a: string[] = [
 "zirfas",
 "zirger",
 "zirgulyte",
+"zirh",
 "zirin",
 "zirite",
 "zirk",

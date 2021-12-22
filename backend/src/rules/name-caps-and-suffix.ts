@@ -363,6 +363,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "ghoul",
 
 // GI
+"giddy",
 "gingery",
 "given",
 

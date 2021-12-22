@@ -13,7 +13,7 @@
  * generating words have been rationalised over time.
  **********************************************************************/
 const a: RegExp[] = [
-  /\b(?:1st|2nd|3rd|[45]th)\s(?:episode|mt|toes)\b/gmi,
+  /\b(?:1st|2nd|3rd|[45]th)\s(?:episode|mc|mt|toes)\b/gmi,
 
   // A
   /\bachilli?es\stendon/gmi,
@@ -33,7 +33,7 @@ const a: RegExp[] = [
   /\barhtogrypoci\b/gmi,
   
   // B
-  /\bboney\stenderness\b/gmi,
+  /\bbone?y\stenderness\b/gmi,
   /\bbatson['‘’`s]{1,2}\splexus\b/gmi,
   /\bbee\ssting\b/gmi,
   /\bb(?:artholin|runner)['‘’`s]{1,2}\sglands?\b/gmi,
@@ -367,6 +367,7 @@ const a: RegExp[] = [
   /\bthebesian['‘’`s]{1,2}\s(?:foramina|valves?|veins?)\b/gmi,
   /\btourette['‘’`s]{1,2}\ssyndrome\b/gmi,
   /\btachycardi\b/gmi,
+  /\bthenar?\seminence\b/gmi,
 
   // U
   /\bu(?:lna|rethra|teri)\b/gmi,

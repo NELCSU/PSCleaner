@@ -644,6 +644,15 @@ const a: RegExp[] = [
 /(?<=(?:YO14).{2,10})\blarge\srocks\b/gi,
 /\blarge\srocks\b(?=.{2,10}(?:YO14))/gi,
 
+// LOOP
+/[\d-]+the\sloop\b/gi,
+/(?<=(?:PO22|KW14).{2,10})\bthe\sloops?\b/gi,
+/\bthe\sloops?\b(?=.{2,10}(?:PO22|KW14))/gi,
+
+// LUNCH
+/(?<=(?:CV35).{2,10})\bthe\slunch\b/gi,
+/\bthe\slunch\b(?=.{2,10}(?:CV35))/gi,
+
 // NECK
 /(?<=(?:EX39|SA62).{2,10})\bthe\sneck\b/gi,
 /\bthe\sneck\b(?=.{2,10}(?:EX39|SA62))/gi,
@@ -651,6 +660,11 @@ const a: RegExp[] = [
 /\b(?:horse|little)\sneck\b(?=.{2,10}(?:SA62|TR23))/gi,
 /(?<=(?:SA3).{2,10})\blow\sneck\b/gi,
 /\blow\sneck\b(?=.{2,10}(?:SA3))/gi,
+
+// OPENING
+/[\d-]+the\sopening\b/gi,
+/(?<=(?:SG4).{2,10})\bthe\sopening\b/gi,
+/\bthe\sopening\b(?=.{2,10}(?:SG4))/gi,
 
 // OTTER
 /(?<=(?:KW17|ZE[23]).{2,10})\botters?\shad\b/gi,
@@ -661,6 +675,10 @@ const a: RegExp[] = [
 /[\d-]+little\sotters\b/gi,
 /(?<=(?:EX10).{2,10})\blittle\sotters\b/gi,
 /\blittle\sotters\b(?=.{2,10}(?:EX10))/gi,
+
+// OVEN
+/(?<=(?:IP9|SA62|NG23).{2,10})\bthe\sovens?\b/gi,
+/\bthe\sovens?\b(?=.{2,10}(?:IP9|SA62|NG23))/gi,
 
 // PADDLE
 /(?<=(?:ZE2).{2,10})\bthe\spaddle\b/gi,

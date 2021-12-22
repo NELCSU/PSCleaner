@@ -1589,6 +1589,7 @@ const a: RegExp[] = [
 /\bdarks\sroad\b/gmi,
 
 // DE
+/\bdeerstalker\ssquare\b/gmi,
 /\bdeil['‘’`s]{1,2}\selbow\b/gmi,
 /\bdeer\sfence\splantation\b/gmi,
 /\bdent\sfell\b/gmi,

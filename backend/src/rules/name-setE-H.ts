@@ -13053,7 +13053,6 @@ const a: string[] = [
 "fige",
 "figeiredo",
 "figen",
-"figer",
 "figerete",
 "figes",
 "figeuiredo",

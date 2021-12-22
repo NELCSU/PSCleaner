@@ -160,8 +160,8 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sLittle\s(?:Belt|Boltons|Brook|Gonerby|Gorge|Horse\sShoe|Minch|Rooks|Rough|Ship)\b/gm,
   /\bThe\sLo(?:an|bby|ckers|ng\sS(?:hoot|traight)|rd['‘’`s]{1,2}\sHighway|ts|ttery|w)\b/gm,
   /\bThe\sLod(?:ge|gings)\b/gm,
-  /\bThe\sLoo(?:kout|ms|ps?)\b/gm,
-  /\bThe\sLu(?:g|nch)\b/gm,
+  /\bThe\sLoo(?:kout|ms|ps)\b/gm,
+  /\bThe\sLug\b/gm,
 
   // M
   /\bThe\sMag(?:ical\sWood|nolias|pies)\b/gm,
@@ -199,7 +199,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sOlde?\sW(?:alled\sGarden|arehouse|ife|oodyard)\b/gm,
   /\bThe\sOa(?:ks|sis)?\b/gm,
   /\bThe\sOr(?:angery|chards?|chids)\b/gm,
-  /\bThe\sO(?:ctagon|d|lympia|pening|spreys?|tters|utlook|val|vens?|xen)\b/gm,
+  /\bThe\sO(?:ctagon|d|lympia|spreys?|tters|utlook|val|xen)\b/gm,
   
   // P
   /\bThe\sPa(?:cket\sLanding|ddocks?|goda|lms|ye)\b/gm,

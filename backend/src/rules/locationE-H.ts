@@ -651,6 +651,9 @@ const a: RegExp[] = [
 /\bholy\sghost\sroman\scatholic\b/gmi,
 
 // GI
+/\bgiddy\s(?:bridge\splantation|geo|green(?:\s(?:lane|road))?|horn\splantation|lane)\b/gmi,
+/\bgiddy['‘’`s]{1,2}\swood\b/gmi,
+/\bgiraffe\srow\b/gmi,
 /\bgiven\sdale\b/gmi,
 /\bgiffard['‘’`s]{1,2}\sjump\b/gmi,
 /\bgirdle\sfell\b/gmi,

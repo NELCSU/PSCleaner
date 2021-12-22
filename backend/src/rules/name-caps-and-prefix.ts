@@ -3,6 +3,13 @@
  * Typically found as first names
  ***********************************************************************/
  export const ProperNameSetJoinPrefixOnly: Set<string> = new Set([
+// AI
+"aided",
+
+// DE
+"desire",
+"destiny",
+
 // HA
 "happy",
 
