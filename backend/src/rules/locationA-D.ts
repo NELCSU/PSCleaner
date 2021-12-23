@@ -743,7 +743,7 @@ const a: RegExp[] = [
 /\bBroad\sLength\b/gm,
 /\b(?:broads\s(?:bank|lane|road|way|yard)|late\sbroads)\b/gmi,
 /\b(?:broken\s(?:back(?:\slane|\splantation)?|brae\spool|bridge\sspinney|brough|brow\swood|cleuch|cliff|craig|cross(?:\smuir)?|furlong|gate\slane|heugh|moss|stone\sroad|tors\scoppice|way)|da\sbroken\sheads)\b/gmi,
-/\bBroken\s(?:Banks?(?:\s[Pp]ool)?|Ground|Knuckles|Wharf)\b/gm,
+/\bBroken\s(?:Banks?(?:\s[Pp]ool)?|Ground|Wharf)\b/gm,
 /\bbrother\s(?:hills|isle|loch)\b/gmi,
 /\bBrush\s(?:Drive|End)\b/gm,
 /\bbrush\s(?:hills?|hole\spasture|house\shill|plantation|street|wood)\b/gmi,
@@ -1104,6 +1104,9 @@ const a: RegExp[] = [
 /\b(?:guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CO
+/\bcot\s(?:barn\splantation|bottom|castle\s(?:grove|view(?:\s(?:east|west))?)|cleugh|farm\s(?:circle|close|walk))\b/gmi,
+/\bcot\s(?:garth\slane|hill(?:\sclose)?|hillock|lane|plantation|road|valley|wood)\b/gmi,
+/\bcot-town(?:hill|hillock|wood)\b/gmi,
 /\bcoldwater\slane\b/gmi,
 /\bcowarne\sred\sway\b/gmi,
 /\bcorner\s(?:bank\s(?:close|lane|plantation)?|brake|brook|close|clump|common\sroad|coppice|copse|crescent)\b/gmi,

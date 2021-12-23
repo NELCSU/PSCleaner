@@ -18,6 +18,9 @@ const a: string[] = [
 // D
 "drowsey",      // drowsy
 
+// H
+"headcahe",     // headache
+
 // I
 "initallt",     // initially
 "injruy",       // injury

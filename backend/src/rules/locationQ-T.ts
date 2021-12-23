@@ -204,6 +204,7 @@ const a: RegExp[] = [
 /\bripon\s(?:and|\&)\sdistrict\b/gmi,
 
 // RO
+/\broe\sof\sthe\sstack\b/gmi,
 /\broyl\stongue\b/gmi,
 /\brobin\shood\sball\sclump\b/gmi,
 /\broller\sclump\b/gmi,
@@ -654,6 +655,7 @@ const a: RegExp[] = [
 /\bshrimp\srock\b/gmi,
 /\b(?:apsey|ditchend|hollin|latchmore|markway|mount|ober|poundfield)\sshade\b/gmi,
 /\b(?:redrise|sick\sman['‘’`]*s|thorney|withycombe)\sshade\b/gmi,
+/\bships\s(?:ayre|slouch)\b/gmi,
 
 // SI
 /\bside\s(?:acre\scoppice|allotment|avenue|bank\swood|bra[ey]s|by\sside\sschool|cliff\sroad)\b/gmi,
@@ -801,7 +803,7 @@ const a: RegExp[] = [
 /\b(?:slopes\scoppice|tankerton\sslopes)\b/gmi,
 /\bsloping\shead\b/gmi,
 /\bhigh\sslops\swood\b/gmi,
-/\b(?:barrack|bloody|ships)\sslouch\b/gmi,
+/\b(?:barrack|bloody)\sslouch\b/gmi,
 /\bslouch\s(?:hill|moos|spirn\shill)\b/gmi,
 /\bsludge\s(?:hall\shill|pit\splantation|pond)\b/gmi,
 /\b(?:creag\sslug|slug\s(?:geo|head|of\sauchrannie|road|wood))\b/gmi,

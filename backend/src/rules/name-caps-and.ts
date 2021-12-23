@@ -1643,7 +1643,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "corp",             // name & placenames (6)
 "cosmic",           // name & placename
 "cosmos",           // name
-"cot",              // name & placenames (29)
 "cottage",          // placenames (213)
 "cottages",         // placenames (266)
 "cotton",           // name & placenames (90)
@@ -3440,7 +3439,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "kitchens",         // name & placename
 "knock",            // standalone & placenames (74)
 "knuckle",          // name & placenames (2)
-"knuckles",         // name & placename
 "knack",            // name & placename
 "knell",            // name & placenames (3)
 "knightly",         // name & placenames (2)
@@ -4500,6 +4498,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "november",         // name & placename
 
 // NU
+"nuckles",          // name
 "numbers",          // name & placenames (2)
 "nun",              // name & placenames (28)
 "nunnery",          // name & placenames (27)

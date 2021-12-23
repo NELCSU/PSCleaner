@@ -625,6 +625,10 @@ const a: RegExp[] = [
 /(?<=(?:ZE[12]).{2,10})\bkeen\b/gi,
 /\bkeen\b(?=.{2,10}(?:ZE[12]))/gi,
 
+// KNUCKLES
+/(?<=(?:ZE2).{2,10})\bbroken\sknuckles\b/gi,
+/\bbroken\sknuckles\b(?=.{2,10}(?:ZE2))/gi,
+
 // LADDER
 /(?<=(?:PA70|PA67).{2,10})\bladder\b/gi,
 /\bladder\b(?=.{2,10}(?:PA70|PA67))/gi,

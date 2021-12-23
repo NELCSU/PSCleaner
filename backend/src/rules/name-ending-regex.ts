@@ -809,7 +809,7 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+li[bf-moqru-z]\b/gmi,
    /\b[a-z]+lm[aeinou]\b/gmi,
    /\b[a-z]+ll[b-jmp-rt-xz]\b/gmi,
-   /\b[a-z]+ln[adefh-ps-z]\b/gmi,
+   /\b[a-z]+ln[aeinostuy]\b/gmi,
    /\b[a-z]+lo[abdefh-koqsuvxz]\b/gmi,
    /\b[a-z]+lp[aehiou]\b/gmi,
    /\b[a-z]+ls[ahiou]\b/gmi,
@@ -817,7 +817,7 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+lu[acdfh-ln-rt-wyz]\b/gmi,
    /\b[a-z]+lv[aiosuy]\b/gmi,
    /\b[a-z]+lw[aegimnorstuy]\b/gmi,
-   /\b[a-z]+ly[a-km-rt-wyz]\b/gmi,
+   /\b[a-z]+ly[abd-kmnortuwyz]\b/gmi,
 
    /\b[a-z]+ma[abd-kmoqru-wyz]\b/gmi,
    /\b[a-z]+mb[aeou]\b/gmi,

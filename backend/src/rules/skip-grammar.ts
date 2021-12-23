@@ -133,7 +133,7 @@ const a: RegExp[] = [
   /\bhard\sedge\b/gmi,
   /\bhigh\scommission\b/gmi,
   /\bhong\skong\b/gmi,
-  /\bhow\s(?:far|fell|long)\b/gmi,
+  /\bhow\s(?:deep|far|fell|long)\b/gmi,
 
   // I
   /\b(?:inner|lower|outer|upper)\s(?:inner|lower|outer|upper)\b/gmi,
