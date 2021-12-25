@@ -106,6 +106,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "side",
 
 // SP
+"splash",
 "sports",
 
 // TH

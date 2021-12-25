@@ -122,6 +122,7 @@ const a: RegExp[] = [
   /\bflu\svacc(?:ine|ination)?\b/gmi,
   /\bfirst\saider\b/gmi,
   /\bfall\shead\b/gmi,
+  /\bfutura\ssplint\b/gmi,
 
   // G
   /\bgallaudet['‘’`s]{1,2}\sfascia\b/gmi,
@@ -252,6 +253,7 @@ const a: RegExp[] = [
   /\bneurovascula\b/gmi,
 
   // O
+  /\boto\/rhino/gmi,
   /\boedmea\b/gmi,
   /\bosteogen[io]us\b/gmi,
   /\bottawa\s(?:(?:rule|sign)s?\s)?(?:negative|positive)\b/gmi,

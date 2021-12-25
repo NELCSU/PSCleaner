@@ -102,6 +102,7 @@ const a: RegExp[] = [
 /\bmarks\stey\sand\slayer\b/gmi,
 
 // ME
+/\bmeikle\sscore\b/gmi,
 /\bmaavi\stongue\b/gmi,
 /\bmervyn\sball\sclose\b/gmi,
 /\bmermaid['‘’`s]{1,2}\schair\b/gmi,
@@ -239,6 +240,7 @@ const a: RegExp[] = [
 /\bMy\sStreet\b/gm,
 
 // NA
+/\bna\sstaing\b/gmi,
 /\bnapes\sneedle\b/gmi,
 /\bnails\slane\b/gmi,
 /\bnanny\sgoat\slane\b/gmi,
@@ -334,6 +336,7 @@ const a: RegExp[] = [
 /\bnine\s(?:standards\srigg|stiles\sclose|stone\s(?:rig|wood)|streams\sreach|tree\shill|ways\splantation)\b/gmi,
 
 // NO
+/\bnorth\sscore\sholm\b/gmi,
 /\bnorth\s(?:forty\sfoot\sbank|week\s(?:bottoms|old\splantation))\b/gmi,
 /\bnorton\sbig\swood\b/gmi,
 /\bNorth\sCut\b/gm,
@@ -536,6 +539,7 @@ const a: RegExp[] = [
 /\bOther\sRoad\b/gm,
 
 // OU
+/\bouter\sscore\b/gmi,
 /\bour\slady\sof\sgood\s(?:aid\scathedral|counsel\sroman\scatholic|help\sroman\scatholic)\b/gmi,
 /\bthe\sgood\sshepherd\s(?:catholic|roman\scatholic)\b/gmi,
 /\bouter\spenny\sledge\b/gmi,

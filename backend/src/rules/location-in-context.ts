@@ -402,6 +402,10 @@ const a: RegExp[] = [
 /\bthe\sfloors\b(?=.{2,10}(?:AB44|island))/gi,
 /(?<=(?:AB44|island).{2,10})\bthe\sfloors\b/gi,
 
+// FOG
+/\bfog\shorn\b(?=.{2,10}(?:ZE2))/gi,
+/(?<=(?:ZE2).{2,10})\bfog\shorn\b/gi,
+
 // FOOT
 /[\d-]+the\sfoot\b/gi,
 /(?<=(?:ZE2|KW17|DE6).{2,10})\bthe\sfoot\b/gi,
@@ -513,6 +517,10 @@ const a: RegExp[] = [
 // GREEN
 /(?<=(?:KY10|ZE3)).{2,25}\bgreen\sface\b/gi,
 /\bgreen\sface\b(?=.{2,20}(?:KY10|ZE3))/gi,
+
+// GRID
+/(?<=(?:SA73)).{2,25}\bgrid\siron\b/gi,
+/\bgrid\siron\b(?=.{2,20}(?:SA73))/gi,
 
 // HANDBALL
 /(?<=(?:EX35)).{2,25}\bhandball\b/gi,
@@ -978,6 +986,13 @@ const a: RegExp[] = [
 /[\d-]+\sschool\s(?:annexe|approach|belt|chase|close|dr[io]ve|end|field\sclose|fields?)\b/gi,
 /[\d-]+\sschool\s(?:gardens|green|houses?|place|rise|rough|row|terrace|view|walk|yard)\b/gi,
 
+// SCORE
+/[\d-]+the\sscore\b/gi,
+/\bscore\b(?=.{2,20}(?:ZE2))/gi,
+/(?<=(?:ZE2).{2,25})\bscore\b/gi,
+/\bthe\sscore\b(?=.{2,20}(?:WA9|BS40|NR34))/gi,
+/(?<=(?:WA9|BS40|NR34).{2,25})\bthe\sscore\b/gi,
+
 // SEAT
 /\bthe\seat\b(?=.{2,20}(?:ML12))/gi,
 /(?<=(?:ML12).{2,25})\bthe\sseat\b/gi,
@@ -1069,6 +1084,11 @@ const a: RegExp[] = [
 /(?<=(?:ZE2).{2,25})\b(?:the\s)snap\b/gi,
 /\bsnap\swood\b(?=.{2,20}(?:GU33))/gi,
 /(?<=(?:GU33).{2,25})\bsnap\swood\b/gi,
+
+// SPLASH
+/[\d-]+the\ssplash\b/gi,
+/\bthe\ssplash\b(?=.{2,20}(?:RG42|GL8))/gi,
+/(?<=(?:RG42|GL8).{2,25})\bthe\ssplash\b/gi,
 
 // SPORTS
 /\bsports\sground\b(?=.{2,20}(?:S8))/gi,

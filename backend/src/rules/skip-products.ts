@@ -133,6 +133,7 @@ const a: RegExp[] = [
   /\bs(?:tanley|wiss\sarmy)\sknife\b/gmi,
   /\bscarf\spin\b/gmi,
   /\bsewing\s(?:kit|machine)\b/gmi,
+  /\bshinpad\b/gmi,
   /\bsma\sgold\b/gmi,
   /\bstair\sgate\b/gmi,
   /\bspace\shopper\b/gmi,

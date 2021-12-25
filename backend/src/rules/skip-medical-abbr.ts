@@ -47,6 +47,7 @@ const a: RegExp[] = [
   /\bNSTEMI\b/gm,
   /\bo\/a\b/gmi,
   /\bortho\b/gmi,
+  /\bperla\s\d+/gmi,
   /\bPERLA\b/gm,
   /\bpmhx?\b/gmi,
   /\bpreg\b/gmi,

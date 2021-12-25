@@ -9,6 +9,7 @@
 const a: RegExp[] = [
 /\b[ef]\sstreet\b/gmi,
 // EA
+/\beaster\sscore\sholm\b/gmi,
 /\bearnsheugh\stongue\b/gmi,
 /\beast\s(?:hoop|week)\b/gmi,
 /\beasington\sfell\sroad\b/gmi,
@@ -247,6 +248,7 @@ const a: RegExp[] = [
 /\bflue\s(?:geos|taing)\b/gmi,
 
 // FO
+/\bfog\s(?:hill(?:\sclough)?|house\swood|lane)\b/gmi,
 /\bfore\sdoors\splantation\b/gmi,
 /\bfour\swent\sways\sservice\sarea\b/gmi,
 /\bfo(?:lly|xburrow)\shang\b/gmi,
@@ -990,6 +992,7 @@ const a: RegExp[] = [
 /\bhaslemere\s(?:and|\&)\sdistrict\b/gmi,
 
 // HE
+/\bherring\sfishery\sscore\b/gmi,
 /\bhedge\s(?:close|corner|cove|croft\swood|down|drive|end(?:\s(?:&\swest\send\ssouth|north|road|south|way))?)\b/gmi,
 /\bhedge\s(?:field\s(?:close|road|way)|furlong|grove|hey|hill(?:\sroad)?|lane|lea|nook|parsley\screscent)\b/gmi,
 /\bhedge\s(?:place\sroad|road|rock(?:\sledge)?|row(?:\sclose|s)?|side|sparrow\sroad|top\slane|way|wood)\b/gmi,
@@ -1144,6 +1147,8 @@ const a: RegExp[] = [
 /\bhinckley\s(?:and|\&)\sdistrict\b/gmi,
 
 // HO
+/\bhovie\sscore\b/gmi,
+/\bholms\sof\sire\b/gmi,
 /\bhole\sof\sthe\shead\b/gmi,
 /\bhouse\sof\sthe\shead\b/gmi,
 /\bhollin\shouse\stongue\b/gmi,

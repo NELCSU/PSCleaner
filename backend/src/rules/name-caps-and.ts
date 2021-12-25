@@ -339,19 +339,18 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "beechwood",
 "beers",
 "beery",
-"beet",
 "beetle",
 "beetles",
 "beets",
 "befell",
 "begain",
 "begal",
+"begame",           // name
 "beggar",
 "beggarly",
 "beggarman",
 "beggarmans",
 "begger",
-"belay",
 "belch",
 "belfry",
 "belladonna",
@@ -5918,7 +5917,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "scarf",            // name & placenames (19)
 "schools",          // name & placenames (129)
 "schoolyard",       // standalone & placename
-"score",            // standalone & placenames (36)
 "scotland",         // name & placenames (64)
 "screen",           // standalone & placenames (2)
 
@@ -6224,7 +6222,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "spilling",         // name & placename
 "spires",           // name & placenames (16)
 "spittle",          // name & placenames (8)
-"splash",           // name & placenames (7)
 "spoor",            // name & placename
 "spore",            // name & placename
 "spain",            // name & placenames (9)
@@ -6470,6 +6467,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 // T
 "tapas",            // name
 "temple",           // name & standalone & placenames (179)
+"thier",            // name
 "threshers",        // standalone
 "tia",              // name
 "tiger",            // name & placenames (18)
@@ -6862,6 +6860,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "wacko",            // name
 "wales",            // name & placenames (141)
 "walker",           // name & placenames (92)
+"walkin",           // name
 "walks",            // name & placenames (38)
 "wane",             // name & placename
 "ward",             // name & placenames (153)
@@ -7059,6 +7058,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "wolfs",            // name & placenames (4)
 "womble",           // name & placename
 "won",              // name
+"wond",             // name
 "woodcraft",        // name & placenames (2)
 "woodland",         // name & standalone & placenames (153)
 "woodpecker",       // standalone & placenames (25)

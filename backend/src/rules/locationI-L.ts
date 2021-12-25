@@ -28,6 +28,7 @@ const a: RegExp[] = [
 /\bimpala\s(?:close|drive|gardens|way)\b/gmi,
 
 // IN
+/\binner\sscore\b/gmi,
 /\bintac\swood\b/gmi,
 /\bIn\sFell\b/gm,
 /\binner\spenny\sledge\b/gmi,
@@ -110,10 +111,10 @@ const a: RegExp[] = [
 /\birishman['‘’`s]{1,2}\sledge\b/gmi,
 /\birony\sgeo\b/gmi,
 /\bironing\sbox\sclump\b/gmi,
-/\b(?:holms\sof\sire|ire\sgeo|ire['‘’`s]{1,2}\staing|sgurrachd\sire)\b/gmi,
+/\bire(?:\sgeo|['‘’`s]{1,2}\staing)\b/gmi,
 /\birelands\s(?:croft\sclose|lane)\b/gmi,
 /\biridium\s(?:court|way)\b/gmi,
-/\b(?:ayre\sof|burnet|grid|ogof)\siron\b/gmi,
+/\b(?:ayre\sof|burnet|ogof)\siron\b/gmi,
 /\biron['‘’`s]{1,2}\s(?:acton|carr|cliff|copse|cove|covert|crag|craig|drive|geo|groves|hellia|hill|hogg|howe|keld|lane|leys|mills?|ness|pikes|plantation|plat|road|row|scars?|slunk|tower|way|well)\b/gmi,
 /\bIron\s(?:Band|Bridge|Car|Dish|Duke|Foundry|Mine|Railway|Shovel)\b/gm,
 
@@ -450,6 +451,7 @@ const a: RegExp[] = [
 /\bleveller\s(?:end|road|way)\b/gmi,
 
 // LI
+/\blittle\sscore\b/gmi,
 /\blincoln\sred\sclose\b/gmi,
 /\blittle\sred\swood\b/gmi,
 /\blivera\stongue\b/gmi,
@@ -504,6 +506,7 @@ const a: RegExp[] = [
 /\bLNG\sterminal\b/gmi,
 
 // LO
+/\bloch\sstaing\b/gmi,
 /\blove\s(?:avenue|clough(?:\sroad)?|drive|green(?:\slane)?|hill\slane|lane(?:\s(?:close|plantation|primary\sschool|terrace))?)\b/gmi,
 /\blove\s(?:lyne|road|street(?:\sclose)?|walk|way)\b/gmi,
 /\blove['‘’`s]{1,2}\s(?:close|copse|grove(?:\swood)?|hill|lane|wood)\b/gmi,

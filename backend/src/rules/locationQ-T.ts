@@ -37,7 +37,8 @@ const a: RegExp[] = [
 /\bquilters\s(?:close|drive|(?:infant|junior)\sschool|place|straight|way|wood|yard)\b/gmi,
 
 // RA
-/\brange\s(?:bank|cleuch|drive|gardens|gate|green|high\sschool|lane|meadow\sclose|moor|of\sthe\sawful\shand|park|place|plantation|ride|road|street|view|way)\b/gmi,
+/\brange\s(?:bank|cleuch|drive|gardens|gate|green|high\sschool|lane|meadow\sclose|moor)\b/gmi,
+/\brange\s(?:of\sthe\sawful\shand|park|place|plantation|ride|road|street|view|way)\b/gmi,
 /\bthe\srack\sisle\b/gmi,
 /\bradley\slarge\swood\b/gmi,
 /\brant\s(?:meadow|score)\b/gmi,
@@ -373,6 +374,8 @@ const a: RegExp[] = [
 /\bsandall\sbeat\slane\b/gmi,
 
 // SC
+/\bscore\s(?:bank|croft|head|hill|holm|lane|minni|ray\s(?:lane|plantation)|stack|view)\b/gmi,
+/\bscore['‘’`s]{1,2}\shill\splantation\b/gmi,
 /\bscoot\swood\b/gmi,
 /\bscale\sgill\sfoot\smoss\b/gmi,
 /\bschool\s(?:allotment(?:\sride)?|avenue|aycliffe(?:\slane)?|bank\sroad)\b/gmi,
@@ -535,6 +538,9 @@ const a: RegExp[] = [
 /\bsextons\s(?:lane|meadows)\b/gmi,
 /\bseafarers\swalk\b/gmi,
 /\bSe(?:cond|venth)\sStreet\b/gm,
+
+// SG
+/\bsgurrachd\sire\b/gmi,
 
 // SH
 /\bshallow\stongue\b/gmi,
@@ -909,6 +915,8 @@ const a: RegExp[] = [
 /\bsound\s(?:and|\&)\sdistrict\b/gmi,
 
 // SP
+/\bspurgeon\sscore\b/gmi,
+/\bsplash\s(?:covert|lane|mill\swood|pond)\b/gmi,
 /\bsprings\sof\sthe\scroos\b/gmi,
 /\bspitley\stongue\b/gmi,
 /\bspy\sglass\shill\b/gmi,
@@ -1539,6 +1547,7 @@ const a: RegExp[] = [
 /\bthe\s(?:beccles|york)\s(?:and|\&)\sdistrict\b/gmi,
 
 // TI
+/\btibbenham['‘’`s]{1,2}\sscore\b/gmi,
 /\btie\sroad\sno\s2\b/gmi,
 /\btib\s(?:hill|lane|meadow\sdrive|street|wood)\b/gmi,
 /\bTight\sHead\b/gm,
