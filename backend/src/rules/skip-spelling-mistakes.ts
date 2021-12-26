@@ -57,10 +57,14 @@ const a: string[] = [
 
 // S
 "seld",         // self
+"soem",         // some
+"straigt",      // straight
+"superficail",  // superficial
 
 // T
 "theigh",       // thigh
 "thorugh",      // thorough
+"tierd",        // tired
 "trood",        // trod
 
 // U
@@ -70,6 +74,7 @@ const a: string[] = [
 
 // V
 "vomittig",     // vomiting
+"vomti",        // vomit
 "vulvula",      // vulva
 ];
 const SkipSpellingSet: Set<string> = new Set();

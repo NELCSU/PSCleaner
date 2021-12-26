@@ -68,10 +68,11 @@ const a: RegExp[] = [
 /\bagony\spoint\b/gmi,
 
 // AI
+/\bain\smoor\b/gmi,
 /\bair(?:manship|speed)\sroad\b/gmi,
 /\bairship\s(?:road|way)\b/gmi,
 /\bair\s(?:ambulance(?:airbase|station)|balloon\s(?:hill|road)|bank\swood|cleuch|chrith|mount\sclose|muir|park\sway|sea\smews|street)\b/gmi,
-/\b(?:bel|leac\san|eilean\san|moss\sof|woodcock)\sair\b/gmi,
+/\b(?:bel|leac\san|eilean\san|moss\sof)\sair\b/gmi,
 /\bMountain\sAir\b/gm,
 /\bairborne\s(?:avenue|close|drive)\b/gmi,
 /\baircraft\s(?:drive|esplanade|way)\b/gmi,
@@ -1652,6 +1653,7 @@ const a: RegExp[] = [
 /\bdhoul['‘’`s]{1,2}\spavement\b/gmi,
 
 // DI
+/\bdib\s(?:close|lane|road)\b/gmi,
 /\bdiligence\s(?:close|way)\b/gmi,
 /\bdick\sfell\shill\b/gmi,
 /\bdin\sfell\b/gmi,

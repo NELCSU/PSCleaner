@@ -543,6 +543,7 @@ const a: RegExp[] = [
 /\bsgurrachd\sire\b/gmi,
 
 // SH
+/\bshaft\s(?:downs(?:\slane)?|field\sspinney|lane|road|wood)\b/gmi,
 /\bshallow\stongue\b/gmi,
 /\bshank\stongue\b/gmi,
 /\bshaw\stongue(?:\splantation)?\b/gmi,

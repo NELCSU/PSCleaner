@@ -10,6 +10,9 @@
 "desire",
 "destiny",
 
+// DU
+"dusty",
+
 // HA
 "happy",
 

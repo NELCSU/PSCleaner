@@ -13,7 +13,7 @@
  * generating words have been rationalised over time.
  **********************************************************************/
 const a: RegExp[] = [
-  /\b(?:1st|2nd|3rd|[45]th)\s(?:episode|mc|mt|toes)\b/gmi,
+  /\b(?:1st|2nd|3rd|[45]th)\s(?:episode|metacarp[ao]l|mc|mt|toes)\b/gmi,
 
   // A
   /\bachilli?es\stendon/gmi,
@@ -58,10 +58,12 @@ const a: RegExp[] = [
   /\b[Bb]undle\sof\sHis\b/gm,
   /\bbilharzia\b/gmi,
   /\bbuddy\sstrap\w*\b/gmi,
+  /\bburn\sdressing\b/gmi,
   /\bburnt\s(?:bottom|top)\b/gmi,
   /\bback\spain\b/gmi,
   
   // C
+  /\bcalcaneus\b/gmi,
   /\bc(?:ajal(?:[\s-]retzius)?|lara)\scells?\b/gmi,
   /\bcuvier['‘’`s]{1,2}\sducts?\b/gmi,
   /\bcoryz[ao]l\b/gmi,
@@ -137,6 +139,7 @@ const a: RegExp[] = [
   /\bgr[aäe]{1,2}fenberg\sspot\b/gmi,
   /\bgram[-\s]neg(?:ative)?\b/gmi,
   /\bgolgi\s(?:apparatus|receptor)\b/gmi,
+  /\bgood\spulse\b/gmi,
 
   // H
   /\bhickmann?['‘’`s]{1,2}\slines?\b/gmi,
@@ -390,6 +393,7 @@ const a: RegExp[] = [
   /\bvascula\b/gmi,
   
   // W
+  /\bwell\sperfused\b/gmi,
   /\bweber\stype\s[a-z]['‘’`s]{1,2}\sfract\w+\b/gmi,
   /\bw(?:harton|irsung|olffian)['‘’`s]{1,2}\sducts?\b/gmi,
   /\bwernicke['‘’`s]{1,2}\sareas?\b/gmi,

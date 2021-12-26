@@ -3,10 +3,14 @@
  * and/or mid-sequence
  **********************************************************************/
 export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
+// AI
+"ain",
+
 // AR
 "arms",
 
 // BA
+"ballon",
 "banister",
 "bare",
 "bath",
@@ -68,6 +72,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // HO
 "hole",
+"hone",
 
 // LE
 "legs",
@@ -101,6 +106,9 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // SA
 "sand",
+
+// SH
+"shaft",
 
 // SI
 "side",

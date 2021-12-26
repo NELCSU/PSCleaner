@@ -220,6 +220,7 @@ const a: RegExp[] = [
 /\bkelso\s(?:and|\&)\sdistrict\b/gmi,
 
 // KI
+/\bkiln\sof\sdusty\b/gmi,
 /\bkill\sof\squi\b/gmi,
 /\bkineton\s&\sred\shorse\b/gmi,
 /\bkitty['‘’`s]{1,2}\swent\b/gmi,

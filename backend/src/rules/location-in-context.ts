@@ -1162,6 +1162,10 @@ const a: RegExp[] = [
 /\bthorn\sclose\b(?=.{2,20}(?:BD18|BR2|BS22|BS37|CB7|CV21|DE22|DL16|EX1|GU10|GU3[14]|ME5|NE13|NN16|OL10|PL15|RG41|SK17|SO50|TQ12|TS17|UB5|WA5|WS1[05]))/gi,
 /(?<=(?:BD18|BR2|BS22|BS37|CB7|CV21|DE22|DL16|EX1|GU10|GU3[14]|ME5|NE13|NN16|OL10|PL15|RG41|SK17|SO50|TQ12|TS17|UB5|WA5|WS1[05]).{2,25})\bthorn\sclose\b/gi,
 
+// TIPS
+/\bthe\stips\b(?=.{2,20}(?:IP12))/gi,
+/(?<=(?:IP12).{2,25})\bthe\stips\b/gi,
+
 // TOE
 /\bthe\stoe\b(?=.{2,20}(?:ZE2))/gi,
 /(?<=(?:ZE2).{2,25})\bthe\stoe\b/gi,
@@ -1215,6 +1219,11 @@ const a: RegExp[] = [
 /[\d-]+the\stown\b/gi,
 /(?<=(?:DE21|EN2|OX15|PE19|DE4|TR23|WF12|village)).{2,25}\bthe\stown\b/gi,
 /\bthe\stown\b(?=.{2,20}(?:DE21|EN2|OX15|PE19|DE4|TR23|WF12|village))/gi,
+
+// TUNNEL
+/[\d-]+the\stunnel\b/gi,
+/(?<=(?:YO8|TA24)).{2,25}\bthe\stunnel\b/gi,
+/\bthe\stunnel\b(?=.{2,20}(?:YO8|TA24))/gi,
 
 // WALK
 /[\d-]+walk\sclose\b/gi,

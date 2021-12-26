@@ -520,6 +520,7 @@ const a: RegExp[] = [
 /\bwinchelsea\s(?:and|\&)\sdistrict\b/gmi,
 
 // WO
+/\bwoodcock\sair\b/gmi,
 /\bwooden\s(?:anna|beck\shill|bridge\savenue|cleugh|close|dean|farm|glen|hill(?:\s(?:lane|hill\sprimary))?|house\slane|lane|linn|loch)\b/gmi,
 /\bwoodside\sholding\b/gmi,
 /\bwol[df]\sfell\b/gmi,

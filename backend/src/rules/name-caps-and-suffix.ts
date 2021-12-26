@@ -196,6 +196,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 
 // DI
 "diamond",
+"dib",
 "diesel",
 "disco",
 "diwali",

@@ -294,12 +294,12 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sTe(?:e|mplars|mple|n\sAcres|nnis(?:\sCourt)?|rraces)\b/gm,
   /\bThe\sThr(?:eshers|oat)\b/gm,
   /\bThe\sTh(?:atch|atchers|ickets?|imbles|ird|istles|rift|orns|oroughfare)\b/gm,
-  /\bThe\sTi(?:mber\sway|mbers|ns|ps|the|things)\b/gm,
+  /\bThe\sTi(?:mber\sway|mbers|ns|the|things)\b/gm,
   /\bThe\sTow(?:ers?|path)\b/gm,
   /\bThe\sTo(?:ll|llgate|mb|mbstone|n|ngues|ons|piary|ppings|re|rs)\b/gm,
   /\bThe\sTr(?:am|amway|ap|eehouse|ees|eetops|ench|iangle|ip|undle|ough)\b/gm,
   /\bThe\sTur(?:k|n|ning|npike|nstiles?|rets)\b/gm,
-  /\bThe\sTu(?:mbles?|mblers|nnel)\b/gm,
+  /\bThe\sTu(?:mbles?|mblers)\b/gm,
   /\bThe\sTw(?:enties|innings|ist|o\s(?:Acre|Brothers))\b/gm,
 
   // U

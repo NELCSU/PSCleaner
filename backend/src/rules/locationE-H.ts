@@ -772,7 +772,7 @@ const a: RegExp[] = [
 /\bgross\sroad\b/gmi,
 /\bground\s(?:corner|lane|transport\sinterchange|wyke(?:\shole)?)\b/gmi,
 /\bgreengill\stongue\b/gmi,
-/\bgreat\s(?:ferny\sball|tongue)\b/gmi,
+/\bgreat\s(?:dib|ferny\sball|tongue)\b/gmi,
 /\bGrey\sChair\b/gm,
 /\bgrange\sfell(?:\sroad)?\b/gmi,
 /\bgreat\s(?:dun|ewe|mell|sca|scoat|shunner)\sfell\b/gmi,
@@ -1147,6 +1147,8 @@ const a: RegExp[] = [
 /\bhinckley\s(?:and|\&)\sdistrict\b/gmi,
 
 // HO
+/\bhone\s(?:copse|hill|lane|plantation|street|wood)\b/gmi,
+/\bhone['‘’`s]{1,2}\sshaw\b/gmi,
 /\bhovie\sscore\b/gmi,
 /\bholms\sof\sire\b/gmi,
 /\bhole\sof\sthe\shead\b/gmi,
