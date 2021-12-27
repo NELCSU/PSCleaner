@@ -33,7 +33,7 @@ const a: RegExp[] = [
   /\ba(?:mazon|merican\sexpress|strazeneca)\b/gmi,
   
   // B
-  /\bback\s(?:burn|head|home|of|riding|slaps?)\b/gmi,
+  /\bback\s(?:burn|head|home|of|riding|round|slaps?)\b/gmi,
   /\bbarking\sdog\b/gmi,
   /\bbaby\sjesus\b/gmi,
   /\bbank\sholiday\b/gmi,
@@ -176,7 +176,7 @@ const a: RegExp[] = [
   /\bnorth\smacedonia\b/gmi,
 
   // N
-  /\bnew\syear\b/gmi,
+  /\bnew\s(?:burn|year)\b/gmi,
   /\bnobel\sprize\b/gmi,
   /\bnon\-\w+\b/gmi,
   /\b(?:nato|newshub|northern\sireland)\b/gmi,
@@ -186,6 +186,7 @@ const a: RegExp[] = [
   /\bno\sreal\b/gmi,
 
   // O
+  /\bold\sburn\b/gmi,
   /\bone\sof\sthe\b/gmi,
   /\bon\sfoot\b/gmi,
   /\bon\stop\sof\b/gmi,
@@ -248,7 +249,7 @@ const a: RegExp[] = [
   /\btimor[\s-]leste\b/gmi,
 
   // U
-  /\bupper\squadrant\b/gmi,
+  /\bupper\s(?:and\slower|quadrant)\b/gmi,
   /\bUncle\sTom\b/gm,
   /\b[Üüu]ber\salles\b/gmi,
   /\bultra\s(?:high|low|non)\b/gmi,

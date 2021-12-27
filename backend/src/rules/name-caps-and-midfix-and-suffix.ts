@@ -28,6 +28,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "box",
 
 // CH
+"cheap",
 "childs",
 
 // CO
@@ -37,6 +38,9 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // CU
 "curling",
+
+// DE
+"deep",
 
 // DO
 "down",
@@ -84,9 +88,11 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "piece",
 "pill",
 "pillar",
+"pipes",
 
 // PL
 "place",
+"plank",
 "plant",
 
 // PO
@@ -128,6 +134,9 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "walk",
 "water",
 "way",
+
+// WE
+"wee",
 
 // WI
 "wise",

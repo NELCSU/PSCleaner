@@ -714,6 +714,8 @@ const a: RegExp[] = [
 /\bperton\slakeside\b/gmi,
 
 // PI
+/\bpips\s(?:field\sway|way)\b/gmi,
+/\bpipes\s(?:meadow|wood)\b/gmi,
 /\bpill\s(?:and\seaston-in-gordano|ash|bridge\s(?:drove|lane)|copse|cove|creek|drove\scopse|gardens|grove|gwenlly)\b/gmi,
 /\bpill\s(?:head\slane|heath|hill|lane|meadow|moor|parks\sway|plantation|point|pond|road|row|street|susan)\b/gmi,
 /\bpill\s(?:terrace|view|way|white\slane|wood)\b/gmi,
@@ -737,6 +739,8 @@ const a: RegExp[] = [
 /\bpile\s(?:lane(?:\scoppice)?|lane|marsh|oak\scopse|paddock|place)\b/gmi,
 
 // PL
+/\bplush\shill\b/gmi,
+/\bplank\s(?:drove|gate|houses|lane|quarry\splantation)\b/gmi,
 /\bplant\s(?:crescent|farm\s(?:avenue|crescent)|hill\sroad|lane|park\sroad|street|way)\b/gmi,
 /\bplace\s(?:barton|crescent|dane\sshaw|drove|farm(?:\s(?:avenue|lane|primary\sacademy|road|way))?)\b/gmi,
 /\bplace\s(?:hill|house\sclose|lane|moor|of\s(?:bonhill|goval\ssteadings)|parc|plantations|pond|view(?:\sroad)?|wood)\b/gmi,

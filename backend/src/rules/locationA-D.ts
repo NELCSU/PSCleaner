@@ -1603,14 +1603,18 @@ const a: RegExp[] = [
 /\bdarks\sroad\b/gmi,
 
 // DE
+/\bdeep\s(?:acres|carrs\slane|cleu[cg]h|clough(?:\scoppice)?|clump|coombe(?:\sroad)?)\b/gmi,
+/\bdeep\s(?:cove|cut\sroad|dale(?:\s(?:belt|lane|plantation|wood))?|dean|dell|dene(?:\sclose|s)?)\b/gmi,
+/\bdeep\s(?:dyke|enys|fleet|ford\slane|furrow\savenue|gate|geo|ghyll\s(?:croft|walk))\b/gmi,
+/\bdeep\s(?:gill\s(?:force|wood)|ground\ssolar\sfarm|grove|haigh\swood|lairdie\spool)\b/gmi,
+/\bdeep\s(?:lane|leasaw\swood|mill\slane|moor(?:\sclose)?|moors\swood|pit\sroad)\b/gmi,
+/\bdeep\s(?:pool\slane|road|shaw|slade|spinney|street|swincombe|well\sdrive|wood)\b/gmi,
+/\bdeep-go\sdyke\b/gmi,
 /\bdeerstalker\ssquare\b/gmi,
 /\bdeil['‘’`s]{1,2}\selbow\b/gmi,
 /\bdeer\sfence\splantation\b/gmi,
 /\bdent\sfell\b/gmi,
-/\bDeep\sCutting\b/gm,
-/\bdeep\scut\sroad\b/gmi,
 /\bdewsbury\scut\b/gmi,
-/\bdeep[\s-]go\sdyke\b/gmi,
 /\bdefender\s(?:court|road)\b/gmi,
 /\bDefender\sDrive\b/gm,
 /\bdefiance\s(?:place|street)\b/gmi,
@@ -1643,10 +1647,7 @@ const a: RegExp[] = [
 /\bdoor\sof\sthe\s(?:heugh|kame)\b/gmi,
 /\b(?:cuttiford['‘’`s]{1,2}|durdle|northern|somerton|thirle)\sdoor\b/gmi,
 /\bdecrease\sdrove\b/gmi,
-/\bdeep\s(?:acres|carrs|cleu[cg]h|clough|clump|coombe|cove|cut\sroad|dale(?:\sbelt|\slane|\splantation|\swood)?|dean|dell|denes?|dyke|enys|fleet|ford\slane|furrow\savenue|gate|geo|ghyll|gill\s(?:force|wood)|ground\ssolar\sfarm|grove|haigh|lairdie|lane|leasaw|mill|moor(?:\sclose)?|moors\swood|road|shaw|slade|spinney|street|swincombe|well\sdrive|water\sterminal|wood)\b/gmi,
-/\bDeep\s(?:Bottom|Field|Hope|Lake|Moss|Pit(?:\s[Rr]oad)?|Point|Pool(?:\sLane)?|Side)\b/gm,
 /\b(?:cliveden|cole|dixon['‘’`s]{1,2}|holme|mortimer['‘’`s]{1,2}|netherby|pitts|sweare|tough\sbank|ungain)\sdeep\b/gmi,
-/\b(?:Cross|Great|Little|North|Outer|South)\sDeep\b/gm,
 /\bdewsbury\s(?:and|\&)\sdistrict\b/gmi,
 
 // DH

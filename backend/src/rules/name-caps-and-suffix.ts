@@ -595,6 +595,8 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "platter",
 "pledge",
 "pledger",
+"plier",
+"plush",
 
 // PO
 "pole",

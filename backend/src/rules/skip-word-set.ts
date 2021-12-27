@@ -878,7 +878,6 @@ const a: string[] = [
 "hosanna",
 "hosta",
 "hotrod",
-"howitzer",
 "howlings",
 "hsbc",
 "http",

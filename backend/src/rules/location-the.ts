@@ -77,7 +77,7 @@ export const LocationTheRegEx: RegExp[] = [
   
   // D
   /\bThe\sDa(?:ffodils|iry|rk\sShore|shes)\b/gm,
-  /\bThe\sDe(?:af\sAcademy|als|anery|ep|er\sLeap)\b/gm,
+  /\bThe\sDe(?:af\sAcademy|als|anery|er\sLeap)\b/gm,
   /\bThe\sDi(?:al|sputes|strict\sChurch|tch)\b/gm,
   /\bThe\sDo(?:cks?|ves|wns?|wns\sBrake)\b/gm,
   /\bThe\sDr(?:ain|ays|ift|iftway|ive|ums?)\b/gm,
@@ -147,7 +147,7 @@ export const LocationTheRegEx: RegExp[] = [
   // K
   /\bThe\sKe(?:els|en|ep|nnels|strels|t|ttle|ys?)\b/gm,
   /\bThe\sKi(?:lns?|ng['‘’`s]{1,2}|ngfishers|osk|rk['‘’`s]{1,2}\sAlarm)\b/gm,
-  /\bThe\sKn(?:ees?|ight|ights\sTemplar|ob|ock|olls|otty\sLine)\b/gm,
+  /\bThe\sKn(?:ight|ights\sTemplar|ock|olls|otty\sLine)\b/gm,
   
   // L
   /\bThe\sL\sStrip\b/gm,
@@ -244,7 +244,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sRos(?:[ae]ry|\s(?:School|[Ww]alk))\b/gm,
   /\bThe\sRotunda\b/gm,
   /\bThe\sRough(?:\s(?:Grounds?|Park|Patch|Strip)|s)?\b/gm,
-  /\bThe\sRou(?:nd|ndabouts?|ts)\b/gm,
+  /\bThe\sRou(?:ndabouts?|ts)\b/gm,
   /\bThe\sRoyal(?:\s(?:Drift|Free|High|Masonic|National)|ty)\b/gm,
   /\bThe\sRu(?:ff|ins|mp|n|nners|nway|sh|shes|sk)\b/gm,
 

@@ -186,36 +186,45 @@ const a: RegExp[] = [
   /\bkawasaki['‘’`s]{1,2}\sdisease\b/gmi,
   /\b[a-z]+knee\b/gmi,
 
-  // L
-  /\bleft\sfoot\b/gmi,
-  /\blyme['‘’`s]{1,2}\sdisease\b/gmi,
-  /\bl(?:angerhans|anghans\sgiant|eydig)\scells?\b/gmi,
-  /\bl(?:ockjaw|umbago)\b/gmi,
+  // LA
+  /\blang(?:erhans|hans\sgiant)\scells?\b/gmi,
   /\blacunae\sof\smorgagni\b/gmi,
   /\blauth['‘’`s]{1,2}\scanal\b/gmi,
   /\blanger['‘’`s]{1,2}\slines?\b/gmi,
-  /\bluschka['‘’`s]{1,2}\sducts?\b/gmi,
-  /\blittle['‘’`s]{1,2}\splexus\b/gmi,
-  /\blynch\ssyndrome\b/gmi,
+  /\blassa\sfever\b/gmi,
+
+  // LE
+  /\bleft\sfoot\b/gmi,
+  /\bleydig\scells?\b/gmi,
+  /\bleuks\b/gmi,
+
+  // LI
   /\blister['‘’`s]{1,2}\stubercle\b/gmi,
-  /\blockwood['‘’`s]{1,2}\sligaments?\b/gmi,
-  /\blittr[eé]['‘’`s]{1,2}\sglands?\b/gmi,
-  /\blissauer['‘’`s]{1,2}\stract\b/gmi,
-  /\blitt?le\s(?:finger|toe)\b/gmi,
-  /\blichenoid\skeratosis?\b/gmi,
-  /\bluschka\sforamina\b/gmi,
+  /\blitt?le\s(?:finger|toe)s?\b/gmi,
   /\bligaments?\sof\s(?:cooper|lockwood|poupart|struthers|treves|treitz)\b/gmi,
   /\blines?\sof\s(?:douglas|hickmann?|langer|spiegelian)\b/gmi,
-  /\bleuks\b/gmi,
-  /\blupus\snephritis\b/gmi,
-  /\bluschka['‘’`s]{1,2}\sjoints\b/gmi,
-  /\blovibond['‘’`s]{1,2}\sangle\b/gmi,
-  /\blassa\sfever\b/gmi,
+  /\blittre['‘’`s]{1,2}\sglands?\b/gmi,
+  /\blissauer['‘’`s]{1,2}\stract\b/gmi,
+  /\blichenoid\skeratosis?\b/gmi,
+  /\blimbus\sof\svieussens\b/gmi,
+
+  // LO
+  /\blockjaw\b/gmi,
   /\bloop\sof\s(?:henle|meyer)\b/gmi,
   /\blower\s(?:arm|back|gum|head|leg|lobe)\b/gmi,
-  /\blund['‘’`s]{1,2}\snode\b/gmi,
+  /\blockwood['‘’`s]{1,2}\sligaments?\b/gmi,
+  /\blovibond['‘’`s]{1,2}\sangle\b/gmi,
   /\blobar\spneumonia\b/gmi,
-  /\blimbus\sof\svieussens\b/gmi,
+
+  // LU
+  /\blumbago\b/gmi,
+  /\bluschka['‘’`s]{0,2}\s(?:duct|foramina|joint)s?\b/gmi,
+  /\blupus\snephritis\b/gmi,
+  /\blund['‘’`s]{1,2}\snode\b/gmi,
+
+  // LY
+  /\blyme['‘’`s]{1,2}\sdisease\b/gmi,
+  /\blynch\ssyndrome\b/gmi,
 
   // M
   /\bmonro\sforamina\b/gmi,
@@ -284,7 +293,7 @@ const a: RegExp[] = [
   /\bp(?:hel[ai][mn][\s-]+mcderm[io]d|rader[\s-]+willi)\ssyndrome\b/gmi,
   /\bpinky\sfinger\b/gmi,
   /\bplaster\sof\sparis\b/gmi,
-  /\bpink\s(?:bumps?|cheeks|eye)\b/gmi,
+  /\bpink\s(?:bumps?|cheeks|eye|skin)\b/gmi,
   /\bproteus\smirabilis\b/gmi,
   /\bpeyer['‘’`s]{1,2}\spatches\b/gmi,
   /\bparieto[\s-]+occipital\b/gmi,
@@ -293,7 +302,7 @@ const a: RegExp[] = [
 
   // R
   /\bring\sfinger\b/gmi,
-  /\bred\s(?:bump|call|cheek|eye|mark|nail)s?\b/gmi,
+  /\bred\s(?:bump|call|cheek|eye|mark|nail|skin)s?\b/gmi,
   /\brenshaw\scells?\b/gmi,
   /\bretzius['‘’`s]{1,2}\sspaces?\b/gmi,
   /\bruffini['‘’`s]{1,2}\scorpuscles?\b/gmi,

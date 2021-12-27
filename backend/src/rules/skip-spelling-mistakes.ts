@@ -8,6 +8,7 @@ const a: string[] = [
 "analgesa",
 "anlke",        // ankle
 "approc",       // approx
+"aslepp",       // asleep
 
 // B
 "becime",       // become
@@ -23,6 +24,9 @@ const a: string[] = [
 
 // F
 "fraity",       // frailty
+
+// G
+"greay",        // grey
 
 // H
 "headcahe",     // headache
@@ -42,24 +46,30 @@ const a: string[] = [
 "mobilsie",     // mobilise
 
 // N
+"nauesa",       // nausea
 "ncek",         // neck
 
 // O
+"obviosu",      // obvious
+"obvoius",
 "otherwsie",    // otherwise
 
 // P 
 "pushcahir",    // pushchair
 
 // R
+"releif",       // relief
 "remeber",      // remember
 "rnag",         // rang
 "rubbig",       // rubbing
 
 // S
 "seld",         // self
+"slepp",        // sleep
 "soem",         // some
 "straigt",      // straight
 "superficail",  // superficial
+"swellig",      // swelling
 
 // T
 "theigh",       // thigh

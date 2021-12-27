@@ -324,6 +324,7 @@ const a: RegExp[] = [
 /\bryegrass\s(?:close|covert|field|gardens|lane|road)\b/gmi,
 
 // SA
+/\bsalamander\s(?:close|court|place|street|yards)\b/gmi,
 /\bsand\s(?:acre\s(?:bay|close)|ayre|bank\sroad|barn\slane|bay|bed\spool|beds\shead\spike)\b/gmi,
 /\bsand\s(?:beds\slane|bink|brae|brig|clett|cleuchs|cliffs|closes|copse|craig|croft)\b/gmi,
 /\bsand\s(?:dale|delf\shill|down\slane|drove|earth|elms|end|farm(?:\slane)?|field)\b/gmi,
@@ -1597,6 +1598,7 @@ const a: RegExp[] = [
 /\btmp\scollege\b/gmi,
 
 // TO
+/\btouch\smollar\sclump\b/gmi,
 /\btop\s(?:acre(?:\sroad)?|angel|ash(?:\splantation|es)?|baldwin['‘’`]?s\sspinney)\b/gmi,
 /\btop\s(?:bank|barn\slane|belts?|birches|box\spool|brake|camp|cart\sgaps|castle)\b/gmi,
 /\btop\s(?:chapel\slane|cliff|cliffe\swood|close|clump|coalpits\scoppice|common(?:\sponds)?)\b/gmi,

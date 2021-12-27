@@ -492,7 +492,7 @@ const a: string[] = [
 "leonese",
 "lezgian",
 "liberian",
-"liechtensteiner",
+
 "ligurian",
 "limba",
 "limbu",

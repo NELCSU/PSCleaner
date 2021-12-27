@@ -1217,7 +1217,7 @@ const a: RegExp[] = [
 /\bhorses?\s(?:ledge|leys|lie|loch|lynch|mark|market|marsh|meadows|mill|moors?|noup)\b/gmi,
 /\bhorses?\s(?:of|of\sthe|paddocks?|parks?|pastures?|pill|pit|plain|plot|ponds?|pool)\b/gmi,
 /\bhorses?\s(?:pot|pow|race|reach|rill|rocks?|sands?|shaw|sound|stone|ware|water)\b/gmi,
-/\bhorses?\s(?:watering|well|whim|wood|wynd|yard)\b/gmi,
+/\bhorses?\s(?:watering|well|whim|wood|wynd)\b/gmi,
 /\bhorse\s(?:&|and)\s(?:farrier|gate|groom)\slane\b/gmi,
 /\b(?:bay\s|black\s|new\s|rampant\s|white\s)?horse\s(?:lane|road|street)\b/gmi,
 /\bhorse\sshoe\s(?:bend|close|clump|copse|court|crescent|drive|gully|hill|lane|plantation|point|pond|road|rocks|wood)\b/gmi,

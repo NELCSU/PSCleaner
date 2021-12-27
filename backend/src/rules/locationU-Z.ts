@@ -50,6 +50,7 @@ const a: RegExp[] = [
 /\bunnamed\s(?:rd|road)\b/gmi,
 
 // UP
+/\bupper\sand\slower\s(?:fence\swood|shuckburgh)\b/gmi,
 /\bupper\sred\s(?:cross\sroad|hill)\b/gmi,
 /\bupper\s(?:fell\splantation|swallow\swood)\b/gmi,
 /\bUpper\sCut\b/gm,
@@ -294,6 +295,10 @@ const a: RegExp[] = [
 /\bwalsham\s(?:and|\&)\sdistrict\b/gmi,
 
 // WE
+/\bwee\s(?:alicompen\swaterfall|bay|berbeth\sloch|brae|cairny?\shill|capel\scleuch|chirmorie)\b/gmi,
+/\bwee\s(?:cleuch|close|course\slane|craigenlee|fell|gounies|grove|haggs\swood|hartfell)\b/gmi,
+/\bwee\s(?:hill\sof\s(?:craigmulloch|glenmount)|hill|kirk\shill|leith\shill|macgregor\splantation)\b/gmi,
+/\bwee\s(?:minnemoer|port\sbay|queensberry|row|shunters\swud|sunnyside\sroad|wood)\b/gmi,
 /\bweets\stongue\b/gmi,
 /\bweek\s(?:bottom(?:\swood)?|common(?:\scovert)?|copse|down(?:\scopse)?|ford|green|hill)\b/gmi,
 /\bweek\s(?:lane|moors?|plantation|st\.?\smary|street(?:\sdown)?|street|wood)\b/gmi,
@@ -354,6 +359,7 @@ const a: RegExp[] = [
 /\bwesthill\s(?:and|\&)\sdistrict\b/gmi,
 
 // WH
+/\bwhiteness\s(?:gap|green|head|primary\sschool|road|sands|taing|voe)\b/gmi,
 /\bwhite\sside\sof\starnbrook\sfell\b/gmi,
 /\bWhile\sRoad\b/gm,
 /\bwhite\s(?:ball\shill|fell(?:\shead)?|foot\slane|island\sledge|ledge(?:\shill)?)\b/gmi,
