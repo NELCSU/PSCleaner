@@ -60,9 +60,9 @@ const a: RegExp[] = [
 
   // F
   /\bf(?:avipi?r[ai]vir|lu(?:clox|ox[ei]tie?ne))\b/gmi,
-  /\bfrank\shematuria\b/gmi,
   
   // L
+  /\blidocain\b/gmi,
   /\blopinavir\b/gmi,
 
   // M
@@ -86,7 +86,7 @@ const a: RegExp[] = [
   /\bsumatripnan\b/gmi,
 
   // T
-  /\btr(?:amadol|imethopr[io]m|uxima)\b/gmi,
+  /\btr(?:imethopr[io]m|uxima)\b/gmi,
 
   // V
   /\bviagra\b/gmi

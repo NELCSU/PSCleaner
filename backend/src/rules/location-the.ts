@@ -20,7 +20,7 @@ export const LocationTheRegEx: RegExp[] = [
   
   // B
   /\bThe\sBail(?:iwick|s)\b/gm,
-  /\bThe\sBa(?:bes|cks|d\sStep|keries|ker[sy]|nks?|tts|ulks?|ys?)\b/gm,
+  /\bThe\sBa(?:bes|cks|d\sStep|keries|ker[sy]|nks?|tts|ulks?)\b/gm,
   /\bThe\sBal(?:es|k)\b/gm,
   /\bThe\sBar(?:nyard|on[sy]|racks|rows)\b/gm,
   /\bThe\sBas(?:ins|s|ses|tard)\b/gm,
@@ -117,7 +117,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sGl(?:ades?|assworks|eanings|impse|obal\sAcademy|obe)\b/gm,
   /\bThe\sGo(?:d\sAlmighty|oose|re|rge|rses?|slings|ssamers)\b/gm,
   /\bThe\sGran(?:aries|ary|d|ge)\b/gm,
-  /\bThe\sGra(?:dient|in\sStore|sslands|tes|ves|zings|zing\sGrounds)\b/gm,
+  /\bThe\sGra(?:dient|in\sStore|tes|ves|zings|zing\sGrounds)\b/gm,
   /\bThe\sGre(?:en(?:\sDrift)?|ens|ens\sClose|at\sFace|at\sGully|y\sCorries|ys)\b/gm,
   /\bThe\sGri(?:d|p|pes|st)\b/gm,
   /\bThe\sGro(?:ve|in|unds|ves)\b/gm,

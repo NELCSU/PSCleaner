@@ -173,6 +173,8 @@ const a: RegExp[] = [
 /\bmission\s(?:close|court|drive|field|gardens|grove|hall|hospital|lane|place|road|street|view|way)\b/gmi,
 
 // MO
+/\bmore\s(?:avenue|hall(?:\s(?:drive|lane|park|reservoir))?|house\sschool|park\sroman\scatholic)\b/gmi,
+/\bmore['‘’`s]{1,2}\smeadow\b/gmi,
 /\bmonkey\spuzzle\s(?:close|drive|way)\b/gmi,
 /\bmonkey\sfoot\splantation\b/gmi,
 /\bmoor\s(?:edges\sroad|end\sfell)\b/gmi,
@@ -795,6 +797,8 @@ const a: RegExp[] = [
 /\bprovince\sdrive\b/gmi,
 
 // PU
+/\bpuddle\s(?:bank(?:\slane)?|dock|end|hill|hole\swood|house\s(?:lane|wood)|lane|strip|town|wood)\b/gmi,
+/\bpullover\s(?:lane|road)\b/gmi,
 /\bpulinkum\sburn\sfoot\b/gmi,
 /\bPulleys\sClose\b/gm,
 /\bpunnet\sclose\b/gmi,

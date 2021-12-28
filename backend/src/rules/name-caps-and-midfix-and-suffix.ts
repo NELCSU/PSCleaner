@@ -11,6 +11,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // BA
 "ballon",
+"balls",
 "banister",
 "bare",
 "bath",
@@ -21,17 +22,22 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // BI
 "bird",
+"birdsong",
 
 // BO
 "boat",
 "bottom",
 "box",
 
+// BU
+"burns",
+
 // CH
 "cheap",
 "childs",
 
 // CO
+"cocks",
 "corner",
 "cot",
 "cow",
@@ -69,6 +75,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // HE
 "head",
+"heal",
 "hedge",
 
 // HI
@@ -82,7 +89,11 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "legs",
 
 // LO
+"loo",
 "love",
+
+// MO
+"more",
 
 // PI
 "piece",
@@ -97,6 +108,9 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // PO
 "pot",
+
+// PU
+"puddle",
 
 // RA
 "range",

@@ -136,7 +136,7 @@ const a: RegExp[] = [
   /\bhow\s(?:deep|far|fell|long)\b/gmi,
 
   // I
-  /\b(?:inner|lower|outer|upper)\s(?:inner|lower|outer|upper)\b/gmi,
+  /\b(?:inner|lower|outer|upper)\s(?:and\s)?(?:inner|lower|outer|upper)\b/gmi,
   /\bin\slieu\sof\b/gmi,
   /\bivy\sleague\b/gmi,
   /\bivory\scoast\b/gmi,

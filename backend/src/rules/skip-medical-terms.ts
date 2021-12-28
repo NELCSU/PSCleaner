@@ -15,153 +15,257 @@
 const a: RegExp[] = [
   /\b(?:1st|2nd|3rd|[45]th)\s(?:episode|metacarp[ao]l|mc|mt|toes)\b/gmi,
 
-  // A
+  // AC
   /\bachilli?es\stendon/gmi,
+
+  // AD
   /\badam['‘’`s]{1,2}\sapple\b/gmi,
   /\baddison['‘’`s]{1,2}\sdisease\b/gmi,
+
+  // AL
   /\balcock['‘’`s]{1,2}\scanal\b/gmi,
   /\balzheimers?\b/gmi,
+
+  // AM
   /\bamerican\scutaneous\sleishmaniasis\b/gmi,
+  /\bampulla\sof\svater\b/gmi,
+
+  // AN
   /\bangio[\s-]+oedema\bb/gmi,
-  /\bapneoas\b/gmi,
-  /\bartery\sof\s(?:adamkiewicz|percheron)\b/gmi,
-  /\bas(?:th|ht)ma\b/gmi,
-  /\bauerbach['‘’`s]{1,2}\splexus\b/gmi,
   /\bantrum\sof\shighmore\b/gmi,
   /\bangle\sof\slouis\b/gmi,
-  /\bampulla\sof\svater\b/gmi,
+
+  // AP
+  /\bapneoas\b/gmi,
+
+  // AR
+  /\bartery\sof\s(?:adamkiewicz|percheron)\b/gmi,
   /\barhtogrypoci\b/gmi,
+
+  // AS
+  /\bas(?:th|ht)ma\b/gmi,
+
+  // AU
+  /\bauerbach['‘’`s]{1,2}\splexus\b/gmi,
   
-  // B
-  /\bbone?y\stenderness\b/gmi,
+  // BA
+  /\bback\spain\b/gmi,
   /\bbatson['‘’`s]{1,2}\splexus\b/gmi,
-  /\bbee\ssting\b/gmi,
-  /\bb(?:artholin|runner)['‘’`s]{1,2}\sglands?\b/gmi,
+  /\bbartholin['‘’`s]{1,2}\sglands?\b/gmi,
   /\bbaerveldt\s(?:shunt|tube)\b/gmi,
   /\bbachmann['‘’`s]{1,2}\sbundle\b/gmi,
   /\bback\spassage\b/gmi,
   /\bbarking\scough\b/gmi,
+  /\bbalbiani\sbodies\b/gmi,
+
+  // BE
+  /\bbee\ssting\b/gmi,
   /\bbent\s(?:ankle|arm|back|finger|foot|knee|neck|shoulder|toe|wrist)\b/gmi,
-  /\bbro(?:ca|dmann?)['‘’`s]{1,2}\sareas?\b/gmi,
-  /\bbuck['‘’`s]{1,2}\sfascia\b/gmi,
-  /\bburkitt['‘’`s]{1,2}\slymphoma\b/gmi,
-  /\bbrugada\ssyndrome\b/gmi,
   /\bbellini['‘’`s]{1,2}\sducts?\b/gmi,
   /\bbetz\scells?\b/gmi,
+  /\bbell['‘’`s]{1,2}\snerve\b/gmi,
+  
+  // BI
+  /\bbilharzia\b/gmi,
   /\bbillroth['‘’`s]{1,2}\scords\b/gmi,
+
+  // BL
   /\bblood\surate\b/gmi,
+
+  // BO
+  /\bbone?y\stenderness\b/gmi,
   /\bbowman['‘’`s]{1,2}\s(?:capsule|membrane)\b/gmi,
   /\bboxer['‘’`s]{1,2}\sfract\w+\b/gmi,
-  /\bbell['‘’`s]{1,2}\snerve\b/gmi,
-  /\bbalbiani\sbodies\b/gmi,
+
+  // BR
+  /\bbrugada\ssyndrome\b/gmi,
+  /\bbro(?:ca|dmann?)['‘’`s]{1,2}\sareas?\b/gmi,
   /\bbrady\sepisode\b/gmi,
-  /\b[Bb]undle\sof\sHis\b/gm,
-  /\bbilharzia\b/gmi,
+  /\bbrunner['‘’`s]{1,2}\sglands?\b/gmi,
+  /\bbroadarm\ssling\b/gmi,
+
+  // BU
   /\bbuddy\sstrap\w*\b/gmi,
   /\bburn\sdressing\b/gmi,
   /\bburnt\s(?:bottom|top)\b/gmi,
-  /\bback\spain\b/gmi,
-  
-  // C
+  /\b[Bb]undle\sof\sHis\b/gm,
+  /\bbuck['‘’`s]{1,2}\sfascia\b/gmi,
+  /\bburkitt['‘’`s]{1,2}\slymphoma\b/gmi,
+
+  // CA
   /\bcalcaneus\b/gmi,
   /\bc(?:ajal(?:[\s-]retzius)?|lara)\scells?\b/gmi,
-  /\bcuvier['‘’`s]{1,2}\sducts?\b/gmi,
-  /\bcoryz[ao]l\b/gmi,
-  /\bcowper['‘’`s]{1,2}\sglands?\b/gmi,
-  /\bcloquet['‘’`s]{1,2}\scanal\b/gmi,
-  /\bcircle\sof\swillis\b/gmi,
-  /\bcanals?\sof\s(?:alcock|cloquet|dorello|haversian|hering|huguier|lauth|schlemm|stilling)\b/gmi,
-  /\bcoll?e['‘’`s]{1,2}\s(?:fascia|fracture)\b/gmi,
-  /\bcaudal\sepidural\b/gmi,
-  /\bcooper['‘’`s]{1,2}\s(?:fascia|iliopectineal|suspensory)\sligaments?\b/gmi,
   /\bcalyx\sof\sheld\b/gmi,
   /\bcalot['‘’`s]{1,2}\striangle\b/gmi,
   /\bcat\sbite\b/gmi,
+  /\bcanals?\sof\s(?:alcock|cloquet|dorello|haversian|hering|huguier|lauth|schlemm|stilling)\b/gmi,
+  /\bcaudal\sepidural\b/gmi,
+
+  // CH
   /\bchassaignac['‘’`s]{1,2}\stubercle\b/gmi,
+
+  // CI
+  /\bcircle\sof\swillis\b/gmi,
+
+  // CL
+  /\bcloquet['‘’`s]{1,2}\scanal\b/gmi,
+  
+  // CO
+  /\bcooper['‘’`s]{1,2}\s(?:fascia|iliopectineal|suspensory)\sligaments?\b/gmi,
+  /\bcoll?e['‘’`s]{1,2}\s(?:fascia|fracture)\b/gmi,
+  /\bcolumns\sof\sbertin\b/gmi,
+  /\bcostal\schondritis\b/gmi,
   /\bcocc[iy]x\b/gmi,
   /\bcoller\sbone\b/gmi,
-  /\bcricket\ssplint\b/gmi,
-  /\bcostal\schondritis\b/gmi,
-  /\bcysts?\sof\smorgagni\b/gmi,
-  /\bcolumns\sof\sbertin\b/gmi,
-  /\bcrypts\sof\s(?:lieberk[üue]{1,2}hn|luschka)\b/gmi,
+  /\bcoryz[ao]l\b/gmi,
+  /\bcowper['‘’`s]{1,2}\sglands?\b/gmi,
 
-  // D
+  // CR
+  /\bcrypts\sof\s(?:lieberk[üue]{1,2}hn|luschka)\b/gmi,
+  /\bcricket\ssplint\b/gmi,
+
+  // CU
+  /\bcuvier['‘’`s]{1,2}\sducts?\b/gmi,
+  /\bcut\s(?:hand|shoulder)\b/gmi,
+
+  // CY
+  /\bcysts?\sof\smorgagni\b/gmi,
+
+  // DA
   /\bdarwin['‘’`s]{1,2}\stubercle\b/gmi,
-  /\bdorello['‘’`s]{1,2}\scanal\b/gmi,
+
+  // DE
   /\bdenonvilliers['‘’`s]{1,2}\sfascia\b/gmi,
   /\bdescemet['‘’`s]{1,2}\smembrane\b/gmi,
-  /\bd(?:uane|wayne)\ssyndrome\b/gmi,
-  /\bdexa\b/gmi,
+
+  // DI
   /\bdiarro?he?o?a\b/gmi,
-  /\bducts?\sof\s(?:bellini|cuvier|gartner|luschka|m[üue]{1,2}llerian|santorini|stensen|wharton|wirsung|wolffian)\b/gmi,
   /\bdisse['‘’`s]{1,2}\sspaces?\b/gmi,
   /\bdiamond\sblackfan\b/gmi,
-  /\bdouglas['‘’`s]{1,2}\spouch\b/gmi,
+
+  // DO
+  /\bdorello['‘’`s]{1,2}\scanal\b/gmi,
   /\bdossett\sbox\b/gmi,
-  /\bdouglas['‘’`s]{1,2}\slines?\b/gmi,
+  /\bdouglas['‘’`s]{1,2}\s(?:line|pouch)s?\b/gmi,
   /\bdouble\s(?:lumen\s)?hickmann?\b/gmi,
 
-  // E
-  /\be(?:dwards|hlers[\s-]*danlos|vans)\ssyndrome\b/gmi,
-  /\be(?:cz|xc)ema\b/gmi,
+  // DU
+  /\bduane\ssyndrome\b/gmi,
+  /\bducts?\sof\s(?:bellini|cuvier|gartner|luschka|m[üue]{1,2}llerian|santorini|stensen|wharton|wirsung|wolffian)\b/gmi,
+
+  // DW
+  /\bdwayne\ssyndrome\b/gmi,
+
   /\be[\s-]?coli\b/gmi,
-  /\bedinger[\s–]westphal\snucleus\b/gmi,
-  /\beustachian\stube\b/gmi,
-  /\bepididymo[\s-]+orchitis\b/gmi,
-  /\becthyma\sgangrenosum\b/gmi,
-  /\bescherichia\scoli\b/gmi,
+  // EA
   /\bear\s(?:drum|lobe)s?\b/gmi,
 
-  // F
+  // EC
+  /\becthyma\sgangrenosum\b/gmi,
+  /\be(?:cz|xc)ema\b/gmi,
+
+  // ED
+  /\bedinger[\s–]westphal\snucleus\b/gmi,
+  /\bedwards\ssyndrome\b/gmi,
+
+  // EH
+  /\behlers[\s-]*danlos\ssyndrome\b/gmi,
+
+  // EP
+  /\bepididymo[\s-]+orchitis\b/gmi,
+
+  // ES
+  /\bescherichia\scoli\b/gmi,
+
+  // EU
+  /\beustachian\stube\b/gmi,
+
+  // EV
+  /\bevans\ssyndrome\b/gmi,
+
+  // FA
   /\bfallopian\stube\b/gmi,
   /\bfanconi\ssyndrome\b/gmi,
-  /\bfold\sof\s(?:hasner|treves)\b/gmi,
-  /\bfrank\sh[ae]{2}maturia\b/gmi,
-  /\bforam(?:en|ina)\sof\s(?:luschka|magendie|monro|thebesian|winslow)\b/gmi,
-  /\bfissure\sof\srolando\b/gmi,
-  /\bfracture\sof\stalus\b/gmi,
-  /\bflu\svacc(?:ine|ination)?\b/gmi,
-  /\bfirst\saider\b/gmi,
   /\bfall\shead\b/gmi,
+
+  // FI
+  /\bfirst\saider\b/gmi,
+  /\bfirstaid\b/gmi,
+  /\bfissure\sof\srolando\b/gmi,
+
+  // FL
+  /\bflu\svacc(?:ine|ination)?\b/gmi,
+
+  // FO
+  /\bfold\sof\s(?:hasner|treves)\b/gmi,
+  /\bforam(?:en|ina)\sof\s(?:luschka|magendie|monro|thebesian|winslow)\b/gmi,
+
+  // FR
+  /\bfracture\sof\stalus\b/gmi,
+  /\bfrank\sh[ae]{2}maturia\b/gmi,
+
+  // FU
   /\bfutura\ssplint\b/gmi,
 
   // G
   /\bgallaudet['‘’`s]{1,2}\sfascia\b/gmi,
   /\bgartner['‘’`s]{1,2}\sducts?\b/gmi,
-  /\bg(?:erota|lisson)['‘’`s]{1,2}\scapsule\b/gmi,
   /\bg(?:alen|iacomini)\sveins?\b/gmi,
+
+  // GE
+  /\bg(?:erota|lisson)['‘’`s]{1,2}\scapsule\b/gmi,
   /\bgerdy['‘’`s]{1,2}\sfib[er]{2}s?\b/gmi,
-  /\bglands?\sof\s(?:bartholin|brunner|cowper|littr[eé]|meibomian|moll|montgomery|skene|von\sebner)\b/gmi,
-  /\bg(?:ianotti[\s-]+crosti|uillain[\s-]+barr[eé])\ssyndrome\b/gmi,
+
+  //GI
+  /\bgianotti[\s-]+crosti\ssyndrome\b/gmi,
   /\bgillick\scompetence\b/gmi,
-  /\bgraafian\sfollicle\b/gmi,
-  /\bgr[aäe]{1,2}fenberg\sspot\b/gmi,
-  /\bgram[-\s]neg(?:ative)?\b/gmi,
+
+  // GL
+  /\bglands?\sof\s(?:bartholin|brunner|cowper|littr[eé]|meibomian|moll|montgomery|skene|von\sebner)\b/gmi,
+  
+  // GO
   /\bgolgi\s(?:apparatus|receptor)\b/gmi,
   /\bgood\spulse\b/gmi,
 
-  // H
-  /\bhickmann?['‘’`s]{1,2}\slines?\b/gmi,
+  // GR
+  /\bgraafian\sfollicle\b/gmi,
+  /\bgr[aäe]{1,2}fenberg\sspot\b/gmi,
+  /\bgram[-\s]neg(?:ative)?\b/gmi,
+
+  // GU
+  /\bguillain[\s-]+barr[eé]\ssyndrome\b/gmi,
+
+  // HA
   /\bhartmann['‘’`s]{1,2}\spouch\b/gmi,
-  /\bh(?:aversian|ering|uguier)['‘’`s]{1,2}\scanal\b/gmi,
-  /\bhesselbach['‘’`s]{1,2}\striangle\b/gmi,
-  /\bhurthle\scells?\b/gmi,
-  /\bherr?ing['‘’`s]{1,2}\s(?:bodies|nerve)\b/gmi,
-  /\bheschl['‘’`s]{1,2}\sgyri\b/gmi,
-  /\bhouston['‘’`s]{1,2}\smuscle\b/gmi,
-  /\bhenoch[\s-]+schonlein\spurpura\b/gmi,
+  /\bhaversian['‘’`s]{1,2}\scanal\b/gmi,
   /\bhasner['‘’`s]{1,2}\sfold\b/gmi,
   /\bhay\sfever\b/gmi,
-  /\bh(?:eister|ouston)['‘’`s]{1,2}\svalves?\b/gmi,
-  /\bhickmann?\sinsitu\b/gmi,
+  
+  //HE
+  /\bhesselbach['‘’`s]{1,2}\striangle\b/gmi,
+  /\bherr?ing['‘’`s]{1,2}\s(?:bodies|canal|nerve)\b/gmi,
+  /\bheschl['‘’`s]{1,2}\sgyri\b/gmi,
   /\bhenle['‘’`s]{1,2}\sloop\b/gmi,
+  /\bhenoch[\s-]+schonlein\spurpura\b/gmi,
+  /\bheister['‘’`s]{1,2}\svalves?\b/gmi,
+
+  // HI
+  /\bhickmann?['‘’`s]{1,2}\slines?\b/gmi,
   /\bhirschsprung['‘’`s]{1,2}\sdisease\b/gmi,
-  /\bhodgkin['‘’`s]{1,2}\slymphoma\b/gmi,
-  /\bhydatids\sof\smorgagni\b/gmi,
-  /\bhurt\s(?:ankle|arm|back|finger|foot|head|hip|jaw|knee|neck|shoulder|toe|wrist)\b/gmi,
-  /\b(?:cut|hurt)\s(?:hand|shoulder)\b/gmi,
+  /\bhickmann?\sinsitu\b/gmi,
+
+  // HO
   /\bh[\\\/]o\b/gmi,
+  /\bhodgkin['‘’`s]{1,2}\slymphoma\b/gmi,
+  /\bhouston['‘’`s]{1,2}\s(?:muscle|vavle)s?\b/gmi,
+
+  // HU
+  /\bhurthle\scells?\b/gmi,
+  /\bhuguier['‘’`s]{1,2}\scanal\b/gmi,
+  /\bhurt\s(?:ankle|arm|back|finger|foot|head|hip|jaw|knee|neck|shoulder|toe|wrist)\b/gmi,
+
+  // HY
+  /\bhydatids\sof\smorgagni\b/gmi,
 
   // I
   /\bin(?:farct|fluenza|situ)\b/gmi,
@@ -268,7 +372,7 @@ const a: RegExp[] = [
   /\boto\/rhino/gmi,
   /\boedmea\b/gmi,
   /\bosteogen[io]us\b/gmi,
-  /\bottawa\s(?:(?:rule|sign)s?\s)?(?:negative|positive)\b/gmi,
+  /\bottawa\s(?:rule|sign)s?\b/gmi,
   /\borgan\sof\s(?:corti|zuckerkandl)\b/gmi,
   /\bouter\sfoot\b/gmi,
   /\bof\shead\b/gmi,
@@ -367,21 +471,31 @@ const a: RegExp[] = [
   // SY
   /\bsylvian\saqueduct\b/gmi,
 
-  // T
+  // TA
   /\btalus['‘’`s]{1,2}\sfract\w+\b/gmi,
-  /\bTIA\b/gm,
-  /\btre(?:ves|itz)['‘’`s]{1,2}\sligaments?\b/gmi,
-  /\btraube['‘’`s]{1,2}\sspaces?\b/gmi,
   /\btalc\spleurodesis\b/gmi,
+  /\btachycardi\b/gmi,
+
+  // TE
   /\btenckhoff\scatheter\b/gmi,
+
+  // TH
+  /\bthebesian['‘’`s]{1,2}\s(?:foramina|valves?|veins?)\b/gmi,
+  /\bthenar?\seminence\b/gmi,
+  /\bthumb\sspica\b/gmi,
+
+  // TI
+  /\btinea\spedis\b/gmi,
+
+  // TO
   /\btop\sof\s(?:the\s)?(?:back|foot|head)\b/gmi,
   /\btorcular\sherophili\b/gmi,
-  /\btinea\spedis\b/gmi,
-  /\btreves['‘’`s]{1,2}\sfold\b/gmi,
-  /\bthebesian['‘’`s]{1,2}\s(?:foramina|valves?|veins?)\b/gmi,
   /\btourette['‘’`s]{1,2}\ssyndrome\b/gmi,
-  /\btachycardi\b/gmi,
-  /\bthenar?\seminence\b/gmi,
+
+  // TR
+  /\btreitz['‘’`s]{1,2}\sligaments?\b/gmi,
+  /\btraube['‘’`s]{1,2}\sspaces?\b/gmi,
+  /\btreves['‘’`s]{1,2}\s(?:fold|ligament)s?\b/gmi,  
 
   // U
   /\bu(?:lna|rethra|teri)\b/gmi,

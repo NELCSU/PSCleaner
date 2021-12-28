@@ -190,8 +190,10 @@ const a: RegExp[] = [
 /\bfalmouth\s(?:and|\&)\sdistrict\b/gmi,
 
 // FE
+/\bfenland\s(?:airfield|court|solar\spark)\b/gmi,
+/\bfencer\s(?:court|hill(?:\spark)?)\b/gmi,
+/\bfelspar\s(?:close|road)\b/gmi,
 /\bfence\s(?:avenue|bank|brae|dike\slane|hill|houses|lane|moor|pools?|road(?:\splantation)?|street|wood)\b/gmi,
-/\b(?:higher\sfence\sroad|sunk\sfence\splantation|upper\sand\slower\sfence\swood)\b/gmi,
 /\bfell\sfoot\s(?:brow|meadow|wood)\b/gmi,
 /\bfell\s(?:avenue|bank|beck|bottom|briggs\sdrive|brow|carle\sroad|christy|crescent|croft)\b/gmi,
 /\bfell\s(?:dyke|edge\swood|end\s(?:fell|moor|planting|wood)|foot\s(?:brow|meadow|wood))\b/gmi,
@@ -769,6 +771,7 @@ const a: RegExp[] = [
 /\bgoole\s(?:and|\&)\sdistrict\b/gmi,
 
 // GR
+/\bgrasslands\s(?:drive|shaw)\b/gmi,
 /\bgross\sroad\b/gmi,
 /\bground\s(?:corner|lane|transport\sinterchange|wyke(?:\shole)?)\b/gmi,
 /\bgreengill\stongue\b/gmi,
@@ -992,6 +995,8 @@ const a: RegExp[] = [
 /\bhaslemere\s(?:and|\&)\sdistrict\b/gmi,
 
 // HE
+/\bheal\s(?:close|grove|park\screscent)\b/gmi,
+/\bheal['‘’`s]{1,2}\sfield)\b/gmi,
 /\bherring\sfishery\sscore\b/gmi,
 /\bhedge\s(?:close|corner|cove|croft\swood|down|drive|end(?:\s(?:&\swest\send\ssouth|north|road|south|way))?)\b/gmi,
 /\bhedge\s(?:field\s(?:close|road|way)|furlong|grove|hey|hill(?:\sroad)?|lane|lea|nook|parsley\screscent)\b/gmi,
@@ -1067,6 +1072,7 @@ const a: RegExp[] = [
 /\bheroes\s(?:drive|walk)\b/gmi,
 
 // HI
+/\bhigher\sfence\sroad\b/gmi,
 /\bhigh\sred\scliff\b/gmi,
 /\bhill\s(?:60\splantation|and\s(?:cakemore|moor)|avenue|bank(?:\s(?:close|coppice|drive|road|wood))?)\b/gmi,
 /\bhill\s(?:barn(?:\s(?:copse|covert|lane|view))?|barton(?:\s(close|copse|lane|road))?|beech\sroad)\b/gmi,

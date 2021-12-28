@@ -93,7 +93,7 @@ const a: RegExp[] = [
 /\b(?:baggarley|carlton|dunham|hestan|long|marton|rhind)\srack\b/gmi,
 /\bradar\s(?:avenue|close|road|spinney|way)\b/gmi,
 /\bradio\s(?:court|lane)\b/gmi,
-/\brail\s(?:clump|copse|croft|drove|ground|hey\swood|hole(?:\sbight)?|mill\sway|pit|place|way|y\sderi)\b/gmi,
+/\brail\s(?:clump|copse|croft|drove|ground|hey\swood|hole(?:\sbight)?|mill\sway|pit|place|y\sderi)\b/gmi,
 /\brailroad\s(?:copse|plantation)\b/gmi,
 /\b(?:double\s)?rail\sclose\b/gmi,
 /\b(?:peak|red)\srail\b/gmi,
@@ -480,6 +480,7 @@ const a: RegExp[] = [
 /\bScratchy\sBottom\b/gm,
 
 // SE
+/\bsea\sview\spullover\b/gmi,
 /\bseld\sstreet\b/gmi,
 /\bseven\sfoot\slane\b/gmi,
 /\bseething\s(?:airfield|and\smundham|lane|ling|old\shall\spark|road|street|wells(?:\slane)?|wood)\b/gmi,
@@ -1195,6 +1196,7 @@ const a: RegExp[] = [
 /\bstylers\sway\b/gmi,
 
 // SU
+/\bsunk\sfence\splantation\b/gmi,
 /\bsumac\sstreet\b/gmi,
 /\bsudden\sstreet\b/gmi,
 /\bsudden['‘’`s]{1,2}\splantation\b/gmi,
@@ -1406,6 +1408,7 @@ const a: RegExp[] = [
 /\btlg\snewcastle\b/gmi,
 
 // TH
+/\bthe\slegacy\sschool\b/gmi,
 /\bthorn\s(?:alley|avenue|balk|bamk|bank|barn\sclose|brae|close\splantation|clough|clumps?)\b/gmi,
 /\bthorn\s(?:common|coppice|court|covert|crag|crescent|cross|dale|down|drive|fields)\b/gmi,
 /\bthorn\s(?:fleet|gardens|garth|grove\sprimary\sschool|grove|hill(?:\s(?:close|copse|plantation|road|view))?)\b/gmi,

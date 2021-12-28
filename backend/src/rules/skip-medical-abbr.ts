@@ -17,36 +17,52 @@ const a: RegExp[] = [
   /\badhd\b/gmi,
   /\bantibac\b/gmi,
   /\bALTE\b/gm,
+
   /\bBIB[Aa]?\b/gm, // brought in by (ambulance)
+
   /\bc\/o\b/gmi,    // complaining of
   /\bcopd\b/gmi,
   /\bcssu\b/gmi,
+
   /\bdatix\b/gmi,
+  /\bdexa\b/gmi,
   /\bDIB\b/gm,      // difficulty in breathing
   /\bdisloc\b/gmi,
+  /\bdsch\b/gmi,    // discharge
+
   /\bED\b/gm,
   /\bEMA[Ss]\b/gm,
   /\betoh\b/gmi,
+
   /\bFOO?SH\b/gm,
+
   /\bGORD\b/gm,
+
   /\bhaem\b/gmi,
   /\bhosp\b/gmi,
   /\bhypo\b/gmi,
+
   /\blac\b/gmi,
+
   /\bibup\b/gmi,
   /\binhib\b/gmi,
   /\bivab\b/gmi,
   /\biwob\b/gmi,
+
   /\b[alu]{1,2}rti\b/gmi,
   /\blucc\b/gmi,
+
   /\bmedevac\b/gmi,
   /\bMUA\b/gm,
-  /\bn[\/\+]v\b/gmi,
+
+  /\bn[\/\+\&]v\b/gmi,
   /\bNIC\b/gm,
   /\bNLOC\b/gm,
   /\bNSTEMI\b/gm,
+
   /\bo\/a\b/gmi,
   /\bortho\b/gmi,
+
   /\bpea?rla\s\d+/gmi,
   /\bPERLA\b/gm,
   /\bpmhx?\b/gmi,
@@ -54,13 +70,20 @@ const a: RegExp[] = [
   /\bpssu\b/gmi,
   /\bpsych\b/gmi,
   /\bptsd\b/gmi,
+
+  /\br\/o\b/gmi,
   /\bresp\b/gmi,
+  /\bROMM\b/gmi,
+
   /\bSAH\b/gm,
   /\bsitu\b/gmi,
   /\bsymp\b/gmi,
-  /\bTBSA\b/gi,       // total body surface area
+
+  /\bTBSA\b/gmi,      // total body surface area
   /\bTIA\b/gm,
+
   /\buclh\b/gmi,
+  
   /\bviru\b/gmi
 ];
 const MedicalAbbrRegEx: Set<RegExp> = new Set();

@@ -135,7 +135,7 @@ const a: RegExp[] = [
   /\bn[eu]rff?\sgun\b/gmi,
 
   // O
-  /\bonesie\b/gmi,
+  /\bone?sie\b/gmi,
   /\bottaman\b/gmi,
 
   // PA
@@ -158,10 +158,12 @@ const a: RegExp[] = [
   // PU
   /\bpu[cs]h\s?chair\b/gmi,
 
-  // R
+  // RO
   /\brocking\shorse\b/gmi,
-  /\brusty\snail\b/gmi,
   /\bround\scutter\b/gmi,
+
+  // RU
+  /\brusty\snail\b/gmi,
   /\brubber\styers\b/gmi,
 
   // SC
@@ -189,6 +191,7 @@ const a: RegExp[] = [
 
   // T
   /\bT\.?V\.?\s(?:stand|unit)\b/gmi,
+  /\bt[\s-]shirt\b/gmi,
 
   // TE
   /\bteddy\sbear\b/gmi,
