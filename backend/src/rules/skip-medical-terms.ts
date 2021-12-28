@@ -173,6 +173,7 @@ const a: RegExp[] = [
 
   // EP
   /\bepididymo[\s-]+orchitis\b/gmi,
+  /\bepidermis\b/gmi,
 
   // ES
   /\bescherichia\scoli\b/gmi,

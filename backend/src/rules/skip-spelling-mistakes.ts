@@ -55,12 +55,14 @@ const a: string[] = [
 // L
 "laert",        // alert
 "lamenat",      // laminate
+"liase",        // liaise
 
 // M
 "mobilsie",     // mobilise
 
 // N
 "nauesa",       // nausea
+"nauseus",      // nauseous
 "ncek",         // neck
 
 // O
@@ -72,6 +74,7 @@ const a: string[] = [
 
 // P
 "paracetaol",   // paracetamol
+"paracetmaol",
 "pushcahir",    // pushchair
 
 // R

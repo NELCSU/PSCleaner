@@ -996,7 +996,7 @@ const a: RegExp[] = [
 
 // HE
 /\bheal\s(?:close|grove|park\screscent)\b/gmi,
-/\bheal['‘’`s]{1,2}\sfield)\b/gmi,
+/\bheal['‘’`s]{1,2}\sfield\b/gmi,
 /\bherring\sfishery\sscore\b/gmi,
 /\bhedge\s(?:close|corner|cove|croft\swood|down|drive|end(?:\s(?:&\swest\send\ssouth|north|road|south|way))?)\b/gmi,
 /\bhedge\s(?:field\s(?:close|road|way)|furlong|grove|hey|hill(?:\sroad)?|lane|lea|nook|parsley\screscent)\b/gmi,

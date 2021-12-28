@@ -814,10 +814,11 @@ const a: RegExp[] = [
 /\bbutterfly\s(?:close|crescent|drive|gardens?|hospice|lane|meadows|mews|nook|trail|walk|wood|way)\b/gmi,
 /\bbuttermilk\s(?:close|copse|crescent|grove|hill\sspinney|hill|lane|pond|wood)\b/gmi,
 /\bbuttock\s(?:hill|plantation|point)\b/gmi,
-/\bbutton\s(?:bridge|close|common|drive|end|fen|geo|grove|hall|haugh|hills?|lane|park|ride|road|row|street|wood|yard)\b/gmi,
+/\bbutton\s(?:bridge\slane|close|common|drive|end|fen|geo|grove|hall\sclose|haugh\sgreen|hills?|lane|park|ride|road|row|street|wood|yard)\b/gmi,
 /\bhigh\sbutton\b/gmi,
 /\bbusiness\s(?:court|park)\b/gmi,
 /\bButton\sHole\b/gm,
+/\bbutton['‘’`s]{1,2}\s(?:bank|copse|green|hill|lane|road|wood)\b/gmi,
 
 // BY
 /\bbygone\sclose\b/gmi,
