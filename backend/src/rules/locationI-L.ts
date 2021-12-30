@@ -452,6 +452,7 @@ const a: RegExp[] = [
 /\bleveller\s(?:end|road|way)\b/gmi,
 
 // LI
+/\blittle\sburnt\scoppice\b/gmi,
 /\blittle\sscore\b/gmi,
 /\blincoln\sred\sclose\b/gmi,
 /\blittle\sred\swood\b/gmi,

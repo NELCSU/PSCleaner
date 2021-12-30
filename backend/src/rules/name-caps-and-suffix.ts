@@ -179,7 +179,6 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 
 // CU
 "curtly",
-"cutting",
 
 // CY
 "cymbalist",
@@ -434,7 +433,9 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 
 // HO
 "holding",
+"home",
 "hoop",
+"hoover",
 "hopping",
 
 // HU

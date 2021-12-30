@@ -19734,7 +19734,6 @@ const a: string[] = [
 "scholeys",
 "scholfield",
 "scholin",
-"scholl",
 "schollar",
 "scholler",
 "schollhammer",

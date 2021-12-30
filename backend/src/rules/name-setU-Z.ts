@@ -22996,6 +22996,7 @@ const a: string[] = [
 "zingels",
 "zingerman",
 "zingfoon",
+"zingg",
 "zingher",
 "zingler",
 "zingone",

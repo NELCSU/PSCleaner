@@ -545,6 +545,7 @@ const a: RegExp[] = [
 /\bsgurrachd\sire\b/gmi,
 
 // SH
+/\bshelf\s(?:bank\sclose|hall\slane|held\scoppice|junior\sand\sinfant\sschool|moor(?:\sroad)?|moss|road|wood)\b/gmi,
 /\bshaft\s(?:downs(?:\slane)?|field\sspinney|lane|road|wood)\b/gmi,
 /\bshallow\stongue\b/gmi,
 /\bshank\stongue\b/gmi,
@@ -556,7 +557,8 @@ const a: RegExp[] = [
 /\bsheriffmuir\sbig\swood\b/gmi,
 /\bsheet\sglass\sroad\b/gmi,
 /\bsheep\sledge\b/gmi,
-/\bsh(?:adwick['‘’`s]{1,2}|ifford\slock)\scut\b/gmi,
+/\bshadwick['‘’`s]{1,2}\scut\b/gmi,
+/\bshifford\slock\scut\b/gmi,
 /\bshort\scut\sroad\b/gmi,
 /\bsh(?:ipbuilder|ubbery)\sclose\b/gmi,
 /\bsh(?:amble|ielding)\sway\b/gmi,
@@ -882,6 +884,7 @@ const a: RegExp[] = [
 /\b(?:hill\sof\ssnowy\sslack|snowy\s(?:fielder\swaye|slack|way))\b/gmi,
 
 // SO
+/\bsouth\sburnt\shill\b/gmi,
 /\bsouth\sbrick\slines\b/gmi,
 /\bsound\sprimary\sschool\b/gmi,
 /\bsouth\sloch\sfell\b/gmi,
