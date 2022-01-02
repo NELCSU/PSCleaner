@@ -195,7 +195,7 @@ const a: RegExp[] = [
 /\bfelspar\s(?:close|road)\b/gmi,
 /\bfence\s(?:avenue|bank|brae|dike\slane|hill|houses|lane|moor|pools?|road(?:\splantation)?|street|wood)\b/gmi,
 /\bfell\sfoot\s(?:brow|meadow|wood)\b/gmi,
-/\bfell\s(?:avenue|bank|beck|bottom|briggs\sdrive|brow|carle\sroad|christy|crescent|croft)\b/gmi,
+/\bfell\s(?:avenue|bank|beck|briggs\sdrive|brow|carle\sroad|christy|crescent|croft)\b/gmi,
 /\bfell\s(?:dyke|edge\swood|end\s(?:fell|moor|planting|wood)|foot\s(?:brow|meadow|wood))\b/gmi,
 /\bfell\s(?:gate\splantation|greave\sroad|grove|house\s(?:fell|school)|lane|loch)\b/gmi,
 /\bfell\s(?:mead|mill\slane|of\s(?:barhullion|carleton|craigcaffie|eschoncan|fleet|laghead|talnotry))\b/gmi,
@@ -922,6 +922,8 @@ const a: RegExp[] = [
 /\bgypsum\s(?:close|way)\b/gmi,
 
 // HA
+/\bhammer\s(?:bank|bottom|coppice|drive|fields|hanger|head|hills?|leys|marsh|moor|plantation|pond|road|rock|square\sbank|street|vale|wood)\b/gmi,
+/\bhammer['‘’`s]{0,2}\s(?:copse|lane)\b/gmi,
 /\bhaa\sdoors\so['‘’`f]?\sholla\b/gmi,
 /\bhammocks\sdrove\b/gmi,
 /\bhammock\sroad\b/gmi,
@@ -1158,6 +1160,14 @@ const a: RegExp[] = [
 /\bhinckley\s(?:and|\&)\sdistrict\b/gmi,
 
 // HO
+/\bhouse\s(?:carr\s(?:lane|carr\swood)|cleuch|cliff\slane|close\swood)\b/gmi,
+/\bhouse\s(?:coppice|copse|covert|craigs|dale|farm\sroad|field(?:\smeadow)?)\b/gmi,
+/\bhouse\s(?:fleet|gate\sroad|geo|gill\s(?:tongue|wood)|ground\scoppice|head)\b/gmi,
+/\bhouse\s(?:hill(?:\stop)?|lands\splantation|martin\s(?:close|way)|meadow)\b/gmi,
+/\bhouse\so['f]\s(?:muir\s(?:road|strips)|lords\swood|the\shead|the\shill|water)\b/gmi,
+/\bhouse\so['f]\s?hill\s(?:avenue|brae|crescent|gardens|green|grove|place|road|row)\b/gmi,
+/\bhouse\s(?:plantation|pond(?:\scovert)?|pool|terrace|wood|yard\sclose)\b/gmi,
+/\bhouse['‘’`s]{1,2}\slane\b/gmi,
 /\bhoover\s(?:drive|place|street)\b/gmi,
 /\bhoover['‘’`s]{1,2}\slane\b/gmi,
 /\bhome\s(?:acre|avenue|barton\splantation|bay\spoint|beat\sdrive|birches|bottom(?:\scoppice)?)\b/gmi,

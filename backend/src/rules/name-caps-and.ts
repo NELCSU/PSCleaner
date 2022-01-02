@@ -2119,7 +2119,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "dragonfly",        // name & placenames (12)
 "dragons",          // placenames (11)
 "drawbridge",       // name & standalone & placenames (3)
-"draws",            // name & placename
 "dream",            // name & placenames (2)
 "dressing",         // name & placename
 "drivers",          // name & placenames (8)
@@ -2542,7 +2541,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "git",
 "givings",
 "glen",             // name & placenames (1k+)
-"goat",             // standalone
+"gob",              // placenames (120)
 "grace",            // name & placenames (178)
 "grant",            // name & placenames (49)
 "gray",             // name & placenames (86)
@@ -3020,7 +3019,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "halfway",          // standalone & placenames (30)
 "hall",             // name
 "hamburger",        // name
-"hammer",           // name & placenames (31)
 "han",              // name & placename
 "handler",          // name
 "handover",         // name
@@ -3185,7 +3183,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "horseshoe",        // standalone & placenames (55)
 "hose",             // name & standalone & placenames (8)
 "hospice",          // name & placenames (144)
-"house",            // placenames (1k+)
 "houses",           // placenames (105)
 "how",              // standalone & placenames (120)
 "hub",              // name & placenames (6)
@@ -5548,7 +5545,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "rife",             // name & placenames (2)
 "rings",            // name & placenames (14)
 "ringway",          // standalone & placenames (30)
-"rink",             // name & placenames (10)
 "rinks",            // name & placenames (3)
 "rise",             // placenames (1k+)
 "rising",           // name & placenames (30)
@@ -5802,6 +5798,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "saxons",           // name & standalone & placenames (8)
 "scarlet",          // name & placenames (15)
 "scot",             // name & placenames (28)
+"scool",            // name
 "seething",         // standalone
 "skylines",         // standalone
 "skylarks",         // standalone & placenames (2)

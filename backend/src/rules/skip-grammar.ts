@@ -103,9 +103,7 @@ const a: RegExp[] = [
   /\bthis\seve\b/gm,
   
   // F
-  /\bfalls?\s(?:down|from|off|on|over)\b/gmi,
-  /\bf[ae]ll\sdown\sthe\stairs\b/gmi,
-  /\bf[ae]ll\s[io]n\s?to\b/gmi,
+  /\bf[ae]lls?\s(?:down|from|[io]n\s?to|off|on|over)\b/gmi,
   /\bforce\sfield\b/gmi,
   /\bfoster\s(?:carer|father|mother|parent)\b/gmi,
   /\b(?:fa\scup|faroe\sislands)\b/gmi,

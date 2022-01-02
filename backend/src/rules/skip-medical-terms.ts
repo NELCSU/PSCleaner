@@ -86,7 +86,7 @@ const a: RegExp[] = [
 
   // BU
   /\bbuddy\sstrap\w*\b/gmi,
-  /\bburn\sdressing\b/gmi,
+  /\bburn\s(?:dressing|finger|foot)s?\b/gmi,
   /\b[Bb]undle\sof\sHis\b/gm,
   /\bbuck['‘’`s]{1,2}\sfascia\b/gmi,
   /\bburkitt['‘’`s]{1,2}\slymphoma\b/gmi,

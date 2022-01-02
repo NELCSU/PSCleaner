@@ -75,6 +75,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // HA
 "had",
+"hammer",
 
 // HE
 "head",
@@ -87,6 +88,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 // HO
 "hole",
 "hone",
+"house",
 
 // LE
 "legs",
@@ -123,6 +125,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // RI
 "righ",
+"rink",
 
 // RU
 "rug",

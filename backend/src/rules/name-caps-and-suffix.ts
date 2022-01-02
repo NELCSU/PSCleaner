@@ -209,6 +209,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 
 // DR
 "drape",
+"draws",
 "dreamer",
 "dredge",
 "dredger",

@@ -654,7 +654,7 @@ const a: RegExp[] = [
 /\bpark\s(?:plaza|point|pond\scoppice|prewett(?:\sroad)?|primary\s(?:pru|schools?))\b/gmi,
 /\bpark\s(?:prospect|quadrant|railway|range|ravine|retreat|riddey|ridge(?:\sdrive)?)\b/gmi,
 /\bpark\s(?:ridings|rise(?:\screen(?:close|road))?|rough(?:\swood|s)?|row)\b/gmi,
-/\bpark\s(?:road\s(?:central|community|county|court|crescent|east|estate|junior|lane|north|primary|sale|south|terrace|west|woods)?)\b/gmi,
+/\bpark\s(?:road\s(?:central|community|county|court|crescent|east|estate|junior|lane|north|primary|sale|south|terrace|west|woods))\b/gmi,
 /\bpark\s(?:royal(?:\s(?:court|road))?|scar|school\sfor\sgirls|school|seventeen|shaw|shore)\b/gmi,
 /\bpark\s(?:side(?:\s(?:drive|lane|plantation|road))?|slack|slade|south|spinney(?:\sclose)?)\b/gmi,
 /\bpark\s(?:spinnies|spring(?:\s(close|drive|gardens|grove|primary|rise|road|way|wood))?)\b/gmi,

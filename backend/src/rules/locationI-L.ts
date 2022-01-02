@@ -30,7 +30,6 @@ const a: RegExp[] = [
 // IN
 /\binner\sscore\b/gmi,
 /\bintac\swood\b/gmi,
-/\bIn\sFell\b/gm,
 /\binner\spenny\sledge\b/gmi,
 /\binsignia\sclose\b/gmi,
 /\bindependent\shill\b/gmi,

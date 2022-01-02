@@ -175,6 +175,7 @@ const a: RegExp[] = [
 /\brhymes\s(?:copse|place)\b/gmi,
 
 // RI
+/\brink\s(?:drive|hill|islands|road|stream|street|strips)\b/gmi,
 /\brigh\screscent\b/gmi,
 /\bribston\sbig\swood\b/gmi,
 /\bringstead\sledge\b/gmi,
@@ -1582,6 +1583,8 @@ const a: RegExp[] = [
 /\btidy\sstreet\b/gmi,
 /\bti[\s-]pw\b/gmi,
 /\btip\slane\b/gmi,
+/\btippers\scopse\b/gmi,
+/\btips\sof\s(?:clunymore|corsemaul)\b/gmi,
 /\btiers\s(?:cross|drive|mews)\b/gmi,
 /\bTidal\s(?:Bank|Basin|Pond)\b/gm,
 /\btidal\sreach\b/gmi,
@@ -1590,7 +1593,6 @@ const a: RegExp[] = [
 /\btigers\s(?:close|island|way)\b/gmi,
 /\btime\s(?:park|square)\b/gmi,
 /\bti(?:tle|['‘’`s]{1,2}|ns|ts)\swood\b/gmi,
-/\btippers\scopse\b/gmi,
 /\btins\swalbert\b/gmi,
 /\btinkers['‘’`]?\s(?:acre|avenue|belt|bridge|castle\swood|close|clough)\b/gmi,
 /\btinkers['‘’`]?\s(?:coppice|copse|crescent|cross|drive|farm\s(?:grove|road))\b/gmi,
