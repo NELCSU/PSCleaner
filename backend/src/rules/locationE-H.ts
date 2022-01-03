@@ -477,7 +477,7 @@ const a: RegExp[] = [
 /\b(?:forty['‘’`s]+\spitch|(?:north|old)\sforty\sfoot\sbank|ramsey\sforty\sfoot)\b/gmi,
 /\bforum\s(court|drive|grove|lane|place|road|view|way)\b/gmi,
 /\bForum\sClose\b/gm,
-/\b(?:blandford|hykeham|inner|outer)\sforum\b/gmi,
+/\b(?:blandford|hykeham|outer)\sforum\b/gmi,
 /\bforwards?\s(?:close|drive|green|hill|lane|road|way)\b/gmi,
 /\bfoundation\s(?:close|lake|square|street|way)\b/gmi,
 /\bfounders\s(?:close|drive|gardens|mews|road|row|way)\b/gmi,
@@ -630,6 +630,7 @@ const a: RegExp[] = [
 /\bgalashiels\s(?:and|\&)\sdistrict\b/gmi,
 
 // GE
+/\bgenoch\sinner\shill\b/gmi,
 /\bgetting\scopse\b/gmi,
 /\bgeo\sof\s(?:rustling\sstanes|the\sstairs)\b/gmi,
 /\bgeo\sof\s(?:grassland|oxen|pass|romps|the\s(?:light|side|toe)|whaleback)\b/gmi,
@@ -664,13 +665,13 @@ const a: RegExp[] = [
 /\bgig(?:\sbridge)?\slane\b/gmi,
 /\b(?:giant\s(?:arches\sroad|bradley|close|tree\shill)|little\sgiant\swood)\b/gmi,
 /\bGiant['‘’`s]{1,2}\sChair\b/gm,
-/\bGiant\s(?:Hill|Rock)\b/gm,
 /\b(?:giant['‘’`s]{1,2}\s(?:causeway|grave|hall\sroad|seat\sgrove|wood)|the\sgiant['‘’`s]{1,2}\sthumb)\b/gmi,
 /\bgingerbread\s(?:clough|lane|plantation)\b/gmi,
 /\bgingers\s(?:close|green)\b/gmi,
 /\bgingham\s(?:brow|park)\b/gmi,
 /\bgipsies['‘’`]?\s(?:fir\splantation|green|lane|plain)\b/gmi,
-/\b(?:girl['‘’`s]{1,2}\sschool|girls\swick|the\sgirls\sgrove)\b/gmi,
+/\bgirls\swick\b/gmi,
+/\bthe\sgirls\sgrove\b/gmi,
 
 // GL
 /\bglas[\s-](?:aird|bheinn|canol|charn|chnoc|choire|choirean|choirein|coed|corrie|efail)\b/gmi,
@@ -1058,7 +1059,7 @@ const a: RegExp[] = [
 /\bhole\s(?:spring|stone\sbay|street|wood|wyke)\b/gmi,
 /\bhole['‘’`s]{0,2}\slane\b/gmi,
 /\bheel\s(?:brae|field|lane|of\sthe\skame|road|shaw)\b/gmi,
-/\b(?:Inner|Long|Mid|Off|Rough)\sHeight\b/gm,
+/\b(?:Long|Mid|Off|Rough)\sHeight\b/gm,
 /\b(?:alport|auchencairn|batt|bittleston|black|blackgrain|blinkbonny)\sheight\b/gmi,
 /\b(?:broadfield|coombe?|dean|don\shill|enzieholm|ewden|far|frodaw|glenmuck|glentenmont)\sheight\b/gmi,
 /\b(?:grey|gunson|halton|hartside|kilworth|knowle|ladyside|laverhay|milne|minnygap|moselden)\sheight\b/gmi,

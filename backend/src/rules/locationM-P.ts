@@ -125,6 +125,7 @@ const a: RegExp[] = [
 /\bmetropolitan\s(?:close|drive|mews|pit|station)\b/gmi,
 
 // MI
+/\bmillwall\sinner\sdock\b/gmi,
 /\bmiddle\s(?:ball\splantation|tongue\starn)\b/gmi,
 /\bmill\sball\shill\b/gmi,
 /\bmid\sfell\b/gmi,

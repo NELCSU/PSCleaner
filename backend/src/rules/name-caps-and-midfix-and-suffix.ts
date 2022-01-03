@@ -48,10 +48,14 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "curling",
 "cutting",
 
+// DA
+"danes",
+
 // DE
 "deep",
 
 // DO
+"doen",
 "down",
 
 // EY

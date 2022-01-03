@@ -35,7 +35,7 @@ const a: RegExp[] = [
   /\bhigh\sjumps?\b/gmi,
 
   // J
-  /\b(?:ji?u)?[\s-]?jitsu\b/gmi,
+  /\b(?:ji?u)?[\s-]?[dj]itsu\b/gmi,
 
   // k
   /\bkung\sf(?:oo|u)\b/gmi,

@@ -13,7 +13,7 @@
  * generating words have been rationalised over time.
  **********************************************************************/
 const a: RegExp[] = [
-  /\b(?:1st|2nd|3rd|[45]th)\s(?:episode|metacarp[ao]l|mc|mt|toes)\b/gmi,
+  /\b[1-9](?:st|nd|rd|th)\s(?:episode|finger|metacarp[ao]l|m[ct]|toe)s?\b/gmi,
 
   // AC
   /\bachilli?es\stendon/gmi,
@@ -49,12 +49,11 @@ const a: RegExp[] = [
   /\bauerbach['‘’`s]{1,2}\splexus\b/gmi,
   
   // BA
-  /\bback\spain\b/gmi,
+  /\bback\s(?:and\shead|pain|passage)\b/gmi,
   /\bbatson['‘’`s]{1,2}\splexus\b/gmi,
   /\bbartholin['‘’`s]{1,2}\sglands?\b/gmi,
   /\bbaerveldt\s(?:shunt|tube)\b/gmi,
   /\bbachmann['‘’`s]{1,2}\sbundle\b/gmi,
-  /\bback\spassage\b/gmi,
   /\bbarking\scough\b/gmi,
   /\bbalbiani\sbodies\b/gmi,
 
@@ -242,6 +241,7 @@ const a: RegExp[] = [
   /\bhay\sfever\b/gmi,
   
   //HE
+  /\bhead\sinjury\b/gmi,
   /\bhesselbach['‘’`s]{1,2}\striangle\b/gmi,
   /\bherr?ing['‘’`s]{1,2}\s(?:bodies|canal|nerve)\b/gmi,
   /\bheschl['‘’`s]{1,2}\sgyri\b/gmi,

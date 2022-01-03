@@ -212,6 +212,7 @@ const a: string[] = [
 "bestowal",
 "betwixt",
 "bevvy",
+"biba",
 "bidet",
 "bigben",
 "bigmouth",

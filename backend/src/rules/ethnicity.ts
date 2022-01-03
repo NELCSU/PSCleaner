@@ -130,7 +130,6 @@ const a: string[] = [
 "beninese",
 "berber",
 "bermudian",
-
 "betawi",
 "betawian",
 "bete",
@@ -255,7 +254,6 @@ const a: string[] = [
 "dubla",
 "dubli",
 "dungri",
-
 "dutch",
 "dzongkha",
 "ecuadorean",
@@ -266,7 +264,6 @@ const a: string[] = [
 "egyptian",
 "eket",
 "ekoi",
-
 "emilian",
 "english",
 "eritrean",
@@ -308,7 +305,6 @@ const a: string[] = [
 "german",
 "ghanchi",
 "ghazini",
-
 "giay",
 "gibraltarian",
 "giriama",
@@ -409,7 +405,6 @@ const a: string[] = [
 "jukun",
 "kabardian",
 "kabyle",
-
 "kakwa",
 "kalaallit",
 "kalanguya",
@@ -492,7 +487,6 @@ const a: string[] = [
 "leonese",
 "lezgian",
 "liberian",
-
 "ligurian",
 "limba",
 "limbu",
@@ -660,9 +654,7 @@ const a: string[] = [
 "panamanian",
 "pangasinese",
 "pashayi",
-"pashto",
 "pashtun",
-
 "persian",
 "peruvian",
 "picard",
@@ -697,7 +689,6 @@ const a: string[] = [
 "saha",
 "saho",
 "sahrawi",
-
 "salale",
 "salinero",
 "salvadorean",
@@ -889,7 +880,6 @@ const a: string[] = [
 "yimchunger",
 "yoruba",
 "yuchi",
-
 "zaghawa",
 "zambian",
 "zay",

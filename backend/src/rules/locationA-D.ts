@@ -702,7 +702,7 @@ const a: RegExp[] = [
 /\bbriary\s(?:avenue|close|court|croft|drive|gardens|grove|hill\s(?:plantation|wood))\b/gmi,
 /\bbriary\s(?:holt|lane|plantation|primary|road|spring|view|way|wood(?:\s(?:end|lane))?)\b/gmi,
 /\bblakeney\sand\sbream\b/gmi,
-/\b(?:inner\sbreakwater\sroad|western\sharbour\sbreakwater)\b/gmi,
+/\bwestern\sharbour\sbreakwater\b/gmi,
 /\bbri(?:ck\sand\stile\sterrace|dge\sand\s(?:bridge\swithout|patrixbourne))\b/gmi,
 /\bbri(?:ghton\sand\shove|nnington\sand\scentral)\b/gmi,
 /\bbrickwork\savenue\b/gmi,
@@ -1135,7 +1135,7 @@ const a: RegExp[] = [
 /\bcloth\s(?:drive|hall\s(?:court|gardens|lane|street)|street)\b/gmi,
 /\bCloth\s(?:Fair|Market|Yard)\b/gm,
 /\b(?:Club\sParade|(?:Aero|Polo)\sClub)\b/gm,
-/\bclub\s(?:copse|court|drive|field\splantation|garden\s(?:road|walk)?|gardens(?:\sroad)?|(?:house\s)?lane|mill\sroad|nab|point|road|row|street|view|walk|way)\b/gmi,
+/\bclub\s(?:copse|court|drive|field\splantation|gardens?\s(?:road|walk)|(?:house\s)?lane|mill\sroad|nab|point|row|street|view|walk|way)\b/gmi,
 /\b(?:queen['‘’`s]{1,2}\sclub\sgardens|the\scowdray\sclub)\b/gmi,
 /\b(?:guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
@@ -1600,6 +1600,10 @@ const a: RegExp[] = [
 /\bczarina\srise\b/gmi,
 
 // DA
+/\bdanes\s(?:avenue|bottom|['‘’`s]{1,2}\sbottom|brook\sclose|camp\sway|copse|court|crescent|crest)\b/gmi,
+/\bdanes\s(?:croft|drive|dyke|gardens|gate|['‘’`s]{0,2}\sgraves\s(?:plantation|wood)|green|hill\spre-preparatory\sschool)\b/gmi,
+/\bdanes\s(?:hill\sschool|hills?|lane(?:\s(?:north|south))?|mead|mill\scopse|moor|moss|['‘’`s]{0,2}\sroad)\b/gmi,
+/\bdanes\s(?:square|stream\scoppice|terrace|valley|way|wood)\b/gmi,
 /\bdab\sdumps\b/gmi,
 /\bdale\stongue\b/gmi,
 /\bDarling\sFell\b/gm,

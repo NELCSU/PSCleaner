@@ -192,7 +192,7 @@ const a: RegExp[] = [
 /\b(?:chilworth|cissbury|clearbury|east|greenacres|hockwell|knockdal|ormsby|prospect)\sring\b/gmi,
 /\b(?:spettisbury|tairlaw|tidbury|weavers|west|whipperley|woolbury|yew)\sring\b/gmi,
 /\bRing\s(?:Close|Fence|Holes?)\b/gm,
-/\b(?:Bull|Inner|Round)\sRing\b/gm,
+/\b(?:Bull|Round)\sRing\b/gm,
 /\bring\s(?:and\sscars\splantation|beck|bog|clumps?|dam|down|dyke\sway|farm\s(?:crescent|hollow|view)|fort\sroad|gardens|grove)\b/gmi,
 /\bring\s(?:haw|hay|hill|holt|leas|lows|moor|moss|o['‘’`\s]*bells|of\sbright\swater)\b/gmi,
 /\bring\s(?:plantation|point|pond|road|rock|sands|stones\sclose|street|wall|way|wood)\b/gmi,
@@ -574,7 +574,7 @@ const a: RegExp[] = [
 /\bshadow\s(?:brook\slane|close|creek\sdrive|gully|hill|moss\sroad|walk|wood(?:\sdrive)?)\b/gmi,
 /\b(?:east|meikle|trwyn|west)\sshag\b/gmi,
 /\bshag\s(?:cliff|hole\sbay|looe\shead|point|stack|stone)\b/gmi,
-/\b(?:eastern|inner|western)\sshag\srocks?\b/gmi,
+/\b(?:eastern|western)\sshag\srocks?\b/gmi,
 /\bshag\srocks?\b/gmi,
 /\bshakers['‘’`]?\s(?:furze|lane|road|way|wood)\b/gmi,
 /\bShakey\sGround\b/gm,
@@ -1355,6 +1355,7 @@ const a: RegExp[] = [
 /\btattenhall\s(?:and|\&)\sdistrict\b/gmi,
 
 // TE
+/\bterriers\s(?:and\samersham\shill|drive|end)\b/gmi,
 /\btea\sledge\b/gmi,
 /\btearing\sledge\b/gmi,
 /\bTeachers\sClose\b/gm,
@@ -1412,6 +1413,7 @@ const a: RegExp[] = [
 /\btlg\snewcastle\b/gmi,
 
 // TH
+/\bthe\sinner\sdown\b/gmi,
 /\bthe\slegacy\sschool\b/gmi,
 /\bthorn\s(?:alley|avenue|balk|bamk|bank|barn\sclose|brae|close\splantation|clough|clumps?)\b/gmi,
 /\bthorn\s(?:common|coppice|court|covert|crag|crescent|cross|dale|down|drive|fields)\b/gmi,

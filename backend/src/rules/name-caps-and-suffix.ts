@@ -513,6 +513,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "lager",
 
 // LE
+"leaders",
 "leak",
 "leaker",
 "lenders",

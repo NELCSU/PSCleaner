@@ -27,6 +27,7 @@ const a: string[] = [
 // C
 "complainig",   // complaining
 "concerte",     // concrete
+"cooffe",       // coffee
 "coughin",      // coughing
 
 // D
@@ -48,6 +49,7 @@ const a: string[] = [
 "initallt",     // initially
 "injruy",       // injury
 "injuy",
+"iside",        // inside
 
 // K
 "kiak",         // kayak

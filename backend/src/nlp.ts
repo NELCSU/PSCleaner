@@ -519,9 +519,12 @@ export class NLP {
     return outcome;
   }
 
+  /********************************************************************************
+   * Logic for handling whether words are in their correct pre/mid/suffix sequence
+   ********************************************************************************/
   private _removeOrphans(list: MatchedEntity[]) {
     let pre: MatchedEntity | undefined, mid: MatchedEntity | undefined;
-    let suf: MatchedEntity | undefined, postsuf: MatchedEntity | undefined;
+    let suf: MatchedEntity | undefined;
 
     const neighbors = (a: MatchedEntity, b: MatchedEntity) => a.match.end + 2 >= b.match.start && a.entity.domain === b.entity.domain;
     const nofix = (e: MatchedEntity) => e.action.prefix === 0 && e.action.midfix === 0 && e.action.suffix === 0;
@@ -532,58 +535,56 @@ export class NLP {
     const okPrefix  = (e: MatchedEntity) => nofix(e) || e.action.prefix;
     const okMidfix = (e: MatchedEntity) => nofix(e) || e.action.midfix;
     const okSuffix = (e: MatchedEntity) => nofix(e) || e.action.suffix;
+    const evalThreeWord = (a: MatchedEntity, b: MatchedEntity, c: MatchedEntity) => b && neighbors(a, b) && c && neighbors(b, c);
+    const evalTwoWord = (a: MatchedEntity, b: MatchedEntity) => b && neighbors(a, b);
 
     let i = 0;
     while (i < list.length) {
       pre = list[i];
       mid = i + 1 > list.length - 1 ? undefined : list[i + 1];
       suf = i + 2 > list.length - 1 ? undefined : list[i + 2];
-      postsuf = i + 3 > list.length - 1 ? undefined : list[i + 3];
 
-      if (mid && neighbors(pre, mid)) {
-        if (suf && neighbors(mid, suf)) { // evaluate a-b-c
-          if (!okPrefix(pre)) {
-            list.splice(i, 1);
-          } else if (!okMidfix(mid)) {
-            list.splice(i + 1, 1);
-          } else if (!okSuffix(suf)) {
-            if (postsuf && neighbors(suf, postsuf)) {
-              i += 1;
-              wipe(pre);
-              wipe(mid);
-            } else {
-              i += 1;
-              wipe(pre);
-            }
-          } else {
-            i += 2;
+      if (evalThreeWord(pre, mid, suf)) {
+        if (!okPrefix(pre)) {
+          list.splice(i, 1);
+        } else if (!okMidfix(mid)) {
+          list.splice(i + 1, 1);
+        } else if (!okSuffix(suf)) {
+          if (okSuffix(mid)) {
+            i += 1;
             wipe(pre);
             wipe(mid);
-            wipe(suf);
+          } else {
+            list.splice(i + 1, 1);
           }
-        } else { // evaluate a-b
-          if (nofix(pre)) {
-            if (okSuffix(mid)) {
-              i += 2;
+        } else {
+          i += 2;
+          wipe(pre);
+          wipe(mid);
+          wipe(suf);
+        }
+      } else if (evalTwoWord(pre, mid)) {
+        if (nofix(pre)) {
+          if (okSuffix(mid)) {
+            i += 2;
+            wipe(mid);
+          } else {
+            list.splice(i + 1, 1);
+          }
+        } else {
+          if (okPrefix(pre)) {
+            if (okSuffix(mid) || nofix(mid)) {
+              wipe(pre);
               wipe(mid);
+              i += 2;
             } else {
               list.splice(i + 1, 1);
+              if (i > 0) {
+                --i;
+              }
             }
           } else {
-            if (okPrefix(pre)) {
-              if (okSuffix(mid) || nofix(mid)) {
-                wipe(pre);
-                wipe(mid);
-                i += 2;
-              } else {
-                list.splice(i + 1, 1);
-                if (i > 0) {
-                  --i;
-                }
-              }
-            } else {
-              list.splice(i, 1);
-            }
+            list.splice(i, 1);
           }
         }
       } else {
