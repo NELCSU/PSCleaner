@@ -77,6 +77,7 @@ const a: RegExp[] = [
 
   /\bSAH\b/gm,
   /\bsitu\b/gmi,
+  /\bs\/o\b/gmi,
   /\bsymp\b/gmi,
 
   /\bTBSA\b/gmi,      // total body surface area

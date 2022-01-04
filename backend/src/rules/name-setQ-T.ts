@@ -9746,7 +9746,6 @@ const a: string[] = [
 "rollason",
 "rollaston",
 "rolleen",
-"rollen",
 "rollend",
 "rollerhouse",
 "rollerson",

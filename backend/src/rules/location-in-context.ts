@@ -30,6 +30,10 @@ const a: RegExp[] = [
 /\bbalcony\b(?=.{2,20}(?:MK45))/gi,
 /(?<=(?:MK45).{2,25})\bbalcony\b/gi,
 
+// BALE
+/\bbale\b(?=.{2,20}(?:NR21|village))/gi,
+/(?<=(?:NR21|village).{2,25})\bbale\b/gi,
+
 // BALL
 /\b[\d-]+\sball\s(?:close|down)\b/gi,
 /\bball\b(?=.{2,20}(?:SY10|shrops))/gi,
@@ -496,13 +500,15 @@ const a: RegExp[] = [
 /\bthree\sdoors\b(?=.{2,10}(?:SA62|island))/gi,
 
 // DOWN
+/[\d-]+\sdown\s(?:close|edge|hill)\b/gi,
 /(?<=EX12.{2,10})\bdown\b/gi,
 /\bdown\b(?=.{2,10}EX12)/gi,
-/[\d-]+\sdown\s(?:close|hill)\b/gi,
 /(?<=(?:BS20|EX10|GU29|PL12|UB5).{2,10})\bdown\sclose\b/gi,
 /\bdown\sclose\b(?=.{2,10}(?:BS20|EX10|GU29|PL12|UB5))/gi,
 /(?<=(?:CB7|camb).{2,10})\bdown\sfield\b/gi,
 /\bdown\sfield\b(?=.{2,10}(?:CB7|camb))/gi,
+/(?<=(?:AL3).{2,10})\bdown\sedge\b/gi,
+/\bdown\sedge\b(?=.{2,10}(?:AL3))/gi,
 /(?<=(?:EX1[67]|FK14|GL6|NE23|NE36|NE45|OX11).{2,10})\bdown\shill\b/gi,
 /\bdown\shill\b(?=.{2,10}(?:EX1[67]|FK14|GL6|NE23|NE36|NE45|OX11))/gi,
 /(?<=NE64.{2,10})\bdown\sover\srocks\b/gi,
@@ -803,6 +809,10 @@ const a: RegExp[] = [
 /\bhill\shouse\b(?=.{2,10}(?:TQ5|GU10))/gi,
 /(?<=(?:LA22).{2,10})\bhill\sfell\b/gi,
 /\bhill\sfell\b(?=.{2,10}(?:LA22))/gi,
+
+// HIVE
+/(?<=(?:HU15|hamlet).{2,10})\bhive\b/gi,
+/\bhive\b(?=.{2,10}(?:HU15|hamlet))/gi,
 
 // HOLDING
 /[\d-]+\sholding\b/gi,
@@ -1178,6 +1188,8 @@ const a: RegExp[] = [
 /\bthe\spark\b(?=.{2,20}(?:AL[13]|B80|B9[347]|BA12|BA20|BA[57]|BH2[05]|BN27?|BS1[56]|BS20|BS3[012]|BS4[09]|CA1[12]|CA5|CF46|CF71|CH[37]|CM14|CM22|CO11|CT1[45]|CV13|CV37|DA1[34]|DE13|DE[46]|DG8|DH8|DL1[12]|DL7|DN14|DN2[01]|DN39|DT11|DT6|EX14|EX20|EX5|GL20|GL5[0145]|GU10|GU34|HD8|HG3|HR[12]|HU1[1457]|HX2|IP29|IP31|KT23|L36|LA2[12]|LA[589]|LD3|LE1[49]|LL15|LN11?|LN4|N6|NE1[18]|NE4[167]|NE6[156]|NE71|NG1|NG1[24678]|NG2[134]|NG34|NP1[06]|NP25|NP[47]|NR1[06]|NW11|OL[34]|OX1[15]|OX2|PE28|PE3[12]|PL21|PO32|PR3|RG17|RH17?|S7[25]|SA2|SA37|SA48|SK17|SK9|SM5|SN10|SO32|SP3|SS16|SY20|SY[58]|TA2|TF9|TN17|TN[3679]|TR2|TS9|W5|WA5|WR8|WS13|YO1[3479]|YO2[136]|YO4[12]|YO51|YO6[01]))/gi,
 /\bpark\sroad\b(?=.{2,20}(?:[A-IK-PR-Z]{1,2}[1-9]{1,2}))/gi,
 /(?<=(?:[A-IK-PR-Z]{1,2}[1-9]{1,2}).{2,25})\bpark\sroad\b/gi,
+/\bpark\sschool\b(?=.{2,20}(?:FY3|KA1|TQ9|BH8))/gi,
+/(?<=(?:FY3|KA1|TQ9|BH8).{2,25})\bpark\sschool\b/gi,
 
 // PASS
 /[\d-]+\sthe\spass\b/gi,
@@ -1411,6 +1423,11 @@ const a: RegExp[] = [
 /[\d-]+\sthe\sround\b/gi,
 /\bthe\sround\b(?=.{2,20}(?:KY12))/gi,
 /(?<=(?:KY12).{2,25})\bthe\sround\b/gi,
+
+// ROUNDHOUSE
+/[\d-]+\sroundhouse\b/gi,
+/\broundhouse\b(?=.{2,20}(?:FK7))/gi,
+/(?<=(?:FK7).{2,25})\broundhouse\b/gi,
 
 // ROW
 /[\d-]+\sthe\srows?\b/gi,

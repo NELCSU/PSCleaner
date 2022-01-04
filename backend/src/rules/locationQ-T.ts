@@ -381,7 +381,7 @@ const a: RegExp[] = [
 /\bscoot\swood\b/gmi,
 /\bscale\sgill\sfoot\smoss\b/gmi,
 /\bschool\s(?:allotment(?:\sride)?|avenue|aycliffe(?:\slane)?|bank\sroad)\b/gmi,
-/\bschool\s(?:bank|board\slane|brae(?:\splace)?|brow|clough|common(?:\sroad)?)\b/gmi,
+/\bschool\s(?:bank|board\slane|brae(?:\splace)?|brow|clough|common\sroad)\b/gmi,
 /\bschool\s(?:copse|cote\s(?:brow|terrace)|court|coverts?|crescent|croft|dell)\b/gmi,
 /\bschool\s(?:end\screscent|farm\s(?:drove|lane|yard)|firs|fold|furze|garth)\b/gmi,
 /\bschool\s(?:green\s(?:avenue|farm|lane|road)|ground\slane|grove|hill(?:\sroad)?)\b/gmi,

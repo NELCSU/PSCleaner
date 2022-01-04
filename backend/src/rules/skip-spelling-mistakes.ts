@@ -32,7 +32,11 @@ const a: string[] = [
 
 // D
 "deformaty",    // deformity
+"downstairrs",  // downstairs
 "drowsey",      // drowsy
+
+// E
+"extreem",      // extreme
 
 // F
 "fraity",       // frailty
@@ -93,11 +97,13 @@ const a: string[] = [
 "slef",         // self
 "slepp",        // sleep
 "soem",         // some
+"staris",       // stairs
 "straigt",      // straight
 "superficail",  // superficial
 "swellig",      // swelling
 
 // T
+"tackeld",      // tackled
 "theigh",       // thigh
 "thorugh",      // thorough
 "tierd",        // tired

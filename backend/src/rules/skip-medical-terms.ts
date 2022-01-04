@@ -13,7 +13,7 @@
  * generating words have been rationalised over time.
  **********************************************************************/
 const a: RegExp[] = [
-  /\b[1-9](?:st|nd|rd|th)\s(?:episode|finger|metacarp[ao]l|m[ct]|toe)s?\b/gmi,
+  /\b[1-9](?:st|nd|rd|th)?\s(?:episode|finger|metacarp[ao]l|m[ct]|toe)s?\b/gmi,
 
   // AC
   /\bachilli?es\stendon/gmi,
@@ -449,7 +449,7 @@ const a: RegExp[] = [
   /\bskene['‘’`s]{1,2}\sglands?\b/gmi,
 
   // SM
-  /\bsmall\sswelling\b/gmi,
+  /\bsmall\s(?:bump|swelling)s?\b/gmi,
 
   // SP
   /\bspiegelian['‘’`s]{1,2}\s(?:fascia|line|lobe)s?\b/gmi,

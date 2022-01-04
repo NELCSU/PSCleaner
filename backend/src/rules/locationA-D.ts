@@ -1717,7 +1717,7 @@ const a: RegExp[] = [
 /\bdownhill\s(?:lane|plantation)\b/gmi,
 /\bdown\s(?:ampney(?:\sroad)?|avenue|barn\s(?:close|plantation|road)|barns\sroad)\b/gmi,
 /\bdown\s(?:barton\sroad|brake|cleeve\splantation|coppice|copse|court(?:\sroad)?|covert)\b/gmi,
-/\bdown\s(?:edge|end(?:\sroad)?|farm\s(?:lane|place)|gate|green\slane|hall(?:\sroad)?)\b/gmi,
+/\bdown\s(?:end(?:\sroad)?|farm\s(?:lane|place)|gate|green\slane|hall(?:\sroad)?)\b/gmi,
 /\bdown\s(?:hanger|hatherley(?:\slane)?|head\splantation|house\slane|lane|law|leaze)\b/gmi,
 /\bdown\s(?:lodge\sclose|meadow|mill\sdrive|park(?:\sdrive)?|place|plantation|ridge)\b/gmi,
 /\bdown\s(?:road|shaw|spinney|st\.?\smary|street(?:\smews)?|terrace|thomas|tor)\b/gmi,
