@@ -145,9 +145,6 @@ const a: RegExp[] = [
   /\bpearl\sbe[ae]d\b/gmi,
   /\ba\spennie\b/gmi,
 
-  // PI
-  /\bpink\sbead\b/gmi,
-
   // PL
   /\bplaydoh\b/gmi,
   /\bplastic\smike\b/gmi,

@@ -21,13 +21,14 @@ const a: RegExp[] = [
   /\bBIB[Aa]?\b/gm, // brought in by (ambulance)
 
   /\bc\/o\b/gmi,    // complaining of
-  /\bcopd\b/gmi,
+  /\bcoag\b/gmi,    // coagulation
+  /\bcopd\b/gmi,    // chronic obstructive pulmonary disease
   /\bcssu\b/gmi,
 
   /\bdatix\b/gmi,
   /\bdexa\b/gmi,
   /\bDIB\b/gm,      // difficulty in breathing
-  /\bdisloc\b/gmi,
+  /\bdisloc\b/gmi,  // dislocation
   /\bdsch\b/gmi,    // discharge
 
   /\bED\b/gm,
@@ -42,7 +43,7 @@ const a: RegExp[] = [
   /\bhosp\b/gmi,
   /\bhypo\b/gmi,
 
-  /\blac\b/gmi,
+  /\blac\b/gmi,       // laceration
 
   /\bibup\b/gmi,
   /\binhib\b/gmi,
@@ -85,7 +86,9 @@ const a: RegExp[] = [
 
   /\buclh\b/gmi,
   
-  /\bviru\b/gmi
+  /\bviru\b/gmi,
+
+  /\by\/day\b/gmi     // yesterday
 ];
 const MedicalAbbrRegEx: Set<RegExp> = new Set();
 a.forEach(term => MedicalAbbrRegEx.add(term));

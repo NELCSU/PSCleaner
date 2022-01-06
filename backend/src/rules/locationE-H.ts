@@ -250,6 +250,7 @@ const a: RegExp[] = [
 /\bflue\s(?:geos|taing)\b/gmi,
 
 // FO
+/\bfollows\s(?:end|street)\b/gmi,
 /\bfog\s(?:hill(?:\sclough)?|house\swood|lane)\b/gmi,
 /\bfore\sdoors\splantation\b/gmi,
 /\bfour\swent\sways\sservice\sarea\b/gmi,
@@ -279,6 +280,7 @@ const a: RegExp[] = [
 /\bforfar\s(?:and|\&)\sdistrict\b/gmi,
 
 // FR
+/\bfriendly\s(?:avenue|close|fold\sroad|place|row|street(?:\smews)?)\b/gmi,
 /\bfrisby\s(?:avenue|church|close|lane|road)\b/gmi,
 /\bfrisby[\s-]on[\s-]the[\s-]wreake\b/gmi,
 /\bfrisby['‘’`s]{1,2}\sspinney\b/gmi,
@@ -1020,7 +1022,7 @@ const a: RegExp[] = [
 /\bhead\sof\s(?:grunay|gutcher|hevdagarth|holland|hosta|keedon|lahamar|lambhoga|man|moclett)\b/gmi,
 /\bhead\sof\s(?:muir|mula|onibery|pernealy|row|skennif|stanshi|the\s(?:buird|clett|hill\scourt))\b/gmi,
 /\bhead\sof\s(?:the\s(?:holm|moull)|tind|uriesetter|uskiegeo|vady|virdibreck|work)\b/gmi,
-/\bhead\s(?:rock|scar|stone|street|wark|way|weir\s(?:island|road)|wood)\b/gmi,
+/\bhead\s(?:rock|scar|stone|street|wark|way|weir\s(?:island|road))\b/gmi,
 /\bhead['‘’`s]{1,2}\s(?:copse|lane|plantation)\b/gmi,
 /\bheedless\swilliam['‘’`s]{1,2}\spond\b/gmi,
 /\bheadmasters\srow\b/gmi,
@@ -1090,7 +1092,7 @@ const a: RegExp[] = [
 /\bhill\s(?:cottage\s(?:gardens|plantation)|court(?:\s(?:drive|fold|mews|road|view))?)\b/gmi,
 /\bhill\s(?:coverts?|crescent|crest(?:\s(?:avenue|close|drive|farm\sclose|gardens|grove|mount|road|view))?)\b/gmi,
 /\bhill\s(?:croft(?:\s(?:close|drive|gardens|road)|s)?|croome|cross(?:\s(?:avenue|copse|drive))?)\b/gmi,
-/\bhill\s(?:dale|deverill|dingle|down|drive|dyke(?:\sroad)?|east\swood|estate|fall)\b/gmi,
+/\bhill\s(?:dale|deverill|dingle|down|drive|dyke(?:\sroad)?|east\swood|estate)\b/gmi,
 /\bhill\s(?:end(?:\s(?:close|crescent|drive|farm\slane|green|grove|lane|road|wood))?)\b/gmi,
 /\bhill\s(?:farm(?:\s(?:approach|avenue|chase|close|court|lane|plantation|primary|rise|road|solar|spring|way))?)\b/gmi,
 /\bhill\s(?:fen|field(?:\s(?:croft|road)|s)?|firs|flower\scoppice)\b/gmi,
@@ -1126,7 +1128,6 @@ const a: RegExp[] = [
 /\bhigh\s(?:crag\sfoot|holding\swood)\b/gmi,
 /\bhill\sfoot\slane\b/gmi,
 /\bhigher\s(?:ball\swood|week\s(?:copse|moor))\b/gmi,
-/\bHi(?:gh|ll)\sFell\b/gm,
 /\bhigh\s(?:house|scald)\sfell\b/gmi,
 /\bhill\sfell\splantation\b/gmi,
 /\bhinning\shouse\sfell\b/gmi,
@@ -1161,6 +1162,10 @@ const a: RegExp[] = [
 /\bhinckley\s(?:and|\&)\sdistrict\b/gmi,
 
 // HO
+/\bhow\s(?:barrow|beck\shead|beech|ber|blackhope|caple(?:\swood)?|cl[eo]u[cg]h|coppice|copse)\b/gmi,
+/\bhow\s(?:end\sroad|fen\sdrove|gill\smoss|gill\splantation|green\slane|head\splantation|hill\s(?:lane|road|wood))\b/gmi,
+/\bhow\s(?:lea\sdrive|ledge|meadow\splantation|mill|skatie\scraig|skerry|spinney|tun\swoods|wood\sprimary\sand\snursery\sschool)\b/gmi,
+/\bhow['‘’`s]{1,2}\s(?:close|road|street)\b/gmi,
 /\bhouse\s(?:carr\s(?:lane|carr\swood)|cleuch|cliff\slane|close\swood)\b/gmi,
 /\bhouse\s(?:coppice|copse|covert|craigs|dale|farm\sroad|field(?:\smeadow)?)\b/gmi,
 /\bhouse\s(?:fleet|gate\sroad|geo|gill\s(?:tongue|wood)|ground\scoppice|head)\b/gmi,

@@ -4,6 +4,16 @@
  * is a lo-fi means of curtailing false positives
  **********************************************************************/
 const a: RegExp[] = [
+// ACORNS
+/\b[\d-]+\sacorns\b/gi,
+/\bacorns\b(?=.{2,20}(?:RH13))/gi,
+/(?<=(?:RH13).{2,25})\bacorns\b/gi,
+
+// ACREAGE
+/\b[\d-]+\sacreage\b/gi,
+/\bacreage\b(?=.{2,20}(?:WR6))/gi,
+/(?<=(?:WR6).{2,25})\bacreage\b/gi,
+
 // ANNIVERSARIES
 /\banniversaries\b(?=.{2,20}(?:CV7))/gi,
 /(?<=(?:CV7).{2,25})\banniversaries\b/gi,
@@ -193,6 +203,11 @@ const a: RegExp[] = [
 /(?<=(?:PE29).{2,10})\bbrick\skilns\b/gi,
 /\bbrick\skilns\b(?=.{2,10}(?:PE29))/gi,
 
+// BRICKYARD
+/[\d-]+\sbrickyard\b/gi,
+/(?<=(?:DN37|WF14|NG15).{2,10})\bbrickyard\b/gi,
+/\bbrickyard\b(?=.{2,10}(?:DN37|WF14|NG15))/gi,
+
 // BROOM
 /[\d-]+\sthe\sbroom\b/gi,
 /(?<=(?:IP12).{2,10})\bthe\sbroom\b/gi,
@@ -279,6 +294,10 @@ const a: RegExp[] = [
 /(?<=(?:KW17).{2,10})\bthe\sbusy\b/gi,
 /\bthe\sbusy\b(?=.{2,10}(?:KW17))/gi,
 
+// CABIN
+/(?<=(?:SA71|island).{2,10})\bcabin\sdoor\b/gi,
+/\bcabin\sdoor\b(?=.{2,10}(?:SA71|island))/gi,
+
 // CALF
 /(?<=(?:DT2|ZE2|LA10|TR21).{2,10})\bthe\scalf\b/gi,
 /\bthe\scalf\b(?=.{2,10}(?:DT2|ZE2|LA10|TR21))/gi,
@@ -293,8 +312,15 @@ const a: RegExp[] = [
 /\bthe\scandle\b(?=.{2,10}(?:KW16))/gi,
 
 // CAR
+/[\d-]+\scar\s(?:lane|road|street)\b/gi,
 /\bthe\scar\b(?=.{2,10}(?:IP25|S33|EH39))/gi,
 /(?<=(?:IP25|S33|EH39).{2,10})\bthe\scar\b/gi,
+/\bcar\slane\b(?=.{2,10}(?:NG13))/gi,
+/(?<=(?:NG13).{2,10})\bcar\slane\b/gi,
+/\bcar\sroad\b(?=.{2,10}(?:KA18|S18))/gi,
+/(?<=(?:KA18|S18).{2,10})\bcar\sroad\b/gi,
+/\bcar\sstreet\b(?=.{2,10}(?:CH1|WN2))/gi,
+/(?<=(?:CH1|WN2).{2,10})\bcar\sstreet\b/gi,
 
 // CARRIER
 /[\d-]+\scarrier\sclose\b/gi,
@@ -388,6 +414,10 @@ const a: RegExp[] = [
 /(?<=(?:RH14).{2,10})\bcousins['‘’`s]{1,2}\scopse\b/gi,
 /\bcousins['‘’`s]{1,2}\scopse\b(?=.{2,10}(?:RH14))/gi,
 
+// CRADLES
+/(?<=(?:TR19).{2,10})\bcradles\b/gi,
+/\bcradles\b(?=.{2,10}(?:TR19))/gi,
+
 // CRAMS
 /(?<=(?:PL28|TR5).{2,10})\bcrams\b/gi,
 /\bcrams\b(?=.{2,10}(?:PL28|TR5))/gi,
@@ -400,6 +430,14 @@ const a: RegExp[] = [
 // CRANES
 /(?<=(?:SS14).{2,10})\bcranes\b/gi,
 /\bcranes\b(?=.{2,10}(?:SS14))/gi,
+
+// CREASE
+/[\d-]+\sthe\screase\b/gi,
+/[\d-]+\screase\s(?:close|drove)\b/gi,
+/(?<=(?:GL18).{2,10})\bthe\screase\b/gi,
+/\bthe\screase\b(?=.{2,10}(?:GL18))/gi,
+/(?<=(?:BA5|PE6).{2,10})\bcrease\s(?:close|drove)\b/gi,
+/\bcrease\s(?:close|drove)\b(?=.{2,10}(?:BA5|PE6))/gi,
 
 // CREED
 /(?<=(?:TR2|hamlet).{2,10})\bcreed\b/gi,
@@ -552,6 +590,11 @@ const a: RegExp[] = [
 /(?<=(?:PE6|village).{2,10})\beye\sgreen\b/gi,
 /\beye\sgreen\b(?=.{2,10}(?:PE6|village))/gi,
 
+// FAIRWAYS
+/[\d-]+\sfairways\b/gmi,
+/(?<=(?:BA13?|BA5|BH22|BL6|BS31|CF33|CF81|CH42|CO4|CR8|DH8|EN8|FY8|GU26|HA7|IP21|KA12|KA3|KT24|KY12|L23|LL30|MK8|ML9|NE25|NR6|OX1|PE10|PR2|S66|SA72|SP11|SR3|TD6|TW1[15]|WA[46]|WR10).{2,10})\bfairways\b/gi,
+/\bfairways\b(?=.{2,10}(?:BA13?|BA5|BH22|BL6|BS31|CF33|CF81|CH42|CO4|CR8|DH8|EN8|FY8|GU26|HA7|IP21|KA12|KA3|KT24|KY12|L23|LL30|MK8|ML9|NE25|NR6|OX1|PE10|PR2|S66|SA72|SP11|SR3|TD6|TW1[15]|WA[46]|WR10))/gi,
+
 // FELL
 /[\d-]+\sfell\s(?:close|drive|road|side|view|walk|way|wood)\b/gmi,
 /(?<=(?:DL8).{2,10})\bfell\sbottom\b/gi,
@@ -690,6 +733,14 @@ const a: RegExp[] = [
 /\bthe\sforest\b(?=.{2,10}(?:CM1[34]|CT14|DD8|DG11|DG[28]|DL13|E1[17]|EX13|FK10|GL53|GU31|IP16|IP24|KT2[14]|LA8|LD3|NG33|NP4|NR24|OX25|PO9|SY16|SY21|SY[47]|TN26|TN8|TS15|WR9|WV16))/gi,
 /(?<=(?:CM1[34]|CT14|DD8|DG11|DG[28]|DL13|E1[17]|EX13|FK10|GL53|GU31|IP16|IP24|KT2[14]|LA8|LD3|NG33|NP4|NR24|OX25|PO9|SY16|SY21|SY[47]|TN26|TN8|TS15|WR9|WV16).{2,10})\bthe\sforest\b/gi,
 
+// FRESHWATER
+/\bfreshwater\b(?=.{2,10}(?:PO40))/gi,
+/(?<=(?:PO40).{2,10})\bfreshwater\b/gi,
+
+// FRIENDLY
+/\bfriendly\b(?=.{2,10}(?:HX6))/gi,
+/(?<=(?:HX6).{2,10})\bfriendly\b/gi,
+
 // FRISBY
 /[\d-]+\sfrisby\sclose\b/gi,
 /\bfrisby\b(?=.{2,10}(?:LE7|hamlet))/gi,
@@ -701,6 +752,10 @@ const a: RegExp[] = [
 /[\d-]+\sthe\sfront\b/gi,
 /\bthe\sfront\b(?=.{2,10}(?:HP4|TS25|CT15|DL2))/gi,
 /(?<=(?:HP4|TS25|CT15|DL2).{2,10})\bthe\sfront\b/gi,
+
+// FURNACE
+/\bfurnace\b(?=.{2,10}(?:PA32|SY20|SA1[56]))/gi,
+/(?<=(?:PA32|SY20|SA1[56]).{2,10})\bfurnace\b/gi,
 
 // GARDEN
 /[\d-]+\sthe\sgardens?\b/gi,
@@ -764,6 +819,10 @@ const a: RegExp[] = [
 /(?<=(?:NG21)).{2,25}\bthe\sgrasslands\b/gi,
 /\bthe\sgrasslands\b(?=.{2,20}(?:NG21))/gi,
 
+// GREAT
+/(?<=(?:EH39|island)).{2,25}\bgreat\scar\b/gi,
+/\bgreat\scar\b(?=.{2,20}(?:EH39|island))/gi,
+
 // GREEN
 /(?<=(?:KY10|ZE3)).{2,25}\bgreen\sface\b/gi,
 /\bgreen\sface\b(?=.{2,20}(?:KY10|ZE3))/gi,
@@ -791,10 +850,15 @@ const a: RegExp[] = [
 /(?<=(?:DN41|village|station)).{2,25}\bhealing\b/gi,
 /\bhealing\b(?=.{2,20}(?:DN41|village|station))/gi,
 
+// HIGH
+/[\d-]+\shigh\sfell\b/gi,
+/(?<=(?:TS10|LA21)).{2,25}\bhigh\sfell\b/gi,
+/\bhigh\sfell\b(?=.{2,20}(?:TS10|LA21))/gi,
+
 // HILL
+/[\d-]+\shill\s(?:close|fall|tops?|view|walk)\b/gi,
 /(?<=(?:SA68|CV23|EX32|EX23|GL13|B74|SO15|HD9|hamlet|village)).{2,25}\bhill\b/gi,
 /\bhill\b(?=.{2,20}(?:SA68|CV23|EX32|EX23|GL13|B74|SO15|HD9|hamlet|village))/gi,
-/[\d-]+\shill\s(?:close|tops?|view|walk)\b/gi,
 /(?<=(?:B7[01]|B97|BB9|BD1[35]|BD21|BL3|BN1|BS20|CV[179]|CV10?|CW8|DE21|DE74|DH[39]|DL1[23]|DN12|EX31|HD[478]|HX2|IG10|IP31|KY16|LA23|LA7|LE9|LN5|LS29|M28|M46|NE21|NE70|NG16|NN9|NP16|NR25|NW11|OL4|PO36|PR4|S1[18]|S3[56]|S44|S61?|S75|SA14|SG7|SK6|SM3|SO42|ST6|TF1|TN1[27]|WA15|WF1[01]|WF[249]|WS1[25]).{2,10})\bhill\stop\b/gi,
 /\bhill\stop\b(?=.{2,10}(?:B7[01]|B97|BB9|BD1[35]|BD21|BL3|BN1|BS20|CV[179]|CV10?|CW8|DE21|DE74|DH[39]|DL1[23]|DN12|EX31|HD[478]|HX2|IG10|IP31|KY16|LA23|LA7|LE9|LN5|LS29|M28|M46|NE21|NE70|NG16|NN9|NP16|NR25|NW11|OL4|PO36|PR4|S1[18]|S3[56]|S44|S61?|S75|SA14|SG7|SK6|SM3|SO42|ST6|TF1|TN1[27]|WA15|WF1[01]|WF[249]|WS1[25]))/gi,
 /(?<=(?:BS34).{2,10})\bhill\stops\b/gi,
@@ -807,8 +871,8 @@ const a: RegExp[] = [
 /\bhill\sclose\b(?=.{2,10}(?:AL5|B31|BA9|BD17|BH23|BR7|BS16|CB8|CF32|CH64|CO10|CR8|CV32|CV47|CW6|DA13|DE21|DE56|DE7|DL11|DT6|DY11|DY3|EN5|EX4|GL11|GL20|GU21|GU5|HA[17]|HD3|HP10|KT11|LA[89]|LE9|LL14|LU[37]|NG16|NG2|NN5|NP4|NR27|NW11|NW2|OL4|OX12|OX7|PE1|PE28|PL30|PL7|RG14|S65?|SO50|SP3|SS7|ST14|TN[68]|TR18|TS12|WF8|WN6|WR10|WS8))/gi,
 /(?<=(?:TQ5|GU10).{2,10})\bhill\shouse\b/gi,
 /\bhill\shouse\b(?=.{2,10}(?:TQ5|GU10))/gi,
-/(?<=(?:LA22).{2,10})\bhill\sfell\b/gi,
-/\bhill\sfell\b(?=.{2,10}(?:LA22))/gi,
+/(?<=(?:LA[12]2).{2,10})\bhill\sf[ae]ll\b/gi,
+/\bhill\sf[ae]ll\b(?=.{2,10}(?:LA[12]2))/gi,
 
 // HIVE
 /(?<=(?:HU15|hamlet).{2,10})\bhive\b/gi,
@@ -896,6 +960,41 @@ const a: RegExp[] = [
 /(?<=(?:GU15).{2,10})\bthe\shospital\b/gi,
 /\bthe\shospital\b(?=.{2,10}(?:GU15))/gi,
 
+// HOW
+/[\d-]+\show\s(?:field|hill|lane|street|wood)\b/gi,
+/(?<=(?:CA8|CA12|LA22|village|hamlet).{2,10})\bhow\b/gi,
+/\bhow\b(?=.{2,10}(?:CA8|CA12|LA22|village|hamlet))/gi,
+/(?<=(?:YO22).{2,10})\bhow\sdale\b/gi,
+/\bhow\sdale\b(?=.{2,10}(?:YO22))/gi,
+/(?<=(?:NE47|TD9).{2,10})\bhow\sdean\b/gi,
+/\bhow\sdean\b(?=.{2,10}(?:NE47|TD9))/gi,
+/(?<=(?:MK45|hamlet).{2,10})\bhow\send\b/gi,
+/\bhow\send\b(?=.{2,10}(?:MK45|hamlet))/gi,
+/(?<=(?:PE16).{2,10})\bhow\sfen\b/gi,
+/\bhow\sfen\b(?=.{2,10}(?:PE16))/gi,
+/(?<=(?:AL5).{2,10})\bhow\sfield\b/gi,
+/\bhow\sfield\b(?=.{2,10}(?:AL5))/gi,
+/(?<=(?:EH44).{2,10})\bhow\sford\b/gi,
+/\bhow\sford\b(?=.{2,10}(?:EH44))/gi,
+/(?<=(?:CR5|TN8|hamlet).{2,10})\bhow\sgreen\b/gi,
+/\bhow\sgreen\b(?=.{2,10}(?:CR5|TN8|hamlet))/gi,
+/(?<=(?:BA2|BD2[34]|CA11|DL11|DL8|HG4|NR29|TS9|YO7).{2,10})\bhow\shill\b/gi,
+/\bhow\shill\b(?=.{2,10}(?:BA2|BD2[34]|CA11|DL11|DL8|HG4|NR29|TS9|YO7))/gi,
+/(?<=(?:CA22).{2,10})\bhow\shills\b/gi,
+/\bhow\shills\b(?=.{2,10}(?:CA22))/gi,
+/(?<=(?:CA12|CA8|CR5|S33).{2,10})\bhow\slane\b/gi,
+/\bhow\slane\b(?=.{2,10}(?:CA12|CA8|CR5|S33))/gi,
+/(?<=(?:TD4).{2,10})\bhow\slaw\b/gi,
+/\bhow\slaw\b(?=.{2,10}(?:TD4))/gi,
+/(?<=(?:CA10|NE66|PE15).{2,10})\bhow\smoor\b/gi,
+/\bhow\smoor\b(?=.{2,10}(?:CA10|NE66|PE15))/gi,
+/(?<=(?:CA8|PL4).{2,10})\bhow\sstreet\b/gi,
+/\bhow\sstreet\b(?=.{2,10}(?:CA8|PL4))/gi,
+/(?<=(?:DL12).{2,10})\bhow\stop\b/gi,
+/\bhow\stop\b(?=.{2,10}(?:DL12))/gi,
+/(?<=(?:AL2|CA1[03]|LA22|MK43|SG4|village|rail).{2,10})\bhow\swood\b/gi,
+/\bhow\swood\b(?=.{2,10}(?:AL2|CA1[03]|LA22|MK43|SG4|village|rail))/gi,
+
 // HULK
 /(?<=(?:ZE2).{2,10})\bhulk\b/gi,
 /\bhulk\b(?=.{2,10}(?:ZE2))/gi,
@@ -966,6 +1065,16 @@ const a: RegExp[] = [
 /\biron\sman\b(?=.{2,10}(?:AB41))/gi,
 /(?<=(?:SA62).{2,10})\biron\spoint\b/gi,
 /\biron\spoint\b(?=.{2,10}(?:SA62))/gi,
+
+// INTAKE
+/[\d-]+\sintake\b/gi,
+/(?<=(?:HD7|LS13|S12|DN2)).{2,25}\bintake\b/gi,
+/\bintake\b(?=.{2,20}(?:HD7|LS13|S12|DN2))/gi,
+
+// JESTERS
+/[\d-]+\sjesters\b/gi,
+/(?<=(?:RH16)).{2,25}\bjesters\b/gi,
+/\bjesters\b(?=.{2,20}(?:RH16))/gi,
 
 // JUMP
 /(?<=(?:S74|barnsley)).{2,25}\bjump\b/gi,
@@ -1085,6 +1194,162 @@ const a: RegExp[] = [
 /(?<=(?:CV35).{2,10})\bthe\slunch\b/gi,
 /\bthe\slunch\b(?=.{2,10}(?:CV35))/gi,
 
+// MARCH
+/[\d-]+\smarch\s(?:close|way)\b/gi,
+/[\d-]+\smarch['‘’`s]{1,2}\sclose\b/gi,
+/(?<=(?:PE15|rail|town|camb|ely).{2,10})\bmarch\b/gi,
+/\bmarch\b(?=.{2,10}(?:PE15|rail|town|camb|ely))/gi,
+/(?<=(?:WS6|SP10|SN25|NG5|PO21|CB21).{2,10})\bmarch['‘’`s]{0,2}\sclose\b/gi,
+/\bmarch['‘’`s]{0,2}\sclose\b(?=.{2,10}(?:WS6|SP10|SN25|NG5|PO21|CB21))/gi,
+/(?<=(?:WV11).{2,10})\bmarch\send\b/gi,
+/\bmarch\send\b(?=.{2,10}(?:WV11))/gi,
+/(?<=(?:WS9|SY1|CV3).{2,10})\bmarch\sway\b/gi,
+/\bmarch\sway\b(?=.{2,10}(?:WS9|SY1|CV3))/gi,
+
+// MIDDLE
+/[\d-]+\smiddle\s(?:close|court|cross|down|drift|dr[io]ve|gate|grass|green|ground|hill|lane|meadow|mill|orchard|park(?:\sclose)?)\b/gi,
+/[\d-]+\smiddle\s(?:pasture|path|pavement|place|ride|road|row|springs|street|terrace|touches|turn|village|wal[kl]|watch|way|wharf|yard)\b/gi,
+/(?<=(?:TQ9|CO12|DT2|EX36).{2,10})\bmiddle\s(?:back|beach|bottom|bushes)\b/gi,
+/\bmiddle\s(?:back|beach|bottom|bushes)\b(?=.{2,10}(?:TQ9|CO12|DT2|EX36))/gi,
+/(?<=(?:PE32|DL11|IP17|HU15|DG4).{2,10})\bmiddle\sbelt\b/gi,
+/\bmiddle\sbelt\b(?=.{2,10}(?:PE32|DL11|IP17|HU15|DG4))/gi,
+/(?<=(?:CA16|CB6|CR5|DE11|GU15|HP6|KT17|NE38|RG14|S75|TN[23]3).{2,10})\bmiddle\sclose\b/gi,
+/\bmiddle\sclose\b(?=.{2,10}(?:CA16|CB6|CR5|DE11|GU15|HP6|KT17|NE38|RG14|S75|TN[23]3))/gi,
+/(?<=(?:WR15|CB6|HR2|S61).{2,10})\bmiddle\s(?:common)\b/gi,
+/\bmiddle\s(?:common)\b(?=.{2,10}(?:WR15|CB6|HR2|S61))/gi,
+/(?<=(?:DN31|CA12|LA2|ME3).{2,10})\bmiddle\s(?:court|crag|creek)\b/gi,
+/\bmiddle\s(?:court|crag|creek)\b(?=.{2,10}(?:DN31|CA12|LA2|ME3))/gi,
+/(?<=(?:WV1|ME20).{2,10})\bmiddle\s(?:cross|cut)\b/gi,
+/\bmiddle\s(?:cross|cut)\b(?=.{2,10}(?:WV1|ME20))/gi,
+/(?<=(?:CT14).{2,10})\bmiddle\s(?:deal)\b/gi,
+/\bmiddle\s(?:deal)\b(?=.{2,10}(?:CT14))/gi,
+/(?<=(?:GU32|PO30|SP5|TQ9|TR24|WD25).{2,10})\bmiddle\sdown\b/gi,
+/\bmiddle\sdown\b(?=.{2,10}(?:GU32|PO30|SP5|TQ9|TR24|WD25))/gi,
+/(?<=(?:SG8).{2,10})\bmiddle\sdrift\b/gi,
+/\bmiddle\sdrift\b(?=.{2,10}(?:SG8))/gi,
+/(?<=(?:B45|FK10|HP9|NE13|NE20|S60|TN22).{2,10})\bmiddle\sdrive\b/gi,
+/\bmiddle\sdrive\b(?=.{2,10}(?:B45|FK10|HP9|NE13|NE20|S60|TN22))/gi,
+/(?<=(?:BA1?6|BS27|CB7|PE1[2-5]|PE2[016]|PE38|TA1[012]|TA[57]).{2,10})\bmiddle\sdrove\b/gi,
+/\bmiddle\sdrove\b(?=.{2,10}(?:BA1?6|BS27|CB7|PE1[2-5]|PE2[016]|PE38|TA1[012]|TA[57]))/gi,
+/(?<=(?:LU6|BD24|CA1[467]|CA20|CA9).{2,10})\bmiddle\s(?:end|fell)\b/gi,
+/\bmiddle\s(?:end|fell)\b(?=.{2,10}(?:LU6|BD24|CA1[467]|CA20|CA9))/gi,
+/(?<=(?:CB24|PE11|PE20|CB7).{2,10})\bmiddle\sfen\b/gi,
+/\bmiddle\sfen\b(?=.{2,10}(?:CB24|PE11|PE20|CB7))/gi,
+/(?<=(?:DL8|HX2).{2,10})\bmiddle\s(?:force|grain)\b/gi,
+/\bmiddle\s(?:force|grain)\b(?=.{2,10}(?:DL8|HX2))/gi,
+/(?<=(?:NE61|NE5|OL8|NG24|EX35).{2,10})\bmiddle\sgate\b/gi,
+/\bmiddle\sgate\b(?=.{2,10}(?:NE61|NE5|OL8|NG24|EX35))/gi,
+/(?<=(?:NN9).{2,10})\bmiddle\sgrass\b/gi,
+/\bmiddle\sgrass\b(?=.{2,10}(?:NN9))/gi,
+/(?<=(?:CM15|CO6|DT8|LE7|LU7|NE25|NR34|OL6|SL3|TQ10).{2,10})\bmiddle\sgreen\b/gi,
+/\bmiddle\sgreen\b(?=.{2,10}(?:CM15|CO6|DT8|LE7|LU7|NE25|NR34|OL6|SL3|TQ10))/gi,
+/(?<=(?:OX33|SP3|SN[46]|PE19|IP9).{2,10})\bmiddle\sground\b/gi,
+/\bmiddle\sground\b(?=.{2,10}(?:OX33|SP3|SN[46]|PE19|IP9))/gi,
+/(?<=(?:NP18).{2,10})\bmiddle\sgrounds\b/gi,
+/\bmiddle\sgrounds\b(?=.{2,10}(?:NP18))/gi,
+/(?<=(?:RH17|GU29).{2,10})\bmiddle\shanger\b/gi,
+/\bmiddle\shanger\b(?=.{2,10}(?:RH17|GU29))/gi,
+/(?<=(?:ML12|SA3|EH14|TS9|YO21|EH27).{2,10})\bmiddle\shead\b/gi,
+/\bmiddle\shead\b(?=.{2,10}(?:ML12|SA3|EH14|TS9|YO21|EH27))/gi,
+/(?<=(?:[B-GKLMNOPRSTWY][ABDEGHKLORT-Y]?[1-9][0-9]?).{2,10})\bmiddle\shill\b/gi,
+/\bmiddle\shill\b(?=.{2,10}(?:[B-GKLMNOPRSTWY][ABDEGHKLORT-Y]?[1-9][0-9]?))/gi,
+/(?<=(?:SK17|BS22|DL13).{2,10})\bmiddle\s(?:hills|hope)\b/gi,
+/\bmiddle\s(?:hills|hope)\b(?=.{2,10}(?:SK17|BS22|DL13))/gi,
+/(?<=(?:CV23|GU7|WF4|TN22).{2,10})\bmiddle\slake\b/gi,
+/\bmiddle\slake\b(?=.{2,10}(?:CV23|GU7|WF4|TN22))/gi,
+/(?<=(?:B38|B4[67]|BA14?|BD14|BD23|BH24|BS21|CH3|CW12|DE4|DN1[47]|DN21|DN5|EX33|HP3|HU1[12]|KT17|LA18|LA9|LE1[46]|LL1[26]|LN6|LS22|N8|NG25|NG9|NR34|OX1[57]|S[34]5|S65?|SN1[12]|SP6|TF6|TN15|TN21|TW11|WA6|WF11|WF4|WR10|WR9|WV[89]|YO13|YO41|YO8).{2,10})\bmiddle\slane\b/gi,
+/\bmiddle\slane\b(?=.{2,10}(?:B38|B4[67]|BA14?|BD14|BD23|BH24|BS21|CH3|CW12|DE4|DN1[47]|DN21|DN5|EX33|HP3|HU1[12]|KT17|LA18|LA9|LE1[46]|LL1[26]|LN6|LS22|N8|NG25|NG9|NR34|OX1[57]|S[34]5|S65?|SN1[12]|SP6|TF6|TN15|TN21|TW11|WA6|WF11|WF4|WR10|WR9|WV[89]|YO13|YO41|YO8))/gi,
+/(?<=(?:TR2[34]).{2,10})\bmiddle\sledge\b/gi,
+/\bmiddle\sledge\b(?=.{2,10}(?:TR2[34]))/gi,
+/(?<=(?:PE15).{2,10})\bmiddle\slevel\b/gi,
+/\bmiddle\slevel\b(?=.{2,10}(?:PE15))/gi,
+/(?<=(?:HP8|GU33|DY4|S81).{2,10})\bmiddle\smeadow\b/gi,
+/\bmiddle\smeadow\b(?=.{2,10}(?:HP8|GU33|DY4|S81))/gi,
+/(?<=(?:CO1|SA62|hamlet).{2,10})\bmiddle\smill\b/gi,
+/\bmiddle\smill\b(?=.{2,10}(?:CO1|SA62|hamlet))/gi,
+/(?<=(?:BD2[23]|CA4|CB22|DE4|DL1[12]|EH41|EX17|HG3|HX7|ML12|NE6[57]|PE26|SK22|TA10|TD6).{2,10})\bmiddle\smoor\b/gi,
+/\bmiddle\smoor\b(?=.{2,10}(?:BD2[23]|CA4|CB22|DE4|DL1[12]|EH41|EX17|HG3|HX7|ML12|NE6[57]|PE26|SK22|TA10|TD6))/gi,
+/(?<=(?:BD22|S6|DL8).{2,10})\bmiddle\smoss\b/gi,
+/\bmiddle\smoss\b(?=.{2,10}(?:BD22|S6|DL8))/gi,
+/(?<=(?:LL67|island).{2,10})\bmiddle\smouse\b/gi,
+/\bmiddle\smouse\b(?=.{2,10}(?:LL67|island))/gi,
+/(?<=(?:SO23|LE12).{2,10})\bmiddle\sorchard\b/gi,
+/\bmiddle\sorchard\b(?=.{2,10}(?:SO23|LE12))/gi,
+/(?<=(?:AB51|CA9|DL8|LA20|LE7|PL14|SY21|WF4).{2,10})\bmiddle\spark\b/gi,
+/\bmiddle\spark\b(?=.{2,10}(?:AB51|CA9|DL8|LA20|LE7|PL14|SY21|WF4))/gi,
+/(?<=(?:B29).{2,10})\bmiddle\spark\sclose\b/gi,
+/\bmiddle\spark\sclose\b(?=.{2,10}(?:B29))/gi,
+/(?<=(?:PE4|YO61|BD2[34]).{2,10})\bmiddle\spasture\b/gi,
+/\bmiddle\spasture\b(?=.{2,10}(?:PE4|YO61|BD2[34]))/gi,
+/(?<=(?:CB6|TA18).{2,10})\bmiddle\spath\b/gi,
+/\bmiddle\spath\b(?=.{2,10}(?:CB6|TA18))/gi,
+/(?<=(?:NG1).{2,10})\bmiddle\spavement\b/gi,
+/\bmiddle\spavement\b(?=.{2,10}(?:NG1))/gi,
+/(?<=(?:S65).{2,10})\bmiddle\splace\b/gi,
+/\bmiddle\splace\b(?=.{2,10}(?:S65))/gi,
+/(?<=(?:TR11|KW1|GL2).{2,10})\bmiddle\spoint\b/gi,
+/\bmiddle\spoint\b(?=.{2,10}(?:TR11|KW1|GL2))/gi,
+/(?<=(?:KT10|DL17|GL10|PO32|RH5|SL2).{2,10})\bmiddle\spond\b/gi,
+/\bmiddle\spond\b(?=.{2,10}(?:KT10|DL17|GL10|PO32|RH5|SL2))/gi,
+/(?<=(?:DY5|ST19|ST21|SY8|TF12?|WV6).{2,10})\bmiddle\spool\b/gi,
+/\bmiddle\spool\b(?=.{2,10}(?:DY5|ST19|ST21|SY8|TF12?|WV6))/gi,
+/(?<=(?:TN26|hamlet).{2,10})\bmiddle\squarter\b/gi,
+/\bmiddle\squarter\b(?=.{2,10}(?:TN26|hamlet))/gi,
+/(?<=(?:CV3).{2,10})\bmiddle\sride\b/gi,
+/\bmiddle\sride\b(?=.{2,10}(?:CV3))/gi,
+/(?<=(?:EX39|BA12).{2,10})\bmiddle\sridge(?:\sdown)?\b/gi,
+/\bmiddle\sridge(?:\sdown)?\b(?=.{2,10}(?:EX39|BA12))/gi,
+/(?<=(?:B6[01]|B96|BH1[056]|BH21|BN15?|BN43|BS15|CM13|CV33|DD2|E13|EN[49]|GL5|HA2|HP21|HP[45]|IP2[02]|KA27|KT22|LE67|LL11|LS10|N10|NE66|NP26|NR1[35]|NR35|NR9|OX18|OX33|PE1[235]|PE3[134]|PE6|PH10|PL9|RH13|S42|SA5|SO19|SO22|SO31|SO41|SO52|SW16|TA7|TF2|TN35?|TR15|TS17|UB9|WF1[23]|WR2|YO12).{2,10})\bmiddle\sroad\b/gi,
+/\bmiddle\sroad\b(?=.{2,10}(?:B6[01]|B96|BH1[056]|BH21|BN15?|BN43|BS15|CM13|CV33|DD2|E13|EN[49]|GL5|HA2|HP21|HP[45]|IP2[02]|KA27|KT22|LE67|LL11|LS10|N10|NE66|NP26|NR1[35]|NR35|NR9|OX18|OX33|PE1[235]|PE3[134]|PE6|PH10|PL9|RH13|S42|SA5|SO19|SO22|SO31|SO41|SO52|SW16|TA7|TF2|TN35?|TR15|TS17|UB9|WF1[23]|WR2|YO12))/gi,
+/(?<=(?:CF45|CM23|CT4|ME13|OX7|SA71|SG1|TR13|W10).{2,10})\bmiddle\srow\b/gi,
+/\bmiddle\srow\b(?=.{2,10}(?:CF45|CM23|CT4|ME13|OX7|SA71|SG1|TR13|W10))/gi,
+/(?<=(?:YO13|YO22|LA12).{2,10})\bmiddle\sscar\b/gi,
+/\bmiddle\sscar\b(?=.{2,10}(?:YO13|YO22|LA12))/gi,
+/(?<=(?:DL12|hamlet).{2,10})\bmiddle\sside\b/gi,
+/\bmiddle\sside\b(?=.{2,10}(?:DL12|hamlet))/gi,
+/(?<=(?:AL3|IP17).{2,10})\bmiddle\sspring\b/gi,
+/\bmiddle\sspring\b(?=.{2,10}(?:AL3|IP17))/gi,
+/(?<=(?:RG8).{2,10})\bmiddle\ssprings\b/gi,
+/\bmiddle\ssprings\b(?=.{2,10}(?:RG8))/gi,
+/(?<=(?:TR2|TQ4).{2,10})\bmiddle\sstone\b/gi,
+/\bmiddle\sstone\b(?=.{2,10}(?:TR2|TQ4))/gi,
+/(?<=(?:TD12|CA4).{2,10})\bmiddle\sstream\b/gi,
+/\bmiddle\sstream\b(?=.{2,10}(?:TD12|CA4))/gi,
+/(?<=(?:BA2[02]|BB8|BD1|BH13|BN1|BN4[13]|BS40|CB11|CF37|CF40|CR0|CT14|CV23|CV3[67]|DE4|DH8|DL11|DN10|DN21|DT[26]|EC1A|EN9|EX9|FY1|GL5|GU28|GU5|HX6|IP25|LA1|LE1[456]|LL14|LL57|LN[1467]|ME7|NE24|NE30|NE45|NE6|NG13|NG3[23]|NG9|NN14|NN7|NP16|NR11|OL12|OX5|PE10|PE[78]|PH33|PL2[89]|PO5|RH3|S44|SA73|SG19|SG8|SO14|SP2|SR1|TA1|TA1[123589]|TA24|TA[79]|TD15|TN23|TN34|TQ14|TQ5|TS18|TS27|WR1|YO17|YO25|YO4[12]).{2,10})\bmiddle\sstreet\b/gi,
+/\bmiddle\sstreet\b(?=.{2,10}(?:BA2[02]|BB8|BD1|BH13|BN1|BN4[13]|BS40|CB11|CF37|CF40|CR0|CT14|CV23|CV3[67]|DE4|DH8|DL11|DN10|DN21|DT[26]|EC1A|EN9|EX9|FY1|GL5|GU28|GU5|HX6|IP25|LA1|LE1[456]|LL14|LL57|LN[1467]|ME7|NE24|NE30|NE45|NE6|NG13|NG3[23]|NG9|NN14|NN7|NP16|NR11|OL12|OX5|PE10|PE[78]|PH33|PL2[89]|PO5|RH3|S44|SA73|SG19|SG8|SO14|SP2|SR1|TA1|TA1[123589]|TA24|TA[79]|TD15|TN23|TN34|TQ14|TQ5|TS18|TS27|WR1|YO17|YO25|YO4[12]))/gi,
+/(?<=(?:EH27).{2,10})\bmiddle\sstrip\b/gi,
+/\bmiddle\sstrip\b(?=.{2,10}(?:EH27))/gi,
+/(?<=(?:PH21|CF43).{2,10})\bmiddle\sterrace\b/gi,
+/\bmiddle\sterrace\b(?=.{2,10}(?:PH21|CF43))/gi,
+/(?<=(?:BD23|CA1[0126]|DL11|HG[34]|LA10).{2,10})\bmiddle\stongue\b/gi,
+/\bmiddle\stongue\b(?=.{2,10}(?:BD23|CA1[0126]|DL11|HG[34]|LA10))/gi,
+/(?<=(?:CA8).{2,10})\bmiddle\stop\b/gi,
+/\bmiddle\stop\b(?=.{2,10}(?:CA8))/gi,
+/(?<=(?:TA20).{2,10})\bmiddle\stouches\b/gi,
+/\bmiddle\stouches\b(?=.{2,10}(?:TA20))/gi,
+/(?<=(?:TR2[25]|BD23|hamlet).{2,10})\bmiddle\stown\b/gi,
+/\bmiddle\stown\b(?=.{2,10}(?:TR2[25]|BD23|hamlet))/gi,
+/(?<=(?:BL7).{2,10})\bmiddle\sturn\b/gi,
+/\bmiddle\sturn\b(?=.{2,10}(?:BL7))/gi,
+/(?<=(?:RH16).{2,10})\bmiddle\svillage\b/gi,
+/\bmiddle\svillage\b(?=.{2,10}(?:RH16))/gi,
+/(?<=(?:PL26|SL1|TN2|WA16|WA6|YO12).{2,10})\bmiddle\swalk\b/gi,
+/\bmiddle\swalk\b(?=.{2,10}(?:PL26|SL1|TN2|WA16|WA6|YO12))/gi,
+/(?<=(?:NR29|CT5).{2,10})\bmiddle\swall\b/gi,
+/\bmiddle\swall\b(?=.{2,10}(?:NR29|CT5))/gi,
+/(?<=(?:CB24).{2,10})\bmiddle\swatch\b/gi,
+/\bmiddle\swatch\b(?=.{2,10}(?:CB24))/gi,
+/(?<=(?:SG15|NR32).{2,10})\bmiddle\swater\b/gi,
+/\bmiddle\swater\b(?=.{2,10}(?:SG15|NR32))/gi,
+/(?<=(?:BD21|BN16|BN7|CB2[24]|CO10|DA18|HP12|L11|ME10|NP16|NR32|OX[25]|OX39|RH15|SW16|TA11|WD24|YO62).{2,10})\bmiddle\sway\b/gi,
+/\bmiddle\sway\b(?=.{2,10}(?:BD21|BN16|BN7|CB2[24]|CO10|DA18|HP12|L11|ME10|NP16|NR32|OX[25]|OX39|RH15|SW16|TA11|WD24|YO62))/gi,
+/(?<=(?:PL26).{2,10})\bmiddle\swharf\b/gi,
+/\bmiddle\swharf\b(?=.{2,10}(?:PL26))/gi,
+/(?<=(?:B4[69]|BA[23]|BB9|CA10|CH7|CM9|CT4|DA3|DE72|DG3|DL12|DL8|DT9|EX18|EX20|EX3[56]|HD3|HG[34]|HP16|HP9|HR2|IP21|IP30|IP8|IV5|KY15|LA11|LA2|LD7|LS21|M28|ME13|ML12|ML7|NP44|PL22|PR3|RG17|RG7|RH13|RM14|SG9|SK6|SS11|ST7|SY22|TA20|TA5|TF11|TN15|TN2[127]|TN32|TN5|WV6|YO1[57]).{2,10})\bmiddle\swood\b/gi,
+/\bmiddle\swood\b(?=.{2,10}(?:B4[69]|BA[23]|BB9|CA10|CH7|CM9|CT4|DA3|DE72|DG3|DL12|DL8|DT9|EX18|EX20|EX3[56]|HD3|HG[34]|HP16|HP9|HR2|IP21|IP30|IP8|IV5|KY15|LA11|LA2|LD7|LS21|M28|ME13|ML12|ML7|NP44|PL22|PR3|RG17|RG7|RH13|RM14|SG9|SK6|SS11|ST7|SY22|TA20|TA5|TF11|TN15|TN2[127]|TN32|TN5|WV6|YO1[57]))/gi,
+/(?<=(?:NG34).{2,10})\bmiddle\syard\b/gi,
+/\bmiddle\syard\b(?=.{2,10}(?:NG34))/gi,
+
 // MORE
 /[\d-]+\smore\s(?:close|circle|lane|place|pleasant|road|street)\b/gi,
 /\bmore\b(?=.{2,10}(?:SY9|hamlet))/gi,
@@ -1128,6 +1393,25 @@ const a: RegExp[] = [
 /(?<=(?:SG4).{2,10})\bthe\sopening\b/gi,
 /\bthe\sopening\b(?=.{2,10}(?:SG4))/gi,
 
+// ORANGE
+/[\d-]+\sorange\b/gi,
+/(?<=(?:M50).{2,10})\borange\b/gi,
+/\borange\b(?=.{2,10}(?:M50))/gi,
+
+// ORCHARDS
+/[\d-]+\sorchards\b/gi,
+/(?<=(?:CM8).{2,10})\borchards\b/gi,
+/\borchards\b(?=.{2,10}(?:CM8))/gi,
+
+// ORE
+/(?<=(?:TN3[45]).{2,10})\bore\b/gi,
+/\bore\b(?=.{2,10}(?:TN3[45]))/gi,
+
+// OSPREYS
+/[\d-]+\sospreys\b/gi,
+/(?<=(?:CO15).{2,10})\bospreys\b/gi,
+/\bospreys\b(?=.{2,10}(?:CO15))/gi,
+
 // OTTER
 /(?<=(?:KW17|ZE[23]).{2,10})\botters?\shad\b/gi,
 /\botters?\shad\b(?=.{2,10}(?:KW17|ZE[23]))/gi,
@@ -1152,7 +1436,7 @@ const a: RegExp[] = [
 /\bpaddocks\b(?=.{2,10}(?:PO22))/gi,
 
 // PARK
-/[\d-]+\spark\s(?:homes|north|place|ride|road|view|walk|w[ae]ll|west|wood)\b/gi,
+/[\d-]+\spark\s(?:gate|homes|north|place|ride|road|view|walk|w[ae]ll|west|wood)\b/gi,
 /(?<=(?:BD24|CA9|LA22).{2,10})\bpark\sfell\b/gi,
 /\bpark\sfell\b(?=.{2,10}(?:BD24|CA9|LA22))/gi,
 /\bpark\shomes\b(?=.{2,20}(?:AL2|colney|albans))/gi,
@@ -1190,6 +1474,8 @@ const a: RegExp[] = [
 /(?<=(?:[A-IK-PR-Z]{1,2}[1-9]{1,2}).{2,25})\bpark\sroad\b/gi,
 /\bpark\sschool\b(?=.{2,20}(?:FY3|KA1|TQ9|BH8))/gi,
 /(?<=(?:FY3|KA1|TQ9|BH8).{2,25})\bpark\sschool\b/gi,
+/\bpark\sgate\b(?=.{2,20}(?:B61|BD1|CB8|CT10|DT11|G3|HG5|HR6|LU7|N21?|PA8|PE21|SG4|SO31|SR6|TA3|W5|YO32|village|hamlet))/gi,
+/(?<=(?:B61|BD1|CB8|CT10|DT11|G3|HG5|HR6|LU7|N21?|PA8|PE21|SG4|SO31|SR6|TA3|W5|YO32|village|hamlet).{2,25})\bpark\sgate\b/gi,
 
 // PASS
 /[\d-]+\sthe\spass\b/gi,
@@ -1264,6 +1550,14 @@ const a: RegExp[] = [
 // PILOT
 /\bthe\spilot\b(?=.{2,20}(?:KA19))/gi,
 /(?<=(?:KA19)).{2,25}\bthe\spilot\b/gi,
+
+// PINK
+/\bpink\b(?=.{2,20}(?:M50))/gi,
+/(?<=(?:M50)).{2,25}\bpink\b/gi,
+/\bpink\sgreen\b(?=.{2,20}(?:B98))/gi,
+/(?<=(?:B98)).{2,25}\bpink\sgreen\b/gi,
+/\bpink\spool\b(?=.{2,20}(?:CA6))/gi,
+/(?<=(?:CA6)).{2,25}\bpink\spool\b/gi,
 
 // PIPES
 /[\d-]+\spipes\sclose\b/gi,
@@ -1698,6 +1992,11 @@ const a: RegExp[] = [
 /\btarmac\sroad\b(?=.{2,20}(?:WV4))/gi,
 /(?<=(?:WV4).{2,25})\btarmac\sroad\b/gi,
 
+// TEMPLE
+/[\d-]+\stemple\b/gi,
+/\btemple\b(?=.{2,20}(?:BA12|EH23|G13|MK14|PL30|SL7|WC2R|village|hamlet|rail))/gi,
+/(?<=(?:BA12|EH23|G13|MK14|PL30|SL7|WC2R|village|hamlet|rail).{2,25})\btemple\b/gi,
+
 // TERRIERS
 /\bterriers\b(?=.{2,20}(?:HP13))/gi,
 /(?<=(?:HP13).{2,25})\bterriers\b/gi,
@@ -1899,6 +2198,81 @@ const a: RegExp[] = [
 // WEEK
 /\bweek\b(?=.{2,20}(?:TQ9|EX18|EX20|EX37|village|hamlet))/gi,
 /(?<=(?:TQ9|EX18|EX20|EX37|village|hamlet).{2,25})\bweek\b/gi,
+
+// WELL
+/[\d-]+\swell\s(?:close|cross|dean|drive|end|gate|garth|green|heads|houses|opening|park|place|plot|row|side|square|view|walk|water\sclose|way|yard)\b/gi,
+/\bwell\b(?=.{2,20}(?:LN13|RG29|DL8|village|hamlet))/gi,
+/(?<=(?:LN13|RG29|DL8|village|hamlet).{2,25})\bwell\b/gi,
+/\bwell\sclose\b(?=.{2,20}(?:B36|B97|BH25|BS2[45]|BS41|CH64|CT2|CW2|DE6|DG11|GL20|GU15|GU21|HA4|LE15|LS19|LS2[69]|NP16|NR9|PA28|RG25|SN4|SW16|TD15|TN11|TQ12))/gi,
+/(?<=(?:B36|B97|BH25|BS2[45]|BS41|CH64|CT2|CW2|DE6|DG11|GL20|GU15|GU21|HA4|LE15|LS19|LS2[69]|NP16|NR9|PA28|RG25|SN4|SW16|TD15|TN11|TQ12).{2,25})\bwell\sclose\b/gi,
+/\bwell\scommon\b(?=.{2,20}(?:DT10))/gi,
+/(?<=(?:DT10).{2,25})\bwell\scommon\b/gi,
+/\bwell\scross\b(?=.{2,20}(?:TR21))/gi,
+/(?<=(?:TR21).{2,25})\bwell\scross\b/gi,
+/\bwell\sdale\b(?=.{2,20}(?:YO13|TS13|YO42))/gi,
+/(?<=(?:YO13|TS13|YO42).{2,25})\bwell\sdale\b/gi,
+/\bwell\sdean\b(?=.{2,20}(?:NE42))/gi,
+/(?<=(?:NE42).{2,25})\bwell\sdean\b/gi,
+/\bwell\sdrive\b(?=.{2,20}(?:S65))/gi,
+/(?<=(?:S65).{2,25})\bwell\sdrive\b/gi,
+/\bwell\send\b(?=.{2,20}(?:PE14|SL8|GL5|WD6|village))/gi,
+/(?<=(?:PE14|SL8|GL5|WD6|village).{2,25})\bwell\send\b/gi,
+/\bwell\sgate\b(?=.{2,20}(?:SK13))/gi,
+/(?<=(?:SK13).{2,25})\bwell\sgate\b/gi,
+/\bwell\sgarth\b(?=.{2,20}(?:AL7|LS15|YO10))/gi,
+/(?<=(?:AL7|LS15|YO10).{2,25})\bwell\sgarth\b/gi,
+/\bwell\sgreen\b(?=.{2,20}(?:G43|NR12|RG29|SG14|WA15))/gi,
+/(?<=(?:G43|NR12|RG29|SG14|WA15).{2,25})\bwell\sgreen\b/gi,
+/\bwell\shead\b(?=.{2,20}(?:BA12|CB22|CT3|HG3|LU6|TQ12|hamlet))/gi,
+/(?<=(?:BA12|CB22|CT3|HG3|LU6|TQ12|hamlet).{2,25})\bwell\shead\b/gi,
+/\bwell\sheads\b(?=.{2,20}(?:BD13))/gi,
+/(?<=(?:BD13).{2,25})\bwell\sheads\b/gi,
+/\bwell\shope\b(?=.{2,20}(?:DL13|NE47))/gi,
+/(?<=(?:DL13|NE47).{2,25})\bwell\shope\b/gi,
+/\bwell\shouses\b(?=.{2,20}(?:HD9))/gi,
+/(?<=(?:HD9).{2,25})\bwell\shouses\b/gi,
+/\bwell\smouth\b(?=.{2,20}(?:TD14))/gi,
+/(?<=(?:TD14).{2,25})\bwell\smouth\b/gi,
+/\bwell\sopening\b(?=.{2,20}(?:NR30))/gi,
+/(?<=(?:NR30).{2,25})\bwell\sopening\b/gi,
+/\bwell\spark\b(?=.{2,20}(?:BS49|EX39|EX22|AB51))/gi,
+/(?<=(?:BS49|EX39|EX22|AB51).{2,25})\bwell\spark\b/gi,
+/\bwell\splace\b(?=.{2,20}(?:CF44|GL50|FK15|KY15|LL13))/gi,
+/(?<=(?:CF44|GL50|FK15|KY15|LL13).{2,25})\bwell\splace\b/gi,
+/\bwell\splot\b(?=.{2,20}(?:DT6))/gi,
+/(?<=(?:DT6).{2,25})\bwell\splot\b/gi,
+/\bwell\srocks\b(?=.{2,20}(?:SR7))/gi,
+/(?<=(?:SR7).{2,25})\bwell\srocks\b/gi,
+/\bwell\srough\b(?=.{2,20}(?:SY8|KW1|SY14))/gi,
+/(?<=(?:SY8|KW1|SY14).{2,25})\bwell\srough\b/gi,
+/\bwell\srow\b(?=.{2,20}(?:SG13|SK14))/gi,
+/(?<=(?:SG13|SK14).{2,25})\bwell\srow\b/gi,
+/\bwell\srun\b(?=.{2,20}(?:KW9))/gi,
+/(?<=(?:KW9).{2,25})\bwell\srun\b/gi,
+/\bwell\sshaw\b(?=.{2,20}(?:BN27|BN8|TN11|DA12))/gi,
+/(?<=(?:BN27|BN8|TN11|DA12).{2,25})\bwell\sshaw\b/gi,
+/\bwell\sside\b(?=.{2,20}(?:CO6))/gi,
+/(?<=(?:CO6).{2,25})\bwell\sside\b/gi,
+/\bwell\sspring\b(?=.{2,20}(?:CM1))/gi,
+/(?<=(?:CM1).{2,25})\bwell\sspring\b/gi,
+/\bwell\ssquare\b(?=.{2,20}(?:TD15))/gi,
+/(?<=(?:TD15).{2,25})\bwell\ssquare\b/gi,
+/\bwell\sstrip\b(?=.{2,20}(?:KY9|TD8))/gi,
+/(?<=(?:KY9|TD8).{2,25})\bwell\sstrip\b/gi,
+/\bwell\sview\b(?=.{2,20}(?:LS20|RG9))/gi,
+/(?<=(?:LS20|RG9).{2,25})\bwell\sview\b/gi,
+/\bwell\swalk\b(?=.{2,20}(?:CF62|NW3))/gi,
+/(?<=(?:CF62|NW3).{2,25})\bwell\swalk\b/gi,
+/\bwell\swater\sclose\b(?=.{2,20}(?:HP22))/gi,
+/(?<=(?:HP22).{2,25})\bwell\swater\sclose\b/gi,
+/\bwell\sway\b(?=.{2,20}(?:KT18|NE61|TR7))/gi,
+/(?<=(?:KT18|NE61|TR7).{2,25})\bwell\sway\b/gi,
+/\bwell\swood\b(?=.{2,20}(?:AL5|BB12|BR4|CA10|CF23|CH66|CM[34]|CT4|DE4|DG2|EH23|EN6|KA26|LA2|LL1[36]|LS21|ME[19]|NP20|OL14|PL20|PL30|PR3|RM16|SG14|SP11|ST10|ST21|SY[78]|TD[13]|TD10|TN1[17]|TN2[15]|TN3[12]|WA15|WA6|WF10|WN6))/gi,
+/(?<=(?:AL5|BB12|BR4|CA10|CF23|CH66|CM[34]|CT4|DE4|DG2|EH23|EN6|KA26|LA2|LL1[36]|LS21|ME[19]|NP20|OL14|PL20|PL30|PR3|RM16|SG14|SP11|ST10|ST21|SY[78]|TD[13]|TD10|TN1[17]|TN2[15]|TN3[12]|WA15|WA6|WF10|WN6).{2,25})\bwell\swood\b/gi,
+/\bwell\swoods\b(?=.{2,20}(?:NE47))/gi,
+/(?<=(?:NE47).{2,25})\bwell\swoods\b/gi,
+/\bwell\syard\b(?=.{2,20}(?:NN2))/gi,
+/(?<=(?:NN2).{2,25})\bwell\syard\b/gi,
 
 // WHITE
 /\bwhite\swife\b(?=.{2,20}(?:ZE2|island))/gi,

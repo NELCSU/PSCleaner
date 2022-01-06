@@ -81,6 +81,7 @@ const a: RegExp[] = [
 /\baisle\sroad\b/gmi,
 
 // AL
+/\balder\scar\b/gmi,
 /\balbert\sball\sclose\b/gmi,
 /\ballt\scraig[\s-]lantern\b/gmi,
 /\balma\scut\b/gmi,
@@ -440,7 +441,6 @@ const a: RegExp[] = [
 /\b(?:Broad|Long|Main|Stone)\sBench\b/gm,
 /\b(?:black\sbench\sdrove|bulley\sbench\swood|fowlers\sbench(?:\slane)?|fox\sbench\sclose)\b/gmi,
 /\b(?:great|little)\sbench\scoppice\b/gmi,
-/\bking['‘’`s]{1,2}\sbench\s(?:street|walk)\b/gmi,
 /\b(?:kate['‘’`s]{1,2}\sbench\sclump|stone\sbench\sway|warwick['‘’`s]{1,2}\sbench(?:\slane|\sroad))\b/gmi,
 /\bcarter\sbequest\b/gmi,
 /\bberries\s(?:avenue|copse|head\swood|head|lane|road|wood)\b/gmi,
@@ -861,8 +861,14 @@ const a: RegExp[] = [
 
 /\bc\sp\sschool\b/gmi,
 /\bC\s(?:Road|Street)\b/gm,
+
 // CA
-/\bCabin\sDoor\b/gm,
+/\bcar\s(?:an\sdaimh|bank\s(?:avenue|crescent|square|street)|colston|craig(?:\sview)?|dike\s(?:plantation|road))\b/gmi,
+/\bcar\s(?:hill(?:\sroad)?|holt|meadow\splantation|mill\smews|ness|plantation|ponds|rocks|vale\s(?:drive|view)|view|wood)\b/gmi,
+/\b(?:car-neeba|clove\scar|cnoc\scar|coed\swaen-car|croysdale\scar|east\scar\spark\sroad|hind\scar\swood|hind\scar)\b/gmi,
+/\b(?:hook\scar\shill|hook\scar\sstrip|inward\scar\slanes|iron\scar\swood|knap\scar\sterrace|loch\snan\scar|maes-car)\b/gmi,
+/\b(?:nether\scar\scleuch|north\scar\sdyke\sdrain|owler\scar\slane|owler\scar\swood|red\scar\sclough|rhyd-y-car|south\scar\spark\sroad)\b/gmi,
+/\b(?:twyn\srhyd-car|upper\scar\scleuch|wet\scar\swood|whittle\scar)\b/gmi,
 /\bcantilever\sgardens\b/gmi,
 /\bcalf\sof\sscore\sholm\b/gmi,
 /\bcame\s(?:court|view\s(?:close|road)|withy\sbed|wood)\b/gmi,
@@ -1407,6 +1413,8 @@ const a: RegExp[] = [
 /\b(?:gorse\scover\sroad|low\scover\swood|new\scover\scopse)\b/gmi,
 
 // CR
+/\bcrease\s(?:lane|road)\b/gmi,
+/\bcradles\sroad\b/gmi,
 /\bcrackley\s&\sred\sstreet\b/gmi,
 /\bcrumber\sred\shill\b/gmi,
 /\bcross\stongue\b/gmi,

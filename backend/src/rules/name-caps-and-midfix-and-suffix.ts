@@ -93,6 +93,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "hole",
 "hone",
 "house",
+"how",
 
 // LE
 "legs",
@@ -100,6 +101,12 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 // LO
 "loo",
 "love",
+
+// MA
+"march",
+
+// MI
+"middle",
 
 // MO
 "more",
@@ -162,6 +169,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // WE
 "wee",
+"well",
 
 // WI
 "wise",

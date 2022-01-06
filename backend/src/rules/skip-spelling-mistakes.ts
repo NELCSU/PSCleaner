@@ -14,6 +14,7 @@ const a: string[] = [
 "anelgeisa",
 "anlke",        // ankle
 "ankel",
+"anther",       // another
 "approc",       // approx
 "aslepp",       // asleep
 
@@ -33,6 +34,7 @@ const a: string[] = [
 // D
 "deformaty",    // deformity
 "downstairrs",  // downstairs
+"downstais",
 "drowsey",      // drowsy
 
 // E
@@ -54,6 +56,7 @@ const a: string[] = [
 "injruy",       // injury
 "injuy",
 "iside",        // inside
+"itchi",        // itchy
 
 // K
 "kiak",         // kayak

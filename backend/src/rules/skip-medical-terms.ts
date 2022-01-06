@@ -49,6 +49,7 @@ const a: RegExp[] = [
   /\bauerbach['‘’`s]{1,2}\splexus\b/gmi,
   
   // BA
+  /\bback\/head\b/gmi,
   /\bback\s(?:and\shead|pain|passage)\b/gmi,
   /\bbatson['‘’`s]{1,2}\splexus\b/gmi,
   /\bbartholin['‘’`s]{1,2}\sglands?\b/gmi,
@@ -59,7 +60,8 @@ const a: RegExp[] = [
 
   // BE
   /\bbee\ssting\b/gmi,
-  /\bbent\s(?:ankle|arm|back|finger|foot|knee|neck|shoulder|toe|wrist)\b/gmi,
+  /\bbent\s(?:down|inwards|over)\b/gmi,
+  /\bbent\s(?:ankle|arm|back|finger|foot|knee|neck|shoulder|toe|wrist)s?\b/gmi,
   /\bbellini['‘’`s]{1,2}\sducts?\b/gmi,
   /\bbetz\scells?\b/gmi,
   /\bbell['‘’`s]{1,2}\snerve\b/gmi,
@@ -388,7 +390,7 @@ const a: RegExp[] = [
   /\bpurkinje['‘’`s]{1,2}\sfib[er]{2}s?\b/gmi,
   /\bpores\sof\skohn\b/gmi,
   /\bpouch\sof\s(?:douglas|hartmann|morison|rathke)\b/gmi,
-  /\bpalm[ae]r\saspect\b/gmi,
+  /\bpalm[ae]r\s(?:aspect|surface)\b/gmi,
   /\bperformed\sheimlich\b/gmi,
   /\bpapez\scircuit\b/gmi,
   /\bparenchymal\b/gmi,
@@ -397,7 +399,6 @@ const a: RegExp[] = [
   /\bp(?:hel[ai][mn][\s-]+mcderm[io]d|rader[\s-]+willi)\ssyndrome\b/gmi,
   /\bpinky\sfinger\b/gmi,
   /\bplaster\sof\sparis\b/gmi,
-  /\bpink\s(?:bumps?|cheeks|eye|skin)\b/gmi,
   /\bproteus\smirabilis\b/gmi,
   /\bpeyer['‘’`s]{1,2}\spatches\b/gmi,
   /\bparieto[\s-]+occipital\b/gmi,
@@ -533,7 +534,7 @@ const a: RegExp[] = [
   /\bwormian\sbones\b/gmi,
   /\bwalk\son\stoes\b/gmi,
   /\bwalking\sboot\b/gmi,
-  /\bweight[\s-]bear\b/gmi,
+  /\bwe?ight[\s-](?:bare|bear)\b/gmi,
   /\bwt\sbear\b/gmi,
 
   // X

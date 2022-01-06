@@ -1355,6 +1355,7 @@ const a: RegExp[] = [
 /\btattenhall\s(?:and|\&)\sdistrict\b/gmi,
 
 // TE
+/\btenner['‘’`s]{1,2}\sbottom\b/gmi,
 /\bterriers\s(?:and\samersham\shill|drive|end)\b/gmi,
 /\btea\sledge\b/gmi,
 /\btearing\sledge\b/gmi,
@@ -1413,6 +1414,7 @@ const a: RegExp[] = [
 /\btlg\snewcastle\b/gmi,
 
 // TH
+/\bthe\sfriendly\sline\b/gmi,
 /\bthe\sinner\sdown\b/gmi,
 /\bthe\slegacy\sschool\b/gmi,
 /\bthorn\s(?:alley|avenue|balk|bamk|bank|barn\sclose|brae|close\splantation|clough|clumps?)\b/gmi,

@@ -294,6 +294,27 @@ const a: RegExp[] = [
 /\bwalsham\s(?:and|\&)\sdistrict\b/gmi,
 
 // WE
+
+/\bwell\s(?:approach|avenue|bank(?:\s(?:lane|place|road)|s)?|bargain\scopse|beach|beck\swood|belt)\b/gmi,
+/\bwell\s(?:bottom(?:\s(?:belt|down|plantation))?|braes?|brake|brook\s(?:clough|wood)|brow\sroad|chare)\b/gmi,
+/\bwell\s(?:cl[eo]u[cg]h|close\s(?:copse|plantation|rise|square|street|terrace|wood)|clump|combe|coppice)\b/gmi,
+/\bwell\s(?:copse(?:\sclose)?|cottage\sclose|cove|covert|cow\spasture|creek\sroad|crescent|croft|cross\sroad)\b/gmi,
+/\bwell\s(?:dale\splantation|den|dingle|down\scopse|end\sroad|eyes\splantation)\b/gmi,
+/\bwell\s(?:farm\s(?:close|heights|road)|field(?:\s(?:close|lane|plantation|way|wood))?|gardens)\b/gmi,
+/\bwell\s(?:garth\s(?:bank|mount|view)|geo|green\s(?:lane|primary\sschool|road)|ground\s(?:copse|spinney))\b/gmi,
+/\bwell\s(?:grove|hag\swood|hall\s(?:lane|parade|road)|head\s(?:coppice|drive|hill|lane|mews|plantation|road|wood))\b/gmi,
+/\bwell\s(?:heads\slane|high\slane|hill(?:\s(?:close|drive|grove|lane|road))?|hole|holme\smead)\b/gmi,
+/\bwell\shouse\s(?:avenue|close|copse|crescent|drive|gardens|lane|place|plantation|primary\sschool|ride|road|wood)\b/gmi,
+/\bwell\s(?:houses\slane|i['‘’`n]\sth['‘’`e]\slane|ings(?:\sclose)?|island|isle|knowe)\b/gmi,
+/\bwell\s(?:lane(?:\s(?:court|gardens|primary\sschool))?|ley\splantation|loke|lonning(?:\sclose)?)\b/gmi,
+/\bwell\s(?:mead(?:\slane)?|meadow(?:\s(?:drive|gardens|lane|road|street))?|moors)\b/gmi,
+/\bwell\s(?:oak\spark|of\sthe\shorse|orchard|park\s(?:copse|place|road|wood)|path|penn\sroad)\b/gmi,
+/\bwell\s(?:plantation|pond|pool|ridge\s(?:close|park)|rigg|road|royd\s(?:avenue|close|wood))\b/gmi,
+/\bwell\s(?:slack(?:\splantation)?|spring\s(?:close|clump|hill|holme\swood|wood))\b/gmi,
+/\bwell\s(?:springs\s(?:clough|nursing\shome|plantation)|stones\sclose|street(?:\swest)?)\b/gmi,
+/\bwell\s(?:terrace|town|vale(?:\s(?:close|court|drive|lane))?|vennel|view\sroad)\b/gmi,
+/\bwell\s(?:winch\sroad|wish\sdrive|wood\s(?:close|view)|wynd|yard\s(?:close|copse))\b/gmi,
+/\b(?:well-green\sclose|well-i-hole\sroad|well's\scopse|well['‘’`s]{1,2}\sstreet)\b/gmi,
 /\bwee\s(?:alicompen\swaterfall|bay|berbeth\sloch|brae|cairny?\shill|capel\scleuch|chirmorie)\b/gmi,
 /\bwee\s(?:cleuch|close|course\slane|craigenlee|fell|gounies|grove|haggs\swood|hartfell)\b/gmi,
 /\bwee\s(?:hill\sof\s(?:craigmulloch|glenmount)|hill|kirk\shill|leith\shill|macgregor\splantation)\b/gmi,
@@ -358,6 +379,7 @@ const a: RegExp[] = [
 /\bwesthill\s(?:and|\&)\sdistrict\b/gmi,
 
 // WH
+/\bwheal\sfriendly\slane\b/gmi,
 /\bwhiteness\s(?:gap|green|head|primary\sschool|road|sands|taing|voe)\b/gmi,
 /\bwhite\sside\sof\starnbrook\sfell\b/gmi,
 /\bWhile\sRoad\b/gm,

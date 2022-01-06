@@ -45,11 +45,11 @@ const a: RegExp[] = [
   /\bblack\s(?:box|friday)\b/gmi,
   /\bbona\sfide\b/gmi,
   /\bbrave\snew\b/gmi,
-  /\bbent\s(?:down|inwards|over)\b/gmi,
   /\bb(?:ritish\sairways|urger\sking)\b/gmi,
   /\b(?:central|reserve|world)\sbank\b/gmi,
   /\bburkina\sfaso\b/gmi,
   /\bball\svs\b/gmi,
+  /\bbin\slorry\b/gmi,
   /\bbump\sto\b/gmi,
 
   // C
@@ -245,6 +245,7 @@ const a: RegExp[] = [
   /\bfinancial\stimes\b/gmi,
   /\bThe\sGrand\sTour\b/gm,
   /\btimor[\s-]leste\b/gmi,
+  /\bthis\seve\b/gm,
 
   // U
   /\bupper\s(?:and\slower|quadrant)\b/gmi,

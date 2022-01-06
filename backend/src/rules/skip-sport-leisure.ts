@@ -39,7 +39,7 @@ const a: RegExp[] = [
   /\b(?:ji?u)?[\s-]?[dj]itsu\b/gmi,
 
   // k
-  /\bkung\sf(?:oo|u)\b/gmi,
+  /\bkung\sf(?:oo?|u)\b/gmi,
 
   // M
   /\bmar(?:sh|ti)al\sarts?\b/gmi,

@@ -68,7 +68,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sCove(?:rs|rts?|s|t)\b/gm,
   /\bThe\sCo(?:-?[Oo]perative|ttage|ttons|w)\b/gm,
   /\bThe\sCra(?:dle|fty?|gs|nny|ven|y)\b/gm,
-  /\bThe\sCre(?:amery|ed|ek|scents?|ase|st)\b/gm,
+  /\bThe\sCre(?:amery|ed|ek|scents?|st)\b/gm,
   /\bThe\sCricketers\b/gm,
   /\bThe\sCro(?:fts?|fters|ps|ok|ss|ssings?|sspath|ssroads|ssways|wns)\b/gm,
   /\bThe\sCr(?:ucible|umbles|usades|ypt)\b/gm,
