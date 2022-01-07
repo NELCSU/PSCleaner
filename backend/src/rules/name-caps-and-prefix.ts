@@ -16,6 +16,9 @@
 // HA
 "happy",
 
+// HE
+"hes",
+
 // RE
 "red",
 ]);

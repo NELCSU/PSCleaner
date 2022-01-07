@@ -11,11 +11,9 @@
 const a: RegExp[] = [
   /\b[a-z]{2,}\-\d{1,2}\b/gmi,
   /\d+[\s-](?:bead|day|feet|foot|hand|mile|min|kilometer|km|oz|stair|step|time|week)s?\b/gmi,
-  /\b(?:first|last|tier)\s\d+/gmi,
+  /\b(?:first|last|size|tier)\s\d+/gmi,
   /\d+\sof\b/gmi,
   /\d+[\s-](?:(?:out)?\sof|in)[\s-]\d+/gmi,
-
-  /\b(?:APEC|CIA|DEFRA|ED|HMRC|MHRA|MIT|NAO|OPEC|PHE|PLO|SETI)\b/gm,
 
   /\band\sthe\b/gm,
   /\ball\sof\b/gmi,
@@ -206,6 +204,7 @@ const a: RegExp[] = [
   /\bPublic\sHealth\b/gmi,
 
   // R
+  /\br[aiu]ng\s111\b/gmi,
   /\b(?:into|the)\sriver\b/gmi,
   /\bred\sbead\b/gmi,
   /\brusty\snails\b/gmi,

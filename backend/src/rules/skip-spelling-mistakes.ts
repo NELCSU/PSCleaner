@@ -45,6 +45,7 @@ const a: string[] = [
 
 // G
 "greay",        // grey
+"gorund",       // ground
 
 // H
 "headcahe",     // headache
@@ -53,7 +54,8 @@ const a: string[] = [
 // I
 "immedaite",    // immediate
 "initallt",     // initially
-"injruy",       // injury
+"injurie",      // injury
+"injruy",
 "injuy",
 "iside",        // inside
 "itchi",        // itchy

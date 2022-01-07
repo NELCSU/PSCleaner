@@ -63,13 +63,12 @@ const a: RegExp[] = [
 /\bupon[\s-]?(?:alun|avon|dearne|derwent|dunsmore|end|hine|hull|humber|irwell|medlock|mendip|mersey|moors|severn|soar|spalding|stather|teme|tern|thames|the[\s-]weald|trent|tweed|tyne)\b/gmi,
 /\buppermost\sclough\b/gmi,
 /\bupper\stooting(?:\s(?:park|road))?\b/gmi,
-/\bUpper\s[Aa]nd\sLower\b/gm,
 /\bupping\scopse\b/gmi,
 /\bupshot\s(?:lane|wood)\b/gmi,
 
 // UR
+/\bure\sbank\stop\b/gmi,
 /\burquhart\scut\b/gmi,
-/\b(?:abergavenny|ellesmere|heol|stanwix|stone|wem|whitchurch)\surban\b/gmi,
 /\burban\s(?:avenue|drive|gardens|hive|mews|road|street|terrace|view|way)\b/gmi,
 
 /\burchin\s(?:clough|hill|wood)\b/gmi,
@@ -80,6 +79,7 @@ const a: RegExp[] = [
 /\butters\shill\b/gmi,
 
 // VA
+/\bvalleyfield\stop\b/gmi,
 /\bvaleroyal\scut\b/gmi,
 /\bvalley\smushroom\sfarm\b/gmi,
 /\bv\sc\sdrive\b/gmi,
@@ -160,6 +160,8 @@ const a: RegExp[] = [
 /\bvoyagers\sclose\b/gmi,
 
 // WA
+/\bwatton[\s-]at[\s-]stone\b/gmi,
+/\bwalesby\stop\b/gmi,
 /\bwalk\s(?:coppice|copse|crab\stree\splantation|farm\sdrive|gorse|haw\s(?:champer|scar))\b/gmi,
 /\bwalk\s(?:house\sclose|lane|mill(?:\s(?:close|covert|drive|foss|lane|place|road))?)\b/gmi,
 /\bwalk\s(?:plantation|royd\shill|shaw|wood\srise|wood)\b/gmi,
@@ -294,7 +296,9 @@ const a: RegExp[] = [
 /\bwalsham\s(?:and|\&)\sdistrict\b/gmi,
 
 // WE
-
+/\bwenchly\stop\b/gmi,
+/\bwester\stop\b/gmi,
+/\bwem\surban\b/gmi,
 /\bwell\s(?:approach|avenue|bank(?:\s(?:lane|place|road)|s)?|bargain\scopse|beach|beck\swood|belt)\b/gmi,
 /\bwell\s(?:bottom(?:\s(?:belt|down|plantation))?|braes?|brake|brook\s(?:clough|wood)|brow\sroad|chare)\b/gmi,
 /\bwell\s(?:cl[eo]u[cg]h|close\s(?:copse|plantation|rise|square|street|terrace|wood)|clump|combe|coppice)\b/gmi,
@@ -379,6 +383,10 @@ const a: RegExp[] = [
 /\bwesthill\s(?:and|\&)\sdistrict\b/gmi,
 
 // WH
+/\bwhinlatter\stop\b/gmi,
+/\bwhite\sbrae\stop\b/gmi,
+/\bwhitegate\stop\b/gmi,
+/\bwhitchurch\surban\b/gmi,
 /\bwheal\sfriendly\slane\b/gmi,
 /\bwhiteness\s(?:gap|green|head|primary\sschool|road|sands|taing|voe)\b/gmi,
 /\bwhite\sside\sof\starnbrook\sfell\b/gmi,
@@ -427,6 +435,10 @@ const a: RegExp[] = [
 /\bwholesome\slane\b/gmi,
 
 // WI
+/\bwiggle\s(?:cliff|sandway)\b/gmi,
+/\bwilden\stop\b/gmi,
+/\bwildner\stop\b/gmi,
+/\bwindberry\stop\b/gmi,
 /\bwise\s(?:avenue|campus|close|crescent|een\starn|grove|house\slane|lane|road|street|terrace)\b/gmi,
 /\bwise['‘’`s]{1,2}\s(?:firs|lane|wood)\b/gmi,
 /\bwinning\sfoot\shill\b/gmi,
@@ -632,6 +644,9 @@ const a: RegExp[] = [
 /\byonder\s(?:acre\sway|brake|close|coppice|cross\sclose\scopse|drove|hare\sdown|hill|horse\spark\scopse)\b/gmi,
 /\byonder\s(?:mead|meadow|moor|mount|plantation|slade|street|way|wyke\smoor\scopse)\b/gmi,
 /\bYouth\sClose\b/gm,
+
+// YS
+/\bysgol\scae\stop\b/gmi,
 
 // ZE
 /\bzeal\s(?:ball\scopse|road)\b/gmi,

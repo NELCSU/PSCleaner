@@ -402,7 +402,7 @@ const a: string[] = [
 "jola",
 "jordanian",
 "juhurim",
-"jukun",
+
 "kabardian",
 "kabyle",
 "kakwa",
@@ -517,7 +517,7 @@ const a: string[] = [
 "makassarese",
 "makhuwa",
 "makoa",
-"makua",
+
 "malagasy",
 "malawian",
 "malaysian",
@@ -563,7 +563,6 @@ const a: string[] = [
 "mikea",
 "mingrelian",
 "minokok",
-"mising",
 "miskito",
 "mixe",
 "mizo",
@@ -867,7 +866,7 @@ const a: string[] = [
 "xong",
 "yakkha",
 "yakoma",
-"yakut",
+
 "yao",
 "yaw",
 "yazghulami",

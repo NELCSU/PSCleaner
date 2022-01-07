@@ -129,6 +129,7 @@ const a: RegExp[] = [
 /\bisle\sof\sspar\b/gmi,
 
 // JA
+/\bjack\scabin\stop\b/gmi,
 /\bj\sb\scourt\b/gmi,
 /\bjacob['‘’`s]{1,2}\sladder\sway\b/gmi,
 /\bjack['‘’`s]{1,2}\sledge\b/gmi,
@@ -197,6 +198,7 @@ const a: RegExp[] = [
 /\bKayak\sClose\b/gm,
 
 // KE
+/\bkepwell\sbank\stop\b/gmi,
 /\bkew\sfoot\sroad\b/gmi,
 /\bkendal\sstrickland\sand\sfell\b/gmi,
 /\bkelyin\sof\skroos\b/gmi,
@@ -262,6 +264,8 @@ const a: RegExp[] = [
 /\bkingmaker\sway\b/gmi,
 
 // KN
+/\bknoll\stop\b/gmi,
+/\bknowle\stop\b/gmi,
 /\bknowstone\sinner\smoor\b/gmi,
 /\bknotts\sof\sthe\stongue\b/gmi,
 /\bKnock\sFell\b/gm,
@@ -301,6 +305,7 @@ const a: RegExp[] = [
 
 /\bl\sspinney\b/gmi,
 // LA
+/\blax\s(?:court|dale|firth|hill(?:\scovert)?|lane|terrace)\b/gmi,
 /\blarge\s(?:avenue|bar\shill|burra\sgeo|coppice|copse|covert|cruban|half\smoon\splantation|osier\sbed)\b/gmi,
 /\blang\sgeo\sof\sthe\shead\b/gmi,
 /\bladder\s(?:chine|cleuch|court|creek|field|hills?|law|rock)\b/gmi,
@@ -308,7 +313,6 @@ const a: RegExp[] = [
 /\blade\sfoot\scove\b/gmi,
 /\blane\sfoot\s(?:brow|road)\b/gmi,
 /\bla(?:bourn['‘’`s]{1,2}|mb\shill)\sfell\b/gmi,
-/\bLaws\sFell\b/gm,
 /\blaunde\sbig\swood\b/gmi,
 /\bladies['‘’`]?\sledge(?:\sneck)?\b/gmi,
 /\blawrence['‘’`s]{1,2}\sledge\b/gmi,
@@ -512,6 +516,7 @@ const a: RegExp[] = [
 /\bLNG\sterminal\b/gmi,
 
 // LO
+/\blong\splantation\stop\b/gmi,
 /\blongshot\s(?:hill|lane|wood)\b/gmi,
 /\blongships\s(?:drive|road)\b/gmi,
 /\blongships?\sway\b/gmi,

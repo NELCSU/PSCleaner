@@ -58,6 +58,9 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "doen",
 "down",
 
+// EN
+"ends",
+
 // EY
 "eye",
 
@@ -160,7 +163,6 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // TO
 "tongs",
-"top",
 
 // WA
 "walk",

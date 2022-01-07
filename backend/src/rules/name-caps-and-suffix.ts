@@ -665,6 +665,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "roadhouse",
 "rocker",
 "roller",
+"rom",
 "romanic",
 "romp",
 "romper",
@@ -790,6 +791,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "snowman",
 
 // SO
+"soda",
 "sorter",
 "soul",
 "sours",
@@ -1076,6 +1078,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "whittler",
 
 // WI
+"wiggle",
 "wineglass",
 "wingers",
 "wiper",

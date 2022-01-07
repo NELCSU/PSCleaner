@@ -42,6 +42,7 @@ const a: RegExp[] = [
   // BU
   /\bbunk\sbed\b/gmi,
   /\bbumbo\b/gmi,
+  /\bbutton\sbatter/gmi,
 
   // CA
   /\bcar\sseat\b/gmi,
@@ -56,6 +57,7 @@ const a: RegExp[] = [
   /\bclimbing\sframe\b/gmi,
 
   // CO
+  /\bcolgate\stooth/gmi,
   /\bcoat\shanger\b/gmi,
   /\bc[ou]tto[mn]\s(?:bud|wool)\b/gmi,
   /\bcorner\sof\stable\b/gmi,
@@ -208,6 +210,7 @@ const a: RegExp[] = [
   /\btrump\scard\b/gmi,
   /\btrapese\b/gmi,
   /\btravelcot\b/gmi,
+  /\btrea?dmill?\b/gmi,
 
   // V
   /\bvenetian\s(?:blind|window)s?\b/gmi,

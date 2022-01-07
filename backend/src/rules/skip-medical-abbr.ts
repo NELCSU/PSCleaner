@@ -39,8 +39,9 @@ const a: RegExp[] = [
 
   /\bGORD\b/gm,
 
+  /\bh[\\\/]o\b/gmi,  // history of
   /\bhaem\b/gmi,
-  /\bhosp\b/gmi,
+  /\bhosp\b/gmi,      // hospital
   /\bhypo\b/gmi,
 
   /\blac\b/gmi,       // laceration
@@ -61,8 +62,8 @@ const a: RegExp[] = [
   /\bNLOC\b/gm,
   /\bNSTEMI\b/gm,
 
-  /\bo\/a\b/gmi,
-  /\bortho\b/gmi,
+  /\bo\/[an]\b/gmi,
+  /\bor?tho\b/gmi,
 
   /\bpea?rla\s\d+/gmi,
   /\bPERLA\b/gm,

@@ -26,6 +26,7 @@ import { NameSetJoinOnly } from "./rules/name-and";
 import { ProperNameSetJoinOnly } from "./rules/name-caps-and";
 import { NameSetJoinPrefixMidfixOnly } from "./rules/name-prefix-and-midfix";
 import { ProperNameSetJoinPrefixOnly } from "./rules/name-caps-and-prefix";
+import { ProperNameSetJoinMidfixOnly } from "./rules/name-caps-and-midfix";
 import { ProperNameSetJoinMidfixSuffixOnly } from "./rules/name-caps-and-midfix-and-suffix";
 import { ProperNameSetJoinSuffixOnly } from "./rules/name-caps-and-suffix";
 import { NamePartSet, NameFragmentRegEx, NamePuralRegEx } from "./rules/name-part";
@@ -286,6 +287,12 @@ export class NLP {
         action: { discard: 1, joinable: 1, order: 2, pos: 0, prefix: 1, midfix: 0, suffix: 0 },
         entity: namesEntity,
         matches: this._evalKeyword(data, (n: string) => isPropercase(n), ProperNameSetJoinPrefixOnly)
+      });
+
+      searches.push({
+        action: { discard: 1, joinable: 1, order: 2, pos: 0, prefix: 0, midfix: 1, suffix: 0 },
+        entity: namesEntity,
+        matches: this._evalKeyword(data, (n: string) => isPropercase(n), ProperNameSetJoinMidfixOnly)
       });
 
       searches.push({

@@ -77,6 +77,7 @@ const a: RegExp[] = [
   /\bbone?y\stenderness\b/gmi,
   /\bbowman['‘’`s]{1,2}\s(?:capsule|membrane)\b/gmi,
   /\bboxer['‘’`s]{1,2}\sfract\w+\b/gmi,
+  /\bbottom\s(?:jaw|teeth|tooth)\b/gmi,
 
   // BR
   /\bbrugada\ssyndrome\b/gmi,
@@ -252,12 +253,10 @@ const a: RegExp[] = [
   /\bheister['‘’`s]{1,2}\svalves?\b/gmi,
 
   // HI
-  /\bhickmann?['‘’`s]{1,2}\slines?\b/gmi,
+  /\bhickmann?['‘’`s]{0,2}\s(?:insitu|line)s?\b/gmi,
   /\bhirschsprung['‘’`s]{1,2}\sdisease\b/gmi,
-  /\bhickmann?\sinsitu\b/gmi,
 
   // HO
-  /\bh[\\\/]o\b/gmi,
   /\bhodgkin['‘’`s]{1,2}\slymphoma\b/gmi,
   /\bhouston['‘’`s]{1,2}\s(?:muscle|vavle)s?\b/gmi,
 
@@ -374,7 +373,7 @@ const a: RegExp[] = [
   /\boto\/rhino/gmi,
   /\boedmea\b/gmi,
   /\bosteogen[io]us\b/gmi,
-  /\bottawa\s(?:rule|sign)s?\b/gmi,
+  /\bottawa\s(?:negative|rule|sign)s?\b/gmi,
   /\borgan\sof\s(?:corti|zuckerkandl)\b/gmi,
   /\bouter\sfoot\b/gmi,
   /\bof\shead\b/gmi,
