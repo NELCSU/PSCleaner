@@ -69,7 +69,7 @@ const a: RegExp[] = [
 /\bmalleable\s(?:gardens|way)\b/gmi,
 /\bmallets\s(?:end|lane)\b/gmi,
 /\bmammoth\s(?:drive|street)\b/gmi,
-/\b(?:the)?(?:old|poor)\sman\sof\b/gmi,
+/\b(?:the)?old\sman\sof\b/gmi,
 /\bman[\s-](?:close|gardens|hill|lane|moel|o['‘’`]\swick|place|plantation|road|rock|way|wood|street)\b/gmi,
 /\bMan\s[Oo][f'‘’`]\sWar\b/gm,
 /\bmangrove\s(?:close|drive|green|lane|road)\b/gmi,
@@ -828,6 +828,11 @@ const a: RegExp[] = [
 /\bplessey\sold\swagonway\b/gmi,
 
 // PO
+/\bpoor\s(?:close\s(?:copse|covert|spinney)|common|end|field\shanger|garden\sroad)\b/gmi,
+/\bpoor\s(?:ground\s(?:covert|plantation)|hill|house\slane|jack['‘’`s]{1,2}\swood)\b/gmi,
+/\bpoor\s(?:lains\scoppice|man\sof\s(?:broad\shaven|harrol)|man['‘’`s]{1,2}\s(?:croft|shaw|wood))\b/gmi,
+/\bpoor\s(?:park|patch|pit\splantation|plantation|plat\slane|tenement\splantation|wood)\b/gmi,
+/\bpoor['‘’`s]{1,2}\s(?:allotment|common|coppice|copse|end|field|furze|land|wood)\b/gmi,
 /\bpot\s(?:and\sford\sfishing|bank|bottom|brinks\smoor|close\spasture|common|green|haw\shill)\b/gmi,
 /\bpot\s(?:hill(?:\ssquare)?|house(?:\s(?:hill|lane|wood))?|howie|inn\sclose|keello)\b/gmi,
 /\bpot\s(?:kiln\s(?:chase|lane|primary|road|wood)|kilns|lands|lane|law|loch)\b/gmi,
@@ -855,7 +860,6 @@ const a: RegExp[] = [
 /\bpolls\slane\b/gmi,
 /\bpossession\slane\b/gmi,
 /\bpork\s(?:hill|lane|street)\b/gmi,
-/\bpoor\stenement\splantation\b/gmi,
 /\bporlock\s(?:and|\&)\sdistrict\b/gmi,
 
 // PR
@@ -902,7 +906,7 @@ const a: RegExp[] = [
 /\bp(?:avillons|eerage|eople\spark|erformance|lating|osthole|uritan|ylon)\sway\b/gmi,
 /\bp(?:estle|rint)\swood\b/gmi,
 /\bpumpers\syard\b/gmi,
-/\b(?:Police|Poor|Postal|Powerful|Primitive|Private)\sStreet\b/gm,
+/\b(?:Police|Postal|Powerful|Primitive|Private)\sStreet\b/gm,
 /\b(?:Pageants|Principle)\sClose\b/gm,
 /\bpumproom\scopse\b/gmi,
 /\bpailis\screscent\b/gmi,
@@ -988,7 +992,6 @@ const a: RegExp[] = [
 /\bpig\s(?:bush|field|hills?|lane|market\send|oak|pound\spark|rock)\b/gmi,
 /\bpig[\s-](?:slade|street|sty\sbelt|stye|trough\scopse|wood|y[\s-](?:barcut|baw|rhos))\b/gmi,
 /\bpig['‘’`s]{1,2}\s(?:bay|foot\sgreen|green|park|plantation|spring|stone)\b/gmi,
-/\bPig['‘’`]s\sNose\b/gm,
 /\b(?:bryn-pig|oily\spig)\b/gmi,
 /\bPigeons\sClose\b/gm,
 /\bpigeons\s(?:farm|lane)\b/gmi,

@@ -7,8 +7,6 @@
  * Get these lists in alphabetical order and in the correct file
  **********************************************************************/
 const a: RegExp[] = [
-/\bA\sRoad\b/gm,
-
 // AB
 /\babergavenny\surban\b/gmi,
 /\babbey\s(?:burn\sfoot|fell)\b/gmi,
@@ -21,8 +19,7 @@ const a: RegExp[] = [
 /\babacus\s(?:drive|road|street)\b/gmi,
 /\babacus\s(?:belsize\s)?primary\b/gmi,
 /\babbeys\s(?:care\scentre|primary\sschool)\b/gmi,
-/\babove\s(?:bar\sstreet|beck\sfalls|church|derwent|hedges|how|line\splantation|above\stown\sclose)\b/gmi,
-/\bAbove\sTown\b/gm,
+/\babove\s(?:bar\sstreet|beck\sfalls|derwent|line\splantation)\b/gmi,
 /\babundant\sgrace\b/gmi,
 /\babertillery\s(?:and|\&)\sdistrict\b/gmi,
 
@@ -32,13 +29,10 @@ const a: RegExp[] = [
 /\bacids\sroad\b/gmi,
 /\bacademic\s(?:avenue|loop\sroad)\b/gmi,
 /\bacademy\s(?:brae|close|court|crescent|drive|fields|gardens|house|lane|park|place|quadrant|road|square|street|terrace|view|way)\b/gmi,
-/\bAccess\s(?:[Rr]oad|[Ss]chool|[Ww]ay)\b/gm,
 /\baccommodation\s(?:lane|road)\b/gmi,
 /\baconite\s(?:close|road)\b/gmi,
 
 // AD
-/\bAdam['‘’`s]{1,2}\sChair\b/gm,
-/\bAdam\sAnd\sEve\b/gm,
 /\badam\sand\seve\s(?:mews|street)\b/gmi,
 /\badventure\s(?:lane|place)\b/gmi,
 /\badvance\sroad\b/gmi,
@@ -61,7 +55,6 @@ const a: RegExp[] = [
 /\baffords\sway\b/gmi,
 
 // AG
-/\b[Aa]ge\sWay\b/gm,
 /\bagricultural\s(?:college|hall\splain|way)\b/gmi,
 /\bagnes\ssilverside\sclose\b/gmi,
 /\bagitator\sroad\b/gmi,
@@ -709,7 +702,6 @@ const a: RegExp[] = [
 /\bbrambly\s(?:close|copse|croft|shaw)\b/gmi,
 /\bbranches\s(?:lane|park|wood)\b/gmi,
 /\bBranches\sClose\b/gm,
-/\bHigh\sBranches\b/gm,
 /\bbrassica\sclose\b/gmi,
 /\bbrats\slane\b/gmi,
 /\bbraziers\s(?:bottom|close|common|end|field|grove|hanger|lane|park|quay)\b/gmi,
@@ -853,7 +845,6 @@ const a: RegExp[] = [
 /\bbuttermilk\s(?:close|copse|crescent|grove|hill\sspinney|hill|lane|pond|wood)\b/gmi,
 /\bbuttock\s(?:hill|plantation|point)\b/gmi,
 /\bbutton\s(?:bridge\slane|close|common|drive|end|fen|geo|grove|hall\sclose|haugh\sgreen|hills?|lane|park|ride|road|row|street|wood|yard)\b/gmi,
-/\bhigh\sbutton\b/gmi,
 /\bbusiness\s(?:court|park)\b/gmi,
 /\bButton\sHole\b/gm,
 /\bbutton['‘’`s]{1,2}\s(?:bank|copse|green|hill|lane|road|wood)\b/gmi,
@@ -1150,7 +1141,7 @@ const a: RegExp[] = [
 /\bclamps\s(?:grove|heath|terrace|wood)\b/gmi,
 /\bClear\s(?:Space|View|Water)\b/gm,
 /\bclear\s(?:crescent|view\s(?:close|crescent)|water\s(?:basin|way)|wood)\b/gmi,
-/\b(?:point\sclear(?:bay|road)?|hartwell\sclear\scopse|high\sclear\splantation)\b/gmi,
+/\b(?:point\sclear(?:bay|road)?|hartwell\sclear\scopse)\b/gmi,
 /\bst\.?\sclears(?:\s(?:close|place|road))?\b/gmi,
 /\b(?:climb\sstile\swood|scizdons\sclimb)\b/gmi,
 /\bclinic\sdrive\b/gmi,
@@ -1365,7 +1356,6 @@ const a: RegExp[] = [
 /\bcohort\s(?:close|drive|place|way)\b/gmi,
 /\bcoin\s(?:close|hill|street)\b/gmi,
 /\bcold\s(?:acre|arbor|ashby|ash?ton|berwick|brayfield|cotes|croft|east|elm|greave|hanworth|hatton|hesledon|hiendley|higham|hurn|hurst|kirby|knap|knot|mill|moorholme|nab|newton|northcott|norton|oak|overton|row|royd|shaw|stub|weston|wold)\b/gmi,
-/\bCold\s(?:Ash|Bath|[Bb]ay|Blow|Christmas|Comfort|Down|Edge|Fell|Green|Grove|Hall|Harbour|Hill|Hunger|Inn|Kitchen|Lands|Law|Moor|Moss|Nose|Orchard|Park|Pool|Side|Springs?|Stone|Stores?|Street|Weather|Well|Western|Within)\b/gm,
 /\b(?:collage\sroad|(?:fife|linkage|stonyhurst)\scollage)\b/gmi,
 /\b(?:little\scollar\slaw|collar\s(?:house\sdrive|knowe|law|makers\sgreen|way))\b/gmi,
 /\bcolonels\s(?:grove|lane|road|walk)\b/gmi,
@@ -1400,7 +1390,7 @@ const a: RegExp[] = [
 /\bconvalescent\s(?:centre|hill|home|lane|street)\b/gmi,
 /\bcooperative\s(?:college|road|street|terrace)\b/gmi,
 /\bcop\s(?:croft|grove|hills?|hirst|high|howe|keld|lane|law|meadow|mere|o['‘’`]?|road|royd|station|street|way|wood)\b/gmi,
-/\b(?:adwell|birkdale|bolton['‘’`s]{1,2}?|bull|fin|flats|floutern|hay|high|mart|meltham|meols|milner|mow|nan|underley|wyle)\scop\b/gmi,
+/\b(?:adwell|birkdale|bolton['‘’`s]{1,2}?|bull|fin|flats|floutern|hay|mart|meltham|meols|milner|mow|nan|underley|wyle)\scop\b/gmi,
 /\b(?:aston\smagna|batts|dantze|dingle|gay['‘’`s]{1,2}|hill|killwood|little\sseaside)\scoppices\b/gmi,
 /\b(?:longmeadow|mill|oak|pensylvania|spring|wigmore)\scoppices\b/gmi,
 /\b(?:copses\sspring|(?:denmead|greyhound|ham|hussar|lye|petsalls|pit\sclose|river|snodwell)\scopses)\b/gmi,

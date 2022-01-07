@@ -4,6 +4,29 @@
  * is a lo-fi means of curtailing false positives
  **********************************************************************/
 const a: RegExp[] = [
+// A
+/\b[\d-]+\sa\sroad\b/gi,
+/\ba\sroad\b(?=.{2,20}(?:NG90))/gi,
+/(?<=(?:NG90).{2,25})\ba\sroad\b/gi,
+
+// ABOVE
+/\b[\d-]+\sabove\s(?:hedges|town(?:\sclose)?)\b/gi,
+/\babove\schurch\b(?=.{2,20}(?:ST10|hamlet))/gi,
+/(?<=(?:ST10|hamlet).{2,25})\babove\schurch\b/gi,
+/\babove\shedges\b(?=.{2,20}(?:SP5))/gi,
+/(?<=(?:SP5).{2,25})\babove\shedges\b/gi,
+/\babove\stown\b(?=.{2,20}(?:TQ6|SP11))/gi,
+/(?<=(?:TQ6|SP11).{2,25})\babove\stown\b/gi,
+/\babove\stown\sclose\b(?=.{2,20}(?:PL27))/gi,
+/(?<=(?:PL27).{2,25})\babove\stown\sclose\b/gi,
+
+// ACCESS
+/\b[\d-]+\saccess\sroad\b/gi,
+/\baccess\sroad\b(?=.{2,20}(?:NR21|L12|DN22))/gi,
+/(?<=(?:NR21|L12|DN22).{2,25})\baccess\sroad\b/gi,
+/\baccess\sschool\b(?=.{2,20}(?:SY4))/gi,
+/(?<=(?:SY4).{2,25})\baccess\sschool\b/gi,
+
 // ACORNS
 /\b[\d-]+\sacorns\b/gi,
 /\bacorns\b(?=.{2,20}(?:RH13))/gi,
@@ -13,6 +36,12 @@ const a: RegExp[] = [
 /\b[\d-]+\sacreage\b/gi,
 /\bacreage\b(?=.{2,20}(?:WR6))/gi,
 /(?<=(?:WR6).{2,25})\bacreage\b/gi,
+
+// ADAM
+/\badam['‘’`s]{1,2}\schair\b(?=.{2,20}(?:DG7))/gi,
+/(?<=(?:DG7).{2,25})\badam['‘’`s]{1,2}\schair\b/gi,
+/\badam\sand\seve\b(?=.{2,20}(?:YO15))/gi,
+/(?<=(?:YO15).{2,25})\badam\sand\seve\b/gi,
 
 // ANNIVERSARIES
 /\banniversaries\b(?=.{2,20}(?:CV7))/gi,
@@ -419,6 +448,46 @@ const a: RegExp[] = [
 // COCKS
 /(?<=(?:hamlet|TR6).{2,10})\bcocks\b/gi,
 /\bcocks\b(?=.{2,10}(?:hamlet|TR6))/gi,
+
+// COLD
+/[\d-]+\scold\s(?:harbour|nose|side|street)\b/gi,
+/(?<=(?:RG18|village).{2,10})\bcold\sash\b/gi,
+/\bcold\sash\b(?=.{2,10}(?:RG18|village))/gi,
+/(?<=(?:TN4).{2,10})\bcold\sbath\b/gi,
+/\bcold\sbath\b(?=.{2,10}(?:TN4))/gi,
+/(?<=(?:SA67|village).{2,10})\bcold\sblow\b/gi,
+/\bcold\sblow\b(?=.{2,10}(?:SA67|village))/gi,
+/(?<=(?:SG12|hamlet).{2,10})\bcold\schristmas\b/gi,
+/\bcold\schristmas\b(?=.{2,10}(?:SG12|hamlet))/gi,
+/(?<=(?:CA8|CA20).{2,10})\bcold\sfell\b/gi,
+/\bcold\sfell\b(?=.{2,10}(?:CA8|CA20))/gi,
+/(?<=(?:HR8|hamlet).{2,10})\bcold\sgreen\b/gi,
+/\bcold\sgreen\b(?=.{2,10}(?:HR8|hamlet))/gi,
+/(?<=(?:IP29).{2,10})\bcold\sgrove\b/gi,
+/\bcold\sgrove\b(?=.{2,10}(?:IP29))/gi,
+/(?<=(?:village|hamlet|BA14|BH20|DT9|ME17|ME9|NG31|OX1|RG8|SL6|SN14|SP[458]).{2,10})\bcold\sharbour\b/gi,
+/\bcold\sharbour\b(?=.{2,10}(?:village|hamlet|BA14|BH20|DT9|ME17|ME9|NG31|OX1|RG8|SL6|SN14|SP[458]))/gi,
+/(?<=(?:GU32|LS25|RG7).{2,10})\bcold\shill\b/gi,
+/\bcold\shill\b(?=.{2,10}(?:GU32|LS25|RG7))/gi,
+
+/(?<=(?:SA68|hamlet).{2,10})\bcold\sinn\b/gi,
+/\bcold\sinn\b(?=.{2,10}(?:SA68|hamlet))/gi,
+/(?<=(?:NE65|NE71).{2,10})\bcold\slaw\b/gi,
+/\bcold\slaw\b(?=.{2,10}(?:NE65|NE71))/gi,
+/(?<=(?:YO21|TS9).{2,10})\bcold\smoor\b/gi,
+/\bcold\smoor\b(?=.{2,10}(?:YO21|TS9))/gi,
+/(?<=(?:DG3|BD23).{2,10})\bcold\smoss\b/gi,
+/\bcold\smoss\b(?=.{2,10}(?:DG3|BD23))/gi,
+/(?<=(?:BS28).{2,10})\bcold\snose\b/gi,
+/\bcold\snose\b(?=.{2,10}(?:BS28))/gi,
+/(?<=(?:NE46|TS9).{2,10})\bcold\spool\b/gi,
+/\bcold\spool\b(?=.{2,10}(?:NE46|TS9))/gi,
+/(?<=(?:S33).{2,10})\bcold\sside\b/gi,
+/\bcold\sside\b(?=.{2,10}(?:S33))/gi,
+/(?<=(?:BD22).{2,10})\bcold\sstreet\b/gi,
+/\bcold\sstreet\b(?=.{2,10}(?:BD22))/gi,
+/(?<=(?:WS15|hamlet).{2,10})\bcold\swell\b/gi,
+/\bcold\swell\b(?=.{2,10}(?:WS15|hamlet))/gi,
 
 // COLLEGE
 /[\d-]+\scollege\b/gi,
@@ -894,12 +963,12 @@ const a: RegExp[] = [
 
 // HIGH
 /[\d-]+\shigh\s(?:fell|pavement)\b/gi,
-/(?<=(?:TS10|LA21)).{2,25}\bhigh\sfell\b/gi,
-/\bhigh\sfell\b(?=.{2,20}(?:TS10|LA21))/gi,
+/(?<=(?:TS10|LA2[12]|WS15)).{2,25}\bhigh\sf[ae]ll\b/gi,
+/\bhigh\sf[ae]ll\b(?=.{2,20}(?:TS10|LA2[12]|WS15))/gi,
 /\bhigh\spavement\b(?=.{2,20}(?:NG1|NG17|DE56|sutton|belper|notting))/gi,
 
 // HILL
-/[\d-]+\shill\s(?:close|fall|foot|tops?|view|walk)\b/gi,
+/[\d-]+\shill\s(?:close|end|fall|farm|foot|tops?|view|walk)\b/gi,
 /(?<=(?:SA68|CV23|EX32|EX23|GL13|B74|SO15|HD9|hamlet|village)).{2,25}\bhill\b/gi,
 /\bhill\b(?=.{2,20}(?:SA68|CV23|EX32|EX23|GL13|B74|SO15|HD9|hamlet|village))/gi,
 /(?<=(?:B7[01]|B97|BB9|BD1[35]|BD21|BL3|BN1|BS20|CV[179]|CV10?|CW8|DE21|DE74|DH[39]|DL1[23]|DN12|EX31|HD[478]|HX2|IG10|IP31|KY16|LA23|LA7|LE9|LN5|LS29|M28|M46|NE21|NE70|NG16|NN9|NP16|NR25|NW11|OL4|PO36|PR4|S1[18]|S3[56]|S44|S61?|S75|SA14|SG7|SK6|SM3|SO42|ST6|TF1|TN1[27]|WA15|WF1[01]|WF[249]|WS1[25]).{2,10})\bhill\stop\b/gi,
@@ -918,6 +987,10 @@ const a: RegExp[] = [
 /\bhill\sf[ae]ll\b(?=.{2,10}(?:LA[12]2))/gi,
 /(?<=(?:BD18|shipley).{2,10})\bhill\sfoot\b/gi,
 /\bhill\sfoot\b(?=.{2,10}(?:BD18|shipley))/gi,
+/(?<=(?:village|hamlet|BR6|SY6|UB9|DL13|GL20|WR9|KY12).{2,10})\bhill\send\b/gi,
+/\bhill\send\b(?=.{2,10}(?:village|hamlet|BR6|SY6|UB9|DL13|GL20|WR9|KY12))/gi,
+/(?<=(?:WR7|MK18).{2,10})\bhill\sfarm\b/gi,
+/\bhill\sfarm\b(?=.{2,10}(?:WR7|MK18))/gi,
 
 // HIVE
 /(?<=(?:HU15|hamlet).{2,10})\bhive\b/gi,
@@ -987,6 +1060,10 @@ const a: RegExp[] = [
 /[\d-]+\shoover\sclose\b/gi,
 /(?<=(?:TN37).{2,10})\bhoover\sclose\b/gi,
 /\bhoover\sclose\b(?=.{2,10}(?:TN37))/gi,
+
+// HOPE
+/(?<=(?:NE47).{2,10})\bhope\sfell\b/gi,
+/\bhope\sfell\b(?=.{2,10}(?:NE47))/gi,
 
 // HOPPING
 /(?<=(?:DE45).{2,10})\bhopping\stop\b/gi,
@@ -1642,6 +1719,10 @@ const a: RegExp[] = [
 /\bthe\spieces?\b(?=.{2,20}(?:GL3|NN[67]|TA16|OX18))/gi,
 /(?<=(?:GL3|NN[67]|TA16|OX18)).{2,25}\bthe\spieces?\b/gi,
 
+// PIG
+/\bpig['‘’`s]{1,2}\snose\b(?=.{2,20}(?:TQ8|island))/gi,
+/(?<=(?:TQ8|island)).{2,25}\bpig['‘’`s]{1,2}\snose\b/gi,
+
 // PILL
 /[\d-]+\sthe\spill\b/gi,
 /\bpill\b(?=.{2,20}(?:village|BS20|SA73))/gi,
@@ -1719,6 +1800,13 @@ const a: RegExp[] = [
 /\bthe\spools?\b(?=.{2,20}(?:DE[17]3|KW1[467]|KY10|LE3|NG11|NR23|OX17|PL26|ST19|SY17|TD12|TF9|WV[48]|ZE2))/gi,
 /(?<=(?:DE[17]3|KW1[467]|KY10|LE3|NG11|NR23|OX17|PL26|ST19|SY17|TD12|TF9|WV[48]|ZE2)).{2,25}\bthe\spools?\b/gi,
 /\bpool\sfoot\b(?=.{2,10}LA12)/gi,
+
+// POOR
+/[\d-]+\spoor\sstreet\b/gi,
+/\b(?:the\s)?poor\sman\b(?=.{2,20}(?:AB12|AB41|island))/gi,
+/(?<=(?:AB12|AB41|island)).{2,25}\b(?:the\s)?poor\sman\b/gi,
+/\bpoor\sstreet\b(?=.{2,20}(?:SN5))/gi,
+/(?<=(?:SN5)).{2,25}\bpoor\sstreet\b/gi,
 
 // PORCELAIN
 /[\d-]+\sporcelain\sclose\b/gi,
@@ -1896,6 +1984,10 @@ const a: RegExp[] = [
 // RUGBY
 /(?<=(?:addr|CV21|dr[io]ve|live|stay|town|warwick).{2,25})\brugby\b/gi,
 /\brugby\b(?=.{1,20}(?:addr|CV21|warwick))/gi,
+
+// RUMBLE
+/\brumblings\b(?=.{2,20}(?:ZE2))/gi,
+/(?<=(?:ZE2).{2,25})\brumblings\b/gi,
 
 // SAND
 /[\d-]+\ssand\s(?:banks?|beds|close|dune\swalk|furrows|hill|martins|path|pits)\b/gi,
@@ -2107,6 +2199,10 @@ const a: RegExp[] = [
 // STAIRS
 /(?<=(?:CF64|island).{2,25})\bthe\sstairs\b/gi,
 /\bthe\sstairs\b(?=.{2,20}(?:CF64|island))/gi,
+
+// STEAD
+/(?<=(?:LS29|ZE2|island).{2,25})\bstead\b/gi,
+/\bstead\b(?=.{2,20}(?:LS29|ZE2|island))/gi,
 
 // STEEPLECHASE
 /[\d-]+\ssteeplechase\b/gi,

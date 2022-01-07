@@ -470,7 +470,7 @@ const a: RegExp[] = [
 /\bwindmill\snaps\b/gmi,
 /\bwinds\s(?:end\sclose|lonnen|point|ridge|wood)\b/gmi,
 /\b(?:four|harbour)\swinds\s(?:court|road)\b/gmi,
-/\b(?:High|West)\sWinds\b/gm,
+/\bWest\sWinds\b/gm,
 /\bwindscreens\savenue\b/gmi,
 /\bwindshield\shill\b/gmi,
 /\bwindsock\s(?:road|way)\b/gmi,

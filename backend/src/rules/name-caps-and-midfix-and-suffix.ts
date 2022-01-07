@@ -90,6 +90,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "hedge",
 
 // HI
+"high",
 "hill",
 
 // HO
@@ -126,6 +127,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "plant",
 
 // PO
+"poor",
 "pot",
 
 // PU

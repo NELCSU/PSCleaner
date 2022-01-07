@@ -102,6 +102,7 @@ const a: string[] = [
 "slef",         // self
 "slepp",        // sleep
 "soem",         // some
+"srood",        // stood
 "staris",       // stairs
 "straigt",      // straight
 "superficail",  // superficial

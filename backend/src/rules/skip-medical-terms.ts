@@ -379,6 +379,7 @@ const a: RegExp[] = [
   /\bof\shead\b/gmi,
 
   // P
+  /\bpea?rl\ssize\s\d\sbrisk\b/gmi,
   /\bp(?:alsy|elvic|harma|harynx|helgm|hleugm|olio|ylori)\b/gmi,
   /\bpott['‘’`s]{1,2}\sfract\w+\b/gmi,
   /\bpimenta['‘’`s]{1,2}\spoint\b/gmi,
