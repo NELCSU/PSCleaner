@@ -2516,29 +2516,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 // G
 "gene",             // name
 "ger",              // name
-"gibbet",
-"gibbets",
-"gibbon",
-"gibbons",
-"giblet",
-"giblets",
-"gigolo",
-"gilded",
-"gilder",
-"gilders",
-"gilding",
-"gildings",
-"gill",
-"gills",
-"gilly",
-"gimble",
-"gird",
-"girder",
-"girdle",
-"girdler",
-"girdlers",
-"girdles",
-"girlie",
+"gilly",            // name & placenames (7)
+"girlie",           // name
 "girling",          // name & placenames (5)
 "girly",            // name
 "giro",             // name

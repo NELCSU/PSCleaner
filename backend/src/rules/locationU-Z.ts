@@ -160,6 +160,7 @@ const a: RegExp[] = [
 /\bvoyagers\sclose\b/gmi,
 
 // WA
+/\bwalcot\snear\sfolkingham\b/gmi,
 /\bwatton[\s-]at[\s-]stone\b/gmi,
 /\bwalesby\stop\b/gmi,
 /\bwalk\s(?:coppice|copse|crab\stree\splantation|farm\sdrive|gorse|haw\s(?:champer|scar))\b/gmi,

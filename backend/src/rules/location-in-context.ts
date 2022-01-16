@@ -891,6 +891,24 @@ const a: RegExp[] = [
 /(?<=(?:TQ1)).{2,25}\bgiant\srock\b/gi,
 /\bgiant\srock\b(?=.{2,20}(?:TQ1))/gi,
 
+// GILDERS
+/[\d-]+\sgilders\b/gi,
+/(?<=(?:CM21)).{2,25}\bgilders\b/gi,
+/\bgilders\b(?=.{2,20}(?:CM21))/gi,
+
+// GILLS
+/[\d-]+\sthe\sgills\b/gi,
+/(?<=(?:KW1)).{2,25}\bgills\b/gi,
+/\bgills\b(?=.{2,20}(?:KW1))/gi,
+/(?<=(?:LS2[17])).{2,25}\bthe\sgills\b/gi,
+/\bthe\sgills\b(?=.{2,20}(?:LS2[17]))/gi,
+
+// GIRDLE
+/(?<=(?:TD14|DD10)).{2,25}\bgirdle\b/gi,
+/\bgirdle\b(?=.{2,20}(?:TD14|DD10))/gi,
+/(?<=(?:AB39|AB56)).{2,25}\bthe\sgirdles\b/gi,
+/\bthe\sgirdles\b(?=.{2,20}(?:AB39|AB56))/gi,
+
 // GLEN
 /(?<=(?:OL13)).{2,25}\bglen\stop\b/gi,
 /\bglen\stop\b(?=.{2,20}(?:OL13))/gi,
