@@ -64,11 +64,17 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 // EY
 "eye",
 
+// FE
+"fens",
+
 // FO
 "foot",
 
 // FR
 "frisby",
+
+// FU
+"fuller",
 
 // GA
 "garden",
@@ -87,8 +93,10 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "ground",
 
 // HA
+"hacking",
 "had",
 "hammer",
+"harp",
 
 // HE
 "head",

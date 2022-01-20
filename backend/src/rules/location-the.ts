@@ -94,7 +94,7 @@ export const LocationTheRegEx: RegExp[] = [
   // F
   /\bThe\sFar(?:m|mlands|mstead|riers|things)\b/gm,
   /\bThe\sFa(?:irground|irways?|lcon|lconers|lcons|lls?|n|wn)\b/gm,
-  /\bThe\sFe(?:athers|eder|ll(?:s|\sWay)?|llows|n|rries|rry|rns)\b/gm,
+  /\bThe\sFe(?:athers|eder|ll(?:s|\sWay)?|llows|rries|rry|rns)\b/gm,
   /\bThe\sFid(?:dle|dlers)\b/gm,
   /\bThe\sFi(?:elders|ndings|rs|sheries|sher[sy]|ve\sSprings)\b/gm,
   /\bThe\sFla(?:gs|sh|shes)\b/gm,

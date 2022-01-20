@@ -753,6 +753,11 @@ const a: RegExp[] = [
 /(?<=(?:DG8|LA12|NE47|BB9|BD16).{2,10})\bfell\swood\b/gi,
 /\bfell\swood\b(?=.{2,10}(?:DG8|LA12|NE47|BB9|BD16))/gi,
 
+// FEN(S)
+/[\d-]+\sthe\sfens?\b/gi,
+/(?<=(?:NR15|PE28|EH41|IP28|TS27|PE13).{2,10})\bthe\sfens?\b/gi,
+/\bthe\sfens?\b(?=.{2,10}(?:NR15|PE28|EH41|IP28|TS27|PE13))/gi,
+
 // FENCE
 /\bthe\sfence\b(?=.{2,10}(?:GL15|hamlet))/gi,
 /(?<=(?:GL15|hamlet).{2,10})\bthe\sfence\b/gi,
@@ -826,6 +831,11 @@ const a: RegExp[] = [
 /[\d-]+\sthe\sforest\b/gi,
 /\bthe\sforest\b(?=.{2,10}(?:CM1[34]|CT14|DD8|DG11|DG[28]|DL13|E1[17]|EX13|FK10|GL53|GU31|IP16|IP24|KT2[14]|LA8|LD3|NG33|NP4|NR24|OX25|PO9|SY16|SY21|SY[47]|TN26|TN8|TS15|WR9|WV16))/gi,
 /(?<=(?:CM1[34]|CT14|DD8|DG11|DG[28]|DL13|E1[17]|EX13|FK10|GL53|GU31|IP16|IP24|KT2[14]|LA8|LD3|NG33|NP4|NR24|OX25|PO9|SY16|SY21|SY[47]|TN26|TN8|TS15|WR9|WV16).{2,10})\bthe\sforest\b/gi,
+
+// FOSTER
+/[\d-]+\sfosters\b/gi,
+/\bfosters\b(?=.{2,10}(?:DT9))/gi,
+/(?<=(?:DT9).{2,10})\bfosters\b/gi,
 
 // FRESHWATER
 /\bfreshwater\b(?=.{2,10}(?:PO40))/gi,

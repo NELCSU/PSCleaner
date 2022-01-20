@@ -227,6 +227,18 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "earthly",
 "earthy",
 
+// EB
+"ebbing",
+
+// EC
+"eclipse",
+
+// EE
+"eels",
+
+// EG
+"eggs",
+
 // EL
 "elves",
 "elvish",
@@ -253,6 +265,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "fearless",
 "fel",
 "fell",
+"fenman",
 "ferment",
 "fetcher",
 "fetish",
@@ -334,10 +347,12 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "fruits",
 
 // FU
+"fuchsia",
 "fungi",
 "funk",
 "furnish",
 "furrier",
+"fusilier",
 
 // GA
 "gaffer",
@@ -435,7 +450,10 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "gum",
 
 // HA
+"hack",
+"hacker",
 "hammock",
+"harms",
 
 // HE
 "healing",

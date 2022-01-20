@@ -897,6 +897,7 @@ const a: RegExp[] = [
 /\bsolvents\sroad\b/gmi,
 /\bsough\stop\b/gmi,
 /\bsound\sprimary\sschool\b/gmi,
+/\bsouth\sexit\sroad\b/gmi,
 /\bsoy\s(?:avenue|burn\sgardens)\b/gmi,
 /\bsowerby\scut\b/gmi,
 /\bsourton\stors\b/gmi,

@@ -77,6 +77,7 @@ const a: RegExp[] = [
 /\baisle\sroad\b/gmi,
 
 // AL
+/\ballt\seisteddfod\b/gmi,
 /\balder\scar\b/gmi,
 /\balbert\sball\sclose\b/gmi,
 /\ballt\scraig[\s-]lantern\b/gmi,
