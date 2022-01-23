@@ -452,11 +452,21 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 // HA
 "hack",
 "hacker",
+"haft",
+"haggis",
+"hailing",
+"hailstone",
+"hake",
+"hallmark",
 "hammock",
 "harms",
 
 // HE
 "healing",
+"henyard",
+"herbage",
+"herder",
+"herding",
 
 // HO
 "holding",

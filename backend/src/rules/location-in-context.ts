@@ -967,6 +967,23 @@ const a: RegExp[] = [
 /(?<=(?:SA73)).{2,25}\bgrid\siron\b/gi,
 /\bgrid\siron\b(?=.{2,20}(?:SA73))/gi,
 
+// HAGS
+/[\d-]+\sthe\shags\b/gi,
+/(?<=(?:BL9)).{2,25}\bthe\shags\b/gi,
+/\bthe\shags\b(?=.{2,20}(?:BL9))/gi,
+
+// HALFMOON
+/(?<=(?:NR25)).{2,25}\bhalfmoon\b/gi,
+/\bhalfmoon\b(?=.{2,20}(?:NR25))/gi,
+
+// HALLOW
+/(?<=(?:DN21)).{2,25}\bhallowed\slands\b/gi,
+/\bhallowed\slands\b(?=.{2,20}(?:DN21))/gi,
+
+// HAM
+/(?<=(?:BA3|CT14|EX13|GL13|GL52|PL2|SN8|SP8|TA2[01]|TA[39]|TW10|ZE2|hamlet|village)).{2,25}\bham\b/gi,
+/\bham\b(?=.{2,20}(?:BA3|CT14|EX13|GL13|GL52|PL2|SN8|SP8|TA2[01]|TA[39]|TW10|ZE2|hamlet|village))/gi,
+
 // HAMMER
 /(?<=(?:GU27|KW1|village)).{2,25}\bhammer\b/gi,
 /\bhammer\b(?=.{2,20}(?:GU27|KW1|village))/gi,
@@ -974,6 +991,11 @@ const a: RegExp[] = [
 // HANDBALL
 /(?<=(?:EX35)).{2,25}\bhandball\b/gi,
 /\bhandball\b(?=.{2,20}(?:EX35))/gi,
+
+// HARBOUR
+/[\d-]+\sthe\sharbour\b/gi,
+/\bthe\sharbour\b(?=.{2,20}(?:CT9|DL8|FY4|KY11|ME17|NR23|PA75|SA16|SA62|TD15|YO15|ZE2))/gi,
+/(?<=(?:CT9|DL8|FY4|KY11|ME17|NR23|PA75|SA16|SA62|TD15|YO15|ZE2)).{2,25}\bthe\sharbour\b/gi,
 
 // HEAD
 /[\d-]+\sthe\sheads\b/gi,

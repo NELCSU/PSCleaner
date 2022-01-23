@@ -2756,46 +2756,20 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "gypsy",            // name & placenames (17)
 
 // H
-"hacienda",
-"hackle",
-"haddock",
-"haddocks",
-"hades",
-"haem",
-"haft",
-"hag",
-"haggard",
-"haggis",
-"hags",
-"hagworm",
-"hah",
-"haha",
-"haiku",
-"hailing",
-"hailstone",
-"hailstones",
-"hake",
-"hakea",
-"halberd",
-"halberdier",
-"hale",
-"hales",
-"halfmoon",
-"halfpence",
-"halfpenny",
-"halibut",
-"hallelujah",         // name
-"hallmark",
-"hallow",
-"hallowed",
+"hag",              // name & placenames (58)
+"hah",              // name
+"hale",             // name & placenames (115)
+"hales",            // name & placenames (34)
+"halfpenny",        // name & placenames (27)
+"hallelujah",       // name
+"hallow",           // name & placenames (10)
 "hallowing",
 "hallows",
 "halls",
-"halo",               // name
-"halt",
+"halo",             // name
 "halter",
 "halters",
-"ham",
+"ham",              // name & placenames (139)
 "hamlet",
 "hamlets",
 "hammerer",
@@ -2940,18 +2914,10 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hen",
 "henchman",
 "henhouse",
-"henna",
-"hens",
-"henyard",
-"herb",
-"herbaceous",
-"herbage",
-"herbivore",
-"herd",
-"herder",
-"herders",
-"herding",
-"herds",
+"henna",            // name & placenames (3)
+"hens",             // name & placenames (5)
+"herb",             // name & placenames (8)
+"herbivore",        // name
 "hilltop",          // standalone & placenames (37)
 "hilltops",         // standalone
 "highpoint",        // standalone

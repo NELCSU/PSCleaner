@@ -273,13 +273,13 @@ const a: RegExp[] = [
 /\b(?:pennar|pill['‘’`s]{1,2}|pool|portledge|sea|south|speke['‘’`s]{1,2}\smill)\smouth\b/gmi,
 /\b(?:st\sgabriel['‘’`s]{1,2}|stanbury|stoke|stony|tees|the\sgoat|thurne|tyne|wanson|water)\smouth\b/gmi,
 /\b(?:welcombe|well|went|weston|whales|wilder['‘’`s]{1,2}|yeol)\smouth\b/gmi,
-/\b(?:channel\smouth\sroad|derwent\smouth(?:\slock)?|gape\smouth\sroad)\b/gmi,
 /\b(?:northcott\smouth(?:\s(?:beach|road))?|ovens\smouth\swood|sandy\smouth\sbeach|wharfe['‘’`s]{1,2}\smouth(?:\sness)?)\b/gmi,
 /\bmouth\s(?:bridge\splantation|covert|lane|plantation|of\sthe\skirn|stone)\b/gmi,
 /\b(?:mowing\swoods|mowing['‘’`s]{1,2}\slane)\b/gmi,
 /\bmontrose\s(?:and|\&)\sdistrict\b/gmi,
 
 // MU
+/\bmurton\sherds\b/gmi,
 /\bmuckle\sred\scraig\b/gmi,
 /\bmu\s(?:geo|ness|stack)\b/gmi,
 /\bmud\s(?:dock|home\sspinney|house\scopse|lane|point|road|row|wood)\b/gmi,
@@ -757,13 +757,15 @@ const a: RegExp[] = [
 /\bpans\sgoat\b/gmi,
 /\bpa(?:cks|dock|vilions)\sclose\b/gmi,
 /\bpa(?:ddlers|geantmaster)\scourt\b/gmi,
-/\bpa(?:d\scote|dding|rt(?:way)?|st)\slane\b/gmi,
+/\bpa(?:d\scote|dding|rt(?:way)?)\slane\b/gmi,
+/\bpast\slane\b/gmi,
 /\bpalestine\s(?:grove|plantation|road)\b/gmi,
 /\bpartnership\s(?:court|way)\b/gmi,
 /\bpartway\scoppice\b/gmi,
 /\bparc\san\sstamps\b/gmi,
 
 // PE
+/\bpetersfield\shangers\b/gmi,
 /\bpen\sbwlch\sllandrillo\stop\b/gmi,
 /\bpen\sy\smaen\snorth\stop\b/gmi,
 /\bpenllyn\sforest\stop\b/gmi,

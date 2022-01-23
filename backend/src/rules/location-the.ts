@@ -125,7 +125,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sGu(?:ards?|ides\sFlat|ild|n|t|tter|vnor['‘’`s]{1,2}\sBelt|ys)\b/gm,
 
   // H
-  /\bThe\sHa(?:lve|ngers?|nging|ngs|rbour|rd(?:\sInterchange)?|t)\b/gm,
+  /\bThe\sHa(?:lve|ngers?|nging|ngs|rd(?:\sInterchange)?|t)\b/gm,
   /\bThe\sHe(?:adway|ath|edge\s?[Rr]ow|dges|ights?|ritage|rmitage|rons?|xagon)\b/gm,
   /\bThe\sHigh(?:lands|light|way|\sSchool)?\b/gm,
   /\bThe\sHi(?:des?|deaway|lls?|llocks?|ves?)\b/gm,

@@ -94,7 +94,12 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 
 // HA
 "hacking",
+"hackle",
 "had",
+"haddock",
+"hades",
+"haggard",
+"halt",
 "hammer",
 "harp",
 
@@ -102,6 +107,7 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "head",
 "heal",
 "hedge",
+"herd",
 
 // HI
 "high",

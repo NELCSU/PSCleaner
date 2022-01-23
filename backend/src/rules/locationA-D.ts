@@ -1003,6 +1003,7 @@ const a: RegExp[] = [
 /\bcentury\s(?:avenue|belt|close|court|drive|fields|gardens|lane|lodge|mews|park|place|plantation|ponds|road|square|street|view|walk|way|wood)\b/gmi,
 
 // CH
+/\bchannel\smouth\sroad\b/gmi,
 /\bchapelfell\stop\b/gmi,
 /\bchurch\sscore\b/gmi,
 /\bchilds\s(?:avenue|close|crescent|hall\s(?:close|drive|road)|hill(?:\sprimary)?|lane|oak\sclose|road|terrace|way)\b/gmi,
@@ -1171,6 +1172,7 @@ const a: RegExp[] = [
 /\bcnoc\sstaing\b/gmi,
 
 // CO
+/\bcollin\shags\b/gmi,
 /\bcoed\ssolfa\swaen\b/gmi,
 /\bcourt[\s-]at[\s-]street\b/gmi,
 /\bcombe\sdoor\stop\b/gmi,
@@ -1637,6 +1639,7 @@ const a: RegExp[] = [
 /\bczarina\srise\b/gmi,
 
 // DA
+/\bdan['‘’`s]{1,2}\shags\b/gmi,
 /\bdale\stop\b/gmi,
 /\bdanes\s(?:avenue|bottom|['‘’`s]{1,2}\sbottom|brook\sclose|camp\sway|copse|court|crescent|crest)\b/gmi,
 /\bdanes\s(?:croft|drive|dyke|gardens|gate|['‘’`s]{0,2}\sgraves\s(?:plantation|wood)|green|hill\spre-preparatory\sschool)\b/gmi,
@@ -1672,6 +1675,7 @@ const a: RegExp[] = [
 /\bdarks\sroad\b/gmi,
 
 // DE
+/\bderwent\smouth(?:\slock)?\b/gmi,
 /\bdean\stop\b/gmi,
 /\bdelph\stop\b/gmi,
 /\bdeep\s(?:acres|carrs\slane|cleu[cg]h|clough(?:\scoppice)?|clump|coombe(?:\sroad)?)\b/gmi,
