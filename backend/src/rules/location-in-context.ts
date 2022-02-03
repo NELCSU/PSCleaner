@@ -997,6 +997,27 @@ const a: RegExp[] = [
 /\bthe\sharbour\b(?=.{2,20}(?:CT9|DL8|FY4|KY11|ME17|NR23|PA75|SA16|SA62|TD15|YO15|ZE2))/gi,
 /(?<=(?:CT9|DL8|FY4|KY11|ME17|NR23|PA75|SA16|SA62|TD15|YO15|ZE2)).{2,25}\bthe\sharbour\b/gi,
 
+// HARBOURSIDE
+/[\d-]+\sharbourside\b/gi,
+/\bharbourside\b(?=.{2,20}(?:GL20|PO9|PA16))/gi,
+/(?<=(?:GL20|PO9|PA16)).{2,25}\bharbourside\b/gi,
+
+// HARDEN
+/[\d-]+\shardens\sclose\b/gi,
+/\bhardens\sclose\b(?=.{2,20}(?:SN15))/gi,
+/(?<=(?:SN15)).{2,25}\bhardens\sclose\b/gi,
+/\bharden\b(?=.{2,20}(?:BD16|WS3|HD9|hamlet|village))/gi,
+/(?<=(?:BD16|WS3|HD9|hamlet|village)).{2,25}\bharden\b/gi,
+
+// HARDWOOD
+/\bthe\shardwood\b(?=.{2,20}(?:NR21))/gi,
+/(?<=(?:NR21)).{2,25}\bthe\shardwood\b/gi,
+
+// HARROWING
+/[\d-]+\sharrowing\sdrive\b/gi,
+/\bharrowing\sdrive\b(?=.{2,20}(?:YO21))/gi,
+/(?<=(?:YO21)).{2,25}\bharrowing\sdrive\b/gi,
+
 // HEAD
 /[\d-]+\sthe\sheads\b/gi,
 /[\d-]+\shead\sdown\b/gi,

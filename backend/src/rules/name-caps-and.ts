@@ -2778,36 +2778,20 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "hams",
 "hamsters",
 "hander",
-"hangdog",
 "hangup",
 "hansard",
-"harbourside",
-"harden",
-"hardens",
-"harder",
-"hardest",
-"hardwood",
-"hardwoods",
-"hardy",              // name
-"hare",
-"harem",
-"hares",
-"harim",
-"haring",
-"harken",
-"harking",
-"harlots",
-"harmer",
-"harmers",
+"harder",           // name
+"hardy",            // name
+"hare",             // name & placenames (149)
+"harem",            // name
+"harim",            // name
 "harmony",          // name
 "harper",           // name & placenames (55)
-"harpers",
 "harps",
 "harpy",
 "harridan",
 "harried",
 "harries",
-"harrowing",
 "harvest",
 "harvester",
 "harvesters",
