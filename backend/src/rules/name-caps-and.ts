@@ -2763,23 +2763,9 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "halfpenny",        // name & placenames (27)
 "hallelujah",       // name
 "hallow",           // name & placenames (10)
-"hallowing",
-"hallows",
-"halls",
 "halo",             // name
-"halter",
-"halters",
 "ham",              // name & placenames (139)
-"hamlet",
-"hamlets",
-"hammerer",
-"hamper",
-"hampers",
-"hams",
-"hamsters",
-"hander",
-"hangup",
-"hansard",
+"hamlet",           // name & placenames (47)
 "harder",           // name
 "hardy",            // name
 "hare",             // name & placenames (149)

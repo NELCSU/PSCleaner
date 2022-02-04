@@ -980,13 +980,34 @@ const a: RegExp[] = [
 /(?<=(?:DN21)).{2,25}\bhallowed\slands\b/gi,
 /\bhallowed\slands\b(?=.{2,20}(?:DN21))/gi,
 
+// HALTER
+/[\d-]+\sthe\shalters\b/gi,
+/(?<=(?:RG14)).{2,25}\bthe\shalters\b/gi,
+/\bthe\shalters\b(?=.{2,20}(?:RG14))/gi,
+
 // HAM
+/[\d-]+\sthe\shams\b/gi,
+/(?<=(?:EX2)).{2,25}\bthe\sham\b/gi,
+/\bthe\sham\b(?=.{2,20}(?:EX2))/gi,
 /(?<=(?:BA3|CT14|EX13|GL13|GL52|PL2|SN8|SP8|TA2[01]|TA[39]|TW10|ZE2|hamlet|village)).{2,25}\bham\b/gi,
 /\bham\b(?=.{2,20}(?:BA3|CT14|EX13|GL13|GL52|PL2|SN8|SP8|TA2[01]|TA[39]|TW10|ZE2|hamlet|village))/gi,
+
+// HAMLET
+/[\d-]+\shamlet\b/gi,
+/[\d-]+\sthe\shamlet\b/gi,
+/(?<=(?:G74|DT9|EX14|hamlet)).{2,25}\bhamlet\b/gi,
+/\bhamlet\b(?=.{2,20}(?:G74|DT9|EX14|hamlet))/gi,
+/(?<=(?:BA8|BL6|BS48|CB6|CH4|CM15|CV35|DE55|DE75|DN14|FY8|HP4|PR7|RG4|SE5|SN15|WS11)).{2,25}\bthe\shamlet\b/gi,
+/\bthe\shamlet\b(?=.{2,20}(?:BA8|BL6|BS48|CB6|CH4|CM15|CV35|DE55|DE75|DN14|FY8|HP4|PR7|RG4|SE5|SN15|WS11))/gi,
 
 // HAMMER
 /(?<=(?:GU27|KW1|village)).{2,25}\bhammer\b/gi,
 /\bhammer\b(?=.{2,20}(?:GU27|KW1|village))/gi,
+
+// HAMSTER
+/[\d-]+\shamsters\sclose\b/gi,
+/\bhamsters\sclose\b(?=.{2,20}(?:CO9))/gi,
+/(?<=(?:CO9)).{2,25}\bhamsters\sclose\b/gi,
 
 // HANDBALL
 /(?<=(?:EX35)).{2,25}\bhandball\b/gi,

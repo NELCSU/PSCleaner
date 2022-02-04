@@ -992,6 +992,16 @@ const a: RegExp[] = [
 /\bgypsum\s(?:close|way)\b/gmi,
 
 // HA
+/\bhallowing\s(?:crescent|lane)\b/gmi,
+/\bhallows\s(?:avenue|close|court|drive|farm\savenue|grove|road)\b/gmi,
+/\bhalls\s(?:brook|close|corner(?:\slane)?|court|crescent|drift|drive|farm\s(?:close|lane)|garden|green|grove|hill|lane|mead|meadow\sclose|road|vennal|way|wood)\b/gmi,
+/\bhalter\s(?:close|path(?:\sdrove)?|rise|slade|way)\b/gmi,
+/\bhalters\send\b/gmi,
+/\bhamlets\sway\b/gmi,
+/\bhamper\slane\b/gmi,
+/\bhampers\s(?:common|green|lane|wood)\b/gmi,
+/\bhams\s(?:close|copse|end|field|hall|lane|road|way|wood)\b/gmi,
+/\bhansard\s(?:close|court|crescent|drive|gate|lane|mews|road|way)\b/gmi,
 /\bharem\shill\b/gmi,
 /\bhare['‘’`s]{1,2}\s(?:avenue|bank|chase|close|down|green|grove|hill(?:\sclose)?|lane|leap|mount|nick|patch|plantation|road|run|terrace|view|walk|wood)\b/gmi,
 /\bharking\shill\b/gmi,

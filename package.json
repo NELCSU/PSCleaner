@@ -8,6 +8,7 @@
     "@buckneri/nhs-number": "^0.2.0",
     "@buckneri/string": "^1.0.0",
     "@buckneri/web-components": "^1.0.0",
+    "ansi-regex": "^6.0.1",
     "chokidar": "^3.5.3",
     "debounce": "^1.2.1",
     "dotenv": "^16.0.0",
