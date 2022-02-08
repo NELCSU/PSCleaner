@@ -763,6 +763,7 @@ const a: RegExp[] = [
 /\bpartnership\s(?:court|way)\b/gmi,
 /\bpartway\scoppice\b/gmi,
 /\bparc\san\sstamps\b/gmi,
+/\bparting\sof\sthe\sheaths\b/gmi,
 
 // PE
 /\bpetersfield\shangers\b/gmi,

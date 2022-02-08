@@ -1003,6 +1003,7 @@ const a: RegExp[] = [
 /\bcentury\s(?:avenue|belt|close|court|drive|fields|gardens|lane|lodge|mews|park|place|plantation|ponds|road|square|street|view|walk|way|wood)\b/gmi,
 
 // CH
+/\bchasewater\sheaths\b/gmi,
 /\bchannel\smouth\sroad\b/gmi,
 /\bchapelfell\stop\b/gmi,
 /\bchurch\sscore\b/gmi,

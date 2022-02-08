@@ -113,6 +113,8 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 // HE
 "head",
 "heal",
+"heavens",
+"heck",
 "hedge",
 "herd",
 

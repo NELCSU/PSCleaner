@@ -1139,6 +1139,17 @@ const a: RegExp[] = [
 /\bhackle\s(?:drive|rock|street)\b/gmi,
 
 // HE
+/\bheck\s(?:and\spollington\slane|crag|dale|gill\slane|hall\swood|hill|ings\slane|lane|plantation)\b/gmi,
+/\bheavens\s(?:lea|rise|walk|wood)\b/gmi,
+/\bheckler\s(?:close|lane)\b/gmi,
+/\bhecklers\swynd\b/gmi,
+/\bhedgehog\s(?:avenue|close|crescent|gardens|knowe\splantation|lane|road|walk|way)\b/gmi,
+/\bheaths\slane\b/gmi,
+/\bheathery\s(?:brae\swood|carrs?|cleugh|covert|dam|edge|face\swood|grange\swood|hall\swood|haven|heugh)\b/gmi,
+/\bheathery\s(?:hill(?:\s(?:plantation|wood))?|holm|isle(?:\spool)?|knowe|lane|lea\s(?:avenue|covert)|loan)\b/gmi,
+/\bheathery\s(?:moss|park|plantation|rig(?:\splantation)?|road|spinney|strip|taing|ward\swood|wood)\b/gmi,
+/\bheathers\s(?:close|copse|croft|furze\sfield|land)\b/gmi,
+/\bheathen\s(?:grove|street|wood)\b/gmi,
 /\bherbaceous\s(?:court|gardens)\b/gmi,
 /\bherbage\s(?:flat|grove|hill|moss|park\sroad|view)\b/gmi,
 /\bherd\s(?:close|crescent|drive|green|hill|house\s(?:lane|moss)|lane|naze|sand|stock\shill|street|terrace)\b/gmi,

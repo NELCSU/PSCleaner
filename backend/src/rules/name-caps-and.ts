@@ -2845,21 +2845,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "heartwood",
 "hearty",
 "heath",            // name & placenames (1k+)
-"heathen",
 "heather",          // name
-"heathers",
-"heathery",
-"heaths",
-"heaveho",
 "heavenly",         // name
-"heavens",
-"heck",
-"heckle",
-"heckler",
-"hecklers",
-"heckles",
-"hectare",
-"hedgehog",
 "hedgerows",        // standalone & placenames (3)
 "heft",
 "heh",

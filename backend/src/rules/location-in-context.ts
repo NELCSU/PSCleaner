@@ -1053,6 +1053,24 @@ const a: RegExp[] = [
 /(?<=(?:DN41|village|station)).{2,25}\bhealing\b/gi,
 /\bhealing\b(?=.{2,20}(?:DN41|village|station))/gi,
 
+// HEATHER
+/[\d-]+\sthe\sheathers\b/gi,
+/(?<=(?:CF62|DH7|EX20|FY6|LS29|NG22|NG31|NN29|PL26|PL6|PR5|SK2|SO50|TN17|TW19|WF4|WR11|WS12)).{2,25}\bthe\sheathers\b/gi,
+/\bthe\sheathers\b(?=.{2,20}(?:CF62|DH7|EX20|FY6|LS29|NG22|NG31|NN29|PL26|PL6|PR5|SK2|SO50|TN17|TW19|WF4|WR11|WS12))/gi,
+
+// HECK
+/(?<=(?:DG11|hamlet)).{2,25}\bheck\b/gi,
+/\bheck\b(?=.{2,20}(?:DG11|hamlet))/gi,
+
+// HECKLE
+/(?<=(?:KW17)).{2,25}\bheckle\b/gi,
+/\bheckle\b(?=.{2,20}(?:KW17))/gi,
+
+// HECTARE
+/[\d-]+\sthe\shectare\b/gi,
+/(?<=(?:CB22)).{2,25}\bthe\shectare\b/gi,
+/\bthe\shectare\b(?=.{2,20}(?:CB22))/gi,
+
 // HIGH
 /[\d-]+\shigh\s(?:fell|pavement)\b/gi,
 /(?<=(?:TS10|LA2[12]|WS15)).{2,25}\bhigh\sf[ae]ll\b/gi,
