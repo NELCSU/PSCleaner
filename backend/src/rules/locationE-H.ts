@@ -128,6 +128,7 @@ const a: RegExp[] = [
 /\bequine\sway\b/gmi,
 
 // ER
+/\beric\sleader\sclose\b/gmi,
 /\berith\s(?:and|\&)\sdistrict\b/gmi,
 
 // ES
@@ -744,6 +745,7 @@ const a: RegExp[] = [
 /\bglas[\s-](?:eilean(?:\scourt)?:|eileanan|fryn|goed|heulog|ifor|leac|leathad|loch|maol)\b/gmi,
 /\bglas[\s-](?:meadow\slane|mheall|pheighinn|phort|sgeir|staoin|tulaichean|uig|y[\s-](?:llwyn|gors|pant))\b/gmi,
 /\bglasgow\sharbour\sterraces\b/gmi,
+/\bglen\slean\b/gmi,
 /\bglyne\sascent\b/gmi,
 /\bglutton\s(?:bridge|dale)\b/gmi,
 /\bglades\sclose\b/gmi,

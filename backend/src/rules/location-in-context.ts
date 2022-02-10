@@ -1423,6 +1423,18 @@ const a: RegExp[] = [
 /(?<=(?:LE17).{2,10})\bleaders\sway\b/gi,
 /\bleaders\sway\b(?=.{2,10}(?:LE17))/gi,
 
+// LEEK
+/(?<=(?:ST13).{2,10})\bleek\b/gi,
+/\bleek\b(?=.{2,10}(?:ST13))/gi,
+
+// LEEWAY
+/[\d-]+\sleeway\b/gi,
+/(?<=(?:SE8|DE21).{2,10})\bleeway\b/gi,
+/\bleeway\b(?=.{2,10}(?:SE8|DE21))/gi,
+/[\d-]+\sthe\sleeway\b/gi,
+/(?<=(?:CM3|HR4|TS3).{2,10})\bthe\sleeway\b/gi,
+/\bthe\sleeway\b(?=.{2,10}(?:CM3|HR4|TS3))/gi,
+
 // LINK
 /(?<=(?:WR14).{2,10})\blink\stop\b/gi,
 /\blink\stop\b(?=.{2,10}(?:WR14))/gi,

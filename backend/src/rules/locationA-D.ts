@@ -657,6 +657,7 @@ const a: RegExp[] = [
 /\bbold\sventure\sway\b/gmi,
 
 // BR
+/\bbridge\sof\slead\spot\b/gmi,
 /\bbram\srigg\stop\b/gmi,
 /\bbrand\stop\b/gmi,
 /\bbrigsley\stop\b/gmi,
@@ -1170,7 +1171,7 @@ const a: RegExp[] = [
 /\b(?:guards|sailing|social)\sclub\s(?:drive|lane|road)\b/gmi,
 
 // CN
-/\bcnoc\sstaing\b/gmi,
+/\bcnoc\s(?:lean|staing)\b/gmi,
 
 // CO
 /\bcollin\shags\b/gmi,

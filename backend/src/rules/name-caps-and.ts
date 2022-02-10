@@ -3395,16 +3395,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "leech",
 "leeches",
 "leed",           // name
-"leek",
-"leeks",
-"leer",
-"leers",
-"leeway",
-"legato",
-"legged",
 "leggins",        // name
 "leghorn",
-"legion",
 "lemma",
 "lemming",
 "lemmings",
@@ -3413,16 +3405,11 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "lemur",
 "lento",
 "leopard",
-"leprechaun",
 "lepton",
 "lessen",
 "lever",
 "levers",
-"leviathan",
 "levy",             // name
-"liars",
-"liberator",
-"libertine",
 "liberty",          // name
 "libra",
 "libretti",

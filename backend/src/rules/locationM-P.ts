@@ -110,6 +110,9 @@ const a: RegExp[] = [
 /\bmarton\s(?:and|\&)\sdistrict\b/gmi,
 /\bmarks\stey\sand\slayer\b/gmi,
 
+// MC
+/\bmc\s*lean\splace\b/gmi,
+
 // ME
 /\bmelons\s(?:avenue|wood)\b/gmi,
 /\bmellitus\sstreet\b/gmi,
@@ -137,6 +140,8 @@ const a: RegExp[] = [
 /\bmetropolitan\s(?:close|drive|mews|pit|station)\b/gmi,
 
 // MI
+/\bMiddle\sLevel\b/gm,
+/\b(?:Mid|Mill)\sLead\b/gm,
 /\bmill\shill\stop\b/gmi,
 /\bminty['‘’`s]{1,2}\stop\b/gmi,
 /\bmillwall\sinner\sdock\b/gmi,
@@ -398,6 +403,7 @@ const a: RegExp[] = [
 /\bnine\s(?:standards\srigg|stiles\sclose|stone\s(?:rig|wood)|streams\sreach|tree\shill|ways\splantation)\b/gmi,
 
 // NO
+/\bNorth\sLevel\b/gm,
 /\bnormanby\stop\b/gmi,
 /\bnorthern\sgeneral\shospital\b/gmi,
 /\bnorth\sexit\sroad\b/gmi,
