@@ -468,16 +468,14 @@ const a: RegExp[] = [
 /\bleviathan\s(?:close|way)\b/gmi,
 
 // LI
+/\bliquorice\s(?:court|lane|way)\b/gmi,
 /\bliberator\s(?:close|court|crescent|drive|lane|place|road|row|way)\b/gmi,
 /\blittle\s(?:crabs|english\sisland|high\srock|merrick|rag|rushy\sbay)\sledge\b/gmi,
 /\bLittle\sLedge\b/gm,
-/\blittle\sburnt\scoppice\b/gmi,
-/\blittle\sscore\b/gmi,
 /\blincoln\sred\sclose\b/gmi,
-/\blittle\sred\swood\b/gmi,
 /\blivera\stongue\b/gmi,
 /\blight\sfoot\slane\b/gmi,
-/\blittle\s(?:ball\scopse|week\s(?:close|gardens|road))\b/gmi,
+/\blittle\s(?:ball\scopse|week\s(?:close|gardens|road)|burnt\scoppice|red\swood|score)\b/gmi,
 /\bliddells\sfell\sroad\b/gmi,
 /\bli(?:ly|mestones|ng)\sfell\b/gmi,
 /\blittle\s(?:dun|ewe|harter|mell|sca|stags)\sfell\b/gmi,

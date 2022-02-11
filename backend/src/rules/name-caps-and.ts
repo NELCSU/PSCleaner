@@ -1134,7 +1134,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "castaway",
 "castings",
 "castles",
-"castoff",
 "castrato",
 "catamaran",
 "catchy",
@@ -3366,7 +3365,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "laybys",
 "layman",
 "laymen",
-"layoff",
 "lays",
 "lazer",
 "lazier",
@@ -3425,11 +3423,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "liege",
 "lien",
 "liers",
-"liftoff",
 "lightbox",
 "lighty",         // name
-"liken",
-"likens",
 "lilac",          // name
 "lilacs",
 "limelight",
@@ -3452,7 +3447,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "lions",
 "lipoma",
 "lippy",
-"liquorice",
 "liquorish",
 "lira",           // name
 "lisped",
@@ -5305,7 +5299,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "ringers",
 "ringlet",
 "ringside",
-"ripoff",
 "ripper",
 "rippers",
 "ripple",
