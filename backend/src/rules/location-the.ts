@@ -156,7 +156,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sLau(?:nches|rels)\b/gm,
   /\bThe\sLa(?:ce\sMill|dle|kes?|irs?|rches|sh|w)\b/gm,
   /\bThe\sLe(?:ap|ases|e|igh|ndings|ngth|ss|vels?)\b/gm,
-  /\bThe\sLi(?:ght|nes?|nks?|on|p|st|zard)\b/gm,
+  /\bThe\sLi(?:nks|on|p|st|zard)\b/gm,
   /\bThe\sLittle\s(?:Belt|Boltons|Brook|Gonerby|Gorge|Horse\sShoe|Minch|Rooks|Rough|Ship)\b/gm,
   /\bThe\sLo(?:an|bby|ckers|ng\sS(?:hoot|traight)|rd['‘’`s]{1,2}\sHighway|ts|ttery|w)\b/gm,
   /\bThe\sLod(?:ge|gings)\b/gm,

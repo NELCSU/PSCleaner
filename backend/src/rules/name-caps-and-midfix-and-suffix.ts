@@ -134,6 +134,11 @@ export const ProperNameSetJoinMidfixSuffixOnly: Set<string> = new Set([
 "legion",
 "legs",
 
+// LI
+"limes",
+"liner",
+"lions",
+
 // LO
 "loo",
 "love",

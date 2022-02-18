@@ -468,6 +468,15 @@ const a: RegExp[] = [
 /\bleviathan\s(?:close|way)\b/gmi,
 
 // LI
+/\blightbox\slane\b/gmi,
+/\blimes\s(?:avenue|close|coppice|court|crescent|end|farm|field\sroad|gardens|grove|head|lane|paddcok|park(?:\sroad)?|place|plantation|road|row|shaw|view|walk|way|wood)\b/gmi,
+/\blimelight\savenue\b/gmi,
+/\blilacs\splace\b/gmi,
+/\bliner\swood\b/gmi,
+/\bliner['‘’`s]{1,2}\syard\b/gmi,
+/\blinseed\s(?:avenue|crescent|drive|grove|place|walk|way)\b/gmi,
+/\blint\s(?:gardens|holm|lands|lochs|meadow|mill\s(?:road|way)|riggs)\b/gmi,
+/\blions\s(?:bank|close|cross|drive|field|green|hill(?:\sway)?|holt|lane|mill|orchard|place|way|wood)\b/gmi,
 /\bliquorice\s(?:court|lane|way)\b/gmi,
 /\bliberator\s(?:close|court|crescent|drive|lane|place|road|row|way)\b/gmi,
 /\blittle\s(?:crabs|english\sisland|high\srock|merrick|rag|rushy\sbay)\sledge\b/gmi,

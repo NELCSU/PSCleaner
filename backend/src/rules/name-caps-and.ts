@@ -3423,31 +3423,21 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "liege",
 "lien",
 "liers",
-"lightbox",
 "lighty",         // name
 "lilac",          // name
-"lilacs",
-"limelight",
-"limerick",
-"limes",
+"limerick",       // name & placenames 
 "limestone",
 "limestones",
 "limos",
 "limousin",
 "limpet",
 "lineman",
-"liner",
-"lingerie",
-"lingua",
-"lino",
-"linseed",
-"lint",
-"lintel",
-"linter",
-"lions",
-"lipoma",
-"lippy",
-"liquorish",
+"lingua",         // name
+"lino",           // name
+"lintel",         // name
+"linter",         // name
+"lipoma",         // name
+"lippy",          // name
 "lira",           // name
 "lisped",
 "listing",
