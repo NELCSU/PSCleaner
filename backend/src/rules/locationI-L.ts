@@ -125,6 +125,7 @@ const a: RegExp[] = [
 /\bIron\s(?:Band|Bridge|Car|Dish|Duke|Foundry|Mine|Railway|Shovel)\b/gm,
 
 // IS
+/\bislay\slimpet\b/gmi,
 /\bissues\s(?:road|wood)\b/gmi,
 /\bisle\sof\sspar\b/gmi,
 
@@ -468,6 +469,9 @@ const a: RegExp[] = [
 /\bleviathan\s(?:close|way)\b/gmi,
 
 // LI
+/\blimpet\s(?:cove|craig|geo|ness|rocks|wood)\b/gmi,
+/\blimestones\s(?:fell|greens|plantation)\b/gmi,
+/\blimestone\b(?:brae|clough|cottage\slane|court|croft|drive|grove|hall\slane|hill|knowe|lane|link|plantation|rise|road|slack|way)\b/gmi,
 /\blightbox\slane\b/gmi,
 /\blimes\s(?:avenue|close|coppice|court|crescent|end|farm|field\sroad|gardens|grove|head|lane|paddcok|park(?:\sroad)?|place|plantation|road|row|shaw|view|walk|way|wood)\b/gmi,
 /\blimelight\savenue\b/gmi,
@@ -534,6 +538,11 @@ const a: RegExp[] = [
 /\bLNG\sterminal\b/gmi,
 
 // LO
+/\bloosely\shill\b/gmi,
+/\bloyalty\s(?:belt|close|court|lane|road|street)\b/gmi,
+/\blocksmith\s(?:close|wood)\b/gmi,
+/\blocomotive\s(?:court|drive|street|way|works)\b/gmi,
+/\blocomotion\s(?:court|lane|way)\b/gmi,
 /\bLower\sForest\sLevel\b/gmi,
 /\bLong\sLedge\b/gm,
 /\bLower\sLedge\b/gm,

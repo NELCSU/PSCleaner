@@ -3425,13 +3425,9 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "liers",
 "lighty",         // name
 "lilac",          // name
-"limerick",       // name & placenames 
-"limestone",
-"limestones",
-"limos",
-"limousin",
-"limpet",
-"lineman",
+"limerick",       // name & placenames
+"limos",          // name
+"limousin",       // name & placenames (2)
 "lingua",         // name
 "lino",           // name
 "lintel",         // name
@@ -3446,11 +3442,10 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "liting",
 "litte",
 "litter",
-"livelihoods",
 "livers",
 "livery",
 "llama",
-"llamas",
+"llamas",           // name
 "lo",               // name & placenames (7)
 "loader",
 "loaders",
@@ -3466,10 +3461,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "lockets",
 "locking",
 "locks",
-"locksmith",
 "loco",
-"locomotion",
-"locomotive",
 "locus",
 "locust",
 "lodges",
@@ -3497,7 +3489,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "loonies",
 "loons",
 "loos",
-"loosely",
 "loosen",
 "looser",
 "loots",
@@ -3514,8 +3505,8 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "lore",
 "lorel",
 "lorelei",          // name
-"lores",
-"loth",
+"lores",            // name
+"loth",             // name & placenames (2)
 "lotus",            // name
 "louche",
 "loud",
@@ -3533,7 +3524,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "lowlands",
 "lows",
 "loyal",            // name
-"loyalty",
 "lynch",            // name & standalone & placenames (46)
 "labrador",         // name & placenames (5)
 "labour",           // name & placenames (5)

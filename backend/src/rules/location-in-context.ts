@@ -1450,6 +1450,12 @@ const a: RegExp[] = [
 /(?<=(?:AL[17]|B24|BN1[68]|BR2|CB22|CH49|CM13|CM[24]|CM21|CO10|CO[79]|CV12|DE56|DE7|DN10|DN41|GL[279]|GU21|HP23|HP6|HU15|IP1[79]|IP2[259]|IP5|KT22|LE1[56]|LE67|LL12|LS25|ME2|MK11|MK2|MK45|NE12|NE61|NP26|NR24|OL5|OX10|OX2[79]|PE[578]|PL6|PO13|PO20|PO3[07]|RG2[26]|RG42|RH19|RM1[19]|S42|SG[578]|SL4|SO22|SO40|SP11|SP[347]|SS6|ST14|ST5|TN2[39]|TN8|WA3|WN6|WR5|WS1|WV[78]|YO13|YO32|YO62).{2,10})\bthe\slimes\b/gi,
 /\bthe\slimes\b(?=.{2,10}(?:AL[17]|B24|BN1[68]|BR2|CB22|CH49|CM13|CM[24]|CM21|CO10|CO[79]|CV12|DE56|DE7|DN10|DN41|GL[279]|GU21|HP23|HP6|HU15|IP1[79]|IP2[259]|IP5|KT22|LE1[56]|LE67|LL12|LS25|ME2|MK11|MK2|MK45|NE12|NE61|NP26|NR24|OL5|OX10|OX2[79]|PE[578]|PL6|PO13|PO20|PO3[07]|RG2[26]|RG42|RH19|RM1[19]|S42|SG[578]|SL4|SO22|SO40|SP11|SP[347]|SS6|ST14|ST5|TN2[39]|TN8|WA3|WN6|WR5|WS1|WV[78]|YO13|YO32|YO62))/gi,
 
+// LIMESTONE
+/(?<=(?:NE46).{2,10})\blimestone\sbank\b/gi,
+/\blimestone\sbank\b(?=.{2,10}(?:NE46))/gi,
+/(?<=(?:CB7|DE11|S81|IP6|WS9).{2,10})\blimestone\sclose\b/gi,
+/\blimestone\sclose\b(?=.{2,10}(?:CB7|DE11|S81|IP6|WS9))/gi,
+
 // LINE
 /[\d-]+\sthe\slines?\b/gi,
 /(?<=(?:HR9|HP22|RG20).{2,10})\bthe\slines?\b/gi,
@@ -1494,6 +1500,10 @@ const a: RegExp[] = [
 /[\d-]+\sthe\sloop\b/gi,
 /(?<=(?:PO22|KW14).{2,10})\bthe\sloops?\b/gi,
 /\bthe\sloops?\b(?=.{2,10}(?:PO22|KW14))/gi,
+
+// LOTH
+/(?<=(?:KW17).{2,10})\bloth\b/gi,
+/\bloth\b(?=.{2,10}(?:KW17))/gi,
 
 // LOW
 /[\d-]+\slow\spavement\b/gi,
