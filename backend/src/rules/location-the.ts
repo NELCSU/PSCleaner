@@ -150,7 +150,6 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sKn(?:ight|ights\sTemplar|ock|olls|otty\sLine)\b/gm,
   
   // L
-  /\bThe\sL\sStrip\b/gm,
   /\bThe\sLam(?:b|p|preys)\b/gm,
   /\bThe\sLan(?:cers|dings|ds?|dslip|e|terns?|yard)\b/gm,
   /\bThe\sLau(?:nches|rels)\b/gm,
@@ -158,10 +157,9 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sLe(?:ap|ases|e|igh|ndings|ngth|ss|vels?)\b/gm,
   /\bThe\sLi(?:nks|on|p|st|zard)\b/gm,
   /\bThe\sLittle\s(?:Belt|Boltons|Brook|Gonerby|Gorge|Horse\sShoe|Minch|Rooks|Rough|Ship)\b/gm,
-  /\bThe\sLo(?:an|bby|ckers|ng\sS(?:hoot|traight)|rd['‘’`s]{1,2}\sHighway|ts|ttery|w)\b/gm,
+  /\bThe\sLo(?:bby|ckers|ng\sS(?:hoot|traight)|rd['‘’`s]{1,2}\sHighway|ts)\b/gm,
   /\bThe\sLod(?:ge|gings)\b/gm,
   /\bThe\sLoo(?:kout|ms|ps)\b/gm,
-  /\bThe\sLug\b/gm,
 
   // M
   /\bThe\sMag(?:ical\sWood|nolias|pies)\b/gm,

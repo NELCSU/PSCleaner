@@ -1481,6 +1481,11 @@ const a: RegExp[] = [
 /(?<=(?:KW17|hill).{2,25})\blittle\swart\b/gi,
 /\blittle\swart\b(?=.{2,20}(?:KW17|hill))/gi,
 
+// LOAN
+/[\d-]+\slittle\sotters\b/gi,
+/(?<=(?:AB45|EH2[01]|EH3[07]|EH4[68]|EH51|FK8|G62|KY10|TD[267]).{2,10})\bthe\sloan\b/gi,
+/\bthe\sloan\b(?=.{2,10}(?:AB45|EH2[01]|EH3[07]|EH4[68]|EH51|FK8|G62|KY10|TD[267]))/gi,
+
 // LOGGERHEADS
 /(?<=(?:TF9).{2,10})\bloggerheads\b/gi,
 /\bloggerheads\b(?=.{2,10}(?:TF9))/gi,
@@ -1497,7 +1502,7 @@ const a: RegExp[] = [
 /\blongships\b(?=.{2,10}(?:BN17|TR19))/gi,
 
 // LOOP
-/[\d-]+\sthe\sloop\b/gi,
+/[\d-]+\sthe\sloops?\b/gi,
 /(?<=(?:PO22|KW14).{2,10})\bthe\sloops?\b/gi,
 /\bthe\sloops?\b(?=.{2,10}(?:PO22|KW14))/gi,
 
@@ -1505,8 +1510,33 @@ const a: RegExp[] = [
 /(?<=(?:KW17).{2,10})\bloth\b/gi,
 /\bloth\b(?=.{2,10}(?:KW17))/gi,
 
+// LOTTERY
+/[\d-]+\sthe\slottery\b/gi,
+/(?<=(?:GL19).{2,10})\bthe\slottery\b/gi,
+/\bthe\slottery\b(?=.{2,10}(?:GL19))/gi,
+
+// LOVES
+/[\d-]+\sloves\s(?:hill|lane|walk|way|wood)\b/gi,
+/(?<=(?:CM1|village).{2,10})\bloves\sgreen\b/gi,
+/\bloves\sgreen\b(?=.{2,10}(?:CM1|village))/gi,
+/(?<=(?:BA2).{2,10})\bloves\shill\b/gi,
+/\bloves\shill\b(?=.{2,10}(?:BA2))/gi,
+/(?<=(?:SG7|LE1[57]|DT6|BA14).{2,10})\bloves\slane\b/gi,
+/\bloves\slane\b(?=.{2,10}(?:SG7|LE1[57]|DT6|BA14))/gi,
+/(?<=(?:BN44).{2,10})\bloves\srough\b/gi,
+/\bloves\srough\b(?=.{2,10}(?:BN44))/gi,
+/(?<=(?:CM1).{2,10})\bloves\swalk\b/gi,
+/\bloves\swalk\b(?=.{2,10}(?:CM1))/gi,
+/(?<=(?:PE19).{2,10})\bloves\sway\b/gi,
+/\bloves\sway\b(?=.{2,10}(?:PE19))/gi,
+/(?<=(?:RG7|SG2).{2,10})\bloves\swood\b/gi,
+/\bloves\swood\b(?=.{2,10}(?:RG7|SG2))/gi,
+
 // LOW
 /[\d-]+\slow\spavement\b/gi,
+/[\d-]+\sthe\slows?\b/gi,
+/(?<=(?:IP21|OL4).{2,10})\bthe\slows?\b/gi,
+/\bthe\slows?\b(?=.{2,10}(?:IP21|OL4))/gi,
 /(?<=(?:SA3).{2,10})\blow\sneck\b/gi,
 /\blow\sneck\b(?=.{2,10}(?:SA3))/gi,
 /\blow\spavement\b(?=.{2,20}(?:NG1|S40|chester|notting))/gi,
@@ -1515,9 +1545,21 @@ const a: RegExp[] = [
 /(?<=(?:BA22).{2,10})\blower\skey\b/gi,
 /\blower\skey\b(?=.{2,10}(?:BA22))/gi,
 
+// LOWLAND
+/[\d-]+\sthe\slowlands\b/gi,
+/[\d-]+\slowlands\b/gi,
+/(?<=(?:BN27).{2,10})\bthe\slowlands\b/gi,
+/\bthe\slowlands\b(?=.{2,10}(?:BN27))/gi,
+/(?<=(?:AL9|NP44).{2,10})\blowlands\b/gi,
+/\blowlands\b(?=.{2,10}(?:AL9|NP44))/gi,
+
 // LUCY
 /(?<=(?:CA1[01]).{2,25})\blucy['‘’`s]{1,2}\stongue\b/gi,
 /\blucy['‘’`s]{1,2}\stongue\b(?=.{2,20}(?:CA1[10]))/gi,
+
+// LUG
+/(?<=(?:ZE2).{2,10})\bthe\slug\b/gi,
+/\bthe\slug\b(?=.{2,10}(?:ZE2))/gi,
 
 // LUNCH
 /(?<=(?:CV35).{2,10})\bthe\slunch\b/gi,

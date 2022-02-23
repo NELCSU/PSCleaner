@@ -538,6 +538,10 @@ const a: RegExp[] = [
 /\bLNG\sterminal\b/gmi,
 
 // LO
+/\bloves\s(?:furze|hanger)\b/gmi,
+/\blovesome\shill\b/gmi,
+/\blowland\s(?:avenue|close|court|drive|gardens|grove|lane|point|road|way)\b/gmi,
+/\blowlands\s(?:avenue|beach|close|crescent|down|drive|lane|lea|road|view|wood)\b/gmi,
 /\bloosely\shill\b/gmi,
 /\bloyalty\s(?:belt|close|court|lane|road|street)\b/gmi,
 /\blocksmith\s(?:close|wood)\b/gmi,
@@ -547,6 +551,7 @@ const a: RegExp[] = [
 /\bLong\sLedge\b/gm,
 /\bLower\sLedge\b/gm,
 /\blow\shangers\b/gmi,
+/\blows\scourt\b/gmi,
 /\blower\sgibbet\slane\swood\b/gmi,
 /\blong\splantation\stop\b/gmi,
 /\blongshot\s(?:hill|lane|wood)\b/gmi,

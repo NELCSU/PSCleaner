@@ -3516,13 +3516,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "lovely",
 "lover",
 "lovers",
-"loves",
-"lovesome",
-"loving",
-"lowish",
-"lowland",
-"lowlands",
-"lows",
+"lowish",           // name
 "loyal",            // name
 "lynch",            // name & standalone & placenames (46)
 "labrador",         // name & placenames (5)

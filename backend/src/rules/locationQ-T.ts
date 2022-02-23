@@ -1430,6 +1430,7 @@ const a: RegExp[] = [
 /\btlg\snewcastle\b/gmi,
 
 // TH
+/\bthe\sl\sstrip\b/gmi,
 /\bthorpe\sfell\stop\b/gmi,
 /\bthrockley\sbank\stop\b/gmi,
 /\bthe\sfriendly\sline\b/gmi,

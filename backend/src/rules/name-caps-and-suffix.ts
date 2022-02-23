@@ -589,6 +589,9 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "looper",
 "lorry",
 "loosely",
+"loves",
+"loving",
+"lowlands",
 
 // LU
 "ludo",
