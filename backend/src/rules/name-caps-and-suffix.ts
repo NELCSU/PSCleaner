@@ -707,6 +707,7 @@ export const ProperNameSetJoinSuffixOnly: Set<string> = new Set([
 "rant",
 
 // RE
+"reading",
 "records",
 "renal",
 "repress",

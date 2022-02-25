@@ -509,6 +509,7 @@ const a: RegExp[] = [
 /\b(?:cnoc\san|loch)\soil\b/gmi,
 
 // OL
+/\bOld\sAuctioneer\b/gm,
 /\bold\sbank\stop\b/gmi,
 /\bold\sburnt\splantation\b/gmi,
 /\bold\sman['‘’`s]{1,2}\s(?:lane|stack)\b/gmi,
@@ -681,7 +682,7 @@ const a: RegExp[] = [
 /\b(?:carreg\soysters|oysters\sreach|(?:pottle\s)?oysters\scoppice)\b/gmi,
 
 // OZ
-/\bozone\s(?:park|terrace|way)\b/gmi,
+/\bozone\s(?:leisure|park|terrace|way)\b/gmi,
 
 // PA
 /\bpannel\s(?:close|court|lane|wood)\b/gmi,

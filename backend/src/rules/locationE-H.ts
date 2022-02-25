@@ -98,6 +98,7 @@ const a: RegExp[] = [
 /\bellon\s(?:and|\&)\sdistrict\b/gmi,
 
 // EM
+/\bemporium\snight\s?club\b/gmi,
 /\bembassy\s(?:close|court|drive|gardens|lane|road|theatre|walk|way)\b/gmi,
 /\bemperors\s(?:gate|way)\b/gmi,
 /\bempire\s(?:avenue|centre|close|court|crescent|drive|gate|grove|mews|parade|park|passage|road|street|terrace|villas|walk|way|wharf)\b/gmi,
@@ -208,6 +209,7 @@ const a: RegExp[] = [
 /\bfalmouth\s(?:and|\&)\sdistrict\b/gmi,
 
 // FE
+/\bferriby\ssluice\b/gmi,
 /\bfenman\s(?:close|court|gardens|mews|road)\b/gmi,
 /\bfenmen\splace\b/gmi,
 /\bfens\s(?:and\srossmere|crescent|plantation|pool(?:\savenue)?|primary\sschool|way)\b/gmi,
@@ -275,6 +277,7 @@ const a: RegExp[] = [
 /\bflue\s(?:geos|taing)\b/gmi,
 
 // FO
+/\bFour\sCandles\b/gm,
 /\bfoodie\shill\b/gmi,
 /\bfossil\s(?:bank|close|coppice|drive|forest|grove|lane|road|view)\b/gmi,
 /\bfosters\s(?:avenue|buildings|bushes|close|copse|foel|gardens|green(?:\sroad)?|grove|hill|lane|meadows?|mews|path|place|primary\sschool|road|spring|way)\b/gmi,

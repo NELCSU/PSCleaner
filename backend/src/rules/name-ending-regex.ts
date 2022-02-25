@@ -53,6 +53,7 @@ export const NamesEndingRegEx: RegExp[] = [
    /\b[a-z]+slade\b/gmi,
    /\b[a-z]+stein\b/gmi,
    /\b[a-z]+thorn\b/gmi,
+   /\b[a-z]+throp\b/gmi,
    /\b[a-z]+urthy\b/gmi,
    /\b[a-z]+uston\b/gmi,
    /\b[a-z]+villa\b/gmi,

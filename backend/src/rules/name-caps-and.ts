@@ -5164,7 +5164,6 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "razed",
 "razzmatazz",
 "reign",            // name
-"reading",
 "realpolitik",
 "reals",
 "ream",
@@ -5974,7 +5973,7 @@ export const ProperNameSetJoinOnly: Set<string> = new Set([
 "slits",            // standalone
 "sloop",            // name & placenames (2)
 "sloppy",           // name & placenames (2)
-"slough",           // name & standalone & placenames (33)
+"slough",           // name & placenames (33)
 "sly",              // name & placenames (8)
 
 // SM

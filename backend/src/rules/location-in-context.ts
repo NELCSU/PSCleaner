@@ -2086,6 +2086,10 @@ const a: RegExp[] = [
 /(?<=(?:CM1).{2,25})\bthe\sray\b/gi,
 /\bray\sfell\b(?=.{2,10}(?:NE19|NE48))/gi,
 
+// READING
+/\breading\b(?=.{2,20}(?:RG1|town|rail))/gi,
+/(?<=(?:RG1|town|rail).{2,25})\breading\b/gi,
+
 // RED
 /[\d-]+\sred\b/gi,
 /\bred\b(?=.{2,20}(?:M50))/gi,
@@ -2343,6 +2347,10 @@ const a: RegExp[] = [
 // SLOG
 /\bslog\b(?=.{2,20}(?:ZE2))/gi,
 /(?<=(?:ZE2).{2,25})\bslog\b/gi,
+
+// SLOUGH
+/\bslough\b(?=.{2,20}(?:LD8|NP15|SL[12]|hamlet|station|town|rail))/gi,
+/(?<=(?:LD8|NP15|SL[12]|hamlet|station|town|rail).{2,25})\bslough\b/gi,
 
 // SMALL
 /(?<=(?:SY5).{2,25})\bsmall\stongue\b/gi,

@@ -40,7 +40,7 @@ const a: RegExp[] = [
 /\brandygill\stop\b/gmi,
 /\brange\s(?:bank|cleuch|drive|gardens|gate|green|high\sschool|lane|meadow\sclose|moor)\b/gmi,
 /\brange\s(?:of\sthe\sawful\shand|park|place|plantation|ride|road|street|view|way)\b/gmi,
-/\bthe\srack\sisle\b/gmi,
+/\bthe\s(?:rack\sisle|spiceball)\b/gmi,
 /\bradley\slarge\swood\b/gmi,
 /\brant\s(?:meadow|score)\b/gmi,
 /\bray\stongue\b/gmi,
@@ -247,6 +247,7 @@ const a: RegExp[] = [
 /\b(?:the\s)?(?:old\s)?rope\swalks?\b/gmi,
 /\b(?:rope\s(?:bank\savenue|hill|lake\shead|lane|leys|moor|quays|street|terrace|way|yard|yarn\slane))\b/gmi,
 /\bropemaker['‘’`s]{1,2}\s(?:fields|park|road|street)\b/gmi,
+/\brose\shill\b/gmi,
 /\brosehip\s(?:avenue|chase|close|court|drive|rise|road|walk|way)\b/gmi,
 /\brosary\s(?:avenue|close|court|drive|gardens|lane|primary|road)\b/gmi,
 /\brosery\s(?:close|lane|mews|road)\b/gmi,
@@ -330,6 +331,7 @@ const a: RegExp[] = [
 /\bryegrass\s(?:close|covert|field|gardens|lane|road)\b/gmi,
 
 // SA
+/\bsaxon\snight\s?club\b/gmi,
 /\bsalamander\s(?:close|court|place|street|yards)\b/gmi,
 /\bsand\s(?:acre\s(?:bay|close)|ayre|bank\sroad|barn\slane|bay|bed\spool|beds\shead\spike)\b/gmi,
 /\bsand\s(?:beds\slane|bink|brae|brig|clett|cleuchs|cliffs|closes|copse|craig|croft)\b/gmi,
@@ -487,6 +489,7 @@ const a: RegExp[] = [
 /\bScratchy\sBottom\b/gm,
 
 // SE
+/\bseaton\ssluice\b/gmi,
 /\bsea\sview\spullover\b/gmi,
 /\bseld\sstreet\b/gmi,
 /\bseven\sfoot\slane\b/gmi,
@@ -827,10 +830,9 @@ const a: RegExp[] = [
 /\b(?:barrack|bloody)\sslouch\b/gmi,
 /\bslouch\s(?:hill|moos|spirn\shill)\b/gmi,
 /\bsludge\s(?:hall\shill|pit\splantation|pond)\b/gmi,
-/\b(?:creag\sslug|slug\s(?:geo|head|of\sauchrannie|road|wood))\b/gmi,
-/\bslugs\s(?:geo|lane)\b/gmi,
+/\bslug\s(?:geo|head|of\sauchrannie|road|wood)\b/gmi,
+/\bslugs\s(?:&\slettuce|geo|lane)\b/gmi,
 /\bgrand\ssluice\slane\b/gmi,
-/\b(?:denver|ferriby|seaton)\ssluice\b/gmi,
 /\bsluice\s(?:copse|covert|creek|drove|gutter|hole|house\sgutter|lane|rill|road|spinney|wood)\b/gmi,
 /\b(?:arthur['‘’`s]{1,2}|back|bandoleer|grave|iron|long|sloucheen|wilson['‘’`s]{1,2})\sslunk\b/gmi,
 /\bslunk\sof\sdoon\b/gmi,
@@ -1709,6 +1711,7 @@ const a: RegExp[] = [
 /\btown\sand\sdowns\b/gmi,
 
 // TR
+/\btrinity\scollege\b/gmi,
 /\btrood\slane\b/gmi,
 /\btri\spen\shad\sroad\b/gmi,
 /\btremuda\stongue\b/gmi,
