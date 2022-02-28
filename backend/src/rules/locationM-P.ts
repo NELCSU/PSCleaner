@@ -114,6 +114,7 @@ const a: RegExp[] = [
 /\bmc\s*lean\splace\b/gmi,
 
 // ME
+/\bmead\sschool\b/gmi,
 /\bmelons\s(?:avenue|wood)\b/gmi,
 /\bmellitus\sstreet\b/gmi,
 /\bmelancholy\s(?:lane|walk)\b/gmi,

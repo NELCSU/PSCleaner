@@ -25965,6 +25965,7 @@ const a: string[] = [
 "sheldock",
 "sheldon",
 "sheldonfield",
+"sheldonian",
 "sheldons",
 "sheldonwilliams",
 "sheldrake",

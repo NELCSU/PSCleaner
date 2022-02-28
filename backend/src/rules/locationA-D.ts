@@ -1814,6 +1814,7 @@ const a: RegExp[] = [
 /\bdowlands\scliffs\sand\slandslips\b/gmi,
 
 // DR
+/\bthe\sdragon\sschool\b/gmi,
 /\bdriby\stop\b/gmi,
 /\bdraws\sdrum\b/gmi,
 /\bdrayton\slagoon\b/gmi,

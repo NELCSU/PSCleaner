@@ -243,6 +243,7 @@ const a: RegExp[] = [
 /\bkingsmark\sfreeway\b/gmi,
 /\bkidney\s(?:clump|covert|hill|plantation|pond|sands|wood)\b/gmi,
 /\bkipling\stors\b/gmi,
+/\bkingfisher\sschool\b/gmi,
 /\bkingfishers\s(?:court|reach)\b/gmi,
 /\bkid\s(?:cleughs|gate\sdrove|geo|glove\sroad|hill|islands|lane|moor|stone\shill|stones\shollow)\b/gmi,
 /\bkissing\s(?:batch|copse|gate|tree\s(?:lane|way))\b/gmi,

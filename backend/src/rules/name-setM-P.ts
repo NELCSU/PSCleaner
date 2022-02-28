@@ -49879,6 +49879,7 @@ const a: string[] = [
 "pomares",
 "pomarine",
 "pomarium",
+"pomaroy",
 "pomary",
 "pomas",
 "pomathy",

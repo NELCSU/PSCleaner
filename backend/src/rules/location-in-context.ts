@@ -1577,6 +1577,9 @@ const a: RegExp[] = [
 /(?<=(?:WS9|SY1|CV3).{2,10})\bmarch\sway\b/gi,
 /\bmarch\sway\b(?=.{2,10}(?:WS9|SY1|CV3))/gi,
 
+// MARKET
+/[\d-]+\smarket\ssquare\b/gi,
+
 // MEAR
 /[\d-]+\smear\stop\b/gi,
 /(?<=(?:EX31).{2,10})\bmear\stop\b/gi,
