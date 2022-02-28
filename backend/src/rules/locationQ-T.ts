@@ -109,6 +109,7 @@ const a: RegExp[] = [
 /\brapes\s(?:clough|highway|wood)\b/gmi,
 
 // RE
+/\breactor\stwo\sroad\b/gmi,
 /\bred\sbrick\s(?:close|court|house\snursing\shome)\b/gmi,
 /\bregent\sstreet\spavement\b/gmi,
 /\bRed\sLedge\b/gm,
@@ -331,6 +332,7 @@ const a: RegExp[] = [
 /\bryegrass\s(?:close|covert|field|gardens|lane|road)\b/gmi,
 
 // SA
+/\bsandy\slane\b/gmi,
 /\bsaxon\snight\s?club\b/gmi,
 /\bsalamander\s(?:close|court|place|street|yards)\b/gmi,
 /\bsand\s(?:acre\s(?:bay|close)|ayre|bank\sroad|barn\slane|bay|bed\spool|beds\shead\spike)\b/gmi,
@@ -1257,6 +1259,9 @@ const a: RegExp[] = [
 /\bsu(?:ffrage|preme)\sstreet\b/gmi,
 
 // SW
+/\bswan\s(?:and\scastle|pub)\b/gmi,
+/\bswans\s(?:bottom\sslip|bottom|close|croft\slane|ghyll|green\sclose|length|pasture)\b/gmi,
+/\bswans\s(?:quay|reach|rest|road|walk|way|wood(?:\sgrove)?)\b/gmi,
 /\bswallows['‘’`]?\s(?:acre|court|croft|dene|drive|gate|green\sdrive|hole|lane|low\swood|mead|meadow|nest\sclose|rise|way)\b/gmi,
 /\bswallow\s(?:avenue|bank(?:\sdrive)?|banks|beck|cleugh|cliffe?|copse|court)\b/gmi,
 /\bswallow\s(?:cove|craig(?:\sden|s)?|crescent|crest|croft|dale|dell\sprimary|drive)\b/gmi,
@@ -1285,8 +1290,6 @@ const a: RegExp[] = [
 /\bSword\sPoint\b/gm,
 /\bswordfish\s(?:avenue|close|drive|road|way)\b/gmi,
 /\bswallowtail\s(?:close|glade|grove|hill|meadows|road|walk|way|wood)\b/gmi,
-/\bswans\s(?:bottom\sslip|bottom|close|croft\slane|ghyll|green\sclose|length|pasture)\b/gmi,
-/\bswans\s(?:quay|reach|rest|road|walk|way|wood(?:\sgrove)?)\b/gmi,
 /\bswards\s(?:place|road)\b/gmi,
 /\bswarthy\shill\b/gmi,
 /\bparc\ssweetwater\b/gmi,
@@ -1432,6 +1435,7 @@ const a: RegExp[] = [
 /\btlg\snewcastle\b/gmi,
 
 // TH
+/\bthirst\snight\s?club\b/gmi,
 /\bthe\sl\sstrip\b/gmi,
 /\bthorpe\sfell\stop\b/gmi,
 /\bthrockley\sbank\stop\b/gmi,
@@ -1862,7 +1866,7 @@ const a: RegExp[] = [
 /\b(?:Avenue|Campus)\sTwo\b/gm,
 /\bTwo\s(?:Acres|Bars|Beeches|Bridges|Burrows|Castles|Gates|Locks|Mills|Moors|Rivers|Sisters\sClose|Stones|Trees|Waters|Ways)\b/gm,
 /\bcoatings\stwo\b/gmi,
-/\b(?:lady\swantage['‘’`s]{1,2}\stwo\sacres|marsh\stwo\sacres|reactor\stwo\sroad|shafton\stwo\sgates)\b/gmi,
+/\b(?:lady\swantage['‘’`s]{1,2}\stwo\sacres|marsh\stwo\sacres|shafton\stwo\sgates)\b/gmi,
 /\btwo\sacre\s(?:belt|close|coppice|copse|covert|drive|grove|lane|plantation|shaw|spinney|wood)\b/gmi,
 /\btwo\s(?:acres\sroad|ash\s(?:hill|lane)|ashes|ball\slonnen|barns\slane|beech\sbottom)\b/gmi,
 /\btwo\s(?:beeches\sbottom|bridges\s(?:bottom|island|road|school)|brooks\slane)\b/gmi,

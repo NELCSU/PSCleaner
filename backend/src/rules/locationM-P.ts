@@ -773,6 +773,7 @@ const a: RegExp[] = [
 /\bparting\sof\sthe\sheaths\b/gmi,
 
 // PE
+/\bpeoples\spark\b/gmi,
 /\bpetersfield\shangers\b/gmi,
 /\bpen\sbwlch\sllandrillo\stop\b/gmi,
 /\bpen\sy\smaen\snorth\stop\b/gmi,
@@ -827,7 +828,7 @@ const a: RegExp[] = [
 /\bpile\s(?:lane(?:\scoppice)?|lane|marsh|oak\scopse|paddock|place)\b/gmi,
 
 // PL
-/\bplush\shill\b/gmi,
+/\bplush\s(?:hill|night\s?club)\b/gmi,
 /\bplank\s(?:drove|gate|houses|lane|quarry\splantation)\b/gmi,
 /\bplant\s(?:crescent|farm\s(?:avenue|crescent)|hill\sroad|lane|park\sroad|street|way)\b/gmi,
 /\bplace\s(?:barton|crescent|dane\sshaw|drove|farm(?:\s(?:avenue|lane|primary\sacademy|road|way))?)\b/gmi,
@@ -888,6 +889,7 @@ const a: RegExp[] = [
 /\bprovince\sdrive\b/gmi,
 
 // PU
+/\bpure\sgym\b/gmi,
 /\bpuddle\s(?:bank(?:\slane)?|dock|end|hill|hole\swood|house\s(?:lane|wood)|lane|strip|town|wood)\b/gmi,
 /\bpullover\s(?:lane|road)\b/gmi,
 /\bpulinkum\sburn\sfoot\b/gmi,

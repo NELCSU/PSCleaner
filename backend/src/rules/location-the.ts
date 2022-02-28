@@ -178,7 +178,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sNu(?:rseries|rsery)\b/gm,
 
   // O
-  /\bThe\sOlde?\sArmoury\b/gm,
+  /\bThe\sOlde?\sA(?:uctoneer|rmoury)\b/gm,
   /\bThe\sOlde?\sB(?:arnyard|rickyard)\b/gm,
   /\bThe\sOlde?\sC(?:oach\s(?:House|Road|Yard)|ourtyard|reamery)\b/gm,
   /\bThe\sOlde?\sDairy\sFarm\b/gm,
@@ -271,7 +271,7 @@ export const LocationTheRegEx: RegExp[] = [
   /\bThe\sSpe(?:ars|ctacles)\b/gm,
   /\bThe\sSpi(?:got|ke|llway|ndles?|nnakers?|nne[ry]s?|res|t|tal)\b/gm,
   /\bThe\sSpo(?:rtsman|t|ut)\b/gm,
-  /\bThe\sSqu(?:are|ires|irrels)\b/gm,
+  /\bThe\sSqu(?:ires|irrels)\b/gm,
   /\bThe\sStat(?:e\sHospital|utes)\b/gm,
   /\bThe\sSta(?:cks?|ff|gs|kes|lls|mpers|nces|ples|rs|rlings)\b/gm,
   /\bThe\sStab(?:les?(?:\s(?:[Pp]ool|[Yy]ard))?)?\b/gm,

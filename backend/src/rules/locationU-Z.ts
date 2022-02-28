@@ -298,7 +298,8 @@ const a: RegExp[] = [
 /\bwalsham\s(?:and|\&)\sdistrict\b/gmi,
 
 // WE
-/\bwestern\sharbour\sbreakwater\b/gmi,
+/\bwest\sway\b/gmi,
+/\bwestern\s(?:harbour\sbreakwater|park)\b/gmi,
 /\bwenchly\stop\b/gmi,
 /\bwester\stop\b/gmi,
 /\bwem\surban\b/gmi,

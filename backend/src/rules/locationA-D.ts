@@ -265,6 +265,7 @@ const a: RegExp[] = [
 /\baztec\swest\b/gmi,
 
 // BA
+/\bbarley\sround\s?about\b/gmi,
 /\bbank\stop\s&\slascelles\b/gmi,
 /\bbank\stop\b/gmi,
 /\bbarum\stop\b/gmi,
@@ -1441,6 +1442,7 @@ const a: RegExp[] = [
 /\b(?:gorse\scover\sroad|low\scover\swood|new\scover\scopse)\b/gmi,
 
 // CR
+/\bcrown\sstreet\b/gmi,
 /\bcreag\sslug\b/gmi,
 /\bcrutched\sfriars\b/gmi,
 /\bcross[\s-]at[\s-]hand\b/gmi,
