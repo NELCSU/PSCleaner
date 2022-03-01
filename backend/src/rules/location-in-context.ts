@@ -2092,6 +2092,7 @@ const a: RegExp[] = [
 // READING
 /\breading\b(?=.{2,20}(?:RG1|town|rail))/gi,
 /(?<=(?:RG1|town|rail).{2,25})\breading\b/gi,
+/\b(?:at|in)\sReading\b/g,
 
 // RED
 /[\d-]+\sred\b/gi,
@@ -2353,7 +2354,7 @@ const a: RegExp[] = [
 
 // SLOUGH
 /\bslough\b(?=.{2,20}(?:LD8|NP15|SL[12]|hamlet|station|town|rail))/gi,
-/(?<=(?:LD8|NP15|SL[12]|hamlet|station|town|rail).{2,25})\bslough\b/gi,
+/(?<=(?:LD8|NP15|SL[12]|hamlet|station|town|rail|in).{2,25})\bslough\b/gi,
 
 // SMALL
 /(?<=(?:SY5).{2,25})\bsmall\stongue\b/gi,

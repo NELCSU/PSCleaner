@@ -662,6 +662,7 @@ const a: RegExp[] = [
 /\bbold\sventure\sway\b/gmi,
 
 // BR
+/\bbrooks\suni(?:versity)?\b/gmi,
 /\bbrew\s?ball\spub\b/gmi,
 /\bbroadway\spub\b/gmi,
 /\bbridge\s(?:foot(?:\scorner)?|night\s?club|of\slead\spot)\b/gmi,
@@ -789,6 +790,7 @@ const a: RegExp[] = [
 /\bbryn[\s-]y[\s-]+grog(?:\shill)?\b/gmi,
 
 // BU
+/\bbunkers\shill\b/gmi,
 /\bbunny\shill\stop\b/gmi,
 /\bburnt\s(?:acres\s(?:lane|wood(?:\sbottom)?)|alders|allotment)\b/gmi,
 /\bburnt\sash\s(?:close|hill|lane|primary\sschool|road)\b/gmi,

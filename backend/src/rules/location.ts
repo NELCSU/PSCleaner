@@ -12,7 +12,7 @@ export const LocationMidfixRegEx: RegExp[] = [
 ];
 const a: RegExp[] = [
   /\bP\.?O\.?\sBox\s\d+\b/gmi,
-  /\b(?:Apartment|Block|Suite|Unit)\s(?:\d[A-Z]?|\d\d?|[A-Z]\d?)\b/gm,
+  /\b(?:Apartment|Block|Flat|Suite|Unit)\s(?:\d[A-Z]?|\d\d?|[A-Z]\d?)\b/gm,
   /\d+(?:st|nd|rd|th)\sFloor\b/gm,
   /\b(?:Road|Street)\s(?:No\s)?(?:\d+[abc]?|To\sThe)\b/gm,
 ];
