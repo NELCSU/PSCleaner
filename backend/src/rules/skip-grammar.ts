@@ -216,6 +216,7 @@ const a: RegExp[] = [
   /\broyal\s(?:family|guard|mail|navy)\b/gmi,
 
   // S
+  /\bspeaks\s(?:polish)\b/gmi,
   /\b(?:small|medium|large)[\s-]scale\b/gmi,
   /\bsub-station\b/gmi,
   /\b(?:It|He|She|They)\ssaid\b/gm,
