@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig-base",
+  "compilerOptions": {
+    "declarationDir": "build",
+    "outDir": "build",
+    "rootDir": "src",
+    "types": [
+      "../backend/types/PSCleaner"
+    ]
+  },
+  "include": [ "src" ]
+}

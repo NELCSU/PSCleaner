@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'unsafe-eval'; script-src-elem 'self' 'unsafe-inline' es6: blob:;">
+  <title>PSCleaner</title>
+  <link rel="stylesheet" href="./css/shared.css">
+  <link rel="stylesheet" href="./css/viewer.css">
+  <script type="module" src="es6://lib/web-components/dist/web-components/web-components.esm.js"></script>
+</head>
+
+<body>
+  <nel-network-connection>
+    <div class="network flex-r vcenter hleft"><span class="message">Application is offline</span></div>
+  </nel-network-connection>
+  <h2><a href="./index.html">Home</a> &gt; Tag viewer</h2>
+
+  <nel-modal-view id="mvEntityTagger">
+    <div class="modal-message">
+      <h3>Select an entity</h3>
+      <div class="modal-list">
+        <item-collection id="lstEntityTagger"></item-collection>
+      </div>
+      <div class="panel">
+        <a href="#" id="btnEntityTagger" class="btn-link action">Cancel</a>
+      </div>
+    </div>
+  </nel-modal-view>
+
+  <div class="panel border pad">
+    <div id="txtAddText" contentEditable aria-describedby="hintAddText"></div>
+
+    <div class="flex-r vcenter pad">
+      <a href="#" id="btnAutodiscover" class="btn-link action disabled" title="Runs entity recognition process">Autodiscover</a>
+      <div class="flex-r vcenter hright" id="pnlDelete">
+        <a href="#" id="btnClearTags" class="btn-link action disabled" title="Remove any existing entity tags">Clear</a>
+        <a href="#" id="btnClearAll" class="btn-link warn action disabled" title="Close file">Erase</a>
+      </div>
+    </div>
+
+    <div id="txtDebug">debug<br>-----<br></div>
+  </div>
+  <script src="./esm-loaders/viewer.js"></script>
+</body>
+
+</html>

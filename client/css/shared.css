@@ -1,0 +1,157 @@
+* { box-sizing: border-box }
+
+a, a:active, a:hover {
+  color: #005eb8;
+  text-decoration: none
+}
+
+body, input, select {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif
+}
+
+body {
+  background-color: #f0f4f5;
+  margin: 0.75rem;
+  overflow-x: hidden
+}
+
+dd { margin: 0.5rem 0.25rem;}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0
+}
+
+hr { color: #aaa }
+
+nel-on-off {
+  --color: #666;
+  --color-on: #009; 
+  --bg-color: #ccc;
+  --bg-color-on: #ccf;
+}
+
+nel-text-input, select {
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.action {
+  cursor: pointer; 
+  user-select: none;
+}
+
+.border { border: 1px solid #aaa }
+.border-top { border-top: 1px solid #aaa }
+
+.btn-link {
+  border: 1px solid #f0f4f5;
+  border-radius: 5px;
+  color: #005eb8;
+  font-weight: 500;
+  padding: 0.25rem
+}
+
+.btn-link:hover { border: 1px solid #005eb8 }
+
+.btn-link.warn:hover {
+  border-color: #990000;
+  color: #990000
+}
+
+.disabled {
+  cursor: auto !important;
+  opacity: 0.5;
+  pointer-events: none;
+  user-select: none
+}
+
+.file-path {
+  font-size: 0.9em;
+  font-weight: 600;
+  margin-left: 0.5rem
+}
+
+.flex-c {
+  display: flex;
+  flex-direction: column
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: row
+}
+
+.grow {
+  flex-grow: 1;
+  justify-content: flex-end
+}
+
+.link {
+  color: #005eb8;
+  font-weight: 500;
+  margin-top: 0.25rem;
+  padding: 0.25rem;
+  user-select: none
+}
+
+.vcenter { align-items: center }
+
+.push-apart { justify-content: space-between}
+
+.hleft { justify-content: flex-start }
+
+.hright { justify-content: flex-end }
+
+.hidden { display: none }
+
+.inline-panel {
+  display: inline-block;
+  width: 100%
+}
+
+.message::before {
+  background-color: darkred;
+  border-radius: 50%;
+  content: '';
+  display: inline-block; 
+  height: 1rem;
+  margin-right: 0.5rem;
+  width: 1rem
+}
+
+.modal-message { 
+  background-color: white;
+  color: #800;
+  padding: 25px 10px 25px 10px;
+  text-align: center;
+  width: 100vw
+}
+
+.network {
+  background-color: rgba(255, 0, 0, 0.1);
+  bottom: 0;
+  color: darkred;
+  height: 5vh;
+  left: 0;
+  padding: 0.5rem;
+  position: absolute;
+  width: 100%
+}
+
+.pad { padding: 1rem }
+.pad2 { padding: 0.5rem }
+.pad3 { padding: 0.25rem }
+
+.panel { margin-bottom: 1rem }
+
+.wait {
+  background-image: url("../images/spin.svg");
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.warn { color: #990000 }
+
+.wide { width: 100% }

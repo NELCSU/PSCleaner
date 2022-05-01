@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'unsafe-eval'; script-src-elem 'self' 'unsafe-inline' es6: blob:;">
+  <title>PSCleaner</title>
+  <link rel="stylesheet" href="./css/shared.css">
+  <link rel="stylesheet" href="./css/settings.css">
+  <script type="module" src="es6://lib/web-components/dist/web-components/web-components.esm.js"></script>
+</head>
+
+<body>
+  <nel-network-connection>
+    <div class="network flex-r vcenter hleft"><span class="message">Application is offline</span></div>
+  </nel-network-connection>
+  
+  <nel-modal-view id="modalView" align="bottom">
+    <div class="modal-message"></div>
+  </nel-modal-view>
+
+  <h2><a href="./index.html">Home</a> &gt; Settings</h2>
+
+  <h3>Folder locations</h3>
+  <div class="panel border pad">
+    <p>Import files: <span class="file-path" id="lblImportFilePath"></span></p>
+    <div class="inline-panel flex-r vcenter">
+      <a href="#" id="btnImportSelection" class="btn-link action">Change</a>
+    </div>
+  </div>
+  <div class="panel border pad">
+    <p>Processing files: <span class="file-path" id="lblProcessingFilePath"></span></p>
+    <div class="inline-panel flex-r vcenter">
+      <a href="#" id="btnProcessingSelection" class="btn-link action">Change</a>
+    </div>
+  </div>
+  <div class="panel border pad">
+    <p>Export files: <span class="file-path" id="lblExportFilePath"></span></p>
+    <div class="inline-panel flex-r vcenter">
+      <a href="#" id="btnExportSelection" class="btn-link action">Change</a>
+    </div>
+  </div>
+  <div class="panel border pad">
+    <p>Template files: <span class="file-path" id="lblTemplateFilePath"></span></p>
+    <div class="inline-panel flex-r vcenter">
+      <a href="#" id="btnTemplateSelection" class="btn-link action">Change</a>
+    </div>
+  </div>
+  <script src="./esm-loaders/settings.js"></script>
+</body>
+
+</html>

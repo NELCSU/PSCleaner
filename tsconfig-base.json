@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": false,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "lib": [ 
+      "ES2015",
+			"ES2016.Array.Include",
+			"ES2017.String",
+			"ES2018.Promise",
+			"DOM",
+			"DOM.Iterable",
+			"WebWorker.ImportScripts" 
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "newLine": "lf",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": false,
+    "target": "es2020",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "watch": true
+  }
+}

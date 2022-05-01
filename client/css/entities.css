@@ -1,0 +1,15 @@
+#pnlAddEntity {
+  max-width: 500px;
+  min-width: 420px;
+  width: 100%
+}
+
+h2 { margin-bottom: 30px }
+
+input[type="color"] {
+  height: 1rem;
+  margin-left: 10px;
+  min-height: 30px;
+}
+
+label { width: 100% }

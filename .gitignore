@@ -1,0 +1,16 @@
+.buildcache
+tsconfig.tsbuildinfo
+
+npm-debug.log
+debug.log
+
+electron-builder.yml
+backend/build
+client/build
+!client/lib/
+client/lib/web-components
+dist
+node_modules
+out
+package-lock.json
+private

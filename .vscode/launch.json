@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch PSCleaner",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+      "envFile": "${workspaceFolder}/.env",
+      "windows": {
+        "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
+      },
+      "runtimeArgs": [
+        "${workspaceFolder}"
+      ],
+      "cwd": "${workspaceFolder}",
+      "outFiles": [
+        "${workspaceFolder}/backend/build/**/*.js",
+        "${workspaceFolder}/client/build/**/*.js"
+      ]
+    }
+  ]
+}

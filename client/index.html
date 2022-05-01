@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" 
+    content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'unsafe-eval'; script-src-elem 'self' 'unsafe-inline' es6: blob:;">
+  <title>PSCleaner</title>
+  <link rel="stylesheet" href="./css/shared.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <script type="module" src="es6://lib/web-components/dist/web-components/web-components.esm.js"></script>
+</head>
+<body>
+  <nel-network-connection>
+    <div class="network flex-r vcenter hleft"><span class="message">Application is offline</span></div>
+  </nel-network-connection>
+
+  <nel-modal-view id="modalView" align="bottom">
+    <div class="modal-message"></div>
+  </nel-modal-view>
+
+  <nel-item-collection align="horizontal">
+    <nel-status-badge class="action" id="statPending" data-count="0" label="queued" title="View import folder">0</nel-status-badge>
+    <nel-status-badge class="action" id="statProcessing" data-count="0" label="processing" title="View processing folder">0</nel-status-badge>
+    <nel-status-badge class="action" id="statComplete" data-count="0" label="completed" title="View export folder">0</nel-status-badge>
+  </nel-item-collection>
+
+  <div class="flex-r vcenter">
+    <a href="#" id="btnProcessFiles" data-status="inactive" class="btn-link action disabled">Start</a>
+    <div class="flex-c vcenter">
+      <progress id="stProcessFiles" max="1" value="0" hidden></progress>
+      <progress id="stProcessFileRows" max="1" value="0" hidden></progress>
+    </div>
+    <div class="flex-c vcenter">
+      <div id="lblTime"></div>
+      <div id="lblRows"></div>
+    </div>
+  </div>
+
+  <div class="flex-c border panel pad" style="width: 50%">
+    <select id="listTemplate">
+      <option value="Select a template" selected>Select a template</option>
+    </select>
+
+    <a href="templates.html" id="btnManageTemplate" data-status="active" class="link action">Manage templates</a>
+  </div>
+
+  <div id="notification" class="hidden">
+    <p id="message"></p>
+    <button id="close-button">Close</button>
+    <button id="restart-button" class="hidden">Restart</button>
+  </div>
+  
+  <script src="./esm-loaders/index.js"></script>
+</body>
+</html>

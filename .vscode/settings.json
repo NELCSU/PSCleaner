@@ -1,0 +1,13 @@
+{
+  "debug.internalConsoleOptions": "neverOpen",
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": false,
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/build": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+}

@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig-base",
+  "compilerOptions": {
+    "declarationDir": "build",
+    "esModuleInterop": true,
+    "outDir": "build",
+    "rootDir": "src",
+    "types": [
+      "../node_modules/electron",
+      "../node_modules/electron-store",
+      "./types/PSCleaner",
+    ]
+  },
+  "include": [ "src" ]
+}
