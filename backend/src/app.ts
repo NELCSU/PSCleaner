@@ -50,6 +50,15 @@ class Main {
         this.app.quit();
       }
     });
+    
+    this.app.on('web-contents-created', (event, webContents) => {
+      webContents.on('select-bluetooth-device', (event, devices, callback) => {
+        // Prevent default behavior
+        event.preventDefault();
+        // Cancel the request
+        callback('');
+      });
+    });
 
     if (!lock) {
       this.app.quit();
