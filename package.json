@@ -37,7 +37,7 @@
     "@typescript-eslint/parser": "^5.21.0",
     "bl": "^5.0.0",
     "electron": "^22.3.25",
-    "electron-builder": "^23.0.3",
+    "electron-builder": "^24.13.3",
     "electron-wix-msi": "^4.0.0",
     "eslint": "^8.14.0",
     "ncp": "^2.0.0",
